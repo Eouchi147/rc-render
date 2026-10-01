@@ -8,13 +8,14 @@ code=$(python3 -c "import json;print([e['code'] for e in json.load(open('$R/epis
 mod=${MOD:-f${code%%.*}}
 echo "== $id ($mod) $(date +%T)"
 (cd $R/films && python3 films.py $mod | grep " $id:" || true)
+[ -s $R/films/out/$id.html ] || { echo "COMPILE FAILED: no films/out/$id.html"; (cd $R/films && python3 films.py $mod 2>&1 | tail -20); exit 1; }
 cd $R/free
 python3 reel.py $id --audio-only --out $R/out 2>&1 | grep -v -i warn | tail -14
 n=$(python3 -c "import json;print(int(json.load(open('$W/timeline.json'))['total']*60))")
 echo "== frames $n $(date +%T)"
 per=$(( (n + J - 1) / J ))
 for ((a=0; a<n; a+=per)); do b=$((a+per)); [ $b -gt $n ] && b=$n; python3 reel.py $id --chunk $a:$b --out $R/out > $TOP/build/c_$a.log 2>&1 & done; wait || true
-for try in 1 2 3 4; do have=$(ls $W/frames | wc -l); [ "$have" -ge "$n" ] && break; echo "  refill ($have/$n)"; python3 reel.py $id --chunk 0:$n --out $R/out > $TOP/build/fill_$try.log 2>&1 || true; done
+for try in 1 2 3 4; do have=$(ls $W/frames 2>/dev/null | wc -l); [ "$have" -ge "$n" ] && break; echo "  refill ($have/$n)"; [ "$have" = 0 ] && tail -8 $TOP/build/c_0.log; python3 reel.py $id --chunk 0:$n --out $R/out > $TOP/build/fill_$try.log 2>&1 || true; done
 have=$(ls $W/frames | wc -l); [ "$have" -ge "$n" ] || { echo "INCOMPLETE $have/$n"; exit 1; }
 echo "== encode $(date +%T)"
 P=400; k=0
