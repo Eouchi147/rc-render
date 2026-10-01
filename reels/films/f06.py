@@ -1387,6 +1387,86 @@ def cart_ruts():
               ["#Malta", "#CartRuts", "#Archaeology", "#Mystery", "#History"])
 
 
+def cart_ruts_m():
+    """The cart ruts as one continuous take: thirty-five kilometres in pieces against a marathon, a gauge a little less than a
+    person is tall, the million-year claim on a deep-time line, the drowned-road idea, carts cutting deeper in wet limestone,
+    the timeline that boxes the ruts in, and the shallow drowned ruts against the deep Ice Age shore."""
+    import copy
+    from illus import person, arrow, line, glow, label, dot, box as bx, ring, question, strike, oval, AMBER as AMB, BLUE, LILAC, BONE as BN, INK, RED as RD, GREEN as GR
+    ep = copy.deepcopy(cart_ruts())
+    S = ep["shots"]
+    ROCK, SOIL, RUT = "#d9c8a0", "#6d5a3e", "#6d5a3e"
+    s0 = _spin(_bare(S[0], keep=("some run into the sea",)), .25)
+    hook = question(470, 560, .3, 90)
+    # 1 · the map: the pieces, joined: about 35 km, almost a marathon (42 km), at the same scale
+    pieces = [bx(70, 1270, 860, 150, "rgba(18,13,10,.88)", "#8c7152", 2, 14, 5.8)] + \
+             [line([[110 + 60 * k, 1310 + 14 * (k % 3)], [150 + 60 * k, 1310 + 14 * (k % 3)]], round(6.2 + .1 * k, 2), "#c9ad85", 5, dur=.2) for k in range(10)] + \
+             [line([[110, 1310], [110 + 580, 1310]], 9.8, GOLD, 6, dur=.8), label(700, 1320, "35 km", 10.4, GOLD, 30, "start"),
+              line([[110, 1380], [110 + 700, 1380]], 11.6, BN, 4, "inferred", .8), label(820, 1390, "marathon", 12.2, BN, 28, "start")]
+    # 3 · the gauge: two grooves about 1.40 m apart; stood on end, a little less than a person is tall (250 px per metre)
+    gauge = {"base": "dark", "cam": [1, 500, 900], "els": [
+        {"k": "poly", "p": [[60, 640], [295, 640], [305, 700], [345, 700], [355, 640], [645, 640], [655, 700], [695, 700], [705, 640], [940, 640], [940, 820], [60, 820]],
+         "fill": ROCK, "c": "#fff3dc", "w": 2, "in": .2},
+        ring(325, 680, 50, .9, GOLD, 3, dur=.5), ring(675, 680, 50, 1.2, GOLD, 3, dur=.5),
+        {"k": "dim", "x1": 325, "y1": 570, "x2": 675, "y2": 570, "t": "about 1.40 m", "in": 3.4, "c": GOLD},
+        line([[150, 1320], [850, 1320]], 5.8, "#8c7152", 3, draw=False),
+        bx(380, 1320 - 350, 60, 350, GOLD, r=4, at=6.2, fx="fill", dur=.8), label(360, 1150, "1.40 m", 6.8, GOLD, 30, "end"),
+        person(600, 1320, 425, 7.2), label(600, 1380, "1.70 m", 7.8, BN, 28)]}
+    # 4 · deep time: the claim at 12 to 14 million years, every human far to the right (14 My across 800 px)
+    MX = lambda my: round(900 - my * 800 / 14, 1)
+    deep = {"base": "dark", "cam": [1, 500, 900], "els": [
+        line([[100, 700], [900, 700]], .3, BN, 3, dur=.8), label(100, 760, "14 million years ago", .6, "#cbbca8", 28, "start"), label(900, 760, "today", .6, "#cbbca8", 28, "end"),
+        bx(MX(14), 684, MX(12) - MX(14), 32, LILAC, LILAC, 3, 16, 5.2, op=.55), glow(MX(13), 700, 90, 5.4, .5),
+        label(MX(13) - 14, 640, "the claim", 5.8, LILAC, 30, "start")] +
+        [person(MX(2.8) + 32 * k, 690, 40 + 4 * k, round(8.4 + .15 * k, 2)) for k in range(5)] +
+        [line([[MX(2.8), 600], [MX(2.8), 585], [895, 585], [895, 600]], 9.8, GOLD, 3, dur=.6), label(895, 560, "all humans", 10.4, GOLD, 28, "end")]}
+    WX = lambda yr: round(120 + (yr + 7000) * 760 / 9000, 1)
+    limits = [line([[897, 716], [880, 1100]], .9, BN, 2, "inferred", .5), line([[897, 716], [120, 1100]], .9, BN, 2, "inferred", .5), ring(897, 700, 14, .7, GOLD, 3, dur=.3),
+              line([[120, 1150], [880, 1150]], .4, BN, 3, dur=.7), label(120, 1210, "7000 BCE", .8, "#cbbca8", 28, "start"), label(880, 1210, "today", .8, "#cbbca8", 28, "end"),
+              person(WX(-6500), 1140, 70, 4.4), line([[WX(-6500), 1135], [WX(-6500), 1165]], 4.4, BN, 3, draw=False), label(WX(-6500) - 20, 1050, "people arrive", 5.0, BN, 28, "start"),
+              ring(WX(-3500), 1085, 34, 8.4, GOLD, 4, dur=.5)] + \
+             [line([[WX(-3500) - 30 * math.cos(a), 1085 - 30 * math.sin(a)], [WX(-3500) + 30 * math.cos(a), 1085 + 30 * math.sin(a)]], 8.8, GOLD, 2, draw=False) for a in (0, math.pi / 3, 2 * math.pi / 3)] + \
+             [label(WX(-3500), 1280, "first wheels", 9.2, GOLD, 28), bx(WX(-3500), 1300, 880 - WX(-3500), 26, GOLD, r=13, at=11.2, fx="fill", op=.7),
+              label(880, 1370, "carts, then ruts", 11.8, GOLD, 28, "end")]
+    rockage = [strike(MX(14) - 6, 720, MX(12) + 6, 676, 1.0, RD, 6), label(MX(13), 820, "the rock's age", 1.8, RD, 28)]
+    # 5 · the drowned-road idea: ruts slide under the sea; a dotted road down to a lost Ice Age shore; the sea stood far lower
+    SEA_Y, ICE_Y = 760, 1300                              # 25 px per metre: the ruts end about 1.2 m down; the Ice Age line about 22 m down
+    land = {"k": "poly", "p": [[60, 640], [440, 640], [520, SEA_Y + 30], [700, 980], [860, 1200], [940, 1320], [940, 1420], [60, 1420]], "fill": ROCK, "c": "#fff3dc", "w": 2, "in": .2}
+    sea = {"base": "dark", "cam": [1, 500, 900], "els":
+           [{"k": "water", "y": SEA_Y, "h": 700, "x0": 440, "x1": 1000, "op": .55, "in": .1}, land,
+            line([[120, 640], [440, 640], [520, SEA_Y + 30]], .6, RUT, 6, dur=.8), line([[120, 652], [440, 652], [516, SEA_Y + 40]], .7, "#4a3a28", 4, dur=.8),
+            ring(505, SEA_Y + 10, 44, 2.4, BLUE, 3, dur=.5),
+            line([[537, SEA_Y + 40], [714, 990], [874, 1205], [936, ICE_Y - 10]], 5.4, LILAC, 6, "claimed", 1.0)] + question(780, 1060, 7.0, 60) +
+           [{"k": "poly", "p": [[90, 420], [200, 360], [330, 380], [380, 440], [300, 470], [140, 470]], "fill": "#eef6fb", "c": BLUE, "w": 2, "in": 9.8, "fx": "rise"},
+            label(235, 520, "ice", 10.2, BLUE, 28),
+            arrow([[880, SEA_Y + 20], [880, ICE_Y - 20]], 12.4, BLUE, 3, "known", .8, False), line([[600, ICE_Y], [940, ICE_Y]], 13.4, BLUE, 3, "inferred", .6),
+            label(860, ICE_Y + 50, "Ice Age sea", 14.0, BLUE, 28, "end")]}
+    flaw = [{"k": "dim", "x1": 470, "y1": SEA_Y, "x2": 470, "y2": SEA_Y + 30, "in": .6, "c": GOLD, "upright": True}, label(455, SEA_Y + 90, "1 to 2 m", 1.0, GOLD, 30, "end"),
+            {"k": "dim", "x1": 600, "y1": SEA_Y + 40, "x2": 600, "y2": ICE_Y, "t": "tens of metres", "in": 4.2, "c": BN, "lx": -26},
+            strike(700, 1050, 860, 930, 6.2, RD, 5)]
+    # 2 · how carts cut them: a two-wheeled cart, thin soil, rain; wet limestone softens; every pass deeper, then a new line
+    cart = [bx(60, 700, 880, 260, ROCK, "#fff3dc", 2, 0, .2), bx(60, 684, 880, 18, SOIL, r=0, at=3.4, fx="fill")] + \
+           [bx(260, 520, 300, 80, "#8c6a48", "#c9a070", 2, 6, 1.6, fx="rise"), line([[560, 560], [720, 600]], 1.8, "#8c6a48", 8, draw=False),
+            ring(400, 620, 62, 1.8, "#c9a070", 8, dur=.6), dot(400, 620, 10, "#c9a070", 1.8), person(780, 684, 120, 2.2)] + \
+           [line([[x, y], [x - 8, y + 26]], round(4.8 + .03 * k, 2), BLUE, 2, draw=False) for k, (x, y) in enumerate([(100 + (j * 97) % 820, 330 + (j * 53) % 150) for j in range(30)])] + \
+           [bx(60, 700, 880, 50, BLUE, r=0, at=7.0, op=.25), label(500, 1010, "wet limestone softens", 7.4, BLUE, 28)]
+    deeper = []
+    for k, d in enumerate((30, 70, 110)):
+        at = round(.6 + 1.2 * k, 2)
+        deeper += [line([[160, 1120], [270, 1120], [280, 1120 + d], [330, 1120 + d], [340, 1120], [560, 1120], [570, 1120 + d], [620, 1120 + d], [630, 1120], [700, 1120]], at, "#fff3dc" if k < 2 else GOLD, 3 if k < 2 else 4, dur=.6)]
+    deeper = [bx(140, 1120, 580, 260, ROCK, r=0, at=.2)] + deeper + \
+             [bx(285, 1120 + 110 - 150, 40, 150, "#6b4a2e", "#c9a070", 2, 2, 3.6), bx(575, 1120 + 110 - 150, 40, 150, "#6b4a2e", "#c9a070", 2, 2, 3.6),
+              line([[300, 1100], [600, 1100]], 4.0, "#8c6a48", 10, draw=False), glow(450, 1118, 70, 5.2, .9, "red"), label(450, 1060, "the axle scrapes", 5.4, RD, 28),
+              arrow([[660, 1080], [780, 1080]], 7.6, AMB, 3, "known", .5, False)] + \
+             [line([[800, 1120], [810, 1150], [840, 1150], [850, 1120]], 8.4, GOLD, 4, dur=.4), label(825, 1210, "new line", 8.8, GOLD, 28)] + \
+             [line(p, round(11.4 + .2 * k, 2), RUT, 4, dur=.5, curve=True) for k, p in enumerate((
+                 [[620, 1300], [760, 1340], [920, 1370]], [[620, 1330], [760, 1370], [920, 1400]], [[640, 1400], [780, 1330], [920, 1290]], [[660, 1410], [800, 1350], [930, 1320]]))]
+    mech = {"base": "dark", "cam": [1, 500, 900], "els": cart}
+    out = _take(ep, scenes={0: s0, 2: mech, 3: gauge, 4: deep, 5: sea}, alias={6: 0}, cams={6: [1.18, 480, 960]}, adds={1: pieces},
+                beat_adds={4: (limits, None)}, line_adds={(0, 1): (hook, None), (3, 1): (deeper, None), (4, 1): (rockage, None)})
+    return _inject(out, _go(out, 4, 1, 1), flaw)
+
+
 # ---------------------------------------------------------------- 06.09 The ledger (the cabinet: one continuous film)
 def _ledger_v1():
     from cabinet import Cabinet
@@ -1583,4 +1663,4 @@ def ledger():
 
 
 def EPISODES():
-    return [baalbek_m(), puma_punku_m(), sacsayhuaman_m(), gunung_padang_m(), nan_madol_m(), plain_of_jars_m(), diquis_m(), cart_ruts(), ledger()]
+    return [baalbek_m(), puma_punku_m(), sacsayhuaman_m(), gunung_padang_m(), nan_madol_m(), plain_of_jars_m(), diquis_m(), cart_ruts_m(), ledger()]

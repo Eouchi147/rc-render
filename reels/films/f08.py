@@ -469,6 +469,149 @@ def plasma_m():
                  drop=("para", "num", "title", "q", "cap", "label"), line_adds={(1, 1): (aurora, None)})
 
 
+def serpent_m():
+    """Serpent Mound as one continuous take (see mural.py): the snake drawn, the tilt argument, the dates and the finger-width shift are drawn."""
+    import copy
+    from mural import remix
+    from iso3d import project
+    from illus import person, arrow, line, glow, label, dot, box as bx, oval, question, ring, strike, ellipse, AMBER as AMB, BLUE, LILAC, RED as RD, BONE as BN
+    ep = serpent()
+    ep["beats"][2]["visual"]["from"] = 1                       # the tilt argument gets its own panel; the dates panel is first seen with the dates
+    GRN, SUN = "#a8c07a", "#ffd9a0"
+    # 0 · the snake, held still so the sun can sit at the end of its sightline
+    s0 = copy.deepcopy(ep["shots"][0])
+    iso_ = next(e for e in s0["els"] if e.get("k") == "iso")
+    iso_.update(spin=0, s=7.0, x=400)
+    iso_["items"] = [it for it in iso_["items"] if not (it.get("t") == "label" and "sunset" in it.get("text", ""))]
+    zh = 10 * math.sin(3.3 * math.pi) * .75
+    hx, hy = project(s0, [40, .6, zh])
+    sx, sy = project(s0, [52, .7, zh - 7.2])
+    sun = [glow(sx, sy - 10, 150, 6.0, .9, "sun"), dot(sx, sy - 6, 26, SUN, 6.0)]
+    # 3 · the serpent, drawn: a bank as wide as a road and waist high; tail, body, jaws, oval; four pitches long
+    coil = [[200 + (12 + 9 * t) * math.cos(t), 860 + (12 + 9 * t) * math.sin(t)] for t in [k * .2 for k in range(32)]]
+    body = [[round(268 + 492 * k / 40, 1), round(860 + 70 * math.sin(k / 40 * 3.3 * math.pi) * (1 - .25 * k / 40), 1)] for k in range(41)]
+    ex, ey = body[-1]
+    pitch = lambda x, at: [bx(x, 1060, 170, 110, "#3f6e3a", "#e8f0e0", 2, 2, at, fx="pop"), line([[x + 85, 1060], [x + 85, 1170]], at + .1, "#e8f0e0", 2, draw=False),
+                           ring(x + 85, 1115, 18, at + .1, "#e8f0e0", 2, dur=.3)]
+    drawn = {"base": "dark", "cam": [1, 500, 880], "els": [line([[180, 520], [820, 520]], .2, "#8c7152", 3, draw=False),
+             {"k": "poly", "p": ellipse(500, 520, 162, 50, 24, 180, 360), "fill": "#6f8a4a", "c": GRN, "w": 2, "curve": True, "in": .4, "fx": "fill", "dur": .6},
+             person(720, 520, 85, 1.6), label(500, 590, "a road wide, waist high", 1.8, "#cbbca8", 28),
+             line(coil, 2.2, GRN, 16, dur=.8, curve=True), line(body, 2.6, GRN, 16, dur=1.2, curve=True),
+             line([[ex, ey], [ex + 70, ey - 44]], 3.4, GRN, 14, dur=.4), line([[ex, ey], [ex + 70, ey + 44]], 3.4, GRN, 14, dur=.4),
+             oval(ex + 76, ey, 34, 22, "#6f8a4a", GRN, 4, 1, 3.9)] +
+            sum([pitch(150 + 180 * k, round(4.6 + .3 * k, 2)) for k in range(4)], []) + [label(500, 1240, "about 411 m", 5.8, AMB, 36, st="serif")]}
+    # 1 · the claim: Earth's lean slowly rocks, the solstice sunset creeps; read the head's aim, read the year
+    ax_ = lambda deg, L=170: [[round(330 - L * math.sin(math.radians(deg)), 1), round(640 + L * math.cos(math.radians(deg)), 1)], [round(330 + L * math.sin(math.radians(deg)), 1), round(640 - L * math.cos(math.radians(deg)), 1)]]
+    rock = [[round(330 + 205 * math.sin(math.radians(a)), 1), round(640 - 205 * math.cos(math.radians(a)), 1)] for a in range(14, 34, 2)]
+    draco = [(600, 470), (650, 420), (720, 440), (760, 500), (740, 570), (800, 620), (860, 590), (890, 530), (850, 480)]
+    tilt = {"base": "dark", "stars": 60, "cam": [1, 500, 880], "els": [label(500, 340, "13,000 years ago?", 2.4, LILAC, 40, st="serif"),
+            oval(330, 640, 110, 110, "#2f5f7a", "#9fd0ff", 2, 1, 3.6), oval(300, 610, 42, 28, "#5f8a5a", "none", 0, .9, 3.7),
+            line(ax_(23.4), 4.0, BN, 3), arrow(rock, 4.8, AMB, 3, dur=.6), arrow(rock[::-1], 5.4, AMB, 3, dur=.6),
+            bx(100, 1060, 800, 160, "#2c2419", r=0, at=7.0, op=.9), line([[100, 1060], [900, 1060]], 7.0, "#8c7152", 3, dur=.6)] +
+           [ring(600 + 40 * k, 1040, 20, 7.6 + .4 * k, SUN, 2, "inferred", .4) for k in range(2)] + [dot(680, 1040, 20, SUN, 8.4), glow(680, 1040, 90, 8.4, .8, "sun"),
+            arrow([[600, 1000], [680, 1000]], 8.0, AMB, 3, dur=.6, curve=False),
+            line([[150, 1250], [230, 1200], [300, 1180]], 9.0, GRN, 12, dur=.5, curve=True), oval(318, 1176, 20, 13, "#6f8a4a", GRN, 3, 1, 9.2),
+            line([[318, 1176], [680, 1060]], 9.4, AMB, 2, "inferred", .8)] + question(680, 960, 10.6, 70) +
+           [line([list(a), list(b)], 12.0 + .08 * k, LILAC, 2, "claimed", .3) for k, (a, b) in enumerate(zip(draco, draco[1:]))] +
+           [dot(x, y, 6, "#fff6e8", 11.6 + .08 * k) for k, (x, y) in enumerate(draco)] + [label(760, 700, "Draco", 13.0, LILAC, 32)]}
+    # 4 · the dates: a carbon clock in the charcoal, what lies beneath came first; two camps, both in the last 3,000 years
+    X = lambda yr: 120 + 760 * (yr + 11000) / 13000
+    dates = {"base": "dark", "cam": [1, 500, 880], "els": [line([[120, 640], [880, 640]], .1, "#8c7152", 3, draw=False),
+             {"k": "poly", "p": ellipse(500, 640, 220, 110, 30, 180, 360), "fill": "#6f8a4a", "c": GRN, "w": 2, "curve": True, "in": .2, "fx": "fill", "dur": .6}] +
+            [dot(440 + 30 * k, 600 + (8 if k % 2 else -6), 8, "#1a1511", 1.0 + .1 * k, op=.95) for k in range(5)] + [glow(500, 600, 90, 1.4, .7, "lamp"),
+             dot(620, 668, 13, AU, 3.6), glow(620, 668, 50, 3.7, .7), label(650, 680, "there first", 4.0, AU, 28, "start"),
+             line([[120, 1000], [880, 1000]], 5.6, "#8c7152", 3, dur=.8), label(120, 1050, "11,000 BCE", 5.8, "#cbbca8", 28, "start"), label(X(-5000), 1050, "5000 BCE", 5.9, "#cbbca8", 28),
+             label(880, 1050, "today", 6.0, "#cbbca8", 28, "end"),
+             dot(X(-300), 1000, 10, AU, 7.6), line([[X(-300), 990], [X(-300), 940]], 7.7, AU, 2, draw=False), label(X(-300) - 8, 930, "Adena, 300 BCE", 7.8, AU, 28, "end"),
+             dot(X(1070), 1000, 10, BLUE, 9.2), line([[X(1070), 990], [X(1070), 890]], 9.3, BLUE, 2, draw=False), label(X(1070) - 8, 880, "Fort Ancient, 1070 CE", 9.4, BLUE, 28, "end"),
+             line([[X(-1000), 1080], [X(-1000), 1092], [881, 1092], [881, 1080]], 10.2, AMB, 3), label(793, 1140, "last 3,000 years", 10.4, AMB, 28),
+             ring(120, 1000, 22, 11.4, LILAC, 3, "claimed"), label(130, 940, "Ice Age claim", 11.4, LILAC, 28, "start"), label(130, 1140, "nothing dated here", 11.8, LILAC, 28, "start")]}
+    # 5 · less than a degree: smaller than a finger at arm's length, smaller than the aim of an earthen head
+    shift = {"base": "dark", "stars": 50, "cam": [1, 500, 880], "els": [ring(439, 822, 40, 1.4, SUN, 2, "inferred", .5), dot(560, 822, 40, SUN, 2.4), glow(560, 800, 200, 2.4, .8, "sun"),
+             bx(60, 820, 880, 600, "#2c2419", r=0, at=.1), line([[60, 820], [940, 820]], .1, "#8c7152", 3, draw=False),
+             arrow([[439, 745], [560, 745]], 3.4, AMB, 3, dur=.5, curve=False), label(500, 660, "less than 1°", 3.8, AMB, 36, st="serif"),
+             {"k": "poly", "p": [[500, 1380], [200, 822], [800, 822]], "fill": AMB, "c": "none", "w": 0, "in": 7.8, "op": .14, "keepop": True},
+             line([[500, 1380], [200, 822]], 7.8, AMB, 2, "inferred", .6), line([[500, 1380], [800, 822]], 7.8, AMB, 2, "inferred", .6),
+             oval(500, 1385, 80, 26, "#6f8a4a", GRN, 3, 1, 7.2),
+             bx(425, 860, 150, 340, "#e8d6b8", "#c9b08a", 2, 75, 4.6, op=.55, fx="rise"), bx(458, 876, 84, 96, "#f5ecdc", "#c9b08a", 1.5, 40, 4.6, op=.55, fx="rise")]}
+    draco2 = [(620, 380), (670, 340), (740, 355), (780, 410), (760, 470), (820, 510), (880, 485), (905, 430)]
+    away = [line([list(a), list(b)], .9 + .08 * k, LILAC, 2, "claimed", .3) for k, (a, b) in enumerate(zip(draco2, draco2[1:]))] + \
+           [dot(x, y, 6, "#fff6e8", .5 + .08 * k) for k, (x, y) in enumerate(draco2)] + [label(760, 560, "Draco", 1.2, LILAC, 32)]
+    proud = [glow(sx, sy - 10, 240, 1.0, .7, "sun"), line([[hx, hy], [sx, sy]], 1.2, AMB, 3, "inferred", .8)]
+    return remix(ep, scenes={0: s0, 1: tilt, 3: drawn, 4: dates, 5: shift}, alias={2: 0, 6: 0},
+                 cams={0: [1.05, 480, 900], 2: [1.6, 690, hy - 40], 6: [1.05, 480, 920]},
+                 drop=("para", "num", "title", "q", "cap"), adds={0: sun}, line_adds={(4, 1): (away, None), (5, 1): (proud, None)})
+
+
+def edfu_m():
+    """The Edfu texts as one continuous take (see mural.py): the island rises, the claim floods it, the dates line up, the Nile falls and the fields appear."""
+    from mural import remix
+    from illus import person, arrow, line, glow, label, dot, box as bx, oval, question, ring, strike, ellipse, AMBER as AMB, BLUE, LILAC, RED as RD, BONE as BN
+    ep = edfu()
+    ep["beats"][3]["visual"]["from"] = 3                       # the claim and the dates swap walls, so the take runs neighbour to neighbour
+    ep["beats"][4]["visual"]["from"] = 4
+    SAND, NILE = "#d8c7a2", "#3f7f9c"
+    # 0 · the temple's walls fill with carved text; is it Atlantis?
+    walls = [{"k": "glyphs", "x": 222, "y": 650, "w": 200, "h": 520, "rows": 14, "cols": 5, "c": "#6b5236", "sw": 2.5, "in": .6, "fx": "draw", "dur": 1.6},
+             {"k": "glyphs", "x": 578, "y": 650, "w": 200, "h": 520, "rows": 14, "cols": 5, "c": "#6b5236", "sw": 2.5, "in": 1.2, "fx": "draw", "dur": 1.6, "seed": 7}] + question(500, 540, 9.6, 90)
+    # 2 · the story: an island rises, reeds, creator beings, a falcon lands; enemies, ruin, the world made again
+    isl = [[300, 980], [380, 920], [500, 900], [620, 920], [700, 980]]
+    story = {"base": "dark", "cam": [1, 500, 880], "els": [{"k": "water", "y": 960, "h": 400, "x0": 60, "x1": 940, "op": .7, "in": .2},
+             {"k": "poly", "p": isl, "fill": SAND, "c": "#fff3dc", "w": 1.6, "curve": True, "in": 1.6, "fx": "fill", "dur": .9}] +
+            [line([[400 + k * 40, 930], [395 + k * 40 + (k % 3) * 6, 780 - (k % 2) * 30]], 3.2 + .1 * k, "#8fb57a", 3, dur=.4) for k in range(6)] +
+            [person(x, 955, 56, 4.6 + .2 * k, "#e8c35a") for k, x in enumerate((370, 440, 560, 630))] +
+            [arrow([[860, 460], [700, 560], [560, 735]], 6.0, AMB, 2, "inferred", .8),
+             {"k": "poly", "p": [[500, 760], [540, 740], [575, 750], [545, 770], [520, 800], [500, 790]], "fill": "#6b4a2e", "c": "#e9dccb", "w": 1.4, "in": 6.6, "fx": "pop"},
+             glow(500, 950, 360, 8.4, .7, "red"),
+             line([[90, 1080], [140, 1050], [190, 1090], [240, 1050], [290, 1080]], 8.6, RD, 5, dur=.6, curve=True),
+             line([[910, 1080], [860, 1050], [810, 1090], [760, 1050], [710, 1080]], 8.8, RD, 5, dur=.6, curve=True),
+             bx(270, 700, 460, 300, "#120d0a", r=20, at=10.0, op=.55),
+             glow(500, 620, 260, 11.4, .9, "sun"), line(isl, 11.6, AU, 4, dur=1.0, curve=True)]}
+    # 3 · the claim: these walls are the first record of Atlantis; a sacred island flooded, its wise men sail away
+    boat = lambda x, y, at: [{"k": "poly", "p": [[x - 30, y], [x + 30, y], [x + 20, y + 14], [x - 20, y + 14]], "fill": "#8a6a48", "c": "none", "w": 0, "in": at, "fx": "pop"},
+                             {"k": "poly", "p": [[x, y - 40], [x, y - 2], [x + 22, y - 6]], "fill": "#efe6d2", "c": "none", "w": 0, "in": at, "fx": "pop"}]
+    claim = {"base": "dark", "cam": [1, 500, 880], "els": [bx(462, 360, 36, 70, "#cbbca8", "#8a7a66", 2, 18, .2), line([[480, 430], [480, 480]], .2, "#8a7a66", 4, draw=False),
+             line([[450, 480], [510, 480]], .2, "#8a7a66", 4, draw=False), ring(480, 400, 60, .5, LILAC, 2, "claimed"), ring(480, 400, 95, .8, LILAC, 2, "claimed"),
+             {"k": "poly", "p": [[110, 780], [130, 560], [290, 560], [280, 780]], "fill": SAND, "c": "#fff3dc", "w": 1.6, "in": .6},
+             {"k": "glyphs", "x": 150, "y": 580, "w": 120, "h": 180, "rows": 6, "cols": 4, "c": "#6b5236", "sw": 2.2, "in": .7},
+             arrow([[300, 670], [400, 640], [520, 680]], 3.0, LILAC, 3, "claimed", .8),
+             oval(700, 690, 150, 40, "none", LILAC, 3, 1, 3.4, style="claimed"), label(700, 610, "Atlantis?", 3.6, LILAC, 34, st="serif"),
+             bx(160, 920, 80, 40, "#e2d2b4", "#8a7a66", 1.5, 8, 5.2), bx(150, 914, 12, 52, "#b89a70", r=3, at=5.2), bx(238, 914, 12, 52, "#b89a70", r=3, at=5.2),
+             label(200, 1020, "Plato, 360 BCE", 5.2, BN, 30),
+             bx(540, 650, 320, 110, NILE, r=10, at=9.4, op=.8, fx="fill", dur=1.0)] +
+            boat(560, 830, 10.8) + boat(700, 880, 11.1) + boat(850, 830, 11.4) +
+            [arrow([[560, 860], [470, 1000], [400, 1150]], 11.0, LILAC, 2, "claimed", .7), arrow([[700, 910], [700, 1100], [690, 1240]], 11.3, LILAC, 2, "claimed", .7),
+             arrow([[850, 860], [890, 1000], [900, 1150]], 11.6, LILAC, 2, "claimed", .7)] + question(620, 1330, 13.0, 80)}
+    # 4 · the dates: Plato first, then Edfu's stone; the island image already in the Pyramid Texts; and the Nile that taught it
+    tl, ax = timeline(-2600, 0, [(-2500, "2500 BCE"), (-2000, "2000"), (-1500, "1500"), (-1000, "1000"), (-500, "500")], "Which came first")
+    tl["els"] = [e for e in tl["els"] if e.get("k") not in ("cap", "title")]
+    tl["els"] += event(ax, -360, "Plato writes Atlantis", row=0, c=AMB, i=1.9) + [{"k": "band", "x0": ax.x(-237), "x1": ax.x(-57), "y": 700, "h": 16, "c": GOLD, "t": "Edfu carved", "in": 2.6}] + \
+                 event(ax, -2400, "the Pyramid Texts", row=1, c=BN, i=8.3) + \
+                 [arrow([[ax.x(-150), 640], [ax.x(-1300), 500], [ax.x(-2400) + 12, 600]], 11.6, AMB, 3, dur=1.2), label(ax.x(-1300), 470, "2,000 years earlier", 12.0, AMB, 30)]
+    tl["cam"] = [1, 500, 880]
+    vig = lambda x0, at: [{"k": "poly", "p": [[x0, 1130], [x0 + 40, 1250], [x0 + 200, 1250], [x0 + 240, 1130], [x0 + 240, 1300], [x0, 1300]], "fill": "#4a3a2c", "c": "none", "w": 0, "in": at}]
+    nile = vig(100, 1.2) + [bx(110, 1140, 220, 110, NILE, r=4, at=1.4, op=.85, fx="fill", dur=.6)] + \
+           vig(370, 2.8) + [oval(440, 1205, 34, 16, "#3b2a1c", at=3.0), oval(540, 1205, 30, 14, "#3b2a1c", at=3.0), bx(380, 1205, 220, 45, NILE, r=4, at=3.0, op=.85, fx="fill", dur=.5)] + \
+           vig(640, 4.2) + [oval(705, 1200, 42, 20, "#3b2a1c", at=4.4), oval(815, 1200, 40, 18, "#3b2a1c", at=4.4), bx(740, 1232, 40, 18, NILE, r=4, at=4.4, op=.85),
+                            oval(705, 1186, 36, 8, "#8fb57a", at=4.8), oval(815, 1186, 34, 8, "#8fb57a", at=4.8), glow(760, 1190, 140, 5.4, .7, "lamp"),
+                            label(500, 1360, "the Nile, every summer", 1.4, "#9fd0ff", 30)]
+    # 5 · the verdict: everything points inside Egypt; the ideas are older than the stone
+    nl = [[560, 330], [520, 450], [545, 580], [500, 720], [520, 860], [470, 1040]]
+    verdict = {"base": "dark", "cam": [1, 500, 880], "els": [line(nl, .2, NILE, 9, dur=1.0, curve=True), line([[x + 22, y] for x, y in nl], .4, "#5f8a4a", 4, op=.6, curve=True),
+               line([[x - 22, y] for x, y in nl], .4, "#5f8a4a", 4, op=.6, curve=True),
+               {"k": "poly", "p": ellipse(520, 640, 60, 24, 16, 180, 360), "fill": SAND, "c": "#fff3dc", "w": 1.5, "curve": True, "in": 1.0, "fx": "fill", "dur": .5}] +
+              [line([[505 + 14 * k, 625], [503 + 14 * k, 575]], 1.3 + .1 * k, "#8fb57a", 3, dur=.3) for k in range(3)] +
+              [dot(505, 860, 10, GOLD, .6), label(540, 870, "Edfu", .6, GOLD, 28, "start"),
+               ring(510, 690, 330, 4.2, AMB, 3), label(330, 520, "Egypt", 4.4, AMB, 34, st="ital"), arrow([[640, 700], [780, 640], [930, 560]], 5.0, LILAC, 3, "claimed", .6), strike(770, 560, 880, 680, 6.0, RD, 5),
+               bx(380, 1110, 240, 110, SAND, "#fff3dc", 1.5, 4, 7.0)] +
+              [bx(300, 1220 + 40 * k, 400, 40, c, r=2, at=7.4 + .2 * k) for k, c in enumerate(("#6a5640", "#544432", "#3e3226"))] +
+              [glow(500, 1290, 220, 8.6, .8, "lamp"), arrow([[500, 1320], [500, 1230]], 8.8, AMB, 3, "inferred", .5, curve=False),
+               glow(520, 620, 160, 10.8, .8, "lamp"),
+               {"k": "glyphs", "x": 400, "y": 1124, "w": 200, "h": 84, "rows": 3, "cols": 6, "c": "#6b5236", "sw": 2.4, "in": 13.8, "fx": "draw", "dur": 1.2}]}
+    return remix(ep, scenes={2: story, 3: claim, 4: tl, 5: verdict}, alias={6: 0}, cams={0: [1.05, 500, 900]},
+                 drop=("para", "num", "title", "q", "cap"), adds={0: walls}, line_adds={(4, 1): (nile, None)})
+
+
 def ledger_recap():
     """The ledger as a science-show recap: every case gets its moment in the cabinet (see recap.py; narration in rewrite/ledgers/sky-ledger.json)."""
     import recap
@@ -476,4 +619,4 @@ def ledger_recap():
 
 
 def EPISODES():
-    return [nebra_m(), great_year_m(), serpent(), edfu(), plasma_m(), ledger_recap()]
+    return [nebra_m(), great_year_m(), serpent_m(), edfu_m(), plasma_m(), ledger_recap()]

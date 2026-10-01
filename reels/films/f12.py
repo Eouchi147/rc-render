@@ -498,6 +498,184 @@ def lost_scripts_m():
                  beat_adds={2: (debate, [1.1, 500, 880])})
 
 
+def _vword(x, y, seed, c=INK, at=0, w=2.4, op=None):
+    """One word of an unknown script: three to five loops and hooks (the same seed draws the same word)."""
+    r = random.Random(seed); out = []
+    for j in range(r.randint(3, 5)):
+        k = r.randint(0, 2); xx = x + 15 * j
+        p = [[xx, y], [xx + 4, y - 18], [xx + 10, y - 4], [xx + 13, y]] if k == 0 else [[xx, y - 10], [xx + 6, y], [xx + 12, y - 12]] if k == 1 else [[xx + 2, y - 20], [xx + 2, y], [xx + 11, y - 8]]
+        e = {"k": "line", "p": p, "c": c, "w": w, "curve": k != 2, "in": at}
+        if op is not None:
+            e.update(op=op, keepop=True)
+        out.append(e)
+    return out
+
+
+def voynich_m():
+    """The Voynich manuscript as one continuous take (see mural.py): the carbon clock, the word staircase, the guessing game and the dice cipher are drawn."""
+    remix, I = _mur()
+    ep = voynich()
+    GR, RD = "#8fd9b0", "#ffb09a"
+    # 1 · the calfskin and its carbon clock: four samples, one narrow window of dates
+    X = lambda yr: 140 + 720 * (yr - 1300) / 300
+    candle = lambda x, h, at: [I.box(x - 22, 820 - h, 44, h, "#efe6d2", "#b8a888", 1.5, 4, at, fx="fill", dur=.6),
+                               I.line([[x, 820 - h], [x, 808 - h]], at + .3, I.INK, 3, draw=False), I.glow(x, 790 - h, 46, at + .3, .9, "lamp")]
+    dating = {"base": "dark", "cam": [1, 500, 880], "els": [I.box(130, 400, 330, 420, VELLUM, "#fff4dc", 1.2, 6, .2)] + squiggles(160, 460, 280, 6, seed=5, i0=.4) +
+              candle(600, 330, 4.0) + candle(710, 220, 4.3) + candle(820, 110, 4.6) +
+              [I.box(150 + 75 * k, 760, 40, 40, "#b89a70", "#fff4dc", 1.5, 3, 6.6 + .1 * k, fx="pop") for k in range(4)] +
+              [I.line([[170 + 75 * k, 805], [X(1421), 1120]], 7.0 + .05 * k, "#cbbca8", 1.6, "inferred", .5) for k in range(4)] +
+              [I.line([[X(1300), 1150], [X(1600), 1150]], 6.8, "#8c7152", 3, dur=.6)] +
+              [I.label(X(y), 1205, str(y), 6.9, "#cbbca8", 28) for y in (1300, 1400, 1500, 1600)] +
+              [{"k": "band", "x0": X(1404), "x1": X(1438), "y": 1132, "h": 36, "c": AMBER, "in": 7.3, "fx": "pop"},
+               I.glow(X(1421), 1150, 110, 7.4, .6), I.label(X(1421), 1265, "1404 to 1438", 7.8, AMBER, 36, st="serif")]}
+    # 2 · like a language: the word staircase, words that follow their pictures, five hands
+    bars = [I.box(120 + 52 * k, 680 - 340 / (k + 1), 40, 340 / (k + 1), GR, r=3, at=round((1.6, 2.4, 3.2)[k] if k < 3 else 3.6 + .15 * (k - 3), 2), fx="fill", dur=.5, op=.85) for k in range(8)]
+    tops = [[140 + 52 * k, 680 - 340 / (k + 1) - 22] for k in range(8)]
+    stair = bars + [I.dot(x, y, 9, AMBER, 5.2 + .1 * k) for k, (x, y) in enumerate(tops)] + [I.line(tops, 5.3, AMBER, 3, dur=1.0, curve=True)] + \
+            [I.label(330, 740, "word counts", 1.4, GR, 30)]
+    page = [I.box(600, 340, 300, 360, VELLUM, "#fff4dc", 1.2, 6, 6.6)] + sum([_vword(630 + 70 * j, 400 + 44 * r, 30 + 4 * r + j, INK, 6.7, 2) for r in range(3) for j in range(3)], []) + \
+           [{"k": "poly", "p": [[750, 670], [742, 600], [722, 560], [750, 548], [778, 560], [758, 600]], "fill": "#5f8a4a", "c": INK, "w": 1.5, "curve": True, "in": 7.0}] + \
+           [I.box(616 + 70 * j, 474, 62, 34, "none", AMBER, 3, 6, 7.6 + .2 * j) for j in range(3)]
+    hands = sum([[I.person(260 + 120 * k, 930, 120, 9.2 + .18 * k), I.line([[280 + 120 * k, 860], [306 + 120 * k, 830]], 9.4 + .18 * k, AMBER, 3, draw=False)] for k in range(5)], [])
+    lang = {"base": "dark", "cam": [1, 500, 880], "els": stair + page + hands}
+    # 3 · unlike a language: a guessing game too easy to lose, and words that repeat in runs
+    eng = [I.box(140 + 44 * k, 1180 - h, 34, h, RD, r=3, at=2.0 + .1 * k, fx="fill", dur=.4, op=.8) for k, h in enumerate((120, 104, 92, 84, 74, 64))] + [I.label(266, 1230, "English", 2.0, RD, 30)]
+    vb = [I.box(560 + 44 * k, 1180 - h, 34, h, RD, r=3, at=4.0 + .1 * k, fx="fill", dur=.4, op=.8) for k, h in enumerate((220, 26, 18, 14, 10, 8))] + \
+         [I.label(686, 1230, "this book", 4.0, RD, 30), I.glow(577, 960, 90, 4.6, .8)]
+    runs = sum([_vword(130 + 115 * j, 1340, 7 if j in (2, 3, 4) else 40 + j, I.AMBER if j in (2, 3, 4) else "#cbbca8", 6.0 + .25 * j, 2.6) for j in range(6)], []) + \
+           [I.line([[352, 1372], [352, 1386], [672, 1386], [672, 1372]], 7.6, RD, 3)]
+    against = eng + vb + runs
+    nonsense = [I.person(860, 1400, 130, .6), I.line([[878, 1330], [900, 1300]], .8, AMBER, 3, draw=False),
+                I.oval(447, 1335, 340, 62, "none", I.LILAC, 2.5, 1, 2.0, style="claimed")]
+    # 4 · the dice-and-cards cipher: Latin in, something like Voynichese out
+    def die(x, y, n, at):
+        pts = {2: [(-1, -1), (1, 1)], 5: [(-1, -1), (1, -1), (0, 0), (-1, 1), (1, 1)]}[n]
+        return [I.box(x - 55, y - 55, 110, 110, "#f2e8d6", "#fff", 1.4, 10, at, fx="pop")] + [I.dot(x + a * 28, y + b * 28, 9, I.INK, at + .1, None) for a, b in pts]
+    cipher = {"base": "dark", "cam": [1, 500, 880], "els": die(330, 720, 5, 1.8) + die(470, 780, 2, 2.1) +
+              [I.box(600, 640, 140, 200, "#f2e8d6", "#fff", 1.4, 10, 2.5, fx="pop"), I.label(670, 770, "7", 2.6, "#9a2a1a", 70, st="serif", halo=False),
+               I.box(160, 360, 680, 90, "#e9d6ad", "#fff4dc", 1.2, 6, 4.4), I.label(500, 420, "VENI VIDI VICI", 4.5, "#5a4330", 44, st="serif", halo=False, fx="type", dur=.8),
+               I.label(500, 330, "Latin", 4.4, "#e9d6ad", 32, st="serif"),
+               I.arrow([[500, 460], [500, 600]], 5.4, I.BONE, 3, dur=.6, curve=False), I.glow(400, 750, 140, 5.8, .6), I.glow(670, 740, 120, 6.2, .6),
+               I.arrow([[540, 880], [540, 1040]], 6.8, I.BONE, 3, dur=.6, curve=False),
+               I.box(160, 1060, 680, 130, VELLUM, "#fff4dc", 1.2, 6, 7.9),
+               {"k": "glyphs", "x": 190, "y": 1072, "w": 620, "h": 106, "rows": 2, "cols": 12, "c": INK, "in": 8.0, "fx": "draw", "dur": 1.4},
+               I.label(500, 1240, "Voynich-like", 8.6, AMBER, 32)]}
+    key = [I.ring(200, 1340, 26, 1.0, AMBER, 4, dur=.5), I.line([[226, 1340], [330, 1340]], 1.2, AMBER, 4, dur=.4), I.line([[300, 1340], [300, 1362]], 1.4, AMBER, 4, draw=False),
+           I.line([[318, 1340], [318, 1358]], 1.4, AMBER, 4, draw=False), I.strike(160, 1385, 350, 1295, 1.8, I.RED, 5),
+           I.box(740, 1290, 110, 130, VELLUM, "#fff4dc", 1.2, 4, 3.0), I.line([[795, 1405], [795, 1350]], 3.2, "#5f8a4a", 4, draw=False),
+           I.arrow([[620, 1200], [660, 1290], [730, 1340]], 2.8, AMBER, 3, "inferred", .8)]
+    # 5 · the verdict, back on the page: every claimed reading struck through
+    failed = sum([[I.box(205, 584 + 34 * k, 590, 30, "none", "#7a5ab0", 3, 6, 2.8 + .4 * k, style="claimed"), I.strike(215, 612 + 34 * k, 785, 588 + 34 * k, 4.0 + .3 * k, I.RED, 4)] for k in range(3)], []) + \
+             I.question(500, 470, 9.0, 90)
+    import copy
+    route = copy.deepcopy(ep["shots"][2])                      # the map, with Prague's label turned inward so the frame does not cut it
+    route["els"] = [e for e in route["els"] if e.get("k") != "cap"]
+    for e in route["els"]:
+        if e.get("k") == "pin" and e.get("t", "").startswith("Prague"):
+            e.update(a="end", lx=-18, ly=-14)
+    return remix(ep, scenes={1: dating, 2: route, 3: lang, 4: cipher}, alias={5: 4, 6: 0}, cams={0: [1.05, 500, 900], 6: [1.12, 500, 900]},
+                 drop=("para", "num", "title", "q", "cap"), beat_adds={3: (against, None), 5: (failed, None)}, line_adds={(3, 1): (nonsense, None), (4, 1): (key, None)})
+
+
+def herculaneum_m():
+    """The Herculaneum scrolls as one continuous take (see mural.py): the scan, the invisible ink, the prize hunt and the first word are drawn."""
+    remix, I = _mur()
+    ep = herculaneum()
+    CH, PAP = "#2a221c", "#1b1714"
+    # 2 · scan it: X-rays slice the roll, software flattens each layer; carbon ink on carbon is nearly invisible
+    sp = [[300 + math.cos(t) * (6 + t * 7.2), 620 + math.sin(t) * (6 + t * 7.2)] for t in [k * .12 for k in range(0, 190)]]
+    scan = {"base": "dark", "cam": [1, 500, 880], "els": [I.oval(300, 620, 175, 175, CH, "#8c7a66", 2, 1, .2)] +
+            [I.line([[150 + 30 * k, 430], [150 + 30 * k, 810]], 1.2 + .12 * k, I.BLUE, 2, op=.45) for k in range(11)] + [I.glow(300, 620, 230, 1.4, .45, "scan")] +
+            [{"k": "line", "p": sp, "c": "#d8d8d8", "w": 2.2, "curve": True, "in": 3.4, "fx": "draw", "dur": 1.6},
+             I.arrow([[490, 640], [640, 700], [700, 860]], 4.6, AMBER, 3, dur=.8)] +
+            [I.box(120 + 128 * k, 900, 124, 130, PAP, "#5a4a3a", 1.2, 2, 5.0 + .18 * k) for k in range(6)] +
+            [I.line([[130, 930 + 26 * j], [870, 930 + 26 * j]], 5.4, "#3a3128", 1.2, draw=False) for j in range(4)] +
+            [{"k": "glyphs", "x": 150, "y": 915, "w": 700, "h": 100, "rows": 3, "cols": 18, "c": "#2e2620", "sw": 3, "in": 6.8},
+             I.label(500, 1100, "carbon ink on carbon", 7.4, "#cbbca8", 30),
+             I.ring(640, 965, 80, 8.8, AMBER, 3), I.label(640, 990, "?", 9.0, AMBER, 60, st="big", fx="pop")]}
+    # 3 · the scans go out to the world; one student finds the first word
+    crowd = [(160 + 85 * k, 1010 - round(60 * math.sin(math.pi * k / 8), 1)) for k in range(9)]
+    hunt = {"base": "dark", "cam": [1, 500, 880], "els": [I.person(170 + 70 * k, 620, 140, 1.0 + .3 * k) for k in range(3)] +
+            [I.box(430, 440, 130, 130, CH, "#9fd0ff", 2, 8, 2.6), I.line([[495 + math.cos(t) * (3 + t * 3.4), 505 + math.sin(t) * (3 + t * 3.4)] for t in [k * .3 for k in range(55)]], 2.7, "#d8d8d8", 1.6, dur=.6, curve=True),
+             I.dot(760, 500, 46, I.AU, 3.8, op=.95), I.glow(760, 500, 120, 3.8, .7), I.label(760, 515, "$", 3.9, "#5a4330", 46, st="serif", halo=False)] +
+            [I.line([[495, 580], [x, y - 120]], 3.1 + .08 * k, I.BLUE, 1.6, "inferred", .5) for k, (x, y) in enumerate(crowd)] +
+            [I.person(x, y, 90, 3.2 + .08 * k) for k, (x, y) in enumerate(crowd)] +
+            [I.glow(x, y - 45, 50, 4.6 + .15 * k, .55, "scan") for k, (x, y) in enumerate(crowd)] +
+            [I.glow(crowd[4][0], crowd[4][1] - 50, 110, 7.2, .9, "lamp"),
+             I.box(150, 1110, 700, 170, PAP, "#3a3128", 1.4, 6, 7.6), I.label(500, 1225, "ΠΟΡΦΥΡΑϹ", 8.6, "#e9dccb", 76, st="serif", fx="type", dur=1.4),
+             I.dot(560, 1350, 22, "#8a3a8f", 10.6), I.label(540, 1362, "purple", 10.6, I.AU, 34, "end", st="ital")]}
+    # 4 · two thousand letters out of the dark, and the grand prize
+    cols = [I.box(100, 500, 800, 540, PAP, "#3a3128", 1.4, 6, .2)] + \
+           [{"k": "glyphs", "x": 128 + 96 * k, "y": 540, "w": 78, "h": 460, "rows": 16, "cols": 6, "c": "#e9dccb", "sw": 2.2, "in": .6 + .3 * k} for k in range(8)]
+    letters = {"base": "dark", "cam": [1, 500, 880], "els": cols + [I.label(500, 1100, "more than 2,000 letters", 2.6, "#e9dccb", 34),
+               I.glow(500, 1250, 220, 3.8, .55), I.label(500, 1280, "$700,000", 3.9, I.AU, 70, st="big", fx="pop")]}
+    TX = lambda yr: 200 + 610 * (yr - 1) / 2099
+    whole = [I.glow(TX(2026), 820, 120, 1.0, .8), I.arrow([[TX(79), 960], [TX(1050), 1090], [TX(2026), 960]], 3.8, AMBER, 3, dur=1.2), I.label(TX(1050), 1160, "nearly 2,000 years", 4.6, AMBER, 32)]
+    waiting = [{"k": "circle", "x": 330 + 34 * (k % 10) + (17 if (k // 10) % 2 else 0), "y": 1300 + 34 * (k // 10), "r": 15, "fill": CH, "c": "#8c7a66", "w": 1.5, "in": 3.6 + .03 * k, "fx": "pop"} for k in range(30)]
+    undug = [I.box(700, 1250, 220, 160, "none", I.LILAC, 3, 8, 1.6, style="claimed")] + I.question(810, 1360, 2.4, 70)
+    return remix(ep, scenes={2: scan, 3: hunt, 4: letters}, alias={6: 0}, cams={0: [1.05, 500, 920], 6: [1.12, 500, 1000]},
+                 drop=("para", "num", "title", "q", "cap"), adds={5: whole}, beat_adds={5: (waiting, None)}, line_adds={(5, 1): (undug, None)})
+
+
+def dead_sea_m():
+    """The Dead Sea Scrolls as one continuous take (see mural.py): a box of mixed jigsaws, a slow shelf, a closed door, and the flood of 1991 are drawn."""
+    remix, I = _mur()
+    ep = dead_sea()
+    ep["beats"][2]["visual"]["from"] = 5                       # the team and the long wait share one panel; the shelves are first seen in 1991
+    PCH = ("#d9c4a0", "#c9ad85", "#b89a70", "#e2d2b4")
+    r = random.Random(11)
+    # 2 · fifteen thousand pieces of a thousand jigsaws, mixed in one box
+    frag = []
+    for k in range(300):
+        x, y, s = r.uniform(290, 710), r.uniform(460, 680), r.uniform(7, 12)
+        frag.append({"k": "poly", "p": [[round(x + s * math.cos(a + r.uniform(-.4, .4)), 1), round(y + s * math.sin(a + r.uniform(-.4, .4)), 1)] for a in (0, 1.6, 3.1, 4.6)],
+                     "fill": PCH[k % 4], "c": "none", "w": 0, "in": round(.4 + .004 * k, 3)})
+    roll = lambda x, y, at: [I.box(x - 28, y - 13, 56, 26, "#e2d2b4", "#8a7a66", 1.5, 6, at, fx="pop"), I.box(x - 34, y - 16, 10, 32, "#b89a70", r=3, at=at), I.box(x + 24, y - 16, 10, 32, "#b89a70", r=3, at=at)]
+    jig = {"base": "dark", "cam": [1, 500, 880], "els": [I.box(260, 430, 480, 280, "#3b2a1c", "#8a6a48", 3, 8, .2), I.label(500, 390, "15,000 fragments", .3, "#e2d2b4", 32)] + frag +
+           [I.arrow([[500, 730], [500, 860]], 3.4, I.BONE, 3, dur=.5, curve=False)] +
+           sum([roll(150 + 78 * (k % 10), 930 + 90 * (k // 10), round(3.6 + .08 * k, 2)) for k in range(20)], []) +
+           [I.label(500, 1110, "about 1,000 manuscripts", 5.0, I.AMBER, 34)]}
+    # 5 · Cave 4, a small team behind a closed door, a shelf that fills one book every four years
+    BX = lambda yr: 140 + 720 * (yr - 1955) / 35
+    team = {"base": "dark", "cam": [1, 500, 880], "els": [
+              {"k": "poly", "p": [[60, 640], [120, 470], [220, 400], [340, 430], [420, 520], [440, 640]], "fill": "#8c7452", "c": "#b8946a", "w": 2, "in": .2},
+              I.oval(260, 560, 50, 36, "#1a1511", at=.4), I.label(260, 690, "Cave 4", .5, "#e2d2b4", 30)] +
+             [I.dot(round(310 + 22 * k + r.uniform(-6, 6), 1), round(560 + 6 * math.sin(k) + r.uniform(-6, 6), 1), 5, PCH[k % 4], 1.4 + .06 * k) for k in range(16)] +
+             [I.box(540, 600, 320, 16, "#5a4330", r=3, at=2.2), I.line([[570, 616], [570, 690]], 2.2, "#5a4330", 6, draw=False), I.line([[830, 616], [830, 690]], 2.2, "#5a4330", 6, draw=False)] +
+             [I.dot(round(r.uniform(600, 800), 1), round(r.uniform(588, 596), 1), 5, PCH[k % 4], 2.4) for k in range(18)] +
+             [I.person(580 + 60 * k, 600, 110, 3.0 + .2 * k) for k in range(5)] +
+             [I.box(510, 430, 380, 280, "none", I.AMBER, 3, 10, 5.4)] +
+             [I.line([[BX(1955), 900], [BX(1990), 900]], 6.0, "#8c7152", 3, dur=.6), I.label(BX(1955), 950, "1955", 6.1, "#cbbca8", 28), I.label(BX(1990), 950, "1990", 6.1, "#cbbca8", 28),
+              I.label(500, 1000, "35 years", 6.4, "#cbbca8", 30)] +
+             [I.box(BX(1957 + 4.3 * k) - 14, 800, 28, 96, "#ffb09a", "#8a5d4a", 1.5, 3, round(7.6 + .22 * k, 2), fx="fill", dur=.4) for k in range(8)] +
+             [I.label(500, 770, "8 volumes", 9.5, "#ffb09a", 34, st="serif")]}
+    wait = [I.person(170 + 110 * k, 1400, 110, .5 + .12 * k) for k in range(7)] + \
+           [I.dot(860, 470, 14, I.AU, 3.8), I.line([[860, 484], [860, 530]], 3.8, I.AU, 5, draw=False), I.line([[860, 520], [876, 520]], 3.8, I.AU, 4, draw=False), I.glow(860, 490, 70, 3.9, .8)] + \
+           sum([[I.oval(x, 1170, 70, 46, "none", I.LILAC, 2.5, 1, 4.6 + .6 * k, style="claimed"), I.label(x, 1188, "?", 4.8 + .6 * k, I.LILAC, 52, st="big", fx="pop")] for k, x in enumerate((240, 500, 760))], [])
+    # 4 · 1991: a computer rebuilds the texts, a library opens its photographs to everyone
+    crowd = [(140 + 80 * k, 1380) for k in range(10)]
+    opened = {"base": "dark", "cam": [1, 500, 880], "els": [I.box(160, 430, 280, 200, "#141210", "#9fd0ff", 2.5, 10, .3), I.box(270, 630, 60, 40, "#3a3128", r=2, at=.3), I.glow(300, 530, 160, .5, .35, "scan")] +
+              [I.person(220, 820, 140, .9), I.person(370, 820, 140, 1.1)] +
+              [{"k": "glyphs", "x": 185, "y": 455, "w": 230, "h": 150, "rows": 6, "cols": 7, "kind": "latin", "c": "#9fd0ff", "in": 2.4, "fx": "draw", "dur": 1.2}] +
+              [{"k": "poly", "p": [[540, 500], [720, 420], [900, 500]], "fill": "#d8c7a2", "c": "#fff3dc", "w": 1.6, "in": 4.8}, I.box(540, 700, 360, 26, "#d8c7a2", "#fff3dc", 1.2, 2, 4.8)] +
+              [I.box(560 + 90 * k, 510, 30, 190, "#cdb58a", r=3, at=4.9) for k in range(4)] +
+              [I.box(684, 590, 52, 110, "#1a1511", r=3, at=5.0), I.glow(710, 640, 120, 5.6, .9, "lamp")] +
+              [I.line([[710, 730], [x, y - 140]], 6.0 + .05 * k, I.AMBER, 1.5, "inferred", .6) for k, (x, y) in enumerate(crowd)] +
+              [I.box(x - 22, y - 200, 44, 44, "#1b1714", "#c9ad85", 1.5, 3, 6.2 + .1 * k, fx="pop") for k, (x, y) in enumerate(crowd)] +
+              [I.person(x, y, 100, 6.4 + .08 * k) for k, (x, y) in enumerate(crowd)] + [I.glow(500, 1280, 380, 8.0, .35, "lamp")]}
+    # 3 · the shelves, at one scale: 8 volumes in 35 years, 32 in 19
+    S = 18
+    shelves = {"base": "dark", "cam": [1, 500, 880], "els": [I.line([[160, 760], [160 + 35 * S, 760]], .1, "#8a6a48", 6, draw=False), I.label(160, 560, "8 volumes", .2, "#ffb09a", 34, "start", st="serif")] +
+               [I.box(160 + 35 * S * (k + .5) / 8 - 12, 610, 24, 150, "#ffb09a", "#8a5d4a", 1.2, 2, .3 + .04 * k) for k in range(8)] +
+               [I.label(160 + 35 * S / 2, 805, "35 years", .4, "#cbbca8", 30),
+                I.line([[160, 1160], [160 + 19 * S, 1160]], .5, "#8a6a48", 6, draw=False), I.label(160, 960, "32 volumes", 1.6, I.GREEN, 34, "start", st="serif")] +
+               [I.box(160 + 19 * S * k / 32 + 1, 1010, 8.6, 150, I.GREEN, "none", 0, 1.5, round(.6 + .065 * k, 3), fx="fill", dur=.3) for k in range(32)] +
+               [I.label(160 + 19 * S / 2, 1205, "19 years", .8, "#cbbca8", 30), I.glow(330, 1080, 200, 4.9, .4, "lamp")]}
+    calm = [I.glow(500, 880, 320, 8.0, .35, "lamp")]
+    return remix(ep, scenes={2: jig, 3: shelves, 4: opened, 5: team}, alias={6: 0}, cams={0: [1.05, 500, 900], 6: [1.12, 500, 940]},
+                 drop=("para", "num", "title", "q", "cap"), beat_adds={3: (wait, None), 5: (calm, None)})
+
+
 def ledger_recap():
     """The ledger as a science-show recap: every case gets its moment in the cabinet (see recap.py; narration in rewrite/ledgers/unreadable-ledger.json)."""
     import recap
@@ -505,4 +683,4 @@ def ledger_recap():
 
 
 def EPISODES():
-    return [lost_scripts_m(), voynich(), herculaneum(), alexandria_m(), dead_sea(), piri_reis_m(), ledger_recap()]
+    return [lost_scripts_m(), voynich_m(), herculaneum_m(), alexandria_m(), dead_sea_m(), piri_reis_m(), ledger_recap()]

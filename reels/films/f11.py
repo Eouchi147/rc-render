@@ -1,7 +1,7 @@
 """File 11 · Myths That Came True. Legends the experts wrote off, and a few they were right about.
 Troy, Vinland, Knossos, the Sea Peoples, the Amazon's garden cities, King Arthur and the Shroud of Turin.
 Faith is never rated: the Shroud film weighs the linen's date, not what the cloth means to believers."""
-import math, random
+import math, random, copy
 from films import like, View
 from scenes import timeline as _timeline, event, stat, quote, BONE, AMBER, SCAN, OCHRE, GOLD, RED
 from f01 import mapshot
@@ -524,6 +524,256 @@ def shroud_m():
                  drop=("para", "num", "title", "q", "cap"), line_adds={(5, 1): (gold, None)})
 
 
+def troy_m():
+    """Troy as one continuous take (see mural.py): the diggers, a wall thicker than a car, a name that travels, a burnt layer, and the shovel."""
+    remix, I = _mur()
+    ep = troy()
+    diggers = [I.person(150, 1300, 120, .2), I.person(230, 1300, 120, .5), I.line([[265, 1300], [300, 1215]], .7, "#cbbca8", 4, draw=False),
+               {"k": "poly", "p": [[256, 1300], [276, 1300], [270, 1325], [262, 1325]], "fill": "#9aa0a8", "c": "none", "w": 0, "in": .7, "fx": "pop"}] + \
+              [I.dot(x, y, 5, "#8c7152", 1.0 + .05 * k) for k, (x, y) in enumerate(I.scatter(8, 280, 360, 1270, 1300, 2))]
+    # the wall in section: five metres of stone, a person, and a car for scale (40 px = 1 m)
+    W = 500
+    wall = [I.line([[150, W], [850, W]], 1.6, "#8c7152", 3, draw=False),
+            {"k": "poly", "p": [[330, W], [530, W], [530, W - 170], [512, W - 178], [494, W - 166], [470, W - 174], [455, W - 166], [400, W - 154]], "fill": "#cbb891", "c": "#fff3dc", "w": 2, "in": 1.8, "fx": "rise"},
+            I.person(600, W, 68, 2.4), I.arrow([[430, W + 34], [330, W + 34]], 3.0, I.AMBER, 3, dur=.4, curve=False), I.arrow([[430, W + 34], [530, W + 34]], 3.0, I.AMBER, 3, dur=.4, curve=False),
+            I.label(430, W + 74, "5 m", 3.2, I.AMBER, 34),
+            I.box(340, W + 100, 180, 34, "#8a939c", r=12, at=4.4, fx="pop"), {"k": "poly", "p": [[382, W + 100], [402, W + 76], [472, W + 76], [494, W + 100]], "fill": "#6f777f", "c": "none", "w": 0, "in": 4.4, "fx": "pop"},
+            I.dot(377, W + 136, 13, "#2a2622", 4.5), I.dot(484, W + 136, 13, "#2a2622", 4.5), I.label(320, W + 128, "a car", 4.6, "#cbbca8", 28, "end")]
+    town = [{"k": "poly", "p": I.ellipse(500, 1010, 440, 250)[:-1], "fill": "rgba(232,184,122,.06)", "c": I.AMBER, "w": 3, "curve": True, "style": "inferred", "in": 6.0, "fx": "draw", "dur": 1.6}] + \
+           [I.box(x - 9, y - 7, 18, 14, "#a08260", r=2, at=round(6.6 + .04 * k, 2)) for k, (x, y) in enumerate(p for p in I.scatter(60, 90, 910, 800, 1240, 9)
+                                                                                                                  if ((p[0] - 500) / 430) ** 2 + ((p[1] - 1010) / 240) ** 2 < 1 and ((p[0] - 500) / 250) ** 2 + ((p[1] - 1010) / 135) ** 2 > 1)]
+    # the name: a Hittite tablet in the east, a kingdom in the west, a name that changes as it travels
+    names = {"base": "dark", "cam": [1, 500, 900], "els": [
+        I.box(600, 400, 260, 330, "#a8865e", "#e9dccb", 2, 14, .3), {"k": "glyphs", "x": 625, "y": 430, "w": 210, "h": 270, "rows": 9, "cols": 6, "kind": "cuneiform", "c": "#4a3522", "in": .6},
+        I.label(730, 780, "Hittite tablet", .8, "#cbbca8", 28),
+        I.arrow([[580, 560], [420, 560], [300, 560]], 2.2, I.AMBER, 4, dur=.9, curve=False), I.label(440, 530, "west", 2.4, I.AMBER, 28),
+        {"k": "poly", "p": [[150, 640], [290, 640], [280, 560], [250, 540], [190, 540], [160, 560]], "fill": "#b8a57c", "c": "#fff3dc", "w": 2, "in": 2.6, "fx": "rise"},
+        I.label(500, 930, "Wilusa", 3.0, I.BONE, 48, st="serif"), I.arrow([[500, 960], [500, 1010]], 3.6, I.AMBER, 3, dur=.3, curve=False),
+        I.label(500, 1070, "Wilios", 3.8, I.BONE, 48, st="serif"), I.arrow([[500, 1100], [500, 1150]], 4.3, I.AMBER, 3, dur=.3, curve=False),
+        I.label(500, 1210, "Ilion", 4.5, I.BONE, 48, st="serif"), I.glow(500, 1290, 110, 5.2, .6, "lamp"), I.label(500, 1320, "Troy", 5.3, I.AU, 52, st="serif")]}
+    # the treaty, read aloud three times a year; and a second name for Paris
+    wheel = [I.ring(500, 560, 130, .3, "#8c7152", 4, dur=1.0), I.label(500, 572, "1 year", .5, "#cbbca8", 30)] + \
+            [I.glow(500 + 130 * math.cos(a), 560 + 130 * math.sin(a), 46, 2.4 + .5 * k, .8, "lamp") for k, a in enumerate((-math.pi / 2, math.pi / 6, 5 * math.pi / 6))] + \
+            [I.dot(round(500 + 130 * math.cos(a), 1), round(560 + 130 * math.sin(a), 1), 15, I.AU, 2.4 + .5 * k) for k, a in enumerate((-math.pi / 2, math.pi / 6, 5 * math.pi / 6))]
+    court = [I.line([[140, 1060], [860, 1060]], 0, "#8c7152", 3, draw=False), I.box(250, 990, 120, 70, "#5a4330", r=6, at=.8), I.person(310, 1000, 190, .9),
+             I.line([[275, 820], [290, 795], [310, 815], [330, 795], [345, 820]], 1.1, I.AU, 4), I.person(620, 1060, 190, 1.4, c="#cbbca8"),
+             I.box(560, 900, 46, 60, "#a8865e", "#e9dccb", 1.5, 6, 1.6), I.label(310, 1110, "Alaksandu", 1.2, I.BONE, 34, st="serif")]
+    paris = [I.person(700, 1330, 150, 4.2, c=I.LILAC), I.label(700, 1380, "Alexandros", 4.6, I.LILAC, 34, st="serif"),
+             I.line([[400, 1130], [560, 1250], [640, 1270]], 5.4, I.LILAC, 3, "claimed", .8, curve=True), I.label(470, 1260, "?", 5.8, I.LILAC, 54, st="serif")]
+    treaty = {"base": "dark", "cam": [1, 500, 900], "els": wheel + court + paris}
+    # the fire, and four suspects
+    houses = [I.line([[100, 820], [900, 820]], .1, "#8c7152", 3, draw=False), I.box(100, 720, 800, 100, "#6a2a1a", r=0, at=.3, fx="fill", dur=.8)] + \
+             [I.box(x, 600, 150, 120, "none", "#cbb891", 4, 2, .6 + .2 * k) for k, x in enumerate((140, 425, 710))] + \
+             [I.glow(x, 640, 120, 1.0 + .3 * k, .9, "red") for k, x in enumerate((215, 500, 785))] + \
+             [I.tri(x, y, 13, rot, "#c9a06a", 2.6 + .15 * k) for k, (x, y, rot) in enumerate(((250, 770, 200), (420, 790, 160), (610, 760, 210), (760, 785, 170), (330, 800, 190)))] + \
+             [I.label(500, 880, "c. 1180 BCE", 1.6, I.RED, 34, st="serif")]
+    sus = [I.box(300, 400, 400, 120, "none", I.LILAC, 3, 10, .2, style="claimed")] + I.question(500, 490, .5, 80) + \
+          [I.person(170, 1290, 170, 1.4), I.line([[150, 1120], [170, 1090], [190, 1120]], 1.5, I.AMBER, 4), I.label(170, 1350, "Greeks?", 1.6, I.BONE, 30),
+           {"k": "boat", "x": 390, "y": 1270, "w": 170, "in": 2.4}, I.label(390, 1350, "raiders?", 2.6, I.BONE, 30),
+           I.person(610, 1290, 170, 3.2, c="#9fb0c0"), I.label(610, 1350, "rivals?", 3.4, I.BONE, 30),
+           I.ring(830, 1210, 70, 4.0, "#cbbca8", 4), I.line([[800, 1150], [830, 1205], [815, 1240], [845, 1275]], 4.6, I.RED, 4, dur=.4), I.label(830, 1350, "collapse?", 4.4, I.BONE, 30)]
+    fire = {"base": "dark", "cam": [1, 500, 900], "els": houses}
+    shovel = [I.glow(820, 1150, 140, .4, .55, "lamp"), I.line([[820, 960], [820, 1230]], .5, "#a8865e", 8, draw=False),
+              I.line([[795, 960], [845, 960]], .5, "#a8865e", 8, draw=False),
+              {"k": "poly", "p": [[790, 1230], [850, 1230], [845, 1300], [820, 1325], [795, 1300]], "fill": "#9aa0a8", "c": "#e9dccb", "w": 2, "in": .5, "fx": "pop"}]
+    layer = [I.arrow([[905, 1120], [905, 600]], 1.2, I.AMBER, 3, dur=1.2, curve=False), I.label(890, 1170, "oldest", 1.0, I.AMBER, 28, "end"), I.label(890, 570, "youngest", 2.4, I.AMBER, 28, "end")]
+    s0 = copy.deepcopy(ep["shots"][0])
+    s0["els"][-1]["items"] = [it for it in s0["els"][-1]["items"] if it.get("t") != "label"]
+    town.append(I.label(500, 1310, "lower town (schematic)", 6.4, I.AMBER, 30))
+    return remix(ep, scenes={0: s0, 2: names, 4: treaty, 5: fire}, alias={6: 0}, cams={6: [1.08, 500, 920]},
+                 drop=("para", "num", "title", "q", "cap"), adds={3: layer}, beat_adds={2: (wall + town, None)},
+                 line_adds={(0, 1): (diggers, None), (4, 1): (sus, None), (5, 1): (shovel, None)})
+
+
+def vinland_m():
+    """Vinland as one continuous take (see mural.py): a boat to the land of grapes, rings counted to the bark, 471 years, a nut from the south, a fake map."""
+    remix, I = _mur()
+    ep = vinland()
+    v = View(-72, 12, 44, 72, (40, 330, 920, 900))
+    bx, by = v.p(-51, 57)
+    lx, ly = v.p(-55.53, 51.6)
+    voyage = [{"k": "boat", "x": bx, "y": by, "w": 90, "in": 1.4},
+              *[I.dot(lx + dx, ly + 60 + dy, 9, "#9a7fc4", 2.6 + .06 * k) for k, (dx, dy) in enumerate(((0, 0), (16, 0), (8, 14), (-8, 14), (24, 14), (0, 28), (16, 28), (8, 42)))]]
+    sun = [I.glow(850, 430, 150, .4, .9, "sun"), I.ring(850, 430, 46, .6, I.AU, 4)]
+    book = [I.box(640, 1260, 250, 140, "#e8dcc2", "#8a7a66", 2, 6, .4), {"k": "glyphs", "x": 660, "y": 1278, "w": 210, "h": 100, "rows": 5, "cols": 7, "kind": "latin", "c": "#6a5a44", "in": .6},
+            I.label(620, 1350, "written c. 200 years later", 1.0, I.BONE, 28, "end")]
+    finds = [I.dot(230, 470, 26, "#4a4440", .3), I.glow(230, 470, 60, .3, .5, "red"), I.label(230, 545, "iron", .4, I.BONE, 30),
+             I.dot(500, 455, 16, "#b9a47c", .9), I.line([[500, 470], [500, 520]], .9, "#b9a47c", 7, draw=False), I.label(500, 560, "rivets", 1.0, I.BONE, 30),
+             {"k": "poly", "p": [[700, 520], [700, 470], [770, 430], [840, 470], [840, 520]], "fill": "#6f8a4a", "c": "#e9dccb", "w": 2, "in": 1.5, "fx": "rise"},
+             I.label(770, 560, "halls", 1.6, I.BONE, 30)]
+    # a slice of tree: a ring a year; the Sun's spike in 993; twenty-nine rings in from the bark of 1021
+    cx, cy = 500, 920
+    inner = [I.ring(cx, cy, 18 + 9 * k, .2 + .05 * k, "#7a5636" if k % 2 else "#8c6a48", 3, dur=.3) for k in range(15)]
+    outer = [I.ring(cx, cy, 160 + 7.57 * k, 3.6 + .03 * k, "#7a5636" if k % 2 else "#8c6a48", 3, dur=.3) for k in range(1, 29)]
+    disc = {"base": "dark", "cam": [1, 500, 900], "els": [I.oval(cx, cy, 384, 384, "#c9a370", "#5a3e26", 10, 1, .1)] + inner + outer +
+            [I.glow(880, 380, 150, 1.6, .9, "sun"), I.arrow([[800, 450], [700, 590], [610, 790]], 2.0, I.AU, 4, dur=.8), I.ring(cx, cy, 160, 2.4, I.AU, 7, dur=.6),
+             I.glow(cx, cy - 160, 70, 2.6, .8, "lamp"), I.label(cx, cy - 180, "993", 2.6, I.AU, 40, st="serif"),
+             I.line([[cx + 160, cy], [cx + 384, cy]], 4.0, I.BONE, 2, dur=.8)] +
+            [I.dot(round(cx + 160 + 7.57 * k, 1), cy, 4, I.AU, round(4.2 + .06 * k, 2)) for k in range(29)] +
+            [I.label(cx + 272, cy + 50, "29 rings", 6.0, I.AU, 32), I.line([[cx + 372, cy - 70], [cx + 410, cy - 30], [cx + 372, cy + 10]], 5.0, I.RED, 6, dur=.4),
+             I.label(cx, cy + 440, "1021: cut", 6.4, I.BONE, 36, st="serif")]}
+    X = lambda y: 120 + 760 * (y - 1000) / 500
+    span = {"base": "dark", "cam": [1, 500, 800], "els": [I.line([[100, 960], [900, 960]], .1, "#cbbca8", 3, dur=.8), I.label(120, 1020, "1000", .3, "#9a938a", 28),
+            I.label(880, 1020, "1500", .3, "#9a938a", 28), I.dot(X(1021), 960, 14, I.AU, .5), I.label(X(1021) + 4, 1070, "1021", .6, I.AU, 36, "start", st="serif"),
+            {"k": "boat", "x": X(1021) + 60, "y": 900, "w": 120, "in": .6},
+            I.arrow([[X(1021), 860], [500, 700], [X(1492), 860]], 1.4, I.AMBER, 4, dur=1.4), I.label(500, 660, "471 years", 2.2, I.AMBER, 48, st="serif"),
+            I.dot(X(1492), 960, 14, I.BONE, 2.6), I.label(X(1492) - 4, 1070, "Columbus, 1492", 2.6, I.BONE, 32, "end"),
+            {"k": "boat", "x": X(1492) - 70, "y": 900, "w": 120, "in": 2.8}]}
+    # the butternut: no trees in Newfoundland; they grow further south
+    v2 = View(-70, -52, 44, 53.5, (40, 300, 920, 1100))
+    nl = v2.p(-56.5, 49.2); bn = v2.p(-66.5, 46.3); la = v2.p(-55.53, 51.6)
+    nx, ny = v2.p(-54.3, 45.6)
+    nut = [{"k": "poly", "p": [[nx - 35, ny + 35], [nx - 17, ny - 35], [nx + 17, ny - 35], [nx + 35, ny + 35], [nx, ny + 63]], "fill": "#8c6a48", "c": "#e9dccb", "w": 2, "curve": True, "in": .3},
+           I.line([[nx, ny - 30], [nx, ny + 57]], .4, "#5a4330", 2, draw=False), I.label(nx, ny + 110, "a butternut", .5, I.BONE, 30)]
+    south = mapshot(v2, pins=[("L'Anse aux Meadows", -55.53, 51.6, {"c": GOLD, "a": "end", "lx": -18, "ly": -22})],
+                    extra=nut + [I.line([[nl[0] - 40, nl[1] - 40], [nl[0] + 40, nl[1] + 40]], 2.0, I.RED, 7, dur=.4), I.line([[nl[0] - 40, nl[1] + 40], [nl[0] + 40, nl[1] - 40]], 2.2, I.RED, 7, dur=.4),
+                                 {"k": "poly", "p": I.ellipse(bn[0], bn[1], 150, 80)[:-1], "fill": "rgba(143,217,176,.16)", "c": I.GREEN, "w": 3, "curve": True, "style": "inferred", "in": 3.0, "fx": "draw", "dur": 1.0},
+                                 I.label(bn[0], bn[1] + 120, "butternut country", 3.2, I.GREEN, 30),
+                                 I.arrow([[la[0] - 10, la[1] + 20], [la[0] - 200, la[1] + 120], [bn[0] + 90, bn[1] - 70]], 4.2, I.AMBER, 4, "inferred", 1.2)],
+                    cam=[1, 500, 900])
+    # the Vinland Map: a parchment, a lens, a modern pigment
+    fake = {"base": "dark", "cam": [1, 500, 900], "els": [I.box(150, 420, 700, 480, "#d9c49a", "#8a6a48", 3, 8, .2),
+            I.line([[230, 560], [290, 500], [360, 520], [380, 600], [310, 640], [240, 610], [230, 560]], .5, "#5a4330", 4, dur=.6, curve=True),
+            I.line([[430, 520], [520, 480], [600, 540], [580, 650], [500, 700], [440, 640], [430, 520]], .8, "#5a4330", 4, dur=.6, curve=True),
+            I.line([[640, 640], [720, 600], [790, 680], [760, 800], [680, 820], [640, 740], [640, 640]], 1.1, "#5a4330", 4, dur=.6, curve=True),
+            I.strike(170, 880, 830, 440, 2.0, I.RED, 8),
+            I.ring(700, 1080, 120, 2.8, I.BLUE, 6), I.line([[785, 1165], [870, 1250]], 2.8, I.BLUE, 10, draw=False)] +
+           [I.dot(x, y, 6, "#f4f7fa", 3.3 + .03 * k) for k, (x, y) in enumerate(I.scatter(24, 620, 780, 1010, 1150, 5))] +
+           [I.label(560, 1100, "1920s pigment", 3.6, I.BLUE, 32, "end"),
+            {"k": "poly", "p": [[160, 1400], [220, 1290], [330, 1260], [440, 1290], [500, 1400]], "fill": "#5a4330", "c": "#8a6a48", "w": 2, "in": 4.6, "fx": "rise"},
+            {"k": "poly", "p": [[316, 1380], [344, 1380], [344, 1320], [336, 1306], [336, 1296], [324, 1296], [324, 1306], [316, 1320]], "fill": "rgba(159,208,255,.75)", "c": I.BLUE, "w": 2, "in": 5.2, "fx": "pop"}]}
+    where = [I.ring(lx, ly, 34, 1.2, I.AU, 5), I.glow(lx, ly, 80, 1.2, .7, "lamp"),
+             I.arrow([[lx - 14, ly + 24], [lx - 50, ly + 120], [130, ly + 190]], 3.2, I.LILAC, 4, "claimed", 1.0)] + I.question(130, ly + 262, 3.8, 72) + \
+            [I.label(172, ly + 250, "Vinland?", 4.0, I.LILAC, 32, "start")]
+    return remix(ep, scenes={2: disc, 3: span, 4: south, 5: fake}, alias={6: 1}, cams={6: [1.0, 500, 880]},
+                 drop=("para", "num", "title", "q", "cap"), adds={1: voyage, 0: finds}, beat_adds={5: (where, None)},
+                 line_adds={(0, 1): (sun, None), (1, 1): (book, None)})
+
+
+def knossos_m():
+    """Knossos as one continuous take (see mural.py): a myth in three pictures, bulls everywhere, honey for the Labyrinth, Evans's concrete, and a volcano next door."""
+    remix, I = _mur()
+    ep = knossos()
+    myth = [I.line([[188, 470], [140, 455], [122, 410]], .3, I.LILAC, 4, "claimed", curve=True), I.line([[252, 470], [300, 455], [318, 410]], .3, I.LILAC, 4, "claimed", curve=True),
+            I.oval(220, 505, 38, 56, "none", I.LILAC, 3, 1, .3, style="claimed"),
+            {"k": "boat", "x": 500, "y": 500, "w": 160, "in": 2.0},
+            {"k": "poly", "p": [[720, 540], [780, 430], [800, 430], [860, 540]], "fill": "#5a4636", "c": "#8a6a48", "w": 2, "in": 3.2, "fx": "rise"},
+            I.glow(790, 420, 80, 3.6, .9, "red")]
+    walk = [I.line([[360, 1060], [420, 1000], [520, 1040], [600, 980], [560, 920], [450, 940], [400, 880], [500, 840], [640, 870]], .3, I.AU, 6, "inferred", 2.2, curve=True),
+            I.person(640, 880, 50, 2.4, c="#e8d6b8")] + I.question(700, 820, 2.8, 60)
+    # bulls: a wall painting, a vessel, the stone horns
+    fresco = [I.box(120, 380, 760, 400, "#d9b98a", "#3f86a8", 10, 6, .2),
+              I.oval(500, 640, 170, 66, "#3a2a22", "none", 0, 1, .6),
+              {"k": "poly", "p": [[650, 600], [740, 580], [770, 620], [740, 660], [660, 670]], "fill": "#3a2a22", "c": "none", "w": 0, "in": .6},
+              I.line([[740, 585], [760, 540], [790, 530]], .7, "#efe6d2", 4, draw=False), I.line([[720, 585], [725, 545], [705, 520]], .7, "#efe6d2", 4, draw=False),
+              *[I.line([[x, 690], [x + 6, 750]], .7, "#3a2a22", 9, draw=False) for x in (380, 420, 570, 610)],
+              I.line([[335, 620], [300, 680]], .7, "#3a2a22", 4, draw=False),
+              I.person(470, 568, 110, 1.4, c="#b0301e"), I.label(500, 830, "a wall painting", 1.0, I.BONE, 28)]
+    vessel = [{"k": "poly", "p": [[230, 1020], [330, 1020], [345, 1100], [320, 1170], [240, 1170], [215, 1100]], "fill": "#2a2622", "c": "#e8c35a", "w": 2, "curve": True, "in": 2.6},
+              I.line([[235, 1030], [200, 980], [215, 940]], 2.8, I.AU, 6, draw=False), I.line([[325, 1030], [360, 980], [345, 940]], 2.8, I.AU, 6, draw=False),
+              I.dot(255, 1080, 7, "#e9dccb", 2.8), I.dot(305, 1080, 7, "#e9dccb", 2.8), I.label(280, 1240, "bull's-head vessel", 2.9, I.BONE, 28)]
+    hx, hy, hs = 560, 1170, .55
+    horns = [{"k": "poly", "p": [[round(hx + (x - 300) * hs, 1), round(hy + (y - 1000) * hs, 1)] for x, y in [[300, 1000], [700, 1000], [700, 940], [640, 940], [620, 760], [580, 760], [590, 900], [410, 900], [420, 760], [380, 760], [360, 940], [300, 940]]],
+              "fill": "#d9c9a6", "c": "#fff3dc", "w": 2, "curve": False, "in": 4.2, "fx": "rise"}, I.label(670, 1240, "stone horns", 4.4, I.BONE, 28)]
+    bulls = {"base": "dark", "cam": [1, 500, 840], "els": fresco + vessel + horns}
+    x0, y0, s = 620, 1170, 34
+    path = [(0, 0), (6, 0), (6, 6), (0, 6), (0, 1), (5, 1), (5, 5), (1, 5), (1, 2), (4, 2), (4, 4), (2, 4), (2, 3), (3, 3)]
+    maze = [I.box(x0 - 10, y0 - 10, 6 * s + 20, 6 * s + 20, "rgba(18,13,10,.6)", "none", 0, 8, 2.4),
+            I.line([[x0 + px * s, y0 + py * s] for px, py in path], 2.6, I.AU, 5, dur=2.0)]
+    honey = [{"k": "poly", "p": [[250, 1180], [330, 1180], [350, 1260], [320, 1350], [260, 1350], [230, 1260]], "fill": "#c8743c", "c": "#e9dccb", "w": 2, "curve": True, "in": 1.2, "fx": "pop"},
+             I.box(262, 1160, 56, 24, "#a8865e", r=4, at=1.2), I.glow(290, 1270, 90, 1.4, .6, "lamp"), I.label(290, 1400, "honey", 1.5, I.AU, 30)]
+    # Evans: ruins, then concrete columns, a roof, names, and the jigsaw analogy
+    G = 1150
+    ruin = [I.line([[100, G], [900, G]], .1, "#8c7152", 3, draw=False)] + [I.box(x, G - h, w, h, "#b8a57c", "#fff3dc", 1.5, 2, .3 + .1 * k) for k, (x, w, h) in enumerate(((150, 120, 60), (300, 90, 40), (440, 140, 70), (620, 100, 50), (760, 110, 80)))] + \
+           [I.person(130, G, 150, 1.0), I.label(130, G + 50, "Evans, 1900", 1.2, I.BONE, 28, "start")]
+    cols = []
+    for k, x in enumerate((330, 500, 670)):
+        cols += [{"k": "poly", "p": [[x - 18, G - 70], [x + 18, G - 70], [x + 26, G - 330], [x - 26, G - 330]], "fill": "#b0301e", "c": "#8a939c", "w": 2, "in": 2.4 + .3 * k, "fx": "rise"},
+                 I.box(x - 34, G - 360, 68, 30, "#1a1511", "#8a939c", 1.5, 4, 2.4 + .3 * k)]
+    cols += [I.box(250, G - 390, 500, 32, "#8a939c", "#cbbca8", 1.5, 3, 3.6, fx="pop"), I.box(270, G - 560, 460, 170, "none", I.LILAC, 3, 4, 4.0, style="inferred"),
+             I.label(500, G - 600, "his reconstruction", 4.2, I.LILAC, 28)]
+    tag = [I.line([[780, G - 300], [780, G - 250]], 5.0, "#cbbca8", 2, draw=False), I.box(700, G - 250, 160, 50, "#e8dcc2", "#8a7a66", 2, 6, 5.0, fx="pop"),
+           I.label(780, G - 215, "Throne Room", 5.1, I.INK, 24, halo=False)]
+    jig = sum([[I.box(170 + 112 * k, 380, 100, 100, "#c9a370" if k in (0, 2, 3) else "rgba(201,193,238,.25)", "#e9dccb" if k in (0, 2, 3) else I.LILAC, 2, 8,
+                      .2 if k in (0, 2, 3) else 6.4 + .3 * j, style="known" if k in (0, 2, 3) else "inferred", fx="pop")] for j, k in enumerate(range(6))], [])
+    evans = {"base": "dark", "cam": [1, 500, 820], "els": ruin + cols + tag + jig}
+    # the volcano next door, and the palace that carried on
+    v = View(21.8, 28.6, 34.4, 38.6, (40, 330, 920, 900))
+    kn, th = v.p(25.1631, 35.298), v.p(25.4, 36.4)
+    X = lambda yr: round(120 + 760 * (yr + 2000) / 700, 1)
+    ext = [I.glow(th[0], th[1], 120, 1.0, .95, "red")] + [I.oval(th[0] + 20 * k, th[1] - 50 - 55 * k, 40 + 12 * k, 26 + 6 * k, "#8a8378", "none", 0, .55, 1.4 + .3 * k) for k in range(4)] + \
+          [I.line([kn, th], 2.2, I.BONE, 2, "inferred", .8), I.label((kn[0] + th[0]) / 2 + 20, (kn[1] + th[1]) / 2, "over 100 km", 2.4, I.BONE, 28, "start"),
+           I.line([[120, 1330], [880, 1330]], 2.8, "#cbbca8", 3, dur=.8), I.label(120, 1305, "2000 BCE", 2.9, "#9a938a", 26, "start"), I.label(880, 1305, "1300 BCE", 2.9, "#9a938a", 26, "end"),
+           I.box(X(-1611), 1312, X(-1538) - X(-1611), 36, I.RED, r=4, at=3.4, fx="pop"), I.label((X(-1611) + X(-1538)) / 2, 1290, "eruption window", 3.6, I.RED, 28)]
+    volc = mapshot(v, pins=[("Knossos", 25.1631, 35.298, {"c": GOLD}), ("Thera · Santorini", 25.4, 36.4, {"c": RED})],
+                   extra=[{"k": "label", "x": v.p(24.8, 34.9)[0], "y": v.p(24.8, 34.9)[1], "t": "Crete", "st": "ital", "c": "#c9ad85"}, {"k": "scale", "x": 80, "y": 1240, "w": v.km(100), "t": "100 km"}] + ext,
+                   cam=[1, 500, 900])
+    after = [I.line([[X(-1900), 1420], [X(-1350), 1420]], .3, I.AU, 12, dur=2.0), I.label(X(-1900) - 10, 1428, "Knossos", .4, I.AU, 26, "end"),
+             I.arrow([[X(-1350) + 10, 1420], [900, 1420]], 3.0, I.LILAC, 3, "claimed", .6, curve=False)]
+    frame = [I.box(110, 700, 780, 560, "none", I.AU, 4, 18, .5, fx="draw", dur=1.6)]
+    s0 = copy.deepcopy(ep["shots"][0])
+    s0["els"][-1]["items"] = [it for it in s0["els"][-1]["items"] if it.get("t") != "label"]
+    myth.append(I.label(500, 1330, "central court: about 50 m", 10.5, I.AMBER, 30))
+    return remix(ep, scenes={0: s0, 3: bulls, 5: evans, 4: volc}, alias={1: 0, 6: 0}, cams={6: [1.12, 500, 960], 2: [1, 500, 980]},
+                 drop=("para", "num", "title", "q", "cap"), adds={0: myth, 2: honey + maze},
+                 line_adds={(1, 1): (walk, None), (4, 1): (after, None), (5, 1): (frame, None)})
+
+
+def amazon_m():
+    """The Amazon's garden cities as one continuous take (see mural.py): lasers through leaves, 240 squares, a day of thirteen thousand years, and a compost heap."""
+    remix, I = _mur()
+    ep = amazon()
+    lasers = [{"k": "fan", "x": 500, "y": 380, "a0": 62, "a1": 118, "r": 620, "n": 13, "c": "#9fd0ff", "in": .3},
+              {"k": "poly", "p": [[440, 372], [560, 372], [580, 380], [560, 388], [440, 388]], "fill": "#cbbca8", "c": "none", "w": 0, "in": .2},
+              {"k": "poly", "p": [[485, 380], [525, 380], [500, 345]], "fill": "#cbbca8", "c": "none", "w": 0, "in": .2}]
+    who = I.question(820, 470, .8, 90)
+    # lidar, side view: pulses stop in the leaves, a few reach the ground; the platforms appear
+    G = 1150
+    crowns = [I.oval(110 + 100 * k, 860 + (18 if k % 2 else 0), 46, 40, "#2f5a34", "#4f8a50", 2, 1, .4 + .05 * k) for k in range(9)]
+    trunks = [I.line([[110 + 100 * k, 900 + (18 if k % 2 else 0)], [110 + 100 * k, G]], .3, "#3a2a1e", 6, draw=False) for k in range(9)]
+    plane = [{"k": "poly", "p": [[420, 420], [580, 420], [600, 430], [580, 440], [420, 440]], "fill": "#cbbca8", "c": "none", "w": 0, "in": 1.5, "fx": "pop"},
+             {"k": "poly", "p": [[470, 430], [530, 430], [495, 470]], "fill": "#cbbca8", "c": "none", "w": 0, "in": 1.5, "fx": "pop"}]
+    hits = [I.line([[x, 470], [x, 830 + (18 if k % 2 else 0)]], 2.6 + .08 * k, I.BLUE, 2, dur=.4) for k, x in enumerate(range(110, 920, 100))]
+    gaps = [I.line([[x, 470], [x, G - 4]], 3.8 + .2 * j, I.BLUE, 3, dur=.6) for j, x in enumerate((160, 360, 560, 760))] + \
+           [I.dot(x, G - 4, 8, I.BLUE, 4.4 + .2 * j) for j, x in enumerate((160, 360, 560, 760))]
+    plat = [{"k": "poly", "p": [[x0, G], [x1, G], [x1 - 14, G - h], [x0 + 14, G - h]], "fill": "rgba(232,195,90,.35)", "c": I.AU, "w": 3, "in": 6.0 + .2 * k, "fx": "pop"}
+            for k, (x0, x1, h) in enumerate(((130, 260, 44), (300, 420, 60), (470, 540, 36), (600, 740, 56), (790, 880, 40)))]
+    lidar = {"base": "dark", "cam": [1, 500, 900], "els": [I.line([[60, G], [940, G]], .1, "#8c7152", 3, draw=False), I.box(60, G, 880, 120, "#3a2f24", r=0, at=.1)] + trunks + crowns + plane + hits + gaps + plat +
+             [I.label(500, 1340, "6,000 platforms", 6.8, I.AU, 44, st="serif")]}
+    v = View(-82, -34, -22, 6, (40, 330, 920, 900))
+    up, mo = v.p(-78.1, -2.3), v.p(-65.0, -14.8)
+    tall = [I.ring(up[0], up[1], 30, .2, I.AU, 4), I.ring(mo[0], mo[1], 30, .4, I.AU, 4),
+            {"k": "poly", "p": [[560, 1400], [740, 1400], [700, 1260], [600, 1260]], "fill": "#6a5640", "c": "#cbb891", "w": 2, "in": .8, "fx": "rise"},
+            I.box(790, 1266, 70, 134, "#8a939c", "#cbbca8", 2, 2, 1.4, fx="fill", dur=.8)] + \
+           [I.line([[790, 1400 - 19.1 * k], [860, 1400 - 19.1 * k]], 1.6, "#5a5550", 2, draw=False) for k in range(1, 7)] + \
+           [I.label(650, 1240, "22 m", 1.2, I.AU, 30), I.label(825, 1240, "7 floors", 1.8, "#cbbca8", 26)]
+    grid = {"base": "dark", "cam": [1, 500, 820], "els": [I.box(140 + 45 * (k % 16), 420 + 42 * (k // 16), 28, 28, "none", I.AU, 2.5, 3, round(.2 + .012 * k, 3)) for k in range(240)] +
+            [I.label(500, 1150, "24,000+ earthworks", 1.0, I.AU, 48, st="serif"), I.box(470, 1210, 22, 22, "none", I.AU, 2.5, 3, 3.2),
+             I.label(505, 1230, "= 100 earthworks", 3.3, I.BONE, 30, "start")]}
+    X = lambda ago: round(880 - 760 * ago / 13000, 1)
+    claim = {"base": "dark", "cam": [1, 500, 900], "els": [I.line([[100, 900], [900, 900]], .2, "#cbbca8", 3, dur=1.0), I.label(110, 960, "13,000 years ago", .4, "#9a938a", 28, "start"),
+             I.label(890, 960, "today", .4, "#9a938a", 28, "end"),
+             I.line([[X(12800), 900], [X(12800), 650]], 1.8, I.LILAC, 4, "claimed", .6), I.label(X(12800) - 10, 620, "lost civilisation?", 2.0, I.LILAC, 32, "start"),
+             I.arrow([[X(12800) + 10, 640], [500, 520], [X(2600), 840]], 3.6, I.LILAC, 3, "claimed", 1.4)]}
+    dates = [I.box(X(2600), 880, X(0) - X(2600) - 20, 40, I.AU, r=4, at=.8, fx="pop"), I.label(X(0) - 10, 850, "earthworks", 1.0, I.AU, 30, "end")] + \
+            [I.box(120 + 31.6 * k, 1160, 28, 40, I.AU if k >= 19 else "#4a4038", r=3, at=round(2.6 + .04 * k, 2)) for k in range(24)] + \
+            [I.label(120, 1120, "one day", 2.6, "#cbbca8", 28, "start"), I.label(880, 1250, "the last 5 hours", 3.8, I.AU, 30, "end")]
+    crops = [I.line([[X(10000), 900], [X(10000), 760]], .3, I.GREEN, 4, dur=.5), I.label(X(10000), 735, "first crops", .5, I.GREEN, 30),
+             I.arrow([[X(10000) + 10, 1000], [X(2600) - 10, 1000]], 1.6, I.GREEN, 4, "known", 1.4, False)]
+    soil = [I.tri(x, y, 12, rot, c, round(.8 + .1 * k, 2)) for k, (x, y, rot, c) in enumerate(((470, 720, 10, "#b0503a"), (620, 760, 70, "#c8743c"), (780, 700, 30, "#b0503a"), (540, 820, 50, "#c8743c"), (700, 840, 0, "#b0503a")))] + \
+           [I.dot(x, y, 7, "#0d0b09", round(1.6 + .05 * k, 2)) for k, (x, y) in enumerate(I.scatter(14, 430, 880, 690, 860, 8))] + \
+           [I.line([[x, y], [x + 22, y - 6]], 2.4 + .1 * k, "#efe6d2", 4, draw=False) for k, (x, y) in enumerate(((600, 700), (740, 790), (480, 850)))] + \
+           [I.arrow([[940, 870], [940, 660]], 3.4, I.AMBER, 3, "known", 1.4, False)]
+    today = [I.person(790, 640, 120, .4), I.person(870, 640, 100, .7), I.glow(730, 625, 70, 1.0, .9, "red"), I.oval(730, 628, 26, 12, "#8c6a48", "none", 0, 1, 1.0)]
+    people = [I.person(330, 1120, 70, .3), I.person(430, 1150, 64, .5), I.person(620, 1100, 70, .7), I.glow(500, 1110, 120, .6, .45, "lamp")]
+    s0 = copy.deepcopy(ep["shots"][0])
+    s0["els"][-1]["items"] = [it for it in s0["els"][-1]["items"] if it.get("t") != "label"]
+    lasers.append(I.label(500, 1330, "as lidar sees them (schematic)", 1.2, "#cfe6ff", 30))
+    return remix(ep, scenes={0: s0, 2: lidar, 3: grid, 5: claim}, alias={6: 0}, cams={6: [1.12, 500, 960]},
+                 drop=("para", "num", "title", "q", "cap"), adds={0: lasers, 1: tall, 4: soil}, beat_adds={3: (dates, None)},
+                 line_adds={(0, 1): (who, None), (3, 1): (crops, None), (4, 1): (today, None), (5, 1): (people, None)})
+
+
 def ledger_recap():
     """The ledger as a science-show recap: every case gets its moment in the cabinet (see recap.py; narration in rewrite/ledgers/myths-ledger.json)."""
     import recap
@@ -531,4 +781,4 @@ def ledger_recap():
 
 
 def EPISODES():
-    return [troy(), vinland(), knossos(), sea_peoples_m(), amazon(), arthur_m(), shroud_m(), ledger_recap()]
+    return [troy_m(), vinland_m(), knossos_m(), sea_peoples_m(), amazon_m(), arthur_m(), shroud_m(), ledger_recap()]

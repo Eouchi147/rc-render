@@ -75,6 +75,73 @@ def exodus():
               ["#Exodus", "#Egypt", "#Archaeology", "#History", "#Sinai"])
 
 
+def _m10():
+    """The mural kit for File 10's continuous takes (see mural.py and illus.py)."""
+    from mural import remix
+    import illus
+    return remix, illus
+
+
+def exodus_m():
+    """The Exodus as one continuous take (see mural.py): the Delta opens like a hand, a stone names a people, two million people
+    become two hundred dots, a desert is walked in lines and stays empty, and a few families carry a story on. Only the ground is weighed."""
+    remix, I = _m10()
+    ep = exodus()
+    G = "#e8c878"
+    # 1 · the Delta, where the river opens like a hand; people from the east; Ramesses' capital; then the stone that names Israel
+    tips = [(290, 400), (390, 380), (500, 372), (610, 380), (710, 400)]
+    delta = {"base": "dark", "cam": [1, 500, 880], "els": [
+        I.box(120, 300, 760, 56, "rgba(63,134,168,.55)", r=10, at=.2),
+        I.line([[500, 860], [500, 600]], .4, I.BLUE, 6, dur=.8),
+        I.arrow([[930, 560], [800, 520], [690, 500]], 2.0, I.AMBER, 3, "known", 1.0)] +
+        [I.person(850 + 30 * k, 650, 56, 2.2 + .2 * k) for k in range(3)] +
+        [{"k": "poly", "p": [[500, 600], [290, 392], [710, 392]], "fill": "rgba(127,163,90,.35)", "c": "none", "w": 0, "in": 5.6}] +
+        [I.line([[500, 600], [round((500 + x) / 2, 1), round((600 + y) / 2 + 12, 1)], [x, y]], 5.8 + .15 * k, I.BLUE, 4, dur=.7, curve=True) for k, (x, y) in enumerate(tips)] +
+        [I.label(430, 560, "the Delta", 6.4, "#bfe0a8", 30, "end"),
+         I.dot(620, 470, 12, I.AU, 7.8), I.glow(620, 470, 70, 7.8, .7), I.label(640, 448, "Ramesses' capital", 8.0, I.AU, 30, "start"),
+         I.box(330, 790, 340, 590, "#9a9288", "#6a645c", 2, 18, 9.8, fx="pop"),
+         {"k": "glyphs", "x": 360, "y": 830, "w": 280, "h": 490, "rows": 9, "cols": 6, "kind": "hieroglyph", "in": 10.1},
+         I.label(690, 880, "c. 1208 BCE", 11.0, I.AU, 36, "start", st="serif"),
+         I.box(342, 1262, 316, 58, "none", I.AMBER, 4, 8, 12.2, fx="draw", dur=.8), I.glow(500, 1290, 200, 12.2, .4),
+         I.person(745, 1330, 92, 13.4), I.person(790, 1330, 84, 13.6)] +
+        [I.line([[828 + 18 * k, 1262], [828 + 18 * k, 1330]], 13.8 + .1 * k, I.BONE, 6, draw=False) for k in range(3)] +
+        [I.label(800, 1390, "a people", 14.0, I.AMBER, 30)]}
+    # 3 · the headcount: one dot for ten thousand people; sixty dots of men, then the families, two hundred in all
+    dots = [I.dot(215 + 30 * (k % 20), 560 + 36 * (k // 20), 11, I.AMBER if k < 60 else I.BONE, round(1.8 + .02 * k, 2) if k < 60 else round(3.4 + .008 * (k - 60), 3)) for k in range(200)]
+    eiffel = [[440, 1390], [474, 1290], [488, 1215], [497, 1140], [500, 1100], [503, 1140], [512, 1215], [526, 1290], [560, 1390]]
+    head = {"base": "dark", "cam": [1, 500, 900], "els": [I.label(500, 450, "one dot = 10,000 people", .5, "#cbbca8", 30),
+            I.label(215, 528, "600,000 men", 2.6, I.AMBER, 32, "start")] + dots + [
+            I.glow(500, 985, 240, 4.4, .35), I.label(500, 1020, "2,000,000", 4.4, I.AU, 84, st="big", fx="pop"),
+            I.line(eiffel, 5.6, "#cbbca8", 3, dur=1.0), I.line([[468, 1290], [532, 1290]], 6.2, "#cbbca8", 3, draw=False), I.line([[484, 1215], [516, 1215]], 6.2, "#cbbca8", 3, draw=False),
+            I.label(590, 1380, "Paris", 6.2, "#cbbca8", 30, "start")]}
+    # 4 · the desert that should be full: dashed camps where two million would leave hearths, then the survey lines, and nothing
+    R = [(220, 545), (420, 600), (660, 560), (820, 660), (300, 760), (560, 800), (780, 900), (210, 990), (450, 1040), (690, 1120)]
+    desert = {"base": "dark", "cam": [1, 500, 880], "els": [I.box(110, 470, 780, 760, "rgba(201,166,117,.22)", "rgba(201,166,117,.5)", 2, 18, .2),
+              I.label(500, 430, "what two million would leave", 1.0, I.LILAC, 30)] +
+              [I.ring(x, y, 38, round(.6 + .18 * k, 2), I.LILAC, 5, "claimed", .6) for k, (x, y) in enumerate(R)] +
+              [I.dot(x, y, 6, I.AMBER, round(.7 + .18 * k, 2)) for k, (x, y) in enumerate(R)] +
+              [I.person(300 + 200 * k, 1300, 70, 3.4 + .2 * k) for k in range(3)] +
+              [I.line([[130, 520 + 120 * k], [870, 520 + 120 * k]], round(3.8 + .3 * k, 2), I.BLUE, 3, "inferred", 1.0) for k in range(6)] +
+              [I.label(500, 1385, "nothing from that century", 6.2, I.BONE, 32)]}
+    # 5 · why the silence is weak: papyrus rots in wet ground, a tent ring slips between survey lines; a few families, and a story carried on
+    rev = {"base": "dark", "cam": [1, 500, 880], "els": [I.box(120, 520, 760, 160, "rgba(63,134,168,.55)", r=8, at=2.2, fx="fill", dur=1.4),
+           I.box(300, 400, 400, 200, "#d8c9a8", "#8a7a66", 2, 6, .4)] +
+           [I.line([[330, 440 + 30 * k], [670, 440 + 30 * k]], .6 + .1 * k, "#8a7a66", 3, draw=False) for k in range(5)] + [
+           I.box(300, 400, 400, 200, "rgba(42,32,24,.92)", r=6, at=4.0, fx="fill", dur=1.6),
+           I.label(500, 730, "papyrus rots", 4.6, "#cbbca8", 30),
+           I.line([[120, 960], [880, 960]], 6.0, "#8a6a48", 3, draw=False)] +
+           [I.dot(round(500 + 70 * math.cos(math.radians(a)), 1), round(945 + 18 * math.sin(math.radians(a)), 1), 7, "#cbbca8", round(6.2 + .04 * j, 2)) for j, a in enumerate(range(0, 360, 40))] + [
+           {"k": "poly", "p": [[430, 940], [500, 850], [570, 940]], "fill": "none", "c": I.LILAC, "w": 3, "style": "claimed", "in": 6.8},
+           I.line([[120, 860], [880, 860]], 8.6, I.BLUE, 3, "inferred", 1.0), I.line([[120, 1030], [880, 1030]], 9.0, I.BLUE, 3, "inferred", 1.0),
+           I.label(600, 925, "missed", 9.8, I.LILAC, 30, "start")] +
+           [I.person(160 + 50 * k, 1330, 80 - 10 * (k % 2), round(11.4 + .2 * k, 2)) for k in range(5)] + [
+           I.label(260, 1395, "a few families", 11.8, "#cbbca8", 30),
+           I.line([[420, 1270], [600, 1240], [760, 1200], [900, 1180]], 14.8, G, 4, dur=2.0, curve=True), I.glow(880, 1180, 80, 16.4, .7),
+           I.label(760, 1150, "a story", 16.0, G, 30)]}
+    gold = [I.box(90, 480, 820, 920, "none", G, 5, 18, .2, fx="draw", dur=2.0)]
+    return remix(ep, scenes={1: delta, 3: head, 4: desert, 5: rev}, alias={6: 0}, cams={6: [1.15, 500, 880]}, line_adds={(5, 1): (gold, None)})
+
+
 # ---------------------------------------------------------------- 10.02 Jericho
 def jericho():
     mound = [[80 * math.cos(math.radians(a)) * (1 + .12 * math.sin(3 * a * math.pi / 180)), 46 * math.sin(math.radians(a))] for a in range(0, 360, 15)]
@@ -122,6 +189,64 @@ def jericho():
               ["#Jericho", "#Archaeology", "#Bible", "#History", "#Radiocarbon"])
 
 
+def jericho_m():
+    """Jericho as one continuous take (see mural.py): the tell cut open layer by layer, the walls the story needs, a carbon clock that
+    dates the fire a century and more earlier, rain taking the top of the mound, and a hill still mostly undug. Only layers and dates are weighed."""
+    import copy
+    remix, I = _m10()
+    ep = jericho()
+    # 2 · the mound cut open (the original section, its long labels lifted): the tower, the Bronze Age walls, the burnt city, in the order named
+    sec = copy.deepcopy(ep["shots"][2])
+    sec["els"] = [I.box(440, 1110, 120, 230, I.AU, "#8a6a48", 2, 10, 2.8, fx="fill", dur=1.0), I.glow(500, 1200, 140, 2.8, .4),
+                  I.box(300, 930, 60, 110, "#cbbca8", r=3, at=3.6, fx="fill"), I.box(640, 930, 60, 110, "#cbbca8", r=3, at=3.8, fx="fill"),
+                  I.glow(420, 800, 110, 5.0, .8, "red"), I.glow(640, 790, 90, 5.2, .7, "red"),
+                  I.box(330, 744, 40, 100, "#1a1511", "#cbbca8", 2, 3, 5.4, fx="fill"), I.box(600, 744, 40, 100, "#1a1511", "#cbbca8", 2, 3, 5.5, fx="fill")]
+    # on the return: Kenyon's scraps, the lost top of the mound drawn dashed, and the rain that took it
+    top = [[140, 640], [260, 590], [380, 545], [500, 525], [620, 545], [740, 590], [860, 640]]
+    rain = [I.box(600, 612, 70, 28, I.AMBER, r=3, at=2.4, fx="pop"), I.oval(720, 690, 22, 12, "#cbbca8", at=3.0), I.oval(790, 705, 22, 12, "#cbbca8", at=3.2),
+            I.label(700, 600, "scraps", 3.4, I.AMBER, 30, "start"),
+            I.line(top, 5.0, I.LILAC, 3, "claimed", dur=1.2, curve=True)] + \
+           [I.line([[200 + 66 * k, 300 + 24 * (k % 3)], [182 + 66 * k, 370 + 24 * (k % 3)]], round(5.6 + .08 * k, 2), I.BLUE, 3, op=.65) for k in range(10)] + \
+           [I.label(500, 480, "washed away", 6.0, I.LILAC, 32)]
+    # 3 · what the story needs: walls on the mound, falling; on the usual reading of the Bible's dates, about 1400 BCE
+    mound = {"k": "poly", "p": [[100, 1300], [260, 1060], [420, 985], [580, 985], [740, 1060], [900, 1300]], "fill": "#6f5840", "c": "none", "w": 0, "curve": True, "in": .3, "fx": "fill", "dur": 1.0}
+    story = {"base": "dark", "floor": 1300, "cam": [1, 500, 900], "els": [mound] +
+             [I.box(290 + 72 * k, 880, 58, 100, "none", I.LILAC, 3, 2, round(1.0 + .1 * k, 2), style="claimed") for k in range(6)] +
+             [I.box(x, y, 34, 22, "rgba(201,193,238,.35)", I.LILAC, 2, 3, round(2.4 + .06 * k, 2), fx="pop") for k, (x, y) in
+              enumerate([(250, 1090), (300, 1060), (680, 1060), (730, 1095), (210, 1140), (770, 1140), (340, 1030), (640, 1030)])] +
+             [I.glow(500, 600, 220, 4.6, .3), I.label(500, 640, "c. 1400 BCE?", 4.6, I.LILAC, 56, st="serif")]}
+    # 4 · the carbon clock: burnt grain, an hourglass, the fire a century and more before the story's date; the pottery argument beside it
+    X = lambda yr: round(150 + 700 * (yr + 1700) / 600, 1)
+    tl = {"base": "dark", "cam": [1, 500, 880], "els": [I.line([[150, 1100], [850, 1100]], .2, "#8c7152", 3),
+          I.label(150, 1150, "1700 BCE", .3, "#9a938a", 28, "start"), I.label(X(-1500), 1150, "1500", .3, "#9a938a", 28), I.label(X(-1300), 1150, "1300", .3, "#9a938a", 28),
+          I.label(850, 1150, "1100", .3, "#9a938a", 28, "end")] +
+         [I.oval(220 + 26 * k, 560 + 10 * (k % 2), 13, 8, "#2a1a12", "#8a6a48", 1.5, 1, round(.6 + .1 * k, 2)) for k in range(5)] + [
+          I.label(272, 640, "burnt grain", 1.0, "#cbbca8", 30),
+          I.box(X(-1617), 1065, X(-1530) - X(-1617), 30, I.RED, r=4, at=2.4, fx="fill"), I.label(round((X(-1617) + X(-1530)) / 2, 1), 1210, "the fire", 2.6, I.RED, 30),
+          I.arrow([[350, 560], [560, 560]], 3.4, I.BONE, 3, "known", .8, False),
+          I.line([[580, 470], [720, 470], [650, 560], [720, 650], [580, 650], [650, 560], [580, 470]], 3.6, I.BONE, 3, dur=1.0),
+          {"k": "poly", "p": [[600, 484], [700, 484], [650, 544]], "fill": I.AMBER, "c": "none", "w": 0, "in": 4.4, "op": .8, "keepop": True},
+          {"k": "poly", "p": [[618, 646], [682, 646], [650, 612]], "fill": I.AMBER, "c": "none", "w": 0, "in": 5.4, "fx": "fill"},
+          I.label(650, 710, "carbon clock", 4.0, I.BONE, 30),
+          I.arrow([[640, 740], [420, 860], [300, 1050]], 7.8, I.AMBER, 3, "known", 1.0),
+          I.line([[500, 1000], [500, 1100]], 9.8, I.LILAC, 3, "claimed", .5), I.dot(500, 1100, 8, I.LILAC, 9.8), I.label(500, 1210, "the story's date", 10.0, I.LILAC, 30),
+          I.arrow([[X(-1530), 1270], [495, 1270]], 10.2, I.AMBER, 3, "known", .6, False), I.arrow([[495, 1270], [X(-1530), 1270]], 10.2, I.AMBER, 3, "known", .6, False),
+          I.label(round((X(-1530) + 500) / 2, 1), 1320, "100+ years", 10.4, I.AMBER, 30),
+          {"k": "poly", "p": [[760, 800], [830, 790], [850, 840], [790, 860]], "fill": "#b0603a", "c": "#e8b87a", "w": 2, "in": 11.0, "fx": "pop"},
+          I.label(805, 905, "pottery", 11.2, "#e8b87a", 30),
+          I.arrow([[780, 930], [640, 980], [520, 1010]], 11.8, I.LILAC, 3, "claimed", .8),
+          I.glow(650, 560, 120, 15.0, .55), I.glow(X(-1574), 1080, 110, 15.2, .6)]}
+    # 5 · the hill from above: a later wall may have fallen; the later town is poorly known; a few narrow trenches, and the rest never dug
+    undug = {"base": "dark", "cam": [1, 500, 880], "els": [I.oval(500, 900, 380, 250, "#6f5840", "#a8865e", 3, 1, .3)] +
+             [I.oval(500, 900, 380 - 85 * k, 250 - 56 * k, "none", "rgba(255,236,206,.25)", 2, 1, round(.5 + .15 * k, 2)) for k in range(1, 4)] +
+             [I.box(x, y, 30, 18, "#cbbca8", r=3, at=round(.8 + .06 * k, 2), fx="pop") for k, (x, y) in enumerate([(430, 760), (470, 772), (510, 758), (550, 770), (590, 762), (450, 790)])] +
+             [I.ring(500, 880, 130, 5.6, I.LILAC, 5, "claimed", .8)] + I.question(500, 915, 6.0, 70) +
+             [I.box(170, 990, 240, 38, "#1a1511", "#f5ecdc", 2, 3, 8.0, fx="pop"), I.box(650, 700, 60, 60, "#1a1511", "#f5ecdc", 2, 3, 8.5, fx="pop"),
+              I.box(620, 1020, 70, 50, "#1a1511", "#f5ecdc", 2, 3, 8.8, fx="pop"), I.label(170, 968, "trenches", 8.4, "#f5ecdc", 30, "start"),
+              I.glow(500, 900, 380, 10.4, .25), I.label(500, 1230, "most of it never dug", 10.6, I.AMBER, 34)]}
+    return remix(ep, scenes={2: sec, 3: story, 4: tl, 5: undug}, alias={6: 0}, cams={0: [.9, 500, 900], 6: [1.15, 500, 980]}, beat_adds={3: (rain, None)})
+
+
 # ---------------------------------------------------------------- 10.03 Joshua's long day
 def joshua():
     s0 = {"base": "sky", "tod": "dusk", "ground": 1180, "sun": False, "cam": [1, 500, 880], "els": [
@@ -161,6 +286,49 @@ def joshua():
               "Humphreys & Waddington 2017, Astronomy & Geophysics · Sawyer 1972 · Walton 1994 · Holladay 1968 · Merneptah stele",
               "An annular eclipse over Gibeon in 1207 BCE, two lines of a lost poem, and one Hebrew verb: the case that Joshua's long day is the oldest eclipse on record.",
               ["#Eclipse", "#Bible", "#Astronomy", "#History", "#Joshua"])
+
+
+def joshua_m():
+    """Joshua's long day as one continuous take (see mural.py): a lost book, a sun over Gibeon and a moon over Aijalon, a sky run backwards to
+    one ring in 450 years, and one verb with two readings. Only the sky is weighed; what the story means to believers is not rated."""
+    remix, I = _m10()
+    ep = joshua()
+    # 4 · the poem: a book now lost; the sun over Gibeon's hill, the moon over the valley of Aijalon
+    poem = {"base": "sky", "tod": "dusk", "ground": 1150, "sun": False, "cam": [1, 500, 880], "els": [
+        {"k": "poly", "p": [[60, 1150], [160, 990], [300, 910], [440, 990], [530, 1150]], "fill": "#3a2f26", "c": "none", "w": 0, "curve": True, "in": .2},
+        {"k": "poly", "p": [[520, 1150], [600, 1085], [800, 1065], [940, 1100], [940, 1150]], "fill": "#2e261f", "c": "none", "w": 0, "curve": True, "in": .2},
+        I.box(330, 330, 340, 150, "#d8c9a8", "#8a7a66", 2, 6, .3)] +
+        [I.line([[360, 365 + 26 * k], [640, 365 + 26 * k]], round(.5 + .1 * k, 2), "#8a7a66", 3, draw=False) for k in range(4)] + [
+        I.label(500, 530, "the Book of Jashar", 1.4, "#f2dcb4", 30, st="serif"),
+        I.box(318, 318, 364, 174, "none", I.LILAC, 3, 8, 4.0, style="claimed"), I.label(700, 345, "lost", 4.2, I.LILAC, 30, "start"),
+        I.glow(300, 720, 200, 5.6, .8, "sun"), I.dot(300, 720, 54, "#ffd98a", 5.6), I.label(300, 1060, "Gibeon", 6.0, I.AU, 32),
+        I.glow(760, 760, 140, 7.2, .6), I.dot(760, 760, 36, "#efe6d2", 7.2), I.label(760, 1125, "valley of Aijalon", 7.6, I.BLUE, 30)]}
+    # 3 · the sky run backwards: a clock wound back, a search along 450 years, one ring over Gibeon; a year later, a stone names Israel
+    X = lambda yr: round(120 + 760 * (yr + 1500) / 450, 1)
+    E = X(-1207)
+    back = {"base": "dark", "stars": 80, "cam": [1, 500, 880], "els": [
+        I.ring(500, 560, 130, .3, I.BONE, 3), I.line([[500, 560], [500, 462]], .6, I.BONE, 4, draw=False), I.line([[500, 560], [570, 600]], .6, I.BONE, 4, draw=False),
+        I.arrow(I.ellipse(500, 560, 175, 175, 16, -30, -150), 1.4, I.AMBER, 4, "known", 1.0),
+        I.line([[120, 1050], [880, 1050]], 3.0, "#8c7152", 3), I.label(120, 1100, "1500 BCE", 3.2, "#9a938a", 28, "start"), I.label(880, 1100, "1050 BCE", 3.2, "#9a938a", 28, "end"),
+        I.line([[880, 1010], [120, 1010]], 5.0, I.BLUE, 3, "inferred", 2.5, op=.7),
+        I.glow(E, 970, 110, 8.4, .7, "sun"), I.dot(E, 970, 30, "#ffd98a", 8.4), I.dot(E, 970, 25, "#1d1820", 8.7),
+        I.label(E, 900, "30 Oct 1207 BCE", 9.0, I.AU, 32),
+        I.box(E - 24, 1130, 48, 80, "#9a9288", "#6a645c", 2, 10, 12.8, fx="pop"), I.label(E, 1268, "'Israel' named · 1208 BCE", 13.2, "#cbbca8", 28),
+        I.line([[E, 1004], [E, 1128]], 15.4, I.AMBER, 3, "inferred", .6)]}
+    # 5 · one verb, two readings: a sun held at the top of its arc, or a sun gone dark; a whole day against the minutes of a ring
+    dom = {"base": "dark", "cam": [1, 500, 880], "els": [
+        I.glow(500, 430, 200, 1.9, .35), I.label(500, 480, "dom", 1.9, I.AU, 110, st="serif", fx="pop"),
+        I.arrow([[440, 530], [330, 610]], 2.8, I.AU, 3, "known", .6, False),
+        I.line([[140, 900], [200, 770], [280, 710], [360, 770], [420, 900]], 3.0, "#cbbca8", 3, "inferred", 1.0, True),
+        I.glow(280, 710, 90, 3.3, .7, "sun"), I.dot(280, 710, 32, "#ffd98a", 3.3), I.label(280, 960, "stand still", 3.5, I.AU, 32),
+        I.arrow([[560, 530], [670, 610]], 4.8, I.BLUE, 3, "known", .6, False),
+        I.glow(720, 760, 110, 5.0, .5, "sun"), I.dot(720, 760, 56, "#ffd98a", 5.0), I.label(720, 960, "stop shining", 5.2, I.BLUE, 32),
+        I.dot(720, 760, 50, "#1d1820", 7.8),
+        I.label(140, 1090, "about a whole day", 12.6, I.AMBER, 30, "start"), I.box(140, 1110, 720, 44, I.AMBER, r=8, at=12.4, fx="fill", dur=1.2),
+        I.glow(143, 1262, 40, 15.4, .8), I.box(140, 1240, 6, 44, I.BLUE, r=2, at=15.4, fx="pop"), I.label(170, 1272, "an eclipse ring: minutes", 15.6, I.BLUE, 30, "start")]}
+    # 2 · on the papyrus, on the reveal: the book it came from is lost
+    lost = [I.box(140, 350, 720, 840, "none", I.LILAC, 5, 12, 9.0, style="claimed")] + I.question(820, 330, 9.6, 80)
+    return remix(ep, scenes={3: back, 4: poem, 5: dom}, alias={6: 0}, adds={2: lost}, cams={6: [1.15, 500, 880]})
 
 
 # ---------------------------------------------------------------- 10.04 Solomon's mines
@@ -207,6 +375,54 @@ def solomon():
               ["#Solomon", "#Archaeology", "#Copper", "#History", "#Timna"])
 
 
+def solomon_m():
+    """Solomon's mines as one continuous take (see mural.py): the slag dated sample by sample, six metres of waste against stacked people,
+    a century called empty filling with slag, a novel's title on a signpost, and tents where a palace might be expected."""
+    import copy
+    remix, I = _m10()
+    ep = solomon()
+    # 2 · the slag cut open (the original section, its long labels lifted): charcoal samples light up through the layers
+    sec = copy.deepcopy(ep["shots"][2])
+    sec["els"] = [I.dot(x, y, 7, I.AMBER, round(5.0 + .015 * k, 3)) for k, (x, y) in enumerate(I.scatter(60, 560, 900, 680, 1180, 5))]
+    # 3 · six metres of waste, built layer by layer, beside three and a half people standing on each other's shoulders
+    G0, S = 1300, 140
+    lay = [(0, 1.5, "#3d332a", "11th c."), (1.5, 3.9, "#2a221c", "10th c. BCE"), (3.9, 6.0, "#3a2f26", "9th c. BCE")]
+    col = {"base": "dark", "floor": G0, "cam": [1, 500, 880], "els": [I.line([[100, G0], [900, G0]], 0, "#8a6a48", 3, draw=False)] +
+           [I.box(360, round(G0 - S * b, 1), 280, round(S * (b - a), 1), c, "rgba(255,236,206,.3)", 1.5, 4, round(.8 + .8 * k, 2), fx="fill", dur=.9) for k, (a, b, c, t) in enumerate(lay)] +
+           [I.label(500, round(G0 - S * (a + b) / 2 + 10, 1), t, round(1.1 + .8 * k, 2), I.BONE, 30) for k, (a, b, c, t) in enumerate(lay)] +
+           [I.arrow([[680, G0], [680, G0 - 6 * S]], 3.6, I.AMBER, 3, "known", 1.0, False), I.arrow([[680, G0 - 6 * S], [680, G0]], 3.6, I.AMBER, 3, "known", 1.0, False),
+            I.label(698, 900, "6 m", 3.8, I.AMBER, 36, "start")] +
+           [I.person(830, round(G0 - 1.7 * S * k, 1), round(1.7 * S, 1), round(4.4 + .3 * k, 2)) for k in range(4)] +
+           [I.box(356, round(G0 - S * 3.9, 1), 288, round(S * 2.4, 1), "none", I.AU, 4, 6, 7.4, fx="draw", dur=.8), I.glow(500, round(G0 - S * 2.7, 1), 200, 7.4, .4),
+            I.label(340, round(G0 - S * 2.7, 1), "Solomon's century", 7.8, I.AU, 30, "end")]}
+    # 4 · a century called nearly empty, and the slag that fills it; furnaces glowing on top
+    X = lambda yr: round(120 + 760 * (yr + 1300) / 500, 1)
+    tl = {"base": "dark", "cam": [1, 500, 880], "els": [I.line([[120, 1100], [880, 1100]], .2, "#8c7152", 3),
+          I.label(120, 1150, "1300 BCE", .3, "#9a938a", 28, "start"), I.label(X(-1100), 1150, "1100", .3, "#9a938a", 28), I.label(X(-900), 1150, "900", .3, "#9a938a", 28),
+          I.label(880, 1150, "800", .3, "#9a938a", 28, "end"),
+          I.box(X(-1000), 900, X(-900) - X(-1000), 200, "none", I.LILAC, 3, 6, 1.4, style="claimed")] +
+         [I.dot(x, y, 6, I.LILAC, 1.6 + .1 * k) for k, (x, y) in enumerate([(610, 1040), (660, 980), (700, 1060)])] + [
+          I.label(round((X(-1000) + X(-900)) / 2, 1), 650, "nearly empty?", 2.0, I.LILAC, 32),
+          I.box(X(-1000), 700, X(-830) - X(-1000), 400, "#2a221c", I.AMBER, 3, 6, 4.0, fx="fill", dur=1.4),
+          I.label(round((X(-1000) + X(-830)) / 2, 1), 920, "slag", 4.6, I.AMBER, 40, st="serif"),
+          I.strike(round((X(-1000) + X(-900)) / 2 - 110, 1), 640, round((X(-1000) + X(-900)) / 2 + 110, 1), 626, 5.0)] +
+         [I.glow(x, 700, 60, round(5.6 + .15 * k, 2), .8, "red") for k, x in enumerate((610, 680, 750, 815))]}
+    # 5 · the name: an adventure novel of 1885; in the 1930s its title went up on a signpost to these ruins
+    book = {"base": "dark", "floor": 1390, "cam": [1, 500, 880], "els": [
+            I.box(150, 420, 380, 480, "#7a2e22", "#c9a86a", 3, 10, .9, fx="pop"), I.box(150, 420, 34, 480, "#5a2018", r=6, at=.9),
+            I.label(357, 610, "King Solomon's", 1.2, "#f2dcb4", 32, st="serif"), I.label(357, 656, "Mines", 1.2, "#f2dcb4", 32, st="serif"),
+            I.label(340, 980, "a novel · 1885", 2.4, I.BONE, 32),
+            I.arrow([[545, 700], [700, 800], [745, 960]], 3.8, I.AMBER, 3, "claimed", 1.0),
+            I.line([[750, 1000], [750, 1390]], 4.4, "#8a6a48", 10, draw=False), I.box(600, 1000, 300, 90, "#c9a86a", "#8a6a48", 3, 6, 4.6, fx="pop"),
+            I.label(750, 1058, "Solomon's Mines", 4.9, "#1a1511", 30, st="serif", halo=False), I.label(560, 1200, "1930s", 5.2, I.AMBER, 36, "end"),
+            I.glow(750, 1045, 200, 7.6, .5)]}
+    # on the return to the section: no inscription names a king; tents on the slag, people and a furnace
+    tents = [I.box(220, 360, 200, 150, "none", I.LILAC, 3, 8, 1.0, style="claimed")] + I.question(320, 470, 1.6, 80) + \
+            [{"k": "poly", "p": [[x - 50, 640], [x, 570], [x + 50, 640]], "fill": "#8a6a48", "c": "#cbbca8", "w": 2, "in": round(4.6 + .25 * k, 2), "fx": "pop"} for k, x in enumerate((600, 720, 840))] + \
+            [I.person(660 + 120 * k, 640, 60, round(5.6 + .2 * k, 2)) for k in range(2)] + [I.glow(780, 615, 60, 6.0, .7, "red")]
+    return remix(ep, scenes={2: sec, 3: col, 4: tl, 5: book}, alias={6: 0}, cams={6: [1.15, 500, 1000]}, beat_adds={4: (tents, None)})
+
+
 # ---------------------------------------------------------------- 10.05 Sheba
 def sheba():
     dam = [{"t": "ext", "axis": "x", "x": 0, "y": 0, "at": 0, "d": 130, "prof": [[-70, 0], [-70, 10], [-40, 10], [-20, 2], [20, 2], [40, 10], [70, 10], [70, 0]], "c": "#7a6248", "edge": "rgba(255,236,206,.4)"},
@@ -247,6 +463,71 @@ def sheba():
               "Simpson (ed.) 2002, British Museum · Brunner 1983 · Vogt 2004 · Eph'al 1982 · UNESCO 2023 · Quran 34:15–16",
               "The real kingdom of Saba, its great dam and the flood that broke it, and the one thing the inscriptions never mention: a queen who travelled north.",
               ["#Sheba", "#Yemen", "#Archaeology", "#Quran", "#History"])
+
+
+def sheba_m():
+    """Saba as one continuous take (see mural.py): two gardens filling a ten-kilometre square, a dam that breaks and fields that turn
+    to dust, inscriptions that begin two centuries late, deep layers nobody can reach, and a book not yet opened. Only the ground is weighed."""
+    import copy
+    remix, I = _m10()
+    ep = sheba()
+    # 1 · the map, its Yeha label shortened so it stays inside the frame and clear of Sana'a
+    mp = copy.deepcopy(ep["shots"][1])
+    for e in mp["els"]:
+        if str(e.get("t", "")).startswith("Yeha"):
+            e.update(t="Yeha", a="end", lx=-18, ly=-22)
+    # 3 · the oases: a dry valley, the dam across it, a square ten kilometres on each side, a garden either side
+    fields = {"base": "dark", "cam": [1, 500, 860], "els": [
+        I.line([[500, 380], [500, 1140]], .3, I.BLUE, 5, "inferred", 1.0),
+        I.box(420, 440, 160, 30, "#c9ad85", "#8a6a48", 2, 4, .6, fx="pop"),
+        I.line([[440, 472], [340, 520]], 1.0, I.BLUE, 3), I.line([[560, 472], [660, 520]], 1.0, I.BLUE, 3),
+        I.line([[200, 500], [800, 500], [800, 1100], [200, 1100], [200, 500]], 1.4, I.BONE, 3, dur=1.2),
+        I.box(206, 506, 268, 588, "#5a8a4a", r=6, at=2.0, op=.8, fx="fill", dur=1.0), I.box(526, 506, 268, 588, "#5a8a4a", r=6, at=2.4, op=.8, fx="fill", dur=1.0),
+        I.label(500, 1160, "10 km", 3.2, I.BONE, 30), I.label(180, 810, "10 km", 3.4, I.BONE, 30, "end"),
+        I.label(500, 1260, "for over 1,000 years", 5.4, I.AU, 36, st="serif")]}
+    # ... on the next line: breached, repaired, then the last breach; the water runs away and both gardens turn to dust
+    brk = [I.line([[470, 440], [488, 458], [476, 470]], .6, I.RED, 4, dur=.4), I.box(462, 442, 30, 26, "#d9c39a", r=3, at=1.6, fx="pop"),
+           I.line([[522, 440], [542, 456], [528, 470]], 2.4, I.RED, 6, dur=.4), I.label(600, 425, "6th c. CE", 2.6, I.RED, 30, "start"),
+           I.arrow([[535, 480], [515, 760], [500, 1060]], 3.0, I.BLUE, 5, "known", 1.0),
+           I.box(206, 506, 268, 588, "#8a6d4d", r=6, at=4.2, op=.94, fx="fill", dur=1.4), I.box(526, 506, 268, 588, "#8a6d4d", r=6, at=4.4, op=.94, fx="fill", dur=1.4)] + \
+          [I.dot(x, y, 5, "#5a4a3a", round(5.2 + .01 * k, 3)) for k, (x, y) in enumerate(I.scatter(30, 220, 460, 530, 1080, 2) + I.scatter(30, 540, 780, 530, 1080, 3))]
+    # 2 · writing begins: a row of inscribed stones from about 750 BCE; Solomon's time two centuries earlier; no queen named
+    X = lambda yr: round(120 + 760 * (yr + 1000) / 700, 1)
+    sol, w0 = X(-950), X(-750)
+    write = {"base": "dark", "cam": [1, 500, 880], "els": [I.line([[120, 1000], [880, 1000]], .2, "#8c7152", 3),
+             I.label(120, 1050, "1000 BCE", .3, "#9a938a", 28, "start"), I.label(880, 1050, "300 BCE", .3, "#9a938a", 28, "end")] +
+             [I.box(round(w0 - 22 + 85 * k, 1), 820, 44, 90, "#9a9288", "#6a645c", 2, 8, round(1.6 + .2 * k, 2), fx="pop") for k in range(6)] +
+             [I.line([[round(w0 - 12 + 85 * k, 1), 845 + 14 * j], [round(w0 + 12 + 85 * k, 1), 845 + 14 * j]], round(1.7 + .2 * k, 2), "#4a4038", 2, draw=False) for k in range(6) for j in range(3)] +
+             [I.line([[w0, 920], [w0, 1000]], 2.2, I.AU, 3, draw=False), I.label(w0, 1090, "c. 750 BCE", 2.4, I.AU, 30),
+              I.line([[sol, 800], [sol, 1000]], 3.4, I.AMBER, 3, "claimed", .6), I.label(150, 780, "Solomon · tradition", 3.6, I.AMBER, 28, "start"),
+              I.arrow([[sol, 1170], [w0, 1170]], 3.8, I.AMBER, 3, "known", .6, False), I.arrow([[w0, 1170], [sol, 1170]], 3.8, I.AMBER, 3, "known", .6, False),
+              I.label(round((sol + w0) / 2, 1), 1230, "two centuries", 4.0, I.AMBER, 30),
+              I.glow(600, 865, 260, 5.4, .35)] + I.question(640, 640, 7.2, 90) + [I.label(640, 720, "no queen named", 7.4, I.LILAC, 30)]}
+    # 4 · the ground at Marib: a small trench in the later layers, the early layers deep and untouched, the digging stopped in 2015
+    dig = {"base": "section", "tod": "dusk", "ground": 640, "lx": 130,
+           "layers": [{"d": 0, "c": "#8a6d4d", "t": "later Saba"}, {"d": 260, "c": "#5f4c39", "t": "early Saba"}, {"d": 560, "c": "#3a2f26", "t": ""}],
+           "cam": [1, 500, 880], "els": [
+               {"k": "rect", "x": 620, "y": 640, "w": 140, "h": 200, "r": 2, "fill": "rgba(18,13,10,.55)", "c": "#f5ecdc", "sw": 2, "in": 1.0, "fx": "draw", "dur": .8},
+               I.person(570, 640, 110, 1.4),
+               I.box(330, 940, 540, 230, "none", I.LILAC, 3, 10, 3.4, style="claimed"), I.glow(600, 1055, 220, 3.6, .3),
+               I.line([[600, 625], [780, 625]], 5.4, I.RED, 6, draw=False), I.line([[610, 575], [610, 640]], 5.4, I.RED, 5, draw=False), I.line([[770, 575], [770, 640]], 5.4, I.RED, 5, draw=False),
+               I.label(690, 555, "2015", 5.6, I.RED, 34)] + I.question(600, 1090, 9.6, 90)}
+    # 5 · what the ground confirms, one by one; the journey drawn dashed with a question; a closed book
+    tick = lambda x, y, at: I.line([[x - 18, y], [x - 4, y + 14], [x + 22, y - 18]], at, I.GREEN, 6, dur=.4)
+    check = {"base": "dark", "cam": [1, 500, 880], "els": [
+        {"k": "poly", "p": [[190, 500], [300, 450], [410, 500]], "fill": "#cbbca8", "c": "none", "w": 0, "in": 1.7, "fx": "pop"}] +
+        [I.box(212 + 50 * k, 506, 22, 96, "#cbbca8", r=2, at=1.7) for k in range(4)] + [I.box(196, 604, 208, 14, "#cbbca8", r=2, at=1.7),
+        I.label(300, 670, "kingdom", 1.8, I.BONE, 30), tick(420, 470, 2.0),
+        I.box(610, 490, 80, 115, "#5a8a4a", r=4, at=2.4, fx="pop"), I.box(710, 490, 80, 115, "#5a8a4a", r=4, at=2.4, fx="pop"),
+        I.line([[700, 480], [700, 615]], 2.4, I.BLUE, 4, draw=False), I.label(700, 670, "gardens", 2.5, I.BONE, 30), tick(820, 470, 2.7),
+        I.box(210, 770, 180, 36, I.SEA, r=3, at=3.0), I.box(200, 806, 200, 50, "#c9ad85", "#8a6a48", 2, 4, 3.0, fx="pop"),
+        I.label(300, 920, "dam", 3.1, I.BONE, 30), tick(420, 770, 3.3)] +
+        [I.line([[600, 790 + 30 * k], [650, 775 + 30 * k], [700, 790 + 30 * k], [750, 775 + 30 * k], [800, 790 + 30 * k]], round(3.8 + .1 * k, 2), I.BLUE, 4, dur=.6, curve=True) for k in range(3)] +
+        [I.label(700, 920, "flood", 3.9, I.BONE, 30), tick(820, 770, 4.1),
+         I.arrow([[220, 1090], [500, 1030], [780, 990]], 4.6, I.LILAC, 3, "claimed", 1.0)] + I.question(500, 1060, 5.4, 80) +
+        [I.box(390, 1170, 220, 200, "#5a4330", "#c9a86a", 3, 8, 6.8, fx="pop"), I.line([[410, 1175], [410, 1365]], 6.9, "#c9a86a", 3, draw=False),
+         I.box(596, 1250, 26, 40, "#c9a86a", r=4, at=7.0, fx="pop")]}
+    return remix(ep, scenes={1: mp, 2: write, 3: fields, 4: dig, 5: check}, alias={6: 1}, cams={6: [1.15, 500, 880]}, line_adds={(1, 1): (brk, None)})
 
 
 # ---------------------------------------------------------------- 10.06 Dhul-Qarnayn
@@ -516,4 +797,5 @@ def ledger_recap():
 
 
 def EPISODES():
-    return [exodus(), jericho(), joshua(), solomon(), sheba(), dhul_qarnayn(), ark_covenant(), star(), moon_split(), ledger_recap()]
+    import f10b      # the four films reworked in their own module (wave 2)
+    return [exodus_m(), jericho_m(), joshua_m(), solomon_m(), sheba_m(), f10b.dhul_qarnayn_m(), f10b.ark_covenant_m(), f10b.star_m(), f10b.moon_split_m(), ledger_recap()]

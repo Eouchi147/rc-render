@@ -467,6 +467,184 @@ def delphi():
               ["#Delphi", "#Oracle", "#AncientGreece", "#Geology", "#Underworlds"])
 
 
+def _iso_of(sh):
+    return next(e for e in sh["els"] if e.get("k") == "iso")
+
+
+def _ov(sh, items, at, **kw):
+    """Items drawn with a shot's own iso projection (they turn with the model), built at `at`."""
+    b = _iso_of(sh)
+    e = {k: b[k] for k in ("x", "y", "s", "az", "spin", "el") if k in b}
+    e.update({"k": "iso", "items": list(items), "in": at})
+    e.update(kw)
+    return e
+
+
+def _wisp(x, y, h, at, c="#cfe6ff", ph=0.0, n=9, amp=14, op=.75, dur=1.2):
+    """A thread of vapour rising from (x, y), h tall."""
+    from illus import line
+    return line([[round(x + amp * math.sin(k * .9 + ph), 1), round(y - h * k / (n - 1), 1)] for k in range(n)], at, c, 3, dur=dur, curve=True, op=op)
+
+
+def malta_m():
+    """Malta's temples as one continuous take (see mural.py): a six-metre wall beside a two-storey house, a thousand years before
+    the pyramids, the drowned-temple claim and the dive, layers that date the temples from below, the Hypogeum, and the crossing."""
+    import copy
+    from mural import remix, rewritten
+    import illus as I
+    ep = rewritten(copy.deepcopy(malta()))              # authored times below follow the rewritten words (about 2.4 words a second)
+    S = ep["shots"]
+    STONE = "#d8c7a2"
+    s0 = copy.deepcopy(S[0])
+    iso0 = _iso_of(s0)
+    iso0["items"] = [it for it in iso0["items"] if it.get("t") != "label"] + [L_(0, 7, "Ġgantija", GOLD, z=-10, dy=-24)]
+    # 0, beat 1 · a wall six metres high, about two storeys of a house (1.7 m person for scale; 6 m = 210 px)
+    K = 35
+    wall = [I.box(250, 600 - 6 * K, 170, 6 * K, STONE, "#8c7152", 2, 4, 5.0, fx="fill", dur=.9)] + \
+           [I.line([[250, 600 - j * K * 1.5], [420, 600 - j * K * 1.5]], 5.4, "#8c7152", 1.5, draw=False) for j in range(1, 4)] + \
+           [{"k": "dim", "x1": 200, "y1": 600, "x2": 200, "y2": 600 - 6 * K, "t": "6 m", "in": 6.2, "c": GOLD}, I.person(460, 600, 1.7 * K, 6.6),
+            I.box(560, 600 - 6 * K, 170, 6 * K, "#8e7152", "#e8d6b8", 2, 2, 8.0, fx="rise"), I.line([[560, 600 - 3 * K], [730, 600 - 3 * K]], 8.2, "#e8d6b8", 2, draw=False)] + \
+           [I.box(x, y, 34, 40, "#ffe2a8", r=2, at=8.4) for x in (590, 665) for y in (600 - 5 * K, 600 - 2 * K)] + \
+           [I.line([[150, 600], [850, 600]], 4.8, "#8c7152", 3, draw=False), I.label(645, 650, "two storeys", 8.8, I.BONE, 28)]
+    # 2 · a thousand years before the pyramids (4000 to 2000 BCE across 760 px)
+    X = lambda yr: round(120 + (4000 - yr) * .38, 1)
+    pyr = [I.line([[100, 1000], [900, 1000]], .2, I.BONE, 3, dur=.8)] + \
+          [x for yr, t in ((4000, "4000 BCE"), (3000, "3000"), (2000, "2000")) for x in (I.line([[X(yr), 988], [X(yr), 1012]], .4, I.BONE, 2, draw=False), I.label(X(yr), 1060, t, .4, "#cbbca8", 28))] + \
+          [I.box(X(3600) - 60, 820, 36, 110, STONE, "#8c7152", 2, 3, .8, fx="rise"), I.box(X(3600) + 24, 820, 36, 110, STONE, "#8c7152", 2, 3, .8, fx="rise"),
+           I.box(X(3600) - 75, 790, 150, 32, STONE, "#8c7152", 2, 3, 1.0, fx="rise"), I.line([[X(3600), 940], [X(3600), 990]], .9, GOLD, 3, dur=.3),
+           I.label(X(3600), 740, "Ġgantija", 1.0, GOLD, 32),
+           {"k": "pyramid", "x": X(2600), "y": 930, "w": 260, "ghost": True, "style": "inferred", "color": I.BONE, "in": 2.6},
+           I.line([[X(2600), 940], [X(2600), 990]], 2.8, I.BONE, 3, "inferred", .3), I.label(X(2600), 720, "the pyramids", 3.0, I.BONE, 32),
+           I.arrow([[X(3600), 1130], [X(2600), 1130]], 5.4, GOLD, 4, "known", 1.0, False), I.label((X(3600) + X(2600)) / 2, 1190, "about 1,000 years", 6.4, GOLD, 32)]
+    # 4 · the claim: temples from the Ice Age, when the sea stood lower, more of them under water; the 2002 dive
+    coast = {"k": "poly", "p": [[60, 700], [380, 700], [470, 820], [620, 960], [790, 1140], [940, 1290], [940, 1420], [60, 1420]], "fill": "#6a5640", "c": "#c9ad85", "w": 2, "in": .2}
+    temple = lambda x, y, at, ghost=False: ([I.box(x - 40, y - 46, 22, 46, "none" if ghost else STONE, I.LILAC if ghost else "#8c7152", 2, 3, at, style="claimed" if ghost else "known"),
+                                             I.box(x + 18, y - 46, 22, 46, "none" if ghost else STONE, I.LILAC if ghost else "#8c7152", 2, 3, at, style="claimed" if ghost else "known"),
+                                             I.box(x - 48, y - 62, 96, 16, "none" if ghost else STONE, I.LILAC if ghost else "#8c7152", 2, 3, at, style="claimed" if ghost else "known")])
+    claim = [{"k": "water", "y": 820, "h": 600, "x0": 400, "x1": 1000, "op": .55, "in": .1}, coast] + temple(220, 700, .6) + \
+            [I.label(220, 760, "today", .8, I.BONE, 28), I.label(880, 800, "sea today", 1.0, I.BLUE, 28, "end"),
+             I.line([[560, 1200], [940, 1200]], 7.2, I.BLUE, 3, "inferred", .8), I.label(930, 1250, "Ice Age sea?", 7.8, I.BLUE, 28, "end")] + \
+            temple(560, 935, 9.2, True) + temple(720, 1105, 9.8, True) + I.question(640, 1060, 10.4, 60)
+    dive = [{"k": "boat", "x": 820, "y": 818, "w": 120, "in": .6}, I.label(820, 760, "2002", 1.0, I.BONE, 30),
+            I.arrow([[800, 850], [740, 950], [700, 1040]], 2.0, I.BONE, 3, "inferred", 1.2), I.oval(705, 1050, 26, 11, "#e8d6b8", "none", 0, 1, 3.2), I.dot(684, 1044, 9, "#e8d6b8", 3.2)]
+    # 3 · dated from below: a floor seals what lies beneath; charcoal and bone, pottery styles, the farm village underneath; 3600 to 2500 BCE
+    lay = [I.box(60, 720, 880, 150, "#a8977c", r=0, at=.3, fx="fill"), I.box(60, 870, 880, 220, "#7a6248", r=0, at=.6, fx="fill"), I.box(60, 1090, 880, 90, "#5a4632", r=0, at=.9, fx="fill"),
+           I.box(160, 700, 680, 22, "#efe6d2", "#8c7152", 2, 2, 3.0, fx="rise")] + \
+          [I.box(200 + 130 * k, 700 - 110 - 20 * (k % 2), 70, 110 + 20 * (k % 2), STONE, "#8c7152", 2, 4, round(3.2 + .1 * k, 2), fx="rise") for k in range(5)] + \
+          [I.ring(500, 795, 90, 5.4, GOLD, 3, dur=.6), I.label(870, 650, "the floor", 3.4, I.BONE, 28, "end")] + \
+          [I.dot(x, y, 7, "#1a1511", round(8.0 + .03 * k, 2)) for k, (x, y) in enumerate(I.scatter(18, 400, 600, 745, 850, 4))] + \
+          [I.box(x, y, 26, 8, "#efe6d2", r=4, at=round(9.0 + .1 * k, 2)) for k, (x, y) in enumerate(((430, 770), (520, 815), (565, 760), (470, 830)))] + \
+          [I.arrow([[600, 790], [640, 728]], 11.4, GOLD, 3, "known", .5, False), I.label(170, 810, "charcoal, bone", 8.6, "#cbbca8", 28, "start")] + \
+          [{"k": "vase", "x": 640 + 95 * k, "y": 1060, "h": 70, "w": 46, "profile": pf, "in": round(14.0 + .4 * k, 2), "fx": "rise"} for k, pf in enumerate((
+              [[0, .3], [.2, .5], [.6, .5], [1, .25]], [[0, .45], [.1, .4], [.5, .55], [1, .2]], [[0, .2], [.3, .3], [.7, .55], [1, .35]]))] + \
+          [I.label(735, 1130, "pottery", 15.0, "#cbbca8", 28)] + \
+          [{"k": "house", "x": 140 + 120 * k, "y": 1060, "w": 90, "h": 60, "in": round(16.8 + .2 * k, 2), "fx": "rise"} for k in range(3)] + \
+          [I.label(320, 1130, "older village", 17.4, "#cbbca8", 28)]
+    XA = lambda yr: round(140 + (4000 - yr) * .36, 1)
+    lay += [I.line([[120, 1300], [880, 1300]], 19.6, I.BONE, 3, dur=.6)] + \
+           [I.box(XA(3600), 1286, XA(2500) - XA(3600), 28, GOLD, r=14, at=20.6, fx="fill"), I.label(XA(3600), 1360, "3600", 21.0, GOLD, 30), I.label(XA(2500), 1360, "2500 BCE", 21.6, GOLD, 30)]
+    # 5 · the Hypogeum: three levels cut into the rock; the remains of some seven thousand people, of the same age
+    hyp = copy.deepcopy(S[3])
+    hyp["els"] = [e for e in hyp["els"] if e.get("k") != "label"] + \
+        [I.label(500, 500, "the Hypogeum", .4, GOLD, 34), {"k": "dim", "x1": 890, "y1": 560, "x2": 890, "y2": 1100, "t": "3 levels", "in": 4.0, "c": GOLD, "lx": -10},
+         I.glow(500, 900, 260, 6.0, .35, "lamp"), I.label(500, 1260, "about 7,000 people", 7.6, "#f2dcb4", 32), I.label(500, 1330, "same age", 10.6, GOLD, 30)]
+    # 1 · the map, at last: hunter-gatherers cross about 100 km of open sea, about 8,500 years ago; farmers a thousand years later
+    mp = copy.deepcopy(S[1])
+    mp["els"] = [e for e in mp["els"] if not (e.get("k") == "label" and "open sea" in e.get("t", ""))]
+    v = View(11.8, 16.2, 35.4, 38.3, (40, 330, 920, 900))
+    (ax_, ay_), (bx_, by_) = v.p(14.8, 36.72), v.p(14.45, 36.08)
+    cross = [I.arrow([[ax_, ay_], [ax_ - 60, (ay_ + by_) / 2], [bx_ + 6, by_ - 6]], 9.2, I.BLUE, 4, "inferred", 1.4),
+             {"k": "boat", "x": ax_ - 52, "y": (ay_ + by_) / 2 + 10, "w": 70, "in": 9.6}, I.label(ax_ - 90, (ay_ + by_) / 2 - 20, "about 100 km", 10.6, I.BLUE, 28, "end"),
+             I.label(ax_ - 90, (ay_ + by_) / 2 + 20, "8,500 years ago", 7.4, I.BLUE, 28, "end")]
+    farm = [I.arrow([[ax_ + 30, ay_ + 4], [ax_ + 10, (ay_ + by_) / 2], [bx_ + 30, by_ - 4]], .6, I.BONE, 3, "known", 1.0),
+            I.label(ax_ + 60, (ay_ + by_) / 2 + 10, "farmers", 1.2, I.BONE, 28, "start"), I.label(ax_ + 60, (ay_ + by_) / 2 + 50, "1,000 years later", 1.8, I.BONE, 28, "start")]
+    ep["beats"][4]["visual"]["from"] = 1                 # the crossing is told on the map (shot 5 now holds the Hypogeum)
+    return remix(ep, _rewrite=False, scenes={0: s0, 1: mp, 2: {"base": "dark", "cam": [1, 500, 900], "els": pyr}, 3: {"base": "dark", "cam": [1, 500, 900], "els": lay},
+                                             4: {"base": "dark", "cam": [1, 500, 900], "els": claim}, 5: hyp},
+                 alias={6: 0}, cams={6: [1.15, 500, 960]}, adds={1: cross},
+                 beat_adds={1: (wall, None)}, line_adds={(0, 1): (I.question(860, 470, .3, 80), None), (2, 1): (dive, None), (4, 1): (farm, None)})
+
+
+def delphi_m():
+    """Delphi as one continuous take (see mural.py): the vapour, the two witnesses, the faults and springs under the temple,
+    the suspect gas and the gas actually measured, and the half of the story that holds."""
+    import copy
+    from mural import remix, rewritten
+    import illus as I
+    ep = rewritten(copy.deepcopy(delphi()))             # authored times below follow the rewritten words (about 2.4 words a second)
+    S = ep["shots"]
+    FAULT, VAP = "#ff8a7a", "#cfe6ff"
+    # 0 · the temple, without its faults: the vapour rises first; the faults are found on the next line
+    s0 = copy.deepcopy(S[0])
+    iso0 = _iso_of(s0)
+    faults = [it for it in iso0["items"] if it.get("t") == "line"]
+    iso0["items"] = [it for it in iso0["items"] if it.get("t") not in ("line", "label")]
+    vapour = [I.label(500, 1370, "Temple of Apollo", .6, GOLD, 32)] + [_wisp(470 + 30 * k, 800, 230, round(15.4 + .3 * k, 2), VAP, 2.1 * k, 9, 14, .8, 1.4) for k in range(3)]
+    found = [_ov(s0, [dict(f, w=5) for f in faults], 6.0, fx="draw", dur=1.2),
+             _ov(s0, [L_(20, 18, "Delphi fault", FAULT, z=6, dy=-14), L_(2, 8.5, "Kerna fault", FAULT, z=20, dy=36)], 7.0)]
+    # 3 · the witnesses: Strabo's breath from the ground, Plutarch's sweet smell in the waiting room, weaker in his day
+    scroll = lambda x, y, at: [I.box(x, y, 150, 110, "#e9d6ad", "#8a6a3e", 2, 6, at), I.box(x - 10, y - 8, 14, 126, "#c9ad7d", r=6, at=at), I.box(x + 146, y - 8, 14, 126, "#c9ad7d", r=6, at=at)] + \
+                            [I.line([[x + 20, y + 26 + 20 * j], [x + 130 - 15 * (j % 2), y + 26 + 20 * j]], at + .2, "#8a6a3e", 2, draw=False) for j in range(4)]
+    wit = scroll(120, 420, .4) + [I.label(195, 590, "Strabo", .8, I.BONE, 30), I.line([[380, 620], [900, 620]], .9, "#8c7152", 3, draw=False)] + \
+          [_wisp(460 + 110 * k, 610, 170, round(2.2 + .3 * k, 2), VAP, k) for k in range(4)] + \
+          [I.label(640, 680, "a breath", 3.6, VAP, 30)] + \
+          [I.person(150, 1010, 130, 5.0), I.label(150, 1060, "Plutarch", 5.6, I.BONE, 30),
+           I.box(380, 760, 500, 260, "rgba(42,34,27,.9)", "#c9ad85", 3, 8, 8.4), I.line([[380, 900], [380, 1000]], 8.4, "rgba(42,34,27,1)", 6, draw=False)] + \
+          [I.person(560 + 110 * k, 1010, 90, round(9.0 + .2 * k, 2)) for k in range(3)] + \
+          [I.line([[300, 930], [360, 920], [440, 945], [520, 925], [600, 950], [680, 930]], 10.2, "#f2c98e", 3, dur=1.2, curve=True, op=.8), I.label(560, 1060, "a sweet smell", 10.8, "#f2c98e", 30)] + \
+          [_wisp(x, 1290, h, round(15.0 + .6 * k, 2), VAP, k, 7, 10) for k, (x, h) in enumerate(((330, 200), (500, 130), (670, 65)))] + \
+          [I.line([[260, 1300], [740, 1300]], 14.6, "#8c7152", 3, draw=False), I.arrow([[300, 1335], [700, 1335]], 16.6, I.AMBER, 3, "known", .8, False),
+           I.label(260, 1390, "long ago", 15.0, I.BONE, 28, "start"), I.label(740, 1390, "his day", 16.4, I.BONE, 28, "end")]
+    # 2 · beneath the temple: two faults cross; blocks grind; limestone holding hydrocarbons; springs once rose; gas still seeps
+    gy = 600
+    fx0, fy0 = 520, gy                                   # where the faults meet the floor of the inner room
+    temple = [I.box(380, gy - 30, 280, 30, "#e2d8c4", "#fff", 1.2, 2, .4)] + [I.box(398 + 40 * k, gy - 150, 18, 120, "#efe6d2", r=2, at=.5) for k in range(7)] + \
+             [{"k": "poly", "p": [[370, gy - 150], [670, gy - 150], [520, gy - 210]], "fill": "#e2d8c4", "c": "#fff", "w": 1.2, "in": .6}, I.glow(fx0, gy - 60, 90, .8, .6, "lamp")]
+    fl = [I.line([[330, 1380], [fx0, fy0]], 5.4, FAULT, 5, dur=1.0), I.line([[760, 1380], [fx0, fy0]], 6.4, FAULT, 5, dur=1.0),
+          I.label(300, 1300, "Delphi fault", 7.2, FAULT, 30, "end"), I.label(790, 1300, "Kerna fault", 7.6, FAULT, 30, "start")]
+    grind = [I.arrow([[330, 1180], [380, 920]], 12.0, I.BONE, 4, "known", .7, False), I.arrow([[470, 900], [420, 1160]], 12.4, I.BONE, 4, "known", .7, False),
+             I.glow(415, 1040, 70, 13.0, .6, "red")]
+    hc = [I.dot(x, y, 5, "#2a2219", round(20.0 + .02 * k, 2)) for k, (x, y) in enumerate(I.scatter(60, 140, 900, 700, 1400, 11))] + [I.label(900, 760, "hydrocarbons", 21.6, I.AMBER, 30, "end")]
+    springs = [I.arrow([[fx0 + 14, 1180 - 120 * k], [fx0 + 8, 1080 - 120 * k]], round(26.6 + .3 * k, 2), I.BLUE, 3, "known", .5, False) for k in range(4)] + \
+              [{"k": "poly", "p": [[600, gy], [880, gy], [860, gy - 22], [640, gy - 26]], "fill": "#efe6d2", "c": "#c9ad85", "w": 2, "in": 29.0, "fx": "fill"},
+               I.label(760, gy - 50, "old springs", 29.6, I.BLUE, 30)]
+    sec = {"base": "section", "tod": "dusk", "ground": gy, "lx": 130, "layers": [{"d": 0, "c": "#b8b0a0", "t": ""}, {"d": 420, "c": "#8a8270", "t": ""}], "cam": [1, 500, 900],
+           "els": temple + fl + grind + hc + springs}
+    seep = [I.line([[fx0, fy0 + 140], [fx0 - 40, fy0 + 90]], 3.6, FAULT, 2, dur=.4), I.line([[fx0, fy0 + 220], [fx0 + 50, fy0 + 170]], 3.9, FAULT, 2, dur=.4)] + \
+           [I.dot(fx0 + (9 if k % 2 else -9), 1200 - 75 * k, 6 + (k % 3), VAP, round(.5 + .45 * k, 2), "rise", .8) for k in range(9)] + \
+           [_wisp(fx0, gy - 20, 120, 4.8 + .5 * k, VAP, k) for k in range(2)] + [I.label(fx0, gy - 250, "gas today", 2.2, VAP, 32)]
+    # 4 · the suspect: ethylene (an old anaesthetic, a sweet smell); then what the surveys measured
+    eth = [I.line([[400, 470], [520, 470]], 1.0, I.BONE, 4, draw=False), I.line([[400, 486], [520, 486]], 1.0, I.BONE, 4, draw=False),
+           I.dot(400, 478, 34, "#5a534c", .8), I.dot(520, 478, 34, "#5a534c", .8)] + \
+          [I.dot(x, y, 18, "#efe8da", 1.1) for x, y in ((340, 420), (340, 536), (580, 420), (580, 536))] + \
+          [I.label(460, 610, "ethylene", 1.6, I.AMBER, 34),
+           I.box(120, 760, 220, 30, "#8c7152", r=6, at=4.6), I.oval(150, 740, 26, 22, "#e8d6b8", "none", 0, 1, 4.8), I.box(176, 728, 150, 34, "#e8d6b8", r=12, at=4.8),
+           I.label(230, 840, "asleep", 6.0, I.LILAC, 30)] + \
+          [I.glow(230 + 60 * k, 680 - 30 * (k % 2), 50, round(9.0 + .3 * k, 2), .7, "lamp") for k in range(3)] + \
+          [I.line([[700, 800], [760, 680]], 12.8, "#c9ad85", 4, draw=False), I.line([[820, 800], [760, 680]], 12.8, "#c9ad85", 4, draw=False), I.line([[760, 800], [760, 680]], 12.8, "#c9ad85", 4, draw=False),
+           I.person(760, 680, 110, 13.0, "#e8d6b8")] + [_wisp(760, 800, 90, 13.6, "#f2c98e", 0, 7, 10)] + \
+          [I.arrow([[560, 470], [650, 520], [700, 580]], 14.4, I.AMBER, 3, "inferred", .8)]
+    bars = [I.line([[110, 1340], [890, 1340]], .2, "#8c7152", 3, draw=False), I.label(500, 900, "schematic", 1.0, "#9a938a", 28)] + \
+           [I.box(x, 1340 - h, 140, h, c, r=6, at=at, fx="fill", dur=.9) for x, h, c, at in ((130, 330, I.BLUE, 4.4), (320, 140, "#8fd9b0", 5.4), (510, 290, "#cbd2d8", 6.6), (700, 6, I.AMBER, 11.6))] + \
+           [I.label(x + 70, 1390, t, at, c, 28) for x, t, c, at in ((130, "methane", I.BLUE, 4.6), (320, "ethane", "#8fd9b0", 5.6), (510, "CO2", "#cbd2d8", 6.8), (700, "ethylene", I.AMBER, 11.8))] + \
+           [I.glow(770, 1336, 50, 12.0, .8, "lamp"), I.line([[690, 1010], [850, 1010]], 13.6, FAULT, 3, "inferred", .6), I.label(850, 980, "for a trance", 14.0, FAULT, 28, "end"),
+            I.arrow([[770, 1320], [770, 1030]], 14.4, FAULT, 2, "claimed", .6, False)]
+    # 0 again: half the story holds (faults, springs, gas); the other half (drug, ritual, oxygen) stays open
+    tick = lambda x, y, at, c=I.GREEN: I.line([[x - 16, y], [x - 4, y + 14], [x + 20, y - 16]], at, c, 5, dur=.4)
+    holds = [I.box(110, 280, 780, 110, "rgba(18,13,10,.8)", I.GREEN, 2, 14, .2)] + \
+            [x for k, (t, at) in enumerate((("faults", 2.0), ("springs", 3.0), ("gas", 4.0))) for x in (tick(190 + 250 * k, 335, at), I.label(225 + 250 * k, 346, t, at, I.BONE, 32, "start"))]
+    rest = [I.box(110, 405, 780, 155, "rgba(18,13,10,.8)", I.LILAC, 2, 14, .2, style="claimed")] + \
+           [I.dot(205, 455, 18, "#5a534c", 1.4), I.dot(265, 455, 18, "#5a534c", 1.4), I.line([[205, 450], [265, 450]], 1.4, I.BONE, 3, draw=False), I.line([[205, 461], [265, 461]], 1.4, I.BONE, 3, draw=False),
+            I.label(235, 535, "a drug?", 2.0, I.LILAC, 28)] + \
+           [I.glow(500, 455, 60, 4.6, .8, "lamp"), I.dot(500, 465, 12, "#ffd27a", 4.6), I.label(500, 535, "ritual?", 5.0, I.LILAC, 28)] + \
+           [I.box(715, 420, 100, 72, "none", "#c9ad85", 3, 6, 8.6)] + [I.dot(x, y, 5, I.BLUE, round(8.9 + .1 * k, 2)) for k, (x, y) in enumerate(((735, 440), (790, 455), (755, 475)))] + \
+           [I.label(765, 535, "less oxygen?", 9.4, I.LILAC, 28)] + I.question(860, 470, 14.0, 50)
+    return remix(ep, _rewrite=False, scenes={0: s0, 2: sec, 3: {"base": "dark", "cam": [1, 500, 880], "els": wit}, 4: {"base": "dark", "cam": [1, 500, 880], "els": eth}},
+                 alias={1: 0, 5: 0, 6: 0}, cams={6: [1.15, 500, 980]}, adds={0: vapour},
+                 beat_adds={4: (holds, [1.1, 500, 900])},
+                 line_adds={(0, 1): (found, None), (2, 1): (seep, None), (3, 1): (bars, None), (4, 1): (rest, None)})
+
+
 # ---------------------------------------------------------------- 07.07 The ledger
 def _ledger_text():
     v = View(-95, 140, -25, 52, (40, 330, 920, 900))
@@ -664,4 +842,4 @@ def ledger_recap():
 
 
 def EPISODES():
-    return [derinkuyu_m(), longyou_m(), malta(), acoustics_m(), cymatic_m(), delphi(), ledger_recap()]
+    return [derinkuyu_m(), longyou_m(), malta_m(), acoustics_m(), cymatic_m(), delphi_m(), ledger_recap()]

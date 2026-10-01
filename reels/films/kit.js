@@ -43,6 +43,7 @@ function defs(svg){
   rg('k-lamp',[[0,COL.lamp,.85],[.55,COL.lamp,.2],[1,COL.lamp,0]]);
   rg('k-glowb',[[0,COL.scan,.8],[.5,COL.scan,.18],[1,COL.scan,0]]);
   rg('k-glowr',[[0,COL.ochre,.8],[.5,COL.ochre,.2],[1,COL.ochre,0]]);
+  rg('k-fire',[[0,'#ffd08a',.9],[.35,COL.copper,.45],[1,COL.ochre,0]]);
   rg('k-vig',[[.55,'#0b0908',0],[1,'#0b0908',.85]],.5,.45,.78);
   rg('k-bgdark',[[0,'#3d2f22'],[1,'#0d0b09']],.5,.38,.95);
   lg('k-stoneL',[[0,'#f2dcb4'],[1,'#c9a878']]);
@@ -201,7 +202,7 @@ EL.arrow=function(g,e){ var gg=mk('g',{},g), p=e.p, a=p[p.length-2], b=p[p.lengt
 EL.poly=function(g,e){ var s=st(e); return mk('path',{d:(e.curve?smooth:pts)(e.p,true),fill:e.fill||'rgba(245,236,220,.08)',stroke:e.c||COL.bone,'stroke-width':e.w||2,'stroke-dasharray':e.dash||s.dash,opacity:e.op==null?1:e.op,'stroke-linejoin':'round'},g); };
 EL.rect=function(g,e){ var s=st(e); return mk('rect',{x:e.x,y:e.y,width:e.w,height:e.h,rx:e.r||0,fill:e.fill||'rgba(245,236,220,.08)',stroke:e.c||COL.bone,'stroke-width':e.sw||2,'stroke-dasharray':e.dash||s.dash,opacity:e.op==null?1:e.op},g); };
 EL.circle=function(g,e){ var s=st(e); return mk('circle',{cx:e.x,cy:e.y,r:e.r,fill:e.fill||'none',stroke:e.c||COL.bone,'stroke-width':e.w||2,'stroke-dasharray':e.dash||s.dash,opacity:e.op==null?1:e.op},g); };
-EL.glow=function(g,e){ return mk('circle',{cx:e.x,cy:e.y,r:e.r||80,fill:'url(#'+(e.kind==='red'?'k-glowr':e.kind==='lamp'?'k-lamp':e.kind==='sun'?'k-sun':'k-glowb')+')',opacity:e.op==null?1:e.op,'class':e.pulse?'k-breathe':null},g); };
+EL.glow=function(g,e){ return mk('circle',{cx:e.x,cy:e.y,r:e.r||80,fill:'url(#'+(e.kind==='red'?'k-glowr':e.kind==='fire'?'k-fire':e.kind==='lamp'?'k-lamp':e.kind==='sun'?'k-sun':'k-glowb')+')',opacity:e.op==null?1:e.op,'class':e.pulse?'k-breathe':null},g); };
 EL.fan=function(g,e){ /* a sounding: rays from a source, fading with range */
   var gg=mk('g',{},g), n=e.n||13, a0=(e.a0==null?60:e.a0)*Math.PI/180, a1=(e.a1==null?120:e.a1)*Math.PI/180, r=e.r||500, c=e.c||COL.scan;
   for(var i=0;i<n;i++){ var a=lerp(a0,a1,i/(n-1)); mk('path',{d:pts([[e.x,e.y],[e.x+Math.cos(a)*r,e.y+Math.sin(a)*r]]),stroke:c,'stroke-width':1.4,opacity:.55,'stroke-dasharray':'2 9'},gg); }
@@ -296,7 +297,7 @@ EL.iso=function(g,e){
     else if(it.t==='label'||it.t==='q'||it.t==='person'||it.t==='glow'){ var lg=mk('g',{},top);
       if(it.t==='label') text(lg,0,0,it.text,it.st||'lab',{anchor:it.a||'middle',color:it.c});
       else if(it.t==='q') text(lg,0,0,'?','big',{anchor:'middle',color:it.c||COL.gold,size:it.size||60});
-      else if(it.t==='glow') mk('circle',{r:it.r||80,fill:'url(#'+(it.kind==='red'?'k-glowr':it.kind==='lamp'?'k-lamp':'k-glowb')+')','class':it.pulse?'k-breathe':null},lg);
+      else if(it.t==='glow') mk('circle',{r:it.r||80,fill:'url(#'+(it.kind==='red'?'k-glowr':it.kind==='fire'?'k-fire':it.kind==='lamp'?'k-lamp':it.kind==='sun'?'k-sun':'k-glowb')+')','class':it.pulse?'k-breathe':null},lg);
       labs.push({it:it,el:lg}); } });
   function frame(t,z){
     var azd=Math.round(((e.az==null?35:e.az)+(e.spin||0)*t)*8)/8, el=el0+DIR_EL;     /* an eighth of a degree: invisible, and a still model costs nothing */

@@ -96,6 +96,66 @@ def tophet():
               ["#Carthage", "#Tunisia", "#Archaeology", "#AncientHistory", "#CarthageAndBefore"])
 
 
+def tophet_m():
+    """The tophet as one continuous take (see mural.py): six centuries and two hundred marks of a hundred urns, a late outsider's account,
+    a marker of a vow, two age profiles from two teams, and a calendar that tells when but not why. No remains are ever drawn."""
+    from mural import remix
+    from illus import person, arrow, line, glow, label, dot, box, oval, question, ring, AMBER, BLUE, GREEN, BONE, LILAC
+    ep = tophet()
+    # 2 · six centuries of use (c. 750 to 146 BCE), two of them (400 to 200 BCE) holding c. 20,000 urns: 200 marks of 100
+    X = lambda yr: round(120 + (yr + 750) / 604 * 760, 1)
+    urns = [box(X(-400) + 2 + 25 * (k % 10), 1176 - 25 * (k // 10), 20, 20, "#b88b5e", r=7, at=round(1.6 + .012 * k, 3), fx="pop") for k in range(200)]
+    span = {"base": "dark", "cam": [1, 500, 900], "els": [
+        box(120, 1230, 760, 22, PUNIC, r=11, at=.2, fx="fill", dur=1.0),
+        label(120, 1300, "c. 750 BCE", .6, "#cbbca8", 28, "start"), label(880, 1300, "146 BCE", .9, RED, 28, "end"),
+        box(X(-400), 1220, X(-200) - X(-400), 42, "none", GOLD, 3, 8, 1.1, fx="draw")] + urns + [
+        label(686, 650, "two centuries", 1.3, GOLD, 32),
+        label(330, 900, "c. 20,000 urns", 4.2, BONE, 40, st="serif"), label(330, 960, "1 mark = 100 urns", 4.6, "#cbbca8", 28)]}
+    # 3 · Diodorus: a crisis in 310 BCE, told some 280 years later, from outside the city
+    D = lambda yr: round(140 + (yr + 400) / 400 * 720, 1)
+    texts = {"base": "dark", "cam": [1, 500, 900], "els": [
+        line([[120, 640], [880, 640]], .2, "#8c7152", 3),
+        ring(D(-310), 640, 62, 1.0, PUNIC, 3), dot(D(-310), 640, 10, PUNIC, 1.2), label(D(-310), 545, "Carthage, 310 BCE", 1.6, PUNIC, 30),
+        person(D(-30), 632, 130, 4.2), box(D(-30) + 26, 545, 34, 44, BONE, r=4, at=4.6, fx="pop"), label(D(-30), 470, "Diodorus", 4.6, AMBER, 32),
+        arrow([[D(-310), 740], [D(-30) - 10, 740]], 5.4, AMBER, 3, "known", 1.2, False), label((D(-310) + D(-30)) / 2, 712, "c. 280 years later", 6.2, AMBER, 32),
+        line([[D(-30) - 30, 600], [D(-310) + 70, 620]], 8.4, LILAC, 2, "claimed", 1.0)]}
+    # 3, second line · the marker of a vow, standing over an urn
+    vow = [box(80, 1060, 840, 340, "#4a3a2c", r=4, at=.2, fx="fill", dur=.8), line([[80, 1060], [920, 1060]], .2, "#8a6a48", 3, draw=False),
+           {"k": "poly", "p": [[470, 1190], [530, 1190], [540, 1210], [575, 1245], [580, 1300], [555, 1345], [445, 1345], [420, 1300], [425, 1245], [460, 1210]],
+            "fill": "#b88b5e", "c": "#e0c49a", "w": 2, "curve": True, "in": .6, "fx": "pop"},
+           {"k": "poly", "p": [[440, 1062], [560, 1062], [560, 880], [500, 820], [440, 880]], "fill": "#d9cbb0", "c": "#fff3dc", "w": 2, "in": 1.4, "fx": "rise"},
+           {"k": "poly", "p": [[500, 935], [468, 1030], [532, 1030]], "fill": PUNIC, "c": "none", "w": 0, "in": 2.2, "fx": "pop"},
+           line([[462, 935], [538, 935]], 2.4, PUNIC, 6, dur=.4), dot(500, 905, 15, PUNIC, 2.6),
+           glow(500, 940, 120, 3.0, .45), label(600, 900, "a vow", 3.0, AMBER, 34, "start"), label(600, 950, "to Baal Hammon, Tanit", 3.4, "#cbbca8", 28, "start")] + \
+        question(800, 1180, 5.6, 90)
+    # 4 · two teams, two age profiles (schematic): many before birth / a sharp peak at one to two months
+    A = [.9, .75, .6, .45, .3, .2, .15]; Bv = [.15, .25, .4, .6, .95, .45, .2]
+    bx = lambda k: 150 + k * 100
+    def chart(base, vals, c, at, name):
+        out = [line([[120, base], [880, base]], at, "#8c7152", 2, draw=False),
+               line([[bx(3) - 15, base + 10], [bx(3) - 15, base - 330]], at + .4, BONE, 2, "inferred", .6),
+               label(120, base - 345, name, at + .2, c, 30, "start")]
+        out += [box(bx(k), base - v * 280, 70, v * 280, c, r=4, at=round(at + 1.0 + .15 * k, 2), fx="fill", dur=.7) for k, v in enumerate(vals)]
+        return out
+    ages = {"base": "dark", "cam": [1, 500, 900], "els": chart(820, A, BLUE, .3, "team one") + [
+        label(bx(3) - 15, 460, "birth", 1.0, BONE, 28), label(bx(1) + 35, 870, "before birth", 3.0, BLUE, 30),
+        glow(bx(1) + 35, 650, 170, 3.4, .4)]}
+    team2 = chart(1330, Bv, AMBER, .2, "team two") + [label(bx(4) + 35, 1380, "1 to 2 months", 2.4, AMBER, 30), ring(bx(4) + 35, 1130, 70, 2.8, AMBER, 3)]
+    # 5 · the catch: a calendar of age, its last page (the cause) missing; then Zita, a later clue of illness and care
+    days = [box(175 + 52 * (k % 5), 640 + 52 * (k // 5), 40, 40, "#3a3029", "#8c7152", 1.5, 4, round(.8 + .04 * k, 2)) for k in range(20)]
+    catch = {"base": "dark", "cam": [1, 500, 900], "els": [box(150, 560, 290, 330, "#d8c9a8", "#8a7a66", 2, 10, .3), box(150, 560, 290, 56, PUNIC, r=10, at=.4)]
+             + [dot(205 + 60 * k, 560, 9, BONE, .5) for k in range(4)] + days
+             + [box(175 + 52 * 2, 640 + 52 * 2, 40, 40, GREEN, r=4, at=2.4, fx="pop"), glow(299, 764, 90, 2.6, .5), label(295, 950, "age", 2.8, GREEN, 34),
+                box(560, 560, 290, 330, "none", LILAC, 3, 10, 3.6, style="claimed", fx="draw", dur=1.0), label(705, 950, "cause", 4.4, LILAC, 34)]
+             + question(705, 780, 4.2, 110)}
+    zita = [label(500, 1040, "Zita · later", .4, BLUE, 32), glow(560, 1240, 220, 1.2, .55, "lamp"),
+            person(420, 1330, 200, 1.0), oval(580, 1310, 70, 26, "#8a6a44", "#e7c99a", 2, 1, 1.6),
+            oval(580, 1286, 34, 16, "#efe6d2", "none", 0, 1, 1.8),
+            arrow([[700, 1200], [890, 1060], [870, 870]], 6.0, LILAC, 3, "claimed", 1.2)]
+    return remix(ep, scenes={2: span, 3: texts, 4: ages, 5: catch}, alias={6: 0}, cams={6: [1.16, 500, 960]},
+                 line_adds={(2, 1): (vow, None), (3, 1): (team2, None), (4, 1): (zita, None)})
+
+
 # ---------------------------------------------------------------- 15.02 The salt that never was
 def salt():
     R = 16
@@ -141,6 +201,58 @@ def salt():
               "Ridley 1986 (doi:10.1086/366973) · Stevens 1988 (doi:10.1086/367078) · Hurst & Stager 1978 · Polybius 15.18 · Appian, Punica 96",
               "Rome never salted Carthage: the story is a line in a 1930 history book. But the defeated city did build a hidden war harbour for a navy it was forbidden to have.",
               ["#Carthage", "#Tunisia", "#Rome", "#MythBusting", "#CarthageAndBefore"])
+
+
+def salt_m():
+    """The salt that never was, as one continuous take (see mural.py): ten warships, a round harbour with some 170 sheds (three football
+    pitches across), the fire of 146 BCE, and two thousand years of silence before a 1930 book adds the salt."""
+    from mural import remix
+    from illus import arrow, line, glow, label, dot, box, oval, ring, scatter, AMBER, BLUE, GREEN, BONE, LILAC, SEA as SEA_
+    ep = salt()
+    # 2 · Zama, 202 BCE: ten warships allowed
+    ten = {"base": "dark", "cam": [1, 500, 880], "els": [label(500, 560, "after Zama, 202 BCE", .4, AMBER, 34)] +
+           [{"k": "boat", "x": 180 + 160 * (k % 5), "y": 820 + 200 * (k // 5), "w": 130, "in": round(1.6 + .22 * k, 2), "fx": "pop"} for k in range(10)] +
+           [label(500, 1180, "10 warships", 4.0, BONE, 40, st="serif")]}
+    # 3 · the round war harbour from above: c. 325 m across, c. 170 sheds round the rim and the island
+    cx, cy, R, r = 500, 820, 290, 92
+    sheds = []
+    for k in range(136):
+        a = 2 * math.pi * k / 136
+        sheds.append(line([[round(cx + (R - 34) * math.cos(a), 1), round(cy + (R - 34) * math.sin(a), 1)], [round(cx + R * math.cos(a), 1), round(cy + R * math.sin(a), 1)]],
+                          round(4.6 + .026 * k, 3), "#d6c49c", 3, draw=False))
+    for k in range(34):
+        a = 2 * math.pi * k / 34
+        sheds.append(line([[round(cx + r * math.cos(a), 1), round(cy + r * math.sin(a), 1)], [round(cx + (r + 26) * math.cos(a), 1), round(cy + (r + 26) * math.sin(a), 1)]],
+                          round(8.2 + .03 * k, 3), "#d6c49c", 3, draw=False))
+    harb = {"base": "dark", "cam": [1, 500, 900], "els": [
+        oval(cx, cy, R + 14, R + 14, "#9c8a6a", "none", 0, 1, .2), oval(cx, cy, R, R, SEA_, "#9fd0ff", 2, 1, .4), oval(cx, cy, r, r, "#c9b48a", "#e0cfa8", 2, 1, .9),
+        arrow([[cx - R, 1185], [cx + R, 1185]], 2.4, BONE, 2, "known", .8, False), arrow([[cx + R, 1185], [cx - R, 1185]], 2.4, BONE, 2, "known", .8, False),
+        label(cx, 1165, "c. 325 m", 2.8, BONE, 32)]
+        + [box(cx - R + 194 * k + 3, 1235, 188, 110, "rgba(143,217,176,.18)", GREEN, 2, 4, round(3.4 + .35 * k, 2), fx="pop") for k in range(3)]
+        + [line([[cx - R + 194 * k + 97, 1235], [cx - R + 194 * k + 97, 1345]], round(3.5 + .35 * k, 2), GREEN, 1.5, draw=False) for k in range(3)]
+        + sheds + [label(cx, 480, "c. 170 ship sheds", 9.4, "#d6c49c", 34)]}
+    lit = []
+    for j, k in enumerate(range(0, 136, 14)[:10]):
+        a = 2 * math.pi * k / 136
+        lit.append(line([[round(cx + (R - 40) * math.cos(a), 1), round(cy + (R - 40) * math.sin(a), 1)], [round(cx + (R + 4) * math.cos(a), 1), round(cy + (R + 4) * math.sin(a), 1)]],
+                        round(.3 + .12 * j, 2), GOLD, 10, draw=False))
+    lit += [glow(cx, cy, 330, .4, .25)]
+    # 4 · the salt: ancient accounts say nothing; c. 2,000 years later, a 1930 book
+    X = lambda yr: round(120 + (yr + 200) / 2200 * 760, 1)
+    grains = [dot(x, y, 4, "#f5f1e6", round(5.4 + .03 * k, 2)) for k, (x, y) in enumerate(scatter(36, 760, 900, 880, 1060, 5))]
+    silence = {"base": "dark", "cam": [1, 500, 900], "els": [
+        line([[110, 940], [890, 940]], .2, "#8c7152", 3), dot(X(-146), 940, 10, RED, .4), label(X(-146) - 10, 1000, "146 BCE", .5, RED, 28, "start")]
+        + sum([[box(150 + 70 * k, 790, 46, 70, "#d8c9a8", "#8a7a66", 1.5, 6, round(1.4 + .3 * k, 2), fx="pop"),
+                line([[158 + 70 * k, 810], [188 + 70 * k, 810]], round(1.5 + .3 * k, 2), "#8a7a66", 2, draw=False),
+                line([[158 + 70 * k, 830], [184 + 70 * k, 830]], round(1.5 + .3 * k, 2), "#8a7a66", 2, draw=False)] for k in range(3)], [])
+        + [label(240, 740, "ancient accounts", 2.0, "#cbbca8", 28), label(240, 700, "no salt", 2.8, GREEN, 30),
+           arrow([[300, 1080], [800, 1080]], 3.4, AMBER, 3, "inferred", 1.4, False), label(550, 1130, "c. 2,000 years", 4.0, AMBER, 32),
+           box(X(1930) - 45, 780, 90, 110, GOLD, "#fff3dc", 2, 6, 4.6, fx="pop"), line([[X(1930) - 45, 780], [X(1930) - 45, 890]], 4.7, "#8a6a44", 5, draw=False),
+           dot(X(1930), 940, 10, GOLD, 4.6), label(X(1930) + 20, 1000, "1930", 4.8, GOLD, 30, "end")] + grains}
+    tl, ax = timeline(-300, 100, [(-300, "300 BCE"), (-200, "200"), (-100, "100"), (0, "1 CE"), (100, "100")], "The end of Punic Carthage")
+    fire = [glow(ax.x(-146), 800, 120, 1.0, .75, "red"), glow(ax.x(-146), 780, 70, 1.6, .6, "red")]
+    return remix(ep, scenes={2: ten, 3: harb, 4: silence}, alias={6: 0}, adds={5: fire}, cams={6: [1.18, 500, 960]},
+                 line_adds={(2, 1): (lit, None)})
 
 
 # ---------------------------------------------------------------- 15.03 The Capsian snail mounds
@@ -221,6 +333,72 @@ def dougga():
               "British Museum 1852,0305.1 · Mnamon (Scuola Normale Superiore), Libyco-Berber · UNESCO WHC 794 · Chabot 1940, Recueil des inscriptions libyques",
               "A consul brought down a royal tomb in Tunisia to take one stone. That stone, written in two scripts, let scholars read the sounds of a lost African alphabet, but not yet its language.",
               ["#Tunisia", "#Dougga", "#Amazigh", "#Decipherment", "#CarthageAndBefore"])
+
+
+def dougga_m():
+    """Dougga's stone as one continuous take (see mural.py): names as keys (a Punic name matched sign by sign), 22 of 24 signs lit,
+    a script without vowels, a name and a father's name, and the letters living on in Tifinagh. Signs are schematic."""
+    from mural import remix
+    from illus import arrow, line, glow, label, dot, box, ring, question, person, AMBER, BLUE, GREEN, BONE, LILAC
+    ep = dougga()
+
+    def sign(kind, x, y, at, c=BONE, s=26, w=4):
+        """A geometric sign in the manner of the Libyco-Berber letters (schematic)."""
+        if kind == 0:
+            return [ring(x, y, s * .8, at, c, w, dur=.4)]
+        if kind == 1:
+            return [line([[x - s, y - 9], [x + s, y - 9]], at, c, w, dur=.3), line([[x - s, y + 9], [x + s, y + 9]], at + .1, c, w, dur=.3)]
+        if kind == 2:
+            return [line([[x - s, y], [x + s, y]], at, c, w, dur=.3), line([[x, y - s], [x, y + s]], at + .1, c, w, dur=.3)]
+        if kind == 3:
+            return [box(x - s * .75, y - s * .75, s * 1.5, s * 1.5, "none", c, w, 2, at, fx="draw", dur=.4)]
+        if kind == 4:
+            return [dot(x, y - s * .7, 5.5, c, at), dot(x, y, 5.5, c, at + .05), dot(x, y + s * .7, 5.5, c, at + .1)]
+        return [line([[x - s * .8, y + s * .8], [x, y - s * .8], [x + s * .8, y + s * .8]], at, c, w, dur=.4)]
+
+    def punic(kind, x, y, at, c=AMBER):
+        """A letter in the manner of the Punic script (schematic strokes)."""
+        P = [[[-14, -24], [12, -10], [-10, 4], [8, 24]], [[-12, -22], [12, -22], [12, 0], [-8, 0], [6, 24]], [[0, -24], [0, 14], [-14, 24]], [[-16, -12], [-6, 6], [4, -12], [14, 6], [14, 24]]]
+        return [line([[x + px, y + py] for px, py in P[kind % 4]], at, c, 4, dur=.4)]
+
+    # 3 · names as keys: one name in each script, matched sign by sign; then 22 of the 24 eastern signs are read
+    xs = [320, 440, 560, 680]
+    key = {"base": "dark", "cam": [1, 500, 880], "els": [label(500, 470, "a name in Punic", .6, AMBER, 30),
+           box(250, 510, 500, 100, "rgba(232,184,122,.08)", AMBER, 2, 14, 1.0, fx="draw")]
+           + sum([punic(k, x, 560, round(1.2 + .2 * k, 2)) for k, x in enumerate(xs)], [])
+           + [box(250, 690, 500, 100, "rgba(159,208,255,.08)", BLUE, 2, 14, 2.2, fx="draw")]
+           + sum([sign(kind, xs[k], 740, round(2.4 + .2 * k, 2), BLUE) for k, kind in enumerate((0, 2, 1, 3))], [])
+           + [line([[x, 600], [x, 700]], round(3.6 + .25 * k, 2), GREEN, 3, "inferred", .4) for k, x in enumerate(xs)]
+           + [glow(x, 740, 60, round(4.0 + .25 * k, 2), .5) for k, x in enumerate(xs)]
+           + [label(500, 850, "the same name in Libyco-Berber", 3.0, BLUE, 30)]}
+    tiles = []
+    for k in range(24):
+        x = 215 + 100 * (k % 6); y = 960 + 92 * (k // 6)
+        tiles.append(box(x - 40, y - 34, 80, 68, "#2c2520", "#8c7152", 1.5, 8, round(6.4 + .03 * k, 2)))
+        tiles += sign(k % 6, x, y, round(6.5 + .03 * k, 2), "#9a938a", 18, 3)
+        if k not in (17, 22):
+            tiles.append(box(x - 40, y - 34, 80, 68, "rgba(143,217,176,.28)", GREEN, 2, 8, round(8.6 + .09 * k, 2), fx="pop"))
+    tiles += question(215 + 100 * 5, 960 + 92 * 2 + 20, 11.0, 60) + question(215 + 100 * 4, 960 + 92 * 3 + 20, 11.2, 60)
+    key["els"] += tiles + [label(500, 1400, "22 of 24 signs read", 11.6, GREEN, 34)]
+    # 5 · no vowels: consonant signs with empty slots between; most texts are names, "this person, son of that one"
+    nov = {"base": "dark", "cam": [1, 500, 900], "els": []}
+    for k, kind in enumerate((2, 0, 3)):
+        x = 220 + 280 * k
+        nov["els"] += [box(x - 50, 470, 100, 100, "#2c2520", BLUE, 2, 10, round(.4 + .3 * k, 2))] + sign(kind, x, 520, round(.6 + .3 * k, 2), BLUE)
+    for k in range(2):
+        x = 360 + 280 * k
+        nov["els"] += [box(x - 40, 480, 80, 80, "none", LILAC, 2.5, 10, round(2.6 + .4 * k, 2), style="claimed", fx="draw", dur=.5),
+                       label(x, 538, "?", round(2.9 + .4 * k, 2), LILAC, 44, st="serif")]
+    nov["els"] += [label(500, 640, "no vowels", 3.6, LILAC, 32),
+                   person(330, 1000, 230, 5.0), person(660, 1000, 180, 5.6),
+                   arrow([[600, 860], [500, 820], [400, 860]], 6.4, AMBER, 3, "known", .8), label(500, 790, "son of", 6.8, AMBER, 30)]
+    tif = [label(250, 1080, "ancient", .3, "#cbbca8", 28)] + sum([sign(kind, 160 + 90 * k, 1150, round(.4 + .15 * k, 2), "#cbbca8", 22) for k, kind in enumerate((0, 2, 1))], []) \
+        + [arrow([[420, 1150], [570, 1150]], 1.6, AMBER, 3, "known", .8, False)] \
+        + sum([sign(kind, 660 + 90 * k, 1150, round(2.2 + .15 * k, 2), BLUE, 22) for k, kind in enumerate((0, 2, 1))], []) \
+        + [glow(750, 1150, 150, 2.4, .45), label(750, 1230, "Tifinagh", 2.8, BLUE, 32),
+           {"k": "poly", "p": [[380, 1290], [620, 1290], [620, 1380], [470, 1380], [430, 1415], [440, 1380], [380, 1380]], "fill": "none", "c": LILAC, "w": 2.5, "style": "claimed", "in": 4.4, "fx": "draw", "dur": .8},
+           label(500, 1352, "?", 5.0, LILAC, 44, st="serif")]
+    return remix(ep, scenes={3: key, 5: nov}, alias={6: 0}, cams={6: [1.15, 500, 960]}, line_adds={(4, 1): (tif, None)})
 
 
 # ---------------------------------------------------------------- 15.05 El Guettar's cone of stone balls
@@ -310,6 +488,48 @@ def tritonis():
               ["#Tunisia", "#GreekMythology", "#Sahara", "#Argonauts", "#CarthageAndBefore"])
 
 
+def tritonis_m():
+    """Lake Tritonis as one continuous take (see mural.py): a salt flat the size of an 84 km square that shimmers thinly in winter,
+    the 1878 canal meeting ground above sea level, and a stalagmite's layers as the region's diary."""
+    from mural import remix
+    from illus import arrow, line, glow, label, dot, box, oval, ellipse, strike, AMBER, BLUE, GREEN, BONE, LILAC, SEA as SEA_
+    import random as _r
+    ep = tritonis()
+    # 2 · the Chott el Djerid: c. 7,000 km2 of salt (the same area as a square c. 84 km a side), flooding thinly in winter
+    rr = _r.Random(3)
+    shore = [[round(500 + 380 * math.cos(math.radians(a)) * (1 + .06 * rr.uniform(-1, 1)), 1), round(700 + 133 * math.sin(math.radians(a)) * (1 + .1 * rr.uniform(-1, 1)), 1)] for a in range(0, 360, 15)]
+    flat = {"base": "dark", "cam": [1, 500, 900], "els": [
+        label(500, 520, "Chott el Djerid", .4, GOLD, 34),
+        {"k": "poly", "p": shore, "fill": SALT, "c": "#fff6e6", "w": 2, "curve": True, "in": .6, "fx": "pop"},
+        {"k": "poly", "p": shore, "fill": "rgba(255,255,255,.0)", "c": "#cfc6b3", "w": 1, "curve": True, "in": 1.4, "style": "inferred"},
+        box(300, 930, 400, 400, "rgba(233,226,210,.10)", BONE, 2.5, 2, 3.2, style="inferred", fx="draw", dur=1.0),
+        label(500, 1140, "c. 7,000 km²", 4.0, BONE, 40, st="serif"), label(720, 1140, "84 km", 4.4, "#cbbca8", 28, "start"),
+        line([[712, 940], [712, 1320]], 4.4, "#cbbca8", 2, draw=False),
+        {"k": "poly", "p": shore, "fill": "rgba(63,134,176,.45)", "c": "#9fd0ff", "w": 2, "curve": True, "in": 6.0, "fx": "fill", "dur": 1.2},
+        label(880, 880, "winter", 6.6, BLUE, 30, "end")]}
+    # 3 · the 1878 plan, west to east (heights exaggerated): Chott Melrhir below sea level, the Tunisian chotts above, the sea at the east
+    ground = [[80, 900], [130, 960], [200, 985], [280, 960], [340, 900], [420, 845], [500, 828], [590, 835], [670, 850], [740, 880], [790, 862], [830, 905], [850, 990]]
+    plan = {"base": "dark", "cam": [1, 500, 900], "els": [
+        {"k": "poly", "p": ground + [[850, 1250], [80, 1250]], "fill": "#6f5a44", "c": "none", "w": 0, "in": .2, "fx": "fill", "dur": .8},
+        line(ground, .2, "#e9dccb", 3, dur=1.0, curve=True),
+        {"k": "poly", "p": [[835, 905], [930, 905], [930, 1250], [850, 1250], [850, 990]], "fill": SEA_, "c": "none", "w": 0, "in": .4},
+        line([[70, 905], [930, 905]], .8, "#9fd0ff", 2, "inferred", 1.0), label(80, 885, "sea level", 1.0, BLUE, 28, "start"),
+        label(890, 960, "sea", 1.2, BLUE, 30), label(200, 1050, "Melrhir", 1.6, "#ff8a7a", 30), label(520, 790, "the chotts", 1.8, GOLD, 30),
+        label(500, 1330, "west to east · heights exaggerated", 2.0, "#b9aa97", 28),
+        arrow([[915, 895], [740, 895], [570, 895]], 3.0, AMBER, 5, "claimed", 1.4, False), label(800, 800, "canal", 3.4, AMBER, 30),
+        glow(560, 880, 110, 6.4, .5, "red"), strike(530, 865, 590, 925, 6.8), strike(590, 865, 530, 925, 6.9),
+        {"k": "poly", "p": [[96, 905], [130, 960], [200, 985], [280, 960], [334, 905]], "fill": "rgba(63,134,176,.7)", "c": "#9fd0ff", "w": 1.5, "in": 8.2, "fx": "fill", "dur": 1.0}]}
+    verne = [box(420, 1370 - 230, 160, 210, "#5a4632", "#e9dccb", 2, 6, .4, fx="pop"), line([[432, 1142], [432, 1348]], .5, "#e9dccb", 3, draw=False),
+             line([[450, 1250], [480, 1238], [510, 1250], [540, 1238], [565, 1250]], .9, BLUE, 3, curve=True), glow(500, 1245, 140, 1.0, .45)]
+    # 4 · the cave's diary: a stalagmite, its layers drawn drop by drop; then the dry years
+    tl, ax = timeline(-3500, 2000, [(-3500, "3500 BCE"), (-1500, "1500 BCE"), (500, "500 CE"), (2000, "2000")], "Wet, then dry, then the myth")
+    stal = [{"k": "poly", "p": [[150, 1200], [250, 1200], [228, 1150], [214, 1060], [205, 990], [195, 990], [186, 1060], [172, 1150]], "fill": "#cdbb95", "c": "#fff3dc", "w": 1.5, "in": .4, "fx": "rise"}]
+    stal += [line([[round(200 - (48 - 43 * (20 + 26 * k) / 210), 1), 1180 - 26 * k], [round(200 + (48 - 43 * (20 + 26 * k) / 210), 1), 1180 - 26 * k]], round(.8 + .12 * k, 2), BLUE if k in (1, 2, 3) else "#8c7152", 2, draw=False) for k in range(7)]
+    stal += [dot(200, 960, 6, "#9fd0ff", .6), label(200, 1250, "a stalagmite", 1.2, "#cbbca8", 28),
+             box(ax.x(-3000), 812, ax.x(2000) - ax.x(-3000), 16, "#c9a66b", r=8, at=2.8, fx="fill", dur=1.4), label(ax.x(-1200), 790, "dry", 3.4, "#c9a66b", 30)]
+    return remix(ep, scenes={2: flat, 3: plan}, alias={5: 0, 6: 0}, adds={4: stal}, cams={6: [1.15, 500, 960], 4: [1.05, 500, 880]}, line_adds={(3, 1): (verne, None)})
+
+
 # ---------------------------------------------------------------- 15.07 Kerkouane
 def kerkouane():
     h = [{"t": "slab", "x0": -24, "x1": 24, "z0": -20, "z1": 20, "y": 0, "c": "#b3a07c"}]
@@ -351,6 +571,48 @@ def kerkouane():
               ["#Tunisia", "#Carthage", "#Phoenicians", "#Archaeology", "#CarthageAndBefore"])
 
 
+def kerkouane_m():
+    """Kerkouane as one continuous take (see mural.py): the town plan drawn street by street, a well in each courtyard, a seated bath
+    in each house, twelve hundred people and the purple of the sea snails; the sign of Tanit; and two dates on one page."""
+    from mural import remix
+    from illus import arrow, line, glow, label, dot, box, oval, person, AMBER, BLUE, GREEN, BONE, LILAC
+    ep = kerkouane()
+    # 3 · the town from above: streets on a grid, houses round courtyards, a well in each, a seated bath lined in red mortar
+    town = {"base": "dark", "cam": [1, 500, 880], "els": [box(110, 420, 780, 560, "#9c8a6a", r=6, at=.1, op=.9)]}
+    town["els"] += [box(110, 682, 780, 36, "#cbb891", r=2, at=.4, fx="draw"), box(357, 420, 36, 560, "#cbb891", r=2, at=.7, fx="draw"), box(607, 420, 36, 560, "#cbb891", r=2, at=1.0, fx="draw")]
+    k = 0
+    for row, y0 in enumerate((440, 736)):
+        for col, x0 in enumerate((130, 413, 663)):
+            w = 210 if col == 0 else 190
+            town["els"] += [box(x0, y0, w, 226, "#d6c49c", "#8a6a44", 2, 4, round(1.6 + .15 * k, 2), fx="pop"),
+                            box(x0 + 50, y0 + 60, w - 100, 106, "#b3a07c", r=3, at=round(1.7 + .15 * k, 2))]
+            town["els"] += [dot(x0 + w / 2, y0 + 113, 13, "#3f86b0", round(3.4 + .12 * k, 2)), dot(x0 + w / 2, y0 + 113, 6, "#9fd0ff", round(3.5 + .12 * k, 2))]
+            town["els"] += [box(x0 + 14, y0 + 16, 46, 30, "#b0442c", "#ffb09a", 1.5, 12, round(5.2 + .12 * k, 2), fx="pop"),
+                            box(x0 + 16, y0 + 18, 16, 26, "#7a2e1e", r=4, at=round(5.3 + .12 * k, 2))]
+            k += 1
+    town["els"] += [label(235, 375, "a bath", 5.4, "#ffb09a", 30), arrow([[220, 390], [170, 440]], 5.6, "#ffb09a", 2, "known", .5, False),
+                    label(760, 375, "a well", 3.6, BLUE, 30), arrow([[760, 390], [758, 540]], 3.8, BLUE, 2, "known", .5, False)]
+    people = [person(115 + 70 * j, 1270, 86, round(.4 + .12 * j, 2)) for j in range(12)] + [label(500, 1330, "1 figure = 100 people", 2.0, "#cbbca8", 28)]
+    snail = [{"k": "line", "p": [[round(330 + (4 + 3.2 * t) * math.cos(t), 1), round(1080 + (4 + 3.2 * t) * math.sin(t), 1)] for t in [i * .3 for i in range(40)]],
+              "c": "#efe6d2", "w": 4, "fx": "draw", "dur": .8, "in": 2.8, "curve": True},
+             arrow([[400, 1080], [500, 1080]], 3.6, "#b07ad0", 3, "known", .6, False),
+             {"k": "poly", "p": [[560, 1040], [585, 1085], [575, 1110], [545, 1110], [535, 1085]], "fill": "#7b3fa0", "c": "#d9b0f0", "w": 1.5, "curve": True, "in": 4.2, "fx": "pop"},
+             glow(560, 1085, 90, 4.4, .5), label(620, 1095, "purple dye", 4.6, "#d9b0f0", 30, "start")]
+    # 0, again · the sign of Tanit set in a floor; the painted lid from the tombs
+    tanit = [box(690, 1230, 190, 190, "#cbb891", "#8a6a44", 2, 6, .3, fx="pop"),
+             {"k": "poly", "p": [[785, 1295], [750, 1395], [820, 1395]], "fill": "#f5ecdc", "c": "none", "w": 0, "in": .8, "fx": "pop"},
+             line([[745, 1292], [825, 1292]], 1.0, "#f5ecdc", 6, dur=.3), dot(785, 1265, 15, "#f5ecdc", 1.2), glow(785, 1320, 140, 1.4, .5),
+             label(785, 1205, "the sign of Tanit", 1.6, GOLD, 30),
+             {"k": "poly", "p": [[120, 1262], [168, 1254], [200, 1286], [200, 1398], [176, 1420], [144, 1420], [120, 1398]], "fill": "#8a5a36", "c": "#e8c35a", "w": 2, "curve": True, "in": 3.4, "fx": "rise"},
+             oval(160, 1306, 21, 24, "#e8d6b8", "none", 0, 1, 3.8), label(225, 1380, "a painted lid", 4.2, AMBER, 30, "start")]
+    # 4, second line · two dates on the same page: the landing and the end of the town
+    tl, ax = timeline(-600, -100, [(-600, "600 BCE"), (-450, "450"), (-300, "300"), (-150, "150")], "The town, as dated")
+    page = [box(ax.x(-262) - 60, 420, ax.x(-246) - ax.x(-262) + 120, 430, "rgba(232,184,122,.06)", GOLD, 3, 12, .6, style="inferred", fx="draw", dur=1.2),
+            label(ax.x(-254), 900, "the same moment?", 1.8, GOLD, 30, "end")]
+    return remix(ep, scenes={3: town}, alias={2: 0, 5: 1, 6: 0}, cams={6: [1.15, 500, 960]}, beat_adds={3: (tanit, [1.05, 500, 1000])},
+                 line_adds={(2, 1): (people + snail, None), (4, 1): (page, None)})
+
+
 # ---------------------------------------------------------------- 15.08 Jebel Irhoud and Casablanca
 def irhoud():
     sk = skull(500, 880, s=1.9)
@@ -388,6 +650,63 @@ def irhoud():
               "Hublin et al. 2017 (doi:10.1038/nature22336) · Richter et al. 2017 (doi:10.1038/nature22335) · Hublin et al. 2026 (doi:10.1038/s41586-025-09914-y)",
               "The oldest known fossils of our species came from a Moroccan mine, about 315,000 years old. Then a Casablanca quarry gave jaws near the root of our lineage, dated by a flip of Earth's magnetic field.",
               ["#Morocco", "#HumanOrigins", "#HomoSapiens", "#Paleoanthropology", "#CarthageAndBefore"])
+
+
+def irhoud_m():
+    """Morocco's two dawns as one continuous take (see mural.py): a burnt flint's clock filling like a bucket in the rain, 315,000 years
+    against the earlier Ethiopian record, a face first and a round head later, a jaw more than twice as old, rock layers that froze a
+    compass flip, and a whole continent."""
+    from mural import remix
+    from illus import arrow, line, glow, label, dot, box, oval, ring, ellipse, scatter, AMBER, BLUE, GREEN, BONE, LILAC, RED as RED_
+    ep = irhoud()
+    # 2 · burnt flint: the clock resets in the fire, then fills like a bucket in the rain; 315,000 years, and the earlier record
+    rain = [dot(x, y, 4, "#9fd0ff", round(3.9 + .04 * k, 2)) for k, (x, y) in enumerate(scatter(28, 600, 760, 360, 480, 4))]
+    flint = {"base": "dark", "cam": [1, 500, 900], "els": [
+        {"k": "poly", "p": [[230, 640], [300, 520], [370, 560], [390, 640]], "fill": "#9aa0a8", "c": "#dfe3e8", "w": 2, "in": .4, "fx": "pop"},
+        glow(310, 640, 150, 1.2, .8, "red"), glow(310, 650, 90, 1.6, .7, "red"), label(310, 720, "burnt flint", 1.4, "#cbbca8", 30),
+        {"k": "poly", "p": [[600, 520], [760, 520], [740, 700], [620, 700]], "fill": "none", "c": BONE, "w": 3, "in": 2.4, "fx": "draw", "dur": .6},
+        label(680, 750, "its clock: 0", 2.6, BONE, 30)] + rain + [
+        {"k": "poly", "p": [[606, 580], [754, 580], [740, 700], [620, 700]], "fill": "rgba(63,134,176,.7)", "c": "none", "w": 0, "in": 4.4, "fx": "fill", "dur": 1.6},
+        label(500, 850, "c. 315,000 years", 6.8, GOLD, 42, st="serif"),
+        box(120, 1000, 760, 40, GOLD, r=8, at=7.6, fx="fill", dur=.9), label(130, 980, "Jebel Irhoud", 7.6, GOLD, 30, "start"), label(880, 980, "today", 7.6, "#cbbca8", 28, "end"),
+        box(410, 1110, 470, 40, BLUE, r=8, at=8.3, fx="fill", dur=.7), label(420, 1090, "Ethiopia", 8.3, BLUE, 30, "start"),
+        arrow([[120, 1200], [404, 1200]], 8.9, AMBER, 3, "known", .6, False), label(262, 1250, "> 100,000 years", 9.2, AMBER, 30)]}
+    # 0, again · a modern face; a long braincase, where ours is round
+    vault = {"k": "line", "p": ellipse(545, 840, 205, 215, 24, 180, 340), "c": GREEN, "w": 3, "style": "claimed", "curve": True, "fx": "draw", "dur": 1.0, "in": 3.2}
+    face = [glow(330, 860, 140, .8, .5), vault, label(720, 590, "later: round", 3.8, GREEN, 30)]
+    # 3 · the Casablanca jaw, and its age against Irhoud's: more than twice as old
+    jaw = [[300, 560], [330, 640], [420, 680], [600, 680], [690, 650], [700, 540], [670, 540], [650, 610], [440, 615], [370, 590], [345, 540]]
+    casa = {"base": "dark", "cam": [1, 500, 900], "els": [
+        {"k": "poly", "p": jaw, "fill": "#e8dcc6", "c": "#fff6e6", "w": 2, "curve": True, "in": .4, "fx": "pop"}]
+        + [box(450 + 34 * k, 588, 24, 30, "#efe6d2", "#b8a888", 1.2, 8, round(.8 + .08 * k, 2), fx="pop") for k in range(6)]
+        + [label(500, 760, "jaws and teeth · Casablanca", 1.2, BLUE, 30),
+           box(120, 960, 760, 40, BLUE, r=8, at=2.8, fx="fill", dur=1.0), label(130, 940, "c. 773,000 years", 3.2, BLUE, 30, "start"),
+           box(570, 1080, 310, 40, GOLD, r=8, at=4.0, fx="fill", dur=.6), label(560, 1108, "c. 315,000", 4.2, GOLD, 28, "end"),
+           box(258, 1150, 310, 40, "none", GOLD, 2.5, 8, 5.6, style="inferred", fx="draw", dur=.5), box(570, 1150, 310, 40, "none", GOLD, 2.5, 8, 5.4, style="inferred", fx="draw", dur=.5),
+           label(260, 1230, "twice Irhoud", 6.2, GOLD, 28, "start"), label(880, 1230, "today", 2.9, "#cbbca8", 28, "end")]}
+    # 4 · the compass flip, frozen in rock: arrows point one way in the older layers, the other way in the younger; the jaws lie at the flip
+    col = [box(560, 420 + 140 * k, 300, 140, ("#7a6248", "#8f7a5c", "#6f5a44", "#a08b6a", "#7a6248", "#8f7a5c")[k], r=0, at=round(1.8 + .15 * (5 - k), 2), fx="fill", dur=.4) for k in range(6)]
+    arrows = []
+    for k in range(6):
+        y = 490 + 140 * k
+        up = k < 3
+        for j in range(3):
+            x = 620 + 90 * j
+            arrows.append(arrow([[x, y + 34], [x, y - 34]] if up else [[x, y - 34], [x, y + 34]], round(2.4 + .25 * (5 - k) + .05 * j, 2), BLUE if up else RED_, 3, "known", .3, False))
+    flip = {"base": "dark", "cam": [1, 500, 900], "els": [
+        ring(270, 560, 130, .3, "#8c7152", 3), arrow([[270, 610], [270, 470]], .6, BLUE, 6, "known", .4, False), label(270, 400, "N", .7, BLUE, 34),
+        arrow([[300, 470], [300, 640]], 1.3, RED_, 6, "known", .4, False), label(300, 710, "flipped", 1.4, RED_, 30)] + col + arrows + [
+        line([[540, 840], [880, 840]], 3.9, GOLD, 4, "inferred", .5), label(530, 848, "c. 773,000 years", 4.0, GOLD, 30, "end"),
+        glow(710, 840, 110, 4.3, .55), label(710, 1320, "rock layers", 1.9, "#cbbca8", 28),
+        line([[270, 1360], [270, 1150]], 4.5, BONE, 4), line([[270, 1150], [180, 980]], 4.7, BONE, 3), line([[270, 1150], [370, 1000]], 4.7, BONE, 3), line([[370, 1000], [330, 900]], 4.9, BONE, 2), line([[370, 1000], [420, 910]], 4.9, BONE, 2),
+        dot(270, 1240, 14, GOLD, 5.2), glow(270, 1240, 80, 5.2, .6), label(270, 860, "our lineage", 5.0, BONE, 28)]}
+    # 6 · not one cradle: the whole continent
+    v = View(-20, 52, -36, 38, (60, 330, 880, 1050))
+    afr = mapshot(v, pins=[("Morocco", -7.9, 32.6, {"c": GOLD, "in": .4}), ("Ethiopia", 39, 8.5, {"c": SCAN, "a": "end", "lx": -18, "in": .9})], cam=[1, 500, 860])
+    xm, ym = v.p(-7.9, 32.6); xe, ye = v.p(39, 8.5)
+    afr["els"] += [glow(xm, ym, 120, .6, .7), glow(xe, ye, 120, 1.1, .6)]
+    whole = [glow(v.p(20, 3)[0], v.p(20, 3)[1], 480, .3, .5)]
+    return remix(ep, scenes={2: flint, 3: casa, 4: flip, 6: afr}, alias={5: 1}, beat_adds={3: (face, None)}, line_adds={(5, 1): (whole, None)})
 
 
 # ---------------------------------------------------------------- 15.09 The ledger
@@ -552,4 +871,4 @@ def ledger_recap():
 
 
 def EPISODES():
-    return [tophet(), salt(), capsian_m(), dougga(), el_guettar_m(), tritonis(), kerkouane(), irhoud(), ledger_recap()]
+    return [tophet_m(), salt_m(), capsian_m(), dougga_m(), el_guettar_m(), tritonis_m(), kerkouane_m(), irhoud_m(), ledger_recap()]

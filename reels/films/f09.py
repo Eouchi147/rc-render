@@ -82,6 +82,108 @@ def flood():
               ["#Flood", "#IceAge", "#Mesopotamia", "#History", "#Science"])
 
 
+def _mur():
+    from mural import remix
+    import illus as I
+    return remix, I
+
+
+def _at(w, wo, wn, wps=2.5):
+    """Build time (in the original film's clock) for something named at word w of the rewritten step (remix stretches it back)."""
+    r = min(2.5, max(1.0, (wn + 3) / (wo + 3)))
+    return round(w / wps / r, 2)
+
+
+def _quiet_iso(shot, drop=(), spin=None):
+    """A copy of an iso shot without some of its world labels (the narrator says them), optionally turning less."""
+    import copy
+    sh = copy.deepcopy(shot)
+    for e in sh["els"]:
+        if e.get("k") == "iso":
+            e["items"] = [i for i in e["items"] if not (i.get("t") == "label" and i.get("text") in drop)]
+            if spin is not None:
+                e["spin"] = spin
+    return sh
+
+
+def _book(x, y, at, c="#cdb48a"):
+    """A closed book, plain (no writing on it)."""
+    return [{"k": "rect", "x": x - 55, "y": y - 70, "w": 110, "h": 140, "r": 6, "fill": c, "c": "#f5ecdc", "sw": 2, "in": at, "fx": "pop"},
+            {"k": "rect", "x": x - 55, "y": y - 70, "w": 16, "h": 140, "r": 4, "fill": "rgba(0,0,0,.25)", "c": "none", "sw": 0, "in": at, "fx": "pop"}]
+
+
+def flood_m():
+    """The Flood as one continuous take (see mural.py): a tablet's story bones, a sea-level pulse against a building, 21 drowned coasts and 280 generations."""
+    remix, I = _mur()
+    ep = flood()
+    T = lambda w: _at(w, 36, 81)
+    CLAY = "#b9a47c"
+    # 1 · the oldest written version: two rivers, a tablet, four story bones; Genesis's same bones; the Quran's own account, set apart
+    rivers = [I.line([[90, 300 + 40 * j], [300, 330 + 40 * j], [560, 300 + 40 * j], [910, 340 + 40 * j]], T(6) + .3 * j, I.SEA, 5, curve=True) for j in range(2)]
+    tab = [I.box(330, 440, 340, 300, CLAY, "#8a6a48", 2, 26, T(16), fx="pop"),
+           {"k": "glyphs", "x": 360, "y": 470, "w": 280, "h": 240, "rows": 7, "cols": 6, "kind": "cuneiform", "c": "#3b2a1c", "in": T(17)},
+           I.label(500, 790, "Atrahasis · c. 1650 BCE", T(24), I.AMBER, 30)]
+    X = (170, 390, 610, 830); Y = 990
+    warn = [I.dot(X[0], Y, 10, I.BONE, T(28))] + [I.line([[X[0] + 22 * j, Y - 40 - 8 * j], [X[0] + 34 + 22 * j, Y], [X[0] + 22 * j, Y + 40 + 8 * j]], T(28) + .15 * j, I.AMBER, 4, curve=True, dur=.4) for j in range(3)]
+    boat = [{"k": "boat", "x": X[1], "y": Y + 20, "w": 170, "in": T(32), "fx": "rise"}, I.line([[X[1] - 110, Y + 40], [X[1] + 110, Y + 40]], T(32), I.SEA, 3, curve=False, dur=.5)]
+    birds = [I.line([[X[2] - 30 + 30 * j, Y + 20 - 40 * j], [X[2] - 15 + 30 * j, Y + 32 - 40 * j], [X[2] + 30 * j, Y + 20 - 40 * j]], T(37) + .25 * j, I.BONE, 4, dur=.3) for j in range(3)]
+    altar = [I.box(X[3] - 45, Y, 90, 50, "#8d7a64", "#cbbca8", 2, 4, T(45), fx="pop"), I.glow(X[3], Y - 20, 70, T(45) + .2, .8, "lamp"),
+             I.line([[X[3], Y - 10], [X[3] - 14, Y - 50], [X[3] + 10, Y - 90], [X[3] - 6, Y - 130]], T(46), "#cbbca8", 3, "inferred", .8, True)]
+    labs = [I.label(x, 1100, t, T(w), I.BONE, 28) for x, t, w in zip(X, ("a warning", "a boat", "birds", "an offering"), (29, 33, 38, 46))]
+    gen = _book(300, 1300, T(51)) + [I.label(300, 1405, "Genesis", T(52), I.BONE, 30)] + \
+        [I.line([[300, 1225], [x, 1122]], T(54) + .12 * k, I.AMBER, 2, "inferred", .6) for k, x in enumerate(X)]
+    qur = _book(720, 1300, T(61), "#b9c9b0") + [I.label(720, 1405, "the Quran", T(62), I.BONE, 30),
+                                                {"k": "boat", "x": 720, "y": 1216, "w": 110, "in": T(64), "fx": "rise"}, I.glow(720, 1200, 80, T(64), .5, "lamp")]
+    story = {"base": "dark", "cam": [1, 500, 860], "els": rivers + [I.label(500, 410, "Mesopotamia", T(3), "#9fd0ff", 30, st="ital")] + tab + warn + boat + birds + altar + labs + gen + qur}
+    # 2 · the ground: a coast in section, the Ice Age sea 120 m down, then the rise that drowned the plain (3.5 px per metre)
+    SH = lambda w: _at(w, 17, 43)
+    k0, S0 = 3.5, 700
+    land = [[60, 690], [250, 700], [330, 712], [480, 740], [640, 790], [760, 860], [810, 1100], [860, 1180], [940, 1200], [940, 1420], [60, 1420]]
+    coast = [I.box(60, S0 + 120 * k0, 880, 1420 - S0 - 120 * k0, "#2b5d7d", r=0, at=SH(18), fx="fill", dur=.8, op=.9),
+             I.box(60, S0, 880, 120 * k0, "#3f86a8", r=0, at=SH(30), fx="fill", dur=2.4, op=.6),
+             {"k": "poly", "p": land, "fill": "#7a6248", "c": "#e8d3a8", "w": 2, "in": 0},
+             I.line([[60, S0 + 120 * k0], [940, S0 + 120 * k0]], SH(19), "#9fd0ff", 3, "inferred", .8), I.label(930, S0 + 120 * k0 - 20, "Ice Age sea", SH(20), "#9fd0ff", 28, "end"),
+             {"k": "poly", "p": [[60, 420], [200, 380], [360, 400], [420, 470], [300, 520], [60, 520]], "fill": "#eef3f6", "c": "#ffffff", "w": 1.5, "curve": True, "in": SH(12), "fx": "rise", "op": .9, "keepop": True},
+             I.label(220, 570, "ice sheets", SH(13), "#eef3f6", 28),
+             I.person(560, 768, 60, SH(22)), I.person(610, 784, 52, SH(22) + .2), I.label(600, 900, "the drowned plain", SH(40), I.AU, 30),
+             I.arrow([[880, S0 + 120 * k0 - 50], [880, S0 + 6]], SH(33), I.AMBER, 4, "known", 1.2, False), I.label(870, 900, "120 m", SH(34), I.AMBER, 34, "end"),
+             I.line([[60, S0], [940, S0]], SH(36), "#cfe6ff", 2, dur=.8), I.label(930, S0 - 18, "today's sea", SH(36), "#cfe6ff", 28, "end")]
+    ground = {"base": "dark", "cam": [1, 500, 880], "els": coast}
+    # 3 · one pulse of the rise, against a building of five to eight storeys (both drawn to scale)
+    P = lambda w: _at(w, 16, 44)
+    G0, k1 = 1320, 800 / 120                                  # the whole 120 m rise: 6.7 px per metre
+    gauge = [I.box(110, G0 - 800, 90, 800, "none", "#cbbca8", 2, 4, 0, op=.9),
+             I.box(112, G0 - 20 * k1, 86, 20 * k1, "#2b5d7d", r=2, at=P(1), fx="fill", dur=1.0, op=.85),
+             I.box(112, G0 - 45 * k1, 86, 25 * k1, "#9fd0ff", r=2, at=P(9), fx="fill", dur=.6),
+             I.box(112, G0 - 120 * k1, 86, 75 * k1, "#2b5d7d", r=2, at=P(40), fx="fill", dur=1.6, op=.55),
+             I.label(155, G0 - 820, "120 m", P(1), "#cbbca8", 28), I.label(155, G0 + 50, "Ice Age sea", P(1), "#cbbca8", 28)]
+    k2, B0 = 24, 1320                                          # zoom: 24 px per metre
+    zoom = [I.line([[200, G0 - 45 * k1], [330, B0 - 25 * k2]], P(14), "#9fd0ff", 2, "inferred", .6),
+            I.line([[200, G0 - 20 * k1], [330, B0]], P(14), "#9fd0ff", 2, "inferred", .6),
+            I.line([[330, B0], [900, B0]], P(14), "#8a6a48", 3, draw=False),
+            I.box(600, B0 - 14 * k2, 250, 14 * k2, "#3f86a8", r=2, at=P(17), fx="fill", dur=1.0, op=.85),
+            I.box(600, B0 - 25 * k2, 250, 11 * k2, "#9fd0ff", r=2, at=P(22), fx="fill", dur=.8, op=.6),
+            I.label(725, B0 - 14 * k2 + 40, "14 m", P(18), I.BONE, 30), I.label(725, B0 - 25 * k2 - 18, "25 m", P(23), "#9fd0ff", 30)]
+    bld = [I.box(400, B0 - 3 * k2 * (j + 1), 150, 3 * k2 - 6, "#6f5a44", "#cbbca8", 2, 3, round(P(30) + .12 * j, 2), fx="pop") for j in range(8)] + \
+          [I.box(420 + 40 * (j % 3), B0 - 3 * k2 * (j // 3 + 1) + 20, 22, 24, "#e8c894", r=2, at=round(P(31) + .05 * j, 2), op=.7) for j in range(24)] + \
+          [I.person(570, B0, 1.7 * k2, P(33)), I.label(475, B0 + 50, "8 storeys", P(32), I.BONE, 28)]
+    pulse = {"base": "dark", "cam": [1, 500, 880], "els": gauge + zoom + bld}
+    # 4 · twenty-one coastal stories round Australia, and 280 generations passing them on
+    from films import View
+    from f01 import mapshot
+    M = lambda w: _at(w, 19, 54)
+    v = View(111, 156, -40, -9, (60, 290, 880, 700))
+    coast = [(115.0, -33.6), (114.6, -28.6), (113.7, -24.6), (116.8, -20.7), (122.2, -18.1), (125.6, -14.6), (130.8, -12.5), (136.8, -12.3), (141.6, -12.7), (141.4, -16.6), (145.8, -17.0),
+             (149.2, -21.2), (153.0, -25.6), (153.5, -28.6), (152.9, -31.6), (151.2, -33.9), (150.0, -37.0), (145.0, -38.3), (140.5, -38.0), (138.4, -35.0), (135.9, -34.7)]
+    mp = mapshot(v)["els"]
+    lamps = []
+    for j, (lo, la) in enumerate(coast):
+        x, y = v.p(lo, la)
+        lamps += [I.glow(x, y, 34, round(M(26) + .12 * j, 2), .8, "lamp"), I.dot(x, y, 6, "#ffe2a8", round(M(26) + .12 * j, 2))]
+    gens = [I.dot(150 + 25 * (j % 28), 1110 + 26 * (j // 28), 7, "#e8c894", round(M(46) + .006 * j, 3)) for j in range(280)]
+    mem = {"base": "map", "cam": [1, 500, 860], "els": mp + lamps + [I.label(500, 1050, "280 generations", M(47), I.AMBER, 32)] + gens}
+    return remix(ep, scenes={1: story, 2: ground, 3: pulse, 4: mem}, alias={6: 0}, cams={6: [1.15, 500, 880]})
+
 # ---------------------------------------------------------------- 09.02 Yu the Great
 def yu():
     v = View(96, 118, 30, 41, (40, 330, 920, 900))
@@ -129,6 +231,37 @@ def yu():
               "A landslide dam, a burst lake and a bowl of 4,000-year-old noodles: the case that a real flood lies behind Yu the Great, and the teams who dispute its date.",
               ["#China", "#Flood", "#Archaeology", "#Geology", "#History"])
 
+
+def yu_m():
+    """Yu's flood as one continuous take (see mural.py): the peak flow as 160 swimming pools a second, and a bronze vessel that already names him."""
+    remix, I = _mur()
+    ep = yu()
+    P = lambda w: _at(w, 20, 49)
+    pool = [I.box(400, 330, 200, 90, "#3f86a8", "#cfe6ff", 2, 4, P(14), fx="pop")] + \
+           [I.line([[408, 352 + 22 * j], [592, 352 + 22 * j]], P(14) + .1, "#cfe6ff", 1.5, draw=False, op=.6) for j in range(3)] + [I.label(500, 470, "1 Olympic pool", P(15), I.BONE, 30)]
+    grid = [I.box(84 + 52 * (j % 16), 560 + 30 * (j // 16), 46, 22, "#3f86a8", "#9fd0ff", 1, 2, round(P(26) + .01 * j, 3), fx="pop") for j in range(160)]
+    flow = [I.label(500, 930, "160 pools, every second", P(30), "#9fd0ff", 34),
+            I.arrow([[90, 1060], [380, 1010], [640, 1090], [910, 1040]], P(31), "#9fd0ff", 5, "known", 1.2, True),
+            I.arrow([[90, 1150], [380, 1100], [640, 1180], [910, 1130]], P(32), "#5fa8c9", 4, "known", 1.2, True),
+            I.arrow([[90, 1240], [380, 1190], [640, 1270], [910, 1220]], P(33), "#3f86a8", 3, "known", 1.2, True)]
+    pools = {"base": "dark", "cam": [1, 500, 860], "els": pool + grid + flow}
+    V = lambda w: _at(w, 25, 35)
+    water = [I.line([[110, 340 + 30 * j], [240, 300 + 30 * j], [380, 380 + 30 * j], [520, 340 + 30 * j]], round(V(18) + .15 * j, 2), "#5fa8c9", 4, curve=True) for j in range(3)] + \
+            [I.line([[520, 340 + 30 * j], [890, 340 + 30 * j]], round(V(21) + .15 * j, 2), "#9fd0ff", 4) for j in range(3)] + \
+            [I.line([[520, 318], [890, 318]], V(20), "#cbbca8", 4), I.line([[520, 422], [890, 422]], V(20), "#cbbca8", 4), I.label(705, 480, "the waters, channelled", V(22), "#9fd0ff", 28)]
+    BR = "#6f8f78"
+    vessel = [I.glow(350, 860, 230, V(6), .35), {"k": "vase", "x": 350, "y": 1010, "w": 230, "h": 260, "tone": BR, "profile": [[0, .62], [.06, .68], [.14, .6], [.5, .72], [.85, .62], [1, .5]], "in": V(6), "fx": "rise"},
+              I.line([[180, 820], [130, 860], [175, 920]], V(7), BR, 8, curve=True, dur=.4), I.line([[520, 820], [570, 860], [525, 920]], V(7), BR, 8, curve=True, dur=.4),
+              I.label(350, 1075, "bronze · c. 900 BCE", V(8), I.BONE, 28)]
+    rub = [I.box(640, 720, 240, 300, "#e9dcc4", "#fff6e6", 2, 4, V(13), fx="pop"),
+           {"k": "glyphs", "x": 665, "y": 745, "w": 190, "h": 250, "rows": 6, "cols": 5, "kind": "hieratic", "c": "#2a2019", "in": V(14)},
+           I.label(760, 1075, "its inscription", V(14), I.BONE, 28)]
+    X0, X1 = 200, 800
+    line_ = [I.line([[120, 1240], [880, 1240]], V(26), "#8a7a66", 3), I.dot(X0, 1240, 10, BR, V(26)), I.label(X0, 1300, "c. 900 BCE", V(26), "#cbbca8", 28),
+             I.arrow([[X0 + 20, 1240], [X1 - 24, 1240]], V(27), I.AMBER, 4, "inferred", 1.2, False), I.label(500, 1205, "centuries", V(28), I.AMBER, 32),
+             I.dot(X1, 1240, 10, I.AMBER, V(30)), I.label(X1, 1300, "classic accounts", V(30), "#cbbca8", 28)]
+    bronze = {"base": "dark", "cam": [1, 500, 860], "els": water + vessel + rub + line_}
+    return remix(ep, scenes={3: pools, 5: bronze}, alias={6: 1}, cams={6: [1.15, 500, 860]})
 
 # ---------------------------------------------------------------- 09.03 Gilgamesh
 def gilgamesh():
@@ -182,6 +315,44 @@ def gilgamesh():
               ["#Gilgamesh", "#Mesopotamia", "#Sumer", "#Archaeology", "#History"])
 
 
+def _star(x, y, s, at, c="#e8c35a", w=7):
+    """The cuneiform sign for a god: an eight-pointed star of strokes."""
+    import illus as I
+    return [I.line([[round(x - s * math.cos(a), 1), round(y - s * math.sin(a), 1)], [round(x + s * math.cos(a), 1), round(y + s * math.sin(a), 1)]], round(at + .1 * k, 2), c, w, dur=.3)
+            for k, a in enumerate((0, math.pi / 4, math.pi / 2, 3 * math.pi / 4))]
+
+
+def gilgamesh_m():
+    """Gilgamesh as one continuous take (see mural.py): 126 years as 126 squares, a reign beside 240,000 years, and the little star that made him a god."""
+    remix, I = _mur()
+    ep = gilgamesh()
+    R = lambda w: _at(w, 26, 46)
+    CLAY = "#b9a47c"
+    tab = [I.box(110, 320, 260, 330, CLAY, "#8a6a48", 2, 22, R(1), fx="pop"),
+           {"k": "glyphs", "x": 135, "y": 345, "w": 210, "h": 280, "rows": 9, "cols": 5, "kind": "cuneiform", "c": "#3b2a1c", "in": R(2)}, I.label(240, 700, "the King List", R(4), I.AMBER, 30)]
+    years = [I.box(450 + 31 * (j % 14), 330 + 31 * (j // 14), 25, 25, I.AMBER, r=4, at=round(R(12) + .012 * j, 3), op=.85) for j in range(126)] + [I.label(667, 660, "126 years", R(15), I.AMBER, 34)]
+    train = [I.box(140, 795, 130, 50, "#6f5a44", "#cbbca8", 2, 4, R(24), fx="pop"), I.box(225, 755, 45, 42, "#6f5a44", "#cbbca8", 2, 3, R(24), fx="pop"),
+             I.box(160, 768, 18, 28, "#6f5a44", "#cbbca8", 2, 2, R(24), fx="pop")] + [I.dot(165 + 40 * j, 850, 13, "#cbbca8", R(24)) for j in range(3)] + \
+            [I.dot(150 - 16 * j, 750 - 16 * j, 7 + 2 * j, "#cbbca8", round(R(24) + .2 + .1 * j, 2), op=.5) for j in range(3)]
+    phone = [I.box(770, 750, 66, 116, "#1a1511", "#f5ecdc", 2.5, 12, R(29), fx="pop"), I.box(778, 762, 50, 88, "#3f86a8", r=4, at=R(29) + .1, op=.8)]
+    span = [I.arrow([[300, 810], [745, 810]], R(26), I.AMBER, 3, "known", 1.0, False)]
+    B = 1340
+    bars = [I.line([[120, B], [880, B]], R(33), "#8a7a66", 3), I.box(250, B - 6, 120, 6, I.AMBER, r=2, at=R(34), fx="pop"), I.label(310, B + 48, "126 years", R(34), I.AMBER, 30),
+            I.box(570, 960, 120, B - 960, I.LILAC, r=4, at=R(39), fx="fill", dur=1.4, op=.85), I.arrow([[630, 960], [630, 895]], R(42), I.LILAC, 5, "claimed", .5, False),
+            I.label(630, B + 48, "240,000 years", R(41), I.LILAC, 30), I.label(550, 1010, "off the chart", R(43), I.LILAC, 28, "end")]
+    reigns = {"base": "dark", "cam": [1, 500, 860], "els": tab + years + train + span + phone + bars}
+    G = lambda w: _at(w, 16, 47)
+    god = [I.label(500, 330, "god lists · Shuruppak · c. 2600 BCE", G(18), I.AMBER, 28),
+           I.box(150, 370, 700, 360, CLAY, "#8a6a48", 2, 24, G(1), fx="pop")] + _star(300, 550, 85, G(6)) + \
+          [I.glow(300, 550, 140, G(6), .45, "lamp"), {"k": "glyphs", "x": 420, "y": 495, "w": 380, "h": 110, "rows": 1, "cols": 5, "kind": "cuneiform", "c": "#3b2a1c", "in": G(17)},
+           I.label(300, 800, "a god's sign", G(9), I.AU, 30), I.label(610, 800, "Gilgamesh", G(18), I.BONE, 30)]
+    gens = [I.person(170 + 120 * k, 1250, 120, round(G(30) + .3 * k, 2)) for k in range(4)] + [I.label(350, 1310, "a few generations", G(32), "#cbbca8", 28),
+            I.arrow([[620, 1170], [700, 1110], [760, 1090]], G(36), I.AU, 3, "inferred", .8, True)] + _star(830, 1060, 55, G(40)) + \
+           [I.glow(830, 1060, 120, G(40), .6, "lamp"), I.label(830, 1170, "a god", G(42), I.AU, 32)]
+    godly = {"base": "dark", "cam": [1, 500, 860], "els": god + gens}
+    uruk = _quiet_iso(ep["shots"][2], drop=("one of the first cities on Earth",))
+    return remix(ep, scenes={0: reigns, 2: uruk, 4: godly}, alias={6: 2}, cams={6: [1.1, 500, 900]})
+
 # ---------------------------------------------------------------- 09.04 Where the Ark Came to Rest
 def ark():
     v = View(37, 48, 35.5, 41.5, (40, 330, 920, 900))
@@ -229,6 +400,47 @@ def ark():
               ["#NoahsArk", "#Ararat", "#Geology", "#History", "#Archaeology"])
 
 
+def ark_m():
+    """The Ark's resting place as one continuous take (see mural.py): the old witnesses pointing south to the Cudi range, and the hill as a fold of rock, cut open."""
+    remix, I = _mur()
+    from f01 import mapshot
+    ep = ark()
+    v = View(37, 48, 35.5, 41.5, (40, 330, 920, 900))
+    W = lambda w: _at(w, 21, 32)
+    axx, axy = v.p(44.3, 39.7); cx, cy = v.p(42.45, 37.35)
+    wit = mapshot(v)["els"] + [{"k": "pin", "x": axx, "y": axy, "t": "Mount Ararat", "c": I.BONE, "in": .1},
+                               {"k": "pin", "x": cx, "y": cy, "t": "Cudi range", "c": "#9fd0ff", "a": "end", "lx": -18, "in": W(16)}, I.glow(cx, cy, 80, W(16), .8), I.ring(cx, cy, 44, W(16), "#9fd0ff", 3)]
+    for k, (x, t, w) in enumerate(((210, "Berossus", 4), (500, "Syriac writers", 8), (790, "Targum", 13))):
+        wit += [I.box(x - 60, 1235, 120, 64, "#d8c9a8", "#8a7a66", 2, 4, W(w), fx="pop"), I.box(x - 74, 1226, 22, 82, "#b9a47c", "#8a7a66", 2, 10, W(w), fx="pop"),
+                I.box(x + 52, 1226, 22, 82, "#b9a47c", "#8a7a66", 2, 10, W(w), fx="pop"), I.label(x, 1350, t, W(w), I.BONE, 30),
+                I.arrow([[x, 1215], [round((x + cx) / 2 + 20, 1), round((1215 + cy) / 2 + 30, 1)], [cx, cy + 30]], W(w) + .3, "#9fd0ff", 3, "known", 1.0, True)]
+    wit += [I.line([[axx, axy], [cx, cy]], W(22), I.AMBER, 3, "inferred", 1.0), I.label(round((axx + cx) / 2 + 24, 1), round((axy + cy) / 2, 1), "about 300 km", W(24), I.AMBER, 30, "start")]
+    witnesses = {"base": "map", "cam": [1, 500, 860], "els": wit}
+    S = lambda w: _at(w, 38, 76)
+    G0 = 640
+    curve = lambda k: [[x, round(G0 + 55 * k + 110 * math.sin(math.pi * (x - 100) / 800), 1)] for x in range(100, 901, 50)]
+    cols = ("#8a5a3a", "#9c8a74", "#7a4a30", "#a89884", "#6f5a44")
+    fold = [I.line([[80, G0], [920, G0]], 0, "#8a6a48", 3, draw=False),
+            {"k": "poly", "p": [[250, G0], [330, 600], [500, 582], [670, 600], [750, G0]], "fill": "#7a6248", "c": "#e8d3a8", "w": 2, "curve": True, "in": S(2), "fx": "rise"},
+            I.label(500, 560, "the boat-shaped hill", S(3), I.BONE, 28)]
+    for k in range(5):
+        top = curve(k)
+        top[0][1] = top[-1][1] = G0 + 55 * k
+        fold.append({"k": "poly", "p": top + curve(k + 1)[::-1], "fill": cols[k], "c": "rgba(255,236,206,.35)", "w": 1.2, "in": round(S(11) + .35 * k, 2), "fx": "fill", "dur": .7})
+    fold += [I.arrow([[70, 820], [190, 820]], S(24), I.AMBER, 5, "known", .6, False), I.arrow([[930, 820], [810, 820]], S(24), I.AMBER, 5, "known", .6, False),
+             I.label(500, 1060, "folded, iron-stained rock", S(16), "#ffb09a", 30)]
+    lens = [[250, 400], [370, 345], [500, 330], [630, 345], [750, 400], [630, 455], [500, 470], [370, 455]]
+    fold += [{"k": "poly", "p": lens, "fill": "rgba(138,90,58,.55)", "c": "#e8d3a8", "w": 2.5, "in": S(42), "fx": "draw", "dur": 1.0},
+             {"k": "poly", "p": [[round(500 + (x - 500) * .6, 1), round(400 + (y - 400) * .55, 1)] for x, y in lens], "fill": "none", "c": "#e8d3a8", "w": 1.5, "in": S(44), "fx": "draw", "dur": .8},
+             I.label(500, 300, "seen from above", S(43), "#cbbca8", 28)]
+    fold += [I.dot(180 + 22 * (j % 4), 1200 + 18 * (j // 4), 7, I.AU, round(S(56) + .05 * j, 2)) for j in range(8)] + [I.label(215, 1330, "minerals", S(57), I.AU, 30)] + \
+            [{"k": "poly", "p": [[440, 1250], [460, 1200], [520, 1190], [545, 1235], [520, 1255]], "fill": "#9c9488", "c": "#e8d3a8", "w": 2, "in": S(62), "fx": "pop"},
+             {"k": "poly", "p": [[500, 1255], [530, 1215], [570, 1225], [575, 1255]], "fill": "#7d766c", "c": "#e8d3a8", "w": 2, "in": S(62) + .15, "fx": "pop"}, I.label(505, 1330, "local stone", S(63), I.BONE, 30),
+             I.box(720, 1205, 130, 32, "#8a6a44", "#e7c99a", 2, 3, S(70), fx="pop"), I.strike(705, 1260, 865, 1180, S(72)), I.label(785, 1330, "no wood", S(71), I.RED, 30)]
+    section = {"base": "dark", "cam": [1, 500, 860], "els": fold}
+    hill = _quiet_iso(ep["shots"][0], drop=("folded, iron-stained layers of local rock",))
+    return remix(ep, scenes={0: hill, 2: witnesses, 3: section}, alias={5: 1}, cams={5: [1.15, 500, 880]})
+
 # ---------------------------------------------------------------- 09.05 The Tower of Babel
 def babel():
     zig = []
@@ -270,6 +482,52 @@ def babel():
               "Babylon's ziggurat Etemenanki, wrecked in 689 BCE and rebuilt by kings who boasted of workers from every land: the building behind the Tower of Babel.",
               ["#Babel", "#Babylon", "#Archaeology", "#Bible", "#History"])
 
+
+def babel_m():
+    """Babel as one continuous take (see mural.py): the tower wrecked and rebuilt tier by tier on its own timeline, and workers from every land carrying brick."""
+    remix, I = _mur()
+    ep = babel()
+    RB = lambda w: _at(w, 20, 31)
+    sizes = [(91, 33), (78, 18), (60, 6), (51, 6), (42, 6), (33, 6), (24, 15)]
+    k, y = 4.6, 900
+    ghost, tiers = [], []
+    for j, (b, h) in enumerate(sizes):
+        x0, hh = 500 - b * k / 2, h * k
+        ghost.append({"k": "rect", "x": round(x0, 1), "y": round(y - hh, 1), "w": round(b * k, 1), "h": round(hh, 1), "fill": "none", "c": "#cbbca8", "sw": 2, "style": "claimed", "in": 0, "op": .5, "keepop": True})
+        tiers.append(I.box(round(x0, 1), round(y - hh, 1), round(b * k, 1), round(hh, 1), "#c49a68" if j % 2 == 0 else "#b88a64", "rgba(40,30,20,.6)", 1.5, 2, round(RB(11) + .3 * j, 2), fx="pop"))
+        y -= hh
+    X = lambda yr: round(120 + (750 - yr) * 760 / 250, 1)
+    axis = [I.line([[120, 1150], [880, 1150]], 0, "#8a7a66", 3, draw=False)] + \
+           [I.line([[X(yr), 1140], [X(yr), 1160]], 0, "#8a7a66", 2, draw=False) for yr in (750, 700, 650, 600, 550, 500)] + \
+           [I.label(X(yr), 1200, t, 0, "#8a7a66", 28) for yr, t in ((750, "750 BCE"), (650, "650"), (550, "550"))]
+    wreck = [{"k": "poly", "p": [[290, 900], [340, 862], [420, 850], [500, 838], [600, 852], [680, 866], [720, 900]], "fill": "#7d5a40", "c": I.RED, "w": 2, "in": RB(7), "fx": "rise"},
+             I.glow(500, 860, 180, RB(7), .5, "red"), I.dot(X(689), 1150, 11, I.RED, RB(7)), I.label(X(689), 1110, "689 · wrecked", RB(8), I.RED, 28)]
+    built = [I.dot(X(620), 1150, 10, I.AMBER, RB(11)), I.label(X(620) - 20, 1250, "rebuilt", RB(12), I.AMBER, 28),
+             I.glow(500, 470, 120, RB(16), .55, "lamp"), I.dot(X(580), 1150, 11, I.AU, RB(16)), I.label(X(580) + 10, 1110, "finished", RB(16), I.AU, 28, "start"),
+             I.dot(X(597), 1150, 9, "#9fd0ff", RB(24)), I.label(X(597) + 40, 1300, "exiles from Judah", RB(24), "#9fd0ff", 28)] + \
+            [I.person(X(597) - 10 + 34 * j, 1400, 64, round(RB(25) + .2 * j, 2), c="#b8c9d6") for j in range(4)]
+    rebuild = {"base": "dark", "cam": [1, 500, 860], "els": ghost + axis + wreck + tiers + built}
+    WK = lambda w: _at(w, 22, 35)
+    G = 1250
+    bricks = []
+    idx = 0
+    for r in range(6):
+        n = 8 - r
+        for j in range(n):
+            bricks.append(I.box(round(500 - n * 68 / 2 + 68 * j, 1), G - 30 * (r + 1), 64, 27, "#b4673e", "#e8b07a", 1.5, 3, round(WK(14) + .05 * idx, 2), fx="pop")); idx += 1
+    folk = [(105, G, 150, "#e8d6b8", "cuneiform"), (215, G, 135, "#c9a878", "hieratic"), (330, 1150, 95, "#b8c9d6", "latin"),
+            (670, 1150, 95, "#d6b8c9", "hieroglyph"), (785, G, 135, "#c9d6b8", "cuneiform"), (895, G, 150, "#d6c9a0", "hieratic")]
+    crowd = []
+    for j, (x, yb, h, c, kind) in enumerate(folk):
+        t = round(WK(12) + .25 * j, 2)
+        crowd += [I.person(x, yb, h, t, c=c), I.box(x - 18, yb - h - 26, 36, 18, "#b4673e", "#e8b07a", 1.5, 2, t, fx="pop"),
+                  I.box(x - 55, yb - h - 100, 110, 52, "rgba(245,236,220,.08)", "#f5ecdc", 1.5, 18, round(WK(26) + .25 * j, 2), fx="pop"),
+                  {"k": "glyphs", "x": x - 42, "y": yb - h - 90, "w": 84, "h": 32, "rows": 1, "cols": 3, "kind": kind, "c": "#f5ecdc", "in": round(WK(26) + .25 * j + .1, 2)}]
+    crowd += [I.line([[60, G], [940, G]], 0, "#8a6a48", 3, draw=False), I.glow(500, 1100, 260, WK(14), .3, "lamp"),
+              I.label(500, 1330, "workers from all lands", WK(16), I.BONE, 30), I.label(500, 700, "every tongue, one site", WK(31), I.AMBER, 34)]
+    workers = {"base": "dark", "cam": [1, 500, 900], "els": crowd + bricks}
+    zig = _quiet_iso(ep["shots"][0], drop=("fired brick and bitumen",))
+    return remix(ep, scenes={0: zig, 2: rebuild, 4: workers}, alias={5: 0}, cams={5: [1.15, 500, 1000]})
 
 # ---------------------------------------------------------------- 09.06 Iram of the Pillars
 def iram():
@@ -319,6 +577,39 @@ def iram():
               ["#Iram", "#Ubar", "#Oman", "#Archaeology", "#History"])
 
 
+def iram_m():
+    """Iram and Shisr as one continuous take (see mural.py): radar seeing through sand to buried tracks, the gap in the dates, and a region that is not a town."""
+    remix, I = _mur()
+    ep = iram()
+    RD = lambda w: _at(w, 20, 60)
+    SAND = "#b0916a"
+    sh = [{"k": "poly", "p": [[140, 330], [230, 316], [272, 330], [230, 344]], "fill": "#e9e4da", "c": "#ffffff", "w": 1.5, "in": RD(3), "fx": "pop"},
+          {"k": "poly", "p": [[175, 338], [230, 338], [205, 372]], "fill": "#cfc8bb", "c": "none", "w": 0, "in": RD(3), "fx": "pop"},
+          I.label(300, 340, "space shuttle · 1984", RD(4), I.BONE, 28, "start")]
+    ground = [I.box(60, 560, 880, 150, SAND, r=0, at=0, op=.9), I.label(820, 610, "dry sand", RD(16), "#2a1d10", 28, halo=False),
+              I.line([[60, 672], [940, 672]], RD(21), "#3b2a1c", 7)]
+    beams = [I.line([[220, 360], [x, 560]], round(RD(8) + .1 * j, 2), "#9fd0ff", 2, "inferred", .6) for j, x in enumerate((180, 260, 340, 420))] + \
+            [I.line([[x, 560], [x + 30, 668]], round(RD(17) + .1 * j, 2), "#9fd0ff", 3, "claimed", .5) for j, x in enumerate((180, 260, 340, 420))] + \
+            [I.arrow([[440, 668], [520, 520], [560, 420]], RD(22), "#9fd0ff", 3, "known", .8, True), I.label(680, 655, "old track", RD(22), "#f5ecdc", 28)]
+    plan = [I.box(80, 780, 840, 600, "#2a2216", "#4a3c2a", 2, 4, RD(36), fx="pop"), I.label(110, 830, "seen from above", RD(36), "#cbbca8", 28, "start")]
+    plan += [I.line([[x, y], [500, 1220]], round(RD(38) + .12 * j, 2), "#c9a070", 2, dur=1.2, op=.7)
+             for j, (x, y) in enumerate([(140, 780), (330, 780), (560, 780), (760, 780), (80, 920), (80, 1160), (920, 880), (920, 1300), (300, 1380)])]
+    plan += [I.glow(500, 1220, 70, RD(45), .9, "lamp"), I.dot(500, 1220, 7, "#ffe2a8", RD(45)), I.label(500, 1280, "Shisr", RD(46), I.AU, 32)] + I.question(700, 1100, RD(52), 100)
+    radar = {"base": "dark", "cam": [1, 500, 860], "els": sh + ground + beams + plan}
+    RG = lambda w: _at(w, 21, 38)
+    slab = [{"k": "poly", "p": [[330, 360], [670, 360], [700, 400], [700, 720], [300, 720], [300, 400]], "fill": "#8d7a64", "c": "#bdb5a8", "w": 2, "in": RG(1), "fx": "pop"}] + \
+           [I.line([[340, 430 + 52 * j], [660, 430 + 52 * j]], round(RG(3) + .1 * j, 2), "#cbbca8", 2, "claimed", .4, op=.5) for j in range(5)] + \
+           I.question(500, 600, RG(6), 110) + [I.label(500, 790, "no name found", RG(7), I.BONE, 30)]
+    reg = [{"k": "poly", "p": [[150, 1010], [300, 890], [520, 870], [760, 910], [860, 1050], [820, 1250], [600, 1350], [330, 1330], [160, 1210]], "fill": "rgba(232,184,122,.12)",
+            "c": I.AMBER, "w": 3, "style": "inferred", "curve": True, "in": RG(20)},
+           I.label(500, 960, "Ubar: a region?", RG(21), I.AMBER, 32),
+           I.box(560, 1130, 36, 36, "#b88a64", "#f5ecdc", 2, 2, RG(13), fx="pop"), I.label(578, 1240, "Shisr", RG(14), I.BONE, 30), I.ring(578, 1148, 50, RG(25), I.BONE, 2)]
+    region = {"base": "dark", "cam": [1, 500, 860], "els": slab + reg}
+    _, ax = timeline(-3000, 1000, [(-3000, "3000 BCE"), (-2000, "2000"), (-1000, "1000"), (0, "1 CE"), (1000, "1000")], "Whose ruin is it?", y=980)
+    g0, g1 = ax.x(-1500), ax.x(-300)
+    gap = [I.arrow([[(g0 + g1) / 2, 680], [g0 + 6, 680]], _at(50, 36, 59), I.RED, 3, "known", .5, False), I.arrow([[(g0 + g1) / 2, 680], [g1 - 6, 680]], _at(50, 36, 59), I.RED, 3, "known", .5, False)]
+    return remix(ep, scenes={0: radar, 4: region}, alias={5: 1}, cams={5: [1.15, 500, 880]}, adds={3: gap})
+
 # ---------------------------------------------------------------- 09.07 Thamud
 def thamud():
     rock = [[-46, -20], [-30, -24], [0, -22], [30, -25], [46, -18], [48, 0], [44, 20], [20, 22], [-10, 20], [-40, 22], [-48, 6]]
@@ -358,6 +649,41 @@ def thamud():
               "The Quran remembers Thamud. Assyrian, Greek and Roman sources, and a temple inscription of the 160s CE, place them exactly where the text does. Hegra's facades are a narrower question.",
               ["#Thamud", "#Hegra", "#Arabia", "#Archaeology", "#History"])
 
+
+def thamud_m():
+    """Thamud as one continuous take (see mural.py): a temple inscription written twice, and a Nabataean tomb inside the land the witnesses give to Thamud."""
+    remix, I = _mur()
+    ep = thamud()
+    TB = lambda w: _at(w, 24, 56)
+    ST = "#cdb48a"
+    temple = [I.box(250, 600, 500, 28, ST, "#8a6a48", 2, 2, TB(2), fx="pop")] + \
+             [I.box(275 + 105 * j, 440, 40, 160, ST, "#8a6a48", 2, 2, round(TB(2) + .1 * j, 2), fx="rise") for j in range(5)] + \
+             [I.box(250, 416, 500, 26, ST, "#8a6a48", 2, 2, TB(3), fx="pop"), {"k": "poly", "p": [[250, 416], [500, 336], [750, 416]], "fill": "#d9c39a", "c": "#8a6a48", "w": 2, "in": TB(3), "fx": "pop"},
+              I.label(500, 680, "Ruwafa · 160s CE", TB(6), I.AMBER, 30)]
+    slab = [I.box(140, 730, 720, 580, "#d8c39c", "#8a6a48", 2, 10, TB(10), fx="pop"),
+            I.label(180, 785, "Greek", TB(15), "#3b2a1c", 28, "start", halo=False),
+            {"k": "glyphs", "x": 180, "y": 810, "w": 640, "h": 175, "rows": 5, "cols": 9, "kind": "latin", "c": "#3b2a1c", "in": TB(16)},
+            I.label(180, 1045, "Nabataean", TB(20), "#3b2a1c", 28, "start", halo=False),
+            {"k": "glyphs", "x": 180, "y": 1070, "w": 640, "h": 175, "rows": 5, "cols": 9, "kind": "hieratic", "c": "#3b2a1c", "in": TB(21)},
+            {"k": "hl", "x": 390, "y": 842, "w": 160, "h": 36, "in": TB(31)}, {"k": "hl", "x": 540, "y": 1102, "w": 160, "h": 36, "in": TB(31.5)},
+            I.label(500, 1370, "built by the Thamud", TB(32), I.AU, 32)]
+    insc = {"base": "dark", "cam": [1, 500, 860], "els": temple + slab}
+    FC = lambda w: _at(w, 36, 58)
+    cliff = [{"k": "poly", "p": [[100, 1180], [120, 720], [210, 540], [360, 460], [600, 445], [780, 500], [880, 660], [900, 1180]], "fill": "#b8865a", "c": "#e8c39a", "w": 1.5, "curve": True, "in": 0},
+             I.line([[100, 1180], [900, 1180]], 0, "#8a6a48", 3, draw=False)]
+    fac = [{"k": "poly", "p": [[330, 1180], [330, 680], [670, 680], [670, 1180]], "fill": "#a8744c", "c": "#f2dcb4", "w": 2.5, "in": FC(2), "fx": "draw", "dur": 1.0},
+           {"k": "poly", "p": [[330, 680], [330, 640], [380, 640], [380, 600], [440, 600], [440, 640], [560, 640], [560, 600], [620, 600], [620, 640], [670, 640], [670, 680]],
+            "fill": "#a8744c", "c": "#f2dcb4", "w": 2.5, "in": FC(3), "fx": "draw", "dur": .8},
+           I.line([[360, 700], [360, 1180]], FC(3), "#f2dcb4", 2), I.line([[640, 700], [640, 1180]], FC(3), "#f2dcb4", 2),
+           I.box(450, 960, 100, 220, "#2a1f16", "#f2dcb4", 2, 2, FC(4), fx="pop"), {"k": "poly", "p": [[430, 960], [500, 910], [570, 960]], "fill": "none", "c": "#f2dcb4", "w": 2, "in": FC(5), "fx": "draw", "dur": .5},
+           I.person(740, 1180, 54, FC(6)),
+           I.label(500, 1265, "Nabataean tomb", FC(10), I.BONE, 30), I.label(500, 1315, "c. 1 BCE to 75 CE", FC(16), "#ffb09a", 30),
+           I.box(440, 830, 120, 44, "#d8c9a8", "#f2dcb4", 1.5, 3, FC(24), fx="pop"), {"k": "glyphs", "x": 450, "y": 838, "w": 100, "h": 30, "rows": 2, "cols": 4, "kind": "hieratic", "c": "#3b2a1c", "in": FC(24) + .1},
+           I.glow(500, 852, 80, FC(25), .5, "lamp")]
+    reg = [I.ring(500, 820, 410, FC(36), I.AMBER, 3, "inferred", 1.4), I.label(500, 385, "Thamud's region", FC(38), I.AMBER, 32)] + I.question(780, 800, FC(48), 90)
+    facade = {"base": "dark", "cam": [1, 500, 860], "els": cliff + fac + reg}
+    cliff0 = _quiet_iso(ep["shots"][0], drop=("carved into the sandstone outcrops",))
+    return remix(ep, scenes={0: cliff0, 3: insc, 4: facade}, alias={5: 1}, cams={5: [1.15, 500, 880]})
 
 # ---------------------------------------------------------------- 09.08 Sodom and the People of Lut
 def sodom():
@@ -409,6 +735,44 @@ def sodom():
               "Bronze Age towns by the Dead Sea really ended in fire. A 2021 paper blamed a comet airburst and was retracted in 2025. What is open, and what is not rated.",
               ["#Sodom", "#DeadSea", "#Archaeology", "#Science", "#History"])
 
+
+def sodom_m():
+    """Sodom as one continuous take (see mural.py): the rift's hazards drawn one by one, the claimed airburst over them, and the checks that found no impact."""
+    remix, I = _mur()
+    ep = sodom()
+    HZ = lambda w: _at(w, 18, 41)
+    GY = 1100
+    hz = [I.line([[470, GY], [490, 1160], [458, 1220], [492, 1290], [466, 1360]], HZ(2), I.RED, 5, dur=.6),
+          I.line([[440, GY - 30], [450, GY - 50]], HZ(2) + .3, I.RED, 3, dur=.2), I.line([[500, GY - 30], [490, GY - 50]], HZ(2) + .3, I.RED, 3, dur=.2),
+          I.oval(570, GY + 8, 50, 16, "#14100c", "#3b2a1c", 2, at=HZ(6)), I.glow(570, GY - 20, 90, HZ(7), .8, "red"), I.label(570, 1180, "bitumen", HZ(8), "#ffb09a", 28),
+          ] + [I.dot(640 + 14 * (j % 4), GY - 6 - 12 * (j // 4), 6, "#f2e36a", round(HZ(14) + .04 * j, 2)) for j in range(8)] + \
+         [I.label(675, 1240, "sulphur", HZ(15), "#f2e36a", 28),
+          {"k": "poly", "p": [[720, GY], [760, 980], [810, 925], [870, 950], [930, GY]], "fill": "#e9e4da", "c": "#ffffff", "w": 1.5, "in": HZ(18), "fx": "rise"},
+          I.label(830, 890, "Mount Sodom", HZ(19), I.BONE, 28)] + \
+         [{"k": "house", "x": x, "y": GY, "w": w, "h": h, "fill": f, "in": round(HZ(26) + .2 * j, 2)} for j, (x, w, h, f) in enumerate(((110, 90, 46, "#8e7152"), (215, 120, 60, "#9a7b58"), (345, 80, 42, "#8e7152")))] + \
+         [I.label(250, 1180, "Bronze Age towns", HZ(27), I.BONE, 28), I.glow(250, GY - 30, 160, HZ(30), .35, "red")]
+    hazards = {"base": "sky", "tod": "night", "ground": GY, "sun": False, "cam": [1, 500, 860], "els": hz}
+    CL = lambda w: _at(w, 22, 44)
+    claim = [I.label(500, 330, "the claim: an airburst", CL(4), "#ffb09a", 30),
+             I.arrow([[880, 380], [600, 520], [330, 700]], CL(12), "#ffd9a0", 4, "claimed", 1.0, True), I.glow(300, 720, 220, CL(14), .75, "red"),
+             {"k": "rays", "x0": 120, "x1": 480, "y0": 740, "y1": 1080, "n": 24, "spread": .25, "in": CL(15), "fx": "draw", "dur": 1.2},
+             I.label(300, 560, "no crater", CL(22), "#ffb09a", 28), I.glow(250, GY - 40, 200, CL(44), .7, "red")]
+    TS = lambda w: _at(w, 34, 65)
+    grain = [I.ring(200, 470, 115, TS(8), "#cbbca8", 4), {"k": "poly", "p": [[140, 450], [175, 400], [240, 405], [270, 460], [235, 530], [165, 525]], "fill": "#d9d2c3", "c": "#f5ecdc", "w": 2, "in": TS(9), "fx": "pop"}] + \
+            [I.line([[150, 455 + 20 * j], [260, 418 + 20 * j]], round(TS(15) + .1 * j, 2), "#9fd0ff", 3, "claimed", .3) for j in range(4)] + \
+            [I.strike(110, 380, 290, 560, TS(24)), I.strike(290, 380, 110, 560, TS(24) + .1), I.label(200, 640, "no shock", TS(25), I.BONE, 28)]
+    chem = [I.line([[420, 560], [420, 390]], TS(18), "#cbbca8", 2, dur=.3), I.line([[420, 560], [600, 560]], TS(18), "#cbbca8", 2, dur=.3),
+            I.line([[420, 540], [490, 540], [512, 410], [534, 540], [600, 540]], TS(20), I.RED, 3, "claimed", .6), I.line([[420, 535], [600, 535]], TS(27), I.GREEN, 4, dur=.6),
+            I.label(510, 640, "no impact chemistry", TS(28), I.BONE, 28)]
+    img = [I.box(720, 400, 160, 130, "#2a2016", "#f5ecdc", 2, 4, TS(32), fx="pop"),
+           {"k": "poly", "p": [[735, 515], [780, 450], [815, 490], [845, 440], [868, 515]], "fill": "#6f5a44", "c": "none", "w": 0, "in": TS(32) + .1},
+           I.line([[885, 400], [885, 330]], TS(34), "#cbbca8", 3, dur=.3), {"k": "poly", "p": [[885, 330], [928, 345], [885, 362]], "fill": I.RED, "c": "none", "w": 0, "in": TS(34) + .2, "fx": "pop"},
+           I.label(800, 640, "image problems", TS(35), I.BONE, 28)]
+    paper = [I.box(330, 720, 340, 400, "#e9dcc4", "#fff6e6", 2, 4, TS(37), fx="pop"),
+             {"k": "glyphs", "x": 360, "y": 760, "w": 280, "h": 320, "rows": 10, "cols": 8, "kind": "latin", "c": "#3a2c1e", "in": TS(37) + .2}]
+    authors = [I.label(500, 1210, "11 authors disagreed", TS(48), "#cbbca8", 28)] + [I.person(180 + 64 * j, 1360, 100, round(TS(49) + .08 * j, 2)) for j in range(11)]
+    tests = {"base": "dark", "cam": [1, 500, 860], "els": grain + chem + img + paper + authors}
+    return remix(ep, scenes={2: hazards, 3: tests}, alias={5: 0}, cams={5: [1.1, 500, 860]}, beat_adds={2: (claim, None)})
 
 # ---------------------------------------------------------------- 09.09 The Ledger
 def _ledger_text():
@@ -508,4 +872,4 @@ def ledger_recap():
 
 
 def EPISODES():
-    return [flood(), yu(), gilgamesh(), ark(), babel(), iram(), thamud(), sodom(), ledger_recap()]
+    return [flood_m(), yu_m(), gilgamesh_m(), ark_m(), babel_m(), iram_m(), thamud_m(), sodom_m(), ledger_recap()]

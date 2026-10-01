@@ -129,6 +129,47 @@ def big_void():
             "hashtags": ["#GreatPyramid", "#Giza", "#AncientEgypt", "#Archaeology", "#Physics"]}
 
 
+def big_void_m():
+    """The Big Void as one continuous take (see mural.py): muons rain through stone, a hollow lets more through, three buses for scale, a camera on a cable."""
+    from mural import remix
+    from illus import line, arrow, glow, label, dot, box, ring, person, BLUE, BONE, AMBER, RED
+    ep = big_void()
+    S = Section(s=3.6, cx=500, gy=1150)
+    bv, bvc = S.big_void()
+    # the muon X-ray: rain from the sky, stone stops some, the hollow lets more through, the detector counts a bright spot
+    xr = [line([[60, 330], [940, 330]], .2, "#6f8fa8", 2, dur=1.0), label(80, 305, "air", .5, "#9fb8cc", 28, "start"),
+          arrow([[620, 260], [560, 326]], .6, "#ffe2a8", 3, "known", .5, False), glow(560, 330, 70, 1.1, .8, "lamp")]
+    xr += [{"k": "rays", "x0": 140, "x1": 900, "y0": 340, "y1": 1080, "n": 70, "spread": .3, "c": BLUE, "in": 1.6, "fx": "draw", "dur": 2.0},
+           label(860, 420, "muons", 2.6, BLUE, 32, "end"),
+           person(150, 1380, 200, 3.6), line([[130, 1150], [140, 1400]], 4.0, "#cfe6ff", 3, dur=.4), line([[170, 1160], [176, 1400]], 4.2, "#cfe6ff", 3, dur=.4)]
+    xr += [box(300, 640, 580, 420, "rgba(150,118,84,.92)", "#e7cfa6", 2, 6, 5.2, fx="fill", dur=.8), label(860, 1035, "stone", 5.6, "#2a1f16", 32, "end"),
+           box(540, 780, 140, 110, "#0d0b09", "#9fd0ff", 2, 8, 6.6, fx="pop", style="inferred")]
+    stopx = (340, 400, 460, 760, 820)
+    for k, x in enumerate(stopx):
+        yy = 760 + 70 * (k % 3)
+        xr += [line([[x, 560], [x, yy]], 5.9 + .08 * k, "#cfe6ff", 2.4, dur=.5), dot(x, yy, 7, RED, 6.4 + .08 * k)]
+    for k, x in enumerate((570, 610, 650)):
+        xr += [line([[x, 560], [x, 1150]], 6.9 + .12 * k, "#cfe6ff", 3.2, dur=.7)]
+    xr += [box(300, 1150, 580, 22, "#3d5566", "#9fd0ff", 2, 4, 7.8, fx="pop"), label(590, 1215, "detector", 8.0, "#cfe6ff", 28)]
+    hs = (40, 46, 38, 44, 48, 120, 42, 38, 45)
+    for k, h in enumerate(hs):
+        xr.append(box(318 + 62 * k, 1380 - h * 1.25, 46, h * 1.25, BLUE if k == 5 else "#56708a", r=4, at=9.0 + .12 * k, fx="fill", dur=.5))
+    xr += [glow(628, 1270, 110, 10.8, .8, "blue"), ring(610, 835, 105, 11.2, AMBER, 3), label(640, 1415, "count", 9.6, "#cfe6ff", 28)]
+    xray = {"base": "dark", "cam": [1, 500, 860], "els": xr}
+    # three buses end to end, the void's length to scale (3.6 px a metre)
+    bus = []
+    ca, sa = math.cos(math.radians(26)), math.sin(math.radians(26))
+    P = lambda u, v: [round(bvc[0] + u * ca + v * sa, 1), round(bvc[1] - u * sa + v * ca, 1)]
+    for k in range(3):
+        u0 = -53 + 35.5 * k
+        bus += [{"k": "poly", "p": [P(u0, -6), P(u0 + 34, -6), P(u0 + 34, 6), P(u0, 6)], "fill": AMBER, "c": "#1a1511", "w": 1, "in": round(2.2 + .3 * k, 2), "fx": "pop"},
+                dot(*P(u0 + 7, 8), 3, "#1a1511", round(2.25 + .3 * k, 2)), dot(*P(u0 + 27, 8), 3, "#1a1511", round(2.25 + .3 * k, 2))]
+    # the endoscope: a cable snakes in, its lamp lights the empty corridor
+    scope = [line([[560, 1420], [540, 1250], [505, 1090], [500, 980]], .4, "#c9ad85", 6, dur=1.4, curve=True), dot(500, 975, 12, "#9fd0ff", 1.8), glow(500, 900, 220, 2.0, .5, "lamp")]
+    nfc, nfcc = S.nfc()
+    return remix(ep, scenes={3: xray}, adds={7: scope}, cams={4: [1.5, 405, 1000], 5: [2.5, bvc[0] + 35, bvc[1] + 60], 6: [3.6, nfcc[0] + 28, nfcc[1] + 20]}, line_adds={(3, 2): (bus, None)})
+
+
 
 
 
@@ -208,6 +249,59 @@ def sphinx_chambers():
               ["#Sphinx", "#Giza", "#AncientEgypt", "#HallOfRecords", "#Archaeology"])
 
 
+def sphinx_chambers_m():
+    """Under the Sphinx as one continuous take: the lion carved out of the bedrock, a knock that echoes, a hall struck out, one drill hole."""
+    import copy
+    from mural import remix
+    from illus import line, arrow, glow, label, dot, box, ring, strike, tri, question, person, BLUE, BONE, AMBER, RED
+    ep = sphinx_chambers()
+    gy = 1000; m = 860 / 73.0
+    X = lambda xm: round(500 - 430 + xm * m, 1)
+    Y = lambda dm: round(gy - dm * m, 1)
+    s0 = copy.deepcopy(ep["shots"][0])
+    qs = [e for e in s0["els"] if e.get("k") == "q"]
+    for e, t in zip(qs, (3.3, 4.3, 5.9)):
+        e["in"] = t
+    # 73 m of lion, as long as a jumbo jet, not built but carved: the rock beds run straight through walls and lion
+    w1 = sphinx_side("dusk", w=620, x=500, gy=1060, pyramid=False)
+    jet = [{"k": "poly", "p": [[200, 600], [225, 584], [770, 582], [800, 590], [800, 612], [225, 616]], "fill": "rgba(220,230,240,.12)", "c": "#e8eef4", "w": 2.5, "in": 3.0, "fx": "draw", "dur": 1.0},
+           {"k": "poly", "p": [[440, 610], [560, 610], [470, 680]], "fill": "rgba(220,230,240,.12)", "c": "#e8eef4", "w": 2.5, "in": 3.2, "fx": "draw", "dur": .6},
+           {"k": "poly", "p": [[730, 586], [780, 520], [805, 520], [790, 588]], "fill": "rgba(220,230,240,.12)", "c": "#e8eef4", "w": 2.5, "in": 3.3, "fx": "draw", "dur": .6},
+           label(500, 520, "jumbo jet", 3.6, "#e8eef4", 30)]
+    w1["els"] += [{"k": "dim", "x1": 190, "y1": 1105, "x2": 810, "y2": 1105, "t": "73 m", "ly": 40, "in": 2.0}] + jet
+    w1["els"] += [box(330 + 120 * (k % 3), 950 + 55 * (k // 3), 112, 50, "none", "#f5ecdc", 2, 4, 3.9 + .06 * k, style="claimed") for k in range(6)] + [strike(320, 1065, 700, 940, 4.5)]
+    w1["els"] += [line([[140, 965], [860, 965]], 4.9, "#f5ecdc", 2.5, "claimed", 1.0)] + [arrow([[x, 1045], [x, 900]], 5.3 + .25 * j, AMBER, 3, "known", .5, False) for j, x in enumerate((158, 842))]
+    w1["els"] += [line([[40, y], [960, y]], 6.3 + .2 * j, "#ffe2a8", 2.5, dur=.9, op=.75) for j, y in enumerate((985, 1012, 1040))] + [glow(500, 980, 320, 7.1, .35)]
+    w1["cam"] = [1.3, 500, 800]
+    # the 1991 survey, retimed to the words: a sounding, a knock that echoes, a hollow under the paws
+    s5 = copy.deepcopy(ep["shots"][5])
+    for e in s5["els"]:
+        if e.get("k") == "fan":
+            e["in"] = 1.0
+        elif e.get("id") == "anom":
+            e["in"] = 6.4
+        elif e.get("k") == "q" and e.get("in", -1) > 0:
+            e["in"] = 7.0
+        elif e.get("k") == "label" and "1991" in e.get("t", ""):
+            e["in"] = 2.0
+    s5["els"] += [ring(X(4.5), gy, r, 3.0 + .4 * j, BLUE, 2, dur=.6) for j, r in enumerate((14, 28, 42))]
+    s4 = copy.deepcopy(ep["shots"][4])
+    for e in s4["els"]:
+        if e.get("k") == "label" and e.get("t", "").startswith("lower branch"):
+            e.update(x=X(70), y=Y(-4.6), a="end")
+    # the verdict: a small space ringed, the hall struck out; then one narrow drill hole
+    hall_x, hall_y, hall_w, hall_h = X(-4), Y(-7), 26 * m, 5 * m
+    v = [ring(X(4.5), Y(-6), 75, .6, AMBER, 3), strike(hall_x, hall_y + hall_h, hall_x + hall_w, hall_y, 3.0)]
+    drill = [tri(X(4.5), 915, 20, 180, "#cbbca8", .2), line([[X(4.5), 930], [X(4.5), Y(-4.5)]], .4, BONE, 5, dur=1.2), glow(X(4.5), Y(-6), 90, 1.8, .7, "blue")]
+    s7 = copy.deepcopy(ep["shots"][7])
+    s7["els"] = [e for e in s7["els"] if not (e.get("k") == "label" and e.get("t") in ("1991 seismic anomaly", "never opened", "1998 test drill · natural cavity"))]
+    for e in s7["els"]:
+        if e.get("k") == "label" and e.get("t") == "no trace of a hall":
+            e.update(y=Y(-7) + 5 * m + 48, x=hall_x + hall_w / 2)
+    s7["cam"] = [1.6, 330, 1030]
+    return remix(ep, scenes={0: s0, 1: w1, 4: s4, 5: s5, 7: s7}, adds={7: v}, cams={4: [2.6, X(66) - 60, Y(1)], 5: [2.2, X(8) + 70, Y(-1)], 6: [1.1, 462, 970]}, line_adds={(5, 1): (drill, None)})
+
+
 # ---------------------------------------------------------------- 05.06 The Diary of Merer
 def merer():
     p0 = papyrus(hl={"x": 250, "y": 520, "w": 460, "h": 150}); p0["cam"] = [1.7, 480, 640]
@@ -272,6 +366,40 @@ def merer():
               ["#GreatPyramid", "#Khufu", "#AncientEgypt", "#Archaeology", "#History"])
 
 
+def merer_m():
+    """The Diary of Merer as one continuous take: an inspector and forty boatmen, ten days and three round trips, the chain of command up to the king."""
+    from mural import remix
+    from illus import line, arrow, glow, label, dot, box, ring, person, question, BLUE, BONE, AMBER, GREEN
+    ep = merer()
+    # Merer and his crew of about forty
+    crew = [person(220, 1250, 300, .5), glow(220, 1100, 200, .5, .4), label(220, 1310, "Merer", 1.0, AMBER, 34),
+            {"k": "boat", "x": 665, "y": 1260, "w": 520, "in": 1.6, "fx": "rise"}]
+    crew += [person(440 + 50 * (k % 10), 760 + 115 * (k // 10), 90, round(2.0 + .04 * k, 2)) for k in range(40)]
+    crew += [label(665, 640, "about 40 boatmen", 3.8, BONE, 32),
+             box(285, 1040, 70, 92, "#e9dcc4", "#fff6e6", 2, 6, 4.6, fx="pop")] + [line([[295, 1062 + 16 * j], [345, 1062 + 16 * j]], 4.8 + .1 * j, "#6b5640", 2, dur=.3) for j in range(4)]
+    crewS = {"base": "dark", "cam": [1.05, 520, 980], "els": crew}
+    # ten days, two or three round trips
+    days = [box(150 + 72 * j, 1300, 60, 40, "rgba(232,184,122,.18)", AMBER, 1.5, 6, round(5.6 + .06 * j, 2), fx="pop") for j in range(10)]
+    days += [line([[180 + 72 * a, 1296], [180 + 72 * (a + 1.5), 1236], [180 + 72 * (a + 3), 1296]], 6.4 + .4 * n, "#9fd0ff", 3, dur=.5, curve=True) for n, a in enumerate((0, 3, 6))]
+    days += [label(500, 1392, "10 days", 6.1, AMBER, 30)]
+    # the chain of command: a crew, an inspector, a half-brother, a king and his pyramid
+    ch = [person(700, 760, 160, .3), label(700, 805, "Ankhhaf", .7, AMBER, 32),
+          {"k": "pyramid", "x": 300, "y": 545, "w": 230, "courses": False, "in": 1.6, "fx": "rise"},
+          person(300, 760, 170, 1.8, "#f2dcb4"), glow(300, 680, 130, 1.8, .45), label(300, 805, "Khufu", 2.0, "#f2dcb4", 32),
+          line([[400, 680], [610, 680]], 2.3, "#f2dcb4", 2, "inferred", .7), label(505, 655, "half-brother", 2.5, "#cbbca8", 28),
+          {"k": "boat", "x": 700, "y": 1290, "w": 380, "in": 3.4, "fx": "rise"}]
+    ch += [person(600 + 34 * k, 1262, 52, round(3.6 + .05 * k, 2)) for k in range(7)]
+    ch += [person(700, 1080, 130, 4.0), label(760, 1040, "Merer", 4.2, AMBER, 30, "start"),
+           arrow([[700, 1200], [700, 1100]], 4.4, AMBER, 3, "known", .4, False), arrow([[700, 940], [700, 830]], 4.8, AMBER, 3, "known", .4, False),
+           ring(700, 1250, 160, 6.2, AMBER, 3), ring(700, 668, 95, 6.8, AMBER, 3), ring(310, 470, 120, 7.4, AMBER, 3),
+           {"k": "glyphs", "x": 110, "y": 1150, "w": 330, "h": 170, "rows": 4, "cols": 6, "kind": "hieratic", "c": "#e9dcc4", "in": 7.9}]
+    chain = {"base": "dark", "cam": [1, 500, 880], "els": ch}
+    # the casing: the smooth white skin of the lit face; and a question at its first course
+    casing = [{"k": "poly", "p": [[210, 1000], [686, 1035], [604, 555]], "fill": "rgba(255,250,240,.3)", "c": "#ffffff", "w": 2.5, "in": 3.4, "fx": "draw", "dur": 1.2}]
+    first = question(330, 950, 1.0, 70)
+    return remix(ep, scenes={3: crewS, 6: chain}, adds={5: days, 7: casing}, line_adds={(5, 1): (first, None)})
+
+
 # ---------------------------------------------------------------- 05.09 The Builders' Town
 def builders_town():
     pl, P = giza_plan(scale=.8, cx=500, cy=800)
@@ -328,6 +456,78 @@ def builders_town():
               "Lehner & Hawass 2017, Giza and the Pyramids · Redding 2013, ICAZ proceedings · Hawass, tombs of the pyramid builders",
               "A planned town, bakeries, 11 cattle a day, and the workers' tombs with their healed bones. What they show about who worked at Giza, and what they can't.",
               ["#Pyramids", "#Giza", "#AncientEgypt", "#Archaeology", "#History"])
+
+
+def _cow(x, y, at):
+    from illus import box, line
+    c = "#b08a62"
+    return [box(x - 34, y - 20, 68, 34, c, r=12, at=at, fx="pop"), box(x + 26, y - 30, 22, 20, c, r=6, at=at, fx="pop")] + \
+           [line([[x + dx, y + 12], [x + dx, y + 32]], at, c, 5, draw=False) for dx in (-24, -12, 14, 24)]
+
+
+def builders_town_m():
+    """The Builders' Town as one continuous take: a day's meat drawn head by head, a pyramid side with its overseer, a healed bone in its splint."""
+    import copy
+    from mural import remix
+    from illus import line, arrow, glow, label, dot, box, oval, ring, person, question, BLUE, BONE, AMBER
+    ep = builders_town()
+    # the menu, read from the bones: 11 cattle and 37 sheep and goats, every day
+    bone = lambda x, y, at: [line([[x - 34, y], [x + 34, y]], at, "#efe6d2", 11, draw=False)] + [dot(x + dx, y + dy, 8, "#efe6d2", at, None) for dx in (-38, 38) for dy in (-6, 6)]
+    mn = sum([bone(x, y, a) for x, y, a in ((420, 520, .4), (560, 505, .6), (490, 470, .8), (620, 545, 1.0), (380, 560, 1.1))], [])
+    mn += [arrow([[500, 600], [500, 670]], 2.4, AMBER, 3, "known", .4, False)]
+    mn += sum([_cow(230 + 110 * (k % 6), 740 + 110 * (k // 6), round(3.9 + .08 * k, 2)) for k in range(11)], [])
+    mn += [label(500, 925, "11 cattle", 4.9, AMBER, 34)]
+    for k in range(37):
+        x, y = 200 + 66 * (k % 10), 1010 + 62 * (k // 10); at = round(5.1 + .022 * k, 3)
+        mn += [oval(x, y, 20, 14, "#efe6d2", at=at, fx="pop"), dot(x + 18, y - 7, 6, "#cbbca8", at)]
+    mn += [label(500, 1290, "37 sheep and goats", 6.0, BONE, 32), glow(840, 400, 110, 6.1, .8, "sun"), dot(840, 400, 34, "#ffd27a", 6.1), label(840, 480, "a day", 6.3, "#ffd27a", 32)]
+    menu = {"base": "dark", "cam": [1, 500, 860], "els": mn}
+    # a title in a tomb: overseer of the side of the pyramid
+    py = {"k": "pyramid", "x": 600, "y": 1150, "w": 560, "courses": False, "in": 1.4, "fx": "rise", "op": .9}
+    ax_, ay_ = 600 + 560 * .18 * .35, 1150 - 560 * .636
+    tt = [box(110, 1250, 180, 100, "#8a6a4a", "#d8b98e", 2, 10, .3, fx="fill"), box(175, 1282, 50, 68, "#2a1f16", r=4, at=.6), py,
+          line([[320, 1150], [ax_, ay_]], 2.6, "#ffcf8a", 8, dur=1.0), glow((320 + ax_) / 2, (1150 + ay_) / 2, 90, 3.0, .6),
+          line([[120, 1150], [320, 1150]], 1.4, "#8a6a48", 3, draw=False), person(225, 1150, 150, 3.4), glow(225, 1075, 120, 3.6, .5),
+          label(600, 1265, "overseer of the side", 3.8, AMBER, 32),
+          ring(225, 1080, 100, 5.4, AMBER, 3)]
+    title = {"base": "dark", "cam": [1.2, 500, 1040], "els": tt}
+    # the bones, retimed to the words, and a splint: somebody kept that arm still
+    s6 = copy.deepcopy(ep["shots"][6])
+    for e in s6["els"]:
+        if e.get("k") == "poly":
+            e["in"] = .4
+        elif e.get("k") == "circle":
+            e["in"] = 4.0
+        elif e.get("k") == "label" and "splint" in e.get("t", ""):
+            e["in"] = 4.4
+        elif e.get("k") == "label":
+            e["in"] = 5.0
+        elif e.get("k") == "cap":
+            e["in"] = .2
+    s6["els"] += [box(420, 760, 170, 12, "#a0784c", "#d8b98e", 1.5, 4, 6.2, fx="pop"), box(420, 852, 170, 12, "#a0784c", "#d8b98e", 1.5, 4, 6.3, fx="pop")]
+    s6["els"] += [line([[440 + 40 * j, 750], [440 + 40 * j, 874]], 6.6 + .1 * j, "#efe6d2", 3, dur=.3) for j in range(4)] + [glow(505, 815, 200, 7.8, .55)]
+    s6["els"] += [box(792 + (3 if k in (2, 3) else 0), 660 + 34 * k, 54, 24, "#e8dcc6", "#fff6e6", 1.2, 8, round(2.8 + .08 * k, 2), fx="pop") for k in range(6)]
+    s6["cam"] = [1.3, 500, 820]
+    # bread, beer and beef; and the open edge: when did work begin?
+    food = [oval(330, 1310, 46, 26, "#d9a560", "#8a5a2a", 2, at=.8, fx="pop"), line([[300, 1300], [312, 1290]], .9, "#8a5a2a", 2, draw=False), line([[330, 1298], [342, 1288]], .9, "#8a5a2a", 2, draw=False),
+            {"k": "poly", "p": [[470, 1270], [530, 1270], [520, 1340], [480, 1340]], "fill": "#b0714a", "c": "#e0b08a", "w": 2, "in": 1.2, "fx": "pop"}] + _cow(670, 1305, 1.6)
+    food += question(640, 760, 7.4, 80)
+    # the plateau views, re-centred on their panels (the iso origin moved so the aimed point sits mid-panel)
+    h0 = copy.deepcopy(ep["shots"][0])
+    for e in h0["els"]:
+        if e.get("k") == "iso":
+            e.update(x=round(e["x"] + 500 - h0["cam"][1], 1), y=round(e["y"] + 900 - h0["cam"][2], 1))
+        elif e.get("k") == "glow":
+            e.update(y=900)
+    h0["cam"] = [3.0, 500, 900]
+    p1 = copy.deepcopy(ep["shots"][1])
+    for e in p1["els"]:
+        if e.get("k") == "iso":
+            e["x"] = e["x"] + 165
+        elif e.get("k") == "label":
+            e.update(x=500, y=1300)
+    p1["cam"] = [1, 500, 880]
+    return remix(ep, scenes={0: h0, 1: p1, 3: menu, 5: title, 6: s6}, adds={7: food})
 
 
 
@@ -408,6 +608,47 @@ def sphinx_erosion():
               ["#Sphinx", "#Giza", "#Geology", "#AncientEgypt", "#Archaeology"])
 
 
+def sphinx_erosion_m():
+    """The Sphinx and the Rain as one continuous take: a timeline with his rain and the usual date, a temple built from the pit, a clock that cannot be read."""
+    from mural import remix
+    from illus import line, arrow, glow, label, dot, box, ring, strike, question, BLUE, BONE, AMBER, LILAC
+    ep = sphinx_erosion()
+    X = lambda yr: round(120 + (yr + 10000) / 10000 * 760, 1)
+    tl = [line([[120, 900], [880, 900]], .2, BONE, 3, dur=1.0)] + [line([[X(v), 890], [X(v), 910]], .4, BONE, 2, draw=False) for v in (-10000, -7500, -5000, -2500, 0)]
+    tl += [label(120, 955, "10,000 BCE", .5, "#cbbca8", 28, "start"), label(X(-5000), 955, "5000", .5, "#cbbca8", 28), label(880, 955, "1 CE", .5, "#cbbca8", 28, "end")]
+    tl += [box(X(-7000), 730, X(-5000) - X(-7000), 22, BLUE, r=11, at=1.0, fx="pop"), label((X(-7000) + X(-5000)) / 2, 795, "Schoch", 1.3, BLUE, 32),
+           {"k": "rays", "x0": X(-7000), "x1": X(-5000), "y0": 470, "y1": 715, "n": 30, "spread": .12, "c": "#b9d6e8", "in": 1.5, "fx": "draw", "dur": 1.2}]
+    tl += [line([[X(-2530), 900], [X(-2530), 820]], 2.6, AMBER, 3, dur=.4), dot(X(-2530), 900, 11, AMBER, 2.6), label(X(-2530), 795, "Khafre", 2.8, AMBER, 32),
+           box(X(-3000), 858, 880 - X(-3000), 14, "#c9ad85", r=7, at=3.4, op=.6, fx="fill"), label(760, 1010, "dry, as today", 3.6, "#cbbca8", 28)]
+    tl += [arrow([[X(-2530), 1090], [X(-5000), 1090]], 4.4, AMBER, 3, "known", .8, False), arrow([[X(-5000), 1090], [X(-7000), 1090]], 5.1, BLUE, 3, "inferred", .6, False),
+           label(500, 1160, "2,500 to 4,500 years earlier", 5.6, BONE, 30)]
+    tline = {"base": "dark", "cam": [1.12, 500, 830], "els": tl}
+    # the temple: blocks lifted out of the pit, their beds matching the pit walls; Khafre's pyramid behind; one project
+    beds = ["#c8a978", "#8a6a4a", "#c8a978"]
+    tp = [line([[40, 1000], [470, 1000]], 0, "#8a6a48", 3, draw=False), line([[40, 1150], [960, 1150]], 0, "#8a6a48", 3, draw=False),
+          {"k": "sphinx", "x": 720, "y": 1150, "w": 380, "in": .2}]
+    for j, c in enumerate(beds):
+        tp += [box(470, 1000 + 50 * j, 50, 50, c, r=0, at=.3), box(910, 1000 + 50 * j, 50, 50, c, r=0, at=.3)]
+    tp += [label(715, 1215, "the pit", .6, "#cbbca8", 28),
+           box(80, 960, 340, 190, "none", "#f5ecdc", 2, 6, 1.4, style="claimed"),
+           arrow([[640, 1110], [500, 930], [425, 985]], 2.0, AMBER, 3, "known", 1.0)]
+    order = [(0, 0), (1, 0), (2, 0), (3, 0), (0, 1), (1, 1), (2, 1), (3, 1), (0, 2), (1, 2), (2, 2), (3, 2)]
+    for k, (cx, rw) in enumerate(order):
+        tp.append(box(90 + 80 * cx, 1090 - 60 * rw, 76, 56, beds[(cx + rw) % 3], "#3a2c1e", 1.5, 3, round(2.6 + .1 * k, 2), fx="pop"))
+    tp += [label(250, 1215, "the temple", 3.0, "#cbbca8", 28)]
+    tp += [line([[210, 1062], [470, 1075]], 4.4, "#ffe2a8", 2.5, "inferred", .6), line([[290, 1002], [470, 1125]], 4.8, "#ffe2a8", 2.5, "inferred", .6),
+           ring(495, 1075, 34, 5.2, "#ffe2a8", 3, dur=.5), ring(210, 1062, 34, 5.4, "#ffe2a8", 3, dur=.5)]
+    tp += [{"k": "pyramid", "x": 300, "y": 860, "w": 300, "courses": False, "in": 7.4, "fx": "rise"}, label(300, 905, "Khafre", 7.8, AMBER, 30),
+           line([[250, 958], [300, 915]], 8.3, AMBER, 3, dur=.5),
+           box(70, 640, 880, 640, "none", AMBER, 3, 22, 10.0, fx="draw", dur=1.6)]
+    temple = {"base": "dark", "cam": [1.05, 500, 960], "els": tp}
+    # the verdict: a question over the date; weathering as a poor clock; a dated fire would answer it
+    verdict = question(500, 780, 2.6, 80)
+    clock = [ring(760, 480, 50, .3, BONE, 3), line([[760, 480], [760, 446]], .6, BONE, 4, dur=.3), line([[760, 480], [786, 496]], .8, BONE, 4, dur=.3),
+             glow(200, 1035, 70, 4.4, .8, "lamp"), dot(200, 1045, 9, "#2a1f16", 4.4), ring(200, 1045, 30, 4.7, AMBER, 3, dur=.5)]
+    return remix(ep, scenes={3: tline, 5: temple}, adds={6: verdict}, line_adds={(5, 1): (clock, None)})
+
+
 # ---------------------------------------------------------------- 05.07 The Sphinx Surveys
 def sphinx_surveys():
     s0 = {"base": "dark", "cam": [1, 500, 860], "els": tv(500, 690, 380) + [{"k": "num", "x": 500, "y": 1010, "t": "33 million", "u": "viewers · NBC · 1993", "in": .6, "fx": "pop", "size": 84}]}
@@ -447,6 +688,53 @@ def sphinx_surveys():
               "Dobecki & Schoch 1992, Geoarchaeology · Hawass & Lehner 1997, NOVA · Hawass 1998, The Secrets of the Sphinx",
               "Five surveys, one test drill and a TV special watched by 33 million. What the record shows about access to the Sphinx.",
               ["#Sphinx", "#Giza", "#AncientEgypt", "#Archaeology", "#History"])
+
+
+def sphinx_surveys_m():
+    """The Sphinx Surveys as one continuous take: thirty-three million viewers, a gate that closes, a locked data file, and the raw data handed out."""
+    from mural import remix
+    from illus import line, arrow, glow, label, dot, box, ring, strike, tri, question, person, BLUE, BONE, AMBER, RED, LILAC
+    ep = sphinx_surveys()
+    # a TV special and its 33 million viewers; then a fence: who gets to look?
+    tvs = tv(500, 540, 340, .3)
+    tvs += [person(180 + 64 * (k % 11), 880 + 90 * (k // 11), 56, round(1.0 + .04 * k, 2)) for k in range(33)]
+    tvs += [label(500, 770, "33 million", 2.7, AMBER, 44, st="big"),
+            {"k": "sphinx", "x": 500, "y": 1360, "w": 300, "in": 5.4},
+            line([[230, 1215], [770, 1215]], 6.0, RED, 4, dur=.8)] + [line([[x, 1185], [x, 1245]], 6.2, RED, 4, dur=.2) for x in (230, 500, 770)]
+    tvs += question(840, 1330, 7.6, 80)
+    s0 = {"base": "dark", "cam": [1, 500, 860], "els": tvs}
+    # after 1998: no more drilling; access harder; the data never fully released
+    gt = [line([[250, 360], [200, 560]], .2, "#cbbca8", 4, draw=False), line([[250, 360], [300, 560]], .2, "#cbbca8", 4, draw=False),
+          line([[250, 380], [250, 600]], .3, BONE, 4, dur=.5), strike(150, 600, 350, 380, .9), label(420, 480, "no more drilling", 1.1, RED, 30, "start")]
+    gt += [{"k": "sphinx", "x": 210, "y": 880, "w": 260, "in": 2.0},
+           box(380, 700, 18, 180, "#8c7152", r=3, at=2.2, fx="fill"), box(620, 700, 18, 180, "#8c7152", r=3, at=2.2, fx="fill"),
+           line([[398, 760], [620, 760]], 3.4, RED, 6, dur=.6), line([[398, 820], [620, 820]], 3.6, RED, 6, dur=.6)]
+    gt += [person(700 + 70 * k, 880, 110, round(2.6 + .15 * k, 2)) for k in range(3)]
+    gt += [box(380 + 22 * k, 990 + 22 * k, 220, 260, "#e9dcc4", "#fff6e6", 2, 8, round(4.4 + .15 * k, 2), fx="pop") for k in range(3)]
+    gt += [line([[440 + 4 * j, 1080 + 40 * i + 12 * ((j % 4) - 1.5)] for j in range(40)], 4.9 + .1 * i, "#3d5566", 2, dur=.5, curve=True) for i in range(4)]
+    gt += [box(360, 970, 300, 340, "none", LILAC, 3, 14, 5.6, style="claimed", fx="draw"), label(510, 1360, "never fully released", 5.9, LILAC, 30)]
+    gt += question(820, 1150, 7.6, 80)
+    gate = {"base": "dark", "cam": [1, 500, 860], "els": gt}
+    # the fix: tight control yes, cover-up no evidence; publish the raw data, and anyone can check the echoes
+    pb = [{"k": "sphinx", "x": 500, "y": 740, "w": 440, "in": .2}, ring(500, 680, 250, .5, AMBER, 3, "inferred", 1.0),
+          box(260, 520, 480, 260, "rgba(201,193,238,.12)", LILAC, 3, 12, 1.1, style="claimed"), strike(260, 780, 740, 520, 1.7)]
+    pb += [box(380, 900, 240, 280, "#e9dcc4", "#fff6e6", 2, 8, 4.8, fx="pop")]
+    pb += [line([[400 + 5 * j, 960 + 50 * i + 14 * math.sin(j * (1.1 + .3 * i))] for j in range(40)], 5.1 + .15 * i, "#3d5566", 2.2, dur=.5, curve=True) for i in range(4)]
+    for k, x in enumerate((140, 310, 500, 690, 860)):
+        pb += [arrow([[500, 1185], [x, 1270]], round(5.9 + .12 * k, 2), AMBER, 2.5, "known", .4, False), person(x, 1400, 100, round(6.1 + .12 * k, 2))]
+    pub = {"base": "dark", "cam": [1, 500, 880], "els": pb}
+    # the record: teams let in, again and again; a crumbling statue patched; a drill hole as a risk
+    import copy
+    s5 = copy.deepcopy(ep["shots"][5])
+    k5 = 0
+    for e in s5["els"]:
+        if e.get("k") == "rect" and e.get("in", -1) > 0:
+            e["in"] = round(5.6 + .1 * k5, 2); k5 += 1
+        elif e.get("k") == "label" and "patching" in e.get("t", ""):
+            e["in"] = 6.6
+    s5["els"] += [person(180 + 70 * k, 1330, 90, round(.6 + .25 * k, 2)) for k in range(5)] + [arrow([[500, 1290], [560, 1040]], 1.9, AMBER, 3, "known", .5, False)]
+    s5["els"] += [line([[620, 820], [620, 975]], 7.2, RED, 5, dur=.6), ring(620, 985, 30, 7.7, RED, 3, dur=.4)]
+    return remix(ep, scenes={0: s0, 4: gate, 5: s5, 6: pub})
 
 
 # ---------------------------------------------------------------- 05.08 The Osiris Shaft
@@ -511,6 +799,52 @@ def osiris_shaft():
               "Hawass 2007, in Essays in Honor of David B. O'Connor · Hassan 1932–60, Excavations at Gîza · Frankfort 1933, The Cenotaph of Seti I",
               "A granite sarcophagus on a rock island, 30 metres under Khafre's causeway. What was found in the Osiris Shaft, and what is still undated.",
               ["#Giza", "#OsirisShaft", "#AncientEgypt", "#Archaeology", "#Mystery"])
+
+
+def osiris_shaft_m():
+    """The Osiris Shaft as one continuous take: pumped dry on live TV, a timeline with a gap and a question, a phone in a cellar, an hourglass of carbon."""
+    from mural import remix
+    from illus import line, arrow, glow, label, dot, box, ring, strike, question, oval, tri, BLUE, BONE, AMBER, RED, LILAC, GREEN
+    ep = osiris_shaft()
+    gy = 520; m = 20.0
+    Xs = lambda xm: round(500 + xm * m, 1); Ys = lambda dm: round(gy + dm * m, 1)
+    # 1999: on a TV screen the bottom level is pumped dry and opened, live
+    t = [box(270, 460, 460, 340, "#2a231c", "#c9ad85", 3, 26, .1), box(300, 490, 360, 280, "#1d2a33", "#9fd0ff", 1.5, 16, .1),
+         dot(705, 560, 10, "#8c7152", .1), dot(705, 620, 10, "#8c7152", .1),
+         box(310, 650, 340, 110, "#4b3c2f", r=6, at=.2), box(310, 680, 340, 80, "rgba(111,182,214,.75)", r=4, at=.3), box(420, 690, 120, 70, "#6f5a43", "#f2dcb4", 1, 2, .4),
+         {"k": "box3d", "x": 445, "y": 690, "w": 64, "h": 36, "d": 22, "tone": "#4a4040", "light": "#6f6060", "in": .5},
+         line([[330, 720], [330, 520], [200, 430]], 1.4, "#c9ad85", 5, dur=.8), box(130, 380, 70, 60, "#8c7152", "#c9ad85", 2, 8, 1.4, fx="pop"),
+         box(310, 680, 110, 80, "#4b3c2f", r=2, at=2.3, fx="fill"), box(540, 680, 110, 80, "#4b3c2f", r=2, at=2.5, fx="fill"),
+         box(440, 640, 80, 12, "#6f6060", "#9a8a8a", 1, 2, 3.3, fx="rise"),
+         line([[450, 460], [410, 400]], 4.0, "#c9ad85", 3, draw=False), line([[550, 460], [590, 400]], 4.0, "#c9ad85", 3, draw=False)]
+    t += [ring(500, 420, r, 4.2 + .25 * j, RED, 3, dur=.4) for j, r in enumerate((30, 55, 80))] + [label(500, 880, "live · 1999", 4.6, RED, 34)]
+    tv99 = {"base": "dark", "cam": [1.3, 450, 720], "els": t}
+    # the timeline: pyramids, then the bottom level more than a thousand years later; could the cutting be older?
+    X = lambda yr: round(120 + (yr + 3000) / 3000 * 760, 1)
+    tl = [line([[120, 760], [880, 760]], .2, BONE, 3, dur=1.0)] + [line([[X(v), 750], [X(v), 770]], .4, BONE, 2, draw=False) for v in (-3000, -2000, -1000, 0)]
+    tl += [label(120, 810, "3000 BCE", .5, "#cbbca8", 28, "start"), label(X(-2000), 810, "2000", .5, "#cbbca8", 28), label(X(-1000), 810, "1000", .5, "#cbbca8", 28), label(880, 810, "1 CE", .5, "#cbbca8", 28, "end")]
+    tl += [box(X(-1550), 700, X(-1070) - X(-1550), 20, AMBER, r=10, at=3.6, fx="pop"), label((X(-1550) + X(-1070)) / 2, 670, "bottom level", 3.9, AMBER, 30)]
+    tl += [{"k": "pyramid", "x": X(-2550), "y": 745, "w": 70, "courses": False, "in": 5.6, "fx": "rise"}, label(X(-2550), 670, "pyramids", 5.8, "#f2dcb4", 30)]
+    tl += [arrow([[X(-2500), 580], [X(-1560), 580]], 6.1, BONE, 3, "known", .7, False), label((X(-2500) + X(-1560)) / 2, 545, "1,000 + years", 6.4, BONE, 30)]
+    tl += [arrow([[X(-1560), 860], [X(-3000) + 10, 860]], 9.4, LILAC, 3, "claimed", 1.0, False), label(X(-2300), 915, "cut earlier?", 10.4, LILAC, 32)]
+    tl += [dot(X(-1300), 760, 10, AMBER, 14.2), label(X(-1300), 915, "used", 14.4, AMBER, 30)]
+    tl += [line([[180, 1090], [820, 1090]], 16.0, "#8a6a48", 3, draw=False), box(360, 1090, 280, 250, "rgba(77,62,48,.6)", "#cbbca8", 2, 4, 16.3, style="inferred"),
+           box(486, 1290, 28, 46, "#1a1511", "#9fd0ff", 2, 6, 17.4, fx="pop"), box(490, 1296, 20, 30, "#3d5566", r=3, at=17.5), glow(500, 1300, 70, 17.6, .7, "blue"),
+           label(500, 1395, "lately", 18.2, "#9fd0ff", 30)]
+    tl += question(255, 1230, 19.6, 70)
+    tline = {"base": "dark", "cam": [1, 500, 880], "els": tl}
+    osi = [label(500, 470, "Osireion · Abydos", 4.4, AMBER, 34), label(500, 1290, "c. 1290 BCE", 5.6, "#cbbca8", 30)]
+    q7 = question(Xs(0), Ys(21.5), 1.0, 70)
+    hx = 880
+    hg = [oval(hx, 600, 26, 14, GREEN, at=2.2, fx="pop"), line([[hx, 614], [hx, 650]], 2.2, GREEN, 3, dur=.3),
+          {"k": "poly", "p": [[hx - 50, 690], [hx + 50, 690], [hx, 770]], "fill": "rgba(232,184,122,.25)", "c": BONE, "w": 3, "in": 4.0, "fx": "draw", "dur": .5},
+          {"k": "poly", "p": [[hx, 770], [hx + 50, 850], [hx - 50, 850]], "fill": "rgba(232,184,122,.25)", "c": BONE, "w": 3, "in": 4.1, "fx": "draw", "dur": .5},
+          {"k": "poly", "p": [[hx - 24, 710], [hx + 24, 710], [hx, 748]], "fill": AMBER, "c": "none", "w": 0, "in": 4.3},
+          {"k": "poly", "p": [[hx, 820], [hx + 32, 850], [hx - 32, 850]], "fill": AMBER, "c": "none", "w": 0, "in": 4.6, "fx": "fill"},
+          line([[hx, 770], [hx, 820]], 4.5, AMBER, 2, dur=.6),
+          dot(Xs(-6.5), Ys(29.2), 9, "#2a1f16", 6.0), ring(Xs(-6.5), Ys(29.2), 26, 6.1, AMBER, 3, dur=.4),
+          arrow([[Xs(-6.5) + 10, Ys(29.2) - 30], [640, 960], [hx - 40, 870]], 6.4, AMBER, 3, "inferred", .9)]
+    return remix(ep, scenes={4: tv99, 5: tline}, adds={6: osi, 7: q7}, line_adds={(5, 1): (hg, [1.05, 500, 900])})
 
 
 # ---------------------------------------------------------------- stars (J2000, degrees) for Orion
@@ -1004,5 +1338,6 @@ def ledger_recap():
 
 
 def EPISODES():
-    return [big_void(), sphinx_chambers(), sphinx_erosion(), merer(), sphinx_surveys(), osiris_shaft(), builders_town(), orion(), metrology(),
-            drill_cores(), stone_vases(), serapeum(), power_plant(), ledger_recap()]
+    import f05b      # the six films reworked in their own module (wave 2)
+    return [big_void_m(), sphinx_chambers_m(), sphinx_erosion_m(), merer_m(), sphinx_surveys_m(), osiris_shaft_m(), builders_town_m(), f05b.orion_m(), f05b.metrology_m(),
+            f05b.drill_cores_m(), f05b.stone_vases_m(), f05b.serapeum_m(), f05b.power_plant_m(), ledger_recap()]

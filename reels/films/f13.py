@@ -475,6 +475,97 @@ def unpublished_m():
                  drop=("para", "num", "title", "q", "cap"), beat_adds={3: (funnel, [1.1, 500, 900])})
 
 
+def roswell_m():
+    """Roswell as one continuous take (see mural.py): a saucer in the headline, debris on the ground, memory copied and recopied, a train of balloons, four answers, and a cover lifted."""
+    import copy
+    remix, I = _mur()
+    ep = roswell()
+    saucer = lambda x, y, s, at, c=I.LILAC: [{"k": "poly", "p": I.ellipse(x, y, 150 * s, 30 * s)[:-1], "fill": "rgba(201,193,238,.10)", "c": c, "w": 3, "curve": True, "style": "claimed", "in": at, "fx": "draw", "dur": .8},
+                                              {"k": "poly", "p": I.ellipse(x, y - 18 * s, 62 * s, 44 * s, a0=180, a1=360), "fill": "rgba(201,193,238,.10)", "c": c, "w": 3, "curve": True, "style": "claimed", "in": at + .3, "fx": "draw", "dur": .6}]
+    balloon = lambda x, y, r, at: [I.line([[x, y + r], [x, y + r + 2.2 * r]], at + .2, "#cbbca8", 2, dur=.5), I.oval(x, y, r, r * 1.12, "#efe6d2", "#ffffff", 2, 1, at, fx="rise"),
+                                   I.box(x - r * .22, y + r * 3.2, r * .44, r * .3, "#a8865e", r=2, at=at + .5)]
+    hook = saucer(330, 400, 1, 2.2) + [I.glow(330, 400, 140, 2.2, .45)]
+    back = [I.strike(505, 755, 845, 785, .6, I.RED, 7), I.strike(170, 470, 490, 330, 1.0, I.RED, 6)] + balloon(740, 340, 60, 1.6) + [I.glow(740, 340, 110, 1.6, .5, "lamp")] + I.question(880, 520, 3.4, 70)
+    # the map: debris scattered on the ranch, carried to the base
+    v = View(-113, -100, 28.5, 38, (40, 330, 920, 900))
+    db, rw = v.p(-105.3, 33.95), v.p(-104.52, 33.39)
+    debris = [I.dot(x, y, 5, "#efe6d2", round(1.4 + .05 * k, 2)) for k, (x, y) in enumerate(I.scatter(22, db[0] - 60, db[0] + 60, db[1] - 36, db[1] + 36, 4))] + \
+             [I.arrow([[db[0] + 16, db[1] + 12], [rw[0] - 12, rw[1] - 10]], 3.0, I.AMBER, 4, dur=1.0, curve=False)]
+    # what the rancher described, laid out on the ground; no engine, no metal; a kite
+    G = 1250
+    lay = [I.line([[80, G], [920, G]], .1, "#8c7152", 3, draw=False), I.box(80, G, 840, 100, "#3a2f24", r=0, at=.1)]
+    lay += [I.line([[130, G - 20 - 18 * j], [170, G - 40 - 18 * j], [210, G - 22 - 18 * j], [250, G - 42 - 18 * j], [290, G - 24 - 18 * j]], 1.3 + .1 * j, "#6a6560", 9, dur=.4, curve=True) for j in range(3)] + \
+           [I.label(210, G + 60, "rubber", 1.4, I.BONE, 30)]
+    lay += [{"k": "poly", "p": [[330, G - 10], [350, G - 70], [390, G - 54], [420, G - 92], [460, G - 60], [480, G - 14], [440, G - 28], [400, G - 6]], "fill": "#c9ccd2", "c": "#ffffff", "w": 2, "in": 1.8, "fx": "pop"},
+            I.line([[360, G - 40], [400, G - 50], [440, G - 36]], 1.9, "#ffffff", 2, draw=False), I.label(405, G + 60, "foil", 1.9, I.BONE, 30)]
+    lay += [{"k": "poly", "p": [[520, G - 8], [540, G - 92], [660, G - 78], [650, G - 2]], "fill": "#e8dcc2", "c": "#8a7a66", "w": 2, "in": 2.5, "fx": "pop"}, I.label(590, G + 60, "paper", 2.6, I.BONE, 30)]
+    lay += [I.line([[700 + 14 * j, G - 6 - 10 * j], [880 - 10 * j, G - 60 + 14 * j]], 3.0 + .1 * j, "#a8865e", 6, draw=False) for j in range(3)] + [I.label(790, G + 60, "sticks", 3.2, I.BONE, 30)]
+    gear = [I.ring(320, 560, 80, 3.5, I.LILAC, 4, "claimed")] + [I.box(round(320 + 92 * math.cos(a) - 12, 1), round(560 + 92 * math.sin(a) - 12, 1), 24, 24, I.LILAC, r=3, at=3.6, op=.6)
+                                                                  for a in [k * math.pi / 4 for k in range(8)]] + [I.ring(320, 560, 28, 3.6, I.LILAC, 4, "claimed"), I.strike(210, 670, 430, 450, 3.9, I.RED, 7),
+                                                                  I.label(320, 720, "engine", 3.7, I.LILAC, 28)]
+    nut = [{"k": "poly", "p": [[round(680 + 70 * math.cos(math.pi / 3 * k), 1), round(560 + 70 * math.sin(math.pi / 3 * k), 1)] for k in range(6)], "fill": "rgba(201,193,238,.12)", "c": I.LILAC, "w": 4, "style": "claimed", "in": 4.1},
+           I.ring(680, 560, 26, 4.2, I.LILAC, 4, "claimed"), I.strike(580, 660, 780, 460, 4.4, I.RED, 7), I.label(680, 720, "metal", 4.2, I.LILAC, 28)]
+    kite = [{"k": "poly", "p": [[500, 820], [590, 940], [500, 1100], [410, 940]], "fill": "rgba(232,220,194,.35)", "c": "#e8dcc2", "w": 3, "in": 4.7, "fx": "pop"},
+            I.line([[500, 820], [500, 1100]], 4.9, "#a8865e", 4, dur=.4), I.line([[410, 940], [590, 940]], 5.0, "#a8865e", 4, dur=.4),
+            I.line([[500, 1100], [470, 1140], [530, 1170], [480, 1200]], 5.2, "#c9ccd2", 3, dur=.5, curve=True)]
+    ground = {"base": "dark", "cam": [1, 500, 900], "els": lay + gear + nut + kite}
+    # memory: 1947, 1978, then hundreds of interviews; a photocopy of a photocopy
+    X = lambda y: round(110 + 780 * (y - 1940) / 60, 1)
+    mem = [I.line([[90, 1000], [910, 1000]], .1, "#cbbca8", 3, dur=1.0), I.dot(X(1947), 1000, 14, I.AU, .3), I.label(X(1947), 1060, "1947", .4, I.AU, 32),
+           I.arrow([[X(1947), 960], [(X(1947) + X(1978)) / 2, 900], [X(1978) - 10, 960]], 1.0, I.AMBER, 3, dur=1.0), I.label((X(1947) + X(1978)) / 2, 870, "31 years", 1.3, I.AMBER, 32),
+           I.person(X(1978), 1000, 150, 1.8), I.label(X(1978), 1060, "1978", 1.9, I.BONE, 32),
+           {"k": "poly", "p": [[X(1978) + 30, 820], [X(1978) + 170, 820], [X(1978) + 170, 900], [X(1978) + 70, 900], [X(1978) + 45, 930], [X(1978) + 50, 900], [X(1978) + 30, 900]], "fill": "#e8dcc2", "c": "none", "w": 0, "in": 2.4, "fx": "pop"},
+           I.label(X(1978) + 100, 875, "a cover", 2.5, I.INK, 28, halo=False)]
+    mem += [I.box(x - 11, y - 8, 22, 16, "#e8dcc2", r=5, at=round(3.4 + .02 * k, 2), op=.8) for k, (x, y) in enumerate(I.scatter(90, 460, 900, 460, 760, 11))]
+    gap = [I.line([[X(1947), 1110], [X(1977), 1110]], .3, I.AMBER, 4, dur=.6), I.line([[X(1977), 1110], [X(1997), 1110]], .8, I.AMBER, 4, "inferred", .6),
+           I.label((X(1947) + X(1997)) / 2, 1160, "30 to 50 years later", 1.0, I.AMBER, 30)]
+    for k in range(4):
+        x = 150 + 190 * k
+        gap += [I.box(x, 1220, 130, 170, "#e8dcc2", "#8a7a66", 2, 4, 2.4 + .5 * k, op=1 - .18 * k),
+                I.line([[x + 20, 1290], [x + 65, 1265], [x + 110, 1290]], 2.5 + .5 * k, I.INK, 5 - k, draw=False, op=1 - .22 * k),
+                I.oval(x + 65, 1300, 40 - 4 * k, 10, "none", I.INK, max(1, 4 - k), 1 - .22 * k, 2.5 + .5 * k)]
+        gap += [I.dot(px, py, 2.5, "#3a3530", 2.6 + .5 * k, op=.8) for px, py in I.scatter(10 * k, x + 8, x + 122, 1230, 1380, 20 + k)]
+        if k:
+            gap += [I.arrow([[x - 50, 1305], [x - 10, 1305]], 2.3 + .5 * k, "#cbbca8", 3, dur=.3, curve=False)]
+    memory = {"base": "dark", "cam": [1, 500, 900], "els": mem}
+    # Mogul: listening for a faraway test; reflectors of foil, paper and sticks
+    boom = [{"k": "fan", "x": 900, "y": 1330, "a0": 196, "a1": 246, "r": 520, "n": 9, "c": "#9fd0ff", "in": 3.2}, I.glow(900, 1330, 80, 3.0, .8, "red")]
+    secret = [I.box(600, 420, 300, 90, "none", I.RED, 5, 10, .4, fx="pop"), I.label(750, 480, "TOP SECRET", .5, I.RED, 34), I.strike(600, 520, 900, 410, 1.6, I.LILAC, 4)]
+    # four answers, then the records
+    card = lambda x, y, at: I.box(x - 160, y - 150, 320, 300, "rgba(18,13,10,.6)", "#8a7a66", 2, 14, at)
+    four = [card(300, 560, .2), card(700, 560, .3), card(300, 930, .4), card(700, 930, .5)]
+    four += saucer(300, 560, .8, 1.0) + [I.label(300, 680, "1947: a disc", 1.2, I.BONE, 28)]
+    four += [I.arrow([[470, 560], [530, 560]], 1.8, "#cbbca8", 3, dur=.3, curve=False)] + balloon(700, 500, 44, 2.0) + [I.label(700, 680, "1947: a balloon", 2.2, I.BONE, 28)]
+    four += [I.arrow([[560, 690], [440, 790]], 2.8, "#cbbca8", 3, dur=.3, curve=False), I.line([[300, 810], [300, 1030]], 3.0, "#cbbca8", 2, dur=.6)] + \
+            [I.oval(300, 820 + 34 * k, 16, 18, "#efe6d2", "none", 0, 1, 3.0 + .1 * k) for k in range(3)] + \
+            [{"k": "poly", "p": [[300, 935], [322, 960], [300, 985], [278, 960]], "fill": "#c9ccd2", "c": "#ffffff", "w": 1.5, "in": 3.4, "fx": "pop"},
+             I.label(300, 1050, "1994: Mogul", 3.5, I.BONE, 28)]
+    four += [I.arrow([[470, 930], [530, 930]], 4.2, "#cbbca8", 3, dur=.3, curve=False),
+             I.line([[640, 860], [700, 800], [760, 860]], 4.4, "#cbbca8", 3, dur=.4, curve=True), I.line([[640, 860], [700, 900]], 4.5, "#cbbca8", 1.5, draw=False),
+             I.line([[760, 860], [700, 900]], 4.5, "#cbbca8", 1.5, draw=False), I.person(700, 1010, 110, 4.6, c="#9aa0a8"), I.label(700, 1050, "1997: dummies", 4.8, I.BONE, 28)]
+    XA = lambda y: round(560 + 300 * (y - 1945) / 15, 1)
+    four += [I.line([[540, 1150], [880, 1150]], 5.4, "#cbbca8", 2, dur=.6), I.dot(XA(1947), 1150, 10, I.AU, 5.6), I.label(XA(1947), 1200, "1947", 5.6, I.AU, 26),
+             I.box(XA(1953), 1138, XA(1959) - XA(1953), 24, I.LILAC, r=4, at=6.2, fx="pop"), I.label((XA(1953) + XA(1959)) / 2, 1200, "1950s drops", 6.4, I.LILAC, 26),
+             I.arrow([[700, 1080], [(XA(1953) + XA(1959)) / 2, 1130]], 6.6, I.LILAC, 3, dur=.4)]
+    answers = {"base": "dark", "cam": [1, 500, 900], "els": four}
+    files = [I.box(150 + 14 * k, 1250 - 26 * k, 240, 40, "#cdb58a", "#8a6a48", 2, 4, .2 + .1 * k) for k in range(4)] + \
+            [I.glow(280, 1260, 140, 1.4, .95, "red"), I.glow(250, 1210, 90, 1.6, .9, "red"), I.label(270, 1360, "records destroyed", 1.8, I.RED, 28)] + I.question(470, 1300, 3.0, 64)
+    # the verdict: an empty evidence table, then the cover lifted off a balloon
+    tray = lambda x, at, lab: [I.box(x - 110, 640, 220, 200, "none", "#cbbca8", 3, 10, at, style="inferred"), I.label(x, 890, lab, at + .2, "#cbbca8", 28)]
+    verdict = {"base": "dark", "cam": [1, 500, 900], "els": saucer(500, 450, 1.1, .3) + [I.glow(500, 450, 160, .3, .4)] +
+               tray(220, 3.2, "piece") + tray(500, 3.6, "photo") + tray(780, 4.0, "document") +
+               [I.label(500, 945, "nothing from 1947", 4.6, I.LILAC, 32)]}
+    cover = [{"k": "poly", "p": [[260, 1410], [300, 1250], [420, 1185], [580, 1185], [700, 1250], [740, 1410]], "fill": "#4a4440", "c": "#8a8378", "w": 2, "in": .3, "fx": "rise"}] + \
+            balloon(500, 1070, 56, 2.6) + [I.glow(500, 1070, 130, 2.6, .6, "lamp")]
+    mog = copy.deepcopy(ep["shots"][2])
+    for it in mog["els"][-1]["items"]:
+        if str(it.get("text", "")).startswith("schematic"):
+            it.update(text="schematic: real trains were far taller", x=3, z=0, a="start")
+    return remix(ep, scenes={2: mog, 3: ground, 4: answers, 5: memory, 6: verdict}, cams={0: [1, 500, 860], 1: [1.9, 560, 790]},
+                 drop=("para", "num", "title", "q", "cap"), adds={0: hook, 1: debris, 2: boom},
+                 line_adds={(0, 1): (back, None), (2, 1): (gap, None), (3, 1): (secret, None), (4, 1): (files, None), (5, 1): (cover, None)})
+
+
 def ledger_recap():
     """The ledger as a science-show recap: every case gets its moment in the cabinet (see recap.py; narration in rewrite/ledgers/files-ledger.json)."""
     import recap
@@ -482,4 +573,4 @@ def ledger_recap():
 
 
 def EPISODES():
-    return [tuskegee_m(), stargate_m(), roswell(), uap_m(), unpublished_m(), ledger_recap()]
+    return [tuskegee_m(), stargate_m(), roswell_m(), uap_m(), unpublished_m(), ledger_recap()]

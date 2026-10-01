@@ -245,6 +245,110 @@ def holes():
               ["#Peru", "#Inca", "#Archaeology", "#Mystery", "#FirstSigns"])
 
 
+def holes_m():
+    """The band of holes as one continuous take (see mural.py): fifteen pitches of holes, the old guesses, a drone that finds order,
+    pollen and a date from inside a hole, traders filling holes basket by basket, and the khipu that keeps the same count."""
+    import copy
+    from mural import remix, rewritten
+    import illus as I
+    ep = rewritten(copy.deepcopy(holes()))              # authored times below follow the rewritten words (about 2.4 words a second)
+    S = ep["shots"]
+    HOLE, SAND = "#3a2a1c", "#b89a72"
+    # 0 · the ridge: short labels only; fifteen football pitches laid end to end for scale
+    s0 = copy.deepcopy(S[0])
+    for e in s0["els"]:
+        if e.get("k") == "iso":
+            e["items"] = [it for it in e["items"] if it.get("t") != "label"] + [L_(0, 0, "about 5,200 holes", GOLD, z=-24, dy=-22), L_(0, 0, "about 1.5 km", "#cfe6ff", z=26, dy=40)]
+            e.update(x=540, s=6.8)
+            iso0 = {k: e[k] for k in ("x", "y", "s", "az", "spin", "el")}
+    pitches = [I.box(82 + 56 * k, 400, 50, 32, "#3f7a4a", "#cfe6b0", 1.5, 2, round(13.2 + .12 * k, 2)) for k in range(15)] + \
+              [I.line([[107 + 56 * k, 400], [107 + 56 * k, 432]], round(13.25 + .12 * k, 2), "#cfe6b0", 1.2, draw=False) for k in range(15)] + \
+              [I.label(500, 375, "15 football pitches", 15.2, "#cfe6b0", 30)]
+    # 1 · the map: a plane photographs the ridge in 1933; then the old guesses, each fitting a few holes
+    v = View(-81, -69, -18.5, -8, (40, 330, 920, 900))
+    px, py = v.p(-75.8745, -13.7111)
+    ux, uy = -190 / 291.0, 220 / 291.0                       # the direction of flight; nx, ny across it
+    nx, ny = -uy, ux
+    cx_, cy_ = px + 175, py - 185
+    P = lambda a, b: [round(cx_ + ux * a + nx * b, 1), round(cy_ + uy * a + ny * b, 1)]
+    plane = [I.line([[px + 230, py - 260], [px + 40, py - 40]], 6.8, I.BONE, 2, "inferred", 1.0),
+             {"k": "poly", "p": [P(34, 0), P(26, 5), P(-30, 4), P(-30, -4), P(26, -5)], "fill": I.BONE, "c": "none", "w": 0, "in": 7.4, "fx": "pop"},
+             {"k": "poly", "p": [P(10, 4), P(-4, 38), P(-12, 38), P(-6, 4), P(-6, -4), P(-12, -38), P(-4, -38), P(10, -4)], "fill": I.BONE, "c": "none", "w": 0, "in": 7.4, "fx": "pop"},
+             {"k": "poly", "p": [P(-22, 3), P(-30, 16), P(-34, 16), P(-30, 3), P(-30, -3), P(-34, -16), P(-30, -16), P(-22, -3)], "fill": I.BONE, "c": "none", "w": 0, "in": 7.4, "fx": "pop"},
+             I.label(px + 215, py - 215, "1933", 8.2, I.BONE, 32, "start"), I.ring(px, py, 46, 9.6, GOLD, 3)]
+    gx = [180, 340, 500, 660, 820]
+    guess = [I.box(70, 1110, 860, 290, "rgba(18,13,10,.9)", "#8c7152", 2, 16, .2)] + \
+            [I.oval(gx[0], 1235, 52, 22, "#6a5640", "#c9ad85", 2, 1, .9), I.box(gx[0] - 10, 1170, 20, 48, "#c9ad85", r=3, at=1.0)] + \
+            [{"k": "lib", "k2": "vase", "x": gx[1], "y": 1255, "h": 92, "w": 60, "in": 1.6, "fx": "rise"}] + \
+            [{"k": "poly", "p": [[gx[2] - 60, 1255], [gx[2] - 60, 1185], [gx[2] - 40, 1185], [gx[2] - 40, 1170], [gx[2] - 20, 1170], [gx[2] - 20, 1185], [gx[2], 1185], [gx[2], 1170],
+                                [gx[2] + 20, 1170], [gx[2] + 20, 1185], [gx[2] + 40, 1185], [gx[2] + 40, 1170], [gx[2] + 60, 1170], [gx[2] + 60, 1255]], "fill": "#8c7152", "c": "#c9ad85", "w": 2, "in": 2.3}] + \
+            [I.box(gx[3] - 55, 1165, 110, 90, "none", "#cfe6ff", 2, 2, 3.0)] + [I.line([[gx[3] - 55 + 22 * j, 1165], [gx[3] - 55 + 22 * j, 1255]], 3.0, "#cfe6ff", 1, draw=False) for j in range(1, 5)] + \
+            [I.dot(gx[3] - 30 + 20 * j, 1272 + 6 * (j % 2), 5, I.BLUE, round(3.3 + .1 * j, 2)) for j in range(4)] + \
+            I.question(gx[4], 1250, 4.4, 80) + \
+            [I.label(x, 1335, t, round(.9 + .7 * k, 2), c, 28) for k, (x, t, c) in enumerate(zip(gx, ("graves?", "storage?", "defence?", "fog nets?", "on TV"), (I.BONE,) * 4 + (I.LILAC,)))]
+    # 2 · the drone: overlapping photos stitched into one map; the band falls into sections; one section is nine rows of eight
+    drone = [I.box(455, 395, 90, 26, "#d8dde2", "#5a636c", 2, 8, 1.4, fx="pop")] + \
+            [I.line([[465, 400], [420, 380]] if s < 0 else [[535, 400], [580, 380]], 1.4, "#d8dde2", 3, draw=False) for s in (-1, 1)] + \
+            [I.oval(x, 376, 34, 7, "#9aa3ab", "none", 0, .9, 1.5) for x in (420, 580)] + \
+            [{"k": "fan", "x": 500, "y": 425, "r": 250, "a0": 62, "a1": 118, "n": 9, "c": I.BLUE, "in": 3.0}]
+    tiles = [I.box(90 + 95 * k, 590 + (k % 2) * 18, 150, 120, "rgba(159,208,255,.06)", I.BLUE, 2, 4, round(4.6 + .35 * k, 2), style="inferred") for k in range(8)]
+    rr = random.Random(5)
+    secs = [(110 + 84 * k, 70 if k % 3 else 56) for k in range(10)]
+    strip = [I.box(90, 625, 820, 92, SAND, r=8, at=8.0, op=.9)] + \
+            [I.dot(round(x0 + 9 + 11 * (j % (w // 11)), 1), 640 + 11 * (j // (w // 11)) + rr.choice((0, 1)), 3.6, HOLE, round(8.4 + .04 * k, 2))
+             for k, (x0, w) in enumerate(secs) for j in range((w // 11) * 6)]
+    gaps = [I.line([[x0 - 7, 618], [x0 - 7, 724]], round(15.6 + .1 * k, 2), GOLD, 3, dur=.3) for k, (x0, w) in enumerate(secs) if k]
+    G = [(296 + 58 * c, 920 + 58 * r) for r in range(9) for c in range(8)]
+    zoom = [I.ring(secs[4][0] + 33, 671, 48, 19.0, GOLD, 3, dur=.5), I.line([[secs[4][0] - 10, 712], [262, 892]], 19.3, GOLD, 2, "inferred", .5), I.line([[secs[4][0] + 76, 712], [738, 892]], 19.3, GOLD, 2, "inferred", .5),
+            I.box(262, 892, 476, 520, SAND, r=10, at=19.6, op=.95)] + \
+           [I.dot(x, y, 21, HOLE, round(20.4 + .16 * (k // 8) + .02 * (k % 8), 2)) for k, (x, y) in enumerate(G)] + \
+           [I.label(500, 850, "9 × 8 = 72", 23.6, GOLD, 40, st="serif")]
+    s2 = {"base": "dark", "cam": [1, 500, 880], "els": drone + tiles + strip + gaps + zoom}
+    # 5 · inside a hole: pollen of maize and of reeds, then a date that burns down like a candle
+    lab = [I.line([[70, 560], [400, 560]], .2, "#8c7152", 3, draw=False),
+           {"k": "poly", "p": [[140, 560], [150, 660], [200, 690], [270, 690], [320, 660], [330, 560]], "fill": "#5a4632", "c": "#c9ad85", "w": 2, "in": .4},
+           {"k": "poly", "p": [[150, 650], [200, 680], [270, 680], [320, 650], [323, 620], [147, 620]], "fill": "#7a6248", "c": "none", "w": 0, "in": 1.0, "fx": "fill"},
+           I.person(375, 560, 120, .6), I.ring(235, 650, 26, 2.6, I.BLUE, 3, dur=.4),
+           I.line([[258, 640], [500, 560]], 3.0, I.BLUE, 2, "inferred", .6), I.dot(650, 560, 150, "#1d1813", 3.4, op=.95), I.ring(650, 560, 150, 3.4, I.BLUE, 4, dur=.7)] + \
+          [x for k, (gx_, gy_) in enumerate(((590, 500), (680, 470), (640, 590))) for x in (I.dot(gx_, gy_, 26, "#e8c35a", round(5.0 + .3 * k, 2)), I.dot(gx_, gy_, 7, "#8a6a2a", round(5.0 + .3 * k, 2)))] + \
+          [I.oval(x, y, 18, 10, "#9fcf6a", "#5e7d3a", 1.5, 1, round(5.9 + .3 * k, 2)) for k, (x, y) in enumerate(((730, 560), (700, 640), (585, 630)))] + \
+          [I.label(600, 760, "maize", 11.8, "#e8c35a", 30), I.label(760, 760, "reeds", 13.6, "#9fcf6a", 30),
+           {"k": "poly", "p": [[830, 640], [900, 640], [890, 700], [840, 700]], "fill": "#a8865a", "c": "#e8d6b8", "w": 2, "in": 14.6, "fx": "pop"}] + \
+          [I.line([[835 + 13 * j, 645], [845 + 13 * j, 698]], 14.7, "#6b4a2e", 1.5, draw=False) for j in range(4)]
+    candle = lambda x, h, at: [I.box(x - 22, 1080 - h, 44, h, "#efe6d2", "#b8a888", 1.5, 4, at), I.line([[x, 1080 - h], [x, 1068 - h]], at, I.INK, 2, draw=False),
+                               I.oval(x, 1048 - h, 10, 20, "#ffd27a", "none", 0, 1, at), I.glow(x, 1050 - h, 60, at, .7, "lamp")]
+    date = candle(200, 200, 17.0) + candle(320, 120, 19.0) + candle(440, 45, 21.0) + [I.line([[150, 1080], [490, 1080]], 16.8, "#8c7152", 2, draw=False)] + \
+           [I.line([[560, 1040], [920, 1040]], 25.0, I.BONE, 2, draw=False)] + \
+           [I.line([[560 + 120 * k, 1030], [560 + 120 * k, 1050]], 25.0, I.BONE, 2, draw=False) for k in range(4)] + \
+           [I.label(560 + 120 * k, 1090, t, 25.0, "#cbbca8", 28) for k, t in enumerate(("1200", "1300", "1400", "1500"))] + \
+           [I.box(560 + 120 * 1.2, 1026, 120 * .85, 28, GOLD, r=14, at=26.4, fx="fill"), I.glow(731, 1040, 110, 26.4, .5)]
+    s5 = {"base": "dark", "cam": [1, 500, 880], "els": lab + date}
+    route = [I.line([[120, 1300], [300, 1270], [500, 1300], [700, 1270], [880, 1300]], .3, "#c9ad85", 4, "inferred", 1.4, True)] + \
+            [{"k": "house", "x": x, "y": 1300, "w": 90, "h": 56, "in": .8 + .3 * k, "fx": "rise"} for k, x in enumerate((85, 825))] + \
+            [I.label(x, 1360, "Inca centre", 1.2 + .3 * k, GOLD, 28) for k, x in enumerate((130, 870))] + \
+            [I.box(452, 1222, 92, 52, SAND, r=8, at=1.9)] + [I.dot(470 + 14 * (j % 5), 1235 + 12 * (j // 5), 4, HOLE, round(2.0 + .02 * j, 2)) for j in range(15)] + [I.ring(498, 1248, 62, 2.4, GOLD, 3)] + \
+            [I.person(x, 1290 if k % 2 else 1278, 70, round(4.2 + .4 * k, 2)) for k, x in enumerate((260, 370, 640, 740))]
+    # 4 · the marketplace: traders fill one hole per basketful and count; later a khipu keeps the same count in cords and knots
+    HX = [170 + 95 * k for k in range(8)]
+    market = [I.box(110, 520, 780, 120, SAND, r=10, at=.2, op=.9)] + [I.dot(x, 580, 30, HOLE, round(.4 + .05 * k, 2)) for k, x in enumerate(HX)] + \
+             [I.person(80, 500, 110, 1.4)] + [{"k": "poly", "p": [[95, 410], [140, 410], [134, 440], [101, 440]], "fill": "#a8865a", "c": "#e8d6b8", "w": 2, "in": 1.6}] + \
+             [{"k": "poly", "p": [[x - 22, 462], [x + 22, 462], [x + 17, 494], [x - 17, 494]], "fill": "#a8865a", "c": "#e8d6b8", "w": 2, "in": round(2.5 + .45 * k, 2), "fx": "pop"} for k, x in enumerate(HX)] + \
+             [I.dot(x, 580, 22, "#e8c35a", round(2.8 + .45 * k, 2)) for k, x in enumerate(HX)] + \
+             [I.line([[x - 14 + 7 * j, 668], [x - 14 + 7 * j, 696]], round(7.0 + .25 * k, 2), I.BONE, 3, draw=False) for k, x in enumerate(HX) for j in range(1)] + \
+             [I.label(500, 760, "8 baskets", 10.4, GOLD, 34)]
+    khipu = [I.line([[150, 900], [850, 900]], 7.6, "#c9a370", 8, dur=.8)] + \
+            [I.line([[HX[k], 900], [HX[k] + (k % 3) * 5, 1330 - (k % 4) * 30]], round(8.6 + .12 * k, 2), ["#c9a370", OCH, "#e9dccb", "#8c7452"][k % 4], 4, dur=.5, curve=True) for k in range(8)] + \
+            [I.arrow([[HX[k], 620], [HX[k], 885]], round(14.0 + .15 * k, 2), GOLD, 2, "inferred", .4, False) for k in range(8)] + \
+            [I.dot(HX[k] + (k % 3) * 2, 960 + 34 * j, 9, HOLE, round(16.4 + .08 * (k * 3 + j), 2)) for k in range(8) for j in range(1 + (k * 5) % 4)]
+    # 6 → back on the ridge: the world's biggest spreadsheet
+    grid = [{"t": "line", "p": [[x, .1, -20], [x, .1, 20]], "c": GOLD, "w": 2, "op": .8, "ground": True} for x in range(-56, 57, 8)] + \
+           [{"t": "line", "p": [[-56, .1, z], [56, .1, z]], "c": GOLD, "w": 2, "op": .8, "ground": True} for z in range(-20, 21, 5)]
+    sheet = [dict(iso0, k="iso", items=grid, **{"in": .3, "fx": "draw", "dur": 1.6})]
+    return remix(ep, _rewrite=False, scenes={0: s0, 2: s2, 4: {"base": "dark", "cam": [1, 500, 880], "els": market}, 5: s5}, alias={3: 0, 6: 0},
+                 cams={6: [1.08, 540, 990]}, adds={0: pitches, 1: plane},
+                 line_adds={(0, 1): (I.question(500, 560, .4, 90), [1.08, 500, 900]), (1, 1): (guess, None), (3, 1): (route, None), (4, 1): (khipu, None), (5, 1): (sheet, None)})
+
+
 # ---------------------------------------------------------------- 02.06 The ledger
 def _ledger_text():
     s0 = {"base": "dark", "cam": [1, 500, 860], "els": [{"k": "rect", "x": 140, "y": 540, "w": 720, "h": 700, "fill": "#8a6a4e", "c": "none", "sw": 0, "in": .1},
@@ -607,4 +711,4 @@ def ledger_recap():
 
 
 def EPISODES():
-    return [oldest_m(), notation_m(), shared_m(), holes(), ledger_recap()]
+    return [oldest_m(), notation_m(), shared_m(), holes_m(), ledger_recap()]
