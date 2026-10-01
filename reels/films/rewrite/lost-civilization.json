@@ -1,0 +1,26 @@
+{
+ "beats": [
+  [
+   "[d:intrigue][sfx:boom][act:setting the scene, a hint of fun][tune:fall]In {2024|twenty twenty-four}, a writer and an ^archaeologist sat down on Joe Rogan's show, the ^biggest podcast on Earth.",
+   "[d:tension][act:the hook, quiet intrigue][tune:fall]To argue about a civilisation ^nobody has ever found."
+  ],
+  [
+   "[d:calm][act:presenting it fairly, even]The writer is Graham ^Hancock. [p:0.93][act:laying it out, measured]In his telling, an advanced people lived in the Ice Age: not high-tech, but ^wise. [act:the catastrophe, graver]About twelve thousand nine hundred years ago, a ^comet wiped them out. [act:storytelling, measured][tune:fall]^Survivors taught the ^hunters of the time, people who did not yet farm. [go:1|2][p:0.9][act:a touch of grandeur, slower][tune:fall]Then Göbekli ^Tepe rises: great carved stone ^pillars in Turkey, begun about eleven thousand six hundred years ago."
+  ],
+  [
+   "[d:build][act:generous, meaning it][tune:fall]^Every ingredient is ^real. [sfx:shimmer][p:0.93][act:counting them off, vivid][tune:level]A violent climate ^whiplash: a sudden return of the ^cold from that same date, lasting about twelve centuries. [act:building][tune:level]Coasts drowned as the ice melted, under a hundred and ^twenty metres of sea: about the height of a forty-storey ^tower. [act:admiring, warm][tune:fall]And Ice Age people who were ^smart, ^artistic and ^seafaring."
+  ],
+  [
+   "[d:build][act:the counterpoint, clear and friendly][tune:fall]The archaeologist, Flint ^Dibble, had a simple test: civilisations leave ^rubbish. [p:0.93][act:ticking them off][tune:level]Crops whose ^genes were changed by farming. [act:brisk][tune:level]^Mines. [act:rounding it off][tune:fall]Pottery, ^everywhere. [gap:0.4][go:3|0][act:a delightful detail, wonder][tune:fall]Even ^pollution: Greenland's ^ice noticed Roman lead@metal smelting, the fumes of their furnaces, about two ^thousand years ago.",
+   "[d:calm][p:0.93][act:curious, leaning in]How do we ^know? [act:an everyday picture]Greenland's snow piles up year after year, like pages in a ^diary, each layer trapping that year's ^dust. [act:plain, clear]Drill out a tube of ice, and you read@present it year by ^year. [p:1][act:light, a small smile][tune:fall]Rome was thousands of kilometres ^away. [act:wonder, quiet][tune:fall]The ice ^still noticed."
+  ],
+  [
+   "[d:reveal][act:conceding, fair][tune:fallrise]^Some of that could be ^drowned, under the risen sea. [act:firm, the pivot][tune:highfall]^Genes ^can't. [gap:0.4][p:0.93][act:explaining, patient]A farmed crop spreads ^inland, and its changed genes travel with it. [sfx:hit][act:precise, steady authority][tune:fall]No crop, no animal, no ^people with that signature turns up before about eleven thousand five ^hundred years ago.",
+   "[d:build][act:measured, no gloating][tune:fall]And the theory's two ^pillars have not ^survived testing: the comet, and the claimed great age of Gunung ^Padang, a site in Indonesia."
+  ],
+  [
+   "[d:verdict][p:0.95][act:weighing it, calm authority][tune:rise]A lost Ice Age ^civilisation? [act:the verdict, level-headed][tune:fall]*Awaiting ^evidence*. [act:open, genuinely curious][tune:fall]Here's ^exactly what would change our minds. [p:0.93][act:counting them off, clear][tune:level]A ^building older than twelve thousand nine hundred years. [act:second, brisk][tune:level]A farmed ^crop that old. [act:third][tune:level]Ancient ^DNA from sudden newcomers. [act:the last, firmer][tune:fall]Or a confirmed comet ^impact.",
+   "[d:tension][p:0.93][go:5|0][act:sincere, looking outward][tune:fall]The drowned coasts where it would be are ^real. [act:the last word, quiet wonder][tune:fall]And almost ^unsearched."
+  ]
+ ]
+}

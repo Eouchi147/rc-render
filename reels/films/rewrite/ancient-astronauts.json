@@ -1,0 +1,27 @@
+{
+ "beats": [
+  [
+   "[d:intrigue][sfx:boom][act:grand, listing the legends][tune:level]The ^pyramids of Egypt. [act:keep going][tune:level]The giant ^Nazca lines of Peru. [act:the wildest, a small smile][tune:fall]A Maya king, carved in stone, at the controls of a ^rocket.",
+   "[d:tension][act:the big question, straight][tune:rise]Did ^aliens help? [act:playful, confident]Let's ask the sites ^themselves."
+  ],
+  [
+   "[d:calm][act:storyteller, even]In {1968|nineteen sixty-eight}, a writer named Erich von Däniken published a book: ^Chariots of the Gods. [p:0.93][act:explaining the claim, fair]His idea: visitors from ^space helped ancient peoples build their great ^monuments. [act:impressed, a touch wry]The book sold ^tens of millions of copies, and launched a whole ^TV genre."
+  ],
+  [
+   "[d:build][act:a discovery story, leaning in]First, ^Giza. [p:0.93][act:telling it, warm]In {2013|twenty thirteen}, archaeologists found ^papyri, ancient Egyptian paper made from reeds, beside the ^Red Sea. [act:wonder, slower]They hold the ^logbook of an official named Merer, written about four and a half ^thousand years ago.",
+   "[d:build][sfx:shimmer][act:reading from his diary, fond]Merer's crew carried blocks of ^limestone by boat to Giza, for the pyramid of King ^Khufu, month after month. [p:0.93][act:the point, plain]A work diary, from the ^builders themselves. [gap:0.4][d:aside][act:light, a quick aside]And at Giza, there's a ^workers' town, with bakeries and ^breweries: bread and beer for the crews."
+  ],
+  [
+   "[d:build][act:simple, demonstrating]Next, ^Nazca, in the desert@noun of Peru. [p:0.93][act:explaining, hands-on]The ground there is covered in ^dark stones. [act:the trick, pleased]Move them aside, and the ^pale ground underneath shows through, like drawing with your finger on a ^dusty car. [act:plain, reassuring]^Small teams can do it.",
+   "[d:build][go:3|0][act:news, brisk]In {2024|twenty twenty-four}, with help from AI, software trained to spot faint shapes, researchers found {303|three hundred and three} ^new figures in just six months. [p:0.93][act:the detail that matters, leaning in]Many are small, and sit right beside old ^footpaths, placed, it seems, for people on ^foot to see. [d:aside][act:dry, a small smile]^Walkers, not landings."
+  ],
+  [
+   "[d:reveal][act:setting the scene, measured]Last, Palenque, a city of the ^Maya. [p:0.93][act:the reveal, measured]The famous 'astronaut' is carved on the stone lid of a ^tomb, and the lid ^names its man: King ^Pakal, who died in the year {683|six eighty-three}, about thirteen centuries ago.",
+   "[d:build][sfx:hit][act:respectful, explaining the image]He's ^falling into the underworld, beneath the World ^Tree. [p:0.93][act:pointing it out, patient]What looks like a rocket is that sacred ^tree; what looks like flames is the ^underworld. [act:calm, matter of fact, with respect]Standard Maya ^religious art."
+  ],
+  [
+   "[d:verdict][p:0.95][act:weighing it, calm authority][tune:rise]Monuments that needed ^aliens? [act:the verdict, level-headed][tune:fall]^*Ruled out*. [act:fair, the honest open part][tune:rise]How ^exactly some stones were lifted? [act:honest, even]Still ^argued, between ^human methods.",
+   "[d:tension][p:0.93][act:warm, generous]Credit where credit is ^due. [act:warm, counting them][tune:level]Boat crews with a ^logbook. [act:second][tune:level]Walkers in the ^desert@noun. [act:third, fond][tune:fall]Artists honouring a ^king. [gap:0.4][act:quiet pride, certain][tune:fall]^People did this."
+  ]
+ ]
+}

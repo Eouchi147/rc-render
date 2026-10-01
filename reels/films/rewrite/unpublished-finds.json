@@ -1,0 +1,27 @@
+{
+ "beats": [
+  [
+   "[d:intrigue][sfx:boom][act:setting it up, curious]Storerooms are full of ^boxes of finds, some never even ^catalogued. [act:setting it up, curious]^Much of what archaeologists dig up... [act:the surprise, quieter]is ^never fully published. [p:0.93][act:explaining, plain]Never described in a full ^report that other scholars can check.",
+   "[d:tension][act:tempting the viewer][tune:rise]Hidden on ^purpose? [act:dry, a small smile]The real reason is more ^boring. [act:the turn, serious]And more ^worrying."
+  ],
+  [
+   "[d:calm][act:setting the scene]Egypt, {1896|eighteen ninety-six}. [act:amused, storytelling]Two Oxford scholars dig the ancient ^rubbish dumps of a town called Oxyrhynchus. [p:0.93][act:explaining, warm]In the dry sand, old papers had survived: ^papyrus, the paper of ancient Egypt. [go:2|0][act:wonder, the haul]In about ten years, roughly ^half a million fragments.",
+   "[d:build][act:dry, letting the gap show]More than a ^century later, about ^five and a half thousand texts have been published. [p:0.93][act:putting it in proportion]That's roughly ^one published text for every ^hundred fragments."
+  ],
+  [
+   "[d:build][act:reporting, steady]In Israel, the antiquities authority says it has run over ten ^thousand ^rescue digs since {1948|nineteen forty-eight}: quick excavations before construction destroys a site. [act:the scale, a little amazed]That's more than ^two digs a week, for over seventy years. [act:dry, the sting]Many were ^never properly published. [gap:0.4][p:0.93][act:explaining, the method][tune:rise]How do we ^know? [act:explaining, the method]By ^counting digs against published reports, like the photos on your phone against the few you ever ^printed.",
+   "[d:aside][act:wry, gentle amazement]One famous ^Jerusalem dig ended in {1967|nineteen sixty-seven}. [act:gentle amazement, slower]It was ^still being written up about ^fifty years later."
+  ],
+  [
+   "[d:build][act:laying out the claim, fairly]Some writers say a kind of ^filter keeps ^inconvenient finds out of the textbooks: whatever doesn't fit the accepted story of the past is quietly set ^aside. [sfx:shimmer][act:respectful, taking it seriously]It's a ^serious charge. [act:the real test, curious][tune:rise]So is there ^evidence that finds were buried in storerooms for what they ^said?"
+  ],
+  [
+   "[d:reveal][sfx:hit][act:the answer, plain]What the record@noun shows is ^money and ^time. [act:first half, even][tune:level]^Digging gets funded. [act:the sting, dry][tune:fall]Years of ^writing up don't. [p:0.93][act:explaining, sympathetic]And writing up is the ^long part: every pot, bone and layer has to be described, drawn and ^dated.",
+   "[d:build][act:explaining, sympathetic]Rescue digs before construction turn up ^more than the specialists can study. [act:quiet, a little sad]Excavators retire, and some ^die with their ^notes. [gap:0.4][p:0.9][act:grave, the key idea]Worse, digging ^destroys a site: once the soil is removed, the layers are ^gone. [act:quiet, heavy][tune:fall]The notes are the only ^copy left."
+  ],
+  [
+   "[d:verdict][p:0.95][act:weighing it, calm][tune:rise]A huge ^unpublished past? [act:the verdict, confident][tune:fall]^*Strong evidence*. [act:the second charge, fair][tune:rise]Finds hidden because they ^contradict history? [act:level-headed, patient][tune:fall]^*Awaiting evidence*. [act:fair, the open door]One documented case would ^change that.",
+   "[d:tension][p:0.93][act:playful wonder, a smile]The next great dig might be a ^basement."
+  ]
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "beats": [
+  [
+   "[d:intrigue][sfx:boom][act:hushed, intrigued]About nine thousand years ago, hunters in the desert@noun built stone ^traps so big, they're best seen from the ^air.",
+   "[d:tension][act:the kicker, leaning in][tune:fall]Then they drew the ^plans. [act:a beat, delighted][tune:fall]To ^scale."
+  ],
+  [
+   "[d:calm][act:storytelling, plain]In the {1920s|nineteen twenties}, pilots flying over the deserts@noun of ^Jordan spotted strange shapes on the ^ground. [act:light, a smile]From above, they looked like children's ^kites, trailing long strings. [act:light][tune:fall]So that's what they called ^them.",
+   "[d:build][go:2|0][act:counting, impressed]Today, more than six thousand seven hundred are ^known. [p:0.93][act:widening, wonder]They're found in eleven countries, from Arabia all the way to Central ^Asia."
+  ],
+  [
+   "[d:build][act:vivid, explaining]Here's how they ^worked. [act:vivid, building]Two long stone walls, hundreds of metres long, sometimes up to five kilometres, make a giant ^funnel. [act:vivid]Herds of ^gazelles were driven in, and squeezed toward a ^pen. [p:0.93][act:precise, grave]Around it, pits up to four metres ^deep: more than twice the height of a ^person."
+  ],
+  [
+   "[d:build][act:the reveal, delighted]In {2023|twenty twenty-three}, a team described two engraved ^stones: one in ^Jordan, one in Saudi ^Arabia. [act:precise, impressed]Each shows a kite, with its walls, its pen and its ^pits. [p:0.93][act:explaining, clear]And they're drawn close@adj to ^scale, like a map: on the Saudi stone, every metre of drawing stands for about a hundred and seventy-five metres of ^ground.",
+   "[d:aside][act:context, wonder]Possibly the oldest known scale plans in human ^history."
+  ],
+  [
+   "[d:reveal][act:explaining, a simple picture]Whatever falls into a pit first ends up at the ^bottom, like the first coins dropped into a ^jar. [act:fair, precise]Dates from the bottom of the pits in Jordan put the kites around nine thousand years ^ago. [act:the open question][tune:rise]But which came ^first? [act:laying it out, even][tune:rise]Were the stones ^plans, drawn before ^building? [act:the other side, even][tune:rise]Or ^maps of traps already ^there? [act:plain][tune:fall]Nobody can say ^yet."
+  ],
+  [
+   "[d:verdict][p:0.95][act:weighing it, even][tune:rise]Stone Age ^blueprints? [act:the verdict, measured][tune:fall]*Strong ^evidence* for drawings to ^scale. [act:fair]The drawings match the ^traps. [act:fair, honest]Calling them blueprints is still a ^guess.",
+   "[d:tension][p:0.93][act:the last word, a small smile][tune:fall]But someone, nine thousand years ago, saw the land from ^above, in their mind, and thought like an ^architect."
+  ]
+ ]
+}

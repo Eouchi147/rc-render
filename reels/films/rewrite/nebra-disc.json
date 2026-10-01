@@ -1,0 +1,27 @@
+{
+ "beats": [
+  [
+   "[d:intrigue][sfx:boom][act:setting the scene, hushed]^Looters, digging illegally with a metal detector, dug it up at ^night in {1999|nineteen ninety-nine}, on a hilltop near Nebra, in ^Germany.",
+   "[d:tension][act:the reveal, wonder, slowly]They'd found the ^oldest known picture of the sky."
+  ],
+  [
+   "[d:calm][act:plain description, unhurried]Bronze, ^thirty-two centimetres across: a little wider than a vinyl record@noun. [act:pointing them out, one by one]In ^gold: a sun or full Moon, a crescent, thirty-two stars, and a little cluster of ^seven.",
+   "[d:aside][act:a light aside, warm]Very likely the ^Pleiades, a famous cluster of ^stars."
+  ],
+  [
+   "[d:build][act:storytelling, a caper building]In {2002|two thousand two}, a dealer offered it in a hotel in ^Basel, Switzerland, for seven hundred ^thousand Deutschmarks. [sfx:hit][act:the punchline, deadpan]The buyers were ^police."
+  ],
+  [
+   "[d:build][act:matter of fact, careful]It had been buried with ^swords and ^axes@axe. [p:0.93][gap:0.4][act:curious, the method]But how do you date ^metal? [act:explaining, clear]Not directly: you date something that was once ^alive. [act:explaining, patient]Living things hold a trace of radioactive carbon, which fades after death at a steady pace, like a candle burning ^down: measure what's left, and you know when it ^died. [act:the clincher, precise]Birch bark on one of the swords dates to about {1600|^sixteen hundred} BCE.",
+   "[d:build][go:1|0][act:tracing it, curious][tune:level]Metals carry a chemical ^fingerprint of their mine. [act:tracing it, precise]The disc's ^copper comes from the Austrian ^Alps. [act:the surprise, lightly]Its ^gold, from ^Cornwall, in Britain: more than a thousand kilometres away, across the ^sea."
+  ],
+  [
+   "[d:reveal][act:the doubt creeps in, measured]In {2020|twenty twenty}, two archaeologists argued it might be a thousand years ^younger, from the Iron Age, not the Bronze Age. [p:0.93][act:their case, fair]Their reason: nobody had ^recorded it in the ground. [act:explaining, a simple picture]In archaeology, the spot where an object@noun lies is its birth ^certificate. [act:plain]The disc's was lost, so its date is borrowed from the ^hoard.",
+   "[d:build][sfx:shimmer][act:the counter, steady and sure][tune:fall]But the ^soil still stuck to it, its ^metals and its ^corrosion all tie it to the hoard. [go:2|0][act:wonder, slowing down]And its gold arcs span the ^swing of sunrise between the solstices, the longest and shortest days, at ^this latitude. [p:0.93][act:explaining, clear]Through the year, sunrise slides back and forth along the horizon: here, through about eighty-two ^degrees. [act:the payoff, quiet wonder]Each gold arc on the disc spans about the ^same."
+  ],
+  [
+   "[d:verdict][p:0.95][act:weighing it, calm authority][tune:rise]A ^Bronze Age disc, buried around {1600|^sixteen hundred} BCE? [act:the verdict, level-headed][tune:fall]*Strong ^evidence*. [p:0.93][act:turning, lighter, explaining]Twelve Moon-months fall about eleven days short of a solar year, so some calendars add an extra, ^leap month. [p:0.95][act:curious][tune:rise]A calendar rule for ^leap months? [act:honest, a small shrug][tune:fallrise]Still ^argued.",
+   "[d:tension][p:0.93][act:the last word, quiet wonder]Three and a half thousand years ago, someone looked ^up, and wrote it down in ^gold."
+  ]
+ ]
+}

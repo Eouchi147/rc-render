@@ -1,0 +1,28 @@
+{
+ "beats": [
+  [
+   "[d:intrigue][sfx:boom][act:hushed wonder, opening wide]The ^whole sky slowly ^turns. [act:savouring the number]One full ^circle every twenty-five thousand seven hundred and ^seventy-two years. [p:0.93][act:a sense of scale]That's roughly a thousand human ^generations.",
+   "[d:tension][act:the hook, leaning in][tune:rise]Did ancient people ^notice, and ^hide it in their myths?"
+  ],
+  [
+   "[d:calm][p:0.93][act:explaining, patient and clear]Earth spins like a top, and like a slowing top, its axis ^wobbles, tracing a slow circle. [p:0.93][act:the consequence, clear]So, seen from here, the stars drift about one degree every ^seventy-two years.",
+   "[d:aside][act:a light aside, gently amused]In one ^lifetime, that's about one ^finger-width at arm's length, or two full Moons side by ^side. [act:gently amused]Easy to miss, without careful ^records@noun."
+  ],
+  [
+   "[d:build][act:laying out the case, warm]Myths everywhere speak of ^ages of the world, from ^gold to ^iron. [act:intrigued, slowing on the number]And one ^number@count keeps turning up: four hundred and ^thirty-two thousand.",
+   "[d:build][sfx:shimmer][act:counting them off][tune:level]India's Kali ^Yuga, one great age of the world, lasts that many ^years. [act:the next, same rhythm][tune:level]Babylon's kings before the ^flood, as the ancient writer Berossus counted them, reigned that ^long. [p:0.93][act:the last, playful][tune:level]And Valhalla, the Norse hall of fallen ^warriors, has five hundred and forty doors, with eight hundred warriors marching through each. [act:landing it, a small smile][tune:fall]Multiply, and there it is ^again."
+  ],
+  [
+   "[d:build][act:storytelling, even-handed]In {1969|nineteen sixty-nine}, two scholars published a book called Hamlet's ^Mill. [p:0.93][act:their case, at its strongest]They argued that a ^lost culture discovered the wobble and ^encoded it in myth.",
+   "[d:build][act:bringing it up to date, brisk]^Today the producer Tyler Engle tells history as ^cycles, turning through a ^Great Year: one full turn of the sky."
+  ],
+  [
+   "[d:reveal][act:the turn, leaning in][tune:fall]But the first ^written measurement of the drift comes from ^Hipparchus, a Greek astronomer, around {130|one thirty} BCE. [p:0.93][act:explaining, how he knew]He compared his star positions with older ones, like two photos of the same view taken years apart, and found everything ^nudged along. [sfx:hit][act:pointed, slower]And ^Babylon, whose astronomers logged the sky on clay for centuries, shows ^no sign of it.",
+   "[d:build][act:plain, a quiet explanation]The big numbers also fall straight out of ^base-sixty arithmetic. [p:0.93][act:explaining, clear]The Babylonians counted in ^sixties: it's why an hour still has sixty minutes@time. [act:doing the sum, lightly]And four hundred and thirty-two thousand is simply two, times sixty, times sixty, times ^sixty."
+  ],
+  [
+   "[d:verdict][p:0.95][act:weighing it, calm authority][tune:rise]Myths that encode the wobble, long ^before Hipparchus? [act:the verdict, level-headed][tune:fall]*Awaiting ^evidence*. [p:0.93][act:naming the test, clear]What would ^change that? [act:naming the test, precise]A text older than Hipparchus that describes the drift, a dated monument that ^needs it, or a trace of it in Babylon's star ^records@noun. [p:0.95][act:warmer, turning to the people][tune:rise]People who watched the sky with ^enormous care? [act:warm, wholehearted][tune:highfall]^Absolutely.",
+   "[d:tension][p:0.93][act:quiet and sure]The sky ^really turns. [act:the open riddle, thoughtful][tune:fall]The question is ^who wrote it down ^first."
+  ]
+ ]
+}

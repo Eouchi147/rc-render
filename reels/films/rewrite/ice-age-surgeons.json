@@ -1,0 +1,27 @@
+{
+ "beats": [
+  [
+   "[d:intrigue][sfx:boom][act:hushed, grave, pulling us in][tune:level]About thirty-one thousand years ago, deep in the Ice Age, someone cut off a child's ^leg...",
+   "[d:tension][gap:0.4][act:quiet wonder, the reveal][tune:fall]And the child ^*survived*. [p:0.93][act:intrigued][tune:rise]Surgery, long before hospitals, or ^steel? [act:inviting][tune:fall]Let's look at the ^evidence."
+  ],
+  [
+   "[d:calm][act:gentle, respectful storytelling]In a cave on the island of ^Borneo, archaeologists found a young ^adult, buried with ^care. [p:0.93][act:explaining, gentle]The leg had been removed in ^childhood. [act:warm]This person grew up ^without it.",
+   "[d:list][go:2|0][act:quiet, noting the details][tune:level]^Rocks placed over the head and ^arms. [act:softly, a tender detail][tune:fall]A lump of red ^ochre, an earth ^pigment, by the jaw. [act:quiet, respectful]Someone took time over this ^farewell."
+  ],
+  [
+   "[d:build][act:clinical, precise]The lower left leg was ^missing. [act:careful, observing]Both bones cut ^clean, at an ^angle. [sfx:hit][act:flat, pointed][tune:level]No ^crushing. [act:same flat weight][tune:fall]No ^splinters. [p:0.93][act:explaining, a simple picture]Snap a dry stick and the ends come out ^jagged; cut it with a blade, and they're ^smooth. [act:the point, clear]A fall or an animal's bite crushes ^bone. [act:the point, firm][tune:fall]This was a deliberate@adj ^cut.",
+   "[d:list][go:4|2][act:the good news, warmer]And the ends had ^healed into a smooth stump. [p:0.93][act:explaining, clear]Bone is ^alive. [act:explaining, a picture]After a cut, it slowly rounds off and seals over, the way a cut on your skin closes into a ^scar, and that takes ^years. [act:quiet wonder, slower][tune:fall]The child lived another ^six to nine ^*years*."
+  ],
+  [
+   "[d:build][act:admiring, counting the feats]Think what that took: a tropical forest, no antiseptics, no ^steel, no ^hospital. [act:counting, firm][tune:level]Somebody stopped the ^bleeding. [act:counting, firm][tune:level]Managed the ^pain. [act:counting, landing it][tune:fall]And kept ^infection away, where wounds go bad ^fast. [p:0.93][act:admiring, warm][tune:fall]That takes ^knowledge, not just ^luck."
+  ],
+  [
+   "[d:reveal][act:setting up the comparison, clear]Before this, the oldest known amputation was a ^farmer in France, about ^seven thousand years ago. [act:explaining, a picture]Farmers, with villages and ^fields: just the kind of people we expected to find doing ^surgery.",
+   "[d:reveal][sfx:shimmer][act:the reveal, slower, relishing it]Borneo pushes surgery ^back by about [count:24000|years]twenty-four ^*thousand* years. [p:0.93][act:a picture, wonder][tune:fall]More than four times as ^old."
+  ],
+  [
+   "[d:verdict][p:0.95][act:honest caveat, calm][tune:fallrise]^One skeleton. [act:fair, explaining]One case can't tell us how often it was ^done. [act:the next question, even][tune:rise]But Ice Age ^surgery? [act:the verdict, confident][tune:fall]*Strong ^evidence*.",
+   "[d:tension][p:0.93][act:warm, the last word, quiet][tune:fall]They knew ^more than we ever gave them ^*credit* for."
+  ]
+ ]
+}

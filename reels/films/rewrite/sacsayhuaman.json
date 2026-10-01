@@ -1,0 +1,26 @@
+{
+ "beats": [
+  [
+   "[d:intrigue][sfx:boom][act:measured, setting the scene]High in the mountains of Peru stands a wall of stones, some weighing well over a ^hundred tonnes. [act:describing, admiring][tune:level]Cut into ^many-sided shapes, like the pieces of a ^jigsaw. [p:0.93][act:the marvel, slower]Fitted so ^tightly, with no mortar at all, that you can't slide a ^knife blade between them.",
+   "[d:tension][act:posing the riddle][tune:rise]Who built it? The ^Incas? [act:the other option, lower][tune:fall]Or someone ^before them?"
+  ],
+  [
+   "[d:calm][act:plain, painting the picture]This is ^Sacsayhuamán, on the hill above the city of ^Cusco. [p:0.93][act:painting the picture]Three terraced walls ^zigzag across it, like the teeth of a saw, for up to ^four hundred metres: about four football pitches, end to end. [go:1|0][act:lighter, a sense of height]And all of it three thousand seven hundred metres ^up in the Andes."
+  ],
+  [
+   "[d:build][act:fair-minded, presenting the case]Graham Hancock and others say these giant walls are ^older, and the Incas simply built on ^top. [act:pointing, inviting a look][tune:level]Look closely: ^huge, perfect@adj blocks at the ^bottom. [act:the contrast, completing it][tune:fall]^Smaller, rougher stones ^above. [p:0.93][act:explaining their logic, fair]Two styles, they argue, means two ^builders."
+  ],
+  [
+   "[d:build][act:historical, steady]So what does@verb the written record@noun say? [act:historical, steady]In {1536|fifteen thirty-six}, Spanish soldiers fought the Incas over these very ^walls. [act:the key point, calm]And Spanish chroniclers, writing within a ^generation, describe them as an ^Inca work.",
+   "[d:build][sfx:shimmer][act:quoting the source, impressed]One of them, Cieza de León, reported ^twenty thousand workers, taking turns. [act:counting them off][tune:level]^Four thousand ^quarrying. [act:finishing the count][tune:fall]^Six thousand ^hauling the stones with ropes."
+  ],
+  [
+   "[d:reveal][act:leaning in, curious][tune:rise]And those ^smaller stones up top? [act:simple, a little sad][tune:fall]Most of the upper wall is simply ^gone. [sfx:hit][act:the explanation, clear]After the siege, the Spanish ^carted every stone they could move down the hill, to build colonial ^Cusco. [act:the payoff, plain]What's left at the bottom are the giants: too ^big to shift.",
+   "[d:build][act:the next clue, light][tune:rise]And the perfect@adj ^fit? [act:practical, a craftsman's rhythm]An architect reproduced it with hammerstones, round stones harder than the block: ^lower the block, ^mark the high spots, ^pound them down, ^repeat. [act:warm, a smile][tune:fall]Slow, but it ^works."
+  ],
+  [
+   "[d:verdict][p:0.95][act:weighing it, calm authority][tune:rise]An ^older civilisation's walls? [act:the verdict, level-headed][tune:fall]*Awaiting ^evidence*. [act:a fair concession]People did live@verb on this hill ^before the Incas. [act:precise, the crux][tune:fall]But no ^older wall has been ^dated.",
+   "[d:tension][p:0.93][act:explaining, clear]Behind every wall lies ^fill: earth and rubble packed in by the builders. [act:hopeful, quietly practical]^One radiocarbon date, from a scrap of charcoal behind the ^giants, would settle it."
+  ]
+ ]
+}

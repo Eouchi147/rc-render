@@ -1,0 +1,27 @@
+{
+"beats": [
+[
+"[d:intrigue][sfx:boom][act:wonder, setting the scene]Off Japan's last island, Yonaguni, giant ^steps go down into the sea. [act:counting them off, slow][tune:level]Flat ^terraces. [act:building][tune:level]Sheer ^walls. [act:landing it][tune:fall]^Right angles.",
+"[d:tension][act:the big mystery, curious][tune:fall]Who ^carved them? [act:hesitant, teasing][tune:level]^Maybe... [act:soft, a knowing smile][tune:fall]^nobody."
+],
+[
+"[d:calm][act:placing it on the map, calm][tune:level]Yonaguni lies a hundred and ten kilometres from ^Taiwan, at the far end of Japan's chain of southern islands. [p:0.93][act:explaining, clear][tune:fall]The formation is ^one piece of bedrock, not stacked blocks: sandstone about twenty ^million years old. [act:explaining, a sense of scale]Its base is twenty-five metres down; its top, just ^five."
+],
+[
+"[d:build][act:respectful, giving him his due]A marine geologist, Masaaki Kimura, dived it for decades, and mapped what he saw as a monument: ^terraces, a ^road, a drainage ^channel, even a carved ^face.",
+"[d:build][act:laying out the idea, even][tune:fall]The writer Graham Hancock's version is gentler: ^nature made the rock, and ^people shaped it, while it was still dry land, before the sea came ^up."
+],
+[
+"[d:build][act:explaining, hands-on, clear][tune:fall]Here's the trick: this sandstone splits along ^flat layers and ^straight cracks. [p:0.93][act:explaining, a simple picture]Think of a thick stack of paper, with cuts running straight down through it. [sfx:shimmer][act:the neat trick, delighted][tune:fall]Flat plus straight gives you ^steps and right angles, for ^free. [act:light, easy][tune:fall]The ^waves pluck out the loose pieces and do the rest.",
+"[d:aside][act:lighter, a sideways glance][tune:fall]And on the island's ^dry coast, right next door, the ^same shapes stand in the open air. [act:dry, gentle][tune:fall]^Nobody claims those were carved."
+],
+[
+"[d:reveal][act:the turn, warmer, leaning in][tune:fall]But here's what keeps the question open. [act:warmer, vivid][tune:fall]^People lived in these islands thirty ^thousand years ago, when the sea was low and those steps stood in the open ^air. [go:3|0][act:admiring, vivid][tune:fall]In {2019|twenty nineteen}, a team ^paddled a replica Stone Age dugout here from Taiwan: two hundred and ^twenty-five kilometres, in just over forty-five ^hours.",
+"[d:build][go:5|0][sfx:hit][act:quiet, pointed][tune:fall]And yet ^nobody has ever dug the sediment on those terraces, to look for tools or ^hearths. [act:flat, final][tune:highfall]Not ^once. [p:0.93][act:explaining, simple]A single stone tool or hearth, sealed in that mud, would be a real ^clue."
+],
+[
+"[d:verdict][p:0.95][act:weighing it, calm authority][tune:rise]A ^carved monument? [act:the verdict, level-headed][tune:fall]*Awaiting ^evidence*. [act:warmer, opening a door][tune:rise]^Natural steps that people ^walked on, before the sea rose over them, about nine and a half to seven thousand years ago? [act:honest, a little hopeful][tune:fall]^Possible.",
+"[d:tension][p:0.93][act:the last word, warm and practical][tune:fall]This one gets settled with a ^trowel, not a ^debate."
+]
+]
+}

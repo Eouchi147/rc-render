@@ -1,0 +1,26 @@
+{
+ "beats": [
+  [
+   "[d:intrigue][sfx:boom][act:hushed, tender]About seven thousand years ago, in a Sahara that was ^green, two women were laid to rest in a rock ^shelter.",
+   "[d:tension][act:the reveal, leaning in][tune:fall]Their DNA belongs to a human ^lineage, a family line, that no one ^knew."
+  ],
+  [
+   "[d:calm][act:plain, orienting]The shelter is called ^Takarkori, in the mountains of south-west ^Libya. [act:steady]Today, all around it is ^desert@noun. [p:0.93][act:painting it, warm]But back then, herders lived here with their ^cattle, beside lakes and ^grassland.",
+   "[d:build][act:gentle, careful]After death, the dry desert@noun air preserved the two women ^naturally. [act:gentle, explaining]Their bodies dried before they could decay: natural ^mummies, with no embalming at ^all."
+  ],
+  [
+   "[d:build][act:the reveal, precise]In {2025|twenty twenty-five}, scientists read@past their ^genomes, the full instruction book written in our ^DNA. [p:0.93][act:explaining, a simple picture]Each time DNA is passed down the generations, a few tiny typos creep ^in. [act:explaining, clear]Two family lines that split long ago pile up different ^typos: count them, and you can tell how long they've been ^apart. [p:0.9][act:building, amazed]Their line split from other African lineages about fifty thousand years ^ago. [act:the twist, wonder][tune:fall]And then it stayed ^apart.",
+   "[d:build][go:3|0][act:connecting it, curious][tune:rise]Their closest known ^relatives? [act:the payoff, delighted]People who lived in ^Morocco, fifteen thousand years ^earlier."
+  ],
+  [
+   "[d:build][act:the point, clear]So the green Sahara's herders were mostly ^local. [p:0.93][act:thoughtful]Cattle and milk arrived as ^ideas, passed from neighbour to neighbour, not with a wave of ^newcomers. [act:light, a small smile]And their pots hold Africa's earliest known milk ^fats. [p:0.93][act:explaining, the method]Fat soaks into bare clay, like oil into a wooden chopping ^board, and chemists can still detect it, thousands of years ^later."
+  ],
+  [
+   "[d:reveal][act:fair, a caveat]But two people from one site are not a whole ^people. [p:0.93][act:explaining, a simple picture]It's like describing a whole town from just two of its ^residents. [act:precise]Teeth and culture found elsewhere hint at more ^movement: people coming, and ^going."
+  ],
+  [
+   "[d:verdict][p:0.95][act:weighing it, even][tune:rise]A lost lineage in the green ^Sahara? [act:the verdict, measured][tune:fall]*Strong ^evidence*. [act:fair]For these two women, the result is ^clear. [act:fair, a caveat]How far it reaches is ^not.",
+   "[d:tension][p:0.93][act:the last word, inviting][tune:fall]Now we need more ^genomes."
+  ]
+ ]
+}

@@ -1,0 +1,28 @@
+{
+ "beats": [
+  [
+   "[d:intrigue][sfx:boom][act:wonder, painting the scene]On a coral reef in the ^middle of the Pacific Ocean stands a city built of black stone ^logs. [act:letting the scale sink in]Nearly a ^hundred islands, every one of them made by ^hand.",
+   "[d:tension][act:hushed, a storyteller's smile]The local legend says the stones ^flew here."
+  ],
+  [
+   "[d:calm][act:orienting, calm]This is ^Nan Madol, off the island of ^Pohnpei, one of the most remote places on Earth. [act:a sense of distance]Thousands of kilometres of open ocean, all ^around. [go:2|0][act:describing, steady]Along its coast lie about ninety-two ^artificial islets, built up on the reef, with ^canals of seawater running between them, like streets made of ^water.",
+   "[d:build][go:0|0][act:a builder's eye, explaining]The walls are long, natural pillars of black ^basalt, stacked ^crosswise, then lengthwise, like a ^log cabin. [act:the height, impressed]Up to ^seven and a half metres high: taller than a two-storey ^house@noun."
+  ],
+  [
+   "[d:build][act:the two big unknowns][tune:fall]So ^who built it, and ^when? [sfx:shimmer][act:storytelling, a light touch]In the {1920s|nineteen twenties}, a writer, James Churchward, called it a relic of ^Mu, a ^lost continent he said had sunk beneath the Pacific.",
+   "[d:build][act:respectful, taking it seriously]Later, Graham Hancock took ^seriously the Pohnpeian stories of a ^sunken city, out beyond the reef."
+  ],
+  [
+   "[d:build][act:crisp, the turn][tune:fall]Then came the ^lab. [p:0.93][act:explaining, a simple picture]Living coral takes in a trace of ^uranium from seawater. [act:the analogy, clear]Once the coral is cut, that uranium slowly turns into ^thorium, like sand running through an ^hourglass. [act:precise, reading the result]Coral used@verb in building the royal tomb reads about {1180|eleven eighty} CE.",
+   "[d:build][act:the next clue, curious][tune:rise]And the ^stone? [p:0.93][act:explaining, simple]Every volcano's rock carries its own chemical ^fingerprint. [act:quietly conclusive]These pillars match quarries on Pohnpei ^itself."
+  ],
+  [
+   "[d:reveal][act:warm, a pleasing fit]And the island's ^own history ^agrees. [act:telling their history, with respect]A dynasty called the ^Saudeleur ruled all of Pohnpei from here, until a hero named Isokelekel ^overthrew them, traditionally around {1628|sixteen twenty-eight}.",
+   "[d:aside][sfx:hit][act:gentle, an affectionate smile]So maybe 'the stones ^flew' is how 'a very ^big job' sounds, told and retold for twenty ^generations."
+  ],
+  [
+   "[d:verdict][p:0.95][act:weighing it, calm authority][tune:rise]Built by ^Pohnpeians, from about {1180|eleven eighty}? [act:the verdict, warm and sure][tune:fall]^*Strong evidence*. [act:the other claim, lighter][tune:rise]A ^drowned city beyond the reef? [act:plain, honest][tune:fall]^Untested. [act:a playful invitation][tune:fall]^Divers wanted.",
+   "[d:tension][p:0.93][act:a gentle twist, wry]Today the ^real threat to Nan Madol is ^mangroves. [act:explaining, plain]Salt-loving trees, slowly creeping into the ^canals."
+  ]
+ ]
+}

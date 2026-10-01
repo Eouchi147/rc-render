@@ -1,0 +1,27 @@
+{
+ "beats": [
+  [
+   "[d:intrigue][sfx:boom][act:telling a tall tale, intrigued][tune:level]Some say ancient miners dug a ^*billion* pounds of copper out of the shores of Lake Superior, one of the largest lakes on ^Earth...",
+   "[d:tension][act:the legend's punchline, hushed][tune:fall]and it ^*vanished*. [p:0.93][act:intrigued, posing it][tune:rise]Where could it all have ^gone? [act:a small smile][tune:fall]Let's ^count."
+  ],
+  [
+   "[d:calm][act:firm, grounding it][tune:fall]The mining is ^real. [act:storytelling, admiring]At least nine and a half thousand years ago, ^hunter-gatherers here were hammering pure copper into ^tools. [p:0.93][act:explaining, a picture]Around this lake, copper comes out of the rock already ^pure, in lumps and ^veins. [act:the point, clear][tune:fall]No furnace ^needed.",
+   "[d:list][go:2|0][sfx:shimmer][act:explaining, vivid]Hammer it cold, and it spreads and thins into blades and ^points. [act:wonder, building]Some of the ^oldest metalwork on Earth. [act:counting them off][tune:level]Thousands of ^pits. [act:same rhythm, landing it][tune:fall]Thousands of stone ^hammers."
+  ],
+  [
+   "[d:build][act:curious, turning to the claim][tune:rise]And the ^billion pounds? [act:matter of fact]It comes from a {1961|nineteen sixty-one} ^book. [act:walking through the sum, deliberate][tune:fall]Pit ^size, times ore ^grade, times ^number@count of pits. [p:0.93][act:explaining, clear]Ore grade means how much of the rock is actually ^copper. [act:explaining, a picture]Like guessing the sweets in a shop: the size of a jar, times how full it is, times the number@count of ^jars.",
+   "[d:reveal][sfx:hit][gap:0.4][act:quiet, pointed][tune:fall]^None of the three was ever ^*measured*. [p:0.93][act:explaining, plain]If each guess is twice too big, the answer is ^eight times too big. [act:dry][tune:fall]Guesses multiply their ^errors."
+  ],
+  [
+   "[d:build][act:solid, reassuring]What we ^can count is solid. [act:solid, reassuring]About twenty ^thousand copper objects@noun, in Wisconsin ^alone. [act:fascinated, explaining]And lake ^mud that records@verb! mining in ^pulses, over thousands of years. [p:0.93][act:explaining, a picture]Mud settles on a lake floor year after year, like the pages of a ^diary. [act:explaining, clear]Mining dust carries lead@metal, so the pages with extra lead@metal mark the busy ^times."
+  ],
+  [
+   "[d:reveal][act:the surprise, gentle][tune:fall]Then, about three thousand years ago, they mostly went ^*back* to stone. [p:0.93][act:honest, open][tune:fall]Why, is still ^debated.",
+   "[d:wonder][sfx:shimmer][act:wonder, slowly][tune:level]A ^metal age... [act:quiet, thoughtful][tune:fall]that people ^*chose* to leave, after some six and a half thousand ^years."
+  ],
+  [
+   "[d:verdict][p:0.95][act:weighing it, calm authority][tune:rise]Ancient copper ^mining? [act:firm, plain][tune:fall]^Established. [act:the next question, even][tune:rise]A vanished ^billion pounds? [act:the verdict, level-headed][tune:fall]^Never measured. [act:plain, even][tune:fall]*Awaiting ^evidence*.",
+   "[d:tension][p:0.93][act:encouraging, practical][tune:level]Count the pits ^properly, measure a few, test the ^rock... [act:the last word, quiet and certain][tune:fall]and we'll ^*know*."
+  ]
+ ]
+}

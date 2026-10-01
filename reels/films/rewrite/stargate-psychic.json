@@ -1,0 +1,28 @@
+{
+ "beats": [
+  [
+   "[d:intrigue][sfx:boom][act:setting it up, straight face]For ^twenty-three years, the United States government paid people to ^spy... [act:the payoff, wide-eyed][tune:risefall]with their ^minds.",
+   "[d:tension][act:matter of fact]In {2017|twenty seventeen}, the CIA, America's foreign intelligence agency, put its files ^online. [act:curious, leaning in][tune:rise]Did it ^work?"
+  ],
+  [
+   "[d:calm][act:storytelling, easy]It began in {1972|nineteen seventy-two}, at a research institute in ^California, with ^CIA money. [go:3|0][act:moving on, brisk]Then, from {1977|nineteen seventy-seven}, the army ran its own unit of ^psychic spies, at Fort Meade, a base in Maryland. [act:dry, a hint of amusement]It went by a string of ^code names.",
+   "[d:build][act:relishing the names][tune:level]Gondola Wish. [act:same rhythm][tune:level]Grill Flame. [act:keeping the beat][tune:level]Center Lane. [act:one more][tune:level]Sun Streak. [sfx:shimmer][act:the famous one, a flourish][tune:highfall]^Star Gate."
+  ],
+  [
+   "[d:build][act:introducing the term, plainly]The method had a name: ^remote viewing. [p:0.93][act:explaining, a hint of wonder]A viewer is given a far-away target they ^can't see, often just a number@count or map coordinates. [act:explaining, step by step]Then they describe it, and ^sketch whatever comes to mind.",
+   "[d:build][act:telling the legend, animated]The viewers describe real hits: a giant ^crane at a secret site in the Soviet Union, America's Cold War rival, sketched from ^half a world away. [act:building, impressed]In {1974|nineteen seventy-four}, the lab even published its results in Nature, a leading ^science journal. [gap:0.4][p:0.93][act:the fair question, clear]But one striking hit could be ^luck. [act:the everyday picture]Guess heads or tails, and you'll be right about ^half the time, no powers needed. [act:the key idea][tune:fall]So the real test is ^counting: do the viewers beat ^chance, and by how much?"
+  ],
+  [
+   "[d:build][act:even-handed, setting up both]The two scientists asked to review the lab work ^split. [act:one side, fair][tune:fallrise]Jessica Utts, a ^statistician, saw a ^real effect. [act:the other side, crisp][tune:fall]Ray Hyman, a ^psychologist, said: ^premature. [act:explaining, even]Too early to call it ^real.",
+   "[d:aside][act:quieter, a telling detail]Back in {1978|nineteen seventy-eight}, two critics, also writing in Nature, had found ^clues to the targets left in the ^transcripts, the written records@noun of the sessions. [gap:0.4][p:0.9][act:the everyday picture, wry]Like a quiz with the answers ^pencilled in the margin: a high score suddenly means far ^less."
+  ],
+  [
+   "[d:reveal][act:serious now, lean in]In {1995|nineteen ninety-five}, the CIA ordered an independent ^evaluation. [act:explaining, plain]It looked at the lab work, and at the real ^spying: had it ever been useful? [act:dry, quoting it]Its word for the spying: ^vague and ^ambiguous.",
+   "[d:build][sfx:hit][act:plain, damning]^No intelligence operation had been guided by it. [act:dry, a small shake of the head]The unit was down to ^three people. [go:6|0][act:final, closing the file]After twenty-three years and about ^twenty million dollars, less than a million a year, it was ^shut down that same year."
+  ],
+  [
+   "[d:verdict][p:0.95][act:weighing it, calm][tune:rise]^Reliable psychic intelligence? [act:the verdict, firm][tune:fall]*Ruled ^out*, by the programme's ^own evaluation. [act:fair, the open part][tune:rise]A real effect in the ^lab? [act:honest, even][tune:fallrise]^Still argued over.",
+   "[d:tension][p:0.93][act:the open door, sincere]A lab result with ^no possible clues, repeated by independent teams, would reopen the case. [gap:0.4][act:a gentle joke, deadpan][tune:fall]The psychic spies never ^saw that report coming."
+  ]
+ ]
+}

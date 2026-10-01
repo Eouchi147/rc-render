@@ -1,0 +1,27 @@
+{
+ "beats": [
+  [
+   "[d:intrigue][sfx:boom][act:wonder, setting the scene]On a high plateau in ^Laos, in Southeast Asia, stand more than two ^thousand stone jars. [act:painting the picture]Hollowed out of solid rock, some ^taller than a person, scattered over the hills like cups left out after a ^feast.",
+   "[d:tension][act:genuinely curious][tune:fall]What were they ^for? [act:a storyteller, fond]The local legend says ^rice wine. [act:the delightful detail, smiling]For a ^giant king."
+  ],
+  [
+   "[d:calm][act:orienting, calm]This is the Xieng ^Khouang plateau. [p:0.93][act:a telling clue, interested]The sandstone of at least one jar has been traced to a quarry eight ^kilometres away, a couple of hours' walk. [act:the picture, wonder]There, ^half-finished jars still lie in the ^rock, as if the carvers had just put down their tools."
+  ],
+  [
+   "[d:build][act:respectful, naming the finds][tune:fall]In the {1930s|nineteen thirties}, the archaeologist Madeleine Colani dug around the jars, and found burnt human ^bone, ^teeth, and glass ^beads. [act:quiet, respectful][tune:fall]Signs of the ^dead.",
+   "[d:build][sfx:shimmer][act:with care, gently]And in {2024|twenty twenty-four}, a team looked inside one jar, and found the bones of at least ^thirty-seven people, from ^toddlers to adults."
+  ],
+  [
+   "[d:build][act:the puzzle opens, leaning in][tune:fall]But look at the ^dates. [act:precise, the first date][tune:level]The burials: about AD {900|nine hundred} to {1200|twelve hundred}. [p:0.93][act:explaining, simple]That date comes from the bones themselves: they hold carbon that fades at a steady pace after death, like a candle burning ^down. [p:0.93][act:explaining, the method]Now the earth ^under some jars, dated by when its grains last saw ^daylight. [act:the contrast, slower][tune:fall]It reads up to about twelve hundred ^BCE.",
+   "[d:build][sfx:hit][act:letting it land, firm][tune:fall]That's two ^thousand years apart. [act:quieter, one more puzzle][tune:fall]And most jars are ^empty. [act:posing it, curious][tune:rise]If they were made for burials, why would most hold ^nothing?"
+  ],
+  [
+   "[d:reveal][act:a thoughtful idea, gentle]Maybe ^both are true: monuments raised for one purpose, then ^reused for the dead, the way later Europeans reused far older Stone Age ^tombs.",
+   "[d:build][act:asking it plainly][tune:fall]So why so ^little digging? [gap:0.4][act:blunt, sober][tune:highfall]^Bombs. [act:sober, matter of fact]In the {1960s|nineteen sixties} and {70s|seventies}, cluster bombs fell across Laos. [p:0.93][act:sober, precise]An estimated eighty ^million small bomblets never exploded. [act:sober, quiet]The plateau is ^still full of them."
+  ],
+  [
+   "[d:verdict][p:0.95][act:weighing it, calm authority][tune:rise]Jars for the ^dead? [act:the verdict, with a caveat][tune:fall]^*Strong evidence*, in their ^later life. [act:open-handed, curious][tune:fall]What they were ^first made for? [act:honest, simple][tune:fall]Still ^open.",
+   "[d:tension][p:0.93][act:hopeful, quiet conviction]Clear the ^bombs, and the plateau will ^talk."
+  ]
+ ]
+}

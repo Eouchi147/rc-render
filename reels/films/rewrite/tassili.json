@@ -1,0 +1,27 @@
+{
+ "beats": [
+  [
+   "[d:intrigue][sfx:boom][act:playful, intrigued]In the {1950s|nineteen fifties}, an explorer stood before a painted giant in the Sahara, up to five metres ^tall, and nicknamed it the great Martian ^god.",
+   "[d:tension][act:dry, a small smile][tune:fall]It was a ^joke. [act:dry][tune:fall]Some people took him ^literally."
+  ],
+  [
+   "[d:calm][act:plain, orienting]The place is Tassili ^n'Ajjer, a sandstone plateau in south-east ^Algeria, riddled with rock ^shelters. [act:warm, vivid]For thousands of years, people painted on their ^walls.",
+   "[d:build][go:2|0][act:quietly amazed]It holds more than fifteen thousand ancient ^images, painted and ^engraved. [p:0.93][act:playful, doing the sum]Look at one a minute@time, eight hours a day, and you'd need about a ^month to see them all."
+  ],
+  [
+   "[d:build][act:presenting it, fair]One early style is called the Round ^Heads. [act:presenting it, vivid]Their heads are smooth ^circles: no eyes, no nose, no ^mouth. [act:the challenger's case, fair]By {1968|nineteen sixty-eight}, writers about ancient astronauts saw space ^helmets. [act:plain, fair]And to be fair, they really are unlike the art that came ^later."
+  ],
+  [
+   "[d:build][act:grave, measured]But the real damage came from the ^copyists. [p:0.93][act:precise]To make the colours stand out for their copies, the team wetted the paintings and sponged ^them. [act:grave][tune:fall]The colours brightened for a ^moment, and then faded ^faster.",
+   "[d:build][act:the sting, quiet][tune:fall]And some of the published pictures were later said to be ^fakes."
+  ],
+  [
+   "[d:reveal][act:fair, clear]So what are the Round ^Heads? [p:0.93][act:explaining, the method]Paint is hard to date directly, so archaeologists date them ^indirectly: from the layers around them, and from which images were painted over which, like posters pasted over older ^posters. [p:0.9][act:precise]The answer: about nine and a half to seven and a half thousand years ^ago. [act:thoughtful]The blank heads look like a ^convention, a way of painting: masks, body paint, or spirit ^beings.",
+   "[d:build][act:respectful, even]And Tuareg tradition credits some of the paintings to ^spirits. [act:respectful, warm][tune:fall]A living ^belief."
+  ],
+  [
+   "[d:verdict][p:0.95][act:weighing it, calm][tune:rise]Astronauts on the ^rocks? [act:the verdict, firm][tune:fall]*Ruled ^out*. [act:fair, explaining]A smooth head is a painting ^style, not a ^helmet. [act:warm, the other half]And the art is extraordinary on its ^own.",
+   "[d:tension][p:0.93][act:the last word, quiet][tune:fall]It deserves better ^copies."
+  ]
+ ]
+}

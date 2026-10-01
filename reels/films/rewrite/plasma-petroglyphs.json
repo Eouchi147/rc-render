@@ -1,0 +1,27 @@
+{
+ "beats": [
+  [
+   "[d:intrigue][sfx:boom][act:conjuring images, curious][tune:level]Stick figures with ^ladders for bodies. [act:the next image, same rhythm][tune:level]Stacks of ^rings. [act:widening out, wonder]Carved on rocks all over the ^world.",
+   "[d:tension][act:the hook, intrigued]A ^physicist from Los Alamos, the American research laboratory, saw his own ^lab experiments in them."
+  ],
+  [
+   "[d:calm][act:explaining, clear and respectful]In {2003|two thousand three}, the plasma physicist Anthony ^Peratt published a paper in a plasma science journal. [p:0.93][act:explaining, patient]Plasma is gas so hot, or so electrified, that its atoms come ^apart: lightning is plasma, and so is the ^aurora, the northern and southern lights. [act:explaining, vivid]Send a huge current through plasma, and the current's own magnetic field squeezes it, like a fist around a garden ^hose. [p:0.9][act:the key point, slow]It pinches into ^rings, and it ^twists. [p:0.93][act:his claim, respectful]Peratt's point: the carved shapes ^match those forms.",
+   "[d:build][act:painting it, building wonder]His idea: an aurora far ^stronger than any today, glowing over the whole sky, drawn by people ^everywhere."
+  ],
+  [
+   "[d:build][sfx:shimmer][act:genuinely impressed, warm]And the Sun really ^can surprise us. [p:0.93][act:curious, the method]How do we ^know? [act:explaining, clear]A tree adds one ring a year, like a ^barcode of years. [act:explaining, patient]A huge solar storm makes extra radioactive carbon high in the air, and trees lock it into that year's ^ring. [act:the evidence, precise]Tree rings record@verb ^nine such extreme storms in the last ^fifteen thousand years, including the years {774|seven seventy-four} and {993|nine ninety-three}: on average, about one every seventeen hundred ^years."
+  ],
+  [
+   "[d:build][act:the problem, fair and plain][tune:fall]But stick figures, circles and ladders are the ^simplest shapes ^anyone can carve. [p:0.93][act:an everyday picture]Give children anywhere a stick and some sand, and you'll see them ^too. [act:matter of fact, lighter]So some resemblance is ^expected by ^chance.",
+   "[d:build][act:steady, building the case]And the carvings spread across ^thousands of years. [act:the detail that matters, precise]At one famous site, Petroglyph National Monument in New Mexico, there are about twenty-four thousand carvings, and ^most were made after {1300|^thirteen hundred} CE: only about seven ^centuries ago."
+  ],
+  [
+   "[d:reveal][sfx:hit][act:leaning in, this matters]To its credit, the theory makes a ^testable prediction. [p:0.93][act:explaining, clear]If one great sky-show inspired the carvings, they should cluster in a few ^short windows of time, like party photos on everyone's phone, all with the same ^date. [act:fair, explaining]Dating a carving directly is ^hard: the rock is always far older than the picture cut into it. [gap:0.45][act:the sting, quiet][tune:fall]^Nobody has tested it with ^direct dates.",
+   "[d:aside][go:5|0][act:an aside, dry and plain]And the ^newer claim, that ancient builders used@verb plasma as a technology, has no evidence at ^all."
+  ],
+  [
+   "[d:verdict][p:0.95][act:weighing it, calm authority][tune:rise]Rock art recording a ^plasma sky? [act:the verdict, level-headed][tune:fall]*Awaiting ^evidence*. [act:fair-minded, a touch rueful]The idea has been ^ignored more than ^tested.",
+   "[d:tension][p:0.93][act:sincere, principled]A bold theory deserves a ^fair test. [act:the last word, quiet][tune:fall]This one is ^still waiting for it."
+  ]
+ ]
+}

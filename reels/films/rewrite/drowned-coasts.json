@@ -1,0 +1,26 @@
+{
+"beats": [
+[
+"[d:intrigue][sfx:boom][act:wonder, drawing them in][tune:level]There's a ^continent's worth of land where Ice Age people ^lived, hunted and made their camps... [act:intimate, a little smile][tune:fall]and you've ^never seen it.",
+"[d:tension][act:the simple reveal, soft][tune:fall]Because it's ^underwater."
+],
+[
+"[d:calm][act:storytelling, spacious][tune:fall]About twenty thousand years ago, at the ^coldest point of the last Ice Age, so much water was locked up in giant ice sheets that the sea stood a hundred and twenty metres ^lower. [p:0.93][act:explaining, a sense of scale]That's about the height of a forty-storey ^tower.",
+"[d:build][go:1|0][act:tracing the map, wonder][tune:level]^Britain was joined to ^Europe. [act:moving along][tune:level]^Asia to ^America. [act:one more][tune:level]^Java to ^Borneo. [gap:0.45][act:the turn, lower and slower][tune:fall]Then the ice ^melted."
+],
+[
+"[d:build][sfx:shimmer][act:ominous, low][tune:fall]And ^not gently. [act:vivid, gathering pace][tune:fall]In ^one pulse, the sea climbed fourteen to eighteen metres in three hundred and ^fifty years. [p:0.93][act:curious, the method]How do we ^know? [act:explaining, clear]Corals grow just below the ^waves. [act:explaining, clear]Drill up old ones from deep water, date them, and they mark where the surface ^was. [p:0.93][act:explaining, a simple picture]That pulse works out at four or five centimetres a year: a thumb's length, every single ^year. [d:aside][act:quiet, human, picturing it][tune:fall]A few ^generations to watch the beach walk ^inland."
+],
+[
+"[d:wonder][act:tender wonder][tune:fall]And ^people lived there. [act:guiding the eye, unhurried][tune:fall]Off Israel lies Atlit Yam: a ^village about eight and a half thousand years old, with seven standing stones around a spring, now ten metres ^down.",
+"[d:build][go:3|0][act:moving on, vivid][tune:level]In the Baltic Sea, nearly a ^kilometre of stones set in a line, twenty-one metres ^down: probably a Stone Age wall for ^hunting. [go:5|0][act:the oldest one, awed][tune:fall]And off Java, two fossil skull pieces of Homo ^erectus, an earlier kind of human, dredged from ^thirty-two metres."
+],
+[
+"[d:reveal][act:candid, leaning in][tune:fall]Here's the ^honest part. [act:plain, careful][tune:fall]Every drowned site found so far matches the tools and ways of life already known ^inland. [sfx:hit][act:thoughtful, painting it][tune:level]So the missing chapter is probably ^big, ^busy and ^coastal: people living by the sea, as we still love to ^do... [act:gentle, firm][tune:fall]not ^high-tech."
+],
+[
+"[d:verdict][p:0.95][act:weighing it, calm authority][tune:rise]^Important Ice Age sites on the sea floor? [act:the verdict, warm and sure][tune:fall]^*Plausible*. [act:quiet, a call to adventure][tune:fall]And almost ^none of it has been searched. [p:0.93][act:explaining, a simple picture]Divers see only a small patch at a time, through murky water, often under thick ^mud.",
+"[d:tension][p:0.93][act:the last word, a smile in it][tune:fall]The best-kept archive on Earth is ^wet."
+]
+]
+}

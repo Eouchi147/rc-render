@@ -1,0 +1,28 @@
+{
+ "beats": [
+  [
+   "[d:intrigue][sfx:boom][act:setting the scene, quiet awe]In one temple wall in Lebanon, ^three blocks of stone lie side by ^side. [p:0.93][act:counting off the size, slow][tune:level]Each one is ^nineteen metres long: almost two ^buses, end to end. [p:0.9][act:the weight, let it land][tune:fall]And each weighs about eight ^hundred tonnes, as much as five hundred ^cars.",
+   "[d:tension][act:lower, leaning in][tune:level]And in the ^quarry down the road... [act:the reveal, slow and quiet][tune:fall]lies one ^twice as heavy. [act:the hook, curious][tune:rise]Who could ^move that?"
+  ],
+  [
+   "[d:calm][act:plain, orienting us]This is ^Baalbek, in Lebanon's ^Beqaa valley. [act:easy storytelling]About two thousand years ago, the Romans called it ^Heliopolis, and built a vast temple to ^Jupiter right here. [go:2|0][act:wonder creeping in]A ten-minute walk away, three even ^bigger blocks still lie in the ^quarry.",
+   "[d:build][go:3|0][sfx:shimmer][act:savouring the number]The biggest was found in {2014|twenty fourteen}, still joined to the ^bedrock. [p:0.9][act:the weight, slowly]About sixteen hundred and fifty ^tonnes. [p:0.93][act:a picture, delighted]As heavy as ^two of the wall's giants."
+  ],
+  [
+   "[d:build][act:fair-minded, taking it seriously][tune:rise]Graham Hancock asks a ^fair question: are these giant lower rows of stone ^older than the Roman temple on top of them?",
+   "[d:build][act:laying out his reasons, even]His reasons are ^real. [act:the first reason][tune:level]These blocks are unlike anything ^else the Romans built. [act:a telling detail, pointed]And ^no Roman writer ever ^boasts about moving them."
+  ],
+  [
+   "[d:build][act:confident, matter of fact]The German Archaeological Institute has dug here for ^decades. [p:0.93][act:explaining, a simple picture]A dig reads like a layer cake: what lies ^underneath was usually there ^first. [act:uncovering it, slower][tune:level]And under the podium, the temple's raised base... [act:gently deflating, dry]an ^older, ^smaller terrace, built of ^ordinary blocks.",
+   "[d:build][act:explaining, clear and steady]The giant podium ^wraps around it, like a new coat over an old one: so it came ^later. [act:the key point, measured]It was begun by the ^Romans, and ^never finished. [d:aside][act:a quick aside, lighter]And the giants left in the quarry? [act:the neat fit, pleased]Cut to the ^same length, most likely for the same ^plan."
+  ],
+  [
+   "[d:reveal][act:turning the page, curious][tune:rise]And ^moving them? [act:brisk, glad to explain]In {1977|nineteen seventy-seven}, Jean-Pierre Adam worked it out with ^Roman kit: a timber track, ^capstans and ^pulleys. [p:0.93][act:explaining, a simple picture]A capstan is an upright wooden ^drum: people push its bars, walk in a circle, and the rope winds@coil ^in. [sfx:hit][act:counting them off, deliberate][tune:level]^Six capstans. [act:adding up, same pace][tune:level]A hundred and ^forty-four people. [act:the payoff, firm][tune:fall]^One eight-hundred-tonne block.",
+   "[d:aside][act:a fair caveat, lower][tune:rise]And the ^silence? [act:plainly][tune:fall]It tells us ^little. [act:plainly, a little rueful]Most of their building records@noun are simply ^lost. [p:0.93][act:explaining, a picture]An empty shelf can't tell you what was never ^written."
+  ],
+  [
+   "[d:verdict][p:0.95][act:weighing it, calm authority][tune:rise]An ^older giant-stone civilisation at Baalbek? [act:the verdict, level-headed][tune:fall]*Awaiting ^evidence*. [act:firm and even]Every clue in the ^ground points to ^Roman engineers.",
+   "[d:tension][p:0.93][act:explaining, clear]The key is a sealed layer: ground nobody has touched since the stones were ^laid. [act:explaining, the logic]Find Roman pottery trapped ^underneath, and the wall can't be ^older than Rome. [act:hopeful, quietly precise]^One sealed layer under those three giants would ^close@verb the file."
+  ]
+ ]
+}

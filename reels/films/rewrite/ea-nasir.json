@@ -1,0 +1,26 @@
+{
+ "beats": [
+  [
+   "[d:intrigue][sfx:boom][act:playful, intrigued]The world's oldest known customer ^complaint is written on a little clay ^tablet, almost four thousand years old. [act:amused][tune:fall]And it's about bad ^copper.",
+   "[d:tension][act:the twist, leaning in][tune:fall]Copper that probably came from ^Oman, at the mouth of the ^Gulf."
+  ],
+  [
+   "[d:calm][act:storytelling, amused]Around {1750|seventeen fifty} BCE, a man named ^Nanni wrote to a trader called ^Ea-nasir. [p:0.93][act:explaining, a simple picture]The tablet is under twelve centimetres long: a little smaller than a ^phone. [act:explaining, plain]Copper was the great metal of the age, for tools and ^weapons. [act:reporting, lightly indignant]This copper was ^poor, Nanni said, not the good metal he'd been promised, and he wanted his money ^back.",
+   "[d:aside][act:dry, deadpan][tune:fall]Nanni was not ^happy."
+  ],
+  [
+   "[d:build][act:building, clear]Ea-nasir sailed down the Gulf to ^Dilmun, today's Bahrain, more than six hundred kilometres away by sea, to buy his copper. [act:the connection]And Dilmun got it from a mountain land the texts call ^Magan.",
+   "[d:build][act:curious, the method][tune:rise]But how do we know where copper was ^mined? [act:explaining, clear]Every ore carries its own mix of lead@metal isotopes, a chemical ^fingerprint that survives the smelting. [act:precise, confident]And in Bronze Age copper, that fingerprint points to the mountains of ^Oman."
+  ],
+  [
+   "[d:build][act:vivid, impressed]Magan's people built round stone ^towers, about twenty metres across, nearly as wide as a swimming pool is long. [act:precise]Some have a ^well at the centre. [act:plain]Kings of Akkad boasted of ships from ^Magan. [act:plain, a little grave][tune:fall]One of those kings even went to war with ^it."
+  ],
+  [
+   "[d:reveal][act:fair, a caveat]But the tablet never says where ^Ea-nasir's copper came from. [act:explaining, a simple picture]A complaint letter is not a shipping ^label. [act:honest]Oman is the best ^bet, not a certainty. [act:precise][tune:rise]And what were the towers ^for? [act:counting them off][tune:rise]Monuments, forts, or homes of the ^powerful? [act:plain][tune:fall]That's still ^argued."
+  ],
+  [
+   "[d:verdict][p:0.95][act:weighing it, calm][tune:rise]Bronze Age copper from ^Oman? [act:the verdict, measured][tune:fall]*Strong ^evidence*. [act:fair]The isotopes and the old texts point the same ^way. [act:the last word, amused]As for Nanni's ^refund@noun.",
+   "[d:tension][p:0.93][act:dry, deadpan][tune:fall]Still ^pending, nearly four thousand years ^later."
+  ]
+ ]
+}

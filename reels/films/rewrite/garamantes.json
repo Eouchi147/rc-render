@@ -1,0 +1,25 @@
+{
+ "beats": [
+  [
+   "[d:intrigue][sfx:boom][act:intrigued, measured]Rome called them ^barbarians. [act:the reveal, leaning in]Yet they built towns, pyramids, and hundreds of kilometres of underground ^tunnels, dug by ^hand.",
+   "[d:tension][act:the twist][tune:fall]In the middle of the ^Sahara."
+  ],
+  [
+   "[d:calm][act:plain, orienting]They are the ^Garamantes, of Fezzan, in south-west ^Libya. [p:0.93][act:steady]Their kingdom lasted from about a thousand BCE to seven hundred ^CE: some seventeen ^centuries. [act:amused, storytelling]The Greek historian ^Herodotus describes their ^chariots. [act:amused, the punchline]And cattle that grazed walking ^backwards, because their horns curved so far ^forward."
+  ],
+  [
+   "[d:build][act:building, precise]Their secret was ^water. [act:vivid]They dug underground canals, called ^foggaras, to tap ancient ^groundwater. [p:0.93][act:explaining, clear]Each canal slopes gently down, under the ground, from the water out to the fields and palm ^groves, so the water flows on its own, with no ^pumps. [act:explaining, plain]Along the way, shafts from the surface let the diggers in, and let air ^down. [p:0.9][act:vivid, precise]On average, those shafts are about nine metres ^deep: as deep as a three-storey house@noun is ^tall."
+  ],
+  [
+   "[d:build][act:impressed]With that water came oasis ^towns, the first in the ^Sahara. [p:0.93][act:vivid, precise]And small pyramid ^tombs, built of mud brick, three to four and a half metres ^tall. [act:plain]And trade across the desert@noun kept them ^rich, as goods passed through their oases from one side of the Sahara to the ^other."
+  ],
+  [
+   "[d:reveal][act:grave, measured]But that groundwater fell as rain thousands of years earlier, in wetter ^times. [p:0.93][act:explaining, a simple picture]It's fossil water: like a savings account that gets no new ^deposits. [act:grave][tune:fall]What you draw out doesn't come ^back. [act:precise]As the water table sank, the canals ran dry, one by ^one.",
+   "[d:build][act:fair, careful]Other things played a part ^too. [act:fair, even][tune:level]Shifting ^trade. [act:fair, careful][tune:fall]And fewer workers to dig and clean the canals: workers who were perhaps ^enslaved."
+  ],
+  [
+   "[d:verdict][p:0.95][act:weighing it, even][tune:rise]A desert@noun kingdom that drank its fossil ^water? [act:the verdict, measured][tune:fall]^*Plausible*. [act:fair]A leading explanation, but not the only ^one.",
+   "[d:tension][p:0.93][act:the last word, quiet][tune:fall]A warning, perhaps, written in ^tunnels."
+  ]
+ ]
+}

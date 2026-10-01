@@ -1,0 +1,27 @@
+{
+ "beats": [
+  [
+   "[d:intrigue][sfx:boom][act:setting the scene, hushed]About a ^million years ago, someone crossed the ^sea, to islands between Asia and ^Australia.",
+   "[d:tension][act:the sting, quiet and certain][tune:fall]And it ^*wasn't* us. [p:0.93][act:explaining, gentle]Our own species didn't even exist ^yet. [act:intrigued][tune:rise]So who was ^sailing?"
+  ],
+  [
+   "[d:calm][act:naming them, unhurried][tune:level]Flores. [act:same even rhythm][tune:level]Sulawesi. [act:closing the list][tune:fall]Luzon. [act:explaining, clear and even]Islands that were ^never joined to the mainland, even in the Ice ^Age. [p:0.93][act:explaining, a simple picture]Back then, so much water was locked up in giant ice sheets that the sea fell by a hundred and ^twenty metres: about the height of a thirty-storey ^building. [act:the point, clear]New plains of dry land ^appeared. [act:the point, firm][tune:fall]But these islands stayed ^islands.",
+   "[d:build][go:2|2][act:the puzzle, leaning in]Yet stone ^tools sit on ^all three. [act:weighty, slower][tune:fall]On Sulawesi, more than a ^*million* years old. [act:continuing, even][tune:level]On Flores, about the ^same. [act:closing it][tune:fall]On Luzon, some seven hundred thousand ^years."
+  ],
+  [
+   "[d:build][act:measured, laying out the facts]Here's the ^problem. [p:0.93][act:explaining, a picture]Between Bali and Lombok, the channel is over two hundred and fifty metres ^deep: more than twice the hundred and twenty metres the sea ^fell. [act:the consequence, clear]So even in the coldest years, water always ^remained. [act:firm, underlining it][tune:fall]Flores was ^always at least nineteen kilometres of open ^water away. [act:a picture, lighter]Too far to ^wade, and a very long ^swim."
+  ],
+  [
+   "[d:build][act:fair-minded, the mainstream view][tune:rise]So how did they get ^there? [act:fair-minded, the mainstream view]Many scientists think storms or tsunamis swept them out to ^sea, on floating ^mats of vegetation: tangles of uprooted trees and ^branches.",
+   "[d:list][sfx:shimmer][act:lighter, a touch of fun]That's how ^rats, giant ^tortoises and dwarf ^elephants reached these islands. [p:0.93][act:explaining, fair]Animals can't build ^boats. [act:the argument at its strongest][tune:fall]If they could drift across, so could ^people."
+  ],
+  [
+   "[d:reveal][act:leaning in, the turn]But it happened ^again. [act:more pointed][tune:fall]And ^again. [act:laying it out, slower]^Three islands, hundreds of kilometres ^apart. [sfx:hit][act:dry, one eyebrow up][tune:risefall]That's a lot@amount of ^*luck*. [p:0.93][act:explaining, a simple picture]One lucky drift is a ^fluke. [act:explaining][tune:fall]Three start to look like a ^habit.",
+   "[d:list][act:amused admiration, storytelling]One researcher built bamboo rafts with ^stone tools, just to see if it could be ^done. [p:0.93][act:explaining, a picture]Cutting the canes, lashing them together, launching them, with only the kind of tools those ancient people ^had."
+  ],
+  [
+   "[d:verdict][p:0.95][act:calm authority][tune:fall]The crossings are ^real. [act:weighing both sides, even][tune:fall]^Planned voyages, or lucky ^castaways? [act:honest, level-headed][tune:fall]An ^*open* question. [p:0.93][act:practical, clear]A raft of wood or bamboo rots ^away, so the best clues we may ever have are the stone ^tools.",
+   "[d:tension][p:0.93][act:wonder, quiet, the last word][tune:fall]The first sailors may have been people we'd barely ^*recognise*."
+  ]
+ ]
+}

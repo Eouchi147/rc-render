@@ -1,0 +1,27 @@
+{
+ "beats": [
+  [
+   "[d:intrigue][sfx:boom][act:intrigued, setting the scene]On the island of Malta, pairs of ^grooves are cut into bare ^rock. [act:vivid, building]They cross each other like ^railway lines. [act:stranger still][tune:level]Some run off ^cliffs. [act:the eerie one, slower][tune:fall]Some run straight into the ^sea.",
+   "[d:tension][act:quiet, the hook][tune:fall]And ^nobody can date them."
+  ],
+  [
+   "[d:calm][act:plain, informative]Malta, in the middle of the Mediterranean, has more of these ruts than ^anywhere on Earth: about thirty-five kilometres of them, in ^pieces. [act:a picture]Laid end to end, almost the length of a ^marathon. [go:3|0][act:a curious detail, interested]And the gap between the two grooves is ^surprisingly standard: about one metre ^forty. [act:a picture, light]A little less than a grown-up is ^tall."
+  ],
+  [
+   "[d:build][act:reporting the claim, even]A geologist, Alexander Koltypin, dated similar tracks in ^Turkey to twelve to fourteen ^million years ago. [d:aside][act:an aside, eyebrows raised][tune:level]That's before ^humans. [act:going further, dry][tune:fall]Before any ^kind of human.",
+   "[d:build][go:5|0][act:the second claim, fair]And Malta's ruts that slide into the sea look, to ^some, like roads to a lost ^Ice Age coastline. [p:0.93][act:explaining, simple]In the Ice Age, so much water was locked up in ice that the sea stood far ^lower."
+  ],
+  [
+   "[d:build][act:explaining, clear and patient]Geomorphologists, the scientists of landscapes, worked out ^how: two-wheeled ^carts, on thin soil, in the ^wet season. [act:simple, the key fact][tune:fall]Wet limestone ^softens.",
+   "[d:build][sfx:shimmer][act:showing the process, rhythmic]Every pass cuts a little ^deeper, like a sledge in ^snow, until the axle ^scrapes the rock. [act:the neat solution, pleased]Then the drivers move ^over, and start a ^new line. [act:the payoff, a smile]That's why the tracks ^cross and ^tangle."
+  ],
+  [
+   "[d:reveal][act:leaning in, the turn]And the timeline ^boxes it in. [act:laying down the limits][tune:level]No ^people on Malta before about eight and a half ^thousand years ago. [act:the second limit, firm][tune:fall]No ^wheels ^anywhere before about {3500|thirty-five hundred} BCE. [act:the logic, plain][tune:fall]No carts, no ^ruts.",
+   "[d:build][sfx:hit][act:the flaw, pointed and calm][tune:fall]Koltypin dated the ^rock, not the ^groove. [p:0.93][act:explaining, a simple picture]That's like dating a road by the age of the hill it ^climbs. [go:5|0][act:the second flaw, steady][tune:level]And the ruts under the sea go down only a ^metre or two. [act:the clincher, quiet][tune:fall]Ice Age shores lie ^tens of metres deeper."
+  ],
+  [
+   "[d:verdict][p:0.95][act:weighing it, calm authority][tune:rise]^Ice Age ruts? [act:the verdict, firm][tune:fall]*Ruled ^out*. [act:naming the candidates][tune:fall]Stone Age temple builders, ^Bronze Age farmers, or ^Romans? [act:honest, open][tune:fall]Still ^open.",
+   "[d:tension][p:0.93][act:the last word, calm and wise][tune:fall]The age of the ^rock is not the age of the ^road."
+  ]
+ ]
+}

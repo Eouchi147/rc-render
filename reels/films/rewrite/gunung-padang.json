@@ -1,0 +1,27 @@
+{
+ "beats": [
+  [
+   "[d:intrigue][sfx:boom][act:setting it up, a little awed]In {2023|twenty twenty-three}, a ^science journal published an astonishing claim: a pyramid hidden inside a hill on ^Java, in Indonesia, begun twenty-seven ^thousand years ago. [p:0.93][act:a sense of scale]That's about a thousand human ^generations back.",
+   "[d:tension][act:dropping the voice][tune:level]A few ^months later... [act:dry, a small shrug][tune:fall]the journal took it ^back. [act:genuinely curious, inviting][tune:fall]What ^happened?"
+  ],
+  [
+   "[d:calm][act:warm, generous]First, the site is ^real, and beautiful. [act:painting the picture]On top of a hill sit five stone ^terraces, like giant steps, reached by about three hundred and ^seventy stairs. [go:1|0][act:lighter, placing it]It stands in the green hills of ^West Java."
+  ],
+  [
+   "[d:build][act:fair, presenting his work]A geologist, Danny Hilman Natawidjaja, studied the hill with ^radar and ^drills. [p:0.93][act:explaining, simple]Radar sends pulses into the ground and listens for the echoes, a bit like a ^bat. [act:explaining, simple]A drill pulls up a long core of rock and soil, like a straw pushed through a layer ^cake. [act:his reading, fair]Inside, he saw ^building phases, and ^chambers. [act:teasing it out][tune:rise]The ^oldest? [act:the big number, let it land][tune:fall]Over twenty ^thousand years.",
+   "[d:aside][act:a light aside, quicker]The writer Graham Hancock ^opened his Netflix series with it."
+  ],
+  [
+   "[d:build][act:turning to the evidence, crisp]Now look at the ^stones. [p:0.93][act:explaining, a touch of wonder]They're columnar andesite: lava that cools and ^cracks into long, neat ^prisms, all by ^itself, the way mud dries into tiles in the ^sun. [go:3|0][act:the telling detail, pointed]And the ancient dates came from ^soil, packed between those rocks.",
+   "[d:build][sfx:hit][act:counting them off, firm][tune:level]No ^tools. [act:same rhythm][tune:level]No ^hearths, the fire pits people leave behind. [act:the last, firm][tune:fall]No ^bones, in any dated layer. [p:0.93][act:explaining, the key idea]Dating soil tells you the age of the ^soil, not when anyone ^built anything."
+  ],
+  [
+   "[d:reveal][act:the explanation, measured]That's ^why the paper was withdrawn: the dated soil wasn't tied to anything clearly made by ^people. [p:0.93][act:explaining, the rule]A date only counts if it's tied to the thing you want to date: a date for soil is not a date for a ^pyramid. [d:build][act:fair to them, even]The team disagrees, and calls the retraction ^unjust.",
+   "[d:build][act:sincere, even-handed]And here's the ^fair part: nobody has yet dug ^deep into the hill. [act:hopeful, fresh news]A ^dig began in {2025|twenty twenty-five}. [act:patient, a small smile][tune:fallrise]Its results aren't ^published yet."
+  ],
+  [
+   "[d:verdict][p:0.95][act:weighing it, calm authority][tune:rise]A ^twenty-seven-thousand-year-old pyramid? [act:the verdict, level-headed][tune:fall]*Awaiting ^evidence*. [act:the humbler option, lighter][tune:rise]Stone ^terraces built in the last ^few thousand years? [act:plain, grounded][tune:fall]That's what we can ^see.",
+   "[d:tension][p:0.93][act:quiet, practical resolve]One ^deep trench, carefully ^published, with a tool or a hearth sealed inside, would end the argument."
+  ]
+ ]
+}

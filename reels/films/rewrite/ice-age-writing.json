@@ -1,0 +1,27 @@
+{
+ "beats": [
+  [
+   "[d:intrigue][sfx:boom][act:curious, laying out the clues][tune:level]Rows of ^dots beside a painted horse. [act:the second clue][tune:level]^Crosses on a small ivory figurine. [act:the third, slower][tune:fall]^Notches on a baboon bone.",
+   "[d:tension][act:the question, leaning in][tune:rise]Long before anyone could write, were Ice Age people keeping ^records@noun?"
+  ],
+  [
+   "[d:calm][act:setting out the facts, even]Start in the caves of southern ^Germany. [p:0.93][act:laying it out, precise]Researchers have studied about two hundred and sixty ^objects@noun from there, carrying more than ^three thousand signs. [act:a touch of awe]The oldest are about ^forty-three thousand years old: roughly eight times as old as ^writing itself.",
+   "[d:build][go:2|0][act:another exhibit, precise]Now jump to Congo, in Africa, about twenty thousand years ago: the ^Ishango bone, a baboon bone with a hundred and sixty-eight notches, in ^three columns."
+  ],
+  [
+   "[d:build][act:reporting a bold idea, fair]In {2023|twenty twenty-three}, an independent researcher, Bennett Bacon, and academic co-authors made a ^bold proposal. [p:0.93][act:explaining, step by step]They tested {862|eight hundred and sixty-two} sequences of marks, and argued that the dots beside animals count ^lunar months: one dot for each new ^moon, counting from ^spring.",
+   "[d:build][sfx:shimmer][act:continuing, building]And that a ^Y sign marks the month when the animals give ^birth. [act:the neat idea, admiring]A ^hunters' calendar of animal life. [p:0.93][act:an everyday picture]A bit like circling a date on the ^kitchen calendar."
+  ],
+  [
+   "[d:build][act:serious, a notable result]In {2026|twenty twenty-six}, another study measured how ^structured the German signs are. [p:0.9][act:explaining, an everyday picture]Think of ^English: the letter Q is almost always followed by a ^U. [act:clear]Real writing is full of habits like that; random scratches ^aren't. [gap:0.4][p:0.93][act:the result, weighty]By that kind of measure, the German signs came out as structured as the earliest ^proto-writing from Mesopotamia, in today's Iraq, a little over five thousand years ago. [act:explaining the term]Proto-writing is the step before full writing: signs for keeping ^accounts, not yet for spelling out ^sentences."
+  ],
+  [
+   "[d:reveal][sfx:hit][act:the catch, careful and plain]But ^nobody has shown what any sequence ^actually records@verb. [p:0.93][act:even, laying out the doubts]Critics dispute the ^tracings, the drawings researchers make when they copy the marks. [gap:0.4][act:an everyday picture]And patterns turn up in ^any big pile of marks, the way we spot ^faces in clouds.",
+   "[d:aside][act:fair, a quiet footnote]To be fair, ^neither team claims the signs spell out ^words."
+  ],
+  [
+   "[d:verdict][p:0.95][act:weighing it, calm authority][tune:rise]Ice Age marks that stored ^information? [act:the verdict, level-headed][tune:fall]^*Plausible*. [act:the bigger claim, a little playful][tune:rise]Writing ^before writing? [act:flat, precise][tune:fall]Not ^shown.",
+   "[d:tension][p:0.93][act:warm wonder, the closing image]Some forty thousand years before the ^alphabet, someone was already ^counting something."
+  ]
+ ]
+}

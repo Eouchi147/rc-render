@@ -1,0 +1,25 @@
+{
+ "beats": [
+  [
+   "[d:intrigue][sfx:boom][act:hushed, intrigued]Beside a desert@noun ^spring in Tunisia, someone piled more than sixty stone ^balls into a cone. [act:plain, giving a sense of scale]It stands about as high as a kitchen ^table.",
+   "[d:tension][act:the big question, slow][tune:rise]Is this the oldest ^shrine on Earth?"
+  ],
+  [
+   "[d:calm][act:storytelling, plain]The place is El ^Guettar, near the inland town of ^Gafsa. [p:0.93][act:storytelling, unhurried]Around {1950|nineteen fifty}, Michel ^Gruet, a French archaeologist, dug the pile out of old spring deposits: layers the water left behind, one on top of ^another. [act:explaining, a simple picture]Layers work like the pages of a ^book: what lies on the same page was buried at about the same ^time. [go:2][act:precise]And on the page with the balls lay Stone Age ^flints, sharp tools of chipped stone, and the teeth of ^horses."
+  ],
+  [
+   "[d:build][act:presenting his view, respectful]Gruet gave the pile a Greek name: a ^hermaion, an offering to the ^spring. [p:0.93][act:his best argument, clear]The stones were brought ^in from elsewhere. [act:precise]The teeth were ^chosen. [act:landing it][tune:fall]And the pile was set right at the water's ^edge."
+  ],
+  [
+   "[d:build][act:careful, a caveat]The popular claim is forty thousand ^years. [act:plain, honest][tune:fall]That's an old ^estimate@noun. [p:0.93][gap:0.4][act:explaining, patient]An estimate@noun is an educated ^guess. [act:explaining, patient]A date is a ^measurement, made in a laboratory, on the layers themselves. [act:precise]We found no modern date for these ^deposits."
+  ],
+  [
+   "[d:reveal][act:fair, weighing]An offering is one ^reading. [act:laying it out, even][tune:level]But stone balls like these may also be ^tools. [act:same rhythm][tune:fall]Or a simple ^cache: a stockpile, put aside to use@verb ^later.",
+   "[d:build][go:4|0][act:a larger view, wonder]And the oldest known built structure is older ^still. [p:0.93][act:vivid, painting it]In a cave in France, Neanderthals, close@adj cousins of our own species, broke ^stalagmites, the stone columns that rise from a cave floor, and laid the pieces in ^rings. [p:0.9][act:the big number, slowly]That was about a hundred and seventy-six ^thousand years ago: more than four times the age ^claimed for El Guettar."
+  ],
+  [
+   "[d:verdict][p:0.95][act:weighing it, calm][tune:rise]The world's oldest ^shrine? [act:the verdict, even][tune:fall]*Awaiting ^evidence*. [p:0.93][act:fair, sorting it out]A deliberate@adj pile, at a spring, with chosen ^teeth: that much looks solid. [act:honest, plain]A ^ritual, and its ^age: not yet shown. [act:practical, clear]A modern date, and a fresh look at the stones, in the Bardo ^Museum, in the capital, could settle it.",
+   "[d:tension][p:0.93][act:quiet wonder]Until then, it's a ^question. [act:the last word, warm][tune:fall]A very ^old one."
+  ]
+ ]
+}

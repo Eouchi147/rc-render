@@ -1,0 +1,28 @@
+{
+ "beats": [
+  [
+   "[d:intrigue][sfx:boom][act:playful, inviting]Hum in the ^right ancient chamber, and the stone hums ^back.",
+   "[d:tension][act:matter of fact, a nod]Physicists have ^measured it. [act:the real puzzle, curious][tune:rise]Did the builders ^plan it?"
+  ],
+  [
+   "[d:calm][act:laying out the study, clear]In {1996|nineteen ninety-six}, researchers tested ^six ancient stone chambers in Britain and ^Ireland, from the Stone Age and the Iron Age. [p:0.93][gap:0.4][act:curious, the method]How do you find a room's favourite ^note? [act:explaining, clear]Play a steady tone through a loudspeaker, slide it from low to high, and measure where the room answers ^loudest. [act:the striking result, crisp]^Every one resonated between ninety-five and a hundred and ^twenty hertz.",
+   "[d:aside][p:0.93][act:explaining, simply]Hertz counts vibrations per ^second: at a hundred hertz, the air shakes a hundred times a second. [act:a light aside, intrigued]Right in the range of a ^man's speaking voice."
+  ],
+  [
+   "[d:build][act:hushed, almost listening]On the island of Malta lies the ^Hypogeum, from the Greek for under the ^earth: a set of underground chambers. [p:0.93][act:hushed, precise]In its Oracle Room, a low note can ^hang in the air for up to ^sixteen seconds. [p:0.9][act:a picture, slow]Long enough to count slowly to ^sixteen.",
+   "[d:build][sfx:shimmer][act:impressed, building]Far more ^bass@music than a concert hall, or a ^cathedral, where low notes die away much ^sooner."
+  ],
+  [
+   "[d:build][act:the catch, calm and clear]But ^every room rings at pitches set by its ^size. [p:0.93][act:an everyday picture]Think of blowing across bottles: a big bottle gives a low note, a small one a high ^note. [act:explaining, patient]So a chamber sized for ^people will tend to resonate like a ^voice.",
+   "[d:aside][act:dry, a gentle maxim][tune:fall]A ^measured effect is not a ^design brief. [p:0.93][act:explaining, even]A plan needs more: signs of sound ^shaped on purpose."
+  ],
+  [
+   "[d:reveal][act:brightening, the best case]Chavín de Huántar, an ancient temple site in ^Peru. [act:vivid, building][tune:level]Twenty ^conch-shell trumpets, big seashells blown like horns, found in a ^gallery, a stone passage inside the temple. [sfx:hit][act:the clever part, leaning in]And stone ^ducts that carry their sound into the ^plaza, ten to twenty decibels louder. [p:0.93][act:explaining, simply]To our ears, that's roughly two to four times as ^loud. [act:warm, convinced][tune:fall]That looks ^designed.",
+   "[d:build][go:5|0][act:turning to the news][tune:rise]And the ^viral claims this month? [act:reporting it, neutral]A hall at ^Ellora, in India, said to ring for fifteen, even twenty ^seconds. [act:careful, honest]We found no ^published measurement. [gap:0.4][act:open, a small smile][tune:fallrise]^Yet."
+  ],
+  [
+   "[d:verdict][p:0.95][act:weighing it, calm authority][tune:rise]Temples ^designed for sound? [act:the verdict, balanced][tune:fall]^*Mixed record@noun*. [act:going site by site][tune:level]^Likely at Chavín. [act:same measured pace][tune:level]^Unclear in Malta: the ringing is real, a plan is not shown. [act:calm, closing the round][tune:fall]Not ^needed at Giza, where the size of the King's Chamber, inside the Great Pyramid, explains its ^ringing.",
+   "[d:tension][p:0.93][act:warm, affirming][tune:fall]The stones ^do sing. [act:thoughtful, the last word]Whether anyone ^wrote the song, we weigh site by ^site."
+  ]
+ ]
+}

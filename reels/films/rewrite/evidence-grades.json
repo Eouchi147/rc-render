@@ -1,0 +1,24 @@
+{
+ "beats": [
+  [
+   "[d:intrigue][sfx:boom][act:inviting, setting out the rules]On this channel, every ancient mystery we weigh ends with a ^verdict. [act:clear, laying out the scale]Seven grades, from the ^best supported to the ^least. [act:promising, a little mischief]Here's what each one ^means... [act:the hook, quieter, sincere][tune:fall]and why ^none of them is final."
+  ],
+  [
+   "[d:calm][p:0.93][act:clear, defining terms]Established: several ^independent lines of evidence agree, and ^nothing serious contradicts them. [p:0.9][act:warm, an everyday picture]Think of three witnesses who have ^never met, all telling the ^same story. [p:0.93][act:light, an example]For example, the ^Vikings reaching America, about a thousand years ago. [gap:0.4][act:a notch down, still confident]Strong evidence: ^nearly established, with ^one gap left. [gap:0.4][act:even, a gentle reservation][tune:fallrise]Plausible: the idea ^fits what we know, but nobody has ^shown it happened."
+  ],
+  [
+   "[d:build][p:0.93][act:balanced, weighing both hands]Open question: good evidence on ^both sides, and the scales won't ^settle. [gap:0.4][act:even, splitting it down the middle]Mixed record@noun: the claim comes in ^pieces. [act:plain, sorting them][tune:fall]^Some parts hold up, and ^others don't."
+  ],
+  [
+   "[d:build][p:0.93][act:patient, fair-minded]Awaiting evidence: it's ^possible, but the find that would show it ^hasn't turned up yet. [act:light, an example]A lost Ice Age ^civilisation, for example. [gap:0.4][sfx:hit][act:firm, no drama]Ruled out: the evidence points firmly the ^other way. [act:dry, a small smile][tune:fall]Atlantis in the ^Atlantic, for example."
+  ],
+  [
+   "[d:reveal][act:sincere, measured, with care]And one thing we ^never grade: ^faith. [act:plain, listing our tools][tune:fall]We weigh what can be ^measured and ^checked: stones, dates, bones and texts. [act:respectful, warm, settled]What people believe is ^theirs.",
+   "[d:build][go:3|0][act:simple principle, even]Grades ^move when the evidence moves. [act:counting them off][tune:level]A new ^dig, in the spot that decides it, can lift a claim ^up. [act:second, brisk][tune:level]A result ^repeated by another team lifts it ^higher. [p:0.93][act:the last one, a touch heavier][tune:fall]A ^retraction, when a journal withdraws a paper, can drop it back ^down."
+  ],
+  [
+   "[d:verdict][p:0.95][act:thoughtful, drawing it together]So what does@verb a grade really ^measure? [act:simple, clear]How well ^all the clues fit ^together. [act:calm, the motto, unhurried]^Coherence is the measure. [gap:0.4][act:quiet, certain][tune:fall]Not ^final demonstration.",
+   "[d:tension][p:0.93][act:honest, gentle]No grade is ever the ^last word. [act:warm invitation, straight to camera]Weigh the evidence ^yourself."
+  ]
+ ]
+}

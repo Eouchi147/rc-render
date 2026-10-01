@@ -1,0 +1,28 @@
+{
+ "beats": [
+  [
+   "[d:intrigue][sfx:boom][act:grave, setting the scene]Around {1200|twelve hundred} BCE, more than three thousand years ago, the great palaces of the ancient world ^burned, one after ^another. [act:tolling them, slow][tune:level]^Greece. [act:heavier, slower][tune:level]The ^Hittites, in today's Turkey. [act:the last, final][tune:fall]^Syria.",
+   "[d:tension][act:intrigued, leaning in]Egypt blamed ^raiders from the sea. [act:a hint of mystery]Historians call them the ^Sea Peoples."
+  ],
+  [
+   "[d:calm][act:storytelling, vivid]Around {1177|eleven seventy-seven} BCE, the pharaoh Ramesses the Third fought them, and had the battle carved on his ^temple: ships, ^warriors, ^captives. [act:wry, a knowing aside]Of course, it's the ^winner's version.",
+   "[d:build][go:2|0][act:precise, informative]Egyptian inscriptions name ^nine peoples. [act:the connection, interested]One of them, the Peleset, were ^probably the ^Philistines, known from the Bible."
+  ],
+  [
+   "[d:build][act:building the case, confident]And the timing ^fits. [act:evidence, plain]At Ugarit, a trading city in Syria, the harbour ^burned around {1190|eleven ninety} BCE.",
+   "[d:build][sfx:shimmer][act:the modern clue, intrigued]Scientists have read@past the ^DNA of people buried at Ashkelon, a Philistine city on the coast of today's Israel. [act:the reveal, intrigued]Around this time, ^newcomers appear, with ^European ancestry. [act:quiet, a small wonder]A migration, written in ^bones."
+  ],
+  [
+   "[d:build][p:0.93][act:the counter-evidence, measured]But every year, a tree grows one new ring: ^wide in a wet year, ^thin in a dry one. [act:the analogy, clear]Lined up, the rings of old timbers work like a ^barcode of years. [act:the counter-evidence, measured]At Gordion, in today's Turkey, that barcode shows ^three years of savage ^drought in a row@line, around {1198|eleven ninety-eight} BCE, just as the Hittite empire was ending. [act:quiet, widening the view]And ancient pollen shows the ^whole Levant, the eastern shore of the Mediterranean, drying ^out.",
+   "[d:build][act:the surprise, careful][tune:fallrise]And some cities weren't ^stormed at all. [act:quiet, the reveal][tune:fall]They were ^abandoned."
+  ],
+  [
+   "[d:reveal][act:the big picture, measured]So most experts now see a ^system failure. [p:0.93][act:listing, steady]Drought, and failed ^harvests. [act:explaining, clear]Broken ^trade: bronze, the metal of the age, needs copper and tin, rarely found together, so kingdoms depended on each ^other. [act:listing, steady]Earthquakes, ^revolts, and people on the ^move.",
+   "[d:build][sfx:hit][act:fair, conceding][tune:fall]The Sea Peoples were ^real. [act:thoughtful, a gentle turn]But maybe more ^symptom than ^cause. [gap:0.4][p:0.93][act:explaining, warm]Like a fever: real, but a sign that something ^deeper has gone wrong."
+  ],
+  [
+   "[d:verdict][p:0.95][act:weighing it, calm][tune:rise]The Sea Peoples as the ^main cause of the collapse? [act:the verdict, balanced][tune:fall]^*Mixed record@noun*. [act:the other side, fair][tune:rise]A real force ^inside it? [act:simple, warm, sure][tune:highfall]^Yes.",
+   "[d:tension][p:0.93][act:thoughtful, drawing it together]In a few decades, a world of palaces and ^trade came apart. [act:quiet, a gentle warning]A ^connected world can fall ^faster than anyone expects."
+  ]
+ ]
+}

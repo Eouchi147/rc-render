@@ -1,0 +1,28 @@
+{
+ "beats": [
+  [
+   "[d:intrigue][sfx:boom][act:curious, drawing us close]High in the Andes of Bolivia lie stones with sharp ^inside corners. [act:the marvel, unhurried]^Identical H-shaped blocks, one after another, like pieces of a ^kit. [p:0.93][act:the kicker, wide-eyed]At ^three thousand eight hundred and fifty metres, where the air is ^thin.",
+   "[d:tension][act:a light, dry report]On TV, they're called ^machined. [act:a playful pause][tune:level]So... [act:the hook, genuinely curious][tune:fall]^who made the kit?"
+  ],
+  [
+   "[d:calm][act:plain storytelling, warm]Puma Punku is a stone platform in ^Tiwanaku, an ancient city near Lake ^Titicaca. [act:matter of fact, steady]Its hard grey ^andesite came from about ^ninety kilometres away, across or ^around the lake: more than two ^marathons.",
+   "[d:build][go:2|0][act:a quick contrast, lighter]The ^red sandstone came from just ^ten. [p:0.9][act:weighing it out, impressed]And the biggest slab weighs about a ^hundred and thirty-one tonnes. [act:a picture, delighted]As much as a blue ^whale."
+  ],
+  [
+   "[d:build][act:storytelling, intrigued]An explorer, Arthur Posnansky, measured where the site's walls ^point. [p:0.93][act:explaining, a simple picture]Over thousands of years the sky slowly ^drifts, so a wall aimed at a sunrise long ago no longer lines up ^today. [act:explaining, the logic]Measure the mismatch, and you can count back the ^years. [sfx:shimmer][act:the big claim, let it land]His answer: about ^fifteen thousand BCE.",
+   "[d:build][act:brisk, matter of fact]In the {1990s|nineteen nineties}, the writer Graham Hancock ^revived that date."
+  ],
+  [
+   "[d:build][act:the turn, crisp][tune:fall]Then came ^radiocarbon. [p:0.93][act:explaining, clear]Every living thing takes in a little radioactive ^carbon. [act:the analogy, clear]After death it fades at a steady pace, like a candle burning ^down: measure what's left, and you know when it ^died. [act:precise, reading the lab result]Organic material from the lowest fill under the platform: about AD {536|five thirty-six} to {600|six hundred}.",
+   "[d:build][act:stacking up the evidence][tune:level]Tiwanaku ^pottery. [act:same beat, firmer][tune:fall]Tiwanaku ^carvings. [d:aside][act:explaining, fair, not gloating]And Posnansky's method had a ^weak spot. [p:0.93][act:explaining, a simple picture]Guess wrong about what a wall was aimed at, by a ^sliver of a degree, and the date swings by ^thousands of years."
+  ],
+  [
+   "[d:reveal][act:leaning in, a new clue]And the ^metal. [sfx:hit][act:vivid, building]The blocks were locked together with ^bronze clamps: builders carved sockets across each joint, and poured the metal in ^molten, right on ^site. [act:the clincher, quiet and sure]Copper, arsenic and nickel: an alloy of Tiwanaku's ^own era.",
+   "[d:build][act:admiring, even]Architects who measured the blocks see standard ^templates, like a dressmaker's pattern, and patient ^grinding. [act:simple and plain][tune:fall]No ^sign of machines."
+  ],
+  [
+   "[d:verdict][p:0.95][act:posing it, calm][tune:rise]^Fifteen thousand BCE? [act:the verdict, firm][tune:fall]*Ruled ^out*. [act:genuine wonder, softer][tune:rise]How ^exactly they shaped that hard andesite? [act:honest, a small shrug][tune:fall]Still ^open.",
+   "[d:tension][p:0.93][act:calm, closing the file][tune:fall]The ^age is settled. [act:warm wonder, the last word][tune:fall]The ^skill is still ^astonishing."
+  ]
+ ]
+}

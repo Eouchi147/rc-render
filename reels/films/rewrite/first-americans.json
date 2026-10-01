@@ -1,0 +1,26 @@
+{
+ "beats": [
+  [
+   "[d:intrigue][sfx:boom][act:hushed, setting the scene][tune:level]Human ^footprints in New Mexico... [act:wonder, slower][tune:fall]from the depths of the last ^Ice Age. [p:0.93][act:intrigued, posing it][tune:rise]So when did people really reach the ^Americas? [act:a small smile][tune:fall]The textbooks had an ^answer. [act:lightly, a twist][tune:fall]These footprints ^rewrote it."
+  ],
+  [
+   "[d:calm][act:plain storytelling, the old view]For sixty years, ^textbooks said the first Americans arrived about ^thirteen thousand years ago. [act:lighter, an aside]The ^Clovis people, named after a town in New Mexico, with their ^fluted spear points. [p:0.93][act:explaining, a picture]Fluted means a long groove, chipped up the middle, to fit a ^spear shaft.",
+   "[d:build][go:2|0][act:wry, a small smile]Anyone who claimed an ^older site had a ^*fight* on their hands. [act:explaining, light]Thirteen thousand years became a kind of ^wall: older dates bounced right ^off it."
+  ],
+  [
+   "[d:build][act:storytelling, admiring persistence]Then, at the far southern end of the Americas, in Chile, Tom Dillehay spent ^twenty years defending a camp about ^fourteen and a half thousand years old. [act:wry]Most experts didn't ^believe him. [p:0.93][act:the puzzle, clear][tune:fall]Older than Clovis, and a whole continent ^further on.",
+   "[d:reveal][sfx:hit][act:building, a touch of suspense][tune:level]In {1997|nineteen ninety-seven}, the ^sceptics visited... [act:the payoff, warm][tune:fall]and ^*agreed*. [act:a small smile][tune:fall]The wall had its first ^crack."
+  ],
+  [
+   "[d:build][act:tender, vivid]Then, back in New Mexico: footprints of ^children and teenagers, beside an ancient ^lake. [act:tender, a picture][tune:fall]Small feet, walking along the soft mud of the ^shore.",
+   "[d:list][act:firm, confident][tune:fall]Dated ^four different ways. [p:0.93][act:explaining, a picture]The prints are sealed between layers of lake mud, like flowers pressed between the pages of a ^book: date the pages above and below, and the prints are trapped in ^between. [stamp:c. 23,000–21,000 YEARS|gold][act:the number, slow and clear][tune:fall]About ^twenty-three to ^twenty-one thousand years old."
+  ],
+  [
+   "[d:reveal][act:leaning in, painting it]That's when ice sheets still covered most of ^Canada. [p:0.93][act:a picture, slower]Imagine a lid of ice over half a ^continent. [sfx:shimmer][act:the reveal, slower][tune:fall]So people were ^already here, ^*south* of the ice."
+  ],
+  [
+   "[d:verdict][p:0.95][act:weighing it, calm authority][tune:rise]Clovis ^first? [act:flat, final][tune:highfall]Ruled ^out. [act:the next question, even][tune:rise]People here by ^twenty-one thousand years ago? [act:the verdict, confident][tune:fall]^*Strong* evidence.",
+   "[d:tension][p:0.93][act:plain, letting it land]Some three hundred generations of people, simply ^missed. [act:plain, letting it land]The textbook was off by ^eight thousand years. [gap:0.4][act:curious, a playful challenge][tune:fall]What ^*else* is?"
+  ]
+ ]
+}

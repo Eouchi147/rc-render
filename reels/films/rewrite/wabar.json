@@ -1,0 +1,13 @@
+{"beats": [
+ ["[d:intrigue][sfx:boom][act:storytelling, intrigued]In {1932|nineteen thirty-two}, an explorer crossed Arabia's Empty Quarter, the biggest sea of sand on ^Earth, looking for a lost ^city.",
+  "[d:tension][act:the twist, a small smile][tune:fall]What he found had fallen from the ^sky."],
+ ["[d:calm][act:plain, orienting]The explorer was the Briton, ^Philby. [p:0.93][act:steady, setting the scene]His guides told stories of ^Wabar, a city of ruins and ^iron, lost deep in the ^sands. [act:curious][tune:rise]Was it ^real?",
+  "[d:build][act:the arrival, wonder]When he reached the spot, there was no ^city. [act:vivid]Only ^craters, ringed with black ^glass."],
+ ["[d:build][act:building, clear]Philby took them for an old ^volcano. [p:0.93][act:the correction, precise]In fact, they were punched into the sand by a falling iron ^meteorite: a lump of metal from ^space. [act:the size, wonder]The biggest crater is a hundred and sixteen metres ^across, a little wider than a football pitch is ^long.",
+  "[d:aside][act:vivid, a little amazed]The largest piece of iron, the Camel's Hump, weighs about two ^tonnes, [act:the comparison, light]as much as a big ^car."],
+ ["[d:build][act:the reveal, precise]Then came the ^date. [p:0.9][act:explaining, the analogy]Grains of sand and glass work like tiny ^batteries: lying in the dark, they slowly charge up from natural ^radiation. [act:the key step, clear]The heat of the impact emptied them all at ^once. [p:0.93][act:the method, clear]So measure the charge they hold today, and you know how long ago the ^fire was. [act:plain, confident]About three hundred years ^ago. [act:the point, clear][tune:fall]Far too young for any ancient ^city."],
+ ["[d:reveal][act:fair, even][tune:rise]So what does@verb the ground hold? [act:listing, clear]Iron, black glass, and sand grains shocked by a huge ^blow. [p:0.93][act:plain][tune:fall]But no walls, no tools, no ^people.",
+  "[d:build][go:4|0][act:wry, light]And the desert@noun keeps ^moving: by {2008|two thousand eight}, one of the craters had vanished under the ^dunes."],
+ ["[d:verdict][p:0.95][act:weighing it, calm][tune:rise]A lost city destroyed from the ^sky? [act:the verdict, firm][tune:fall]*Ruled ^out*. [act:warm, the other half][tune:rise]A real impact, just a few centuries ^ago? [act:sure][tune:fall]That part is ^real.",
+  "[d:tension][p:0.93][act:the last word, a small smile][tune:fall]Philby went looking for a lost city, and found a fallen ^star."]
+]}

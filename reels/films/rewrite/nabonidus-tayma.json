@@ -1,0 +1,25 @@
+{
+ "beats": [
+  [
+   "[d:intrigue][sfx:boom][act:playful, intrigued]Near an oasis in Arabia stands a giant boulder, split in two so cleanly that people call it ^laser-cut. [act:a wry turn, lighter]It isn't. [act:explaining, plain]A natural crack ran through the rock, and the wind@air, armed with sand, slowly ^widened it.",
+   "[d:tension][act:leaning in, the real hook][tune:fall]But the real mystery here is a ^king."
+  ],
+  [
+   "[d:calm][act:storytelling, plain]Around {552|five fifty-two} BCE, Nabonidus, the last king of ^Babylon, left his capital. [act:the surprise, measured]He crossed the desert@noun to ^Tayma, an oasis in north-west ^Arabia. [p:0.93][act:giving a sense of distance]That's nearly eight hundred kilometres, as the crow ^flies.",
+   "[d:build][go:2|0][act:precise]By his own count, carved on a stone ^monument, he stayed for ten ^years. [act:a little amazed]Ten years, far from his own ^capital. [act:a light comparison][tune:fall]As if a king today ran his country from a distant ^oasis."
+  ],
+  [
+   "[d:build][act:building, confident]Babylon's own chronicle, a year-by-year record@noun on clay, keeps repeating the same ^line. [act:quoting, measured][tune:fall]The king was in ^Tema. [act:the reveal, delighted]And archaeologists have found his ^name in Arabia: at Tayma, and on a rock at ^al-Hait, beside a carving of the king ^himself. [p:0.93][act:explaining, clear]Twenty-six lines of ^cuneiform, the wedge-shaped writing of ^Babylon."
+  ],
+  [
+   "[d:build][act:grave, measured]While he was away, Babylon's great New Year ^festival was not held. [act:explaining, plain]It was the city's biggest celebration of the ^year. [act:the consequence, quiet][tune:fall]A few years after he came back, in {539|five thirty-nine} BCE, Persia took the ^city, and Babylon's last king lost his ^kingdom."
+  ],
+  [
+   "[d:reveal][act:the crux, curious][tune:rise]So why ^go? [act:explaining, even]Historians give three ^reasons. [act:counting them off, even][tune:level]Trade: Tayma sat on the ^incense roads, where camel caravans carried ^frankincense. [act:the second, even][tune:level]Faith: he was devoted to the moon god, ^Sîn. [act:the third, careful][tune:fall]Or illness, as one of the Dead Sea ^Scrolls remembers him."
+  ],
+  [
+   "[d:verdict][p:0.95][act:weighing it, calm][tune:rise]A king of Babylon, living in ^Arabia? [act:the verdict, firm][tune:fall]*^Established*. [act:fair, sure]The texts and the stones ^agree: Babylon's own chronicle, the king's own monument, and his name, carved in ^Arabia. [act:fair, open]His reason is still an open ^question.",
+   "[d:tension][p:0.93][act:the last word, warm, a small smile][tune:fall]Even kings, it seems, needed a change of ^air."
+  ]
+ ]
+}

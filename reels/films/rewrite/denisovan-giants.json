@@ -1,0 +1,25 @@
+{
+ "beats": [
+  [
+   "[d:intrigue][sfx:boom][act:hushed, pulling us in][tune:level]A ^lost kind of human... [act:wonder, slowly][tune:fall]that may have stood nearly ^*two metres* tall. [p:0.93][act:intrigued, playful][tune:rise]Were the Denisovans the ^giants of legend? [act:inviting, warm][tune:fall]Let's weigh the ^bones."
+  ],
+  [
+   "[d:calm][act:plain storytelling]The Denisovans were found through ^DNA in {2010|twenty ten}, before anyone knew what they looked ^like. [act:a little rueful, counting the scraps]For years, all we had was a finger ^bone, some ^teeth, and a ^jaw. [act:light, a picture][tune:fall]The whole collection would fit in a ^shoebox.",
+   "[d:build][go:2|0][act:building, weightier]But what scraps. [act:building, weightier][tune:level]^Huge teeth. [act:same weight, continuing][tune:level]^Heavy jaws. [act:the big one, slower]And the ^Harbin skull: one of the ^biggest archaic skulls ever found. [p:0.93][act:explaining, a picture]Its brain space held about one point four ^litres: nearly a big bottle of ^water."
+  ],
+  [
+   "[d:build][act:news, brisk and curious][tune:level]Now, in {2026|twenty twenty-six}, two ^leg bones, dredged from the sea off ^Taiwan. [p:0.93][act:curious, the method]How do you get a height from a ^leg? [act:explaining, clear]Leg bones grow in step with the body, so a longer bone means a taller ^person: like guessing someone's height from the length of their ^trousers. [act:news, brisk][tune:level]These point to people about one metre ^eighty... [act:the bigger number, wonder][tune:fall]and one ^*ninety*."
+  ],
+  [
+   "[d:build][act:respectful, storyteller's voice]Some link them to the ^giants of ancient stories. [sfx:hit][act:evocative, slower]^Tall, powerful peoples, remembered in ^myth. [p:0.93][act:fair, the claim at its strongest][tune:rise]Could a memory of real, tall neighbours have survived in those ^stories?"
+  ],
+  [
+   "[d:reveal][act:gentle correction, clear]But the last known Denisovans lived ^tens of thousands of years ^before those stories were written. [p:0.93][act:explaining, a picture]Squeeze the last sixty thousand years into one ^hour. [act:explaining, clear]The Denisovans fade from view around minute@time ^twenty. [act:the payoff, gentle][tune:fall]The oldest giant stories turn up only in the last three ^minutes@time.",
+   "[d:list][go:5|0][act:fair, weighing it][tune:level]And one ninety is ^tall... [act:gently deflating][tune:fall]not a ^giant. [act:a picture, light]Plenty of people today reach two metres, and nobody calls them ^giants. [act:a careful caveat, lower]The height study isn't ^peer reviewed yet: other experts haven't checked it. [act:dry, pointed][tune:fall]And it's ^*two* bones."
+  ],
+  [
+   "[d:verdict][p:0.95][act:weighing it, calm authority][tune:rise]^Big people? [act:measured, fair][tune:fall]^Plausible. [act:the next question, even][tune:rise]Giants of ^legend? [act:the verdict, level-headed][tune:fall]No ^evidence.",
+   "[d:tension][p:0.93][act:warm, a hopeful turn][tune:fall]But their DNA ^still helps people in Tibet breathe at ^*altitude*. [act:explaining, clear]High up, every breath holds less ^oxygen. [act:the payoff, warm][tune:fall]A Denisovan version of one gene helps Tibetan bodies ^cope."
+  ]
+ ]
+}

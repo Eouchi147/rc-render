@@ -1,0 +1,26 @@
+{
+ "beats": [
+  [
+   "[d:intrigue][sfx:boom][act:wonder, setting the scene]A wooden ^giant, carved about ^*twelve* thousand years ago, at the very end of the Ice ^Age.",
+   "[d:tension][act:impressed, building]As old as Göbekli ^Tepe, the famous site of giant carved stone ^pillars. [act:the punch, delighted][tune:highfall]In ^*wood*. [p:0.93][act:curious][tune:rise]But how can wood last that ^long?"
+  ],
+  [
+   "[d:calm][act:storytelling, unhurried]In {1890|eighteen ninety}, gold miners pulled it from four metres of ^peat. [p:0.93][act:explaining, a picture]Peat is a soggy blanket of old plants with almost no ^air, and the tiny creatures that rot wood need ^air. [act:the point, warm]So the bog kept it, like food in a sealed ^jar. [act:quietly vivid][tune:fall]^Ten pieces, carved with ^faces.",
+   "[d:build][go:2|0][act:building to it, wonder]Pieced together, it stood over ^*five* metres tall: the height of three grown-ups, stacked head to ^toe."
+  ],
+  [
+   "[d:build][act:matter of fact, setting it up]Early radiocarbon tests said about ^nine and a half thousand years. [p:0.93][act:explaining, clear]Radiocarbon works like a ^candle. [act:explaining, patient]A living tree takes in a trace of radioactive carbon from the air; once it's cut, that carbon burns down at a steady ^pace, so what's left tells you how long ago it ^died. [act:the detective turn, leaning in]Then a ^new team sampled the untouched ^*core* of the wood."
+  ],
+  [
+   "[d:reveal][stamp:c. 12,000 YEARS|gold][act:the result, firm and clear][tune:fall]About ^twelve thousand years. [act:explaining, a small smile]The outer wood had been soaked in ^preservative, and that made it look ^*younger*. [p:0.93][act:explaining, a picture]Fresh carbon from the preservative was like topping up a burnt-down ^candle: the clock read@past too ^young."
+  ],
+  [
+   "[d:reveal][act:leaning in, precise]The marks of stone ^chisels show it was carved in fresh, ^green wood: still full of sap, and soft enough to cut ^cleanly. [sfx:hit][act:the reveal, deliberate][tune:fall]By ^hunter-gatherers. [act:flat, contrasting][tune:highfall]Not ^farmers. [p:0.93][act:explaining, clear]People who lived by hunting and gathering, with no fields at ^all.",
+   "[d:list][go:5|2][act:counting them off, fascinated][tune:level]Faces. [act:same rhythm][tune:level]Zigzags. [act:closing the list][tune:fall]Hands. [act:wistful wonder, slower][tune:fall]A whole ^language of symbols, we ^can't *read@present!*."
+  ],
+  [
+   "[d:verdict][p:0.95][act:calm authority, weighing it]^Monumental art, before ^farming. [act:the verdict, confident][tune:fall]^Strong evidence. [p:0.93][act:a picture, wonder]The idol is more than twice as old as the Great ^Pyramid.",
+   "[d:tension][p:0.93][act:quiet, thoughtful]Wood almost never survives this long; this one fell into a ^bog. [act:quiet wonder, a real question][tune:fall]How many ^other wooden giants simply ^*rotted* away?"
+  ]
+ ]
+}

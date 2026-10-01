@@ -1,0 +1,28 @@
+{
+ "beats": [
+  [
+   "[d:intrigue][sfx:boom][act:hushed, respectful]A linen sheet, over four metres long, about the length of a family ^car. [act:hushed, respectful]On it, front and back, the ^faint image of a ^crucified man.",
+   "[d:tension][act:gentle, explaining]A shroud is a ^burial cloth, and for many believers, this one is ^sacred. [act:intrigued, measured]It is the most ^tested cloth on Earth. [act:even, knowing]And the argument has ^never stopped."
+  ],
+  [
+   "[d:calm][act:plain, historical]It first appears in a French ^village in the {1350s|thirteen fifties}, and has been kept in ^Turin, in Italy, since {1578|fifteen seventy-eight}: hence its name.",
+   "[d:build][go:3|0][act:careful, even-handed]In {1389|thirteen eighty-nine}, a ^bishop wrote to the pope that an earlier inquiry had found the ^artist who painted it. [gap:0.4][p:0.93][act:a hint of wonder, slower]In {1898|eighteen ninety-eight}, the first photograph held a ^surprise: on the negative, with light and dark swapped, the man looked more ^lifelike."
+  ],
+  [
+   "[d:build][act:precise, serious]In {1988|nineteen eighty-eight}, ^three laboratories, in Arizona, Oxford and Zurich, ^independently dated a strip cut from one corner. [gap:0.4][p:0.93][act:explaining, clear]The method: ^radiocarbon dating. [act:explaining, a hint of wonder]Flax, the plant linen is made from, takes in a little ^radioactive carbon from the air as it grows. [act:the analogy, clear]Once the plant dies, that carbon fades at a steady, known pace, like a ^candle burning down. [act:the key idea]Measure what's left, and you know roughly when it was ^harvested.",
+   "[d:build][sfx:hit][act:the result, plain and calm]^Twelve sixty to ^thirteen ninety CE. [p:0.93][act:explaining, even]The ^Middle Ages: a window that includes the cloth's first appearance in ^France."
+  ],
+  [
+   "[d:build][act:fair, giving them their due]Supporters of an older date answer: it all came from ^one strip, from one ^much-handled corner. [p:0.93][act:explaining their logic, fair]If that corner was repaired or soiled, it might not speak for the ^whole cloth. [act:even, reporting]In {2019|twenty nineteen}, a ^reanalysis found the dates ^drift across the sample.",
+   "[d:build][act:balanced, careful]In {2022|twenty twenty-two}, an ^X-ray method that measures the ageing of linen fibres, tried on a ^single thread, suggested the ^first century."
+  ],
+  [
+   "[d:reveal][act:the new evidence, measured]In {2026|twenty twenty-six}, a study re-tested ^fragments left over from {1988|nineteen eighty-eight}. [act:the result, clear]It found ^pure linen, ^matching the cloth. [sfx:hit][act:plain, precise][tune:level]No hidden ^repair. [act:calm, final][tune:fall]No ^contamination.",
+   "[d:build][act:open, with genuine wonder][tune:rise]But ^how the image was made? [act:honest, respectful]^Nobody has ^fully reproduced it."
+  ],
+  [
+   "[d:verdict][p:0.95][act:weighing it, calm][tune:rise]Linen from the ^first century? [act:the verdict, careful and fair][tune:fall]*Ruled ^out* by the dating we have. [act:the open part, gentle][tune:rise]^How the image formed? [act:even, respectful][tune:fall]Still ^open. [act:fair, the open door]The next step: a ^wider test, sampling more of the cloth.",
+   "[d:tension][p:0.93][act:sincere, gentle]A laboratory can date ^linen. [act:sincere, gentle, with respect]But what the Shroud ^means to believers is not something any ^laboratory can weigh."
+  ]
+ ]
+}
