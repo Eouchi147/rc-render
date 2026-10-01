@@ -61,9 +61,13 @@ jobs:
           GH_REPO: ${{ github.repository }}
         run: |
           mkdir -p models
-          gh release download models -p 'kokoro-v1.0-r11.onnx.part-*' -D models
+          # the 35 pieces of the narrator model, from the public release (plain downloads, retried: the API can answer 500)
+          for s in a{a..z} b{a..i}; do
+            curl -fsSL --retry 8 --retry-all-errors --retry-delay 3 -o models/kokoro-v1.0-r11.onnx.part-$s \
+              "https://github.com/${GH_REPO}/releases/download/models/kokoro-v1.0-r11.onnx.part-$s"
+          done
           cat models/kokoro-v1.0-r11.onnx.part-* > models/kokoro-v1.0-r11.onnx && rm models/kokoro-v1.0-r11.onnx.part-*
-          curl -sL -o models/voices-v1.0.bin https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/voices-v1.0.bin
+          curl -fsSL --retry 8 --retry-all-errors --retry-delay 3 -o models/voices-v1.0.bin https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/voices-v1.0.bin
           echo "beb0d1848dee9a49da392cc3df26958d46cfa35d321edf434f52949153f0df3a  models/kokoro-v1.0-r11.onnx" | sha256sum -c
       - name: render
         env:
