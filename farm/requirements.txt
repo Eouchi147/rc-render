@@ -1,0 +1,10 @@
+kokoro-onnx==0.6.1
+onnxruntime==1.25.0
+phonemizer==3.4.0
+espeakng-loader==0.2.4
+numpy==2.4.4
+scipy==1.17.1
+soundfile==0.14.0
+pillow==12.2.0
+playwright==1.56.0
+sherpa-onnx==1.13.8
