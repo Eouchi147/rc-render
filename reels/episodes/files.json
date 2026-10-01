@@ -2,29 +2,22 @@
  {
   "id": "mkultra",
   "series": "The Files",
+  "code": "13.01",
   "title": "MKUltra: the files that survived",
   "case": "mkultra",
   "verdict": "solid",
   "claim": "The CIA ran illegal drug experiments on unwitting people?",
   "mood": "cold",
-  "note": "Schematic · no real document reproduced · sources in the case file",
-  "view": "power",
-  "story": "files",
   "hook_text": "Not a theory. *On the record.*",
   "beats": [
    {
     "role": "hook",
     "visual": {
-     "from": 0,
-     "to": 0
-    },
-    "frame": {
-     "s": 0.92,
-     "y": -0.07
+     "from": 0
     },
     "lines": [
      "[d:intrigue][sfx:typewriter][act:dry, cutting through]This isn't a conspiracy ^theory. [act:plain, pointed]It's ^*paperwork*.",
-     "[d:reveal][act:sober, grave]The CIA drugged people, without their ^knowledge. [cam:1.12|0|-0.05][act:firm]It's on the ^*record@noun*."
+     "[d:reveal][act:sober, grave]The CIA drugged people, without their ^knowledge. [act:firm]It's on the ^*record@noun*. [p:0.93][act:quiet, serious]Let's open the ^file."
     ]
    },
    {
@@ -32,72 +25,48 @@
     "visual": {
      "from": 0
     },
-    "frame": {
-     "s": 0.92,
-     "y": -0.07
-    },
     "lines": [
-     "[d:calm][act:factual, clear]In {1953|nineteen fifty-three}, the CIA approved ^MKUltra: drugs, to ^*control* behaviour.",
-     "[d:list][go:1][act:the scale, measured]The surviving records@noun list a hundred and forty-nine ^subprojects. [cam:1.12|0.06|-0.16][act:naming them, darker][tune:level]^Universities. [tune:level]^Hospitals. [tune:fall]^*Prisons*."
+     "[go:1|1.43][d:calm][act:factual, clear]In {1953|nineteen fifty-three}, in the middle of the Cold War, the CIA approved a secret programme: ^MKUltra. [p:0.93][act:explaining, measured]Officials feared enemy ^brainwashing, and wanted their own drugs to ^control behaviour.",
+     "[d:list][act:the scale, measured]The surviving records@noun list a hundred and forty-nine ^subprojects. [act:naming them, darker][tune:level]At ^universities. [act:the next, same beat][tune:level]At ^hospitals. [act:the last, heavier][tune:fall]In ^*prisons*. [p:0.93][act:explaining, plain]Much of the money went through front organisations, so many researchers never knew the CIA was ^paying."
     ]
    },
    {
     "role": "collision",
     "visual": {
-     "from": 2,
-     "cut": true
-    },
-    "frame": {
-     "s": 1.0,
-     "y": -0.02
+     "from": 1
     },
     "lines": [
-     "[d:tension][k:THE SAFE HOUSES][act:quiet, uneasy]In safe houses@noun! in San Francisco and New York, members of the public were dosed with ^LSD... [sfx:heartbeat][cam:1.6|0.02|0.02][act:chilling, soft][tune:fall]and ^*watched*."
+     "[go:2|1.66][d:tension][act:quiet, uneasy]In safe houses@noun! in San Francisco and New York, ordinary flats rented in ^secret, members of the public were given ^LSD without being told... [sfx:heartbeat][act:chilling, soft][tune:fall]and ^*watched*, to see what the drug would ^do. [p:0.93][act:explaining, plain]LSD is a powerful drug that can scramble the senses for ^hours. [act:quiet, heavy][tune:fall]They had no idea what was ^happening to them."
     ]
    },
    {
     "role": "cost",
     "visual": {
-     "from": 3,
-     "cut": true
-    },
-    "frame": {
-     "s": 1.0,
-     "y": -0.02
+     "from": 2
     },
     "lines": [
-     "[d:reveal][k:FRANK OLSON][act:grave, respectful]Army scientist Frank Olson was secretly given ^LSD. [act:somber, slow]Nine days later, [cam:1.4|0|0.1]he fell to his ^*death*.",
-     "[d:tension][p:0.96][act:gentle, heavy][tune:level]His family learned the ^truth... [act:quiet, pained][tune:fall]twenty-two years ^later."
+     "[go:3|1.43][d:reveal][act:grave, respectful]In {1953|nineteen fifty-three}, the year it began, Army scientist Frank Olson was secretly given ^LSD, slipped into his drink at a work ^retreat. [act:somber, slow]Nine days later, he fell to his ^*death*.",
+     "[d:tension][p:0.96][act:gentle, heavy][tune:level]His family only learned he had been ^drugged... [act:quiet, pained][tune:fall]twenty-two years ^later."
     ]
    },
    {
     "role": "reversal",
     "visual": {
-     "from": 4,
-     "cut": true
-    },
-    "frame": {
-     "s": 1.0,
-     "y": -0.2
+     "from": 3
     },
     "lines": [
-     "[d:build][k:THE SHREDDER][sfx:paper][act:the cover-up, firm]In {1973|nineteen seventy-three}, the CIA's director ordered the files ^*destroyed*.",
-     "[d:build][act:the lucky break][tune:fall]But some had been filed with the ^*accounts*. [go:5][act:relief, precise]About twenty thousand pages ^survived. [d:aside][act:dry, a small smile]Saved, by ^bureaucracy."
+     "[go:4|1.66][d:build][sfx:paper][act:the cover-up, firm]In {1973|nineteen seventy-three}, the CIA's director ordered the MKUltra files ^*destroyed*.",
+     "[d:build][act:the lucky break][tune:fall]But some had been filed with the ^*accounts*, and were ^missed. [p:0.93][act:relief, precise]In {1977|nineteen seventy-seven}, a freedom-of-information request turned up about twenty thousand ^pages. [d:aside][act:dry, a small smile]Saved, by ^bureaucracy."
     ]
    },
    {
     "role": "tag",
     "visual": {
-     "from": 6,
-     "cut": true
-    },
-    "frame": {
-     "s": 1.0,
-     "y": -0.04
+     "from": 4
     },
     "lines": [
-     "[d:verdict][k:THE VERDICT][act:measured authority]In {1977|nineteen seventy-seven}, a Senate hearing put it on the ^record@noun. [go:7][act:the verdict, firm][tune:fall]^*Established*.",
-     "[d:tension][p:0.94][act:quiet, pointed][tune:level]So when someone says it could never ^happen... [act:the final word, calm][tune:fall]it's ^*paperwork*."
+     "[go:5|1.43][d:verdict][act:measured authority]That same year, a Senate hearing put it all on the ^record@noun. [p:0.93][act:asking it, steady]How do we ^know? [act:clear, measured]The CIA's own surviving ^files, its inspector general's report from {1963|nineteen sixty-three}, and a Senate ^investigation all tell the same ^story. [p:0.9][act:the everyday picture]Records@noun written at the time, by the people in charge: like a company's own ^receipts. [act:the verdict, firm][tune:fall]^*Established*.",
+     "[d:tension][p:0.93][act:quiet, with care]Behind those pages are people who never said ^yes. [go:6|2.23][p:0.94][act:quiet, pointed][tune:level]So when someone says it could never ^happen... [act:the final word, calm][tune:fall]it's ^*paperwork*."
     ]
    }
   ],
@@ -107,22 +76,23 @@
    "#CIA",
    "#History",
    "#DeclassifiedFiles",
-   "#ColdWar"
+   "#WeighItYourself"
   ],
-  "voice": "narrator",
   "sources": "US Senate hearing on MKULTRA, 1977 · Church Committee report, 1976 · CIA Inspector General, 1963",
-  "code": "13.01"
+  "view": "films",
+  "story": "mkultra",
+  "site": "films/out/mkultra.html",
+  "voice": "narrator"
  },
  {
   "id": "sky-fell",
   "series": "The Sky Fell?",
+  "code": "03.01",
   "title": "Did a comet end the Ice Age world?",
   "case": "younger-dryas-impact",
   "verdict": "unsupported",
   "claim": "A comet triggered the Younger Dryas cold?",
-  "mood": "cold",
-  "view": "timeline",
-  "story": "skyfell",
+  "mood": "mystery",
   "hook_text": "12,900 years ago, the cold *came back*.",
   "beats": [
    {
@@ -130,87 +100,59 @@
     "visual": {
      "from": 0
     },
-    "frame": {
-     "s": 1.05,
-     "y": 0.0
-    },
     "lines": [
-     "[d:intrigue][k:C. 12,900 YEARS AGO][sfx:boom][act:ominous, measured]Just as the Ice Age was ^ending, the world plunged ^*back* into the cold.",
-     "[d:tension][cam:1.25|0.08|0.04][act:letting it sink in]For twelve ^hundred years. [act:a hushed tease][tune:level]Some scientists blame... [act:the reveal, quiet][tune:fall]the ^*sky*."
+     "[d:intrigue][sfx:boom][act:ominous, measured]The Ice Age was ^ending. [act:the turn, darker][tune:fall]Then the cold came ^*back*.",
+     "[d:tension][p:0.93][act:letting it sink in]About {12,900|twelve thousand nine hundred} years ago, the world plunged back into the ^freeze, for {1,200|twelve hundred} ^years. [act:a hushed tease][tune:level]Some scientists blame... [act:the reveal, quiet][tune:fall]the ^*sky*."
     ]
    },
    {
     "role": "world",
     "visual": {
-     "from": 1,
-     "cut": true
-    },
-    "frame": {
-     "s": 1.0,
-     "y": 0.0
+     "from": 0
     },
     "lines": [
-     "[d:calm][k:REWIND][act:brisk storytelling]^Rewind. [act:setting the scene]At the height of the Ice Age, the sea sat [count:134|m lower]a hundred and thirty-four metres ^*lower*.",
-     "[d:build][go:2|2.6][act:momentum building]Then the ice ^melted, the seas ^climbed, and people walked into ^*new* lands."
+     "[go:1|1.43][d:calm][act:brisk storytelling]^Rewind. [p:0.93][act:setting the scene]At the height of the Ice Age, so much water was locked up in ^ice that the sea sat {134|a hundred and thirty-four} metres ^*lower*. [act:giving a sense of scale]That's about the height of a forty-storey ^tower.",
+     "[d:build][act:momentum building]Then the ice ^melted, the seas ^climbed, [act:wonder][tune:fall]and people walked into ^*new* lands."
     ]
    },
    {
     "role": "collision",
     "visual": {
-     "from": 2
-    },
-    "frame": {
-     "s": 1.0,
-     "y": 0.0
+     "from": 1
     },
     "lines": [
-     "[d:tension][k:THE COMET][go:2.6|1.6][act:ominous, naming it]Then came the Younger ^Dryas.",
-     "[d:build][p:1.03][act:presenting the bold claim]One group of scientists says [sfx:boom][go:3|2.2]a ^*comet* did it. [act:vivid, quick][tune:level]Blasts in the sky, over North ^America. [cam:1.2|0|0.03][tune:level]^Fires. [tune:fall]Mammoths, ^gone."
+     "[go:2|1.41][d:tension][act:ominous, naming it]Scientists call this cold snap the Younger ^Dryas, [act:a small, vivid picture]after a little Arctic ^flower that came back to northern Europe with the ^cold.",
+     "[d:build][go:3|1.7][p:1.03][act:presenting the bold claim]One group of scientists says a ^*comet* did it. [sfx:boom][act:vivid, quick][tune:level]Blasts in the sky, over North ^America. [act:vivid, quick][tune:level]^Fires. [act:low, final][tune:fall]Mammoths, ^gone."
     ]
    },
    {
     "role": "cost",
     "visual": {
-     "from": 4,
-     "cut": true
-    },
-    "frame": {
-     "s": 1.0,
-     "y": 0.0
+     "from": 3
     },
     "lines": [
-     "[d:build][k:THE CLUES][act:fair, taking it seriously]And there ^*are* clues. [act:laying out evidence]Mammoths and Clovis tools vanish within ^centuries.",
-     "[d:wonder][act:intrigued]There's even [sfx:shimmer][cam:1.3|-0.12|0]a ^*platinum* spike, in the Greenland ice."
+     "[go:4|1.43][d:build][act:fair, taking it seriously]And there ^*are* clues. [p:0.93][act:explaining, an everyday picture]Dig down, and the ground reads like a stack of ^pages: the deeper, the ^older. [act:laying out evidence]Right at the start of the cold, the comet team reported a thin ^layer: tiny round ^beads, magnetic ^grains, and ^soot. [act:steady]Just below it lie mammoth bones and Clovis spear ^points. [act:the turn, quieter][tune:fall]Within a few ^centuries, they're gone.",
+     "[d:wonder][go:5|1.65][act:intrigued]There's even a ^*platinum* spike in the Greenland ^ice. [p:0.93][act:explaining, clear]Snow piles up there year after year and turns to ^ice, so a core drilled through it reads like tree ^rings. [act:precise, leaning in]And right at the start of the cold, platinum ^jumps: [act:explaining]a metal rare at Earth's ^surface, but richer in some rocks from ^space."
     ]
    },
    {
     "role": "reversal",
     "visual": {
-     "from": 5,
-     "cut": true
-    },
-    "frame": {
-     "s": 1.0,
-     "y": 0.0
+     "from": 5
     },
     "lines": [
-     "[d:reveal][k:THE TWIST][act:the turn, careful][tune:fall]But: no ^crater of the right age. [act:plain, sober]And key impact papers were [stamp:RETRACTED · 2025–26|red]^*retracted*.",
-     "[d:calm][go:6|2.2][act:the mainstream view, clear]Most specialists blame ^meltwater, stalling the Atlantic's currents. [d:aside][act:dry, a small smile]Less ^cinematic. [act:quietly firm]Better ^*evidence*."
+     "[go:6|1.43][d:reveal][act:the turn, careful][tune:fall]But no ^crater of the right age has been ^found. [p:0.93][act:explaining, the test]And one blast means one ^moment, so its layer should carry the same date ^everywhere. [act:plain, sober]When other teams checked the dates, most sites didn't ^match. [act:plain, sober]And key impact papers were [stamp:RETRACTED · 2025-26|red]^*retracted*.",
+     "[d:calm][go:7|1.64][act:the mainstream view, clear]Most specialists blame ^meltwater. [p:0.93][act:explaining, an everyday picture]The Atlantic works like a conveyor ^belt: warm, salty water flows north, cools, grows heavy and ^sinks, pulling more warmth behind it. [act:explaining, clear]Pour a flood of fresh meltwater on ^top, and it floats like a ^lid. [act:the payoff][tune:fall]The belt slows, and the north turns ^cold again. [d:aside][act:dry, a small smile]Less ^cinematic. [act:quietly firm]Better ^*evidence*."
     ]
    },
    {
     "role": "tag",
     "visual": {
-     "from": 7,
-     "cut": true
-    },
-    "frame": {
-     "s": 1.0,
-     "y": 0.0
+     "from": 7
     },
     "lines": [
-     "[d:verdict][k:THE VERDICT][p:0.95][act:weighing each part][tune:rise]The ^cold? [act:firm][tune:highfall]^*Real*. [act:even][tune:rise]The ^comet? [act:open, fair]Not shown ^yet.",
-     "[d:tension][p:0.93][act:quiet intrigue][tune:level]The ^sky... [act:a wink of suspense][tune:fall]is still a ^*suspect@noun*."
+     "[go:8|2.6][d:verdict][p:0.95][act:weighing each part][tune:rise]The ^cold? [act:firm][tune:highfall]^*Real*. [act:even][tune:rise]A ^comet behind it? [act:the verdict, fair][tune:fall]*Awaiting ^evidence*. [act:practical, clear]A crater of the right ^age, or one layer with one date ^everywhere, would change ^that.",
+     "[go:9|1.19][d:tension][p:0.93][act:quiet intrigue][tune:level]Until then, the ^sky... [act:a wink of suspense][tune:fall]is still a ^*suspect@noun*."
     ]
    }
   ],
@@ -220,110 +162,83 @@
    "#IceAge",
    "#Comet",
    "#Prehistory",
-   "#Science"
+   "#WeighItYourself"
   ],
-  "voice": "narrator",
   "sources": "Firestone et al. 2007 · Petaev et al. 2013 · Meltzer et al. 2014, all PNAS",
-  "code": "03.01"
+  "view": "films",
+  "story": "sky-fell",
+  "site": "films/out/sky-fell.html",
+  "voice": "narrator"
  },
  {
   "id": "kalambo",
   "series": "Before Us",
+  "code": "01.01",
   "title": "Carpentry before our species",
   "case": "kalambo-structure",
   "verdict": "strong",
   "claim": "Human relatives built with wood before our species existed?",
   "mood": "awe",
-  "view": "dig",
-  "story": "kalambo",
   "hook_text": "Built *476,000* years ago.",
   "beats": [
    {
     "role": "hook",
     "visual": {
-     "from": 1.62
-    },
-    "frame": {
-     "s": 1.1,
-     "y": 0.02
+     "from": 0
     },
     "lines": [
-     "[d:intrigue][k:C. 476,000 YEARS AGO][sfx:boom][act:hushed, drawing them in]Someone cut a ^notch into a log, [go:2|2.6]and slotted ^*another* log into it.",
-     "[d:wonder][cam:1.3|0|0.02][act:slow wonder]About four hundred and seventy-six ^*thousand* years ago. [act:quiet awe]The ^oldest wooden structure ever found."
+     "[d:intrigue][sfx:boom][act:hushed, drawing them in]Someone cut a ^notch into a log, [act:the image, slowly]and slotted ^*another* log into it.",
+     "[go:1|0.8][d:wonder][p:0.93][act:slow wonder]About four hundred and seventy-six ^*thousand* years ago. [act:quiet awe][tune:fall]The ^oldest wooden structure ever found."
     ]
    },
    {
     "role": "world",
     "visual": {
-     "from": 0,
-     "cut": true
-    },
-    "frame": {
-     "s": 1.0,
-     "y": 0.0
+     "from": 1
     },
     "lines": [
-     "[d:calm][k:KALAMBO FALLS][act:plain, placing us on the map]Kalambo Falls, on the Zambia–Tanzania ^border. [cam:1.25|0|0.08][act:a little impressed]A river that drops over two ^hundred metres.",
-     "[d:calm][go:1|2.4][act:explaining a lucky accident]Its banks stayed so ^waterlogged, that the wood ^*never* rotted."
+     "[go:2|1.44][d:calm][act:plain, placing us on the map]This is Kalambo ^Falls, in Africa, on the border between ^Zambia and ^Tanzania. [go:3|1.66][act:a little impressed]Here a river drops more than two hundred ^metres: [act:an everyday picture]about as tall as a sixty-storey ^tower.",
+     "[d:calm][go:4|1.43][act:explaining a lucky accident]Along the river, the banks stayed ^waterlogged. [p:0.93][act:explaining, simple]Wood rots because tiny living things ^eat it, and they need ^air. [act:the payoff, warm][tune:fall]Sealed in wet sand, with no air, this wood ^*never* rotted."
     ]
    },
    {
     "role": "collision",
     "visual": {
-     "from": 2,
-     "cut": true
-    },
-    "frame": {
-     "s": 1.05,
-     "y": 0.0
+     "from": 4
     },
     "lines": [
-     "[d:list][k:THE JOINT][act:laying out the evidence]Two logs, joined on ^*purpose*. [go:3|2][act:the next clue][tune:level]Chop marks, from stone ^tools. [cam:1.35|0.05|0.05][tune:fall]Shaped ^ends.",
-     "[d:calm][go:4|1.8][cam:1|0|0][act:matter of fact]Dated by ^luminescence, in the sand around them."
+     "[go:5|1.67][d:list][act:inviting, leaning in]Look ^closer. [act:laying out the evidence]The notch was cut on ^*purpose*, to lock the two logs ^together. [act:the next clue][tune:level]The wood carries chop marks from stone ^tools. [act:the last clue][tune:fall]Even the ends were ^shaped.",
+     "[d:calm][go:6|1.43][act:curious, the method][tune:rise]But how do you date a log ^that old? [act:explaining, plain]Carbon dating runs out at about fifty thousand ^years. [act:the answer, clear]So the date comes from the ^sand around it, by ^luminescence.",
+     "[d:build][go:7|1.65][p:0.93][act:an everyday picture, warm]Each grain of sand is like a tiny ^bucket. [act:step by step]Sunlight ^empties it. [act:step by step, slower]Buried in the dark, it fills again, drop by ^drop, from faint natural radiation in the ^soil. [p:0.9][act:the neat payoff]Measure how full it is, divide by how fast it fills, and you get the years since it was ^buried."
     ]
    },
    {
     "role": "cost",
     "visual": {
-     "from": 5,
-     "cut": true
-    },
-    "frame": {
-     "s": 1.0,
-     "y": 0.0
+     "from": 7
     },
     "lines": [
-     "[d:wonder][k:WHAT WE LOST][cam:1.35|0.12|0.1][act:gentle regret]Wood almost ^never survives. [cam:1.35|-0.12|-0.06][act:a small revelation]The Stone Age was also a ^*wood* age. [cam:1.05|0|0][act:soft, wistful]We just can't ^*see* it."
+     "[go:8|1.43][d:wonder][act:gentle regret]That's what makes this so ^rare: wood almost ^never survives. [p:0.93][act:painting it, slow]Leave a camp for a few thousand years, and everything wooden rots ^away. [act:plain][tune:fall]Only the stone tools ^stay. [act:a small revelation]So the Stone Age was also a ^*wood* age. [act:soft, wistful][tune:fall]We just can't ^*see* it."
     ]
    },
    {
     "role": "reversal",
     "visual": {
-     "from": 6,
-     "cut": true
-    },
-    "frame": {
-     "s": 1.0,
-     "y": 0.0
+     "from": 8
     },
     "lines": [
-     "[d:tension][k:THE TWIST][p:0.96][act:leaning in, conspiratorial]Here's the ^thing. [cam:1.5|-0.1|0.02][act:setting up the twist, measured]The oldest fossils of our own kind are about three hundred ^thousand years old.",
-     "[d:reveal][p:0.94][sfx:hit][cam:1.12|0.03|0.02][act:the reveal, slow and quiet]Whoever built ^this... [act:sure, a little awed]it wasn't ^*us*."
+     "[go:9|1.63][d:tension][p:0.96][act:leaning in, conspiratorial]Here's the ^thing. [act:setting up the twist, measured]The oldest fossils of our own species are about three hundred ^thousand years old. [p:0.93][act:an everyday picture]Squeeze the time since the logs into a single ^day, from midnight to midnight. [act:the payoff, careful][tune:fall]Our species only turns up at about ^nine in the morning.",
+     "[go:10|1.3][d:reveal][p:0.94][sfx:hit][act:the reveal, slow and quiet]Whoever built ^this... [act:sure, a little awed]it wasn't ^*us*. [act:fair, honest]No bones were found with the logs, so we don't yet know ^which human relative it was."
     ]
    },
    {
     "role": "tag",
     "visual": {
-     "from": 7,
-     "cut": true
-    },
-    "frame": {
-     "s": 1.0,
-     "y": 0.0
+     "from": 10
     },
     "lines": [
-     "[d:verdict][k:THE VERDICT][p:0.96][act:calm authority]Human relatives, working wood before we ^existed. [act:the verdict, firm][tune:fall]^Strong evidence.",
-     "[d:tension][p:0.93][act:curious, a spark][tune:fall]So what ^*else* did they build?"
+     "[go:11|2.6][d:verdict][p:0.96][act:weighing it, calm][tune:rise]Human relatives, building with wood, before we ^existed? [act:counting the clues, even][tune:level]A cut notch, stone-tool marks, and a date from the ^sand. [act:the verdict, firm][tune:fall]*Strong ^evidence*.",
+     "[go:12|1.3][d:tension][p:0.93][act:honest, open]What it was for, nobody knows yet: [act:wondering aloud][tune:level]a walkway, a platform, the base of a ^shelter? [act:curious, a spark][tune:fall]And what ^*else* did they build?"
     ]
    }
   ],
@@ -333,107 +248,82 @@
    "#HumanEvolution",
    "#Prehistory",
    "#Africa",
-   "#History"
+   "#WeighItYourself"
   ],
-  "voice": "narrator",
   "sources": "Barham et al. 2023, Nature · Duller et al. 2015, Journal of Human Evolution",
-  "code": "01.01"
+  "view": "films",
+  "story": "kalambo",
+  "site": "films/out/kalambo.html",
+  "voice": "narrator"
  },
  {
   "id": "ice-age-signs",
   "series": "The First Signs",
+  "code": "02.02",
   "title": "The same signs, everywhere",
   "case": "shared-symbols",
   "verdict": "unsupported",
   "claim": "One lost culture taught the world the same signs?",
   "mood": "awe",
-  "view": "signs",
-  "story": "signs",
   "hook_text": "The same signs, on *every* continent.",
   "beats": [
    {
     "role": "hook",
     "visual": {
-     "from": 0,
-     "to": 0
-    },
-    "frame": {
-     "s": 1.1,
-     "y": -0.05
+     "from": 0
     },
     "lines": [
-     "[d:list][k:THE SAME SIGNS][sfx:shimmer][act:laying them out, one by one][tune:level]Zigzags. [tune:level]Dots. [tune:level]Grids. [cam:1.5|0.28|0.04][act:vivid][tune:fall]Hands, blown in ^*red*.",
-     "[d:intrigue][cam:1|0|0][act:intrigued, emphatic]The same shapes, on ^*every* inhabited continent. [act:teasing][tune:rise]^Coincidence? [act:a hint of mystery][tune:rise]Or a ^*message*?"
+     "[d:list][sfx:shimmer][act:laying them out, one by one][tune:level]^Zigzags. [act:same rhythm][tune:level]^Dots. [act:same rhythm][tune:level]^Grids. [act:vivid][tune:fall]Hands, blown in ^*red*.",
+     "[d:intrigue][go:1|1.43][act:intrigued, emphatic]The same shapes turn up on ^*every* inhabited continent, on cave walls and rock ^shelters. [act:teasing][tune:rise]^Coincidence? [act:a hint of mystery][tune:rise]Or a ^*lesson*, taught to the whole world by one lost ^culture?"
     ]
    },
    {
     "role": "world",
     "visual": {
-     "from": 0
-    },
-    "frame": {
-     "s": 1.1,
-     "y": -0.05
+     "from": 1
     },
     "lines": [
-     "[d:calm][k:WHERE WRITING BEGINS][go:1][act:the textbook view, plain]Writing starts about {5,300|five thousand three hundred} years ago, in ^Mesopotamia.",
-     "[d:aside][act:wry, gently critical]Everything older gets filed under ^'art'. [cam:1.3|0|0.1][act:a thoughtful doubt]Maybe too ^*quickly*."
+     "[go:2|1.67][d:calm][act:the textbook view, plain]Writing starts about {5,300|five thousand three hundred} years ago, in ^Mesopotamia: signs pressed into ^clay. [p:0.93][act:explaining, a picture]Put the last half-million years on one ^line, and writing is this thin ^sliver at the very end.",
+     "[d:aside][act:wry, gently critical]Everything older gets filed under ^'art', as mere ^decoration. [act:a thoughtful doubt]Maybe too ^*quickly*."
     ]
    },
    {
     "role": "collision",
     "visual": {
-     "from": 1
-    },
-    "frame": {
-     "s": 1.08,
-     "y": -0.12
+     "from": 2
     },
     "lines": [
-     "[d:build][k:ICE AGE EUROPE][go:3][act:admiring a patient researcher]In Ice Age caves, Genevieve von Petzinger counted just [count:32|signs]^*thirty-two* signs, [cam:1.25|0|-0.04]repeated for thirty ^thousand years."
+     "[go:3|1.43][d:build][act:admiring a patient researcher]In the Ice Age caves of ^Europe, the researcher Genevieve von Petzinger logged every sign, cave after ^cave. [act:the surprise][tune:fall]She found just ^*thirty-two* of them. [p:0.93][act:slower, letting it land]The same thirty-two, repeated for thirty ^thousand years."
     ]
    },
    {
     "role": "cost",
     "visual": {
-     "from": 6,
-     "cut": true
-    },
-    "frame": {
-     "s": 1.1,
-     "y": -0.05
+     "from": 3
     },
     "lines": [
-     "[d:build][k:OLDER][act:going deeper, building]Go further ^back. [act:precise, impressed]A hand stencil on Sulawesi: [stamp:67,800+ YEARS|gold]at least ^sixty-seven thousand eight hundred years old.",
-     "[d:wonder][go:7][act:wonder, softly]A crayon drawing in South ^Africa: ^*seventy-three* thousand."
+     "[go:4|1.66][d:build][act:going deeper, building]Go further ^back. [act:precise, impressed]On the island of Sulawesi, a hand stencil is at least {67,800|sixty-seven thousand eight hundred} years ^old. [p:0.93][act:curious, the method]How can paint be ^dated? [act:explaining, an everyday picture]Water seeping down the rock leaves a thin mineral crust over it, like scale in a ^kettle, and that crust carries a natural uranium ^clock. [act:clear, the logic]The crust grew on ^top, so the hand beneath must be ^older. [act:landing it][tune:fall]Hence: at ^least.",
+     "[d:wonder][go:5|1.43][act:wonder, softly]In South Africa, a few crossed red lines, drawn with a lump of ^ochre on a flake of ^stone: [tune:fall]{73,000|^seventy-three thousand} years ago."
     ]
    },
    {
     "role": "reversal",
     "visual": {
-     "from": 7
-    },
-    "frame": {
-     "s": 1.12,
-     "y": -0.05
+     "from": 5
     },
     "lines": [
-     "[d:tension][k:THE TWIST][act:setting up the big one][tune:rise]And the ^oldest? [sfx:boom][go:8][act:a surprising answer]A ^zigzag, on a mussel shell from ^Java.",
-     "[d:reveal][cam:1.4|0|-0.04][act:the reveal, slow]At least ^*four hundred and thirty thousand* years old. [act:precise]Engraved by Homo ^erectus. [act:quiet, pointed]Not by ^*us*."
+     "[d:tension][act:setting up the big one][tune:rise]And the ^oldest? [sfx:boom][go:6|1.66][act:a surprising answer]A ^zigzag, scratched into a mussel shell from ^Java.",
+     "[d:reveal][p:0.9][act:the reveal, slow]At least {430,000|^four hundred and thirty thousand} years ^old. [act:precise]Engraved by Homo ^erectus, long before our own species ^existed. [act:quiet, pointed]Not by ^*us*."
     ]
    },
    {
     "role": "tag",
     "visual": {
-     "from": 8
-    },
-    "frame": {
-     "s": 0.95,
-     "y": -0.14
+     "from": 6
     },
     "lines": [
-     "[d:verdict][k:THE VERDICT][p:0.96][act:weighing the big theory][tune:rise]One lost ^culture, teaching the world? [act:plain, decisive]The ^dates don't line up.",
-     "[d:wonder][p:0.94][go:9][act:warmer, the likelier idea][tune:rise]One kind of ^mind, drawing the same shapes? [act:gently sure]Far more ^likely. [act:hushed wonder][tune:level]And ^maybe... [act:the last thought, quiet][tune:fall]the ^*bigger* mystery."
+     "[go:7|2.22][d:verdict][p:0.96][act:weighing the big theory][tune:rise]One lost ^culture, teaching the world the same ^signs? [act:the verdict, even][tune:fall]*Awaiting ^evidence*. [act:plain, decisive]The ^dates don't line up. [p:0.93][act:explaining, clear]One teacher would leave one starting ^point, and a trail spreading ^out. [act:precise]Instead, the signs turn up at scattered dates, on different ^continents, [act:the clincher][tune:fall]and the oldest is older than our own ^species.",
+     "[go:8|0.8][d:wonder][p:0.94][act:warmer, the likelier idea][tune:rise]One kind of ^mind, drawing the same shapes, again and ^again? [act:gently sure]Far more ^likely. [act:hushed wonder][tune:level]And ^maybe... [act:the last thought, quiet][tune:fall]the ^*bigger* mystery."
     ]
    }
   ],
@@ -443,112 +333,85 @@
    "#Prehistory",
    "#Archaeology",
    "#Symbols",
-   "#History"
+   "#WeighItYourself"
   ],
-  "voice": "narrator",
   "sources": "Oktaviana et al. 2026, Nature · Henshilwood et al. 2018, Nature · Joordens et al. 2015, Nature",
-  "code": "02.02"
+  "view": "films",
+  "story": "ice-age-signs",
+  "site": "films/out/ice-age-signs.html",
+  "voice": "narrator"
  },
  {
   "id": "gobekli",
   "series": "Before Us",
+  "code": "01.07",
   "title": "Stone giants before farming",
   "case": "gobekli-excavation",
   "verdict": "unsupported",
   "claim": "Göbekli Tepe's dig is being slowed to hide what's buried?",
   "mood": "awe",
-  "ambience": "wind",
-  "view": "marvels",
-  "story": "gobekli",
   "hook_text": "Older than Stonehenge by *6,000 years*.",
   "beats": [
    {
     "role": "hook",
     "visual": {
-     "from": 2,
-     "to": 2
-    },
-    "frame": {
-     "s": 1.1,
-     "y": 0.02
+     "from": 0
     },
     "lines": [
-     "[d:intrigue][k:C. 11,600 YEARS AGO][sfx:boom][act:awe, building]Six ^*thousand* years before Stonehenge, someone raised stone ^*giants*, on a hill in Turkey.",
-     "[d:list][cam:1.3|0|0.05][act:counting what they lacked][tune:level]No ^metal. [tune:level]No ^writing. [act:then the turn][tune:level]Just stone, ^flint... [act:the surprise, warm][tune:fall]and a ^*plan*."
+     "[d:intrigue][sfx:boom][act:awe, building]Some six ^*thousand* years before Stonehenge, someone raised stone ^*giants* on a hill in ^Turkey.",
+     "[go:1|0.8][d:list][act:counting what they lacked][tune:level]No ^metal. [act:same rhythm][tune:level]No ^writing. [act:same rhythm][tune:level]No ^farms. [act:then the turn][tune:level]Just stone, ^flint... [act:the surprise, warm][tune:fall]and a ^*plan*."
     ]
    },
    {
     "role": "world",
     "visual": {
-     "from": 0,
-     "cut": true
-    },
-    "frame": {
-     "s": 1.1,
-     "y": 0.02
+     "from": 1
     },
     "lines": [
-     "[d:wonder][k:GÖBEKLI TEPE][act:quiet wonder, presenting it]This is Göbekli ^Tepe.",
-     "[d:build][sfx:chisel][go:1][act:describing the work, impressed]They carved T-shaped pillars straight out of [cam:1.35|0.05|-0.05]the ^bedrock. [act:a telling detail]The biggest, around [count:10|tonnes]^*ten* tonnes."
+     "[go:2|1.45][d:wonder][act:quiet wonder, presenting it]This is Göbekli ^Tepe, in the southeast of ^Turkey. [act:plain, precise]Its great stones went up about eleven thousand six hundred years ^ago.",
+     "[d:build][sfx:chisel][go:3|1.67][act:describing the work, impressed]They carved T-shaped pillars straight out of the ^bedrock, with flint ^tools. [act:a telling detail]The biggest weigh around [count:10|tonnes]^*ten* tonnes: [act:an everyday picture, light]as heavy as seven ^cars."
     ]
    },
    {
     "role": "collision",
     "visual": {
-     "from": 2,
-     "cut": true
-    },
-    "frame": {
-     "s": 1.12,
-     "y": 0.02
+     "from": 3
     },
     "lines": [
-     "[d:calm][k:ENCLOSURE D][act:simple, calm]Then, they stood them in ^rings.",
-     "[d:list][sfx:hit][go:3][act:inviting, intrigued]Look ^closer. [sfx:shimmer][act:a discovery]They have ^*arms*. [act:pointing out details][tune:level]Hands over the ^belly. [cam:1.5|0|-0.12][tune:level]A ^belt. [tune:fall]A fox ^pelt.",
-     "[d:reveal][p:0.95][act:the reveal, slow]These aren't ^pillars. [act:sure, a hush]They're ^*bodies*."
+     "[go:4|1.43][d:calm][act:simple, calm]Then they stood them in ^rings: [act:describing it, admiring]a stone wall lined with ^pillars, and two taller ones in the ^middle.",
+     "[d:list][sfx:hit][go:5|1.66][act:inviting, intrigued]Look ^closer. [sfx:shimmer][act:a discovery]They have ^*arms*. [act:pointing out details][tune:level]Hands over the ^belly. [act:same rhythm][tune:level]A ^belt. [act:same rhythm][tune:fall]A fox ^pelt.",
+     "[go:6|0.8][d:reveal][p:0.95][act:the reveal, slow]These aren't just ^pillars. [p:0.93][act:explaining, simple]The top of the T is a ^head, the long shaft a ^torso. [act:sure, a hush]They're ^*bodies*."
     ]
    },
    {
     "role": "cost",
     "visual": {
-     "from": 4,
-     "cut": true
-    },
-    "frame": {
-     "s": 1.1,
-     "y": 0.02
+     "from": 6
     },
     "lines": [
-     "[d:build][k:THE VULTURE STONE][act:recounting a bold idea]In {2017|twenty seventeen}, two researchers read@past one pillar as a [cam:1.4|0|0.12]^*star map*, of a comet strike,",
+     "[go:7|1.43][d:build][act:recounting a bold idea]In {2017|twenty seventeen}, two researchers read@past one pillar, the Vulture ^Stone, as a ^*star map*. [p:0.93][act:explaining, a picture]The Earth wobbles slowly, like a spinning ^top, so the stars seen in each season shift over thousands of ^years. [act:explaining, the trick]Match a carving to that sky, and you get a ^date. [act:their reading, vivid]They read@past it as the record@noun of a ^comet strike,",
      "[d:calm][stamp:10,950 BCE ± 250|gold][act:completing the thought][tune:fall]around ^eleven thousand BCE."
     ]
    },
    {
     "role": "reversal",
     "visual": {
-     "from": 4
-    },
-    "frame": {
-     "s": 1.08,
-     "y": 0.02
+     "from": 7
     },
     "lines": [
-     "[d:reveal][k:THE TWIST][act:the pushback, firm]The excavators pushed ^back: that date is more than a ^*thousand* years before the pillar was carved.",
-     "[d:reveal][go:8|0][act:relishing the real shock][tune:rise]And the real ^shock? [act:quiet amazement]After thirty years of digging, only about [count:10|%]a ^*tenth* of the site has been excavated."
+     "[go:8|1.69][d:reveal][act:the pushback, firm]The excavators pushed ^back. [p:0.93][act:explaining, the method]Radiocarbon, a clock that burns down like a candle in anything that once ^lived, dates the enclosure ^itself. [act:the problem, plain]The pillar was carved more than a ^*thousand* years after that ^sky. [act:fair, weighing][tune:rise]A sky from a thousand years ^earlier?",
+     "[d:reveal][go:9|1.44][act:relishing the real shock][tune:rise]And the real ^shock? [act:quiet amazement]After thirty years of digging, only about [count:10|%]a ^*tenth* of the site has been ^excavated. [act:the suspicion, fair][tune:rise]Why so ^slow? [act:their case, even]Some say the dig is being held back, to hide what's ^buried.",
+     "[d:build][go:10|1.66][p:0.93][act:explaining, patient]But digging ^destroys what it uncovers: [act:a picture, vivid]like reading a book that ^burns, page by page, as you turn it. [act:explaining, clear]So every layer is measured, drawn and photographed before it ^goes. [act:plain, reassuring]And part of a site is often left untouched, for the better tools of the ^future."
     ]
    },
    {
     "role": "tag",
     "visual": {
-     "from": 8
-    },
-    "frame": {
-     "s": 1.05,
-     "y": 0.02
+     "from": 10
     },
     "lines": [
-     "[d:verdict][k:THE VERDICT][p:0.96][act:weighing it, even][tune:rise]Hidden on ^purpose? [act:the verdict, calm and fair]The record@noun shows slow, ^careful work, published as it ^goes.",
-     "[d:tension][p:0.93][go:9][cam:1.1|0|-0.12][act:quiet, full of promise][tune:level]The other ^nine-tenths are still underground... [act:hushed][tune:fall]^*waiting*."
+     "[go:11|1.65][d:verdict][p:0.96][act:weighing it, even][tune:rise]Hidden on ^purpose? [act:the evidence, calm and fair]The record@noun shows slow, ^careful work, published as it ^goes. [act:the verdict, measured][tune:fall]*Awaiting ^evidence*.",
+     "[go:12|1.3][d:tension][p:0.93][act:quiet, full of promise][tune:level]The other ^nine-tenths are still underground... [act:hushed][tune:fall]^*waiting*."
     ]
    }
   ],
@@ -558,110 +421,83 @@
    "#Archaeology",
    "#Neolithic",
    "#AncientHistory",
-   "#Turkey"
+   "#WeighItYourself"
   ],
-  "voice": "narrator",
   "sources": "Schmidt 2012 · Clare 2020, e-Forschungsberichte des DAI · Sweatman & Tsikritsis 2017",
-  "code": "01.07"
+  "view": "films",
+  "story": "gobekli",
+  "site": "films/out/gobekli.html",
+  "voice": "narrator"
  },
  {
   "id": "sealed-door",
   "series": "Under Giza",
+  "code": "05.02",
   "title": "The door inside the Great Pyramid",
   "case": "upuaut-door",
   "verdict": "unsupported",
   "claim": "Egypt hid what lies behind the Great Pyramid's doors?",
   "mood": "mystery",
-  "view": "power",
-  "story": "shaft",
   "hook_text": "A door behind *a door*.",
   "beats": [
    {
     "role": "hook",
     "visual": {
-     "from": 3,
-     "to": 3
-    },
-    "frame": {
-     "s": 1.0,
-     "y": 0.0
+     "from": 0
     },
     "lines": [
-     "[d:intrigue][k:INSIDE THE GREAT PYRAMID][sfx:boom][act:a secret, confiding]There's a ^*door*, inside the Great Pyramid.",
-     "[d:tension][cam:1.25|0|0.04][act:suspense, slow][tune:level]Behind it... [act:the twist][tune:fall]^*another* door. [act:hushed mystery]And ^nobody knows what's behind ^*that* one."
+     "[d:intrigue][sfx:boom][act:a secret, confiding]There's a ^*door*, deep inside the Great Pyramid of ^Egypt.",
+     "[d:tension][act:suspense, slow][tune:level]Behind it... [act:the twist][tune:fall]^*another* door. [act:hushed mystery]And ^nobody knows what's behind ^*that* one."
     ]
    },
    {
     "role": "world",
     "visual": {
-     "from": 0,
-     "to": 0,
-     "cut": true
-    },
-    "frame": {
-     "s": 1.0,
-     "y": 0.0
+     "from": 0
     },
     "lines": [
-     "[d:calm][k:THE SHAFTS][act:plain, orienting]It sits at the end of a shaft from the Queen's ^Chamber. [cam:1.35|0|0.03][act:showing how small]Twenty ^*centimetres* square.",
-     "[d:aside][p:1.05][go:1|2.2][act:light, amused]Too narrow for a ^person. [act:a playful image]Barely wide enough for a ^*cat*."
+     "[go:1|1.43][d:calm][act:plain, orienting]It sits in the heart of the pyramid, at the end of a long, narrow shaft that climbs from a room called the Queen's ^Chamber.",
+     "[go:2|1.3][d:calm][p:0.93][act:intrigued, a little detail]The shaft's mouth was hidden behind the chamber wall until {1872|eighteen seventy-two}, and it has no known way ^out.",
+     "[d:aside][go:3|2.2][p:0.93][act:showing how small]It's just twenty ^*centimetres* square, about the width of a sheet of printer ^paper. [p:1.05][act:light, amused]Too narrow for a ^person. [act:a playful image]Barely wide enough for a ^*cat*."
     ]
    },
    {
     "role": "collision",
     "visual": {
-     "from": 1.6,
-     "cut": true
-    },
-    "frame": {
-     "s": 1.0,
-     "y": 0.0
+     "from": 3
     },
     "lines": [
-     "[d:build][k:1993][go:2|4][act:storytelling, onward]In {1993|nineteen ninety-three}, engineer Rudolf Gantenbrink sent in a ^robot, called ^Upuaut.",
-     "[d:build][sfx:whoosh][act:the discovery, growing excitement]Sixty metres up, its camera found [go:3|2.4][sfx:hit]a stone ^door, with ^*copper* fittings."
+     "[go:4|1.44][d:build][act:storytelling, onward]So in {1993|nineteen ninety-three}, the engineer Rudolf ^Gantenbrink sent in a small ^robot, called ^Upuaut, with a lamp and a ^camera.",
+     "[go:5|0.8][d:build][sfx:whoosh][act:the climb, growing excitement]It crawled up the steep shaft, metre by ^metre. [act:the discovery, hushed]About sixty metres up, its camera found [go:6|2.4][sfx:hit]a stone ^door, with two ^*copper* fittings."
     ]
    },
    {
     "role": "cost",
     "visual": {
-     "from": 4,
-     "cut": true
-    },
-    "frame": {
-     "s": 1.0,
-     "y": 0.0
+     "from": 6
     },
     "lines": [
-     "[d:tension][k:2002][go:5|2.6][act:live television suspense]Nine years later, a new robot drilled through, live@adj! on ^television, [sfx:drill]and found... [go:5.72|1.8][sfx:hit][act:the anticlimax, wry][tune:fall]^*another* stone."
+     "[go:7|2.23][d:tension][act:the wait, wry]Then the work ^stopped. [act:plain, counting]Nine ^years later, in {2002|two thousand and two}, a new robot drilled a tiny hole through the ^door. [p:0.93][act:explaining, clear]It's the same trick as a doctor's keyhole ^camera: make a small opening, and slide a lens ^through.",
+     "[go:8|0.8][d:tension][sfx:drill][act:live television suspense]All of it ^live@adj, on ^television. [act:holding the breath]The camera went in, and found... [sfx:hit][act:the anticlimax, wry][tune:fall]^*another* stone."
     ]
    },
    {
     "role": "reversal",
     "visual": {
-     "from": 5.72,
-     "cut": false
-    },
-    "frame": {
-     "s": 1.0,
-     "y": 0.0
+     "from": 8
     },
     "lines": [
-     "[d:reveal][k:THE TWIST][go:6|2.2][act:a new clue, intrigued]In {2011|twenty eleven}, the Djedi robot looked into the gap, and saw [sfx:shimmer][cam:1.55|0|-0.2]red, ^*painted* marks. [cam:1.3|0|0.16][act:the sensible answer, calm]Probably the builders' own ^notes.",
-     "[d:calm][go:7|3.2][act:sober, factual]Access is tightly ^rationed. [act:even, careful]Nothing on record@noun shows a hidden ^find."
+     "[go:9|1.19][d:reveal][act:a new clue, intrigued]In {2011|twenty eleven}, another robot, ^Djedi, slipped a bendy snake camera through the same ^hole, and looked ^around. [sfx:shimmer][act:the reveal, hushed]On the floor of the little space: red, ^*painted* marks. [act:the sensible answer, calm]Probably the builders' own ^notes. [act:explaining, a nice detail]Work gangs left red paint marks elsewhere in the pyramid ^too, like a carpenter's pencil marks on ^wood.",
+     "[d:calm][go:10|2.2][act:sober, factual]Access is tightly ^rationed: three robots, nine years ^apart. [act:fair, the critics][tune:rise]So it's fair to ask: was something found, and kept ^quiet? [act:even, careful]But what the robots saw was ^shown: on film, on live@adj television, and in a robotics journal, in {2013|twenty thirteen}. [act:plain][tune:fall]Nothing on record@noun shows a hidden ^find."
     ]
    },
    {
     "role": "tag",
     "visual": {
-     "from": 7
-    },
-    "frame": {
-     "s": 1.0,
-     "y": 0.0
+     "from": 10
     },
     "lines": [
-     "[d:verdict][k:THE VERDICT][p:0.95][cam:1.35|0|0.05][act:the open question, honest][tune:fall]So what's behind the second ^stone? [act:plain truth][tune:fall]Still ^*unknown*.",
+     "[go:11|1.38][d:verdict][p:0.95][act:the open question, honest][tune:rise]So what's behind the second ^stone? [act:plain truth][tune:fall]Still ^*unknown*. [act:weighing it][tune:rise]A secret kept from ^us? [act:the verdict, measured][tune:fall]^Awaiting evidence.",
      "[d:tension][p:0.93][act:hushed, inviting][tune:level]Somewhere in the ^dark... [act:quiet promise][tune:fall]the answer is ^*waiting*."
     ]
    }
@@ -672,112 +508,84 @@
    "#Giza",
    "#AncientEgypt",
    "#Archaeology",
-   "#Mystery"
+   "#WeighItYourself"
   ],
-  "voice": "narrator",
   "sources": "Richardson et al. 2013, Journal of Field Robotics · Lehner & Hawass 2017, Giza and the Pyramids",
-  "code": "05.02"
+  "view": "films",
+  "story": "sealed-door",
+  "site": "films/out/sealed-door.html",
+  "voice": "narrator"
  },
  {
   "id": "where-we-stand",
   "series": "The Method",
+  "code": "00.01",
   "title": "Where is the rock going?",
   "case": null,
   "verdict": null,
   "claim": "A calculable road, and a question physics can't answer.",
   "mood": "space",
-  "view": "stand",
-  "story": "stand",
   "hook_text": "You're moving at *1,670 km/h*.",
   "beats": [
    {
     "role": "hook",
     "visual": {
-     "from": 0,
-     "to": 0
-    },
-    "frame": {
-     "s": 1.0,
-     "y": 0.05
+     "from": 0
     },
     "lines": [
-     "[d:intrigue][k:RIGHT NOW][sfx:shimmer][act:a startling fact, calmly]Right now, you're moving at up to [count:1670|km/h]{1,670|sixteen hundred and seventy} kilometres an hour.",
-     "[d:wonder][cam:1.25|0|0.04][act:the playful turn][tune:level]And you ^feel... [act:amused, soft][tune:fall]^*nothing*."
+     "[d:intrigue][sfx:shimmer][act:a startling fact, calmly]Right now, you're moving at up to [count:1670|km/h]{1,670|sixteen hundred and seventy} kilometres an ^hour.",
+     "[d:wonder][act:the playful turn][tune:level]And you ^feel... [act:amused, soft][tune:fall]^*nothing*. [p:0.93][act:explaining, simple]That's the Earth ^spinning: one lap of the equator, about forty thousand ^kilometres, every single ^day. [act:an everyday picture, warm]On a smooth flight, your drink sits perfectly ^still. [act:the key idea, plain][tune:fall]You only feel speed when it ^changes."
     ]
    },
    {
     "role": "world",
     "visual": {
-     "from": 1,
-     "cut": true
-    },
-    "frame": {
-     "s": 1.0,
-     "y": 0.02
+     "from": 0
     },
     "lines": [
-     "[d:calm][k:ZOOM OUT][act:zooming out, clear]Around the ^Sun: ^*thirty* kilometres, every second.",
-     "[d:build][sfx:whoosh][go:2][act:bigger still]Around the ^galaxy: over ^*two hundred*. [act:awe at the scale]One lap takes {230 million|two hundred and thirty million} years.",
-     "[d:aside][p:1.04][cam:1.3|0|0.02][act:a fun aside, light]Last time we were here, the dinosaurs were just getting ^*started*."
+     "[go:1|1.43][d:calm][act:zooming out, clear]And that's the ^slow part. [act:steady, a little amazed]Around the ^Sun, the Earth covers ^thirty kilometres every ^second. [p:0.93][act:a vivid comparison]That's its own width in about ^seven minutes@time.",
+     "[d:build][sfx:whoosh][go:2|1.66][act:bigger still]And the Sun carries us all around our ^galaxy, a vast, spinning disc of ^stars, at over two hundred kilometres a ^second. [p:0.93][act:awe at the scale]Even so, one lap takes about {230 million|two hundred and thirty million} ^years.",
+     "[d:aside][p:1.04][act:a fun aside, light]Last time we were at this spot, the ^dinosaurs were just getting ^*started*."
     ]
    },
    {
     "role": "collision",
     "visual": {
-     "from": 5,
-     "to": 5,
-     "cut": true
-    },
-    "frame": {
-     "s": 1.02,
-     "y": 0.04
+     "from": 2
     },
     "lines": [
-     "[d:calm][k:US][act:turning to us][tune:rise]The oldest fossils of our own ^kind? [act:plain]About {300,000|three hundred thousand} years old.",
-     "[d:wonder][act:a vivid comparison]Squeeze Earth's history into one ^day, and we arrive [sfx:ticks][cam:1.7|0|0.32]in the last ^*six seconds*."
+     "[go:3|1.43][d:calm][act:turning to us][tune:rise]And ^us? [act:plain]The oldest known fossils of our own ^kind are about {300,000|three hundred thousand} years old.",
+     "[d:wonder][p:0.93][act:a vivid comparison]Squeeze all of Earth's history, about four and a half billion years, into a single ^day. [act:slowly, the reveal]The dinosaurs turn up at about a quarter to ^eleven at night. [sfx:ticks][p:0.93][act:the punchline, hushed]And we arrive in the last ^*six seconds* before ^midnight."
     ]
    },
    {
     "role": "cost",
     "visual": {
-     "from": 6,
-     "cut": true
-    },
-    "frame": {
-     "s": 1.0,
-     "y": 0.03
+     "from": 3
     },
     "lines": [
-     "[d:calm][k:THE ROAD AHEAD][act:confident]The road ahead is ^*calculable*.",
-     "[d:build][act:a near miss, vivid]In {2029|twenty twenty-nine}, asteroid Apophis [cam:1.35|0.08|0.15]passes closer than our TV ^*satellites*.",
-     "[d:tension][go:9|1.6][cam:1|0|0][act:sober, the long view]In about a billion years, [sfx:boom]the brightening Sun takes the ^*oxygen*."
+     "[go:4|1.66][d:calm][act:confident]The road ahead is ^*calculable*. [p:0.93][act:explaining, clear]Gravity is so regular that we can run the sums ^forward, like ^clockwork.",
+     "[d:build][act:a near miss, vivid]In {2029|twenty twenty-nine}, asteroid Apophis, a rock a few hundred metres ^across, passes closer than our TV ^*satellites*. [p:0.93][act:precise, calm]They circle about thirty-six thousand kilometres ^up; Apophis slips by at about thirty-two ^thousand. [act:reassuring, a small smile][tune:fall]And the sums say it ^misses.",
+     "[d:tension][go:5|1.43][act:sober, the long view]In about a billion years, the slowly brightening Sun takes the ^*oxygen*. [p:0.93][act:explaining, step by step]A hotter Earth locks carbon dioxide away in its ^rocks, plants go ^hungry, and the oxygen they breathe out ^fades."
     ]
    },
    {
     "role": "reversal",
     "visual": {
-     "from": 10,
-     "cut": true
-    },
-    "frame": {
-     "s": 1.0,
-     "y": 0.02
+     "from": 5
     },
     "lines": [
-     "[d:wonder][k:THE FAR FUTURE][p:0.96][act:vast, slow]Then the Sun [cam:1.25|0|0]swells, into a red ^*giant*.",
-     "[d:reveal][go:11][cam:0.92|-0.03|0][act:a cosmic twist][tune:rise]And ^Andromeda? [act:precise, a little amazed]A {2025|twenty twenty-five} study puts a collision at [stamp:≈ 50 / 50|gold]about ^*even* odds."
+     "[go:6|1.66][d:wonder][p:0.96][act:vast, slow]Then, in about five billion years, the Sun ^swells into a red ^*giant*, more than a hundred times ^wider than today.",
+     "[d:reveal][go:7|1.43][act:a cosmic twist][tune:rise]And ^Andromeda, the nearest big galaxy, is heading our ^way. [p:0.93][act:explaining, like a forecast]A {2025|twenty twenty-five} study ran the future again and again, nudging every measurement within its ^error. [act:precise, a little amazed]In about half the runs, the two galaxies ^merge within ten billion years: a collision at [stamp:≈ 50 / 50|gold]about ^*even* odds."
     ]
    },
    {
     "role": "tag",
     "visual": {
-     "from": 12
-    },
-    "frame": {
-     "s": 1.0
+     "from": 7
     },
     "lines": [
-     "[d:verdict][k:WHERE WE STAND][p:0.95][act:humble, honest]Past that, the equations fog ^over. [go:13][act:the big thought, gentle]That's where ^physics stops, [cam:1.3|0|0]and ^*belief* begins.",
+     "[go:8|1.66][d:verdict][p:0.95][act:humble, honest]Past that, the equations fog ^over. [act:the big thought, gentle]Physics can calculate the ^road. [p:0.93][act:quiet, sincere][tune:fall]What the journey ^means, no equation can tell us.",
      "[d:tension][p:0.93][act:a pause to think][tune:level]So... [act:a real question, warm][tune:fall]where do ^*you* stand?"
     ]
    }
@@ -788,121 +596,95 @@
    "#Earth",
    "#Andromeda",
    "#Science",
-   "#Philosophy"
+   "#WeighItYourself"
   ],
-  "voice": "narrator",
   "sources": "Hublin et al. 2017, Nature · Ozaki & Reinhard 2021, Nature Geoscience · Sawala et al. 2025, Nature Astronomy",
-  "code": "00.01"
+  "view": "films",
+  "story": "where-we-stand",
+  "site": "films/out/where-we-stand.html",
+  "voice": "narrator"
  },
  {
   "id": "khafre-pillars",
   "series": "Under Giza",
+  "code": "05.01",
   "title": "Pillars under Khafre?",
   "case": "khafre-radar",
   "verdict": "unsupported",
   "claim": "A vast structure 648 metres under Khafre's pyramid?",
   "mood": "mystery",
-  "ambience": "wind",
-  "view": "home",
-  "story": "home",
   "hook_text": "648 metres *under* a pyramid?",
   "beats": [
    {
     "role": "hook",
     "visual": {
-     "from": 8,
-     "to": 8
-    },
-    "frame": {
-     "s": 1.1,
-     "y": -0.05
+     "from": 0
     },
     "lines": [
-     "[d:intrigue][k:THE CLAIM][sfx:boom][act:stating the claim, deadpan]{648|Six hundred and forty-eight} metres. [cam:1.25|0|-0.13][act:letting it land][tune:fall]Straight ^*down*. [act:the kicker][tune:fall]Under a ^*pyramid*.",
-     "[d:tension][sfx:rumble][act:dry, knowing]That's the ^claim. [act:intrigued, drawing them in][tune:level]What happened ^*next*... [act:quiet promise][tune:fall]is the ^real story."
+     "[d:intrigue][sfx:boom][act:stating the claim, deadpan]{648|Six hundred and forty-eight} metres. [act:letting it land][tune:fall]Straight ^*down*. [act:the kicker][tune:fall]Under a ^*pyramid*.",
+     "[d:tension][sfx:rumble][act:dry, knowing]That's the ^claim, about a pyramid in ^Egypt. [act:intrigued, drawing them in][tune:level]What happened ^*next*... [act:quiet promise][tune:fall]is the ^real story."
     ]
    },
    {
     "role": "world",
     "visual": {
-     "from": 0,
-     "to": 0,
-     "cut": true
-    },
-    "frame": {
-     "s": 1.25,
-     "x": -0.2,
-     "y": 0.0
+     "from": 0
     },
     "lines": [
-     "[d:calm][k:GIZA][act:plain, placing it]The pyramid credited to ^Khafre. [cam:2.0|0|0.1][act:a touch of awe]At least four and a half ^*thousand* years old."
+     "[go:1|1.43][d:calm][act:plain, placing it]This is ^Giza, in Egypt: the pyramid credited to the pharaoh ^Khafre, beside the Great ^Pyramid.",
+     "[go:2|1.3][d:calm][p:0.93][act:a touch of awe]At least four and a half ^*thousand* years old, and about a hundred and forty-three metres ^tall when new."
     ]
    },
    {
     "role": "collision",
     "visual": {
-     "from": 8,
-     "to": 8,
-     "cut": true
-    },
-    "frame": {
-     "s": 2.4,
-     "x": 0.024,
-     "y": 0.286,
-     "nl": 1
+     "from": 2
     },
     "lines": [
-     "[d:build][k:THE ANNOUNCEMENT][p:1.03][act:reporting the announcement, brisk]In {2025|twenty twenty-five}, an Italian team said satellite radar had found [sfx:whoosh]^*eight* shafts, [cam:2.4|0.024|-0.05]spiralling down beneath it. [cam:2.6|0.026|-0.24][act:the big claim, eyebrows up]And [sfx:hit]two giant ^*cubes*.",
-     "[d:aside][p:1.06][cam:1.15|0|0][act:dry, amused]Not bad, for a survey@noun that never touched the ^*ground*."
+     "[go:3|1.43][d:build][p:0.93][act:doing the sum, vivid]Now stack four and a half of those pyramids, one below another, down into the ^rock. [act:letting it land][tune:fall]That's how deep the claim ^goes.",
+     "[d:build][go:4|1.75][act:reporting the announcement, brisk]In {2025|twenty twenty-five}, an Italian team said satellite ^radar had found [sfx:whoosh]^*eight* shafts down there, spiralling ^deep. [act:the big claim, eyebrows up]And far below, [sfx:hit]two giant ^*cubes*.",
+     "[go:5|0.8][d:aside][p:1.06][act:dry, amused]Not bad, for a survey@noun that never touched the ^*ground*."
+    ]
+   },
+   {
+    "role": "collision",
+    "visual": {
+     "from": 5
+    },
+    "lines": [
+     "[go:6|1.43][d:build][act:fair, curious][tune:rise]Can radar from space see that ^deep? [p:0.93][act:explaining, clear]Radar works like an ^echo: send a pulse, time its ^return, and you know how far it ^travelled. [act:patient, the limit]From orbit, it sees the ^surface, and in very dry sand, a few metres ^below.",
+     "[go:7|0.8][d:build][act:fair, their side]The team says its new way of processing echoes sees far ^*deeper*. [p:0.93][act:even, the rule]But a new tool earns trust one way: it gets ^tested, on something we can ^check."
     ]
    },
    {
     "role": "cost",
     "visual": {
-     "from": 5,
-     "to": 5,
-     "cut": true
-    },
-    "frame": {
-     "s": 1.0,
-     "x": -0.06,
-     "y": -0.09
+     "from": 7
     },
     "lines": [
-     "[d:wonder][k:WHAT'S REAL][act:fair, what is real]Now, hidden spaces at Giza ^*are* real. [act:precise, a little wonder]In {2017|twenty seventeen}, [sfx:shimmer]cosmic-ray muons revealed [cam:1.3|0.02|0.06]a void, at least ^*thirty* metres long, inside the Great ^Pyramid. [act:firm, a credential]Peer ^reviewed."
+     "[go:8|1.65][d:wonder][act:fair, what is real]And hidden spaces at Giza ^*are* real. [p:0.93][act:explaining, a spark of wonder]Cosmic rays hitting our air make [sfx:shimmer]^muons, particles that rain through almost ^everything. [act:the analogy, clear]Stone stops some. [act:the payoff]An empty space lets more ^through, like an ^X-ray.",
+     "[go:9|0.8][d:wonder][act:precise, a little wonder]In {2017|twenty seventeen}, muons revealed a ^void, at least ^*thirty* metres long, inside the Great ^Pyramid. [stamp:NATURE · 2017|gold][act:firm, a credential]Peer ^reviewed. [act:the test, leaning in]Then in {2023|twenty twenty-three}, they pointed to a small ^corridor behind its north ^face. [act:quiet, careful]A camera slid in... [act:quiet satisfaction][tune:fall]and there it ^was."
     ]
    },
    {
     "role": "reversal",
     "visual": {
-     "from": 7,
-     "to": 7,
-     "cut": true
-    },
-    "frame": {
-     "s": 1.2,
-     "x": -0.12,
-     "y": 0.02,
-     "nl": 1
+     "from": 9
     },
     "lines": [
-     "[d:reveal][k:THE TWIST][p:0.96][act:the turn][tune:rise]The Khafre ^shafts? [act:plain, sober][tune:fall]No peer-reviewed ^paper.",
-     "[d:reveal][act:sober, a heavy fact]And in August {2026|twenty twenty-six}, the team's earlier pyramid study was [stamp:RETRACTED · AUG 2026|red]^*retracted*."
+     "[go:10|1.43][d:reveal][p:0.96][act:the turn][tune:rise]The Khafre ^shafts? [act:plain, sober][tune:fall]No peer-reviewed ^paper. [p:0.93][act:explaining, simple]Peer review: other experts check a study before a journal prints it, the method, the data, the ^sums. [act:light, an everyday picture]Like a referee checking a goal, before it ^counts.",
+     "[go:11|0.8][d:reveal][act:sober, a heavy fact]And in August {2026|twenty twenty-six}, the team's earlier pyramid study, in the journal Remote Sensing, was [stamp:RETRACTED · AUG 2026|red]^*retracted*. [act:explaining, plain]The journal ^withdrew it. [act:quiet, firm][tune:fall]It no longer stands in the ^record@noun."
     ]
    },
    {
     "role": "tag",
     "visual": {
-     "from": 8,
-     "cut": true
-    },
-    "frame": {
-     "s": 0.94,
-     "y": -0.12
+     "from": 11
     },
     "lines": [
-     "[d:verdict][k:THE VERDICT][p:0.95][act:naming what is missing][tune:level]No drill ^core. [tune:level]No seismic ^survey@noun. [tune:fall]No open ^data. [go:9|5.2][act:the verdict, a small smile][tune:level]So the pillars stay... [act:gently final][tune:fall]on ^*paper*.",
-     "[d:wonder][p:0.95][go:10|2.6][act:widening out, curious][tune:rise]And ^Giza? [act:warm wonder]One dot, on a planet full of ^*open* questions."
+     "[go:12|1.67][d:verdict][p:0.95][act:naming what is missing][tune:level]What would settle it? [act:explaining, brisk]A drill ^core: real rock, brought up from that ^depth. [act:same pace, the next one][tune:level]A seismic ^survey@noun: sound sent into the ground, echoes timed, like a ship mapping the ^seabed. [act:the last one][tune:fall]And open ^data, for anyone to ^check.",
+     "[go:13|0.8][d:verdict][act:the verdict, a small smile][tune:level]Until then, the pillars stay... [act:gently final][tune:fall]on ^*paper*. [act:the verdict, level][tune:fall]^Awaiting evidence.",
+     "[d:wonder][p:0.95][go:14|2.6][act:widening out, curious][tune:rise]And ^Giza? [act:warm wonder]One dot, on a planet full of ^*open* questions."
     ]
    }
   ],
@@ -912,11 +694,13 @@
    "#Khafre",
    "#Pyramids",
    "#AncientEgypt",
-   "#Archaeology"
+   "#WeighItYourself"
   ],
-  "voice": "narrator",
   "sources": "Morishima et al. 2017, Nature · Procureur et al. 2023, Nature Communications · Remote Sensing retraction notice, 2026",
-  "code": "05.01"
+  "view": "films",
+  "story": "khafre-pillars",
+  "site": "films/out/khafre-pillars.html",
+  "voice": "narrator"
  },
  {
   "id": "big-void",
@@ -2577,7 +2361,7 @@
     },
     "lines": [
      "[go:5|1.44][d:build][act:tender, vivid]Then, back in New Mexico: footprints of ^children and teenagers, beside an ancient ^lake. [act:tender, a picture][tune:fall]Small feet, walking along the soft mud of the ^shore.",
-     "[go:6|1.3][d:list][act:firm, confident][tune:fall]Dated ^four different ways. [p:0.93][act:explaining, a picture]The prints are sealed between layers of lake mud, like flowers pressed between the pages of a ^book: date the pages above and below, and the prints are trapped in ^between. [stamp:c. 23,000–21,000 YEARS|gold][act:the number, slow and clear][tune:fall]About ^twenty-three to ^twenty-one thousand years old."
+     "[go:6|1.3][d:list][act:firm, confident][tune:fall]Dated ^four different ways. [p:0.93][act:explaining, a picture]The prints are sealed between layers of lake mud, like flowers pressed between the pages of a ^book: date the pages above and below, and the prints are trapped in ^between. [stamp:c. 23,000-21,000 YEARS|gold][act:the number, slow and clear][tune:fall]About ^twenty-three to ^twenty-one thousand years old."
     ]
    },
    {
