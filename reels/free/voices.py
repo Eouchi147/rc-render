@@ -111,7 +111,10 @@ RESPELL.update({  # File 06 Impossible Stones, File 13 The Files
     "mandala": "mahn-dah-lah", "pythia's": "Pith-ee-uh's", "hypogeum's": "Hy-po-jee-um's",
     "hittite": "Hit-tight", "hittites": "Hit-tights", "leif": "Leef",
     "metre": "meeter", "trough": "troff", "troughs": "troffs", "buxtun": "Bux-tun", "macon": "May-kun", "oxyrhynchus": "Ox-ee-ring-kus", "uap": "U.A.P", "army": "armee", "heliopolis": "Hee-lee-op-oh-lis", "nandauwas": "Nahn-dow-wahs",
+    "ʿād": "Aad", "ād": "Aad", "ténéré": "Ten-eh-ray",
 })
+# transliterated names with ʿ / macrons: espeak spells them out letter by letter ("letter 2bf, A macron, d")
+LEX.update({"ʿād": "ˈɑːd", "ād": "ˈɑːd", "ténéré": "tˌɛnɛɹˈeɪ"})
 
 
 def _key(w):
