@@ -1053,6 +1053,14 @@ def wabar_m():
     from mural import remix
     from illus import person, line, glow, label, dot, box, oval, strike, AMBER, BLUE, BONE, RED, GREEN, LILAC
     ep = wabar()
+
+    def _relabel(o):     # a shorter crater label: the long one ran off the frame on the last panel
+        if isinstance(o, dict):
+            return {k: _relabel(v) for k, v in o.items()}
+        if isinstance(o, list):
+            return [_relabel(v) for v in o]
+        return "craters 116 m and 64 m" if o == "craters 116 m and 64 m across · schematic" else o
+    ep = _relabel(ep)
     hook = [line([[900, 260], [560, 900]], .9, "#ffe2b4", 5, dur=.5), glow(560, 900, 190, 1.35, .85, "fire")]
     # the date: a grain of sand as a battery that the impact's heat emptied, charging ever since
     seg = lambda k, at, c: box(578, 1000 - 40 * (k + 1), 74, 34, c, r=5, at=at, fx="pop")
@@ -1062,8 +1070,8 @@ def wabar_m():
         [seg(k, 1.5 + .22 * k, "#8fd9b0") for k in range(6)] +
         [glow(300, 760, 230, 3.4, .9, "fire"), box(566, 566, 98, 438, "#171310", r=8, at=3.6, fx="pop"), label(300, 380, "the impact's heat: empty", 3.6, AMBER, 30)] +
         [seg(k, 4.4 + .3 * k, "#e8c35a") for k in range(8)] +
-        [label(760, 700, "charging since", 4.6, BONE, 28, "start"), label(760, 745, "the impact", 4.6, BONE, 28, "start"),
-         label(760, 840, "≈ 300 years", 7.0, "#e8c35a", 40, "start"),
+        [label(700, 700, "charging since", 4.6, BONE, 28, "start"), label(700, 745, "the impact", 4.6, BONE, 28, "start"),
+         label(700, 840, "≈ 300 years", 7.0, "#e8c35a", 40, "start"),
          box(160, 1130, 90, 30, "#e8c35a", r=6, at=8.0, fx="fill"), label(270, 1155, "Wabar: 300 years", 8.1, "#e8c35a", 28, "start"),
          box(160, 1200, 680, 30, "rgba(201,193,238,.25)", LILAC, 1.5, r=6, at=8.6, fx="fill"), label(160, 1270, "an ancient city: thousands of years", 8.8, LILAC, 28, "start"),
          strike(150, 1215, 850, 1215, 9.6)]}
