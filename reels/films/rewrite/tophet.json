@@ -1,0 +1,28 @@
+{
+ "beats": [
+  [
+   "[d:intrigue][sfx:boom][act:hushed, grave]Under a quiet field in ^Carthage, in North Africa, lie thousands of clay ^urns. [act:quiet, careful]Inside them, the ashes of ^babies.",
+   "[d:tension][act:steady, the question everyone asks]For a century, scholars have argued over one hard ^question. [act:grave, slow][tune:rise]Were these children ^sacrificed?"
+  ],
+  [
+   "[d:calm][act:plain, orienting]This is the ^tophet of Carthage, on the coast of today's ^Tunisia. [p:0.93][act:steady, factual]A sacred precinct, an open-air place of worship, used@verb for some six ^centuries, until Rome destroyed the city in {146|one forty-six} BCE.",
+   "[d:build][go:2|0][p:0.9][act:quietly astonished]One team estimated about twenty ^thousand urns from just ^two of those centuries. [p:0.93][act:doing the sum, sober]That is about a hundred, every single ^year."
+  ],
+  [
+   "[d:build][act:serious, measured]Ancient writers say ^yes. [p:0.93][act:reporting, even]The Greek historian Diodorus claims two hundred noble children were sacrificed in a single crisis, in {310|three ten} BCE. [act:fair, a caveat]But he wrote some two hundred and eighty years ^later, and as an ^outsider. [act:a simple picture]Imagine judging a city from a stranger's book, written ten generations ^on.",
+   "[d:build][act:careful, precise]Yet the site speaks too. [p:0.93][act:precise]Stone markers above the urns record@verb ^vows to the gods Baal Hammon and ^Tanit. [act:explaining]A vow is a promise to a god, kept in return for a ^favour. [act:the challenge, fair and strong][tune:rise]If these were ordinary deaths, why mark them as promises ^kept?"
+  ],
+  [
+   "[d:build][act:laying out the evidence, calm]Then scientists weighed the ^bones. [p:0.93][act:explaining, a simple picture]Teeth form on a strict timetable, like a ^calendar, so even burned remains can give an age in ^weeks. [act:even, clear]One team found many babies who died ^before birth, a pattern that fits ^natural deaths. [act:gentle]In the ancient world, losing a baby was sadly ^common.",
+   "[d:build][act:the counterpoint, fair]Another team found most had died at one to two ^months old. [p:0.93][act:their argument, clear]A peak that sharp, they argue, is too regular to be ^chance."
+  ],
+  [
+   "[d:reveal][act:the crux, slower]And here's the ^catch. [p:0.93][act:gentle, precise]Burned bone can show ^age, but rarely the cause of ^death. [act:a simple picture]It's like a calendar with the last page missing: it tells you ^when, never ^why.",
+   "[d:build][act:warm, careful]At Zita, in southern Tunisia, a later cemetery of infants showed ^illness, and signs of ^care. [act:plain]No violence at ^all. [act:fair, a caveat]But Zita is later, and ^elsewhere: a clue, not an ^answer."
+  ],
+  [
+   "[d:verdict][p:0.95][act:weighing it, calm authority][tune:rise]Child sacrifice at ^Carthage? [act:the verdict, even][tune:fall]*Mixed ^record@noun*. [act:fair, clear]The texts and the vows point one ^way. [act:fair, clear]The bones can't ^confirm it, and can't rule it ^out.",
+   "[d:tension][p:0.93][act:quiet, humane]Whatever happened here, these were ^children. [act:the last word, gentle][tune:fall]And someone ^mourned them."
+  ]
+ ]
+}

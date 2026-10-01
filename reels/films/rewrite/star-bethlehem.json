@@ -1,0 +1,25 @@
+{
+ "beats": [
+  [
+   "[d:intrigue][sfx:boom][act:wonder, painting the sky]In {7|seven} BCE, two bright ^planets, Jupiter and Saturn, drift ^together in the night sky. [act:the marvel, slower]They meet, part, and meet again: ^three times in ^one year. [p:0.93][act:explaining, an image]At their closest, about one degree apart: the width of your little finger, held at arm's ^length.",
+   "[d:tension][act:curious, pulling us in][tune:rise]Was ^this the star of Bethlehem? [act:the second option][tune:rise]Or was it a ^comet, two years later? [act:the last possibility, quieter][tune:fall]Or was it ^nothing at all?"
+  ],
+  [
+   "[d:calm][act:respectful, storytelling]^Only one Gospel tells it, Matthew's: wise men from the ^east, who saw a star at its ^rising. [go:1|0][act:thoughtful, connecting]If they were ^sky-readers, they may have come from the land of ^Babylon, where the sky had been logged, night after night, for a ^thousand years. [p:0.93][act:giving the distance]From there to Jerusalem is about nine hundred kilometres: a month on the ^road."
+  ],
+  [
+   "[d:build][act:leaning in, intrigued]Here is the ^strange part. [act:explaining, clear]Babylonian astronomers kept ^almanacs: clay tablets that forecast the sky a year ^ahead. [sfx:shimmer][act:the reveal, precise]One of them ^predicted the {7|seven} BCE meetings of Jupiter and Saturn. [act:quiet wonder, warm]Sky-watchers were ^expecting them. [p:0.93][act:explaining, the method]And because the planets move like ^clockwork, astronomers today can run that clock ^backwards and check: the meetings really ^happened.",
+   "[d:build][go:3|0][act:adding another, bright]And in {5|five} BCE, ^Chinese astronomers logged a new light, a broom star, as they called a ^comet. [act:counting, vivid]They watched it for ^seventy days."
+  ],
+  [
+   "[d:build][act:counting them off]So, three ^candidates: a ^conjunction, two planets side by side; an ^occultation, the Moon sliding in front of Jupiter; and a ^comet. [act:even, a little amused]Each has its ^champion. [d:aside][act:gentle, respectful, precise]But every star and planet wheels across the sky through the night, and ^none of them walks ahead of travellers and ^stops over a house@noun. [act:with care, thoughtful]The Gospel may be telling something ^other than an astronomer's report."
+  ],
+  [
+   "[d:reveal][act:the turn, leaning in]Yet the candidates are ^real and datable, and they crowd into ^exactly the right few years: the last years of King ^Herod, when Matthew sets the story. [sfx:hit][act:storytelling, delighted]The astronomer ^Kepler noticed that in {1604|sixteen oh four}. [act:warm, a gentle smile]Four hundred years on, it has ^not stopped being odd."
+  ],
+  [
+   "[d:verdict][p:0.95][act:weighing it, calm][tune:rise]A real ^sign in the sky behind the story? [act:the verdict, warm][tune:fall]^*Plausible*. [act:lighter, quick][tune:fall]^Which one? [act:plain, one word][tune:fall]^Open. [act:with care, sincere]What the star means to believers is not ours to ^rate.",
+   "[d:tension][p:0.93][act:reflective, respectful][tune:level]The ^sky keeps its records@noun. [act:the last word, warm and sincere][tune:fall]The ^Gospel kept a ^star."
+  ]
+ ]
+}

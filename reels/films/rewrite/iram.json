@@ -1,0 +1,26 @@
+{
+ "beats": [
+  [
+   "[d:intrigue][sfx:boom][act:setting the scene, intrigued]In {1984|nineteen eighty-four}, a space shuttle flew over the ^Empty Quarter of Arabia, scanning it with ^radar. [p:0.93][act:explaining, clear]Radar can slip through dry ^sand, a little like a torch shining through thin ^paper, and bounce back from what lies ^beneath. [act:leaning in, slower]It saw old ^tracks under the sand, all leading to ^one place.",
+   "[d:tension][act:the hook, hushed][tune:rise]Could it be a ^lost city of the desert@noun?"
+  ],
+  [
+   "[d:calm][act:respectful, measured]The Quran remembers the people of ^Aad, and ^Iram of the pillars, their ^city. [act:a touch of romance, lighter]Much later, storytellers and explorers dreamed of a lost city they called ^Ubar, the Atlantis of the ^sands. [act:explaining, plain]Many came to link the two ^names.",
+   "[d:build][go:2|0][act:storytelling, building]In {1992|nineteen ninety-two}, the tracks led a team to ^Shisr, in ^Oman. [act:describing, vivid]There they found a fort, with towers around a ^well, [sfx:shimmer]half swallowed by a ^sinkhole. [p:0.93][act:explaining, clear]Under the fort lay a limestone ^cavern, and one day its roof gave ^way. [act:wonder, slower]A city that ^fell into the earth."
+  ],
+  [
+   "[d:build][act:the complication, plain][tune:fall]But now look at the ^dates. [act:explaining, clear]Digging shows the fort's main phases ran from about ^three hundred BCE into ^Islamic times.",
+   "[d:build][act:careful, respectful, precise]In the Quran's telling, Aad came ^before Thamud. [act:explaining, plain]And Thamud already appear in ^Assyrian records@noun around seven hundred ^BCE. [p:0.93][act:the gap, plainly]So the people of Aad lived ^earlier still: a gap of a ^thousand years or more before this fort."
+  ],
+  [
+   "[d:build][act:plain, a careful fact]And no ^inscription found here names Iram or ^Aad. [p:0.93][act:fair, the expert's view]The archaeologist who ^excavated Shisr drew his own conclusion: Ubar was a ^region, not this one town. [act:explaining, plain][tune:fall]The name of a whole stretch of desert@noun, not of one ^village."
+  ],
+  [
+   "[d:reveal][act:turning, a warm yes]Still, much here is ^real. [act:building, pleased]The ^collapse is real. [act:building]And the ^trade is real: this was ^frankincense country, where a precious ^resin was gathered from trees, [sfx:hit]and the roads under the sand carried it down to the ^sea."
+  ],
+  [
+   "[d:verdict][p:0.95][act:weighing it, calm authority][tune:rise]Shisr as ^Iram? [act:the verdict, level-headed][tune:fall]^*Awaiting* evidence. [act:open, respectful]The remains of Aad may lie ^elsewhere under the sands, still ^unfound.",
+   "[d:tension][p:0.93][act:the last word, quiet wonder]The desert@noun has not ^finished giving things back."
+  ]
+ ]
+}

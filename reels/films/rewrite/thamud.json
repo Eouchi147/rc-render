@@ -1,0 +1,26 @@
+{
+ "beats": [
+  [
+   "[d:intrigue][sfx:boom][act:awed, setting the scene]In north-west Arabia, great doorways are carved straight into the ^rock, as if the mountains had been turned into ^houses@noun. [act:respectful, measured]The Quran recounts a people who carved their homes from the ^mountains: ^*Thamud*, to whom the prophet ^Salih was sent.",
+   "[d:tension][act:sincere, simply asked][tune:rise]Outside its pages, can ^history find them too?"
+  ],
+  [
+   "[d:calm][act:confident, warm]The answer is a warm ^yes. [act:explaining, clear]^Few ancient Arabian peoples are ^better documented. [p:0.93][act:explaining, plain]Historians work a bit like detectives: when witnesses who never met describe the ^same people in the ^same place, the case grows ^strong.",
+   "[d:list][go:2|0][act:citing the witnesses, one by one][tune:level]First, an ^Assyrian king lists them by name, around seven hundred and ^fifteen BCE. [act:the second witness][tune:level]Later, ^Greek geographers place them right ^here. [sfx:shimmer][act:the third, landing it]And around four hundred CE, their horsemen were serving in the army of ^Rome."
+  ],
+  [
+   "[d:build][act:the find, quietly thrilled]Then there's a temple at ^Ruwafa, from the {160s|one sixties} CE. [act:explaining, clear]An ^inscription there is written twice: once in ^Greek, and once in ^Nabataean, the local script. [act:reading the dedication, slower]It says the temple was built by the ^Thamud, for the Roman ^emperors. [p:0.93][act:delighted, a comparison]A people signing their own building, in two languages, like a ^bilingual sign at a station."
+  ],
+  [
+   "[d:build][act:turning to it, plain]Now, back to the carved facades at ^Hegra. [act:precise, even]They are ^tombs, cut by the ^Nabataeans between about one BCE and ^seventy-five CE. [p:0.93][act:explaining, clear]Many carry inscriptions with ^dates, so we can tell when they were ^cut.",
+   "[d:aside][act:careful, fair]Thamud were ^here, in this region: the witnesses agree. [act:precise, gently][tune:fall]Whether these ^particular facades were theirs is a ^narrower question, and still being ^studied."
+  ],
+  [
+   "[d:reveal][act:counting them, building][tune:level]So: the ^region. [tune:level]The ^people. [tune:fall]The ^dates. [sfx:hit][act:warm, sure]The ground and the text ^agree, exactly where the Quran places them. [p:0.93][act:explaining, warm]Four witnesses, across more than a thousand ^years."
+  ],
+  [
+   "[d:verdict][p:0.95][act:weighing it, calm authority][tune:rise]Thamud, a ^real people of north-west Arabia? [act:the verdict, confident][tune:fall]^*Established*. [act:turning, careful][tune:rise]Hegra's carved facades, as their ^houses@noun? [act:honest, even][tune:fallrise]Still ^open.",
+   "[d:tension][p:0.93][act:the last word, a warm smile]Sometimes the mountain keeps the ^receipt."
+  ]
+ ]
+}

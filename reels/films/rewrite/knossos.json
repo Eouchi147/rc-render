@@ -1,0 +1,27 @@
+{
+ "beats": [
+  [
+   "[d:intrigue][sfx:boom][act:mythic, setting the scene][tune:level]A ^monster in a maze: the Minotaur, half man, half ^bull. [act:building, a little bigger][tune:level]A ^king who ruled the ^sea. [act:the third, a little darker][tune:fall]And a ^volcano next door.",
+   "[d:tension][act:setting it, plain]Greek myth sets the story on the island of ^Crete. [act:curious, pulling us in][tune:fall]So how much of the Minotaur was ^real?"
+  ],
+  [
+   "[d:calm][act:plain, orienting]Knossos, on ^Crete, the big island south of ^Greece. [act:impressed, descriptive]A palace of ^hundreds of rooms, several storeys ^high, wrapped around a central court about ^fifty metres long. [p:0.93][act:a vivid comparison]That's about half a football ^pitch.",
+   "[d:aside][act:playful, a warm smile]Corridor after corridor, room after ^room. [act:warm, amused]Get ^lost in there, and you'd start telling ^stories too."
+  ],
+  [
+   "[d:build][act:delighted, going through them]And ^bulls everywhere. [act:vivid, counting][tune:level]On the walls, young people ^leaping over bulls. [act:counting on][tune:level]Vessels shaped like a bull's ^head. [act:the last one][tune:fall]And stone ^horns along the roofs.",
+   "[d:build][go:2|0][sfx:shimmer][act:intrigued, building][tune:level]And a clay ^tablet from Knossos, written in an early form of ^Greek, records@verb an offering of ^honey... [act:the reveal, hushed wonder][tune:fall]for the Mistress of the ^Labyrinth. [p:0.93][act:careful, fair]That is the usual reading of two short ^words."
+  ],
+  [
+   "[d:build][act:the catch, candid]But careful: much of what visitors see today is Arthur ^Evans, the British archaeologist who dug it from {1900|nineteen hundred}. [act:dry, a raised eyebrow]He rebuilt the famous red columns in ^concrete, and ^he named the rooms, even the Throne ^Room. [p:0.93][act:explaining, a smile]It's like finishing a half-empty jigsaw by painting in the missing pieces ^yourself. [act:fair, even]Clever guesses, but ^guesses."
+  ],
+  [
+   "[d:reveal][act:dramatic, lower]Next door, a little over a hundred kilometres to the north, the volcano of Santorini ^exploded, somewhere between about {1611|sixteen eleven} and {1538|fifteen thirty-eight} BCE. [p:0.93][act:explaining, clear]Why such a wide range? [act:explaining, a smile]Dating gives a ^window, not a day, like guessing someone's age from a photo: somewhere between thirty and ^forty.",
+   "[d:build][sfx:hit][act:the turn, fair]But Knossos didn't end with it: the palace carried on for ^generations after. [act:quiet, precise]And the myth was told by ^Greeks, ^centuries later."
+  ],
+  [
+   "[d:verdict][p:0.95][act:weighing it, calm][tune:rise]So, a myth that remembers a real ^palace and a real ^bull cult? [act:the verdict, warm][tune:fall]^*Plausible*. [act:honest, a gentle limit]But the chain of ^memory, from the palace to the Greek storytellers, ^can't be traced.",
+   "[d:tension][p:0.93][act:gentle, clear][tune:level]The ^monster is a ^story. [act:the last word, quiet wonder][tune:fall]The ^maze was a ^building."
+  ]
+ ]
+}

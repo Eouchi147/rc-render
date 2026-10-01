@@ -1,0 +1,25 @@
+{
+ "beats": [
+  [
+   "[d:intrigue][sfx:boom][act:wonder, setting the scene]A round stone ^tower, with a staircase of twenty-two ^steps hidden inside it. [p:0.93][act:letting the age land, slower]Built about eight ^thousand BCE: some five thousand years before the first ^pyramids.",
+   "[d:tension][act:quiet awe]This is Jericho, and its mound is older than ^writing itself. [act:leaning in, a hook][tune:level]And its most famous ^walls... [act:the sting, quiet and dry][tune:fall]seem to have fallen too ^early."
+  ],
+  [
+   "[d:calm][act:storytelling, warm]The ruins form a hill called Tell es-Sultan, beside a ^spring, north of the Dead Sea. [p:0.93][act:explaining, clear]A tell is a hill made of ^towns, each built on the rubble of the last, like a stack of ^pancakes. [go:2|0][act:counting down the layers, vivid]Cut it open, and the layers stack up: the ^Neolithic tower at the bottom, ^Bronze Age walls above, and near the top, a city that ^burned, with ^thick walls."
+  ],
+  [
+   "[d:build][act:setting the terms, clear]The Book of Joshua tells that Jericho's walls fell as the Israelites entered ^Canaan. [act:precise, careful]On the usual reading of the Bible's own dates, that is around {1400|fourteen hundred} BCE. [go:4|0][act:the evidence, confident]Radiocarbon dating of burnt ^grain from the destroyed city says the {1600s|sixteen hundreds} or {1500s|fifteen hundreds} BCE. [p:0.93][act:explaining the method, clear]A plant takes in a little ^radioactive carbon as it grows; once it is cut, that carbon fades at a steady pace, like sand running through an ^hourglass. [act:explaining, plain]And grain grows in one season, so it dates the ^fire closely. [act:plain, pointed][tune:fall]At least a ^century before the story's date.",
+   "[d:tension][act:fair, giving the other side]The archaeologist Bryant Wood read@past the ^pottery differently, and argued for {1400|fourteen hundred}. [act:explaining, fair]Pottery styles change over time, like ^fashions, so they can date a layer too. [act:calm, precise, a gentle point]But the ^carbon clock does@verb ^not depend on pottery at all."
+  ],
+  [
+   "[d:build][act:explaining, careful]And for the centuries usually given to Joshua? [act:plain, careful]Kenyon, who dug here in the {1950s|nineteen fifties}, found only ^scraps: a small ^building, some ^tombs. [act:plain, a little rueful]The top of the mound had been washed away by thousands of years of ^rain. [d:aside][act:lighter, a small smile]Rain takes ^cities too."
+  ],
+  [
+   "[d:reveal][sfx:hit][act:the twist, measured]So a wall ^may well have fallen here, later. [act:precise, a fine distinction][tune:fall]Just not the ^one, or the ^century, this argument is about. [act:open-ended, curious]The smaller, later Jericho is ^poorly known. [p:0.93][act:explaining, clear]Archaeologists cut a few narrow ^trenches into the hill, and most of the mound has never been ^dug."
+  ],
+  [
+   "[d:verdict][p:0.95][act:weighing it, calm][tune:rise]Walls falling around {1400|fourteen hundred} BCE? [act:the verdict, level-headed][tune:fall]*Awaiting ^evidence*. [act:the other side, steady][tune:rise]A walled city that burned a century or two ^earlier? [act:firm, confident, one word][tune:highfall]^Established.",
+   "[d:tension][p:0.93][act:respectful, sincere]We weigh only the layers and their ^dates, never the story's ^meaning. [act:warm, reassuring][tune:fallrise]And that story is not out of ^reach. [act:the last word, quiet][tune:fall]Whatever is left of it lies ^under the erosion."
+  ]
+ ]
+}

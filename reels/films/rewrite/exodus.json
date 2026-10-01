@@ -1,0 +1,28 @@
+{
+ "beats": [
+  [
+   "[d:intrigue][sfx:boom][act:respectful, setting the scene]Two ^scriptures tell it, the Torah and the ^Quran. [act:evoking it, slowly, with weight]A prophet, ^Moses, whom the Quran calls ^Musa. [act:evoking it, slowly, with weight]A ^Pharaoh who will not let the people ^go, a sea that ^opens, and an ^army that drowns.",
+   "[d:tension][act:plain, even]Egypt kept its ^stones. [act:a quiet contrast]It did not keep this ^story. [act:a small pause, thinking][tune:level]So... [act:the real puzzle, curious][tune:fall]if a whole people walked out into the desert@noun, where are their ^camps?"
+  ],
+  [
+   "[d:calm][act:grounded, warm, plain]First, what the ^ground does@verb show. [act:confident fact, steady]People from east of Egypt, who spoke languages related to ^Hebrew, lived and worked in the Nile ^Delta for about a ^thousand years. [act:explaining, vivid]That is where the river fans out like an open ^hand. [act:matter of fact]Ramesses the Second built his ^capital there.",
+   "[d:build][act:the key fact, leaning in]And a carved ^stone from about {1208|twelve oh eight} BCE names ^*Israel*. [act:precise, adding weight][tune:level]It is written with the sign for a ^people, not a city. [act:landing it, quiet][tune:fall]A people already in ^Canaan."
+  ],
+  [
+   "[d:build][act:turning a page, brisk]Now the ^number@count. [act:reading from the text, careful]The Book of Exodus counts six hundred ^thousand men on foot, ^plus their families. [p:0.93][act:the scale sinks in, slower]Call it two ^*million* people. [act:a comparison, vivid]As many as live@verb in the whole city of ^Paris.",
+   "[d:tension][go:4|0][act:reasoning it through, even]Two million people, forty years in the ^Sinai, should leave ^something behind: hearths, ^tent rings, broken ^pots. [p:0.93][act:explaining the method, clear]To find them, archaeologists walk the land in lines, mapping every ^scrap. [gap:0.45][act:quiet, plain fact][tune:fall]Those surveys@noun have found ^nothing from that century."
+  ],
+  [
+   "[d:wonder][act:wonder, a gentle turn]The sea is another ^question: water has its own ^physics. [sfx:shimmer][p:0.93][act:explaining, vivid, unhurried]In one computer model, a strong ^east wind@air, blowing for about twelve hours, pushes the water off a shallow ^lagoon, like blowing across a saucer of tea until one ^edge shows. [act:the result, slower]A bar of dry ground appears, for about four ^hours.",
+   "[d:aside][act:lighter, a gentle correction][tune:fallrise]In that model, the place is not the deep ^Red Sea we picture, but a ^reedy lake in the Delta that ^silted up long ago. [p:0.93][act:careful, fair]A model cannot tell us what ^happened that night. [act:plain, gentle]Only what water ^can do."
+  ],
+  [
+   "[d:reveal][act:leaning in, fair-minded]And the silence here is ^weaker than it sounds. [act:explaining, steady]Wet Delta soil rots ^papyrus, so Egypt's paperwork from there is almost all ^gone. [p:0.93][act:plain, reasonable]And people on the move leave light traces: a ring of stones where a ^tent stood, easy for a survey@noun to ^miss.",
+   "[d:build][sfx:hit][act:building, thoughtful]Now picture a ^smaller departure: a few families, carrying a real ^memory. [act:slower, careful]They would leave exactly what we find: ^nothing... [act:warm, quiet, with respect][tune:fall]and a ^story that would not ^die."
+  ],
+  [
+   "[d:verdict][p:0.95][act:weighing it, calm authority][tune:rise]The two-million ^headcount? [act:the verdict, level-headed][tune:fall]*Awaiting ^evidence*. [act:turning to the next, open][tune:rise]A ^smaller exodus? [act:fair and balanced][tune:fall]^Plausible, and not yet ^shown.",
+   "[d:tension][p:0.93][act:respectful, measured, sincere]The ^events at the heart of both scriptures are not what we ^rate. [act:quiet, certain, gentle][tune:fall]Only the ^ground is."
+  ]
+ ]
+}

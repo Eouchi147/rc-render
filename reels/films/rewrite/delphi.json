@@ -1,0 +1,27 @@
+{
+ "beats": [
+  [
+   "[d:intrigue][sfx:boom][act:storytelling, with reverence]On a mountainside in ^Greece, for a ^thousand years, a priestess sat in Apollo's temple and spoke for the ^god. [act:plain, explaining]People called her the ^Pythia, and they travelled far for her ^answers. [act:hushed, evocative]Ancient writers said a ^sweet vapour rose from the ^rock beneath her.",
+   "[d:tension][act:plain, setting up the turn]For a long time, scholars called the vapour a ^myth. [act:the twist, quietly pleased]Then ^geologists, the scientists of rocks, found the ^faults."
+  ],
+  [
+   "[d:calm][act:quoting the ancients, respectful]The geographer ^Strabo described a ^breath rising from the ground. [act:a trusted witness, careful]And ^Plutarch, who served as a ^priest at Delphi, wrote of a ^sweet smell drifting into the room where visitors ^waited. [p:0.93][act:the curious detail, slower]He even said it was ^weaker in his day than in the ^past."
+  ],
+  [
+   "[d:build][act:a detective's pleasure, building]Around {2000|the year two thousand}, a geologist and an archaeologist mapped ^two faults crossing right ^beneath the temple. [p:0.93][act:explaining, a simple picture]A fault is a crack deep in the rock, where two blocks of the Earth grind past each other, like two hands rubbed ^together. [act:explaining]The rock here is limestone holding natural ^hydrocarbons, the stuff of oil and ^gas. [act:the clue, pleased]And along the faults lie the deposits of old ^springs: water once rose there, through the ^cracks.",
+   "[d:build][sfx:shimmer][act:quiet wonder, present tense]Gas ^still leaks there today. [act:explaining, simple]When the faults shift, fresh cracks open, and gas from deep in the rock can seep ^up."
+  ],
+  [
+   "[d:build][act:naming the suspect, intrigued]Their suspect@noun: ^ethylene, a sweet-smelling gas once used@verb as an ^anaesthetic, to put patients to ^sleep. [act:lighter, a small smile]In mild doses, it brings ^euphoria: a dreamy, floating ^happiness. [act:the logic, clear]A sweet smell, and a priestess in a ^trance: it seemed to ^fit.",
+   "[d:build][act:the complication, even]But later surveys@noun of the gas seeping from the ground found mostly ^methane, ^ethane and carbon ^dioxide. [p:0.93][act:explaining, a simple picture]Think of a recipe: plenty of those three, and only a ^pinch of ethylene. [act:plain, closing that door][tune:fall]Far too ^little ethylene for a trance."
+  ],
+  [
+   "[d:reveal][sfx:hit][act:satisfied, counting it off]So ^half the old story holds: the ^faults, the ^springs, the ^gas. [act:warm, appreciative]The ancient writers described a real ^place.",
+   "[d:build][act:careful, fair]The ^other half, the drug, is not ^established. [act:thinking aloud, lighter][tune:level]Maybe the trance came from ^ritual, the ceremony itself. [act:another idea, same tone][tune:fall]Maybe from less ^oxygen in a small, closed room. [p:0.93][act:honest, plain]And the air of that room, as it was then, can no longer be ^measured."
+  ],
+  [
+   "[d:verdict][p:0.95][act:weighing it, calm authority][tune:rise]The Pythia's trance, from ^gas? [act:the verdict, honest][tune:fall]^*Open question*. [act:the other part][tune:rise]The ^vapour from the rock? [act:simple and sure][tune:highfall]^Real.",
+   "[d:tension][p:0.93][act:respectful, warm]The ancient writers ^weren't making it up. [act:gentle, the last word][tune:fall]They may just not have ^known what they were smelling."
+  ]
+ ]
+}

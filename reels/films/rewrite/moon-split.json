@@ -1,0 +1,25 @@
+{
+ "beats": [
+  [
+   "[d:intrigue][sfx:boom][act:intrigued, setting the scene]On the Moon there is a long, straight ^crack, three hundred kilometres from end to end. [act:plain, careful]Online, its photo is shared as the ^scar left by the splitting of the Moon that the Quran ^recounts.",
+   "[d:tension][act:curious, inviting][tune:fall]What can this crack ^tell us? [act:the careful half][tune:fall]And what ^can't it?"
+  ],
+  [
+   "[d:calm][act:respectful, measured]First, the account ^itself. [act:respectful, measured]The Quran opens a chapter with the Moon ^split. [act:with care, even]Reports in the hadith describe ^witnesses near Mecca, at Mina, seeing it in ^two. [go:4|0][act:sincere, recounting][tune:fall]A ^sign, ^seen, and dismissed by some at the time as ^magic. [act:plain, respectful, simple]That is the ^account, and for believers it is a matter of ^faith."
+  ],
+  [
+   "[d:build][act:turning a page, brisk]Now the ^crack. [act:naming it, clear]Its name is Rima Ariadaeus. [sfx:shimmer][act:explaining, clear and curious]It is a ^graben: a strip of crust that dropped between two faults as the surface ^stretched. [p:0.93][act:explaining, an image]Stretch a slab of wet clay, and a strip in the middle ^sinks between two cracks.",
+   "[d:build][go:2|0][act:plain, a detective's clue]And craters sit on ^top of it. [p:0.93][act:explaining, the method]A crater that cuts across the trough must be ^younger than the trough, the way a coffee ring on a newspaper comes after the ^printing. [act:explaining, clear]And the Moon gathers craters at a slow, steady pace, so the ^more craters a surface carries, the ^older it is. [act:the reveal, measured]Count them, and this trough is tens of ^millions of years old."
+  ],
+  [
+   "[d:build][act:reasoning, careful]And look at its ^shape. [act:explaining, clear]The photo calls it the ^join between two halves. [act:explaining, clear]But such a join would have to run ^all the way round the Moon: about eleven thousand ^kilometres. [d:aside][p:0.93][act:quiet, factual]This trough is three ^hundred: a short crack in ^one region, less than a thirtieth of the way round. [act:gentle, precise]^Not that shape."
+  ],
+  [
+   "[d:reveal][act:leaning in, respectful]And notice: ^neither the Quran nor the reports say a ^mark was left behind. [sfx:hit][act:clear, even]The scar is a ^modern addition, made with a photograph. [act:the key point, calm and fair]So ruling it out rules out ^nothing the texts say."
+  ],
+  [
+   "[d:verdict][p:0.95][act:weighing it, calm][tune:rise]This crack as a ^scar of the splitting? [act:the verdict, firm][tune:fall]*Ruled ^out*. [act:gentler, respectful][tune:rise]The ^sign itself? [act:with care, sincere, measured][tune:fall]A matter of ^faith, and not ^ours to rate.",
+   "[d:tension][p:0.93][act:quiet, principled][tune:level]We weigh ^rock. [go:6|0][act:the last word, sincere and gentle][tune:fall]We do ^not weigh ^belief."
+  ]
+ ]
+}

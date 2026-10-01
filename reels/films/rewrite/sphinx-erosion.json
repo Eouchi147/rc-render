@@ -1,0 +1,27 @@
+{
+ "beats": [
+  [
+   "[d:intrigue][sfx:boom][act:setting it up, unhurried]A ^geologist looked closely at the Great Sphinx of Egypt... [act:quietly amazed][tune:fall]and saw the marks of ^*rain*.",
+   "[d:tension][act:a puzzle, raising the stakes]In a desert@noun that's been mostly ^dry for about five ^thousand years. [act:the stakes, slower][tune:fall]If he's right, the Sphinx is far ^older than we ^think."
+  ],
+  [
+   "[d:calm][act:plain, a respectful introduction]In {1990|nineteen ninety}, Robert ^Schoch, a Boston University geologist, studied the ^walls of the ^pit the Sphinx sits in. [act:explaining, clear]The lion was carved by digging down into the rock, so it sits in a deep trench, walled with layered ^limestone.",
+   "[d:build][go:2|2.2][act:describing it, a careful eye][tune:level]^Rounded ^grooves. [act:same careful eye][tune:level]^Deep vertical ^cracks, running from the top ^down. [sfx:shimmer][act:sympathetic, his view][tune:fall]To ^him, that's what ^*rainwater* does@verb, pouring down a rock face for thousands of years. [p:0.93][act:his logic, clear and fair]And Egypt has been mostly dry for about five thousand years, so heavy rain points to a much ^older ^carving."
+  ],
+  [
+   "[d:build][act:stating his claim, even]So he dated the carving to [stamp:7000-5000 BCE|gold]^seven thousand, to ^five thousand BCE. [p:0.93][act:the implication, weighty]The usual date, under King ^Khafre, is around two and a half thousand BCE. [p:0.9][act:doing the sum, careful]His date is two and a half to four and a half thousand years ^earlier. [act:the stakes, slow][tune:fall]^Long before the pharaohs."
+  ],
+  [
+   "[d:build][act:the other side, crisp]^Other geologists answered: ^*salt*. [act:explaining, step by step]^Groundwater seeps up into this soft, layered limestone, dries out, and leaves salt ^crystals behind. [p:0.93][act:the analogy, vivid]As the crystals grow, they push the grains apart, like ice cracking a ^pavement in winter, and the soft beds ^*crumble*.",
+   "[d:list][act:simple, matter of fact][tune:fall]No ancient rains ^needed. [act:fair, even]Both sides see the ^same wall; they disagree about which ^water shaped it."
+  ],
+  [
+   "[d:reveal][act:turning the page, curious][tune:rise]And the ^archaeology? [act:revealing, clear]The ^temple in front of the Sphinx is built from blocks cut out of the ^*same* pit. [p:0.93][act:explaining, the method]The layers in its stones match the layers in the pit walls, like pieces of a ^puzzle fitting back together.",
+   "[d:reveal][sfx:hit][act:connecting the dots, confident]And that temple fits into King ^Khafre's building works, around his ^pyramid. [act:the logic, clear][tune:fall]So the pit, the temple and the Sphinx seem to belong to the ^same project@noun."
+  ],
+  [
+   "[d:verdict][p:0.95][act:fair, sincere]Schoch's ^observation is ^real: the wall really is deeply ^worn. [act:turning, measured][tune:rise]His ^date? [act:the verdict, level-headed][tune:fall]Still ^*awaiting* evidence.",
+   "[d:tension][p:0.93][act:thoughtful, explaining]Weathering is a poor ^clock: its speed depends on the stone, the salt and the ^water. [act:thoughtful, quieter]Rock ^can't tell ^time... [act:a hopeful lift]unless something ^*dated* turns up in the pit, like charcoal from an old ^fire."
+  ]
+ ]
+}

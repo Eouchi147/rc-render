@@ -1,0 +1,27 @@
+{
+ "beats": [
+  [
+   "[d:intrigue][sfx:boom][act:an opener, curious][tune:fall]^Who actually worked on the pyramids of Giza? [act:playful, a little smile][tune:risefall]We found where they ^*ate*.",
+   "[d:tension][act:lower, more serious]Perhaps where they ^slept. [act:lower, more serious][tune:fall]And where they were ^*buried*."
+  ],
+  [
+   "[d:calm][act:plain storytelling, setting out]In {1988|nineteen eighty-eight}, south of the Sphinx, past a ^giant stone wall, archaeologist Mark ^Lehner started ^digging. [act:orienting, clear]Not for treasure, but for traces of ^ordinary people: their kitchens, their ^rubbish, their ^homes.",
+   "[d:wonder][go:2|0][sfx:shimmer][act:wonder, unfolding it]He found a ^planned ^town, a short walk from the pyramids. [act:naming the rooms, lightly][tune:level]Long ^galleries, perhaps where work crews ^slept. [act:same lightness][tune:level]^Storerooms. [act:delighted, the best one][tune:fall]^*Bakeries*, with the clay pots they baked bread ^in."
+  ],
+  [
+   "[d:build][act:relishing the detail]And the ^bones of their meals. [p:0.93][act:explaining, the method]Counting old bones is like looking through a household's ^bin: it tells you what was on the ^menu. [act:reading the tally, careful]By one estimate@noun: [count:11|cattle a day]^*eleven* cattle, and ^thirty-seven sheep and goats... [act:the kicker, amused][tune:risefall]a ^*day*. [p:0.9][act:the meaning, impressed]That's a ^lot@amount of mouths to feed, every single ^day."
+  ],
+  [
+   "[d:build][act:lightly, a happy accident]Then, in {1990|nineteen ninety}, a tourist's ^horse stumbled on a mud-brick ^wall. [act:amused, a smile][tune:fall]Archaeology owes that horse a ^carrot.",
+   "[d:list][go:5|0][act:quieter, respectful]Behind it: the ^workers' own ^tombs. [act:gently amused, reading the title]Inside, their job@work titles, like ^*overseer* of the ^side of the pyramid. [p:0.93][act:warm, explaining]Ranks, titles, proper ^graves: these were people with a ^place in society."
+  ],
+  [
+   "[d:reveal][act:gentle, leaning in]Their ^skeletons tell the rest. [p:0.93][act:explaining, with care]Bones keep a kind of diary of a working ^life. [act:with care, slowly][tune:level]^Worn spines, the mark of heavy ^work. [act:tender, the turn][tune:fall]Broken arms and legs, set, and ^*healed*. [sfx:hit][act:quiet admiration]Even ^amputations, that they ^survived.",
+   "[d:reveal][p:0.93][act:explaining, gently]A broken bone only heals straight if someone keeps it ^still for weeks. [act:warm, the heart of it]Someone was ^*caring* for these workers."
+  ],
+  [
+   "[d:verdict][p:0.95][act:calm summary, a warm smile]What it shows: a workforce, fed on ^bread, ^beer and ^beef. [act:softer, respectful][tune:fall]Buried in the ^shadow of the pyramids. [act:fair, the grade]A town, its kitchens, its ^cemetery: all real, all ^excavated.",
+   "[d:tension][p:0.93][act:honest, the open edge]What it ^can't show: when work on this plateau first ^*began*. [act:explaining, fair][tune:fall]A town tells you who was there at ^one time, not who came ^first."
+  ]
+ ]
+}

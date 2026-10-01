@@ -1,0 +1,26 @@
+{
+ "beats": [
+  [
+   "[d:intrigue][sfx:boom][act:turning it over, intrigued]A little cylinder of ^granite, cut at least four and a half ^thousand years ago. [act:the detail, hushed][tune:fall]And running around it, a ^*spiral groove*. [act:curious][tune:rise]What carved ^that?"
+  ],
+  [
+   "[d:calm][act:plain storytelling, fond]In the {1880s|eighteen eighties}, Flinders Petrie picked it up at ^Giza. [act:small, precise]^Eleven centimetres tall, about the height of a ^teacup. [p:0.93][act:explaining, clear]It's a ^core: the plug of stone left behind when you drill a round hole with a ^hollow tube, like a pastry cutter pressed into ^dough.",
+   "[d:build][go:2|0][act:admiring, plain]Egypt's masons drilled and sawed ^granite, the ^hardest stone they had. [act:wonder, the puzzle][tune:fall]Yet their working metal was ^copper, far ^softer than the stone."
+  ],
+  [
+   "[d:build][act:giving his reading, fair]In {1984|nineteen eighty-four}, machinist Christopher Dunn looked closely at the ^groove. [p:0.93][act:explaining his reading, fair]He read@past it as the track of a ^drill, biting a ^tenth of an inch, about two and a half millimetres, in a single ^turn. [act:his point, serious]By his estimate@noun, around five ^hundred times what a modern drill ^feeds.",
+   "[d:tension][sfx:hit][act:reporting his verdict, even]^Impossible, he said, without ^power tools. [act:fair, taking it seriously]It's a sharp question from someone who works with ^metal every day. [act:curious][tune:rise]So can hand tools ^do it?"
+  ],
+  [
+   "[d:build][act:practical, the test]Experimenters went and ^tried. [act:the setup]^Copper tubes, turned by hand, and fed with ^sand. [p:0.93][act:explaining, clear]The secret is ^hardness: geologists rank minerals by what ^scratches what. [act:the key fact, clear]Copper is ^soft. [act:the key fact, clear]But ^quartz sand is ^*harder* than the feldspar in granite.",
+   "[d:list][go:5|0][act:explaining, easy][tune:level]The ^copper just ^carries the sand round. [act:the point, firm][tune:fall]The ^*sand* does@verb the cutting, grinding a narrow ^ring into the stone, like sandpaper wrapped round a ^tube. [act:honest, drawn out]^Slow... [act:a satisfied nod][tune:fall]but it ^works. [act:a small grin][tune:fall]^Cores and all."
+  ],
+  [
+   "[d:reveal][act:leaning in, fresh news]And in {2025|twenty twenty-five}, researchers identified a copper ^drill from a grave over a thousand years ^older than Khufu. [sfx:shimmer][act:wonder, softly]Its ^leather bow-string was ^still wrapped around it. [p:0.93][act:explaining, clear]Pull a bow@archery back and forth, and the string spins the drill one way, then the other: a ^hand-powered motor."
+  ],
+  [
+   "[d:verdict][p:0.95][act:weighing it, calm][tune:rise]Lost ^machines? [act:firm, plain][tune:fall]No ^trace of one. [act:fair, plain]No machine, and no ^part of one, has ever been ^found. [act:fairer, turning][tune:rise]That ^exact groove? [act:honest, open-ended][tune:fallrise]Not ^fully copied, yet.",
+   "[d:tension][p:0.93][act:warm, a challenge]Someone should ^try. [act:practical, warm]Take a block of granite, a bow@archery, and a great deal of ^patience. [act:spelling out the recipe]With ^copper... [act:smiling, the last word][tune:fall]and ^*sand*."
+  ]
+ ]
+}

@@ -1,0 +1,14 @@
+{"beats": [
+ ["[d:intrigue][sfx:boom][act:setting the scene, vivid]In {79|seventy-nine} CE, the volcano Vesuvius, in southern Italy, buried a Roman ^library. [act:vivid, a small wince]Its scorching ash baked the books into lumps of ^charcoal.",
+  "[d:tension][act:gentle, a small wince]Each one is a rolled-up ^scroll, about twenty centimetres long. [act:gentle, a small wince]Open one, and it ^crumbles. [act:the puzzle, curious][tune:fall]So ^how do you read@present it?"],
+ ["[d:calm][act:setting the scene, easy]The books belonged to a ^luxury villa at Herculaneum, Pompeii's ^neighbour, on the coast. [act:plain fact]From {1752|seventeen fifty-two}, diggers pulled out about ^eighteen hundred rolls.",
+  "[d:build][act:careful, holding back]Early attempts to unroll them read@past ^some... [act:the wince, quiet]and destroyed ^many."],
+ ["[d:build][act:bright, the idea arrives]So, the new idea: ^scan them instead. [p:0.93][act:explaining, clear]X-rays see inside a scroll the way a hospital scanner sees inside a ^body, without opening it. [act:explaining, clear]They trace every rolled ^layer, and software flattens each one into a ^page, like unrolling a carpet, but only on a ^screen.",
+  "[d:build][act:the problem, dry]The catch: the ink is made of ^carbon, and the papyrus has turned to carbon too. [p:0.93][act:the picture, wry]It's like reading black ink on a black ^page: almost ^invisible."],
+ ["[d:build][act:brisk storytelling]In {2023|twenty twenty-three}, two tech investors and a computer scientist, Brent Seales, released the ^scans to the world and offered ^prizes. [act:explaining, lively]Teams around the world taught computers to spot the faintest traces of ^ink.",
+  "[d:wonder][sfx:shimmer][act:childlike wonder, slowing]Then a twenty-one-year-old ^student saw letters appear, and read@past the first word ever found inside a closed scroll: ^purple."],
+ ["[d:reveal][act:growing excitement, controlled]By {2024|twenty twenty-four}, a winning team had read@past more than two ^thousand letters, from a lost book of ^philosophy. [act:plain, impressed]That earned the grand prize: seven hundred thousand ^dollars.",
+  "[d:build][go:5|0][sfx:hit][act:awe, letting it land]And in {2026|twenty twenty-six}, a ^whole scroll was read@past, end to end, without ever ^opening it. [p:0.93][act:wonder, slower]Nearly two thousand years after the ^eruption."],
+ ["[d:verdict][p:0.95][act:weighing it, calm][tune:rise]Reading ancient books nobody can ^open? [act:the verdict, warm and sure][tune:fall]^*Established*. [act:hopeful, softer]And ^hundreds more rolls are waiting their turn.",
+  "[d:tension][p:0.93][act:quiet, a secret shared]And parts of the villa have ^never been dug. [act:wonder, gently]The library may be ^bigger than we know."]
+]}

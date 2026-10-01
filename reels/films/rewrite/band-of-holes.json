@@ -1,0 +1,27 @@
+{
+ "beats": [
+  [
+   "[d:intrigue][sfx:boom][act:painting the picture, wonder]On a desert@noun ridge in ^Peru, someone dug a band of ^holes. [act:vivid, counting]About five thousand two hundred of them, each big enough to ^stand in. [p:0.93][act:a picture, wonder]The band snakes over the hills for a ^kilometre and a half: about fifteen football pitches, end to ^end.",
+   "[d:tension][act:quiet, the mystery hanging][tune:fall]For ninety years, ^nobody could say ^why."
+  ],
+  [
+   "[d:calm][act:placing us on the map, calm]The place is Monte ^Sierpe, in Peru's ^Pisco Valley, on the dry coast south of ^Lima. [act:plain, a bit of history]It was photographed from the ^air in {1933|nineteen thirty-three}. [act:a picture, light]Its Spanish name means serpent ^mountain.",
+   "[d:build][act:rattling off the guesses][tune:level]The guesses since: ^graves, ^storage, ^defence, nets to catch ^fog... [act:dry, one eyebrow up][tune:risefall]and, on TV, something ^stranger. [act:plain, the problem][tune:fall]Each guess fitted a few holes, but none explained the ^pattern."
+  ],
+  [
+   "[d:build][act:news, brisk and bright]In {2025|twenty twenty-five}, a team mapped it by ^drone. [p:0.93][act:explaining, simple]A drone takes thousands of overlapping photos, and a computer stitches them into one sharp map, like a ^jigsaw. [sfx:shimmer][act:the discovery, leaning in]And the map showed ^order. [act:precise, delighted]The band splits into at least sixty ^sections. [p:0.93][act:counting, slowly]Some sections share the same ^count: nine rows of ^eight. [act:the punchline, savouring it]Seventy-two holes, a pattern that comes ^back."
+  ],
+  [
+   "[d:build][act:reading the lab report, pleased]Then they looked ^inside the holes. [p:0.93][act:explaining, a simple picture]Pollen is plant dust, so tough it lasts for ^centuries, and every plant's grain has its own ^shape. [act:reading the lab report, pleased]In the holes: pollen of ^maize, and of reeds used@verb for weaving ^baskets. [p:0.93][act:explaining, clear]Plant remains can be dated too: they hold a trace of radioactive carbon that fades at a steady pace, like a candle burning ^down. [act:crisp, one more fact]The result: a date in the {1300s|^thirteen hundreds}.",
+   "[d:build][act:connecting the dots]And the site sits ^between two Inca centres, on old ^trade routes. [act:a picture, light]A crossroads, where people and goods passed ^by."
+  ],
+  [
+   "[d:reveal][sfx:hit][act:the reveal, delighted but careful]Their reading: a ^marketplace. [p:0.93][act:explaining, a simple picture]Picture traders arriving, and one ^basketful going into each ^hole. [act:the payoff, delighted]Count the full holes, and you know ^how much was brought. [act:light, a smile]Goods counted out by the ^basketful, hole by hole.",
+   "[d:build][act:tentative, the extra idea]Later, ^perhaps, it became an Inca tribute counter, for the goods people owed their ^rulers. [p:0.93][act:explaining, clear]Laid out like a ^khipu: the Inca's accounts, kept not in writing but in knotted ^cords. [act:explaining, a picture]Each string is a line of the ledger, and its ^knots are the numbers."
+  ],
+  [
+   "[d:verdict][p:0.95][act:weighing it, calm authority][tune:rise]A giant ^accounting device? [act:the verdict, level-headed][tune:fall]^*Plausible*. [act:honest caveat, even][tune:fallrise]The ^best evidence yet, though it rests on ^one date and a set of samples. [p:0.93][act:fair, explaining]One date is a single snapshot: more digging could still change the ^story.",
+   "[d:tension][p:0.93][act:playful wonder, a smile]Maybe the world's biggest ^spreadsheet. [act:the kicker, dry][tune:fall]Dug into a ^mountain."
+  ]
+ ]
+}

@@ -1,0 +1,27 @@
+{
+ "beats": [
+  [
+   "[d:intrigue][sfx:boom][act:playful, drawing them in]The Great Sphinx of Egypt has ^holes in it. [act:pointing them out][tune:level]In its ^*head*. [act:one more, a small grin][tune:fall]In its ^*back*.",
+   "[d:tension][act:lower, conspiratorial]And deep under its ^paws... [act:hushed, the hook]something that ^*nobody* has ever opened."
+  ],
+  [
+   "[d:calm][act:admiring, unhurried]Here it is at Giza, at least four and a half thousand years old. [p:0.93][act:giving the size, amazed]Seventy-three metres of ^lion: about as long as a jumbo ^jet. [act:explaining, clear]And it wasn't built from ^blocks. [act:the image, vivid]The carvers dug a deep pit around a mass of ^bedrock, and shaped the lion out of what was ^left.",
+   "[d:build][go:2|0][act:neutral storyteller, even-handed]In {1933|nineteen thirty-three}, the American psychic Edgar ^Cayce said a Hall of ^Records@noun lay beneath it. [act:evenly, no wink]A chamber of records@noun, left by survivors of ^*Atlantis*. [act:fair, the question][tune:rise]So, is anything really down ^there?"
+  ],
+  [
+   "[d:build][act:curious, getting practical][tune:fall]Let's look at what's ^actually in those holes. [act:counting them off][tune:level]A short ^shaft in the ^head. [act:same pace, next one][tune:level]A hole drilled behind it in {1837|eighteen thirty-seven}, more than eight metres ^deep. [go:4|2.2][act:the last one, a small grin][tune:fall]And a ^tunnel in the ^rump, with one branch going up, and one going ^down.",
+   "[d:list][sfx:hit][act:brisk, factual]Each one has been ^explored. [act:plainly, steady]Each one ends in solid ^rock... [act:a shrug in the voice][tune:fall]or in ^*groundwater*. [act:light, a little smile][tune:level]No ^hall. [act:same, closing][tune:fall]No ^records@noun."
+  ],
+  [
+   "[d:build][go:5|2.2][act:building, a little intrigue]Then, in {1991|nineteen ninety-one}, a seismic survey@noun found ^something under the front paws. [p:0.93][act:explaining, the method]Seismic means ^sound: tap the ground, and listen to the echoes coming ^back. [act:the everyday picture]It's like knocking on a wall to find the ^hollow part. [act:quiet, letting it land]Under the paws, the echoes said: a ^hollow. [act:tentative, intrigued][tune:fallrise]Maybe cut by ^*hands*."
+  ],
+  [
+   "[d:reveal][go:6|2.2][act:leaning in]Could anyone ^check? [act:clear, precise]In {1998|nineteen ninety-eight}, one anomaly near the Sphinx ^*was* drilled. [sfx:hit][act:plain, a touch deflating][tune:fall]A ^natural cavity. [act:explaining, light]Limestone often has them: water slowly dissolves little ^pockets in it.",
+   "[d:reveal][act:turning back to it][tune:rise]But the hollow under the ^paws? [act:quiet, pointed][tune:fall]^*Never* opened. [act:honest, plain]So nobody knows what it ^is."
+  ],
+  [
+   "[d:verdict][p:0.95][act:weighing it, calm][tune:rise]A ^small hidden space? [act:fair, open][tune:fall]^Possible. [act:same measure][tune:rise]A hall of ^records@noun? [act:firm, level-headed][tune:fall]Not a ^trace of one. [p:0.93][act:fair, explaining]An echo can show a ^gap. [act:fair, the limit][tune:fall]It can't show what's ^inside it.",
+   "[d:tension][p:0.93][act:the last word, quietly practical]^One narrow drill hole could ^*settle* it. [act:warm, the open door][tune:fall]And then we'd ^know."
+  ]
+ ]
+}

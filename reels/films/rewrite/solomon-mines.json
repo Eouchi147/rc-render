@@ -1,0 +1,25 @@
+{
+ "beats": [
+  [
+   "[d:intrigue][sfx:boom][act:setting the scene, vivid]Six metres of black ^slag: the glassy waste left behind when copper is ^melted out of rock. [act:building, rhythmic]^Furnace after furnace. [act:the hook, lower, intrigued]In a desert@noun valley called the ^Arabah, with ^no king's name on it.",
+   "[d:tension][act:plain storytelling]For decades, guidebooks treated its famous nickname, King Solomon's Mines, as a romantic ^invention. [gap:0.4][act:the turn, a knowing smile]But the invention had the ^right century."
+  ],
+  [
+   "[d:calm][act:calm, orienting]Two ^copper districts face each other, ^Faynan and ^Timna, either side of a modern ^border. [go:2|0][act:explaining, a little delighted]Dig down through the waste heaps, and the layers ^date themselves. [p:0.93][act:explaining the method, clear]The smelters burned ^charcoal, and charcoal is wood, which carries a radiocarbon ^clock: it starts ticking when the tree is cut. [act:the scale, delighted]Two teams have measured ^hundreds of these samples."
+  ],
+  [
+   "[d:build][act:a set-up, curious][tune:rise]And the ^peak? [act:clear, confident]The ^tenth and ^ninth centuries BCE, when the waste piled up fastest. [p:0.93][act:a picture, vivid]Six metres of it: about three and a half people, standing on each other's ^shoulders. [sfx:shimmer][act:the connection, slower]And the tenth century is the very one tradition gives to David and ^Solomon.",
+   "[d:build][go:4|0][act:fair, recounting the debate]For a generation, one school of historians argued that this century was nearly ^empty here: a quiet, thinly settled age. [act:quiet, confident, a small smile]The ^slag says otherwise. [act:plain, a little delighted]Someone was smelting copper on an ^industrial scale."
+  ],
+  [
+   "[d:build][act:light, a fun fact]And the name? [act:light, explaining]King Solomon's Mines is an adventure ^novel, from {1885|eighteen eighty-five}. [act:storytelling, amused]In the {1930s|nineteen thirties}, an archaeologist ^borrowed its title for these ruins, and it stuck. [d:aside][act:wry, quick][tune:level]Good ^marketing. [act:dry, a small smile][tune:fall]Bad ^footnote."
+  ],
+  [
+   "[d:reveal][act:the twist, careful]Because ^nothing here names Solomon, or ^Jerusalem: not one inscription. [sfx:hit][act:explaining, even and fair]Most researchers credit a ^local kingdom, largely nomadic, that ran this industry from ^tents. [act:delighted, a touch of wonder]A copper powerhouse with no ^palace: that is its ^own surprise."
+  ],
+  [
+   "[d:verdict][p:0.95][act:weighing it, calm][tune:rise]A copper ^boom in Solomon's century? [act:the verdict, confident][tune:highfall]^*Established*. [act:the second one, lighter][tune:rise]Solomon's own ^mines? [act:even, a little playful][tune:fall]The ^owner is open.",
+   "[d:tension][p:0.93][act:summing up, warm]^Right century. [act:the open part, slower][tune:level]^Whose kingdom... [act:the last word, a knowing smile][tune:fall]is the ^receipt we don't have."
+  ]
+ ]
+}

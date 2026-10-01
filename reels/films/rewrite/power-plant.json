@@ -1,0 +1,26 @@
+{
+ "beats": [
+  [
+   "[d:intrigue][sfx:boom][act:playful, what if]What if the Great Pyramid wasn't a ^tomb... [act:wide-eyed, intrigued][tune:rise]but a ^*power plant*? [act:intrigued, setting it up][tune:rise]A giant machine of stone, humming in the ^desert@noun?"
+  ],
+  [
+   "[d:calm][act:plain, respectful]That's the idea of engineer Christopher ^Dunn, set out in {1998|nineteen ninety-eight}. [act:fair, explaining]He looked at the narrow shafts and the granite room at the pyramid's heart, and saw the parts of an ^engine.",
+   "[d:list][go:2|0][act:walking through his idea, fair][tune:level]^Chemicals poured down the ^shafts. [act:same pace][tune:level]Granite that ^*vibrates*, like a giant tuning ^fork. [sfx:shimmer][act:the big finish, even][tune:fall]^Energy, beamed out of the ^King's Chamber."
+  ],
+  [
+   "[d:build][act:bright, genuinely pleased]Here's the ^good part: this idea can be ^tested. [p:0.93][act:explaining, clear]A machine leaves ^traces, the way a car engine leaves soot and worn ^parts. [act:warm, eager][tune:fall]So we can ^*check*. [act:counting, crisp][tune:fall]Three places to ^look."
+  ],
+  [
+   "[d:build][act:first test, crisp][tune:rise]^Salt on the chamber walls? [act:fair, explaining]In the theory, it's left over from the chemical ^reactions. [act:reporting the result, clear]Tested in {2026|twenty twenty-six}: ^rock salt, from the ^limestone itself. [p:0.93][act:explaining, clear]Limestone formed under an ancient ^sea, and water seeping through the stone carries that salt out to the ^surface. [act:plain, closing it][tune:fall]Not a ^chemical reaction.",
+   "[d:list][go:5|0][act:next test, same tone][tune:rise]Granite as a ^crystal generator? [p:0.93][act:explaining, fair]Squeeze a quartz crystal and it gives a tiny electric ^charge: that part is real ^physics. [act:explaining, a little amused]But in granite, the ^quartz grains point every which ^way. [act:simple, settled][tune:fall]Their effects mostly ^*cancel* out, like a crowd pulling one rope in every ^direction."
+  ],
+  [
+   "[d:reveal][act:lower, leaning in]And then the strongest ^clue. [act:explaining, clear]Above the King's Chamber sit five ^sealed rooms, stacked like the floors of a ^building, to spread the crushing weight of the stone. [act:lower, leaning in]^Unopened until {1837|eighteen thirty-seven}...",
+   "[d:reveal][sfx:hit][act:the reveal, slower]inside, work ^gangs had painted a king's ^name, in red ^ochre. [gap:0.4][act:the name, clear and firm][tune:highfall]^*Khufu*. [act:quiet, letting it sit][tune:fall]More than a ^dozen times. [act:explaining, warm]Builders' marks, hidden where no one was ever meant to ^look."
+  ],
+  [
+   "[d:verdict][p:0.95][act:calm summary]A king's name, ^sealed inside. [act:turning to it, even][tune:rise]The ^power plant? [act:the verdict, firm and kind][tune:fall]*Ruled ^out*, by the evidence. [act:fair, warm][tune:fall]But it was the good kind of idea: one that could be ^checked.",
+   "[d:tension][p:0.93][act:warm, reflective]No ^gears. [act:warm, reflective]No ^wires. [act:warm, reflective]The ^only machine we can ^trace... [act:the last word, a warm smile][tune:fall]is ^*people*."
+  ]
+ ]
+}

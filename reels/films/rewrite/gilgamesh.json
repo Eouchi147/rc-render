@@ -1,0 +1,27 @@
+{
+ "beats": [
+  [
+   "[d:intrigue][sfx:boom][act:deadpan, let the number land]An ancient list of kings, written on clay, says ^Gilgamesh reigned for a hundred and twenty-six ^years. [p:0.93][act:playful, doing the sum]That's one king ruling from the days of ^steam trains to the age of ^smartphones.",
+   "[d:tension][act:one eyebrow up][tune:rise]And the kings ^before the flood? [p:0.9][act:dry, amused, slower]Two hundred and forty ^thousand years, between ^them."
+  ],
+  [
+   "[d:calm][act:grounding it, plain and warm]In the old poem, the Epic of Gilgamesh, he is king of ^Uruk, in southern Mesopotamia, one of the ^first cities on Earth. [act:storytelling]And the poem says he built its mighty ^walls.",
+   "[d:build][go:2|0][sfx:shimmer][act:firm, a small delight]Here's the thing: Uruk is ^real. [act:plain fact, easy]Its ruins have been dug for more than a ^century. [p:0.93][act:a sense of scale]And its walls ran about nine ^kilometres: a two-hour walk, all the way ^round."
+  ],
+  [
+   "[d:build][act:storytelling, unhurried]In the poem, Gilgamesh has a ^rival: Aga, king of ^Kish, son of a king called ^Enmebaragesi. [act:setting up the surprise]For a long time, that name looked as ^legendary as the rest of the ^story.",
+   "[d:reveal][act:the reveal, lean in]Then fragments of stone ^vessels turned up, from about {2600|^twenty-six hundred} BCE... [act:slower, savouring it]carved with the ^name. [act:reading it out, quiet wonder][tune:fall]^Enmebaragesi, king of Kish. [p:0.93][act:explaining, delighted]A name from the poem, written in its own ^time, like finding a real ^signature."
+  ],
+  [
+   "[d:build][act:measured, a touch of awe]And here's something ^stranger. [p:0.93][act:explaining, clear]In cuneiform, a little ^star written before a name marks a ^god. [act:explaining, plain]In lists of gods copied at ^Shuruppak, around {2600|twenty-six hundred} BCE, Gilgamesh already has that ^star. [act:quiet awe][tune:fall]Within a few ^generations of his supposed lifetime, he was being honoured as a ^god."
+  ],
+  [
+   "[d:reveal][act:the catch, plainly][tune:fall]What's missing is an inscription of his ^own. [act:explaining, fair]No stone from his time yet says: Gilgamesh, king of ^Uruk. [sfx:hit][act:the fair twist, a small smile]But for Uruk in that century, inscriptions are missing for almost ^everyone.",
+   "[d:aside][act:light aside, matter of fact]And the impossible reigns, like the hundred and twenty-six years? [act:dry, reassuring]^Nobody reads those as real ^years. [act:explaining, plain][tune:fall]Historians weigh the ^king, not the ^numbers."
+  ],
+  [
+   "[d:verdict][p:0.95][act:weighing it, calm authority][tune:rise]A ^real king behind the first epic hero? [act:the verdict, warm][tune:fall]^*Plausible*. [act:fair, even]His city is real, his rival's father is real, and he was honoured within ^generations.",
+   "[d:tension][p:0.93][act:the last word, hopeful]^One inscription, in his own name, would make him ^*history*."
+  ]
+ ]
+}

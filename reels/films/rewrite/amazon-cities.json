@@ -1,0 +1,27 @@
+{
+ "beats": [
+  [
+   "[d:intrigue][sfx:boom][act:wonder, building][tune:level]Lasers fired from planes, down through the rainforest of the ^Amazon, found ^roads, ^plazas, ^canals... [act:the payoff, awe][tune:fall]and ^thousands of earthen platforms.",
+   "[d:tension][act:the surprise, can you believe it][tune:risefall]The ^untouched jungle, it turns out, was once full of ^towns. [act:curious, pulling us in][tune:fall]^Who built them? [act:intrigued]And where did they learn ^how?"
+  ],
+  [
+   "[d:calm][act:reporting, calm and clear]Start in Ecuador's Upano ^Valley. [p:0.93][act:explaining, vivid]The method is called ^lidar: a plane fires millions of laser pulses. [act:explaining, clear]Most hit leaves, but a few slip through the gaps and bounce back from the ^ground, like sunlight dappling a forest floor. [act:the payoff, wonder]Strip away the trees, and about six thousand platforms ^appear, from around {500|five hundred} BCE. [go:1|0][act:impressed, vivid]In ^Bolivia, towns with mounds twenty-two metres ^high: as tall as a seven-storey ^building.",
+   "[d:build][go:3|0][act:the scale, wonder]And in ^one region alone, the southwest of the Amazon, perhaps twenty-four ^thousand earthworks. [p:0.93][act:explaining, clear]Here, each little square stands for a ^hundred of them."
+  ],
+  [
+   "[d:build][act:fair, giving him his due]The writer Graham Hancock saw this ^coming, before much of the ^lidar. [act:even, laying out the idea]His explanation: this knowledge was ^inherited from a ^lost civilisation of the Ice Age, from before about twelve thousand ^eight hundred years ago. [p:0.93][act:fair, warm]A prediction that comes ^true deserves a fair ^hearing."
+  ],
+  [
+   "[d:build][sfx:shimmer][act:the counterpoint, clear and fair]So, let's check the ^dates. [act:explaining, plain]Every dated earthwork society falls within roughly the last ^twenty-six hundred years. [p:0.93][act:explaining, a comparison]Squeeze thirteen thousand years into a single ^day, and the earthworks only appear in the last ^five hours.",
+   "[d:build][act:adding weight, warm]And Amazonians were ^already growing their ^own crops around ^ten thousand years ago. [act:the point, warm]Thousands of years of ^local know-how, long before the first earthwork."
+  ],
+  [
+   "[d:reveal][act:leaning in, playful][tune:rise]And the miracle soil, terra ^preta, the rich black earth of the Amazon? [act:the reveal, delighted][tune:fall]^Household waste, ^charcoal and broken ^pottery, built up over ^centuries. [p:0.93][act:explaining, a smile]A compost heap, kept going for ^generations.",
+   "[d:build][sfx:hit][act:warm, respectful, admiring]The Kuikuro people of the Xingu, in ^Brazil, ^still make it today. [act:warm, plain]It's ^living knowledge."
+  ],
+  [
+   "[d:verdict][p:0.95][act:weighing it, calm][tune:rise]Garden ^cities in the Amazon? [act:confident, warm]^Real, and ^bigger than anyone thought. [act:the other claim, even][tune:rise]^Inherited from a lost Ice Age civilisation? [act:the verdict, level-headed][tune:fall]*Awaiting ^evidence*. [act:fair, plain]No earthwork has been dated anywhere ^near that far back.",
+   "[d:tension][p:0.93][act:warm, a knowing smile][tune:fallrise]The Amazon's lost civilisation ^wasn't lost. [act:the last word, proud and plain][tune:fall]It was ^Amazonian."
+  ]
+ ]
+}

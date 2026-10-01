@@ -1,0 +1,26 @@
+{
+ "beats": [
+  [
+   "[d:intrigue][sfx:boom][act:delighted, a little wonder]At a village called ^Lajia, in China, archaeologists found a bowl of ^noodles, four ^thousand years old. [act:explaining, amazed]Thin strands, still coiled in the ^bowl. [act:quieter, a shadow falls]It had been dropped in a ^hurry.",
+   "[d:tension][act:grave, gentle, slower]^Everyone in the house@noun died where they ^stood. [act:with care, quiet][tune:fall]Something ^sudden happened here."
+  ],
+  [
+   "[d:calm][act:telling the legend, warm]Chinese tradition tells of a hero called ^Yu. [act:storytelling, warm]He tamed a great ^flood, and then founded the ^first dynasty, the ^Xia. [act:a small smile]A flood hero who became a ^founder.",
+   "[d:build][go:2|0][act:storytelling, building]Now go ^upstream, to Jishi Gorge on the Yellow ^River. [p:0.93][act:explaining, vivid]Long ago, a ^landslide fell into the gorge and blocked the river, like a ^cork in a bottle. [sfx:shimmer][act:slow, tension gathering][tune:level]Behind it, a lake ^rose, higher and ^higher. [act:the break, heavier]Then the dam gave ^way."
+  ],
+  [
+   "[d:build][act:savouring the number, precise]The estimated peak flow: about four hundred ^thousand cubic metres, every ^second. [p:0.93][act:the comparison, amazed]An Olympic swimming pool holds about two and a half thousand cubic ^metres. [p:0.9][act:doing the sum]So picture a hundred and sixty ^pools of water, rushing past every single ^second. [act:the scale of it, wonder]Among the ^largest floods of the last ten thousand ^years.",
+   "[d:build][go:4|0][act:intrigued, connecting the dots]And ^when? [p:0.93][act:explaining, clear]Dates like this come from ^radiocarbon: living things take in carbon, and after death a tiny part of it fades away at a steady pace, like a clock that starts ^ticking. [act:intrigued, precise]One team dated the flood to about {1920|^nineteen twenty} BCE. [act:connecting it, wonder][tune:fall]Very close@adj to where tradition begins the ^Xia."
+  ],
+  [
+   "[d:build][act:the counterpoint, fair][tune:fall]But ^other teams disagree. [act:even-handed, clear]They date the lake behind the dam ^thousands of years earlier. [act:fair, plain]And they read@present the deaths at Lajia differently: an ^earthquake, then a ^mudflow, not a flood from upstream. [p:0.93][act:explaining, fair]Same layers of mud, two different ^stories. [act:plain, a last point]And ^Erlitou, the city some link to the early Xia, lies far ^downstream."
+  ],
+  [
+   "[d:reveal][act:leaning in, a pleasant surprise]Still, Yu's story is truly ^old. [act:the evidence, clear]A ^bronze vessel from about nine hundred BCE, with writing cast into the metal, ^already credits him with channelling the ^waters. [sfx:hit][act:the punch, firm][tune:fall]^Centuries before the classic accounts were written ^down."
+  ],
+  [
+   "[d:verdict][p:0.95][act:weighing it, calm authority]A ^real flood, with a serious ^hypothesis behind it. [act:fair, even]But its date is still ^disputed. [act:turning it over][tune:rise]Its ^link to Yu and the first dynasty? [act:the verdict, honest][tune:fall]An ^*open* question.",
+   "[d:tension][p:0.93][act:light, a warm smile]The ^noodles, at least, are ^settled. [act:warm, the last word][tune:fall]Four thousand years old, and still ^noodles."
+  ]
+ ]
+}

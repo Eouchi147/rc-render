@@ -1,0 +1,25 @@
+{
+ "beats": [
+  [
+   "[d:intrigue][sfx:boom][act:setting the scene, vivid]On the shore of the Caspian Sea, two stone ^walls run down from a mountain ^citadel and straight into the ^water. [act:simple, clear]Built to ^shut a pass: a narrow strip of land between the mountains and the ^sea.",
+   "[d:tension][act:respectful, measured, storytelling]The Quran recounts how Dhul Qarnayn, a ruler given power in the land, built a barrier in a ^pass, of ^iron and molten ^copper, against the peoples it calls Yajuj and Majuj, Gog and Magog. [act:curious, leaning in][tune:rise]Could ^this be the place?"
+  ],
+  [
+   "[d:calm][act:orienting, calm]To the north lies the ^steppe, an ocean of ^grass. [p:0.93][act:the key idea, slower]To the south lie farms and ^cities, and between them the Caucasus mountains and the Caspian leave only a ^few gaps, like doors in a long ^wall. [go:2|0][act:touring them, brisk]Empires walled ^every one: ^Derbent, the ^Darial pass, and east of the Caspian, a wall a hundred and ninety-five kilometres long, with more than thirty ^forts."
+  ],
+  [
+   "[d:build][act:turning a page, brisk]Now the ^dates. [act:curious, the method][tune:rise]How do you date a ^wall? [p:0.93][act:explaining, vivid]Grains of sand inside a brick slowly soak up energy from natural radiation in the ground, like a battery ^charging. [act:explaining, clear]Firing the brick in a ^kiln empties the battery. [act:the payoff, clear]Measure the charge today, and you know when the brick was ^baked. [sfx:shimmer][act:clear, confident]Every surviving wall comes out ^Sasanian, built by Persian kings in the fifth or sixth century ^CE, and radiocarbon ^agrees. [act:plain, descriptive][tune:level]Fired ^brick and ^stone. [act:quiet, pointed][tune:fall]Not ^iron.",
+   "[d:build][go:4|0][p:0.93][act:measuring the gap, slower][tune:level]That is about a ^thousand years after ^Cyrus, the Persian king. [act:the second measure, even][tune:fall]And roughly ^nine hundred years after ^Alexander the Great."
+  ],
+  [
+   "[d:build][act:genuinely curious, respectful][tune:fall]And ^who was Dhul Qarnayn, then? [act:explaining, gentle]The name means the two-horned ^one. [act:even-handed, laying out views][tune:level]Classical commentators mostly said ^Alexander. [act:with care, fair][tune:level]Others, Ibn Kathir among them, said an ^earlier righteous king. [act:the last view, fair][tune:fall]Many modern scholars propose ^Cyrus. [d:aside][act:warm, gentle, a light touch]The text paints a ^portrait, not a ^passport."
+  ],
+  [
+   "[d:reveal][act:leaning in, the idea]Here is what ^nobody has done yet: dig ^*beneath* the Sasanian walls. [sfx:hit][act:explaining, steady]They were repaired and ^rebuilt again and again. [p:0.93][act:explaining, an analogy]And in the ground, the ^oldest layers lie at the ^bottom, like the first pages in a pile of ^newspapers. [act:quiet wonder, inviting]Whatever stood in these passes ^before the Sasanians is ^still down there."
+  ],
+  [
+   "[d:verdict][p:0.95][act:weighing it, calm][tune:rise]A ^real barrier in a ^real pass? [act:the verdict, level-headed][tune:fall]^*Plausible*. [act:the harder part, curious][tune:fall]^Which wall, and ^whose? [act:even, respectful][tune:fall]An ^open question. [p:0.93][act:with care, sincere]What the Quran recounts is not ours to ^rate: we weigh only the ^sites and the ^walls.",
+   "[d:tension][go:8|0][p:0.93][act:the last word, quiet and warm]And the trowel has ^not yet reached the ^layer this story lives@verb in."
+  ]
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "beats": [
+  [
+   "[d:intrigue][sfx:boom][act:setting the scene, intrigued][tune:level]In eastern Turkey, there's a hill shaped like a ^boat. [act:adding detail, same rhythm][tune:level]A hundred and ^sixty metres long: longer than a football ^pitch. [act:the name that matters, lower]And it lies near Mount ^Ararat.",
+   "[d:tension][act:explaining, plain]Some visitors call it the petrified ^Ark. [act:hushed, sincere, asking][tune:rise]So is ^this where the Ark came to rest?"
+  ],
+  [
+   "[d:calm][act:respectful, careful and precise]First, let's read@present the texts with ^care. [act:explaining, clear]Genesis says the Ark came to rest on the mountains of ^Ararat. [p:0.93][act:explaining, precise]That's a ^region, the old kingdom of ^Urartu, not one single ^peak.",
+   "[d:build][act:with care, even-handed]The Quran recounts that the ark came to rest on ^al-Judi. [go:2|0][act:building, a scholar's pleasure]And the ^oldest witnesses, Berossus, the Syriac writers and the Aramaic ^Targum, all point to the ^Cudi range. [p:0.93][act:placing it on the map]That's far to the ^south: about three hundred kilometres from the peak of ^Ararat."
+  ],
+  [
+   "[d:build][act:curious, turning to it][tune:fall]So what ^is the boat-shaped hill? [act:plain, the evidence]Geologists who mapped it found ^folded, iron-stained layers of ^local rock. [p:0.93][act:explaining, vivid]Picture layers of rock squeezed and bent, like a ^rug pushed against a wall. [act:explaining, plain]Wear a fold like that down, and its edges can draw a pointed ^oval on the ground: a shape like a ^hull.",
+   "[d:list][act:ticking them off, dry][tune:level]The ^rivets some people saw are ^minerals. [act:the next, same tone][tune:level]The ^anchors are local ^stone. [act:the last, firm and final]And digging found soil and rock: no ^wood, no ^joinery."
+  ],
+  [
+   "[d:build][act:explaining, even and clear]And the high peak of ^Ararat? [act:explaining, clear]It only became the favourite landing place in the ^Middle Ages, long after the older witnesses had ^written. [d:aside][act:a quick aside, lighter]As for the hill, it was first noticed in {1948|^nineteen forty-eight}."
+  ],
+  [
+   "[d:reveal][sfx:hit][act:the twist, even-handed and clear]Here's the twist: the hill's fans, and many textbooks, make the ^same mistake. [act:explaining, plain]They assume the tradition ^always meant the peak of Ararat. [act:quietly decisive][tune:fall]The ^older witnesses say ^otherwise."
+  ],
+  [
+   "[d:verdict][p:0.95][act:weighing it, calm authority][tune:rise]^This hillside, as the Ark? [act:the verdict, firm and fair][tune:fall]*Ruled ^out*: it is folded ^rock. [act:turning, respectful][tune:rise]And the ^landing place? [act:measured, with care]The oldest texts point ^elsewhere, to the south.",
+   "[d:tension][p:0.93][act:sincere, clear about limits]We rate a ^hill. [act:respectful, quiet and even]Not the ^story it was mistaken for."
+  ]
+ ]
+}

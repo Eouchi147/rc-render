@@ -1,0 +1,27 @@
+{
+ "beats": [
+  [
+   "[d:intrigue][sfx:boom][act:storytelling, setting the scene]Medieval tales from Iceland, the ^sagas, told of Vikings sailing ^west, past Greenland, to a land of ^grapes. [act:light, amused]For centuries, scholars ^shrugged. [act:playful, quoting the skeptics][tune:risefall]^Nice stories.",
+   "[d:tension][act:the hook, wonder]Then a storm on the ^Sun, a thousand years old, gave us the ^exact year. [act:intrigued, leaning in]Written inside a ^tree."
+  ],
+  [
+   "[d:calm][act:storytelling, calm]^Greenland, around the year one ^thousand. [act:explaining, plain]Norse settlers from Norway and ^Iceland have made a colony there. [act:simple, vivid]Leif Eriksson sails on, further ^west. [act:warm, naming them]The sagas describe ^halls, ^grapes and ^fights with the local people.",
+   "[d:aside][act:a quiet caveat, lower]But they were written down about ^two centuries later. [p:0.93][act:explaining, fair]Two hundred years is about eight generations of ^retelling. [act:a small smile]Plenty of time for a story to ^grow."
+  ],
+  [
+   "[d:build][act:storytelling, growing excitement]In {1960|nineteen sixty}, the explorer Helge Ingstad and the archaeologist Anne Stine Ingstad found turf ^halls at the northern tip of ^Newfoundland, an island off ^Canada. [act:counting them off][tune:level]Norse ^iron. [act:building, firmer][tune:level]Norse ^rivets. [act:the clincher, firm][tune:fall]Norse ^buildings. [act:delighted, plain]The sagas had pointed to a real ^place."
+  ],
+  [
+   "[d:build][act:curious, a quick one][tune:fall]But ^when? [p:0.93][act:explaining, warm]A tree adds one ^ring every year, like the pencil marks on a door frame as a child grows ^taller. [act:wonder, explaining]And in {993|nine ninety-three}, a burst from the ^Sun stamped a spike of radioactive carbon into that year's ring, in ^every tree on Earth. [act:delighted]A date stamp, ^worldwide.",
+   "[d:build][sfx:shimmer][act:precise, detective work]Three pieces of wood at the site were cut with ^metal blades. [p:0.93][act:precise, counting]In each one, the spike sits in the twenty-ninth ring, counting in from the ^bark. [go:3|0][sfx:hit][act:the answer, firm and clear]So the trees were cut in {1021|ten twenty-one}. [act:letting it land, slower]Four hundred and seventy-one years before ^Columbus."
+  ],
+  [
+   "[d:reveal][act:leaning in, a delicious clue]And then, ^butternuts, a kind of walnut, in the Norse layers. [act:the key fact, plain]Butternut trees ^don't grow in Newfoundland. [act:explaining, clear]They grow much further ^south. [act:the conclusion, warm]So someone from the camp went further ^south, and brought them back.",
+   "[d:aside][go:5|0][act:lighter, a sideways glance][tune:rise]Meanwhile, the famous Vinland ^Map, said to be medieval? [act:plain, one beat][tune:highfall]A ^forgery. [act:explaining, brisk]Its ink holds a pigment first made in the {1920s|nineteen twenties}. [p:0.93][act:a smile, the comparison]Like finding a ^plastic bottle in a Viking ^grave."
+  ],
+  [
+   "[d:verdict][p:0.95][act:weighing it, calm][tune:rise]Vikings in ^America around the year one thousand? [act:the verdict, confident][tune:fall]^*Established*. [act:the open part, curious][tune:rise]But exactly ^where was Vinland, the land of grapes? [act:even, plain][tune:fall]Still ^open.",
+   "[d:tension][p:0.93][act:warm, satisfied][tune:level]The ^sagas were ^right. [act:the last word, dry][tune:fall]The ^map was ^fake."
+  ]
+ ]
+}

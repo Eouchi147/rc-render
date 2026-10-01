@@ -1,0 +1,27 @@
+{
+ "beats": [
+  [
+   "[d:intrigue][sfx:boom][act:delighted, a surprising fact][tune:level]The oldest written papyrus ever found isn't a ^poem, or a royal ^decree. [act:the punchline, delighted][tune:risefall]It's a ^*work diary*.",
+   "[d:tension][act:leaning in, slower]And it names a ^pyramid: the Horizon of ^*Khufu*. [act:intrigued, warm]The Great Pyramid, in the words of a man who ^worked on it."
+  ],
+  [
+   "[d:calm][act:plain storytelling]In {2013|twenty thirteen}, a team led by Pierre ^Tallet was digging an ancient ^harbour on the Red Sea. [act:orienting, clear]That's on the coast, more than a hundred kilometres from Giza, across the ^desert@noun.",
+   "[d:wonder][go:2|0][sfx:shimmer][act:wonder, slowly]In the harbour's storage galleries: ^rolls of papyrus. [p:0.93][act:careful, precise]They name a king's ^reign, so they can be dated: at least four and a half ^*thousand* years ago. [act:explaining, the analogy]Like an old letter that mentions the prime minister of the ^day."
+  ],
+  [
+   "[d:build][act:introducing him, warmly]They belonged to an inspector named ^Merer. [act:warm, picturing them]He was in charge of a crew of about forty ^boatmen. [act:amused, a modern touch]Think of him as a foreman with a ^logbook.",
+   "[d:list][go:4|0][act:steady, rhythmic]Day after day, he ^logged the job@work. [act:walking through the route][tune:level]^Loading white limestone at the ^Tura quarries, across the river. [go:5|2.6][act:same rhythm][tune:level]^Sailing across the ^flood, when the river covered the valley. [act:arriving, landing it][tune:fall]^Unloading at ^Akhet-Khufu. [act:softer, translating it][tune:fall]The ^*Horizon of Khufu*: the Great Pyramid's own ^name."
+  ],
+  [
+   "[d:build][act:doing the maths, brisk]How much ^stone? [act:explaining, clear]Two or three round ^trips every ^ten days. [act:impressed, careful]Perhaps [count:200|blocks a month]^*two hundred* blocks a month. [p:0.93][act:picturing it, amused]Each one quarried, floated, and written ^down."
+  ],
+  [
+   "[d:reveal][act:leaning in, a tease][tune:rise]And his ^boss? [act:the name, clear][tune:fall]^Ankhhaf. [act:letting it sink in][tune:fall]Khufu's ^own half-brother, in charge of the harbour at Giza. [act:amused, warm]The chain of command runs from a boat on the river ^straight to the royal family.",
+   "[d:reveal][sfx:hit][act:building, one by one][tune:level]A ^named ^crew. [act:same beat, building][tune:level]A named ^boss. [act:same beat, higher][tune:level]A named ^pyramid. [act:the payoff, warm wonder][tune:fall]All in their own ^*handwriting*."
+  ],
+  [
+   "[d:verdict][p:0.95][act:calm summary, sure-footed]What it shows: a real ^crew, shipping white casing stone to a pyramid named for ^*Khufu*, in his own reign. [act:explaining, clear]Casing stone was the smooth white skin that once covered the ^outside.",
+   "[d:tension][p:0.93][act:honest, naming the limit]What it ^can't tell us: when the ^first stone was laid. [act:explaining, fair]A diary from one season shows that season's work, not the ^start. [act:quiet, candid][tune:fall]That's still ^*open*."
+  ]
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "beats": [
+  [
+   "[d:intrigue][sfx:boom][act:wonder, painting the sky]A ring of ^fire in the ^afternoon sky. [p:0.93][act:explaining, clear]An annular eclipse: the Moon slides in front of the Sun, but it is a little too far from us to cover it, like a small coin on a slightly bigger ^coin, so a bright ^ring is left. [act:the rarity, slower]Over this valley, the ^only one in four hundred and ^fifty years.",
+   "[d:tension][act:curious, pulling us in][tune:rise]Did a ^poet see it, more than three thousand years ago... [act:softer, the real question][tune:rise]and did we keep his ^words?"
+  ],
+  [
+   "[d:calm][act:with care, explaining]The Book of Joshua quotes two lines from an older book of ^poems, the Book of Jashar, now ^lost. [act:reading the old lines, slow and careful]Sun, stand still at ^Gibeon; and moon, in the valley of ^Aijalon.",
+   "[d:build][go:1|0][act:grounded, confident]And the places are ^real. [act:naming them, one by one]^Gibeon, a hill town just north-west of ^Jerusalem; the valley of ^Aijalon, further west; and the road running down from the ^hills between them."
+  ],
+  [
+   "[d:build][act:storytelling, bright]In {2017|twenty seventeen}, two scientists from Cambridge and Oxford ran the sky ^backwards. [p:0.93][act:explaining, clear]The Earth and Moon move like ^clockwork, so a computer can wind@coil the clock back and show every eclipse, at any place, on any day. [sfx:shimmer][act:the result, slow and precise]Between {1500|fifteen hundred} and {1050|ten fifty} BCE, it found ^one annular eclipse over Gibeon: the afternoon of the thirtieth of October, {1207|twelve oh seven} BCE.",
+   "[d:build][act:connecting the dots, thoughtful]That is about a ^year after a stone in Egypt first names ^Israel, as a people in ^Canaan. [act:measured, quietly intrigued]The fit is ^unusual."
+  ],
+  [
+   "[d:build][act:intrigued, zooming in]Everything hangs on one Hebrew ^verb. [act:saying the word, carefully]^Dom. [act:explaining, even]Most Bibles translate it stand ^still. [act:the alternative, curious][tune:fall]But it can also mean stop ^shining, and a sun that stops shining sounds a lot@amount like an ^eclipse. [d:tension][act:fair, the complication]Yet right after the poem, the narrator says the sun did not ^hurry to set, for about a whole ^day. [p:0.93][act:plain, gentle, firm]An eclipse does@verb ^not do that: its ring lasts only ^minutes@time."
+  ],
+  [
+   "[d:reveal][act:clear, confident]So the ^astronomy is *solid*: the eclipse happened, ^there, ^then. [sfx:hit][act:the pivot, careful and fair]The ^link to the poem is the ^open part. [act:plain facts, even][tune:level]The poem's own ^date is ^unknown. [act:quiet, a little wistful][tune:fall]And the book it came from is ^lost, so we cannot read@present the lines around it."
+  ],
+  [
+   "[d:verdict][p:0.95][act:weighing it, calm authority][tune:rise]The ^eclipse? [act:firm, one word][tune:highfall]^Certain. [act:the harder part, careful][tune:rise]The ^poem remembering it? [act:even-handed, measured][tune:fall]An ^*open* question, still argued in a ^peer-reviewed journal, where scientists check each other's work.",
+   "[d:tension][p:0.93][act:respectful, sincere]What the story means to believers is not ours to ^rate. [act:warm, a gentle smile]But few lines this old can be held up against the ^sky. [act:the last word, quiet][tune:fall]This one ^can."
+  ]
+ ]
+}

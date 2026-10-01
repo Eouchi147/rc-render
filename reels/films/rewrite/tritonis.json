@@ -1,0 +1,27 @@
+{
+ "beats": [
+  [
+   "[d:intrigue][sfx:boom][act:storytelling, wonder]Greek myth put a great ^lake in southern Tunisia, in North Africa. [act:playful]Jason's ship, the ^Argo, was said to be stranded ^there.",
+   "[d:tension][act:the twist, dry][tune:fall]Today, that spot is a salt flat you can ^drive across."
+  ],
+  [
+   "[d:calm][act:plain, orienting]In the fifth century BCE, about two and a half thousand years ago, the Greek historian Herodotus describes Lake ^Tritonis, with a river flowing into it. [act:lightly]The goddess Athena was even said to be ^born there. [act:curious][tune:rise]So was there ever a real ^lake?"
+  ],
+  [
+   "[d:build][act:describing, vivid]The best candidate is the Chott el ^Djerid. [act:explaining]A chott is a salt ^flat: a dried-out lake bed, crusted ^white. [p:0.9][act:vivid]This one covers about seven thousand square ^kilometres: a square more than eighty kilometres on each ^side. [act:plain][tune:fall]In winter it floods only ^thinly: a shimmer of water over the ^salt.",
+   "[d:build][go:1|0][act:intrigued]And next door, in Algeria, Chott Melrhir lies ^below sea level. [act:the idea forming][tune:rise]Below the ^sea? [act:playful]That gave some engineers an ^idea."
+  ],
+  [
+   "[d:build][act:storytelling, amused]In {1878|eighteen seventy-eight}, French engineers planned to dig a canal from the sea, flood the chotts, and make an ^inland sea. [p:0.93][act:explaining, a simple picture]But water only runs ^downhill. [act:the punchline, dry][tune:fall]Surveys@noun showed most of the chotts sat ^above sea level. [act:dry]The sea would only have filled the low ^corners.",
+   "[d:aside][act:a light aside]The plan sank. [act:a light aside, smiling]But it inspired one of Jules Verne's ^last novels."
+  ],
+  [
+   "[d:reveal][act:careful, weighing][tune:rise]So when was this land ^wet? [p:0.93][act:explaining, a simple picture]Caves keep a ^diary. [act:explaining]A stalagmite grows drop by drop, in thin layers, like tree ^rings, and its layers record@verb how wet the years ^were. [p:0.9][act:clear]Those cave records@noun show the region's last wet period ended about five ^thousand years ago. [act:clear][tune:fall]By Herodotus' day, it was already ^dry.",
+   "[d:build][act:sober, brief]In the {1930s|nineteen thirties}, a German geographer went further, and placed ^Atlantis here. [act:plain][tune:fall]Scientists rejected it."
+  ],
+  [
+   "[d:verdict][p:0.95][act:weighing it, even][tune:rise]Was Lake Tritonis the ^chott? [act:the verdict, even][tune:fall]*Mixed ^record@noun*. [act:fair]Real, shifting lakes likely lie behind the ^myth: salt lakes that fill and dry, and lagoons on the ^gulf. [act:honest][tune:fall]A great lake in Herodotus' own day is not ^shown.",
+   "[d:tension][p:0.93][act:the moral, warm]Myths remember ^landscapes. [act:the last word, a small smile][tune:fall]Not always the right ^century."
+  ]
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "beats": [
+  [
+   "[d:intrigue][sfx:boom][act:a magic trick, setting it up]Take the Great Pyramid of Giza, a mountain of stone nearly a hundred and fifty metres ^tall. [act:a magic trick, setting it up]Multiply it by ^forty-three thousand, two ^hundred... [act:the reveal, playful wonder][tune:fall]and you get the ^*Earth*."
+  ],
+  [
+   "[d:calm][act:laying out the claim, fair]Here is the claim, and the numbers are ^real. [p:0.93][act:explaining, clear]Scale up the pyramid's ^height forty-three thousand, two hundred times. [act:the first fact]It lands within half a percent of the Earth's ^polar radius: the distance from the centre of the Earth to the North ^Pole. [p:0.93][act:the second fact, same measure]Scale up the ^base, all the way around, and it lands within one percent of the ^equator.",
+   "[d:build][act:posing the riddle, slowly]^Coincidence... [act:leaning in, playful][tune:fall]or a ^message in ^*stone*?"
+  ],
+  [
+   "[d:build][act:bright, the clue]Here's the ^key. [p:0.93][act:explaining, patient]Egyptian builders didn't measure slopes in degrees. [act:explaining, patient]They used@verb a ^*seked*: how far you step ^across for every cubit you climb ^up. [act:the recipe, clear]For the Great Pyramid: five and a half palms across, for every cubit ^up, and a cubit is seven ^palms. [act:a small image]A recipe for a ^slope, like the steps of a staircase.",
+   "[d:list][go:3|0][act:the neat bit, precise]Now the neat ^part. [p:0.9][act:explaining, slow]That slope gives a pyramid whose ^perimeter, divided by its height, is almost exactly two ^pi: about six point two ^eight. [p:0.93][act:the image, clear]Walk once around the base, and you have walked the height more than six ^times. [sfx:hit][act:a small flourish][tune:highfall]At ^*any* size."
+  ],
+  [
+   "[d:build][act:turning to it, curious][tune:rise]And the ^Earth? [act:deadpan, obvious][tune:fall]It's ^round. [p:0.93][act:explaining, clear]Walk once around any circle, and you have walked its radius about six point two eight ^times. [act:the click, satisfied][tune:fall]Its circumference divided by its radius is two pi ^*too*. [act:the point, gentle]So any pyramid built at this slope ^echoes a sphere, by geometry ^alone."
+  ],
+  [
+   "[d:reveal][act:narrowing it down, clear]So the ^only thing left to explain is the ^number@count itself. [act:slowly, spelling it out][tune:fall]^Forty-three thousand, two ^hundred. [act:curious][tune:rise]Where does@verb it come ^from?",
+   "[d:reveal][sfx:hit][act:the reveal, lower]That number@count was ^*chosen*... [act:quiet, pointed][tune:fall]^after the fact. [p:0.93][act:an image, gentle]A bit like shooting an arrow at a ^wall, then painting the target ^around it. [p:0.93][act:precise, fair]And the best number@count for the ^height, and the best number@count for the ^base, are not even the ^same."
+  ],
+  [
+   "[d:verdict][p:0.95][act:weighing it, warm][tune:rise]^Brilliant builders? [act:wholehearted, warm][tune:highfall]^Absolutely. [act:same measure][tune:rise]The Earth's size in ^stone? [act:the verdict, careful][tune:fall]No Egyptian ^text shows they ^*knew* it. [act:fair, plain]Their ^slope rule is written down. [act:fair, plain][tune:fall]The planet's ^size is not.",
+   "[d:tension][p:0.93][act:a gentle twist, storytelling]The ^first known measurement of the Earth came over two ^thousand years later. [act:savouring it]From a ^Greek scholar living in Egypt... [act:the name, with relish][tune:fall]named ^*Eratosthenes*. [p:0.93][act:explaining, wonder]He compared the Sun's ^shadows in two cities, far apart, and worked out the size of the ^world."
+  ]
+ ]
+}

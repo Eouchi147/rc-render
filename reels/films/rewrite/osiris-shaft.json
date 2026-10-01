@@ -1,0 +1,26 @@
+{
+ "beats": [
+  [
+   "[d:intrigue][sfx:boom][act:hushed, a strange scene]Thirty metres under Giza, as deep as a ten-storey building is ^tall, a granite ^coffin sits on an ^island... [act:wonder, slowly][tune:fall]*surrounded by ^water*. [act:hushed, curious][tune:rise]Who put it ^there? [act:same, a little eager][tune:fall]And ^when?"
+  ],
+  [
+   "[d:calm][act:plain guide, unhurried]Between the Sphinx and ^Khafre's pyramid, right under an old stone causeway, a ^shaft drops through the bedrock, in ^three levels.",
+   "[d:build][go:2|2][act:taking us down, calm]The ^middle level: stone ^coffins, ^bones and ^amulets, from burials. [go:3|2][act:lower, quieter, deeper]The ^bottom: a granite sarcophagus, on a rock island, ringed by ^groundwater."
+  ],
+  [
+   "[d:build][act:building, a bit of showbiz]In {1999|nineteen ninety-nine}, Zahi ^Hawass's team pumped it ^dry, and ^opened it... [act:amused, a showman's flourish][tune:risefall]^live@adj!, on American TV.",
+   "[d:list][go:5|0][p:0.93][act:plain fact, confident]From the style of what was found, he dated the bottom level to the New ^Kingdom, around fifteen hundred to eleven hundred BCE. [act:letting the gap sink in][tune:fall]More than a ^*thousand* years after the pyramids."
+  ],
+  [
+   "[d:build][act:fair, voicing the critics][tune:fall]Critics ask: why has so ^little been published, decades on? [act:genuinely open, curious][tune:rise]And couldn't the shaft be much ^*older* than the things found in it? [act:their point, fair][tune:fall]Cut rock carries no ^date of its own."
+  ],
+  [
+   "[d:reveal][act:conceding, sincere]That's a ^fair point. [act:explaining, clear]Objects@noun date when a shaft was ^*used@verb*, not when it was ^cut. [p:0.93][act:the analogy, vivid]Find a smartphone in an old cellar, and it tells you who was there ^lately, not when the cellar was ^dug.",
+   "[d:reveal][go:6|0][sfx:hit][act:the counterweight, firm]But ^every find in it is ^Egyptian. [act:warmer, a nice discovery]And its island design has a dated ^twin at Abydos: the ^Osireion. [p:0.93][act:explaining, clear]Built around thirteen hundred BCE: a granite hall on an island, ringed by ^water."
+  ],
+  [
+   "[d:verdict][p:0.95][act:weighing it, calm][tune:rise]^Older than the pyramids? [act:the verdict, even][tune:fall]No ^evidence yet. [act:fair, the open edge][tune:fall]But no date for the cutting ^either. [act:even, honest][tune:fall]The question stays ^open.",
+   "[d:tension][p:0.93][act:practical, a little eager]^One radiocarbon date would tell us a ^*lot@amount* more. [p:0.93][act:explaining, the method]Living things take in carbon, and when they die, one kind of it slowly runs out, like sand in an ^hourglass. [act:the payoff, warm][tune:fall]A scrap of charcoal, sealed in when the shaft was cut, could start to ^answer it."
+  ]
+ ]
+}

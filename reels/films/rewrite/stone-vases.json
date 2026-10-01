@@ -1,0 +1,26 @@
+{
+ "beats": [
+  [
+   "[d:intrigue][sfx:boom][act:an intriguing opener]^Stone jars, over five ^thousand years old, carved from some of the hardest rock in ^Egypt. [act:reporting the claim, even]So smooth and so ^round, some say only a ^*lathe* could make them. [p:0.93][act:explaining, clear]A lathe is a machine that ^spins the stone while a fixed blade shaves it, the way a potter's wheel shapes ^clay."
+  ],
+  [
+   "[d:calm][act:plain, quietly astonished]Under ^one pyramid alone, a step pyramid built in tiers, archaeologists found more than *forty ^thousand* stone vessels. [p:0.93][act:an image, wonder]Make one a day, and forty thousand would take you more than a hundred ^years.",
+   "[d:list][go:2|0][act:counting them off, crisp][tune:level]^Basalt. [act:same beat][tune:level]^Granite. [act:same beat, closing][tune:fall]^Diorite. [act:explaining]Hard, heavy stones that wear tools ^down. [act:marvelling, softer][tune:fall]And some vessels have walls as thin as ^*eggshell*."
+  ],
+  [
+   "[d:build][act:building, precise]Then engineers began ^scanning some of these vases in three dimensions. [p:0.93][act:explaining, clear]A scanner sweeps light across the surface, and builds a map of millions of ^points. [act:the claim, precise]They reported roundness to ^*thousandths* of an inch. [p:0.93][act:an image]That's finer than a human ^hair.",
+   "[d:tension][sfx:hit][act:reporting their claim, even]Too ^perfect@adj for ^hands, they said. [act:fair, taking it seriously][tune:rise]And if so, who had a ^lathe, five thousand years ^ago?"
+  ],
+  [
+   "[d:build][act:the catch, careful]But there's a ^catch. [act:explaining]Most of the scanned vases came from ^private collections. [act:ticking them off][tune:level]No ^find-spot. [act:same beat][tune:level]No ^proof they're ancient. [act:plain, no drama][tune:fall]And the antiquities market is full of ^*fakes*. [p:0.93][act:explaining, the method]An object@noun speaks as evidence because of where it was ^found: the tomb, the layer, the ^date. [act:the image, gentle]Without that, it's a witness with no ^address@noun."
+  ],
+  [
+   "[d:reveal][act:leaning in, careful]So in {2025|twenty twenty-five}, a ^peer-reviewed study ran the fair test. [act:the method, clear]It scanned nineteen vases with a ^known museum history, and set them beside ^handmade and ^machine-made pieces. [sfx:shimmer][act:the reveal, clear][tune:fall]Their surfaces matched ^*handmade* work.",
+   "[d:list][go:6|0][act:showing us, warm interest]And Egyptian art shows the ^tool. [act:describing it]A ^weighted drill: a shaft with heavy stones near the top, and a ^crescent-shaped stone bit below. [act:explaining, clear]Turn it back and forth, again and again, and the bit slowly grinds out the ^inside."
+  ],
+  [
+   "[d:verdict][p:0.95][act:the verdict, admiring]^Skill, ^patience, and around ^*eight hundred* hours per vessel. [p:0.93][act:doing the sum, warm]Work eight hours a day, and that is about a ^hundred working days, for a single ^jar.",
+   "[d:tension][p:0.93][act:a friendly challenge][tune:rise]Want to ^prove a lost machine? [act:practical, warm][tune:fall]Scan the vases that came out of the ^*ground*. [act:warm, the last word][tune:fall]Dated, recorded, and ^known."
+  ]
+ ]
+}

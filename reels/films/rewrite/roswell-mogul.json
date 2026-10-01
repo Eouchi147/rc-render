@@ -1,0 +1,28 @@
+{
+ "beats": [
+  [
+   "[d:intrigue][sfx:boom][act:setting the scene, measured]July eighth, {1947|nineteen forty-seven}, in Roswell, ^New Mexico. [act:deadpan, let the absurdity land]The local ^army air base tells the press it has captured a flying ^saucer. [act:vivid, a small smile]It makes the front ^page.",
+   "[d:tension][act:dry, unimpressed][tune:fall]A few hours later, the army takes it ^back: it was a weather ^balloon. [act:skeptical, one eyebrow up][tune:rise]Case ^closed? [act:quiet, certain, a knowing smile][tune:fall]Not ^even close@adj. [act:inviting, warm]So let's open the ^file."
+  ],
+  [
+   "[d:calm][act:plain storytelling]Out in the ranch country north of the base, a rancher, Mac Brazel, found ^debris scattered across his land, and told the ^sheriff. [act:matter of fact]An officer from the base, Major Jesse Marcel, went out and ^collected it.",
+   "[d:build][go:3|0][act:reading out the evidence, slightly amused]So what did Brazel describe? [act:counting them off][tune:level]Strips of ^rubber. [act:counting on][tune:level]^Tinfoil. [act:counting on][tune:level]A rather tough ^paper. [act:the last one][tune:fall]And ^sticks. [act:flat, pointed]No ^engine. [act:flat, final]No ^metal parts. [p:0.93][act:explaining, a smile]It sounds less like a spaceship than a broken ^kite."
+  ],
+  [
+   "[d:build][act:the turn: news that changes everything]Then, thirty-one years later, the man who had picked up that debris spoke out. [act:firm, quoting him]Jesse Marcel said the balloon story had been a ^cover. [sfx:shimmer][act:building, a little faster]Researchers went looking, and collected ^hundreds of interviews: strange material, threats, even ^bodies.",
+   "[d:aside][act:a quiet caveat, lower]But most of those interviews were recorded ^thirty to ^fifty years after the event. [p:0.93][act:explaining, warm]Memory is a bit like a photocopy of a photocopy. [act:explaining, clear]Each new copy loses a little ^detail, and picks up a little ^noise."
+  ],
+  [
+   "[d:build][act:revealing a fact, confident]In {1994|nineteen ninety-four}, the Air Force ^named the secret: Project@noun ^Mogul. [p:0.93][act:explaining, brisk]A top secret string of ^balloons, one above the other, hung with radar ^reflectors and carrying a ^microphone. [act:explaining, clear]The idea: listen, high in the sky, for the faint boom of a ^Soviet atomic test.",
+   "[d:aside][act:wry, a small smile]A real ^secret. [act:dry, pointed]Just not ^that one. [p:0.93][act:connecting it, calm]And those radar reflectors were made of foil, paper and ^sticks: the very things the rancher ^described."
+  ],
+  [
+   "[d:reveal][act:leaning in]But the official story kept ^changing. [act:counting them off][tune:level]First, a flying ^disc. [act:counting on][tune:level]Then, a weather ^balloon. [act:counting on][tune:level]Then, Project@noun ^Mogul. [act:the punchline, slower]And in {1997|nineteen ninety-seven}, for the bodies people remembered: test ^dummies, dropped from the sky... [act:the sting, quiet][tune:fall]but not until the {1950s|nineteen fifties}, years after {1947|nineteen forty-seven}. [act:fair, conceding]No wonder people stopped ^trusting it.",
+   "[d:build][sfx:hit][act:heavier, deliberate][tune:rise]And the base's ^records@noun from those years? [act:flat, final][tune:highfall]Destroyed. [act:letting it hang, quieter][tune:fall]^Nobody knows who authorised it. [p:0.93][act:explaining, even]A missing file is not a ^spaceship. [act:quiet, knowing]But legends grow best in the ^gaps."
+  ],
+  [
+   "[d:verdict][p:0.95][act:weighing it, calm authority][tune:rise]So, a crashed alien ^craft? [act:the verdict, level-headed][tune:fall]*Awaiting ^evidence*. [act:firm, precise][tune:fall]Not one ^piece, ^photo or ^document from {1947|forty-seven} ^supports it. [p:0.93][act:fair, open]One real fragment, tested in a ^lab, would change that.",
+   "[d:tension][p:0.93][act:a concession, sincere][tune:fall]The cover-up was ^real. [gap:0.5][act:the last word, quiet and certain][tune:fall]What it ^covered, as far as the record@noun shows, was a ^balloon."
+  ]
+ ]
+}

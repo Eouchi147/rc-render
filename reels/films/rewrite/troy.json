@@ -1,0 +1,27 @@
+{
+ "beats": [
+  [
+   "[d:intrigue][sfx:boom][act:storytelling, setting the scene]For much of the nineteenth century, serious historians filed Troy under ^poetry. [act:light, a small smile]A city from Homer's ^Iliad, like ^Olympus, the mountain of the gods. [act:wry]A lovely story, but not a place you could ^visit.",
+   "[d:tension][act:the turn, a glint in the eye]Then two ^amateurs started digging. [act:curious, inviting]And the ground began to ^answer."
+  ],
+  [
+   "[d:calm][act:plain, orienting]The place: a hill called Hisarlık, in northwest ^Turkey, on the Asian shore of the ^Aegean Sea. [act:storytelling, building][tune:level]A British consul, Frank Calvert, and a rich ^businessman, Heinrich Schliemann, dug into the ^mound...",
+   "[d:build][go:3|0][sfx:shimmer][act:the reveal, delighted wonder]...and found not ^one city, but ^nine, stacked on top of each other. [p:0.93][act:explaining, clear]Each time a town fell or burned, people built the next one on its ^ruins. [act:a vivid image, smiling]Like a layer cake: the oldest at the ^bottom, the youngest on ^top."
+  ],
+  [
+   "[d:build][act:impressed, descriptive]Troy Six: a Bronze Age citadel, with sloping stone walls up to ^five metres thick. [p:0.93][act:a vivid comparison]That's thicker than a ^car is long. [act:adding more, bright]And from {1988|nineteen eighty-eight}, surveys@noun found a whole ^lower town spread out around it. [act:the point, warm]Not just a fort on a hill: a ^city."
+  ],
+  [
+   "[d:build][act:turning a page, intrigued]Then, the Hittite ^archives. [act:explaining, clear]The Hittites ruled an empire in what is now central ^Turkey, and kept their letters and treaties on clay ^tablets. [act:careful, pronouncing it]Those tablets name a kingdom in the ^west called ^Wilusa. [act:the connection, slower][tune:level]In Greek: ^Wilios. [act:the payoff, a quiet smile][tune:fall]^Ilion. [act:delighted, plain]Another name for ^Troy.",
+   "[d:build][go:4|0][act:storytelling, amused]Around {1280|twelve eighty} BCE, its king, ^Alaksandu, signed a treaty that had to be read@past aloud to him ^three times a year. [d:aside][act:lighter, a knowing aside]And in Homer, the Trojan prince Paris has ^another name: ^Alexandros. [p:0.93][act:fair, careful]Similar names are a ^clue, not a ^match."
+  ],
+  [
+   "[d:reveal][act:grave, lower, slower]Troy Seven A ended in ^fire, around {1180|eleven eighty} BCE. [act:quiet, careful]In the burnt layer: bronze ^arrowheads, and the remains of people who died in the ^ruins.",
+   "[d:build][sfx:hit][act:the complication, fair]But ^no text names the attackers. [act:weighing the options][tune:level]^Greeks, as Homer says? [act:weighing on][tune:level]Sea ^raiders? [act:weighing on][tune:level]A ^rival kingdom? [act:the widest view][tune:fall]Or the collapse of a whole ^world, around the same time. [p:0.93][act:explaining, fair]The ground records@verb the ^fire. [act:quiet]It doesn't sign the name of whoever ^lit it."
+  ],
+  [
+   "[d:verdict][p:0.95][act:weighing it, calm authority][tune:rise]Homer's Troy, a ^real and ^powerful city? [act:the verdict, confident][tune:fall]*Strong ^evidence*. [act:the other half, careful][tune:rise]The war ^exactly as Homer sings it, some five hundred years ^later? [act:gentle, warm][tune:fall]Still a ^poem.",
+   "[d:tension][p:0.93][act:candid, even][tune:level]The experts were ^wrong about the city. [act:the last word, a warm smile][tune:fall]The ^shovel was right."
+  ]
+ ]
+}

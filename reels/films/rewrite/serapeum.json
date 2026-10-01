@@ -1,0 +1,28 @@
+{
+ "beats": [
+  [
+   "[d:intrigue][sfx:boom][act:hushed, entering the dark]^Underground at Saqqara, in Egypt: a long tunnel cut into the rock, and two dozen stone ^boxes. [act:letting the weight land]Box and lid, up to ^*sixty* tonnes. [p:0.93][act:an image]That's about the weight of ^forty cars.",
+   "[d:tension][act:curious, pulling them in][tune:rise]Were they ^really made for ^*bulls*?"
+  ],
+  [
+   "[d:calm][act:guiding, calm]This is the ^Serapeum. [act:with care, explaining]The tomb of the ^Apis bulls, sacred animals of Memphis. [p:0.93][act:with care, explaining]When one died, it was buried here, and the burials went on for about ^*fourteen hundred* years.",
+   "[d:build][go:2|0][act:laying it out, steady]In the part called the Greater Vaults stand ^twenty-four granite and ^basalt boxes, each in its own side ^room. [act:precise, impressed]One ^measured box and lid: about [count:62|tonnes]^sixty-two tonnes. [p:0.93][act:an image]Nearly four metres long: two beds, laid end to ^end."
+  ],
+  [
+   "[d:build][act:giving his side, fair]Engineer Christopher Dunn went down with a ^straightedge and a ^square: the tools a machinist uses to check that a surface is ^flat and a corner is ^true. [sfx:hit][act:reporting his words, even]^Flat, and square, like a ^machine shop, he said.",
+   "[d:tension][act:his conclusion, stated plainly][tune:fall]^Machine-made. [act:raising the stakes]And far ^older than the bulls. [act:fair, taking it seriously]If he's right, someone had machine tools long before ^anyone we know of."
+  ],
+  [
+   "[d:build][act:the counterweight, measured]But some boxes carry ^writing, carved into the stone: the ^names of ^kings. [act:reading them off, clear][tune:level]^Amasis. [act:same beat][tune:level]^Cambyses. [act:same beat, landing][tune:fall]^Khababash.",
+   "[d:list][go:5|0][act:dating it, precise]Those kings ruled from the ^sixth to the ^fourth century BCE. [p:0.93][act:explaining, clear]And the Greater Vaults were in ^use@noun from about six hundred and sixty BCE. [act:the click, a little delighted][tune:fall]The names land ^right inside that ^window."
+  ],
+  [
+   "[d:reveal][act:leaning in, skeptical][tune:rise]And the ^precision? [act:dry, precise][tune:fall]A ^few spot checks, with a ^*six-inch* straightedge, about fifteen ^centimetres. [p:0.93][act:the image, clear]On a wall nearly four metres long, that's like judging a whole shelf of books by pulling out ^one. [act:plainly, a gentle point]^Never published as ^full measurements.",
+   "[d:list][act:calm, practical]And there's a known way to get flat ^stone. [p:0.93][act:explaining, clear]Rub one stone over another, with sand and water between them, again and ^again. [act:explaining, clear]The high spots wear away ^first. [act:the payoff, practical][tune:fall]^Hand lapping with sand can make granite ^that flat."
+  ],
+  [
+   "[d:verdict][p:0.95][act:weighing it, calm][tune:rise]^Late Egyptian ^masterwork? [act:fair, confident][tune:fall]Most ^likely. [act:same measure][tune:rise]Something ^older? [act:the verdict, level-headed][tune:fall]Still ^awaiting evidence. [act:fair, generous][tune:fall]Either way, setting these giants underground was an astonishing ^feat.",
+   "[d:tension][p:0.93][act:practical, a friendly push]Laser-scan ^all twenty-four, inside and out, and publish every ^number@count. [act:quiet, certain][tune:fall]Then we'll ^*know*."
+  ]
+ ]
+}

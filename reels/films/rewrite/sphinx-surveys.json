@@ -1,0 +1,27 @@
+{
+ "beats": [
+  [
+   "[d:intrigue][sfx:boom][act:big opener, a touch of awe]In {1993|nineteen ninety-three}, thirty-three ^million people watched a TV show say the Sphinx was ^*thousands* of years older than the textbooks said.",
+   "[d:tension][act:darker, slower]Then came the ^fight... [act:the real stakes][tune:fall]over who gets to ^*look*. [act:quiet, clarifying]Who may scan, and drill, around the ^Sphinx, and who ^decides."
+  ],
+  [
+   "[d:calm][act:plain, laying out the facts]Between {1978|nineteen seventy-eight} and {1996|nineteen ninety-six}, at least ^*five* teams scanned the ground around the Sphinx. [p:0.93][act:explaining, the method]Scanning means looking into rock without ^digging, a bit like an ultrasound for the ^ground.",
+   "[d:list][go:2|2.2][sfx:shimmer][act:counting them off, crisp][tune:level]^American. [act:same beat][tune:level]^Japanese. [act:same beat, closing][tune:fall]^Egyptian. [act:then the tools, lightly][tune:fall]^Radar, and ^seismic. [act:explaining, clear]Radar bounces radio waves off buried edges; seismic listens to the echoes of a hammer ^blow. [act:warm, summing up][tune:rise]Five teams, two tools, one question: is anything ^hidden down there?"
+  ],
+  [
+   "[d:build][p:0.93][act:building, precise]Echoes can hint at a hollow, but only a drill can ^check. [act:building, precise]In {1998|nineteen ninety-eight}, Egypt allowed ^one test drill, into a spot the radar had ^flagged. [sfx:hit][act:plain, deflating][tune:fall]A ^*natural* cavity.",
+   "[d:tension][go:4|2][act:flat, final][tune:fall]After that: ^no more drilling. [act:quiet, the turn]And that's where the ^argument begins."
+  ],
+  [
+   "[d:build][act:fair, giving the critics' case]Critics say access got ^harder once the old-Sphinx idea got ^famous. [act:pressing the point, even]And that the survey@noun data was ^never fully ^*released*. [p:0.93][act:their best point, fair]Without the raw numbers, nobody outside can check the scans for ^themselves. [act:fair, a general truth][tune:fall]In science, a result nobody can check is only half a ^result."
+  ],
+  [
+   "[d:reveal][act:turning it, calmly]But the record@noun shows outside teams ^*were* let in, ^again and again, American and Japanese among them.",
+   "[d:reveal][act:their side, evenly]And the authorities argue the Sphinx is ^crumbling: it has needed repeated ^patching. [sfx:hit][act:serious, weighing it]^Every drill hole is a ^*risk*. [p:0.93][act:the analogy, gentle]Like a doctor who won't operate on a frail patient just to take a ^look."
+  ],
+  [
+   "[d:verdict][p:0.95][act:weighing it, calm][tune:rise]Tight ^control? [act:plainly, no fuss][tune:fall]^Yes. [act:same measure][tune:rise]A ^cover-up? [act:the verdict, level-headed][tune:fall]No ^evidence of one. [act:fair, explaining]Saying no to a drill is a ^choice; it isn't the same as ^hiding something.",
+   "[d:tension][p:0.93][act:practical, warm]The fix is ^simple, and it costs no drill ^holes. [act:firm, friendly][tune:fall]^*Publish* the raw data. [act:warm, the last word][tune:fall]Then anyone can check the ^echoes."
+  ]
+ ]
+}
