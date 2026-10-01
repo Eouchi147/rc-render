@@ -115,6 +115,11 @@ RESPELL.update({  # File 06 Impossible Stones, File 13 The Files
 })
 # transliterated names with ʿ / macrons: espeak spells them out letter by letter ("letter 2bf, A macron, d")
 LEX.update({"ʿād": "ˈɑːd", "ād": "ˈɑːd", "ténéré": "tˌɛnɛɹˈeɪ"})
+# wave 2 names (1 Oct 2026): espeak said "dee-hull", "mew-sa", "lutt", "men-kaw-ra"...
+LEX.update({"dhul": "ðˈʊl", "qarnayn": "kɑːɹnˈaɪn", "musa": "mˈuːsə", "sulayman": "sˌʊleɪmˈɑːn", "lut": "lˈuːt", "salih": "sˈɑːlɪ",
+            "hud": "hˈuːd", "yajuj": "jɑːdʒˈuːdʒ", "majuj": "mɑːdʒˈuːdʒ", "menkaure": "mɛŋkˈaʊɹeɪ", "shuruppak": "ʃʊɹˈʊpæk",
+            "erlitou": "ˈɜːliːtˌoʊ", "thera": "θˈɪɹə", "qumran": "kʊmɹˈɑːn", "kerna": "kˈɛɹnə", "faynan": "feɪnˈɑːn",
+            "wilusa": "wiːlˈuːsə", "gorgan": "ɡɔːɹɡˈɑːn"})
 
 
 def _key(w):
