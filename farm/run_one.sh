@@ -4,6 +4,9 @@
 set -e
 id=$1; TOP=$PWD; R=$TOP/reels; W=$R/out/work/$id-v2; J=${JOBS:-4}
 export RC_EPISODES=files.json RC_TTS_DIR=$TOP/models RC_HEAR=${RC_HEAR:-0} PYTHONUNBUFFERED=1
+# the full Chromium, not Playwright's headless shell: the shell honours --deterministic-mode and then waits forever for begin-frames
+[ -n "$RC_CHROME" ] || RC_CHROME=$(ls -d $HOME/.cache/ms-playwright/chromium-*/chrome-linux*/chrome 2>/dev/null | head -1); export RC_CHROME
+echo "chrome: $RC_CHROME"
 code=$(python3 -c "import json;print([e['code'] for e in json.load(open('$R/episodes/files.json')) if e['id']=='$id'][0])")
 mod=${MOD:-f${code%%.*}}
 echo "== $id ($mod) $(date +%T)"
