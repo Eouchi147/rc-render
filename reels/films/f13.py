@@ -573,4 +573,5 @@ def ledger_recap():
 
 
 def EPISODES():
-    return [tuskegee_m(), stargate_m(), roswell_m(), uap_m(), unpublished_m(), ledger_recap()]
+    import lg_d      # 13.01 rebuilt from the legacy film
+    return [lg_d.mkultra_m(), tuskegee_m(), stargate_m(), roswell_m(), uap_m(), unpublished_m(), ledger_recap()]

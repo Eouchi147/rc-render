@@ -961,4 +961,5 @@ def ledger_recap():
 
 
 def EPISODES():
-    return [scablands_m(), carolina_bays_m(), taurids_m(), mammoths_m(), ledger_recap()]
+    import lg_c      # 03.01 rebuilt from the legacy film
+    return [lg_c.sky_fell_m(), scablands_m(), carolina_bays_m(), taurids_m(), mammoths_m(), ledger_recap()]

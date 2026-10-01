@@ -711,4 +711,5 @@ def ledger_recap():
 
 
 def EPISODES():
-    return [oldest_m(), notation_m(), shared_m(), holes_m(), ledger_recap()]
+    import lg_c      # 02.02 rebuilt from the legacy film
+    return [oldest_m(), lg_c.ice_age_signs_m(), notation_m(), shared_m(), holes_m(), ledger_recap()]

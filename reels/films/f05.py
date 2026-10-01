@@ -1339,5 +1339,6 @@ def ledger_recap():
 
 def EPISODES():
     import f05b      # the six films reworked in their own module (wave 2)
-    return [big_void_m(), sphinx_chambers_m(), sphinx_erosion_m(), merer_m(), sphinx_surveys_m(), osiris_shaft_m(), builders_town_m(), f05b.orion_m(), f05b.metrology_m(),
+    import lg_b      # 05.01 and 05.02 rebuilt from the legacy films
+    return [lg_b.khafre_pillars_m(), lg_b.sealed_door_m(), big_void_m(), sphinx_chambers_m(), sphinx_erosion_m(), merer_m(), sphinx_surveys_m(), osiris_shaft_m(), builders_town_m(), f05b.orion_m(), f05b.metrology_m(),
             f05b.drill_cores_m(), f05b.stone_vases_m(), f05b.serapeum_m(), f05b.power_plant_m(), ledger_recap()]

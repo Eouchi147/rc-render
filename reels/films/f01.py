@@ -1135,4 +1135,5 @@ def ledger_recap():
 
 
 def EPISODES():
-    return [other_humans_m(), early_seafarers_m(), denisovan_giants_m(), surgeons_m(), shigir_m(), first_americans_m(), old_copper_m(), ledger_recap()]
+    import lg_a      # 01.01 and 01.07 rebuilt from the legacy films
+    return [lg_a.kalambo_m(), other_humans_m(), early_seafarers_m(), denisovan_giants_m(), surgeons_m(), shigir_m(), lg_a.gobekli_m(), first_americans_m(), old_copper_m(), ledger_recap()]

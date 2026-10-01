@@ -570,4 +570,5 @@ def ooparts_m():
 
 
 def EPISODES():
-    return [dating_m(), grades_m(), oklo_m(), ooparts_m(), astronauts_m()]
+    import lg_d      # 00.01 rebuilt from the legacy film
+    return [lg_d.where_we_stand_m(), dating_m(), grades_m(), oklo_m(), ooparts_m(), astronauts_m()]
