@@ -1,0 +1,84 @@
+{
+ "hook": "[act:hushed, drawing us in]Secret ^programmes, cover ^stories, destroyed ^files. [act:the big question, clear][tune:rise]When an institution hides something, how do we tell a ^real secret from a ^rumour? [act:bright, rolling up sleeves][tune:fall]Let's investigate ^six files, one by ^one.",
+ "cases": [
+  {
+   "cell": 0,
+   "where": "the United States",
+   "evidence_note": "",
+   "claim_text": "",
+   "verdict": "established",
+   "chip": "drugged, without consent",
+   "t1": "[act:grave, steady]First file, and a grave one: a secret ^CIA programme.",
+   "t2": "[act:quiet, precise][tune:rise]Did the agency really drug people who didn't ^know?",
+   "t3": "[act:plain, heavy]The people were ^unwitting: they never agreed, because they were never ^told.",
+   "t4": "[act:the verdict, grave][tune:fall]Drugged, without consent: *^established*."
+  },
+  {
+   "cell": 1,
+   "where": "Macon County, Alabama",
+   "evidence_note": "penicillin, the standard cure: 1943",
+   "claim_text": "",
+   "verdict": "established",
+   "chip": "forty years untreated",
+   "t1": "[act:grave, steady]Macon County, Alabama, {1932|nineteen thirty-two}. [act:quiet, precise]Government doctors begin watching hundreds of Black men with ^syphilis.",
+   "t2": "[act:low, the charge][tune:rise]Were they left untreated, on ^purpose?",
+   "t3": "[p:0.9][act:clear, measured]The study's ^own files say so, written at the time by those in charge, like a captain's ^logbook. [act:heavy, slow]By {1943|nineteen forty-three}, penicillin was the standard ^cure. [act:quiet, grave]The men were never ^offered it.",
+   "t4": "[act:firm, sober][tune:fall]Forty years untreated: *^established*."
+  },
+  {
+   "cell": 2,
+   "where": "Roswell, New Mexico, 1947",
+   "evidence_note": "Project Mogul: a train of balloons",
+   "claim_text": "",
+   "verdict": "awaiting",
+   "chip": "an alien craft?",
+   "t1": "[act:storytelling, deadpan]Roswell, {1947|nineteen forty-seven}: the army announces a captured flying ^saucer, then a weather ^balloon.",
+   "t2": "[act:the claim, at its strongest]Decades later, witnesses told of ^bodies. [act:the question][tune:rise]An alien ^craft?",
+   "t3": "[act:explaining, confident]In {1994|nineteen ninety-four}, the Air Force named the real secret: Project@noun ^Mogul, balloons listening for Soviet atomic ^tests. [act:firm, precise]No piece, photo or document from {1947|forty-seven} supports a ^craft.",
+   "t4": "[act:the verdict, level-headed][tune:fall]The cover-up: ^real. [act:even][tune:fall]The craft: *awaiting ^evidence*."
+  },
+  {
+   "cell": 3,
+   "where": "the Pentagon, United States",
+   "evidence_note": "2024 review: no alien technology",
+   "claim_text": "",
+   "verdict": "awaiting",
+   "chip": "recovered craft?",
+   "t1": "[act:storytelling]The Pentagon ^secretly studied UFOs, and in {2017|twenty seventeen}, the world found ^out.",
+   "t2": "[act:the claim, at its strongest]Under oath, a former officer spoke of recovered ^craft, and non-human ^bodies. [act:the question][tune:rise]Are they ^hidden?",
+   "t3": "[act:the caveat, fair]He heard it from ^others. [p:0.9][act:the everyday picture, warm]An unidentified bird in a blurry photo isn't a new ^species. [act:firm, precise]And the Pentagon's review found no alien ^technology.",
+   "t4": "[act:the verdict, level-headed][tune:fall]Recovered craft: *awaiting ^evidence*."
+  },
+  {
+   "cell": 4,
+   "where": "storerooms, from Egypt to Israel",
+   "evidence_note": "500,000 fragments; 5,476 texts published",
+   "claim_text": "",
+   "verdict": "strong",
+   "chip": "never published",
+   "t1": "[act:storytelling, curious]Next: archaeology's ^storerooms.",
+   "t2": "[act:the claim, fair]Some writers say inconvenient finds are kept out of ^textbooks. [act:the question][tune:rise]Buried on ^purpose?",
+   "t3": "[p:0.9][act:explaining, the method]Count digs against published reports, like your phone's photos against the few you ^printed. [act:the evidence]At one Egyptian site, about one text per hundred fragments is ^published.",
+   "t4": "[act:the verdict, confident][tune:fall]A huge unpublished past: *strong ^evidence*. [act:plain][tune:rise]The reason? [act:plain][tune:fall]Money and ^time. [act:level-headed][tune:fall]Buried on purpose: *awaiting ^evidence*."
+  },
+  {
+   "cell": 5,
+   "where": "Fort Meade, Maryland",
+   "evidence_note": "1995: 'vague and ambiguous'",
+   "claim_text": "psychic spies?",
+   "verdict": "ruled",
+   "chip": "",
+   "t1": "[act:storytelling, straight face]Last file: ^Star Gate, twenty-three years of government-funded ^psychic spies.",
+   "t2": "[act:the claim, fair]Viewers sketched striking ^hits, like a giant crane at a secret Soviet ^site. [act:the question][tune:rise]Did it ^work?",
+   "t3": "[act:explaining, the method]One hit can be ^luck: call heads or tails, and you're right half the ^time. [act:dry, the evidence]The programme's own evaluation called the spying vague and ^ambiguous.",
+   "t4": "[act:the verdict, firm][tune:fall]Reliable psychic spies: *ruled ^out*."
+  }
+ ],
+ "close": [
+  "[act:stepping back, calm]So what do our six files say ^together?",
+  "[act:clear, grave]The worst secrets here are ^real, and on the ^record@noun.",
+  "[act:fair, precise]The wildest ones rest on sworn ^words, with no public ^evidence, yet.",
+  "[act:warm, sincere][tune:fall]Institutions really ^do hide things: that's exactly why we ask for evidence, from ^them and from their ^critics."
+ ],
+ "motto": true
+}

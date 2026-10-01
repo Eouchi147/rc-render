@@ -1,0 +1,108 @@
+{
+ "hook": "[act:hushed, drawing us in]Imagine the ^Sahara, but ^green, with a lake about the size of the Caspian ^Sea. [act:the big question, clear][tune:rise]So what does@verb the sand still ^remember? [act:bright, rolling up sleeves][tune:fall]Let's investigate ^eight cases, one by ^one.",
+ "cases": [
+  {
+   "cell": 0,
+   "where": "the Sahara, from Egypt to Mauritania",
+   "evidence_note": "rain: about 10 times today's",
+   "claim_text": "",
+   "verdict": "mixed",
+   "chip": "sudden here, slow there",
+   "t1": "[act:storytelling, like a guide]First stop: the green ^Sahara, from about eleven to five thousand years ^ago.",
+   "t2": "[act:the question, leaning in][tune:rise]When the rains failed, did it switch off ^overnight?",
+   "t3": "[act:explaining]Ocean dust off Mauritania jumps within ^centuries. [act:the counterpoint]But a lake in Chad records@verb a slow change, over ^thousands of years.",
+   "t4": "[act:the verdict, measured][tune:fall]Switched off overnight: *mixed ^record@noun*. [act:fair, warm]The green Sahara itself is well ^established."
+  },
+  {
+   "cell": 1,
+   "where": "the Great Sand Sea, Egypt and Libya",
+   "evidence_note": "the glass: c. 29 million years old",
+   "claim_text": "",
+   "verdict": "strong",
+   "chip": "made by a cosmic impact",
+   "t1": "[act:storytelling, intrigued]On Tutankhamun's chest sits a yellow-green ^scarab, made of desert@noun ^glass.",
+   "t2": "[act:the claim, wide-eyed][tune:rise]Glass melted by something from ^space?",
+   "t3": "[p:0.9][act:explaining, building]Tiny crystals in it hold traces of a mineral made only in ^impacts: a fingerprint at the ^scene. [act:the catch, curious]But the crater is still ^missing.",
+   "t4": "[act:the verdict, measured][tune:fall]A jewel made by a cosmic impact: *strong ^evidence*."
+  },
+  {
+   "cell": 2,
+   "where": "Takarkori shelter, south-west Libya",
+   "evidence_note": "their lineage split: c. 50,000 years ago",
+   "claim_text": "",
+   "verdict": "strong",
+   "chip": "a lost lineage",
+   "t1": "[act:tender, storytelling]Two women who died about seven thousand years ago, in a green ^Sahara.",
+   "t2": "[act:the question][tune:rise]Were its herders ^newcomers?",
+   "t3": "[p:0.9][act:explaining]Their DNA: a branch of the human family ^tree that split off some fifty thousand years ago, and stayed ^apart. [act:the point, clear]So the herders were mostly ^local.",
+   "t4": "[act:the verdict, measured][tune:fall]A lost lineage: *strong ^evidence*. [act:fair]But two people aren't a whole ^people."
+  },
+  {
+   "cell": 3,
+   "where": "Fezzan, south-west Libya",
+   "evidence_note": "shafts: about 9 m deep on average",
+   "claim_text": "",
+   "verdict": "plausible",
+   "chip": "fossil water",
+   "t1": "[act:storytelling, intrigued]The ^Garamantes: oasis towns, pyramid ^tombs, and hundreds of kilometres of ^tunnels.",
+   "t2": "[act:the question][tune:rise]Why did their kingdom ^fade?",
+   "t3": "[act:explaining, grave]Their tunnels tapped water that fell as rain in wetter ^times, and it doesn't come ^back. [p:0.9][act:the everyday picture]Like savings with no ^income: one day, they're ^gone.",
+   "t4": "[act:the verdict, measured][tune:fall]*^Plausible*: a leading explanation, not the only ^one."
+  },
+  {
+   "cell": 4,
+   "where": "Nabta Playa, Egyptian Sahara",
+   "evidence_note": "the circle: c. 4800 BCE",
+   "claim_text": "",
+   "verdict": "mixed",
+   "chip": "the sun, not the stars",
+   "t1": "[act:storytelling]^Nabta Playa, in Egypt: a stone circle only four metres across, from about {4800|forty-eight hundred} ^BCE.",
+   "t2": "[act:the claim][tune:rise]The world's first ^observatory, mapping the ^stars?",
+   "t3": "[act:explaining, precise]Two gaps line up north to ^south; another faces the midsummer ^sunrise. [act:the catch]But the star dates fall some fifteen hundred years before the ^stones.",
+   "t4": "[act:the verdict, measured][tune:fall]*Mixed ^record@noun*: the ^sun, probably; the stars, a ^stretch."
+  },
+  {
+   "cell": 5,
+   "where": "Gobero, the Ténéré, Niger",
+   "evidence_note": "two phases, a long dry spell between",
+   "claim_text": "",
+   "verdict": "open",
+   "chip": "one people, or two?",
+   "t1": "[act:tender, hushed]In ^Niger, by a vanished lake: a woman and two children, buried in an ^embrace.",
+   "t2": "[act:the question][tune:rise]Two phases of burials: two different ^peoples?",
+   "t3": "[act:explaining]In {2008|two thousand eight}, the team thought ^so. [act:the twist, precise]In {2025|twenty twenty-five}, a study of their teeth found them hard to tell ^apart.",
+   "t4": "[act:the verdict, measured][tune:fall]*Open ^question*. [act:fair]Ancient DNA could settle ^it."
+  },
+  {
+   "cell": 6,
+   "where": "Wadi Sura, south-west Egypt",
+   "evidence_note": "paintings: roughly 6500 to 4500 BCE",
+   "claim_text": "",
+   "verdict": "open",
+   "chip": "alive, or dead?",
+   "t1": "[act:storytelling, intrigued]In one of the driest places on ^Earth, someone painted ^swimmers.",
+   "t2": "[act:the question, fair][tune:rise]A real ^lake, or the dead, in the waters before ^creation, as in later Egyptian ^tombs?",
+   "t3": "[act:the catch, precise]The paintings are two or three thousand years older than those tomb ^texts. [p:0.9][act:the everyday picture]Like explaining a Roman mosaic with a guidebook written ^today.",
+   "t4": "[act:the verdict, measured][tune:fall]*Open ^question*. [act:a small smile]The swimmers aren't telling ^yet."
+  },
+  {
+   "cell": 7,
+   "where": "Tassili n'Ajjer, south-east Algeria",
+   "evidence_note": "dated c. 9,500 to 7,500 years ago",
+   "claim_text": "astronauts on rock?",
+   "verdict": "ruled",
+   "chip": "",
+   "t1": "[act:storytelling, playful]Last stop: ^Tassili, in Algeria, and a painted giant nicknamed the great Martian ^god.",
+   "t2": "[act:the claim, fair]Its round head is smooth and ^featureless. [act:the question][tune:rise]A ^helmet?",
+   "t3": "[act:explaining]Blank heads look like a ^convention: masks, body paint, or spirit ^beings. [act:grave, measured]The real scandal? [act:grave]Copyists wetted the paintings to brighten ^them, and they faded ^faster.",
+   "t4": "[act:the verdict, firm][tune:fall]Astronauts on the rocks: *ruled ^out*."
+  }
+ ],
+ "close": [
+  "[act:stepping back, calm]So what do our eight cases say ^together?",
+  "[act:clear, warm]The Sahara isn't an empty space on the ^map.",
+  "[act:wonder]It's an ^archive of rain, genes, glass and ^paint, drying in the ^sun.",
+  "[act:tender, sincere][tune:fall]And its oldest stories are ^human ones: people who herded, painted, and loved their ^dead."
+ ],
+ "motto": true
+}

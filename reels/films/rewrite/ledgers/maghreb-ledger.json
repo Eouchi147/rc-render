@@ -1,0 +1,108 @@
+{
+ "hook": "[act:hushed, drawing us in]North Africa, from ^Carthage back to the dawn of our ^species. [act:the big question, clear]Much of its story was told by ^enemies and ^outsiders. [act:curious][tune:rise]So what does@verb the ^ground say? [act:bright, rolling up sleeves][tune:fall]Let's investigate ^eight cases, one by ^one.",
+ "cases": [
+  {
+   "cell": 0,
+   "where": "Jebel Irhoud, Morocco",
+   "evidence_note": "burnt flints: c. 315,000 years",
+   "claim_text": "",
+   "verdict": "strong",
+   "chip": "c. 315,000 years old",
+   "t1": "[act:storytelling, like a guide]First stop: Jebel ^Irhoud, in Morocco, with the oldest known fossils of our ^species.",
+   "t2": "[act:the question, wonder][tune:rise]Was North Africa in our story from the ^start?",
+   "t3": "[p:0.9][act:explaining, the method]Fire resets a tiny clock in flint, which recharges like a ^battery. [act:landing it]The burnt flints beside them read@present about three hundred and fifteen thousand ^years.",
+   "t4": "[act:the verdict, confident][tune:fall]*Strong ^evidence*. [act:fair][tune:rise]Fully Homo ^sapiens? [act:honest][tune:fall]Still ^debated."
+  },
+  {
+   "cell": 1,
+   "where": "Dougga, Tunisia",
+   "evidence_note": "22 of 24 eastern signs read",
+   "claim_text": "",
+   "verdict": "established",
+   "chip": "its sounds are read",
+   "t1": "[act:storytelling, a hint of disbelief]^Dougga, {1842|eighteen forty-two}: a British consul brings down a royal tomb to take one ^stone.",
+   "t2": "[act:the puzzle]Its inscription uses a lost African ^alphabet. [act:the question][tune:rise]Could anyone read@present ^it?",
+   "t3": "[act:explaining]Beside it, the same words in ^Punic, which scholars could already read@present. [act:the method, delighted]Names work like ^keys: they unlock the ^sounds.",
+   "t4": "[act:the verdict, confident][tune:fall]Its sounds: *^established*. [act:honest, softer]Its language: still mostly ^silent."
+  },
+  {
+   "cell": 2,
+   "where": "Cap Bon, Tunisia",
+   "evidence_note": "a Roman army lands: 256 BCE",
+   "claim_text": "",
+   "verdict": "strong",
+   "chip": "left, and never rebuilt",
+   "t1": "[act:storytelling, delighted]^Kerkouane: a Punic town where nearly every house@noun had its own ^bathtub.",
+   "t2": "[act:the mystery, hushed]Around {250|two fifty} BCE, everyone ^left, for ^good. [act:the question][tune:rise]^Why?",
+   "t3": "[act:the evidence]In {256|two fifty-six} BCE, a Roman army landed on Cap ^Bon. [act:weighing it, careful]War is the likely ^reason, but the link comes from the ^timing, not a written record@noun.",
+   "t4": "[act:the verdict, confident][tune:fall]Left, and never rebuilt: *strong ^evidence*."
+  },
+  {
+   "cell": 3,
+   "where": "Gafsa, inland Tunisia",
+   "evidence_note": "one forager: c. 5.7% European ancestry",
+   "claim_text": "",
+   "verdict": "plausible",
+   "chip": "sailors to Sicily?",
+   "t1": "[act:storytelling, playful]Inland Tunisia, about eight thousand years ago: foragers leave ^hills of snail shells.",
+   "t2": "[act:the question][tune:rise]Were they cut off, or did they cross the ^sea?",
+   "t3": "[p:0.9][act:explaining, the method]Comparing genomes is like spotting a family likeness in old ^photographs. [act:landing it]One forager's ancestry: almost six parts in a hundred from ^Europe, probably via ^Sicily.",
+   "t4": "[act:the verdict, measured][tune:fall]*^Plausible*. [act:fair, a caveat]But it's ^one person: we need more ^genomes."
+  },
+  {
+   "cell": 4,
+   "where": "Carthage, near Tunis",
+   "evidence_note": "about 20,000 urns, 400 to 200 BCE",
+   "claim_text": "",
+   "verdict": "mixed",
+   "chip": "the bones can't confirm",
+   "t1": "[act:hushed, grave]Now ^Carthage. [act:quiet, careful]Under a field lie thousands of urns, holding the ashes of ^babies.",
+   "t2": "[act:the question, steady][tune:rise]Were they ^sacrificed, as ancient writers claimed, centuries ^later?",
+   "t3": "[act:even, measured]Two teams weighed the ^bones, and read@past them in opposite ^ways. [p:0.9][act:gentle, precise]Burned bone shows ^age, but rarely the cause of ^death.",
+   "t4": "[act:the verdict, even][tune:fall]*Mixed ^record@noun*. [act:quiet, humane]Whatever happened, these were ^children, and someone mourned ^them."
+  },
+  {
+   "cell": 5,
+   "where": "Chott el Djerid, southern Tunisia",
+   "evidence_note": "last wet period: c. 5,000 years ago",
+   "claim_text": "",
+   "verdict": "mixed",
+   "chip": "real lakes, wrong century",
+   "t1": "[act:storytelling, wonder]Greek myth stranded Jason's ship, the ^Argo, in a lake in southern ^Tunisia.",
+   "t2": "[act:the question][tune:rise]Was it the Chott el ^Djerid, now a salt ^flat?",
+   "t3": "[p:0.9][act:explaining, the method]Cave stone grows in layers, like tree ^rings, recording the ^rain. [act:landing it]The wet times ended about five thousand years ago, long before ^Herodotus.",
+   "t4": "[act:the verdict, even][tune:fall]*Mixed ^record@noun*. [act:the moral, warm]Myths remember ^landscapes, not always the right ^century."
+  },
+  {
+   "cell": 6,
+   "where": "El Guettar, near Gafsa, Tunisia",
+   "evidence_note": "no modern date for the deposits",
+   "claim_text": "",
+   "verdict": "awaiting",
+   "chip": "the oldest shrine?",
+   "t1": "[act:hushed, intrigued]At a desert@noun spring: over sixty stone ^balls, piled in a ^cone.",
+   "t2": "[act:presenting his view, respectful]Its finder saw an offering to the ^spring. [act:the big question, slow][tune:rise]The oldest ^shrine on Earth?",
+   "t3": "[act:explaining]Its famous age, forty thousand years, is an old estimate@noun: an educated ^guess. [act:plain, honest]We found no measured ^date.",
+   "t4": "[act:the verdict, even][tune:fall]*Awaiting ^evidence*. [act:practical, clear]One modern date could settle ^it."
+  },
+  {
+   "cell": 7,
+   "where": "Carthage, 146 BCE",
+   "evidence_note": "the salt story: first told in 1930",
+   "claim_text": "salted earth?",
+   "verdict": "ruled",
+   "chip": "",
+   "t1": "[act:storytelling, grave]Last stop: ^Carthage, {146|one forty-six} BCE, burned by Rome after a long ^siege.",
+   "t2": "[act:the famous claim][tune:rise]And its earth ^salted, so nothing would grow ^again?",
+   "t3": "[act:explaining, the method]Trace a story to its first ^teller, like a rumour to whoever started ^it. [act:the reveal, a small smile]No ancient writer mentions ^salt: it first appears in {1930|nineteen thirty}.",
+   "t4": "[act:the verdict, firm][tune:fall]Salted earth: *ruled ^out*. [act:warm, the irony]Rome itself later rebuilt ^it."
+  }
+ ],
+ "close": [
+  "[act:stepping back, calm]So what do our eight cases say ^together?",
+  "[act:clear, warm]Much of this coast's story came from its ^enemies, or from modern ^writers.",
+  "[act:wonder]The ground tells an ^older story, and a more connected ^one.",
+  "[act:tender, sincere][tune:fall]And behind every verdict are ^people: sailors, builders, and parents who ^mourned."
+ ],
+ "motto": true
+}

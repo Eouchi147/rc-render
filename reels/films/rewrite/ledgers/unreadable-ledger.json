@@ -1,0 +1,84 @@
+{
+ "hook": "[act:hushed, drawing us in]Books baked into ^charcoal. [act:building the picture]A library that everyone says ^burned. [act:wonder]Writing that ^nobody alive can read@present. [act:the big question, clear][tune:rise]So what have we truly ^lost, and what can we still ^read@present? [act:bright, rolling up sleeves][tune:fall]Let's investigate ^six of them, one by ^one.",
+ "cases": [
+  {
+   "cell": 0,
+   "where": "Herculaneum, on the Bay of Naples",
+   "evidence_note": "2026: a whole scroll, read",
+   "claim_text": "",
+   "verdict": "established",
+   "chip": "read without opening",
+   "t1": "[act:storytelling, like a guide]First stop: ^Herculaneum. [act:painting the picture]In {79|seventy-nine} CE, Vesuvius baked a Roman library into ^charcoal.",
+   "t2": "[act:a small wince]Open a scroll, and it ^crumbles. [act:the puzzle, curious][tune:rise]So how do you read@present ^it?",
+   "t3": "[act:explaining, delighted by the trick]X-rays follow each rolled ^layer, and software flattens it into a ^page. [p:0.9][act:the everyday picture]Like peeling an onion without ^touching it. [act:landing it]Now a whole scroll has been read@past.",
+   "t4": "[act:the verdict, warm and sure][tune:fall]Unopened books, now readable: *^established*."
+  },
+  {
+   "cell": 1,
+   "where": "caves above the Dead Sea, near Qumran",
+   "evidence_note": "8 volumes in 35 years; then 32 in 19",
+   "claim_text": "",
+   "verdict": "established",
+   "chip": "held back for decades",
+   "t1": "[act:storytelling]Next: the ^Dead Sea Scrolls, some two thousand years ^old.",
+   "t2": "[act:the charge, fair]For forty years, a small team decided who could ^see them. [act:lowering the voice, the rumour][tune:rise]Were they hiding what the texts ^said?",
+   "t3": "[act:the evidence, dry]Eight volumes in thirty-five ^years. [act:the break, brighter]In {1991|nineteen ninety-one}, the photographs went ^public: thirty-two volumes in nineteen ^years.",
+   "t4": "[act:the verdict, plain][tune:fall]Held back: *^established*. [act:measured, respectful][tune:rise]A hidden ^secret? [act:plain, even][tune:fall]^Nothing released since supports it."
+  },
+  {
+   "cell": 2,
+   "where": "Alexandria, on Egypt's coast",
+   "evidence_note": "the caliph story: 560 years later",
+   "claim_text": "one great fire?",
+   "verdict": "ruled",
+   "chip": "",
+   "t1": "[act:storytelling]^Alexandria: the greatest library of the ancient ^world.",
+   "t2": "[act:setting it up, knowingly]Everyone knows it ^burned. [act:playful, a little grin][tune:fall]Quick question: ^which fire?",
+   "t3": "[act:explaining, detective]Historians test each fire like an ^alibi: if the library is seen ^alive afterwards, that fire wasn't ^fatal. [act:the evidence]After Caesar's, the geographer ^Strabo was still working ^there.",
+   "t4": "[act:the verdict, firm][tune:fall]One great fire: *ruled ^out*. [act:quiet, the key idea]The library died ^slowly."
+  },
+  {
+   "cell": 3,
+   "where": "the Indus valley, Pakistan and India",
+   "evidence_note": "about 5 signs per inscription",
+   "claim_text": "",
+   "verdict": "plausible",
+   "chip": "a language, probably",
+   "t1": "[act:storytelling]The ^Indus valley, about four thousand years ago: tiny ^seals, about ^five signs each.",
+   "t2": "[act:the question, fair][tune:rise]^Writing, or emblems, like ^logos?",
+   "t3": "[p:0.9][act:explaining]Some scripts fell when a king's name gave away their ^sounds, like a ^crossword where known answers unlock the ^rest. [act:the snag, honest]Indus texts are too ^short.",
+   "t4": "[act:the verdict, measured][tune:fall]A language: *^plausible*. [act:quiet, the wish]One ^long text, or a ^bilingual, could settle it."
+  },
+  {
+   "cell": 4,
+   "where": "an emperor's court, Prague, c. 1600",
+   "evidence_note": "calfskin: 1404 to 1438",
+   "claim_text": "",
+   "verdict": "open",
+   "chip": "language, or nonsense?",
+   "t1": "[act:storytelling]The ^Voynich manuscript: an unknown ^alphabet, and plants that don't ^exist.",
+   "t2": "[act:hushed, the real puzzle][tune:rise]Is a real ^language hidden inside?",
+   "t3": "[act:making the case, brisk]Its word counts behave like ^language. [act:the counterpoint, crisp]But its letters are far too ^predictable. [act:the twist, lean in]And a cipher worked with ^dice and playing ^cards makes text very like ^it.",
+   "t4": "[act:the verdict, even][tune:fall]*Open ^question*. [act:firm, matter of fact]Every claimed decipherment so far has ^failed the test."
+  },
+  {
+   "cell": 5,
+   "where": "the Ottoman Empire, 1513",
+   "evidence_note": "Drake Passage: about 800 km of sea",
+   "claim_text": "ice-free Antarctica?",
+   "verdict": "ruled",
+   "chip": "",
+   "t1": "[act:storytelling]Last stop: the ^Piri Reis map, from {1513|fifteen thirteen}.",
+   "t2": "[act:the claim, fair][tune:rise]Does@verb its bottom coast show ^Antarctica, mapped before the ^ice?",
+   "t3": "[p:0.9][act:explaining, clear]Ocean mud, layered like a ^diary, says Antarctica has been frozen for about thirty-four million ^years. [act:the clincher, firm]And the map has no ^Drake Passage, no eight hundred kilometres of ^sea.",
+   "t4": "[act:the verdict, firm][tune:fall]Antarctica before the ice: *ruled ^out*."
+  }
+ ],
+ "close": [
+  "[act:stepping back, calm]So what do our six cases say ^together?",
+  "[act:clear, warm]Knowledge is rarely lost in one ^blaze: it fades when nobody ^recopies, or nobody is left to read@present.",
+  "[act:hopeful, brighter]And it comes back slowly too: with ^patience, and now with ^machines.",
+  "[act:tender wonder][tune:fall]Every unread page is still ^evidence, waiting for a ^reader."
+ ],
+ "motto": true
+}

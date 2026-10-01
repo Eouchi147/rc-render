@@ -1,0 +1,84 @@
+{
+ "hook": "[p:0.94][act:hushed, drawing us in]Picture a whole city, eighty-five metres deep, behind a man's ^basement wall. [act:wonder, widening out]Halls cut in ^silence, rooms that ^sing, a temple where the rock seemed to ^breathe. [act:the big question, clear][tune:rise]What do these ^underworlds really tell us? [act:bright, rolling up sleeves][tune:fall]Let's investigate ^six of them, one by ^one.",
+ "cases": [
+  {
+   "cell": 0,
+   "where": "Gozo and Malta, in the Mediterranean",
+   "evidence_note": "radiocarbon: 3600 to 2500 BCE",
+   "claim_text": "Ice Age temples?",
+   "verdict": "ruled",
+   "chip": "Ice Age temples",
+   "t1": "[p:0.93][act:storytelling, like a guide]First stop: ^Malta, and stone temples older than the ^pyramids.",
+   "t2": "[act:the bold idea, fair][tune:rise]Or older still, from the ^Ice Age, with more now under the ^sea?",
+   "t3": "[act:explaining, a simple picture]What lies ^under a wall came first, like a coin under a floor ^tile. [act:the evidence, clear]Dates from beneath and inside put them at {3600|thirty-six hundred} to {2500|twenty-five hundred} ^BCE.",
+   "t4": "[act:the verdict, firm][tune:fall]Ice Age temples: *ruled ^out*."
+  },
+  {
+   "cell": 1,
+   "where": "Cappadocia, Turkey",
+   "evidence_note": "chapels · Arab raids from the 700s",
+   "claim_text": "",
+   "verdict": "awaiting",
+   "chip": "Ice Age depths?",
+   "t1": "[p:0.93][act:storytelling]Next, ^Cappadocia: a city cut into soft rock, eighty-five metres ^deep.",
+   "t2": "[act:the question, fair][tune:rise]Did its deepest levels begin as an ^Ice Age shelter?",
+   "t3": "[act:the evidence]Chapels and records@noun of Arab ^raids show Byzantine Christians sheltering here. [act:the catch, a simple picture]But nobody has dated the digging ^itself: each enlargement wipes the old surface, like chalk off a ^blackboard.",
+   "t4": "[act:the verdict, even][tune:fall]Ice Age depths: *awaiting ^evidence*."
+  },
+  {
+   "cell": 2,
+   "where": "Malta, Britain, Ireland and Peru",
+   "evidence_note": "Chavín: conch trumpets and sound ducts",
+   "claim_text": "",
+   "verdict": "mixed",
+   "chip": "likely at Chavín",
+   "t1": "[p:0.93][act:hushed, almost listening]Rooms that ^sing: in Malta's ^Hypogeum, a low note can hang for up to sixteen ^seconds.",
+   "t2": "[act:the real puzzle, curious][tune:rise]Did the builders ^plan it?",
+   "t3": "[act:the catch, an everyday picture]Every room rings at a pitch set by its ^size, like a bottle you blow ^across. [act:brightening]But at ^Chavín, conch trumpets and sound ducts look ^designed.",
+   "t4": "[act:the verdict, balanced][tune:fall]^*Mixed record@noun*: likely at ^Chavín, unclear in ^Malta."
+  },
+  {
+   "cell": 3,
+   "where": "Longyou, eastern China",
+   "evidence_note": "Han pottery: c. 2,000 years old",
+   "claim_text": "",
+   "verdict": "open",
+   "chip": "who dug them, and why?",
+   "t1": "[p:0.93][act:storytelling, growing wonder]Then ^China: under a drained pond, a hall the size of a ^cathedral, cut by hand. [act:quietly amazed]Then twenty-three ^more.",
+   "t2": "[act:hushed, the real puzzle][tune:rise]Who dug them, and ^why? [act:plain]No written record@noun ^says.",
+   "t3": "[act:the evidence]Pottery inside is about two thousand years ^old. [act:the analogy]But like a newspaper in an ^attic, it dates a visit, not the ^building.",
+   "t4": "[act:weighing it][tune:rise]Dug as ^quarries? [act:the verdict, honest][tune:fall]^*Open question*."
+  },
+  {
+   "cell": 4,
+   "where": "the Temple of Apollo, Delphi, Greece",
+   "evidence_note": "two faults cross beneath the temple",
+   "claim_text": "",
+   "verdict": "open",
+   "chip": "a trance from gas?",
+   "t1": "[p:0.93][act:storytelling, with reverence]^Delphi: for a thousand years, a priestess spoke here for ^Apollo.",
+   "t2": "[act:curious, evocative][tune:rise]Did a sweet vapour from the rock bring on her ^trance?",
+   "t3": "[act:a detective's pleasure]Researchers found two faults ^beneath the temple, and gas still ^leaks. [act:the complication]But far too little ^ethylene, the sweet-smelling gas, for a ^trance.",
+   "t4": "[act:simple and sure][tune:fall]The vapour: ^real. [act:weighing it][tune:rise]The trance, from ^gas? [act:the verdict, honest][tune:fall]^*Open question*."
+  },
+  {
+   "cell": 5,
+   "where": "Borobudur, Java, Indonesia",
+   "evidence_note": "Chladni, 1787: sand on a singing plate",
+   "claim_text": "",
+   "verdict": "awaiting",
+   "chip": "laid out by sound?",
+   "t1": "[p:0.93][act:playful, a little experiment]Last stop: sand on a vibrating metal ^plate. [act:the magic moment, wonder]The grains dance into a ^mandala.",
+   "t2": "[act:posing it, intrigued][tune:rise]Did temple builders ^copy them, or even lift stones with ^sound?",
+   "t3": "[act:careful, evidence-minded]No text, tool or ^workshop shows a temple designed that ^way. [act:dry, a delightful fact]And sound has lifted, at most, about half a ^gram.",
+   "t4": "[act:the verdict, level-headed][tune:fall]Laid out by sound: *awaiting ^evidence*. [act:simple, kind, final][tune:fall]Lifted by sound: physics says ^no."
+  }
+ ],
+ "close": [
+  "[p:0.93][act:stepping back, calm]So, what do our six underworlds tell us ^together?",
+  "[act:clear, fair]Underground, the evidence is ^hard to date, and ^easy to erase.",
+  "[act:warm, gently firm]That's a reason to dig ^carefully, not to fill the gaps with ^wishes.",
+  "[act:tender wonder]And what's really down there is astonishing enough: temples older than the pyramids, and stone that ^sings."
+ ],
+ "motto": true
+}

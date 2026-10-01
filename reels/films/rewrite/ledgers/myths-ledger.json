@@ -1,0 +1,96 @@
+{
+ "hook": "[act:hushed, drawing us in][tune:level]A city from ^Homer. [act:same rhythm][tune:level]Vikings in a land of ^grapes. [act:a little darker][tune:fall]A monster in a ^maze. [act:wonder, widening out]For a long time, experts filed legends like these under ^poetry, or trusted them too ^much. [act:the big question][tune:rise]So which myths came ^true? [act:bright, rolling up sleeves][tune:fall]Let's investigate ^seven of them, one by ^one.",
+ "cases": [
+  {
+   "cell": 0,
+   "where": "L'Anse aux Meadows, Newfoundland",
+   "evidence_note": "tree rings: wood cut in 1021 CE",
+   "claim_text": "",
+   "verdict": "established",
+   "chip": "America, by 1021",
+   "t1": "[act:storytelling, like a guide]First stop: ^Newfoundland, and turf halls with Norse ^rivets.",
+   "t2": "[act:curious][tune:rise]Were the sagas right about Vikings sailing ^west, to a land of ^grapes?",
+   "t3": "[p:0.9][act:explaining, delighted]In {993|nine ninety-three}, a solar storm ^date-stamped that year's ring in every ^tree. [act:the result]Count the rings to the ^bark: this Norse wood was cut in {1021|ten twenty-one}.",
+   "t4": "[act:the verdict, confident][tune:fall]Vikings in America: ^*established*."
+  },
+  {
+   "cell": 1,
+   "where": "Hisarlık, north-west Turkey",
+   "evidence_note": "Hittite treaty: Wilusa, c. 1280 BCE",
+   "claim_text": "",
+   "verdict": "strong",
+   "chip": "a real city",
+   "t1": "[act:storytelling]Next, ^Troy, where diggers found nine cities stacked like a layer ^cake.",
+   "t2": "[act:the question][tune:rise]Was Homer's Troy a real and ^powerful city?",
+   "t3": "[act:impressed]One had walls up to five metres ^thick. [act:the payoff]And Hittite archives name a western kingdom, ^Wilusa: in Greek, Wilios, ^Ilion.",
+   "t4": "[act:the verdict, confident][tune:fall]A real, powerful city: *strong ^evidence*. [act:warm, a small smile][tune:fall]The war, exactly as sung, is still a ^poem."
+  },
+  {
+   "cell": 2,
+   "where": "Amazonia, under the rainforest",
+   "evidence_note": "all dated within the last 2,600 years",
+   "claim_text": "",
+   "verdict": "established",
+   "chip": "full of towns",
+   "t1": "[act:storytelling, wonder]Now the ^Amazon: lasers fired through the forest found roads, and thousands of earthen ^platforms.",
+   "t2": "[act:fair, giving him his due][tune:rise]Graham Hancock asked: was that know-how inherited from a lost Ice Age ^civilisation?",
+   "t3": "[act:the evidence, clear]But every dated earthwork falls within about the last twenty-six hundred ^years, long after any Ice ^Age.",
+   "t4": "[act:the verdict][tune:fall]Towns in the Amazon: ^*established*. [act:level][tune:fall]An Ice Age inheritance: *awaiting ^evidence*."
+  },
+  {
+   "cell": 3,
+   "where": "Knossos, on Crete",
+   "evidence_note": "tablet: 'the Mistress of the Labyrinth'",
+   "claim_text": "",
+   "verdict": "plausible",
+   "chip": "a memory of Knossos",
+   "t1": "[act:storytelling, playful]Next, ^Knossos, on Crete: hundreds of rooms, easy to get ^lost in.",
+   "t2": "[act:curious][tune:rise]How much of the ^Minotaur was real?",
+   "t3": "[act:delighted]Bulls are ^everywhere, in frescoes and stone ^horns. [act:hushed wonder]A clay tablet records@verb honey for the Mistress of the ^Labyrinth.",
+   "t4": "[act:the verdict, warm][tune:fall]A myth remembering a real palace: ^*plausible*. [act:honest, a gentle limit]But Greeks told it centuries ^later; the chain can't be ^traced."
+  },
+  {
+   "cell": 4,
+   "where": "the eastern Mediterranean, c. 1200 BCE",
+   "evidence_note": "tree rings: 3 dry years, c. 1198 BCE",
+   "claim_text": "",
+   "verdict": "plausible",
+   "chip": "part of a bigger collapse",
+   "t1": "[act:grave, storytelling]Around {1200|twelve hundred} BCE, palaces from Greece to Syria fell like ^dominoes.",
+   "t2": "[act:intrigued]Egypt blamed raiders from the ^sea. [act:the question][tune:rise]Were they the ^cause?",
+   "t3": "[act:the evidence, measured]They were real: Egypt carved their ^ships. [act:the counterweight]But tree rings record@verb a savage ^drought, and some cities were simply ^abandoned.",
+   "t4": "[act:balanced][tune:fall]One force inside a bigger collapse: ^*plausible*. [act:fair][tune:rise]The main ^cause? [act:even][tune:fall]A ^*mixed record@noun*."
+  },
+  {
+   "cell": 5,
+   "where": "Britain, after Rome left in 410",
+   "evidence_note": "Arthur first named: 829 CE",
+   "claim_text": "",
+   "verdict": "open",
+   "chip": "a real Arthur?",
+   "t1": "[act:epic, restrained]Next, ^Britain, after Rome leaves: a war-leader wins a famous battle, at ^Badon.",
+   "t2": "[act:intrigued][tune:rise]Was his name ^Arthur?",
+   "t3": "[act:the evidence]The one writer of the time, ^Gildas, names a hero: not ^Arthur. [p:0.9][act:the gap, a light comparison]Arthur first appears three hundred years later, like a battle from the {1720s|seventeen twenties} naming its hero only ^today.",
+   "t4": "[act:the verdict, level-headed][tune:fall]A real Arthur: an ^*open question*."
+  },
+  {
+   "cell": 6,
+   "where": "Turin, Italy, since 1578",
+   "evidence_note": "three labs, 1988: 1260 to 1390 CE",
+   "claim_text": "first-century linen?",
+   "verdict": "ruled",
+   "chip": "a first-century date",
+   "t1": "[act:hushed, respectful]Last stop: ^Turin: a linen bearing the faint image of a crucified ^man.",
+   "t2": "[act:fair, giving them their due][tune:rise]Supporters of an older date ^ask: could it be ^first-century?",
+   "t3": "[p:0.9][act:explaining, precise]Three laboratories read@past its radiocarbon ^clock independently: {1260|twelve sixty} to {1390|thirteen ninety} ^CE. [act:fair, measured]Critics blamed one ^corner; a {2026|twenty twenty-six} re-test found no ^repair.",
+   "t4": "[act:the verdict, careful and fair][tune:fall]A first-century date: *ruled ^out*. [act:sincere, gentle, with respect]What it ^means to believers, we never ^rate."
+  }
+ ],
+ "close": [
+  "[act:stepping back, warm]Sometimes the myth was ^right and the experts were wrong: Troy, Vinland, the Amazon's ^towns.",
+  "[act:a small smile]Sometimes the ^reverse, and a bold theory met its ^dates.",
+  "[act:simple, the lesson]Either way, the only way to know is to ^dig.",
+  "[act:warm, sincere]Legends, it turns out, are worth taking ^seriously, and worth ^checking."
+ ],
+ "motto": true
+}

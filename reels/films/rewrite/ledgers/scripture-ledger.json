@@ -1,0 +1,108 @@
+{
+ "hook": "[act:hushed, drawing us in]Sacred texts name a ^tower, a ^flood, a king, lost ^peoples. [act:wonder, widening out]Some of those places you can still ^visit. [act:the big question, clear][tune:rise]So where do the ground and the story ^meet? [act:bright, rolling up sleeves][tune:fall]Let's investigate ^eight of them, one by ^one.",
+ "cases": [
+  {
+   "cell": 0,
+   "where": "Hegra, north-west Arabia",
+   "evidence_note": "temple inscription: 160s CE",
+   "claim_text": "",
+   "verdict": "established",
+   "chip": "a real people",
+   "t1": "[act:storytelling, like a guide]First stop: ^Hegra, in Arabia: tombs cut into cliffs like doorways into a ^mountain.",
+   "t2": "[act:respectful, measured]Scripture remembers a people of this land, ^Thamud. [act:sincere, simply asked][tune:rise]Were they ^real?",
+   "t3": "[act:the evidence, one by one]Witnesses sign in, like names in a ^guest book: an Assyrian king, Greek ^geographers, and a temple the Thamud built for Rome's ^emperors.",
+   "t4": "[act:the verdict, confident][tune:fall]Right where the text places them: ^*established*."
+  },
+  {
+   "cell": 1,
+   "where": "Babylon, in today's Iraq",
+   "evidence_note": "a stele: the king beside the tower",
+   "claim_text": "",
+   "verdict": "established",
+   "chip": "it stood in Babylon",
+   "t1": "[act:storytelling]Next, ^Babylon: a stepped temple tower, each side nearly a football ^pitch long.",
+   "t2": "[act:the question, fair][tune:rise]Was the Tower of ^Babel a real ^building?",
+   "t3": "[act:the evidence, pleased]Its foundations were excavated, and a stele shows the king ^beside it, like a proud builder's ^photo.",
+   "t4": "[act:the verdict, confident][tune:fall]It stood in Babylon: ^*established*. [act:respectful, sincere][tune:fall]The scattering of tongues, we leave to ^faith."
+  },
+  {
+   "cell": 2,
+   "where": "the Dead Sea, 430 m below sea level",
+   "evidence_note": "comet paper: retracted in 2025",
+   "claim_text": "",
+   "verdict": "established",
+   "chip": "towns that ended in fire",
+   "t1": "[act:storytelling, grave]Next, the ^Dead Sea, where scripture remembers towns overturned by ^fire.",
+   "t2": "[act:the claim, fair][tune:rise]Did a ^comet burst over one, as a paper claimed in {2021|twenty twenty-one}?",
+   "t3": "[act:explaining]An impact leaves ^fingerprints in rock. [act:plain]Other teams found ^none, and the paper was ^retracted.",
+   "t4": "[act:the verdict, grave, even][tune:fall]Real towns, ended in fire: ^*established*. [act:level][tune:fall]The comet: *awaiting ^evidence*. [act:honest, simple][tune:rise]Which was ^Sodom? [act:plain][tune:fall]*Still ^open*."
+  },
+  {
+   "cell": 3,
+   "where": "Uruk, in ancient Sumer",
+   "evidence_note": "vessel: 'Enmebaragesi, king of Kish'",
+   "claim_text": "",
+   "verdict": "plausible",
+   "chip": "a real king",
+   "t1": "[act:storytelling]Now ^Uruk, one of the first cities. [act:playful, deadpan]Its king, ^Gilgamesh, reigned a hundred and twenty-six years, says an old ^list.",
+   "t2": "[act:the question][tune:rise]Behind the ^legend, a real ^king?",
+   "t3": "[act:the reveal, delighted]His rival's father, ^Enmebaragesi, looked just as legendary, until his name turned up carved on stone ^vessels.",
+   "t4": "[act:the verdict, warm][tune:fall]A real king: ^*plausible*. [act:hopeful]One inscription of his ^own would settle it."
+  },
+  {
+   "cell": 4,
+   "where": "flood stories, on every continent",
+   "evidence_note": "Ice Age ends: seas rise 120 m",
+   "claim_text": "",
+   "verdict": "plausible",
+   "chip": "real floods, behind some",
+   "t1": "[act:storytelling, wonder]Almost every people on Earth remembers a ^flood, the oldest written on Mesopotamian ^clay.",
+   "t2": "[act:posing it, slowly][tune:level]Is that ^one memory... [act:softer][tune:fall]or ^many?",
+   "t3": "[act:the evidence]As the Ice Age ended, seas rose a hundred and twenty ^metres. [act:wonder]In Australia, stories seem to remember drowned coasts for over seven thousand ^years.",
+   "t4": "[act:the verdict, level-headed][tune:fall]Real floods behind ^some of them: ^*plausible*."
+  },
+  {
+   "cell": 5,
+   "where": "Jishi Gorge, Yellow River, China",
+   "evidence_note": "outburst flood: c. 1920 BCE?",
+   "claim_text": "",
+   "verdict": "open",
+   "chip": "the link to Yu?",
+   "t1": "[act:storytelling, a shadow falls]Now, a bowl of Chinese ^noodles, four thousand years old, dropped in a ^hurry.",
+   "t2": "[act:curious][tune:rise]Is there a real ^flood behind the legend of ^Yu?",
+   "t3": "[act:storytelling, building]Upstream, a landslide dammed the river, then popped like a ^cork, around {1920|nineteen twenty} BCE. [act:fair]Other teams date it thousands of years ^earlier.",
+   "t4": "[act:the verdict, honest][tune:fall]Its link to Yu: an ^*open* question."
+  },
+  {
+   "cell": 6,
+   "where": "Shisr, in Oman's Empty Quarter",
+   "evidence_note": "the fort: from c. 300 BCE",
+   "claim_text": "",
+   "verdict": "awaiting",
+   "chip": "Shisr as Iram?",
+   "t1": "[act:storytelling, intrigued]Next, southern ^Arabia, where radar from space traced old roads to one ^fort.",
+   "t2": "[act:respectful, hushed][tune:rise]Is it ^Iram, city of ^ʿĀd?",
+   "t3": "[p:0.9][act:the evidence, careful]The fort's main phases begin around three hundred ^BCE. [act:precise, respectful]But the texts place ʿĀd before ^Thamud, already on record@noun four centuries ^earlier.",
+   "t4": "[act:the verdict, level-headed][tune:fall]Shisr as Iram: *awaiting ^evidence*. [act:open]ʿĀd may lie ^elsewhere under the sands."
+  },
+  {
+   "cell": 7,
+   "where": "near Mount Ararat, eastern Turkey",
+   "evidence_note": "folded, iron-stained local rock",
+   "claim_text": "a petrified Ark?",
+   "verdict": "ruled",
+   "chip": "this hill as the Ark",
+   "t1": "[act:storytelling]Last stop: near Mount ^Ararat, a hill shaped like a ^boat, about fifteen buses ^long.",
+   "t2": "[act:the claim, fair][tune:rise]Is it the ^Ark, turned to stone?",
+   "t3": "[act:the evidence, plain]Geologists found folded ^local rock, and digging found no ^wood. [act:scholarly, respectful]The oldest witnesses point to the ^Cudi range, far to the ^south.",
+   "t4": "[act:the verdict, firm and fair][tune:fall]This hill: *ruled ^out*. [act:respectful, quiet]We rate the ^hill, never the ^story."
+  }
+ ],
+ "close": [
+  "[act:stepping back, calm]Put the eight together, and the texts keep pointing at real ^places and ^peoples.",
+  "[act:fair, precise]Where it is silent, what's missing is usually a ^trench or a ^date.",
+  "[act:sincere, gentle, with respect]And what ^faith holds, we do not ^weigh.",
+  "[act:the last word, warm, a small smile]The ground keeps its ^own account, and so far it agrees with more than the ^sceptics expected."
+ ],
+ "motto": false
+}

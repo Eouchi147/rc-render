@@ -1,0 +1,120 @@
+{
+ "hook": "[act:warm, opening the book]Sacred texts tell of kings, ^prophets and signs in the ^sky. [act:wonder]Some left traces we can still ^measure: slag, walls, even ^eclipses. [act:the big question][tune:rise]So where do the texts meet the ^ground, and the ^sky? [act:bright, rolling up sleeves][tune:fall]Let's investigate ^nine of them, one by ^one.",
+ "cases": [
+  {
+   "cell": 0,
+   "where": "Marib, in Yemen",
+   "evidence_note": "tribute logged by Assyria: c. 715 BCE",
+   "claim_text": "",
+   "verdict": "established",
+   "chip": "Saba and its dam",
+   "t1": "[act:storytelling, like a guide]First stop: ^Marib, where a great dam once fed a ^garden on either side.",
+   "t2": "[act:respectful, curious][tune:rise]Was Sheba's kingdom, ^Saba, real, and did its queen visit ^Solomon?",
+   "t3": "[act:the evidence]The dam's last ^breach matches the text's ^flood. [act:plain, even]But Saba's writing starts two centuries after Solomon, and names no ^queen.",
+   "t4": "[act:the verdict, confident][tune:fall]Saba and its dam: ^*established*. [act:gentle, respectful][tune:fall]The queen's journey: *awaiting ^evidence*."
+  },
+  {
+   "cell": 1,
+   "where": "Faynan and Timna, in the Arabah",
+   "evidence_note": "radiocarbon: 10th to 9th century BCE",
+   "claim_text": "",
+   "verdict": "established",
+   "chip": "a boom in that century",
+   "t1": "[act:storytelling, vivid]Next, the ^Arabah: black ^slag, piled higher than a double-decker ^bus.",
+   "t2": "[act:the old debate, fair][tune:rise]'King Solomon's mines': a ^myth, or the right ^century?",
+   "t3": "[act:explaining, delighted]The slag piles up like a ^diary, newest page on ^top. [act:the result]Radiocarbon puts the peak in the tenth and ninth centuries ^BCE.",
+   "t4": "[act:the verdict, confident][tune:fall]A copper boom in Solomon's century: ^*established*. [act:light, a knowing smile][tune:fall]Whose they were is still ^open."
+  },
+  {
+   "cell": 2,
+   "where": "Gibeon, near Jerusalem",
+   "evidence_note": "annular eclipse: 30 October 1207 BCE",
+   "claim_text": "",
+   "verdict": "established",
+   "chip": "eclipse, 1207 BCE",
+   "t1": "[act:storytelling, with care]Next, ^Gibeon, where Joshua's book quotes an old poem: sun, stand ^still; moon, in the valley of ^Aijalon.",
+   "t2": "[act:curious][tune:rise]Did a poet see something ^real?",
+   "t3": "[act:explaining, bright]The sky moves like ^clockwork, so astronomers can wind@coil it ^backwards. [act:the result, slow]A ring-shaped eclipse crossed Gibeon in {1207|twelve oh seven} ^BCE.",
+   "t4": "[act:the verdict][tune:fall]The eclipse: ^*established*. [act:careful][tune:fall]The poem remembering it: an ^*open* question."
+  },
+  {
+   "cell": 3,
+   "where": "the night sky over Judea",
+   "evidence_note": "Jupiter meets Saturn: 3 times, 7 BCE",
+   "claim_text": "",
+   "verdict": "established",
+   "chip": "planets met, 7 BCE",
+   "t1": "[act:storytelling, wonder]Next, {7|seven} BCE: Jupiter and Saturn meet in the night sky, ^three times in one ^year.",
+   "t2": "[act:respectful, curious][tune:rise]Was there a real sign behind Matthew's ^star?",
+   "t3": "[act:the evidence, leaning in]A Babylonian tablet ^predicted those meetings, like a train ^timetable. [act:adding one]And in {5|five} BCE, Chinese astronomers logged a ^comet.",
+   "t4": "[act:the verdict, warm][tune:fall]The planets' meetings: ^*established*. [act:gentle][tune:fall]A real sign behind the story: ^*plausible*."
+  },
+  {
+   "cell": 4,
+   "where": "the Nile Delta and Sinai",
+   "evidence_note": "surveys: no camps from that century",
+   "claim_text": "",
+   "verdict": "plausible",
+   "chip": "a smaller exodus",
+   "t1": "[act:storytelling, respectful]Now the ^Exodus, remembered by two ^scriptures: a parted sea, a drowned ^army.",
+   "t2": "[act:reasoning it through, even][tune:rise]By the text's count, two million people spent forty years in ^Sinai: where are their ^camps?",
+   "t3": "[act:the evidence, plain]Surveys@noun find ^nothing. [act:fair]But nomads leave traces as faint as footprints on a ^beach.",
+   "t4": "[act:the verdict, fair and balanced][tune:fall]A smaller departure, carrying a real memory: ^*plausible*. [act:level][tune:fall]The full headcount: *awaiting ^evidence*."
+  },
+  {
+   "cell": 5,
+   "where": "Tell es-Sultan, Jericho",
+   "evidence_note": "burnt grain: 1600s to 1500s BCE",
+   "claim_text": "",
+   "verdict": "awaiting",
+   "chip": "walls down in 1400 BCE?",
+   "t1": "[act:storytelling, wonder]Next, ^Jericho: a mound older than ^writing.",
+   "t2": "[act:setting the terms, clear][tune:rise]Did its walls fall around {1400|fourteen hundred} BCE, as Joshua's story ^needs?",
+   "t3": "[p:0.9][act:explaining]Carbon in burnt ^grain fades like a candle burning ^down. [act:the result, plain]It dates that city's fall a century ^earlier, at least.",
+   "t4": "[act:the verdict][tune:fall]Walls down in {1400|fourteen hundred}: *awaiting ^evidence*. [act:warm, reassuring]The top has ^eroded; the story is not out of ^reach."
+  },
+  {
+   "cell": 6,
+   "where": "Derbent, on the Caspian Sea",
+   "evidence_note": "every wall: 5th to 6th century CE",
+   "claim_text": "",
+   "verdict": "open",
+   "chip": "never dug beneath",
+   "t1": "[act:storytelling]Now ^Derbent, where two walls run into the Caspian ^Sea.",
+   "t2": "[act:respectful, measured][tune:rise]Is this the barrier of ^Dhul-Qarnayn, built of iron and molten ^copper?",
+   "t3": "[act:the evidence]Every surviving wall is fifth or sixth century CE: brick and stone, not ^iron. [act:the idea]But they were rebuilt like a road ^resurfaced, and nobody has dug ^beneath.",
+   "t4": "[act:the verdict, even][tune:fall]What lies beneath, and ^whose: *still ^open*."
+  },
+  {
+   "cell": 7,
+   "where": "Aksum, Ethiopia",
+   "evidence_note": "written account: 1,900 years later",
+   "claim_text": "",
+   "verdict": "awaiting",
+   "chip": "the Ark at Aksum?",
+   "t1": "[act:reverent, storytelling]Next, ^Aksum, where one monk guards a chapel for ^life.",
+   "t2": "[act:respectful, measured]A sincere tradition says the Ark rests ^there. [act:curious, gently][tune:rise]Can that be ^tested?",
+   "t3": "[act:plain, even]The Ark leaves the record@noun around the fall of ^Jerusalem; Ethiopia's written account comes nineteen centuries ^later.",
+   "t4": "[act:the verdict, respectful][tune:fall]The Ark at Aksum: *awaiting ^evidence*. [act:thoughtful, gentle]One radiocarbon date on one sliver of ^wood would settle it."
+  },
+  {
+   "cell": 8,
+   "where": "the Moon: Rima Ariadaeus",
+   "evidence_note": "crater count: tens of millions of years",
+   "claim_text": "a scar of the split?",
+   "verdict": "ruled",
+   "chip": "rilles as a scar",
+   "t1": "[act:storytelling]Last stop: a crack on the ^Moon, three hundred kilometres ^long.",
+   "t2": "[act:the modern claim, fair][tune:rise]Is it the ^scar of the Moon's splitting, told in ^scripture, as posts online ^say?",
+   "t3": "[act:explaining, clear]Craters land on it like ^raindrops on a parked car. [act:the clue]Count them: tens of millions of ^years.",
+   "t4": "[act:the verdict, firm][tune:fall]A scar: *ruled ^out*. [act:gentle, respectful]The texts never claimed one; this rules out ^nothing they say."
+  }
+ ],
+ "close": [
+  "[act:stepping back, calm]Together, the nine say this: where the ground is dug, or the sky rewound, it often ^agrees with the texts.",
+  "[act:fair, principled]Where it is silent, the ground is mostly ^undug, and silence there is not a ^verdict.",
+  "[act:sincere, gentle, with respect]And what ^faith holds, we do not weigh: only stones, dates, slag and ^skies.",
+  "[act:warm, inviting]The next trowel may still ^surprise us."
+ ],
+ "motto": true
+}

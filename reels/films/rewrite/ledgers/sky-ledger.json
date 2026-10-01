@@ -1,0 +1,84 @@
+{
+ "hook": "[p:0.94][act:hushed, drawing us in]On a clear, dark night, the sky is full of ^stars, turning slowly overhead. [act:wonder, widening out]Our ancestors watched the same sky, and left us ^clues: in gold, in earth, in ^stone. [act:the big question, clear][tune:rise]What did they ^really know? [act:bright, rolling up sleeves][tune:fall]Let's investigate ^six of them, one by ^one.",
+ "cases": [
+  {
+   "cell": 0,
+   "where": "the Mittelberg, near Nebra, Germany",
+   "evidence_note": "birch bark on a sword: c. 1600 BCE",
+   "claim_text": "",
+   "verdict": "strong",
+   "chip": "about 3,600 years old",
+   "t1": "[p:0.93][act:storytelling, like a guide]First stop: ^Germany, and the oldest known picture of the ^sky, in gold on ^bronze.",
+   "t2": "[act:the doubt, fair][tune:rise]Found by looters, never recorded in the ground: a thousand years ^younger?",
+   "t3": "[act:the evidence, precise]Birch bark on a sword buried with it: about {1600|^sixteen hundred} BCE. [act:the counter, steady and sure]And the disc's soil and corrosion tie it to that ^hoard.",
+   "t4": "[act:the verdict, level-headed][tune:fall]A Bronze Age disc: *strong ^evidence*."
+  },
+  {
+   "cell": 1,
+   "where": "myths from India to Scandinavia",
+   "evidence_note": "432,000 = 2 × 60 × 60 × 60",
+   "claim_text": "",
+   "verdict": "awaiting",
+   "chip": "myths that encode it?",
+   "t1": "[p:0.93][act:hushed wonder]Next, the whole sky slowly ^turns, as Earth's axis wobbles like a slowing ^top.",
+   "t2": "[act:the case, warm][tune:rise]Did ancient myths hide it in one number@count: four hundred and thirty-two ^thousand?",
+   "t3": "[act:the turn]The first written measurement: ^Hipparchus, around {130|one thirty} BCE. [p:0.9][act:explaining, lightly]And that number@count falls out of counting in ^sixties, like the sixty minutes@time in an ^hour.",
+   "t4": "[act:the verdict, level-headed][tune:fall]Myths that encode it: *awaiting ^evidence*."
+  },
+  {
+   "cell": 2,
+   "where": "a ridge in Ohio, USA",
+   "evidence_note": "radiocarbon: c. 300 BCE or c. 1070 CE",
+   "claim_text": "an Ice Age mound?",
+   "verdict": "ruled",
+   "chip": "an Ice Age mound",
+   "t1": "[p:0.93][act:storytelling, a sense of scale]Now ^Ohio: an earthen serpent, its head aimed at the midsummer ^sunset.",
+   "t2": "[act:the claim, fair][tune:rise]Laid out in the ^Ice Age, judged from Earth's slowly changing ^tilt?",
+   "t3": "[act:the evidence]Radiocarbon from the mound: about {300|^three hundred} BCE, or {1070|^ten seventy} CE. [p:0.9][act:the analogy, dry and gentle]And over thirteen thousand years, the sunset moves less than a finger's width at arm's ^length.",
+   "t4": "[act:the verdict, firm and kind][tune:fall]An Ice Age serpent: *ruled ^out*."
+  },
+  {
+   "cell": 3,
+   "where": "the Temple of Horus, Edfu, Egypt",
+   "evidence_note": "carved 237 to 57 BCE, after Plato",
+   "claim_text": "",
+   "verdict": "awaiting",
+   "chip": "a lost homeland?",
+   "t1": "[p:0.93][act:storytelling, slow and rhythmic]Then ^Egypt: at Edfu, temple walls tell of an island rising from the first ^waters.",
+   "t2": "[act:the claim, fair][tune:rise]The oldest record@noun of ^Atlantis, older than ^Plato?",
+   "t3": "[act:the turn, clear]They were carved more than a century ^after Plato. [act:building, a little wonder]And that island is Egypt's ^oldest creation image, like fields rising each year from the Nile ^flood.",
+   "t4": "[act:the verdict, level-headed][tune:fall]A lost homeland: *awaiting ^evidence*."
+  },
+  {
+   "cell": 4,
+   "where": "rock art, all over the world",
+   "evidence_note": "direct dates for the motifs: none yet",
+   "claim_text": "",
+   "verdict": "awaiting",
+   "chip": "a plasma sky?",
+   "t1": "[p:0.93][act:conjuring images, curious]Stick figures with ^ladders for bodies, and stacks of ^rings, on rocks worldwide.",
+   "t2": "[act:the claim, respectful]A plasma physicist saw his lab experiments in ^them. [act:intrigued][tune:rise]A record@noun of a giant ^aurora?",
+   "t3": "[act:the test, an everyday picture]If one sky-show inspired them, their dates should bunch up, like party photos from one ^night. [act:the sting, quiet][tune:fall]Nobody has tested that with direct ^dates.",
+   "t4": "[act:the verdict, level-headed][tune:fall]A plasma sky: *awaiting ^evidence*."
+  },
+  {
+   "cell": 5,
+   "where": "under the same sky, everywhere",
+   "evidence_note": "Babylon: centuries of star diaries",
+   "claim_text": "",
+   "verdict": "established",
+   "chip": "watched with care",
+   "t1": "[p:0.93][act:warm, turning to the people]Last stop: not a place, but the ^people who looked up.",
+   "t2": "[act:curious, fair][tune:rise]Did they need a lost civilisation to read@present the sky ^well?",
+   "t3": "[act:the evidence, warm]Babylon logged the sky on clay for ^centuries. [act:admiring, quiet wonder]And the Nebra disc's gold arcs trace how far sunrise swings along the horizon through the ^year.",
+   "t4": "[act:weighing it, warm][tune:rise]Watched with enormous ^care? [act:warm, wholehearted][tune:fall]^*Established*."
+  }
+ ],
+ "close": [
+  "[p:0.93][act:stepping back, calm]So, what do our six skies tell us ^together?",
+  "[act:clear, fair]Wherever a date could be tested, it pointed to known ^people: Bronze Age Europeans, Native American builders, Egyptian ^priests.",
+  "[act:warm, gently firm]Giving them ^credit doesn't need a lost ^civilisation.",
+  "[act:tender wonder]And the sky they watched still turns over us, ^tonight."
+ ],
+ "motto": true
+}

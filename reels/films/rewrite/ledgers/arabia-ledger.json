@@ -1,0 +1,108 @@
+{
+ "hook": "[act:hushed, drawing us in]Picture Arabia: ^dunes, heat, empty ^sand. [act:wonder, widening out]Yet it holds giant ^monuments, footprints by a vanished ^lake, and the traces of a ^king. [act:the big question, clear][tune:rise]So was Arabia ever really ^empty? [act:bright, rolling up sleeves][tune:fall]Let's investigate ^eight cases, one by ^one.",
+ "cases": [
+  {
+   "cell": 0,
+   "where": "the Tayma oasis, north-west Arabia",
+   "evidence_note": "his name, carved on rock at al-Hait",
+   "claim_text": "",
+   "verdict": "established",
+   "chip": "Babylon's king lived here",
+   "t1": "[act:storytelling, like a guide]First stop: ^Tayma, an oasis in north-west ^Arabia.",
+   "t2": "[act:the claim, intrigued][tune:rise]Did Nabonidus, the last king of ^Babylon, really leave his capital to live@verb ^here, for ten years?",
+   "t3": "[act:explaining]Babylon's own chronicle keeps saying: the king is in ^Tema. [act:the evidence, delighted]And at al-Hait, his name is carved beside a picture of the king ^himself.",
+   "t4": "[act:the verdict, firm][tune:fall]*^Established*. [act:curious, light][tune:rise]Why he came? [act:honest][tune:fall]*Still ^open*."
+  },
+  {
+   "cell": 1,
+   "where": "north-west Arabia, around AlUla",
+   "evidence_note": "radiocarbon: 6th millennium BCE",
+   "claim_text": "",
+   "verdict": "strong",
+   "chip": "older than Stonehenge",
+   "t1": "[act:storytelling]Next: the ^mustatils, over sixteen hundred giant stone ^rectangles, filled with cattle ^horns.",
+   "t2": "[act:the question, curious][tune:rise]Could herders have built monuments older than ^Stonehenge?",
+   "t3": "[act:explaining, the method]Radiocarbon fades at a steady pace, like a candle burning ^down. [act:landing it]It puts them some two thousand years before ^Stonehenge.",
+   "t4": "[act:the verdict, even][tune:fall]*Strong ^evidence*. [act:fair][tune:rise]What they ^meant? [act:honest][tune:fall]*Still ^open*."
+  },
+  {
+   "cell": 2,
+   "where": "the deserts of Jordan and Arabia",
+   "evidence_note": "one stone: about 1:175 scale",
+   "claim_text": "",
+   "verdict": "strong",
+   "chip": "plans drawn to scale",
+   "t1": "[act:storytelling]Then: desert@noun ^kites, hunters' traps so big they're best seen from the ^air.",
+   "t2": "[act:the claim, delighted][tune:rise]Did they draw their ^plans, nine thousand years ago?",
+   "t3": "[p:0.9][act:explaining]Two engraved stones, in Jordan and Saudi Arabia, show walls, pen and ^pits, close@adj to ^scale, like a floor ^plan.",
+   "t4": "[act:the verdict, measured][tune:fall]Drawn to scale: *strong ^evidence*. [act:fair][tune:rise]^Blueprints? [act:honest][tune:fall]Still a ^guess."
+  },
+  {
+   "cell": 3,
+   "where": "from Ur to the mountains of Oman",
+   "evidence_note": "a clay tablet, c. 1750 BCE",
+   "claim_text": "",
+   "verdict": "strong",
+   "chip": "copper from Oman",
+   "t1": "[act:storytelling, amused]Around {1750|seventeen fifty} BCE, a man named ^Nanni wrote the oldest known customer ^complaint: bad ^copper.",
+   "t2": "[act:the question][tune:rise]But where did Mesopotamia's copper come ^from?",
+   "t3": "[p:0.9][act:explaining, the method]Traces of lead@metal in the copper carry a signature, like a ^postcode, pointing to the mountains of ^Oman. [act:the evidence]The texts call that land ^Magan.",
+   "t4": "[act:the verdict, measured][tune:fall]*Strong ^evidence*. [act:dry, amused]As for Nanni's refund@noun: still ^pending."
+  },
+  {
+   "cell": 4,
+   "where": "the Nefud, northern Saudi Arabia",
+   "evidence_note": "layers: c. 121,000 and 112,000 years",
+   "claim_text": "",
+   "verdict": "plausible",
+   "chip": "c. 120,000 years",
+   "t1": "[act:storytelling]The ^Nefud: on an ancient lakebed, elephant tracks, and seven human ^footprints.",
+   "t2": "[act:the question, wonder][tune:rise]Our own species, a hundred and twenty thousand years ^ago?",
+   "t3": "[p:0.9][act:explaining, the method]The layers above and below are dated, like two slices of bread around a ^filling. [act:the catch]But no bones, no ^DNA.",
+   "t4": "[act:the verdict, measured][tune:fall]*^Plausible*. [act:fair, warm]The prints are ^real; the walkers still need a ^name."
+  },
+  {
+   "cell": 5,
+   "where": "the southern Nefud, northern Arabia",
+   "evidence_note": "the camp below: c. 12,000 years",
+   "claim_text": "",
+   "verdict": "plausible",
+   "chip": "c. 12,000 years?",
+   "t1": "[act:storytelling, impressed]Nearby, life-size ^camels carved on cliffs, one panel thirty-nine metres ^up.",
+   "t2": "[act:the question][tune:rise]Carved at the end of the Ice ^Age?",
+   "t3": "[act:explaining]The camp below the panels dates to about twelve thousand years ^ago. [p:0.9][act:the everyday picture, playful]But crumbs under a painting date the ^picnic, not the ^paint.",
+   "t4": "[act:the verdict, measured][tune:fall]*^Plausible*. [act:fair]The camp is dated; the cliff is not, ^yet."
+  },
+  {
+   "cell": 6,
+   "where": "Bahrain, in the Gulf",
+   "evidence_note": "digs from 1954: towns, temples",
+   "claim_text": "island of the dead?",
+   "verdict": "ruled",
+   "chip": "",
+   "t1": "[act:storytelling]^Bahrain, the Bronze Age land of ^Dilmun, holds burial mounds by the ^thousand.",
+   "t2": "[act:the claim, fair][tune:rise]Too many for one island: a burial ground for a whole ^region?",
+   "t3": "[act:the evidence]Danish digs from {1954|nineteen fifty-four} found what that theory ^lacked: towns, temples, a ^harbour. [act:the reveal, delighted]And the biggest mounds belonged to the island's own ^kings.",
+   "t4": "[act:the verdict, firm][tune:fall]An island of the dead: *ruled ^out*."
+  },
+  {
+   "cell": 7,
+   "where": "the Empty Quarter, Arabia",
+   "evidence_note": "impact glass: c. 300 years old",
+   "claim_text": "a lost city?",
+   "verdict": "ruled",
+   "chip": "",
+   "t1": "[act:storytelling, a small smile]Last stop: the ^Empty Quarter, where an explorer seeking a lost ^city found craters ringed with black ^glass.",
+   "t2": "[act:the claim][tune:rise]A city destroyed from the ^sky?",
+   "t3": "[p:0.9][act:explaining, the method]The impact's heat reset a tiny clock in the glass, which recharges like a ^battery. [act:landing it]It reads about three hundred ^years.",
+   "t4": "[act:the verdict, firm][tune:fall]No walls, no tools, no ^people: a lost city, *ruled ^out*."
+  }
+ ],
+ "close": [
+  "[act:stepping back, calm]So what do our eight cases say ^together?",
+  "[act:clear, warm]Arabia was never an empty ^quarter.",
+  "[act:wonder]It turned green again and again, and people were always ^there: herders, hunters, traders, even a ^king.",
+  "[act:warm, sincere][tune:fall]The real treasure isn't a lost ^city; it's the ^people."
+ ],
+ "motto": true
+}
