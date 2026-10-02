@@ -1,0 +1,852 @@
+{
+ "id": "lf-troy",
+ "kind": "case",
+ "series": "Myths That Came True",
+ "title": "Troy: The City Behind the Poem",
+ "intro_title": "Troy: The City Behind the Poem",
+ "yt_title": "Was the Trojan War Real? The Hill of Nine Cities",
+ "verdict": "Strong evidence",
+ "verdict_scope": "a real, rich city at Hisarlik (Troy VI and VIIa) destroyed around 1180 BCE, the time Greek tradition places the war; the war as Homer tells it is graded Open question in the weighing",
+ "hook": "Was there really a Trojan War?",
+ "end_line": "The walls and the fire are real. The war still waits for a witness.",
+ "structure_note": "chapters[0] is the cold open and the title beat (no chapter card; YouTube chapter 0:00). Chapters 1 to 5 are the story chapters; 'The weighing' carries the verdict, the test and the close. Shot ids s1..sN are in story order; 'alias of sN' means a return to that panel.",
+ "chapters": [
+  {
+   "title": "Cold open",
+   "card": false,
+   "beats": [
+    {
+     "role": "hook",
+     "lines": [
+      "[d:intrigue][sfx:boom][act:hushed wonder, painting it]A low hill in northwest ^Turkey. [act:the reveal, slower][tune:fall]Cut it open, and inside there isn't one city, but ^nine, each built on the ruins of the ^last. [p:0.93][act:grave, quieter]High in the stack lies a layer of ^fire: houses@noun burnt around {1180|eleven eighty} BCE, sling stones in ^heaps, and people who were never ^buried.",
+      "[d:tension][act:storytelling, a hint of grandeur]Homer's poems tell of a city called ^Troy, besieged for ten years by Greek kings who came to win back a queen, ^Helen. [act:the child's question, leaning in][tune:rise]Was this the ^place? [act:the bigger question, slower][tune:rise]And was there really a Trojan ^War?"
+     ],
+     "shots": [
+      {
+       "id": "s1",
+       "say": "A low hill in northwest Turkey. Cut it open, and inside there isn't one city, but nine, each built on the ruins of the last.",
+       "draw": "HERO IMAGE, fully drawn from the first frame. Dusk sky (base sky, tod dusk, ground 700, sun low at left over a strip of the Aegean, cypresses, low ridges). The mound of Hisarlik spans about x 270..1590, its summit at about y 330. The front of the mound is cut away in a clean cross-section: nine strata stacked bottom (Troy I) to top (Troy IX), alternating earth tones, each with tiny stone wall stubs; Troy VI holds a sloping wall at the mound's edge, Troy IX two Roman columns on the summit. A lamp-warm light rakes the cut face; one tiny person stands on the summit for scale. On 'nine', the numerals I to IX pop at the right of the mound, bottom to top, each tied to its layer by a thin leader. Nothing else; the top left stays clear for the hook title."
+      },
+      {
+       "id": "s2",
+       "say": "High in the stack lies a layer of fire: houses burnt around 1180 BCE, sling stones in heaps, and people who were never buried.",
+       "draw": "Same panel, the camera pushes in (z about 1.75) on the seventh stratum (VIIa). Its lower part chars to ash with ember sparks, fire glows that breathe; inside it, charred house walls rise and fallen roof beams draw themselves; two small heaps of grey sling stones pop; a red chip 'about 1180 BCE' with a short leader to the layer. No human remains drawn: a single small warm lamp glow in the burnt street, held, as a quiet mark of the dead.",
+       "reuse": "alias of s1, new cam"
+      },
+      {
+       "id": "s3",
+       "say": "Homer's poems tell of a city called Troy, besieged for ten years by Greek kings who came to win back a queen, Helen.",
+       "draw": "A black-figure frieze, as on a Greek vase: a terracotta band across the panel (y 200..650) framed by meander borders above and below. In black silhouette, built in the order said: a walled city with towers on a hill at left (label 'Troy', lilac italic); a shore line with a row of six black ships with curved prows and three spear-carrying warriors with round shields advancing on the city; ten tally strokes pop one by one above the ships (label 'ten years'); a woman's figure on the city wall (label 'Helen', lilac italic). The whole frieze is the poem: drawn as story, not evidence."
+      },
+      {
+       "id": "s4",
+       "say": "Was this the place? And was there really a Trojan War?",
+       "draw": "Back to the s1 mound, wide. Above it, the frieze's walled city floats as a lilac dashed outline (claimed style), slightly misaligned with the real summit; a large lilac question mark pops between the story and the ground on 'War'. Labels: 'the story' (lilac), 'the ground' (bone).",
+       "reuse": "alias of s1, new cam"
+      }
+     ]
+    },
+    {
+     "role": "title",
+     "lines": [
+      "[d:calm][act:warm, setting out]Troy: the city behind the ^poem."
+     ],
+     "shots": [
+      {
+       "id": "s5",
+       "say": "Troy: the city behind the poem.",
+       "draw": "intro_title card 'Troy: The City Behind the Poem' over the dimmed s4 panel. Nothing else drawn."
+      }
+     ]
+    }
+   ],
+   "words": 90
+  },
+  {
+   "title": "A hill of nine cities",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:setting the scene, measured]Northwest Turkey, near the mouth of the ^Dardanelles. [act:orienting, clear]It's the narrow strait that leads@verb from the Aegean towards the Black ^Sea.",
+      "[act:storytelling, warm]In the {1860s|eighteen sixties}, a local British official, Frank ^Calvert, owned part of a mound here called ^Hisarlik, and dug a few trial ^trenches. [act:the hunch, intrigued][tune:fall]He was sure Troy lay ^inside."
+     ],
+     "shots": [
+      {
+       "id": "s6",
+       "say": "It's the narrow strait that leads from the Aegean towards the Black Sea.",
+       "draw": "Map View(24.6, 29.4, 39.35, 41.35): the north Aegean, the Gallipoli peninsula, the Dardanelles and the Sea of Marmara to the Bosporus at top right. The Dardanelles glows as a bright channel (draw), then an amber arrow runs from the Aegean through the strait and Marmara towards the Bosporus, label 'to the Black Sea'. Pin 'Hisarlik' (gold) at the mouth of the strait. Italic labels 'Aegean Sea', 'Sea of Marmara'; 'Dardanelles'. Scale bar 50 km. Six labels."
+      },
+      {
+       "id": "s7",
+       "say": "In the 1860s, a local British official, Frank Calvert, owned part of a mound here called Hisarlik, and dug a few trial trenches. He was sure Troy lay inside.",
+       "draw": "Day landscape (sky, tod day, ground 700): the mound in profile, grassy, uncut. A dashed boundary splits it and the eastern part takes a warm tint (label 'Calvert's land'). A figure with a spade stands at the mound's foot (label 'Frank Calvert'); two dark trial trenches cut into the eastern slope as named, tags '1863' and '1865'. On 'He was sure Troy lay inside', a faint lilac dashed outline of a walled city glows inside the mound (a hunch). Label 'Hisarlik' above the summit."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[act:introducing him, warm]In {1868|eighteen sixty-eight}, he showed the mound to a wealthy businessman who loved ^Homer: Heinrich ^Schliemann. [act:the contrast, a smile][tune:fall]Schliemann had what Calvert lacked: money, and a great ^hurry.",
+      "[d:build][p:0.93][act:explaining, a picture]A mound like this grows the way post piles up on a doormat while you're ^away: [act:the logic, clear][tune:fall]the first letters end up at the ^bottom. [act:his reasoning, fair]Homer's Troy was ancient, so Schliemann reasoned it must lie near the ^base.",
+      "[act:the scale, a little awed]From {1871|eighteen seventy-one}, he drove a vast trench through the heart of the ^hill. [p:0.9][act:the number, savouring it]For one great cut alone, his engineer reckoned nearly eighty thousand cubic metres of ^earth: [act:the punchline][tune:fall]about thirty Olympic swimming ^pools."
+     ],
+     "shots": [
+      {
+       "id": "s8",
+       "say": "In 1868, he showed the mound to a wealthy businessman who loved Homer: Heinrich Schliemann. Schliemann had what Calvert lacked: money, and a great hurry.",
+       "draw": "Same mound (alias of s7), the camera closer on the right: a second figure in a top hat rises in at the far right (label 'Heinrich Schliemann', tag '1868'); a small stack of gold coins pops beside him on 'money', then a pocket watch on 'hurry'.",
+       "reuse": "alias of s7, new cam"
+      },
+      {
+       "id": "s9",
+       "say": "A mound like this grows the way post piles up on a doormat while you're away: the first letters end up at the bottom. Homer's Troy was ancient, so Schliemann reasoned it must lie near the base.",
+       "draw": "Warm dark panel. Left: a front door with a letterbox; eight envelopes drop through it one by one onto a doormat, each landing on the last, numbered stamps 1 to 8 (tags 'first' at the bottom, 'last' on top). Right: a simple nine-layer section of the mound with an arrow up its side, tags 'oldest' at the bottom and 'youngest' at the top; dashed links pair pile and strata. On 'near the base': a lilac dashed outline 'Homer's Troy?' at the bottom layer with an arrow pointing down."
+      },
+      {
+       "id": "s10",
+       "say": "From 1871, he drove a vast trench through the heart of the hill. For one great cut alone, his engineer reckoned nearly eighty thousand cubic metres of earth: about thirty Olympic swimming pools.",
+       "draw": "Day cross-section of the mound (its nine strata), a huge trench cut down from the summit through the middle (it fills dark), six tiny workmen in and beside the cut, a dashed line to spoil heaps at both ends of the plain, chip '1871'. On the number: label 'about 80,000 cubic metres' at top right; then thirty blue swimming-pool icons (lane lines) pop in a 6 by 5 grid in the sky at top right, label '30 Olympic pools'."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:the find, delighted]In {1873|eighteen seventy-three}, deep in the mound, he found ^gold: thousands of pieces, which he named the treasure of ^Priam, Troy's king in the ^Iliad. [sfx:hit][act:the twist, plain][tune:fall]Wrong ^city.",
+      "[p:0.93][act:explaining, clear]The gold came from Troy ^Two, more than a thousand years older than any date for the ^war. [act:the cost, careful][tune:fall]And on the way down, his trench had cut away much of the very layers he was looking ^for."
+     ],
+     "shots": [
+      {
+       "id": "s11",
+       "say": "In 1873, deep in the mound, he found gold: thousands of pieces, which he named the treasure of Priam, Troy's king in the Iliad. Wrong city.",
+       "draw": "Dark panel, lamp light: the famous great diadem drawn in gold, a band with dozens of fine hanging chains of tiny gold leaves and two long side pendants, glinting (glows). Label 'Priam's treasure?' in lilac (claimed). On 'Wrong city', a red strike crosses the word 'Priam's'."
+      },
+      {
+       "id": "s12",
+       "say": "The gold came from Troy Two, more than a thousand years older than any date for the war.",
+       "draw": "Same panel, below the diadem: a timeline 2600 to 1100 BCE draws itself (ticks 2500, 2000, 1500, 1100); a gold band 'Troy II' (about 2550 to 2300 BCE) and a lilac band 'the war?' (about 1250 to 1180 BCE); a bracket between them, 'over 1,000 years'.",
+       "reuse": "alias of s11, new cam"
+      },
+      {
+       "id": "s13",
+       "say": "And on the way down, his trench had cut away much of the very layers he was looking for.",
+       "draw": "Back to the trench section (alias of s10), the camera pushed in (z 2.0): across the trench gap, the strata of Troy VI and VII redraw as red dashed ghosts of walls and floors that are gone; label 'Troy VI and VII, cut away' (red).",
+       "reuse": "alias of s10, new cam"
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:aside][act:fair, warm][tune:level]His critics call it ^destruction. [act:same rhythm][tune:level]His admirers say he showed the world that this hill was worth ^digging. [act:the landing, a smile][tune:fall]Both are ^right."
+     ],
+     "shots": [
+      {
+       "id": "s14",
+       "say": "His critics call it destruction. His admirers say he showed the world that this hill was worth digging. Both are right.",
+       "draw": "A balance on a dark panel, labels 'his critics' and 'his admirers' over its ends: the left pan receives a little block of layers with a trench gouged through it, the cut outlined in red (label 'destruction'), the right pan a spade and a glowing piece of gold (label 'worth digging'); the beam stays level, a soft gold glow at the pivot on 'Both are right'."
+      }
+     ]
+    }
+   ],
+   "words": 233
+  },
+  {
+   "title": "The walls and the lower town",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:the question, curious][tune:rise]So where was Homer's ^Troy? [act:storytelling]After Schliemann's death, his architect, Wilhelm ^Doerpfeld, uncovered what the trench had spared: the great walls of Troy ^Six.",
+      "[act:impressed, descriptive]A citadel of about {1700|seventeen hundred} to {1300|thirteen hundred} BCE, ringed by sloping stone walls up to five metres ^thick, once topped with mudbrick to some nine metres ^high. [p:0.93][act:a vivid comparison][tune:fall]Thicker than a car is ^long, and taller than a three-storey ^house@noun."
+     ],
+     "shots": [
+      {
+       "id": "s15",
+       "say": "After Schliemann's death, his architect, Wilhelm Doerpfeld, uncovered what the trench had spared: the great walls of Troy Six.",
+       "draw": "Iso model of the Troy VI citadel on a dark starry panel, slowly turning: a ring of stone wall segments with four towers and a south gate on a hill platform, about forty house blocks inside, Schliemann's trench as a dark gash across the middle. Labels: 'Troy VI' (gold serif, top) and a small tag 'Dörpfeld, 1893'.",
+       "reuse": "troy shot 0 (f11.troy, iso ring wall), redrawn for 16:9"
+      },
+      {
+       "id": "s16",
+       "say": "A citadel of about 1700 to 1300 BCE, ringed by sloping stone walls up to five metres thick, once topped with mudbrick to some nine metres high. Thicker than a car is long, and taller than a three-storey house.",
+       "draw": "Chip 'about 1700 to 1300 BCE' at top left. The wall in section, to scale (40 units = 1 m): a sloping stone base 5 m thick at the foot rises 6 m, a mudbrick upper wall continues to 9 m; dimension lines '5 m' and 'about 9 m' draw as named, label 'mudbrick'. A person (1.7 m) beside it; on 'car', a car 4.5 m long pops with its own 5 m bar; on 'three-storey house', a dashed three-storey house outline with lit windows beside the wall reaches the same height (label '3 storeys').",
+       "reuse": "troy_m wall section (f11.troy_m: 5 m, a person, a car), redrawn wide"
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:the next chapter of the dig, intrigued]Then, from {1988|nineteen eighty-eight}, a team led by Manfred ^Korfmann looked ^outside the walls. [p:0.93][act:explaining, a picture]They swept the fields with ^magnetometers, which pick up faint differences in buried soil, the way a pencil rubbed over paper brings out a hidden ^coin. [act:the reveal, delighted][tune:fall]A line appeared: a ditch, about four metres wide, cut into the bedrock some four hundred metres south of the ^citadel.",
+      "[act:the point, warm]Inside it, they dug up house@noun foundations and ^streets: a lower ^town. [p:0.93][act:the number, steady]Their estimate@noun: around thirty hectares, home to perhaps five to ten thousand ^people."
+     ],
+     "shots": [
+      {
+       "id": "s17",
+       "say": "Then, from 1988, a team led by Manfred Korfmann looked outside the walls. They swept the fields with magnetometers, which pick up faint differences in buried soil, the way a pencil rubbed over paper brings out a hidden coin.",
+       "draw": "Field by day (sky, tod day): far off at left, the citadel hill with its walls and towers (label 'the citadel'); dashed survey lanes draw across the field in perspective; two figures with backpack consoles walk the lanes, each holding an upright magnetometer tube just above the soil (label 'magnetometer' with a leader); chip '1988', label 'Korfmann's team'. Top right, a sheet of paper on which a pencil rubs back and forth (zigzag hatching draws itself) and the outline of a coin appears beneath it (label 'a hidden coin')."
+      },
+      {
+       "id": "s18",
+       "say": "A line appeared: a ditch, about four metres wide, cut into the bedrock some four hundred metres south of the citadel.",
+       "draw": "Plan of Troy (base plan): a grey magnetic map of small speckled squares, on which a dark curving line draws itself (the ditch) south of the citadel's ring outline; a dimension 'about 400 m' from citadel to ditch; an inset section of the ditch, a U cut in bedrock 4 m wide with a person for scale. Labels 'citadel', 'ditch', '4 m'. Scale bar 100 m."
+      },
+      {
+       "id": "s19",
+       "say": "Inside it, they dug up house foundations and streets: a lower town. Their estimate: around thirty hectares, home to perhaps five to ten thousand people.",
+       "draw": "Same plan (alias of s18): between citadel and ditch, house blocks fill in, solid near the excavated spots, dashed where inferred; label 'lower town'; a tag 'about 30 hectares'; then a block of 100 small circles pops at the left, 50 solid and 50 dashed, label '5,000 to 10,000 people'.",
+       "reuse": "alias of s18, same cam"
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:the challenger, fair and strong]Not everyone agreed. [act:introducing him, respectful]Frank ^Kolb, an ancient historian at Korfmann's own university, argued that the town was thinly built, the ditch a water ^channel, and Troy a princely ^seat, not a real ^city. [act:the stakes, light][tune:fall]In {2002|two thousand two}, the university held a public ^debate.",
+      "[act:fair, even]Four specialists who reviewed the evidence judged the criticism considerably ^exaggerated. [act:plain][tune:fall]Kolb was never ^convinced."
+     ],
+     "shots": [
+      {
+       "id": "s20",
+       "say": "Not everyone agreed. Frank Kolb, an ancient historian at Korfmann's own university, argued that the town was thinly built, the ditch a water channel, and Troy a princely seat, not a real city. In 2002, the university held a public debate.",
+       "draw": "Two readings of the same plan side by side: left 'Korfmann' (dense amber town inside the ditch), right 'Kolb' (the same outline with only a few scattered houses; the ditch turns blue with flow arrows, label 'water channel?'; a small crown over the citadel, label 'princely seat'). On '2002', a speaker at a lectern with two listeners appears between the two plans, chip '2002'."
+      },
+      {
+       "id": "s21",
+       "say": "Four specialists who reviewed the evidence judged the criticism considerably exaggerated. Kolb was never convinced.",
+       "draw": "Same panel (alias of s20): four small green figures rise under the Korfmann plan with a chip 'considerably exaggerated'; under the Kolb plan, one lilac figure stands alone, label 'unconvinced'.",
+       "reuse": "alias of s20, same cam"
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:aside][act:the landing, warm]But even Kolb called Troy the political and military centre of its ^region. [act:a smile][tune:fall]The quarrel was over the size of the ^town, not the power of the ^citadel."
+     ],
+     "shots": [
+      {
+       "id": "s22",
+       "say": "But even Kolb called Troy the political and military centre of its region. The quarrel was over the size of the town, not the power of the citadel.",
+       "draw": "Map of the Troad, View(25.9, 26.95, 39.5, 40.3): Troy glows as a hub, thin lines run out to a dozen village dots; label 'Troy', italic 'the Troad'. Two rings around Troy: a small solid one and a large dashed one, label 'how big?'."
+      }
+     ]
+    }
+   ],
+   "words": 237
+  },
+  {
+   "title": "A name in Hittite clay",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:turning a page, intrigued]Now, the view from the ^east. [act:explaining, clear]Some seven hundred kilometres away stood ^Hattusa, capital of the ^Hittites, the great power of Bronze Age ^Anatolia.",
+      "[act:the archive, a little wonder]Its archives have given us some twenty-five thousand clay ^tablets: letters, treaties, ^annals. [act:the clue, leaning in][tune:fall]And they name a kingdom in the far ^west: ^Wilusa."
+     ],
+     "shots": [
+      {
+       "id": "s23",
+       "say": "Some seven hundred kilometres away stood Hattusa, capital of the Hittites, the great power of Bronze Age Anatolia.",
+       "draw": "Map View(19.5, 37.5, 34.5, 42.6): Anatolia and the Aegean. A translucent amber patch around Hattusa (the Hittite heartland, schematic, dashed edge); pin 'Hattusa' (gold) pops; pin 'Troy' in the northwest; a dashed line between them draws with the label 'about 700 km'. Italic 'the Hittites'. Scale bar 200 km."
+      },
+      {
+       "id": "s24",
+       "say": "Its archives have given us some twenty-five thousand clay tablets: letters, treaties, annals. And they name a kingdom in the far west: Wilusa.",
+       "draw": "A storeroom by lamplight: three wooden shelves fill with rows of clay tablets bearing cuneiform (they pop in quickly), one slot left empty; label 'about 25,000 tablets'. At right a large tablet; a word on it glows in a gold frame, and the name 'Wilusa' appears under it in serif, with an amber arrow pointing 'west'."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[p:0.93][act:explaining, the link]Early Greek had a W sound that later ^vanished, [act:the payoff, slower][tune:fall]so Homer's Ilios was once ^Wilios. [act:a quiet smile][tune:fall]Wilusa, ^Wilios.",
+      "[d:build][act:storytelling, amused]Around {1280|twelve eighty} BCE, Wilusa's king, ^Alaksandu, made a treaty with the Hittite king, to be read@past aloud to him three times a ^year. [d:aside][act:a knowing aside][tune:fall]In Homer, Troy's prince Paris has another name: ^Alexandros. [p:0.93][act:fair, careful]A clue, not a ^match: [tune:fall]Alaksandu reigned a century before the ^fire.",
+      "[act:intrigued, building]Among the gods called to witness the treaty is one named ^Appaliuna, perhaps an early ^Apollo, Troy's great protector in the ^Iliad. [act:the twist, delighted][tune:fall]Another is the underground watercourse of the land of ^Wilusa. [p:0.93][act:the reveal, wonder]At Troy, there is one: tunnels cut into the rock, more than a hundred metres long, already centuries old when the treaty was ^sealed."
+     ],
+     "shots": [
+      {
+       "id": "s25",
+       "say": "Early Greek had a W sound that later vanished, so Homer's Ilios was once Wilios. Wilusa, Wilios.",
+       "draw": "Name chain, wide: the tablet word 'Wilusa' at left (serif), an amber arrow to 'Wilios' with its W glowing gold; the W fades to a dashed ghost and the word slides on to 'Ilios'. Labels are the three names only, plus a small tag 'the lost W'.",
+       "reuse": "troy_m names scene (f11: Wilusa, Wilios, Ilion), redrawn wide"
+      },
+      {
+       "id": "s26",
+       "say": "Around 1280 BCE, Wilusa's king, Alaksandu, made a treaty with the Hittite king, to be read aloud to him three times a year. In Homer, Troy's prince Paris has another name: Alexandros. A clue, not a match: Alaksandu reigned a century before the fire.",
+       "draw": "A court: a crowned king on a throne (label 'Alaksandu', tag 'about 1280 BCE'); a scribe stands before him reading a tablet aloud (sound arcs). At right, a ring for one year with three marks that glow one by one (label '3 times a year'). On 'Alexandros', a lilac figure of Paris at the far right and a lilac dashed link from 'Alaksandu' to the label 'Alexandros'. On 'a century before the fire', a small timeline strip under the court: '1280' and '1180' with a bracket '100 years'.",
+       "reuse": "troy_m treaty scene (f11: year wheel, court, Paris), redrawn wide"
+      },
+      {
+       "id": "s27",
+       "say": "Among the gods called to witness the treaty is one named Appaliuna, perhaps an early Apollo, Troy's great protector in the Iliad. Another is the underground watercourse of the land of Wilusa.",
+       "draw": "The treaty tablet large at left, a row of small divine signs along its foot; as named, a bow sign lights (label 'Appaliuna', lilac dashed arrow to 'Apollo?'), then a wavy water sign lights (label 'underground watercourse')."
+      },
+      {
+       "id": "s28",
+       "say": "At Troy, there is one: tunnels cut into the rock, more than a hundred metres long, already centuries old when the treaty was sealed.",
+       "draw": "Section through the rock at dusk: the ground surface dips to a cave mouth with a tiny person and a lamp (label 'spring cave'); three tunnels draw themselves into the rock, four vertical shafts rise to the surface (label '4 shafts'), water glints blue along the main tunnel; dimension 'over 100 m'. Below the far end of the tunnel, a round magnifier with a dashed leader shows the layered mineral crust (label 'older than the treaty')."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:build][act:the bigger stage, steady]The Hittites also wrote to a western power they called ^Ahhiyawa, most likely the Mycenaean ^Greeks, whom Homer calls ^Achaeans. [p:0.93][act:the key line, slower]Around {1250|twelve fifty} BCE, a Hittite king writes to its king, whom he calls his ^brother, about the matter of ^Wilusa: [act:reading it, careful][tune:fall]they had been hostile over it, and have made ^peace.",
+      "[sfx:hit][act:the twist, fair]Hostile could mean angry letters, or ^war. [act:plain][tune:fall]The letter doesn't ^say. [p:0.93][act:the caveat, careful][tune:fall]And no Hittite text yet found says that Greeks attacked ^Wilusa.",
+      "[act:the last clue, a little sad]In a later letter, Wilusa's king, ^Walmu, has been driven out, [act:the end of the trail][tune:fall]and the Hittites want him back on his ^throne."
+     ],
+     "shots": [
+      {
+       "id": "s29",
+       "say": "The Hittites also wrote to a western power they called Ahhiyawa, most likely the Mycenaean Greeks, whom Homer calls Achaeans.",
+       "draw": "Back to the s23 map: over mainland Greece a lilac dashed outline with the label 'Ahhiyawa', pin 'Mycenae'; a dashed amber arc runs from Hattusa to Greece with a small clay tablet on it; on 'Achaeans', a small tag 'Achaeans?' under 'Ahhiyawa'.",
+       "reuse": "alias of s23, same cam"
+      },
+      {
+       "id": "s30",
+       "say": "Around 1250 BCE, a Hittite king writes to its king, whom he calls his brother, about the matter of Wilusa: they had been hostile over it, and have made peace.",
+       "draw": "Two crowned kings stand at either end of a dark panel (left 'Hittite king', right 'king of Ahhiyawa', lilac); an amber arc with a tablet runs between them, the word 'brother' under it; between them 'Wilusa' in serif: two red crossed spears draw on 'hostile', then a grey arrow leads to an olive sprig on 'peace'. Chip 'about 1250 BCE'."
+      },
+      {
+       "id": "s31",
+       "say": "Hostile could mean angry letters, or war. The letter doesn't say. And no Hittite text yet found says that Greeks attacked Wilusa.",
+       "draw": "The word 'hostile' (red italic) at the top splits by two dashed arrows into two possibilities: a stack of tablets with red marks ('angry letters') and two crossed swords ('war'), a lilac '?' between. Then a magnifier sweeps along a row of nine tablets; none lights; label 'no attack on record'."
+      },
+      {
+       "id": "s32",
+       "say": "In a later letter, Wilusa's king, Walmu, has been driven out, and the Hittites want him back on his throne.",
+       "draw": "A tablet at top left (label 'a later letter'). An empty throne in side view (label 'Wilusa's throne') with its crown lifted above it; a figure stands away from it (label 'Walmu'); a dashed amber arrow curves from him back towards the throne (label 'back on the throne?')."
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:aside][act:the landing, quiet][tune:fall]The Hittites knew ^Wilusa. [act:same rhythm][tune:fall]If they ever wrote down a Trojan War, it hasn't been ^found."
+     ],
+     "shots": [
+      {
+       "id": "s33",
+       "say": "The Hittites knew Wilusa. If they ever wrote down a Trojan War, it hasn't been found.",
+       "draw": "Back in the archive of s24, the camera closer on the shelves: the empty slot on the middle shelf outlines in lilac dashes, a small lilac '?' and the label 'not found'.",
+       "reuse": "alias of s24, new cam"
+      }
+     ]
+    }
+   ],
+   "words": 274
+  },
+  {
+   "title": "What Homer remembered",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:setting the scene, warm]Now, the ^poem. [act:storytelling, unhurried]The Iliad was composed around {700|seven hundred} BCE, almost five hundred years after Troy Seven A ^burned. [p:0.93][act:the question, curious][tune:rise]Can a story cross five centuries without ^writing?"
+     ],
+     "shots": [
+      {
+       "id": "s34",
+       "say": "The Iliad was composed around 700 BCE, almost five hundred years after Troy Seven A burned. Can a story cross five centuries without writing?",
+       "draw": "Timeline 1300 to 600 BCE across the panel: a flame glyph at about 1180 ('Troy VIIa burns', red), a scroll glyph at about 700 ('the Iliad', gold), a bracket 'almost 500 years' between them; on 'without writing', a lilac band from about 1200 to 800 BCE, label 'no writing in Greece'."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:explaining, a picture]In the {1930s|nineteen thirties}, the scholar Milman ^Parry recorded singers in what was then ^Yugoslavia. [p:0.9][act:the punchline, amazed]One of them, Avdo ^Medjedovic, performed an epic of more than twelve thousand ^lines, about as long as the ^Odyssey, with no written ^text. [act:explaining, clear][tune:fall]Singers like him build with ready-made phrases, like bricks, so a tradition can carry old pieces a long ^way."
+     ],
+     "shots": [
+      {
+       "id": "s35",
+       "say": "In the 1930s, the scholar Milman Parry recorded singers in what was then Yugoslavia. One of them, Avdo Medjedovic, performed an epic of more than twelve thousand lines, about as long as the Odyssey, with no written text.",
+       "draw": "A seated singer with a one-string gusle upright on his knee (label 'Avdo Medjedovic'), a 1930s disc recorder on a table beside him with a listening figure (label 'Milman Parry', tag '1930s'). Two stacks of pages grow side by side to about the same height: 'his song, 12,311 lines' and 'the Odyssey, about 12,100'."
+      },
+      {
+       "id": "s36",
+       "say": "Singers like him build with ready-made phrases, like bricks, so a tradition can carry old pieces a long way.",
+       "draw": "A wall builds itself brick by brick; three bricks carry readable stock phrases ('swift-footed Achilles', 'rosy-fingered Dawn', 'wine-dark sea'), the rest are plain."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:delighted, going through them]And the Iliad does@verb carry old ^pieces. [act:counting][tune:level]A helmet covered in rows of boars' ^tusks, a Bronze Age type that vanished around the time Troy ^burned. [p:0.93][act:the punchline, savouring it][tune:fall]Each one took the tusks of some forty or fifty ^boars.",
+      "[act:counting on][tune:level]A list of more than a thousand ^ships, naming towns like ^Eutresis, which lay empty in Homer's own ^day. [act:the last one, a smile][tune:fall]And a Troy of fine walls, wide streets and strong ^winds@air."
+     ],
+     "shots": [
+      {
+       "id": "s37",
+       "say": "And the Iliad does carry old pieces. A helmet covered in rows of boars' tusks, a Bronze Age type that vanished around the time Troy burned. Each one took the tusks of some forty or fifty boars.",
+       "draw": "A boar's tusk helmet under a lamp: a cone covered in rows of curved tusk plates, alternating direction row by row, with cheek pieces and a knob on top (label 'boar's tusk helmet'), chip 'in use about 1700 to 1150 BCE' above it. On the number, a grid of 45 small boar silhouettes pops beside it, label '40 to 50 boars'."
+      },
+      {
+       "id": "s38",
+       "say": "A list of more than a thousand ships, naming towns like Eutresis, which lay empty in Homer's own day.",
+       "draw": "Map of Greece, View(19.6, 28.6, 35.0, 40.9): small pale ships pop along the coasts (29 of them, one per contingent), label '1,186 ships'; a lilac dot at Eutresis in Boeotia, tied by a thin leader to the labels 'Eutresis' and 'empty in Homer's day' in the open sea to the west. Scale bar 100 km."
+      },
+      {
+       "id": "s39",
+       "say": "And a Troy of fine walls, wide streets and strong winds.",
+       "draw": "Homer's Troy in his own words: a city drawn in gold line on its hill (walls, towers, gate), a wide street running up to the gate; three Homeric labels in lilac italic pop as said, 'well-walled', 'wide streets', 'windy', while six wind streaks blow across the panel."
+      }
+     ]
+    },
+    {
+     "role": "cost",
+     "lines": [
+      "[d:build][sfx:hit][act:the twist, fair]But other pieces are Homer's ^own. [act:explaining, light]His heroes mostly ride a chariot to the fight, step down, and fight on ^foot, [act:dry][tune:fall]like taking a taxi to a ^duel. [act:more, plain][tune:level]They prize ^iron, the new metal of Homer's ^day. [act:the big gap, slower][tune:fall]And the Hittites, the superpower next door, are not in the poem at ^all."
+     ],
+     "shots": [
+      {
+       "id": "s40",
+       "say": "But other pieces are Homer's own. His heroes mostly ride a chariot to the fight, step down, and fight on foot, like taking a taxi to a duel.",
+       "draw": "Side view on a plain: a two-horse chariot with a driver and a warrior rolls in from the left and stops; the warrior steps down and walks on with spear and shield (label 'fights on foot'), the driver waits (label 'chariot'). Behind, faint gold dashed rows of massed chariots (the Bronze Age way), very dim."
+      },
+      {
+       "id": "s41",
+       "say": "They prize iron, the new metal of Homer's day. And the Hittites, the superpower next door, are not in the poem at all.",
+       "draw": "Left: a dark lump of iron on a wooden prize stand, glowing (label 'iron, a prize'). Right: an inset map of Anatolia with the Hittite heartland as an empty lilac dashed shape, labels 'the Hittites' and 'not in the poem'."
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:aside][act:the landing, warm][tune:fall]The Iliad is a chest of ^heirlooms. [act:same rhythm][tune:fall]Some are Bronze Age; others were added on the ^way."
+     ],
+     "shots": [
+      {
+       "id": "s42",
+       "say": "The Iliad is a chest of heirlooms. Some are Bronze Age; others were added on the way.",
+       "draw": "An open wooden chest in lamp light: inside, the boar's tusk helmet and a ship (gold outlines, label 'Bronze Age'), and the iron lump and the chariot (lilac outlines, label 'Homer's own')."
+      }
+     ]
+    }
+   ],
+   "words": 221
+  },
+  {
+   "title": "The fire and the fall",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:setting the scene, quieter]Back to the ^hill. [act:storytelling]Around {1300|thirteen hundred} BCE, Troy Six was shaken ^apart, most likely by an ^earthquake. [act:plain][tune:fall]Its people rebuilt: Troy Seven ^A.",
+      "[p:0.93][act:the detail, intrigued]In the {1930s|nineteen thirties}, Carl ^Blegen's team found its houses@noun crowded inside the walls, many with big storage jars sunk into their ^floors, [act:the inference, careful][tune:fall]as if people were laying in ^supplies."
+     ],
+     "shots": [
+      {
+       "id": "s43",
+       "say": "Around 1300 BCE, Troy Six was shaken apart, most likely by an earthquake. Its people rebuilt: Troy Seven A.",
+       "draw": "Section of the citadel's edge at night: the sloping wall at left and big Troy VI houses behind it; a seismograph trace draws across the top, zigzag cracks run through the masonry and blocks drop (chip 'about 1300 BCE', label 'earthquake?'). Then smaller, crowded houses rise on the rubble, label 'Troy VIIa'."
+      },
+      {
+       "id": "s44",
+       "say": "In the 1930s, Carl Blegen's team found its houses crowded inside the walls, many with big storage jars sunk into their floors, as if people were laying in supplies.",
+       "draw": "Cutaway of one Troy VIIa house: a floor line with six big storage jars sunk to their rims below it, a person for scale; tag 'Blegen, 1930s'; label 'storage jars'; lilac 'laying in supplies?'."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:reveal][act:grave, lower, slower]Then, around {1180|eleven eighty} BCE, ^fire. [act:quiet, careful]Burnt houses@noun, bronze ^arrowheads, and human remains left unburied in the ^streets. [p:0.93][act:explaining, the logic]And sling stones, piled in ^heaps. [act:the reasoning, clear]After a fight, the winners gather up their ^ammunition. [act:the inference, quiet][tune:fall]These heaps were never gathered ^up.",
+      "[act:reporting them, fair]Blegen believed this was the Troy of Homer's ^war. [act:careful, even]Korfmann judged it more likely than not that Troy saw armed conflicts at the end of the Bronze ^Age. [act:the news, bright][tune:fall]And the digging goes on: in {2025|twenty twenty-five}, the current team reported more sling stones in the Bronze Age ^layers."
+     ],
+     "shots": [
+      {
+       "id": "s45",
+       "say": "Then, around 1180 BCE, fire. Burnt houses, bronze arrowheads, and human remains left unburied in the streets.",
+       "draw": "A row of three houses in section; fire glows rise in each; a dark red burnt layer fills below them; small bronze arrowheads pop in the ash; chip 'about 1180 BCE' (red serif). Human remains are not drawn: one small lamp glow in the street.",
+       "reuse": "troy_m fire scene (f11: houses, glows, arrowheads), redrawn wide"
+      },
+      {
+       "id": "s46",
+       "say": "And sling stones, piled in heaps. After a fight, the winners gather up their ammunition. These heaps were never gathered up.",
+       "draw": "Close on the burnt street: two heaps of round sling stones (label 'sling stones') and a sling (cord and pouch, label 'a sling'); a lilac dashed basket with an arrow from the heap ('gather up?') stays empty; label 'never gathered up' (red)."
+      },
+      {
+       "id": "s47",
+       "say": "Blegen believed this was the Troy of Homer's war. Korfmann judged it more likely than not that Troy saw armed conflicts at the end of the Bronze Age. And the digging goes on: in 2025, the current team reported more sling stones in the Bronze Age layers.",
+       "draw": "An excavation trench in section through three later layers and a thin burnt layer (label 'burnt layer'), two diggers on its floor and dashed grid strings; a lilac tag 'Blegen: the Troy of the war'; a quote chip 'more likely than not' with tag 'Korfmann, 2004'; then a new heap of sling stones is uncovered in the trench, chip '2025'."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:build][act:the ancient count, intrigued]Later Greek scholars dated Troy's fall by counting back through generations of ^kings. [act:the spread, plain][tune:fall]Their answers spread over two ^centuries. [p:0.93][act:the coincidence, slower][tune:fall]The date that stuck, from the scholar ^Eratosthenes: {1184|eleven eighty-four} ^BCE. [act:a raised eyebrow, careful][tune:fall]Family trees make rough ^clocks. [act:quiet wonder][tune:fall]Still, it lands right beside the ^fire.",
+      "[d:build][act:widening the lens, measured]But look at the whole ^map. [act:tolling them, slow][tune:level]In the same few decades, the Hittite capital was emptied, then ^burned. [act:same rhythm][tune:level]Ugarit, on the Syrian coast, ^burned. [act:same rhythm][tune:level]Pylos, in Greece, ^burned. [act:the last, final][tune:fall]Egypt fought off invaders from the ^sea.",
+      "[p:0.93][act:explaining, a picture]Trees keep a diary: a wide ring in a wet year, a thin one in a dry ^year. [act:the evidence, steady][tune:fall]Junipers from central Turkey show three thin rings in a row@line, around {1198|eleven ninety-eight} BCE: a savage ^drought."
+     ],
+     "shots": [
+      {
+       "id": "s48",
+       "say": "Later Greek scholars dated Troy's fall by counting back through generations of kings. Their answers spread over two centuries. The date that stuck, from the scholar Eratosthenes: 1184 BCE. Family trees make rough clocks. Still, it lands right beside the fire.",
+       "draw": "Top left, a small family tree draws itself (label 'kings, counted back'). Timeline 1350 to 1100 BCE: ancient dates pop as small lilac dots (about 1334, 1250, 1209, 1184, 1135), a bracket 'two centuries of guesses' over the spread; the 1184 dot grows gold, label 'Eratosthenes: 1184'; then a fire band with a small flame, 'the fire, about 1180', appears just under it."
+      },
+      {
+       "id": "s49",
+       "say": "But look at the whole map. In the same few decades, the Hittite capital was emptied, then burned. Ugarit, on the Syrian coast, burned. Pylos, in Greece, burned. Egypt fought off invaders from the sea.",
+       "draw": "Map View(19, 37.5, 29.5, 42.5) of the eastern Mediterranean: flame pins pop in the order said, 'Hattusa', 'Ugarit', 'Pylos'; then off the Nile delta a cluster of ships with arrows from the sea, label 'Egypt'; Troy glows red in the northwest throughout. Scale 300 km.",
+       "reuse": "sea-peoples shot 1 (f11.sea_peoples map of burned palaces), redrawn for 16:9"
+      },
+      {
+       "id": "s50",
+       "say": "Trees keep a diary: a wide ring in a wet year, a thin one in a dry year. Junipers from central Turkey show three thin rings in a row, around 1198 BCE: a savage drought.",
+       "draw": "A juniper trunk cross-section, rings drawing outward; a wedge magnified: alternating wide and thin rings, tags 'wet year' and 'dry year'; three neighbouring thin rings flash red, label 'about 1198 BCE'."
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:build][sfx:hit][act:weighing the options][tune:level]^Greeks, as Homer says? [act:weighing on][tune:level]Sea ^raiders? [act:weighing on][tune:level]A ^rival? [act:the widest view][tune:fall]Or a world coming ^apart? [p:0.93][act:quiet]The ground records@verb the ^fire. [act:the landing][tune:fall]It doesn't sign the name of whoever lit ^it."
+     ],
+     "shots": [
+      {
+       "id": "s51",
+       "say": "Greeks, as Homer says? Sea raiders? A rival? Or a world coming apart? The ground records the fire. It doesn't sign the name of whoever lit it.",
+       "draw": "Four suspect cards pop in a row as named: a Greek warrior silhouette 'Greeks?', a ship 'raiders?', an Anatolian warrior 'a rival?', a cracked map 'collapse?'. Below them the burnt layer as a long band with a blank signature line and a small lilac '?' at its end.",
+       "reuse": "troy_m suspects (f11: Greeks? raiders? rivals? collapse?), redrawn wide"
+      }
+     ]
+    }
+   ],
+   "words": 281
+  },
+  {
+   "title": "The weighing",
+   "beats": [
+    {
+     "role": "weigh",
+     "lines": [
+      "[d:verdict][act:calm, laying it out]So, let's ^weigh it. [act:steady authority, counting][tune:level]Established: a hill of nine cities, from about {3000|three thousand} BCE to Roman ^times. [act:steady][tune:level]Established: a strong citadel there, the seat of power of its ^region. [act:fair, a little dry][tune:rise]Schliemann's gold as Priam's ^treasure? [act:plain][tune:fall]*Ruled ^out*: about a thousand years too ^early.",
+      "[p:0.95][act:weighing it, calm authority][tune:rise]A real, rich city on this hill, destroyed around the time Greek tradition places the ^war? [act:the verdict, confident][tune:fall]*Strong ^evidence*. [act:the reason, even][tune:fall]The walls, the fire, and the name in Hittite clay all point the same ^way.",
+      "[d:build][act:the other half, careful][tune:rise]And the war as Homer tells it: Greek kings, ten years, a queen called ^Helen? [act:honest, even][tune:fall]*Open ^question*. [act:fair, plain][tune:level]A quarrel over Wilusa is on record@noun. [act:same rhythm][tune:fall]A Greek siege is ^not."
+     ],
+     "shots": [
+      {
+       "id": "s52",
+       "say": "Established: a hill of nine cities, from about 3000 BCE to Roman times. Established: a strong citadel there, the seat of power of its region. Schliemann's gold as Priam's treasure? Ruled out: about a thousand years too early.",
+       "draw": "A five-row ledger fills row by row (each row a small pictogram, a short text and a grade chip that pops as the grade is said): 'nine cities, 3000 BCE to Roman times' Established; 'a citadel, seat of power' Established; 'Priam's treasure' Ruled out, with a red strike across the diadem pictogram."
+      },
+      {
+       "id": "s53",
+       "say": "A real, rich city on this hill, destroyed around the time Greek tradition places the war? Strong evidence. The walls, the fire, and the name in Hittite clay all point the same way.",
+       "draw": "Row 4: 'a rich city, burnt about 1180 BCE' with chip 'Strong evidence'; three small arrows from a wall icon, a flame icon and a tablet icon converge on the chip.",
+       "reuse": "alias of s52"
+      },
+      {
+       "id": "s54",
+       "say": "And the war as Homer tells it: Greek kings, ten years, a queen called Helen? Open question. A quarrel over Wilusa is on record. A Greek siege is not.",
+       "draw": "Row 5: 'the war as Homer tells it' (frieze pictogram) with chip 'Open question'; beneath it two small notes, 'quarrel over Wilusa' with a gold tick and 'Greek siege' with a lilac '?'.",
+       "reuse": "alias of s52"
+      }
+     ]
+    },
+    {
+     "role": "test",
+     "lines": [
+      "[d:tension][act:open, genuinely curious][tune:fall]What would settle ^it? [act:clear, practical][tune:level]A tablet that names whoever attacked Wilusa around {1180|eleven eighty} ^BCE. [act:building][tune:level]A palace archive from Troy itself, which so far has given us just one Bronze Age inscription, a small bronze ^seal. [act:the science, practical][tune:fall]Or the chemistry and DNA of the people found in the burnt layer, telling us where they came ^from."
+     ],
+     "shots": [
+      {
+       "id": "s55",
+       "say": "What would settle it? A tablet that names whoever attacked Wilusa around 1180 BCE. A palace archive from Troy itself, which so far has given us just one Bronze Age inscription, a small bronze seal. Or the chemistry and DNA of the people found in the burnt layer, telling us where they came from.",
+       "draw": "Three wanted items in lilac dashed outline, popping as named: a cuneiform tablet with a blank name slot ('a name'); an archive shelf at Troy, empty and dashed, holding one small solid bronze seal (label '1 seal so far'); a DNA helix beside a tooth with an isotope ring ('where from?')."
+      }
+     ]
+    },
+    {
+     "role": "close",
+     "lines": [
+      "[d:tension][p:0.93][act:the last word, quiet wonder][tune:fall]The walls are ^real. [act:same rhythm][tune:fall]The fire is ^real. [act:gentle, final][tune:fall]The war still waits for a ^witness. [act:warm, inviting][tune:fall]Weigh it ^yourself."
+     ],
+     "shots": [
+      {
+       "id": "s56",
+       "say": "The walls are real. The fire is real. The war still waits for a witness. Weigh it yourself.",
+       "draw": "The opening mound of s1 at dusk again, wide: the strata in quiet light, the VIIa band glowing low; above the summit the lilac dashed outline of the story's city glimmers. Then the end card (verdict chip 'Strong evidence').",
+       "reuse": "alias of s1, new cam"
+      }
+     ]
+    }
+   ],
+   "words": 178
+  }
+ ],
+ "description": "A low hill in northwest Turkey holds nine cities, one on top of another, and high in the stack, a layer of fire from around 1180 BCE. Was this Homer's Troy, and was there really a Trojan War?\n\nWe follow the dig from Frank Calvert's trial trenches and Heinrich Schliemann's great trench to the walls of Troy VI and Manfred Korfmann's lower town; read what Hittite tablets say about a western kingdom called Wilusa; sort what Homer seems to remember from the Bronze Age from what he added; and set the fire against the collapse of a whole world. Verdict: Strong evidence for a real, rich city destroyed around the time Greek tradition places the war. The war as Homer tells it remains an Open question.\n\nChapters\n0:00 Cold open\nmm:ss A hill of nine cities\nmm:ss The walls and the lower town\nmm:ss A name in Hittite clay\nmm:ss What Homer remembered\nmm:ss The fire and the fall\nmm:ss The weighing\n\nSources\nBlegen, C. W., Caskey, J. L., Rawson, M. & Sperling, J. 1950-1958, Troy I-IV (Princeton University Press, for the University of Cincinnati); Blegen, C. W. 1963, Troy and the Trojans (Thames & Hudson)\nSchliemann, H. 1875, Troy and Its Remains (John Murray), the 1872 campaign: his engineer's estimate of 78,545 cubic metres for the great cut; Schliemann, H. 1880, Ilios (John Murray)\nAllen, S. H. 1999, Finding the Walls of Troy: Frank Calvert and Heinrich Schliemann at Hisarlik (University of California Press)\nKorfmann, M. 2004, Was There a Trojan War?, Archaeology 57(3), May/June 2004\nJablonka, P. & Rose, C. B. 2004, Late Bronze Age Troy: A Response to Frank Kolb, American Journal of Archaeology 108(4): 615-630, doi:10.3764/aja.108.4.615\nKolb, F. 2004, Troy VI: A Trading Center and Commercial City?, American Journal of Archaeology 108(4): 577-613, doi:10.3764/aja.108.4.577\nKolb, F. 2005, Late Bronze Age Troy: A Response to P. Jablonka and C. B. Rose, American Journal of Archaeology 109(1), online forum\nEaston, D. F., Hawkins, J. D., Sherratt, A. G. & Sherratt, E. S. 2002, Troy in recent perspective, Anatolian Studies 52: 75-109, doi:10.2307/3643078\nLatacz, J. 2004, Troy and Homer: Towards a Solution of an Old Mystery (Oxford University Press)\nBeckman, G. 1999, Hittite Diplomatic Texts, 2nd ed. (Scholars Press), no. 13: the treaty of Muwattalli II with Alaksandu of Wilusa (CTH 76)\nBeckman, G. M., Bryce, T. R. & Cline, E. H. 2011, The Ahhiyawa Texts (Society of Biblical Literature, Writings from the Ancient World 28): AhT 4, the Tawagalawa letter; AhT 5, the Milawata letter\nBryce, T. 2006, The Trojans and Their Neighbours (Routledge)\nFrank, N., Mangini, A. & Korfmann, M. 2002, 230Th/U dating of the Trojan 'water quarries', Archaeometry 44(2): 305-314, doi:10.1111/1475-4754.t01-1-00062\nHawkins, J. D. & Easton, D. F. 1996, A hieroglyphic seal from Troia, Studia Troica 6: 111-118\nKretschmer, P. 1924, Alakšanduš, König von Viluša, Glotta 13: 205-213\nMountjoy, P. A. 1999, Troia VII reconsidered, Studia Troica 9: 295-346\nBowra, C. M. 1960, Homeric epithets for Troy, Journal of Hellenic Studies 80: 16-23, doi:10.2307/628372\nEverson, T. 2004, Warfare in Ancient Greece: Arms and Armour from the Heroes of Homer to Alexander the Great (Sutton)\nHope Simpson, R. & Lazenby, J. F. 1970, The Catalogue of the Ships in Homer's Iliad (Clarendon Press); Goldman, H. 1931, Excavations at Eutresis in Boeotia (Harvard University Press)\nLord, A. B. 1960, The Singer of Tales (Harvard University Press); Lord, A. B. & Bynum, D. E. (eds) 1974, Serbocroatian Heroic Songs 3: The Wedding of Smailagic Meho, by Avdo Medjedovic (Harvard University Press)\nFinley, M. I. 1954, The World of Odysseus (Viking)\nManning, S. W., Kocik, C., Lorentzen, B. & Sparks, J. P. 2023, Severe multi-year drought coincident with Hittite collapse around 1198-1196 BC, Nature 614: 719-724, doi:10.1038/s41586-022-05693-y\nCline, E. H. 2014, 1177 B.C.: The Year Civilization Collapsed (Princeton University Press)\nCline, E. H. 2013, The Trojan War: A Very Short Introduction (Oxford University Press)\nSmith, W. (ed.) 1875, A Dictionary of Greek and Roman Antiquities, 'Chronologia' (Eratosthenes' date for the fall of Troy, 1184 BCE)\nUNESCO Memory of the World Register 2001: The Hittite cuneiform tablets from Bogazkoy (nearly 25,000 tablets)\nHurriyet Daily News, 10 July 2025, Excavations at Troy reveal artifacts of Trojan War (R. Aslan's team: sling stones in Late Bronze Age layers)",
+ "sources": [
+  "Blegen, C. W., Caskey, J. L., Rawson, M. & Sperling, J. 1950-1958, Troy I-IV (Princeton University Press, for the University of Cincinnati); Blegen, C. W. 1963, Troy and the Trojans (Thames & Hudson)",
+  "Schliemann, H. 1875, Troy and Its Remains (John Murray), the 1872 campaign: his engineer's estimate of 78,545 cubic metres for the great cut; Schliemann, H. 1880, Ilios (John Murray)",
+  "Allen, S. H. 1999, Finding the Walls of Troy: Frank Calvert and Heinrich Schliemann at Hisarlik (University of California Press)",
+  "Korfmann, M. 2004, Was There a Trojan War?, Archaeology 57(3), May/June 2004",
+  "Jablonka, P. & Rose, C. B. 2004, Late Bronze Age Troy: A Response to Frank Kolb, American Journal of Archaeology 108(4): 615-630, doi:10.3764/aja.108.4.615",
+  "Kolb, F. 2004, Troy VI: A Trading Center and Commercial City?, American Journal of Archaeology 108(4): 577-613, doi:10.3764/aja.108.4.577",
+  "Kolb, F. 2005, Late Bronze Age Troy: A Response to P. Jablonka and C. B. Rose, American Journal of Archaeology 109(1), online forum",
+  "Easton, D. F., Hawkins, J. D., Sherratt, A. G. & Sherratt, E. S. 2002, Troy in recent perspective, Anatolian Studies 52: 75-109, doi:10.2307/3643078",
+  "Latacz, J. 2004, Troy and Homer: Towards a Solution of an Old Mystery (Oxford University Press)",
+  "Beckman, G. 1999, Hittite Diplomatic Texts, 2nd ed. (Scholars Press), no. 13: the treaty of Muwattalli II with Alaksandu of Wilusa (CTH 76)",
+  "Beckman, G. M., Bryce, T. R. & Cline, E. H. 2011, The Ahhiyawa Texts (Society of Biblical Literature, Writings from the Ancient World 28): AhT 4, the Tawagalawa letter; AhT 5, the Milawata letter",
+  "Bryce, T. 2006, The Trojans and Their Neighbours (Routledge)",
+  "Frank, N., Mangini, A. & Korfmann, M. 2002, 230Th/U dating of the Trojan 'water quarries', Archaeometry 44(2): 305-314, doi:10.1111/1475-4754.t01-1-00062",
+  "Hawkins, J. D. & Easton, D. F. 1996, A hieroglyphic seal from Troia, Studia Troica 6: 111-118",
+  "Kretschmer, P. 1924, Alakšanduš, König von Viluša, Glotta 13: 205-213",
+  "Mountjoy, P. A. 1999, Troia VII reconsidered, Studia Troica 9: 295-346",
+  "Bowra, C. M. 1960, Homeric epithets for Troy, Journal of Hellenic Studies 80: 16-23, doi:10.2307/628372",
+  "Everson, T. 2004, Warfare in Ancient Greece: Arms and Armour from the Heroes of Homer to Alexander the Great (Sutton)",
+  "Hope Simpson, R. & Lazenby, J. F. 1970, The Catalogue of the Ships in Homer's Iliad (Clarendon Press); Goldman, H. 1931, Excavations at Eutresis in Boeotia (Harvard University Press)",
+  "Lord, A. B. 1960, The Singer of Tales (Harvard University Press); Lord, A. B. & Bynum, D. E. (eds) 1974, Serbocroatian Heroic Songs 3: The Wedding of Smailagic Meho, by Avdo Medjedovic (Harvard University Press)",
+  "Finley, M. I. 1954, The World of Odysseus (Viking)",
+  "Manning, S. W., Kocik, C., Lorentzen, B. & Sparks, J. P. 2023, Severe multi-year drought coincident with Hittite collapse around 1198-1196 BC, Nature 614: 719-724, doi:10.1038/s41586-022-05693-y",
+  "Cline, E. H. 2014, 1177 B.C.: The Year Civilization Collapsed (Princeton University Press)",
+  "Cline, E. H. 2013, The Trojan War: A Very Short Introduction (Oxford University Press)",
+  "Smith, W. (ed.) 1875, A Dictionary of Greek and Roman Antiquities, 'Chronologia' (Eratosthenes' date for the fall of Troy, 1184 BCE)",
+  "UNESCO Memory of the World Register 2001: The Hittite cuneiform tablets from Bogazkoy (nearly 25,000 tablets)",
+  "Hurriyet Daily News, 10 July 2025, Excavations at Troy reveal artifacts of Trojan War (R. Aslan's team: sling stones in Late Bronze Age layers)"
+ ],
+ "facts_added": [
+  {
+   "fact": "Frank Calvert owned part of the Hisarlik mound, dug trial trenches there in 1863 and 1865, and in 1868 convinced Heinrich Schliemann that Troy lay inside it.",
+   "source": "Allen 1999; Schliemann Museum Ankershagen, 'Calvert and Schliemann'"
+  },
+  {
+   "fact": "For his great cut of 1872, Schliemann's engineer Laurent reckoned the earth to be removed at 78,545 cubic metres (about 31 Olympic pools of 2,500 cubic metres); Schliemann dug with about 100 workmen.",
+   "source": "Schliemann 1875, Troy and Its Remains (1872 season); arithmetic"
+  },
+  {
+   "fact": "Schliemann's trench, dug through the centre of the mound from 1871 to 1873 to reach the lowest levels, destroyed younger buildings, including much of the layers contemporary with the legendary war, while founding our knowledge of early Troy.",
+   "source": "Schliemann Museum Ankershagen; Cline 2013; Easton (cited in Cline 2013)"
+  },
+  {
+   "fact": "'Priam's Treasure' (found 1873) came from Troy II, about 2550 to 2300 BCE, more than a thousand years before any proposed date for the Trojan War.",
+   "source": "Blegen 1963; Cline 2013; troy Short (label: far too early)"
+  },
+  {
+   "fact": "Wilhelm Dorpfeld, Schliemann's architect, exposed the Troy VI fortifications in 1893 and 1894; Troy VI dates to about 1700 to 1300 BCE; its walls were up to about 5 m thick with a mudbrick superstructure to more than 9 m.",
+   "source": "Blegen et al. 1953 (Troy III); C. B. Rose, Archaeology interactive map of Troy; troy Short"
+  },
+  {
+   "fact": "Korfmann's team (from 1988) found by magnetometry and excavation a ditch about 4 m wide and 1 to 2 m deep cut into bedrock about 400 m south of the citadel, traced for more than 600 m, dug in Troy VI Middle (about 15th century BCE), with traces of a palisade; a second, outer ditch belongs to Troy VIIa.",
+   "source": "Jablonka & Rose 2004, AJA 108: 618-619; Korfmann 2004"
+  },
+  {
+   "fact": "The lower town covered roughly 25 to 35 ha (about 270,000 square metres), with an estimated 5,000 to 10,000 inhabitants; only 2 to 3 per cent of it has been excavated.",
+   "source": "Jablonka & Rose 2004; Easton et al. 2002"
+  },
+  {
+   "fact": "Frank Kolb, ancient historian at Tubingen, argued that Troy VI was a princely seat, not a city, that there is no evidence of a densely built lower town, and that the ditches were water channels and reservoirs; a public symposium was held at Tubingen in February 2002; Kolb nonetheless called Troy 'a political, military, and administrative center for at least a great part of the Troad'.",
+   "source": "Kolb 2004, AJA 108: 577-613; Kolb 2005, AJA 109(1) forum"
+  },
+  {
+   "fact": "Four Bronze Age specialists judged the criticisms of Korfmann 'considerably exaggerated'.",
+   "source": "Easton, Hawkins, Sherratt & Sherratt 2002, Anatolian Studies 52: 75-109"
+  },
+  {
+   "fact": "The Hittite archives at Hattusa (Bogazkoy) have yielded nearly 25,000 clay tablets; Hattusa lies about 700 km east of Troy.",
+   "source": "UNESCO Memory of the World register; distance measured on the map"
+  },
+  {
+   "fact": "Wilusa corresponds to Greek (W)ilios, the W having been lost in later Greek; the identification goes back to Kretschmer 1924 and is now widely, though not universally, accepted.",
+   "source": "Kretschmer 1924; Beckman, Bryce & Cline 2011; Easton et al. 2002"
+  },
+  {
+   "fact": "Around 1280 BCE Muwattalli II made a treaty with Alaksandu of Wilusa (CTH 76) which was to be read aloud to him three times a year; among the gods of Wilusa it invokes Appaliuna and the divine underground watercourse (KASKAL.KUR) of the land of Wilusa.",
+   "source": "Beckman 1999, Hittite Diplomatic Texts no. 13; Latacz 2004; troy Short"
+  },
+  {
+   "fact": "Troy's spring cave: a rock-cut tunnel system over 100 m long with four shafts; its oldest calcite crust gives a 230Th/U age of about 4,350 +/- 570 years, so the tunnels were cut in the Early Bronze Age, long before the treaty; the authors link it to the KASKAL.KUR of Wilusa.",
+   "source": "Frank, Mangini & Korfmann 2002, Archaeometry 44: 305-314"
+  },
+  {
+   "fact": "Ahhiyawa is most reasonably identified with the Mycenaean Greek mainland (Homer's Achaeans).",
+   "source": "Beckman, Bryce & Cline 2011, introduction"
+  },
+  {
+   "fact": "The Tawagalawa letter (probably Hattusili III, about 1250 BCE) addresses the king of Ahhiyawa as 'brother' and refers to the matter of Wilusa over which the two had been hostile, now settled by peace; the verb could cover anything from dispute to war.",
+   "source": "Beckman, Bryce & Cline 2011, AhT 4"
+  },
+  {
+   "fact": "The Milawata letter (probably Tudhaliya IV) concerns Walmu, a deposed king of Wilusa whom the Hittite king wants reinstated; no Hittite text records an Ahhiyawan attack on Wilusa.",
+   "source": "Beckman, Bryce & Cline 2011, AhT 5; Bryce 2006"
+  },
+  {
+   "fact": "The only Bronze Age writing found at Troy is a bronze biconvex seal in Luwian hieroglyphs (found 1995, Troy VIIb, second half of the 12th century BCE), naming a scribe and a woman.",
+   "source": "Hawkins & Easton 1996, Studia Troica 6"
+  },
+  {
+   "fact": "The Iliad was composed around the late 8th century BCE (about 700 BCE), almost five centuries after the destruction of Troy VIIa; Greece had no writing between the end of Linear B (about 1200 BCE) and the adoption of the alphabet (about 800 to 750 BCE).",
+   "source": "Korfmann 2004; Latacz 2004"
+  },
+  {
+   "fact": "In July 1935 Milman Parry and Albert Lord recorded the singer Avdo Medjedovic, whose dictated epic 'The Wedding of Smailagic Meho' runs to 12,311 lines (the Odyssey has about 12,100); such singers compose with formulas.",
+   "source": "Lord 1960; Lord & Bynum 1974"
+  },
+  {
+   "fact": "Boar's tusk helmets (Iliad 10.260-265) were used in the Aegean from about the 17th century BCE (Shaft Graves) and disappear with the end of the palaces around 1180 BCE; the latest known remains (Kallithea) date to about 1150 BCE, with only stray later plates (Elateia); one helmet needed the tusks of about 40 to 50 boars.",
+   "source": "Everson 2004, pp. 7, 11, 37"
+  },
+  {
+   "fact": "The Catalogue of Ships (Iliad 2.494-759) lists 29 contingents and 1,186 ships; most places were occupied in the Late Bronze Age, and Eutresis in Boeotia was unoccupied from about 1200 BCE to the 6th century BCE.",
+   "source": "Hope Simpson & Lazenby 1970; Goldman 1931"
+  },
+  {
+   "fact": "Homer's epithets for Troy include well-walled, wide-streeted and windy.",
+   "source": "Bowra 1960, JHS 80: 16-23"
+  },
+  {
+   "fact": "Homeric heroes mostly use chariots to ride to and from the fight and dismount to fight on foot, unlike Late Bronze Age chariot warfare.",
+   "source": "Finley 1954"
+  },
+  {
+   "fact": "Troy VI was destroyed around 1300 BCE, most likely by an earthquake (collapsed masonry, no burning); Troy VIIa houses were crowded inside the walls with storage jars sunk into their floors.",
+   "source": "Blegen 1963; Mountjoy 1999; C. B. Rose, Archaeology interactive map"
+  },
+  {
+   "fact": "Troy VIIa was destroyed around 1180 BCE: 'evidence of a conflagration, some skeletons, and heaps of sling bullets'; human bones lay unburied in the streets inside the South Gate; Korfmann judged it 'more likely than not that there were several armed conflicts in and around Troy at the end of the Late Bronze Age'.",
+   "source": "Korfmann 2004; Blegen 1963 (as summarised in Mountjoy 1999)"
+  },
+  {
+   "fact": "Korfmann reasoned that victors gather up their sling ammunition, so heaps left in place suggest the defenders lost.",
+   "source": "Korfmann, quoted in The Daily Telegraph, 24 March 2004"
+  },
+  {
+   "fact": "In July 2025 R. Aslan's team reported a cache of sling stones (clay and river stones) in Late Bronze Age layers; arrowheads were reported the year before.",
+   "source": "Hurriyet Daily News, 10 July 2025; Greek Reporter, 9 July 2025"
+  },
+  {
+   "fact": "Ancient Greek chronographers dated the fall of Troy from about 1334 BCE (Douris) to 1135 BCE (Ephorus), mostly from royal genealogies; Eratosthenes' date, 1184 BCE, became the standard 'Trojan era'.",
+   "source": "Smith 1875, 'Chronologia'; Burgess 2001 (The Tradition of the Trojan War in Homer and the Epic Cycle) as summarised in Cline 2013"
+  },
+  {
+   "fact": "Within a few decades either side of 1200 BCE Hattusa was emptied and later burned, Ugarit and Pylos burned, and Ramesses III fought invaders from the sea (about 1177 BCE).",
+   "source": "Cline 2014; Manning et al. 2023; sea-peoples Short"
+  },
+  {
+   "fact": "Juniper tree rings from Gordion show three consecutive extremely dry years, 1198 to 1196 BCE (+/- 3 years).",
+   "source": "Manning et al. 2023, Nature 614: 719-724"
+  }
+ ],
+ "names": [
+  {
+   "name": "Hisarlik",
+   "say": "HISS-ar-lik (in LEX)"
+  },
+  {
+   "name": "Dardanelles",
+   "say": "dar-duh-NELZ"
+  },
+  {
+   "name": "Frank Calvert",
+   "say": "KAL-vert (in LEX)"
+  },
+  {
+   "name": "Heinrich Schliemann",
+   "say": "HINE-rikh SHLEE-mahn (in LEX)"
+  },
+  {
+   "name": "Priam",
+   "say": "PRY-um"
+  },
+  {
+   "name": "Wilhelm Doerpfeld",
+   "say": "VIL-helm DURP-felt"
+  },
+  {
+   "name": "Manfred Korfmann",
+   "say": "MAHN-fred KORF-mahn"
+  },
+  {
+   "name": "Frank Kolb",
+   "say": "KOLP (rhymes with 'golf' without the f)"
+  },
+  {
+   "name": "Hattusa",
+   "say": "hah-TOO-sah"
+  },
+  {
+   "name": "Anatolia",
+   "say": "an-uh-TOH-lee-uh"
+  },
+  {
+   "name": "Wilusa",
+   "say": "wee-LOO-sah (in LEX)"
+  },
+  {
+   "name": "Ilios",
+   "say": "ILL-ee-oss"
+  },
+  {
+   "name": "Wilios",
+   "say": "WEE-lee-oss (in LEX)"
+  },
+  {
+   "name": "Alaksandu",
+   "say": "ah-lak-SAN-doo (in LEX)"
+  },
+  {
+   "name": "Alexandros",
+   "say": "al-ex-AN-dross (in LEX)"
+  },
+  {
+   "name": "Appaliuna",
+   "say": "ap-pah-lee-OO-nah"
+  },
+  {
+   "name": "Ahhiyawa",
+   "say": "ah-hee-YAH-wah"
+  },
+  {
+   "name": "Mycenaean",
+   "say": "my-suh-NEE-un"
+  },
+  {
+   "name": "Achaeans",
+   "say": "uh-KEE-unz"
+  },
+  {
+   "name": "Walmu",
+   "say": "WAHL-moo"
+  },
+  {
+   "name": "Milman Parry",
+   "say": "MIL-mun PAIR-ee"
+  },
+  {
+   "name": "Avdo Medjedovic",
+   "say": "AHV-doh MEH-jeh-doh-vitch (Bosnian: first syllable stressed)"
+  },
+  {
+   "name": "Yugoslavia",
+   "say": "yoo-goh-SLAH-vee-uh"
+  },
+  {
+   "name": "Carl Blegen",
+   "say": "KARL BLEG-en (hard g)"
+  },
+  {
+   "name": "Eutresis",
+   "say": "yoo-TREE-sis"
+  },
+  {
+   "name": "Eratosthenes",
+   "say": "air-uh-TOSS-thuh-neez"
+  },
+  {
+   "name": "Ugarit",
+   "say": "oo-gah-REET (in LEX)"
+  },
+  {
+   "name": "Pylos",
+   "say": "PIE-loss"
+  }
+ ],
+ "words": 1514
+}
