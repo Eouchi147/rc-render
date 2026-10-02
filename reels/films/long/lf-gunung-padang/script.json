@@ -1,0 +1,686 @@
+{
+ "id": "lf-gunung-padang",
+ "kind": "case",
+ "series": "Impossible Stones",
+ "title": "Gunung Padang: Inside the Hill",
+ "intro_title": "Gunung Padang: Inside the Hill",
+ "yt_title": "Gunung Padang: The 'Oldest Pyramid' a Journal Took Back",
+ "verdict": "Awaiting evidence",
+ "hook": "Is there a pyramid inside this hill?",
+ "end_line": "One honest trench could let the hill speak.",
+ "chapters": [
+  {
+   "title": "Cold open",
+   "beats": [
+    {
+     "role": "hook",
+     "lines": [
+      "[d:intrigue][sfx:boom][act:hushed, awe]A green hill in Java, crowned with stone ^terraces. [p:0.93][act:the claim, slow]Inside it, a team of scientists said, lies a ^pyramid, begun some twenty-seven ^*thousand* years ago.",
+      "[d:tension][act:the stakes, wonder][tune:fall]That's deep in the Ice ^Age, long before the first ^farms. [act:dropping the voice][tune:level]A science journal published it in {2023|twenty twenty-three}. [act:dry, a small shrug][tune:fall]Five months later, the journal took it ^back.",
+      "[d:wonder][act:the child's question, leaning in][tune:rise]So is there a pyramid inside this ^hill? [act:the second question, curious][tune:rise]And how would anyone ever ^know?"
+     ],
+     "shots": [
+      {
+       "id": "s1",
+       "say": "A green hill in Java, crowned with stone terraces.",
+       "draw": "Dusk over the green uplands of West Java, drawn across the whole frame: far volcano silhouettes, then one rounded green hill in profile (summit about y 330). Five low stone terraces rise on its crest one by one (fx rise, 0.3 s apart), a thin stair line climbs the north slope, a 1.7 m person stands on the top terrace for scale. No labels for the first 3 s (hook title).",
+       "reuse": "gunung-padang shot 0 (the hill with five terraces), redrawn wide"
+      },
+      {
+       "id": "s2",
+       "say": "Inside it, a team of scientists said, lies a pyramid, begun some twenty-seven thousand years ago.",
+       "draw": "Same panel: the hill turns to a dark cutaway; a large stepped pyramid outline draws itself inside it in dotted lilac (style claimed, nothing solid); on 'twenty-seven thousand' a lilac tag '27,000 years?' pops beside it.",
+       "reuse": "gunung-padang (the claimed pyramid drawn x-ray inside the hill)"
+      },
+      {
+       "id": "s3",
+       "say": "That's deep in the Ice Age, long before the first farms.",
+       "draw": "A time bar of years ago draws itself right to left from 'today' to '27,000': an ice-blue band 'Ice Age' fills the left part; a gold tick 'first farms, c. 11,500' near the right (facts base: lost-civilization); the small dotted pyramid icon pops at 27,000.",
+       "reuse": "lost-civilization shot 1 (Hancock's timeline: placement of the first farms)"
+      },
+      {
+       "id": "s4",
+       "say": "A science journal published it in 2023. Five months later, the journal took it back.",
+       "draw": "A journal page with a dotted pyramid sketch and a date tag 'Oct 2023'; a strip of five month boxes (Oct to Mar) ticks one by one; a red stamp 'RETRACTED' with 'Mar 2024' slams across the page (fx pop, slightly rotated).",
+       "reuse": "gunung-padang hook (the journal page and the RETRACTED stamp)"
+      },
+      {
+       "id": "s5",
+       "say": "So is there a pyramid inside this hill? And how would anyone ever know?",
+       "draw": "Back on the hill (closer): a large lilac question mark draws over the dotted pyramid; on 'how would anyone ever know' a small trowel and a drill core pop on the hilltop."
+      }
+     ]
+    },
+    {
+     "role": "title",
+     "lines": [
+      "[d:calm][act:warm, setting out]Gunung ^Padang: [act:the promise, a small smile][tune:fall]inside the hill, and how we'd ^know."
+     ],
+     "shots": [
+      {
+       "id": "s6",
+       "say": "Gunung Padang: inside the hill, and how we'd know.",
+       "draw": "The intro title card 'Gunung Padang: Inside the Hill' over the dimmed wide dusk view of the hill. Only the title is said here."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Five terraces on a hill",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:plain, orienting]This is Gunung ^Padang, in Indonesia. [act:placing it]It crowns a hill in the green uplands of West ^Java, south of the capital, ^Jakarta. [act:painting the picture]Five stone terraces climb one above the other, like giant ^steps, [act:the climb, a smile][tune:fall]reached by a stair of about three hundred and seventy steep ^stones. [act:the view, warm]From the top, you look out on ^volcanoes along the horizon.",
+      "[d:build][act:storytelling, unhurried]Dutch reports first mention it around {1890|eighteen ninety}. [act:the turn]Then it was largely forgotten, until local farmers came upon it again in {1979|nineteen seventy-nine}. [act:plain]Through the {1980s|nineteen eighties}, archaeologists cleared and mapped the ^terraces. [act:delighted, lightly][tune:fall]On the lowest terrace lies a stone that rings out, deep and loud, when you ^strike it."
+     ],
+     "shots": [
+      {
+       "id": "s7",
+       "say": "It crowns a hill in the green uplands of West Java, south of the capital, Jakarta.",
+       "draw": "Map of western Java (View 105.0 to 109.2 E, 8.0 to 5.6 S, fitted wide): land, the Java Sea above, the Indian Ocean below; pins Jakarta and Bandung, then Gunung Padang (6.99 S, 107.06 E) as the gold pin; italic labels 'West Java', 'Java Sea', 'Indian Ocean'; 50 km scale bar.",
+       "reuse": "gunung-padang shot 1 (the map with the gold pin)"
+      },
+      {
+       "id": "s8",
+       "say": "Five stone terraces climb one above the other, like giant steps, reached by a stair of about three hundred and seventy steep stones. From the top, you look out on volcanoes along the horizon.",
+       "draw": "Iso model of the summit (schematic): the hilltop ridge, five terraces build in one by one from the lowest and largest (north) to the highest (south), each edged by a low wall of stacked columns; the long stair draws itself up the north slope, label '370 steps'; a person on the top terrace for scale; on 'volcanoes', two faint volcano silhouettes rise on the horizon behind (Archaeology 2024: views of two volcanic mountains from the top terrace).",
+       "reuse": "gunung-padang shot 0 (iso hill, five terraces, about 370 steps)"
+      },
+      {
+       "id": "s9",
+       "say": "Dutch reports first mention it around 1890. Then it was largely forgotten, until local farmers came upon it again in 1979. Through the 1980s, archaeologists cleared and mapped the terraces.",
+       "draw": "A small timeline 1880 to 2000: a notebook icon at 1890 ('a Dutch report'); over a terrace icon, trees and grass grow (fade in) along the forgotten years; at 1979 farmer figures walk in (fx rise) and the terrace icon brightens ('found again, 1979'); on '1980s' a plan of the five terraces draws itself above the bar ('mapped')."
+      },
+      {
+       "id": "s10",
+       "say": "On the lowest terrace lies a stone that rings out, deep and loud, when you strike it.",
+       "draw": "Close on a long andesite column lying on the lowest terrace; a small stone in a hand taps it; three sound arcs spread out from it (fx draw) and a soft glow; label 'the ringing stone'."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][p:0.93][act:curious, the method][tune:rise]How old are the ^terraces? [act:explaining, clear]For decades, the archaeologist Lutfi ^Yondri has dug ^here. [act:the key find]Under the retaining walls, his team found ^charcoal: burnt wood, from fires lit before the walls went ^up.",
+      "[p:0.93][act:an everyday picture, light]Think of a coin under a floorboard: the floor was laid ^after the coin fell. [act:the result, precise]Here the charcoal dates to around the last two centuries ^BCE. [act:the landing, warm][tune:fall]So the terraces rose about two thousand years ago, and not in one generation, but over ^several.",
+      "[d:calm][act:the meaning, respectful]Pottery, a grinding stone, a stone-lined well below the ^terraces: [act:explaining, warm][tune:fall]it fits a stepped sanctuary, a tradition found across the islands, where people honoured their ^ancestors."
+     ],
+     "shots": [
+      {
+       "id": "s11",
+       "say": "How old are the terraces? For decades, the archaeologist Lutfi Yondri has dug here. Under the retaining walls, his team found charcoal: burnt wood, from fires lit before the walls went up.",
+       "draw": "Section through a terrace edge: a retaining wall of stacked stone columns standing on brown soil; a trench outline cuts down beside it (dashed), an archaeologist figure with a trowel; under the foot of the wall, black charcoal flecks pop and glow faintly; label 'charcoal'."
+      },
+      {
+       "id": "s12",
+       "say": "Think of a coin under a floorboard: the floor was laid after the coin fell.",
+       "draw": "A wooden floor in section: a coin drops onto the bare ground (fx pop); then floorboards slide in over it one by one (fx draw), the coin still visible beneath; labels '1. the coin' and '2. the floor'."
+      },
+      {
+       "id": "s13",
+       "say": "Here the charcoal dates to around the last two centuries BCE. So the terraces rose about two thousand years ago, and not in one generation, but over several.",
+       "draw": "Time axis 300 BCE to 300 CE: two charcoal dots pop on it, 'under terrace 1: c. 117 BCE' and 'under terraces 2 and 4: c. 50 BCE' (Archaeology 2024, after Yondri); a bracket 'about 2,000 years ago'; above, three small figures of three generations each add a course to a terrace wall in turn."
+      },
+      {
+       "id": "s14",
+       "say": "Pottery, a grinding stone, a stone-lined well below the terraces: it fits a stepped sanctuary, a tradition found across the islands, where people honoured their ancestors.",
+       "draw": "Three finds pop in a row as named: a potsherd, a grinding stone with its rubber, a round stone-lined well; then a small view of the terraces at dusk with a few figures climbing and a soft lamp glow on the top terrace (no altar or deity drawn); label 'a stepped sanctuary'."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:the twist, leaning in][tune:rise]And the ^stones? [act:the surprise][tune:fall]Thousands of long stone beams, and nobody hauled them from a quarry far ^away. [act:landing it, wonder][tune:fall]They came out of the hill ^itself."
+     ],
+     "shots": [
+      {
+       "id": "s15",
+       "say": "And the stones? Thousands of long stone beams, and nobody hauled them from a quarry far away. They came out of the hill itself.",
+       "draw": "Cutaway of the hilltop: under the terraces the rock of the hill is drawn as packed columns; a dotted arrow from a 'far quarry' at the frame edge is struck through; then short gold arrows lift columns from the hill's own flank up into the terrace walls (Yondri 2014: stone sourced from the site itself)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Stones that cut themselves",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:wonder][act:admiring, inviting]Look closely at one of those ^stones. [act:describing it]A long beam, five or six sided, with edges so straight they look ^cut. [act:the twist, wonder][tune:fall]Nobody cut ^it."
+     ],
+     "shots": [
+      {
+       "id": "s16",
+       "say": "A long beam, five or six sided, with edges so straight they look cut. Nobody cut it.",
+       "draw": "Iso of a single columnar andesite prism lying on grass, about 1.5 m long, beside a 1.7 m person; its five-sided end face outlines itself in gold (fx draw); a mason's chisel icon pops beside it and is struck through on 'Nobody cut it'.",
+       "reuse": "gunung-padang shot 2 (a column taken down and laid flat)"
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][p:0.93][act:explaining, simple]It's columnar ^andesite, a volcanic rock. [act:explaining, clear]When a thick mass of lava cools, it ^shrinks, and cracks run through it, splitting it into long ^columns. [act:explaining, a picture]The cracks tend to meet in threes, so the columns come out mostly five or six sided, like the cells of a ^honeycomb. [act:a familiar example][tune:fall]The same process built the Giant's Causeway in Northern ^Ireland.",
+      "[p:0.93][act:an everyday picture, playful]You can watch it happen in a ^kitchen. [act:the recipe, light]Mix cornflour and water, and leave it to dry under a lamp, [act:the payoff, delighted][tune:fall]and it cracks into tiny columns, a miniature of the real ^thing.",
+      "[d:build][act:the key detail, clear]The cracks grow at right angles to the surface that's cooling, [act:the consequence][tune:fall]so columns can stand ^upright, lean, or lie on their ^sides. [act:a picture, amused]In Utah, a slope of sideways columns is nicknamed Paul Bunyan's ^Woodpile. [act:dry, a small smile][tune:fall]No lumberjack ^required."
+     ],
+     "shots": [
+      {
+       "id": "s17",
+       "say": "It's columnar andesite, a volcanic rock. When a thick mass of lava cools, it shrinks, and cracks run through it, splitting it into long columns. The cracks tend to meet in threes, so the columns come out mostly five or six sided, like the cells of a honeycomb. The same process built the Giant's Causeway in Northern Ireland.",
+       "draw": "Section of a thick lava body glowing orange (glow) that darkens from its top and bottom surfaces inward as it cools; cracks draw themselves in from the cooling surfaces and join into upright columns; a top-view inset shows the cracks meeting in threes as a net of five- and six-sided cells (fx draw), a small honeycomb beside it; on 'Giant's Causeway' a small row of stepped column tops by a sea line, label 'Giant's Causeway'.",
+       "reuse": "gunung-padang shot 2 (lava cooling, hexagonal cracks)"
+      },
+      {
+       "id": "s18",
+       "say": "You can watch it happen in a kitchen. Mix cornflour and water, and leave it to dry under a lamp, and it cracks into tiny columns, a miniature of the real thing.",
+       "draw": "A kitchen counter: a glass dish of white cornflour paste under a desk lamp (warm glow); small tags 'day 1', 'day 3' tick by; a crack net spreads across the surface; a cutaway of the dish shows tiny columns standing in it; label 'a few millimetres wide' (Müller 1998; Goehring et al. 2006)."
+      },
+      {
+       "id": "s19",
+       "say": "The cracks grow at right angles to the surface that's cooling, so columns can stand upright, lean, or lie on their sides.",
+       "draw": "Three small sections side by side, each with a blue arrow on its cooling surface and columns at right angles to it: a lava flow cooling from top and bottom (columns upright), a tilted body (columns leaning), a vertical wall of lava cooling from its sides (columns lying flat); labels 'upright', 'leaning', 'on their sides'."
+      },
+      {
+       "id": "s20",
+       "say": "In Utah, a slope of sideways columns is nicknamed Paul Bunyan's Woodpile. No lumberjack required.",
+       "draw": "A hillside where horizontal columns show their round-cornered ends like stacked logs (schematic, Ege 2001); label 'Paul Bunyan's Woodpile, Utah'; a giant axe outline fades in dotted and is struck through on 'No lumberjack required'."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][p:0.93][act:the local geology, plain]Indonesian volcanologists read@present Gunung Padang as the neck of an ancient ^volcano: lava that cooled inside its throat, its columns formed right where they ^lie. [act:the landing, fair][tune:fall]Nature made the ^bricks. [act:fair, careful]That doesn't mean nobody built anything ^here: [act:plain][tune:fall]the terraces show that people ^did. [act:the point]It means the shapes alone can't tell us ^how much. [act:the open question, leaning in][tune:rise]The question is who ^stacked them, and ^when."
+     ],
+     "shots": [
+      {
+       "id": "s21",
+       "say": "Indonesian volcanologists read Gunung Padang as the neck of an ancient volcano: lava that cooled inside its throat, its columns formed right where they lie.",
+       "draw": "Cross-section of an ancient volcano: the cone (dotted, the part since worn away) around a central throat of lava; columns fan out from the throat walls (cracks draw in, at right angles to the walls); the cone fades away (erosion) leaving the hard neck standing as a hill; the five terraces pop on its top. Labels 'the neck', 'columns formed in place' (Bronto and Langi)."
+      },
+      {
+       "id": "s22",
+       "say": "Nature made the bricks. That doesn't mean nobody built anything here: the terraces show that people did. It means the shapes alone can't tell us how much. The question is who stacked them, and when.",
+       "draw": "Close on the hilltop of s21: on the left a natural heap of loose columns, on the right the same columns stacked in a terrace wall; a gold question mark between them and a small clock icon above it."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "A pyramid in the scans",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:presenting it fairly, even]Now the boldest ^reading. [act:introducing him, respectful]Danny Hilman ^Natawidjaja is a respected Indonesian geologist, an expert on ^earthquakes. [act:the method]From {2011|twenty eleven}, his team studied the hill with every tool they ^had, [act:fair, adding][tune:fall]joined by geophysicists and by archaeologists, among them Ali ^Akbar.",
+      "[d:build][p:0.93][act:explaining, simple]Radar sends pulses into the ground and listens for the ^echoes, like a ^bat. [act:explaining, clear]Electric current flows easily through wet clay, and barely through dry rock or empty ^space. [act:explaining]And seven drills pulled up long cores of rock and soil, the deepest thirty-six metres ^long. [act:his method, fair][tune:fall]Then they matched what the cores showed to the layers in the scans, metre by ^metre."
+     ],
+     "shots": [
+      {
+       "id": "s23",
+       "say": "Danny Hilman Natawidjaja is a respected Indonesian geologist, an expert on earthquakes. From 2011, his team studied the hill with every tool they had, joined by geophysicists and by archaeologists, among them Ali Akbar.",
+       "draw": "The hill in section at dusk; a small team of figures on the terraces with their instruments: a radar cart, a line of electrode stakes with a cable, a drilling rig; a seismograph trace runs across the sky; label 'from 2011'."
+      },
+      {
+       "id": "s24",
+       "say": "Radar sends pulses into the ground and listens for the echoes, like a bat.",
+       "draw": "Close on the radar cart: a fan of pulses spreads down into the ground (fan), echo arcs come back from a layer boundary; beside it a bat silhouette sends and hears its own sound arcs.",
+       "reuse": "gunung-padang shot 3 (radar fan from the cutaway hill)"
+      },
+      {
+       "id": "s25",
+       "say": "Electric current flows easily through wet clay, and barely through dry rock or empty space.",
+       "draw": "A row of electrode stakes along the surface, current lines arc between them through the ground; below, a section paints in: a blue patch 'wet clay: flows', an orange patch 'dry rock or a void: resists'."
+      },
+      {
+       "id": "s26",
+       "say": "And seven drills pulled up long cores of rock and soil, the deepest thirty-six metres long. Then they matched what the cores showed to the layers in the scans, metre by metre.",
+       "draw": "The hill cutaway: seven drill lines go down from the terraces one by one (fx draw) to different depths; the deepest gets a dimension '36 m'; a core cylinder rises out beside them, label 'a core'; then thin dashed lines link changes in the core to the layer edges in the section ('matched').",
+       "reuse": "gunung-padang shot 3 (the drill and the core)"
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:reveal][act:his reading, vivid]Inside, they saw four ^layers. [act:listing, building][tune:level]On top, the ^terraces. [act:same rhythm][tune:level]Below, columns laid ^flat, like bricks in a wall, with fine soil between them that they read@past as ^mortar. [act:same rhythm][tune:level]Deeper, a thick layer of rock and ^soil. [act:the last, with weight][tune:fall]And at the core, a mass of hard lava, which they suggest was ^sculpted.",
+      "[d:build][act:the chamber, intrigued]In the scans, a zone where current barely flowed and vibrations slowed ^down. [p:0.93][act:the telling detail]And in one borehole, about thirty-two thousand litres of drilling water simply ^vanished, between eight and fourteen metres ^down. [act:their reading, fair][tune:fall]To the team, that points to a hollow: a ^chamber.",
+      "[d:build][act:his argument, fair]Natawidjaja points to the rocks ^themselves: [act:his words, respectful][tune:fall]neatly arranged, shaped, and massive, some up to three hundred ^kilos."
+     ],
+     "shots": [
+      {
+       "id": "s27",
+       "say": "Inside, they saw four layers. On top, the terraces. Below, columns laid flat, like bricks in a wall, with fine soil between them that they read as mortar. Deeper, a thick layer of rock and soil. And at the core, a mass of hard lava, which they suggest was sculpted.",
+       "draw": "The hill cutaway: four layers fill in one by one as named, each outlined in dotted lilac (the team's reading, style claimed): Unit 1 the terraces on top; Unit 2 columns lying flat with thin soil lines between them ('mortar?'); Unit 3 a thick band of rock and soil; Unit 4 the lava core with a dotted outline 'sculpted?'. Small labels 'Unit 1' to 'Unit 4' at the left (Natawidjaja et al. 2023, fig. 14)."
+      },
+      {
+       "id": "s28",
+       "say": "In the scans, a zone where current barely flowed and vibrations slowed down.",
+       "draw": "Same cutaway, closer: an orange blob (high resistance) and a dashed blue blob (slow seismic waves) appear and overlap under terrace 2; label 'the anomaly'."
+      },
+      {
+       "id": "s29",
+       "say": "And in one borehole, about thirty-two thousand litres of drilling water simply vanished, between eight and fourteen metres down.",
+       "draw": "A single borehole drawn to 14 m with depth marks at 8 m and 14 m; water runs down it; beside it a stack of 32 cubes (each 1,000 litres) empties cube by cube into the stretch between 8 and 14 m; label '32,000 litres'."
+      },
+      {
+       "id": "s30",
+       "say": "To the team, that points to a hollow: a chamber.",
+       "draw": "Back on the cutaway: a dotted lilac room outline (claimed) settles over the anomaly, label 'a chamber?'."
+      },
+      {
+       "id": "s31",
+       "say": "Natawidjaja points to the rocks themselves: neatly arranged, shaped, and massive, some up to three hundred kilos.",
+       "draw": "Columns lying flat in neat courses like a brick wall (Unit 2, schematic); one block lifts onto a balance and four 75 kg people icons on the other pan balance it; label '300 kg'."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][p:0.9][act:the dates, let them land]Then came the ^dates. [act:explaining]They radiocarbon-dated twelve samples of soil from the cores and ^trenches. [act:the big number, slow][tune:fall]The oldest, seven and a half metres down, came out at about twenty-five thousand ^BCE.",
+      "[d:build][act:their timeline, measured]Their reading: the deep layer was built between about twenty-five thousand and fourteen thousand ^BCE, [act:continuing][tune:level]buried between about eight thousand and six thousand ^BCE, [act:landing it][tune:fall]and crowned with terraces much ^later."
+     ],
+     "shots": [
+      {
+       "id": "s32",
+       "say": "Then came the dates. They radiocarbon-dated twelve samples of soil from the cores and trenches. The oldest, seven and a half metres down, came out at about twenty-five thousand BCE.",
+       "draw": "A tall core with a depth scale 0 to 12 m; twelve gold sample dots pop in turn along it and two short trench walls beside it; the dot at 7.5 m glows and its tag 'c. 25,000 BCE' pops (sample GP2-750: 22,750 radiocarbon years, 25,337 to 24,525 cal BCE)."
+      },
+      {
+       "id": "s33",
+       "say": "Their reading: the deep layer was built between about twenty-five thousand and fourteen thousand BCE, buried between about eight thousand and six thousand BCE, and crowned with terraces much later.",
+       "draw": "Time axis 26,000 BCE to today; dotted lilac bands (the team's reading) fill as said: 'built?' 25,000 to 14,000 BCE; 'buried?' 7,900 to 6,100 BCE; then 'terraces' 2,000 to 1,100 BCE (their dates for Unit 1)."
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:wonder][act:generous, the case at its strongest]And don't underestimate Ice Age ^Indonesia. [act:the picture, wide]In that era the sea stood up to about a hundred and twenty metres lower, and Java was joined by land to ^Asia. [p:0.93][act:the detail, wonder]On ^Sulawesi, someone pressed a hand to a cave wall and sprayed paint around it at least sixty-seven thousand years ^ago.",
+      "[d:aside][act:a light aside, quicker]The writer Graham ^Hancock had already opened his Netflix series on this ^hill. [p:0.93][act:the stakes, wonder][tune:fall]If the team is right, Gunung Padang is the oldest great building on Earth, by ^far: [act:the comparison, slow][tune:fall]more than twice the age of the stone rings of Göbekli ^Tepe."
+     ],
+     "shots": [
+      {
+       "id": "s34",
+       "say": "And don't underestimate Ice Age Indonesia. In that era the sea stood up to about a hundred and twenty metres lower, and Java was joined by land to Asia.",
+       "draw": "Map of Southeast Asia: today's coasts first; then a pale shelf fills in as the sea drops (the Sunda Shelf, after Voris 2000), joining Sumatra, Java and Borneo to the mainland; label 'sea up to 120 m lower'; the Gunung Padang pin glows on the joined land.",
+       "reuse": "drowned-coasts (Java joined to Borneo at the Ice Age low)"
+      },
+      {
+       "id": "s35",
+       "say": "On Sulawesi, someone pressed a hand to a cave wall and sprayed paint around it at least sixty-seven thousand years ago.",
+       "draw": "A pin on Sulawesi (Muna island) on the same map, then a cave wall: a hand outline, red ochre spray dots fill around it leaving the hand bare; label 'at least 67,800 years' (Oktaviana et al. 2026)."
+      },
+      {
+       "id": "s36",
+       "say": "The writer Graham Hancock had already opened his Netflix series on this hill.",
+       "draw": "A TV screen pops; on it the green hill with a dotted pyramid inside; a play icon; small tag '2022'."
+      },
+      {
+       "id": "s37",
+       "say": "If the team is right, Gunung Padang is the oldest great building on Earth, by far: more than twice the age of the stone rings of Göbekli Tepe.",
+       "draw": "A bar chart of ages in years ago grows left to right: the Great Pyramid of Giza c. 4,500; Göbekli Tepe c. 11,500; then the claimed Gunung Padang bar to 27,000 in dotted lilac (claimed), much longer than the rest."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "A date for the soil",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:tension][act:the turn, even]The paper appeared in October {2023|twenty twenty-three}, and the headlines ^roared. [act:the doubts, plain][tune:fall]So did the ^doubts, many of them from Indonesian ^archaeologists. [act:the investigation, even][tune:fall]Within weeks, the journal opened an ^investigation."
+     ],
+     "shots": [
+      {
+       "id": "s38",
+       "say": "So did the doubts, many of them from Indonesian archaeologists. Within weeks, the journal opened an investigation.",
+       "draw": "Newspaper sheets fan out with the headline 'oldest pyramid?'; then a row of figures, and over them speech bubbles with question marks rise; a small outline of Java under the row; on 'investigation' a magnifying glass settles over the journal page."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][p:0.93][act:the key question, leaning in][tune:rise]What exactly was ^dated? [act:plain][tune:level]Not charcoal from a ^hearth. [act:same rhythm][tune:level]Not a ^bone. [act:same rhythm][tune:level]Not a ^tool. [act:the answer, clear][tune:fall]^Soil: the fine earth packed between the ^stones."
+     ],
+     "shots": [
+      {
+       "id": "s39",
+       "say": "What exactly was dated? Not charcoal from a hearth. Not a bone. Not a tool. Soil: the fine earth packed between the stones.",
+       "draw": "Three icons pop in a row, each struck through on its word: a hearth's charcoal (glow), a bone, a stone tool; then a section of stacked columns with fine brown soil between them, gold sample dots glowing in the soil.",
+       "reuse": "gunung-padang shot 3, line 2 (no tools, no hearths, no bones)"
+      }
+     ]
+    },
+    {
+     "role": "cost",
+     "lines": [
+      "[d:calm][p:0.93][act:explaining, the method]First, how radiocarbon ^works. [act:explaining, an everyday picture]Every living thing takes in carbon, with a faint radioactive kind that fades after death at a steady pace, like a candle burning ^down. [act:the catch, clear]And soil is full of carbon from plants that lived and rotted over long ^ages. [act:explaining, clear]A radiocarbon date tells you when that carbon stopped being ^alive. [act:the gap, firm][tune:fall]It can't tell you when a stone was set on top of ^it.",
+      "[d:aside][act:an everyday picture, a smile]The archaeologist Flint ^Dibble put it like this: drill seven metres under the Houses@noun of Parliament in ^London, and the soil might date to forty thousand years ^ago. [act:dry][tune:fall]That doesn't make Parliament forty thousand years ^old.",
+      "[d:build][act:the chamber, fair][tune:rise]And the vanished ^water? [act:explaining]The paper itself describes the deep lava as full of ^fractures. [act:the alternative, plain][tune:fall]Cracked rock can swallow water ^too."
+     ],
+     "shots": [
+      {
+       "id": "s40",
+       "say": "First, how radiocarbon works. Every living thing takes in carbon, with a faint radioactive kind that fades after death at a steady pace, like a candle burning down. And soil is full of carbon from plants that lived and rotted over long ages. A radiocarbon date tells you when that carbon stopped being alive. It can't tell you when a stone was set on top of it.",
+       "draw": "A candle burns down beside a leaf whose carbon dots fade at a steady pace (the radiocarbon clock); then a soil section: small plants grow and die above it in cycles (rise, fade), roots reach down, carbon dots of mixed ages gather in the soil; a magnifier picks out one dot and a tag 'died: ...' pops; then a stone column drops onto the soil (pop) with a question mark 'set: when?'."
+      },
+      {
+       "id": "s41",
+       "say": "The archaeologist Flint Dibble put it like this: drill seven metres under the Houses of Parliament in London, and the soil might date to forty thousand years ago. That doesn't make Parliament forty thousand years old.",
+       "draw": "The silhouette of the Palace of Westminster with its clock tower on a ground line; a drill goes down 7 m (dimension '7 m'); a soil tag '40,000 years' pops at the bottom; a dotted tag on the building 'built 40,000 years ago?' is struck through."
+      },
+      {
+       "id": "s42",
+       "say": "And the vanished water? The paper itself describes the deep lava as full of fractures. Cracked rock can swallow water too.",
+       "draw": "The borehole of s29 again; the rock around it now drawn as cracked columns; blue water spreads out along the fracture network (lines draw outward); the dotted chamber outline fades."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][sfx:hit][act:the event, measured]On the eighteenth of March {2024|twenty twenty-four}, the journal and its publisher retracted the ^paper. [p:0.93][act:reporting it, careful]The reason: the dated soil wasn't tied to any artefacts or features that could be reliably read@past as made by ^people. [act:the conclusion, plain][tune:fall]So reading the hill as a pyramid nine thousand years old or more, they wrote, was ^incorrect. [act:fair, even][tune:level]The notice also admits the error slipped through peer ^review, [act:their side][tune:fall]a review that lasted, the authors say, about nine ^months.",
+      "[d:build][act:fair to them, even]All the authors ^disagreed. [act:their case, generous]They say the soil came from layers they had shown to be ^built, and that the dates fit how deeply the stones have ^weathered. [act:their feeling, plain][tune:fall]They call the retraction ^unjust."
+     ],
+     "shots": [
+      {
+       "id": "s43",
+       "say": "On the eighteenth of March 2024, the journal and its publisher retracted the paper. The reason: the dated soil wasn't tied to any artefacts or features that could be reliably read as made by people. So reading the hill as a pyramid nine thousand years old or more, they wrote, was incorrect. The notice also admits the error slipped through peer review, a review that lasted, the authors say, about nine months.",
+       "draw": "A notice sheet: the date '18 March 2024' pops; three short highlights appear on it as said: 'soil samples', 'no artefacts or features', 'incorrect'; beside it a small dotted pyramid tagged '9,000+ years' is struck through (retraction notice, doi:10.1002/arp.1932); on 'peer review' a small reviewers' tick on the original page turns grey, and a calendar strip of nine months ('about 9 months, the authors say') draws beside it."
+      },
+      {
+       "id": "s44",
+       "say": "All the authors disagreed. They say the soil came from layers they had shown to be built, and that the dates fit how deeply the stones have weathered. They call the retraction unjust.",
+       "draw": "A row of twelve small figures (the paper's twelve authors) stands together; their two arguments pop beside them as icons: a dotted 'built layer' with a soil tag, and a stone with weathered rinds; then a speech bubble 'unjust' (their statement, 21 March 2024)."
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:tension][p:0.93][act:the rule, gentle][tune:level]But the rule is ^simple. [act:the landing, firm][tune:fall]A date counts only if it's tied to the thing you want to ^date. [act:same rhythm][tune:fall]A date for soil is not a date for a ^pyramid. [act:a familiar example, warm]At Göbekli Tepe, the excavators dated plaster smeared on the walls while they ^stood: [act:the point][tune:fall]a date tied to the building ^itself."
+     ],
+     "shots": [
+      {
+       "id": "s45",
+       "say": "But the rule is simple. A date counts only if it's tied to the thing you want to date. A date for soil is not a date for a pyramid. At Göbekli Tepe, the excavators dated plaster smeared on the walls while they stood: a date tied to the building itself.",
+       "draw": "A gold date tag tied by a solid string to a hearth's charcoal ('tied'); then the same tag on a lump of soil, its dashed string reaching for a dotted pyramid outline, which is struck through; on 'Göbekli Tepe' a T-pillar wall with a plaster smear, a third tag tied to it by a solid string ('plaster, Göbekli Tepe').",
+       "reuse": "gunung-padang shot 5 (the date tag tied to soil, not to a pyramid)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The weighing",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:build][act:fresh news, intrigued]And the story isn't ^over. [act:reporting, even]In {2025|twenty twenty-five}, a dig backed by Indonesia's Ministry of Culture opened the top terraces, led by the archaeologist Ali ^Akbar, one of the paper's own ^authors.",
+      "[act:the report, careful]His team announced a carbon date of about six thousand ^BCE, from four metres ^down, [act:continuing][tune:fall]and rounded stone structures at that ^depth. [act:patient, a small smile][tune:fall]As far as we know, it isn't in a journal yet, so we can't yet weigh what was ^dated."
+     ],
+     "shots": [
+      {
+       "id": "s46",
+       "say": "In 2025, a dig backed by Indonesia's Ministry of Culture opened the top terraces, led by the archaeologist Ali Akbar, one of the paper's own authors.",
+       "draw": "The iso summit of s8 again: excavation squares open on the top terraces (dashed rectangles), small figures dig; tag '2025'.",
+       "reuse": "alias of s8 (the summit model)"
+      },
+      {
+       "id": "s47",
+       "say": "His team announced a carbon date of about six thousand BCE, from four metres down, and rounded stone structures at that depth. As far as we know, it isn't in a journal yet, so we can't yet weigh what was dated.",
+       "draw": "Section under the top terrace: a trench 4 m deep (dimension '4 m'); a sample dot at its foot with the tag 'c. 6000 BCE, announced'; rounded stones outlined at the trench foot; beside it a journal outline with a dashed border, 'not yet published'.",
+       "reuse": "gunung-padang shot 5, line 2 (the 2025 dig, not yet published)"
+      }
+     ]
+    },
+    {
+     "role": "weigh",
+     "lines": [
+      "[d:verdict][p:0.95][act:taking stock, calm authority]So let's ^weigh it. [act:firm, plain][tune:level]Established: people built these terraces, about two thousand years ago by the charcoal, from columns a volcano ^made. [act:honest, open][tune:level]Open: what lies deeper, and whether people shaped any of it long ^before. [act:fair, careful][tune:level]And the retraction didn't dig the ^hill. [act:plain][tune:fall]It judged the paper's evidence, and found it couldn't carry the ^claim. [act:honest][tune:rise]Ruled ^out? [act:plain][tune:fall]Not yet: as far as we know, no trench has cut deep into the heart of the ^hill.",
+      "[d:verdict][p:0.95][act:the bold claim, weighing it][tune:rise]A pyramid built in the Ice ^Age? [act:the verdict, level-headed][tune:fall]*Awaiting ^evidence*. [act:fair, plain][tune:fall]Not ruled ^out. [act:same rhythm][tune:fall]Just not ^shown."
+     ],
+     "shots": [
+      {
+       "id": "s48",
+       "say": "So let's weigh it. Established: people built these terraces, about two thousand years ago by the charcoal, from columns a volcano made. Open: what lies deeper, and whether people shaped any of it long before.",
+       "draw": "A ledger board on the dark wall, rows light as named, each with a small picture at the left: terraces with a charcoal dot ('terraces built by people') and a chip 'Established'; a column prism ('columns made by a volcano') and a chip 'Established'; the hill's deep layers with a question mark ('what lies deeper') and a chip 'Open question'."
+      },
+      {
+       "id": "s49",
+       "say": "And the retraction didn't dig the hill. It judged the paper's evidence, and found it couldn't carry the claim. Ruled out? Not yet: as far as we know, no trench has cut deep into the heart of the hill.",
+       "draw": "Beside the ledger: the retracted paper on a small balance whose pan cannot lift a dotted pyramid ('couldn't carry the claim'); the hill beside it untouched, an unused spade lying on top; ledger row 'ruled out' gets a grey chip 'not yet'."
+      },
+      {
+       "id": "s50",
+       "say": "A pyramid built in the Ice Age? Awaiting evidence. Not ruled out. Just not shown.",
+       "draw": "The last row of the ledger: a dotted lilac pyramid inside the hill ('a pyramid in the Ice Age'); the chip 'Awaiting evidence' pops as it is said."
+      }
+     ]
+    },
+    {
+     "role": "test",
+     "lines": [
+      "[d:build][p:0.93][act:practical, clear][tune:rise]What would change our ^minds? [act:the test, precise]A trench, not just a drill hole, cut down into the deep ^layer. [act:the find][tune:level]A wall or a floor that people clearly ^laid, [act:the clincher][tune:level]with a stone tool, or the charcoal of a hearth, sealed ^inside it. [act:the payoff][tune:fall]Dated by more than one lab, and published for anyone to ^check. [act:warm, hopeful][tune:fall]Best of all, dug by people who disagree, side by ^side. [p:0.93][act:a second clock, intrigued]There's even a clock for the soil ^itself: [act:an everyday picture]buried grains of sand store a tiny charge, like a camera film that light ^wipes clean. [act:the payoff, clear][tune:fall]Measure it, and you learn when that soil last saw the ^sun: when it was ^buried."
+     ],
+     "shots": [
+      {
+       "id": "s51",
+       "say": "What would change our minds? A trench, not just a drill hole, cut down into the deep layer.",
+       "draw": "The hill cutaway: a stepped trench (blue, style inferred) cuts down from the terraces into the deep layer, wide enough for two figures standing on its steps; a thin drill line beside it for comparison."
+      },
+      {
+       "id": "s52",
+       "say": "A wall or a floor that people clearly laid, with a stone tool, or the charcoal of a hearth, sealed inside it. Dated by more than one lab, and published for anyone to check. Best of all, dug by people who disagree, side by side.",
+       "draw": "Close on the trench wall: a laid stone floor and the foot of a wall (solid) with a stone tool and a hearth's charcoal glowing sealed beneath the floor; three lab flasks pop, each with a matching date tag; a paper icon with a green tick; two small figures (one in gold, one in blue) kneel side by side in the trench."
+      },
+      {
+       "id": "s53",
+       "say": "There's even a clock for the soil itself: buried grains of sand store a tiny charge, like a camera film that light wipes clean. Measure it, and you learn when that soil last saw the sun: when it was buried.",
+       "draw": "Three sand grains drawn large: in sunlight their charge dots empty (the sun wipes them clean); they sink under layers of soil and charge dots fill them one by one in the dark; a lab light flashes one grain and it glows as the charge is released; tag 'last saw the sun: when it was buried' (optically stimulated luminescence, Rhodes 2011)."
+      }
+     ]
+    },
+    {
+     "role": "close",
+     "lines": [
+      "[d:tension][p:0.93][act:quiet, full of promise][tune:level]The hill has waited a long ^time. [act:hushed][tune:fall]One honest trench could let it ^speak. [act:hushed, the last words][tune:fall]Weigh it ^yourself."
+     ],
+     "shots": [
+      {
+       "id": "s54",
+       "say": "The hill has waited a long time. One honest trench could let it speak. Weigh it yourself.",
+       "draw": "The hill at night: stars, the terraces as dark silhouettes, a single lamp glowing in a small trench on the top terrace; the camera holds as the end card arrives.",
+       "reuse": "gunung-padang shot 6 (the hill, the trench that would decide)"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "description": "In 2023, a science journal published an astonishing claim: inside a terraced hill in West Java, Indonesia, lies a buried pyramid begun some 27,000 years ago, deep in the Ice Age. Five months later, the journal and its publisher retracted it. What happened, and what is really inside Gunung Padang?\n\nWe look at the terraces people built about two thousand years ago, at the volcanic columns that split themselves, at the Indonesian team's scans, drill cores and soil dates at their strongest, at the retraction and the team's reply, and at the one test that would settle it. Verdict on a pyramid built in the Ice Age: Awaiting evidence.\n\nChapters\n0:00 Introduction\nmm:ss Five terraces on a hill\nmm:ss Stones that cut themselves\nmm:ss A pyramid in the scans\nmm:ss A date for the soil\nmm:ss The weighing\n\nSources\nNatawidjaja, Bachtiar, Nurhandoko, Akbar et al. 2023, Archaeological Prospection 31(2) (retracted), doi:10.1002/arp.1912\nRetraction notice, Archaeological Prospection 31(2): 199, published online 18 March 2024, doi:10.1002/arp.1932\nNatawidjaja et al. 2024, statement on the retraction (21 March 2024)\nLewis 2023, Nature news (28 November 2023), on the journal's investigation and the critics\nRetraction Watch, 20 March 2024 (the retraction and the authors' response)\nMcKie 2023, The Observer (December 2023), quoting Flint Dibble; Bassi 2023, Smithsonian Magazine (21 December 2023)\nArchaeology (Archaeological Institute of America) 2024, Java's Megalithic Mountain, July/August 2024 (Lutfi Yondri's excavations)\nYondri 2014, Jurnal Sosioteknologi 13(1): 1-14, doi:10.5614/sostek.itbj.2014.13.1.1\nBronto & Langi 2016, Jurnal Geologi dan Sumberdaya Mineral 17(1): 37-49, doi:10.33332/jgsm.geologi.v17i1.28\nUSGS Hawaiian Volcano Observatory 2011, Volcano Watch: columnar jointing and the cooling history of lava flows\nEge 2001, Utah Geological Survey, Survey Notes 33(3) (GeoSights: Paul Bunyan's Woodpile)\nMüller 1998, Journal of Geophysical Research 103(B7): 15239-15253, doi:10.1029/98JB00389\nGoehring, Lin & Morris 2006, Physical Review E 74: 036115, doi:10.1103/PhysRevE.74.036115\nVoris 2000, Journal of Biogeography 27: 1153-1167, doi:10.1046/j.1365-2699.2000.00489.x\nOktaviana et al. 2026, Nature, doi:10.1038/s41586-025-09968-y\nHancock 2022, Ancient Apocalypse (Netflix), episode 1\nDietrich & Schmidt 2010, Neo-Lithics 2/10: 82-83\nRhodes 2011, Annual Review of Earth and Planetary Sciences 39: 461-488, doi:10.1146/annurev-earth-040610-133425\nIndonesia Sentinel (31 July and 23 October 2025), CNN Indonesia (30 November 2025), detikJabar (4 December 2025): the 2025 dig and its announced date",
+ "sources": [
+  "Natawidjaja, Bachtiar, Nurhandoko, Akbar et al. 2023, Archaeological Prospection 31(2) (retracted), doi:10.1002/arp.1912",
+  "Retraction notice 2024, Archaeological Prospection 31(2): 199 (online 18 March 2024), doi:10.1002/arp.1932",
+  "Natawidjaja et al. 2024, statement on the retraction ('The Unjust Retraction of Groundbreaking Research', 21 March 2024)",
+  "Lewis 2023, Nature news, 28 November 2023 (reproduced in Scientific American): the journal's investigation, Farley, Dibble, Yondri",
+  "Retraction Watch, 20 March 2024: the retraction notice and the authors' disagreement",
+  "McKie 2023, The Observer (December 2023), quoting Flint Dibble (the Palace of Westminster comparison); Bassi 2023, Smithsonian Magazine, 21 December 2023",
+  "Archaeology (Archaeological Institute of America) 2024, 'Java's Megalithic Mountain', July/August 2024: Yondri's excavations, charcoal dates, the ringing stone, 1979",
+  "Yondri 2014, Jurnal Sosioteknologi 13(1): 1-14, doi:10.5614/sostek.itbj.2014.13.1.1",
+  "Bronto & Langi 2016, Jurnal Geologi dan Sumberdaya Mineral 17(1): 37-49, doi:10.33332/jgsm.geologi.v17i1.28",
+  "USGS Hawaiian Volcano Observatory 2011, Volcano Watch (20 October 2011): columnar jointing",
+  "Ege 2001, Utah Geological Survey, Survey Notes 33(3): GeoSights, Paul Bunyan's Woodpile",
+  "Müller 1998, Journal of Geophysical Research 103(B7): 15239-15253, doi:10.1029/98JB00389",
+  "Goehring, Lin & Morris 2006, Physical Review E 74: 036115, doi:10.1103/PhysRevE.74.036115",
+  "Voris 2000, Journal of Biogeography 27: 1153-1167, doi:10.1046/j.1365-2699.2000.00489.x",
+  "Oktaviana et al. 2026, Nature, doi:10.1038/s41586-025-09968-y",
+  "Hancock 2022, Ancient Apocalypse (Netflix), episode 1",
+  "Indonesia Sentinel, 31 July and 23 October 2025; CNN Indonesia, 30 November 2025; detikJabar, 4 December 2025: the 2025 dig and its announced date",
+  "Dietrich & Schmidt 2010, Neo-Lithics 2/10: 82-83 (the dated plaster of Enclosure D at Göbekli Tepe, as in LF.03)",
+  "Rhodes 2011, Annual Review of Earth and Planetary Sciences 39: 461-488, doi:10.1146/annurev-earth-040610-133425 (luminescence dating of sediments)",
+  "Residual Continuum facts base: the Short 'gunung-padang' (f06.py, rewrite/gunung-padang.json); 'lost-civilization' and 'drowned-coasts' (f04.py)"
+ ],
+ "facts_added": [
+  {
+   "fact": "The paper (Natawidjaja et al., Archaeological Prospection) was published online on 20 October 2023; its retraction notice was published online on 18 March 2024 (about five months later), by agreement of the journal's co-editors-in-chief and the publisher, Wiley.",
+   "source": "Crossref records for doi:10.1002/arp.1912 and doi:10.1002/arp.1932; Retraction Watch, 20 March 2024"
+  },
+  {
+   "fact": "Stated reason (verbatim): 'the radiocarbon dating was applied to soil samples that were not associated with any artifacts or features that could be reliably interpreted as anthropogenic or \"man-made.\" Therefore, the interpretation that the site is an ancient pyramid built 9000 or more years ago is incorrect, and the article must be retracted.' The error 'was not identified during peer review'. All authors disagreed.",
+   "source": "Retraction notice, Archaeological Prospection 31(2): 199, doi:10.1002/arp.1932, as quoted in full by Retraction Watch, 20 March 2024"
+  },
+  {
+   "fact": "The team surveyed with ground-penetrating radar, electrical resistivity tomography and seismic tomography, cut trenches and drilled seven boreholes (GP1 to GP7), the deepest 36 m (GP5, on Terrace 5).",
+   "source": "Natawidjaja et al. 2023, doi:10.1002/arp.1912"
+  },
+  {
+   "fact": "The paper describes four units: Unit 1 the surface terraces and topsoil; Unit 2 horizontal columnar rocks with fine-grained 'mortar' (2.5 to 4 m thick); Unit 3 weathered columnar and rounded rock fragments with soil (8 to 22 m thick); Unit 4 massive basaltic-andesite rock 'with many fractures', which a figure caption calls 'the sculpted massive basaltic-andesite lava'.",
+   "source": "Natawidjaja et al. 2023, doi:10.1002/arp.1912 (unit descriptions and fig. 14 caption)"
+  },
+  {
+   "fact": "A high-resistivity anomaly in the electrical survey coincides with a low-velocity anomaly in the seismic survey; in borehole GP4 about 32,000 litres (32 cubic metres) of drilling water were lost between 8 and 14 m depth; the authors read both as evidence of cavities or chambers.",
+   "source": "Natawidjaja et al. 2023, doi:10.1002/arp.1912"
+  },
+  {
+   "fact": "Twelve organic soil samples were radiocarbon dated (eight by AMS at Beta Analytic, four conventionally at BATAN). The oldest, GP2-750 at 7.5 m depth in Unit 3, gave 22,750 ± 120 radiocarbon years BP, 25,337 to 24,525 cal BCE.",
+   "source": "Natawidjaja et al. 2023, Table 2, doi:10.1002/arp.1912"
+  },
+  {
+   "fact": "The authors' reading: Unit 3 constructed about 25,000 to 14,000 BCE, a hiatus, Unit 3 buried between 7900 and 6100 BCE, Unit 2 built 6000 to 5500 BCE, and Unit 1 (the terraces) 2000 to 1100 BCE.",
+   "source": "Natawidjaja et al. 2023, discussion, doi:10.1002/arp.1912"
+  },
+  {
+   "fact": "Natawidjaja: 'The neatly arranged, shaped and massive nature of these rocks, some weighing up to 300 kilograms, dismisses the likelihood of transportation over significant distances.' Critics (Bill Farley, Flint Dibble, Lutfi Yondri of Indonesia's BRIN) said the soil samples lack charcoal or bone and that nothing shows the deep layers were shaped by people.",
+   "source": "Lewis 2023, Nature news, 28 November 2023 (reproduced in Scientific American)"
+  },
+  {
+   "fact": "Flint Dibble's comparison: a soil sample from a core seven metres under the Palace of Westminster might date to 40,000 years ago, which would not mean the building is 40,000 years old.",
+   "source": "McKie 2023, The Observer (December 2023), via Bassi 2023, Smithsonian Magazine, 21 December 2023"
+  },
+  {
+   "fact": "The authors' reply (21 March 2024): the dated soils came from layers they identify as man-made constructions (Units 1 to 3) or from soil fills that buried them, giving minimum ages; the dates align with observed weathering; peer review had lasted about nine months; they called the retraction unjust.",
+   "source": "Natawidjaja et al. 2024, 'The Unjust Retraction of Groundbreaking Research: A Call for Academic Integrity' (statement, 21 March 2024)"
+  },
+  {
+   "fact": "The site was mentioned by Verbeek in 1891 (after a visit by De Corte in 1890) and recorded by N. J. Krom in 1914, then largely forgotten until local farmers rediscovered it in 1979; it has five terraces reached by about 370 steps.",
+   "source": "Archaeology (AIA) 2024, 'Java's Megalithic Mountain'; Wikipedia, Gunung Padang (history section, citing Verbeek 1891 and Krom 1914)"
+  },
+  {
+   "fact": "Terrace 1, the lowest and largest, holds an andesite block about five feet long, the batu kecapi ('stone lute'), that gives a loud, deep sound when struck.",
+   "source": "Archaeology (AIA) 2024, 'Java's Megalithic Mountain'"
+  },
+  {
+   "fact": "Lutfi Yondri's excavations found charcoal under the retaining wall of Terrace 1 dated to around 117 BCE and charcoal under Terraces 2 and 4 dated to around 50 BCE, plus pottery, a grinding stone and a stone well at the foot of Terrace 1; he concludes the terraces were built over several generations about 2,000 years ago, as a punden berundak (stepped sanctuary) where ancestors were honoured.",
+   "source": "Archaeology (AIA) 2024, 'Java's Megalithic Mountain' (Yondri; Simanjuntak)"
+  },
+  {
+   "fact": "The terraces are built of thousands of columnar andesite blocks sourced from beneath the site itself.",
+   "source": "Yondri 2014, Jurnal Sosioteknologi 13(1), doi:10.5614/sostek.itbj.2014.13.1.1"
+  },
+  {
+   "fact": "Columnar joints form because rock contracts as it cools; the cracks grow perpendicular to the cooling surfaces, so in a dike cooling from its sides the columns lie horizontal (Paul Bunyan's Woodpile, Utah).",
+   "source": "USGS Volcano Watch, 20 October 2011; Ege 2001, Utah Geological Survey Survey Notes 33(3)"
+  },
+  {
+   "fact": "A corn-starch and water slurry dried under a lamp cracks into polygonal columns very like basalt columns, a few millimetres (1 to 10 mm) wide.",
+   "source": "Müller 1998, JGR 103(B7), doi:10.1029/98JB00389; Goehring, Lin & Morris 2006, Phys. Rev. E 74: 036115"
+  },
+  {
+   "fact": "Volcanologists Sutikno Bronto and Billy Langi (Indonesia's Geological Agency) read Gunung Padang as the remains (neck) of an ancient volcano, with its columnar joints formed in place.",
+   "source": "Bronto & Langi 2016, Jurnal Geologi dan Sumberdaya Mineral 17(1), doi:10.33332/jgsm.geologi.v17i1.28; CNN Indonesia, 4 October 2023"
+  },
+  {
+   "fact": "Danny Hilman Natawidjaja is an earthquake geologist (Caltech PhD; LIPI, now BRIN) who led the geology of the Gunung Padang research team from 2011.",
+   "source": "Lewis 2023, Nature news; Wikipedia, Danny Hilman Natawidjaja"
+  },
+  {
+   "fact": "At the Ice Age lows the sea stood up to about 120 m lower and the Sunda Shelf was dry land joining Java, Sumatra and Borneo to mainland Asia.",
+   "source": "Voris 2000, Journal of Biogeography 27, doi:10.1046/j.1365-2699.2000.00489.x; facts base (drowned-coasts Short)"
+  },
+  {
+   "fact": "A hand stencil in Liang Metanduno, Muna island (Sulawesi), has a minimum age of 67,800 ± 3,800 years (laser-ablation U-series dating of the calcite over it).",
+   "source": "Oktaviana et al. 2026, Nature, doi:10.1038/s41586-025-09968-y"
+  },
+  {
+   "fact": "In August to October 2025 a research and restoration dig backed by Indonesia's Ministry of Culture worked on the top terraces (4 and 5), led by Ali Akbar, a co-author of the 2023 paper; in late November 2025 the team announced a carbon date of about 6000 BCE from 4 m below the fifth terrace and rounded stone structures at that depth. No peer-reviewed publication of these results was found.",
+   "source": "Indonesia Sentinel, 31 July and 23 October 2025; CNN Indonesia, 30 November 2025; detikJabar, 4 December 2025; Crossref author list of doi:10.1002/arp.1912"
+  },
+  {
+   "fact": "Optically stimulated luminescence dates when buried mineral grains (quartz, feldspar) were last exposed to daylight: sunlight empties their stored charge, which then builds up again from natural radiation once they are buried.",
+   "source": "Rhodes 2011, Annual Review of Earth and Planetary Sciences 39, doi:10.1146/annurev-earth-040610-133425"
+  },
+  {
+   "fact": "At Göbekli Tepe, plaster from the walls of Enclosure D gave a date of about 9745 to 9314 BCE: a date tied to the building itself.",
+   "source": "Dietrich & Schmidt 2010, Neo-Lithics 2/10 (as used in LF.03)"
+  },
+  {
+   "fact": "The 2023 paper lists twelve authors, among them the archaeologist Ali Akbar.",
+   "source": "Crossref record of doi:10.1002/arp.1912"
+  }
+ ],
+ "names": [
+  {
+   "name": "Gunung Padang",
+   "say": "GOO-noong PAH-dahng (LEX has gunung and padang)"
+  },
+  {
+   "name": "Danny Hilman Natawidjaja",
+   "say": "DAN-ee HIL-mahn nah-tah-wee-JAH-yah (LEX has natawidjaja)"
+  },
+  {
+   "name": "Lutfi Yondri",
+   "say": "LOOT-fee YON-dree"
+  },
+  {
+   "name": "Ali Akbar",
+   "say": "AH-lee AHK-bar"
+  },
+  {
+   "name": "Flint Dibble",
+   "say": "FLINT DIB-ul"
+  },
+  {
+   "name": "Graham Hancock",
+   "say": "GRAY-um HAN-kock (LEX has hancock)"
+  },
+  {
+   "name": "Sulawesi",
+   "say": "soo-lah-WAY-see (LEX has sulawesi)"
+  },
+  {
+   "name": "Jakarta",
+   "say": "juh-KAR-tuh"
+  },
+  {
+   "name": "Java",
+   "say": "JAH-vuh"
+  },
+  {
+   "name": "andesite",
+   "say": "AN-deh-zite (LEX has andesite)"
+  },
+  {
+   "name": "Paul Bunyan",
+   "say": "PAWL BUN-yun"
+  },
+  {
+   "name": "BCE",
+   "say": "bee see ee (as in the Shorts)"
+  }
+ ],
+ "words": 1491
+}
