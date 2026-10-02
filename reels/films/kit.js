@@ -423,6 +423,11 @@ function play(a,t){ var u=clamp((t-a.at)/a.dur,0,1); if(a.done&&u>=1) return; a.
 
 function KIT(C){
   var svg=C.svg, D=C.data||{}, SH=D.shots||[], W=0, H=0, root, shots=[], dust, fx, last=-1, LENS=null;
+//<16:9
+  var OY=D.vw?landscape(D):0;   /* landscape: the stage is lifted by OY so the camera pivot (VW/2, 860) is the centre of the picture */
+  if(D.vw&&D.wall) return WALL(C,D);   /* a long film as one wall: every panel built once, only the panels near the camera drawn */
+  if(D.vw) camOf=function(i){ var c=(SH[i]&&SH[i].cam)||[1,VW/2,860-OY]; return {z:c[0],x:c[1],y:c[2]}; };
+//16:9>
   function camOf(i){ var c=(SH[i]&&SH[i].cam)||[1,500,860]; return {z:c[0],x:c[1],y:c[2]}; }
   function setup(){
     while(svg.firstChild) svg.removeChild(svg.firstChild);
@@ -456,6 +461,9 @@ function KIT(C){
     var fm=mk('feMerge',{},flt); mk('feMergeNode',{'in':'SourceGraphic'},fm); mk('feMergeNode',{'in':'bm'},fm);
     LENS={g:stage,blur:fb,o:-1};
     dust=mk('g',{},fx); for(var i=0;i<34;i++) mk('circle',{r:F(1+rnd(i+11)*2.2),fill:'#ffe9c8',opacity:F(.08+rnd(i+22)*.22)},dust);
+//<16:9
+    if(OY){ fx.setAttribute('transform','translate(0 '+F(OY)+')'); flt.setAttribute('y',F(OY-60)); fi.setAttribute('y',F(OY-60)); }   /* the frame overlays follow the lifted frame */
+//16:9>
   }
   function layout(w,h){ W=w; H=h; setup(); }
   function applyCam(sh,c,r){ /* parallax: far layer moves less; a dolly zoom (vertigo) scales the far layers against the world */
@@ -483,6 +491,9 @@ function KIT(C){
     if(!root) return;
     var t=(ts||0)/1000, n=SH.length; if(!n) return;
     var sc=Math.max(W/VW,H/VH); root.setAttribute('transform','translate('+F((W-VW*sc)/2)+' '+F((H-VH*sc)/2)+') scale('+sc.toFixed(5)+')');
+//<16:9
+    if(OY) root.setAttribute('transform','translate('+F((W-VW*sc)/2)+' '+F((H-VH*sc)/2-OY*sc)+') scale('+sc.toFixed(5)+')');
+//16:9>
     var i=clamp(Math.floor(p),0,n-1), f=clamp(p-i,0,1); if(i>=n-1){ i=n-1; f=0; }
     /* filming pre-roll of a continuous film (state only, nothing drawn): the only state a later frame needs is when each shot first showed */
     if(window.__pre&&n>1&&SH.slice(1).every(function(s){return s.cont;})){ var cf=f>0.001&&SH[i+1]&&SH[i+1].cont;
@@ -521,5 +532,143 @@ function KIT(C){
   }
   return {layout:layout,draw:draw,ambient:true,chapter:function(){}};
 }
+//<16:9
+/* ---------- landscape films (16:9 long form, see films/long/LONG_ENGINE.md) ----------
+   films.py writes {aspect:'16:9', vw:1778, vh:1000} into the data of a landscape film and KIT() calls landscape(D): the frame
+   becomes VW x VH = 1778 x 1000. The camera keeps its pivot at (VW/2, 860) in stage units and the stage is lifted by
+   OY = 860 - cy (cy = D.cy, default VH/2), so a shot's "cam": [z, x, y] puts the world point (x, y) at the centre of the picture.
+   Bases and a few element defaults follow the size of the panel being drawn (PNW x PNH): a landscape panel gets landscape
+   defaults (ground lines, sun, stars, water and ridges across the whole width), a portrait panel (a 1000 x 1778 scene reused
+   inside a landscape panel) draws exactly as in its Short. A panel may carry s (scale) and crop [x, y, w, h] (in its own
+   units): it is then shown scaled by s, cropped to that window, its drawings still building in on the clock.
+   The lines between the //<16:9 and //16:9> markers exist only in landscape pages: films.py strips them from 9:16 pages,
+   so every Short's page stays byte for byte what it was. */
+var PNW=VW, PNH=VH;   /* the size of the panel (or frame) being drawn */
+function landscape(D){
+  VW=D.vw; VH=D.vh; PNW=VW; PNH=VH;
+  function wide(){ return PNW>PNH; }
+  function cp(o){ var r={}; for(var k in o) r[k]=o[k]; return r; }
+  var bp0=buildPanel;
+  buildPanel=function(par,e,anims){ var w0=PNW, h0=PNH; PNW=e.w||VW; PNH=e.h||VH;
+    try{
+      if(!e.s&&!e.crop) return bp0(par,e,anims);
+      var s=e.s||1, c=e.crop||[0,0,PNW,PNH], r=(e.r==null?22:e.r)/s, id='k-pc'+(++PANELN);
+      var hold=mk('g',{transform:'translate('+F((e.ox||0)-c[0]*s)+' '+F((e.oy||0)-c[1]*s)+') scale('+s.toFixed(5)+')'},par);
+      var cpth=mk('clipPath',{id:id},svgDefs(par)); mk('rect',{x:c[0],y:c[1],width:c[2],height:c[3],rx:F(r)},cpth);
+      var inner=mk('g',{'clip-path':'url(#'+id+')'},hold), e2=cp(e); e2.ox=0; e2.oy=0; e2.s=null; e2.crop=null; e2.edge=null; e2.r=0; e2['in']=null;
+      bp0(inner,e2,anims);
+      if(e.edge) mk('rect',{x:c[0],y:c[1],width:c[2],height:c[3],rx:F(r),fill:'none',stroke:e.edge,'stroke-width':F((e.ew||3)/s)},hold);
+      if(anims&&e['in']!=null&&e['in']>=0){ hold.style.opacity=0; anims.push({el:hold,at:e['in'],dur:e.dur||.8,fx:'fade',done:false,op0:1}); }
+      return hold;
+    } finally { PNW=w0; PNH=h0; } };
+  var R0=ridge; ridge=function(y,amp,seed,n){ var a=R0(y,amp,seed,n), k=(PNW+1200)/2200; return wide()?a.map(function(p){ return [-600+(p[0]+600)*k,p[1]]; }):a; };
+  var B0=cp(BASE);
+  BASE.dark=function(L,s){ if(!wide()) return B0.dark(L,s); var cx=PNW/2;
+    mk('rect',{x:F(cx-1300),y:-900,width:2600,height:3600,fill:'url(#k-bgdark)'},L.far);
+    if(s.stars) EL.stars(L.far,{n:s.stars,x0:-100,x1:PNW+100,y0:-200,y1:PNH+200});
+    if(s.floor!=null){ mk('rect',{x:-800,y:s.floor,width:PNW+1600,height:1600,fill:'url(#k-fadeup)',opacity:.7},L.world); mk('ellipse',{cx:F(cx),cy:s.floor+4,rx:360,ry:30,fill:'#000',opacity:.35,filter:'url(#k-soft)'},L.world); } };
+  BASE.sky=function(L,s){ if(!wide()) return B0.sky(L,s); s=cp(s); if(s.ground==null) s.ground=760;
+    if(s.sun==null) s.sun=[Math.round(PNW*.7),s.ground-230,(s.tod||'dusk')==='night'?0:34]; return B0.sky(L,s); };
+  BASE.section=function(L,s){ if(!wide()) return B0.section(L,s); s=cp(s); if(s.ground==null) s.ground=300; return B0.section(L,s); };
+  BASE.plan=function(L,s){ if(!wide()) return B0.plan(L,s); s=cp(s); if(s.north==null) s.north=[PNW-110,170]; return B0.plan(L,s); };
+  BASE.paper=function(L,s){ if(!wide()) return B0.paper(L,s); s=cp(s); if(s.w==null) s.w=1000; if(s.x==null) s.x=(PNW-s.w)/2; if(s.y==null) s.y=110; if(s.h==null) s.h=700; return B0.paper(L,s); };
+  var E0=cp(EL);
+  EL.stars=function(g,e){ if(wide()&&e.x1==null){ e=cp(e); if(e.x0==null) e.x0=-100; e.x1=PNW+100; } return E0.stars(g,e); };
+  EL.water=function(g,e){ if(wide()&&e.x1==null){ e=cp(e); e.x1=PNW+600; if(e.tx==null) e.tx=PNW/2; } return E0.water(g,e); };
+  EL.title=function(g,e){ if(wide()&&e.x==null){ e=cp(e); e.x=PNW/2; } return E0.title(g,e); };
+  EL.iso=function(g,e){ if(wide()&&(e.x==null||e.y==null)){ e=cp(e); if(e.x==null) e.x=PNW/2; if(e.y==null) e.y=Math.round(PNH*.62); } return E0.iso(g,e); };
+  return 860-(D.cy==null?VH/2:D.cy);
+}
+
+/* ---------- the wall: a long landscape film as one continuous take (mural.py, aspect 16:9) ----------
+   D.wall = {panels: [the frame of every panel: {k:'panel', ox, oy, w, h, base, bs, edge}], bbox: [x0, y0, x1, y1]}
+   D.shots = the steps of the take: {cam: [z, x, y] (the wall point x, y at the centre of the picture), hop, els: [what this
+   step adds: panel contents and additions carrying pn (their panel), threads carrying box]}.
+   Unlike a Short's mural (every step repeats the whole wall), every element is built once, when the page loads; an element
+   shows from the moment its step starts (the start of the glide to it) and its build-ins run on the clock from there.
+   Each frame touches only the panels near the camera: the others are display:none (no style, layout, paint, animation),
+   so the cost of a frame does not grow with the length of the film. Text keeps its size against the authored zoom of the
+   camera (not against the hop between panels, so labels shrink with the wall when the camera lifts off). */
+function WALL(C,D){
+  var svg=C.svg, SH=D.shots||[], WD=D.wall||{}, W=0, H=0, camG, scr, farG, world, thG, fxG, dust, PN=[], IT=[], TH=[], T0=[], HC=[1,0,0,0];
+  /* the filming camera's float (reel.py OVERLAY16: push-in, handheld) is drawn inside the picture, not as a CSS transform of
+     the stage: a composited layer whose scale changes every frame keeps a raster scale that depends on its history, so a
+     chunk starting mid-film would not draw its first frame byte for byte as a single pass does */
+  function hand(){ if(camG) camG.setAttribute('transform','translate('+(W/2+HC[1]).toFixed(2)+' '+(H/2+HC[2]).toFixed(2)+') rotate('+HC[3].toFixed(3)+') scale('+HC[0].toFixed(4)+') translate('+F(-W/2)+' '+F(-H/2)+')'); }
+  window.__wallCam=function(s,x,y,r){ HC=[s,x,y,r]; hand(); };
+  function camAt(i){ return (SH[i]&&SH[i].cam)||[1,VW/2,VH/2]; }
+  function bbox(){ if(WD.bbox) return WD.bbox; var b=[1e9,1e9,-1e9,-1e9];
+    (WD.panels||[]).forEach(function(p){ b=[Math.min(b[0],p.ox||0),Math.min(b[1],p.oy||0),Math.max(b[2],(p.ox||0)+(p.w||VW)),Math.max(b[3],(p.oy||0)+(p.h||VH))]; }); return b; }
+  function boxOf(e){ var P=e.p||[]; if(!P.length) return [-1e9,-1e9,1e9,1e9]; var b=[1e9,1e9,-1e9,-1e9];
+    P.forEach(function(q){ b=[Math.min(b[0],q[0]),Math.min(b[1],q[1]),Math.max(b[2],q[0]),Math.max(b[3],q[1])]; }); return [b[0]-30,b[1]-30,b[2]+30,b[3]+30]; }
+  function setup(){
+    while(svg.firstChild) svg.removeChild(svg.firstChild);
+    var df=defs(svg), q;
+    var sp=mk('pattern',{id:'k-wallspk',patternUnits:'userSpaceOnUse',width:260,height:260},df);   /* faint motes on the far wall: depth while the camera glides */
+    for(q=0;q<7;q++) mk('circle',{cx:F(rnd(q+500)*260),cy:F(rnd(q+520)*260),r:F(.8+rnd(q+540)*1.8),fill:'#ffe9c8',opacity:F(.05+rnd(q+560)*.09)},sp);
+    camG=mk('g',{},svg); hand();
+    scr=mk('g',{},camG); mk('rect',{x:-100,y:-100,width:VW+200,height:VH+200,fill:'url(#k-bgdark)'},scr);
+    var b=bbox(), kf=.3; farG=mk('g',{},camG);
+    mk('rect',{x:F(b[0]*kf-3000),y:F(b[1]*kf-2400),width:F((b[2]-b[0])*kf+6000),height:F((b[3]-b[1])*kf+4800),fill:'url(#k-wallspk)'},farG);
+    world=mk('g',{},camG); var pg=mk('g',{},world); thG=mk('g',{},world);
+    PN=(WD.panels||[]).map(function(p){ var g=mk('g',{},pg), fx0=[], tk=[]; FIX=fx0; TICKS=tk; build(g,p,null); FIX=null; TICKS=null;
+      return {g:g,x0:p.ox||0,y0:p.oy||0,x1:(p.ox||0)+(p.w||VW),y1:(p.oy||0)+(p.h||VH),fix:fx0,ticks:tk,items:[],vis:true,kz:'',bp:null}; });
+    IT=[]; TH=[]; T0=SH.map(function(){ return null; });
+    SH.forEach(function(s,k){ (s.els||[]).forEach(function(e){
+      var P=e.pn!=null?PN[e.pn]:null, it={g:mk('g',{style:'display:none'},P?P.g:thG),k:k,anims:[],fix:[],ticks:[],on:false,kz:''};
+      FIX=it.fix; TICKS=it.ticks; build(it.g,e,it.anims); FIX=null; TICKS=null;
+      if(P) P.items.push(it); else { it.box=e.box||boxOf(e); TH.push(it); }
+      IT.push(it); }); });
+    window.__kitRewind=function(){ T0=SH.map(function(){ return null; }); IT.forEach(function(it){ it.anims.forEach(function(a){ a.done=false; play(a,-1e9); }); }); };
+    fxG=mk('g',{'pointer-events':'none'},camG);
+    mk('rect',{x:-50,y:-50,width:VW+100,height:VH+100,fill:'url(#k-vig)'},fxG);
+    try{ var cv=document.createElement('canvas'); cv.width=cv.height=256; var cx=cv.getContext('2d'), im=cx.createImageData(256,256);
+      for(q=0;q<im.data.length;q+=4){ var v=Math.floor(rnd(q*.25+.5)*255); im.data[q]=im.data[q+1]=im.data[q+2]=v; im.data[q+3]=255; }
+      cx.putImageData(im,0,0); var pat=mk('pattern',{id:'k-grain',patternUnits:'userSpaceOnUse',width:256,height:256},df);
+      var gi=mk('image',{width:256,height:256},pat); gi.setAttribute('href',cv.toDataURL('image/png'));
+      mk('rect',{x:-50,y:-50,width:VW+100,height:VH+100,fill:'url(#k-grain)',opacity:.07,style:'mix-blend-mode:overlay'},fxG); }catch(x){}
+    dust=mk('g',{},fxG); for(q=0;q<44;q++) mk('circle',{r:F(1+rnd(q+11)*2.2),fill:'#ffe9c8',opacity:F(.08+rnd(q+22)*.22)},dust);
+  }
+  function layout(w,h){ W=w; H=h; setup(); }
+  function fixAll(L,kz){ L.forEach(function(f){ f.el.setAttribute('transform','translate('+f.x+' '+f.y+') scale('+kz+') translate('+(-f.x)+' '+(-f.y)+')'); }); }
+  function draw(p,ts){
+    if(!world) return;
+    var t=(ts||0)/1000, n=SH.length; if(!n) return;
+    var i=clamp(Math.floor(p),0,n-1), f=clamp(p-i,0,1); if(i>=n-1){ i=n-1; f=0; }
+    var top=(f>0.001&&i+1<n)?i+1:i, k;   /* a step starts with the glide to it */
+    for(k=0;k<=top;k++) if(T0[k]==null) T0[k]=t;
+    if(window.__pre) return;     /* filming pre-roll (state only, nothing drawn): the only state a later frame needs is when each step started */
+    var sc=Math.max(W/VW,H/VH), fit='translate('+F((W-VW*sc)/2)+' '+F((H-VH*sc)/2)+') scale('+sc.toFixed(5)+')';
+    scr.setAttribute('transform',fit); fxG.setAttribute('transform',fit);
+    var ca=camAt(i), cb=camAt(Math.min(n-1,i+1)), u=sm(f), br=1+.018*(.5-.5*Math.cos(t*2*Math.PI/22)), zb=lerp(ca[0],cb[0],u);
+    var c={z:zb*br,x:lerp(ca[1],cb[1],u),y:lerp(ca[2],cb[2],u)};
+    if(f>0.001&&SH[i+1]&&SH[i+1].hop) c.z*=1-SH[i+1].hop*Math.sin(Math.PI*u);   /* a long glide lifts away and comes back in */
+    world.setAttribute('transform','translate('+F(W/2)+' '+F(H/2)+') scale('+(sc*c.z).toFixed(5)+') translate('+F(-c.x)+' '+F(-c.y)+')');
+    var kf=.3, zf=1+(c.z-1)*kf;
+    farG.setAttribute('transform','translate('+F(W/2)+' '+F(H/2)+') scale('+(sc*zf).toFixed(5)+') translate('+F(-c.x*kf)+' '+F(-c.y*kf)+')');
+    var hw=VW/2/c.z*1.1+60, hh=VH/2/c.z*1.1+60, kz=(1/zb).toFixed(4), BR=[], PU=[];
+    function near(x0,y0,x1,y1){ return !(x1<c.x-hw||x0>c.x+hw||y1<c.y-hh||y0>c.y+hh); }
+    function run(it,vis){ var on=vis&&it.k<=top&&T0[it.k]!=null;
+      if(on!==it.on){ it.on=on; it.g.style.display=on?'':'none'; }
+      if(!on) return;
+      if(it.kz!==kz){ it.kz=kz; fixAll(it.fix,kz); }
+      var tl=t-T0[it.k]; it.anims.forEach(function(a){ play(a,tl); }); it.ticks.forEach(function(fn){ fn(tl,c.z); }); }
+    PN.forEach(function(P){ var v=!!window.__wallAll||near(P.x0,P.y0,P.x1,P.y1);   /* __wallAll: QA only, draw every panel (to measure what culling saves) */
+      if(v!==P.vis){ P.vis=v; P.g.style.display=v?'':'none'; }
+      if(!v) return;
+      if(P.kz!==kz){ P.kz=kz; fixAll(P.fix,kz); }
+      P.ticks.forEach(function(fn){ fn(t,c.z); });
+      P.items.forEach(function(it){ run(it,true); });
+      if(!P.bp) P.bp=[[].slice.call(P.g.querySelectorAll('.k-breathe')),[].slice.call(P.g.querySelectorAll('.k-pulse'))];
+      BR=BR.concat(P.bp[0]); PU=PU.concat(P.bp[1]); });
+    TH.forEach(function(it){ var b=it.box; run(it,near(b[0],b[1],b[2],b[3])); });
+    [].forEach.call(dust.childNodes,function(d,j){ var x=(rnd(j)*VW+t*(6+rnd(j+3)*10))%VW, y=(rnd(j+7)*VH-t*(4+rnd(j+5)*6)+VH*4)%VH; d.setAttribute('cx',x.toFixed(1)); d.setAttribute('cy',y.toFixed(1)); });
+    BR.forEach(function(e2){ e2.setAttribute('opacity',(.45+.12*Math.sin(t*1.3)).toFixed(3)); });
+    PU.forEach(function(e2){ var q=(t*.7)%1; e2.setAttribute('opacity',(.5*(1-q)).toFixed(3)); e2.setAttribute('transform','translate('+e2.getAttribute('cx')+' '+e2.getAttribute('cy')+') scale('+(.6+q*.8).toFixed(3)+') translate('+(-e2.getAttribute('cx'))+' '+(-e2.getAttribute('cy'))+')'); });
+    window.__wallDrawn=PN.filter(function(P){ return P.vis; }).length;   /* QA: how many panels this frame drew */
+  }
+  return {layout:layout,draw:draw,ambient:true,chapter:function(){}};
+}
+//16:9>
 window.RCKIT=KIT;
 })();

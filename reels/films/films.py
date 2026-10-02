@@ -120,11 +120,28 @@ def like(prev, add=None, cam=None, drop=None, **kw):
     return s
 
 
+ASPECTS = {"16:9": (1778, 1000)}           # landscape frame (long form); no aspect = the 9:16 frame of the Shorts, 1000 x 1778
+L16 = re.compile(r"^//<16:9\n.*?^//16:9>\n", re.S | re.M)
+
+
+def kit_source(aspect=None):
+    """kit.js as a page embeds it: a landscape page gets it whole, a 9:16 page without its //<16:9 ... //16:9> blocks,
+    which leaves exactly the 9:16 kit (every Short's page stays byte for byte what it was)."""
+    src = open(os.path.join(HERE, "kit.js"), encoding="utf-8").read()
+    return src if aspect in ASPECTS else L16.sub("", src)
+
+
 def page(ep):
     sid = ep["id"]
     shots = ep["shots"]
     states = [{"sc": i} for i in range(len(shots))]
-    data = json.dumps({"shots": shots}, separators=(",", ":"), ensure_ascii=False).replace("</", "<\\/")
+    payload = {"shots": shots}
+    if ep.get("aspect") in ASPECTS:                     # kit.js reads the frame size from the data (aspect first: preview.py looks for it)
+        vw, vh = ASPECTS[ep["aspect"]]
+        payload = {"aspect": ep["aspect"], "vw": vw, "vh": vh, "shots": shots}
+        if ep.get("wall"):                              # a long film as one wall (mural.py): every panel's frame, built once
+            payload = {"aspect": ep["aspect"], "vw": vw, "vh": vh, "wall": ep["wall"], "shots": shots}
+    data = json.dumps(payload, separators=(",", ":"), ensure_ascii=False).replace("</", "<\\/")
     js = lambda f: open(f, encoding="utf-8").read()
     steps = "".join(f'<div class="sy-st" data-i="{i}"></div>' for i in range(len(shots)))
     return f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
@@ -138,21 +155,43 @@ def page(ep):
 <script>window.RC={{view:function(){{return 'films';}}}};</script>
 <script>{js(os.path.join(BUILD, 'mo.js'))}</script>
 <script>{js(os.path.join(BUILD, 'scrolly.js'))}</script>
-<script>{js(os.path.join(HERE, 'kit.js'))}</script>
+<script>{kit_source(ep.get('aspect'))}</script>
 <script>SY.add({json.dumps(sid)},RCKIT);</script>
 </body></html>"""
 
 
 KEEP = ("id", "series", "code", "title", "case", "verdict", "claim", "mood", "hook_text", "beats", "post", "hashtags", "sources", "voice", "loop", "cap_bottom")
+LONG_KEEP = ("aspect", "yt_title", "description", "intro_title", "end_line")    # kept for landscape (long-form) films only
 
 
 # films voiced by the directed IPA narrator (voices.CAST['narrator']); the rest still carry the first voice until re-voiced
 NARRATOR_VOICE = "narrator"        # every film: the directed IPA narrator (voices.CAST['narrator'])
 
 
+def _hold_under_hook16(ep, hold=3.3, top=300):
+    """Landscape: the hook title sits top left for its first ~3 s (frame y < ~280 of 1000). Labels of the opening panel that would
+    land up there wait until it clears. Panel children are placed at the panel's offset (and scale and crop, for a 9:16 scene shown
+    in a window of a 16:9 panel); the camera centres its point."""
+    fr = ep["beats"][0]["visual"]["from"]; sh = ep["shots"][fr]
+    vw, vh = ASPECTS[ep["aspect"]]
+    z, cx, cy = (sh.get("cam") or [1, vw / 2, vh / 2])[:3]
+    def walk(els, oy, k):
+        for e in els:
+            if e.get("k") == "panel" and e.get("els"):
+                s, c = e.get("s") or 1, e.get("crop") or [0, 0]
+                walk(e["els"], oy + k * ((e.get("oy") or 0) - (c[1] * s if (e.get("s") or e.get("crop")) else 0)), k * s); continue
+            kk, y = e.get("k"), e.get("y")
+            if kk not in ("cap", "label", "pin") or not isinstance(y, (int, float)) or e.get("in", 0) == -1: continue
+            if vh / 2 + (oy + k * y - cy) * z < top:
+                e["in"] = max(e.get("in", 0) or 0, hold)
+    walk(sh.get("els", []), 0, 1)
+
+
 def _hold_under_hook(ep, hold=3.3):
     """The hook title card covers the top of the frame for its first ~3 s: text in the opening shot that sits up there waits until it clears.
     Limits are in the shot's own units, mapped through its camera zoom; a caption pill reaches further up than a label's baseline."""
+    if ep.get("aspect") in ASPECTS:
+        return _hold_under_hook16(ep, hold)
     fr = ep["beats"][0]["visual"]["from"]; sh = ep["shots"][fr]
     z, _, cy = (sh.get("cam") or [1, 500, 860])[:3]
     for e in sh.get("els", []):
@@ -163,13 +202,33 @@ def _hold_under_hook(ep, hold=3.3):
             e["in"] = max(e.get("in", 0), hold)
 
 
+def check_long(ep):
+    """A landscape film: chapter titles short and plain (they go on screen and into the YouTube chapters), no dashes on screen."""
+    dash = re.compile("[\u2013\u2014]")
+    seen = [b["chapter"] for b in ep["beats"] if b.get("chapter")]
+    for t in seen:
+        assert isinstance(t, str) and 0 < len(t) <= 40 and not dash.search(t), (ep["id"], "chapter title", t)
+    def texts(els):
+        for e in els:
+            if e.get("els"):
+                yield from texts(e["els"])
+            for k in ("t", "t2", "text"):
+                if isinstance(e.get(k), str):
+                    yield e[k]
+    panels = (ep.get("wall") or {}).get("panels", [])               # the wall's frames: their bases' own words (strata names...)
+    words = [t for sh in ep["shots"] for t in texts(sh.get("els", []))] + [t for p in panels for t in texts([p] + p.get("els", []))]
+    words += [l.get("t") for p in panels for q in [p] + p.get("els", []) for l in (q.get("bs") or {}).get("layers", []) if isinstance(l.get("t"), str)]
+    bad = sorted({t for t in words if dash.search(t)})
+    assert not bad, (ep["id"], "em or en dash in on-screen text", bad[:5])
+
+
 def compile_file(mod_name):
     mod = importlib.import_module(mod_name)
     os.makedirs(OUT, exist_ok=True)
     eps = json.load(open(EPS)) if os.path.exists(EPS) else []
     by = {e["id"]: e for e in eps}
     import director
-    bd = os.path.join(REELS, "episodes", "boards"); os.makedirs(bd, exist_ok=True)
+    bd = os.environ.get("RC_FILMS_BOARDS") or os.path.join(REELS, "episodes", "boards"); os.makedirs(bd, exist_ok=True)   # a sandbox can keep its boards too
     for ep in mod.EPISODES():
         _hold_under_hook(ep)
         board = director.direct(ep)
@@ -178,6 +237,9 @@ def compile_file(mod_name):
         e = {k: ep[k] for k in KEEP if k in ep}
         e.update({"view": "films", "story": ep["id"], "site": os.path.join("films", "out", ep["id"] + ".html"),
                   "voice": ep.get("voice") or NARRATOR_VOICE})
+        if ep.get("aspect") in ASPECTS:                   # long form: its extra fields, and its chapters checked
+            e.update({k: ep[k] for k in LONG_KEEP if k in ep})
+            check_long(ep)
         n = len(ep["shots"])
         for b in e["beats"]:
             for k in ("from", "to"):
