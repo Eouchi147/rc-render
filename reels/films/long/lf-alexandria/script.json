@@ -1,0 +1,745 @@
+{
+ "id": "lf-alexandria",
+ "kind": "case",
+ "series": "Unreadable",
+ "title": "The Library of Alexandria: What Really Happened",
+ "intro_title": "The Library of Alexandria: What Really Happened",
+ "yt_title": "What Really Happened to the Library of Alexandria?",
+ "verdict": "Ruled out",
+ "hook": "How do you lose a whole library?",
+ "chapters": [
+  {
+   "title": "Cold open",
+   "beats": [
+    {
+     "role": "hook",
+     "lines": [
+      "[d:intrigue][sfx:boom][act:hushed, setting the scene]Alexandria, in Egypt, {48|forty-eight} BCE. [act:vivid, the fire][tune:fall]Julius ^Caesar sets the ships in the harbour ^ablaze, and the flames spread to the ^docks. [act:the legend, knowingly][tune:fall]That, the story goes, is how the greatest library of the ancient world burned to the ^ground.",
+      "[d:tension][act:the child's question, leaning in][tune:rise]But how do you lose a whole ^library? [act:playful, a little grin][tune:fall]And quick question: ^which fire? [p:0.93][act:counting, intrigued]Historians weigh at least five ^endings, spread over nearly eight hundred ^years. [act:the twist, lightly][tune:fall]One of them first appears in writing nearly six hundred years ^later."
+     ],
+     "shots": [
+      {
+       "id": "s1",
+       "say": "Alexandria, in Egypt, 48 BCE. Julius Caesar sets the ships in the harbour ablaze, and the flames spread to the docks.",
+       "draw": "THE HERO IMAGE, fully drawn from the first frame: night over Alexandria's harbour. On the right, the Pharos lighthouse on its rocky island (three tiers: square base, octagonal middle, round top with its beacon fire glowing and a statue on top); stars and a low moon; dark harbour water with long reflections; five war galleys moored along a stone quay with warehouses behind; on the left, on rising ground, a long colonnaded hall with a pediment, warm lamplight between its columns (the library as people imagine it). As Caesar is named, flames bloom on the galleys one by one (fire glows, reflections in the water); on 'the docks', fire glows along the warehouses.",
+       "reuse": "alexandria shot 0 (the shelf and the red glow of the story everyone knows), redrawn wide as the harbour at night"
+      },
+      {
+       "id": "s2",
+       "say": "That, the story goes, is how the greatest library of the ancient world burned to the ground.",
+       "draw": "Same panel, the camera pushes in on the colonnaded hall (cam z 1.6): flames drawn in dotted lilac (the claim, not the record) climb behind its columns and over its roof; a small lilac tag 'the story'."
+      },
+      {
+       "id": "s3",
+       "say": "But how do you lose a whole library? And quick question: which fire?",
+       "draw": "Inside the imagined hall: two tall columns frame a wall of pigeonholes (8 by 5) packed with scroll ends (cream discs with a spiral, a few with hanging tags), a reading table with two seated scholars and a lamp. On the question, scrolls fade out of the cells one by one, leaving dark empty holes. On 'which fire?', five small flames pop in a row along the floor, a lilac question mark over each."
+      },
+      {
+       "id": "s4",
+       "say": "Historians weigh at least five endings, spread over nearly eight hundred years. One of them first appears in writing nearly six hundred years later.",
+       "draw": "The master timeline, 300 BCE to 1300 CE: five markers pop at 145 BCE, 48 BCE, the 270s CE, 391 CE and 642 CE (small flame icons, the last one dotted), a bracket 'nearly 800 years' spans them; then a dotted lilac arc draws itself from 642 to about 1200, where a quill pops: 'first written, c. 1200'.",
+       "reuse": "alexandria shot 2 (the slow-death timeline), redrawn wide"
+      }
+     ]
+    },
+    {
+     "role": "title",
+     "lines": [
+      "[d:calm][act:warm, setting out]The Library of ^Alexandria: [act:the promise, a small smile][tune:fall]what really ^happened."
+     ],
+     "shots": [
+      {
+       "id": "s5",
+       "say": "The Library of Alexandria: what really happened.",
+       "draw": "The intro title card 'The Library of Alexandria: What Really Happened' over the dimmed timeline panel of s4 (no new panel). Only the title is said here."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Every book in the world",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:storytelling, unhurried]Our story starts with a city, and a dream of owning every book in the ^world. [p:0.93][act:placing it, clear]Alexander the Great founded Alexandria on Egypt's coast in {331|three thirty-one} BCE. [act:the next step][tune:fall]After his death, one of his generals, ^Ptolemy, made himself king of ^Egypt.",
+      "[act:the picture, admiring][tune:level]His family built a great ^harbour, a lighthouse counted among the wonders of the ^world, [act:the landing][tune:fall]and a palace quarter for the new Greek kings of Egypt, the ^Ptolemies."
+     ],
+     "shots": [
+      {
+       "id": "s6",
+       "say": "Alexander the Great founded Alexandria on Egypt's coast in 331 BCE. After his death, one of his generals, Ptolemy, made himself king of Egypt.",
+       "draw": "Map of the eastern Mediterranean (View 19 to 37 E, 29 to 42 N): land and sea; a dotted gold route of Alexander from Macedonia through Asia Minor and the Levant down to the Nile delta; a gold pin 'Alexandria' with '331 BCE'; then a crown pops over Egypt with 'Ptolemy, king of Egypt'; scale bar 300 km.",
+       "reuse": "alexandria shot 1 (map: Alexandria, Athens, Rhodes), redrawn wide"
+      },
+      {
+       "id": "s7",
+       "say": "His family built a great harbour, a lighthouse counted among the wonders of the world, and a palace quarter for the new Greek kings of Egypt, the Ptolemies.",
+       "draw": "Schematic plan of ancient Alexandria (1 km = 120 units): sea above, Pharos island and its causeway, the coast, the walled city, Lake Mareotis below. As named: the Great Harbour glows blue; the lighthouse pops on Pharos with a glow; the palace quarter on the harbour's east side fills with gold hatching, 'palace quarter'. At most 5 labels."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][p:0.93][act:explaining, a little amazed]Around {300|three hundred} BCE, in that palace quarter, they founded the ^Mouseion, the shrine of the ^Muses, [act:a modern touch, amused][tune:fall]which gave us our word ^museum.",
+      "[act:explaining, light]But it was less a museum than a research ^institute: scholars on royal ^salaries, with free meals and a covered walk for ^arguing. [act:dry, a small smile][tune:fall]A poet of the time called it the birdcage of the ^Muses: rare birds, fed by the king, squabbling ^forever."
+     ],
+     "shots": [
+      {
+       "id": "s8",
+       "say": "Around 300 BCE, in that palace quarter, they founded the Mouseion, the shrine of the Muses, which gave us our word museum.",
+       "draw": "The Mouseion as a model in three-quarter view, building from the ground up: a courtyard ringed by a covered colonnade (the walk), a hall with a half-circle of seats, a long dining hall; label 'Mouseion'; under it the word 'museum' types itself."
+      },
+      {
+       "id": "s9",
+       "say": "But it was less a museum than a research institute: scholars on royal salaries, with free meals and a covered walk for arguing. A poet of the time called it the birdcage of the Muses: rare birds, fed by the king, squabbling forever.",
+       "draw": "Same model: small scholars pop on the walk and in the hall; gold coins drop over them ('salaries'); a long table with bread and bowls in the dining hall; two scholars on the walk argue (zigzag lines between them). On 'birdcage', a great domed cage of thin gold bars draws itself over the whole building, a small bird on its ring."
+      }
+     ]
+    },
+    {
+     "role": "cost",
+     "lines": [
+      "[d:build][act:the ambition, relishing it]Beside it grew a library meant to hold every book worth ^having. [act:the question, curious][tune:rise]How do you ^fill one? [p:0.93][act:explaining, a sly smile]Books on any ship that docked in Alexandria were taken and ^copied. [act:the twist][tune:fall]The library kept the ^originals, the owners got the ^copies, [act:the detail, delighted][tune:fall]and the books were labelled: from the ^ships.",
+      "[d:aside][act:the anecdote, savouring it]The third Ptolemy went ^further. [p:0.93][act:explaining]He borrowed the official copies of the great Athenian playwrights, ^Aeschylus, ^Sophocles and ^Euripides, [act:the deal][tune:fall]leaving fifteen talents of silver as a deposit: nearly four hundred ^kilos. [act:the punchline, slower][tune:fall]He kept the originals, sent back fresh copies, and told Athens to keep the ^silver."
+     ],
+     "shots": [
+      {
+       "id": "s10",
+       "say": "Beside it grew a library meant to hold every book worth having. How do you fill one?",
+       "draw": "A wall of pigeonholes (12 by 6) between two columns: scroll ends pop into the cells row by row until about half are full; label 'the library'; on the question, a gold question mark over the empty half."
+      },
+      {
+       "id": "s11",
+       "say": "Books on any ship that docked in Alexandria were taken and copied. The library kept the originals, the owners got the copies, and the books were labelled: from the ships.",
+       "draw": "A quay by day: a merchant ship docks at the left; a worn scroll lifts off it to a scribe at a desk in the middle, where a fresh copy writes itself; the fresh copy (white) goes back to the ship, the original (worn) goes into a library cell at the right, where a small tag pops: 'from the ships'."
+      },
+      {
+       "id": "s12",
+       "say": "The third Ptolemy went further. He borrowed the official copies of the great Athenian playwrights, Aeschylus, Sophocles and Euripides, leaving fifteen talents of silver as a deposit: nearly four hundred kilos. He kept the originals, sent back fresh copies, and told Athens to keep the silver.",
+       "draw": "Map Athens to Alexandria (View 20 to 34 E, 29.5 to 40 N): pins Athens and Alexandria; three scrolls named for the three playwrights sail along a gold route to Alexandria; at Athens a stack of 15 silver bars builds ('15 talents', 'about 390 kg'); then three white copies sail back (dashed), while the three originals glow in Alexandria."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:calm][act:the problem, light][tune:rise]With all those scrolls, how did anyone find ^anything? [act:introducing him]A poet called ^Callimachus drew up the ^Tables: [p:0.93][act:explaining, clear]a hundred and twenty scrolls listing writers by subject@noun, in alphabetical ^order, [act:the detail, admiring][tune:fall]each with a line on their life, the first words of every work, and its length in ^lines.",
+      "[act:the example, delighted]Even a little book about dinner parties made the ^list: [tune:fall]three hundred and seventy-five ^lines. [act:the landing, warm][tune:fall]A map of Greek writing, author by ^author."
+     ],
+     "shots": [
+      {
+       "id": "s13",
+       "say": "With all those scrolls, how did anyone find anything? A poet called Callimachus drew up the Tables: a hundred and twenty scrolls listing writers by subject, in alphabetical order, each with a line on their life, the first words of every work, and its length in lines.",
+       "draw": "120 scrolls pop in a 12 by 10 block, coloured in bands by subject; one comes forward and unrolls into a wide sheet with four columns that write themselves ('author', 'life', 'first words', 'lines'), its rows in alphabetical order (A, B, G, D... in Greek letters)."
+      },
+      {
+       "id": "s14",
+       "say": "Even a little book about dinner parties made the list: three hundred and seventy-five lines. A map of Greek writing, author by author.",
+       "draw": "Same sheet, close (cam z 1.5): one row lights up: a small plate and cup, the first words 'Since you have often written to me...', and '375 lines' in gold; then the camera pulls back to the whole sheet and the 120 scrolls."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Caesar's fire",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:build][act:storytelling, building]Now for the most famous ending of all, and the prime ^suspect@noun. [p:0.93][act:setting the scene, vivid]In {48|forty-eight} BCE, Julius ^Caesar, Rome's most famous general, is trapped in Alexandria's palace quarter, caught in a war between ^Cleopatra and her ^brother. [act:the action][tune:fall]To stop the enemy fleet, he burns the ships in the ^harbour."
+     ],
+     "shots": [
+      {
+       "id": "s15",
+       "say": "In 48 BCE, Julius Caesar, Rome's most famous general, is trapped in Alexandria's palace quarter, caught in a war between Cleopatra and her brother. To stop the enemy fleet, he burns the ships in the harbour.",
+       "draw": "The city plan again, closer on the harbour and the palace quarter: a red ring around the palace quarter ('Caesar, 48 BCE'); arrows of the enemy army press in from the city; enemy galleys in the harbour; then flames pop on the ships and an orange glow spreads along the docks."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:the question, detective][tune:rise]So what actually ^burned? [act:the first witness, plain]Caesar himself writes that he burned ^ships. [act:dry][tune:fall]Not a word about ^books.",
+      "[p:0.93][act:the next witness, steady]About a century later, the philosopher ^Seneca, quoting the historian ^Livy, says forty thousand books burned at ^Alexandria. [act:the next one, building]Plutarch, a century and a half after the fire, says the great library ^itself. [act:the next one, bigger][tune:fall]A Roman writer two centuries on: seven hundred thousand ^books.",
+      "[d:reveal][sfx:hit][act:the pattern, savouring it][tune:fall]The later the writer, the bigger the ^fire.",
+      "[d:aside][act:a closer reading, careful]One more witness, Cassius ^Dio, is more ^precise: [tune:fall]the flames took the docks, and warehouses of grain and of ^books. [act:the interpretation, fair][tune:level]Some historians think those were books stored by the harbour, waiting to be shelved or ^shipped; [tune:fall]others, that the flames reached the library's own ^shelves."
+     ],
+     "shots": [
+      {
+       "id": "s16",
+       "say": "So what actually burned? Caesar himself writes that he burned ships. Not a word about books.",
+       "draw": "A witness timeline, 100 BCE to 400 CE, builds across the panel; at 48 BCE a laurel-wreathed head 'Caesar' with a small burning ship and a book inside a dashed ring ('no books')."
+      },
+      {
+       "id": "s17",
+       "say": "About a century later, the philosopher Seneca, quoting the historian Livy, says forty thousand books burned at Alexandria. Plutarch, a century and a half after the fire, says the great library itself. A Roman writer two centuries on: seven hundred thousand books.",
+       "draw": "Same timeline: at about 50 CE a dotted bar rises '40,000' (Seneca); at about 110 CE a small library icon with dotted flames 'the great library' (Plutarch); at about 175 CE a dotted bar 17.5 times taller rises '700,000' (Aulus Gellius). Bars are claims (dotted lilac), heights true to the numbers."
+      },
+      {
+       "id": "s18",
+       "say": "The later the writer, the bigger the fire.",
+       "draw": "Same panel: a dashed gold arrow sweeps up from the first bar to the tallest; small flames grow on top of each bar."
+      },
+      {
+       "id": "s19",
+       "say": "One more witness, Cassius Dio, is more precise: the flames took the docks, and warehouses of grain and of books. Some historians think those were books stored by the harbour, waiting to be shelved or shipped; others, that the flames reached the library's own shelves.",
+       "draw": "A cutaway of the quay: two warehouses, grain sacks in one, crates of scrolls in the other, both burning; label 'Cassius Dio, c. 230 CE'; a dashed arrow inland to the library hall with a question mark ('or the library's shelves?')."
+      }
+     ]
+    },
+    {
+     "role": "cost",
+     "lines": [
+      "[d:build][act:the bigger question][tune:rise]And how big was the library to begin ^with? [p:0.93][act:listing, light]Ancient figures run from about fifty thousand scrolls to seven hundred ^thousand. [act:the catch, explaining]But a scroll isn't a ^book: one long history could fill forty ^scrolls, and libraries kept spare ^copies.",
+      "[p:0.93][act:the method, intrigued]So the historian Roger ^Bagnall counted every Greek writer we know of, up to about {200|two hundred} BCE: [tune:fall]some ^six hundred and twenty-five. [act:the generous sum, playful]Give each one fifty ^scrolls, [p:0.9][act:the punchline][tune:fall]and you get about thirty-one ^thousand. [act:the landing, fair][tune:fall]The real library was probably far smaller than the ^legend."
+     ],
+     "shots": [
+      {
+       "id": "s20",
+       "say": "And how big was the library to begin with? Ancient figures run from about fifty thousand scrolls to seven hundred thousand. But a scroll isn't a book: one long history could fill forty scrolls, and libraries kept spare copies.",
+       "draw": "Four dotted bars (claims) grow in turn, heights true to the numbers: 54,800, 200,000, 490,000, 700,000; then beside them a book cover bracketed over a row of 40 scrolls ('one history, 40 scrolls') and two identical scrolls with an equals sign ('spare copies')."
+      },
+      {
+       "id": "s21",
+       "say": "So the historian Roger Bagnall counted every Greek writer we know of, up to about 200 BCE: some six hundred and twenty-five. Give each one fifty scrolls, and you get about thirty-one thousand. The real library was probably far smaller than the legend.",
+       "draw": "A block of 625 small figures (25 by 25) pops in ('625 known writers'); an arrow, '50 scrolls each', to a dashed bar 'about 31,000' (an estimate) beside the dotted '700,000' bar (heights true: 1 to 22); label 'Bagnall 2002'."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:the alibi, detective][tune:fall]Either way, it wasn't the ^end. [p:0.93][act:the evidence, plain]A generation after the fire, the geographer ^Strabo lived in Alexandria, and described the ^Museum: its covered walk, its great hall, its scholars dining ^together. [act:dry, the detail][tune:fall]Their head, he notes, was now appointed by ^Caesar. [act:the aside, a small smile][tune:fall]A different ^Caesar.",
+      "[act:the next alibi][tune:level]Decades later, the emperor ^Claudius added a new wing to the Museum, named after ^himself. [act:the last alibi, building]More than a century after the fire, when Rome's own libraries burned, the emperor ^Domitian sent scribes to Alexandria to copy its ^books. [act:the landing, firm][tune:fall]Caesar's fire burned books. [act:same rhythm][tune:fall]It didn't end the ^library."
+     ],
+     "shots": [
+      {
+       "id": "s22",
+       "say": "Either way, it wasn't the end. A generation after the fire, the geographer Strabo lived in Alexandria, and described the Museum: its covered walk, its great hall, its scholars dining together. Their head, he notes, was now appointed by Caesar. A different Caesar.",
+       "draw": "The Mouseion model again: a figure with a notebook 'Strabo, c. 25 BCE' at the gate; the walk, the hall and the dining table light up as named; then two coin profiles pop above: 'Julius Caesar' (dimmed) and 'Augustus' (bright), an arrow from one to the other."
+      },
+      {
+       "id": "s23",
+       "say": "Decades later, the emperor Claudius added a new wing to the Museum, named after himself. More than a century after the fire, when Rome's own libraries burned, the emperor Domitian sent scribes to Alexandria to copy its books. Caesar's fire burned books. It didn't end the library.",
+       "draw": "Map Rome to Alexandria (View 9 to 33 E, 29 to 44.5 N): a new wing pops beside a small Museum icon at Alexandria ('Claudius'); at Rome a library icon with smoke ('Rome, c. 80 CE'); scribes sail from Rome to Alexandria and back with scrolls; at the bottom a gold band 'still at work' runs on past 48 BCE to about 100 CE."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The slow fires",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:turning back, thoughtful]The real damage had started a century before Caesar, and it wasn't a ^fire. [p:0.93][act:the event, plain]In {145|one forty-five} BCE, a new king, Ptolemy the ^Eighth, seized the throne and turned on the city's ^scholars.",
+      "[act:the consequence][tune:fall]The head of the library, ^Aristarchus, fled to ^Cyprus. [act:listing, steady][tune:level]Grammarians, philosophers, geometers, doctors, ^painters: [tune:fall]driven ^out. [act:the irony, a small smile][tune:fall]An ancient historian notes that the exiles made Alexandrians the teachers of Greeks and foreigners ^alike."
+     ],
+     "shots": [
+      {
+       "id": "s24",
+       "say": "In 145 BCE, a new king, Ptolemy the Eighth, seized the throne and turned on the city's scholars.",
+       "draw": "The Mouseion model in a red dusk: soldiers with spears line the walk; a crowned figure at the gate ('Ptolemy VIII, 145 BCE'); the scholars' lamps go out one by one."
+      },
+      {
+       "id": "s25",
+       "say": "The head of the library, Aristarchus, fled to Cyprus. Grammarians, philosophers, geometers, doctors, painters: driven out. An ancient historian notes that the exiles made Alexandrians the teachers of Greeks and foreigners alike.",
+       "draw": "Map of the eastern Mediterranean: from Alexandria a small boat sails to Cyprus ('Aristarchus, to Cyprus'); dashed arrows fan out to Rhodes, Pergamon and Athens, where some of his pupils went, the crafts of the ancient list (compass, healer's staff, brush) riding the arrows; then soft gold lights glow across the whole map ('teachers of Greeks and foreigners')."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:the quiet enemy, intrigued]And then the quietest enemy of all: ^time. [p:0.93][act:explaining, clear]Papyrus is tough, but not ^forever: a scroll might last a century, sometimes two or ^three. [act:the place][tune:fall]And Alexandria, by the sea, is ^damp. [p:0.93][act:the proof, quiet][tune:fall]Not one ancient papyrus has survived in the city's own ^soil.",
+      "[p:0.93][act:the key idea, warm]A book survived only if someone copied it before it ^crumbled, [act:the everyday picture, light][tune:fall]like photos on an old phone: if nobody copies them to the new one, they're ^gone. [act:the landing, quiet][tune:fall]When the copying stops, the shelves empty ^themselves."
+     ],
+     "shots": [
+      {
+       "id": "s26",
+       "say": "And then the quietest enemy of all: time. Papyrus is tough, but not forever: a scroll might last a century, sometimes two or three. And Alexandria, by the sea, is damp. Not one ancient papyrus has survived in the city's own soil.",
+       "draw": "One scroll ages along an axis of years, 0 to 300: fresh at 0, yellowed at 100, brown and frayed at 200, holed and flaking at 300; droplets drift in from the sea side ('sea air'); then a strip of the city's ground in section with an empty hole and '0 papyri'."
+      },
+      {
+       "id": "s27",
+       "say": "A book survived only if someone copied it before it crumbled, like photos on an old phone: if nobody copies them to the new one, they're gone. When the copying stops, the shelves empty themselves.",
+       "draw": "A chain of copies across the panel: each fresh scroll made (a pen icon) before the one before it crumbles; a second chain breaks (a red cross: no copyist) and its scrolls fade to dust; a small old phone passes photo tiles to a new phone; then a strip of pigeonholes empties cell by cell."
+      }
+     ]
+    },
+    {
+     "role": "cost",
+     "lines": [
+      "[d:tension][act:the blow, grave]Then war came to the palace quarter ^itself. [p:0.93][act:the event, steady]In the {270s|two hundred and seventies} CE, war and revolt swept the city in the reign of the emperor ^Aurelian, and the royal district where the Museum stood was largely ^destroyed. [act:quoting, measured][tune:fall]A Roman historian wrote that the city lost the greater part of it, long the home of famous ^men.",
+      "[d:aside][act:the clue, intrigued]After that, no writer describes the palace library at work ^again. [act:the point, quiet][tune:fall]Nobody wrote down its ^end. [act:the landing, wry][tune:fall]No famous fire, no last day: it simply stops being ^mentioned."
+     ],
+     "shots": [
+      {
+       "id": "s28",
+       "say": "Then war came to the palace quarter itself. In the 270s CE, war and revolt swept the city in the reign of the emperor Aurelian, and the royal district where the Museum stood was largely destroyed.",
+       "draw": "The city plan again, close on the palace quarter: red arrows of fighting cross the city; the gold hatching of the palace quarter turns to dark ruin with fire glows; the wall breaks; label '270s CE'."
+      },
+      {
+       "id": "s29",
+       "say": "A Roman historian wrote that the city lost the greater part of it, long the home of famous men. After that, no writer describes the palace library at work again. Nobody wrote down its end. No famous fire, no last day: it simply stops being mentioned.",
+       "draw": "Back on the master timeline: a gold band 'the palace library' runs from about 285 BCE and fades out at the 270s CE; a quill at about 390 CE ('a Roman historian'); a dashed question mark where the band ends."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "A temple and a legend",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:a new place, wonder]But Alexandria had a second library, on a ^hill. [p:0.93][act:the place, vivid]In the old Egyptian quarter stood the ^Serapeum, the great temple of the god ^Serapis, [act:the evidence, delighted][tune:fall]built by the third Ptolemy: archaeologists found his foundation plaques, in Greek and ^Egyptian.",
+      "[act:the books, careful]An ancient writer calls its library the ^daughter of the first, [act:the detail][tune:fall]and a visitor describes rooms of books in its colonnades, open to ^students. [p:0.93][act:the number, careful][tune:fall]A much later source puts its collection at forty-two thousand eight hundred ^scrolls."
+     ],
+     "shots": [
+      {
+       "id": "s30",
+       "say": "In the old Egyptian quarter stood the Serapeum, the great temple of the god Serapis, built by the third Ptolemy: archaeologists found his foundation plaques, in Greek and Egyptian.",
+       "draw": "The Serapeum on its hill: a Greek temple on a high podium inside a great colonnaded court, a broad stair; in a cutaway under one corner, a foundation pit where small plaques pop (gold, silver, bronze, faience, glass, mud brick), inscribed in Greek and in hieroglyphs; label 'foundation plaques, Ptolemy III'."
+      },
+      {
+       "id": "s31",
+       "say": "An ancient writer calls its library the daughter of the first, and a visitor describes rooms of books in its colonnades, open to students. A much later source puts its collection at forty-two thousand eight hundred scrolls.",
+       "draw": "Same panel, closer on the colonnade: rooms behind it light up with scroll niches and small readers; label 'the daughter library'; then a dotted tag '42,800 scrolls?' (a claim from the 1100s)."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:tension][act:the event, grave, even]In {391|three ninety-one} CE, after riots in the city and an order from the ^emperor, the temple was torn ^down. [p:0.93][act:weighing the sources, careful]Christian and pagan writers alike describe its fall in ^detail: the building, the great statue, the ^soldiers. [act:the point, quiet][tune:fall]Not one of them mentions ^books.",
+      "[act:the complication, fair]A Roman historian, writing just before, already speaks of its libraries in the past ^tense. [act:the other side, fair][tune:level]Yet a generation later, another historian wrote of seeing empty book chests in ^temples, emptied, he was told, in his own ^time. [act:the landing, honest][tune:fall]How many books, and where, he doesn't ^say."
+     ],
+     "shots": [
+      {
+       "id": "s32",
+       "say": "In 391 CE, after riots in the city and an order from the emperor, the temple was torn down. Christian and pagan writers alike describe its fall in detail: the building, the great statue, the soldiers. Not one of them mentions books.",
+       "draw": "The hill again, the temple now a ruin: fallen column drums, a broken podium, a settling dust cloud (no people hurt). Beside it, four account scrolls; out of them pop what they describe: a fallen column, the statue's head, a soldier's helmet; a fourth slot 'books' stays empty inside a dashed ring."
+      },
+      {
+       "id": "s33",
+       "say": "A Roman historian, writing just before, already speaks of its libraries in the past tense. Yet a generation later, another historian wrote of seeing empty book chests in temples, emptied, he was told, in his own time. How many books, and where, he doesn't say.",
+       "draw": "Two sides: left, a scroll 'there were libraries' with a curved arrow pointing back in time ('c. 390'); right, two open wooden book chests, empty, in a dim niche ('c. 417'), and a dashed question mark over them."
+      }
+     ]
+    },
+    {
+     "role": "cost",
+     "lines": [
+      "[d:calm][act:gentle, careful]In {415|four fifteen}, the mathematician and philosopher ^Hypatia, who taught students of every faith, was murdered by a ^mob, caught up in a feud between the city's governor and its ^bishop. [act:sincere, measured][tune:fall]A real tragedy, and part of the city's ^story. [p:0.93][act:the correction, gentle]But no ancient source ties her death to the ^library. [act:the reason][tune:fall]By then, the Serapeum had been gone for a ^generation.",
+      "[act:the twist, warm]And teaching went ^on: archaeologists have found some twenty lecture halls in the city, still busy two hundred years ^later."
+     ],
+     "shots": [
+      {
+       "id": "s34",
+       "say": "In 415, the mathematician and philosopher Hypatia, who taught students of every faith, was murdered by a mob, caught up in a feud between the city's governor and its bishop. A real tragedy, and part of the city's story. But no ancient source ties her death to the library. By then, the Serapeum had been gone for a generation.",
+       "draw": "Lamplight: a woman teaching at a board with a cone and its cut curves, before a half-circle of students of different heights; then her lamp gently dims (no violence shown). Below, a short timeline: 391 (the temple) and 415 (Hypatia) with a bracket '24 years', and a dashed line to 'the library' struck through: 'no source links them'."
+      },
+      {
+       "id": "s35",
+       "say": "And teaching went on: archaeologists have found some twenty lecture halls in the city, still busy two hundred years later.",
+       "draw": "Plan of the lecture halls of Kom el-Dikka: about twenty horseshoe-shaped rooms in rows pop in (benches along their walls, a raised seat at the end), a few small students for scale; label 'about 20 lecture halls, 400s to 600s CE'."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:the last ending, building]Which leaves the most dramatic ending of ^all. [p:0.93][act:the story, telling it]In {642|six forty-two}, Arab armies took Alexandria, and the story goes that the caliph ordered its books ^burned: [act:the legend's detail, vivid][tune:fall]they fed the furnaces of four thousand bathhouses for six ^months.",
+      "[sfx:hit][act:the reveal, slower]That story first appears in writing about five hundred and sixty years ^later. [p:0.9][act:the everyday picture, clear]Like a first report, written ^today, of something from the fourteen ^sixties. [act:the flaws, counting them off][tune:level]Its hero, a scholar called John the ^Grammarian, had died decades before the ^conquest. [act:the last flaw][tune:fall]And earlier histories of the conquest, Arab and Christian alike, never mention ^it.",
+      "[d:verdict][act:calm, scholarly][tune:fall]Historians call it a ^legend."
+     ],
+     "shots": [
+      {
+       "id": "s36",
+       "say": "Which leaves the most dramatic ending of all. In 642, Arab armies took Alexandria, and the story goes that the caliph ordered its books burned: they fed the furnaces of four thousand bathhouses for six months.",
+       "draw": "All in dotted lilac (the story, not the record): a bathhouse furnace with scrolls fed into it; beside it a field of 4,000 small dots (80 by 50) standing for the bathhouses; six month marks tick off; a lilac tag 'the story'."
+      },
+      {
+       "id": "s37",
+       "say": "That story first appears in writing about five hundred and sixty years later. Like a first report, written today, of something from the fourteen sixties.",
+       "draw": "A timeline 600 to 2030: a dot at 642, a dotted lilac arc to about 1200 ('about 560 years'), a quill; below it, a bar of the same length from 1466 to 2026 ('the same gap'), with a small sailing ship at 1466 and a phone at 2026.",
+       "reuse": "alexandria_m 'late' scene (560 years), redrawn wide"
+      },
+      {
+       "id": "s38",
+       "say": "Its hero, a scholar called John the Grammarian, had died decades before the conquest. And earlier histories of the conquest, Arab and Christian alike, never mention it. Historians call it a legend.",
+       "draw": "Same timeline, closer: a figure 'John the Grammarian' with a life band ending about 570, a bracket 'decades' to 642; small scrolls of earlier histories pop between 690 and 1100, each beside an empty flame outline ('silent'); finally a lilac stamp 'legend' on the dotted story."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The weighing",
+   "beats": [
+    {
+     "role": "weigh",
+     "lines": [
+      "[d:verdict][p:0.95][act:taking stock, calm authority]Let's ^weigh it, ending by ^ending. [act:firm, plain][tune:rise]Caesar's fire: books burned by the ^harbour? [tune:fall]*Strong ^evidence*. [act:plain][tune:rise]The end of the ^library? [tune:fall]*Ruled ^out*.",
+      "[act:even][tune:rise]The purge of {145|one forty-five} BCE? [tune:fall]*Strong ^evidence*. [act:even][tune:rise]The palace quarter wrecked in the {270s|two hundred and seventies}? [tune:fall]*Strong ^evidence*.",
+      "[act:careful][tune:rise]The Serapeum torn ^down? [tune:fall]*^Established*. [act:careful][tune:rise]A library lost with ^it? [tune:fall]*Open ^question*. [act:firm][tune:rise]The caliph's ^fire? [tune:fall]*Ruled ^out*.",
+      "[d:verdict][p:0.95][act:the verdict, weighing it][tune:rise]So, ^one great fire? [act:the verdict, firm][tune:fall]*Ruled ^out*. [act:the key idea, quiet][tune:fall]The evidence points to a long decline, over ^centuries."
+     ],
+     "shots": [
+      {
+       "id": "s39",
+       "say": "Caesar's fire: books burned by the harbour? Strong evidence. The end of the library? Ruled out.",
+       "draw": "A ledger board of five rows, each with a small picture at the left: a burning galley (48 BCE), a crowned figure (145 BCE), a ruined wall (270s), the temple (391), a dotted furnace (642); row 1 lights and its two chips pop as the grades are said: 'Strong evidence', then 'Ruled out'.",
+       "reuse": "lf_under_giza ledger (grade chips popping as each grade is said)"
+      },
+      {
+       "id": "s40",
+       "say": "The purge of 145 BCE? Strong evidence. The palace quarter wrecked in the 270s? Strong evidence.",
+       "draw": "Same board, rows 2 and 3 light; their chips pop: 'Strong evidence', 'Strong evidence'."
+      },
+      {
+       "id": "s41",
+       "say": "The Serapeum torn down? Established. A library lost with it? Open question. The caliph's fire? Ruled out.",
+       "draw": "Same board, rows 4 and 5 light; their chips pop: 'Established' and 'Open question' on row 4, 'Ruled out' on row 5."
+      },
+      {
+       "id": "s42",
+       "say": "So, one great fire? Ruled out. The evidence points to a long decline, over centuries.",
+       "draw": "The master timeline again: one big dotted flame at a single date ('one great fire') is struck through in red, a large 'Ruled out' chip pops; then a long gold band fades from bright at about 285 BCE to dark by about 400 CE ('a long decline')."
+      }
+     ]
+    },
+    {
+     "role": "test",
+     "lines": [
+      "[d:build][p:0.93][act:practical, clear][tune:rise]What would change our ^minds? [act:the first test][tune:level]The library's own rooms, found under the modern city, or under the ^harbour. [act:the second][tune:level]A page of its ^catalogue. [act:the third, plain][tune:fall]Or an account of the conquest, written in the {640s|six forties}, that mentions burning ^books."
+     ],
+     "shots": [
+      {
+       "id": "s43",
+       "say": "What would change our minds? The library's own rooms, found under the modern city, or under the harbour. A page of its catalogue. Or an account of the conquest, written in the 640s, that mentions burning books.",
+       "draw": "Three dashed blue test boxes fill as named: a section through the modern city and the harbour with a dig reaching an ancient room of scroll niches; a papyrus page with the four columns of the Tables; a scroll dated '640s' with a small flame and a tick."
+      }
+     ]
+    },
+    {
+     "role": "close",
+     "lines": [
+      "[d:calm][act:the loss, quiet][tune:rise]And what did we ^lose? [act:honest][tune:fall]Most of ^it. [p:0.93][act:the number, gentle]The three playwrights whose originals Ptolemy kept wrote some three hundred plays between ^them. [p:0.9][act:the punchline, soft][tune:fall]Thirty-three ^survive. [act:the irony, gentle][tune:fall]Even the Tables of Callimachus are gone: we know them only from scattered ^quotations.",
+      "[d:wonder][act:warm, the turn]But some came through, one copy at a ^time. [act:listing, warm][tune:level]Euclid's geometry, written in Alexandria, copied and recopied for more than two thousand ^years. [act:same rhythm][tune:level]Alexandrian science saved in ^Arabic by translators in ^Baghdad, some of it found nowhere ^else. [act:same rhythm][tune:fall]And from Egypt's dry rubbish dumps, half a million scraps of papyrus, still giving back lost ^works.",
+      "[d:tension][p:0.93][act:gentle, thoughtful][tune:fallrise]Libraries don't only ^burn. [gap:0.45][act:the last word, quiet][tune:fall]They ^starve. [act:hushed, the last words][tune:fall]Weigh it ^yourself."
+     ],
+     "shots": [
+      {
+       "id": "s44",
+       "say": "And what did we lose? Most of it. The three playwrights whose originals Ptolemy kept wrote some three hundred plays between them. Thirty-three survive. Even the Tables of Callimachus are gone: we know them only from scattered quotations.",
+       "draw": "300 small theatre masks in a 20 by 15 grid pop in; all but 33 fade to dim outlines while the 33 glow gold ('33 survive'); then one scroll 'the Tables' crumbles into small fragments."
+      },
+      {
+       "id": "s45",
+       "say": "But some came through, one copy at a time. Euclid's geometry, written in Alexandria, copied and recopied for more than two thousand years.",
+       "draw": "Euclid's first proposition draws itself (two circles and the triangle on their centres); then a chain of copies along a short timeline: a papyrus scrap (about 100 CE), a Greek book (800s), an Arabic book (800s), a Latin book (1100s), a printed book (1482), linked by arrows."
+      },
+      {
+       "id": "s46",
+       "say": "Alexandrian science saved in Arabic by translators in Baghdad, some of it found nowhere else.",
+       "draw": "Map Alexandria to Baghdad (View 27 to 47 E, 27 to 37.5 N): a gold arrow from Alexandria to Baghdad; at Baghdad a manuscript with flowing script and a cone diagram that glows: 'found only in Arabic'."
+      },
+      {
+       "id": "s47",
+       "say": "And from Egypt's dry rubbish dumps, half a million scraps of papyrus, still giving back lost works.",
+       "draw": "A cross-section of a desert rubbish mound beside a town: its layers packed with hundreds of small papyrus scraps; two diggers with baskets on top; a counter 'about 500,000 pieces'; a few scraps glow ('lost works')."
+      },
+      {
+       "id": "s48",
+       "say": "Libraries don't only burn. They starve. Weigh it yourself.",
+       "draw": "Night: the hall of pigeonholes from the opening, now mostly empty; one scribe at a desk under a lamp copies a scroll, the lamp glowing; the camera holds as the end card arrives."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "description": "Everyone knows the Library of Alexandria burned in one great fire. The ancient writers tell a stranger, slower story: a king who drove the scholars out, a Roman general's fire in the harbour, a war that wrecked the palace quarter, a temple torn down, and a tale of a caliph's bonfire first written down nearly six centuries late.\n\nWe follow the library from its founding under the first Ptolemies, through the books seized from ships, the borrowed Athenian originals and Callimachus' great catalogue, then weigh every ending against the evidence, and close on what was lost and what survived. Verdict on 'one great fire': Ruled out.\n\nChapters\n0:00 Cold open\nmm:ss Every book in the world\nmm:ss Caesar's fire\nmm:ss The slow fires\nmm:ss A temple and a legend\nmm:ss The weighing\n\nSources\nBagnall 2002, Proceedings of the American Philosophical Society 146(4): 348-362\nEl-Abbadi 1990, The Life and Fate of the Ancient Library of Alexandria (UNESCO)\nFraser 1972, Ptolemaic Alexandria (Oxford)\nCanfora 1989, The Vanished Library (University of California Press)\nMacLeod (ed.) 2000, The Library of Alexandria: Centre of Learning in the Ancient World\nEl-Abbadi & Fathallah (eds.) 2008, What Happened to the Ancient Library of Alexandria? (Brill)\nLewis 1990, The New York Review of Books, 27 September 1990\nWitty 1958, The Library Quarterly, doi:10.1086/618523\nMcKenzie, Gibson & Reyes 2004, Journal of Roman Studies, doi:10.2307/4135011\nToomer 1990, Apollonius: Conics Books V to VII, doi:10.1007/978-1-4613-8985-9\nDzielska 1995, Hypatia of Alexandria (Harvard)\nParsons 2007, City of the Sharp-Nosed Fish\nAncient sources: Strabo 17.1.8; Caesar, Civil War 3.111; Seneca, Tranq. 9.5; Plutarch, Caesar 49; Aulus Gellius 7.17; Cassius Dio 42.38; Ammianus 22.16; Galen (Kuhn 17a.605-607); Athenaeus 1.22, 4.184, 6.244; Suetonius, Claudius 42 and Domitian 20; Orosius 6.15",
+ "sources": [
+  "Bagnall, R. S. 2002, Alexandria: Library of Dreams, Proceedings of the American Philosophical Society 146(4): 348-362",
+  "El-Abbadi, M. 1990, The Life and Fate of the Ancient Library of Alexandria, UNESCO/UNDP, Paris",
+  "Fraser, P. M. 1972, Ptolemaic Alexandria (3 vols), Clarendon Press, Oxford",
+  "Canfora, L. 1989, The Vanished Library: A Wonder of the Ancient World (trans. M. Ryle), University of California Press; reviewed by J. H. Gaisser, Bryn Mawr Classical Review 1991.02.04 (the fire of 48 BCE took warehouses near the harbour, after Pfeiffer)",
+  "MacLeod, R. (ed.) 2000, The Library of Alexandria: Centre of Learning in the Ancient World, I. B. Tauris, London",
+  "El-Abbadi, M. & Fathallah, O. M. (eds.) 2008, What Happened to the Ancient Library of Alexandria?, Brill, Leiden (incl. B. Lewis, The Arab Destruction of the Library of Alexandria: Anatomy of a Myth)",
+  "Lewis, B. 1990, The Vanished Library (letter), The New York Review of Books, 27 September 1990",
+  "Butler, A. J. 1902, The Arab Conquest of Egypt and the Last Thirty Years of the Roman Dominion, Clarendon Press, Oxford (appendix on the library)",
+  "Pfeiffer, R. 1968, History of Classical Scholarship from the Beginnings to the End of the Hellenistic Age, Clarendon Press, Oxford",
+  "Witty, F. J. 1958, The Pinakes of Callimachus, The Library Quarterly 28(2): 132-136, doi:10.1086/618523",
+  "McKenzie, J. S., Gibson, S. & Reyes, A. T. 2004, Reconstructing the Serapeum in Alexandria from the Archaeological Evidence, Journal of Roman Studies 94: 73-121, doi:10.2307/4135011",
+  "Rowe, A. 1946, Discovery of the Famous Temple and Enclosure of Serapis at Alexandria, Supplement aux Annales du Service des Antiquites de l'Egypte, cahier 2, Cairo (the foundation plaques of Ptolemy III)",
+  "Dzielska, M. 1995, Hypatia of Alexandria, Harvard University Press",
+  "Derda, T., Markiewicz, T. & Wipszycka, E. (eds.) 2007, Alexandria: Auditoria of Kom el-Dikka and Late Antique Education, Journal of Juristic Papyrology Supplement 8, Warsaw",
+  "Parsons, P. 2007, City of the Sharp-Nosed Fish: Greek Lives in Roman Egypt, Weidenfeld & Nicolson, London",
+  "Toomer, G. J. (ed.) 1990, Apollonius: Conics Books V to VII, The Arabic Translation of the Lost Greek Original in the Version of the Banu Musa, Springer, doi:10.1007/978-1-4613-8985-9",
+  "Heath, T. L. 1908, The Thirteen Books of Euclid's Elements, Cambridge University Press (the transmission of the text)",
+  "Reynolds, L. D. & Wilson, N. G. 2013, Scribes and Scholars: A Guide to the Transmission of Greek and Latin Literature (4th ed.), Oxford University Press",
+  "Dueck, D. 2000, Strabo of Amasia: A Greek Man of Letters in Augustan Rome, Routledge, London",
+  "Strabo, Geography 17.1.8 (the Museum, about 25 to 20 BCE)",
+  "Caesar, Civil War 3.111 (the ships burned in the harbour)",
+  "Seneca, On Tranquillity of Mind 9.5 (forty thousand books, after Livy)",
+  "Plutarch, Life of Caesar 49.6 (the fire spread from the dockyards and destroyed the great library)",
+  "Aulus Gellius, Attic Nights 7.17.3 (nearly seven hundred thousand volumes)",
+  "Cassius Dio, Roman History 42.38.2 (the docks and the storehouses of grain and of books)",
+  "Ammianus Marcellinus, Histories 22.16.12-13 and 22.16.15 (the Serapeum's libraries in the past tense; the Bruchion lost under Aurelian)",
+  "Galen, Commentary on Hippocrates' Epidemics III 2.4, Kuhn 17a.605-607 (books 'from the ships'; the Athenian originals and the fifteen talents)",
+  "Athenaeus, Deipnosophists 1.22d (Timon: the birdcage of the Muses), 4.184b-c (the purge of 145 BCE, after Menecles of Barca and Andron of Alexandria), 6.244a (an entry of Callimachus' Pinakes: 375 lines)",
+  "Suetonius, Claudius 42.2 (a new Museum named after him) and Domitian 20 (scribes sent to Alexandria)",
+  "Orosius, Histories against the Pagans 6.15.31-32 (empty book chests in temples)",
+  "Epiphanius, On Weights and Measures 11 (the daughter library); Aphthonius, Progymnasmata 12 (book rooms in the Serapeum's colonnades); Tzetzes, Prolegomena to Aristophanes (42,800 scrolls)",
+  "Rufinus, Ecclesiastical History 11.22-30; Socrates Scholasticus, Ecclesiastical History 5.16-17 and 7.15; Eunapius, Lives of the Sophists (the Serapeum in 391; Hypatia in 415)",
+  "Letter of Aristeas 9-10 (two hundred thousand scrolls, five hundred thousand hoped for)",
+  "Goddio, F. et al. 1998, Alexandria: The Submerged Royal Quarters, Periplus, London"
+ ],
+ "facts_added": [
+  {
+   "fact": "Alexander the Great founded Alexandria in 331 BCE; after his death his general Ptolemy ruled Egypt and took the title of king; the Pharos lighthouse of the early Ptolemies was counted among the Seven Wonders.",
+   "source": "Fraser 1972, Ptolemaic Alexandria; MacLeod (ed.) 2000"
+  },
+  {
+   "fact": "The Museum (Mouseion, 'shrine of the Muses') was part of the royal palaces: a public walk, an exedra with seats, and a large house with the common dining hall of its scholars, who held property in common under a priest formerly appointed by the kings and, in Strabo's day, by Caesar (Augustus).",
+   "source": "Strabo 17.1.8; Dueck 2000 (Strabo in Alexandria about 25 to 20 BCE)"
+  },
+  {
+   "fact": "Timon of Phlius mocked the Museum's scholars as many-fed bookish scribblers, endlessly quarrelling in 'the birdcage of the Muses'.",
+   "source": "Athenaeus 1.22d (Timon fr. 60)"
+  },
+  {
+   "fact": "Ptolemy ordered the books on ships arriving in Alexandria to be brought in and copied; the library kept the originals, labelled 'from the ships', and the owners received the copies.",
+   "source": "Galen, Commentary on Hippocrates' Epidemics III 2.4 (Kuhn 17a.606)"
+  },
+  {
+   "fact": "Ptolemy III Euergetes borrowed Athens' official copies of Aeschylus, Sophocles and Euripides against a deposit of fifteen talents of silver, kept the originals, returned new copies on the finest papyrus and let Athens keep the silver. An Attic talent was about 26 kg, so 15 talents is about 390 kg.",
+   "source": "Galen (Kuhn 17a.607); the Attic talent of about 26 kg (Wikipedia, 'Attic talent')"
+  },
+  {
+   "fact": "Callimachus' Pinakes filled 120 books: writers listed by genre and in alphabetical order, with biographical notes, the first words of each work and its length in lines; one surviving entry lists a work on dinner parties, opening 'Since you have often written to me', of 375 lines. Only about 25 fragments survive, quoted by later writers (scattered quotations).",
+   "source": "Witty 1958, doi:10.1086/618523; Athenaeus 6.244a; Pfeiffer 1968"
+  },
+  {
+   "fact": "Caesar's own account says he burned the ships in the harbour and dockyards; it does not mention books.",
+   "source": "Caesar, Civil War 3.111"
+  },
+  {
+   "fact": "Seneca, quoting Livy, says forty thousand books burned at Alexandria; Plutarch says the fire spread from the dockyards and destroyed the great library; Aulus Gellius gives nearly seven hundred thousand volumes, burned by auxiliary soldiers; Cassius Dio says the docks and the storehouses of grain and of books burned.",
+   "source": "Seneca, Tranq. 9.5; Plutarch, Caesar 49.6; Gellius 7.17.3; Dio 42.38.2"
+  },
+  {
+   "fact": "Many historians, following Pfeiffer and Canfora, read the evidence as books in warehouses near the harbour rather than the library itself; others think the royal library's stacks burned.",
+   "source": "Canfora 1989; Gaisser 1991 (BMCR 1991.02.04); Bagnall 2002"
+  },
+  {
+   "fact": "Ancient figures for the collection range from 54,800 (Epiphanius) and 200,000 (Letter of Aristeas) to 400,000 'mixed' plus 90,000 'unmixed' rolls (Tzetzes) and 700,000 (Gellius, Ammianus).",
+   "source": "Bagnall 2002, PAPS 146: 348-362"
+  },
+  {
+   "fact": "Bagnall counted about 450 known Greek authors whose lives began by the late fourth century BCE plus 175 of the third century; at 50 rolls each that is 31,250 rolls. He judges the ancient figures to deserve no credence and the real numbers probably lower by up to an order of magnitude.",
+   "source": "Bagnall 2002, PAPS 146: 352-356"
+  },
+  {
+   "fact": "A long work filled many rolls: Polybius' Histories ran to forty books.",
+   "source": "Polybius, Histories (40 books); Pfeiffer 1968"
+  },
+  {
+   "fact": "Claudius added a new Museum at Alexandria named after himself, where his histories were read aloud each year.",
+   "source": "Suetonius, Claudius 42.2"
+  },
+  {
+   "fact": "Domitian restored Rome's burned libraries by seeking copies everywhere and sending scribes to Alexandria to transcribe and correct them.",
+   "source": "Suetonius, Domitian 20; Bagnall 2002, p. 357"
+  },
+  {
+   "fact": "In 145 BCE Ptolemy VIII drove out grammarians, philosophers, geometers, musicians, painters, trainers and physicians, so that the Alexandrians became the teachers of Greeks and barbarians; the head of the library, Aristarchus, went to Cyprus.",
+   "source": "Athenaeus 4.184b-c (after Menecles of Barca and Andron of Alexandria); Pfeiffer 1968"
+  },
+  {
+   "fact": "Some of Aristarchus' pupils left Alexandria in these years: Dionysius Thrax for Rhodes (about 144/143 BCE) and Apollodorus of Athens, probably for Pergamon, later settling in Athens.",
+   "source": "Pfeiffer 1968, History of Classical Scholarship (Clarendon Press)"
+  },
+  {
+   "fact": "Papyrus rolls stayed in use for about a century, some for two or even three hundred years; no papyri survive from antiquity in Alexandria itself, unlike the drier sites of Egypt.",
+   "source": "Bagnall 2002, pp. 358-359"
+  },
+  {
+   "fact": "Under Aurelian, civil strife destroyed Alexandria's walls and most of the Bruchion, the royal district long the home of distinguished men.",
+   "source": "Ammianus Marcellinus 22.16.15"
+  },
+  {
+   "fact": "Foundation plaques found in 1944 at the Serapeum, in Greek and Egyptian, name Ptolemy III as its builder.",
+   "source": "Rowe 1946; McKenzie, Gibson & Reyes 2004, doi:10.2307/4135011"
+  },
+  {
+   "fact": "Epiphanius calls the Serapeum's library the 'daughter' of the first; Aphthonius describes book rooms in its colonnades open to students; Tzetzes counts 42,800 rolls in the outer library.",
+   "source": "Epiphanius, On Weights and Measures 11; Aphthonius, Progymnasmata 12; Tzetzes, Prolegomena"
+  },
+  {
+   "fact": "The accounts of the Serapeum's destruction in 391 (Rufinus, Socrates, Sozomen, Theodoret; the pagan Eunapius) do not mention books; Ammianus, writing before 391, speaks of its libraries in the past tense; Orosius (about 417) says he saw book chests in temples, emptied in his own time.",
+   "source": "Rufinus HE 11.22-30; Eunapius VS; Ammianus 22.16.12; Orosius 6.15.32; Bagnall 2002"
+  },
+  {
+   "fact": "Hypatia was murdered by a mob in March 415, amid the feud between the prefect Orestes and the bishop Cyril; her pupils included Christians such as Synesius, later a bishop. No ancient source links her death to the library.",
+   "source": "Socrates Scholasticus HE 7.15; Dzielska 1995"
+  },
+  {
+   "fact": "About twenty lecture halls of the 5th to 7th centuries CE have been excavated at Kom el-Dikka in Alexandria.",
+   "source": "Derda, Markiewicz & Wipszycka (eds.) 2007"
+  },
+  {
+   "fact": "The story of the caliph's order to burn the books first appears in a passing remark by Abd al-Latif al-Baghdadi, who was in Egypt in 1203; Ibn al-Qifti (about 1227) tells it in full, with John the Grammarian and the books feeding the 4,000 bathhouses for six months; John the Grammarian died before the conquest, and earlier Muslim, Christian, Byzantine and Jewish sources are silent.",
+   "source": "Lewis 1990 (NYRB) and 2008 (in El-Abbadi & Fathallah); Butler 1902"
+  },
+  {
+   "fact": "Aeschylus wrote about 70 to 90 plays, Sophocles about 123 and Euripides about 92; 7, 7 and 19 survive (33 in all).",
+   "source": "Suda; Reynolds & Wilson 2013"
+  },
+  {
+   "fact": "Euclid's Elements, written in Alexandria about 300 BCE, survives through Greek copies, an Arabic translation (about 800), a Latin translation from Arabic (1100s) and print (1482); a papyrus fragment of about 100 CE survives from Oxyrhynchus.",
+   "source": "Heath 1908"
+  },
+  {
+   "fact": "Books 5 to 7 of Apollonius' Conics survive only in the Arabic translation made in 9th-century Baghdad for the Banu Musa; Hero of Alexandria's Mechanics survives only in Arabic.",
+   "source": "Toomer 1990, doi:10.1007/978-1-4613-8985-9"
+  },
+  {
+   "fact": "The rubbish mounds of Oxyrhynchus yielded about 500,000 pieces and scraps of papyrus.",
+   "source": "Parsons 2007, City of the Sharp-Nosed Fish"
+  },
+  {
+   "fact": "Part of the ancient royal harbour of Alexandria, including the island of Antirhodos, now lies under the sea.",
+   "source": "Goddio, F. et al. 1998, Alexandria: The Submerged Royal Quarters, Periplus, London (Antirhodos located in 1996)"
+  }
+ ],
+ "names": [
+  {
+   "name": "Alexandria",
+   "say": "al-ig-ZAN-dree-uh"
+  },
+  {
+   "name": "Ptolemy",
+   "say": "TOL-uh-mee (the P is silent)"
+  },
+  {
+   "name": "Ptolemies",
+   "say": "TOL-uh-meez"
+  },
+  {
+   "name": "Mouseion",
+   "say": "moo-SAY-on"
+  },
+  {
+   "name": "Muses",
+   "say": "MYOO-zez"
+  },
+  {
+   "name": "Aeschylus",
+   "say": "ESS-kih-luss"
+  },
+  {
+   "name": "Sophocles",
+   "say": "SOF-uh-kleez"
+  },
+  {
+   "name": "Euripides",
+   "say": "yoo-RIP-ih-deez"
+  },
+  {
+   "name": "Callimachus",
+   "say": "kuh-LIM-uh-kuss"
+  },
+  {
+   "name": "Cleopatra",
+   "say": "klee-uh-PAT-ruh"
+  },
+  {
+   "name": "Seneca",
+   "say": "SEN-ih-kuh"
+  },
+  {
+   "name": "Livy",
+   "say": "LIV-ee"
+  },
+  {
+   "name": "Plutarch",
+   "say": "PLOO-tark (in LEX)"
+  },
+  {
+   "name": "Cassius Dio",
+   "say": "KASS-ee-us DEE-oh"
+  },
+  {
+   "name": "Roger Bagnall",
+   "say": "ROJ-er BAG-nul"
+  },
+  {
+   "name": "Strabo",
+   "say": "STRAY-boh (in LEX)"
+  },
+  {
+   "name": "Claudius",
+   "say": "KLAW-dee-us"
+  },
+  {
+   "name": "Domitian",
+   "say": "doh-MISH-un"
+  },
+  {
+   "name": "Aristarchus",
+   "say": "air-ih-STAR-kus"
+  },
+  {
+   "name": "Cyprus",
+   "say": "SY-prus"
+  },
+  {
+   "name": "Aurelian",
+   "say": "aw-REE-lee-un (in LEX)"
+  },
+  {
+   "name": "Serapeum",
+   "say": "sair-uh-PEE-um"
+  },
+  {
+   "name": "Serapis",
+   "say": "seh-RAH-pis"
+  },
+  {
+   "name": "Hypatia",
+   "say": "hy-PAY-shuh"
+  },
+  {
+   "name": "Grammarian",
+   "say": "gruh-MAIR-ee-un"
+  },
+  {
+   "name": "caliph",
+   "say": "KAY-lif"
+  },
+  {
+   "name": "Euclid",
+   "say": "YOO-klid"
+  },
+  {
+   "name": "Baghdad",
+   "say": "BAG-dad"
+  },
+  {
+   "name": "papyrus",
+   "say": "puh-PY-russ"
+  }
+ ],
+ "end_line": "Libraries don't only burn. They starve.",
+ "words": 1502
+}
