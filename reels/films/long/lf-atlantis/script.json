@@ -1,0 +1,939 @@
+{
+ "id": "lf-atlantis",
+ "kind": "theme",
+ "series": "Drowned Worlds",
+ "title": "Atlantis: The Whole File, Weighed",
+ "yt_title": "Where Did Atlantis Go? Plato, the Ice Age and the Sea Floor",
+ "verdict": "Ruled out",
+ "verdict_scope": "a real Atlantis as Plato describes it, with its date (about 9600 BCE) and its place (beyond the Pillars of Heracles)",
+ "hook": "Could an empire really sink in one night?",
+ "intro_title": "Atlantis: The Whole File, Weighed",
+ "end_line": "The story is Plato's. The drowned coasts are real.",
+ "structure_note": "chapters[0] is the cold open and the title beat (no chapter card; YouTube chapter 0:00). Chapters 1 to 5 are the story chapters; 'The weighing' carries the verdict, the test and the close. Shot ids s1..sN are in story order; 'alias of sN' means return to that panel.",
+ "chapters": [
+  {
+   "title": "Cold open",
+   "card": false,
+   "beats": [
+    {
+     "role": "hook",
+     "lines": [
+      "[d:intrigue][sfx:boom][act:hushed wonder, painting it]An island ^empire, out in the ocean. [act:slow, savouring the picture][tune:level]A city of rings, two of land and three of ^water, its walls flashing with red ^metal. [act:a hint of grandeur][tune:fall]Ten ^kings, ten thousand ^chariots, docks full of ^warships.",
+      "[d:tension][act:slow, ominous but calm][tune:fall]Then, in a single day and night, the ^sea took all of it. [act:leaning in, the child's question][tune:rise]Could an empire really sink in ^one night? [p:0.93][act:intrigued, building][tune:level]People have searched the ^Sahara, the Bahamas, a Greek ^volcano, the sea off ^Gibraltar. [act:the catch, dry][tune:fall]And every search starts with ^one man, and ^two books."
+     ],
+     "shots": [
+      {
+       "id": "s1",
+       "say": "An island empire, out in the ocean. A city of rings, two of land and three of water, its walls flashing with red metal.",
+       "draw": "Night sea (base sky, tod night, water from y 560). An island rises at centre (x 600..1180). On it the ring city in plan-perspective: rings trace themselves from the centre outwards in the order said, 2 land rings green (#8aa05a) and 3 water rings blue around a central islet, in Plato's proportions (islet 5 stadia; rings 1, 2, 2, 3, 3 stadia; 27 stadia in all). On 'red metal' the innermost wall glints copper-red (glow), the outer walls take a bronze and a tin tint. Only label: 'Atlantis' in lilac italic at about 4 s (it is a story).",
+       "reuse": "atlantis shot 2 (f04.atlantis, iso ring city), redrawn for 16:9"
+      },
+      {
+       "id": "s2",
+       "say": "Ten kings, ten thousand chariots, docks full of warships.",
+       "draw": "Same panel, cam 1.3 on the city. Ten small crowned figures pop on the central islet, one per king (10). Along the outer ring a bar of 100 chariot pips builds (each pip = 100), label '10,000 chariots'. Six trireme silhouettes slide into the canal docks, oars as ticks."
+      },
+      {
+       "id": "s3",
+       "say": "Then, in a single day and night, the sea took all of it. Could an empire really sink in one night?",
+       "draw": "Same island, wide cam. The sky turns once: sun sets right, moon crosses, sun rises (one day and night in about 3 s). The sea line climbs over the rings (fill, 3 s), the central temple last; a wave line draws across. A large lilac '?' pops over the empty sea on the question."
+      },
+      {
+       "id": "s4",
+       "say": "People have searched the Sahara, the Bahamas, a Greek volcano, the sea off Gibraltar.",
+       "draw": "Map 16:9, View(-85, 35, 10, 50), Atlantic centred. Four pins pop one per name, about 0.8 s apart: the Eye of the Sahara (Richat, -11.39, 21.12), Bimini (-79.28, 25.77), Thera (25.4, 36.4), Spartel Bank (-6.0, 35.9). A tiny lilac dashed ring glyph beside each pin. Scale bar 1,000 km."
+      },
+      {
+       "id": "s5",
+       "say": "And every search starts with one man, and two books.",
+       "draw": "Warm dark room, lamp glow. One seated figure (Plato) at x 700; two scrolls pop on his table at x 960 and 1080 as 'two books' is said. Labels: 'Plato' (bone, 30); over the scrolls 'Timaeus', 'Critias' (ital, 28)."
+      }
+     ]
+    },
+    {
+     "role": "title",
+     "lines": [
+      "[d:calm][act:warm, setting out]Atlantis: the whole file, ^weighed."
+     ],
+     "shots": [
+      {
+       "id": "s6",
+       "say": "Atlantis: the whole file, weighed.",
+       "draw": "intro_title card over the dimmed wall: 'Atlantis: The Whole File, Weighed'. Nothing else drawn."
+      }
+     ]
+    }
+   ],
+   "words": 83
+  },
+  {
+   "title": "The only witness",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:setting the scene, measured][tune:level]^Athens, around {360|three sixty} BCE. [act:storytelling, warm]The philosopher ^Plato, then in his sixties, writes two dialogues: conversations set down like the script of a play, called the ^Timaeus and the ^Critias.",
+      "[act:reporting his claim, neutral]In them, the speaker Critias tells a story that came, he says, down a ^chain of tellers. [p:0.93][act:explaining, a simple picture]Egyptian priests at ^Sais, in the Nile delta, told it to ^Solon, Athens' great lawgiver, about two centuries ^earlier. [act:tracing the chain, unhurried]Solon's story passed down a family, until an old man of nearly ^ninety told it to a boy of about ^ten. [act:light, a smile][tune:fall]Two hundred years of whispers, mouth to ^mouth."
+     ],
+     "shots": [
+      {
+       "id": "s7",
+       "say": "Athens, around 360 BCE.",
+       "draw": "Map View(10, 35, 28, 42) in x 90..1690: Greece, the Aegean, the Nile delta. Pin 'Athens' pops at 0.6 s with a small chip 'about 360 BCE' (amber); a tiny temple glyph on the pin. Scale 200 km."
+      },
+      {
+       "id": "s8",
+       "say": "The philosopher Plato, then in his sixties, writes two dialogues: conversations set down like the script of a play, called the Timaeus and the Critias.",
+       "draw": "Dark panel. A long scroll unrolls left to right (fx draw). Four tiny speaker figures stand on it like actors on a stage, each with a short speech bubble popping in turn (a script). The two scroll ends get tags 'Timaeus' and 'Critias' as they are named."
+      },
+      {
+       "id": "s9",
+       "say": "Egyptian priests at Sais, in the Nile delta, told it to Solon, Athens' great lawgiver, about two centuries earlier.",
+       "draw": "Back on the s7 map, cam on the delta then widening: pin 'Sais' (30.77, 30.96) with a temple glyph and two priest figures; an amber dashed arrow draws from Sais to Athens; a figure 'Solon' pops at Athens. Under the map, a thin timeline 650 to 300 BCE: 'Solon' at about 590 BCE, 'Plato writes' at about 360 BCE, a bracket 'about 2 centuries'.",
+       "reuse": "alias of s7, with adds; figures as in atlantis_m scene 0 (relay)"
+      },
+      {
+       "id": "s10",
+       "say": "Solon's story passed down a family, until an old man of nearly ninety told it to a boy of about ten. Two hundred years of whispers, mouth to mouth.",
+       "draw": "Dark panel: a chain of figures left to right: priests, Solon, two family figures, an old man stooping (label '90') to a child (label '10'), then Plato with his scroll. Each pops as named; a small glowing dot (the story) hops from figure to figure, about 0.6 s per hop, along dashed arrows (inferred: we have only Plato's word for the chain)."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:counting off, vivid][tune:level]Poseidon's island, beyond the Pillars of ^Heracles, the old name for the Strait of ^Gibraltar. [act:building][tune:level]Larger, Plato writes, than ^Libya and ^Asia put together. [p:0.93][act:precise, delighted]A ring city about five kilometres across, a canal to the sea, a plain ^hundreds of kilometres wide, hot and cold ^springs, even ^elephants.",
+      "[act:fair, giving the believers their due][tune:fall]And Socrates himself says the tale has a great advantage: it is ^fact, not ^fiction."
+     ],
+     "shots": [
+      {
+       "id": "s11",
+       "say": "Poseidon's island, beyond the Pillars of Heracles, the old name for the Strait of Gibraltar. Larger, Plato writes, than Libya and Asia put together.",
+       "draw": "Map View(-40, 45, 15, 50). Two pillar glyphs at Gibraltar (-5.35, 36.0), label 'Pillars of Heracles'. Then 'Libya' (North Africa as the Greeks knew it) and 'Asia' (Asia Minor and the Levant) tint amber with italic labels; their two shapes slide out west past the Pillars and merge into one lilac dashed island outline, a little larger than both together, in the open Atlantic, label 'Atlantis?' (claimed style)."
+      },
+      {
+       "id": "s12",
+       "say": "A ring city about five kilometres across, a canal to the sea, a plain hundreds of kilometres wide, hot and cold springs, even elephants.",
+       "draw": "Plan view to scale. The ring city (27 stadia, about 5 km; scale bar '5 km') with a straight canal drawing to the sea (50 stadia, about 9 km). The camera pulls back on the same panel as the plain grows around it, a rectangle 3,000 by 2,000 stadia (about 550 by 370 km), until the city is a dot; label 'plain: about 550 km'. Icons pop as named: two springs (a red and a blue droplet), one elephant silhouette.",
+       "reuse": "richat_m scene 5 (Plato's rings drawn) for the city plan"
+      },
+      {
+       "id": "s13",
+       "say": "And Socrates himself says the tale has a great advantage: it is fact, not fiction.",
+       "draw": "Dark panel: a standing figure 'Socrates' (bone) with a speech bubble; inside it two small cards pop in the order said, 'fact' (gold) and 'fiction' (dim, crossed). A small balance beam under them tips towards 'fact'."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:the turn, leaning in][tune:fall]But look at ^why it's told. [p:0.93][act:explaining, clear]Socrates had described an ^ideal city, and now longed to see it in action, the way you might long to see the animals in a painting ^move. [act:steady, explaining]So Critias sets that ideal city in ancient ^Athens, and gives it an enemy: a rich sea power, grown ^proud. [act:quiet, pointed][tune:fall]Atlantis is the ^villain of the piece.",
+      "[d:build][act:plain fact, a little weight][tune:fall]No older text has ever been found, in Egypt or in ^Greece. [act:wonder, slower]And the Critias breaks off ^mid-sentence, just as a great speech is about to ^begin. [gap:0.4][act:dry, a small smile][tune:fall]As far as we know, Plato never ^finished it."
+     ],
+     "shots": [
+      {
+       "id": "s14",
+       "say": "Socrates had described an ideal city, and now longed to see it in action, the way you might long to see the animals in a painting move.",
+       "draw": "A gilt picture frame draws itself (x 500..1280, y 200..640). Inside, three painted deer stand still on a painted meadow. On 'move', one by one they step out of the frame onto the panel floor and walk off to the right."
+      },
+      {
+       "id": "s15",
+       "say": "So Critias sets that ideal city in ancient Athens, and gives it an enemy: a rich sea power, grown proud. Atlantis is the villain of the piece.",
+       "draw": "Stage-like dark panel: left, a small walled hill town with a temple (ancient Athens, gold outline, a few citizen-soldiers); right, the ring city with ships and a crown hovering over it (lilac). A fleet of arrows draws from right to left; on 'villain', the crown cracks (strike) and the ring city tilts into a wave line."
+      },
+      {
+       "id": "s16",
+       "say": "No older text has ever been found, in Egypt or in Greece. And the Critias breaks off mid-sentence, just as a great speech is about to begin. As far as we know, Plato never finished it.",
+       "draw": "Timeline 1000 to 300 BCE along y 700: Plato's two scrolls sit at about 360 BCE (solid). To their left, an empty shelf of scroll outlines in lilac dashed style, each with a small '?', grouped 'Egypt' and 'Greece'. Then the camera moves up to the Critias scroll: lines of script write themselves (draw) and the last line stops halfway; a quill lifts and hangs; label at the stop 'breaks off' (amber, 28). The tag line rides on this panel, the scroll glowing warmly."
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:aside][act:a one-line landing, warm][tune:fall]Our only witness is a ^storyteller, and a brilliant one."
+     ],
+     "shots": [
+      {
+       "id": "s17",
+       "say": "Our only witness is a storyteller, and a brilliant one.",
+       "draw": "Return to the s5 room: Plato at his table, the two scrolls glowing warmly; a slightly wider cam. No new label.",
+       "reuse": "alias of s5"
+      }
+     ]
+    }
+   ],
+   "words": 264
+  },
+  {
+   "title": "A date at the end of the ice",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:build][act:conspiratorial, drawing closer][tune:fall]Now, the ^date. [p:0.93][act:careful, precise]The priests put the war nine thousand years before Solon's ^visit: about {9600|ninety-six hundred} BCE. [act:a quiet aside][tune:fall]Nine thousand: a big, ^round number@count."
+     ],
+     "shots": [
+      {
+       "id": "s18",
+       "say": "The priests put the war nine thousand years before Solon's visit: about 9600 BCE. Nine thousand: a big, round number.",
+       "draw": "Timeline 11,000 BCE to 1 CE across x 140..1640 at y 560 (ticks every 2,000 years). Solon figure at about 590 BCE; an amber arc draws back 9,000 years to a dot at 9600 BCE, label 'Plato's date' (amber). '9,000' rises on the arc; on 'round number' its three zeros glow.",
+       "reuse": "atlantis_m scene 4 (coin: Solon and the 9,000-year arc)"
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][sfx:shimmer][act:the evidence, steady and clear]And yet it lands somewhere ^strange. [p:0.93][act:explaining, a simple picture]Greenland's ice piles up year on year, like pages in a ^diary, and each page records@verb that year's ^weather. [act:precise, steady]Counting the pages, scientists date the end of the last Ice Age cold snap to about {9700|ninety-seven hundred} BCE, give or take a ^century. [act:genuinely intrigued, slower][tune:fall]Plato's date sits right at the edge of that ^margin."
+     ],
+     "shots": [
+      {
+       "id": "s19",
+       "say": "Greenland's ice piles up year on year, like pages in a diary, and each page records that year's weather.",
+       "draw": "Section: the Greenland ice sheet in profile, a drill tower on top; a core lifts out and swings horizontal across the frame. Its annual layers (alternating light and dark bands, about 60 visible) draw one after another like turning pages; a magnifier ring over a few bands, label 'one year' (cyan)."
+      },
+      {
+       "id": "s20",
+       "say": "Counting the pages, scientists date the end of the last Ice Age cold snap to about 9700 BCE, give or take a century. Plato's date sits right at the edge of that margin.",
+       "draw": "Back on the s18 timeline, zoomed to 10,000 to 9,400 BCE. A blue dot at 9700 BCE, label 'cold snap ends' (cyan); a translucent blue band from 9799 to 9601 BCE (the 99-year counting error). Plato's amber dot at 9600 sits just at the band's right edge; a small bracket between the dots, '100 years'.",
+       "reuse": "alias of s18, new cam"
+      }
+     ]
+    },
+    {
+     "role": "cost",
+     "lines": [
+      "[d:wonder][act:storytelling, spacious][tune:fall]And the seas ^were rising. [p:0.93][act:explaining, a sense of scale]At the coldest point of the Ice Age, so much water was locked in ice that the sea stood more than a hundred and twenty metres ^lower: about the height of a forty-storey ^tower. [act:tracing the map, wonder][tune:level]Britain was joined to ^Europe; Java to ^Borneo. [act:vivid, gathering pace][tune:fall]Then the melt took it all ^back, at times fourteen to eighteen metres in three hundred and fifty ^years.",
+      "[act:tender wonder][tune:fall]And people lived on those coasts: off Israel, a village with seven standing stones around a spring now lies ten metres ^down."
+     ],
+     "shots": [
+      {
+       "id": "s21",
+       "say": "At the coldest point of the Ice Age, so much water was locked in ice that the sea stood more than a hundred and twenty metres lower: about the height of a forty-storey tower.",
+       "draw": "Coastal cross-section, 16:9: land sloping down left to right, today's sea line dashed. Arrows of water lift from the sea into an ice sheet that grows on the land at right; the sea surface drops to 120 m below today (fill down), dimension '120 m'; a forty-storey tower (40 rows of lit windows) beside it for scale. The exposed shelf tints amber, label 'dry land'.",
+       "reuse": "drowned_m scene 4 (ice: sea 120 m lower, ice sheet, 40-storey tower), redrawn landscape"
+      },
+      {
+       "id": "s22",
+       "say": "Britain was joined to Europe; Java to Borneo.",
+       "draw": "World map View(-15, 125, -15, 62) in x 90..1690: exposed shelves draw as amber dashed shapes in the order said, the North Sea land joining Britain to Europe, then Sundaland joining Java to Borneo. Small labels 'Britain', 'Java', 'Borneo' only.",
+       "reuse": "drowned-coasts shot 1 map + drowned_m mapadd (dogger, sunda polygons)"
+      },
+      {
+       "id": "s23",
+       "say": "Then the melt took it all back, at times fourteen to eighteen metres in three hundred and fifty years.",
+       "draw": "Sea-level curve, years ago 22,000 to today on x, metres 0 to 130 below today on y (points as in drowned_m: 125 m down at 22 ka, 120 at 19 ka, 105 at 16 ka, 95 at 14.6 ka, 78 at 14.3 ka, 60 at 12 ka, 40 at 10 ka, 18 at 8 ka, 6 at 7 ka, 0 today). The curve draws itself (2.4 s); the 14.6 to 14.3 ka segment thickens in amber, label '14 to 18 m in 350 years'. A small amber tick at about 11,600 years ago marks 'Plato's date' on the rising curve (no metre value given).",
+       "reuse": "drowned_m beat 2 pulse curve"
+      },
+      {
+       "id": "s24",
+       "say": "And people lived on those coasts: off Israel, a village with seven standing stones around a spring now lies ten metres down.",
+       "draw": "Iso model: seven standing stones in a ring around a spring well, a diver for scale, the water surface 10 m above with a dimension '10 m'; label 'Atlit Yam, about 8,500 years old'.",
+       "reuse": "drowned-coasts shot 2 (Atlit Yam village iso) via inset, s 0.8"
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:the turn, fair][tune:fall]So Plato's date lands on a real flood of ^seawater. [act:plain, firm][tune:fall]But ^not on a real empire. [p:0.93][act:widening the lens, measured]Around {9600|ninety-six hundred} BCE, people everywhere worked ^stone, not metal. [act:plain, explaining]Fully tamed crops were still about a thousand years ^away; bronze, some ^six thousand. [act:wry, a small smile][tune:fall]And Atlantis keeps ^triremes in its docks: the warships of Plato's ^own day.",
+      "[d:aside][act:a one-line landing, quiet][tune:fall]The rising sea is ^real. [act:dry, warm][tune:fall]The fleet is ^Plato's."
+     ],
+     "shots": [
+      {
+       "id": "s25",
+       "say": "Around 9600 BCE, people everywhere worked stone, not metal. Fully tamed crops were still about a thousand years away; bronze, some six thousand.",
+       "draw": "Timeline 10,000 BCE to 1 CE (scale of s18). At 9600 BCE a flint blade glyph pops (bone). Then, as said: a wheat-ear glyph at about 8500 BCE with a bracket 'about 1,000 years', a bronze axe glyph at about 3300 BCE with a bracket 'about 6,000 years'. Over 9600 BCE a lilac dashed ghost of bronze walls and a crown fades in and is struck through."
+      },
+      {
+       "id": "s26",
+       "say": "And Atlantis keeps triremes in its docks: the warships of Plato's own day. The rising sea is real. The fleet is Plato's.",
+       "draw": "A trireme side-on (three banks of oars as ticks, a ram at the bow) slides in at y 480; on the same timeline its era band (about 500 to 300 BCE) fills amber at the far right beside Plato's 360 BCE pin; a dashed arrow joins them, label 'trireme'. On the tag, the s23 sea-level curve glows blue in the lower left (solid), while the trireme turns to a lilac dashed outline (claimed)."
+      }
+     ]
+    }
+   ],
+   "words": 233
+  },
+  {
+   "title": "No room on the sea floor",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:storytelling, fair and warm]In {1882|eighteen eighty-two}, an American politician, Ignatius ^Donnelly, wrote the book that launched the modern ^search. [act:reporting his claim, with respect]Ships lowering weighted lines had found a great ^ridge down the middle of the Atlantic, its peaks breaking the surface as the ^Azores. [act:giving him his due, generous][tune:fall]Donnelly read@past it as the drowned spine of ^Atlantis. [act:fair][tune:fall]Back then, it wasn't a silly ^guess."
+     ],
+     "shots": [
+      {
+       "id": "s27",
+       "say": "In 1882, an American politician, Ignatius Donnelly, wrote the book that launched the modern search. Ships lowering weighted lines had found a great ridge down the middle of the Atlantic, its peaks breaking the surface as the Azores.",
+       "draw": "Ocean section across the North Atlantic, America at left, Europe and Africa at right; at top left a small book glyph opens beside a frock-coated figure, label 'Donnelly, 1882'. A sailing ship crosses left to right dropping a weighted line at 8 stations; each sounding leaves a dot on the floor, and the dots join into a profile with a broad rise in the middle; two peaks break the surface, label 'Azores'."
+      },
+      {
+       "id": "s28",
+       "say": "Donnelly read it as the drowned spine of Atlantis. Back then, it wasn't a silly guess.",
+       "draw": "Same panel: the central rise fills with a lilac translucent continent shape (claimed style), label 'Atlantis?' (lilac); the ship's sounding dots glow (the soundings were real)."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:explaining, clear and friendly]Then ships mapped that floor with ^sound. [p:0.93][act:explaining, a simple picture]A ping goes down, and the ^echo is timed, like shouting into a well and counting until it answers. [act:vivid, a little wonder][tune:fall]Ping by ping, a map appears: one long ridge, snaking down the whole ^Atlantic. [act:the evidence, crisp][tune:fall]In {1968|nineteen sixty-eight}, a drilling ship sampled the floor itself: young rock at the ^ridge, older and older on ^either side."
+     ],
+     "shots": [
+      {
+       "id": "s29",
+       "say": "Then ships mapped that floor with sound. A ping goes down, and the echo is timed, like shouting into a well and counting until it answers.",
+       "draw": "Same ocean section, the ship now a steamer. Cyan sound arcs expand downwards, bounce and return; a small stopwatch glyph ticks per ping. Top left inset: a person shouting into a well, an echo arc coming back. Then rapid pings redraw the floor profile in fine detail, the ridge rugged with a central valley."
+      },
+      {
+       "id": "s30",
+       "say": "Ping by ping, a map appears: one long ridge, snaking down the whole Atlantic.",
+       "draw": "Map View(-80, 20, -55, 65) of the Atlantic in x 90..1690: the Mid-Atlantic Ridge draws itself as a bright line from Iceland to the far south, its S-bend following the coasts on both sides; label 'Mid-Atlantic Ridge'."
+      },
+      {
+       "id": "s31",
+       "say": "In 1968, a drilling ship sampled the floor itself: young rock at the ridge, older and older on either side.",
+       "draw": "Section across the South Atlantic ridge: a drilling ship visits 6 stations, 3 on each side; at each, a core drops and a colour tag pops, pale near the ridge, darker further out; labels only 'young' at the ridge and 'older' at both ends. Mirror symmetry is visible."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:the turn, lean in][tune:fall]The ridge is ^not a sunken land. [sfx:hit][act:telling it straight, steady]It's where new sea floor is ^born. [p:0.93][act:explaining, a simple picture]Lava wells up, cools into fresh rock, and is pushed aside, like two conveyor belts running ^apart, at about two and a half centimetres a year, a little slower than your ^fingernails grow. [p:0.93][act:doing the sum, light]Since Plato's date, the Atlantic has widened by about ^three hundred metres."
+     ],
+     "shots": [
+      {
+       "id": "s32",
+       "say": "The ridge is not a sunken land. It's where new sea floor is born. Lava wells up, cools into fresh rock, and is pushed aside, like two conveyor belts running apart, at about two and a half centimetres a year, a little slower than your fingernails grow.",
+       "draw": "Cross-section at the ridge: a red magma glow rises in a central slot, new crust blocks pop either side and slide outwards on two amber conveyor-belt arrows; symmetric stripes of alternating shades accumulate outwards. The lilac continent of s28 dissolves. On 'fingernails', a small inset: a ruler 0 to 5 cm, an amber bar growing to 2.5 cm ('sea floor') beside a fingertip whose nail grows a little further, to about 4 cm ('nail'); label 'a year'.",
+       "reuse": "atlantis_m scene 3 (ocean: ridge, stripes, arrows), redrawn landscape"
+      },
+      {
+       "id": "s33",
+       "say": "Since Plato's date, the Atlantic has widened by about three hundred metres.",
+       "draw": "Chart: a horizontal bar grows from 0 to 290 m (2.5 cm a year for about 11,600 years) over three football pitches drawn to the same scale (about 100 m each); label 'about 300 m'; a tiny person at the start for scale."
+      }
+     ]
+    },
+    {
+     "role": "cost",
+     "lines": [
+      "[d:build][act:explaining, patient][tune:fall]And continents don't ^sink. [p:0.93][act:explaining, a simple picture]Continental rock is light, and about forty kilometres ^thick; ocean floor is heavy basalt, about ^seven. [act:explaining, clear]Both float on the hot rock below, but the thick, light one rides high, like a thick block of wood beside a thin ^plank. [act:plain, firm][tune:fall]Beyond Gibraltar, the floor is ocean crust, four to five kilometres down, with no room to ^hide a continent."
+     ],
+     "shots": [
+      {
+       "id": "s34",
+       "say": "Continental rock is light, and about forty kilometres thick; ocean floor is heavy basalt, about seven. Both float on the hot rock below, but the thick, light one rides high, like a thick block of wood beside a thin plank.",
+       "draw": "Crust section to scale (10 units = 1 km): a continental block 41 km thick (tan) beside oceanic crust 7 km thick (dark grey), both resting on an orange mantle band; dimension lines '40 km' and '7 km' draw as named; the continent's top stands high, the ocean crust's low, water above it. Top right inset: a tub of water with a thick wooden block floating high and a thin plank floating low, bobbing; dashed links to each crust."
+      },
+      {
+       "id": "s35",
+       "say": "Beyond Gibraltar, the floor is ocean crust, four to five kilometres down, with no room to hide a continent.",
+       "draw": "Section westwards from Gibraltar: short shelf, steep slope, abyssal floor at 4 to 5 km (dimension), ocean crust below. A lilac dashed continent outline tries to fit under the water and is struck through.",
+       "reuse": "atlantis shot 3 (section: the Atlantic 4 to 5 km deep, young volcanic crust)"
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:the turn, intrigued][tune:fall]And yet, right outside the Strait, there ^is a drowned island: ^Spartel Bank. [p:0.93][act:precise, vivid]At the Ice Age low, it stood above the waves, about six and a half kilometres ^long, on a coast of great earthquakes and ^tsunamis. [act:the strongest case, fair]A thick layer of churned-up mud, the kind great quakes can leave, dates to about twelve thousand years ^ago.",
+      "[sfx:hit][p:0.93][act:the catch, plain]But rising seas alone had cut it to wave-swept rocks by about thirteen thousand years ago, unless earthquakes dropped it by tens of ^metres. [act:reporting him, fair]The geologist who mapped it says anyone living there would probably have been simple ^fishermen, not a Bronze Age ^empire."
+     ],
+     "shots": [
+      {
+       "id": "s36",
+       "say": "And yet, right outside the Strait, there is a drowned island: Spartel Bank.",
+       "draw": "Map View(-8.5, -4.5, 35.0, 37.0): Spain and Morocco and the Strait; pillar glyphs either side; pin 'Spartel Bank' (-6.0, 35.9) just west of the Strait; an amber arrow from the pillars outwards. Scale 20 km."
+      },
+      {
+       "id": "s37",
+       "say": "At the Ice Age low, it stood above the waves, about six and a half kilometres long, on a coast of great earthquakes and tsunamis. A thick layer of churned-up mud, the kind great quakes can leave, dates to about twelve thousand years ago.",
+       "draw": "Bathymetric plan of the bank (contours, multibeam look): with the sea 130 m down the island is dry, 6.5 by 4 km (dimension '6.5 km'). On 'earthquakes', a seismograph wiggle draws along the top and a tsunami wave line runs across. At right, a sea-floor core with one unusually thick coarse layer highlighted amber, label 'about 12,000 years ago'."
+      },
+      {
+       "id": "s38",
+       "say": "But rising seas alone had cut it to wave-swept rocks by about thirteen thousand years ago, unless earthquakes dropped it by tens of metres.",
+       "draw": "Same bathymetry: the waterline climbs in steps (120, 100, 90, 80 m below today) and the island shrinks to scattered islets with breaking-wave marks; chip 'about 13,000 years ago'. Then a lilac dashed larger outline appears, the island if the floor had dropped about 40 m since then, label 'if quakes dropped it'.",
+       "reuse": "alias of s37, new cam"
+      },
+      {
+       "id": "s39",
+       "say": "The geologist who mapped it says anyone living there would probably have been simple fishermen, not a Bronze Age empire.",
+       "draw": "On the islets, a small boat with two figures and a net (gold, solid); beside it the ring city of s1 as a lilac ghost that fades and is struck through."
+      }
+     ]
+    }
+   ],
+   "words": 339
+  },
+  {
+   "title": "Three places on the map",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:build][act:brisk, rolling up sleeves][tune:fall]Other searchers looked ^elsewhere. [act:inviting, warm]Three favourite places. [act:brisk][tune:fall]Let's ask the ^rock."
+     ],
+     "shots": [
+      {
+       "id": "s40",
+       "say": "Other searchers looked elsewhere. Three favourite places. Let's ask the rock.",
+       "draw": "Return to the s4 map: the Spartel pin dims; the other three brighten one after another and a small hammer glyph taps each (0.5 s apart).",
+       "reuse": "alias of s4"
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:calm][act:wonder, setting the scene]First, the Eye of the ^Sahara, in Mauritania: rings of rock forty kilometres across, staring up at ^space. [act:ticking them off, fair][tune:level]At first glance it fits: rings, the Atlantic side of Africa, mountains to the ^north. [p:0.93][act:measured, precise]But Plato's whole city was about five kilometres across: the Eye is ^eight times too big, and hundreds of kilometres from the ^sea.",
+      "[p:0.93][act:explaining, a simple picture]Its rings are rock layers, pushed up into a dome about a hundred million years ago and shaved flat by the ^wind@air, like a stack of blankets sliced across the ^top. [act:dry, affectionate][tune:fall]A natural blister, sanded ^down."
+     ],
+     "shots": [
+      {
+       "id": "s41",
+       "say": "First, the Eye of the Sahara, in Mauritania: rings of rock forty kilometres across, staring up at space.",
+       "draw": "Iso model of the Eye (Richat Structure): concentric rings of hard rock, slow spin, starry sky above as if seen from orbit; label 'the Eye, 40 km across' (amber).",
+       "reuse": "richat shot 0 (f04.richat iso eye) via inset, s 0.8"
+      },
+      {
+       "id": "s42",
+       "say": "At first glance it fits: rings, the Atlantic side of Africa, mountains to the north.",
+       "draw": "Map View(-18, -2, 15, 36.5) in landscape: three green ticks pop beside the Eye, the Atlantic coast and the Atlas mountains as each is named.",
+       "reuse": "richat shot 1 map + richat_m mapadd (ticks)"
+      },
+      {
+       "id": "s43",
+       "say": "But Plato's whole city was about five kilometres across: the Eye is eight times too big, and hundreds of kilometres from the sea.",
+       "draw": "The Eye's three rings in plan (40 km); eight of Plato's ring cities (5 km each) line up edge to edge across its diameter, one every 0.3 s; dimension '40 km' below, '5 km' over the first. Then a profile strip below: the sea at left, land rising to a plateau, the Eye on top, an arrow 'hundreds of km'.",
+       "reuse": "richat_m scene 3 (eight cities across the Eye; far from the sea)"
+      },
+      {
+       "id": "s44",
+       "say": "Its rings are rock layers, pushed up into a dome about a hundred million years ago and shaved flat by the wind, like a stack of blankets sliced across the top. A natural blister, sanded down.",
+       "draw": "Cross-section: flat rock layers bend up into a dome (fill from below, arrow 'about 100 million years ago'); wind arrows sweep across and shave the top flat (the lost dome dashed); the cut edges project up into rings seen from above (ellipses draw).",
+       "reuse": "richat_m scene 4 (the dome cut open, wind, rings in plan)"
+      }
+     ]
+    },
+    {
+     "role": "cost",
+     "lines": [
+      "[d:build][act:moving on, vivid][tune:fall]Second, ^Bimini, in the Bahamas: half a mile of squared stones, found in {1968|nineteen sixty-eight}, the very year the psychic Edgar Cayce had said Atlantis would ^rise. [act:fair, conceding][tune:fall]And those banks really ^were dry land in the Ice Age.",
+      "[p:0.93][act:the evidence, crisp]But it's beachrock: beach sand glued by lime, which cracks into squares by itself, like mud drying in a ^puddle. [act:precise, steady]Cores show the layers running on from block to block, and its shells are about three and a half thousand years ^old. [act:dry, warm][tune:fall]The road is younger than the ^pyramids."
+     ],
+     "shots": [
+      {
+       "id": "s45",
+       "say": "Second, Bimini, in the Bahamas: half a mile of squared stones, found in 1968, the very year the psychic Edgar Cayce had said Atlantis would rise. And those banks really were dry land in the Ice Age.",
+       "draw": "Iso model: a line of flat squared blocks under clear water (5.5 m), a diver for scale; two small chips pop, '1940: a prediction for 1968' then '1968: found'. On the last sentence, the water drains (fill down) to show the bank dry with two Ice Age figures walking on it, then returns.",
+       "reuse": "bimini shot 0 (iso road) + bimini_m diver"
+      },
+      {
+       "id": "s46",
+       "say": "But it's beachrock: beach sand glued by lime, which cracks into squares by itself, like mud drying in a puddle.",
+       "draw": "Left: a beach profile with a tide line; sand grains (dots) bind into a slab at the waterline. Right: a puddle drying, its cracks drawing themselves into polygons; the slab cracks into squares with the same pattern."
+      },
+      {
+       "id": "s47",
+       "say": "Cores show the layers running on from block to block, and its shells are about three and a half thousand years old. The road is younger than the pyramids.",
+       "draw": "Four blocks side by side, four cores drawn into them; inside, the same tilted layers continue from block to block (gold line). Then a 'years ago' timeline 12,000 to today: Ice Age end at 11,700 (cyan), a pyramid glyph at about 4,500, the shells at about 3,500 (gold dot, 'shells'), and a short gold arrow towards today for the younger cement (no number).",
+       "reuse": "bimini shot 2 (slab with oriented cores) + bimini shot 4 timeline"
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:the most beautiful candidate, warm]Third, the favourite of many ^scholars: Thera, today's Santorini. [act:vivid, telling it straight][tune:fall]Around {1600|sixteen hundred} BCE its volcano ^exploded. [p:0.93][act:painting it]It buried an olive tree alive under about sixty metres of ^pumice, and the town of ^Akrotiri under ash: houses@noun of two and three storeys, painted walls, ^drains. [act:fair, building their case][tune:level]Nearby on Crete lived the ^Minoans, a seafaring people with bull games, a little like the bull hunt in Plato's ^temple. [p:0.93][act:giving the believers their best card]A Greek seismologist even proposed a slip of ^ten: nine hundred years, not nine thousand, which lands near the ^eruption.",
+      "[d:build][act:the catch, careful and fair][tune:fall]But ^nothing in the text says which numbers to shrink, and Plato puts Atlantis ^outside the Pillars of Heracles. [act:plain]Crete's palaces carried on for generations after the ^eruption. [p:0.93][act:honest about the dates]Even its date is still ^argued, from about {1620|sixteen twenty} to about {1525|fifteen twenty-five} BCE. [act:a one-line landing, warm][tune:fall]A real catastrophe, perhaps a distant ^memory, but not Plato's ^island."
+     ],
+     "shots": [
+      {
+       "id": "s48",
+       "say": "Third, the favourite of many scholars: Thera, today's Santorini. Around 1600 BCE its volcano exploded.",
+       "draw": "Map of the Aegean View(21.8, 28.6, 34.4, 38.6): the Thera pin (red) erupts (glow, ash plumes rising); 'Crete' label, Knossos pin, dashed line 'over 100 km'.",
+       "reuse": "knossos_m volc map (f11: Knossos and Thera, eruption plumes) via inset"
+      },
+      {
+       "id": "s49",
+       "say": "It buried an olive tree alive under about sixty metres of pumice, and the town of Akrotiri under ash: houses of two and three storeys, painted walls, drains.",
+       "draw": "Left: section of the caldera wall, an olive tree in life position at the base, pumice layers piling over it to 60 m (dimension '60 m'), a 1.7 m person beside the tree for scale. Right: an iso cut-away of Akrotiri, houses of 2 and 3 storeys in grey ash, one wall with a painted frieze (blue and red bands), a drain line under the street."
+      },
+      {
+       "id": "s50",
+       "say": "Nearby on Crete lived the Minoans, a seafaring people with bull games, a little like the bull hunt in Plato's temple.",
+       "draw": "Two vignettes side by side: left, a Minoan bull-leaper over a bull (fresco style, ochre and blue, solid); right, ten tiny figures with staves and nooses round a bull inside a temple outline (Plato's bull hunt, lilac dashed: a story). A soft dashed line links them."
+      },
+      {
+       "id": "s51",
+       "say": "A Greek seismologist even proposed a slip of ten: nine hundred years, not nine thousand, which lands near the eruption.",
+       "draw": "The s18 timeline: Plato's amber dot at 9600 BCE; the '9,000' over the arc drops a zero (it rolls off) to '900', and the dot slides to about 1490 BCE (900 years before about 590 BCE), landing next to a red band 'Thera erupts' (about 1620 to 1525 BCE).",
+       "reuse": "alias of s18 with adds"
+      },
+      {
+       "id": "s52",
+       "say": "But nothing in the text says which numbers to shrink, and Plato puts Atlantis outside the Pillars of Heracles. Crete's palaces carried on for generations after the eruption.",
+       "draw": "Map View(-12, 30, 30, 42): the Pillars at Gibraltar far west, Plato's arrow pointing out into the Atlantic; Thera far east; a long bone-coloured line between them. Below, a short timeline 1700 to 1300 BCE: the eruption band and a gold bar 'Knossos' running well past it.",
+       "reuse": "knossos_m 'after' bar"
+      },
+      {
+       "id": "s53",
+       "say": "Even its date is still argued, from about 1620 to about 1525 BCE. A real catastrophe, perhaps a distant memory, but not Plato's island.",
+       "draw": "Timeline 1700 to 1450 BCE: an olive-branch glyph over a bar 1627 to 1600 BCE (olive green, 'olive tree'); a tree-ring glyph over a bar 1600 to 1525 BCE (amber, 'tree rings'); a lilac '?' between. On the last sentence, the s48 Thera map returns, its plume settling.",
+       "reuse": "alias of s48 for the last sentence"
+      }
+     ]
+    }
+   ],
+   "words": 329
+  },
+  {
+   "title": "The city that really sank",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:setting the scene, hushed]Now come back to Plato's ^own lifetime. [act:storytelling, vivid]Winter, {373|three seventy-three} BCE, on the Gulf of ^Corinth, less than a hundred and fifty kilometres from ^Athens. [act:telling it straight][tune:fall]The city of ^Helike, famous for its temple of ^Poseidon. [sfx:hit][act:low, steady]At night, an ^earthquake. [act:low, steady][tune:fall]Then the ^sea."
+     ],
+     "shots": [
+      {
+       "id": "s54",
+       "say": "Now come back to Plato's own lifetime. Winter, 373 BCE, on the Gulf of Corinth, less than a hundred and fifty kilometres from Athens.",
+       "draw": "Map View(21.0, 24.5, 37.4, 38.8): the Gulf of Corinth; pins Helike (22.12, 38.22) and Athens (23.73, 37.98); a bone line between them, label 'under 150 km'. Winter night: stars over the map."
+      },
+      {
+       "id": "s55",
+       "say": "The city of Helike, famous for its temple of Poseidon. At night, an earthquake. Then the sea.",
+       "draw": "Night section of the shore: flat-roofed houses and a columned temple on a coastal plain, the gulf at right. On 'earthquake' the ground line jitters and drops; on 'the sea' a wave line rises and rolls over the town, and the water settles over it. No figures in the water.",
+       "reuse": "atlantis_m beat 4 helike adds (houses, wave)"
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:reporting the source, careful]A writer named ^Heracleides, very likely a member of Plato's own school, says it happened by night, in his time, and the whole district ^vanished. [act:gentle, with care][tune:fall]Two thousand men were sent, and could not recover the ^dead. [p:0.93][act:wonder, slower]A century and a half later, ferrymen said a bronze Poseidon still stood under the ^water."
+     ],
+     "shots": [
+      {
+       "id": "s56",
+       "say": "A writer named Heracleides, very likely a member of Plato's own school, says it happened by night, in his time, and the whole district vanished.",
+       "draw": "Dark panel: a standing figure with a scroll (Heracleides) beside a seated figure (Plato) under a lamp, a thin dashed gold line between them (the Academy, hedged). The scroll's lines write themselves."
+      },
+      {
+       "id": "s57",
+       "say": "Two thousand men were sent, and could not recover the dead.",
+       "draw": "The s55 shore at grey dawn, the new waterline far inland: a long line of 20 small groups of standing figures on the shore, facing the still water (each group = 100 men), label '2,000 men'. Nothing drawn under the water. Slow, quiet."
+      },
+      {
+       "id": "s58",
+       "say": "A century and a half later, ferrymen said a bronze Poseidon still stood under the water.",
+       "draw": "Water surface across the panel; a small ferry with a ferryman crossing; below, a standing bronze statue silhouette (green-bronze) holding a sea-horse shape, softly lit; chip 'about 150 years later'."
+      }
+     ]
+    },
+    {
+     "role": "cost",
+     "lines": [
+      "[d:build][act:explaining, clear]And Helike has been ^found. [p:0.93][act:explaining, a simple picture]Between {1991|nineteen ninety-one} and {2002|two thousand and two}, a team drilled ninety-nine boreholes into the river delta, like pushing straws into a layer cake to read@present its ^layers. [act:the payoff, delighted][tune:fall]Ruins lay some three metres down, in the mud of an old ^lagoon, under what is dry land ^today."
+     ],
+     "shots": [
+      {
+       "id": "s59",
+       "say": "Between 1991 and 2002, a team drilled ninety-nine boreholes into the river delta, like pushing straws into a layer cake to read its layers.",
+       "draw": "Section of the delta: layered sediments under fields. Thin borehole lines drop one after another; at top right a 10 by 10 grid of small dots fills to 99, one per borehole. Small inset: a layer cake with a straw drawn out showing its layers."
+      },
+      {
+       "id": "s60",
+       "say": "Ruins lay some three metres down, in the mud of an old lagoon, under what is dry land today.",
+       "draw": "Same section, cam closer: a grey-blue lagoon-mud layer about 3 m down holding wall stubs and roof tiles of a Classical building; a 1.7 m person on the surface for scale and a dimension '3 m'; today's fields and an olive tree on top."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:the reveal, lean in][tune:fall]A city of Poseidon, drowned in a single night, while Plato was in his ^fifties. [act:a knowing nod][tune:fall]About a dozen years later, he wrote ^Atlantis. [p:0.93][act:fair, careful]Some scholars think Helike shaped the ^ending of his story. [act:honest][tune:fall]We can't ^know. [act:quiet, pointed][tune:fall]But he never needed nine thousand years to picture a ^drowning."
+     ],
+     "shots": [
+      {
+       "id": "s61",
+       "say": "A city of Poseidon, drowned in a single night, while Plato was in his fifties. About a dozen years later, he wrote Atlantis.",
+       "draw": "Timeline 440 to 330 BCE: Plato's life bar (about 428 to 348 BCE, amber); a blue wave marker at 373 BCE 'Helike'; a gold scroll marker at about 360 BCE 'Timaeus, Critias'; a bracket between them 'about 13 years'. A small Plato figure rides the bar to 373 and turns towards the wave.",
+       "reuse": "atlantis_m beat 4 helike (zoom on Plato's century)"
+      },
+      {
+       "id": "s62",
+       "say": "Some scholars think Helike shaped the ending of his story. We can't know. But he never needed nine thousand years to picture a drowning.",
+       "draw": "Two images side by side: left, the Helike wave of s55 (solid, known); right, the ring city sinking from s3 (lilac, claimed); a dashed arrow from left to right with a '?' at its middle."
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:aside][act:warm, reflective][tune:fall]Maybe that's why it still ^pulls. [act:tender, spacious]It's an old warning about ^pride, wrapped around something ^true: coasts really did drown, and cities really did fall to the ^sea."
+     ],
+     "shots": [
+      {
+       "id": "s63",
+       "say": "Maybe that's why it still pulls. It's an old warning about pride, wrapped around something true: coasts really did drown, and cities really did fall to the sea.",
+       "draw": "Night sea at a low coast: under the water, a dashed old shoreline and the faint stones of a drowned settlement (dim blue, known); on the surface, the reflection of a ring city shimmers (lilac, claimed) and breaks up in the waves. One lamp on the shore."
+      }
+     ]
+    }
+   ],
+   "words": 221
+  },
+  {
+   "title": "The weighing",
+   "beats": [
+    {
+     "role": "weigh",
+     "lines": [
+      "[d:verdict][act:calm, laying it out]So, the whole ^file. [act:steady authority, counting][tune:level]Established: Plato wrote the story around {360|three sixty} BCE, and his is the only ancient ^source. [act:steady][tune:level]Established too: the Ice Age seas rose more than a hundred and twenty metres and drowned coasts where people ^lived; Helike sank in {373|three seventy-three} BCE; Thera exploded some twelve centuries ^before. [act:fair, even][tune:fall]Plato's date beside the end of the ice is a coincidence worth ^noticing: a clue to check, not an ^answer. [p:0.93][act:honest, open][tune:fall]Still open: what inspired Plato, whether Helike, old tales of Thera, or his own ^imagination.",
+      "[p:0.95][act:weighing it, calm authority][tune:rise]A real island ^empire beyond Gibraltar, sunk in a ^day and a night around {9600|ninety-six hundred} BCE? [act:the verdict, level-headed][tune:fall]*Ruled ^out*. [act:fair-minded, even]The sea floor, the rocks and the digs all point the same ^way. [act:plain, gentle][tune:rise]And the Eye, the Bimini stones and Spartel Bank, as Plato's ^city? [act:plain][tune:fall]^Natural, too ^young, or too ^small."
+     ],
+     "shots": [
+      {
+       "id": "s64",
+       "say": "So, the whole file. Established: Plato wrote the story around 360 BCE, and his is the only ancient source. Established too: the Ice Age seas rose more than a hundred and twenty metres and drowned coasts where people lived; Helike sank in 373 BCE; Thera exploded some twelve centuries before.",
+       "draw": "A long ledger panel with three columns drawn as frames: gold 'established', lilac 'open', red 'ruled out'. Into 'established' pop, as named: Plato's scroll '360 BCE', a sea-level curve icon '120 m+', a wave over houses 'Helike, 373 BCE', a volcano 'Thera, about 1600 BCE'."
+      },
+      {
+       "id": "s65",
+       "say": "Plato's date beside the end of the ice is a coincidence worth noticing: a clue to check, not an answer. Still open: what inspired Plato, whether Helike, old tales of Thera, or his own imagination.",
+       "draw": "Into 'open': the two dots 9600 and 9700 BCE side by side with a magnifier; then three small icons (the Helike wave, the Thera volcano, a thought-cloud) with dashed arrows converging on Plato's scroll, a lilac '?' over them."
+      },
+      {
+       "id": "s66",
+       "say": "A real island empire beyond Gibraltar, sunk in a day and a night around 9600 BCE? Ruled out. The sea floor, the rocks and the digs all point the same way. And the Eye, the Bimini stones and Spartel Bank, as Plato's city? Natural, too young, or too small.",
+       "draw": "Into 'ruled out': the ring city icon '9600 BCE' beyond two pillars; on 'Ruled out' a red strike draws across it and the verdict chip 'Ruled out' pops under the column. Three small arrows (a ridge, rock layers, a borehole) point to the strike. Then three small icons line up under it as named: the Eye ('natural'), a beachrock block ('too young'), the Spartel islets ('too small')."
+      }
+     ]
+    },
+    {
+     "role": "test",
+     "lines": [
+      "[d:tension][act:open, genuinely curious][tune:fall]What would change our ^minds? [act:clear, practical][tune:level]A text about Atlantis ^older than Plato. [act:building][tune:level]Or, on a drowned Ice Age shore, a city with metal, ships or ^writing, securely dated before the ice ^ended. [act:practical, even][tune:fall]Or walls on Spartel Bank, where sonar maps have so far shown ^none. [act:quiet, a call to adventure][tune:fall]Those shores are real, and almost ^unsearched."
+     ],
+     "shots": [
+      {
+       "id": "s67",
+       "say": "What would change our minds? A text about Atlantis older than Plato.",
+       "draw": "Dark panel: a timeline end-cap at 360 BCE; to its left a lilac dashed scroll outline at an earlier date, a magnifier sweeping over it (wanted, not found)."
+      },
+      {
+       "id": "s68",
+       "say": "Or, on a drowned Ice Age shore, a city with metal, ships or writing, securely dated before the ice ended. Or walls on Spartel Bank, where sonar maps have so far shown none. Those shores are real, and almost unsearched.",
+       "draw": "Drowned shelf section: a survey ship pings (cyan arcs), a diver descends, a core drops into the shelf mud. Three lilac dashed icons wait on the sea floor, a metal blade, a ship, a written tablet, with a chip 'before 9700 BCE'. On 'Spartel Bank', the ship's sonar fan sweeps a raised bank at right (label 'Spartel Bank'): only natural rock lights up, no walls. On the last sentence the patch lit by the diver's lamp is tiny against a long dark shelf.",
+       "reuse": "drowned_m scene 5 (dredge, boat) for the ship and figures"
+      }
+     ]
+    },
+    {
+     "role": "close",
+     "lines": [
+      "[d:tension][p:0.93][act:the last word, quiet wonder][tune:fall]The sea really did swallow ^coasts. [act:gentle, final][tune:fall]Plato gave them a ^city. [act:warm, inviting][tune:fall]Weigh it ^yourself."
+     ],
+     "shots": [
+      {
+       "id": "s69",
+       "say": "The sea really did swallow coasts. Plato gave them a city. Weigh it yourself.",
+       "draw": "The opening sea of s1 and s3 at dawn: a calm horizon, a faint drowned shoreline below the surface; for a moment the ring city's outline glimmers on the water and fades. Then the end card (verdict chip 'Ruled out').",
+       "reuse": "alias of the s1/s3 panel, new cam"
+      }
+     ]
+    }
+   ],
+   "words": 203
+  }
+ ],
+ "description": "One island empire, one ancient source. We follow Atlantis from Plato's Timaeus and Critias, written around 360 BCE, to the end of the Ice Age, the floor of the Atlantic, four places where people have looked for it, and a Greek city that really did sink in Plato's own lifetime.\n\nVerdict: Ruled out, for a real Atlantis as Plato describes it, with its date and its place. What is real, and still almost unsearched: the coasts the sea drowned as the ice melted, where people really lived. Weigh it yourself.\n\nChapters\n0:00 Where did Atlantis go?\nmm:ss The only witness\nmm:ss A date at the end of the ice\nmm:ss No room on the sea floor\nmm:ss Three places on the map\nmm:ss The city that really sank\nmm:ss The weighing\n\nSources\nPlato, Timaeus 17a-27b (esp. 19b-c, 20d-25d, 26c-e) and Critias 108e-121c, trans. B. Jowett (Oxford, 1892)\nWalker et al. 2009, Journal of Quaternary Science 24(1): 3-17, doi:10.1002/jqs.1227\nLambeck, Rouby, Purcell, Sun & Sambridge 2014, Sea level and global ice volumes from the Last Glacial Maximum to the Holocene, PNAS 111, doi:10.1073/pnas.1411762111\nDeschamps et al. 2012, Ice-sheet collapse and sea-level rise at the Bølling warming 14,600 years ago, Nature 483, doi:10.1038/nature10902\nGalili et al. 1993, Atlit-Yam, a prehistoric site on the sea floor off the Israeli coast (as cited in the drowned-coasts Short)\nLarson et al. 2014, Current perspectives and the future of domestication studies, PNAS 111, doi:10.1073/pnas.1323964111\nMorrison, Coates & Rankov 2000, The Athenian Trireme, 2nd ed., Cambridge University Press\nDonnelly 1882, Atlantis: The Antediluvian World, Harper & Brothers (Part I, 'The Testimony of the Sea')\nKious & Tilling 1996, This Dynamic Earth: The Story of Plate Tectonics, US Geological Survey\nMaxwell et al. 1970, Deep sea drilling in the South Atlantic (DSDP Leg 3, Glomar Challenger), Science 168\nWhite, McKenzie & O'Nions 1992, Journal of Geophysical Research 97(B13): 19683-19715, doi:10.1029/92JB01749\nChristensen & Mooney 1995, Seismic velocity structure and composition of the continental crust: a global view, Journal of Geophysical Research 100, doi:10.1029/95JB00259\nYaemsiri, Hou, Slining & He 2010, Journal of the European Academy of Dermatology and Venereology 24(4): 420-423, doi:10.1111/j.1468-3083.2009.03426.x\nCollina-Girard 2001, L'Atlantide devant le détroit de Gibraltar? Mythe et géologie, Comptes Rendus de l'Académie des Sciences, Série IIa, 333\nGutscher 2005, Destruction of Atlantis by a great earthquake and tsunami? A geological analysis of the Spartel Bank hypothesis, Geology 33(8): 685-688, doi:10.1130/G21597AR.1\nNature News, 18 July 2005, Seafloor survey buoys Atlantis claim\nMatton, Jébrak & Lee 2005, Resolving the Richat enigma, Geology 33(8): 665-668, doi:10.1130/G21542AR.1\nMatton & Jébrak 2014, The 'eye of Africa' (Richat dome, Mauritania), Journal of African Earth Sciences 97: 109-124, doi:10.1016/j.jafrearsci.2014.04.006\nAbdeina et al. 2024, How old is the Eye of Africa? Lithos, doi:10.1016/j.lithos.2024.107698\nMcKusick & Shinn 1980, Bahamian Atlantis reconsidered, Nature 287: 11-12, doi:10.1038/287011a0\nShinn 2004, A geologist's adventures with Bimini beachrock and Atlantis true believers, Skeptical Inquirer 28(1)\nShinn 2009, The mystique of beachrock, in Swart, Eberli & McKenzie (eds), Perspectives in Carbonate Geology, IAS Special Publication 41, Wiley-Blackwell\nBronk Ramsey et al. 2010, Radiocarbon-based chronology for dynastic Egypt, Science 328, doi:10.1126/science.1189395\nFriedrich et al. 2006, Santorini eruption radiocarbon dated to 1627-1600 B.C., Science 312: 548, doi:10.1126/science.1125087\nPearson et al. 2018, Annual radiocarbon record indicates 16th century BCE date for the Thera eruption, Science Advances 4(8): eaar8241, doi:10.1126/sciadv.aar8241\nDoumas 1983, Thera: Pompeii of the Ancient Aegean, Thames & Hudson; Hellenic Ministry of Culture, site description of Akrotiri\nFrost 1913, The Critias and Minoan Crete, Journal of Hellenic Studies 33\nGalanopoulos & Bacon 1969, Atlantis: The Truth Behind the Legend, Nelson; Finley 1969, review in The New York Review of Books, 22 May 1969\nStrabo, Geography 8.7.2, trans. H. L. Jones (Loeb)\nSoter & Katsonopoulou 2011, Submergence and uplift of settlements in the area of Helike, Greece, Geoarchaeology 26(4): 584-610, doi:10.1002/gea.20366\nGiovannini 1985, Peut-on démythifier l'Atlantide? Museum Helveticum\nO'Connor & Robertson, Heraclides of Pontus, MacTutor History of Mathematics (University of St Andrews)\nKraut, Plato, Stanford Encyclopedia of Philosophy (Plato c. 428/427 to 348/347 BCE); Encyclopaedia Britannica, Solon (c. 630 to c. 560 BCE)",
+ "sources": [
+  "Plato, Timaeus 17a-27b (esp. 19b-c, 20d-25d, 26c-e) and Critias 108e-121c, trans. B. Jowett (Oxford, 1892)",
+  "Walker et al. 2009, Journal of Quaternary Science 24(1): 3-17, doi:10.1002/jqs.1227",
+  "Lambeck, Rouby, Purcell, Sun & Sambridge 2014, Sea level and global ice volumes from the Last Glacial Maximum to the Holocene, PNAS 111, doi:10.1073/pnas.1411762111",
+  "Deschamps et al. 2012, Ice-sheet collapse and sea-level rise at the Bølling warming 14,600 years ago, Nature 483, doi:10.1038/nature10902",
+  "Galili et al. 1993, Atlit-Yam, a prehistoric site on the sea floor off the Israeli coast (as cited in the drowned-coasts Short)",
+  "Larson et al. 2014, Current perspectives and the future of domestication studies, PNAS 111, doi:10.1073/pnas.1323964111",
+  "Morrison, Coates & Rankov 2000, The Athenian Trireme, 2nd ed., Cambridge University Press",
+  "Donnelly 1882, Atlantis: The Antediluvian World, Harper & Brothers (Part I, 'The Testimony of the Sea')",
+  "Kious & Tilling 1996, This Dynamic Earth: The Story of Plate Tectonics, US Geological Survey",
+  "Maxwell et al. 1970, Deep sea drilling in the South Atlantic (DSDP Leg 3, Glomar Challenger), Science 168",
+  "White, McKenzie & O'Nions 1992, Journal of Geophysical Research 97(B13): 19683-19715, doi:10.1029/92JB01749",
+  "Christensen & Mooney 1995, Seismic velocity structure and composition of the continental crust: a global view, Journal of Geophysical Research 100, doi:10.1029/95JB00259",
+  "Yaemsiri, Hou, Slining & He 2010, Journal of the European Academy of Dermatology and Venereology 24(4): 420-423, doi:10.1111/j.1468-3083.2009.03426.x",
+  "Collina-Girard 2001, L'Atlantide devant le détroit de Gibraltar? Mythe et géologie, Comptes Rendus de l'Académie des Sciences, Série IIa, 333",
+  "Gutscher 2005, Destruction of Atlantis by a great earthquake and tsunami? A geological analysis of the Spartel Bank hypothesis, Geology 33(8): 685-688, doi:10.1130/G21597AR.1",
+  "Nature News, 18 July 2005, Seafloor survey buoys Atlantis claim",
+  "Matton, Jébrak & Lee 2005, Resolving the Richat enigma, Geology 33(8): 665-668, doi:10.1130/G21542AR.1",
+  "Matton & Jébrak 2014, The 'eye of Africa' (Richat dome, Mauritania), Journal of African Earth Sciences 97: 109-124, doi:10.1016/j.jafrearsci.2014.04.006",
+  "Abdeina et al. 2024, How old is the Eye of Africa? Lithos, doi:10.1016/j.lithos.2024.107698",
+  "McKusick & Shinn 1980, Bahamian Atlantis reconsidered, Nature 287: 11-12, doi:10.1038/287011a0",
+  "Shinn 2004, A geologist's adventures with Bimini beachrock and Atlantis true believers, Skeptical Inquirer 28(1)",
+  "Shinn 2009, The mystique of beachrock, in Swart, Eberli & McKenzie (eds), Perspectives in Carbonate Geology, IAS Special Publication 41, Wiley-Blackwell",
+  "Bronk Ramsey et al. 2010, Radiocarbon-based chronology for dynastic Egypt, Science 328, doi:10.1126/science.1189395",
+  "Friedrich et al. 2006, Santorini eruption radiocarbon dated to 1627-1600 B.C., Science 312: 548, doi:10.1126/science.1125087",
+  "Pearson et al. 2018, Annual radiocarbon record indicates 16th century BCE date for the Thera eruption, Science Advances 4(8): eaar8241, doi:10.1126/sciadv.aar8241",
+  "Doumas 1983, Thera: Pompeii of the Ancient Aegean, Thames & Hudson; Hellenic Ministry of Culture, site description of Akrotiri",
+  "Frost 1913, The Critias and Minoan Crete, Journal of Hellenic Studies 33",
+  "Galanopoulos & Bacon 1969, Atlantis: The Truth Behind the Legend, Nelson; Finley 1969, review in The New York Review of Books, 22 May 1969",
+  "Strabo, Geography 8.7.2, trans. H. L. Jones (Loeb)",
+  "Soter & Katsonopoulou 2011, Submergence and uplift of settlements in the area of Helike, Greece, Geoarchaeology 26(4): 584-610, doi:10.1002/gea.20366",
+  "Giovannini 1985, Peut-on démythifier l'Atlantide? Museum Helveticum",
+  "O'Connor & Robertson, Heraclides of Pontus, MacTutor History of Mathematics (University of St Andrews)",
+  "Kraut, Plato, Stanford Encyclopedia of Philosophy (Plato c. 428/427 to 348/347 BCE); Encyclopaedia Britannica, Solon (c. 630 to c. 560 BCE)"
+ ],
+ "facts_added": [
+  {
+   "fact": "Critias says the story reached him through a chain: Egyptian priests at Sais told Solon; it passed down Solon's circle and family until the elder Critias, nearly ninety, told it to the speaker, about ten.",
+   "source": "Plato, Timaeus 20d-21b, 21e (Jowett)"
+  },
+  {
+   "fact": "Atlantis lay 'in front of the straits ... called the Pillars of Heracles' and was 'larger than Libya and Asia put together'; it vanished 'in a single day and night of misfortune', leaving 'a shoal of mud'.",
+   "source": "Plato, Timaeus 24e-25d (Jowett)"
+  },
+  {
+   "fact": "Plato's city: central island 5 stadia across, rings 1, 2, 2, 3 and 3 stadia (27 stadia, about 5 km); a canal 300 feet wide and 50 stadia long; a plain 3,000 by 2,000 stadia (about 555 by 370 km at about 185 m per stadion); hot and cold springs; elephants; walls of brass, tin and orichalcum that 'flashed with the red light of orichalcum'; ten kings; 10,000 chariots; 1,200 ships; docks 'full of triremes'; the kings hunt bulls in Poseidon's temple 'without weapons but with staves and nooses'.",
+   "source": "Plato, Critias 113c-120c (Jowett); richat Short label (27 stadia, roughly 5 km)"
+  },
+  {
+   "fact": "Socrates says the tale 'has the very great advantage of being a fact and not a fiction'.",
+   "source": "Plato, Timaeus 26e (Jowett)"
+  },
+  {
+   "fact": "Socrates wants to see his ideal state 'in motion', like beautiful animals in a painting; Critias proposes to transfer that city 'to the world of reality' as ancient Athens.",
+   "source": "Plato, Timaeus 19b-c, 26c-d (Jowett)"
+  },
+  {
+   "fact": "The Critias breaks off mid-sentence ('he spake as follows'); Jowett notes the rest is lost; it is usually taken as unfinished, so the film hedges: 'as far as we know'.",
+   "source": "Plato, Critias 121c (Jowett)"
+  },
+  {
+   "fact": "Plato lived about 428/427 to 348/347 BCE (in his sixties around 360 BCE, in his fifties in 373 BCE); Solon about 630 to 560 BCE, about two centuries before the dialogues.",
+   "source": "Stanford Encyclopedia of Philosophy, 'Plato'; Encyclopaedia Britannica, 'Solon'"
+  },
+  {
+   "fact": "The base of the Holocene (end of the Younger Dryas cold snap) is dated by annual-layer counting in the NGRIP ice core to 11,700 years b2k (9700 BCE), with a maximum counting error of 99 years; Plato's 9600 BCE sits at the edge of that margin.",
+   "source": "Walker et al. 2009, doi:10.1002/jqs.1227"
+  },
+  {
+   "fact": "At the Last Glacial Maximum, ice-equivalent sea level was about 134 m below today, so 'more than 120 m' is safe; from about 16,500 to 7,000 years ago the sea rose about 120 m.",
+   "source": "Lambeck et al. 2014, doi:10.1073/pnas.1411762111"
+  },
+  {
+   "fact": "Fully domesticated cereals appear only about 10,500 years ago, about a thousand years after Plato's date.",
+   "source": "lost-civilization Short timeline label; Larson et al. 2014, doi:10.1073/pnas.1323964111"
+  },
+  {
+   "fact": "The trireme was the main warship of the 5th and 4th centuries BCE, Plato's own era.",
+   "source": "Morrison, Coates & Rankov 2000"
+  },
+  {
+   "fact": "In 1882 Ignatius Donnelly, an American politician (former US congressman for Minnesota), cited deep-sea soundings (Dolphin, Challenger and others) showing a great mid-Atlantic elevation reaching the surface at the Azores, and read it as the remains of Atlantis.",
+   "source": "Donnelly 1882, Part I, 'The Testimony of the Sea'"
+  },
+  {
+   "fact": "Spreading on the Mid-Atlantic Ridge averages about 2.5 cm a year; rocks are young at the crest and progressively older away from it, on both sides; Glomar Challenger's 1968 expedition crisscrossed the ridge and drilled it.",
+   "source": "Kious & Tilling 1996 (USGS); Maxwell et al. 1970, Science 168"
+  },
+  {
+   "fact": "Fingernails grow about 3.47 mm a month (about 4 cm a year), so the ridge spreads a little slower than fingernails grow.",
+   "source": "Yaemsiri et al. 2010, doi:10.1111/j.1468-3083.2009.03426.x"
+  },
+  {
+   "fact": "Widening since Plato's date: 2.5 cm a year x about 11,600 years = about 290 m ('about three hundred metres').",
+   "source": "Derived from Kious & Tilling 1996"
+  },
+  {
+   "fact": "Average continental crust is about 41 km thick; normal oceanic crust about 7.1 km.",
+   "source": "Christensen & Mooney 1995, doi:10.1029/95JB00259; White et al. 1992, doi:10.1029/92JB01749"
+  },
+  {
+   "fact": "Spartel Bank was first proposed as Atlantis by Collina-Girard (2001).",
+   "source": "Collina-Girard 2001; Gutscher 2005"
+  },
+  {
+   "fact": "At the glacial lowstand (130 m contour) Spartel was an island about 6.5 km long and 4 km wide; with sea-level rise alone it was reduced to wave-swept islets by 13 ka at the latest; only with about 40 m of tectonic subsidence since 12 ka could it have been about 5 by 2 km then. Great earthquakes (M 8 to 9) recur in the Gulf of Cadiz every 1.5 to 2 thousand years, and an unusually thick turbidite dated about 12 ka may record one.",
+   "source": "Gutscher 2005, doi:10.1130/G21597AR.1; Nature News 2005"
+  },
+  {
+   "fact": "Gutscher: 'If inhabited, it would have probably been simple fishermen and not a Bronze Age culture as described by Plato'; his sonar survey found no geometric structures.",
+   "source": "Nature News, 18 July 2005"
+  },
+  {
+   "fact": "The Richat dome was pushed up by an alkaline intrusion about 99 to 100 million years ago (Cretaceous), above earlier gabbros of about 230 to 200 million years ago.",
+   "source": "Matton & Jébrak 2014, doi:10.1016/j.jafrearsci.2014.04.006; Abdeina et al. 2024, doi:10.1016/j.lithos.2024.107698"
+  },
+  {
+   "fact": "The Bimini beachrock's shells are about 3,500 years old, younger than the Great Pyramid (Khufu's reign about 2600 to 2550 BCE).",
+   "source": "McKusick & Shinn 1980, doi:10.1038/287011a0; Bronk Ramsey et al. 2010, doi:10.1126/science.1189395"
+  },
+  {
+   "fact": "An olive tree on Thera was buried alive under a pumice layer about 60 m thick; wiggle-matching its 72 rings gives 1627 to 1600 BCE (95 per cent).",
+   "source": "Friedrich et al. 2006, doi:10.1126/science.1125087"
+  },
+  {
+   "fact": "Annual tree-ring radiocarbon allows a Thera date between about 1600 and 1525 BCE, closer to the archaeological estimate of about 1570 to 1500 BCE; the date is still debated.",
+   "source": "Pearson et al. 2018, doi:10.1126/sciadv.aar8241"
+  },
+  {
+   "fact": "Akrotiri: excavated from 1967 (Marinatos, then Doumas); multi-storey buildings, frescoes, a street drainage system, preserved under the eruption's ash and pumice.",
+   "source": "Doumas 1983; Hellenic Ministry of Culture site description"
+  },
+  {
+   "fact": "The Minoan Crete identification of Atlantis goes back to K. T. Frost (1913), hence 'the scholars' favourite'.",
+   "source": "Frost 1913, Journal of Hellenic Studies 33"
+  },
+  {
+   "fact": "The seismologist A. G. Galanopoulos argued that Plato's large numbers were misread by a factor of ten (900, not 9,000 years before Solon), placing Atlantis near the Thera eruption; M. I. Finley objected that nothing supports the correction and that the Pillars of Heracles are Gibraltar.",
+   "source": "Galanopoulos & Bacon 1969; Finley 1969, New York Review of Books"
+  },
+  {
+   "fact": "Helike was destroyed on a winter night in 373 BCE: the earthquake struck at night and the wave came with daylight; it was famous for its sanctuary of Poseidon Helikonios.",
+   "source": "Soter & Katsonopoulou 2011 (citing Diodorus 15.48, Pausanias 7.24), doi:10.1002/gea.20366"
+  },
+  {
+   "fact": "Heracleides: the submergence took place 'by night in his time'; 'this whole district together with the city was hidden from sight'; 2,000 men sent by the Achaeans could not recover the bodies. Eratosthenes, who saw the place, says ferrymen told of a bronze Poseidon standing in the strait (about 150 years after the event).",
+   "source": "Strabo 8.7.2 (Jones, Loeb)"
+  },
+  {
+   "fact": "Heraclides of Pontus attended Plato's Academy and was left in charge of it during Plato's third voyage to Sicily (about 360 BCE); Strabo's 'Heracleides' is usually identified with him, hence 'very likely'.",
+   "source": "MacTutor, Heraclides of Pontus"
+  },
+  {
+   "fact": "From 1991 to 2002 the Helike Project drilled 99 boreholes on the delta; Classical remains lie about 3 m below the surface, in sediments of an ancient lagoon, on what is now land.",
+   "source": "Soter & Katsonopoulou 2011, doi:10.1002/gea.20366"
+  },
+  {
+   "fact": "Helike lies under 150 km from Athens (about 143 km in a straight line, computed from 38.22 N 22.12 E and 37.98 N 23.73 E).",
+   "source": "Computed"
+  },
+  {
+   "fact": "Giovannini argued that the submergence of Helike might have inspired the ending of Plato's Atlantis story.",
+   "source": "Giovannini 1985, Museum Helveticum"
+  }
+ ],
+ "names": [
+  {
+   "name": "Plato",
+   "say": "PLAY-toe (in voices LEX)"
+  },
+  {
+   "name": "Timaeus",
+   "say": "tie-MEE-us"
+  },
+  {
+   "name": "Critias",
+   "say": "KRIT-ee-us"
+  },
+  {
+   "name": "Socrates",
+   "say": "SOCK-ruh-teez"
+  },
+  {
+   "name": "Sais",
+   "say": "SAY-iss (not 'says')"
+  },
+  {
+   "name": "Solon",
+   "say": "SOH-lun (in LEX)"
+  },
+  {
+   "name": "Poseidon",
+   "say": "puh-SY-dun"
+  },
+  {
+   "name": "Heracles",
+   "say": "HAIR-uh-kleez (in LEX)"
+  },
+  {
+   "name": "Gibraltar",
+   "say": "jih-BRAWL-tur (in LEX)"
+  },
+  {
+   "name": "Libya",
+   "say": "LIB-ee-uh"
+  },
+  {
+   "name": "Java",
+   "say": "JAH-vuh"
+  },
+  {
+   "name": "Borneo",
+   "say": "BOR-nee-oh"
+  },
+  {
+   "name": "Ignatius Donnelly",
+   "say": "ig-NAY-shus DON-uh-lee"
+  },
+  {
+   "name": "Azores",
+   "say": "uh-ZORZ"
+  },
+  {
+   "name": "Spartel Bank",
+   "say": "spar-TELL"
+  },
+  {
+   "name": "Mauritania",
+   "say": "mor-ih-TAY-nee-uh"
+  },
+  {
+   "name": "Bimini",
+   "say": "BIM-ih-nee (in LEX)"
+  },
+  {
+   "name": "Bahamas",
+   "say": "buh-HAH-muz"
+  },
+  {
+   "name": "Edgar Cayce",
+   "say": "ED-gur KAY-see (in LEX)"
+  },
+  {
+   "name": "Thera",
+   "say": "THEER-uh (in LEX)"
+  },
+  {
+   "name": "Santorini",
+   "say": "san-tuh-REE-nee (in LEX)"
+  },
+  {
+   "name": "Akrotiri",
+   "say": "ah-kroh-TEER-ee"
+  },
+  {
+   "name": "Crete",
+   "say": "KREET"
+  },
+  {
+   "name": "Minoans",
+   "say": "mih-NOH-unz"
+  },
+  {
+   "name": "Corinth",
+   "say": "KOR-inth"
+  },
+  {
+   "name": "Helike",
+   "say": "HEL-ih-kee (in LEX)"
+  },
+  {
+   "name": "Heracleides",
+   "say": "hair-uh-KLY-deez"
+  },
+  {
+   "name": "triremes",
+   "say": "TRY-reemz (common noun; check it is not read 'trih-REEMS')"
+  }
+ ],
+ "words": 1672
+}
