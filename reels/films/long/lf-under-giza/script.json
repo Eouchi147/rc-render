@@ -1,0 +1,848 @@
+{
+ "id": "lf-under-giza",
+ "kind": "theme",
+ "series": "Under Giza",
+ "title": "Under Giza",
+ "yt_title": "Under Giza: the hidden rooms that are real, and the rumours",
+ "verdict": "Mixed record",
+ "hook": "What's really under Giza?",
+ "chapters": [
+  {
+   "title": "Under Giza",
+   "beats": [
+    {
+     "role": "hook",
+     "lines": [
+      "[d:intrigue][sfx:boom][act:hushed wonder, drawing them in]Inside the Great Pyramid of Egypt, there's a space at least ^thirty metres long that ^*nobody* has ever entered. [act:the reveal, quietly delighted]We only know about it because of particles falling from ^*space*.",
+      "[d:tension][act:quickening, a teaser][tune:level]Next door, a team says shafts plunge more than half a kilometre under another ^pyramid. [act:same pace, intrigued][tune:level]In a narrow shaft, a little stone ^door with two copper ^pins. [act:same pace, a raised eyebrow][tune:fall]And out front, a Sphinx that one geologist says was worn by ^*rain*.",
+      "[d:wonder][act:the child's question, wide-eyed][tune:rise]So what's ^really under Giza?"
+     ],
+     "shots": [
+      {
+       "id": "s1",
+       "say": "Inside the Great Pyramid ... has ever entered.",
+       "draw": "Night. The Great Pyramid as an x-ray iso model, centred (889, 560), turning slowly: King's Chamber, Queen's Chamber and Grand Gallery drawn solid; above the Gallery a long dashed shape glows soft blue and pulses; a large '?' pops inside it at about 2 s. No labels in the first 3 s (hook title top left).",
+       "reuse": "big-void shot 0: iso3d.great_pyramid(void=True) via aim(); recentre for 16:9"
+      },
+      {
+       "id": "s2",
+       "say": "We only know about it because of particles falling from space.",
+       "draw": "Same model, the camera eases back: thin blue streaks rain from the top of the frame through the stone; most streaks end in small red dots inside the stone, a cluster passes straight through the glowing void and carries on to the ground. Label 'muons' (blue, 30) top right at 1.2 s.",
+       "reuse": "big_void_m() xray rays + stop dots, laid over the iso model"
+      },
+      {
+       "id": "s3",
+       "say": "Next door, a team says shafts plunge ... under another pyramid.",
+       "draw": "Khafre's pyramid cut open on the plateau to scale (143 m above ground, 648 m below; about 0.8 units a metre so the whole plunge fits y 140..800): a white arrow draws down from the base for 648 m, a stop bar and a blue glow at the bottom; lilac dotted shaft outlines fade in faintly. Label '648 m' (serif, 48) beside the arrow.",
+       "reuse": "khafre-pillars lg_b._kp_hook() (16:9: widen the section to x 80..1700)"
+      },
+      {
+       "id": "s4",
+       "say": "In a narrow shaft, a little stone door with two copper pins.",
+       "draw": "A round robot-camera view up a square stone shaft, lamp-lit joints converging on a pale limestone slab; two copper pins glint on its face at 0.8 s. Vignette black around the circle.",
+       "reuse": "sealed-door lg_b._sd_hook() (shaft view + _pins), centred at (889, 470)"
+      },
+      {
+       "id": "s5",
+       "say": "And out front, a Sphinx ... worn by rain.",
+       "draw": "The Sphinx in side view at night in its pit, the pyramid behind; fine rain streaks draw down across the frame at 0.5 s; label 'rain, in the desert?' (italic, blue) at 1.2 s.",
+       "reuse": "sphinx-erosion shot 0 (scenes.sphinx_side('night') + rain())"
+      },
+      {
+       "id": "s6",
+       "say": "So what's really under Giza?",
+       "draw": "The whole plateau as a night diorama (three pyramids, the Sphinx), slow spin; four small lilac question marks pop one by one over the Great Pyramid's void, under Khafre, at the Queen's Chamber shafts and at the Sphinx, 0.4 s apart.",
+       "reuse": "iso3d.plateau(night=True) as in f05._ledger_text() shot 0"
+      }
+     ]
+    },
+    {
+     "role": "hook",
+     "lines": [
+      "[d:calm][act:warm, setting out]Under ^Giza. [act:the promise, friendly][tune:fall]The real rooms, the ^rumours, and how to tell them ^apart."
+     ],
+     "shots": [
+      {
+       "id": "s7",
+       "say": "Under Giza. The real rooms, the rumours, and how to tell them apart.",
+       "draw": "The plateau diorama held and dimmed under the full-frame intro title card 'Under Giza'; the camera drifts in 3%. Nothing else (captions are hidden under the card).",
+       "reuse": "same panel as s6"
+      }
+     ],
+     "intro": true
+    }
+   ]
+  },
+  {
+   "title": "Particles from space",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:admiring, unhurried]The Great Pyramid at Giza, credited to the pharaoh ^Khufu, about four and a half thousand years ago. [p:0.93][act:giving the size, a touch of awe]A hundred and forty-six metres tall when it was built: about as tall as a forty-storey ^building.",
+      "[d:calm][act:guiding the eye, unhurried]Inside, three known rooms: the King's ^Chamber, the ^Queen's, and the long, sloping Grand ^Gallery."
+     ],
+     "shots": [
+      {
+       "id": "s8",
+       "say": "The Great Pyramid at Giza, credited to the pharaoh Khufu, about four and a half thousand years ago.",
+       "draw": "A 16:9 map of the lower Nile: View(28.5, 33.5, 28.6, 31.6); the Nile and the delta fan draw in, a gold pin 'Giza' at (31.13 E, 29.98 N) at 0.6 s, 'Cairo' small and grey, a 50 km scale bar bottom left."
+      },
+      {
+       "id": "s9",
+       "say": "A hundred and forty-six metres tall ... a forty-storey building.",
+       "draw": "The pyramid in north-south section to scale (base 230 m, height 146.6 m), sand-coloured blocks; a vertical dimension '146 m' draws at 0.6 s, the base '230 m' at 1.0 s; a dashed outline of a 40-storey tower (about 146 m) rises beside it at 2.2 s, a tiny person at its foot for scale.",
+       "reuse": "big-void shot 1 (giza.Section with dims), widened to 16:9"
+      },
+      {
+       "id": "s10",
+       "say": "Inside, three known rooms ... the long, sloping Grand Gallery.",
+       "draw": "The x-ray iso model again, no void: the three rooms draw themselves in the order named and take labels 'King's Chamber', 'Queen's Chamber', 'Grand Gallery' (lab, 30), 0.9 s apart.",
+       "reuse": "big-void shot 2 (iso3d.great_pyramid(void=False) + labels)"
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:curious, the child's question][tune:rise]How do you see inside a mountain of stone without moving a ^block? [act:explaining, a spark of wonder]Cosmic rays from space hit our air and make [sfx:shimmer]^muons, heavy cousins of the ^electron, raining down all the ^time. [act:playful, an aside]A few are going through your hand right ^now.",
+      "[d:build][p:0.93][act:patient, the analogy]It works like an ^X-ray. [act:laying it out][tune:level]Stone stops some muons. [act:the payoff, clear and simple][tune:fall]Empty space lets more of them ^*through*. [p:0.93][act:explaining, step by step]Count them from every direction for months, and a hollow shows up as a bright ^patch."
+     ],
+     "shots": [
+      {
+       "id": "s11",
+       "say": "How do you see inside a mountain of stone ... A few are going through your hand right now.",
+       "draw": "Dark sky over a thin line of horizon: a bright spark high up at x 900 (a cosmic ray striking the air, 0.6 s), then a cone of thin blue streaks fans down from it to the ground (1.2 s); labels 'cosmic ray' (gold) and 'muons' (blue) as named. Then, as the next words come: An open hand drawn in warm line at the right of the same sky (x 1300, y 600); three blue streaks pass straight through it, one after another, without stopping."
+      },
+      {
+       "id": "s12",
+       "say": "It works like an X-ray ... a bright patch.",
+       "draw": "The muon x-ray, widened to 16:9: a band of 'air' at the top; a block of 'stone' fills from the bottom; a dark hollow box inside it pops at the word 'empty'; streaks over the stone stop in red dots, streaks over the hollow pass through to a 'detector' bar below; a histogram of counts builds under it with one tall blue bar under the hollow and a glow ('bright patch').",
+       "reuse": "big_void_m() xray scene (air, rays, stone, hollow, detector, count bars)"
+      }
+     ]
+    },
+    {
+     "role": "cost",
+     "lines": [
+      "[d:build][act:brisk, matter of fact]From {2015|twenty fifteen}, a project@noun called ^ScanPyramids set three kinds of detector inside the pyramid, and ^out. [p:0.93][act:the method, careful]Different tools, one question: if they all agree, it isn't a fault in one ^machine.",
+      "[d:reveal][sfx:hit][act:the discovery, measured]In {2017|twenty seventeen}, all three saw the same thing: extra muons, from a space ^above the Grand Gallery. [p:0.9][act:letting the size land]At least ^*thirty* metres long, about three buses end to end, with a cross-section much like the Gallery's ^own. [p:0.93][act:precise, quietly impressed]Each signal cleared the bar physicists set before they say ^discovery."
+     ],
+     "shots": [
+      {
+       "id": "s13",
+       "say": "From 2015, a project called ScanPyramids set three kinds of detector inside the pyramid, and out. ... a fault in one machine.",
+       "draw": "The pyramid section, framed on the Queen's Chamber and the north face: three blue detector pins appear, two in the Queen's Chamber and one outside at the foot of the north face. Small labels: 'plates · Nagoya', 'strips · KEK', 'gas · CEA' (lab, 24). Then, at 'Different tools, one question': three small detector icons side by side at y 700 (a plate, a striped panel, a gas box); a blue arrow rises from each and the three meet at one point above the Gallery, where a ring draws itself.",
+       "reuse": "big-void shot 4 (detector pins), relabelled in plain words"
+      },
+      {
+       "id": "s14",
+       "say": "In 2017, all three saw the same thing ... above the Grand Gallery.",
+       "draw": "Back on the section, close on the Gallery: fans of blue tracks rise from the detectors and converge; the dashed void fades in above the Grand Gallery and glows; label 'the Big Void' at 1.4 s.",
+       "reuse": "big-void shot 5 (tracks converge on the void)"
+      },
+      {
+       "id": "s15",
+       "say": "At least thirty metres long ... much like the Gallery's own.",
+       "draw": "Three amber buses pop in one by one along the void, end to end, to the pyramid's scale (30 m in all); then a ghost copy of the Gallery's cross-section slides up beside the void's end for comparison. Label '30 m or more'.",
+       "reuse": "big_void_m() line_adds bus (three buses to scale)"
+      },
+      {
+       "id": "s16",
+       "say": "Each signal cleared the bar physicists set before they say discovery.",
+       "draw": "A bar chart that builds: a dashed horizontal line at '5 sigma' labelled 'discovery bar'; three bars grow from the bottom: plates (to above 10, arrow off the top), strips (5 to 10, a range bar), gas chambers (5.8); each bar ticks green as it crosses the line."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:tension][act:curious, the open part][tune:rise]So what ^is it? [act:honest, plain]The physicists can't yet tell its shape: one space or several, level or ^sloping. [act:fair, the archaeologist's view]The Giza archaeologist Mark ^Lehner guessed a space to take weight off the Gallery's ^roof. [act:an everyday picture, light]A bit like an arch over a door, steering the load ^around it."
+     ],
+     "shots": [
+      {
+       "id": "s17",
+       "say": "So what is it? ... level or sloping.",
+       "draw": "The void region close up: its dashed outline morphs through three ghost options, one after another (a single long level box, a single sloping box, two shorter boxes), each fading as the next draws; label 'shape unknown'."
+      },
+      {
+       "id": "s18",
+       "say": "The Giza archaeologist Mark Lehner ... steering the load around it.",
+       "draw": "Left: the Grand Gallery's stepped roof in section with heavy downward arrows from the stone above; a gap opens above the roof and the arrows bend round it ('relieving space?', lilac, dashed). Right: a simple brick doorway with an arch; small arrows flow round the arch. Labels 'weight', 'arch'."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:reveal][act:leaning in, fresh news]Then came a ^test. [p:0.93][act:explaining, clear]In {2023|twenty twenty-three}, muons pinned down a second, smaller space, behind the huge gabled blocks over the old entrance@noun. [p:0.9][act:precise]A corridor about nine metres long, and two metres by ^two.",
+      "[d:build][act:quiet, careful, step by step]Radar and ultrasound fixed its exact ^position. [act:quiet, careful]Then a camera thinner than a pencil slid in through a joint in the ^stones. [gap:0.4][act:hushed, the reveal][tune:fall]An ^*empty* corridor, under a gabled ^roof. [act:quiet satisfaction][tune:fall]^Right where the muons said."
+     ],
+     "shots": [
+      {
+       "id": "s19",
+       "say": "Then came a test ... over the old entrance. A corridor about nine metres long, and two metres by two.",
+       "draw": "The north face in section, close: the original entrance, the great gabled (chevron) blocks over it; behind them a corridor shape draws itself level into the stone. Then, as the next words come: The corridor as a small iso box beside the section (2 m x 2 m x 9 m, to scale) with a person 1.7 m tall standing at its mouth; dims '9 m' and '2 m' draw themselves.",
+       "reuse": "big-void shot 6 (North Face Corridor), recentred for 16:9"
+      },
+      {
+       "id": "s20",
+       "say": "Radar and ultrasound fixed its exact position. Then a camera thinner than a pencil slid in through a joint in the stones.",
+       "draw": "The chevron blocks in elevation, face on: a small radar sled slides along the face, wave arcs go in and echo back; two ultrasound probes pulse; a crosshair settles on a joint between two blocks. Then, as the next words come: Close on the joint: a yellow pencil drawn beside the gap for scale (7 mm), the endoscope cable (thinner) snakes in through the joint and its lamp glows inside.",
+       "reuse": "big_void_m() scope (cable + lamp), adapted"
+      },
+      {
+       "id": "s21",
+       "say": "An empty corridor, under a gabled roof. Right where the muons said.",
+       "draw": "The endoscope's round view down a lamp-lit stone corridor with a gabled roof, empty, dark at the far end; label 'empty' small at 1.2 s.",
+       "reuse": "big-void shot 7 (f05.corridor_view), centred (889, 480), circle radius fitted to 1000 tall"
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:verdict][p:0.95][act:calm, landing it]That's how a new tool earns ^trust: it makes a prediction, and a camera ^checks it. [act:quieter, a little longing][tune:fall]The Big Void hasn't had its camera ^yet."
+     ],
+     "shots": [
+      {
+       "id": "s22",
+       "say": "That's how a new tool earns trust ... hasn't had its camera yet.",
+       "draw": "The x-ray iso model with both spaces: the corridor solid with a green tick and 'seen'; the void dashed and glowing with a small '?' and 'not yet entered'.",
+       "reuse": "big-void shot 8 (iso both spaces)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Pillars under Khafre",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:plain, placing it]Next door stands the pyramid of ^Khafre, Khufu's son, about a hundred and forty-three metres tall when ^new. [p:0.93][act:doing the sum, vivid]Now stack four and a half of those pyramids, one below another, down into the ^rock. [act:letting it land][tune:fall]{648|Six hundred and forty-eight} metres. [act:the kicker, dry][tune:fall]That's how deep the newest claim ^goes."
+     ],
+     "shots": [
+      {
+       "id": "s23",
+       "say": "Next door stands the pyramid of Khafre ... when new.",
+       "draw": "Giza as a diorama from the south-west, true size and place: Khafre glows in the middle, the Great Pyramid behind; a dimension line '143 m' draws up Khafre's edge.",
+       "reuse": "khafre-pillars lg_b._kp_plateau() + _kp_height()"
+      },
+      {
+       "id": "s24",
+       "say": "Now stack four and a half of those pyramids ... That's how deep the newest claim goes.",
+       "draw": "Khafre cut open to scale; four and a half dashed ghost pyramids stack one below another into the rock, 0.5 s apart; '× 4½' in amber, then '648 m' with a ring at the bottom.",
+       "reuse": "khafre-pillars lg_b._kp_hook() + _kp_stack()"
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:reporting the announcement, brisk]In March {2025|twenty twenty-five}, in Italy, the radar engineer Filippo ^Biondi and the chemist Corrado ^Malanga said satellite radar had found ^eight shafts under Khafre, wrapped in spiral paths. [act:the big claim, eyebrows up]And far below, [sfx:hit]two giant ^cubes, each about eighty metres a ^side.",
+      "[d:build][act:fair, genuinely interested]Their idea is a clever ^one. [p:0.93][act:explaining, patient]Radar from orbit can't see through stone, and they say so ^themselves. [p:0.93][act:explaining, the idea]But the ground is always trembling, very ^slightly. [act:the analogy, clear]Measure how the surface trembles, they argue, and you can map what lies beneath, like knocking on a wall to find a ^hollow."
+     ],
+     "shots": [
+      {
+       "id": "s25",
+       "say": "In March 2025, in Italy ... wrapped in spiral paths. And far below, two giant cubes, each about eighty metres a side.",
+       "draw": "The same clean cut under Khafre: a satellite crosses the sky top right, radar arcs reach the plateau; eight lilac dotted shafts draw down in a row, wavy spiral lines wind round them. Label 'claimed' (lilac). Then, as the next words come: At the bottom of the shafts two lilac dotted cubes pop in, drawn to the section's scale (80 m a side against Khafre's 215 m base); a dim label '80 m' on one edge.",
+       "reuse": "khafre-pillars lg_b._kp_claim() (satellite, shafts, spirals); khafre-pillars lg_b._kp_claim() (the two cubes)"
+      },
+      {
+       "id": "s26",
+       "say": "Their idea is a clever one ... But the ground is always trembling, very slightly.",
+       "draw": "A satellite over a cut of ground: its radar pulse goes down in blue arcs and bounces straight back off the surface line; the stone below stays dark. Then, as the next words come: A long strip of plateau surface across the frame; tiny ripples run in from both edges and the surface line shivers; a seismograph trace scrolls along the top (no labels).",
+       "reuse": "khafre-pillars lg_b._kp_radar() (pulse and echo)"
+      },
+      {
+       "id": "s27",
+       "say": "Measure how the surface trembles, they argue ... like knocking on a wall to find a hollow.",
+       "draw": "Two wall panels side by side: a hand knocks on each; the solid one gives one short dull ring, the hollow one rings in wide arcs. Labels 'solid', 'hollow'."
+      }
+     ]
+    },
+    {
+     "role": "cost",
+     "lines": [
+      "[d:build][act:fair, the check][tune:rise]How deep can radar from space really ^reach? [act:storytelling, a nice find]In {1981|nineteen eighty-one}, radar on the Space Shuttle looked through the Sahara's dry sand and found buried river ^valleys. [p:0.9][act:precise]Field checks: one or two metres down. [act:same, precise]Lab tests: five or ^so. [p:0.9][act:the punchline, deadpan][tune:fall]Six hundred and forty-eight metres is more than a hundred times ^that.",
+      "[d:list][act:fair, even][tune:level]The radar specialist Lawrence ^Conyers called it a huge ^exaggeration: trembles from that deep, he said, would be too faint to read@present. [act:same, firm][tune:fall]Zahi ^Hawass, Egypt's former antiquities minister, said the work had neither Egypt's permission nor a scientific ^basis."
+     ],
+     "shots": [
+      {
+       "id": "s28",
+       "say": "So how deep ... found buried river valleys.",
+       "draw": "A 16:9 map of the eastern Sahara (Egypt and northern Sudan, View(24, 34, 18, 26)): the shuttle's ground track draws across as a thin line; along it, dark branching river valleys appear under the sand, drawn in blue. Labels 'Space Shuttle radar · 1981', 'buried valleys'."
+      },
+      {
+       "id": "s29",
+       "say": "Field checks: one or two metres down. Lab tests: five or so. Six hundred and forty-eight metres is more than a hundred times that.",
+       "draw": "A depth chart to one scale (0.9 units a metre): the surface line near the top, a person 1.7 m tall standing on it; a lilac column drops 648 m to near the bottom of the frame. A round magnifier on the top of the column enlarges the first 10 m: a thin blue band from 1 to 2 m ('field') and a dashed tick at 5 m ('lab'). Label 'over 100 times deeper' beside the column."
+      },
+      {
+       "id": "s30",
+       "say": "The radar specialist Lawrence Conyers ... too faint to read. Zahi Hawass ... neither Egypt's permission nor a scientific basis.",
+       "draw": "A wave drawn rising from the deep column's bottom to the surface, its wiggle shrinking to a flat line as it climbs; a small meter on the surface reads nothing. Label 'too faint?'. Then, as the next words come: Khafre's pyramid small and centred; a gate with a padlock draws itself across its base. Labels 'no permission', 'no basis'."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:a twist of history, warm]The very first muon X-ray of any pyramid was taken inside ^Khafre's, from {1967|nineteen sixty-seven}, by the physicist Luis ^Alvarez and his ^team. [p:0.9][act:precise, the result]More than a million muons, about a fifth of the pyramid seen, and no hidden chambers of the usual ^size.",
+      "[d:reveal][p:0.95][act:the turn][tune:rise]And the shafts ^below? [act:plain, sober][tune:fall]So far, no peer-reviewed ^paper. [p:0.93][act:explaining, simple]Peer review: experts check the method and the sums before a journal prints a ^study. [act:sober, a heavy fact]And on the tenth of August {2026|twenty twenty-six}, the journal Remote Sensing ^withdrew the team's earlier radar study of the Great Pyramid, for serious flaws in its methods and ^statistics. [act:fair, even][tune:fall]The authors say they ^disagree."
+     ],
+     "shots": [
+      {
+       "id": "s31",
+       "say": "The very first muon X-ray of any pyramid ... no hidden chambers of the usual size.",
+       "draw": "Khafre's pyramid in section with the Belzoni Chamber at its base; a detector box pops into the chamber with a '1967' tag; a cone of view opens upward from it. Then, as the next words come: Blue tracks fill the cone as a counter ticks up to '1,000,000+'; the cone covers about a fifth of the pyramid (shaded); a green tick and the label 'no hidden chambers' appear inside it."
+      },
+      {
+       "id": "s32",
+       "say": "And the shafts below? So far, no peer-reviewed paper ... prints a study.",
+       "draw": "Peer review as a gate of three experts: a lilac 'Khafre claim' card stops short of the journal with a red cross; a blue paper passes the three experts, gets three ticks and lands in the journal.",
+       "reuse": "khafre-pillars lg_b._kp_review()"
+      },
+      {
+       "id": "s33",
+       "say": "And on the tenth of August 2026 ... The authors say they disagree.",
+       "draw": "Inside the journal an amber 'earlier study' sheet is struck with a red cross and 'withdrawn' (10 Aug 2026); a small speech bubble beside it, 'authors disagree' (bone).",
+       "reuse": "khafre-pillars lg_b._kp_retract()"
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:verdict][act:warm, fair]Bold ideas deserve a ^test, and this one could have ^one. [act:the verdict, a small smile][tune:level]Until it passes, the pillars stand... [act:gently final][tune:fall]on ^*paper*."
+     ],
+     "shots": [
+      {
+       "id": "s34",
+       "say": "Bold ideas deserve a test ... the pillars stand on paper.",
+       "draw": "The clean cut under Khafre with the claimed shafts ghosted; the possible tests draw in dashed (not done): a drill rig and a dashed string 648 m down, a seismic thump with echo arcs, an 'open data' file; then a sheet of paper settles over the ground with the shafts sketched on it in ink.",
+       "reuse": "khafre-pillars lg_b._kp_tests() + _kp_paper()"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Doors in the dark",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:plain, orienting]Back inside the Great Pyramid, two narrow shafts climb out of the Queen's ^Chamber, one north, one ^south. [p:0.93][act:intrigued, a little detail]Their mouths stayed hidden behind the chamber walls until {1872|eighteen seventy-two}, and as far as we know, neither reaches the ^outside.",
+      "[d:aside][p:0.93][act:showing how small]Each is roughly twenty centimetres square: the width of a sheet of printer ^paper. [act:light, amused]Too narrow for a ^person. [act:a playful image]Barely wide enough for a ^*cat*."
+     ],
+     "shots": [
+      {
+       "id": "s35",
+       "say": "Back inside the Great Pyramid ... and as far as we know, neither reaches the outside.",
+       "draw": "The pyramid in section, the Queen's Chamber glowing; two thin amber lines climb from it, the southern one straight, the northern one with its bend, both stopping short of the faces. Then, as the next words come: Close on the chamber wall: the shaft mouths flash where the wall face was cut ('1872'); dashed lines carry on beyond the shafts' ends with a small '?' near the faces.",
+       "reuse": "sealed-door lg_b._sd_section() (add the northern shaft); sealed-door lg_b._sd_section() zoom (1872, inferred line, ?)"
+      },
+      {
+       "id": "s36",
+       "say": "Each is roughly twenty centimetres square ... wide enough for a cat.",
+       "draw": "The stone face around the 20 cm square hole at 15 units a centimetre; a sheet of printer paper over it; then a person's head-and-shoulders outline, struck; then a cat that just fits.",
+       "reuse": "sealed-door lg_b._sd_square()"
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:storytelling, onward]In {1993|nineteen ninety-three}, the engineer Rudolf ^Gantenbrink sent a small robot up the southern shaft, named ^Upuaut, after an Egyptian god called the opener of the ^ways. [sfx:whoosh][act:the discovery, hushed]More than sixty metres in, its lamp lit [sfx:hit]a small stone ^door, with two copper ^pins."
+     ],
+     "shots": [
+      {
+       "id": "s37",
+       "say": "In 1993, the engineer Rudolf Gantenbrink ... the opener of the ways.",
+       "draw": "The southern shaft rising across the frame at its true slope (about 40 degrees) from the Queen's Chamber bottom left; the tracked robot sits at its foot with its lamp on; label 'Upuaut · 1993'.",
+       "reuse": "sealed-door lg_b._sd_climb()"
+      },
+      {
+       "id": "s38",
+       "say": "More than sixty metres in, its lamp lit a small stone door, with two copper pins.",
+       "draw": "Ghost copies of the robot step up the shaft, a cable paying out behind; a dimension 'over 60 m' draws along the shaft; at the top a pale slab closes it, two copper dots glint. At 'a small stone door' the view cuts in to the robot's round camera: the slab at the end of the shaft, its two copper pins bent down against the face, lamp light.",
+       "reuse": "sealed-door lg_b._sd_climb2(); sealed-door lg_b._sd_hook() closer (cam 1.6)"
+      }
+     ]
+    },
+    {
+     "role": "cost",
+     "lines": [
+      "[d:tension][act:the wait, wry]Then the work ^stopped. [act:plain, counting]Nine years later, in {2002|two thousand and two}, a new robot drilled a small hole through the door, live@adj on ^television, and slid a camera ^through. [sfx:hit][act:the anticlimax, wry][tune:fall]About twenty centimetres on: ^*another* stone. [act:plain, a new detail]And the northern shaft is blocked by a door just like ^it."
+     ],
+     "shots": [
+      {
+       "id": "s39",
+       "say": "Then the work stopped. Nine years later, in 2002 ... About twenty centimetres on: another stone.",
+       "draw": "A timeline from 1993 to 2002 draws itself, nine ticks for nine years; then the side cut of the shaft's end: a new robot drills a hole through the slab; a TV set with a red 'live' ring pops above. Then, as the next words come: In the side cut a blue probe slides through the hole; about 20 cm beyond the slab (to the cut's 10 units a centimetre) a rough second stone pops in; a dim '20 cm' between them; label 'another stone'.",
+       "reuse": "sealed-door lg_b._sd_cut() + _sd_live() (TV); sealed-door lg_b._sd_live() (another stone)"
+      },
+      {
+       "id": "s40",
+       "say": "And the northern shaft is blocked by a door just like it.",
+       "draw": "Back to the pyramid section: both shafts; a small slab appears near the top of each, and a dashed line joins the two slabs ('about the same distance').",
+       "reuse": "sealed-door lg_b._sd_section() with both shafts"
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:a new clue, intrigued]In {2011|twenty eleven}, another robot, ^Djedi, slipped a bendy snake camera through the same hole, and looked ^around. [act:describing, careful][tune:level]The back of the door is ^polished. [act:same careful pace][tune:level]One copper pin ends in a small, neat ^loop. [sfx:shimmer][act:the reveal, hushed][tune:fall]And on the floor: marks in red ^*paint*.",
+      "[d:calm][act:the sensible answer, calm]Most likely builders' notes, perhaps ^numbers. [act:explaining, a nice detail]Work gangs left red marks elsewhere in the pyramid too, like a carpenter's pencil marks on ^wood. [act:respectful, unhurried][tune:rise]And the shafts themselves? [act:explaining, gentle]In Egyptian belief, the king's spirit would rise to the sky, and many Egyptologists think these shafts served that journey, not fresh ^air."
+     ],
+     "shots": [
+      {
+       "id": "s41",
+       "say": "In 2011, another robot, Djedi ... and looked around.",
+       "draw": "The side cut reset (slab, hole, second stone): the Djedi robot arrives; a green snake camera bends through the hole and curls down into the little space; label 'Djedi · 2011'.",
+       "reuse": "sealed-door lg_b._sd_djedi()"
+      },
+      {
+       "id": "s42",
+       "say": "The back of the door is polished. One copper pin ends in a small, neat loop. And on the floor: marks in red paint.",
+       "draw": "Close inside the little space: the back face of the slab catches the lamp with a smooth sheen; one copper pin comes through and curls into a small loop. Then, as the next words come: The camera tips down: a straight red line and a few short red strokes draw themselves on the floor, a soft red glow; label 'red paint'.",
+       "reuse": "sealed-door lg_b._sd_djedi() (red marks)"
+      },
+      {
+       "id": "s43",
+       "say": "Most likely builders' notes ... pencil marks on wood.",
+       "draw": "The sealed spaces above the King's Chamber as a cutaway stack; red work-gang marks write themselves on several blocks as schematic strokes (no readable text); inset, a carpenter's pencil marks on a plank.",
+       "reuse": "power-plant shot 6 (iso3d.relieving_stack()) + red marks"
+      },
+      {
+       "id": "s44",
+       "say": "And the shafts themselves? ... not fresh air.",
+       "draw": "The pyramid in section at night, its shafts thin lines angled up; a soft gold glow travels slowly up the shafts towards a starry sky above. No figures, no named stars. Label 'a path to the sky?' (small, italic)."
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:verdict][act:fair, the critics' question][tune:rise]Was something found, and kept ^quiet? [act:even, careful]What each robot saw was ^shown: on film, on live@adj television, and in a robotics journal in {2013|twenty thirteen}. [act:the landing, quiet][tune:fall]The doors are ^real. [act:hushed, inviting][tune:fall]What lies past the last stone, nobody yet ^knows."
+     ],
+     "shots": [
+      {
+       "id": "s45",
+       "say": "Was something found, and kept quiet? ... in a robotics journal in 2013.",
+       "draw": "Three robots on a timeline, 1993, 2002, 2011, nine years apart; a padlock above the gaps; under each robot what it showed: a film reel, a TV set, a journal sheet '2013'.",
+       "reuse": "sealed-door lg_b._sd_record()"
+      },
+      {
+       "id": "s46",
+       "say": "The doors are real. What lies past the last stone, nobody yet knows.",
+       "draw": "Back to the dark side cut: the second stone with a lilac dashed ring and a large '?' beyond it; the lamp dims slowly.",
+       "reuse": "sealed-door shot 8 (tag: ring + question)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The Sphinx and the rain",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:admiring, unhurried]Now, out front: the Great ^Sphinx. [p:0.93][act:giving the size, amazed]Seventy-three metres of lion, carved not from blocks but from the ^bedrock. [act:the image, vivid]The carvers dug a deep pit around a hill of rock, and shaped what was ^left."
+     ],
+     "shots": [
+      {
+       "id": "s47",
+       "say": "Now, out front: the Great Sphinx ... and shaped what was left.",
+       "draw": "Dawn. The Sphinx as an iso model (73 m long, 20 m high) on the plateau, slow turn; a dimension '73 m' draws along its body; a person at its paws for scale. Then, as the next words come: A block of layered bedrock; the ground around a central mass sinks away as a U-shaped pit (the cut fills dark), then the lion's outline draws on the remaining mass and the waste rock fades.",
+       "reuse": "iso3d.sphinx() on iso3d.ground()"
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:plain, a respectful introduction]Around {1990|nineteen ninety}, Robert ^Schoch, a geologist at Boston University, looked hard at the walls of that ^pit. [act:describing it, a careful eye][tune:level]Rounded, rolling ^layers. [act:same careful eye][tune:level]Deep vertical ^cracks. [act:sympathetic, his view][tune:fall]To him, that's what rain does@verb, running down rock for thousands of ^years.",
+      "[d:build][p:0.93][act:his logic, clear and fair]But Egypt has been mostly dry for about five thousand ^years. [act:stating his claim, even]So in {1992|nineteen ninety-two}, he dated the first carving to between seven thousand and five thousand ^BCE. [p:0.9][act:the stakes, slower]The usual date, under ^Khafre, is around two and a half thousand BCE: thousands of years ^later. [act:his evidence, fair]A seismic survey@noun he joined found the rock under the pit's floor weathered ^unevenly, as if parts had been open to the air ^longer."
+     ],
+     "shots": [
+      {
+       "id": "s48",
+       "say": "Around 1990, Robert Schoch ... To him, that's what rain does, running down rock for thousands of years.",
+       "draw": "The enclosure wall face on: alternating hard and soft beds, the soft ones cut back into rounded recesses (draw at 'rounded'), then four deep vertical fissures draw down (at 'cracks'). Then, as the next words come: Rain falls on the wall top; blue water lines run down the fissures one by one and pool at the foot.",
+       "reuse": "sphinx-erosion shot 1 (f05.wall_face); sphinx-erosion shot 2 (rain down the fissures)"
+      },
+      {
+       "id": "s49",
+       "say": "But Egypt has been mostly dry ... thousands of years later.",
+       "draw": "A timeline from 10,000 BCE to 1 CE builds: a tan band 'dry, as today' over the last 5,000 years; a blue band 'Schoch' from 7000 to 5000 BCE with rain above it; an amber dot 'Khafre' at about 2530 BCE; a double arrow '2,500 to 4,500 years earlier'.",
+       "reuse": "sphinx_erosion_m() tline (16:9 width)"
+      },
+      {
+       "id": "s50",
+       "say": "A seismic survey he worked on ... open to the air for longer.",
+       "draw": "Section through the enclosure floor: a hammer plate and a row of geophones on top; echo arcs; a weathered layer below the floor drawn thick under some parts and thin under others; label 'uneven weathering'."
+      }
+     ]
+    },
+    {
+     "role": "cost",
+     "lines": [
+      "[d:build][act:the other side, crisp]Other geologists ^answered. [p:0.93][act:explaining, step by step]Lal ^Gauri and his colleagues pointed to ^salt: as moisture dries in the soft layers, crystals grow and push the grains apart, like ice cracking a ^pavement. [act:simple, matter of fact][tune:fall]Rounded walls, no ancient rains ^needed. [p:0.93][act:the surprise, delighted]And the deep cracks, they argued, are natural channels cut by underground water, millions of years before any ^carver.",
+      "[d:aside][act:fair, even-handed]A third geologist, Colin ^Reader, stands in the ^middle: water did the damage, he agrees, but as runoff from the plateau, before Khufu's building works cut it ^off. [act:landing his view][tune:fall]His Sphinx is a few ^centuries older than Khafre, not thousands of ^years."
+     ],
+     "shots": [
+      {
+       "id": "s51",
+       "say": "Other geologists answered ... Rounded walls, no ancient rains needed.",
+       "draw": "The wall again, close on one soft bed: arrows of moisture rise into it; small white salt crystals grow in the pores and the grains push apart; inset, a pavement slab cracking as ice grows. Then, as the next words come: The soft beds crumble back into rounded recesses with no rain drawn; the hard beds stay sharp.",
+       "reuse": "sphinx-erosion shot 4 (salt crystals)"
+      },
+      {
+       "id": "s52",
+       "say": "And the deep cracks ... millions of years before any carver.",
+       "draw": "A section through the limestone: blue underground water winds along joints and widens them into channels; a timeline arrow beneath reads 'millions of years ago'; at the far right, much later, a tiny carver figure appears."
+      },
+      {
+       "id": "s53",
+       "say": "A third geologist, Colin Reader, stands in the middle ... before Khufu's building works cut it off.",
+       "draw": "A plan of the plateau sloping east to the Sphinx: blue runoff arrows flow downhill into the enclosure; then quarry pits for Khufu's works open upslope and the arrows stop at their edge."
+      },
+      {
+       "id": "s54",
+       "say": "His Sphinx is a few centuries older than Khafre, not thousands of years.",
+       "draw": "The timeline again: a small green band just before the Khafre dot ('Reader: a few centuries') beside the long blue Schoch band, so the difference in scale is plain.",
+       "reuse": "sphinx_erosion_m() tline + Reader band"
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:turning the page, curious][tune:rise]And the ^archaeology? [act:revealing, clear]The temple in front of the Sphinx is built from blocks cut out of the same ^pit: their layers match the pit walls, like puzzle pieces fitting ^back. [act:connecting the dots]It's built like Khafre's own temples, on the same terrace, almost in line with his Valley ^Temple. [act:the logic, clear][tune:fall]Pit, temple and Sphinx look like one project@noun, under ^Khafre.",
+      "[d:build][act:explaining, the method]There's a clock nearby, too. [p:0.93][act:explaining, patient]Charcoal in the pyramids' mortar came from living wood, and its radiocarbon has faded at a steady pace ever since, like a candle burning ^down. [act:the punchline, precise][tune:fall]Its dates: older than the textbooks, but by centuries, not ^thousands of years. [act:fair, the limit]The Sphinx, cut from bedrock, has no mortar of its own to ^date."
+     ],
+     "shots": [
+      {
+       "id": "s55",
+       "say": "And the archaeology? The temple in front of the Sphinx ... fitting back.",
+       "draw": "Side cut of the pit and the Sphinx; blocks lift out of the pit walls and fly into the temple in front, their coloured beds matching the beds left in the walls; rings mark two matches.",
+       "reuse": "sphinx_erosion_m() temple scene"
+      },
+      {
+       "id": "s56",
+       "say": "It's built like Khafre's own temples ... under Khafre.",
+       "draw": "A plan view: the Sphinx Temple and Khafre's Valley Temple side by side on one terrace, their fronts and backs joined by two dashed alignment lines; Khafre's causeway runs up to his pyramid; an amber frame closes round pit, temple and Sphinx ('one project')."
+      },
+      {
+       "id": "s57",
+       "say": "There's a clock nearby, too ... The Sphinx, cut from bedrock, has no mortar of its own to date.",
+       "draw": "A candle burns down at a steady pace beside a small bar of 'carbon left' that shrinks in step with it. Then, as the next words come: A mortar joint between two blocks with black charcoal flecks; then a timeline: the textbook date for the pyramids, a short amber band of radiocarbon results a few centuries older, and far to the left the Schoch band, dimmed; a small Sphinx icon with a 'no mortar' tag."
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:verdict][p:0.95][act:fair, sincere]Schoch's ^observation is real: those walls are deeply ^worn. [act:thoughtful, explaining]But weathering is a poor clock: its speed depends on the stone, the salt and the ^water. [act:turning, measured][tune:rise]His ^date? [act:the verdict, level-headed][tune:fall]Still *awaiting ^evidence*."
+     ],
+     "shots": [
+      {
+       "id": "s58",
+       "say": "Schoch's observation is real ... Still awaiting evidence.",
+       "draw": "The worn wall at dusk; a clock face drawn on the rock whose hands spin and blur (it cannot be read); a lilac question mark over the far-left end of the timeline.",
+       "reuse": "sphinx_erosion_m() verdict (question + clock)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The ledger",
+   "beats": [
+    {
+     "role": "weigh",
+     "lines": [
+      "[d:verdict][act:stepping back, calm]So, the ledger. [act:clear, counting them off][tune:level]A void above the Grand Gallery: *strong ^evidence*. [act:same steady pace][tune:level]A corridor behind the north face: ^*established*. [act:same pace][tune:level]Shafts and pillars under Khafre: *awaiting ^evidence*. [act:same pace][tune:level]Stone doors in the Queen's Chamber shafts: ^*established*; what lies beyond them, an *open ^question*. [act:closing the column][tune:fall]A Sphinx thousands of years older than Khafre: *awaiting ^evidence*.",
+      "[d:calm][p:0.93][act:plain, the open part]Still open: what the void is, and what it was ^for. [act:plain, the firm part]And ruled out, in the fifth of Khafre's pyramid that Alvarez could see: hidden chambers of the usual ^size. [p:0.95][act:the whole picture, warm]Taken together, Giza's hidden rooms make a *mixed ^record@noun*. [act:fair, clear]The strongest finds come from methods others can repeat; one has already met a ^camera. [act:same, fair][tune:fall]The doubtful ones lean on data others can't yet check, or on a clock that rock can't ^keep. [act:warm, generous]But bold questions sent people back to look, and that's how it should ^work."
+     ],
+     "shots": [
+      {
+       "id": "s59",
+       "say": "So, the ledger ... Shafts and pillars under Khafre: awaiting evidence.",
+       "draw": "A ledger board drawn on the wall: five rows, each a small model at the left (the void, the corridor, Khafre's shafts, the door, the Sphinx). Row 1 lights and its chip 'Strong evidence' pops in its grade colour. Then, as the next words come: Row 2 chip 'Established'; row 3 chip 'Awaiting evidence', each as said.",
+       "reuse": "f05.ledger() cabinet models (Big Void, Khafre's pillars, Sphinx) as row icons"
+      },
+      {
+       "id": "s60",
+       "say": "Stone doors in the Queen's Chamber shafts ... A Sphinx thousands of years older than Khafre: awaiting evidence.",
+       "draw": "Row 4 gets two chips, 'Established' (the doors) and 'Open question' (what lies beyond); row 5 chip 'Awaiting evidence'."
+      },
+      {
+       "id": "s61",
+       "say": "Still open: what the void is, and what it was for. And ruled out, in the fifth of Khafre's pyramid that Alvarez could see ...",
+       "draw": "First the void on the iso model with an 'Open question' chip (what it is, what it was for); then Khafre's section with Alvarez's cone (a fifth of the pyramid) shaded and a chip 'Ruled out: hidden chambers' inside it, outside the cone left plain.",
+       "reuse": "the s22 panel (iso, both spaces), then the s31 panel (Alvarez's cone)"
+      },
+      {
+       "id": "s62",
+       "say": "Taken together, Giza's hidden rooms make a mixed record ... and that's how it should work.",
+       "draw": "The plateau diorama: the corridor and the void glow (solid and dashed), the Khafre shafts and the old-Sphinx band fade as lilac dots; a central chip 'Mixed record' pops; a camera icon lights by the corridor, a dataset icon and a clock icon grey out by the doubtful ones. At 'bold questions', a few small figures with lamps walk back towards the pyramids and the Sphinx.",
+       "reuse": "iso3d.plateau() + ledger chips"
+      }
+     ]
+    },
+    {
+     "role": "test",
+     "lines": [
+      "[d:tension][act:practical, counting them off][tune:rise]What would change our ^minds? [act:same beat][tune:level]For the void, a camera through a small hole, or giant muon telescopes to map it in three ^dimensions. [act:same beat][tune:level]For Khafre, open raw data, and a test anyone can repeat: a seismic survey@noun, or a drill core from that ^depth. [act:same beat][tune:level]For the doors, a robot past the last ^stone. [act:the last one, hopeful][tune:fall]For the Sphinx, one ^dated thing in the pit, like charcoal from an old fire, sealed under the weathered ^rock."
+     ],
+     "shots": [
+      {
+       "id": "s63",
+       "say": "What would change our minds? For the void, a camera through a small hole, or giant muon telescopes ... in three dimensions.",
+       "draw": "The Great Pyramid model: a thin borehole with a camera reaching the void (dashed, not done); big muon telescope boxes set round the base, their fields of view sweeping the whole pyramid."
+      },
+      {
+       "id": "s64",
+       "say": "For Khafre, open raw data ... a drill core from that depth.",
+       "draw": "Khafre's cut: an open-data file glows and sends arrows outward; a seismic thump and echo arcs; a drill rig with a dashed string 648 m down and a core coming up (all dashed, not done).",
+       "reuse": "khafre-pillars lg_b._kp_tests()"
+      },
+      {
+       "id": "s65",
+       "say": "For the doors, a robot past the last stone.",
+       "draw": "The shaft side cut: a small robot outline (dashed) beyond the second stone, its lamp lighting the unknown dark."
+      },
+      {
+       "id": "s66",
+       "say": "For the Sphinx, one dated thing in the pit ... under the weathered rock.",
+       "draw": "The pit wall in section: under the weathered layer, a small hearth with charcoal glows; a ring draws round it and a radiocarbon tag pops ('dated?').",
+       "reuse": "sphinx_erosion_m() verdict (dated fire)"
+      }
+     ]
+    },
+    {
+     "role": "close",
+     "lines": [
+      "[d:wonder][p:0.93][act:quiet, warm]In that stone, a room nobody has entered is still letting the sky's particles ^through. [act:the last word, a smile][tune:fall]Weigh it ^yourself."
+     ],
+     "shots": [
+      {
+       "id": "s67",
+       "say": "In that stone, a room nobody has entered is still letting the sky's particles through. Weigh it yourself.",
+       "draw": "Giza at night from far off, the three pyramids dark against the stars; faint blue muon streaks fall like fine rain through the Great Pyramid, a soft glow where the void is; the camera holds still for the end card.",
+       "reuse": "iso3d.plateau(night=True) + rays"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "description": "Inside the Great Pyramid there is a space nobody has entered, found by particles from space. Under the pyramid next door, a team claims shafts more than half a kilometre deep. In a narrow shaft, a stone door with two copper pins. And out front, a Sphinx that one geologist reads as worn by ancient rain.\n\nWe weigh them one claim at a time: what the muon detectors, the robots, the radar and the rock can and cannot tell us, with each challenger at their strongest and every grade stated plainly.\n\nChapters\n0:00 Under Giza\nmm:ss Particles from space\nmm:ss Pillars under Khafre\nmm:ss Doors in the dark\nmm:ss The Sphinx and the rain\nmm:ss The ledger\n\nSources\nMorishima et al. 2017, Nature, doi:10.1038/nature24647\nProcureur et al. 2023, Nature Communications, doi:10.1038/s41467-023-36351-0\nElkarmoty et al. 2023, NDT & E International, doi:10.1016/j.ndteint.2023.102809\nAlvarez et al. 1970, Science, doi:10.1126/science.167.3919.832\nMcCauley et al. 1982, Science, doi:10.1126/science.218.4576.1004\nBiondi & Malanga 2022, Remote Sensing (retracted), doi:10.3390/rs14205231\nRetraction notice 2026, Remote Sensing, doi:10.3390/rs18162679\nRichardson et al. 2013, Journal of Field Robotics, doi:10.1002/rob.21451\nMiatello 2021, Journal of the American Research Center in Egypt, doi:10.5913/jarce.56.2020.a008\nSchoch 1992, KMT 3(2)\nDobecki & Schoch 1992, Geoarchaeology, doi:10.1002/gea.3340070603\nGauri, Sinai & Bandyopadhyay 1995, Geoarchaeology, doi:10.1002/gea.3340100203\nReader 2001, Archaeometry, doi:10.1111/1475-4754.00009\nLehner 1992, Cambridge Archaeological Journal, doi:10.1017/S0959774300000421\nBonani et al. 2001, Radiocarbon, doi:10.1017/S0033822200038558\nBross et al. 2022, muon tomography proposal, doi:10.48550/arXiv.2202.08184\nLehner & Hawass 2017, Giza and the Pyramids (Thames & Hudson)",
+ "sources": [
+  "Morishima, K. et al. 2017, Discovery of a big void in Khufu's Pyramid by observation of cosmic-ray muons, Nature 552: 386-390, doi:10.1038/nature24647 (also arXiv:1711.01576)",
+  "Procureur, S. et al. 2023, Precise characterization of a corridor-shaped structure in Khufu's Pyramid by observation of cosmic-ray muons, Nature Communications 14: 1144, doi:10.1038/s41467-023-36351-0",
+  "Elkarmoty, M. et al. 2023, Localization and shape determination of a hidden corridor in the Great Pyramid of Giza using non-destructive testing, NDT & E International, article 102809, doi:10.1016/j.ndteint.2023.102809",
+  "ScanPyramids announcement of the endoscope images of the North Face Corridor, 2 March 2023 (as reported by archaeology.wiki, 3 March 2023)",
+  "Alvarez, L. W. et al. 1970, Search for hidden chambers in the pyramids, Science 167: 832-839, doi:10.1126/science.167.3919.832",
+  "McCauley, J. F. et al. 1982, Subsurface valleys and geoarcheology of the eastern Sahara revealed by shuttle radar, Science 218: 1004-1020, doi:10.1126/science.218.4576.1004",
+  "Biondi, F. & Malanga, C. 2022, Synthetic Aperture Radar Doppler Tomography Reveals Details of Undiscovered High-Resolution Internal Structure of the Great Pyramid of Giza, Remote Sensing 14(20): 5231, doi:10.3390/rs14205231 (RETRACTED 10 August 2026)",
+  "Remote Sensing Editorial Office 2026, Retraction notice for Biondi & Malanga 2022, Remote Sensing 18(16): 2679, doi:10.3390/rs18162679",
+  "Retraction Watch, 31 August 2026, Journal retracts paper claiming network of corridors inside the Great Pyramid of Giza (Conyers and Parcak comments)",
+  "Newsweek, 2026, report on the Remote Sensing retraction (Conyers on the vibrations being undetectably small)",
+  "Egyptian Streets, 26 March 2025, and AFP report of March 2025 (claims of the 'Khafre Project'; Conyers: 'huge exaggeration'; Hawass: 'completely wrong', no permission)",
+  "Open (open.online), 31 March 2025 (details of the March 2025 presentation: eight helical shafts to 648 m, two cubic structures of about 80 m a side)",
+  "Smithsonian Magazine, 2 November 2017, report on the Big Void (Mark Lehner: a possible weight-relieving space; Salima Ikram: a possible working space)",
+  "Gantenbrink, R. 1993, Upuaut Project: robot exploration of the southern shaft of the Queen's Chamber (door found 22 March 1993)",
+  "Richardson, R., Whitehead, S., Ng, T. C., Hawass, Z., Pickering, A. et al. 2013, The 'Djedi' robot exploration of the southern shaft of the Queen's Chamber in the Great Pyramid of Giza, Egypt, Journal of Field Robotics 30(3): 323-348, doi:10.1002/rob.21451",
+  "Lehner, M. & Hawass, Z. 2017, Giza and the Pyramids, Thames & Hudson (shafts, 1872 discovery, 2002 exploration, Khafre as Khufu's son)",
+  "Miatello, L. 2021, On the pairs of shafts in the Pyramid of Khufu as means for the ascent to the akhet, Journal of the American Research Center in Egypt 56: 115-141, doi:10.5913/jarce.56.2020.a008",
+  "Schoch, R. M. 1992, Redating the Great Sphinx of Giza, KMT 3(2): 52-59, 66-70",
+  "Dobecki, T. L. & Schoch, R. M. 1992, Seismic investigations in the vicinity of the Great Sphinx of Giza, Egypt, Geoarchaeology 7(6): 527-544, doi:10.1002/gea.3340070603",
+  "Gauri, K. L., Sinai, J. J. & Bandyopadhyay, J. K. 1995, Geologic weathering and its implications on the age of the Sphinx, Geoarchaeology 10(2): 119-133, doi:10.1002/gea.3340100203",
+  "Reader, C. D. 2001, A geomorphological study of the Giza necropolis, with implications for the development of the site, Archaeometry 43(1): 149-165, doi:10.1111/1475-4754.00009",
+  "Lehner, M. 1992, Reconstructing the Sphinx, Cambridge Archaeological Journal 2(1): 3-26, doi:10.1017/S0959774300000421",
+  "Bonani, G. et al. 2001, Radiocarbon dates of Old and Middle Kingdom monuments in Egypt, Radiocarbon 43(3): 1297-1320, doi:10.1017/S0033822200038558 (summarised by AERA, 'How old are the pyramids?')",
+  "Bross, A. et al. 2022, Tomographic muon imaging of the Great Pyramid of Giza, arXiv:2202.08184, doi:10.48550/arXiv.2202.08184",
+  "Ancient Egypt Online, 'Great Pyramid: Queen's Chamber' (summary of the 1872, 1993, 2002 and 2011 explorations: second stone about 21 cm beyond the southern door; a similar door in the northern shaft)",
+  "Payne, K. 2012, 'The Djedi Project' (summary of the Djedi team's findings: first slab 63.6 m from the shaft entrance, its back polished, the back of one copper pin forming a neat loop, red marks on the floor)",
+  "Bordeau, 'Age of the Sphinx', Hall of Maat (summary of Reader's argument: runoff before Khufu's works; only a few hundred years earlier)",
+  "AERA (Ancient Egypt Research Associates), 'How old are the pyramids?' (the 1984 and 1995 radiocarbon projects: 374 years and 100 to 200 years older than the historical dates)"
+ ],
+ "facts_added": [
+  {
+   "fact": "The Big Void's cross-section is similar to the Grand Gallery's; it could be one or several adjacent structures, inclined or horizontal; the paper states there is no information yet about its role.",
+   "source": "Morishima et al. 2017, Nature, doi:10.1038/nature24647 (arXiv:1711.01576)"
+  },
+  {
+   "fact": "The 2017 void signal was detected at high significance by each technique: nuclear emulsions above 10 sigma (13.7 and 12.7 at the two positions), scintillator hodoscopes about 5 to over 10 sigma by slice, gas detectors 5.8 sigma; 5 sigma is the usual discovery threshold in particle physics.",
+   "source": "Morishima et al. 2017, Nature, doi:10.1038/nature24647 (arXiv:1711.01576)"
+  },
+  {
+   "fact": "Detector exposure ran for months: emulsions from December 2015, scintillators from August 2016, gas detectors 4 May to 3 July 2017; the project was ScanPyramids.",
+   "source": "Morishima et al. 2017, Nature, doi:10.1038/nature24647"
+  },
+  {
+   "fact": "Mark Lehner suggested the void may be a weight-relieving space between the Gallery's roof and the core; Salima Ikram suggested a working space for moving blocks.",
+   "source": "Smithsonian Magazine, 2 November 2017"
+  },
+  {
+   "fact": "The North Face Corridor is about 9 m long (9.06 +/- 0.07 m, Nagoya; 9.23 +/- 0.48 m, CEA) with a cross-section of about 2.0 m by 2.0 m, roughly horizontal, 0.84 m behind the chevron blocks above the entrance, detected at over 10 sigma.",
+   "source": "Procureur et al. 2023, Nature Communications, doi:10.1038/s41467-023-36351-0"
+  },
+  {
+   "fact": "Ground-penetrating radar and ultrasonic testing localised the corridor and its geometry and proposed where a small borehole could reach it.",
+   "source": "Elkarmoty et al. 2023, NDT & E International, doi:10.1016/j.ndteint.2023.102809"
+  },
+  {
+   "fact": "An endoscope about 5 mm across was passed through a joint behind the lower chevron blocks; the images were announced on 2 March 2023 (after a review by a committee headed by Zahi Hawass on 24 February 2023).",
+   "source": "ScanPyramids announcement, 2 March 2023, as reported by archaeology.wiki"
+  },
+  {
+   "fact": "Khafre was Khufu's son.",
+   "source": "Lehner & Hawass 2017, Giza and the Pyramids"
+  },
+  {
+   "fact": "The Khafre claims were presented in March 2025 at a press event in Italy by Corrado Malanga (an organic chemist at the University of Pisa) and Filippo Biondi (a telecommunications and radar engineer); they described eight vertical cylindrical structures with helical paths reaching about 648 m and two cubic structures about 80 m a side; the work was not peer reviewed.",
+   "source": "Open (open.online), 31 March 2025; Egyptian Streets, 26 March 2025; Retraction Watch, 31 August 2026 (affiliations)"
+  },
+  {
+   "fact": "The team's method (Biondi & Malanga 2022) acknowledges that radar penetrates solid bodies poorly and instead claims to image structure from micro-movements of the surface caused by background seismic waves, using COSMO-SkyMed satellite radar.",
+   "source": "Biondi & Malanga 2022, Remote Sensing, doi:10.3390/rs14205231 (retracted)"
+  },
+  {
+   "fact": "Shuttle Imaging Radar (SIR-A, flown in November 1981) revealed buried river valleys in the eastern Sahara; field checks found penetration of at least 1 m in sand sheets and 2 m or more in dunes; lab measurements gave at least 5 m. 648 m is more than 100 times 5 m.",
+   "source": "McCauley et al. 1982, Science, doi:10.1126/science.218.4576.1004"
+  },
+  {
+   "fact": "Lawrence Conyers (University of Denver, radar specialist) called the underground-city claims a 'huge exaggeration' and argued the claimed vibrations would be undetectably small; Zahi Hawass said the work had no authorisation from Egypt's antiquities ministry and no scientific basis.",
+   "source": "Egyptian Streets 2025 / AFP 2025; Newsweek 2026; Retraction Watch 2026"
+  },
+  {
+   "fact": "Muon detectors were installed in the Belzoni Chamber of Khafre's pyramid in spring 1967; more than a million muons were measured; about 19 percent of the pyramid's volume was explored, with no chambers of the size known in the large Fourth Dynasty pyramids in the field of view.",
+   "source": "Alvarez et al. 1970, Science, doi:10.1126/science.167.3919.832"
+  },
+  {
+   "fact": "On 10 August 2026 Remote Sensing retracted Biondi & Malanga 2022 for 'serious methodological flaws and statistical errors' that undermine its conclusions; the authors disagree with the retraction.",
+   "source": "Retraction notice, Remote Sensing 18(16): 2679, doi:10.3390/rs18162679"
+  },
+  {
+   "fact": "Upuaut is named after the Egyptian god Wepwawet, 'opener of the ways'; the door was found on 22 March 1993.",
+   "source": "Gantenbrink 1993, Upuaut Project"
+  },
+  {
+   "fact": "In 2002 the camera passed through the drilled hole found a second, rough stone about 21 cm beyond the southern door; the northern shaft was found to end at a similar door at about the same distance from the Queen's Chamber.",
+   "source": "Lehner & Hawass 2017; summary in Ancient Egypt Online, 'Great Pyramid: Queen's Chamber'"
+  },
+  {
+   "fact": "Djedi (University of Leeds) filmed behind the first slab: its back is polished; the back of one copper pin forms a neat loop; red marks lie on the floor of the small space.",
+   "source": "Richardson et al. 2013, Journal of Field Robotics, doi:10.1002/rob.21451; Djedi team report as summarised by Payne 2012"
+  },
+  {
+   "fact": "One Egyptological reading takes the shafts as ritual paths along which the king's immaterial components would ascend to the akhet (the horizon), and the masons' marks as recording shaft measurements.",
+   "source": "Miatello 2021, JARCE 56: 115-141, doi:10.5913/jarce.56.2020.a008"
+  },
+  {
+   "fact": "Seismic surveys found the subsurface weathering below the Sphinx enclosure floor not uniform, which Dobecki and Schoch read as different exposure periods for different parts of the excavation.",
+   "source": "Dobecki & Schoch 1992, Geoarchaeology, doi:10.1002/gea.3340070603"
+  },
+  {
+   "fact": "Gauri and colleagues argued that weathering in an arid climate can produce the rounded profile, given the gradual change in the rock's layers, and that the vertical channels are pre-Pliocene karst features formed by underground water (that is, millions of years old).",
+   "source": "Gauri, Sinai & Bandyopadhyay 1995, Geoarchaeology, doi:10.1002/gea.3340100203"
+  },
+  {
+   "fact": "Reader argued the enclosure's degradation came from water runoff rather than direct rainfall, before Khufu's works, so the Sphinx may predate Khufu (a few centuries older than usually thought, not thousands of years).",
+   "source": "Reader 2001, Archaeometry, doi:10.1111/1475-4754.00009; Bordeau summary in Hall of Maat, 'Age of the Sphinx'"
+  },
+  {
+   "fact": "The Sphinx Temple's masonry (multi-toned core blocks, granite casing) is like Khafre's Pyramid and Valley Temples; the two temples stand on the same terrace with fronts and backs nearly in alignment; Lehner judged the Sphinx probably dates to Khafre's reign.",
+   "source": "Lehner 1992, Cambridge Archaeological Journal 2(1): 3-26, doi:10.1017/S0959774300000421"
+  },
+  {
+   "fact": "Radiocarbon dates on organic material (charcoal, ash) in Old Kingdom pyramid mortar came out older than the historical dates: on average 374 years in the 1984 project and 100 to 200 years in the 1995 project, not thousands of years.",
+   "source": "Bonani et al. 2001, Radiocarbon, doi:10.1017/S0033822200038558; AERA, 'How old are the pyramids?'"
+  },
+  {
+   "fact": "Physicists have proposed large muon telescopes outside the Great Pyramid to image its whole interior in three dimensions.",
+   "source": "Bross et al. 2022, arXiv:2202.08184"
+  }
+ ],
+ "names": [
+  {
+   "name": "Khufu",
+   "say": "KOO-foo (in LEX)"
+  },
+  {
+   "name": "Khafre",
+   "say": "KAF-ray (in LEX)"
+  },
+  {
+   "name": "ScanPyramids",
+   "say": "SCAN PIR-uh-midz (two English words run together)"
+  },
+  {
+   "name": "Mark Lehner",
+   "say": "LAY-ner (in LEX)"
+  },
+  {
+   "name": "Filippo Biondi",
+   "say": "fee-LEEP-oh bee-ON-dee"
+  },
+  {
+   "name": "Corrado Malanga",
+   "say": "kor-RAH-doh mah-LAHN-gah"
+  },
+  {
+   "name": "Lawrence Conyers",
+   "say": "LOR-ence KON-yerz"
+  },
+  {
+   "name": "Zahi Hawass",
+   "say": "ZAH-hee ha-WAHSS (in LEX)"
+  },
+  {
+   "name": "Luis Alvarez",
+   "say": "loo-EES AL-vuh-rez"
+  },
+  {
+   "name": "Remote Sensing",
+   "say": "the journal's name, plain English"
+  },
+  {
+   "name": "Rudolf Gantenbrink",
+   "say": "ROO-dolf GAHN-ten-brink (in LEX)"
+  },
+  {
+   "name": "Upuaut",
+   "say": "OO-poo-out (in LEX)"
+  },
+  {
+   "name": "Djedi",
+   "say": "JED-ee (in LEX)"
+  },
+  {
+   "name": "Robert Schoch",
+   "say": "SHOCK (in LEX)"
+  },
+  {
+   "name": "Lal Gauri",
+   "say": "LAHL GOW-ree"
+  },
+  {
+   "name": "Colin Reader",
+   "say": "KOL-in REE-der"
+  },
+  {
+   "name": "Sahara",
+   "say": "suh-HAH-ruh"
+  }
+ ],
+ "words": 1671
+}
