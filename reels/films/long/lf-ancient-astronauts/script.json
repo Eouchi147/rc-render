@@ -1,0 +1,743 @@
+{
+ "id": "lf-ancient-astronauts",
+ "kind": "theme",
+ "series": "The Method",
+ "title": "Ancient Astronauts: Six Clues, Weighed",
+ "yt_title": "Did Aliens Help the Ancients? Six Famous Clues, Weighed",
+ "verdict": "Ruled out",
+ "hook": "Did visitors from space help the ancients?",
+ "chapters": [
+  {
+   "title": "Chariots of the gods",
+   "beats": [
+    {
+     "role": "hook",
+     "lines": [
+      "[d:intrigue][sfx:boom][act:hushed wonder, drawing them in]Deep inside a Maya pyramid in Mexico lies a carved stone lid, more than three and a half metres ^long. [act:describing it, slow, intrigued]On it, a man leans back in a frame of strange ^machinery, with what look like ^flames beneath him.",
+      "[d:tension][act:quickening, a teaser][tune:level]In the Sahara, a painted giant with a round, blank ^head. [act:same pace][tune:level]In Egypt, a carving shaped like a giant light ^bulb. [act:same pace, a raised eyebrow][tune:fall]In Peru, desert@noun drawings so big they're best seen from the ^sky.",
+      "[d:wonder][act:the child's question, wide-eyed][tune:rise]Did visitors from ^space help the ancients?"
+     ],
+     "shots": [
+      {
+       "id": "s1",
+       "say": "Deep inside a Maya pyramid ... flames beneath him.",
+       "draw": "A dark tomb. Pakal's sarcophagus lid drawn upright as a carved slab (about 3.7 by 2.2 m; a 1.7 m person beside it for scale, true to that ratio): the sky-band border with glyph marks, then, as named, the reclining man at the foot, the cross-shaped World Tree rising above him (the 'machinery'), the bird on top, and the open jaws below; on 'flames' dotted lilac flame strokes lick up under him (the claimed reading, drawn dotted). A lamp glow breathes at the top left."
+      },
+      {
+       "id": "s2",
+       "say": "In the Sahara ... best seen from the sky.",
+       "draw": "A gallery wall of three framed exhibits that build in the order named: a Round Head giant in ochre on a rock face (Sahara), the long bulb-shaped relief in pale stone (Egypt), the Nazca hummingbird seen from above on desert ground with a tiny person at its tail (Peru). Each frame pops in as its line is said, a small place name under each."
+      },
+      {
+       "id": "s3",
+       "say": "Did visitors from space help the ancients?",
+       "draw": "Night over a desert horizon with dark silhouettes of a Maya temple-pyramid and an Egyptian pylon; a saucer drawn dotted (a claim, not a thing) glides down from the stars, dotted beams reaching the monuments; a big lilac question mark pops above."
+      }
+     ]
+    },
+    {
+     "role": "title",
+     "lines": [
+      "[d:calm][act:warm, setting out]Ancient ^astronauts. [act:the promise, friendly][tune:fall]Six famous clues, weighed one by ^one."
+     ],
+     "shots": [
+      {
+       "id": "s4",
+       "say": "Ancient astronauts. Six famous clues, weighed one by one.",
+       "draw": "The night horizon of s3 held and dimmed under the full-frame intro title card 'Ancient Astronauts'. Nothing else (the card hides the captions)."
+      }
+     ]
+    },
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:storyteller, even]The idea has a ^birthday. [p:0.93][act:explaining, plain]In {1968|nineteen sixty-eight}, a Swiss hotel manager named Erich von Däniken published a book in German: Memories of the ^Future. [act:plain, a small smile]The first printing was six thousand ^copies.",
+      "[d:build][act:the claim at its strongest, fair]His idea: that long ago, visitors from ^space came to Earth, taught our ancestors, and left ^traces in their art and ^monuments. [p:0.93][act:the timing, vivid]By December, the book was a ^bestseller. [act:wonder, slower]That same month, Apollo {8|eight} carried the first people around the ^Moon. [act:sympathetic, the logic][tune:rise]If we could visit other worlds, why couldn't someone have visited ^ours?",
+      "[d:build][act:impressed, brisk][tune:level]In English, it became Chariots of the ^Gods. [act:counting, brisk][tune:level]A film of it was nominated for an ^Oscar. [act:same pace][tune:level]American television followed, with Rod ^Serling, then Leonard ^Nimoy. [act:the punchline, a small smile][tune:fall]Today, Ancient Aliens has passed twenty ^seasons.",
+      "[d:calm][p:0.93][act:even, respectful]By most counts, his books sold more than sixty million ^copies. [act:quiet, respectful]He died in January {2026|twenty twenty-six}, aged ^ninety. [act:turning to the task, warm]His clues are still the famous ^ones. [act:inviting][tune:fall]So let's ask the sites ^themselves."
+     ],
+     "shots": [
+      {
+       "id": "s5",
+       "say": "The idea has a birthday ... The first printing was six thousand copies.",
+       "draw": "A desk at night in a hotel office (a lamp glow, a typewriter); a book rises from it, its cover 'Memories of the Future' and '1968'; then sixty small book blocks pop in rows (each one a hundred copies: 6,000 in all), label '6,000 copies'."
+      },
+      {
+       "id": "s6",
+       "say": "His idea: that long ago ... left traces in their art and monuments.",
+       "draw": "The claim, drawn dotted: a small dotted saucer above an ancient building site (a block on a sledge, a few people); a dotted arrow from the saucer to the people ('taught?') and dotted sparks settling on a carved stone and a pyramid ('traces?'). Everything of the visitors is dotted lilac; the people and stones are solid."
+      },
+      {
+       "id": "s7",
+       "say": "By December, the book was a bestseller ... why couldn't someone have visited ours?",
+       "draw": "A stack of books grows ('a bestseller, December 1968'); then the Moon, large, with a dotted Apollo 8 orbit drawing round it and the Earth rising beyond ('Apollo 8, December 1968'); on the question, a long dotted arrow arcs from a far star towards the Earth."
+      },
+      {
+       "id": "s8",
+       "say": "In English, it became Chariots of the Gods ... Today, Ancient Aliens has passed twenty seasons.",
+       "draw": "A media timeline from 1968 to 2026 builds left to right: the German book (1968), the English edition 'Chariots of the Gods?' (1969), a film reel with 'Oscar nomination' (1970), a TV set 'Rod Serling' (1973), a TV set 'Leonard Nimoy' (1977), a TV set 'Ancient Aliens' (2009) followed by twenty-two small season ticks running to 2026."
+      },
+      {
+       "id": "s9",
+       "say": "By most counts, his books sold more than sixty million copies. He died in January 2026, aged ninety.",
+       "draw": "The timeline held; above it sixty small book icons fill a bar, one per million copies ('60 million+ copies'); at 2026 a quiet tick '1935 to 2026'."
+      },
+      {
+       "id": "s10",
+       "say": "His clues are still the famous ones. So let's ask the sites themselves.",
+       "draw": "A world map: six gold pins pop in the order the film visits them: Tassili n'Ajjer (Algeria), Dendera (Egypt), Palenque (Mexico), Nazca (Peru), Klerksdorp (South Africa), near Baghdad (Iraq)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The great Martian god",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:plain, orienting]Our first clue is painted on rock, in south-east ^Algeria. [act:vivid, warm]Tassili ^n'Ajjer is a sandstone plateau riddled with rock ^shelters, and on their walls are more than fifteen thousand ancient ^images, painted and ^engraved."
+     ],
+     "shots": [
+      {
+       "id": "s11",
+       "say": "Tassili n'Ajjer is a sandstone plateau ... painted and engraved.",
+       "draw": "A map of the central Sahara (View 0..16 E, 18..32 N): Algeria's border, the plateau drawn in ochre near Djanet, small dots for shelters; at the right a rock wall where 150 little painted marks pop in rows, label 'each mark: 100 images' and '15,000+ images'.",
+       "reuse": "tassili shots 1 and 2 (f16.tassili_m map and count), redrawn wide"
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:storytelling, playful]In {1956|nineteen fifty-six}, the French explorer Henri ^Lhote came with a team to copy them. [act:describing, vivid]In one shelter they met a painted giant, several metres tall, with a smooth, round head: no eyes, no nose, no ^mouth. [act:amused][tune:fall]Lhote nicknamed it the great Martian ^god.",
+      "[d:tension][act:dry, a small smile][tune:fall]Half in jest, it ^seems. [act:dry][tune:fall]Others took him ^literally. [act:the challenger's case, fair]And to be fair, the Round Head figures really are unlike the art that came ^later. [act:fair, presenting it]Ancient astronaut books saw space ^helmets."
+     ],
+     "shots": [
+      {
+       "id": "s12",
+       "say": "In 1956, the French explorer Henri Lhote ... the great Martian god.",
+       "draw": "Inside a rock shelter: on the sloping rock wall a Round Head giant in red ochre, about three times the height of a 1.7 m copyist who stands below it with a drawing board; '1956' small; on 'no eyes, no nose, no mouth' three faint outlines of an eye, a nose and a mouth appear on the blank head and are struck out one by one; the nickname in lilac italic.",
+       "reuse": "tassili shot 0 (the giant to scale), redrawn wide"
+      },
+      {
+       "id": "s13",
+       "say": "Half in jest ... Ancient astronaut books saw space helmets.",
+       "draw": "Close on the round head: 'half in jest?' in small italics; a little book with a dotted saucer on its cover ('taken literally'); at the right, later cattle-herders' art (cattle and people in a lighter style) labelled 'later art'; then a dotted lilac helmet, visor and antenna draw onto the head (the claim) with '1968'.",
+       "reuse": "tassili heads scene (f16.tassili_m shot 4), redrawn wide"
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:curious, the method][tune:rise]So when were they ^painted? [p:0.93][act:explaining, patient]Paint is hard to date directly, so archaeologists date it ^indirectly: from the layers around it, and from which images were painted over which, like posters pasted over older ^posters. [p:0.9][act:precise]The Round Heads come out at about nine and a half to seven and a half thousand years ^ago, when the Sahara was ^green.",
+      "[d:calm][act:thoughtful]Those blank heads look like a ^convention, a way of painting: masks, body paint, or spirit ^beings. [act:respectful, warm]Tuareg tradition still credits some of the paintings to ^spirits."
+     ],
+     "shots": [
+      {
+       "id": "s14",
+       "say": "So when were they painted? ... when the Sahara was green.",
+       "draw": "A rock face: a Round Head in dark red, then a later cow painted over its legs ('painted over'); beside it two posters pasted one over the other; below, a time axis from 12,000 years ago to today with an ochre band from 9,500 to 7,500 years ago; above the band small grass tufts and a lake ('a green Sahara').",
+       "reuse": "tassili 'what' scene (f16.tassili_m shot 5), redrawn wide"
+      },
+      {
+       "id": "s15",
+       "say": "Those blank heads look like a convention ... credits some of the paintings to spirits.",
+       "draw": "Three Round Heads in a row: one wearing a mask (a face on an oval), one striped with body paint, one pale and glowing (a spirit being); then at the right a person by a small fire, 'a living tradition'."
+      }
+     ]
+    },
+    {
+     "role": "cost",
+     "lines": [
+      "[d:build][act:grave, measured]The real damage came ^later. [p:0.93][act:precise]To make the colours stand out for their copies, the team wetted the paintings and sponged ^them: brighter for a moment, then faded ^faster. [act:the sting, quiet][tune:fall]And some of the published copies were later said to be ^fakes."
+     ],
+     "shots": [
+      {
+       "id": "s16",
+       "say": "The real damage came later ... later said to be fakes.",
+       "draw": "A painted figure on the rock: blue water drops fall on it and a yellow sponge rubs across; the figure flares bright, then a veil fades it below its first strength; at the right a paper copy with a bold figure, then a second figure on the copy gets a red dashed box and a question mark ('said to be faked').",
+       "reuse": "tassili copies scene (f16.tassili_m shot 3), redrawn wide"
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:verdict][act:landing it, warm]A smooth head is a painting ^style, not a ^helmet. [act:the last word, quiet][tune:fall]These painters deserve better ^copies."
+     ],
+     "shots": [
+      {
+       "id": "s17",
+       "say": "A smooth head is a painting style, not a helmet. These painters deserve better copies.",
+       "draw": "Back on the round head of s13: the dotted helmet is struck through in red, a warm glow comes up on the painting, label 'a painting style'."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Read the caption",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:plain, a promise]Our next two clues are carved in stone, and both came with ^captions. [act:setting the scene, vivid]First, Egypt: the temple of the goddess ^Hathor at Dendera, begun around {54|fifty-four} BCE, under Cleopatra's ^father."
+     ],
+     "shots": [
+      {
+       "id": "s18",
+       "say": "First, Egypt: the temple of the goddess Hathor at Dendera, begun around 54 BCE, under Cleopatra's father.",
+       "draw": "Dusk on the Nile's west bank: the temple front in elevation, a row of six columns with square, face-shaped capitals (drawn plain, no faces), a person for scale; labels 'Temple of Hathor, Dendera' and 'begun about 54 BCE'."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:describing, intrigued]In a narrow crypt beneath it, a relief shows a long shape, like a giant ^bulb. [act:same, building][tune:level]Inside it, a wavy line, like a ^filament. [act:same][tune:level]At one end, a flower like a ^socket, with a cable running ^out. [act:same][tune:fall]Beneath, a pillar propping it up, like an ^insulator.",
+      "[d:build][act:the challenger's case, fair]Ancient astronaut writers saw an electric ^lamp. [act:fair, their question][tune:rise]How else, they asked, could painters work deep in tombs without ^smoke? [act:the answer, plain]With oil lamps: in the Valley of the Kings, a scribe's receipt on a pottery shard records@verb lamps for a tomb ^crew. [act:a detail, light]And salt, some suggest, kept the soot ^down."
+     ],
+     "shots": [
+      {
+       "id": "s19",
+       "say": "In a narrow crypt beneath it ... like an insulator.",
+       "draw": "The relief, schematic and pale on dark stone: a long bulb-shaped envelope, then a wavy snake inside it, the lotus flower at its narrow end with its long stem, a pillar with arms holding it up; each part gets a dotted lilac label with a question mark as the narrator names it ('bulb?', 'filament?', 'socket?', 'cable?', 'insulator?')."
+      },
+      {
+       "id": "s20",
+       "say": "Ancient astronaut writers saw an electric lamp ... records lamps for a tomb crew.",
+       "draw": "A tomb corridor in perspective: a painter at the wall, a small oil lamp beside him with a warm flame; a dotted lilac smoke curl with 'smoke?' over it; then a pottery shard with hieratic strokes pops in, label 'a receipt for lamps' and 'Valley of the Kings'; on 'salt', a few white grains drop into the lamp and the smoke curl thins."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:the reveal, delighted]But the carving has a ^caption. [p:0.93][act:reading it, careful]The hieroglyphs beside it name the snake: ^Harsomtus, a child god rising from a lotus ^flower, like the sun on the first ^morning. [p:0.93][act:the punchline, savouring it]They even give the ^material, gold, and the height: for one of them, four ^palms, about thirty ^centimetres. [act:explaining, warm][tune:fall]The crypt was a ^storeroom, and its walls picture the treasures kept ^inside.",
+      "[d:build][act:plain, the test]And electric light leaves ^traces: wires, glass, ^sockets. [act:plain][tune:fall]None has ever turned ^up."
+     ],
+     "shots": [
+      {
+       "id": "s21",
+       "say": "But the carving has a caption ... about thirty centimetres.",
+       "draw": "Back on the relief: the dotted claim labels fade; a column of hieroglyph strokes writes itself down beside it; solid labels 'Harsomtus' (the snake) and 'lotus flower'; a small sun glows rising from the flower; then a little gold statue of a snake on a lotus pops beside a ruler of four palm widths, labels 'gold' and '4 palms, about 30 cm'."
+      },
+      {
+       "id": "s22",
+       "say": "The crypt was a storeroom, and its walls picture the treasures kept inside.",
+       "draw": "The crypt in cutaway: a long, low, narrow room inside the temple's thick wall ('a crypt in the wall', 'a storeroom'); on its back wall small relief panels light up one by one, each a picture of a statue; in front of them the gold statues themselves, drawn dashed (they are gone), and a small lamp."
+      },
+      {
+       "id": "s23",
+       "say": "And electric light leaves traces ... None has ever turned up.",
+       "draw": "An excavation trench in section, its layers drawn; three dotted lilac ghosts float in the layers (a coil of wire, a glass bulb, a socket); a lamp sweeps the trench; label 'not found'."
+      }
+     ]
+    },
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:turning, warm]Now cross the ocean, to ^Palenque, a Maya city in the rainforest of southern ^Mexico. [p:0.93][act:storytelling, hushed]In {1952|nineteen fifty-two}, the archaeologist Alberto ^Ruz reached a sealed tomb, deep inside a ^pyramid. [act:the claim at its strongest, fair]On its great stone lid, von Däniken saw an astronaut at the controls of a ^rocket."
+     ],
+     "shots": [
+      {
+       "id": "s24",
+       "say": "Now cross the ocean, to Palenque ... southern Mexico.",
+       "draw": "A map of the Atlantic from Mexico to Egypt (View -100..40 E, 5..40 N): a dotted arc draws from Dendera across the ocean to a gold pin 'Palenque'; 'Mexico' and 'Egypt' labels."
+      },
+      {
+       "id": "s25",
+       "say": "In 1952, the archaeologist Alberto Ruz reached a sealed tomb, deep inside a pyramid.",
+       "draw": "The Temple of the Inscriptions in section: a stepped pyramid with its temple on top; a stairway inside zigzags down from the temple floor to a crypt near ground level; a lamp glow travels down the stairway and lights the crypt and its sarcophagus; '1952'."
+      },
+      {
+       "id": "s26",
+       "say": "On its great stone lid, von Däniken saw an astronaut at the controls of a rocket.",
+       "draw": "Back on the lid of s1: a dotted lilac rocket outline (nose, body, fins, exhaust) draws over the carving, and 'a rocket?' in lilac."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:the reveal, measured]But the lid ^names its man. [p:0.93][act:reading it, careful]Its glyphs give his name, King ^Pakal, and the year he died: {683|six eighty-three}. [act:a small wonder]He had ruled for sixty-eight ^years. [act:explaining, the image]The 'rocket' is the World ^Tree, the cross-shaped tree at the centre of the Maya world, with a sacred bird on ^top. [act:explaining][tune:fall]The 'flames' are the open jaws of the ^underworld.",
+      "[d:build][act:explaining, the method][tune:rise]How can we be ^sure? [p:0.93][act:an everyday picture]The way you'd recognise a ^symbol you've seen ^before. [act:pointing it out]In a temple nearby, Pakal's son had the very same cross-shaped tree carved at the heart of his own ^tablet. [act:dry, a small smile][tune:fall]Nobody calls that one a ^rocket.",
+      "[d:calm][act:fair, the open part]Maya experts still debate the exact ^moment: is the king falling into the underworld, or rising reborn, like the young maize ^god? [act:warm, respectful][tune:fall]Either way, a king's death, carved with ^hope."
+     ],
+     "shots": [
+      {
+       "id": "s27",
+       "say": "But the lid names its man ... the open jaws of the underworld.",
+       "draw": "The lid again: the dotted rocket fades; the glyph band round the edge glows; labels pop as said: 'K'inich Janaab Pakal', 'died 683 CE', a bar 615 to 683 'ruled 68 years'; the tree's outline glows green 'World Tree', the bird 'sacred bird', the jaws below 'jaws of the underworld'."
+      },
+      {
+       "id": "s28",
+       "say": "How can we be sure? ... Nobody calls that one a rocket.",
+       "draw": "Two carvings side by side: at the left a small copy of the lid's tree, at the right the Temple of the Cross tablet with the same cross-shaped tree between two standing figures (Pakal's son, young and grown); a dashed line links the two trees, label 'the same tree'."
+      },
+      {
+       "id": "s29",
+       "say": "Maya experts still debate ... a king's death, carved with hope.",
+       "draw": "The reclining king alone, larger: a dashed arrow curves down into the jaws ('falling?'), a dashed arrow curves up beside a sprouting maize plant ('rising reborn?'); then a warm glow rises over him."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Lines in the desert",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:plain, orienting]Next, the desert@noun of southern ^Peru, and the Nazca ^lines. [act:vivid]Straight lines that run for kilometres, and giant animals drawn on the ground roughly two thousand years ago: a monkey, a spider, a hummingbird ninety-three metres ^long."
+     ],
+     "shots": [
+      {
+       "id": "s30",
+       "say": "Straight lines that run for kilometres ... a hummingbird ninety-three metres long.",
+       "draw": "The pampa from above (ochre ground, faint pebble texture): two long straight lines draw across the whole frame; small framed thumbnails of the monkey and the spider (not to the same scale) pop at the right as named; then the hummingbird draws itself in one continuous line, 93 m long against a 100 m scale bar, with a 1.7 m person ringed at its beak, to scale (a speck).",
+       "reuse": "ancient-astronauts nazca scene (f00.astronauts_m shot 3), redrawn wide"
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:the challenger's case, fair]Von Däniken wondered whether some lines were ^runways, for visitors from the ^sky. [act:the strongest form, fair][tune:rise]And how could anyone draw a bird that size without seeing it from ^above?"
+     ],
+     "shots": [
+      {
+       "id": "s31",
+       "say": "Von Däniken wondered whether some lines were runways ... without seeing it from above?",
+       "draw": "The same ground from a low angle: a wide trapezoid outlined dotted lilac ('runway?') with a dotted saucer settling at its end; then a person on the ground at eye level, the bird's outline running off far beyond him, a dotted sightline up to the sky ('seen from above?')."
+      }
+     ]
+    },
+    {
+     "role": "cost",
+     "lines": [
+      "[d:build][act:simple, demonstrating]The trick is in the ^ground. [p:0.93][act:explaining, hands-on]The desert@noun is covered in dark, rust-coated ^stones. [act:the trick, pleased]Move them aside, and the pale ground underneath shows through, like drawing with your finger on a dusty ^car. [act:dry, a small smile][tune:fall]And as a runway, that ground is far too ^soft."
+     ],
+     "shots": [
+      {
+       "id": "s32",
+       "say": "The trick is in the ground ... far too soft.",
+       "draw": "A close cut of the desert floor: a layer of dark rust-coloured stones over pale ground; a hand sweeps a strip of stones to both sides and a pale line appears; inset, a dusty car door with a finger line drawn through the dust; then a dotted wheel presses into the ground and sinks ('too soft').",
+       "reuse": "ancient-astronauts stones scene (f00.astronauts shot 2), redrawn wide"
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:storytelling, delighted]In {1982|nineteen eighty-two}, the investigator Joe ^Nickell tested the hard ^part. [p:0.93][act:explaining, step by step]With five relatives, wooden stakes, cord and a wooden T for right angles, he scaled up the Nazca condor in a field in ^Kentucky: a hundred and thirty-four metres long, plotted point by point from a centre ^line. [act:the result, satisfied]Plotting it took about nine ^hours. [act:the punchline, warm][tune:fall]Seen from the air, it ^matched.",
+      "[d:build][act:news, brisk]And in {2024|twenty twenty-four}, with help from AI, researchers found {303|three hundred and three} new figures in just six ^months, nearly doubling the ^count. [p:0.93][act:the detail that matters, leaning in]The smaller ones sit beside old ^footpaths, made, it seems, for people walking ^past. [act:the open part, honest]What the giant lines were ^for is still argued: ceremonial walks, rituals for ^water, or ^both."
+     ],
+     "shots": [
+      {
+       "id": "s33",
+       "say": "In 1982, the investigator Joe Nickell ... plotted point by point from a centre line.",
+       "draw": "A field from above: 'Kentucky, 1982'; a cord stretched as a centre line from beak to tail; six people drawn to the same scale (specks, ringed); a wooden T at a point; stakes pop one after another at measured offsets from the line (dashed offset cords), then a twine outline joins them and the condor appears ('the Nazca condor'); a dimension '134 m'.",
+       "reuse": "inspired by Nickell 1983's method figure (centre line and offsets)"
+      },
+      {
+       "id": "s34",
+       "say": "Plotting it took about nine hours. Seen from the air, it matched.",
+       "draw": "The same field: a clock face whose hand sweeps nine hours; then a camera frame from the air closes over the condor and a green tick: 'from the air, it matched'."
+      },
+      {
+       "id": "s35",
+       "say": "And in 2024, with help from AI ... made, it seems, for people walking past.",
+       "draw": "A plan of the pampa: dashed footpaths wind across; a counter '430 known' then '+303 in 6 months' as 303 small figure-marks pop along the paths (most within a short walk of a path); little walkers move along one path, label 'beside the footpaths'.",
+       "reuse": "ancient-astronauts walkers (f00.astronauts_m shot 3), redrawn wide"
+      },
+      {
+       "id": "s36",
+       "say": "What the giant lines were for is still argued: ceremonial walks, rituals for water, or both.",
+       "draw": "A giant straight line at dusk: a procession of people walks along it, drawn dashed (inferred), a small blue water drop beside them, and a lilac question mark over the far end."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Out of place",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:courtroom clerk, reading the file]Last, two objects@noun said to be out of their ^time. [act:describing, impressed]From mines in South ^Africa come the Klerksdorp ^spheres: little grooved balls, from pea-sized to about ten centimetres ^across."
+     ],
+     "shots": [
+      {
+       "id": "s37",
+       "say": "From mines in South Africa come the Klerksdorp spheres ... about ten centimetres across.",
+       "draw": "A small map of South Africa with a pin near Ottosdal ('mines near Klerksdorp'); then a pale pyrophyllite quarry face with dark grooved spheres in it; three spheres lined up by size beside a 10 cm ruler, the smallest the size of a pea.",
+       "reuse": "ooparts spheres (f00.ooparts shot 2), redrawn wide"
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:conceding, genuinely impressed]And the rock around them really is about three billion years ^old, from long before any ^animal. [act:the claim, fair]Some called them perfectly round, harder than ^steel, the work of a lost ^technology."
+     ],
+     "shots": [
+      {
+       "id": "s38",
+       "say": "And the rock around them really is about three billion years old ... the work of a lost technology.",
+       "draw": "A deep-time bar: 3 billion years ago at the left to today at the right (to scale); 'the rock' marked at the left end; the first animals as a small band near the right end (about 600 million years ago); a person's whole species a hairline at the end; then three dotted lilac claim labels around a sphere: 'perfectly round?', 'harder than steel?', 'lost technology?'."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:the turn, gentle but firm]Geologists call them ^concretions: minerals that grew outwards inside soft sediment, layer on layer, a little like a ^pearl. [p:0.93][act:explaining, the groove]Where one grew through a fine, tight ^layer, it grew more ^slowly, and that left the ^groove. [act:plain, closing it off][tune:fall]And a steel blade ^scratches them."
+     ],
+     "shots": [
+      {
+       "id": "s39",
+       "say": "Geologists call them concretions ... a steel blade scratches them.",
+       "draw": "Sediment in section: coarse layers and one thin, fine layer across the middle; a concretion grows ring after ring from a seed, but its rings stay tight inside the fine layer, leaving a waist: the groove (label 'the groove'); a small pearl beside it; then a steel blade draws a white scratch across a sphere ('steel scratches it').",
+       "reuse": "ooparts spheres and crust (f00.ooparts_m), redrawn wide"
+      }
+     ]
+    },
+    {
+     "role": "world",
+     "lines": [
+      "[d:build][act:next exhibit, crisp]Second, the so-called Baghdad ^battery, found near Baghdad in {1936|nineteen thirty-six}: a clay jar about fifteen centimetres ^tall. [act:describing][tune:level]Inside, a copper ^tube, an iron ^rod, and a seal of bitumen, natural ^tar. [act:fair, genuinely interested]Fill it with lemon juice, and it really does@verb make ^electricity: replicas give about half a ^volt, a third of a torch ^battery."
+     ],
+     "shots": [
+      {
+       "id": "s40",
+       "say": "Second, the so-called Baghdad battery ... a third of a torch battery.",
+       "draw": "The jar in section, about 15 cm tall (dimension line, its 9 cm tube to scale): the clay jar draws, a copper tube pops inside, an iron rod drops into it, a black bitumen seal caps it; '1936, near Baghdad'; then lemon juice drops in; a meter (no wire to the ancient jar) swings to 'replicas: about 0.5 V', beside a torch battery drawn as three segments of which one lights ('1.5 V')."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:the problems, counting them][tune:level]But no wires were found with it, and nothing electroplated from that time and ^place. [act:the clue, leaning in][tune:fall]And jars like it from nearby ^Seleucia held rolls of papyrus, perhaps sacred ^texts. [act:landing it, even]A holder for a blessing, perhaps, rather than a ^battery."
+     ],
+     "shots": [
+      {
+       "id": "s41",
+       "say": "But no wires were found with it ... rather than a battery.",
+       "draw": "A dotted wire leading from the jar is struck out; a dotted plated cup is struck out; then a second jar from Seleucia in section with a rolled papyrus inside a metal tube; a soft warm glow over it ('a blessing?')."
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:verdict][act:fair, plain][tune:rise]A battery in a ^lab? [act:plain][tune:fall]^Yes. [act:the landing, even][tune:rise]A battery in use@noun, in its own ^time? [act:plain][tune:fall]No evidence ^yet."
+     ],
+     "shots": [
+      {
+       "id": "s42",
+       "say": "A battery in a lab? Yes. A battery in use, in its own time? No evidence yet.",
+       "draw": "Back on the jar of s40: a green tick by the meter ('in a lab: yes'), and a lilac question mark above the ancient jar ('in use: no evidence yet')."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The weighing",
+   "beats": [
+    {
+     "role": "weigh",
+     "lines": [
+      "[d:verdict][act:stepping back, calm]So let's weigh the six clues, one line each. [act:clear, counting them off][tune:level]Spacemen in the Tassili paintings: *ruled ^out*. [act:same steady pace][tune:level]An electric lamp at Dendera: *ruled ^out*. [act:same pace][tune:level]A rocket on Pakal's lid: *ruled ^out*. [act:same pace][tune:level]Runways at Nazca: *ruled ^out*; what the lines were for, an *open ^question*. [act:same pace][tune:level]Machined spheres at Klerksdorp: *ruled ^out*. [act:closing the column][tune:fall]And the Baghdad jar as a working battery: *awaiting ^evidence*.",
+      "[d:calm][p:0.95][act:the whole picture, weighing it][tune:rise]Visitors from space as the ^explanation? [act:the verdict, level-headed][tune:fall]*Ruled ^out*. [act:fair, the honest open part]What stays open is ^human: how some great stones were moved, and what some pictures ^meant."
+     ],
+     "shots": [
+      {
+       "id": "s43",
+       "say": "Spacemen in the Tassili paintings ... the Baghdad jar as a working battery: awaiting evidence.",
+       "draw": "A ledger board with six rows, each with a small picture at the left (round head, bulb relief, the lid, the hummingbird, a sphere, the jar); each row lights as it is named and its grade chip pops as the grade is said: five 'Ruled out' chips, the Nazca row a second chip 'Open question', the jar 'Awaiting evidence'."
+      },
+      {
+       "id": "s44",
+       "say": "Visitors from space as the explanation? Ruled out ... what some pictures meant.",
+       "draw": "A dotted saucer alone in a dark sky gets a red strike and a 'Ruled out' chip; then, below, solid and warm: a big block on a sledge with a crew hauling it and a lilac '?', and a Round Head with a lilac '?' ('open, and human')."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:wonder][act:thoughtful, warm][tune:rise]So why does@verb the idea pull us so ^hard? [act:sympathetic, honest]Because the question is a good one: how did they ^do this? [act:honest, gentle]And because the past really is strange, and a secret is ^thrilling. [p:0.93][act:the cost, quiet]But the theory quietly hands their work to someone ^else.",
+      "[d:calm][act:warm, naming them][tune:level]The painters of ^Tassili. [act:same][tune:level]The sculptors of ^Dendera. [act:same][tune:level]The scribes who carved Pakal's ^name. [act:same, fond][tune:fall]The walkers of ^Nazca. [gap:0.4][act:quiet pride, certain][tune:fall]^People did this."
+     ],
+     "shots": [
+      {
+       "id": "s45",
+       "say": "So why does@verb the idea pull us so hard? ... hands their work to someone else.",
+       "draw": "A person under a starry sky looks up at the stars, a small question mark beside them; then four small groups of ancient workers at the bottom of the frame, and a dotted arrow lifts their work (tiny icons of a painting, a relief, a lid, a bird) away from them up towards a dotted saucer."
+      },
+      {
+       "id": "s46",
+       "say": "The painters of Tassili ... People did this.",
+       "draw": "The dotted saucer fades; the four groups come forward one by one with their work and a name under each ('painters of Tassili', 'sculptors of Dendera', 'scribes of Palenque', 'walkers of Nazca'); on 'People did this' a warm glow rises behind all of them."
+      }
+     ]
+    },
+    {
+     "role": "test",
+     "lines": [
+      "[d:tension][act:practical, the test][tune:rise]What would change our ^minds? [p:0.93][act:clear, the rules]One made object@noun, found sealed in a dated layer and recorded as it's dug ^up, [act:the decisive part][tune:fall]made of something no ancient workshop could ^make, and confirmed by independent ^labs. [act:warm, a genuine open invitation]Find that, and we'll weigh it ^too."
+     ],
+     "shots": [
+      {
+       "id": "s47",
+       "say": "What would change our minds? ... Find that, and we'll weigh it too.",
+       "draw": "A dig in section, drawn dashed (a test not yet met): a sealed layer with a date tag, an object glinting inside it, an archaeologist with a camera and notebook above; then three lab flasks each light and tick in turn ('independent labs'); an empty frame with a question mark: 'not found yet'.",
+       "reuse": "ooparts dig scene (f00.ooparts_m shot 6), redrawn wide"
+      }
+     ]
+    },
+    {
+     "role": "close",
+     "lines": [
+      "[d:wonder][p:0.93][act:quiet, warm]At Palenque, a king still rests beneath his tree, his name carved beside him by people who wanted us to ^know. [act:the last word, a smile][tune:fall]Weigh it ^yourself."
+     ],
+     "shots": [
+      {
+       "id": "s48",
+       "say": "At Palenque, a king still rests beneath his tree ... Weigh it yourself.",
+       "draw": "The lid of s1 once more, framed close on the king and the tree; a lamp glow warms it slowly; the glyph band glows softly; nothing else."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "description": "A king at the controls of a rocket. A Martian god painted in the Sahara. A light bulb carved in an Egyptian crypt. Runways in the Peruvian desert, grooved spheres three billion years old, and an ancient jar called a battery. Since Erich von Däniken's Chariots of the Gods in 1968, these clues have been the heart of the ancient astronaut theory.\n\nWe weigh them one at a time, with the theory at its strongest: what the paintings, the hieroglyphs, the Maya glyphs, the desert floor and the rocks themselves say, and what would change our minds. Verdict on visitors from space: Ruled out. And the real makers get their credit back.\n\nChapters\n0:00 Chariots of the gods\nmm:ss The great Martian god\nmm:ss Read the caption\nmm:ss Lines in the desert\nmm:ss Out of place\nmm:ss The weighing\n\nSources\nvon Däniken 1968, Erinnerungen an die Zukunft (Econ, Düsseldorf); English: Chariots of the Gods? (1969)\nLhote 1958, À la découverte des fresques du Tassili (Arthaud, Paris)\nKeenan 2000, Antiquity 74, doi:10.1017/S0003598X00059287\nKeenan 2002, Public Archaeology 2(3): 131-150, doi:10.1179/pua.2002.2.3.131\nMercier et al. 2012, Quaternary Geochronology, doi:10.1016/j.quageo.2011.11.010\nSoukopova 2012, Round Heads: The Earliest Rock Paintings in the Sahara (Cambridge Scholars)\nLe Quellec 2009, Des Martiens au Sahara (Actes Sud)\nWaitkus 1997, Die Texte in den unteren Krypten des Hathortempels von Dendera (Philipp von Zabern)\nWaitkus 2002, Studien zur Altägyptischen Kultur 30: 373-394\nFeder 2014, Frauds, Myths, and Mysteries (McGraw-Hill)\nWeeks 1998, The Lost Tomb (Weidenfeld & Nicolson); Theban Mapping Project, KV 5\nRuz Lhuillier 1973, El Templo de las Inscripciones, Palenque (INAH)\nSchele & Freidel 1990, A Forest of Kings (William Morrow)\nStuart & Stuart 2008, Palenque: Eternal City of the Maya (Thames & Hudson)\nNickell 1983, Skeptical Inquirer 7(3): 36-44 (the Nazca condor duplicate)\nAveni 1990, The Lines of Nazca (American Philosophical Society)\nSakai et al. 2024, PNAS 121(40), doi:10.1073/pnas.2407652121\nHeinrich 2008, The mysterious spheres of Klerksdorp (petrographic notes)\nKönig 1938, Forschungen und Fortschritte 14: 8-9\nEggert 1996, Skeptical Inquirer 20(3): 31-34\nBoston Globe, obituary of Erich von Däniken, 11 January 2026",
+ "sources": [
+  "von Däniken 1968, Erinnerungen an die Zukunft (Econ, Düsseldorf); English edition Chariots of the Gods? (1969)",
+  "Boston Globe, obituary 'Erich von Däniken, who claimed aliens visited Earth, dies at 90', 11 January 2026",
+  "blue News / Keystone-SDA, 'Swiss bestselling author Erich von Däniken dead', 11 January 2026",
+  "History Channel, Ancient Aliens (pilot 2009, series from 2010; 22 seasons listed)",
+  "NBC 1973, In Search of Ancient Astronauts (narrated by Rod Serling); In Search of... (1977-1982, hosted by Leonard Nimoy)",
+  "NASA, Apollo 8 mission (first crewed lunar orbit, 24 December 1968)",
+  "Lhote 1958, À la découverte des fresques du Tassili (Arthaud)",
+  "Keenan 2000, Antiquity 74, doi:10.1017/S0003598X00059287",
+  "Keenan 2002, Public Archaeology 2(3): 131-150, doi:10.1179/pua.2002.2.3.131",
+  "Mercier et al. 2012, Quaternary Geochronology, doi:10.1016/j.quageo.2011.11.010",
+  "Soukopova 2012, Round Heads: The Earliest Rock Paintings in the Sahara (Cambridge Scholars Publishing)",
+  "Le Quellec 2009, Des Martiens au Sahara: chroniques d'archéologie romantique (Actes Sud)",
+  "UNESCO World Heritage List, Tassili n'Ajjer (1982)",
+  "Waitkus 1997, Die Texte in den unteren Krypten des Hathortempels von Dendera (MÄS 47, Philipp von Zabern)",
+  "Waitkus 2002, 'Die Geburt des Harsomtus aus der Blüte', Studien zur Altägyptischen Kultur 30: 373-394",
+  "Feder 2014, Frauds, Myths, and Mysteries: Science and Pseudoscience in Archaeology, 8th ed. (McGraw-Hill)",
+  "Weeks 1998, The Lost Tomb (KV 5); Theban Mapping Project, 'Tomb builders' (Qenherkhepeshef's lamp receipt)",
+  "Ruz Lhuillier 1973, El Templo de las Inscripciones, Palenque (INAH, Mexico)",
+  "Schele & Freidel 1990, A Forest of Kings: The Untold Story of the Ancient Maya (William Morrow)",
+  "Stuart & Stuart 2008, Palenque: Eternal City of the Maya (Thames & Hudson)",
+  "Nickell 1983, 'The Nazca Drawings Revisited: Creation of a Full-Sized Duplicate', Skeptical Inquirer 7(3): 36-44",
+  "Aveni 1990, The Lines of Nazca (American Philosophical Society)",
+  "Sakai et al. 2024, PNAS 121(40): e2407652121, doi:10.1073/pnas.2407652121",
+  "Heinrich 2008, The mysterious spheres of Klerksdorp, South Africa (petrographic study, after Heinrich 1996)",
+  "König 1938, 'Ein galvanisches Element aus der Partherzeit?', Forschungen und Fortschritte 14: 8-9",
+  "Eggert 1996, 'The enigmatic battery of Baghdad', Skeptical Inquirer 20(3): 31-34",
+  "MythBusters 2005, Discovery Channel (ten replica jars in series, 4.33 V)",
+  "Tallet & Lehner 2021, The Red Sea Scrolls (Thames & Hudson) (via the Short 'ancient-astronauts')"
+ ],
+ "facts_added": [
+  {
+   "fact": "Chariots of the Gods appeared in German in 1968 as Erinnerungen an die Zukunft (Memories of the Future), from Econ; the first printing was 6,000 copies; by December 1968 it was a bestseller in Germany; the English translation followed the next year.",
+   "source": "Boston Globe obituary, 11 January 2026; von Däniken 1968"
+  },
+  {
+   "fact": "Von Däniken wrote the book while managing the Hotel Rosenhügel in Davos, Switzerland.",
+   "source": "Boston Globe obituary, 11 January 2026"
+  },
+  {
+   "fact": "Apollo 8 carried the first people around the Moon in December 1968 (lunar orbit on 24 December).",
+   "source": "NASA, Apollo 8 mission"
+  },
+  {
+   "fact": "The 1970 German documentary of the book was nominated for the Academy Award for best documentary feature (it lost to Woodstock).",
+   "source": "Boston Globe obituary, 11 January 2026; 43rd Academy Awards"
+  },
+  {
+   "fact": "NBC's 1973 special In Search of Ancient Astronauts, based on the book and film, was narrated by Rod Serling; the series In Search of... followed (1977 to 1982), hosted by Leonard Nimoy.",
+   "source": "NBC 1973 special; In Search of... series records (premiere given as 1977, some listings 1976)"
+  },
+  {
+   "fact": "Ancient Aliens began as a History Channel special in 2009, became a series in 2010, and has run to 22 seasons.",
+   "source": "History Channel, Ancient Aliens episode list"
+  },
+  {
+   "fact": "Sales of von Däniken's books are given differently: more than 63 million (his own account), 70 million or more (obituaries), 75 million (his agent); hence 'by most counts, more than sixty million'.",
+   "source": "Boston Globe obituary 2026; Wikipedia summary of his and his agent's figures"
+  },
+  {
+   "fact": "Erich von Däniken died in Interlaken, Switzerland, on 10 January 2026, aged 90.",
+   "source": "blue News / Keystone-SDA, 11 January 2026; Boston Globe obituary, 11 January 2026"
+  },
+  {
+   "fact": "Henri Lhote's expedition copied Tassili paintings over 16 months in 1956 and 1957 and published them in 1958; he called a giant Round Head figure at Jabbaren 'the great Martian god'. Whether he meant it seriously is read differently: the Short and Le Quellec treat it as a joke, other summaries say he publicised the idea; hence 'half in jest, it seems'.",
+   "source": "Lhote 1958; Le Quellec 2009; Short 'tassili' (films/rewrite/tassili.json)"
+  },
+  {
+   "fact": "Round Head figures range from a few centimetres to about four metres (the Jabbaren painting is given as about six by three metres); hence 'several metres tall'.",
+   "source": "Soukopova 2012 (Round Head catalogue); Short 'tassili' (up to 5 m)"
+  },
+  {
+   "fact": "The temple of Hathor at Dendera was begun around 54 BCE under Ptolemy XII Auletes, Cleopatra VII's father; its crypt reliefs date to the late Ptolemaic period.",
+   "source": "Dendera temple literature (Cauville); summarised in Waitkus 1997"
+  },
+  {
+   "fact": "The 'Dendera light' reliefs show Harsomtus as a snake rising from a lotus flower inside an oval hn-container, supported by a djed pillar; their captions give each statue's material and height: gold and metal, four palms; gold and precious stones, three palms; gold, one cubit. The crypts stored cult statues.",
+   "source": "Waitkus 1997; Waitkus 2002, SAK 30: 373-394"
+  },
+  {
+   "fact": "An ostracon written by the scribe Qenherkhepeshef, found in KV 5 in the Valley of the Kings, is a receipt for oil lamps used to light the work in that tomb.",
+   "source": "Weeks 1998, The Lost Tomb; Theban Mapping Project, 'Tomb builders'"
+  },
+  {
+   "fact": "No physical remains of electric lighting (glass, metal sockets, filaments, wiring) have been found in Egypt.",
+   "source": "Feder 2014"
+  },
+  {
+   "fact": "Salt-treated wicks or torches have been suggested as a way the ancient Egyptians kept lampblack down (a suggestion, hence 'some suggest').",
+   "source": "Feder 2014"
+  },
+  {
+   "fact": "Alberto Ruz Lhuillier found the stairway in the Temple of the Inscriptions in 1948 and opened Pakal's tomb in 1952; the lid is about 3.6 to 3.8 m long (sources differ).",
+   "source": "Ruz Lhuillier 1973; Stuart & Stuart 2008"
+  },
+  {
+   "fact": "K'inich Janaab Pakal lived 603 to 683 CE and ruled 68 years from 615; the lid shows him at the base of the cruciform World Tree with the celestial bird on top and the jaws of the underworld below; readings differ: falling into the underworld (Schele) or rebirth as the maize god.",
+   "source": "Schele & Freidel 1990; Stuart & Stuart 2008"
+  },
+  {
+   "fact": "In the Temple of the Cross at Palenque, built by Pakal's son K'inich Kan Bahlam II, the central tablet shows the same cross-shaped World Tree between two images of Kan Bahlam.",
+   "source": "Stuart & Stuart 2008; Schele & Freidel 1990"
+  },
+  {
+   "fact": "Nazca lines are shallow (about 10 to 15 cm) clearings of reddish-brown, iron-oxide coated stones exposing paler ground; the hummingbird is about 93 m long, the condor about 134 m.",
+   "source": "Aveni 1990; Nazca survey literature"
+  },
+  {
+   "fact": "On 7 August 1982 Joe Nickell and five relatives duplicated the 134 m (440 ft) Nazca condor in a field near West Liberty, Kentucky, with wooden stakes, cord and a wooden T, plotting 165 points from a centre line in about nine hours; aerial photographs showed it accurate.",
+   "source": "Nickell 1983, Skeptical Inquirer 7(3): 36-44"
+  },
+  {
+   "fact": "In 2024 an AI-assisted survey found 303 new figurative geoglyphs in six months of fieldwork, nearly doubling the 430 known after almost a century; the small relief-type figures lie on average about 43 m from ancient trails.",
+   "source": "Sakai et al. 2024, PNAS, doi:10.1073/pnas.2407652121"
+  },
+  {
+   "fact": "The Klerksdorp spheres come from about 3-billion-year-old pyrophyllite near Ottosdal, South Africa; they are 0.5 to 10 cm across, hematite or wollastonite concretions; their grooves follow fine-grained laminations where growth was slower; none measured harder than 5 on the Mohs scale (softer than steel).",
+   "source": "Heinrich 2008; Short 'ooparts' (films/rewrite/ooparts.json)"
+  },
+  {
+   "fact": "The 'Baghdad battery' was found in 1936 at Khujut Rabu near Baghdad and described by Wilhelm König in 1938: a clay jar about 15 cm tall holding a copper cylinder (26 mm across, 9 cm tall) with an iron rod, sealed with bitumen; no wires or electroplating of that time and place are known; similar vessels from Seleucia held papyrus rolls.",
+   "source": "König 1938; Eggert 1996, Skeptical Inquirer 20(3)"
+  },
+  {
+   "fact": "Replica jars filled with acid make a small voltage: ten in series made 4.33 V (about 0.4 V each); a torch (AA) cell gives 1.5 V.",
+   "source": "MythBusters 2005; Eggert 1996 (current small and short-lived)"
+  },
+  {
+   "fact": "Dating: Parthian (König) or Sasanian (St John Simpson, British Museum, from the pottery); the record of the find is poor; hence the film says 'in its own time' rather than a date.",
+   "source": "Eggert 1996; British Museum (Simpson)"
+  }
+ ],
+ "names": [
+  {
+   "name": "Erich von Däniken",
+   "say": "EH-rik fon DEN-ih-ken (erich, däniken in LEX)"
+  },
+  {
+   "name": "Memories of the Future",
+   "say": "plain English (the German title in translation)"
+  },
+  {
+   "name": "Apollo 8",
+   "say": "uh-POL-oh EIGHT"
+  },
+  {
+   "name": "Rod Serling",
+   "say": "ROD SUR-ling"
+  },
+  {
+   "name": "Leonard Nimoy",
+   "say": "LEN-erd NIM-oy"
+  },
+  {
+   "name": "Ancient Aliens",
+   "say": "plain English (the TV series)"
+  },
+  {
+   "name": "Tassili n'Ajjer",
+   "say": "ta-SEE-lee na-JAIR (in LEX)"
+  },
+  {
+   "name": "Henri Lhote",
+   "say": "on-REE LOHT"
+  },
+  {
+   "name": "Tuareg",
+   "say": "TWAH-reg (in LEX)"
+  },
+  {
+   "name": "Hathor",
+   "say": "HATH-or"
+  },
+  {
+   "name": "Dendera",
+   "say": "DEN-der-uh"
+  },
+  {
+   "name": "Cleopatra",
+   "say": "klee-oh-PAT-ruh"
+  },
+  {
+   "name": "Harsomtus",
+   "say": "har-SOM-tus"
+  },
+  {
+   "name": "Palenque",
+   "say": "pah-LENG-kay"
+  },
+  {
+   "name": "Alberto Ruz",
+   "say": "al-BAIR-toh ROOS"
+  },
+  {
+   "name": "Pakal",
+   "say": "pah-KAHL (in LEX)"
+  },
+  {
+   "name": "Nazca",
+   "say": "NAHZ-kuh (in LEX)"
+  },
+  {
+   "name": "Joe Nickell",
+   "say": "JOH NIK-ul"
+  },
+  {
+   "name": "Klerksdorp",
+   "say": "KLERKS-dorp (in LEX)"
+  },
+  {
+   "name": "Baghdad",
+   "say": "BAG-dad"
+  },
+  {
+   "name": "Seleucia",
+   "say": "seh-LOO-shuh"
+  }
+ ],
+ "words": 1506
+}
