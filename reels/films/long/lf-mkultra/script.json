@@ -1,0 +1,896 @@
+{
+ "id": "lf-mkultra",
+ "kind": "case",
+ "series": "The Files",
+ "title": "MKUltra: The Files That Survived",
+ "intro_title": "MKUltra: The Files That Survived",
+ "yt_title": "MKUltra: The CIA Destroyed the Files. Seven Boxes Survived",
+ "verdict": "Established",
+ "hook": "Did the CIA really try to control minds?",
+ "chapters": [
+  {
+   "title": "Cold open",
+   "beats": [
+    {
+     "role": "hook",
+     "lines": [
+      "[d:intrigue][sfx:paper][act:hushed, vivid]March {1977|nineteen seventy-seven}. [act:the image, slow]In a CIA warehouse outside Washington, seven forgotten ^boxes turn up. [p:0.93][act:the twist, low][tune:fall]They belong to a secret programme whose files the CIA believed were ^*destroyed*.",
+      "[d:reveal][act:the reveal, leaning in]Inside: ^receipts. [act:listing][tune:level]For work at ^universities. [act:same rhythm][tune:level]At ^hospitals. [act:the last, heavier][tune:fall]Even in ^*prisons*.",
+      "[d:tension][act:the name, low]The programme was called ^MKUltra. [act:the child's question, leaning in][tune:rise]Did the CIA really try to control ^minds? [act:the second question, quieter][tune:fall]And what happened to the people it ^drugged?"
+     ],
+     "shots": [
+      {
+       "id": "s1",
+       "say": "March 1977. In a CIA warehouse outside Washington, seven forgotten boxes turn up.",
+       "draw": "The hero image, fully drawn from the first frame: a dark records warehouse seen in depth, rows of tall grey steel shelving receding into the dark (back rows dimmed), a single hanging lamp over the front shelf throwing a cone of warm light; on the lit shelf, seven brown cardboard record boxes with white end labels, one pulled half out; an archivist (a person, 1.7 m) at the right with a torch whose beam lands on the boxes. Nothing important in the hook-title zone at top left. At 'seven' each box gets a thin gold rim, one after another."
+      },
+      {
+       "id": "s2",
+       "say": "They belong to a secret programme whose files the CIA believed were destroyed.",
+       "draw": "Same panel, the camera eases in on the shelf: on the shelves either side of the seven boxes, rows of dashed outlines of missing boxes draw themselves (the destroyed files) under a faint red glow; the seven solid boxes stay lit.",
+       "reuse": "same panel as s1"
+      },
+      {
+       "id": "s3",
+       "say": "Inside: receipts. For work at universities. At hospitals. Even in prisons.",
+       "draw": "Close on one open box: its lid lifts and four receipts and vouchers rise and fan out (paper, typed lines, a dollar column); as each kind of place is named a small building pops above them, tied by a thin amber thread: a university (columns and pediment), a hospital (red cross), a prison (barred window)."
+      },
+      {
+       "id": "s4",
+       "say": "The programme was called MKUltra. Did the CIA really try to control minds? And what happened to the people it drugged?",
+       "draw": "A manila folder on a dark desk under a lamp; a red stamp 'MKULTRA' thumps onto it; at the right a large head in profile (dark silhouette) with a dotted lilac '?' glowing inside; then a row of dim human silhouettes fades in below, unnamed, softly lit."
+      }
+     ]
+    },
+    {
+     "role": "title",
+     "lines": [
+      "[d:calm][act:warm, setting out]^MKUltra: the files that ^survived. [act:the promise, steady][tune:fall]What they show, and what was ^lost."
+     ],
+     "shots": [
+      {
+       "id": "s5",
+       "say": "MKUltra: the files that survived. What they show, and what was lost.",
+       "draw": "The folder panel held and dimmed under the full-frame intro title card 'MKUltra: The Files That Survived'.",
+       "reuse": "same panel as s4"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Brain warfare",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:storytelling, setting the scene]It begins with a fear, and a new ^word. [act:explaining, clear]In {1950|nineteen fifty}, an American journalist wrote that China's communists were ^brainwashing people: [act:the image, plain][tune:fall]scrubbing out their beliefs, and writing in new ^ones.",
+      "[d:tension][act:the evidence, darker]Then, in the Korean War, captured American airmen signed confessions to germ ^warfare, [act:firm][tune:fall]confessions the United States called ^false. [p:0.93][act:the fear, hushed][tune:rise]Did the other side have a way to rewrite a ^mind?"
+     ],
+     "shots": [
+      {
+       "id": "s6",
+       "say": "In 1950, an American journalist wrote that China's communists were brainwashing people: scrubbing out their beliefs, and writing in new ones.",
+       "draw": "A newspaper page (schematic, grey column lines) with a big headline 'BRAIN-WASHING' typing in and the date '1950'; beside it a head in profile: the lines of writing inside it are wiped away by a sweeping cloth (dotted lilac: a claim), then new lines are written in."
+      },
+      {
+       "id": "s7",
+       "say": "Then, in the Korean War, captured American airmen signed confessions to germ warfare, confessions the United States called false. Did the other side have a way to rewrite a mind?",
+       "draw": "A schematic map of Korea with a camp pin; a pilot figure at a small table signs a paper ('a confession'); a dotted germ symbol over it; a red stamp 'called false'; then a large lilac '?' rises over a head silhouette."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:the response, measured]The CIA went looking for its own ^answers. [act:explaining, plain]From {1950|nineteen fifty}, it sent out interrogation teams armed with the lie detector, drugs and ^hypnosis.",
+      "[d:build][act:the date, precise]On the tenth of April, {1953|nineteen fifty-three}, the head of the CIA, Allen ^Dulles, warned an audience of Princeton graduates about what he called brain ^*warfare*. [act:quoting him, dry]The West, he said, was somewhat ^handicapped. [p:0.93][act:the turn, quiet][tune:fall]Three days later, he approved a secret programme of his ^own.",
+      "[d:calm][act:introducing it, plain]Its name: ^MKUltra. [act:the span, plain][tune:fall]It would last more than ten ^years. [act:plain]It was run by a CIA chemist, Sidney ^Gottlieb, [act:explaining, clear][tune:fall]and its star was a powerful new drug, ^LSD. [p:0.93][act:explaining, plain]A tiny dose can scramble the senses for ^hours, [act:the hope, measured][tune:fall]and some at the CIA hoped it might loosen ^tongues."
+     ],
+     "shots": [
+      {
+       "id": "s8",
+       "say": "The CIA went looking for its own answers. From 1950, it sent out interrogation teams armed with the lie detector, drugs and hypnosis.",
+       "draw": "A bare interrogation room under a lamp: a table, two chairs, a figure seated; three tools pop on the table as named: a lie detector with its paper trace, a syringe and vial, a swinging watch on a chain (hypnosis); label 'from 1950'."
+      },
+      {
+       "id": "s9",
+       "say": "On the tenth of April, 1953, the head of the CIA, Allen Dulles, warned an audience of Princeton graduates about what he called brain warfare. The West, he said, was somewhat handicapped.",
+       "draw": "A hall: a speaker at a lectern ('Allen Dulles'), rows of audience silhouettes in the dark; the words 'brain warfare' rise from the lectern in dotted lilac; a desk calendar at the left shows '10 April 1953'."
+      },
+      {
+       "id": "s10",
+       "say": "Three days later, he approved a secret programme of his own.",
+       "draw": "The calendar turns to 13 April; a typed memo slides in at the right and a red 'APPROVED' stamp lands on it.",
+       "reuse": "same panel as s9"
+      },
+      {
+       "id": "s11",
+       "say": "Its name: MKUltra. It would last more than ten years. It was run by a CIA chemist, Sidney Gottlieb, and its star was a powerful new drug, LSD.",
+       "draw": "A lab bench at night: a figure in a lab coat ('Sidney Gottlieb'), flasks and a burner; a folder tab 'MKULTRA'; a thin bar '1953 to the 1960s'; then a small glass ampoule of clear liquid glows ('LSD')."
+      },
+      {
+       "id": "s12",
+       "say": "A tiny dose can scramble the senses for hours, and some at the CIA hoped it might loosen tongues.",
+       "draw": "A head in profile: coloured lines of the senses twist and tangle inside it; a clock beside it sweeps through the hours; then dotted speech lines leave the mouth towards an interrogator's notepad ('loosen tongues?', dotted: a hope, not a result)."
+      }
+     ]
+    },
+    {
+     "role": "cost",
+     "lines": [
+      "[d:list][act:the scale, measured]The surviving records@noun list a hundred and forty-nine ^subprojects, [act:precise][tune:fall]and name eighty ^institutions. [act:counting them][tune:level]Forty-four universities and ^colleges. [act:counting on][tune:level]Twelve hospitals and ^clinics. [act:counting on][tune:level]Fifteen foundations and drug ^companies. [act:the last, heavier][tune:fall]And three ^*prisons*.",
+      "[d:aside][act:the analogy, light]Reading them is like reading a company's expense ^claims: [act:explaining][tune:fall]you learn who was paid, and only roughly ^why."
+     ],
+     "shots": [
+      {
+       "id": "s13",
+       "say": "The surviving records list a hundred and forty-nine subprojects, and name eighty institutions.",
+       "draw": "A grid of 149 small manila folders pops in row by row (ten rows of fifteen, the last fourteen), label '149 subprojects'; then 80 small grey markers appear beside it, label '80 institutions'."
+      },
+      {
+       "id": "s14",
+       "say": "Forty-four universities and colleges. Twelve hospitals and clinics. Fifteen foundations and drug companies. And three prisons.",
+       "draw": "The camera moves to the markers, which light by group as named: 44 university icons, 12 hospital crosses, 15 flasks (foundations and companies), 3 barred windows (prisons); 6 grey markers stay unnamed (other institutions). One label per group.",
+       "reuse": "same panel as s13"
+      },
+      {
+       "id": "s15",
+       "say": "Reading them is like reading a company's expense claims: you learn who was paid, and only roughly why.",
+       "draw": "An expense-claim card slides over the grid: the 'paid to' and 'amount' columns filled in, the 'what for' column mostly blank (dashed).",
+       "reuse": "same panel as s13"
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:the trick, leaning in]Much of that money never said ^CIA. [p:0.93][act:explaining, plain]It travelled through ^fronts: [act:the example, a small smile][tune:fall]foundations with harmless names, like the Society for the Investigation of Human ^Ecology. [act:the consequence, plain][tune:fall]Many scientists never knew who was ^paying.",
+      "[d:build][act:the example, precise]One hospital received three hundred and seventy-five thousand dollars towards a new ^wing. [act:the catch, dry][tune:level]It looked like a private ^gift, [act:the sting][tune:fall]so federal funds ^matched it. [p:0.93][act:the deal, quiet][tune:fall]In return, the CIA could use@verb a sixth of the new ^space.",
+      "[d:aside][act:quiet, pointed][tune:rise]What happened in that ^sixth? [act:honest, plain][tune:fall]The surviving files don't ^say."
+     ],
+     "shots": [
+      {
+       "id": "s16",
+       "say": "Much of that money never said CIA. It travelled through fronts: foundations with harmless names, like the Society for the Investigation of Human Ecology. Many scientists never knew who was paying.",
+       "draw": "A money flow, left to right: a dark box 'CIA' sends a bag of money along an arrow into a dotted building 'a front' (a foundation with columns), which pays three researcher figures; the CIA mark on the bag is covered by a plain tag; small '?' marks appear over the researchers."
+      },
+      {
+       "id": "s17",
+       "say": "One hospital received three hundred and seventy-five thousand dollars towards a new wing. It looked like a private gift, so federal funds matched it.",
+       "draw": "A hospital with a red cross; a new wing outline draws itself beside it; a stack of coins '$375,000' arrives tied with a ribbon (dotted: 'a private gift'); then a second stack of the same height, 'federal match', joins it and the wing fills in."
+      },
+      {
+       "id": "s18",
+       "say": "In return, the CIA could use a sixth of the new space. What happened in that sixth? The surviving files don't say.",
+       "draw": "The new wing divided into six equal bays; one bay fills with a dim lilac tint, label 'a sixth for the CIA'; then a '?' pops inside it.",
+       "reuse": "same panel as s17"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The safe houses",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:tension][act:quiet, uneasy]Testing the drugs on ^volunteers was not enough. [act:explaining, plain]Lab tests, the CIA reasoned, could not show how a person would react in a real ^operation. [p:0.93][act:quoting the files, plain]A CIA report describes the final ^phase: [act:the phrase, slow][tune:fall]trying the drugs on unwitting people, in normal life ^settings."
+     ],
+     "shots": [
+      {
+       "id": "s19",
+       "say": "Lab tests, the CIA reasoned, could not show how a person would react in a real operation. A CIA report describes the final phase: trying the drugs on unwitting people, in normal life settings.",
+       "draw": "Two halves: at the left a bright lab, a volunteer at a table and a tester with a clipboard ('volunteers'); at the right a street at night with ordinary people walking past lit windows ('normal life'); a typed report strip '1963 report' underlines 'unwitting' in amber."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:tension][act:the setting, hushed]So, in New York and San Francisco, the CIA paid for safe houses@noun!: [act:plain][tune:fall]ordinary flats, rented in ^secret. [p:0.93][act:explaining, plain]A federal narcotics agent working for the CIA, George ^White, invited people ^in, [act:chilling, soft][tune:level]slipped LSD into their ^drinks, [act:quiet][tune:fall]and watched what ^happened.",
+      "[d:tension][act:the detail, precise]It came in tiny plastic ampoules, about eighty millionths of a gram ^each: [act:the image, quiet][tune:fall]invisible in a ^drink. [act:plain, sober]They had no idea they had been ^drugged. [act:quiet, heavy][tune:fall]Some were ill for hours, or ^days. [act:dry, cold][tune:fall]Checking on them afterwards, Gottlieb later said, was done when ^practical."
+     ],
+     "shots": [
+      {
+       "id": "s20",
+       "say": "So, in New York and San Francisco, the CIA paid for safe houses: ordinary flats, rented in secret.",
+       "draw": "A map of the United States (lower 48): gold pins pop at San Francisco and New York as named; at each a small apartment house rises; a dashed line joins them."
+      },
+      {
+       "id": "s21",
+       "say": "A federal narcotics agent working for the CIA, George White, invited people in, slipped LSD into their drinks, and watched what happened.",
+       "draw": "A cutaway of an ordinary flat at night: a sofa, a lamp, a guest with a glass; the agent ('George White') hands over the glass; a dotted lilac drop falls into it; then beyond a partition at the right, a second figure with a notebook watches (a dotted blue sight line)."
+      },
+      {
+       "id": "s22",
+       "say": "It came in tiny plastic ampoules, about eighty millionths of a gram each: invisible in a drink.",
+       "draw": "Close on the coffee table of the flat: a small plastic ampoule beside a glass, a dotted line from the ampoule into the glass; label 'about 80 micrograms'; the glass stays perfectly clear ('invisible').",
+       "reuse": "same panel as s21"
+      },
+      {
+       "id": "s23",
+       "say": "They had no idea they had been drugged. Some were ill for hours, or days. Checking on them afterwards, Gottlieb later said, was done when practical.",
+       "draw": "Same flat, wide: swirl lines around the guest's head; a wall clock's hand sweeps; a row of day squares fills: hours, then days; the watcher's notebook closes with only a few lines written ('when practical').",
+       "reuse": "same panel as s21"
+      }
+     ]
+    },
+    {
+     "role": "cost",
+     "lines": [
+      "[d:reveal][act:the count, careful][tune:rise]How many people? [act:honest]Years later, Gottlieb guessed about forty ^tests. [p:0.93][act:the gap, quiet][tune:fall]The records@noun that could check him no longer ^exist."
+     ],
+     "shots": [
+      {
+       "id": "s24",
+       "say": "How many people? Years later, Gottlieb guessed about forty tests. The records that could check him no longer exist.",
+       "draw": "Forty small figures appear in dotted outline (an estimate), four rows of ten, label 'about 40 tests?'; beside them a file box drawn in dashes fades away ('the records')."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:build][act:the inspector, firm]In {1963|nineteen sixty-three}, the CIA's own Inspector General found ^out. [p:0.93][act:quoting it, grave]His report warned that this testing put the rights and interests of American citizens in ^*jeopardy*. [act:explaining, plain]It added that many experts considered research on manipulating behaviour professionally ^unethical. [act:the analogy, plain]An inspector general is an agency's own internal ^auditor: [act:the point, quiet][tune:fall]this alarm came from inside the CIA ^itself.",
+      "[d:calm][act:the outcome, plain]The testing on unwitting Americans was ^stopped, [act:closing it][tune:fall]and by the middle of the {1960s|nineteen sixties}, the safe houses@noun! had ^closed."
+     ],
+     "shots": [
+      {
+       "id": "s25",
+       "say": "In 1963, the CIA's own Inspector General found out. His report warned that this testing put the rights and interests of American citizens in jeopardy.",
+       "draw": "A desk under a lamp, an inspector figure reading; a report with a red 'SECRET' stamp; the words 'in jeopardy' light up; a pair of scales tips."
+      },
+      {
+       "id": "s26",
+       "say": "It added that many experts considered research on manipulating behaviour professionally unethical. An inspector general is an agency's own internal auditor: this alarm came from inside the CIA itself.",
+       "draw": "On the report, a second line lights: 'professionally unethical'; then the outline of a large office building draws round the desk and the inspector, a small red alarm light pulsing at its window ('from inside').",
+       "reuse": "same panel as s25"
+      },
+      {
+       "id": "s27",
+       "say": "The testing on unwitting Americans was stopped, and by the middle of the 1960s, the safe houses had closed.",
+       "draw": "Back on the United States map: the two safe-house icons dim and their windows go dark ('1965', '1966').",
+       "reuse": "same panel as s20"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Frank Olson",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:grave, respectful]One death, at least, came out of these ^tests. [act:setting the scene, quiet]November {1953|nineteen fifty-three}: a work retreat at a cabin by Deep Creek Lake, in ^Maryland. [p:0.93][act:the moment, soft]After dinner, Gottlieb's team put LSD into a bottle of ^liqueur, [act:plain][tune:fall]and served it without ^warning.",
+      "[d:tension][act:the name, gentle]Among those who drank was Frank ^Olson, forty-three, a father of ^three: a scientist at Camp ^Detrick, the Army's centre for germ warfare ^research."
+     ],
+     "shots": [
+      {
+       "id": "s28",
+       "say": "November 1953: a work retreat at a cabin by Deep Creek Lake, in Maryland.",
+       "draw": "Late autumn at night: a dark lake with reflections, bare trees, a wooden lodge on the shore with warm lit windows; a small inset map of Maryland with pins at Deep Creek Lake (far west) and Washington; label 'November 1953'."
+      },
+      {
+       "id": "s29",
+       "say": "After dinner, Gottlieb's team put LSD into a bottle of liqueur, and served it without warning.",
+       "draw": "Inside the lodge: a table with an after-dinner bottle and small glasses; a dotted lilac drop falls into the bottle; the glasses fill one by one."
+      },
+      {
+       "id": "s30",
+       "say": "Among those who drank was Frank Olson, forty-three, a father of three: a scientist at Camp Detrick, the Army's centre for germ warfare research.",
+       "draw": "Seated figures round the table; one is lit by a soft glow, label 'Frank Olson'; no face detail; a small tag 'Camp Detrick'.",
+       "reuse": "same panel as s29"
+      }
+     ]
+    },
+    {
+     "role": "cost",
+     "lines": [
+      "[d:tension][act:the days after, heavy]Over the next few days, he was deeply ^troubled. [act:plain]The CIA took him to New York, to see a ^doctor. [p:0.96][act:somber, slow][tune:fall]Nine days after that drink, he fell to his death from a tenth-floor ^window."
+     ],
+     "shots": [
+      {
+       "id": "s31",
+       "say": "Over the next few days, he was deeply troubled. The CIA took him to New York, to see a doctor.",
+       "draw": "A route map: western Maryland, Washington, New York; a line draws from the lake to New York; date chips along it, '19 Nov' and '24 Nov'."
+      },
+      {
+       "id": "s32",
+       "say": "Nine days after that drink, he fell to his death from a tenth-floor window.",
+       "draw": "A row of nine day squares (19 to 28 November 1953) fills one by one; then a tall hotel front at night, its floors counted, one window lit on the tenth floor; the light goes out softly. No fall is shown."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:even, careful]His death was recorded as ^suicide. [act:the gap, quiet][tune:fall]Nobody told his family about the ^drug. [p:0.93][act:the date, heavy][tune:fall]They learned of it twenty-two years later, from a government ^report.",
+      "[d:calm][act:the apology, measured]The President apologised to them at the White House@noun, [act:plain][tune:fall]and Congress paid them seven hundred and fifty thousand ^dollars."
+     ],
+     "shots": [
+      {
+       "id": "s33",
+       "say": "His death was recorded as suicide. Nobody told his family about the drug.",
+       "draw": "A family house at dusk with one lit window; a typed card 'suicide'; behind it a dashed tag 'LSD', greyed, hidden."
+      },
+      {
+       "id": "s34",
+       "say": "They learned of it twenty-two years later, from a government report.",
+       "draw": "A time line from 1953 to 1975 draws itself with 22 ticks; a report '1975' pops at its end; the hidden 'LSD' tag turns solid."
+      },
+      {
+       "id": "s35",
+       "say": "The President apologised to them at the White House, and Congress paid them seven hundred and fifty thousand dollars.",
+       "draw": "The White House by day, schematic; small figures at its door; a chip '$750,000' and a label 'Congress, 1976'."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:tension][p:0.93][act:the first account, even]The official account: the drug brought on a ^breakdown, [act:plain][tune:fall]and he ^jumped. [act:the second account, careful][tune:fall]His family came to believe something ^else.",
+      "[d:build][act:the evidence, precise]In {1994|nineteen ninety-four}, his body was ^exhumed. [p:0.93][act:the finding, careful]A forensic scientist found an injury to the head that he believed came before the ^fall. [act:the outcome, even][tune:level]New York prosecutors reopened the case, and charged no ^one, [act:the change, quiet][tune:fall]but his cause of death was changed from suicide to ^*unknown*.",
+      "[d:calm][act:the court, plain]In {2012|twenty twelve}, his sons sued, arguing he had been ^killed. [act:the ruling, even][tune:fall]A judge dismissed the case on legal grounds, without deciding what had ^happened."
+     ],
+     "shots": [
+      {
+       "id": "s36",
+       "say": "The official account: the drug brought on a breakdown, and he jumped. His family came to believe something else.",
+       "draw": "A balance: on the left pan a card 'the official account'; on the right a dotted lilac card 'his family's account'; the beam stays level."
+      },
+      {
+       "id": "s37",
+       "say": "In 1994, his body was exhumed. A forensic scientist found an injury to the head that he believed came before the fall.",
+       "draw": "A quiet cemetery at dawn, a headstone and a small team standing at a distance; then a plain head outline (no skull detail) with a small dashed mark at the temple, label 'before the fall?' (dashed: an interpretation)."
+      },
+      {
+       "id": "s38",
+       "say": "New York prosecutors reopened the case, and charged no one, but his cause of death was changed from suicide to unknown.",
+       "draw": "A record card 'cause of death: suicide'; the word 'suicide' is struck through and 'unknown' types in; a small tag 'no charges'."
+      },
+      {
+       "id": "s39",
+       "say": "In 2012, his sons sued, arguing he had been killed. A judge dismissed the case on legal grounds, without deciding what had happened.",
+       "draw": "A court bench with a gavel; a file 'suit, 2012'; the gavel falls: 'dismissed, 2013'; a dotted '?' stays over the file."
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:aside][act:quiet, fair]Two accounts, ^then. [act:honest][tune:fall]The evidence has never settled which is ^true."
+     ],
+     "shots": [
+      {
+       "id": "s40",
+       "say": "Two accounts, then. The evidence has never settled which is true.",
+       "draw": "Back on the balance: it stays level, and a lilac '?' glows above the beam.",
+       "reuse": "same panel as s36"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Seven boxes",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:build][act:the cover-up, firm]In January {1973|nineteen seventy-three}, the MKUltra files were ^*destroyed*. [act:explaining, plain]Gottlieb ordered it, with the approval of the CIA's director, Richard ^Helms. [act:the timing, dry][tune:fall]Both men were about to leave the ^agency. [p:0.93][act:the number, grave][tune:fall]A hundred and fifty-two files, ^gone.",
+      "[d:calm][act:his reasons, even]Gottlieb later gave three ^reasons: [act:listing][tune:level]to protect the ^researchers, [act:listing on][tune:level]to keep incomplete records@noun from being ^misread, [act:the last, dry][tune:fall]and to cut down on ^paperwork."
+     ],
+     "shots": [
+      {
+       "id": "s41",
+       "say": "Gottlieb ordered it, with the approval of the CIA's director, Richard Helms. Both men were about to leave the agency. A hundred and fifty-two files, gone.",
+       "draw": "A cabinet wall of 152 file folders (eight rows of nineteen); an order slip with two signature lines ('Gottlieb', 'Helms'); two small figures by an exit door; then the folders turn to dashed outlines in a wave from left to right under a faint fire glow; label '152 files'."
+      },
+      {
+       "id": "s42",
+       "say": "Gottlieb later gave three reasons: to protect the researchers, to keep incomplete records from being misread, and to cut down on paperwork.",
+       "draw": "Three small pictures pop in a row as named: a shield over three researcher figures; a torn page with a '?'; a tall stack of paper that shrinks."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:the lucky break, leaning in]But the money had been filed ^elsewhere. [p:0.93][act:explaining, precise]When the CIA searched for MKUltra papers in {1975|nineteen seventy-five}, nobody checked the old records@noun of its budget ^office. [act:the request, plain]A writer, John ^Marks, had asked for the files under the freedom of information ^law. [act:the search, building][tune:fall]In {1977|nineteen seventy-seven}, a CIA employee searching for them looked there, and found seven ^*boxes*.",
+      "[d:build][act:what was inside, plain]Approvals for advances of ^funds. [act:listing][tune:level]^Vouchers. [act:listing on][tune:level]^Accounts. [act:the size, precise][tune:level]Five thousand pages, the CIA ^estimated, [act:revising it][tune:fall]then perhaps eight ^thousand. [p:0.93][act:the analogy, warm]It was like finding someone's bank statements after their diaries were ^burned: [act:explaining, clear][tune:fall]you can't read@present their thoughts, but you can follow the ^money."
+     ],
+     "shots": [
+      {
+       "id": "s43",
+       "say": "But the money had been filed elsewhere. When the CIA searched for MKUltra papers in 1975, nobody checked the old records of its budget office.",
+       "draw": "A cutaway of a records centre with two rooms: in 'the drug files' a torch beam sweeps and ticks pop ('searched, 1975'); next door, 'the budget office' stays dark, seven boxes faint inside it."
+      },
+      {
+       "id": "s44",
+       "say": "A writer, John Marks, had asked for the files under the freedom of information law.",
+       "draw": "An envelope ('freedom of information') flies in along a dotted line to the records centre's door; a small figure 'John Marks' at the left.",
+       "reuse": "same panel as s43"
+      },
+      {
+       "id": "s45",
+       "say": "In 1977, a CIA employee searching for them looked there, and found seven boxes.",
+       "draw": "Back in the warehouse of the opening: the torch beam sweeps the shelf and the seven boxes glow gold.",
+       "reuse": "same panel as s1"
+      },
+      {
+       "id": "s46",
+       "say": "Approvals for advances of funds. Vouchers. Accounts. Five thousand pages, the CIA estimated, then perhaps eight thousand.",
+       "draw": "Forms rise out of a box and pop as named: an advance approval, a voucher, an account sheet; then a tall stack of pages grows beside them, its height marked '5,000 pages' then raised to '8,000?'."
+      },
+      {
+       "id": "s47",
+       "say": "It was like finding someone's bank statements after their diaries were burned: you can't read their thoughts, but you can follow the money.",
+       "draw": "The analogy: at the left a diary burns away (dashed, a fire glow); at the right a bank statement with columns of figures; an amber dotted trail runs from the statement to a university, a hospital and a house ('follow the money')."
+      }
+     ]
+    },
+    {
+     "role": "cost",
+     "lines": [
+      "[d:verdict][act:measured authority]The find took more than three months to reach the CIA's new director, Admiral Stansfield ^Turner. [act:plain]That August, he told a Senate hearing what was in ^them. [act:quoting, grave]Senator Edward ^Kennedy put it plainly: [act:the quote, slow][tune:fall]the CIA had drugged American citizens without their knowledge or ^*consent*.",
+      "[d:calm][act:fair, the limit]Even Turner said the boxes showed the scale of the testing, [act:dry][tune:fall]and little ^more."
+     ],
+     "shots": [
+      {
+       "id": "s48",
+       "say": "The find took more than three months to reach the CIA's new director, Admiral Stansfield Turner. That August, he told a Senate hearing what was in them. Senator Edward Kennedy put it plainly: the CIA had drugged American citizens without their knowledge or consent.",
+       "draw": "A Senate hearing room: a raised dais with senators and a long witness table, one figure at it ('Stansfield Turner') and seven boxes beside it; a small calendar strip 'March' to 'July' at the left as the delay is said; label '3 August 1977'; at 'Kennedy' one senator on the dais is lit, and a label 'without consent' appears under him."
+      },
+      {
+       "id": "s49",
+       "say": "Even Turner said the boxes showed the scale of the testing, and little more.",
+       "draw": "Two bars beside the boxes: 'the scale' fills solid; 'what was done' stays a dashed outline with a '?'.",
+       "reuse": "same panel as s48"
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:aside][act:dry, a small smile]The secrets were ^destroyed. [act:the punchline][tune:fall]The receipts ^survived."
+     ],
+     "shots": [
+      {
+       "id": "s50",
+       "say": "The secrets were destroyed. The receipts survived.",
+       "draw": "Beside the stack of pages, a ghost row of dashed folders ('destroyed'); the stack stays solid and lit ('survived').",
+       "reuse": "same panel as s46"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Montreal",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:setting the scene, gentle]The receipts also led north, to ^Canada. [act:plain, orienting]In Montreal, the Allan Memorial Institute was run by Ewen ^Cameron, a renowned psychiatrist: the first president of the World Psychiatric ^Association. [act:his idea, careful]He believed he could wipe away mental illness, and rebuild the mind ^afresh. [p:0.93][act:explaining, careful][tune:fall]From {1957|nineteen fifty-seven}, the CIA helped pay for his work, through the Human Ecology ^front."
+     ],
+     "shots": [
+      {
+       "id": "s51",
+       "say": "In Montreal, the Allan Memorial Institute was run by Ewen Cameron, a renowned psychiatrist: the first president of the World Psychiatric Association. He believed he could wipe away mental illness, and rebuild the mind afresh.",
+       "draw": "A map of the north-east, Washington to Montreal, a dotted amber line running north; then the institute: a grey stone mansion with a tower on the wooded slope of Mount Royal above the city lights; a figure 'Ewen Cameron'."
+      },
+      {
+       "id": "s52",
+       "say": "From 1957, the CIA helped pay for his work, through the Human Ecology front.",
+       "draw": "A flow: 'CIA' box, an arrow to the dotted 'Human Ecology' front, an arrow to the institute; label 'from 1957'."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:tension][act:describing it, quiet, careful]His patients had come for help, many with ^depression. [p:0.93][act:the method, slow]Some were given what he called ^depatterning: [act:listing, level][tune:level]weeks of drugged ^sleep, [act:listing on][tune:level]repeated ^electroshocks, [act:the last, heavy][tune:fall]and recorded messages played on a loop, up to sixteen hours a ^day.",
+      "[d:calm][act:the cost, gentle][tune:fall]Many could no longer remember years of their own ^lives@noun. [act:gentle, quiet][tune:fall]Families say some children grew up without a ^mother."
+     ],
+     "shots": [
+      {
+       "id": "s53",
+       "say": "His patients had come for help, many with depression. Some were given what he called depatterning: weeks of drugged sleep, repeated electroshocks, and recorded messages played on a loop, up to sixteen hours a day.",
+       "draw": "A hospital room at night: a bed with a sleeping patient; on the wall, weeks pass as small moons; a small lightning mark pulses by the bed ('electroshocks'); a reel-to-reel tape recorder with looping arrows and a speaker sending sound arcs over the bed; a bar fills '16 hours a day'. Calm, no distress shown."
+      },
+      {
+       "id": "s54",
+       "say": "Many could no longer remember years of their own lives. Families say some children grew up without a mother.",
+       "draw": "A string of photographs above the bed; one by one they fade to blank frames; then, at the edge, a small child silhouette at a lit window.",
+       "reuse": "same panel as s53"
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:the twist, fair]Cameron himself may never have known the money came from the ^CIA. [p:0.93][act:the bigger share, precise]And Canada's own government had funded his research too, [act:the number lands][tune:fall]with about half a million dollars: several times the CIA's ^share. [act:the discovery, quiet]One patient's family learned of the CIA's part only in {1977|nineteen seventy-seven}, [act:plain][tune:fall]from news of the Senate ^hearings."
+     ],
+     "shots": [
+      {
+       "id": "s55",
+       "say": "Cameron himself may never have known the money came from the CIA. And Canada's own government had funded his research too, with about half a million dollars: several times the CIA's share.",
+       "draw": "The Cameron figure with a dotted '?' over a small 'CIA?' tag; then two bars grow: 'CIA, over $60,000' (short, amber) and 'Canada, about $500,000' (tall)."
+      },
+      {
+       "id": "s56",
+       "say": "One patient's family learned of the CIA's part only in 1977, from news of the Senate hearings.",
+       "draw": "A newspaper '1977' slides in beside the bars, a small headline bar 'Senate hearings'; a family of silhouettes reads it.",
+       "reuse": "same panel as s55"
+      }
+     ]
+    },
+    {
+     "role": "cost",
+     "lines": [
+      "[d:build][act:the long road, measured]In {1988|nineteen eighty-eight}, the CIA settled out of court with nine former ^patients, [act:plain][tune:fall]without admitting ^fault. [act:the next step, measured]In {1992|nineteen ninety-two}, Canada offered a hundred thousand dollars ^each, [act:explaining, plain][tune:fall]for humanitarian reasons, without accepting ^liability.",
+      "[d:tension][act:the count, quiet]Seventy-seven former patients were ^paid. [act:the catch, quieter][tune:fall]Hundreds more were turned away, judged not depatterned ^enough."
+     ],
+     "shots": [
+      {
+       "id": "s57",
+       "say": "In 1988, the CIA settled out of court with nine former patients, without admitting fault. In 1992, Canada offered a hundred thousand dollars each, for humanitarian reasons, without accepting liability.",
+       "draw": "Nine figures stand in a row with a document 'settled, 1988'; then a second document 'Canada, 1992: $100,000 each'."
+      },
+      {
+       "id": "s58",
+       "say": "Seventy-seven former patients were paid. Hundreds more were turned away, judged not depatterned enough.",
+       "draw": "77 small figures (seven rows of eleven) light up in green; behind them about 250 dim outline figures ('turned away').",
+       "reuse": "same panel as s57"
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:calm][act:still unfolding, quiet]And it isn't ^over. [p:0.93][act:the latest, precise]In {2025|twenty twenty-five}, a Quebec court let former patients and their families bring a class ^action, [act:plain][tune:fall]against the hospital, McGill University and Canada's ^government."
+     ],
+     "shots": [
+      {
+       "id": "s59",
+       "say": "And it isn't over. In 2025, a Quebec court let former patients and their families bring a class action, against the hospital, McGill University and Canada's government.",
+       "draw": "A courthouse front; a gavel; three small defendants pop: the hospital, the university, a government building; label 'class action, 2025'."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The weighing",
+   "beats": [
+    {
+     "role": "weigh",
+     "lines": [
+      "[d:verdict][act:weighing it, even][tune:rise]So, what do the surviving files ^show? [p:0.93][act:the method, clear]Records@noun written at the time, by the people in ^charge, [act:explaining][tune:fall]and checked by an inspector general, a presidential commission and two Senate ^inquiries.",
+      "[d:verdict][act:the claim, even][tune:rise]Did the CIA run illegal drug experiments on people who did not ^know? [act:the verdict, firm][tune:fall]^*Established*. [act:the source, plain][tune:fall]A presidential commission called it clearly ^illegal. [act:what changed, plain][tune:fall]Since {1976|nineteen seventy-six}, presidential orders have forbidden drug tests on people without their written ^consent."
+     ],
+     "shots": [
+      {
+       "id": "s60",
+       "say": "Records written at the time, by the people in charge, and checked by an inspector general, a presidential commission and two Senate inquiries.",
+       "draw": "Four documents pop and converge on one point: '1963 inspector general', '1975 commission', '1976 Senate report', '1977 hearing'; green threads join them."
+      },
+      {
+       "id": "s61",
+       "say": "Did the CIA run illegal drug experiments on people who did not know? Established. A presidential commission called it clearly illegal. Since 1976, presidential orders have forbidden drug tests on people without their written consent.",
+       "draw": "The ledger board: row 1 lights, 'drugs given to unwitting people', and its chip 'Established' pops; under the board a small line 'consent required, 1976'."
+      }
+     ]
+    },
+    {
+     "role": "weigh",
+     "lines": [
+      "[d:tension][act:the bigger claim, careful][tune:rise]Did it ever achieve mind ^control? [act:the evidence, plain]By the CIA's own inspection, as of {1960|nineteen sixty}, there was no working truth ^serum, [act:listing][tune:level]no knockout ^pill, [act:the last][tune:fall]no pill to turn a person into a ^recruit. [act:the grade, measured][tune:fall]Mind control that works: Awaiting ^evidence.",
+      "[d:calm][act:the next claim, fair][tune:rise]Do the surviving files tell the whole ^story? [act:firm][tune:fall]With a hundred and fifty-two files destroyed: Ruled ^out. [act:the open one, gentle][tune:fall]And how Frank Olson died is still an Open ^question.",
+      "[d:aside][act:fair, firm]The agency kept this hidden for more than twenty ^years: [act:plain][tune:fall]suspicion was ^earned. [act:fair, warm]So if you suspect@verb more happened than the files show, [act:plain][tune:fall]you're not being ^foolish. [act:honest][tune:fall]The gaps are ^real. [act:quiet][tune:fall]We just can't see into ^them."
+     ],
+     "shots": [
+      {
+       "id": "s62",
+       "say": "Did it ever achieve mind control? By the CIA's own inspection, as of 1960, there was no working truth serum, no knockout pill, no pill to turn a person into a recruit.",
+       "draw": "Three pill shapes pop as named, each crossed out in red ('truth serum', 'knockout pill', 'recruitment pill'), under a lilac '?' over a head in profile."
+      },
+      {
+       "id": "s63",
+       "say": "Mind control that works: Awaiting evidence. Do the surviving files tell the whole story? With a hundred and fifty-two files destroyed: Ruled out. And how Frank Olson died is still an Open question.",
+       "draw": "Back on the ledger: row 2 'mind control that works' gets its chip 'Awaiting evidence'; row 3 'the files tell it all', chip 'Ruled out'; row 4 'how Frank Olson died', chip 'Open question'.",
+       "reuse": "same panel as s61"
+      },
+      {
+       "id": "s64",
+       "say": "The agency kept this hidden for more than twenty years: suspicion was earned.",
+       "draw": "A time line 1953 to 1977: a dark band covers 1953 to 1975, label 'hidden'; at 1975 and 1977 small documents pop."
+      },
+      {
+       "id": "s65",
+       "say": "So if you suspect more happened than the files show, you're not being foolish. The gaps are real. We just can't see into them.",
+       "draw": "The warehouse shelf: soft lilac '?' marks glow in the dashed gaps where the destroyed files stood.",
+       "reuse": "same panel as s1"
+      }
+     ]
+    },
+    {
+     "role": "test",
+     "lines": [
+      "[d:tension][act:what would settle it, inviting][tune:rise]What would change the ^picture? [p:0.93][act:the test, concrete]A copy of the destroyed files turning up: in another agency, among a researcher's papers, or in a ^court. [act:the specific][tune:fall]The Montreal case may yet bring hospital records@noun to ^light. [act:the other claim][tune:fall]And for mind control, a single record@noun of a method that reliably ^worked."
+     ],
+     "shots": [
+      {
+       "id": "s66",
+       "say": "What would change the picture? A copy of the destroyed files turning up: in another agency, among a researcher's papers, or in a court. The Montreal case may yet bring hospital records to light. And for mind control, a single record of a method that reliably worked.",
+       "draw": "Three dashed pictures (tests not yet done): a box glowing on a shelf in another building ('a surviving copy'), a court with a records box ('the Montreal case'), a single page with a dashed green tick ('a method that worked?')."
+      }
+     ]
+    },
+    {
+     "role": "close",
+     "lines": [
+      "[d:calm][act:quiet, final]How many people were drugged, and who they ^were, [act:soft][tune:fall]mostly went with the files in {1973|nineteen seventy-three}. [act:the quote, gentle]Asked about the safe-house records@noun, Gottlieb said it ^himself. [act:quoting, slow][tune:level]They were all ^destroyed. [act:the quote ends, quiet][tune:fall]They don't exist ^anymore.",
+      "[d:calm][act:the sign-off, warm][tune:fall]Weigh it ^yourself."
+     ],
+     "shots": [
+      {
+       "id": "s67",
+       "say": "How many people were drugged, and who they were, mostly went with the files in 1973. Asked about the safe-house records, Gottlieb said it himself. They were all destroyed. They don't exist anymore. Weigh it yourself.",
+       "draw": "The warehouse at night, wide: the seven boxes under the single lamp, the dashed empty shelves around them, a few dim silhouettes of people standing in the dark between the shelves; the lamp dims a little and holds for the end card.",
+       "reuse": "same panel as s1"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "description": "In 1973, the CIA destroyed the files of MKUltra, its secret programme of drug and behaviour experiments. Four years later, seven forgotten boxes of its financial records turned up anyway: receipts for work at universities, hospitals and prisons, much of it paid through front foundations.\n\nWe follow what those surviving files show: the Cold War fear of brainwashing, Allen Dulles's approval in 1953 and Sidney Gottlieb's programme, LSD given to people who did not know in safe houses in New York and San Francisco, the death of Frank Olson and the questions his family raised, the 1977 Senate hearing, and the patients of the Allan Memorial Institute in Montreal. Then we weigh it: drug experiments on unwitting people, Established; mind control that works, Awaiting evidence; and the destroyed files leave gaps nobody can see into.\n\nChapters\n0:00 Cold open\nmm:ss Brain warfare\nmm:ss The safe houses\nmm:ss Frank Olson\nmm:ss Seven boxes\nmm:ss Montreal\nmm:ss The weighing\n\nSources\nUS Senate 1977, Project MKULTRA, the CIA's Program of Research in Behavioral Modification: Joint Hearing before the Select Committee on Intelligence and the Subcommittee on Health and Scientific Research of the Committee on Human Resources, 95th Congress, 1st session, 3 August 1977 (US Government Printing Office; statements of Adm. Stansfield Turner and Sen. Edward Kennedy; appendices include the 1963 Inspector General report)\nUS Senate 1976, Final Report of the Select Committee to Study Governmental Operations with Respect to Intelligence Activities (Church Committee), Book I, section XVII: Testing and Use of Chemical and Biological Agents by the Intelligence Community, pp. 385-422 (26 April 1976)\nEarman, J. S. (CIA Inspector General) 1963, Report of Inspection of MKULTRA/TSD, 26 July 1963 (copy in the John Marks collection, National Security Archive)\nCommission on CIA Activities within the United States (Rockefeller Commission) 1975, Report to the President, June 1975, chapter 16: Domestic Activities of the Directorate of Science and Technology, pp. 226-230 (Gerald R. Ford Presidential Library)\nMarks, J. 1979, The Search for the \"Manchurian Candidate\": The CIA and Mind Control (Times Books, New York)\nNational Security Archive 2024, CIA Behavior Control Experiments Focus of New Scholarly Collection (briefing book, 23 December 2024), with: V. L. Ruwet, statement on the death of Frank Olson (1 December 1953); CIA memorandum for the record, telephonic response of Dr Gottlieb (30 April 1979); deposition of Sidney Gottlieb, Orlikow v. United States, Civil Action 80-3163 (17 May 1983)\nDulles, A. W. 1953, Brain Warfare: summary of remarks at the National Alumni Conference of the Graduate Council of Princeton University, Hot Springs, Virginia, 10 April 1953 (CIA FOIA Electronic Reading Room)\nKronisch v. United States, 150 F.3d 112 (2d Cir. 1998) (the Church Committee record on MKULTRA's approval on 13 April 1953, the January 1973 destruction and Gottlieb's stated reasons)\nBoissoneault, L. 2017, The True Story of Brainwashing and How It Shaped America, Smithsonian Magazine, 22 May 2017\nPusey, A. 2023, Nov. 28, 1953: LSD and the death of a CIA scientist, ABA Journal, 1 October 2023\nBrown, M. H. 2012, Six decades later, sons seek answers on death of Detrick scientist, The Baltimore Sun, 18 December 2012\nCourthouse News Service 2013, CIA murder claims are credible but too late, and Bloomberg News, 17 July 2013, CIA cover-up suit over scientist's fatal LSD fall dismissed (both on Olson v. United States, No. 12-cv-1924, D.D.C., memorandum opinion of Judge J. E. Boasberg)\nCameron, D. E. 1956, Psychic driving, American Journal of Psychiatry 112(7): 502-509, doi:10.1176/ajp.112.7.502\nCameron, D. E., Lohrenz, J. G. & Handcock, K. A. 1962, The depatterning treatment of schizophrenia, Comprehensive Psychiatry 3(2): 65-76, doi:10.1016/S0010-440X(62)80015-7\nTorbay, J. 2023, The work of Donald Ewen Cameron: from psychic driving to MK Ultra, History of Psychiatry 34(3): 320-330, doi:10.1177/0957154X231163763\nNoakes, T. C. 2021 (revised 2026), MKULTRA in Canada, The Canadian Encyclopedia\nCooper, G. 1986, Opinion of George Cooper, Q.C., regarding Canadian Government Funding of the Allan Memorial Institute in the 1950s and 1960s (Department of Justice, Ottawa), as summarised by The Canadian Encyclopedia and CTV News\nCBC News 2017, Federal government quietly compensates daughter of brainwashing experiments victim; CBC News, Montreal woman seeks compensation in '50s brainwashing case\nThe Globe and Mail, Victim owed compensation in CIA case, judge told (the 1988 settlement and the 77 payments)\nThe Scotsman, Stunning tale of brainwashing, the CIA and an unsuspecting Scots researcher (the CIA's funding of the Allan Memorial Institute; the Orlikow family's discovery in 1977)\nCTV News Montreal 2018, 'Their lives were ruined': families of MK Ultra survivors planning class-action suit (20 May 2018); CTV News 2024, MK-ULTRA: Ottawa, health centre seek to dismiss Montreal brainwashing lawsuit (17 September 2024)\nThe Canadian Press 2025, MK-ULTRA mind control class action authorized by Quebec Superior Court (31 July 2025); Éducaloi 2026, A class action for victims of the MKULTRA program (29 January 2026)\nAdvisory Committee on Human Radiation Experiments 1995, Final Report, chapter 3 (US Department of Energy): Executive Order 11905 (1976) and its successors on drug experiments on human subjects\nNofil, B., The CIA's Appalling Human Experiments With Mind Control, History.com (quotes from Dulles's 'brain warfare' speech of 10 April 1953)",
+ "sources": [
+  "US Senate 1977, Project MKULTRA, the CIA's Program of Research in Behavioral Modification: Joint Hearing before the Select Committee on Intelligence and the Subcommittee on Health and Scientific Research of the Committee on Human Resources, 95th Congress, 1st session, 3 August 1977 (US Government Printing Office; statements of Adm. Stansfield Turner and Sen. Edward Kennedy; appendices include the 1963 Inspector General report)",
+  "US Senate 1976, Final Report of the Select Committee to Study Governmental Operations with Respect to Intelligence Activities (Church Committee), Book I, section XVII: Testing and Use of Chemical and Biological Agents by the Intelligence Community, pp. 385-422 (26 April 1976)",
+  "Earman, J. S. (CIA Inspector General) 1963, Report of Inspection of MKULTRA/TSD, 26 July 1963 (copy in the John Marks collection, National Security Archive)",
+  "Commission on CIA Activities within the United States (Rockefeller Commission) 1975, Report to the President, June 1975, chapter 16: Domestic Activities of the Directorate of Science and Technology, pp. 226-230 (Gerald R. Ford Presidential Library)",
+  "Marks, J. 1979, The Search for the \"Manchurian Candidate\": The CIA and Mind Control (Times Books, New York)",
+  "National Security Archive 2024, CIA Behavior Control Experiments Focus of New Scholarly Collection (briefing book, 23 December 2024), with: V. L. Ruwet, statement on the death of Frank Olson (1 December 1953); CIA memorandum for the record, telephonic response of Dr Gottlieb (30 April 1979); deposition of Sidney Gottlieb, Orlikow v. United States, Civil Action 80-3163 (17 May 1983)",
+  "Dulles, A. W. 1953, Brain Warfare: summary of remarks at the National Alumni Conference of the Graduate Council of Princeton University, Hot Springs, Virginia, 10 April 1953 (CIA FOIA Electronic Reading Room)",
+  "Kronisch v. United States, 150 F.3d 112 (2d Cir. 1998) (the Church Committee record on MKULTRA's approval on 13 April 1953, the January 1973 destruction and Gottlieb's stated reasons)",
+  "Boissoneault, L. 2017, The True Story of Brainwashing and How It Shaped America, Smithsonian Magazine, 22 May 2017",
+  "Pusey, A. 2023, Nov. 28, 1953: LSD and the death of a CIA scientist, ABA Journal, 1 October 2023",
+  "Brown, M. H. 2012, Six decades later, sons seek answers on death of Detrick scientist, The Baltimore Sun, 18 December 2012",
+  "Courthouse News Service 2013, CIA murder claims are credible but too late, and Bloomberg News, 17 July 2013, CIA cover-up suit over scientist's fatal LSD fall dismissed (both on Olson v. United States, No. 12-cv-1924, D.D.C., memorandum opinion of Judge J. E. Boasberg)",
+  "Cameron, D. E. 1956, Psychic driving, American Journal of Psychiatry 112(7): 502-509, doi:10.1176/ajp.112.7.502",
+  "Cameron, D. E., Lohrenz, J. G. & Handcock, K. A. 1962, The depatterning treatment of schizophrenia, Comprehensive Psychiatry 3(2): 65-76, doi:10.1016/S0010-440X(62)80015-7",
+  "Torbay, J. 2023, The work of Donald Ewen Cameron: from psychic driving to MK Ultra, History of Psychiatry 34(3): 320-330, doi:10.1177/0957154X231163763",
+  "Noakes, T. C. 2021 (revised 2026), MKULTRA in Canada, The Canadian Encyclopedia",
+  "Cooper, G. 1986, Opinion of George Cooper, Q.C., regarding Canadian Government Funding of the Allan Memorial Institute in the 1950s and 1960s (Department of Justice, Ottawa), as summarised by The Canadian Encyclopedia and CTV News",
+  "CBC News 2017, Federal government quietly compensates daughter of brainwashing experiments victim; CBC News, Montreal woman seeks compensation in '50s brainwashing case",
+  "The Globe and Mail, Victim owed compensation in CIA case, judge told (the 1988 settlement and the 77 payments)",
+  "The Scotsman, Stunning tale of brainwashing, the CIA and an unsuspecting Scots researcher (the CIA's funding of the Allan Memorial Institute; the Orlikow family's discovery in 1977)",
+  "CTV News Montreal 2018, 'Their lives were ruined': families of MK Ultra survivors planning class-action suit (20 May 2018); CTV News 2024, MK-ULTRA: Ottawa, health centre seek to dismiss Montreal brainwashing lawsuit (17 September 2024)",
+  "The Canadian Press 2025, MK-ULTRA mind control class action authorized by Quebec Superior Court (31 July 2025); Éducaloi 2026, A class action for victims of the MKULTRA program (29 January 2026)",
+  "Advisory Committee on Human Radiation Experiments 1995, Final Report, chapter 3 (US Department of Energy): Executive Order 11905 (1976) and its successors on drug experiments on human subjects",
+  "Nofil, B., The CIA's Appalling Human Experiments With Mind Control, History.com (quotes from Dulles's 'brain warfare' speech of 10 April 1953)"
+ ],
+ "facts_added": [
+  {
+   "fact": "In 1950 the journalist Edward Hunter introduced 'brain-washing' to American readers (Miami Daily News, September 1950: 'Brain-washing Tactics Force Chinese Into Ranks of Communist Party'); in the Korean War, Marine Colonel Frank Schwable and other prisoners of war falsely confessed to germ warfare.",
+   "source": "Boissoneault 2017, Smithsonian Magazine"
+  },
+  {
+   "fact": "On 10 April 1953 Allen Dulles spoke to the National Alumni Conference of the Graduate Council of Princeton University (Hot Springs, Virginia) on 'brain warfare'; three days later, on 13 April 1953, he approved MKULTRA (actively under way since mid-1952).",
+   "source": "Dulles 1953, Brain Warfare (CIA reading room); history.com (Nofil); Kronisch v. United States 1998, citing Church Committee Book I p. 390"
+  },
+  {
+   "fact": "Sidney Gottlieb, chemist and head of the Technical Services Staff's chemical work, directed the behaviour-control research from 1952; the DCI let TSD spend a share of its R&D budget on it, 'eventually set at 20%', without the usual contracts.",
+   "source": "National Security Archive 2024 briefing book; CIA Inspector General 1963"
+  },
+  {
+   "fact": "Turner (1977): 149 MKULTRA subprojects (plus 33 unrelated ones); 185 non-government researchers and assistants named; 80 institutions, including 44 colleges or universities, 15 research foundations or chemical or pharmaceutical companies, 12 hospitals or clinics and 3 penal institutions (the other six are not broken down).",
+   "source": "US Senate 1977 joint hearing, statement of Adm. Turner"
+  },
+  {
+   "fact": "The money went through 'cut-out' (intermediary) funding mechanisms used to conceal CIA's sponsorship; the 1963 IG report says grants made 'under ostensible research foundation auspices' conceal CIA's interest from the institution. The Society for the Investigation of Human Ecology was one such front.",
+   "source": "US Senate 1977 (Turner); CIA IG 1963; Noakes 2021, The Canadian Encyclopedia"
+  },
+  {
+   "fact": "One subproject was a $375,000 contribution to the building fund of a private medical institution, made through an intermediary so that it looked like a private donation; it was then matched by federal funds; the institution was not told the source; the agreement gave CIA access to one sixth of the new wing's space; 'there are no subsequent reports as to what happened'. (The National Security Archive identifies it as Georgetown University Hospital, via the Geschickter Fund.)",
+   "source": "US Senate 1977 (Turner, Sen. Schweiker, Mr Brody); National Security Archive 2024"
+  },
+  {
+   "fact": "The IG (1963): 'The final phase of testing of MKULTRA materials involves their application to unwitting subjects in normal life settings'; it 'places the rights and interests of U.S. citizens in jeopardy'; research in manipulating behaviour is considered by many authorities to be 'professionally unethical'; subjects had become ill for hours or days.",
+   "source": "CIA Inspector General 1963, Report of Inspection of MKULTRA/TSD"
+  },
+  {
+   "fact": "Unwitting drug testing took place in CIA safe houses in San Francisco and New York, run by Federal Bureau of Narcotics agent George White; the IG recommended ending testing on unwitting US citizens; the San Francisco safe house closed in 1965 and the New York one in 1966.",
+   "source": "US Senate 1977 (Turner); National Security Archive 2024; Church Committee 1976"
+  },
+  {
+   "fact": "In 1979 Gottlieb told the CIA there had been approximately 40 tests on unwitting subjects, 'performed to explore the full range of the operational use of LSD'.",
+   "source": "CIA memorandum, telephonic response of Dr Gottlieb, 30 April 1979 (National Security Archive 2024, doc. 19B)"
+  },
+  {
+   "fact": "Frank Olson, a civilian employee of the Department of the Army (Special Operations Division, Camp Detrick), was given LSD without his knowledge at a meeting with CIA staff at Deep Creek Lake, Maryland, on Thursday 19 November 1953 (an after-dinner liqueur); he was taken to New York for psychiatric treatment (24 November); he died at about 2.30 a.m. on 28 November 1953 after falling from a tenth-floor window of the Statler Hotel: nine days later.",
+   "source": "Ruwet statement, 1 December 1953 (National Security Archive); Rockefeller Commission 1975, p. 228; Pusey 2023, ABA Journal"
+  },
+  {
+   "fact": "The family learned of the LSD in 1975 through the Rockefeller Commission's account; President Ford apologised to them at the White House on 21 July 1975; a $750,000 settlement was approved by Congress.",
+   "source": "Pusey 2023, ABA Journal; Brown 2012, The Baltimore Sun"
+  },
+  {
+   "fact": "Accounts differ: the 1975 official account is that the LSD brought on serious side effects and he jumped (the Commission notes he may have had a history of emotional instability); after the 1994 exhumation, forensic scientist James Starrs found a haematoma on the temple he attributed to a blow before the fall ('rankly and starkly suggestive of homicide'); the Manhattan district attorney's office opened a homicide investigation in 1996, brought no charges and changed the cause of death from 'suicide' to 'unknown'; his sons' 2012 suit alleging he was killed was dismissed in July 2013 as untimely and barred by the 1976 settlement, without a ruling on the facts.",
+   "source": "Rockefeller Commission 1975; Brown 2012, The Baltimore Sun; Courthouse News Service 2013; Bloomberg 17 July 2013"
+  },
+  {
+   "fact": "MKULTRA records were destroyed in January 1973 by TSD staff on Gottlieb's orders with DCI Richard Helms's approval; the Rockefeller Commission counts 152 separate files; Gottlieb gave three reasons: researchers' confidentiality, incomplete records being misunderstood, and reducing stored documents. In 1983 he said of the safe-house files: 'They were all destroyed. They don't exist anymore.'",
+   "source": "Kronisch v. United States 1998; Rockefeller Commission 1975, p. 227; US Senate 1977 (Kennedy, Turner); Gottlieb deposition 1983 (National Security Archive 2024)"
+  },
+  {
+   "fact": "In late March 1977, an employee responding to Freedom of Information requests found seven boxes at the CIA's Retired Records Center outside Washington, among the retired records of the Budget and Fiscal Section; they hold 'approvals for advance of funds, vouchers, accountings, and the like'; Turner estimated 5,000 pages, then 'closer to 8,000'; he learned of them on 7 July 1977. (The Short said about 20,000 pages: the hearing's own figure is lower; Marks says the CIA released about 16,000 pages to him in all.) John Marks filed the first FOIA requests on the subject.",
+   "source": "US Senate 1977 joint hearing (Turner, Inouye); National Security Archive 2024; Marks 1979, author's note"
+  },
+  {
+   "fact": "At the 3 August 1977 hearing Senator Kennedy said: 'The Central Intelligence Agency drugged American citizens without their knowledge or consent'; Turner said the new documents 'give a greater insight into the scope of the unwitting drug testing but contribute little more than that'.",
+   "source": "US Senate 1977 joint hearing"
+  },
+  {
+   "fact": "Ewen Cameron (first president of the World Psychiatric Association) ran the Allan Memorial Institute in Montreal; CIA money reached it through the Society for the Investigation of Human Ecology from 1957 (more than $60,000 over four years by the CIA's documents; $69,000 from 1957 to 1964 in other accounts); depatterning combined induced sleep (from days up to 86 days), electroshocks and 'psychic driving', taped messages on a loop up to 16 hours a day; many patients lost memories of their earlier lives.",
+   "source": "Cameron 1956; Cameron, Lohrenz & Handcock 1962; Noakes 2021, The Canadian Encyclopedia; The Scotsman; CTV News 2018"
+  },
+  {
+   "fact": "Cameron's work predated the CIA money and he likely never knew its source; Canada's Department of National Health and Welfare gave his department about half a million dollars between 1950 and about 1965 (Cooper report, 1986).",
+   "source": "Torbay 2023, History of Psychiatry; Noakes 2021, The Canadian Encyclopedia; Cooper 1986"
+  },
+  {
+   "fact": "In 1988 the CIA settled out of court with nine Canadian former patients (US$750,000 in all, the figure most accounts give; the per-patient amounts reported vary and are not stated in the film), without admitting guilt; in 1992 Canada offered C$100,000 each 'for compassionate and humanitarian reasons' without admitting legal liability; 77 were paid and hundreds more (over 250) were refused as not 'depatterned' enough.",
+   "source": "Manitoba Historical Society (Velma Orlikow); The Globe and Mail; The Scotsman; CBC News 2017; Noakes 2021"
+  },
+  {
+   "fact": "In 2024 the Quebec Court of Appeal held that the United States cannot be sued in Canada over the experiments (the Supreme Court of Canada declined to hear an appeal); in July 2025 the Superior Court of Quebec (Justice Dominique Poulin) authorised a class action for patients treated between 1948 and 1964 and their families against the Royal Victoria Hospital, McGill University and the Canadian government.",
+   "source": "CTV News, 17 September 2024; The Canadian Press, 31 July 2025; Éducaloi, 29 January 2026"
+  },
+  {
+   "fact": "The Rockefeller Commission concluded: 'It was clearly illegal to test potentially dangerous drugs on unsuspecting United States citizens.'",
+   "source": "Rockefeller Commission 1975, p. 229"
+  },
+  {
+   "fact": "The IG report of 1963, as quoted by the National Security Archive: 'As of 1960 no effective knockout pill, truth serum, aphrodisiac, or recruitment pill was known to exist', although 'real progress has been made in the use of drugs in support of interrogation'.",
+   "source": "CIA Inspector General 1963; National Security Archive 2024"
+  },
+  {
+   "fact": "Gottlieb (1979): the LSD George White used in the safe houses was 'packaged as a solution in approximately 80 microgram units in plastic ampules', and follow-up with subjects 'was conducted when practical'.",
+   "source": "CIA memorandum, telephonic response of Dr Gottlieb, 30 April 1979 (National Security Archive 2024, doc. 19B)"
+  },
+  {
+   "fact": "In 1950 the DCI approved 'interrogation teams' using 'polygraph, drugs, and hypnotism' (Project BLUEBIRD, later ARTICHOKE).",
+   "source": "National Security Archive 2024 briefing book (documents 1 to 7)"
+  },
+  {
+   "fact": "Dulles in the 10 April 1953 speech: 'We might call it, in its new form, brain warfare' and 'We in the West are somewhat handicapped in brain warfare.'",
+   "source": "Dulles 1953, Brain Warfare (CIA reading room), as quoted by history.com (Nofil)"
+  },
+  {
+   "fact": "Turner (1977): MKULTRA ran from 1953 to 1964 (then continued in other forms); the Smithsonian: 'more than 10 years'.",
+   "source": "US Senate 1977 joint hearing; Boissoneault 2017"
+  },
+  {
+   "fact": "The IG (1963) explains the unwitting testing: testing 'under accepted scientific procedures fails to disclose the full pattern of reactions and attributions that may occur in operational situations'.",
+   "source": "CIA Inspector General 1963, as quoted by the Church Committee 1976, p. 391"
+  },
+  {
+   "fact": "Olson was 43, married and a father of three, a bacteriologist specialising in germ warfare (the airborne spread of biological agents) at Camp Detrick, Maryland.",
+   "source": "Pusey 2023, ABA Journal"
+  },
+  {
+   "fact": "The 1975 searches for MKULTRA papers did not include the retired records of the Budget and Fiscal Section, because financial papers for sensitive projects were normally kept by the branch itself; that is where the boxes were found in 1977.",
+   "source": "US Senate 1977 joint hearing, statement of Adm. Turner"
+  },
+  {
+   "fact": "Executive Order 11905 (Ford, February 1976) barred 'experimentation with drugs on human subjects, except with the informed consent, in writing and witnessed by a disinterested party'; Presidents Carter (EO 12036) and Reagan (EO 12333) extended it to any human experimentation.",
+   "source": "Advisory Committee on Human Radiation Experiments 1995, Final Report, chapter 3 (US Department of Energy)"
+  },
+  {
+   "fact": "The Orlikow family learned of the CIA's role in Cameron's treatments only in 1977, from reports of the congressional hearings; families describe children who grew up 'without a mother'.",
+   "source": "The Scotsman; CTV News Montreal, 20 May 2018"
+  }
+ ],
+ "names": [
+  {
+   "name": "MKUltra",
+   "say": "EM-kay ULL-truh (letters M K, then 'ultra'), as in the Short"
+  },
+  {
+   "name": "Allen Dulles",
+   "say": "AL-en DULL-iss"
+  },
+  {
+   "name": "Sidney Gottlieb",
+   "say": "SID-nee GOT-leeb"
+  },
+  {
+   "name": "Richard Helms",
+   "say": "RICH-erd HELMZ"
+  },
+  {
+   "name": "Frank Olson",
+   "say": "FRANK OHL-sun"
+  },
+  {
+   "name": "Deep Creek Lake, Maryland",
+   "say": "plain English; MAIR-ih-lund"
+  },
+  {
+   "name": "Stansfield Turner",
+   "say": "STANZ-feeld TUR-ner"
+  },
+  {
+   "name": "Edward Kennedy",
+   "say": "plain English"
+  },
+  {
+   "name": "John Marks",
+   "say": "plain English"
+  },
+  {
+   "name": "Ewen Cameron",
+   "say": "YOO-en KAM-er-un"
+  },
+  {
+   "name": "Allan Memorial Institute",
+   "say": "AL-un"
+  },
+  {
+   "name": "Montreal",
+   "say": "mun-tree-AWL"
+  },
+  {
+   "name": "Quebec",
+   "say": "kwih-BEK"
+  },
+  {
+   "name": "McGill",
+   "say": "muh-GILL"
+  },
+  {
+   "name": "Princeton",
+   "say": "PRINSS-tun"
+  },
+  {
+   "name": "LSD",
+   "say": "ell-ess-DEE (letters)"
+  },
+  {
+   "name": "Human Ecology",
+   "say": "ee-KOL-uh-jee"
+  },
+  {
+   "name": "depatterning",
+   "say": "dee-PAT-er-ning"
+  },
+  {
+   "name": "liqueur",
+   "say": "lih-KYOOR"
+  },
+  {
+   "name": "exhumed",
+   "say": "ig-ZYOOMD"
+  },
+  {
+   "name": "George White",
+   "say": "plain English"
+  },
+  {
+   "name": "Camp Detrick",
+   "say": "DEE-trick"
+  },
+  {
+   "name": "World Psychiatric Association",
+   "say": "plain English; sy-kee-AT-rik"
+  }
+ ],
+ "end_line": "The receipts survived. Most of the story did not.",
+ "words": 1535
+}
