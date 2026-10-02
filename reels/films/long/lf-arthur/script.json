@@ -1,0 +1,848 @@
+{
+ "id": "lf-arthur",
+ "kind": "case",
+ "series": "Myths That Came True",
+ "title": "King Arthur: The Search for the Man",
+ "intro_title": "King Arthur: The Search for the Man",
+ "yt_title": "Was King Arthur Real? What the Earliest Sources Say",
+ "verdict": "Open question",
+ "verdict_scope": "a real war-leader called Arthur behind the legend (the Short's grade); the legend's pieces are graded separately in the weighing: a British victory at Badon Strong evidence; great lords at Tintagel and Cadbury around 500 Established; Camelot at Cadbury and Arthur's birth at Tintagel Awaiting evidence; the Glastonbury grave Ruled out",
+ "hook": "Was there ever a real King Arthur?",
+ "end_line": "Someone won Badon. Whether his name was Arthur, the ground may still be keeping the answer.",
+ "structure_note": "chapters[0] is the cold open and the title beat (no chapter card; YouTube chapter 0:00). Chapters 1 to 5 are the story chapters; 'The weighing' carries the candidates, the verdict, the test and the close. Shot ids s1..sN are in story order; 'alias of sN' means a return to that panel.",
+ "chapters": [
+  {
+   "title": "Cold open",
+   "card": false,
+   "beats": [
+    {
+     "role": "hook",
+     "lines": [
+      "[d:intrigue][sfx:boom][act:hushed, holding it to the light]A cross of ^lead@metal, dug up in {1191|eleven ninety-one}. [p:0.93][act:reading it slowly, with wonder][tune:fall]Its Latin says: here lies buried the renowned King ^Arthur, in the isle of ^Avalon.",
+      "[d:calm][act:storytelling, low]The monks of Glastonbury ^Abbey, in the west of England, said they found it in their cemetery, between two ancient stone ^pillars. [p:0.93][act:the depth, slower]Beneath it, five metres down, lay a hollowed ^oak trunk, holding the bones of a very tall ^man, and of a ^woman.",
+      "[d:tension][act:the child's question, leaning in][tune:rise]Was this King ^Arthur? [act:the bigger question, slower][tune:rise]Was there ever a ^real King Arthur at all?"
+     ],
+     "shots": [
+      {
+       "id": "s1",
+       "say": "A cross of lead, dug up in 1191. Its Latin says: here lies buried the renowned King Arthur, in the isle of Avalon.",
+       "draw": "HERO IMAGE, complete from the first frame: the lead cross of Glastonbury, large and upright left of centre (about x 420..1000, y 130..790), dull grey lead with a cold sheen and bevelled edges, lit by a warm lamp glow from the right, lying against dark earth and the broken edge of a stone slab. Its Latin in incised capitals across the crossbar and down the shaft: HIC IACET / SEPULTUS / INCLITUS / REX ARTURIUS / IN INSULA / AVALONIA (schematic layout, the words as recorded). Nothing else at first; the top left stays clear for the hook title. On '1191' a small chip '1191' pops at right; on 'King Arthur' the words REX ARTURIUS glow gold and the label 'King Arthur' appears beside them; on 'Avalon' AVALONIA glows and the label 'isle of Avalon' appears. Four labels at most."
+      },
+      {
+       "id": "s2",
+       "say": "The monks of Glastonbury Abbey, in the west of England, said they found it in their cemetery, between two ancient stone pillars. Beneath it, five metres down, lay a hollowed oak trunk, holding the bones of a very tall man, and of a woman.",
+       "draw": "Dusk cross-section of the abbey cemetery (base section, ground about y 330): far back, the dim silhouette of a Romanesque abbey church. On the surface, two tall tapering stone pillars stand either side of a deep pit; three hooded monks with spades and one lantern at its rim. The pit cuts down through dark earth to about y 690 (5 m at 72 units a metre); the cross lies part way down under a stone slab, glowing faintly; at the bottom a hollowed oak trunk in section with a soft lamp glow inside (no bones drawn: a quiet glow only, with dignity). Dimension line '5 m' on the right, drawn on 'five metres'. Labels: 'Glastonbury Abbey' (dim), 'two stone pillars', 'oak trunk', '5 m'. A monk (1.7 m) gives the scale."
+      },
+      {
+       "id": "s3",
+       "say": "Was this King Arthur? Was there ever a real King Arthur at all?",
+       "draw": "The same section, framed wide (alias of s2): in the dusk sky to the right of the grave, the legend's king glimmers as a lilac dotted outline (crown, cloak, sword) with a soft glow; a lilac '?' pops between the legend and the grave on 'at all'. Labels: 'the legend' (lilac italic), 'the ground' (bone, in the earth).",
+       "reuse": "alias of s2, same framing"
+      }
+     ]
+    },
+    {
+     "role": "title",
+     "lines": [
+      "[d:calm][act:warm, setting out]King Arthur: the search for the ^man."
+     ],
+     "shots": [
+      {
+       "id": "s4",
+       "say": "King Arthur: the search for the man.",
+       "draw": "intro_title card 'King Arthur: The Search for the Man' over the dimmed s3 panel. Nothing else drawn."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "When Rome left",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:setting the scene, measured]Britain, around {410|four ten}. [act:explaining, clear]For centuries it has been a province of ^Rome: towns, villas, roads, ^coins. [act:the turn, lower]Then the last armies ^leave, [act:the story, careful][tune:fall]and the emperor, the story goes, tells the Britons to look to their own ^defence.",
+      "[p:0.93][act:sober, painting the loss]After about {402|four hundred and two}, new Roman coins stop arriving in ^bulk. [act:listing, slower][tune:fall]Then pottery and towns fade ^too. [act:the key loss, quiet][tune:fall]And almost nobody writes anything ^down. [act:a hint of wonder]That's why it's called a ^dark age: [act:the turn, warm][tune:fall]not because life stopped, but because the ^light we see it by goes out."
+     ],
+     "shots": [
+      {
+       "id": "s5",
+       "say": "For centuries it has been a province of Rome: towns, villas, roads, coins.",
+       "draw": "Map of Roman Britain at night (View about -6.6..2.4 E, 49.8..55.6 N; land dark, sea deep): as named, town lights glow on (London, York, Chester, Caerleon, Bath, Exeter, Lincoln, Cirencester), straight Roman roads draw between them in amber, villa dots twinkle in the south, and a few gold coin glints pop. Labels: 'Britannia' (italic), 'London', 'York', and the chip 'about 410' at top left (from the card line). Hadrian's Wall as a short line in the north, unlabelled.",
+       "reuse": "arthur shot 1 (f11.arthur map of Britain), redrawn wide"
+      },
+      {
+       "id": "s6",
+       "say": "Then the last armies leave, and the emperor, the story goes, tells the Britons to look to their own defence.",
+       "draw": "Same map (alias of s5): three amber arrows run from York, Chester and London to Kent and across the Channel to Gaul, two rows of small soldier figures gather on the Kent coast (label 'the last armies'); then a small sealed letter flies in from the south-east on a lilac dotted arc (the story, debated), label 'look to your own defence?' over two lines; a soft shadow dims the lights of Britain.",
+       "reuse": "alias of s5, same cam"
+      },
+      {
+       "id": "s7",
+       "say": "After about 402, new Roman coins stop arriving in bulk. Then pottery and towns fade too. And almost nobody writes anything down.",
+       "draw": "Four lights in a row on a dark panel, each a small lit object on its own plinth: a stack of coins, a wheel-made pot, a town gate with lit windows, a pen over a page. On 'coins' a chip 'after about 402' pops above the coins and their light fades (a soft dark disc over the glow, a dark veil over the object); then the pot and the town darken in turn; on 'writes anything down' the page and the pen go dark. Labels under each: 'coins', 'pottery', 'towns', 'writing'."
+      },
+      {
+       "id": "s8",
+       "say": "That's why it's called a dark age: not because life stopped, but because the light we see it by goes out.",
+       "draw": "A farmstead at dusk: a round house with smoke, a field, people at work (a woman with a basket, a man with an ox, a child); a big lantern in the foreground lights the whole scene; on 'goes out' the lantern dims and the scene falls into shadow, but the people keep working, faintly visible (they did not stop). Labels: 'life goes on' (dim), 'the light we see it by' (amber, by the lantern)."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:introducing them, even]Into this world come newcomers from across the North ^Sea: the ^Saxons, and their neighbours. [act:storytelling, fair]A British churchman, Gildas, says Britain's rulers invited them in as hired ^soldiers, in three ^ships. [act:the twist, plain][tune:fall]Then they rebelled, complaining that their monthly supplies were too ^small."
+     ],
+     "shots": [
+      {
+       "id": "s9",
+       "say": "Into this world come newcomers from across the North Sea: the Saxons, and their neighbours.",
+       "draw": "Map of the North Sea (View about -5..12 E, 50..58 N): Britain at left, the coasts of today's Netherlands, northern Germany and Denmark at right; a dozen small boats with arrows cross the sea westward over several seconds, landing on the east coast of Britain. Labels: 'North Sea' (italic), 'Britain', 'today's Germany', 'Denmark'. Scale bar 200 km."
+      },
+      {
+       "id": "s10",
+       "say": "A British churchman, Gildas, says Britain's rulers invited them in as hired soldiers, in three ships. Then they rebelled, complaining that their monthly supplies were too small.",
+       "draw": "A beach at dusk: the sea to the horizon, a curving shoreline; three long ships drawn up on the sand (counted in as said, tag '3 ships'), warriors with spears and round shields stepping ashore; a British ruler in a cloak and crown gestures them in; a dotted lilac border around the scene marks it as Gildas's account (label 'Gildas's story'). Then a sack of grain and a calendar page '30' pop (label 'monthly supplies'), and a scroll 'treaty' tears in red on 'rebelled'."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:the question, curious][tune:rise]How do we know they came in ^numbers? [act:the method, a picture]Ancient ^DNA. [p:0.93][act:explaining, simple]Your genome is like a pack of cards, shuffled every generation, but each card still marked with the deck it came ^from.",
+      "[p:0.9][act:the number, steady]In early medieval graves in eastern England, up to three quarters of the ancestry came from across the North ^Sea, [act:placing it][tune:fall]from what is now northern Germany and ^Denmark. [act:the human twist, warm]Yet newcomers and Britons lie in the same ^cemeteries, [act:the surprise, gentle][tune:fall]and men buried with weapons were just as likely to have local ^roots."
+     ],
+     "shots": [
+      {
+       "id": "s11",
+       "say": "How do we know they came in numbers? Ancient DNA. Your genome is like a pack of cards, shuffled every generation, but each card still marked with the deck it came from.",
+       "draw": "Two decks of cards, one with amber backs ('Britain'), one with blue backs ('across the sea'); they riffle together into one fan in the middle, shuffled (cards pop in alternating, uneven order); a DNA helix draws itself above the fan. Labels: 'ancient DNA', 'Britain', 'across the sea'."
+      },
+      {
+       "id": "s12",
+       "say": "In early medieval graves in eastern England, up to three quarters of the ancestry came from across the North Sea, from what is now northern Germany and Denmark.",
+       "draw": "Left: a small map of eastern England and the North Sea with the continental coast; a blue arrow from northern Germany and Denmark to East Anglia. Right: a 10 x 10 grid of squares, 76 turning blue one by one, 24 staying amber; label 'up to 76 in 100' (blue), 'eastern England' over the map, 'early medieval graves' small."
+      },
+      {
+       "id": "s13",
+       "say": "Yet newcomers and Britons lie in the same cemeteries, and men buried with weapons were just as likely to have local roots.",
+       "draw": "A cemetery in section under a dusk sky: a row of seven rectangular grave cuts in the earth (backfill only, no bodies), each with a small coloured tag on a post, blue or amber, mixed along the row; three of the graves hold a spear and a shield boss (small objects), two with amber tags and one with a blue tag. Labels: 'same cemetery', 'weapons: both', and a small key: blue 'from across the sea', amber 'local'."
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:aside][act:the landing, quiet][tune:fall]This is the half-lit world where the legend puts ^Arthur."
+     ],
+     "shots": [
+      {
+       "id": "s14",
+       "say": "This is the half-lit world where the legend puts Arthur.",
+       "draw": "Wide dusk landscape: a ring of an old hillfort on a ridge, mist in the valley, faint farm lights; on the ridge a lone rider stands as a lilac dotted outline (the legend), facing the darkening east. Label 'the legend' (lilac italic)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The only witness",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:introducing a witness, keen]One Briton did write in those years: ^Gildas, a churchman. [act:explaining]His book, On the Ruin of Britain, is a ^sermon, and an angry one, [act:the point, slower][tune:fall]but its few pages of history are the only account of the age by someone who lived through ^it.",
+      "[act:the date, careful][tune:rise]When did he ^write? [act:fair, even]Traditionally, around {540|five forty}. [act:the debate][tune:fall]Some historians now argue for decades earlier, perhaps even the {480s|four eighties}."
+     ],
+     "shots": [
+      {
+       "id": "s15",
+       "say": "His book, On the Ruin of Britain, is a sermon, and an angry one, but its few pages of history are the only account of the age by someone who lived through it.",
+       "draw": "A hooded writer seated at a desk by a small arched window, a candle, an open book (label 'Gildas'); to the right the book drawn as a thick stack of pages seen edge-on: most of the stack glows red-brown ('a sermon'), a thin band of gold pages ('history') lights up on 'few pages of history'. Title label 'On the Ruin of Britain' (italic) above the stack."
+      },
+      {
+       "id": "s16",
+       "say": "When did he write? Traditionally, around 540. Some historians now argue for decades earlier, perhaps even the 480s.",
+       "draw": "Timeline 450 to 600 CE across the panel: a solid pin at 540 ('traditional date'), then a dashed band from about 480 to 530 ('earlier?'), each appearing as said; a small quill icon rides on the pin. Ticks 450, 500, 550, 600."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:storytelling, vivid]He tells how the Britons fought back, led at first by Ambrosius ^Aurelianus, [act:quoting him, warm]a modest man whose parents had worn the ^purple: [act:a touch of awe][tune:fall]the last Roman, Gildas says, left ^standing.",
+      "[act:the sweep of it][tune:level]Then wins and losses, back and ^forth, [act:the climax, building][tune:fall]until the siege of Mount ^Badon, one of the last, and not the least, of the Saxons' ^defeats. [p:0.93][act:the precious detail, leaning in]And Gildas adds a detail that makes him ^precious: [act:quiet wonder][tune:fall]Badon was fought in the year he was ^born."
+     ],
+     "shots": [
+      {
+       "id": "s17",
+       "say": "He tells how the Britons fought back, led at first by Ambrosius Aurelianus, a modest man whose parents had worn the purple: the last Roman, Gildas says, left standing.",
+       "draw": "A standing figure in a Roman cloak with a spear, centre (label 'Ambrosius Aurelianus'); behind him two faint ghost figures with purple bands on their cloaks (his parents, label 'worn the purple'); around him in the dark, dim fallen columns (the Roman world gone); a lamp glow on him on 'left standing'."
+      },
+      {
+       "id": "s18",
+       "say": "Then wins and losses, back and forth, until the siege of Mount Badon, one of the last, and not the least, of the Saxons' defeats.",
+       "draw": "Across the top, a strip of small marks pops left to right, alternating green (a British win) and red (a loss), uneven, back and forth; it ends at a hill on the right: a hill fort under siege, ringed by small camp fires, British figures on the rampart; label 'Mount Badon' and a small dashed tag 'where? unknown'."
+      },
+      {
+       "id": "s19",
+       "say": "And Gildas adds a detail that makes him precious: Badon was fought in the year he was born.",
+       "draw": "Back to the Gildas timeline (alias of s16): a gold 'Badon' marker drops onto the line before the writing dates, with a small cradle icon under it (label 'the year he was born'); a bracket from Badon to the writing pin, 'about 44 years', draws itself.",
+       "reuse": "alias of s16, same cam"
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:the logic, clear]So Badon was a real battle, within living ^memory. [act:the question, pointed][tune:rise]But who led the Britons ^there? [act:plain][tune:fall]Gildas doesn't ^say. [act:counting, a little dry][tune:level]He names ^Ambrosius. [act:same rhythm][tune:level]He names five kings he ^condemns. [sfx:hit][act:quiet, pointed][tune:fall]He never names ^Arthur."
+     ],
+     "shots": [
+      {
+       "id": "s20",
+       "say": "So Badon was a real battle, within living memory. But who led the Britons there? Gildas doesn't say.",
+       "draw": "Back at the Badon hill (alias of s18, closer): on the rampart, in front of the defenders, an empty dashed silhouette of a leader with a lilac '?' over it.",
+       "reuse": "alias of s18, new cam"
+      },
+      {
+       "id": "s21",
+       "say": "He names Ambrosius. He names five kings he condemns. He never names Arthur.",
+       "draw": "Gildas's book open on a desk, its pages as faint script; as named: the name 'Ambrosius' lights green on the left page; five small crowns pop in a row on the right page (label 'five kings'); then an empty dashed slot 'Arthur' pops below them and a red strike crosses it (label 'not named').",
+       "reuse": "arthur_m witness scene (Ambrosius, Arthur struck), redrawn wide"
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:a new witness, intrigued]One old Welsh poem ^does@verb. [act:storytelling, hushed]The ^Gododdin mourns warriors who fell in a battle around {600|six hundred}. [act:quoting it, savouring][tune:fall]It praises one who fed black ravens on the rampart of a fortress, though he was no ^Arthur.",
+      "[p:0.93][act:explaining, a smile]Like saying someone is no ^Einstein: [act:the point][tune:fall]it only works if everyone already knows the ^name. [act:the catch, careful]But the poem survives in one manuscript of the late {1200s|twelve hundreds}, [act:the debate, even][tune:fall]and the line may be as old as the {600s|six hundreds}, or added in the {800s|eight hundreds} or ^later."
+     ],
+     "shots": [
+      {
+       "id": "s22",
+       "say": "One old Welsh poem does. The Gododdin mourns warriors who fell in a battle around 600. It praises one who fed black ravens on the rampart of a fortress, though he was no Arthur.",
+       "draw": "A timber rampart on a hill at dusk, a warrior silhouette with spear and shield on it; black ravens wheel above (they pop in and circle); a chip 'about 600' at top left; on 'no Arthur' the line 'he was no Arthur' appears in lilac italic beside the warrior."
+      },
+      {
+       "id": "s23",
+       "say": "Like saying someone is no Einstein: it only works if everyone already knows the name.",
+       "draw": "Same rampart (alias of s22): behind the warrior a much larger faint lilac figure glows in (the famous name everyone knew), label 'a byword', and a small gold halo on the name 'Arthur' in the lilac line.",
+       "reuse": "alias of s22, same cam"
+      },
+      {
+       "id": "s24",
+       "say": "But the poem survives in one manuscript of the late 1200s, and the line may be as old as the 600s, or added in the 800s or later.",
+       "draw": "Timeline 500 to 1300 CE: a book icon (solid) at about 1265, label 'the only manuscript'; a dashed lilac band from the 600s to the 1000s above the line, label 'the line: when?'; a lilac '?' over it; a small dot at about 600 'the battle'."
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:aside][act:the landing, quiet][tune:fall]Our closest witness to Badon is ^silent. [act:same rhythm][tune:fall]The first to name Arthur may be centuries ^late."
+     ],
+     "shots": [
+      {
+       "id": "s25",
+       "say": "Our closest witness to Badon is silent. The first to name Arthur may be centuries late.",
+       "draw": "Same timeline (alias of s24): Gildas's closed book pops at about 500 to 540 with a small seal on it (label 'silent'); a long dashed arrow runs from it to the lilac band.",
+       "reuse": "alias of s24, same cam"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Arthur appears",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:turning a page, intrigued]The first firm date comes around {829|eight twenty-nine}, in ^Wales, in a book called the History of the ^Britons. [act:the moment, leaning in]Here, at ^last: [act:quoting it, steady][tune:fall]Arthur fought against them with the kings of the Britons, but he himself was leader of ^battles.",
+      "[act:plain, the point][tune:fall]Not a ^king. [act:same rhythm][tune:fall]A war ^leader."
+     ],
+     "shots": [
+      {
+       "id": "s26",
+       "say": "Here, at last: Arthur fought against them with the kings of the Britons, but he himself was leader of battles. Not a king. A war leader.",
+       "draw": "A row of five crowned kings standing behind (dim, bone), and in front of them one uncrowned warrior with a banner and spear, lit (label 'leader of battles'); top left a small book with the chip '829' (label 'History of the Britons'). On 'Not a king' a dotted crown above the warrior is struck in red."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:counting them off, brisk]It lists his twelve ^battles: [act:brisk, listing][tune:level]on rivers, in a ^forest, at the City of the ^Legion, [act:the big one][tune:fall]and the twelfth on Mount ^Badon.",
+      "[p:0.9][act:reading it, deadpan]There, nine hundred and sixty men fell in one day, from one charge by ^Arthur, and no one struck them down except Arthur ^himself. [act:the punchline, dry][tune:fall]Nine hundred and sixty. [act:same rhythm][tune:fall]In one ^charge."
+     ],
+     "shots": [
+      {
+       "id": "s27",
+       "say": "It lists his twelve battles: on rivers, in a forest, at the City of the Legion, and the twelfth on Mount Badon.",
+       "draw": "Twelve round shields in two rows of six, numbered 1 to 12, popping in order; each carries a tiny icon of its place: wavy water on most (rivers), a tree (the forest), walls (the City of the Legion), a hill on number 12, which glows gold (label 'Mount Badon'). Label 'twelve battles' and a small note 'most places unknown'."
+      },
+      {
+       "id": "s28",
+       "say": "There, nine hundred and sixty men fell in one day, from one charge by Arthur, and no one struck them down except Arthur himself. Nine hundred and sixty. In one charge.",
+       "draw": "One small lilac warrior at the left; at right a block of 960 tiny marks (40 columns x 24 rows) fills in quickly, row by row; a big '960' in serif pops above it on the repeat; label 'one charge' with a lilac arrow from the warrior. The marks are abstract dots, not bodies."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:build][act:the problem, measured]About three hundred years separate@verb Badon from this ^book. [p:0.9][act:the everyday picture, clear]That's about ten ^generations: imagine a story passed from grandparent to grandchild ten times before anyone writes it ^down. [act:explaining, the method][tune:fall]That's why historians give most weight to the closest ^witness."
+     ],
+     "shots": [
+      {
+       "id": "s29",
+       "say": "About three hundred years separate Badon from this book. That's about ten generations: imagine a story passed from grandparent to grandchild ten times before anyone writes it down. That's why historians give most weight to the closest witness.",
+       "draw": "A line from 'Badon, about 500' (left) to '829' (right) with a bracket 'about 300 years'; ten small figures stand along it, alternating old and young, passing a glowing story-ball from one to the next (it hops figure to figure and changes shade slightly); at the end a book catches it. On 'closest witness' a magnifier circle glows at Badon's end over a small Gildas figure.",
+       "reuse": "arthur_m gap scene (Badon to 829, about 300 years), redrawn wide"
+      }
+     ]
+    },
+    {
+     "role": "cost",
+     "lines": [
+      "[d:reveal][act:the twist, delighted]And the same book shows Arthur in another ^light. [act:storytelling, playful][tune:level]Among its wonders of Britain: a stone with the paw print of Arthur's dog, ^Cabal, [act:the second wonder, amused][tune:fall]and the grave of Arthur's son, which never measures the same length ^twice: six feet, nine, twelve or ^fifteen. [act:the point, warm][tune:fall]By {829|eight twenty-nine}, Arthur already lives@verb in ^folklore."
+     ],
+     "shots": [
+      {
+       "id": "s30",
+       "say": "Among its wonders of Britain: a stone with the paw print of Arthur's dog, Cabal, and the grave of Arthur's son, which never measures the same length twice: six feet, nine, twelve or fifteen. By 829, Arthur already lives in folklore.",
+       "draw": "Left: a cairn of stones with one stone on top; a dog's paw print glows in it (label 'Cabal's paw print'). Right: a long grass mound with a measuring rod beside it; the rod's end mark jumps four times as said, tags '6 ft', '9 ft', '12 ft', '15 ft' popping in turn. On 'folklore' a soft lilac glow rises over both (label 'folklore')."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:the next source, careful]In the {900s|nine hundreds}, the Welsh Annals give him ^dates. [act:reading them][tune:level]About {516|five sixteen}: the battle of Badon, with Arthur in it, and the Britons ^victorious. [act:the second, graver][tune:fall]About {537|five thirty-seven}: the strife of ^Camlann, in which Arthur and ^Medraut fell.",
+      "[p:0.93][act:the catch, even]But these annals were put together more than four centuries after ^Badon, [act:plain][tune:fall]and the Arthur lines could have been added as late as about {970|nine seventy}."
+     ],
+     "shots": [
+      {
+       "id": "s31",
+       "say": "In the 900s, the Welsh Annals give him dates. About 516: the battle of Badon, with Arthur in it, and the Britons victorious. About 537: the strife of Camlann, in which Arthur and Medraut fell.",
+       "draw": "A tall annals page: a column of year marks ('an', 'an', 'an'...) down the left margin, most lines empty; two lines light up in turn with short entries: 'about 516: Badon' (gold) and 'about 537: Camlann' (red); a small sword icon by Camlann; labels 'Welsh Annals', 'Arthur and Medraut fell'."
+      },
+      {
+       "id": "s32",
+       "say": "But these annals were put together more than four centuries after Badon, and the Arthur lines could have been added as late as about 970.",
+       "draw": "Timeline 500 to 1100 CE: two dots at 516 and 537; a band 'compiled' from about 950 to 970; a bracket 'over 400 years' from Badon to the band; a book icon at about 1100 'oldest copy'."
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:aside][act:a raised eyebrow, dry][tune:fall]The further we get from Badon, the more we learn about ^Arthur."
+     ],
+     "shots": [
+      {
+       "id": "s33",
+       "say": "The further we get from Badon, the more we learn about Arthur.",
+       "draw": "A bar chart that builds: x axis 'years after Badon' with four sources at their dates (Gildas about 40 years, the History of the Britons about 300, the Welsh Annals about 450, Geoffrey about 600+); each bar rises to show how much each says of Arthur: Gildas nothing (a flat dashed line), a short bar '12 battles', a short bar '2 dates', then a towering lilac bar 'a whole reign' that runs off the top. Label 'what we learn of Arthur'.",
+       "reuse": "arthur shot 2 (the 'Where Arthur appears' timeline), redrawn as a chart"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The making of a king",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:setting the scene, a touch of grandeur]Around {1136|eleven thirty-six}, a Welsh cleric, ^Geoffrey of Monmouth, writes the History of the Kings of ^Britain. [act:fair, a little dry]He says he translated it from a very ancient book in the British ^tongue. [act:plain][tune:fall]No modern historian takes that ^seriously.",
+      "[d:build][act:storytelling, rich]His Arthur is a ^king. [act:the birth, a hint of magic][tune:level]Conceived at ^Tintagel, in Cornwall, with the help of Merlin's ^magic. [act:building, sweeping][tune:level]He defeats the Saxons and conquers much of northern ^Europe, [act:the fall, slower][tune:fall]until he is mortally wounded at Camlann, fighting ^Mordred, and carried away to the isle of ^Avalon."
+     ],
+     "shots": [
+      {
+       "id": "s34",
+       "say": "He says he translated it from a very ancient book in the British tongue. No modern historian takes that seriously.",
+       "draw": "A writer at a desk with a large finished book (label 'Geoffrey of Monmouth', chip 'about 1136'); beside it, floating, the outline of an old book in lilac dots ('a very ancient book?') that never fills in; a lilac '?' on it."
+      },
+      {
+       "id": "s35",
+       "say": "His Arthur is a king. Conceived at Tintagel, in Cornwall, with the help of Merlin's magic. He defeats the Saxons and conquers much of northern Europe, until he is mortally wounded at Camlann, fighting Mordred, and carried away to the isle of Avalon.",
+       "draw": "Map of Britain and northern Europe in the story's lilac (View about -13..15 E, 48..60.5 N): a lilac crown pops over Britain; a lilac star at Tintagel (label 'Tintagel'); lilac dotted conquest arrows fan out over the sea to Norway, Denmark, Gaul and Ireland (label 'northern Europe'); a small boat sails west from Cornwall into a glow (label 'Avalon'). Camlann is said, not mapped (its place is unknown). Everything drawn in the claimed (dotted) style: this is the story."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:impressed][tune:fall]It was a medieval ^bestseller: [p:0.9][act:the number lands]two hundred and fifteen manuscripts still ^survive. [act:the next layer, light]In the {1170s|eleven seventies}, a French poet, Chretien de ^Troyes, adds ^Lancelot, [act:the reveal, a smile][tune:fall]and gives Arthur's court a ^name: ^Camelot."
+     ],
+     "shots": [
+      {
+       "id": "s36",
+       "say": "It was a medieval bestseller: two hundred and fifteen manuscripts still survive.",
+       "draw": "215 small book spines pop into a library wall (15 per row), quickly, left to right and top to bottom; a big '215' and the label 'medieval manuscripts' appear."
+      },
+      {
+       "id": "s37",
+       "say": "In the 1170s, a French poet, Chretien de Troyes, adds Lancelot, and gives Arthur's court a name: Camelot.",
+       "draw": "A fairy-tale castle of slender towers on a rounded hill, drawn in lilac dotted lines (the poem's Camelot), glowing; a knight with a long shield and a sword before it, also lilac and dotted (label 'Lancelot'); a poet with an open book at left (label 'Chrétien de Troyes', chip '1170s'); the label 'Camelot' (lilac serif) pops over the castle on its name."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:the sceptic, a dry smile]Not everyone was ^charmed. [act:quoting, crisp]In the {1190s|eleven nineties}, the chronicler William of ^Newburgh wrote that only someone ignorant of ancient history could doubt how shamelessly Geoffrey ^lies."
+     ],
+     "shots": [
+      {
+       "id": "s38",
+       "say": "Not everyone was charmed. In the 1190s, the chronicler William of Newburgh wrote that only someone ignorant of ancient history could doubt how shamelessly Geoffrey lies.",
+       "draw": "A chronicler at a desk (label 'William of Newburgh', chip '1190s'); across from him Geoffrey's big book; red question marks pop over its pages one after another and a red quill line underlines it."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:back to the start, intrigued]Which brings us back to ^Glastonbury. [act:the set-up, plain]In {1184|eleven eighty-four}, fire destroyed the ^abbey. [act:the logic, careful][tune:fall]Rebuilding costs a fortune, and a famous grave draws ^pilgrims.",
+      "[act:the find, slower][tune:fall]Seven years later, the monks find ^Arthur. [act:the doubt, even]Their cross calls him a ^king, in the isle of ^Avalon: [act:the point][tune:fall]the words of Geoffrey's story, not of the {500s|five hundreds}. [act:the politics, careful]And England's kings had their own reason to show the Welsh that Arthur was dead, [act:plain][tune:fall]and would not ^return."
+     ],
+     "shots": [
+      {
+       "id": "s39",
+       "say": "Which brings us back to Glastonbury. In 1184, fire destroyed the abbey. Rebuilding costs a fortune, and a famous grave draws pilgrims.",
+       "draw": "Night, before and after: at left the abbey church in side view with flames along its roof (fire glows, chip '1184'); an arrow; at right new walls rise inside scaffolding (label 'rebuilding'), and a line of pilgrims with staffs arrives, coins glinting above them (label 'pilgrims')."
+      },
+      {
+       "id": "s40",
+       "say": "Seven years later, the monks find Arthur.",
+       "draw": "Back to the grave section (alias of s2), framed on the pit: the chip '1191' pops and the cross glows brighter.",
+       "reuse": "alias of s2, new cam"
+      },
+      {
+       "id": "s41",
+       "say": "Their cross calls him a king, in the isle of Avalon: the words of Geoffrey's story, not of the 500s.",
+       "draw": "Back to the cross (alias of s1), closer on the words: REX and AVALONIA glow lilac; a lilac dotted thread runs from them to a small book icon 'Geoffrey, about 1136' at right; a dim tag 'the 500s: leader of battles' sits below, unconnected.",
+       "reuse": "alias of s1, new cam"
+      },
+      {
+       "id": "s42",
+       "say": "And England's kings had their own reason to show the Welsh that Arthur was dead, and would not return.",
+       "draw": "Map of Wales and the west of England: over Wales a soft lilac glow with a small crowned figure returning in dotted outline (label 'his return?'); a gold crown over England (label 'England's kings'); a dashed arrow from Glastonbury into Wales with a small grave mark (label 'he is dead')."
+      }
+     ]
+    },
+    {
+     "role": "cost",
+     "lines": [
+      "[d:build][act:the ending, quieter]In {1278|twelve seventy-eight}, the bones were reburied, with King Edward the First looking ^on. [act:plain][tune:fall]At the Reformation, they were ^lost. [p:0.93][act:the verdict of historians, even][tune:fall]Most historians see the find as a publicity ^stunt."
+     ],
+     "shots": [
+      {
+       "id": "s43",
+       "say": "In 1278, the bones were reburied, with King Edward the First looking on. At the Reformation, they were lost. Most historians see the find as a publicity stunt.",
+       "draw": "Inside the abbey: a black marble tomb before an altar with candles; a crowned king and queen stand watching (chip '1278'); then the tomb fades to a dashed outline (label 'lost'); finally a small chip 'publicity stunt?' pops above it."
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:aside][act:the landing, dry][tune:fall]Arthur was found exactly when the abbey needed him ^most."
+     ],
+     "shots": [
+      {
+       "id": "s44",
+       "say": "Arthur was found exactly when the abbey needed him most.",
+       "draw": "A short timeline 1180 to 1195: a flame at 1184 ('fire'), the cross at 1191 ('Arthur found'), a bracket '7 years' between them."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Digging for Camelot",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:turning to the ground, curious][tune:rise]If the books can't settle it, can the ^ground? [act:storytelling]In {1542|fifteen forty-two}, the scholar John ^Leland wrote that people near a hill in ^Somerset, Cadbury Castle, called it ^Camelot.",
+      "[act:the dig, keen]From {1966|nineteen sixty-six} to {1970|nineteen seventy}, the archaeologist Leslie ^Alcock dug ^there. [p:0.93][act:the find, impressed][tune:level]From around {470|four seventy}, someone powerful lived on the hill, and rebuilt its old ^ramparts, more than a kilometre ^around. [act:the second find][tune:fall]They raised a great timber hall, twenty metres ^long, with pottery from the eastern ^Mediterranean."
+     ],
+     "shots": [
+      {
+       "id": "s45",
+       "say": "In 1542, the scholar John Leland wrote that people near a hill in Somerset, Cadbury Castle, called it Camelot.",
+       "draw": "Day landscape in Somerset: a flat-topped hill with stepped grassy ramparts (four rings of banks on its slopes), a village church at its foot; a Tudor scholar with a notebook stands in front (label 'John Leland', chip '1542'); on 'Camelot' the label 'Camelot?' pops over the hill in lilac italic. Label 'Cadbury Castle'."
+      },
+      {
+       "id": "s46",
+       "say": "From 1966 to 1970, the archaeologist Leslie Alcock dug there. From around 470, someone powerful lived on the hill, and rebuilt its old ramparts, more than a kilometre around.",
+       "draw": "Plan of the hillfort (base plan): concentric oval banks; trench strips across them pop (label 'Alcock, 1966 to 1970'); the innermost bank redraws itself in gold all the way round (label 'rebuilt from about 470', '1.2 km around'). Scale bar 100 m."
+      },
+      {
+       "id": "s47",
+       "say": "They raised a great timber hall, twenty metres long, with pottery from the eastern Mediterranean.",
+       "draw": "Iso model, slowly turning, of a timber hall 20 x 10 m with posts and a thatched roof; a person (1.7 m) at the door; a dimension '20 m' along it; beside it three sherds of imported amphorae pop (label 'eastern Mediterranean pottery')."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:the scale, plain][tune:fall]It's the largest refortified hilltop known in post-Roman ^Britain. [act:the hype, a smile]The dig itself was billed as Cadbury ^Camelot. [act:fair, even][tune:level]In {1971|nineteen seventy-one}, Alcock argued that Arthur was a real historical ^figure. [act:the twist, gently dry][tune:fall]Later, he found the legend a ^millstone."
+     ],
+     "shots": [
+      {
+       "id": "s48",
+       "say": "It's the largest refortified hilltop known in post-Roman Britain. The dig itself was billed as Cadbury Camelot. In 1971, Alcock argued that Arthur was a real historical figure. Later, he found the legend a millstone.",
+       "draw": "Back to the hill (alias of s45, same framing): a gold glow along the hill top (label 'largest of its age'); a poster 'CADBURY-CAMELOT' pops in lilac at top right; a book '1971' (Alcock's Arthur's Britain); then a round millstone pops beside it (label 'a millstone').",
+       "reuse": "alias of s45"
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:the second site, intrigued]Tintagel tells a similar ^story. [act:painting it][tune:fall]From about {450|four fifty} to {650|six fifty}, its headland held around a hundred ^buildings. [p:0.93][act:the surprise][tune:fall]And it has given us more Mediterranean pottery than any other site in ^Britain: big storage jars, fine red tableware, and ^glass."
+     ],
+     "shots": [
+      {
+       "id": "s49",
+       "say": "Tintagel tells a similar story. From about 450 to 650, its headland held around a hundred buildings.",
+       "draw": "Tintagel at dusk in three-quarter view: a high headland with sheer cliffs and a flat green top, joined to the mainland cliffs by a narrow neck, the sea below with breakers; about a hundred small rectangular building footprints pop across the headland top (label 'about 100 buildings', chip '450 to 650'); label 'Tintagel'.",
+       "reuse": "arthur shot 0 (f11.arthur Tintagel headland iso), redrawn wide"
+      },
+      {
+       "id": "s50",
+       "say": "And it has given us more Mediterranean pottery than any other site in Britain: big storage jars, fine red tableware, and glass.",
+       "draw": "Map of Europe and the Mediterranean (View about -12..36 E, 30..56 N): a dotted ship route from the eastern Mediterranean past Spain to Cornwall; at Tintagel three finds pop as named: an amphora, a red bowl, a glass beaker; label 'the most in Britain'."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:the headline, amused]In {1998|nineteen ninety-eight}, a slate scratched with names made the news as the Arthur ^stone. [act:the correction, gentle][tune:fall]It reads ^Artognou: a different name, meaning something like bear-knowing.",
+      "[act:the new dig, keen]From {2016|twenty sixteen}, new digs uncovered stone buildings with walls a metre ^thick, slate floors, and ^steps. [act:the honest limit][tune:fall]Powerful people lived ^here. [act:same rhythm][tune:fall]None of them left us the name ^Arthur."
+     ],
+     "shots": [
+      {
+       "id": "s51",
+       "say": "In 1998, a slate scratched with names made the news as the Arthur stone. It reads Artognou: a different name, meaning something like bear-knowing.",
+       "draw": "The broken slate large in the centre, its scratched letters (schematic: PATERN... / COLI AVI FICIT / ARTOGNOU); chip '1998'; a newspaper headline 'ARTHUR STONE?' pops at the right and is struck through; ARTOGNOU glows gold, label 'Artognou: bear-knowing'."
+      },
+      {
+       "id": "s52",
+       "say": "From 2016, new digs uncovered stone buildings with walls a metre thick, slate floors, and steps. Powerful people lived here. None of them left us the name Arthur.",
+       "draw": "An excavation in section: a trench with a stone wall 1 m thick (dimension '1 m'), a slate floor, a flight of slate steps, a digger (1.7 m) and a trowel; chip 'from 2016'; finally a small dashed name slot 'Arthur?' stays empty on the wall."
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:aside][act:the twist, delighted][tune:rise]And the castle ruins that visitors ^photograph? [act:the reveal][tune:level]Built in the {1230s|twelve thirties} by Earl Richard of ^Cornwall, [act:the motive, wry][tune:fall]who probably wanted a share of the fame Geoffrey had given the ^place. [act:the landing, a smile][tune:fall]Here, the legend built the ^castle."
+     ],
+     "shots": [
+      {
+       "id": "s53",
+       "say": "And the castle ruins that visitors photograph? Built in the 1230s by Earl Richard of Cornwall, who probably wanted a share of the fame Geoffrey had given the place. Here, the legend built the castle.",
+       "draw": "Back to the headland (alias of s49): medieval castle walls with a gateway draw themselves on the mainland side and the island (chip '1230s', label 'Earl Richard's castle'); a lilac dotted arrow from a small book 'Geoffrey's story' to the castle on the last line.",
+       "reuse": "alias of s49, new cam"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The weighing",
+   "beats": [
+    {
+     "role": "weigh",
+     "lines": [
+      "[d:verdict][act:the question again, fair][tune:rise]So who won ^Badon? [act:laying out candidates][tune:level]^Riothamus, king of the Britons, who took twelve thousand men to ^Gaul around {470|four seventy}. [act:the second, curious][tune:level]Lucius Artorius ^Castus, a Roman officer at ^York, centuries too ^early, [act:the aside, interested][tune:fall]though Arthur's name probably does@verb come from the Roman ^Artorius. [act:the third, softer][tune:fall]Or a hero of folklore, later given a ^history."
+     ],
+     "shots": [
+      {
+       "id": "s54",
+       "say": "Riothamus, king of the Britons, who took twelve thousand men to Gaul around 470.",
+       "draw": "Map of Britain and Gaul: twelve small ships (each '1,000 men') sail from Britain to the Loire in Gaul (label 'Riothamus', chip 'about 470', '12,000 men'); a dashed tag 'king of the Britons'.",
+       "reuse": "arthur_m candidates scene, redrawn wide"
+      },
+      {
+       "id": "s55",
+       "say": "Lucius Artorius Castus, a Roman officer at York, centuries too early, though Arthur's name probably does come from the Roman Artorius.",
+       "draw": "Timeline 100 to 600 CE: a Roman officer with a crested helmet at about 200 ('Artorius Castus'), Badon at about 500, a bracket 'centuries apart'; then a name chain: 'Artorius' slides along an amber arrow to 'Arthur' (label 'the name')."
+      },
+      {
+       "id": "s56",
+       "say": "Or a hero of folklore, later given a history.",
+       "draw": "A lilac giant figure with a hound (Cabal) steps out of mist onto the end of the timeline and a small book closes over him (label 'a folk hero, given a history')."
+      }
+     ]
+    },
+    {
+     "role": "weigh",
+     "lines": [
+      "[d:verdict][act:calm, laying it out]Let's ^weigh it. [act:steady][tune:rise]A great British victory at ^Badon? [act:the verdict][tune:fall]*Strong ^evidence*: our one witness was born that ^year. [act:steady][tune:rise]Great lords at Tintagel and ^Cadbury, around {500|five hundred}? [act:firm][tune:fall]*^Established*.",
+      "[act:fair][tune:rise]Camelot at Cadbury, or Arthur's birth at ^Tintagel? [act:even][tune:fall]*Awaiting ^evidence*: the right places, the right century, and no ^name. [act:a little dry][tune:rise]His grave at ^Glastonbury? [act:plain][tune:fall]*Ruled ^out*: its cross speaks the language of a legend six centuries ^younger.",
+      "[d:verdict][p:0.95][act:the main question, calm authority][tune:rise]And a real war-leader called ^Arthur? [act:the verdict, level-headed][tune:fall]*Open ^question*. [act:honest, fair]Most specialists today see a hero of legend, given a ^history. [act:the other side][tune:fall]No one can rule out a real man behind the ^name. [act:quoting, warm]As the historian Thomas Charles-Edwards put it, there may well have been an historical Arthur, [act:the second half, gently][tune:fall]but the historian can as yet say nothing of value about ^him."
+     ],
+     "shots": [
+      {
+       "id": "s57",
+       "say": "Let's weigh it. A great British victory at Badon? Strong evidence: our one witness was born that year. Great lords at Tintagel and Cadbury, around 500? Established.",
+       "draw": "A five-row ledger fills row by row (a small pictogram, a short text, a grade chip that pops as the grade is said): 'a British victory at Badon' Strong evidence; 'great lords at Tintagel and Cadbury' Established."
+      },
+      {
+       "id": "s58",
+       "say": "Camelot at Cadbury, or Arthur's birth at Tintagel? Awaiting evidence: the right places, the right century, and no name. His grave at Glastonbury? Ruled out: its cross speaks the language of a legend six centuries younger.",
+       "draw": "Rows 3 and 4: 'Camelot at Cadbury, birth at Tintagel' Awaiting evidence (pictogram: the castle outline dotted); 'the grave at Glastonbury' Ruled out (pictogram: the lead cross, struck in red).",
+       "reuse": "alias of s57"
+      },
+      {
+       "id": "s59",
+       "say": "And a real war-leader called Arthur? Open question. Most specialists today see a hero of legend, given a history. No one can rule out a real man behind the name. As the historian Thomas Charles-Edwards put it, there may well have been an historical Arthur, but the historian can as yet say nothing of value about him.",
+       "draw": "Row 5: 'a real war-leader called Arthur' with chip 'Open question' (pictogram: a warrior silhouette half solid, half dotted); beneath it a small level balance: 'legend' on one pan, 'a real man?' on the other.",
+       "reuse": "alias of s57"
+      }
+     ]
+    },
+    {
+     "role": "test",
+     "lines": [
+      "[d:tension][act:open, genuinely curious][tune:rise]What would change our ^minds? [act:clear, practical][tune:fall]A text or an inscription from his own lifetime, naming him as a leader of ^battles. [act:hopeful, plain]Stones with names do survive from this ^age: [act:the example, warm][tune:fall]Tintagel alone has given us two inscribed slates in twenty ^years. [act:the hard truth, quiet][tune:fall]But almost nothing was written down, and even less ^survived."
+     ],
+     "shots": [
+      {
+       "id": "s60",
+       "say": "What would change our minds? A text or an inscription from his own lifetime, naming him as a leader of battles. Stones with names do survive from this age: Tintagel alone has given us two inscribed slates in twenty years. But almost nothing was written down, and even less survived.",
+       "draw": "Wanted, in lilac dashed outline, popping as named: a standing memorial stone with a blank name line ('a name from his lifetime'), and a page of the 500s with a blank line; then two solid slates pop beside the stone (tags '1998', '2018'); finally a long empty shelf with one lonely book on it (label 'almost nothing survives')."
+      }
+     ]
+    },
+    {
+     "role": "close",
+     "lines": [
+      "[d:tension][p:0.93][act:the last word, quiet wonder][tune:fall]Someone won ^Badon. [act:gentle, open][tune:fall]Whether his name was Arthur, the ground may still be keeping the ^answer. [act:warm, inviting][tune:fall]Weigh it ^yourself."
+     ],
+     "shots": [
+      {
+       "id": "s61",
+       "say": "Someone won Badon. Whether his name was Arthur, the ground may still be keeping the answer. Weigh it yourself.",
+       "draw": "A hill at dawn, mist in the valleys, the faint ring of an old fort on its top and one small figure standing on the rampart; under the ground, in section, a buried stone with a dashed, unreadable name glows faintly. The camera holds as the end card arrives (verdict chip 'Open question')."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "description": "In 1191, the monks of Glastonbury Abbey said they had dug up a lead cross that read: here lies buried the renowned King Arthur, in the isle of Avalon. Was there ever a real King Arthur?\n\nWe read the sources in the order they were written: Gildas, born in the year of the battle of Badon, who never names Arthur; the line \"he was no Arthur\" in the Welsh poem Y Gododdin; the History of the Britons of about 829, with its twelve battles; the Welsh Annals, with Badon and Camlann; then Geoffrey of Monmouth, who made Arthur a king, and the French poet who named Camelot. We weigh the Glastonbury grave, follow the digs at Cadbury Castle and Tintagel, meet the candidates from Riothamus to Artorius, and grade each piece of the legend. Verdict: Open question. A real war-leader may lie behind the name, but no source from his own lifetime names him.\n\nChapters\n0:00 Cold open\nmm:ss When Rome left\nmm:ss The only witness\nmm:ss Arthur appears\nmm:ss The making of a king\nmm:ss Digging for Camelot\nmm:ss The weighing\n\nSources\nGildas, De Excidio et Conquestu Britanniae (On the Ruin of Britain), traditionally dated about 540, perhaps decades earlier: chs 23 (the Saxons invited, three ships, the complaint about monthly supplies), 25 (Ambrosius Aurelianus), 26 (the siege of Mount Badon, in the year of Gildas's birth); trans. M. Winterbottom 1978 (Phillimore); trans. J. A. Giles (Project Gutenberg ebook 1949)\nHistoria Brittonum (c. 829-830), ch. 56 (Arthur dux bellorum, the twelve battles, 960 men at Badon) and ch. 73 (the Mirabilia: Cabal's paw print, the grave of Amr); trans. J. Morris 1980, Nennius: British History and the Welsh Annals (Phillimore)\nAnnales Cambriae, A text (British Library, Harley MS 3859, c. 1100, from a mid-10th-century compilation): year 72 (c. 516) Badon, year 93 (c. 537) the strife of Camlann; trans. Morris 1980\nY Gododdin, Book of Aneirin (a manuscript of the second half of the 13th century), the stanza of Gwawrddur: 'though he was no Arthur'; ed. and trans. A. O. H. Jarman 1988, Aneirin: Y Gododdin (Gomer); Koch, J. T. 1997, The Gododdin of Aneirin (University of Wales Press)\nGeoffrey of Monmouth, Historia Regum Britanniae (c. 1136); trans. L. Thorpe 1966, The History of the Kings of Britain (Penguin)\nChretien de Troyes, Lancelot, the Knight of the Cart (1170s), the first mention of Camelot\nWilliam of Newburgh, Historia rerum Anglicarum (to 1198): on Geoffrey of Monmouth\nGerald of Wales, De principis instructione (c. 1193): the Glastonbury exhumation of 1191\nJordanes, Getica (c. 551): Riotimus, king of the Brittones, and his 12,000 men\nBede, Historia ecclesiastica gentis Anglorum (731): Badon, after Gildas, without Arthur\nCharles-Edwards, T. M. 1991, The Arthur of History, in R. Bromwich, A. O. H. Jarman & B. F. Roberts (eds), The Arthur of the Welsh (University of Wales Press)\nDumville, D. N. 1977, Sub-Roman Britain: history and legend, History 62(205): 173-192\nPadel, O. J. 1994, The nature of Arthur, Cambrian Medieval Celtic Studies 27\nHigham, N. J. 2002, King Arthur: Myth-Making and History (Routledge)\nHalsall, G. 2013, Worlds of Arthur: Facts and Fictions of the Dark Ages (Oxford University Press)\nKoch, J. T. (ed.) 2006, Celtic Culture: A Historical Encyclopedia (ABC-CLIO): 121\nAlcock, L. 1971, Arthur's Britain: History and Archaeology AD 367-634 (Allen Lane); Alcock, L. 1972, 'By South Cadbury is that Camelot...' (Thames & Hudson); Alcock, L. 1995, Cadbury Castle, Somerset: The Early Medieval Archaeology (University of Wales Press)\nRahtz, P. 1993, English Heritage Book of Glastonbury (Batsford / English Heritage); Rahtz, P. & Watts, L. 2003, Glastonbury: Myth and Archaeology (Tempus)\nBarrowman, R. C., Batey, C. E. & Morris, C. D. 2007, Excavations at Tintagel Castle, Cornwall, 1990-1999, Reports of the Research Committee of the Society of Antiquaries of London 74\nThomas, C. 1993, English Heritage Book of Tintagel: Arthur and Archaeology (Batsford / English Heritage)\nEnglish Heritage, Tintagel Castle: History, and Research on Tintagel Castle (the Tintagel Castle Archaeological Research Project with Cornwall Archaeological Unit, from 2016); English Heritage blog, Discoveries and excavations at Tintagel Castle (2016)\nGretzinger, J. et al. 2022, The Anglo-Saxon migration and the formation of the early English gene pool, Nature 610: 112-119, doi:10.1038/s41586-022-05247-2\nSnyder, C. A. 1998, An Age of Tyrants: Britain and the Britons, A.D. 400-600 (Pennsylvania State University Press): 18 (402, the last Roman coinage found in large numbers in Britain)\nWard-Perkins, B. 2005, The Fall of Rome and the End of Civilization (Oxford University Press)\nAshe, G. 1981, 'A Certain Very Ancient Book': Traces of an Arthurian Source in Geoffrey of Monmouth's History, Speculum 56(2): 301-323, doi:10.2307/2846937\nMalone, K. 1925, Artorius, Modern Philology 22(4): 367-374",
+ "sources": [
+  "Gildas, De Excidio et Conquestu Britanniae (On the Ruin of Britain), traditionally dated about 540, perhaps decades earlier: chs 23 (the Saxons invited, three ships, the complaint about monthly supplies), 25 (Ambrosius Aurelianus), 26 (the siege of Mount Badon, in the year of Gildas's birth); trans. M. Winterbottom 1978 (Phillimore); trans. J. A. Giles (Project Gutenberg ebook 1949)",
+  "Historia Brittonum (c. 829-830), ch. 56 (Arthur dux bellorum, the twelve battles, 960 men at Badon) and ch. 73 (the Mirabilia: Cabal's paw print, the grave of Amr); trans. J. Morris 1980, Nennius: British History and the Welsh Annals (Phillimore)",
+  "Annales Cambriae, A text (British Library, Harley MS 3859, c. 1100, from a mid-10th-century compilation): year 72 (c. 516) Badon, year 93 (c. 537) the strife of Camlann; trans. Morris 1980",
+  "Y Gododdin, Book of Aneirin (a manuscript of the second half of the 13th century), the stanza of Gwawrddur: 'though he was no Arthur'; ed. and trans. A. O. H. Jarman 1988, Aneirin: Y Gododdin (Gomer); Koch, J. T. 1997, The Gododdin of Aneirin (University of Wales Press)",
+  "Geoffrey of Monmouth, Historia Regum Britanniae (c. 1136); trans. L. Thorpe 1966, The History of the Kings of Britain (Penguin)",
+  "Chretien de Troyes, Lancelot, the Knight of the Cart (1170s), the first mention of Camelot",
+  "William of Newburgh, Historia rerum Anglicarum (to 1198): on Geoffrey of Monmouth",
+  "Gerald of Wales, De principis instructione (c. 1193): the Glastonbury exhumation of 1191",
+  "Jordanes, Getica (c. 551): Riotimus, king of the Brittones, and his 12,000 men",
+  "Bede, Historia ecclesiastica gentis Anglorum (731): Badon, after Gildas, without Arthur",
+  "Charles-Edwards, T. M. 1991, The Arthur of History, in R. Bromwich, A. O. H. Jarman & B. F. Roberts (eds), The Arthur of the Welsh (University of Wales Press)",
+  "Dumville, D. N. 1977, Sub-Roman Britain: history and legend, History 62(205): 173-192",
+  "Padel, O. J. 1994, The nature of Arthur, Cambrian Medieval Celtic Studies 27",
+  "Higham, N. J. 2002, King Arthur: Myth-Making and History (Routledge)",
+  "Halsall, G. 2013, Worlds of Arthur: Facts and Fictions of the Dark Ages (Oxford University Press)",
+  "Koch, J. T. (ed.) 2006, Celtic Culture: A Historical Encyclopedia (ABC-CLIO): 121",
+  "Alcock, L. 1971, Arthur's Britain: History and Archaeology AD 367-634 (Allen Lane); Alcock, L. 1972, 'By South Cadbury is that Camelot...' (Thames & Hudson); Alcock, L. 1995, Cadbury Castle, Somerset: The Early Medieval Archaeology (University of Wales Press)",
+  "Rahtz, P. 1993, English Heritage Book of Glastonbury (Batsford / English Heritage); Rahtz, P. & Watts, L. 2003, Glastonbury: Myth and Archaeology (Tempus)",
+  "Barrowman, R. C., Batey, C. E. & Morris, C. D. 2007, Excavations at Tintagel Castle, Cornwall, 1990-1999, Reports of the Research Committee of the Society of Antiquaries of London 74",
+  "Thomas, C. 1993, English Heritage Book of Tintagel: Arthur and Archaeology (Batsford / English Heritage)",
+  "English Heritage, Tintagel Castle: History, and Research on Tintagel Castle (the Tintagel Castle Archaeological Research Project with Cornwall Archaeological Unit, from 2016); English Heritage blog, Discoveries and excavations at Tintagel Castle (2016)",
+  "Gretzinger, J. et al. 2022, The Anglo-Saxon migration and the formation of the early English gene pool, Nature 610: 112-119, doi:10.1038/s41586-022-05247-2",
+  "Snyder, C. A. 1998, An Age of Tyrants: Britain and the Britons, A.D. 400-600 (Pennsylvania State University Press): 18 (402, the last Roman coinage found in large numbers in Britain)",
+  "Ward-Perkins, B. 2005, The Fall of Rome and the End of Civilization (Oxford University Press)",
+  "Ashe, G. 1981, 'A Certain Very Ancient Book': Traces of an Arthurian Source in Geoffrey of Monmouth's History, Speculum 56(2): 301-323, doi:10.2307/2846937",
+  "Malone, K. 1925, Artorius, Modern Philology 22(4): 367-374"
+ ],
+ "facts_added": [
+  {
+   "fact": "Gildas's De Excidio is a sermon in three parts and the only substantial account of 5th to 6th century Britain by a near-contemporary; it has traditionally been dated to the 540s, but Karen George proposes c. 510-530, Stephen Joyce c. 483-485, and Guy Halsall inclines to an 'early Gildas' c. 490. Its oldest manuscript (Cotton Vitellius A. vi) is of the 10th century, damaged by fire in 1731.",
+   "source": "Gildas; Halsall 2013; Wikipedia, Gildas and De Excidio et Conquestu Britanniae (citing George and Joyce)"
+  },
+  {
+   "fact": "Gildas says the Saxons were invited in 'three cyuls' (ships), complained that their monthly supplies were not furnished in sufficient abundance, and threatened to break the treaty; the Britons later fought back under Ambrosius Aurelianus, 'a modest man' whose parents had 'worn the purple', who of all the Roman nation was alone left alive; wins and losses followed until the siege of Badon Hill, in the year of Gildas's birth. Gildas never names the commander at Badon and never mentions Arthur; he names and condemns five kings (Constantine, Aurelius Conanus, Vortiporius, Cuneglasus, Maelgwn).",
+   "source": "Gildas, De Excidio chs 23, 25, 26 (Giles translation); Wikipedia, Gildas; Ambrosius Aurelianus"
+  },
+  {
+   "fact": "The year 402 is the last date of any Roman coinage found in large numbers in Britain; in 407 Constantine III took the remaining mobile Roman soldiers to Gaul; in 410 Honorius is said to have told the British communities to look to their own defence (a rescript whose address is debated).",
+   "source": "Snyder 1998: 18, 21; Wikipedia, End of Roman rule in Britain"
+  },
+  {
+   "fact": "Ancient genomes of 460 north-west Europeans (278 from England) show a large increase of continental northern European ancestry in early medieval England: individuals from eastern England derived up to 76% of their ancestry from the continental North Sea zone (closest to early medieval and present-day people of Germany and Denmark), with variation within sites; men buried with weapons were as likely to be of local ancestry as of immigrant ancestry.",
+   "source": "Gretzinger et al. 2022, Nature 610: 112-119, doi:10.1038/s41586-022-05247-2"
+  },
+  {
+   "fact": "Y Gododdin, preserved in the Book of Aneirin (second half of the 13th century), mourns the men of the Gododdin who fell at Catraeth (probably Catterick) about 600; one stanza says of the warrior Gwawrddur that he fed black ravens on the rampart of a fortress, 'though he was no Arthur'. John Koch's view that the line belongs to a 7th-century version is regarded as unproven; 9th or 10th century dates are often proposed, and Jarman lists the stanza as a possible interpolation.",
+   "source": "Jarman 1988; Koch 1997; Charles-Edwards 1991: 15; Wikipedia, Y Gododdin and King Arthur"
+  },
+  {
+   "fact": "The Historia Brittonum can be dated to about 829 (the fourth year of King Merfyn of Gwynedd); it calls Arthur dux bellorum, 'leader of battles', who fought 'with the kings of the Britons', lists twelve battles (the river Glein, four on the Dubglas, the Bassas, the forest of Celidon, Castellum Guinnion, the City of the Legion, the Tribruit, Mount Agned, Mount Badon) and says that at Badon 960 men fell in one day from one charge by Arthur, 'and no one struck them down except Arthur himself'. Its Mirabilia tell of the paw print of Arthur's dog Cabal in a stone and of the grave of his son Amr, measured at six, nine, twelve or fifteen feet.",
+   "source": "Historia Brittonum chs 56, 73 (trans. Morris 1980); Wikipedia, Historia Brittonum (Dumville on the Nennius attribution)"
+  },
+  {
+   "fact": "The Annales Cambriae (A text, a hand of c. 1100-1130 in Harley MS 3859, from a compilation of the second half of the 10th century) place Badon in year 72 (c. 516) and 'the strife of Camlann, in which Arthur and Medraut fell' in year 93 (c. 537); the Arthurian entries could have been added as late as 970.",
+   "source": "Morris 1980; Wikipedia, Annales Cambriae"
+  },
+  {
+   "fact": "Bede, completing his Ecclesiastical History in 731, takes his account of the settlement largely from Gildas and mentions Badon but not Arthur; Arthur is not named in any surviving manuscript written between 400 and 820.",
+   "source": "Bede (731); Wikipedia, Ecclesiastical History of the English People; King Arthur"
+  },
+  {
+   "fact": "Geoffrey of Monmouth wrote the Historia Regum Britanniae around 1136, claiming to translate 'a very ancient book in the British tongue' from Walter, archdeacon of Oxford (no modern scholar accepts this); his Arthur is conceived at Tintagel through Merlin's magic, defeats the Saxons, conquers most of northern Europe, is mortally wounded at Camlann where Mordred is killed, and is carried to the isle of Avalon; his court is at Caerleon. 215 medieval manuscripts of the Historia survive.",
+   "source": "Geoffrey of Monmouth (trans. Thorpe 1966); Wikipedia, Historia Regum Britanniae (the count of 215 manuscripts); King Arthur"
+  },
+  {
+   "fact": "Camelot is first mentioned, in passing, in Chretien de Troyes's Lancelot, the Knight of the Cart (1170s), which also introduces Lancelot; Geoffrey never names Camelot.",
+   "source": "Wikipedia, Camelot; King Arthur"
+  },
+  {
+   "fact": "William of Newburgh, whose history runs to 1198, wrote that only a person ignorant of ancient history could doubt how shamelessly Geoffrey lies.",
+   "source": "William of Newburgh, Historia rerum Anglicarum; Wikipedia, William of Newburgh (translation of his words)"
+  },
+  {
+   "fact": "A great fire destroyed the monastic buildings of Glastonbury in 1184; in 1191 the abbot Henry de Sully had the cemetery searched south of the Lady Chapel, between two 'pyramids', and the monks reported a lead cross under a covering stone inscribed 'Hic iacet sepultus inclitus rex Arturius in insula Avalonia' and, 16 feet (about 5 m) down, a hollowed oak trunk with two skeletons (the man's bones described as gigantic). Gerald of Wales (c. 1193) says Henry II had learned of the place from an aged Welsh bard. The remains were reburied before the high altar in 1278 in the presence of Edward I and Queen Eleanor and were lost at the Reformation. Historians generally treat the find as a publicity stunt to raise funds for rebuilding, possibly also serving royal politics against Welsh hopes of Arthur.",
+   "source": "Gerald of Wales c. 1193; Rahtz 1993; Wikipedia, Glastonbury Abbey; Glastonbury; Avalon; King Arthur (Gransden 1976; Crick 1999)"
+  },
+  {
+   "fact": "John Leland reported in 1542 that local people held Cadbury Castle (Somerset) to be Camelot. Leslie Alcock's excavations of 1966 to 1970, billed as 'Cadbury-Camelot', showed the site in use from about 470 to after 580, with the innermost Iron Age rampart (the inner bank is 1.2 km long) refortified and a great timber hall about 20 by 10 m, with eastern Mediterranean pottery: the largest reoccupied fortified hilltop of post-Roman Britain. In 1971 Alcock argued that Arthur was a genuine historical figure; Arthur later became 'something of a millstone' to him.",
+   "source": "Alcock 1971, 1972, 1995; Wikipedia, Cadbury Castle, Somerset; Camelot; Leslie Alcock; Historical basis for King Arthur"
+  },
+  {
+   "fact": "From about 450 to about 650 Tintagel was a prosperous high-status site, probably a stronghold of the rulers of Dumnonia, with somewhere around 100 buildings on the headland and more imported Mediterranean pottery (amphorae, fine plates and bowls including Phocaean and African red slip) and glass than any other site in Britain. A slate found in 1998 in a 6th-century context bears three names, including the British name ARTOGNOU ('bear-knowing'), popularly called the 'Arthur stone'. From 2016 English Heritage and Cornwall Archaeological Unit excavated stone buildings with a wall about 1 m thick, slate floors, paving and steps, hundreds of sherds and fine glass; in 2018 a slate window ledge with Latin, Greek and Celtic names and symbols was found.",
+   "source": "Thomas 1993; Barrowman, Batey & Morris 2007; English Heritage, History and Research pages and 2016 blog; Wikipedia, Tintagel Castle; Artognou stone (Koch on the name)"
+  },
+  {
+   "fact": "Richard, Earl of Cornwall, bought the 'Island of Tyntagel' in May 1233 and built the castle there, probably to exploit Tintagel's literary fame from Geoffrey's story.",
+   "source": "English Heritage, History of Tintagel Castle; Wikipedia, Tintagel Castle"
+  },
+  {
+   "fact": "Jordanes (Getica, about 551) says that Riotimus, king of the Brittones, came by the ocean with 12,000 men to the land of the Bituriges to help the emperor Anthemius against Euric's Visigoths (about 470) and was routed; Geoffrey Ashe proposed him as the historical Arthur.",
+   "source": "Jordanes, Getica (c. 551); Ashe 1981, doi:10.2307/2846937; Wikipedia, Riothamus; Jordanes"
+  },
+  {
+   "fact": "Lucius Artorius Castus, prefect of the Sixth Legion (based at York), served in the 2nd or 3rd century and is known from inscriptions at Podstrana, Croatia; Kemp Malone first linked him to Arthur in 1924-1925, a theory most historians judge very unlikely. The most widely accepted etymology of Arthur is the Roman family name Artorius.",
+   "source": "Malone 1925; Koch 2006: 121; Wikipedia, Lucius Artorius Castus; King Arthur"
+  },
+  {
+   "fact": "Thomas Charles-Edwards concluded that 'at this stage of the enquiry, one can only say that there may well have been an historical Arthur [but] the historian can as yet say nothing of value about him'; David Dumville wrote that 'there is no historical evidence about Arthur; we must reject him from our histories'; Guy Halsall reported that 'among the academic community, the sceptics have decisively carried the day'; O. J. Padel argues that Arthur began as a hero of folklore who was later historicised.",
+   "source": "Charles-Edwards 1991: 29; Dumville 1977: 187-188; Halsall 2013; Padel 1994; Higham 2002"
+  }
+ ],
+ "names": [
+  {
+   "name": "Glastonbury",
+   "say": "GLASS-tun-bree"
+  },
+  {
+   "name": "Avalon",
+   "say": "AV-uh-lon"
+  },
+  {
+   "name": "Gildas",
+   "say": "GIL-das (in LEX)"
+  },
+  {
+   "name": "Badon",
+   "say": "BAY-dun (in LEX)"
+  },
+  {
+   "name": "Ambrosius Aurelianus",
+   "say": "am-BROH-zee-us aw-REE-lee-AH-nus"
+  },
+  {
+   "name": "Gododdin",
+   "say": "go-DOTH-in (the dd as 'th' in 'this')"
+  },
+  {
+   "name": "Cabal",
+   "say": "KAB-al"
+  },
+  {
+   "name": "Camlann",
+   "say": "KAM-lan"
+  },
+  {
+   "name": "Medraut",
+   "say": "MED-rowt (the au as 'ow' in 'cow')"
+  },
+  {
+   "name": "Geoffrey of Monmouth",
+   "say": "JEF-ree of MON-muth (Monmouth in LEX)"
+  },
+  {
+   "name": "Tintagel",
+   "say": "tin-TAJ-ul (in LEX)"
+  },
+  {
+   "name": "Mordred",
+   "say": "MOR-dred"
+  },
+  {
+   "name": "Chretien de Troyes",
+   "say": "kray-TYAN duh TRWAH"
+  },
+  {
+   "name": "Lancelot",
+   "say": "LAHN-suh-lot"
+  },
+  {
+   "name": "Camelot",
+   "say": "KAM-uh-lot"
+  },
+  {
+   "name": "William of Newburgh",
+   "say": "NEW-burr-uh"
+  },
+  {
+   "name": "John Leland",
+   "say": "LEE-lund"
+  },
+  {
+   "name": "Leslie Alcock",
+   "say": "AL-kok"
+  },
+  {
+   "name": "Artognou",
+   "say": "ar-TOG-noo"
+  },
+  {
+   "name": "Riothamus",
+   "say": "ree-OTH-uh-mus (in LEX)"
+  },
+  {
+   "name": "Lucius Artorius Castus",
+   "say": "LOO-shus ar-TOR-ee-us KAS-tus"
+  },
+  {
+   "name": "Artorius",
+   "say": "ar-TOR-ee-us"
+  },
+  {
+   "name": "Gaul",
+   "say": "GAWL"
+  },
+  {
+   "name": "Thomas Charles-Edwards",
+   "say": "TOM-us CHARLZ ED-wurdz"
+  }
+ ],
+ "words": 1560
+}
