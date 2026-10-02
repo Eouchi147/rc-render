@@ -1,0 +1,775 @@
+{
+ "id": "lf-gobekli",
+ "kind": "case",
+ "series": "Before Us",
+ "title": "Göbekli Tepe: What the Stones Say",
+ "yt_title": "Göbekli Tepe: A Lost Civilisation, a Comet, and What the Stones Say",
+ "verdict": "Awaiting evidence",
+ "hook": "Who carved stone giants 11,500 years ago?",
+ "chapters": [
+  {
+   "title": "Cold open",
+   "beats": [
+    {
+     "role": "hook",
+     "lines": [
+      "[d:intrigue][sfx:boom][act:hushed, awe]Stone ^giants, with arms and ^hands, on a hilltop in Turkey. [p:0.93][act:the number lands, slow][tune:fall]Carved about eleven and a half ^*thousand* years ago.",
+      "[d:list][act:counting what they lacked][tune:level]No ^pottery. [act:same rhythm][tune:level]No ^metal. [act:same rhythm][tune:level]No ^writing. [act:the last one, slower][tune:level]No farm ^animals. [act:the child's question, leaning in][tune:rise]So who ^carved them?",
+      "[d:tension][act:reporting it fairly, even]Some say: the survivors of a ^lost civilisation. [act:the second claim, intrigued][tune:fall]Others, that one pillar is the record@noun of a ^comet strike."
+     ],
+     "shots": [
+      {
+       "id": "s1",
+       "say": "Stone giants, with arms and hands, on a hilltop in Turkey.",
+       "draw": "Dusk over a bare limestone ridge drawn across the whole frame (ground y 640). A ring of T-shaped stone figures rises out of the hilltop one by one (fx rise, 0.12 s apart, back row dimmer), the two taller central pillars last, about twice the height of a 1.7 m person standing beside them (central pillars 5.5 m, to scale with the person). No labels for the first 3 s (hook title).",
+       "reuse": "gobekli shot 0 (the ring of giants rising on the hill at dusk), redrawn wide for 16:9"
+      },
+      {
+       "id": "s2",
+       "say": "Carved about eleven and a half thousand years ago.",
+       "draw": "Slow push in on one central pillar: a carved arm and two hands trace themselves on its side (fx draw). Bottom left, a thin time bar runs right to left from 'today' to a gold tick labelled 'c. 11,500 years ago'."
+      },
+      {
+       "id": "s3",
+       "say": "No pottery. No metal. No writing. No farm animals. So who carved them?",
+       "draw": "Four small icons pop in a row above the ring as each is named: a clay pot, a copper axe, a marked clay tablet, a sheep. A red stroke strikes each one through on its word. On 'So who carved them?' a large gold question mark draws itself over the ring.",
+       "reuse": "gobekli shot 0, line 1 (the struck-out list of what they lacked)"
+      },
+      {
+       "id": "s4",
+       "say": "Some say: the survivors of a lost civilisation. Others, that one pillar is the record of a comet strike.",
+       "draw": "Left of the hill, a grand city outline on an Ice Age coast in dotted lilac (style claimed, nothing solid); three small dotted figures walk from it towards the hill. On 'Others', night falls over the ring (stars fade in), a comet streak crosses the sky right to left, one pillar on the north-west of the ring glows, and a dotted lilac line links the comet to it (claimed).",
+       "reuse": "lost-civilization, the 'idea' scene in lost_civ_m (dotted city, comet, survivors walking)"
+      }
+     ]
+    },
+    {
+     "role": "title",
+     "lines": [
+      "[d:calm][act:warm, setting out]Göbekli ^Tepe: [act:the promise, a small smile][tune:fall]what the stones say, and what they ^don't."
+     ],
+     "shots": [
+      {
+       "id": "s5",
+       "say": "Göbekli Tepe: what the stones say, and what they don't.",
+       "draw": "The intro title card 'Göbekli Tepe: What the Stones Say' over the dimmed wide dusk view of the hill, the pillars as silhouettes. Only the title is said here."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Giants on Potbelly Hill",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:plain, orienting]This is Göbekli ^Tepe, on a limestone ridge near the city of ^Sanliurfa, in southeast Turkey. [act:a small smile]The name means something like Potbelly ^Hill.",
+      "[d:build][act:storytelling, unhurried]In {1963|nineteen sixty-three}, surveyors saw broken slabs on it, and took them for ^gravestones of a much later age. [act:the turn, leaning in]In {1994|nineteen ninety-four}, the German archaeologist Klaus ^Schmidt looked again, [act:the moment, wonder][tune:fall]and recognised the head of a T-shaped ^pillar, like those he knew from a dig nearby."
+     ],
+     "shots": [
+      {
+       "id": "s6",
+       "say": "This is Göbekli Tepe, on a limestone ridge near the city of Sanliurfa, in southeast Turkey.",
+       "draw": "Map: View(26, 46, 33, 43). Land, sea (Mediterranean bottom left). Pins: Şanlıurfa (37.16 N, 38.80 E, small dot) and Göbekli Tepe (37.22 N, 38.92 E, gold pin, label 'Göbekli Tepe'); country name 'Turkey' in italics; then zoom (cam z 1.5) to the pin, the ridge drawn as a faint contour.",
+       "reuse": "gobekli shot 1 (map of Turkey with the gold pin)"
+      },
+      {
+       "id": "s7",
+       "say": "The name means something like Potbelly Hill.",
+       "draw": "Side profile of the mound on its ridge: a rounded belly-shaped rise, about 300 m across and 15 m high (draw at 5x vertical exaggeration and say so in a tiny note 'height x5'); a 100 m scale bar; a tiny person on the summit. Label 'Potbelly Hill'."
+      },
+      {
+       "id": "s8",
+       "say": "In 1963, surveyors saw broken slabs on it, and took them for gravestones of a much later age.",
+       "draw": "On the mound surface, broken grey limestone slabs lie scattered. Two surveyor figures with a clipboard walk past (person, fx rise). A dotted label 'gravestones?' appears over the slabs, then a thin line strikes it through."
+      },
+      {
+       "id": "s9",
+       "say": "In 1994, the German archaeologist Klaus Schmidt looked again, and recognised the head of a T-shaped pillar, like those he knew from a dig nearby.",
+       "draw": "One figure walks up the slope; flint flakes glitter on the ground around him (small dots pop). One slab top is ringed in gold; below the surface its hidden T-shape completes itself in dashed gold (style inferred). A small inset T-pillar to the right, labelled 'Nevalı Çori type' (the nearby dig he knew)."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:wonder][act:describing it, admiring]Digging began in {1995|nineteen ninety-five}. [act:the scale]Out of the hill came great round ^enclosures, up to about twenty metres across: [act:the recipe, clear][tune:level]a rubble wall, with pillars set into it facing ^inwards, [act:landing it][tune:fall]and two taller pillars standing free in the ^middle.",
+      "[p:0.9][act:the number, savouring it]In the best preserved, Enclosure ^D, that central pair stands about five and a half ^metres tall: [act:an everyday picture, light][tune:fall]three grown-ups, stacked head to ^toe.",
+      "[d:list][sfx:hit][act:inviting, intrigued]Look ^closer. [sfx:shimmer][act:a discovery][tune:level]An arm, bent at the ^elbow. [act:same rhythm][tune:level]Two hands, meeting over the ^belly. [act:same rhythm][tune:level]A belt, and a ^loincloth. [act:delighted, lightly][tune:fall]And under one arm, a ^fox.",
+      "[d:reveal][p:0.93][act:the reveal, slow]The top of the T reads as a ^head, the shaft as a ^body. [act:careful, a hush]Most researchers see ^figures here: beings, or ancestors, in stone. [act:widening out, wonder][tune:level]Around them swarms a whole ^zoo in relief: [act:listing them][tune:fall]snakes most of all, then foxes, boars, cranes, vultures and ^scorpions."
+     ],
+     "shots": [
+      {
+       "id": "s10",
+       "say": "Digging began in 1995. Out of the hill came great round enclosures, up to about twenty metres across:",
+       "draw": "Iso cutaway of the mound: the top layer lifts away (fx fade) to show four sunken round enclosures in the main dig, lettered A, B, C, D as they appear; a 20 m scale bar under the largest. Mound outline stays faint around them."
+      },
+      {
+       "id": "s11",
+       "say": "a rubble wall, with pillars set into it facing inwards, and two taller pillars standing free in the middle.",
+       "draw": "Plan view of Enclosure D: the rubble ring wall draws itself (fx draw); 11 pillars pop into the wall one by one, narrow faces turned to the centre (the Short's plan has 12: draw 11); low benches between them; the two central pillars pop last with a soft glow. North arrow; 5 m scale bar.",
+       "reuse": "gobekli shot 3 (Enclosure D from above), corrected to 11 ring pillars"
+      },
+      {
+       "id": "s12",
+       "say": "In the best preserved, Enclosure D, that central pair stands about five and a half metres tall: three grown-ups, stacked head to toe.",
+       "draw": "Side view: one central T-pillar, 5.5 m, on a low bedrock pedestal. Beside it three 1.8 m people pop one on top of the other (fx pop, 0.4 s apart) until they reach its top; a measuring line '5.5 m' draws itself.",
+       "reuse": "gobekli shot 4 (the central pillar with a person for scale)"
+      },
+      {
+       "id": "s13",
+       "say": "Look closer. An arm, bent at the elbow. Two hands, meeting over the belly. A belt, and a loincloth. And under one arm, a fox.",
+       "draw": "Close on the broad face of Pillar 18 (cam z 1.4): an arm bent at the elbow traces down the side (fx draw); two hands meet over the belly (pop); a belt (pop); a loincloth hanging from it (pop); a small fox carved under the arm (fade in). One-word labels as each is named: 'arm', 'hands', 'belt', 'fox'. Do not label the loincloth 'fox pelt'.",
+       "reuse": "gobekli shot 4 (arms, hands, belt), relabelled to match the narration"
+      },
+      {
+       "id": "s14",
+       "say": "The top of the T reads as a head, the shaft as a body. Most researchers see figures here: beings, or ancestors, in stone.",
+       "draw": "Dashed gold boxes (style inferred): 'head' around the top of the T, 'body' around the shaft. A faint human silhouette (op .2) settles over the pillar, then fades.",
+       "reuse": "gobekli shot 4, line 2 (head and torso boxes)"
+      },
+      {
+       "id": "s15",
+       "say": "Around them swarms a whole zoo in relief: snakes most of all, then foxes, boars, cranes, vultures and scorpions.",
+       "draw": "A bar chart that builds left to right (thick lines, fx draw), each bar with a small animal silhouette: snake 28%, fox 15%, boar 9%, crane 6% (shares of carved animal images, Peters & Schmidt 2004); a vulture icon and a scorpion icon pop after them with no bar (no share given). Title label 'carved animals'."
+      }
+     ]
+    },
+    {
+     "role": "cost",
+     "lines": [
+      "[d:build][p:0.93][act:curious, the method][tune:rise]How do you carve a stone giant without ^metal? [act:the answer, a smile]The answer lies in the ^quarry next door. [act:explaining, clear]Workers cut a channel around the shape with flint picks, [act:explaining, the next step]then levered the slab free along a natural seam, probably with wooden beams and ^wedges.",
+      "[d:aside][p:0.9][act:the punchline, savouring it]One pillar never ^left: seven metres long, about fifty ^tonnes. [act:explaining, light]Perhaps a crack showed, and they ^stopped. [act:dry, a small smile][tune:fall]Even Stone Age engineers had ^bad days."
+     ],
+     "shots": [
+      {
+       "id": "s16",
+       "say": "How do you carve a stone giant without metal? The answer lies in the quarry next door. Workers cut a channel around the shape with flint picks, then levered the slab free along a natural seam, probably with wooden beams and wedges.",
+       "draw": "Section base (ground y 300): flat-bedded limestone layers. On the surface a T outline is marked in chalk white; small worker figures with flint picks (pick icon pops) cut a channel around it, the trench line drawing itself; chips fly (dots). On 'levered', the slab lifts slightly along a bedding seam (fx rise, 6 units); wooden beams as levers and wedges pop under it, drawn dashed (style inferred: 'probably').",
+       "reuse": "gobekli shot 2 (the pillar cut from the bedrock)"
+      },
+      {
+       "id": "s17",
+       "say": "One pillar never left: seven metres long, about fifty tonnes. Perhaps a crack showed, and they stopped. Even Stone Age engineers had bad days.",
+       "draw": "The unfinished pillar lying in its bedrock bed, to scale: a 7 m measuring line, 1.5 m thick; label 'c. 50 tonnes'. Beside it, to the same scale, the 5.5 m standing pillar and a person. On 'a crack', a thin red crack draws across the unfinished pillar; on the last sentence, a pick drops and a small figure sits down."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:the big question, leaning in][tune:rise]And the ^builders? [p:0.93][act:explaining, an everyday picture]A kitchen bin tells you the ^menu. [act:reading the result, precise]Here the bones are of gazelle, wild cattle and wild ^asses: [act:the point, firm][tune:fall]animals people ^hunted, not herded.",
+      "[d:build][act:the old textbook, even][tune:level]For most of the twentieth century, the textbooks said: farming first, then ^monuments. [sfx:hit][act:the twist, deliberate][tune:fall]Here, the order runs the other ^way. [p:0.93][act:the landing, quiet wonder][tune:fall]The giants came ^first. [act:same rhythm][tune:fall]Farm animals and fully domesticated crops came ^later."
+     ],
+     "shots": [
+      {
+       "id": "s18",
+       "say": "And the builders? A kitchen bin tells you the menu. Here the bones are of gazelle, wild cattle and wild asses: animals people hunted, not herded.",
+       "draw": "A cutaway rubbish pit fills with bones layer by layer (fx fill). From it three animal silhouettes rise as named: gazelle, wild cattle (aurochs), wild ass. A spear icon pops beside them; a dotted pen fence (herding) appears and is struck through."
+      },
+      {
+       "id": "s19",
+       "say": "For most of the twentieth century, the textbooks said: farming first, then monuments. Here, the order runs the other way. The giants came first. Farm animals and fully domesticated crops came later.",
+       "draw": "A left-to-right arrow with icons in the old textbook order: a field and a sheep, then a monument; label 'the textbook order'. On 'the other way', the monument (a T-pillar) slides to the front of the arrow and the field and sheep move behind it. Below, a time axis: a gold tick 'Göbekli Tepe, c. 9500 BCE' first, then a band 'fully domesticated crops, herds' after it. No new dates beyond the facts base (see lost-civilization shot 1 for placement).",
+       "reuse": "lost-civilization shot 1 (Hancock timeline: 'Göbekli Tepe begins' then 'first fully domesticated cereals')"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Dating a hill of rubble",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][p:0.93][act:the child's question, curious][tune:rise]How do you date a ^stone? [act:plain, a small smile][tune:fall]Not directly. [act:explaining, the method]You date something that was once ^alive. [p:0.93][act:an everyday picture]Living things hold a trace of radioactive carbon, which fades after death at a steady pace, like a candle burning ^down: [act:the payoff, clear][tune:fall]measure what's left, and you know when it ^died."
+     ],
+     "shots": [
+      {
+       "id": "s20",
+       "say": "How do you date a stone? Not directly. You date something that was once alive. Living things hold a trace of radioactive carbon, which fades after death at a steady pace, like a candle burning down: measure what's left, and you know when it died.",
+       "draw": "A limestone block with a question mark. Beside it, things that were once alive pop one by one: a seed, a bone, a charcoal twig, each with a small green tick. Then a tall candle beside the twig: carbon dots in the twig fade at a steady pace while the candle burns down in step; a small ruler measures the stub that is left.",
+       "reuse": "gobekli shot 6 (the radiocarbon candles)"
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:tension][act:the catch, leaning in]The catch: the enclosures are packed with rubble, bone and ^flint, [act:the problem, plain][tune:fall]and rubble ^moves. [p:0.93][act:an everyday picture, light]Dating the fill is like dating a house@noun from the junk swept into its ^cellar: [act:explaining][tune:fall]some is older than the house@noun, some ^newer. [act:a telling detail]Here, some younger samples even lie ^below older ones.",
+      "[d:build][act:the better clock, pleased]So the team also dated ^plaster and mortar, put on the walls while the buildings ^stood. [p:0.9][act:precise, the number]Plaster from Enclosure D dates to between about nine thousand seven hundred and nine thousand three hundred ^BCE. [act:widening out][tune:level]The whole site runs from about nine and a half thousand to eight thousand BCE: [act:the payoff, wonder][tune:fall]fifteen centuries of building, repairing and ^rebuilding."
+     ],
+     "shots": [
+      {
+       "id": "s21",
+       "say": "The catch: the enclosures are packed with rubble, bone and flint, and rubble moves.",
+       "draw": "Cross-section of a sunken enclosure: two pillars standing, the space between them packed with rubble, bone and flint (small shapes). An arrow shows stones sliding in from the slope above."
+      },
+      {
+       "id": "s22",
+       "say": "Dating the fill is like dating a house from the junk swept into its cellar: some is older than the house, some newer.",
+       "draw": "A plain house in cutaway with a cellar. Junk drops into the cellar, each item tagged with a year: an old clock '1890', a phone '2015'; the house carries the tag 'built 1950'. Arrows: one tag 'older', one 'newer'."
+      },
+      {
+       "id": "s23",
+       "say": "Here, some younger samples even lie below older ones.",
+       "draw": "A layered column (strata). Two sample dots: the higher one labelled 'older', the lower one 'younger'; a curved arrow between them and a small 'upside down' label."
+      },
+      {
+       "id": "s24",
+       "say": "So the team also dated plaster and mortar, put on the walls while the buildings stood. Plaster from Enclosure D dates to between about nine thousand seven hundred and nine thousand three hundred BCE.",
+       "draw": "The enclosure wall in section: a plaster layer smears onto the wall face (fx draw, left to right); a flake of it glows and lifts out as a sample, then travels down onto a time axis 10,500 to 7,500 BCE (ticks every 500 years), where an amber range bar fills from 9745 to 9314 BCE (Dietrich & Schmidt 2010, 95% range), labelled 'plaster, Enclosure D'."
+      },
+      {
+       "id": "s25",
+       "say": "The whole site runs from about nine and a half thousand to eight thousand BCE: fifteen centuries of building, repairing and rebuilding.",
+       "draw": "Same axis: a longer gold band draws from 9500 to 8000 BCE ('Göbekli Tepe in use'), with '1,500 years' under it. Along it small building icons pop: round ones early, rectangular ones later, overlapping in the middle; one round icon reshapes into a rectangle (Clare 2020)."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:storytelling, the old story]For about twenty years, the story was that when an enclosure went out of use@noun, people buried it on purpose, and ^fast. [act:a wry note][tune:fall]A ritual ^burial. [act:fair, reporting]It even fed a popular claim: that the site was buried to ^hide it.",
+      "[d:build][sfx:shimmer][act:the turn, admiring the honesty]Then the excavators went back through their own records@noun. [p:0.93][act:explaining, clear]In {2020|twenty twenty}, the team under Lee ^Clare argued that most of the fill had slid in from higher ground, older and younger debris ^mixed. [act:a picture, vivid]Slope slides, perhaps after heavy rain or ^earthquakes, damaged the buildings, [act:warm][tune:fall]and people shored them up with terrace walls and ^repairs.",
+      "[d:aside][act:fair, the counterweight][tune:level]But at Karahan ^Tepe, a sister site to the east, the excavator Necmi ^Karul describes fill laid in by stages, and capped with big flat ^stones. [act:plain][tune:fall]That one looks ^intentional. [p:0.93][act:the landing, even][tune:rise]So, hands or ^hillside? [act:weighing it, light][tune:fall]At Göbekli itself, the hillside is now the ^favourite."
+     ],
+     "shots": [
+      {
+       "id": "s26",
+       "say": "For about twenty years, the story was that when an enclosure went out of use, people buried it on purpose, and fast. A ritual burial. It even fed a popular claim: that the site was buried to hide it.",
+       "draw": "Iso of one enclosure. Small figures tip baskets of rubble into it and it fills quickly (fx fill, 2 s); the whole scene is outlined in dotted lilac (style claimed), label 'ritual burial?'. On the last sentence a dotted lilac padlock settles over the mound.",
+       "reuse": "gobekli shot 7 (the dotted padlock over the hill)"
+      },
+      {
+       "id": "s27",
+       "say": "Then the excavators went back through their own records. In 2020, the team under Lee Clare argued that most of the fill had slid in from higher ground, older and younger debris mixed.",
+       "draw": "A stack of field notebooks and trench plans; the top one opens (pop) and a page turns into a section of the slope: higher knolls upslope, the sunken enclosure below. A tongue of debris slides down (arrows, fx draw) and pours into the enclosure; the debris is two colours (older brown, younger grey) that mix as they settle."
+      },
+      {
+       "id": "s28",
+       "say": "Slope slides, perhaps after heavy rain or earthquakes, damaged the buildings, and people shored them up with terrace walls and repairs.",
+       "draw": "Rain lines fall, a small shake mark; one pillar tilts a few degrees. Then figures build a terrace wall upslope (fx rise) and set a prop against the pillar, which steadies (Kinzel, Clare & Sönmez 2020)."
+      },
+      {
+       "id": "s29",
+       "say": "But at Karahan Tepe, a sister site to the east, the excavator Necmi Karul describes fill laid in by stages, and capped with big flat stones. That one looks intentional.",
+       "draw": "Small regional map first: Göbekli Tepe (37.223 N, 38.922 E) and Karahan Tepe (37.093 N, 39.304 E) as two pins with a thread between them; no distance label (published figures differ: 46 km, 60 km; about 37 km in a straight line from these coordinates). Then a section of a Karahan Tepe building: fill goes in by stages (three layers, fx fill one after another), and large flat capping slabs drop on top (pop), one labelled '2.65 x 1.65 m' (Karul 2021)."
+      },
+      {
+       "id": "s30",
+       "say": "So, hands or hillside? At Göbekli itself, the hillside is now the favourite.",
+       "draw": "A balance: left pan a basket and a hand, labelled 'hands'; right pan a slope with sliding stones, labelled 'hillside'. The beam tips gently towards 'hillside' and stops short of the floor (not settled). Small label 'Göbekli Tepe'."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Survivors of a lost world?",
+   "beats": [
+    {
+     "role": "collision",
+     "lines": [
+      "[d:calm][act:presenting it fairly, even]Now the boldest ^idea. [p:0.93][act:laying it out, measured]The writer Graham ^Hancock points to the ^timing. [act:the backdrop, graver]About twelve thousand nine hundred years ago, the warming world lurched back into the ^cold, the Younger ^Dryas, for some twelve centuries. [act:storytelling, a touch of grandeur][tune:fall]Soon after it ended, Göbekli Tepe ^rises.",
+      "[d:build][act:his case, fair and vivid]Something this ambitious, he argues, is no first ^attempt. [p:0.93][act:the claim, measured]Survivors of a lost Ice Age civilisation, ruined by a ^comet, may have passed their knowledge to local ^hunters. [act:conceding, generous][tune:fall]And the Ice Age coasts, where such people might have lived, now lie under the ^sea."
+     ],
+     "shots": [
+      {
+       "id": "s31",
+       "say": "Now the boldest idea. The writer Graham Hancock points to the timing.",
+       "draw": "A closed book silhouette opens (pop) onto a timeline from 14,000 to 9,000 years ago; label 'Hancock's timeline'.",
+       "reuse": "lost-civilization shot 1 (Hancock's timeline with the Younger Dryas band)"
+      },
+      {
+       "id": "s32",
+       "say": "About twelve thousand nine hundred years ago, the warming world lurched back into the cold, the Younger Dryas, for some twelve centuries. Soon after it ended, Göbekli Tepe rises.",
+       "draw": "A temperature curve draws itself along the timeline: warming, then a sharp drop at 12,900 years ago, a cold trough to about 11,700, then a rise; the trough shaded blue 'Younger Dryas'. A gold T-pillar tick pops just after the trough, 'Göbekli Tepe, c. 11,500 years ago'.",
+       "reuse": "sky-fell (the thermometer of the past plunging into the Younger Dryas)"
+      },
+      {
+       "id": "s33",
+       "say": "Something this ambitious, he argues, is no first attempt. Survivors of a lost Ice Age civilisation, ruined by a comet, may have passed their knowledge to local hunters.",
+       "draw": "All dotted lilac (style claimed): a city outline, a comet streak hitting it, a glow; small figures walk from the ruin to a group of hunters at a fire; a T-pillar rises beside the hunters.",
+       "reuse": "lost-civilization, the 'idea' scene in lost_civ_m"
+      },
+      {
+       "id": "s34",
+       "say": "And the Ice Age coasts, where such people might have lived, now lie under the sea.",
+       "draw": "Coast in section: an old shoreline with dotted (claimed) houses; the sea level line rises by about 120 m (scale bar) and covers them (fx fill, blue).",
+       "reuse": "lost-civilization, the 'drown' scene in lost_civ_m (sea rising over the coast)"
+      }
+     ]
+    },
+    {
+     "role": "cost",
+     "lines": [
+      "[d:build][p:0.93][act:curious, the test][tune:rise]So how would we ^test it? [act:an everyday picture, warm]A visiting master cook leaves traces in your kitchen: a new pan, a spice from far ^away. [act:the expectation, clear][tune:fall]So we'd look for something with no local ^roots: a technique, a tool, a crop.",
+      "[d:calm][act:reporting the finds, plain][tune:level]What the ground shows has local ^roots. [act:same rhythm][tune:level]Limestone from the plateau next ^door. [act:same rhythm][tune:level]Tools of the region's own Stone Age ^kinds. [act:the last item, landing][tune:fall]Carvings of the animals that roamed these very ^hills."
+     ],
+     "shots": [
+      {
+       "id": "s35",
+       "say": "So how would we test it? A visiting master cook leaves traces in your kitchen: a new pan, a spice from far away. So we'd look for something with no local roots: a technique, a tool, a crop.",
+       "draw": "A simple kitchen: a cook figure walks in from the right, leaves a new pan on the table and a spice jar; a dotted line runs from the jar off to a far-away point at the frame edge. On 'So we'd look', three empty dashed boxes in blue (style inferred) pop in a row beside the kitchen, labelled 'technique', 'tool', 'crop': the test.",
+       "reuse": "lost-civilization, the 'minds' scene in lost_civ_m (empty test boxes)"
+      },
+      {
+       "id": "s36",
+       "say": "What the ground shows has local roots. Limestone from the plateau next door. Tools of the region's own Stone Age kinds. Carvings of the animals that roamed these very hills.",
+       "draw": "Iso of the plateau with the enclosures: a short arrow from the quarry to an enclosure ('limestone'); a cluster of flint point icons inside a dashed outline of the region ('regional tools'); fox, boar and crane silhouettes on the surrounding hills ('local animals'). Each item gets a green tick as it is named; the three blue test boxes from s35 stay empty in a corner."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][sfx:hit][act:the turn, leaning in]And since {2015|twenty fifteen}, the dig has turned up something ^else. [act:counting the finds, delighted][tune:level]^Homes. [act:same rhythm][tune:level]Hearths, used@verb again and ^again. [act:same rhythm][tune:level]Beads of stone and ^bone. [act:gently, with care][tune:fall]A grave beneath one floor, holding the remains of at least three ^people.",
+      "[d:build][p:0.93][act:explaining, a picture]There's no spring on the hill; the nearest is about five kilometres ^away. [act:the solution, admiring]So people cut channels in the rock, feeding cisterns that together could hold about a hundred and fifty cubic metres of ^rain. [act:an everyday picture, light][tune:fall]Nearly two thousand ^bathfuls.",
+      "[d:build][act:the kitchen, vivid]And more than seven ^thousand tools for grinding and pounding ^food. [p:0.93][act:explaining, clear]With no big stores found, the team argues the food was made to be eaten ^fresh, perhaps at great work ^feasts. [act:dry, a small smile][tune:fall]Feed a crowd, and the crowd hauls your ^pillars."
+     ],
+     "shots": [
+      {
+       "id": "s37",
+       "say": "And since 2015, the dig has turned up something else. Homes. Hearths, used again and again. Beads of stone and bone.",
+       "draw": "Plan of a cluster of small round-oval houses packed wall to wall (agglutinative), beside a larger round building (Clare 2020). A hearth glows in an open area, with three thin hearth layers stacking one above another in a small section inset; beads pop (stone and bone, two colours)."
+      },
+      {
+       "id": "s38",
+       "say": "A grave beneath one floor, holding the remains of at least three people.",
+       "draw": "A rectangular house plan; beneath its floor a kidney-shaped burial pit outline draws itself in soft bone colour, with three small dots of quiet light inside. No skeletons drawn. Label 'burial'."
+      },
+      {
+       "id": "s39",
+       "say": "There's no spring on the hill; the nearest is about five kilometres away.",
+       "draw": "Map of the ridge: Göbekli Tepe at the centre, a dashed circle of 5 km radius (scale bar 5 km); the nearest springs as blue dots on the circle to the north-east and south-east (Notroff 2017)."
+      },
+      {
+       "id": "s40",
+       "say": "So people cut channels in the rock, feeding cisterns that together could hold about a hundred and fifty cubic metres of rain. Nearly two thousand bathfuls.",
+       "draw": "Rock section: a carved channel drawn on the bedrock surface (fx draw) runs into a rock-cut cistern, which fills with blue (fx fill); label '150 cubic metres'. Then a grid of bathtub icons pops, each icon 100 bathfuls: 19 icons (153 cubic metres at 80 litres a bath is about 1,900 bathfuls)."
+      },
+      {
+       "id": "s41",
+       "say": "And more than seven thousand tools for grinding and pounding food. With no big stores found, the team argues the food was made to be eaten fresh, perhaps at great work feasts. Feed a crowd, and the crowd hauls your pillars.",
+       "draw": "A grid of grinding-stone icons pops row by row: 70 icons, each standing for 100 tools; label '7,000+'. Then an empty storeroom outline, struck through (dotted); a crowd of figures around a fire with food (glow); then the same crowd hauls a T-pillar on wooden rollers with ropes (people in a line, fx rise one by one)."
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:wonder][act:widening out, wonder]And Göbekli isn't ^alone. [p:0.93][act:the scale]About a dozen sites with T-shaped pillars dot these hills: the Stone ^Hills. [act:vivid, a little awed]At Karahan Tepe, people carved a room three and a half metres into the ^bedrock, leaving ten pillars standing out of the living ^rock, [act:the image, hushed][tune:fall]and a human ^head looking on from the wall.",
+      "[act:a second picture, intrigued]At another site, a carved ^scene: a man between two ^leopards. [p:0.93][act:the twist, landing it][tune:fall]No sign of a visiting cook, so ^far. [act:warm, the punch][tune:fall]Just a whole landscape of ^neighbours."
+     ],
+     "shots": [
+      {
+       "id": "s42",
+       "say": "And Göbekli isn't alone. About a dozen sites with T-shaped pillars dot these hills: the Stone Hills.",
+       "draw": "Regional map around Şanlıurfa (View about 38.3 to 40.0 E, 36.8 to 37.6 N): about a dozen small pins pop across the hills (at the published site locations; label only Göbekli Tepe and Karahan Tepe); a title label 'Taş Tepeler · the Stone Hills'."
+      },
+      {
+       "id": "s43",
+       "say": "At Karahan Tepe, people carved a room three and a half metres into the bedrock, leaving ten pillars standing out of the living rock, and a human head looking on from the wall.",
+       "draw": "Iso of Structure AB: a room about 7 x 6 m sunk 3.5 m into the bedrock (depth bar '3.5 m'); ten rounded pillars rise out of the rock floor (fx rise, one by one, all of one piece with the rock); on the opposite wall a carved human head emerges and glows faintly; a 1.7 m person at the rim for scale (Taş Tepeler project; Karul 2021)."
+      },
+      {
+       "id": "s44",
+       "say": "At another site, a carved scene: a man between two leopards.",
+       "draw": "Schematic relief on a long bench (about 3.7 m long, scale bar): a standing man in the middle, a leopard in profile on each side with open mouth and curled tail; further along, a second man beside a bull. Label 'Sayburç, 9th millennium BCE' (Özdoğan 2022)."
+      },
+      {
+       "id": "s45",
+       "say": "No sign of a visiting cook, so far. Just a whole landscape of neighbours.",
+       "draw": "Back to the regional map: green threads link the dozen pins; a small figure appears at each; the three blue test boxes (from s35) fade in a corner, still empty."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "A comet on the Vulture Stone?",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:quiet wonder, presenting it]Back in Enclosure D stands Pillar {43|forty-three}: the Vulture ^Stone. [act:pointing them out, one by one][tune:level]A great vulture, with a disc beside its ^wing. [act:same rhythm][tune:level]Smaller birds, a scorpion, a ^snake. [act:same rhythm][tune:level]Three boxes with handles along the ^top. [act:low, careful][tune:fall]And near the bottom, a man without a ^head."
+     ],
+     "shots": [
+      {
+       "id": "s46",
+       "say": "Back in Enclosure D stands Pillar 43, nicknamed the Vulture Stone.",
+       "draw": "The plan of Enclosure D again; the ring pillar in the north-west glows gold, labelled 'P43'; camera glides to its front face.",
+       "reuse": "alias of s11 (Enclosure D plan)"
+      },
+      {
+       "id": "s47",
+       "say": "A great vulture, with a disc beside its wing. Smaller birds, a scorpion, a snake. Three boxes with handles along the top. And near the bottom, a man without a head.",
+       "draw": "Schematic front of Pillar 43 (label 'schematic'): each carving draws itself as named: the vulture with a disc by its outstretched wing; smaller birds; a scorpion; a snake; three handled boxes along the top edge; near the bottom a headless figure in plain outline (no anatomical detail).",
+       "reuse": "gobekli shot 5 (the Vulture Stone, schematic); shared-symbols shot 2 for the handled boxes"
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:recounting a bold idea, fair]In {2017|twenty seventeen}, the chemical engineer Martin ^Sweatman and a colleague read@past this pillar as a ^star map. [act:their reading, vivid][tune:level]The animals are ^constellations; [act:completing it][tune:fall]the disc is the ^Sun.",
+      "[d:calm][p:0.93][act:explaining, a picture]The trick: the Earth wobbles slowly, like a spinning ^top, once in about twenty-six thousand ^years. [act:explaining, clear]So the stars behind the Sun on the longest day slowly ^change. [act:the method, neat][tune:fall]Match the carving to one sky, and you get a ^date.",
+      "[d:reveal][stamp:10,950 BCE ± 250|gold][p:0.9][act:their result, vivid]Their date: about ten thousand nine hundred and fifty ^BCE, give or take two hundred and fifty ^years. [act:the claim, intrigued]That's close@adj to a proposed ^comet strike at the start of the Younger ^Dryas. [act:their reading, grave][tune:fall]The headless man, they suggest, stands for ^death.",
+      "[d:build][act:building, fair][tune:level]In {2024|twenty twenty-four}, Sweatman went ^further. [p:0.93][act:explaining, precise]He counts the V-shaped marks on one pillar as ^days: three hundred and sixty-five, twelve Moon-months plus eleven ^more. [act:his claim, measured][tune:fall]A calendar of Sun and Moon, he argues, the oldest ^known."
+     ],
+     "shots": [
+      {
+       "id": "s48",
+       "say": "In 2017, the chemical engineer Martin Sweatman and a colleague read this pillar as a star map. The animals are constellations; the disc is the Sun.",
+       "draw": "Over the schematic pillar, stars fade in; each carved animal becomes a cluster of star points (glow), and dotted lilac lines join them into constellations (style claimed); the disc fills gold as a Sun.",
+       "reuse": "gobekli shot 5 (the carvings read as stars)"
+      },
+      {
+       "id": "s49",
+       "say": "The trick: the Earth wobbles slowly, like a spinning top, once in about twenty-six thousand years. So the stars behind the Sun on the longest day slowly change. Match the carving to one sky, and you get a date.",
+       "draw": "Left: Earth with its tilted axis (23 degrees); the axis tip traces a slow circle (fx draw, 2 s), label 'c. 26,000 years'; a spinning top beside it wobbles the same way. Right, on 'So the stars': a band of sky with constellation figures sliding slowly right to left behind a fixed Sun marker labelled 'longest day'; a dial turns back through the millennia and stops when the figures line up with the pillar's (dotted lilac).",
+       "reuse": "gobekli shot 5 (the Earth's wobble)"
+      },
+      {
+       "id": "s50",
+       "say": "Their date: about ten thousand nine hundred and fifty BCE, give or take two hundred and fifty years. That's close to a proposed comet strike at the start of the Younger Dryas. The headless man, they suggest, stands for death.",
+       "draw": "Time axis 11,500 to 9,000 BCE: a dotted lilac band from 11,200 to 10,700 BCE with a dot at 10,950 ('the claimed sky'); a comet streak drops onto the band; a blue tick 'Younger Dryas begins' at about 10,900 BCE. The headless figure's outline from s47 glows dimly at the side.",
+       "reuse": "gobekli shot 6 (the claimed sky, left half)"
+      },
+      {
+       "id": "s51",
+       "say": "In 2024, Sweatman went further. He counts the V-shaped marks on one pillar as days: three hundred and sixty-five, twelve Moon-months plus eleven more. A calendar of Sun and Moon, he argues, the oldest known.",
+       "draw": "Small V marks pop in twelve groups, a crescent Moon over each group (about 29.5 each), then 11 more Vs; a counter climbs to '365' (12 x 29.5 = 354, plus 11). Everything in lilac (claimed); small label 'Sweatman 2024'."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:the pushback, firm but fair]The excavators answered in the same journal, the same ^year. [p:0.9][act:the problem, plain][tune:fall]Their oldest date for Enclosure D, from its wall plaster, is seven hundred to a thousand years ^younger than that sky.",
+      "[d:aside][act:the other side, fair][tune:level]Sweatman's side calls the pillar a ^memorial, and a memorial can be carved long after the ^event. [act:conceding][tune:fall]Possible. [p:0.93][act:the logic, gentle][tune:fall]But then the building can't vouch for the ^date: [act:the consequence]everything rests on the star ^matching.",
+      "[d:build][p:0.93][act:the method problem, a picture]And star matching is ^flexible. [act:explaining, light]More than sixty pillars are known at the site, many of them carved: [act:the trap, a smile]pick a few, decide which animal is which star group, and patterns appear, like faces in ^clouds. [act:the overlooked detail, dry]And, they note, the headless man is carved with an erect ^phallus: [tune:fall]hardly a picture of ^death.",
+      "[d:calm][act:the bigger picture, careful][tune:level]Even the comet is in ^dispute. [p:0.93][act:reporting both sides, fair]A large review in {2023|twenty twenty-three} called the Younger Dryas impact idea ^refuted; [act:the other side, even]its supporters, Sweatman among them, have published a ^rebuttal. [act:one more doubt, explaining][tune:fall]And if the enclosures had ^roofs, as some of the evidence suggests, they made poor ^observatories.",
+      "[d:tension][p:0.93][act:the landing, quiet][tune:rise]A sky map with a date ^stamp? [act:plain, even][tune:fall]So far, the stamp and the stone disagree by ^centuries."
+     ],
+     "shots": [
+      {
+       "id": "s52",
+       "say": "The excavators answered in the same journal, the same year. Their oldest date for Enclosure D, from its wall plaster, is seven hundred to a thousand years younger than that sky.",
+       "draw": "The axis from s50 extends: the amber plaster band for Enclosure D (9745 to 9314 BCE) fills in; a small T-pillar stands on it ('pillar carved'). A bracket draws between the young edge of the lilac band (10,700) and the old edge of the amber band (9745), labelled '700 to 1,000 years' (Notroff et al. 2017).",
+       "reuse": "gobekli shot 6 (claimed sky against the radiocarbon date), relabelled '700 to 1,000 years' instead of '1,000+ years'"
+      },
+      {
+       "id": "s53",
+       "say": "Sweatman's side calls the pillar a memorial, and a memorial can be carved long after the event. Possible. But then the building can't vouch for the date: everything rests on the star matching.",
+       "draw": "A small event mark (a comet streak) at the left of the lilac band and a memorial stone at the right end of the amber band, a long dotted line between them. The amber band dims ('can't vouch') and an arrow points from the lilac band back to the star map of s48."
+      },
+      {
+       "id": "s54",
+       "say": "And star matching is flexible. More than sixty pillars are known at the site, many of them carved: pick a few, decide which animal is which star group, and patterns appear, like faces in clouds.",
+       "draw": "A grid of 60+ small pillar icons pops; a hand highlights three of them; dotted lines flicker between their animals and many different star groups; then a cloud drifts by that looks like a face."
+      },
+      {
+       "id": "s55",
+       "say": "And, they note, the headless man is carved with an erect phallus: hardly a picture of death.",
+       "draw": "The headless figure from s47 in plain outline, highlighted gold, with the label 'not lifeless' (no anatomical detail drawn; the point is made in words)."
+      },
+      {
+       "id": "s56",
+       "say": "Even the comet is in dispute. A large review in 2023 called the Younger Dryas impact idea refuted; its supporters, Sweatman among them, have published a rebuttal.",
+       "draw": "A balance with two stacks of papers: 'review, 2023' on one pan, 'rebuttal, 2024' on the other; the beam wobbles and does not settle; a faint comet streak above."
+      },
+      {
+       "id": "s57",
+       "say": "And if the enclosures had roofs, as some of the evidence suggests, they made poor observatories.",
+       "draw": "Iso of an enclosure under a starry sky; a dashed roof (style inferred) draws over it and the stars above it dim."
+      },
+      {
+       "id": "s58",
+       "say": "A sky map with a date stamp? So far, the stamp and the stone disagree by centuries.",
+       "draw": "Back to the timeline: the lilac band and the amber band with the gap between them pulsing softly; a gold question mark over the gap.",
+       "reuse": "alias of s52"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The weighing",
+   "beats": [
+    {
+     "role": "weigh",
+     "lines": [
+      "[d:verdict][p:0.95][act:taking stock, calm authority]Let's ^weigh it. [act:firm, plain][tune:level]Established: from about nine and a half thousand BCE, people here raised stone giants, without pottery, metal or farm ^animals. [act:steady][tune:level]Well documented: homes, hearths, cisterns, and a whole landscape of sister ^sites. [act:honest, open][tune:level]Still open: how many people lived here, and for how much of the ^year.",
+      "[act:honest, open][tune:level]Open too: what the figures meant, whether the enclosures had roofs, and how much of the burying was done by ^hand. [act:firm, even][tune:fall]And ruled out, as far as thirty years of digging can tell: farm herds, metal tools and ^writing.",
+      "[d:verdict][p:0.95][act:the bold claims, weighing them][tune:rise]A lost civilisation behind the ^giants? [act:even][tune:rise]A comet strike carved on the Vulture ^Stone? [act:the verdict, level-headed][tune:fall]*Awaiting ^evidence*. [act:fair, plain][tune:fall]Not ruled out. [act:same rhythm][tune:fall]Just not ^shown. [act:fair, warm][tune:level]Both make predictions we can test, and that's to their ^credit. [act:plain, even][tune:fall]So far, the spade and the clock haven't delivered ^them."
+     ],
+     "shots": [
+      {
+       "id": "s59",
+       "say": "Let's weigh it. Established: from about nine and a half thousand BCE, people here raised stone giants, without pottery, metal or farm animals. Well documented: homes, hearths, cisterns, and a whole landscape of sister sites. Still open: how many people lived here, and for how much of the year.",
+       "draw": "A ledger of three columns appears on the hill panel: 'established' (green), 'open' (blue), 'ruled out' (grey). Under 'established': a T-pillar icon, the tag 'c. 9500 BCE', and the pot, axe and sheep icons from s3, struck; then, as named, a round house, a hearth glow, a cistern, a small cluster of pins. Under 'open': a year wheel with a question mark and a few people icons with a question mark."
+      },
+      {
+       "id": "s60",
+       "say": "Open too: what the figures meant, whether the enclosures had roofs, and how much of the burying was done by hand. And ruled out, as far as thirty years of digging can tell: farm herds, metal tools and writing.",
+       "draw": "Under 'open': a pillar-figure icon with '?', a dashed roof with '?', the small hands-or-hillside balance from s30. Under 'ruled out': a herd, a metal axe and a tablet, each struck through in grey."
+      },
+      {
+       "id": "s61",
+       "say": "A lost civilisation behind the giants? A comet strike carved on the Vulture Stone? Awaiting evidence. Not ruled out. Just not shown. Both make predictions we can test, and that's to their credit. So far, the spade and the clock haven't delivered them.",
+       "draw": "Two dotted lilac cards slide onto a balance: a lost-city outline, and a comet over Pillar 43. The verdict chip 'Awaiting evidence' (the AWAIT colour) settles over the balance. On 'predictions we can test', the empty blue test boxes from s35 slide in beside the cards; on 'the spade and the clock', a small spade and a candle-clock icon sit under the empty boxes.",
+       "reuse": "gobekli shot 9 (the verdict on the hill)"
+      }
+     ]
+    },
+    {
+     "role": "test",
+     "lines": [
+      "[d:build][p:0.93][act:practical, clear][tune:rise]What would change our ^minds? [act:the first test][tune:level]A tool, a crop or a technique with no local roots, in the oldest ^layers. [act:the second test][tune:level]Charcoal sealed under the foot of a standing pillar, and ^dated: [act:the payoff, precise][tune:fall]if Enclosure D reached back to about eleven thousand BCE, the star map would gain real ^weight. [act:the third test][tune:fall]Or an impact layer of the right age that even its critics ^accept.",
+      "[d:calm][act:looking ahead, warm]And the spade isn't finished: about nine-tenths of the hill is still ^unexcavated. [act:fresh news, intrigued][tune:fall]Surveys@noun in {2025|twenty twenty-five} and {2026|twenty twenty-six} already report more buildings beyond the ^dig."
+     ],
+     "shots": [
+      {
+       "id": "s62",
+       "say": "What would change our minds? A tool, a crop or a technique with no local roots, in the oldest layers. Charcoal sealed under the foot of a standing pillar, and dated: if Enclosure D reached back to about eleven thousand BCE, the star map would gain real weight. Or an impact layer of the right age that even its critics accept.",
+       "draw": "Three test boxes in blue fill one by one as named. First: a section of the oldest layers with a small unfamiliar tool glowing in it. Second: a section under a pillar foot in its socket, a charcoal fleck glowing; a mini axis with a tick at 11,000 BCE. Third: a thin dark layer in a sediment column labelled 'impact layer?'.",
+       "reuse": "lost-civilization, the 'minds' scene in lost_civ_m"
+      },
+      {
+       "id": "s63",
+       "say": "And the spade isn't finished: about nine-tenths of the hill is still unexcavated. Surveys in 2025 and 2026 already report more buildings beyond the dig.",
+       "draw": "The hill as 100 squares, about 10 of them dug (amber). Geophysics scan lines sweep across the rest (fx draw) and reveal faint dashed rectangles and rings outside the dug area.",
+       "reuse": "gobekli shot 7 (the hill as a hundred squares)"
+      }
+     ]
+    },
+    {
+     "role": "close",
+     "lines": [
+      "[d:tension][p:0.93][act:quiet, full of promise][tune:level]Somewhere under that hill, more stone giants may still be ^standing. [act:hushed, the last words][tune:fall]Weigh it ^yourself."
+     ],
+     "shots": [
+      {
+       "id": "s64",
+       "say": "Somewhere under that hill, more stone giants may still be standing. Weigh it yourself.",
+       "draw": "The hill at night in cross-section: under the grass, faint dashed rings of T-pillars (style inferred) glow one after another; stars above; the camera holds as the end card arrives.",
+       "reuse": "gobekli shot 9 (nine-tenths waiting)"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "description": "About eleven and a half thousand years ago, on a hilltop in southeast Turkey, people with no pottery, no metal and no farm animals raised stone giants with arms, hands and belts. Who were they, how do we know when, and what were these rings of pillars for?\n\nWe weigh the two boldest claims about Göbekli Tepe, survivors of a lost Ice Age civilisation and a comet strike recorded on the Vulture Stone, against the excavation reports, the radiocarbon dates and the new finds from its sister sites in the Stone Hills. Verdict on the bold claims: Awaiting evidence.\n\nChapters\n0:00 Introduction\nmm:ss Giants on Potbelly Hill\nmm:ss Dating a hill of rubble\nmm:ss Survivors of a lost world?\nmm:ss A comet on the Vulture Stone?\nmm:ss The weighing\n\nSources\nSchmidt 2012, Göbekli Tepe: A Stone Age Sanctuary in South-Eastern Anatolia (ex oriente, Berlin)\nPeters & Schmidt 2004, Anthropozoologica 39(1): 179-218\nDietrich & Schmidt 2010, Neo-Lithics 2/10: 82-83 (radiocarbon date from the wall plaster of Enclosure D)\nDietrich, Heun, Notroff, Schmidt & Zarnkow 2012, Antiquity 86: 674-695, doi:10.1017/S0003598X00047840\nDietrich, Köksal-Schmidt, Notroff & Schmidt 2013, Neo-Lithics 1/13 (establishing a radiocarbon sequence for Göbekli Tepe)\nHerrmann & Schmidt 2012, in Klimscha et al. (eds), Wasserwirtschaftliche Innovationen im archäologischen Kontext (water at Göbekli Tepe)\nDietrich L., Meister, Dietrich O., Notroff, Kiep, Heeb, Beuger & Schütt 2019, PLOS ONE 14(5): e0215214, doi:10.1371/journal.pone.0215214\nClare 2020, e-Forschungsberichte des DAI 2020(2), doi:10.34780/efb.v0i2.1012\nKinzel, Clare & Sönmez 2020, Istanbuler Mitteilungen 70: 9-45, doi:10.34780/n42qpb15\nHaklay & Gopher 2020, Cambridge Archaeological Journal 30(2): 343-357, doi:10.1017/S0959774319000660\nKarul 2021, Türk Arkeoloji ve Etnografya Dergisi 82 (buried buildings at Pre-Pottery Neolithic Karahantepe)\nÖzdoğan 2022, Antiquity 96(390): 1599-1605, doi:10.15184/aqy.2022.125\nSweatman & Tsikritsis 2017, Mediterranean Archaeology and Archaeometry 17(1) (decoding Göbekli Tepe with archaeoastronomy)\nNotroff, Dietrich O., Clare, Dietrich L., Schlindwein, Kinzel, Lelek-Tvetmarken & Sönmez 2017, Mediterranean Archaeology and Archaeometry 17(2): 57-63 (More than a vulture)\nSweatman & Tsikritsis 2017, Mediterranean Archaeology and Archaeometry 17(2) (comment on More than a vulture)\nSweatman 2024, Time and Mind, doi:10.1080/1751696X.2024.2373876\nHolliday et al. 2023, Earth-Science Reviews 247: 104502, doi:10.1016/j.earscirev.2023.104502\nSweatman, Powell, West & Young 2024, Airbursts and Cratering Impacts 2(1) (rebuttal of Holliday et al.)\nHancock 2015, Magicians of the Gods (Coronet, London)\nDietrich O. 2016, The Tepe Telegrams (DAI Göbekli Tepe project blog): the site's rediscovery (2 June), the quarries (3 May), dating Göbekli Tepe (22 June)\nNotroff 2017, The Tepe Telegrams (DAI Göbekli Tepe project blog): a sanctuary, or so fair a house? (24 January); the response to Sweatman and Tsikritsis (21 April, 3 July)\nUniversity of Edinburgh 2017, press release on Sweatman & Tsikritsis (Pillar 43 as a memorial to a comet strike)\nTaş Tepeler project 2025, site descriptions of Göbeklitepe and Karahantepe (Şanlıurfa Neolithic Research Project)\nAustrian Archaeological Institute (ÖAW) 2025, Geoarchaeology at Göbeklitepe, project report (first fieldwork, September to October 2025)\nArchaeology (Archaeological Institute of America) news, 20 August 2026: dwellings detected near monuments at Göbekli Tepe (geophysical survey, Karul)",
+ "sources": [
+  "Schmidt 2012, Göbekli Tepe: A Stone Age Sanctuary in South-Eastern Anatolia (ex oriente, Berlin)",
+  "Peters & Schmidt 2004, Anthropozoologica 39(1): 179-218",
+  "Dietrich & Schmidt 2010, Neo-Lithics 2/10: 82-83 (radiocarbon date from the wall plaster of Enclosure D)",
+  "Dietrich, Heun, Notroff, Schmidt & Zarnkow 2012, Antiquity 86: 674-695, doi:10.1017/S0003598X00047840",
+  "Dietrich, Köksal-Schmidt, Notroff & Schmidt 2013, Neo-Lithics 1/13 (establishing a radiocarbon sequence for Göbekli Tepe)",
+  "Herrmann & Schmidt 2012, in Klimscha et al. (eds), Wasserwirtschaftliche Innovationen im archäologischen Kontext (water at Göbekli Tepe)",
+  "Dietrich L., Meister, Dietrich O., Notroff, Kiep, Heeb, Beuger & Schütt 2019, PLOS ONE 14(5): e0215214, doi:10.1371/journal.pone.0215214",
+  "Clare 2020, e-Forschungsberichte des DAI 2020(2), doi:10.34780/efb.v0i2.1012",
+  "Kinzel, Clare & Sönmez 2020, Istanbuler Mitteilungen 70: 9-45, doi:10.34780/n42qpb15",
+  "Haklay & Gopher 2020, Cambridge Archaeological Journal 30(2): 343-357, doi:10.1017/S0959774319000660",
+  "Karul 2021, Türk Arkeoloji ve Etnografya Dergisi 82 (buried buildings at Pre-Pottery Neolithic Karahantepe)",
+  "Özdoğan 2022, Antiquity 96(390): 1599-1605, doi:10.15184/aqy.2022.125",
+  "Sweatman & Tsikritsis 2017, Mediterranean Archaeology and Archaeometry 17(1) (decoding Göbekli Tepe with archaeoastronomy)",
+  "Notroff, Dietrich O., Clare, Dietrich L., Schlindwein, Kinzel, Lelek-Tvetmarken & Sönmez 2017, Mediterranean Archaeology and Archaeometry 17(2): 57-63 (More than a vulture)",
+  "Sweatman & Tsikritsis 2017, Mediterranean Archaeology and Archaeometry 17(2) (comment on More than a vulture)",
+  "Sweatman 2024, Time and Mind, doi:10.1080/1751696X.2024.2373876",
+  "Holliday et al. 2023, Earth-Science Reviews 247: 104502, doi:10.1016/j.earscirev.2023.104502",
+  "Sweatman, Powell, West & Young 2024, Airbursts and Cratering Impacts 2(1) (rebuttal of Holliday et al.)",
+  "Hancock 2015, Magicians of the Gods (Coronet, London)",
+  "Dietrich O. 2016, The Tepe Telegrams (DAI Göbekli Tepe project blog): the site's rediscovery (2 June), the quarries (3 May), dating Göbekli Tepe (22 June)",
+  "Notroff 2017, The Tepe Telegrams (DAI Göbekli Tepe project blog): a sanctuary, or so fair a house? (24 January); the response to Sweatman and Tsikritsis (21 April, 3 July)",
+  "University of Edinburgh 2017, press release on Sweatman & Tsikritsis (Pillar 43 as a memorial to a comet strike)",
+  "Taş Tepeler project 2025, site descriptions of Göbeklitepe and Karahantepe (Şanlıurfa Neolithic Research Project)",
+  "Austrian Archaeological Institute (ÖAW) 2025, Geoarchaeology at Göbeklitepe, project report (first fieldwork, September to October 2025)",
+  "Archaeology (Archaeological Institute of America) news, 20 August 2026: dwellings detected near monuments at Göbekli Tepe (geophysical survey, Karul)",
+  "DAI Göbekli Tepe archive 2019, The Tepe Telegrams (description of Pillar 18, 28 January 2019)",
+  "Residual Continuum facts base: the Short 'gobekli' (lg_a.py), 'lost-civilization' (f04.py) and the case pages 'Göbekli Tepe' (Wonders), 'The First Monuments' and the Göbekli Tepe long read",
+  "Map coordinates: Wikipedia articles 'Göbekli Tepe' and 'Karahan Tepe' (coordinates and the two published distances only)"
+ ],
+ "facts_added": [
+  {
+   "fact": "In 1963 a survey by the Universities of Istanbul and Chicago noted the mound and its slabs but took them for graves of a much later period; in October 1994 Klaus Schmidt recognised the head of a T-shaped pillar of the Nevalı Çori type; excavation began in 1995 (DAI with the Şanlıurfa Museum).",
+   "source": "Dietrich O. 2016, The Tepe Telegrams (rediscovery post, quoting Schmidt 2006)"
+  },
+  {
+   "fact": "The name means roughly Potbelly Hill (Hill of the Navel); the mound is about 300 m across, 15 m high and covers about 9 ha.",
+   "source": "Residual Continuum facts base (case page Wonders: Göbekli Tepe, DAI figures); Taş Tepeler project site description (9 ha)"
+  },
+  {
+   "fact": "The monumental buildings are round to oval, around 20 m in diameter, with pillars up to 5.5 m high; later rectangular buildings are smaller.",
+   "source": "Dietrich L. et al. 2019, PLOS ONE, doi:10.1371/journal.pone.0215214"
+  },
+  {
+   "fact": "Enclosure D is the best preserved; eleven pillars stand in its ring wall around the two central pillars (P18 and P31), which are about 5.5 m tall.",
+   "source": "Residual Continuum facts base (case page), after Haklay & Gopher 2020, Cambridge Archaeological Journal, doi:10.1017/S0959774319000660; Dietrich et al. 2012, Antiquity"
+  },
+  {
+   "fact": "Pillar 18 shows an arm bent at the elbow, two hands resting on the stomach, a belt and a loincloth on the front, and appears to carry a fox under its arm.",
+   "source": "DAI Göbekli Tepe archive, The Tepe Telegrams (28 January 2019); Dietrich et al. 2012, Antiquity (hands, decorated belts and a loincloth)"
+  },
+  {
+   "fact": "The T-pillars seem to represent stylised human-like beings, the horizontal part the head and the shaft the body.",
+   "source": "Peters & Schmidt 2004, Anthropozoologica 39(1)"
+  },
+  {
+   "fact": "Among carved animals, snakes are most frequent (about 28%), then foxes (about 15%), boars (about 9%) and cranes (about 6%); vultures and scorpions also occur.",
+   "source": "Peters & Schmidt 2004, Anthropozoologica 39(1), figures as given in the Residual Continuum facts base (Göbekli Tepe long read)"
+  },
+  {
+   "fact": "Pillars were quarried on the plateau: flint picks (and possibly wooden tools) cut channels around the shape, and wooden beams and wedges most probably lifted it out at a natural fault line. An unfinished pillar 7 m long and 1.5 m thick, estimated at around 50 t, was abandoned, perhaps because a crack or flaw appeared.",
+   "source": "Dietrich O. 2016, The Tepe Telegrams (quarries post, 3 May 2016)"
+  },
+  {
+   "fact": "The animals most often represented in the bones are gazelle, aurochs (wild cattle) and Asian wild ass, a range typical of hunters; no domesticated animals are indicated.",
+   "source": "Dietrich et al. 2012, Antiquity, doi:10.1017/S0003598X00047840; Peters & Schmidt 2004"
+  },
+  {
+   "fact": "Organic remains from the fill can be older or younger than the enclosures, with younger samples deposited at lower depths (an inverse stratigraphy).",
+   "source": "Dietrich et al. 2013, Neo-Lithics 1/13; Dietrich O. 2016, The Tepe Telegrams (dating post)"
+  },
+  {
+   "fact": "Wall plaster from Enclosure D (KIA-44149) gave 9984 ± 42 BP, 9745 to 9314 cal BC at 95.4%.",
+   "source": "Dietrich & Schmidt 2010, Neo-Lithics 2/10"
+  },
+  {
+   "fact": "The site dates to about 9500 to 8000 cal BC; dates on mud-mortar residues are more homogeneous than fill dates; round-oval buildings were in some cases remodelled to rectangular, the two types overlap, and some multi-phase buildings stayed in use more than five centuries.",
+   "source": "Clare 2020, e-Forschungsberichte des DAI, doi:10.34780/efb.v0i2.1012"
+  },
+  {
+   "fact": "The earlier interpretation was rapid, intentional backfilling of the enclosures after use.",
+   "source": "Dietrich et al. 2012, Antiquity (p. 675)"
+  },
+  {
+   "fact": "A re-evaluation of two decades of records suggests the enclosures were inundated by displaced deposits from higher knolls and slopes, explaining mixed PPNA and PPNB material and heterogeneous dates.",
+   "source": "Clare 2020, e-Forschungsberichte des DAI"
+  },
+  {
+   "fact": "Slope slides, possibly triggered by heavy rainfall or seismic activity, damaged the buildings; the builders added slope stabilisation and a terrace wall.",
+   "source": "Kinzel, Clare & Sönmez 2020, Istanbuler Mitteilungen 70, doi:10.34780/n42qpb15"
+  },
+  {
+   "fact": "At Karahan Tepe the fill went in by stages and was capped with large flat stones (one about 2.65 x 1.65 m), which looks intentional.",
+   "source": "Karul 2021, Türk Arkeoloji ve Etnografya Dergisi 82, as summarised in the Residual Continuum facts base (not read directly)"
+  },
+  {
+   "fact": "Hancock argues Göbekli Tepe is too sophisticated to be a first attempt and that survivors of a lost Ice Age civilisation destroyed around 12,900 years ago passed on knowledge to hunter-gatherers.",
+   "source": "Hancock 2015, Magicians of the Gods; Residual Continuum facts base (lost-civilization Short, case pages)"
+  },
+  {
+   "fact": "Excavation from 2015 to 2019 found round-oval structures packed together around an activity area with a sequence of hearths and stone and bone bead production, and a sub-floor burial in a rectangular building with the disturbed remains of at least three individuals.",
+   "source": "Clare 2020, e-Forschungsberichte des DAI"
+  },
+  {
+   "fact": "The nearest accessible springs are about 5 km away; rock-cut pits that may have served as rainwater cisterns had a combined capacity of about 153 cubic metres; a carved, slab-covered bedrock channel was part of an on-site water system.",
+   "source": "Notroff 2017, The Tepe Telegrams, citing Herrmann & Schmidt 2012; Clare 2020"
+  },
+  {
+   "fact": "More than 7,000 food-processing artefacts (grinding slabs and bowls, handstones, pestles, mortars) were analysed; with no large storage facilities found, the authors argue for food made for immediate use at large work feasts.",
+   "source": "Dietrich L. et al. 2019, PLOS ONE"
+  },
+  {
+   "fact": "The Taş Tepeler (Stone Hills) programme covers about a dozen Pre-Pottery Neolithic sites in the Şanlıurfa region, including Göbeklitepe, Karahantepe, Gürcütepe, Sayburç, Çakmaktepe, Harbetsuvan, Sefertepe and Yeni Mahalle.",
+   "source": "Austrian Archaeological Institute (ÖAW) 2025; Taş Tepeler project"
+  },
+  {
+   "fact": "Karahan Tepe Structure AB measures about 7 x 6 m and is cut 3.5 m into the bedrock, with a human head carved from the bedrock on one wall and ten pillars left in place.",
+   "source": "Taş Tepeler project site description (Karahantepe); Karul 2021"
+  },
+  {
+   "fact": "At Sayburç, a bench relief about 3.7 m long in an 11 m rock-cut building shows a man flanked by two leopards and a second man beside a bull; ninth millennium BC.",
+   "source": "Özdoğan 2022, Antiquity, doi:10.15184/aqy.2022.125"
+  },
+  {
+   "fact": "Pillar 43 in Enclosure D carries a vulture with a disc by its wing, smaller birds, a scorpion, a snake, three handled objects along the top and a headless man with an erect phallus.",
+   "source": "Schmidt 2012; Notroff et al. 2017; Residual Continuum facts base (case page)"
+  },
+  {
+   "fact": "Sweatman (a chemical engineer at Edinburgh) and Tsikritsis read the animals as astronomical symbols, matched them to star patterns with software, read the disc as the Sun, dated the scene to 10,950 BC ± 250 and called the pillar a memorial to a comet strike; the headless man may indicate loss of life.",
+   "source": "Sweatman & Tsikritsis 2017, Mediterranean Archaeology and Archaeometry 17(1); University of Edinburgh press release 2017"
+  },
+  {
+   "fact": "Precession: the Earth's axis wobbles like a top, one full circle in about 25,800 years (said as about twenty-six thousand).",
+   "source": "Standard astronomical value (Residual Continuum facts base, case page The Great Year: 1 degree in 71.6 years, 25,772 years)"
+  },
+  {
+   "fact": "Sweatman 2024 counts V-shaped marks on a pillar as days: 365, as 12 lunar months plus 11 days, with the summer solstice marked, and calls it a lunisolar calendar, the earliest known; the paper also covers Karahan Tepe.",
+   "source": "Sweatman 2024, Time and Mind, doi:10.1080/1751696X.2024.2373876"
+  },
+  {
+   "fact": "The excavators replied in the same journal in 2017: 10,950 BC ± 250 is 700 to 1,000 years older than the oldest radiocarbon date for Enclosure D (from organic material in wall plaster); more than 60 T-pillars are known and the selection looks arbitrary; prehistoric hunters need not have seen the same constellations; the headless man's emphasised phallus contradicts a lifeless reading; the enclosures may have been roofed, limiting their use as observatories.",
+   "source": "Notroff et al. 2017, Mediterranean Archaeology and Archaeometry 17(2): 57-63; Notroff 2017, The Tepe Telegrams"
+  },
+  {
+   "fact": "A 2023 review by a large team called the Younger Dryas impact hypothesis refuted; its proponents, Sweatman among them, published a rebuttal in 2024.",
+   "source": "Holliday et al. 2023, Earth-Science Reviews, doi:10.1016/j.earscirev.2023.104502; Sweatman, Powell, West & Young 2024, Airbursts and Cratering Impacts 2(1)"
+  },
+  {
+   "fact": "Fieldwork in September and October 2025 found new architectural structures outside the excavated areas; in August 2026 a geophysical survey was reported to show several large buildings near the enclosures whose layouts suggest dwellings.",
+   "source": "ÖAW 2025 project report; Archaeology (AIA) news, 20 August 2026, citing IFL Science (press reports, not yet peer reviewed)"
+  },
+  {
+   "fact": "About 153 cubic metres of water is about 1,900 baths of 80 litres (said: nearly two thousand bathfuls).",
+   "source": "Arithmetic on Herrmann & Schmidt 2012"
+  },
+  {
+   "fact": "Map positions: Göbekli Tepe 37.223 N, 38.922 E; Karahan Tepe 37.093 N, 39.304 E (about 37 km apart in a straight line; published distances of 46 km and 60 km differ, so no distance is said or labelled).",
+   "source": "Map coordinates: Wikipedia articles Göbekli Tepe and Karahan Tepe (coordinates and the two published distances)"
+  }
+ ],
+ "names": [
+  {
+   "name": "Göbekli Tepe",
+   "say": "guh-BECK-lee TEP-eh (LEX has göbekli and tepe)"
+  },
+  {
+   "name": "Sanliurfa",
+   "say": "SHAHN-luh-OOR-fah (LEX has sanliurfa)"
+  },
+  {
+   "name": "Karahan Tepe",
+   "say": "kah-rah-HAHN TEP-eh (LEX has karahan)"
+  },
+  {
+   "name": "Klaus Schmidt",
+   "say": "KLOWSS SHMIT"
+  },
+  {
+   "name": "Lee Clare",
+   "say": "LEE CLAIR"
+  },
+  {
+   "name": "Necmi Karul",
+   "say": "NEJ-mee kah-ROOL"
+  },
+  {
+   "name": "Graham Hancock",
+   "say": "GRAY-um HAN-kock"
+  },
+  {
+   "name": "Martin Sweatman",
+   "say": "MAR-tin SWET-mun"
+  },
+  {
+   "name": "Younger Dryas",
+   "say": "YUNG-ger DRY-us (LEX has dryas)"
+  },
+  {
+   "name": "Potbelly",
+   "say": "POT-belly"
+  },
+  {
+   "name": "BCE",
+   "say": "bee see ee (as in the Shorts)"
+  }
+ ],
+ "words": 1603
+}
