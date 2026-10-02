@@ -1,0 +1,745 @@
+{
+ "id": "lf-piri-reis",
+ "kind": "case",
+ "series": "Unreadable",
+ "title": "The Piri Reis Map: Antarctica Before the Ice?",
+ "intro_title": "The Piri Reis Map: Antarctica Before the Ice?",
+ "yt_title": "The Piri Reis Map: Did It Show Antarctica Before the Ice?",
+ "verdict": "Ruled out",
+ "verdict_scope": "that the 1513 map shows the coast of Antarctica free of ice (graded Ruled out, the Short's verdict); in the weighing, the map's making in 1513 from about twenty sources is graded Established, its debt to a lost chart by Columbus Strong evidence, and what the southern coast was drawn from Open question",
+ "hook": "Antarctica, drawn before the ice?",
+ "end_line": "No coast before the ice. A lost chart by Columbus, kept alive in part.",
+ "structure_note": "chapters[0] is the cold open and the title beat (no chapter card; YouTube chapter 0:00). Chapters 1 to 5 are the story chapters; 'The weighing' carries the verdict, the test and the close. Shot ids s1..sN are in story order; 'alias of sN' means a return to that panel.",
+ "chapters": [
+  {
+   "title": "Cold open",
+   "card": false,
+   "beats": [
+    {
+     "role": "hook",
+     "lines": [
+      "[d:intrigue][sfx:boom][act:hushed wonder, painting it]A map on gazelle ^skin, signed in {1513|fifteen thirteen} by a future admiral of the Ottoman ^Empire. [act:pointing, lower][tune:fall]Down its left side runs the coast of South ^America. [p:0.93][act:intrigued, slower][tune:fall]Then, along the bottom, that coast turns, and runs on to the ^east.",
+      "[d:tension][act:the claim, wide-eyed][tune:rise]Some say this southern coast is ^Antarctica, the frozen continent at the South ^Pole, drawn as it looked before the ^ice. [act:the child's question, leaning in][tune:rise]But how could a map from {1513|fifteen thirteen} show a land that, as far as we know, nobody would see for another three hundred ^years?"
+     ],
+     "shots": [
+      {
+       "id": "s1",
+       "say": "A map on gazelle skin, signed in 1513 by a future admiral of the Ottoman Empire. Down its left side runs the coast of South America. Then, along the bottom, that coast turns, and runs on to the east.",
+       "draw": "HERO IMAGE, fully drawn from the first frame. A dark museum case, warm lamp light from above left, a soft shadow under the parchment. The surviving fragment of the 1513 map stands upright at the right of the frame (about x 850..1350, y 116..806): a portrait gazelle skin, warm tan, darker at its edges, one corner (bottom left) naturally rounded, its right edge torn where the rest of the world is lost. Drawn in ink on it, as people know it: the coasts of Spain and West Africa down the right; the Caribbean islands at top left, Hispaniola large and upright; the coast of South America down the left with mountains, rivers and a few small animals; the Atlantic in the middle with two great compass roses whose thin red, green and black lines of bearing radiate across the skin; small ships; the whale of Saint Brendan with a fire on its back; blocks of red and black script (Piri's notes). Labels sit in the dark to the left of the skin, each with a thin leader: on 'gazelle skin', the italic label 'gazelle skin' and then a gold chip '1513'; on 'Down its left side', the South American coast traces itself in gold (label 'South America'); on 'along the bottom, that coast turns', the southern coast traces in lilac and glows (label 'the southern coast'). The top left of the frame stays dark for the hook title."
+      },
+      {
+       "id": "s2",
+       "say": "Some say this southern coast is Antarctica, the frozen continent at the South Pole, drawn as it looked before the ice.",
+       "draw": "Same panel (alias of s1). In the dark space at left, a ghostly outline of Antarctica seen from above the South Pole draws itself in lilac dots (the claimed style), with its larger islands; a small 'South Pole' point at its centre; a lilac dotted arrow arcs from the map's southern coast to it; labels 'Antarctica?' (serif, above) and 'before the ice?' (italic, below).",
+       "reuse": "alias of s1"
+      },
+      {
+       "id": "s3",
+       "say": "But how could a map from 1513 show a land that, as far as we know, nobody would see for another three hundred years?",
+       "draw": "Dark panel with a few stars. A timeline 1500 to 1850 draws itself (ticks 1500, 1600, 1700, 1800). At 1513 a small gold parchment icon pops (label '1513, the map'); at 1820 a small ice-blue ship pops (label '1820, first seen'). A bracket draws between them with 'about 300 years'; a large lilac question mark pops above the bracket."
+      }
+     ]
+    },
+    {
+     "role": "title",
+     "lines": [
+      "[d:calm][act:warm, setting out]The Piri Reis map: Antarctica before the ^ice?"
+     ],
+     "shots": [
+      {
+       "id": "s4",
+       "say": "The Piri Reis map: Antarctica before the ice?",
+       "draw": "intro_title card 'The Piri Reis Map: Antarctica Before the Ice?' over the dimmed s3 panel. Nothing else drawn."
+      }
+     ]
+    }
+   ],
+   "words": 94
+  },
+  {
+   "title": "The admiral and his book",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:setting the scene, warm]First, meet the sailor who drew ^it. [act:storytelling]Piri ^Reis was born around {1470|fourteen seventy}, probably in ^Gallipoli, the Ottoman navy's great base on the ^Dardanelles. [p:0.93][act:the life, vivid]From about {1481|fourteen eighty-one}, he sailed with his uncle, Kemal ^Reis, a famous corsair who fought for the ^sultan.",
+      "[act:brisk, the adventure]Together they fought Venetian fleets and raided the coasts of ^Spain. [act:the turn, quieter][tune:fall]Then, in {1511|fifteen eleven}, his uncle was lost in a storm at ^sea."
+     ],
+     "shots": [
+      {
+       "id": "s5",
+       "say": "Piri Reis was born around 1470, probably in Gallipoli, the Ottoman navy's great base on the Dardanelles.",
+       "draw": "Map View(22, 31, 37.4, 42.4): the northern Aegean, the Sea of Marmara and the Dardanelles. On 'Dardanelles', the strait glows as a gold channel (label 'Dardanelles'); on 'Gallipoli', a gold pin 'Gallipoli' at its head with a small galley beside it; a grey dot 'Istanbul'; italic 'Aegean Sea'; chip 'born about 1470'; a 50 km scale bar."
+      },
+      {
+       "id": "s6",
+       "say": "From about 1481, he sailed with his uncle, Kemal Reis, a famous corsair who fought for the sultan.",
+       "draw": "Dusk at sea (sky base, water, a low sun): a long galley with a lateen sail and a row of oars; on its stern two figures in kaftans and turbans, a tall older captain (label 'Kemal Reis') and a younger man (label 'young Piri'); chip 'from about 1481'."
+      },
+      {
+       "id": "s7",
+       "say": "Together they fought Venetian fleets and raided the coasts of Spain. Then, in 1511, his uncle was lost in a storm at sea.",
+       "draw": "Map of the Mediterranean, View(-10, 36.5, 30, 46.8), with Gallipoli marked in gold and the italic 'Mediterranean Sea': a dashed amber route draws from Gallipoli to the Ionian coast of Greece (crossed swords, label 'Venetian fleets, 1499'), then west to the coast of Spain (a small flame, label 'coasts of Spain, 1501'); on 'storm', a storm cloud with rain pops near Samos in the Aegean with a faint galley under it (label '1511: a storm', red)."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:the change, gentle]Piri went home to Gallipoli, and began to ^draw. [p:0.93][act:explaining, admiring]His great work is the Kitab-i ^Bahriye, the Book of the ^Sea: a sailor's guide to the whole ^Mediterranean.",
+      "[act:the tour, a picture]It sets off from the Dardanelles and goes all the way round, coast by coast, with a chart for each ^stretch. [act:listing, a picture][tune:level]It notes the harbours and the fresh ^water, [tune:fall]and marks every danger, with dots for shallows and crosses for hidden ^rocks.",
+      "[p:0.9][act:the numbers, savouring them]Its second version, from {1526|fifteen twenty-six}, holds two hundred and ten ^charts. [act:the punchline, delighted][tune:fall]More than forty copies survive, with over five thousand seven hundred maps between ^them."
+     ],
+     "shots": [
+      {
+       "id": "s8",
+       "say": "Piri went home to Gallipoli, and began to draw. His great work is the Kitab-i Bahriye, the Book of the Sea: a sailor's guide to the whole Mediterranean.",
+       "draw": "A lamp-lit desk: an open manuscript book. The left page carries lines of flowing script (dark ink, a red heading line); the right page a coastal chart: a coastline, a little castle, a small compass rose, dots and crosses along the shore. A reed pen beside it. Labels 'Kitab-ı Bahriye' (serif, gold) and 'Book of the Sea' (italic)."
+      },
+      {
+       "id": "s9",
+       "say": "It sets off from the Dardanelles and goes all the way round, coast by coast, with a chart for each stretch.",
+       "draw": "Map of the Mediterranean (same View as s7, a fresh panel): a gold pin 'start' at the Dardanelles; an amber route draws itself counter-clockwise all the way round the sea, hugging the coasts (Aegean, Adriatic, Italy, France, Spain, North Africa, Egypt, the Levant, Anatolia); small parchment tiles pop along it as it passes (one chart per stretch); label 'all the way round'."
+      },
+      {
+       "id": "s10",
+       "say": "It notes the harbours and the fresh water, and marks every danger, with dots for shallows and crosses for hidden rocks.",
+       "draw": "Close on one chart, drawn large on parchment: a bay with a harbour (a moored ship and an anchor sign), a spring with blue water marks, rows of small dots off a point (shallows) and small crosses on a reef (hidden rocks); labels pop in the order said: 'harbour', 'fresh water', 'shallows', 'hidden rocks'."
+      },
+      {
+       "id": "s11",
+       "say": "Its second version, from 1526, holds two hundred and ten charts. More than forty copies survive, with over five thousand seven hundred maps between them.",
+       "draw": "A dark library: a big book lying open at left with a chip '1526: 210 charts'; then a shelf fills with 44 manuscript spines popping in one by one (label '40+ copies'); above the shelf, 57 small parchment tiles pop in two rows (small note '1 tile: 100 maps') under the gold label '5,700+ maps'."
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:aside][act:a smile, the landing]A practical sailor all his life: at around eighty, he was still at sea, as admiral of the Ottoman fleet in the Indian ^Ocean. [act:leaning in][tune:fall]But his first great work, begun around {1511|fifteen eleven}, was a map of the whole ^world."
+     ],
+     "shots": [
+      {
+       "id": "s12",
+       "say": "A practical sailor all his life: at around eighty, he was still at sea, as admiral of the Ottoman fleet in the Indian Ocean.",
+       "draw": "Map View(30, 62, 10, 32): the Red Sea, Arabia and the Gulf. A dashed amber route draws from Suez down the Red Sea to Aden and on round Arabia, past Muscat, to Hormuz (dots and labels 'Suez', 'Aden', 'Hormuz'); five small galleys sail along it; a larger galley in the Red Sea carries the gold label 'Piri Reis, around 80'; italic 'Indian Ocean'; chip '1547 to 1552'."
+      },
+      {
+       "id": "s13",
+       "say": "But his first great work, begun around 1511, was a map of the whole world.",
+       "draw": "Night interior in Gallipoli: Piri, in a turban, seated at a slanted desk under an oil lamp; on the desk a gazelle skin lying at a slant with the first coasts of the map; on the wall behind, twenty small charts pinned in a fan (the leftmost a lilac dashed outline, for the lost Columbus chart), faint gold threads running from them to the skin; chip 'begun about 1511'."
+      }
+     ]
+    }
+   ],
+   "words": 204
+  },
+  {
+   "title": "Twenty charts and Columbus",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:storytelling, unhurried]He finished it in {1513|fifteen thirteen}, on gazelle ^skin. [act:the gift]Four years later, after the Ottomans took Egypt, he presented it to Sultan ^Selim. [act:a sigh][tune:fall]Then the map vanished for four ^centuries.",
+      "[d:build][act:the find, delighted]In {1929|nineteen twenty-nine}, as Topkapi Palace in Istanbul was being turned into a ^museum, its director found it in a forgotten ^bundle. [act:a small sigh][tune:fall]Only a piece survives: the western third, with the ^Atlantic."
+     ],
+     "shots": [
+      {
+       "id": "s14",
+       "say": "Four years later, after the Ottomans took Egypt, he presented it to Sultan Selim. Then the map vanished for four centuries.",
+       "draw": "Timeline 1500 to 1950 (ticks 1500, 1600, 1700, 1800, 1900): from the first frame, a gold dot at 1513 with a tiny map above it (label '1513, finished'); on 'Four years later', a gold dot at 1517 (label '1517, to Sultan Selim'); on 'vanished', a lilac dashed band runs from 1517 to 1929 (label 'lost for four centuries'), ending at a grey dot '1929'."
+      },
+      {
+       "id": "s15",
+       "say": "In 1929, as Topkapi Palace in Istanbul was being turned into a museum, its director found it in a forgotten bundle.",
+       "draw": "A palace library at night: an arched window with a crescent moon, three shelves of bound books, an oil lamp hanging over a low table with a bundle of papers tied with cord; label 'Topkapı Palace, 1929' (serif, gold); on 'its director', a man in a suit stands at the right, arms folded; on 'forgotten bundle', the map rises out of the bundle in a glow of lamp light."
+      },
+      {
+       "id": "s16",
+       "say": "Only a piece survives: the western third, with the Atlantic.",
+       "draw": "The whole world map as it once was, in outline: a long lilac dashed frame three times the width of the surviving piece, with the label 'lost' in its right two thirds; at its left, the surviving third, drawn in full on its skin; on 'the western third', a gold frame draws round it (label 'what survives'); on 'Atlantic', the italic label 'the Atlantic' on its ocean."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[p:0.93][act:delighted, the good part]And here's the treasure inside the treasure: notes in Piri's own words, written on the map ^itself. [act:explaining, a picture]He lists his sources, like the references at the end of a school ^essay.",
+      "[act:counting them off, bright][tune:level]About twenty charts and maps of the world, some from the days of ^Alexander, he says. [act:counting on][tune:level]An Arab map of ^India, four new ^Portuguese maps, [tune:fall]and a map of the western lands, drawn by ^Columbus.",
+      "[act:a smile, an aside]He mixed in old wonders too: far out in the ocean, a ship's crew lights a fire on the back of a whale they took for an ^island."
+     ],
+     "shots": [
+      {
+       "id": "s17",
+       "say": "And here's the treasure inside the treasure: notes in Piri's own words, written on the map itself. He lists his sources, like the references at the end of a school essay.",
+       "draw": "Left: a large close view of the parchment with blocks of Ottoman script in black and red, which glow one after another (label 'his notes'). Right: a lined school exercise page with the heading 'References' and five numbered lines that write themselves; a thin amber arrow from the notes to the page."
+      },
+      {
+       "id": "s18",
+       "say": "About twenty charts and maps of the world, some from the days of Alexander, he says. An Arab map of India, four new Portuguese maps, and a map of the western lands, drawn by Columbus.",
+       "draw": "The sources fan: twenty small charts pop in an arc above a small copy of the map at the bottom centre, each tied to it by a thin dotted line (label 'about 20 charts'). As named: eight of them take a gold rim ('Alexander's day'); one turns amber ('Arab map of India'); four turn copper ('4 Portuguese maps'); the last, at the far left, pops as a lilac dashed outline, lost ('Columbus (lost)')."
+      },
+      {
+       "id": "s19",
+       "say": "He mixed in old wonders too: far out in the ocean, a ship's crew lights a fire on the back of a whale they took for an island.",
+       "draw": "The hero map again on a fresh panel (a copy of s1 without the earlier marks), the camera close on the middle of the ocean: the small vignette of Saint Brendan, a ship beside a whale with a fire on its back; on 'whale', the fire glows and flickers; label 'Saint Brendan's whale'.",
+       "reuse": "copy of s1: the hero map on a fresh panel, without the earlier marks"
+      }
+     ],
+     "reuse": "piri_reis_m() in f12.py: the 'sources' arc of twenty boxes converging on the map, redrawn wide"
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:intrigued, a question][tune:rise]How does@verb an Ottoman captain get hold of a map by ^Columbus? [act:the story, vivid]Another note explains: his uncle had captured a Spanish sailor, who said he had sailed to those lands with Columbus three ^times.",
+      "[p:0.93][act:the fingerprints, delighted]And the map carries Columbus's ^fingerprints. [act:counting, bright][tune:level]Hispaniola is huge and stands on ^end: Columbus took it for ^Japan. [act:counting on][tune:level]Cuba is drawn as a ^coast: he was sure it was part of ^Asia. [act:the clincher, delighted][tune:fall]And one place name, ^Ornofay, recorded by Columbus, appears on no other surviving ^map.",
+      "[act:the scholar's verdict, warm]The historian Gregory ^McIntosh, who translated every note on the map, traced these clues to Columbus's second voyage, from {1493|fourteen ninety-three} to {1496|fourteen ninety-six}."
+     ],
+     "shots": [
+      {
+       "id": "s20",
+       "say": "How does an Ottoman captain get hold of a map by Columbus? Another note explains: his uncle had captured a Spanish sailor, who said he had sailed to those lands with Columbus three times.",
+       "draw": "Map of the Atlantic, View(-88, 30, 5, 47), italic 'Atlantic Ocean': three dashed lilac arcs, numbered 1, 2, 3, cross from Spain to Hispaniola (label 'three voyages with Columbus'); a small figure on the Spanish coast (label 'a Spanish sailor'); a galley off Spain (label 'Kemal Reis') and an amber arrow from it to the sailor (label 'captured')."
+      },
+      {
+       "id": "s21",
+       "say": "And the map carries Columbus's fingerprints. Hispaniola is huge and stands on end: Columbus took it for Japan. Cuba is drawn as a coast: he was sure it was part of Asia. And one place name, Ornofay, recorded by Columbus, appears on no other surviving map.",
+       "draw": "Two Caribbeans side by side. Left, Piri's (on parchment, schematic after the map, caption 'Piri, 1513'): a huge upright Hispaniola, a long mainland coast to its west (Cuba as Asia), small coloured islands. Right, today's map in a window, View(-86, -64, 16, 25) (caption 'today'). As said: Hispaniola glows gold on both (labels 'Hispaniola' and 'Japan?'), then Cuba and Piri's mainland coast (labels 'Cuba' and 'part of Asia?'), then a gold pin on Piri's coast ('Ornofay')."
+      },
+      {
+       "id": "s22",
+       "say": "The historian Gregory McIntosh, who translated every note on the map, traced these clues to Columbus's second voyage, from 1493 to 1496.",
+       "draw": "Timeline 1490 to 1505 with Columbus's four voyages as four grey arcs ('1st', '2nd', '3rd', '4th'); at top right a small open book, McIntosh's study; on 'second voyage', the second arc lights gold (label 'McIntosh: the second voyage'), and a chip '1493 to 1496' pops beneath it."
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:aside][act:the landing, warm][tune:fall]Columbus's own chart is ^lost. [act:a smile][tune:fall]This map holds the only known copy of it, in ^part."
+     ],
+     "shots": [
+      {
+       "id": "s23",
+       "say": "Columbus's own chart is lost. This map holds the only known copy of it, in part.",
+       "draw": "An empty frame in lilac dashes at left with a large '?' (label 'Columbus's chart: lost'); a gold arrow from it to the map at right, whose Caribbean corner is outlined and glows gold (label 'the only known copy')."
+      }
+     ]
+    }
+   ],
+   "words": 276
+  },
+  {
+   "title": "A coast under the ice?",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:storytelling, fair]Now, the claim, and how it ^began. [act:the origin, intrigued]In {1956|nineteen fifty-six}, on a radio panel at Georgetown University, an engineer and navigator who studied old maps, Arlington ^Mallery, made a startling ^suggestion. [p:0.93][act:the claim, at its strongest][tune:fall]That bottom coast, he said, was ^Antarctica: the stretch south of Africa called Queen Maud ^Land, mapped before the ^ice.",
+      "[act:the professor, warm]A history professor in New Hampshire, Charles ^Hapgood, took the idea up, and set his students to work on the ^map."
+     ],
+     "shots": [
+      {
+       "id": "s24",
+       "say": "In 1956, on a radio panel at Georgetown University, an engineer and navigator who studied old maps, Arlington Mallery, made a startling suggestion.",
+       "draw": "A 1950s radio panel: three figures behind a long table with three microphones; a radio mast at the right with a red light, sending arcs of radio waves; label 'Georgetown radio, 1956' (serif) above; on 'Arlington Mallery', the middle figure is lit (label 'Arlington Mallery'); on 'startling suggestion', a gold question mark pops above him."
+      },
+      {
+       "id": "s25",
+       "say": "That bottom coast, he said, was Antarctica: the stretch south of Africa called Queen Maud Land, mapped before the ice.",
+       "draw": "Antarctica from above the South Pole (azimuthal map of the real coasts, the ice white), southern Africa at the top, the tip of South America at upper left (labels 'Africa', 'South America', 'South Pole'): on 'Queen Maud Land', its coast traces in gold (label 'Queen Maud Land'); at top right, a small copy of the 1513 map with its southern coast in lilac; a lilac dotted arrow from that coast to Queen Maud Land (label 'the claim')."
+      },
+      {
+       "id": "s26",
+       "say": "A history professor in New Hampshire, Charles Hapgood, took the idea up, and set his students to work on the map.",
+       "draw": "A classroom: a blackboard with the map's outline in chalk and a grid of dashed chalk lines beside it; a man in a suit stands at the right, pointing at the board (label 'Charles Hapgood'); on 'students', four students appear at desks in front; caption 'Keene State College'."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:the letter, building]Then, in July {1960|nineteen sixty}, a letter arrived from a United States Air Force mapping ^unit. [p:0.93][act:reporting it, careful]Its commander, Lieutenant Colonel Harold ^Ohlmeyer, wrote that the lower coast agreed remarkably well with a profile of the rock beneath the ice, measured by an expedition in {1949|nineteen forty-nine}.",
+      "[act:his conclusion, slower][tune:fall]The coast, he wrote, had been mapped before the ice covered ^it. [act:a little awed][tune:fall]The ice there, he added, is about a mile ^thick."
+     ],
+     "shots": [
+      {
+       "id": "s27",
+       "say": "Then, in July 1960, a letter arrived from a United States Air Force mapping unit. Its commander, Lieutenant Colonel Harold Ohlmeyer, wrote that the lower coast agreed remarkably well with a profile of the rock beneath the ice, measured by an expedition in 1949.",
+       "draw": "A typed letter on a dark desk under a lamp: a round seal and letterhead, the date '6 July 1960', eleven rows of typed lines, a signature; label 'US Air Force, 1960'; on 'Its commander', label 'Lt Col Harold Ohlmeyer' with a leader to the signature; on 'agreed remarkably well', one typed line is highlighted in gold."
+      },
+      {
+       "id": "s28",
+       "say": "The coast, he wrote, had been mapped before the ice covered it. The ice there, he added, is about a mile thick.",
+       "draw": "Cross-section of the coast of Queen Maud Land: the sea at left (label 'sea'), a floating ice shelf, the ice sheet rising inland over a jagged rock bed (label 'rock'); a blue dotted line traces the rock (label 'seismic profile, 1949'); a small copy of the 1513 map at top left, its southern coast in lilac, and a lilac dotted arrow from it to the rock (label 'mapped before the ice?'); on 'about a mile', a gold dimension line down through the ice (label 'about a mile')."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:build][act:the book, steady]In {1966|nineteen sixty-six}, Hapgood published Maps of the Ancient Sea ^Kings. [p:0.93][act:the big idea, at its strongest]His theory: Piri's oldest sources were copies of charts drawn in the Ice Age by a lost seafaring people, who had mapped the whole world, Antarctica ^included.",
+      "[act:fair, the hard parts]He even faced the awkward ^bits. [p:0.93][act:explaining, clear]On his reading, the map leaves out about fourteen hundred kilometres of South America's coast, and the open sea south of it, the Drake ^Passage. [act:his answer][tune:fall]Slips, he argued, made as old maps were copied and ^joined."
+     ],
+     "shots": [
+      {
+       "id": "s29",
+       "say": "In 1966, Hapgood published Maps of the Ancient Sea Kings. His theory: Piri's oldest sources were copies of charts drawn in the Ice Age by a lost seafaring people, who had mapped the whole world, Antarctica included.",
+       "draw": "A book standing in lamplight (cover 'Maps of the Ancient Sea Kings', chip '1966'); at left, in lilac dots (claimed), a ghost globe with three ancient ships sailing round it and a chain of four copied charts, each a little smaller, leading towards the book; on 'Antarctica included', a small Antarctica pops on the globe; label 'a lost seafaring people?'."
+      },
+      {
+       "id": "s30",
+       "say": "He even faced the awkward bits. On his reading, the map leaves out about fourteen hundred kilometres of South America's coast, and the open sea south of it, the Drake Passage. Slips, he argued, made as old maps were copied and joined.",
+       "draw": "Real geography, View(-84, -24, -70, 6), clipped above the bottom band: South America and the tip of the Antarctic Peninsula (labels 'South America', 'Antarctica'); caption 'Hapgood's explanations'. On 'fourteen hundred kilometres', a red dashed line marks off a stretch of the east coast (about 26 to 37 degrees south), with scissors (label '1,400 km left out?'); on 'Drake Passage', the Drake Passage is outlined in red dashes (label 'Drake Passage left out?')."
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:aside][act:light, matter of fact]In {1995|nineteen ninety-five}, the writer Graham ^Hancock opened his bestseller, Fingerprints of the Gods, with that Air Force ^letter. [act:the landing][tune:fall]The coast under the ice has been famous ever ^since."
+     ],
+     "shots": [
+      {
+       "id": "s31",
+       "say": "In 1995, the writer Graham Hancock opened his bestseller, Fingerprints of the Gods, with that Air Force letter. The coast under the ice has been famous ever since.",
+       "draw": "An open book in lamplight under its title 'Fingerprints of the Gods', chip '1995': the left page opens with a large '1' (chapter 1); on 'that Air Force letter', a small copy of the 1960 letter pops on the right page (label 'chapter 1: the letter'); behind, sixteen copies of the book pop in two rows in the dark (a bestseller)."
+      }
+     ]
+    }
+   ],
+   "words": 249
+  },
+  {
+   "title": "Why the coast bends",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:curious, let's look]So let's look at the map ^itself. [act:pointing][tune:fall]Its southern coast runs straight on from South ^America. [act:pointed, one by one][tune:level]No Drake ^Passage. [act:the clincher, firm][tune:fall]No eight hundred kilometres of open sea: roughly the distance from Paris to ^Barcelona."
+     ],
+     "shots": [
+      {
+       "id": "s32",
+       "say": "So let's look at the map itself. Its southern coast runs straight on from South America.",
+       "draw": "The hero map again on a fresh panel (a copy of s1 with its southern coast in lilac), the camera close on its bottom left corner: on 'runs straight on', the coast traces gold from South America round the corner and along the bottom without a break; label 'no gap' with a short pointer.",
+       "reuse": "copy of s1: the hero map on a fresh panel, without the earlier marks"
+      },
+      {
+       "id": "s33",
+       "say": "No Drake Passage. No eight hundred kilometres of open sea: roughly the distance from Paris to Barcelona.",
+       "draw": "Real geography, View(-96, -34, -66.5, -50.5): the tip of South America and the Antarctic Peninsula (labels 'Cape Horn', 'Antarctica'); on 'No Drake', the italic label 'Drake Passage'; on 'eight hundred', a gold dimension line 'about 800 km' across it; on 'Paris', an amber bar of the same length draws below, from 'Paris' to 'Barcelona'."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:the first clue, warm]Clue one: the ^skin. [p:0.93][act:explaining, a picture]As the historian Svat ^Soucek points out, Piri drew on the shoulder of a hide, which curves at one ^corner, [act:the habit][tune:fall]and mapmakers of the day often turned a coast to fit the space they ^had. [p:0.9][act:the everyday picture, warm]Like handwriting that runs out of page and turns down the ^margin.",
+      "[act:the second clue]Clue two: what people ^knew. [p:0.93][act:explaining]The last place on this map that scholars can firmly name is on the coast of Brazil, about twenty-five degrees south of the ^equator. [act:the consequence][tune:fall]Beyond it, Piri had only guesses and ^reports.",
+      "[act:the third clue]Clue three: ^fashion. [act:explaining]Since ancient times, geographers had imagined a great land in the far ^south. [act:the example][tune:fall]A Portuguese world map of {1519|fifteen nineteen} also bends the unknown tip of South America east, into that ^land."
+     ],
+     "shots": [
+      {
+       "id": "s34",
+       "say": "Clue one: the skin. As the historian Svat Soucek points out, Piri drew on the shoulder of a hide, which curves at one corner, and mapmakers of the day often turned a coast to fit the space they had. Like handwriting that runs out of page and turns down the margin.",
+       "draw": "Left: the whole hide of a gazelle laid flat (an animal-skin outline); on 'shoulder of a hide', the map's piece is outlined in gold on its shoulder (label 'a hide's shoulder'); on 'curves at one corner', the piece's rounded corner traces and glows; on 'turned a coast', a lilac coast runs down the piece's edge and turns along the curve (label 'turned to fit'). Right: a sheet of paper with five lines of script; on 'Like handwriting', a sixth line runs to the right edge and turns down the margin (label 'out of page')."
+      },
+      {
+       "id": "s35",
+       "say": "Clue two: what people knew. The last place on this map that scholars can firmly name is on the coast of Brazil, about twenty-five degrees south of the equator. Beyond it, Piri had only guesses and reports.",
+       "draw": "Map View(-76, -4, -44, 1): the real coast of Brazil, solid (italic 'Brazil'); on 'The last place', gold pins 'Cabo Frio' and 'Cananéia'; on 'twenty-five degrees', a gold dashed line across at 25 degrees south (label '25° S') and everything below it dims; then the map's coast (lilac dots) swings east from Cananéia across the sea (label 'guesses and reports')."
+      },
+      {
+       "id": "s36",
+       "say": "Clue three: fashion. Since ancient times, geographers had imagined a great land in the far south. A Portuguese world map of 1519 also bends the unknown tip of South America east, into that land.",
+       "draw": "A world map in the manner of the Portuguese atlas of 1519 (schematic): an oval frame with faint lines of bearing, the Americas at left, Europe, Africa and Asia in parchment tones (small labels 'Americas', 'Africa', 'Asia'). On 'great land', the label 'a great southern land' appears in the empty south of the oval; on '1519', a chip 'a Portuguese map, 1519'; on 'bends the unknown tip', the southern land draws itself round the label, from the tip of South America east to Asia, closing the ocean, then fills with hatching."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][sfx:hit][act:lean in, delighted]And then there's Piri's own ^note, written on that very ^coast. [act:reading it, careful]The land, he says, is barren, and said to be full of great ^snakes, [act:the clincher, a smile][tune:fall]so the Portuguese never landed there, and it's said to be very ^hot. [act:dry, amused][tune:fall]Not the first thing most people say about ^Antarctica."
+     ],
+     "shots": [
+      {
+       "id": "s37",
+       "say": "And then there's Piri's own note, written on that very coast. The land, he says, is barren, and said to be full of great snakes, so the Portuguese never landed there, and it's said to be very hot.",
+       "draw": "The hero map again on a fresh panel (a copy of s1 with its southern coast in lilac), close on the bottom right of the skin: on 'own note', a gold frame lights round a block of Piri's script on the southern coast; beside the map, three words pop as said: 'barren'; 'great snakes', with a green line to the small snake drawn on the map, which glows red; 'very hot', with a small sun.",
+       "reuse": "copy of s1: the hero map on a fresh panel, without the earlier marks"
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:aside][p:0.93][act:the method, fair][tune:rise]And Hapgood's missing coast and missing ^sea? [act:the analogy, warm][tune:fall]If you're allowed to trim any piece that doesn't fit, a jigsaw will match almost ^anything."
+     ],
+     "shots": [
+      {
+       "id": "s38",
+       "say": "And Hapgood's missing coast and missing sea? If you're allowed to trim any piece that doesn't fit, a jigsaw will match almost anything.",
+       "draw": "A jigsaw on a dark board, one piece missing; a loose piece too big for the hole sits above it; on 'trim any piece', a red dashed cut line draws on it and scissors appear beside it (label 'trim to fit?'); on 'will match', the trimmed piece sits in the hole and glows."
+      }
+     ]
+    }
+   ],
+   "words": 226
+  },
+  {
+   "title": "Beneath the ice",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:setting the scene, wonder]Now, let's sail south, to the real ^Antarctica. [act:storytelling]In January {1820|eighteen twenty}, two Russian ships under Fabian von ^Bellingshausen came within twenty miles of an unknown ^shore. [act:the twist, quiet][tune:fall]It was Queen Maud Land, the first part of Antarctica anyone is known to have ^seen. [act:slower, the picture][tune:fall]What they saw was ^ice."
+     ],
+     "shots": [
+      {
+       "id": "s39",
+       "say": "In January 1820, two Russian ships under Fabian von Bellingshausen came within twenty miles of an unknown shore. It was Queen Maud Land, the first part of Antarctica anyone is known to have seen. What they saw was ice.",
+       "draw": "Polar dusk at sea (sky base, water, a low sun): two three-masted ships under sail at the left (labels 'Vostok' and 'Mirny', small); on the horizon a long low white wall of ice across the frame; at top left a chip 'January 1820' and the label 'Bellingshausen'; label 'Queen Maud Land' above the wall; on 'What they saw was ice', the wall glows (label 'ice')."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:the scale, awed]That coast is a wall of ice, twenty to thirty metres high, and behind it, the ice climbs to a high ^plateau. [p:0.93][act:the question, curious][tune:rise]So what lies ^underneath? [act:explaining, a picture]We look with radar and with sound, sent down through the ice, the way an ultrasound scan looks inside a ^body.",
+      "[p:0.9][act:the number, steady]In {2013|twenty thirteen}, scientists brought twenty-five million such measurements together into one ^map. [act:what it shows, clear][tune:level]The ice is about two kilometres thick, on ^average. [act:the surprise][tune:fall]And almost half of the rock beneath it lies below sea ^level.",
+      "[p:0.93][act:the consequence, careful][tune:fall]So the edge of the ice today is not the edge of the ^rock. [act:the second twist]And freed of all that weight, the land would slowly rise, [act:the everyday picture, light][tune:fall]like a mattress when you get ^up."
+     ],
+     "shots": [
+      {
+       "id": "s40",
+       "say": "That coast is a wall of ice, twenty to thirty metres high, and behind it, the ice climbs to a high plateau. So what lies underneath? We look with radar and with sound, sent down through the ice, the way an ultrasound scan looks inside a body.",
+       "draw": "Cross-section of the margin of Queen Maud Land (schematic; note 'heights exaggerated'): the sea at left with a dashed 'sea level' line; a floating ice shelf ending in a cliff (labels 'ice wall' and '20 to 30 m high'); the ice sheet rising to the right to a plateau (label 'high plateau'); the rock bed below, part of it under sea level. On 'underneath', a lilac question mark in the rock; on 'radar', a figure with a sledge on the ice sends a fan of rays down to the rock (label 'radar and sound'); on 'ultrasound', a small inset at top left: a hand-held probe on a curved outline of skin, a little fan of waves beneath it (label 'like an ultrasound')."
+      },
+      {
+       "id": "s41",
+       "say": "In 2013, scientists brought twenty-five million such measurements together into one map. The ice is about two kilometres thick, on average. And almost half of the rock beneath it lies below sea level.",
+       "draw": "Left: Antarctica from above (azimuthal map of the real coast, the ice white), criss-crossed by thin blue survey lines that draw themselves (label '25 million measurements', chip 'Bedmap2, 2013'). Middle: on 'two kilometres', a column of ice to scale, about 2 km high (label 'about 2 km'), beside the Eiffel Tower. Right: a grid of 100 squares, the rock beneath (small label 'the rock beneath'); on 'almost half', 45 of them turn sea blue (label 'below sea level')."
+      },
+      {
+       "id": "s42",
+       "say": "So the edge of the ice today is not the edge of the rock. And freed of all that weight, the land would slowly rise, like a mattress when you get up.",
+       "draw": "The cross-section again on a fresh panel (the s40 section redrawn without its labels): on 'edge of the ice', a red marker at the ice cliff ('edge of the ice'); on 'edge of the rock', a gold marker well inland where the rock rises above the sea ('edge of the rock'); on 'freed of all', the ice becomes a dark ghost with dashed outlines and the sea floods the low rock behind the old ice edge; on 'slowly rise', a dashed amber line rises above the bed with small up arrows (label 'the land would rise').",
+       "reuse": "fresh copy of the s40 section"
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][p:0.93][act:the big question, curious][tune:rise]So when was this coast last free of ^ice? [act:the answer, firm][tune:fall]Not thousands of years ago. [act:the punch, quiet][tune:fall]^Millions.",
+      "[act:how we know, clear]In the heart of Queen Maud Land, a European team drilled more than two kilometres down into the ^ice. [p:0.9][act:explaining, a picture]Snow piles up year after year, like pages in a ^diary, [act:the number][tune:fall]and there, the pages run unbroken back a hundred and fifty thousand ^years.",
+      "[act:the deep record, steady]And mud on the ocean floor, where tiny shells record@verb how much of the world's water was locked up as ^ice, [act:the big number][tune:fall]says Antarctica has carried ice sheets for about thirty-four million ^years."
+     ],
+     "shots": [
+      {
+       "id": "s43",
+       "say": "So when was this coast last free of ice? Not thousands of years ago. Millions.",
+       "draw": "A long timeline of years ago on a log scale (ticks 100 to 100 million; a gold dot '1513'): on 'Not thousands', a lilac dashed bracket over 1,000 to 10,000 years ('thousands of years?') is struck through in red; on 'Millions', a broad ice-blue band lights from 1 million to 34 million years ago (label 'millions of years')."
+      },
+      {
+       "id": "s44",
+       "say": "In the heart of Queen Maud Land, a European team drilled more than two kilometres down into the ice. Snow piles up year after year, like pages in a diary, and there, the pages run unbroken back a hundred and fifty thousand years.",
+       "draw": "Cut-away of the ice at Kohnen station, rock at the bottom: a small red drill tent on the surface (label 'Kohnen station'); on 'drilled', a core fills down through the ice (depth ticks '1,000 m' and '2,000 m'); on 'pages in a diary', thin layers draw into it from the top, and at left a small open book pops (label 'pages in a diary'); on 'unbroken', a gold marker at 2,417 m (labels '150,000 years' and 'at 2,417 m') and the italic label 'unbroken'."
+      },
+      {
+       "id": "s45",
+       "say": "And mud on the ocean floor, where tiny shells record how much of the world's water was locked up as ice, says Antarctica has carried ice sheets for about thirty-four million years.",
+       "draw": "A sea-floor core lies across the bottom of the panel, its mud in bands (label 'sea-floor mud'); on 'tiny shells', a magnifier circle pops with two spiral shells inside (label 'tiny shells'); at right, a graph of ice through time (axis 60 to 0 million years ago): the curve draws from 'little ice' and steps up at 34, where a gold dashed line and the label 'ice sheets begin' appear on 'thirty-four million' (tick '34')."
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:aside][p:0.93][act:amused, a sense of scale]Stretch those thirty-four million years along a football ^pitch. [act:the punchline, playful][tune:fall]Our whole species fits in the last ^metre. [act:the second punchline, savouring it][tune:rise]And the five centuries since Piri drew his ^map? [act:tiny, delighted][tune:fall]About the thickness of a ^coin."
+     ],
+     "shots": [
+      {
+       "id": "s46",
+       "say": "Stretch those thirty-four million years along a football pitch. Our whole species fits in the last metre. And the five centuries since Piri drew his map? About the thickness of a coin.",
+       "draw": "A football pitch in side view, '0 m' to '100 m', goals at both ends: on 'football pitch', an ice-white bar draws along its whole length (label '34 million years'); on 'Our whole species', the last 0.9 m turns amber with a small standing person for scale, and a magnifier circle shows the last metre (labels 'the last metre', 'our species'); on 'thickness of a coin', a second magnifier shows a coin edge on, glowing gold (labels 'since 1513: 1.5 mm' and 'a coin, edge on')."
+      }
+     ]
+    }
+   ],
+   "words": 283
+  },
+  {
+   "title": "The weighing",
+   "beats": [
+    {
+     "role": "weigh",
+     "lines": [
+      "[d:verdict][act:calm, laying it out]So, let's ^weigh it. [act:steady authority][tune:level]Established: Piri Reis drew this map in {1513|fifteen thirteen}, from about twenty sources, and he told us ^so. [act:fair][tune:rise]That its Caribbean comes from a lost chart by ^Columbus? [act:the grade][tune:fall]*Strong ^evidence*: his notes say so, and the map carries Columbus's ideas and his place ^names.",
+      "[act:honest, careful][tune:rise]What exactly the southern coast was drawn from: a report, a guess, or a fashion of the ^age? [act:even][tune:fall]*Open ^question*.",
+      "[p:0.95][act:weighing it, calm][tune:rise]And Antarctica, drawn before the ^ice? [act:the verdict, firm][tune:fall]*Ruled ^out*. [act:the reasons, even][tune:fall]The coast runs on with no sea between, its maker heard it was hot, and the ice there is millions of years ^old."
+     ],
+     "shots": [
+      {
+       "id": "s47",
+       "say": "Established: Piri Reis drew this map in 1513, from about twenty sources, and he told us so. That its Caribbean comes from a lost chart by Columbus? Strong evidence: his notes say so, and the map carries Columbus's ideas and his place names.",
+       "draw": "A ledger in a dark frame fills row by row, each row a small pictogram, a short text and a grade chip that pops as the grade is said: row 1, a tiny copy of the map, '1513, from 20 sources', chip 'Established'; row 2, a lost chart in lilac dashes with an arrow to a parchment, 'a lost Columbus chart', chip 'Strong evidence'."
+      },
+      {
+       "id": "s48",
+       "say": "What exactly the southern coast was drawn from: a report, a guess, or a fashion of the age? Open question.",
+       "draw": "Row 3 (alias of s47): a parchment corner with a lilac coast, 'the southern coast's source', chip 'Open question'.",
+       "reuse": "alias of s47"
+      },
+      {
+       "id": "s49",
+       "say": "And Antarctica, drawn before the ice? Ruled out. The coast runs on with no sea between, its maker heard it was hot, and the ice there is millions of years old.",
+       "draw": "Row 4 (alias of s47): a small lilac Antarctica, 'Antarctica before the ice', chip 'Ruled out', the pictogram struck through in red; three reasons pop beneath it: 'no sea between', 'said to be hot', 'ice: millions of years'.",
+       "reuse": "alias of s47"
+      }
+     ]
+    },
+    {
+     "role": "test",
+     "lines": [
+      "[d:tension][act:open, genuinely curious][tune:fall]What would change our ^minds? [act:clear, practical][tune:level]A core of ice or sea-floor mud showing that this coast lay open to the sky in the last few thousand ^years. [act:building][tune:level]A chart older than {1513|fifteen thirteen} with that real coastline on ^it. [act:the hopeful one, warm][tune:fall]And for the Columbus part, his lost map turning up in an archive, the way this one did in {1929|nineteen twenty-nine}."
+     ],
+     "shots": [
+      {
+       "id": "s50",
+       "say": "What would change our minds? A core of ice or sea-floor mud showing that this coast lay open to the sky in the last few thousand years. A chart older than 1513 with that real coastline on it. And for the Columbus part, his lost map turning up in an archive, the way this one did in 1929.",
+       "draw": "Three dashed frames under the caption 'wanted', each item in lilac dashed outline, popping as named: a core with one band of open sky in it ('open sky, recently?'); an older chart with the real Antarctic coast drawn on it ('an older chart'); an archive shelf with a rolled chart tied with cord ('Columbus's lost map')."
+      }
+     ]
+    },
+    {
+     "role": "close",
+     "lines": [
+      "[d:tension][p:0.93][act:the last word, quiet wonder][tune:fall]The Piri Reis map doesn't show a world before the ^ice. [act:warmer, admiring][tune:fall]It shows a new world being pieced together by a great sailor, twenty charts at a time, and inside it, the only known copy, in part, of a lost chart by ^Columbus. [act:warm, inviting][tune:fall]Weigh it ^yourself."
+     ],
+     "shots": [
+      {
+       "id": "s51",
+       "say": "The Piri Reis map doesn't show a world before the ice. It shows a new world being pieced together by a great sailor, twenty charts at a time, and inside it, the only known copy, in part, of a lost chart by Columbus. Weigh it yourself.",
+       "draw": "The hero map again on a fresh panel (a copy of s1 with its southern coast in lilac), wide, in quiet lamp light: on 'pieced together', twenty faint gold dashed lines converge on it from the dark; on 'Columbus', its Caribbean corner is outlined and glows gold. Then the end card (verdict chip 'Ruled out', 'Weigh it yourself.', the end line).",
+       "reuse": "copy of s1: the hero map on a fresh panel, without the earlier marks"
+      }
+     ]
+    }
+   ],
+   "words": 205
+  }
+ ],
+ "description": "In 1929, in the library of Topkapı Palace in Istanbul, a piece of a world map turned up: drawn on gazelle skin in 1513 by the Ottoman admiral Piri Reis. Along its bottom edge, a coast runs east below South America. Is it Antarctica, mapped before the ice?\n\nWe meet Piri Reis and his Book of the Sea; read the notes in which he names his sources, about twenty charts and a lost map by Columbus; follow the Antarctica claim from a 1956 radio panel and a 1960 Air Force letter to Charles Hapgood's book; see why the coast bends; and look beneath the real ice of Queen Maud Land. Verdict: Ruled out for an ice-free Antarctica on the map. Strong evidence that the map keeps part of a lost chart by Columbus.\n\nChapters\n0:00 Cold open\nmm:ss The admiral and his book\nmm:ss Twenty charts and Columbus\nmm:ss A coast under the ice?\nmm:ss Why the coast bends\nmm:ss Beneath the ice\nmm:ss The weighing\n\nSources\nPiri Reis 1513 (919 AH), world map on gazelle-skin parchment, fragment, Topkapı Palace Museum Library, Istanbul; its notes as translated in McIntosh 2000 and in the appendix of Hapgood 1966\nMcIntosh, G. C. 2000, The Piri Reis Map of 1513 (University of Georgia Press)\nSoucek, S. 1992, Islamic Charting in the Mediterranean, in J. B. Harley & D. Woodward (eds), The History of Cartography, vol. 2, book 1 (University of Chicago Press), ch. 14, on Piri Reis pp. 266-277\nKahle, P. 1933, A Lost Map of Columbus, Geographical Review 23(4): 621-638, doi:10.2307/209247\nHapgood, C. H. 1966, Maps of the Ancient Sea Kings: Evidence of Advanced Civilization in the Ice Age (2nd ed. 1979, E. P. Dutton; reissued 1996, Adventures Unlimited Press, the edition consulted), with the letter of Lt Col H. Z. Ohlmeyer, 8th Reconnaissance Technical Squadron, Westover Air Force Base, 6 July 1960\nHancock, G. 1995, Fingerprints of the Gods (Crown), chapter 1, A Map of Hidden Places\nFretwell, P., Pritchard, H. D., Vaughan, D. G. et al. 2013, Bedmap2: improved ice bed, surface and thickness datasets for Antarctica, The Cryosphere 7(1): 375-393, doi:10.5194/tc-7-375-2013\nRuth, U., Barnola, J.-M., Beer, J. et al. 2007, EDML1: a chronology for the EPICA deep ice core from Dronning Maud Land, Antarctica, over the last 150 000 years, Climate of the Past 3(3): 475-484, doi:10.5194/cp-3-475-2007\nEPICA Community Members 2006, One-to-one coupling of glacial climate variability in Greenland and Antarctica, Nature 444: 195-198, doi:10.1038/nature05301\nDeConto, R. M. & Pollard, D. 2003, Rapid Cenozoic glaciation of Antarctica induced by declining atmospheric CO2, Nature 421: 245-249, doi:10.1038/nature01290\nHublin, J.-J., Ben-Ncer, A., Bailey, S. E. et al. 2017, New fossils from Jebel Irhoud, Morocco and the pan-African origin of Homo sapiens, Nature 546: 289-292, doi:10.1038/nature22336",
+ "sources": [
+  "Piri Reis 1513 (919 AH), world map on gazelle-skin parchment, fragment, Topkapı Palace Museum Library, Istanbul; its notes as translated in McIntosh 2000 and in the appendix of Hapgood 1966",
+  "McIntosh, G. C. 2000, The Piri Reis Map of 1513 (University of Georgia Press)",
+  "Soucek, S. 1992, Islamic Charting in the Mediterranean, in J. B. Harley & D. Woodward (eds), The History of Cartography, vol. 2, book 1 (University of Chicago Press), ch. 14, on Piri Reis pp. 266-277",
+  "Kahle, P. 1933, A Lost Map of Columbus, Geographical Review 23(4): 621-638, doi:10.2307/209247",
+  "Hapgood, C. H. 1966, Maps of the Ancient Sea Kings: Evidence of Advanced Civilization in the Ice Age (2nd ed. 1979, E. P. Dutton; reissued 1996, Adventures Unlimited Press, the edition consulted), with the letter of Lt Col H. Z. Ohlmeyer, 8th Reconnaissance Technical Squadron, Westover Air Force Base, 6 July 1960",
+  "Hancock, G. 1995, Fingerprints of the Gods (Crown), chapter 1, A Map of Hidden Places",
+  "Fretwell, P., Pritchard, H. D., Vaughan, D. G. et al. 2013, Bedmap2: improved ice bed, surface and thickness datasets for Antarctica, The Cryosphere 7(1): 375-393, doi:10.5194/tc-7-375-2013",
+  "Ruth, U., Barnola, J.-M., Beer, J. et al. 2007, EDML1: a chronology for the EPICA deep ice core from Dronning Maud Land, Antarctica, over the last 150 000 years, Climate of the Past 3(3): 475-484, doi:10.5194/cp-3-475-2007",
+  "EPICA Community Members 2006, One-to-one coupling of glacial climate variability in Greenland and Antarctica, Nature 444: 195-198, doi:10.1038/nature05301",
+  "DeConto, R. M. & Pollard, D. 2003, Rapid Cenozoic glaciation of Antarctica induced by declining atmospheric CO2, Nature 421: 245-249, doi:10.1038/nature01290",
+  "Hublin, J.-J., Ben-Ncer, A., Bailey, S. E. et al. 2017, New fossils from Jebel Irhoud, Morocco and the pan-African origin of Homo sapiens, Nature 546: 289-292, doi:10.1038/nature22336"
+ ],
+ "facts_added": [
+  {
+   "fact": "Piri Reis lived about 1470 to 1554 (875 to 961 AH); tradition places his birth at Gallipoli, then the Ottomans' main naval base. From about 1481 he sailed with his uncle Kemal Reis, a corsair in Ottoman service; after Kemal's death in 1511 he returned to Gallipoli and began his cartographic work.",
+   "source": "Soucek 1992, pp. 266-267; Wikipedia, 'Piri Reis' (born c. 1465-1470, Gelibolu)"
+  },
+  {
+   "fact": "With Kemal Reis he fought the Venetian fleet (Zonchio, 1499; Modon, 1500) and raided the coasts of Spain (1501); Kemal Reis drowned in a storm at sea in 1511.",
+   "source": "Wikipedia, 'Piri Reis' (citing Soucek and others)"
+  },
+  {
+   "fact": "The Kitab-ı Bahriye (Book of the Sea): a first version of 1521 with 130 chapters and charts, a second of 1526 with 210 charts; it tours the whole Mediterranean counter-clockwise, starting at Bozcaada (first version) or the Dardanelles fortresses (second); its charts mark shallows with small dots and submerged rocks with crosses.",
+   "source": "Soucek 1992, pp. 272-273, 277"
+  },
+  {
+   "fact": "More than 40 manuscript copies of the Kitab-ı Bahriye survive, with more than 5,700 maps between them.",
+   "source": "Wikipedia, 'Kitab-ı Bahriye' and 'Piri Reis' (citing Goodrich 2004, appendix 1)"
+  },
+  {
+   "fact": "The 1513 map was begun around 1511 and finished at Gallipoli, dated 919 AH (1513), on gazelle hide of about 90 x 63 cm (87 x 63 cm in another measurement); only its Atlantic part survives, about a third of the original world map. Piri was then a sea captain (reis); he became admiral of the Indian Ocean fleet only in 1547.",
+   "source": "Soucek 1992, pp. 269-270, 272; Wikipedia, 'Piri Reis map' (citing Van de Waal 1969; Soucek 1992, p. 272 for 1511) and 'Piri Reis'"
+  },
+  {
+   "fact": "Piri Reis presented the map to Sultan Selim I after the Ottoman conquest of Egypt in 1517; it then disappears from the record until 1929.",
+   "source": "Wikipedia, 'Piri Reis map' and 'Piri Reis'"
+  },
+  {
+   "fact": "In late 1929, while Topkapı Palace was being converted into a museum, its director Halil Edhem found the parchment in a disregarded bundle; Paul Kahle identified in it a copy of a lost map by Columbus.",
+   "source": "Wikipedia, 'Piri Reis map' (citing Gerber 2010, p. 199); Kahle 1933"
+  },
+  {
+   "fact": "Piri's notes name his sources: about twenty charts and mappae mundi, among them charts from the days of Alexander (eight 'Jaferiye', Ptolemaic maps), an Arab map of India, four new Portuguese maps, and a map of the western parts drawn by Columbus.",
+   "source": "Soucek 1992, p. 270; the translated notes in Hapgood 1966 (appendix); McIntosh 2000"
+  },
+  {
+   "fact": "A note on the map says Kemal Reis had captured a Spaniard who said he had been to those lands three times with Columbus; the Columbus material reached Piri this way.",
+   "source": "The translated notes in Hapgood 1966 (appendix); Soucek 1992, p. 270; Wikipedia, 'Piri Reis' (the capture, 1501)"
+  },
+  {
+   "fact": "Columbus's fingerprints on the map: Hispaniola drawn huge and north-south (Columbus identified it with Marco Polo's Japan); Cuba merged into a mainland coast (he believed it part of Asia); the name Ornofay, recorded by Columbus in Cuba, on no other map; McIntosh dates the Columbus source to the second voyage (1493-1496), not the third.",
+   "source": "McIntosh 2000 (pp. 95-96, 104-105, as cited in Wikipedia, 'Piri Reis map'); McIntosh 2014 and Pinto 2012 (as cited there); University of Georgia Press description of McIntosh 2000; Wikipedia, 'Voyages of Christopher Columbus'"
+  },
+  {
+   "fact": "The map holds the only known (partial) copy of Columbus's lost chart. (It is not the oldest surviving map of the Americas: Juan de la Cosa's map of 1500 and the Cantino planisphere of 1502 are older.)",
+   "source": "Wikipedia, 'Piri Reis map' (citing Gerber 2010, p. 199; McIntosh 2014, p. 367); Kahle 1933"
+  },
+  {
+   "fact": "Arlington H. Mallery, an engineer and navigator who studied old maps, proposed on a Georgetown University radio panel on 26 August 1956 that the southern coast was Queen Maud Land, Antarctica, mapped before the ice; Charles Hapgood took the idea up with his classes at Keene State College, New Hampshire.",
+   "source": "Hapgood 1966, ch. 1 and bibliography (1996 reissue, pp. 2, 17-18, 311)"
+  },
+  {
+   "fact": "On 6 July 1960, Lt Col Harold Z. Ohlmeyer, commander of the 8th Reconnaissance Technical Squadron (SAC), Westover Air Force Base, wrote to Hapgood that the lower part of the map agreed remarkably with the seismic profile made across the ice cap by the Norwegian-British-Swedish expedition of 1949, that the coast had been mapped before the ice covered it, and that the ice there is about a mile thick.",
+   "source": "The letter as reproduced in Hapgood 1966 (1996 reissue, pp. 258-259)"
+  },
+  {
+   "fact": "Hapgood's 1966 book argued that an unknown advanced civilisation mapped the world in the Ice Age and that its maps reached Piri Reis through later copies; he argued that about 900 miles (about 1,450 km) of South America's east coast and the Drake Passage were left out of the map when sources were joined.",
+   "source": "Hapgood 1966, ch. 1-3 (1996 reissue, pp. 85-98); Wikipedia, 'Charles Hapgood'"
+  },
+  {
+   "fact": "Graham Hancock's Fingerprints of the Gods (1995) opens, in chapter 1, 'A Map of Hidden Places', with Ohlmeyer's letter about the Piri Reis map.",
+   "source": "Hancock 1995, ch. 1"
+  },
+  {
+   "fact": "The Drake Passage between Cape Horn and the South Shetland Islands is about 800 km wide; the map shows no sea there.",
+   "source": "Wikipedia, 'Drake Passage'; the Short 'piri-reis'"
+  },
+  {
+   "fact": "The map is drawn on the shoulder of an animal hide, naturally curved in one corner; mapmakers of the time adjusted the orientation of a coast to fit the surface available (Soucek's example: a chart by Hajji Abu al-Hasan); Soucek calls the Antarctica reading one of the most improbable.",
+   "source": "Soucek 1992, pp. 271-272"
+  },
+  {
+   "fact": "The southernmost feature on the map that can be firmly identified is a stretch of Brazil's coast with Cabo Frio and probably Cananéia, about 25 degrees south.",
+   "source": "McIntosh 2000, pp. 36-38 (as cited in Wikipedia, 'Piri Reis map'); Morison 1971 (cited there)"
+  },
+  {
+   "fact": "The Portuguese Miller Atlas of 1519 (Lopo Homem, Pedro and Jorge Reinel) shows the ocean enclosed by the known continents and a New World joined to a southern unknown land, the unexplored tip of South America folding east.",
+   "source": "Wikipedia, 'Miller Atlas'; D. Cuoghi, The Mysteries of the Piri Reis Map (web essay)"
+  },
+  {
+   "fact": "Piri's note on the southern land says it is a wasteland where large snakes are said to live, so the Portuguese did not land there, and that it is said to be very hot; a small snake is drawn beside it.",
+   "source": "The translated notes in Hapgood 1966 (1996 reissue, p. 238); D. Cuoghi (web essay); Wikipedia, 'Piri Reis map' (the snakes, citing McIntosh 2000)"
+  },
+  {
+   "fact": "Queen Maud Land was the first part of Antarctica to be sighted: on 27 January 1820 Bellingshausen's ships Vostok and Mirny saw ice fields at about 69 degrees 21 minutes south, within twenty miles of the mainland.",
+   "source": "Wikipedia, 'Queen Maud Land' and 'Fabian Gottlieb von Bellingshausen' (citing A. G. E. Jones)"
+  },
+  {
+   "fact": "The coast of Queen Maud Land is a wall of ice 20 to 30 m high almost throughout; the territory's mean elevation is about 2,000 m.",
+   "source": "Wikipedia, 'Queen Maud Land'"
+  },
+  {
+   "fact": "Bedmap2 (2013) combined 25 million measurements of Antarctic ice thickness (radar and seismic): ice volume about 27 million cubic km; mean thickness of the grounded ice 2,126 m (1,937 m with the ice shelves); 44.7 percent of the grounded area has its bed below sea level.",
+   "source": "Fretwell et al. 2013"
+  },
+  {
+   "fact": "The EPICA ice core from Dronning (Queen) Maud Land, drilled at Kohnen station, holds a continuous record dated back to 150,000 years, reached at 2,417 m depth.",
+   "source": "Ruth et al. 2007; EPICA Community Members 2006"
+  },
+  {
+   "fact": "Antarctica glaciated at the Eocene-Oligocene boundary, about 34 million years ago; the East Antarctic Ice Sheet, which covers Queen Maud Land, has persisted since, with minimal retreat onto land in the past 8 million years.",
+   "source": "DeConto & Pollard 2003; Wikipedia, 'East Antarctic Ice Sheet' (citing Galeotti et al. 2016 and Shakun et al. 2018); the Short 'piri-reis'"
+  },
+  {
+   "fact": "Homo sapiens is about 300,000 years old (fossils from Jebel Irhoud, about 315,000 years).",
+   "source": "Hublin et al. 2017; the Short 'piri-reis'"
+  },
+  {
+   "fact": "On a 100 m pitch for 34 million years, 300,000 years is about 0.9 m and the 513 years since 1513 about 1.5 mm, roughly a coin's thickness.",
+   "source": "arithmetic"
+  },
+  {
+   "fact": "Ice presses down the rock beneath it; when it is removed, the land rises again (isostatic rebound), so the rock coast under today's ice is not the coast an ice-free Antarctica would have.",
+   "source": "Wikipedia, 'Antarctic ice sheet' (isostatic rebound of West Antarctica, citing Pan et al. 2021); Wikipedia, 'Piri Reis map' (P. Heinrich on rebound)"
+  }
+ ],
+ "names": [
+  {
+   "name": "Piri Reis",
+   "say": "PEE-ree RICE (in LEX)"
+  },
+  {
+   "name": "Kemal Reis",
+   "say": "keh-MAHL RICE"
+  },
+  {
+   "name": "Gallipoli",
+   "say": "guh-LIP-uh-lee"
+  },
+  {
+   "name": "Dardanelles",
+   "say": "dar-duh-NELZ"
+  },
+  {
+   "name": "Kitab-i Bahriye",
+   "say": "kee-TAHB-uh bah-ree-YEH"
+  },
+  {
+   "name": "Selim",
+   "say": "seh-LEEM"
+  },
+  {
+   "name": "Topkapi",
+   "say": "TOP-kah-puh"
+  },
+  {
+   "name": "Istanbul",
+   "say": "iss-tan-BOOL"
+  },
+  {
+   "name": "Hispaniola",
+   "say": "hiss-pan-YOH-luh"
+  },
+  {
+   "name": "Ornofay",
+   "say": "or-noh-FYE"
+  },
+  {
+   "name": "Gregory McIntosh",
+   "say": "MACK-in-tosh"
+  },
+  {
+   "name": "Arlington Mallery",
+   "say": "AR-ling-tun MAL-uh-ree"
+  },
+  {
+   "name": "Georgetown",
+   "say": "JORJ-town"
+  },
+  {
+   "name": "Charles Hapgood",
+   "say": "HAP-good"
+  },
+  {
+   "name": "Harold Ohlmeyer",
+   "say": "HAIR-uld OHL-my-er"
+  },
+  {
+   "name": "Graham Hancock",
+   "say": "GRAY-um HAN-kock (in LEX)"
+  },
+  {
+   "name": "Svat Soucek",
+   "say": "SVAHT SOH-chek"
+  },
+  {
+   "name": "Fabian von Bellingshausen",
+   "say": "FAH-bee-un fon BELL-ingz-how-zen"
+  },
+  {
+   "name": "Queen Maud Land",
+   "say": "MAWD"
+  },
+  {
+   "name": "Antarctica",
+   "say": "ant-ARK-tik-uh (with the first k)"
+  }
+ ],
+ "words": 1537
+}
