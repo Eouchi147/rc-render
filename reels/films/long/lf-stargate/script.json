@@ -1,0 +1,740 @@
+{
+ "id": "lf-stargate",
+ "kind": "case",
+ "series": "The Files",
+ "title": "Stargate: The Pentagon's Psychic Spies",
+ "intro_title": "Stargate: The Pentagon's Psychic Spies",
+ "yt_title": "The US Paid Psychic Spies for 23 Years. Did It Work?",
+ "verdict": "Ruled out",
+ "verdict_scope": "remote viewing produced reliable intelligence: Ruled out. Graded separately in the weighing: the programme existed (23 years, about $20 million): Established; a psychic effect in the lab: Awaiting evidence.",
+ "hook": "Can a mind see across the world?",
+ "end_line": "One crane remembered, and all the sessions that missed.",
+ "structure_note": "chapters[0] is the cold open and the title beat (no chapter card; YouTube chapter 0:00). Chapters 1 to 4 are the story chapters; 'The weighing' carries the verdict, the test and the close. Shot ids s1..s50 are in story order (s5t is the title card over s5; s35 returns to the panel of s15).",
+ "chapters": [
+  {
+   "title": "Cold open",
+   "beats": [
+    {
+     "role": "hook",
+     "lines": [
+      "[d:intrigue][sfx:boom][act:hushed, vivid]Summer {1974|nineteen seventy-four}, California. [act:the image, slow]A man draws a giant ^crane he has never ^seen. [p:0.93][act:the punch, amazed][tune:fall]It stands at a secret Soviet site, about ten thousand kilometres ^away.",
+      "[d:tension][act:the condition, precise]He has been given little more than its map ^coordinates. [act:the detail, vivid][tune:fall]It's huge, he says: a person walking past would only reach its ^axles.",
+      "[d:reveal][act:the reveal, leaning in]The CIA compares his drawing with its own, made from spy satellite ^photographs. [act:the payoff, quiet][tune:fall]Two analysts agree: the crane is ^accurate.",
+      "[d:tension][act:the child's question, leaning in][tune:rise]Can a mind really see across the ^world? [act:the stakes, steady][tune:fall]For twenty-three years, the United States paid people to find ^out."
+     ],
+     "shots": [
+      {
+       "id": "s1",
+       "say": "Summer 1974, California. A man draws a giant crane he has never seen.",
+       "draw": "THE HERO IMAGE, fully drawn from the first frame: a desk at night under a hanging lamp, its warm cone on a sheet of cream paper. On the sheet, a graphite sketch of a gantry crane in the manner of Pat Price's drawing: two trestle legs straddling a pair of rails, a long girder overhanging both legs, a trolley and hook, and eight wheels in bogies along the rails. A pencil lies across the corner of the sheet; at the left, in shadow, a man's dim silhouette leaning over the desk. Labels build on the words: 'summer 1974', 'California'; a small caption under the sheet 'a viewer's sketch, schematic'."
+      },
+      {
+       "id": "s2",
+       "say": "It stands at a secret Soviet site, about ten thousand kilometres away.",
+       "draw": "A night globe (orthographic, centred over the Arctic between the two places, 68 N 160 E): Asia at the left, North America at the right, a faint graticule. Gold pin 'California' (Menlo Park), red pin 'secret Soviet site' / 'Semipalatinsk' (about 50 N, 78 E) with a faint red glow. A dotted lilac trail appears dot by dot along the great circle between them (the claimed channel), label 'about 10,000 km' (great-circle distance Menlo Park to the test site: about 10,000 km). The camera is close on the globe."
+      },
+      {
+       "id": "s3",
+       "say": "He has been given little more than its map coordinates. It's huge, he says: a person walking past would only reach its axles.",
+       "draw": "Back on the sketch, the camera eases in on the wheels. A small card slides in at the left: a map grid with a crosshair, 'coordinates only'. Then a tiny dotted lilac figure draws itself beside one wheel bogie, its head level with the axles; label 'only up to the axles' (his words: dotted, a claim)."
+      },
+      {
+       "id": "s4",
+       "say": "The CIA compares his drawing with its own, made from spy satellite photographs. Two analysts agree: the crane is accurate.",
+       "draw": "Two sheets side by side: left 'his sketch' (graphite on cream paper), right 'CIA drawing, from satellite photos' (a cleaner blue-line drawing of a gantry crane on a dark blue sheet). On both, the wheels light up one by one in gold; label 'both: eight wheels'. Then two analyst figures below with green ticks, label 'two analysts: accurate'."
+      },
+      {
+       "id": "s5",
+       "say": "Can a mind really see across the world? For twenty-three years, the United States paid people to find out.",
+       "draw": "The camera eases out to the whole globe panel: a head in profile at the right, looking at the globe; a dotted lilac line leaves the head and arcs to the globe; a lilac '?' glows between them. Then a thin gold band draws along the top right from '1972' to '1995', label '23 years'."
+      }
+     ]
+    },
+    {
+     "role": "title",
+     "lines": [
+      "[d:calm][act:warm, setting out]Stargate: the Pentagon's psychic ^spies. [act:the promise, steady][tune:fall]What twenty-three years of remote viewing really ^produced."
+     ],
+     "shots": [
+      {
+       "id": "s5t",
+       "say": "Stargate: the Pentagon's psychic spies. What twenty-three years of remote viewing really produced.",
+       "draw": "The globe panel held and dimmed under the full-frame intro title card 'Stargate: The Pentagon's Psychic Spies'."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The psychic arms race",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:storytelling, setting the scene]It began with a ^fear. [p:0.93][act:explaining, clear]In {1972|nineteen seventy-two}, a US Army report for the Defense Intelligence Agency described Soviet research on ^telepathy, and on moving objects@noun with the ^mind. [act:the alarm, low][tune:fall]Soviet knowledge in this field, it said, could be ^superior to America's."
+     ],
+     "shots": [
+      {
+       "id": "s6",
+       "say": "In 1972, a US Army report for the Defense Intelligence Agency described Soviet research on telepathy, and on moving objects with the mind.",
+       "draw": "A desk at night: a typed report cover pops in, 'Controlled Offensive Behavior, USSR', 'July 1972', 'for the DIA'. Behind it a dim red silhouette of the USSR (map). Two small pictures rise as named: two heads face to face with dotted waves between them ('telepathy'); a hand and a small cup sliding along dotted motion lines ('mind over matter')."
+      },
+      {
+       "id": "s7",
+       "say": "Soviet knowledge in this field, it said, could be superior to America's.",
+       "draw": "A balance: left pan 'USSR' (a red star), right pan 'USA'; the beam tips towards the USSR; a dotted label 'superior?' (the report's claim, dotted)."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:the place, warm]That same year, at the Stanford Research Institute in ^California, two laser physicists, Russell ^Targ and Harold ^Puthoff, began testing people who claimed psychic ^powers.",
+      "[d:build][act:introducing him, fond]One of them was Ingo ^Swann, a New York ^artist. [act:the strange test, curious]Taken to a shielded magnetometer at Stanford University, he seemed to disturb its ^trace, [act:fair, light][tune:fall]though accounts of what happened still ^differ.",
+      "[d:build][act:the visitors, intrigued]CIA visitors came to test him ^too: they hid objects@noun out of sight, and asked him to describe ^them. [act:a small smile][tune:fall]A CIA account says he did ^well. [p:0.93][act:the money, amused]Next came a work order for two and a half thousand ^dollars. [act:the escalation, building][tune:fall]Within months, the CIA was paying for a fifty-thousand-dollar ^study."
+     ],
+     "shots": [
+      {
+       "id": "s8",
+       "say": "That same year, at the Stanford Research Institute in California, two laser physicists, Russell Targ and Harold Puthoff, began testing people who claimed psychic powers.",
+       "draw": "A small map of the San Francisco Bay (left, View(-122.75, -121.75, 37.2, 38.05)) with a gold pin 'Stanford Research Institute' at Menlo Park; at the right a lab: an optical bench with a red laser beam drawing itself, two figures at the bench labelled 'Russell Targ' and 'Harold Puthoff'."
+      },
+      {
+       "id": "s9",
+       "say": "One of them was Ingo Swann, a New York artist. Taken to a shielded magnetometer at Stanford University, he seemed to disturb its trace, though accounts of what happened still differ.",
+       "draw": "A figure beside an easel with a canvas ('Ingo Swann, artist'); then a shielded magnetometer (a steel cylinder in the floor) wired to a chart recorder whose trace draws itself and doubles its wiggle for a moment (amber); then two dashed cards side by side, 'accounts differ'. 'June 1972'."
+      },
+      {
+       "id": "s10",
+       "say": "CIA visitors came to test him too: they hid objects out of sight, and asked him to describe them. A CIA account says he did well.",
+       "draw": "A table with a tall screen across it: behind the screen two visitor figures and a box with small objects; on the near side Swann; dotted lilac lines from Swann towards the hidden box; 'August 1972'; then a small typed card 'the subject did well' (CIA account)."
+      },
+      {
+       "id": "s11",
+       "say": "Next came a work order for two and a half thousand dollars. Within months, the CIA was paying for a fifty-thousand-dollar study.",
+       "draw": "A typed work order slip pops: '$2,500' with a short bar; then a second bar twenty times longer draws itself ('$50,000'), label 'within months'. Bars true to scale (2,500 : 50,000 = 1 : 20)."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:build][act:the publication, impressed]In {1974|nineteen seventy-four}, Targ and Puthoff published in ^Nature, one of the world's leading science ^journals. [act:the claim, plain][tune:fall]Their experiments, they wrote, suggested a way of perceiving that uses no known ^sense.",
+      "[d:build][act:the idea, intrigued]Swann is credited with an ^idea: [act:explaining][tune:fall]give the viewer nothing but map ^coordinates. [act:introducing him, warm]That summer, the CIA tried it with another viewer, Pat ^Price, a former police commissioner from ^Burbank. [act:the callback, quiet][tune:fall]That was the session with the ^crane."
+     ],
+     "shots": [
+      {
+       "id": "s12",
+       "say": "In 1974, Targ and Puthoff published in Nature, one of the world's leading science journals. Their experiments, they wrote, suggested a way of perceiving that uses no known sense.",
+       "draw": "A journal on a lectern under a light, 'Nature', 'October 1974'; beside it a head in profile whose eyes and ears are covered by a dark shield; a dotted lilac channel passes the shield into the head: 'no known sense' (dotted: their claim)."
+      },
+      {
+       "id": "s13",
+       "say": "Swann is credited with an idea: give the viewer nothing but map coordinates.",
+       "draw": "A sheet of map grid (lines of latitude and longitude); a crosshair settles on one point; everything else on the sheet fades under a veil, leaving only the crosshair and a card: 'coordinates only'."
+      },
+      {
+       "id": "s14",
+       "say": "That summer, the CIA tried it with another viewer, Pat Price, a former police commissioner from Burbank. That was the session with the crane.",
+       "draw": "A figure in a jacket at a table ('Pat Price', 'former police commissioner'); an open atlas page with a pencil circle; then the crane sketch of the opening slides in beside him, 'July 1974'."
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:reveal][act:the catch, careful]But the CIA officer in charge wrote something ^else. [p:0.93][act:quoting, plain][tune:fall]Most of Price's data, he said, were wrong, or could not be ^checked. [act:the landing, wry][tune:fall]The crane is the part everyone ^remembers."
+     ],
+     "shots": [
+      {
+       "id": "s15",
+       "say": "But the CIA officer in charge wrote something else. Most of Price's data, he said, were wrong, or could not be checked. The crane is the part everyone remembers.",
+       "draw": "A grid of 40 small cards (Price's statements; schematic, the report gives no count): most turn grey with a '?' or get a red cross as said; three glow gold (the hits the report names: the crane, tank sections, buildings under construction). Label 'most: wrong or unchecked'. Then the crane card lifts out and glows: 'remembered'."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The unit at Fort Meade",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:storytelling, brisk]Soon the Army wanted psychic spies of its ^own. [act:explaining, plain]From {1977|nineteen seventy-seven}, it ran its own programme, with a small unit at Fort Meade, a base in ^Maryland. [act:the place, wry][tune:fall]Its home: old wooden barracks on the ^base. [act:dry, a hint of amusement][tune:fall]Over the years, it went by a string of code ^names.",
+      "[d:build][act:relishing the names][tune:level]Gondola Wish. [act:same rhythm][tune:level]Grill Flame. [act:keeping the beat][tune:level]Center Lane. [act:one more][tune:level]Sun Streak. [sfx:shimmer][act:the famous one, a flourish][tune:highfall]^Star Gate. [act:dry, then serious][tune:fall]The names changed; the question didn't: could a mind see what cameras ^couldn't?"
+     ],
+     "shots": [
+      {
+       "id": "s16",
+       "say": "From 1977, it ran its own programme, with a small unit at Fort Meade, a base in Maryland. Its home: old wooden barracks on the base.",
+       "draw": "At the left a map of the Washington area (View(-77.6, -76.3, 38.65, 39.55)): pins 'Fort Meade' (gold) and 'Washington'; at the right two low wooden barracks among trees at dusk, a flagpole, one lit window; label '1977'."
+      },
+      {
+       "id": "s17",
+       "say": "Over the years, it went by a string of code names. Gondola Wish. Grill Flame. Center Lane. Sun Streak. Star Gate. The names changed; the question didn't: could a mind see what cameras couldn't?",
+       "draw": "Five manila folders hung along a time axis 1975 to 1995 at their years (1977, 1978, 1983, 1985, 1991, per FAS), each stamped with its code name as it is said: 'GONDOLA WISH', 'GRILL FLAME', 'CENTER LANE', 'SUN STREAK', and, larger and gold, 'STAR GATE'. On the last sentence a satellite and a head in profile appear above the axis, a dotted '?' between them.",
+       "reuse": "stargate_m() code-name folders (f13.py), redrawn wide"
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:calm][act:introducing him, warm]One of its first viewers was Joseph ^McMoneagle, an army intelligence ^soldier. [act:the nickname, a small smile][tune:fall]He became known as Remote Viewer Number@count ^One. [act:the teacher, plain][tune:fall]Ingo Swann later came to train viewers in his coordinate ^method.",
+      "[d:build][act:explaining, step by step]A session went like ^this. [act:the setup, quiet]The viewer sat in a quiet room with a ^monitor, who did not know the target ^either. [p:0.93][act:the clue, plain]The only clue was a ^number@count: map coordinates, or simply a ^code. [act:the method, a hint of wonder][tune:fall]Then the viewer described whatever came to mind, and ^sketched it. [act:plain][tune:fall]The result went out as a written ^report."
+     ],
+     "shots": [
+      {
+       "id": "s18",
+       "say": "One of its first viewers was Joseph McMoneagle, an army intelligence soldier. He became known as Remote Viewer Number One. Ingo Swann later came to train viewers in his coordinate method.",
+       "draw": "A soldier figure in fatigues ('Joseph McMoneagle'), a tag beside him 'Remote Viewer No. 1', '1978'; then, at the right, Swann at a board with a coordinate grid drawn on it ('Swann trains viewers')."
+      },
+      {
+       "id": "s19",
+       "say": "A session went like this. The viewer sat in a quiet room with a monitor, who did not know the target either. The only clue was a number: map coordinates, or simply a code.",
+       "draw": "A cutaway room in dim light: a table, the viewer seated at the left with paper and pencil, the monitor seated at the right with a clipboard; a dotted bubble with '?' over the monitor ('blind too'); a card on the table with a row of digits (illustrative), label 'only a number'."
+      },
+      {
+       "id": "s20",
+       "say": "Then the viewer described whatever came to mind, and sketched it. The result went out as a written report.",
+       "draw": "Close on the viewer's sheet: a few handwritten words appear one by one ('tall', 'metal', 'cold': illustrative descriptors), then a rough sketch scribbles itself; then the sheet slides into a typed report folder with a 'REPORT' tab (small label 'schematic')."
+      }
+     ]
+    },
+    {
+     "role": "cost",
+     "lines": [
+      "[d:build][act:the work, serious]Intelligence agencies sent in real ^targets, [act:plain][tune:fall]foreign places and things they wanted to know ^about. [act:the change, plain]From about {1985|nineteen eighty-five}, the Defense Intelligence Agency ran the ^unit. [p:0.93][act:the total, measured][tune:fall]From the CIA's first dollars to the end: twenty-three years, and about twenty million ^dollars.",
+      "[d:aside][act:the legends, animated]People who worked on the programme tell of striking ^hits: a crashed Soviet plane found in ^Africa, a new Soviet ^submarine. [act:fair, plain][tune:fall]Those stories come mostly from the people involved, and they're hard to ^check."
+     ],
+     "shots": [
+      {
+       "id": "s21",
+       "say": "Intelligence agencies sent in real targets, foreign places and things they wanted to know about.",
+       "draw": "At the left three agency buildings; sealed envelopes travel along arrows into the unit's barracks at the right ('targets'); typed reports travel back along a lower arrow ('reports')."
+      },
+      {
+       "id": "s22",
+       "say": "From about 1985, the Defense Intelligence Agency ran the unit. From the CIA's first dollars to the end: twenty-three years, and about twenty million dollars.",
+       "draw": "A time line 1970 to 1997 draws itself; bands fill as named: 'CIA' 1972 to 1977 (the lab), 'Army' 1977 to 1985, 'DIA' 1985 to 1995. Then a bracket over 1972 to 1995, '23 years', and a stack of coins rising beside it, 'about $20 million'."
+      },
+      {
+       "id": "s23",
+       "say": "People who worked on the programme tell of striking hits: a crashed Soviet plane found in Africa, a new Soviet submarine. Those stories come mostly from the people involved, and they're hard to check.",
+       "draw": "A dim world map: a dotted lilac plane icon pops in central Africa ('a crashed plane'), a dotted lilac submarine in the Soviet Arctic ('a new submarine'); both in the dotted 'claimed' style; a grey dashed card 'their accounts, hard to check'."
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:aside][act:the key question, quiet][tune:rise]But how do you tell a real hit from a lucky ^guess? [act:the answer, simple][tune:fall]You ^count."
+     ],
+     "shots": [
+      {
+       "id": "s24",
+       "say": "But how do you tell a real hit from a lucky guess? You count.",
+       "draw": "A paper target pinned to a board with a scatter of dart holes; one sits in the bullseye and glows ('a hit?'); then a tally of strokes counts itself beside it: the misses outnumber the hit."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The judging problem",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:setting up the test, clear]Back in California, the lab had a way to ^count. [act:the point, plain][tune:fall]It turns a feeling into a ^number@count. [p:0.93][act:the protocol, precise]More than a hundred places around the San Francisco Bay were written on cards, sealed in ^envelopes, and locked in a ^safe. [act:step by step]One was drawn at random, and a small team drove ^there. [act:the other half]At the institute, the viewer described what the team was ^seeing.",
+      "[d:build][act:the judging, clear]Then judges visited the sites with the ^transcripts, and ranked which described each place ^best. [act:the logic, clear]If the viewers were only guessing, the right place would land anywhere in the ^ranking. [act:the result, impressed]For their star viewers, the rankings beat chance by a wide ^margin. [act:the journal, plain][tune:fall]In {1976|nineteen seventy-six}, they set it all out in a leading engineering ^journal."
+     ],
+     "shots": [
+      {
+       "id": "s25",
+       "say": "Back in California, the lab had a way to count. It turns a feeling into a number. More than a hundred places around the San Francisco Bay were written on cards, sealed in envelopes, and locked in a safe.",
+       "draw": "A dotted lilac cloud with a '?' (a feeling) and an arrow to a tally of strokes (a number); then a steel safe, its door open: rows of small sealed envelopes (104, more than 100) pop onto its shelves; labels 'more than 100 places', 'sealed'; a gold padlock pops: 'locked'."
+      },
+      {
+       "id": "s26",
+       "say": "One was drawn at random, and a small team drove there. At the institute, the viewer described what the team was seeing.",
+       "draw": "The Bay map: about 100 dim dots around SRI (the target pool, within reach by car); one lights gold (drawn at random); a small car drives along a road from the SRI pin to it ('the team'). At the SRI pin a small box 'shielded room' with two figures (viewer and experimenter); a dotted lilac line joins the room to the site (the claimed channel)."
+      },
+      {
+       "id": "s27",
+       "say": "Then judges visited the sites with the transcripts, and ranked which described each place best. If the viewers were only guessing, the right place would land anywhere in the ranking. For their star viewers, the rankings beat chance by a wide margin.",
+       "draw": "Nine typed transcripts in a column at the left, nine site pictograms at the right (a tower, a boat, a bridge, a church, a tree, a pool, a fountain, a plaza, a garden: illustrative); a judge between them; lines run from every transcript to the judge and from the judge to every site. Then a schematic of the ranks given to the right site, 1 to 9: 'guessing' spreads them anywhere, 'star viewers' cluster near rank 1: 'far better than chance' (labelled schematic)."
+      },
+      {
+       "id": "s28",
+       "say": "In 1976, they set it all out in a leading engineering journal.",
+       "draw": "A journal on the lectern, 'Proceedings of the IEEE', 'March 1976'; on its open page an arc labelled 'over kilometre distances' (from its title)."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:reveal][act:the critics, leaning in]In New Zealand, two psychologists, David ^Marks and Richard ^Kammann, ran their own versions of the ^tests. [act:the result, plain][tune:fall]The results didn't ^repeat.",
+      "[d:build][act:the detective work, sharp]So they studied the SRI ^transcripts, which had gone to the judges ^unedited. [p:0.93][act:the find][tune:fall]In {1978|nineteen seventy-eight}, in Nature, they reported clues ^inside: dates, and mentions of sites already ^visited. [act:explaining, clear][tune:fall]A judge could use@verb them to put the sessions in ^order, no psychic powers ^needed.",
+      "[d:aside][act:the everyday picture, wry]Like a quiz with the answers pencilled in the ^margin: [act:the point][tune:fall]a high score suddenly means far ^less.",
+      "[d:calm][act:fair, the reply]SRI's side ^replied: with the clues taken out, the hits were still above ^chance. [act:the rebuttal, even][tune:fall]The critics answered that some clues were still ^there. [act:the consensus, plain][tune:fall]Even Jessica Utts, a statistician who later defended the lab work, wrote that some matches could be made from clues in the transcripts ^alone."
+     ],
+     "shots": [
+      {
+       "id": "s29",
+       "say": "In New Zealand, two psychologists, David Marks and Richard Kammann, ran their own versions of the tests. The results didn't repeat.",
+       "draw": "A map of New Zealand (View(165.5, 179.5, -47.6, -34.2)): pin 'University of Otago, Dunedin'; two figures beside it ('David Marks', 'Richard Kammann'); then a small chart where their results sit on the chance line: 'not repeated'."
+      },
+      {
+       "id": "s30",
+       "say": "So they studied the SRI transcripts, which had gone to the judges unedited. In 1978, in Nature, they reported clues inside: dates, and mentions of sites already visited. A judge could use them to put the sessions in order, no psychic powers needed.",
+       "draw": "A typed transcript page; amber highlights pop as named: the date at the top ('a date') and a line in the text ('an earlier site'); then arrows run from the highlights to a numbered list of sites in the order visited: 'clues to the order'. Tag 'Nature, 1978'."
+      },
+      {
+       "id": "s31",
+       "say": "Like a quiz with the answers pencilled in the margin: a high score suddenly means far less.",
+       "draw": "A quiz sheet with ten questions; faint pencil answers appear in its margin; a big score '10/10' pops, then greys and shrinks."
+      },
+      {
+       "id": "s32",
+       "say": "SRI's side replied: with the clues taken out, the hits were still above chance. The critics answered that some clues were still there. Even Jessica Utts, a statistician who later defended the lab work, wrote that some matches could be made from clues in the transcripts alone.",
+       "draw": "Two letters as cards: left '1980: still above chance' (SRI's side), right '1986: clues remain' (the critics), an arrow each way between them; then a third card below, 'Utts: some matches from clues alone'."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:the twist, quiet]Their own tests taught Marks and Kammann something ^stranger. [act:the scene, vivid]After each session they visited the site, and the descriptions seemed to fit with uncanny ^accuracy. [act:the judge]Their judge, a distinguished professor, was ^convinced. [p:0.93][act:the reveal, slow][tune:fall]He had matched the descriptions to the wrong ^sites.",
+      "[d:aside][act:the everyday picture, warm]Try it ^yourself: [act:the example][tune:level]something tall, some water, a feeling of ^movement. [act:the point, smiling][tune:fall]Stand almost anywhere, and you'll find all ^three. [act:the name, plain][tune:fall]Psychologists call it subjective ^validation: we find the matches we're looking ^for."
+     ],
+     "shots": [
+      {
+       "id": "s33",
+       "say": "Their own tests taught Marks and Kammann something stranger. After each session they visited the site, and the descriptions seemed to fit with uncanny accuracy. Their judge, a distinguished professor, was convinced. He had matched the descriptions to the wrong sites.",
+       "draw": "A site (a footbridge over a stream, trees) with two figures holding a transcript; dotted lines join words on the page to features of the place ('uncanny'); a judge figure with a gold tick ('convinced'); then the reveal: the lines turn red and the label 'wrong sites' pops."
+      },
+      {
+       "id": "s34",
+       "say": "Try it yourself: something tall, some water, a feeling of movement. Stand almost anywhere, and you'll find all three. Psychologists call it subjective validation: we find the matches we're looking for.",
+       "draw": "Three icons pop as named: a tall line ('something tall'), waves ('some water'), motion lines ('movement'). Below, three different places (a city street with a tower and a fountain; a harbour with a crane and the sea; a park with a tree and a pond, wind in the grass), each gets three green ticks. Label 'subjective validation'."
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:calm][act:the second trap, quiet]And memory is ^selective. [act:plain]A striking hit is told again and ^again; [act:the misses, soft][tune:fall]the misses are quietly ^forgotten. [act:the callback, dry][tune:fall]Remember the ^crane?"
+     ],
+     "shots": [
+      {
+       "id": "s35",
+       "say": "And memory is selective. A striking hit is told again and again; the misses are quietly forgotten. Remember the crane?",
+       "draw": "Back to the grid of Price's cards (alias of s15): the gold crane card glows larger ('told again and again') while the grey and crossed cards fade to near nothing ('forgotten')."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The review of 1995",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:build][act:the turn, serious]By {1995|nineteen ninety-five}, the Cold War was ^over. [act:explaining, plain]Congress asked the CIA to take the programme ^back, [act:plain][tune:fall]and the CIA ordered an outside review, from the American Institutes for ^Research. [act:the brief, clear][tune:fall]Two questions: did it work in the ^lab, and was it any use@noun in the ^field?",
+      "[d:calm][act:the two experts, even-handed]Two experts examined the lab ^work: Jessica ^Utts, a ^statistician, and Ray ^Hyman, a ^psychologist. [act:even-handed, a small smile][tune:fall]One who found the data convincing, and a well-known ^sceptic."
+     ],
+     "shots": [
+      {
+       "id": "s36",
+       "say": "By 1995, the Cold War was over. Congress asked the CIA to take the programme back, and the CIA ordered an outside review, from the American Institutes for Research. Two questions: did it work in the lab, and was it any use in the field?",
+       "draw": "A dome ('Congress') sends an arrow to a building ('CIA'), which sends an arrow to a report cover that rises: 'An Evaluation of Remote Viewing', 'AIR, 29 September 1995'; then two tabs on the report: 'the lab?' and 'the field?'."
+      },
+      {
+       "id": "s37",
+       "say": "Two experts examined the lab work: Jessica Utts, a statistician, and Ray Hyman, a psychologist. One who found the data convincing, and a well-known sceptic.",
+       "draw": "A long table under a lamp: at the left a figure with a bar chart beside her ('Jessica Utts', 'statistician'); at the right a figure with a head-in-profile icon ('Ray Hyman', 'psychologist'); a stack of lab reports between them."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:the setup, clear]By then the lab used@verb a cleaner ^test: [act:explaining]a judge got the viewer's description and five ^photographs, one real and four ^decoys. [p:0.93][act:the maths, simple][tune:fall]Pick blindly, and you're right one time in ^five.",
+      "[d:build][act:surprising agreement]The two experts agreed on more than you might ^expect. [p:0.93][act:the agreement, precise][tune:fall]The scores, Hyman wrote, were too large and too consistent to dismiss as ^flukes. [act:the size, plain]By the usual yardstick of statistics, the effect was ^small, [act:the point][tune:fall]but it held across more than a thousand lab ^sessions. [act:the split, crisp]Utts concluded that psychic functioning was well ^established. [act:the other side, firm][tune:fall]Hyman called that ^premature: [act:the reason, plain][tune:fall]independent laboratories had not repeated the ^results.",
+      "[d:calm][act:the report's view, measured]The review's own verdict on the lab: a statistically significant effect, [act:careful][tune:fall]but unclear whether it came from the viewers, or from the judges, the targets, or the ^methods."
+     ],
+     "shots": [
+      {
+       "id": "s38",
+       "say": "By then the lab used a cleaner test: a judge got the viewer's description and five photographs, one real and four decoys. Pick blindly, and you're right one time in five.",
+       "draw": "Five photo frames in a row (simple landscapes); one gets a gold rim ('the real target'), four a grey tag ('decoys'); then a strip of five squares where one lights: '1 in 5 by chance'."
+      },
+      {
+       "id": "s39",
+       "say": "The two experts agreed on more than you might expect. The scores, Hyman wrote, were too large and too consistent to dismiss as flukes. By the usual yardstick of statistics, the effect was small, but it held across more than a thousand lab sessions. Utts concluded that psychic functioning was well established. Hyman called that premature: independent laboratories had not repeated the results.",
+       "draw": "A chart: a dashed chance line; a row of result bars just above it (schematic, a small effect), bracket 'not flukes' with two ticks (both agree); 'over 1,000 sessions'. Then the split: at the left a green chip 'well established' (Utts), at the right an amber chip 'premature' (Hyman); under it one lab icon solid and three dashed empty outlines ('no independent repeat'). (The second half is a new beat on the same panel.)"
+      },
+      {
+       "id": "s40",
+       "say": "The review's own verdict on the lab: a statistically significant effect, but unclear whether it came from the viewers, or from the judges, the targets, or the methods.",
+       "draw": "A report sheet: the line 'statistically significant' lights; from a lilac '?' four branches draw out as named: 'the viewers?', 'the judges?', 'the targets?', 'the methods?'."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:serious now, lean in]Then the question that ^mattered: was the spying ever ^useful? [act:the users, plain]From {1994|nineteen ninety-four}, the agencies that received reports had been asked to grade each one, for accuracy and for ^value. [act:the users, plain]The reviewers asked them ^too. [act:the answer, even]Some broad background was ^right, [act:the catch][tune:fall]but not the concrete, specific detail intelligence ^needs.",
+      "[d:build][act:dry, quoting it]The report's words: vague and ^ambiguous. [sfx:hit][p:0.93][act:plain, damning][tune:fall]In no case had it ever been used@verb to guide an intelligence ^operation.",
+      "[d:calm][act:dry, a small shake of the head]By then the unit was down to three ^viewers. [act:final, closing the file][tune:fall]That year, it was shut ^down, [act:plain][tune:fall]and the CIA declassified its part of the ^story."
+     ],
+     "shots": [
+      {
+       "id": "s41",
+       "say": "Then the question that mattered: was the spying ever useful? From 1994, the agencies that received reports had been asked to grade each one, for accuracy and for value. The reviewers asked them too. Some broad background was right, but not the concrete, specific detail intelligence needs.",
+       "draw": "Agency figures at a table receiving reports, each report gets two small score boxes ('accuracy', 'value'); two meters beside them: 'broad background' partly filled (amber), 'concrete detail' an empty dashed outline."
+      },
+      {
+       "id": "s42",
+       "say": "The report's words: vague and ambiguous. In no case had it ever been used to guide an intelligence operation.",
+       "draw": "A report sheet whose typed lines blur under a fog; a red stamp 'VAGUE AND AMBIGUOUS' thumps onto it; then a big '0' and label 'operations guided'."
+      },
+      {
+       "id": "s43",
+       "say": "By then the unit was down to three viewers. That year, it was shut down, and the CIA declassified its part of the story.",
+       "draw": "The barracks interior: a room of empty desks, three occupied by figures under lamps; the lamps go out one by one; label '1995'; a stamp 'DECLASSIFIED' on a folder."
+      }
+     ]
+    },
+    {
+     "role": "cost",
+     "lines": [
+      "[d:aside][act:fair, the other side]Its defenders ^objected. [act:explaining, fair]Edwin ^May, who led the lab research in its last years, said the review had judged only the unit's final ^operations, [act:the point][tune:fall]which he called not ^representative. [act:the veteran, warm][tune:fall]Joseph McMoneagle defended the programme in ^public."
+     ],
+     "shots": [
+      {
+       "id": "s44",
+       "say": "Its defenders objected. Edwin May, who led the lab research in its last years, said the review had judged only the unit's final operations, which he called not representative. Joseph McMoneagle defended the programme in public.",
+       "draw": "A time line 1972 to 1995 with a magnifying lens over only its last stretch ('final operations'); a figure at the left ('Edwin May') with a dotted card 'not representative'; then a second figure ('Joseph McMoneagle') with a dotted card 'defended it'."
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:calm][act:the epilogue, plain]In {2017|twenty seventeen}, the CIA put more than twelve million pages of declassified records@noun ^online, [act:the detail][tune:fall]the Star Gate files among ^them. [act:the invitation, warm][tune:fall]Anyone can now read@present the sessions, the sketches and the ^verdicts."
+     ],
+     "shots": [
+      {
+       "id": "s45",
+       "say": "In 2017, the CIA put more than twelve million pages of declassified records online, the Star Gate files among them. Anyone can now read the sessions, the sketches and the verdicts.",
+       "draw": "Stacks of pages rising ('over 12 million pages', 'January 2017'); a laptop screen glows in front of them showing the crane sketch ('Star Gate files')."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The weighing",
+   "beats": [
+    {
+     "role": "weigh",
+     "lines": [
+      "[d:verdict][act:weighing it, calm][tune:rise]So, what does@verb the record@noun ^show? [act:the first, firm][tune:fall]The programme itself: ^*Established*. [act:plain][tune:fall]Twenty-three years, about twenty million dollars, in the government's own ^files. [act:fair, even]So is the crane: two analysts really did call it ^accurate. [p:0.93][act:the limit, careful][tune:fall]But one striking match, in a session that was mostly wrong, can't tell insight from ^luck.",
+      "[d:verdict][p:0.95][act:the claim, even][tune:rise]Did remote viewing produce@verb reliable ^intelligence? [act:the verdict, firm][tune:fall]*Ruled ^out*, [act:the source][tune:fall]by the programme's own ^evaluation. [act:the open part, fair][tune:rise]A psychic effect in the ^lab? [act:honest, even][tune:fall]Awaiting ^evidence. [act:explaining][tune:fall]The scores are on paper; what caused them was never pinned ^down."
+     ],
+     "shots": [
+      {
+       "id": "s46",
+       "say": "So, what does the record show? The programme itself: Established. Twenty-three years, about twenty million dollars, in the government's own files. So is the crane: two analysts really did call it accurate. But one striking match, in a session that was mostly wrong, can't tell insight from luck.",
+       "draw": "The ledger board: three rows with small icons (a folder, a crane sketch, a chart); row 1 lights, 'the programme existed', its chip 'Established' pops; a small note under row 1: 'the crane: called accurate'."
+      },
+      {
+       "id": "s47",
+       "say": "Did remote viewing produce reliable intelligence? Ruled out, by the programme's own evaluation. A psychic effect in the lab? Awaiting evidence. The scores are on paper; what caused them was never pinned down.",
+       "draw": "Same ledger: row 2 'reliable intelligence' gets the chip 'Ruled out'; row 3 'a psychic effect in the lab' gets 'Awaiting evidence'."
+      }
+     ]
+    },
+    {
+     "role": "weigh",
+     "lines": [
+      "[d:aside][act:fair, warm]Nobody here needs to be a fool or a fraud for that answer to be ^no. [act:fair, plain]Several of them said in public that it ^worked, [act:plain][tune:fall]and their accounts are part of the record@noun ^too. [act:explaining, kind]But honest, clever people can be misled by vague words and hopeful ^matching. [act:the point][tune:fall]That's exactly why science uses blind ^tests."
+     ],
+     "shots": [
+      {
+       "id": "s48",
+       "say": "Nobody here needs to be a fool or a fraud for that answer to be no. Several of them said in public that it worked, and their accounts are part of the record too. But honest, clever people can be misled by vague words and hopeful matching. That's exactly why science uses blind tests.",
+       "draw": "A row of quiet silhouettes in warm light (scientists, soldiers, analysts); then, in front of them, a screen drawn between a viewer and a sealed target ('a blind test')."
+      }
+     ]
+    },
+    {
+     "role": "test",
+     "lines": [
+      "[d:tension][act:what would settle it, inviting][tune:rise]So what would change our ^minds? [p:0.93][act:the test, concrete]A test where nobody near the viewer knows the ^target, [act:listing][tune:level]the scoring is written down ^beforehand, [act:the last][tune:fall]and sceptical labs repeat it, and get the same ^result. [act:the simplest, a smile][tune:fall]Or a sealed prediction, opened later, that turns out ^right."
+     ],
+     "shots": [
+      {
+       "id": "s49",
+       "say": "So what would change our minds? A test where nobody near the viewer knows the target, the scoring is written down beforehand, and sceptical labs repeat it, and get the same result. Or a sealed prediction, opened later, that turns out right.",
+       "draw": "Three dashed panels (tests not yet done) pop as named: a sealed target behind a wall with nobody near it ('nobody knows'); a dated sheet with a padlock ('scoring first'); three lab buildings with dashed green ticks ('repeated'). Then a sealed envelope with a wax seal and a calendar page turning: 'opened later'."
+      }
+     ]
+    },
+    {
+     "role": "close",
+     "lines": [
+      "[d:calm][act:quiet, final]The crane drawing is still in the ^files, [act:soft][tune:fall]filed with all the sessions that ^missed. [act:quiet, the image][tune:fall]Twenty-three years of looking across the ^world, and one picture everybody ^remembers.",
+      "[d:calm][act:the sign-off, warm][tune:fall]Weigh it ^yourself."
+     ],
+     "shots": [
+      {
+       "id": "s50",
+       "say": "The crane drawing is still in the files, filed with all the sessions that missed. Twenty-three years of looking across the world, and one picture everybody remembers. Weigh it yourself.",
+       "draw": "The desk of the opening at night: the crane sketch lies on top of a deep stack of other session sheets (dim, many), the lamp still on it; the camera eases back as the lamp dims a little."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "description": "In the summer of 1974 a former police commissioner at the Stanford Research Institute in California drew a giant crane he had never seen, at a secret Soviet site about 10,000 km away. CIA analysts judged the crane accurate. From 1972 to 1995, the United States government paid for remote viewing: describing distant targets by the mind alone.\n\nWe follow what the declassified files show: the Cold War fear of Soviet psychic research, the CIA's first money for Russell Targ and Harold Puthoff's work with Ingo Swann and Pat Price, the Army unit at Fort Meade and its code names, how a session worked and why judging a hit is so hard (the clues David Marks and Richard Kammann found in the transcripts, and the matches that felt uncanny but were wrong), and the 1995 review for the CIA in which Jessica Utts and Ray Hyman disagreed about the lab statistics while the operational record was found to be of no use. Verdict on remote viewing as reliable intelligence: Ruled out. The programme itself: Established. A psychic effect in the lab: Awaiting evidence.\n\nChapters\n0:00 Cold open\nmm:ss The psychic arms race\nmm:ss The unit at Fort Meade\nmm:ss The judging problem\nmm:ss The review of 1995\nmm:ss The weighing\n\nSources\nMumford, M. D., Rose, A. M. & Goslin, D. A. 1995, An Evaluation of Remote Viewing: Research and Applications (American Institutes for Research, 29 September 1995; CIA CREST CIA-RDP96-00791R000200180006-4)\nUtts, J. 1996, An Assessment of the Evidence for Psychic Functioning, Journal of Scientific Exploration 10(1): 3-30\nHyman, R. 1996, Evaluation of a Program on Anomalous Mental Phenomena, Journal of Scientific Exploration 10(1): 31-58\nMay, E. C. 1996, The American Institutes for Research Review of the Department of Defense's STAR GATE Program: A Commentary, Journal of Scientific Exploration 10(1): 89-107\nTarg, R. 1996, Remote Viewing at Stanford Research Institute in the 1970s: A Memoir, Journal of Scientific Exploration 10(1): 77-88\nKress, K. A. 1977, Parapsychology in Intelligence: A Personal Review and Conclusions, Studies in Intelligence (CIA), Winter 1977, released 1996; reprinted in Journal of Scientific Exploration 13(1): 69-85 (1999)\nTarg, R. & Puthoff, H. 1974, Information transmission under conditions of sensory shielding, Nature 251: 602-607, doi:10.1038/251602a0\nPuthoff, H. E. & Targ, R. 1976, A perceptual channel for information transfer over kilometer distances: historical perspective and recent research, Proceedings of the IEEE 64(3): 329-354, doi:10.1109/PROC.1976.10113\nMarks, D. & Kammann, R. 1978, Information transmission in remote viewing experiments, Nature 274: 680-681, doi:10.1038/274680a0\nTart, C. T., Puthoff, H. E. & Targ, R. 1980, Information transmission in remote viewing experiments, Nature 284: 191, doi:10.1038/284191a0\nMarks, D. & Scott, C. 1986, Remote viewing exposed, Nature 319: 444, doi:10.1038/319444a0\nMarks, D. & Kammann, R. 1980, The Psychology of the Psychic (Prometheus Books)\nLaMothe, J. D. 1972, Controlled Offensive Behavior: USSR (U), ST-CS-01-169-72, Medical Intelligence Office, Office of the Surgeon General, US Army, for the Defense Intelligence Agency, July 1972 (CIA CREST CIA-RDP96-00787R000100120001-9)\nCentral Intelligence Agency 2017, CIA Posts More Than 12 Million Pages of CREST Records Online (press release, 17 January 2017)\nFederation of American Scientists (Pike, J.), Star Gate [Controlled Remote Viewing] (programme history and code names)",
+ "sources": [
+  "Mumford, M. D., Rose, A. M. & Goslin, D. A. 1995, An Evaluation of Remote Viewing: Research and Applications, American Institutes for Research, 29 September 1995 (CIA CREST document CIA-RDP96-00791R000200180006-4)",
+  "Utts, J. 1996, An Assessment of the Evidence for Psychic Functioning, Journal of Scientific Exploration 10(1): 3-30 (also in the AIR report, 1995)",
+  "Hyman, R. 1996, Evaluation of a Program on Anomalous Mental Phenomena, Journal of Scientific Exploration 10(1): 31-58",
+  "May, E. C. 1996, The American Institutes for Research Review of the Department of Defense's STAR GATE Program: A Commentary, Journal of Scientific Exploration 10(1): 89-107",
+  "Targ, R. 1996, Remote Viewing at Stanford Research Institute in the 1970s: A Memoir, Journal of Scientific Exploration 10(1): 77-88",
+  "Kress, K. A. 1977, Parapsychology in Intelligence: A Personal Review and Conclusions, Studies in Intelligence (CIA), Winter 1977 (released 1996); reprinted in Journal of Scientific Exploration 13(1): 69-85, 1999",
+  "Targ, R. & Puthoff, H. 1974, Information transmission under conditions of sensory shielding, Nature 251(5476): 602-607, doi:10.1038/251602a0",
+  "Puthoff, H. E. & Targ, R. 1976, A perceptual channel for information transfer over kilometer distances: historical perspective and recent research, Proceedings of the IEEE 64(3): 329-354, doi:10.1109/PROC.1976.10113 (copy in CIA CREST, CIA-RDP96-00787R000700070001-9)",
+  "Marks, D. & Kammann, R. 1978, Information transmission in remote viewing experiments, Nature 274(5672): 680-681, doi:10.1038/274680a0",
+  "Tart, C. T., Puthoff, H. E. & Targ, R. 1980, Information transmission in remote viewing experiments, Nature 284(5752): 191, doi:10.1038/284191a0",
+  "Marks, D. & Scott, C. 1986, Remote viewing exposed, Nature 319(6053): 444, doi:10.1038/319444a0",
+  "Marks, D. & Kammann, R. 1980, The Psychology of the Psychic, Prometheus Books (as summarised by Hyman 1996, pp. 53-54, who cites it as 1981)",
+  "LaMothe, J. D. 1972, Controlled Offensive Behavior: USSR (U), report ST-CS-01-169-72, Medical Intelligence Office, Office of the Surgeon General, Department of the Army, approved by the Defense Intelligence Agency, July 1972 (CIA CREST CIA-RDP96-00787R000100120001-9)",
+  "Central Intelligence Agency 2017, CIA Posts More Than 12 Million Pages of CREST Records Online, press release, 17 January 2017",
+  "Federation of American Scientists (J. Pike), Star Gate [Controlled Remote Viewing] (programme history: GONDOLA WISH 1977, GRILL FLAME 1978, CENTER LANE 1983, SUN STREAK 1985, STAR GATE 1991; cost about $20 million)",
+  "Wikipedia, Stargate Project (U.S. Army unit); Ingo Swann; Joseph McMoneagle; Remote viewing (biographical dates and the magnetometer accounts, checked against Kress 1977)",
+  "Weeks, L. 1995, Up Close & Personal With a Remote Viewer: Joe McMoneagle Defends the Secret Project, The Washington Post, 4 December 1995, p. B1 (headline as cited by Wikipedia)",
+  "The Short 'stargate-psychic' (13.03): films/f13.py and films/rewrite/stargate-psychic.json"
+ ],
+ "facts_added": [
+  {
+   "fact": "In July 1972 a US Army report prepared by the Medical Intelligence Office of the Surgeon General and approved by the DIA, 'Controlled Offensive Behavior: USSR' (ST-CS-01-169-72, Capt. John D. LaMothe), reviewed Soviet research on telepathy and psychokinesis ('mind over matter (PK)') and concluded: 'Based on their \"head start\" and financial support, it could be concluded that Soviet knowledge in this field is superior to that of the US.'",
+   "source": "LaMothe 1972, CIA CREST CIA-RDP96-00787R000100120001-9 (OCR read on archive.org)"
+  },
+  {
+   "fact": "Russell Targ joined SRI's Electronics and Bioengineering Laboratory in 1972 in a programme founded by Harold Puthoff; both were laser physicists (a DIA briefing calls them 'two laser physicists').",
+   "source": "Wikipedia, Russell Targ (citing SRI records); DIA, Project Sun Streak briefing (National Security Archive, DIA-21)"
+  },
+  {
+   "fact": "Ingo Swann (1933-2013) was a New York artist; on 6 June 1972 he was taken to a superconducting shielded magnetometer at Stanford; Puthoff reported the trace's oscillation doubling, the physicist in charge (Hebard) gave a different account and the instrument was found to be malfunctioning the next day; the test was not repeated.",
+   "source": "Wikipedia, Ingo Swann; Kress 1977 ('when the subject placed his attention on the interior of the magnetometer, the output signal was visibly disturbed')"
+  },
+  {
+   "fact": "In August 1972 the CIA's Office of Technical Service contracted a demonstration with the same man; 'the subject was asked to describe objects hidden out of sight by the CIA personnel. The subject did well.' The OTS director then 'approved another $2,500 work order', and 'The Office of Technical Service funded a $50,000 expanded effort in parapsychology' (Kress was Project Officer by October 1972).",
+   "source": "Kress 1977/1999, JSE 13(1): 69-85"
+  },
+  {
+   "fact": "Targ and Puthoff's Nature paper (18 October 1974) presented 'results of experiments suggesting the existence of one or more perceptual modalities through which individuals obtain information about their environment, although this information is not presented to any known sense.'",
+   "source": "Targ & Puthoff 1974, Nature 251: 602-607, doi:10.1038/251602a0 (abstract)"
+  },
+  {
+   "fact": "Swann is commonly credited with proposing coordinate remote viewing: a viewer is given nothing but a location's geographical coordinates; in 1983 he was contracted to train Army viewers.",
+   "source": "Wikipedia, Ingo Swann"
+  },
+  {
+   "fact": "On 10 July 1974 a contract monitor brought SRI a new task; Pat Price (who had been 'the police commissioner in Burbank, California', in Targ's words) 'was given only the geographic coordinates, a world atlas map marked with the approximate location of URDF-3, and told it was a Soviet RD&E test site. Overnight, he produced the drawing.' He called it a 'damned big crane' because a person walking by 'only came up to the axles on the wheels'. 'Two analysts, a photo interpreter at IAS and a nuclear analyst at Los Alamos Scientific Laboratories agreed that Price's description of the crane was accurate'; the CIA's own drawing was 'based on satellite photography', and 'both cranes have eight wheels'.",
+   "source": "Kress 1977/1999 (text and captions of Figs. 2a, 2b); Targ 1996, JSE 10(1): 77-88"
+  },
+  {
+   "fact": "Kress on the same test: 'In general, most of Price's data were wrong or could not be evaluated. He did, nevertheless, produce some amazing descriptions, like buildings then under construction, spherical tank sections, and the crane.'",
+   "source": "Kress 1977/1999"
+  },
+  {
+   "fact": "Menlo Park to the Semipalatinsk test site is about 10,000 km on a great circle (computed: 37.46 N, 122.17 W to 50.1 N, 78.4 E gives 10,075 km; to Semey city 10,001 km).",
+   "source": "computed (haversine, R = 6371 km)"
+  },
+  {
+   "fact": "The Army began GONDOLA WISH in 1977; GRILL FLAME followed in mid-1978 at Fort Meade, Maryland; it became the INSCOM CENTER LANE Project in 1983, SUN STREAK under the DIA in late 1985, and STAR GATE in 1991; the whole effort cost about $20 million. The CIA's CREST collection lists the aliases SCANATE, GONDOLA WISH, DRAGOON ABSORB, GRILL FLAME, CENTER LANE and SUN STREAK.",
+   "source": "FAS, Star Gate [Controlled Remote Viewing]; Wikipedia, Stargate Project (U.S. Army unit); CIA CREST collection description (archive.org mirror)"
+  },
+  {
+   "fact": "AIR 1995: 'CIA's program began in 1972, but was discontinued in 1977. DIA's direct involvement began about 1985 and has continued up to the time of this review.'",
+   "source": "Mumford, Rose & Goslin 1995 (OCR of CREST CIA-RDP96-00791R000200180006-4)"
+  },
+  {
+   "fact": "Joseph McMoneagle (born 1946), an Army intelligence soldier, joined the unit in 1978 and became known as 'Remote Viewer No. 1'; he left the Army in 1984; in December 1995 he publicly defended the programme.",
+   "source": "Wikipedia, Joseph McMoneagle (citing his memoir, 'remote viewer 001'); Weeks 1995, The Washington Post (headline)"
+  },
+  {
+   "fact": "In the lab (Utts' description in the AIR report): 'a viewer attempts to draw or describe (or both) a target location, photograph, object or short video segment'; 'Sometimes the viewer is assisted by a monitor who asks the viewer questions; of course in such cases the monitor is blind to the answer as well'; 'a judge who is blind to the true target ... is shown the response and five potential targets, one of which is the correct answer and the other four of which are decoys'.",
+   "source": "Utts 1995/1996, in Mumford et al. 1995 and JSE 10(1): 3-30"
+  },
+  {
+   "fact": "SRI's local-target protocol (1976): 'The target pool consisted of more than 100 target locations'; 'The target locations were printed on cards sealed in envelopes and kept in the SRI Division office safe'; a 'demarcation team' travelled to the site (30 min allotted for travel, then 15 min at the site) while the subject was 'closeted with an experimenter at SRI'; independent judges visited the sites and ranked the transcripts blind; 'all data are included unedited in the data package to be judged'. The results were reported as highly significant.",
+   "source": "Puthoff & Targ 1976, Proc. IEEE 64(3): 329-354 (CREST copy CIA-RDP96-00787R000700070001-9)"
+  },
+  {
+   "fact": "Marks and Kammann (Department of Psychology, University of Otago, Dunedin, New Zealand), Nature 17 August 1978: 'We have carried out duplicate experiments, but our results do not verify their conclusions'; they found that the unedited SRI transcripts given to the judges held cues to the order of the sessions (dates, references to previous targets), which allowed matching to the list of sites in the order visited.",
+   "source": "Marks & Kammann 1978, Nature 274: 680-681, doi:10.1038/274680a0 (abstract, affiliation); Wikipedia, Remote viewing and David Marks (psychologist); Utts 1996 ('some successful matching could be attained just from cues contained in the transcripts ..., like when a subject mentioned in one session what the target had been in the previous session')"
+  },
+  {
+   "fact": "Tart, Puthoff and Targ (1980) reported that a rejudging of transcripts with the cues edited out still gave an above-chance result; Marks and Scott (1986) answered that cues had not been adequately removed.",
+   "source": "Tart, Puthoff & Targ 1980, Nature 284: 191, doi:10.1038/284191a0; Marks & Scott 1986, Nature 319: 444, doi:10.1038/319444a0 (as quoted by Wikipedia, Remote viewing)"
+  },
+  {
+   "fact": "In Marks and Kammann's own replication, after each session the experimenters and viewer visited the site and the details 'appeared to match specific objects in the target site with uncanny accuracy'; their judge, 'a distinguished professor', was convinced; but 'the judge had matched the verbal protocols to the wrong target sites'.",
+   "source": "Hyman 1996, JSE 10(1): 31-58, pp. 53-54, summarising Marks & Kammann (The Psychology of the Psychic)"
+  },
+  {
+   "fact": "Hyman: 'Unfortunately, all the so-called prima facie evidence put before us is tainted by subjective validation.'",
+   "source": "Hyman 1996, JSE 10(1): 31-58"
+  },
+  {
+   "fact": "AIR's brief: 'At the request of Congress, the Central Intelligence Agency (CIA) is considering assuming responsibility for this remote viewing program'; 'In June of 1995, CIA's Office of Research and Development (ORD) contracted with AIR for this external review'. The report is dated 29 September 1995; its expert reviewers were Jessica Utts (Division of Statistics, University of California, Davis) and Ray Hyman (Department of Psychology, University of Oregon).",
+   "source": "Mumford, Rose & Goslin 1995; Utts 1996; Hyman 1996 (author lines)"
+  },
+  {
+   "fact": "Utts: 'Using the standards applied to any other area of science, it is concluded that psychic functioning has been well established' (SRI remote viewing effect size 0.209 over 770 sessions; SAIC 0.230 over 455 sessions). Hyman: 'We agree that the effect sizes reported in the SAIC experiments are too large and consistent to be dismissed as statistical flukes'; 'My report argues that Professor Utts' conclusion is premature, to say the least'; 'Promising findings did not have the opportunity of being replicated in other laboratories.'",
+   "source": "Utts 1996 (abstract and tables); Hyman 1996"
+  },
+  {
+   "fact": "AIR's conclusion on the lab: 'A statistically significant laboratory effect has been demonstrated in the sense that hits occur more often than chance. It is unclear whether the observed effects can unambiguously be attributed to the paranormal ability of the remote viewers as opposed to characteristics of the judges or of the target or some other characteristic of the methods used.'",
+   "source": "Mumford, Rose & Goslin 1995, executive summary"
+  },
+  {
+   "fact": "AIR on operations: 'The end users indicated that, although some accuracy was observed with regard to broad background characteristics, the remote viewing reports failed to produce the concrete, specific information valued in intelligence gathering.' 'In no case had the information provided ever been used to guide intelligence operations. Thus, remote viewing failed to produce actionable intelligence.' 'Most importantly, the information provided by remote viewing is vague and ambiguous, making it difficult, if not impossible, for the technique to yield information of sufficient quality and accuracy for actionable intelligence.'",
+   "source": "Mumford, Rose & Goslin 1995"
+  },
+  {
+   "fact": "AIR interviewed 'seven representatives of end-user groups, three remote viewers, and the incumbent Program Manager'; operations 'continued until the Spring of 1995, when the program was suspended'. (The Short: the unit was down to three people; Time, 11 December 1995: three full-time psychics.)",
+   "source": "Mumford, Rose & Goslin 1995; the Short stargate-psychic; Wikipedia citing Waller 1995, Time"
+  },
+  {
+   "fact": "Edwin May objected that AIR 'were only going to examine the last set of AC operations from the 24-year program. I and they knew that these cases were not representative of the program at large.' FAS: May oversaw 70% of the contractor budget and 85% of the data in the SAIC phase (from 1991).",
+   "source": "May 1996, JSE 10(1): 89-107; FAS, Star Gate"
+  },
+  {
+   "fact": "On 17 January 2017 the CIA put about 930,000 CREST documents, 'more than 12 million pages', online in its Electronic Reading Room; the release names 'special collections such as STAR GATE remote viewing program files'.",
+   "source": "CIA press release, 17 January 2017"
+  },
+  {
+   "fact": "People who worked on the programme reported operational successes, among them locating a Soviet submarine and a crashed Soviet plane in Africa; these accounts come from participants and are not confirmed by the AIR review.",
+   "source": "FAS, Star Gate [Controlled Remote Viewing] ('Reported successes included locating a Soviet submarine ... and tracking a crashed Tu-95 bomber in Africa'); Wikipedia, Stargate Project (U.S. Army unit) (the lost Soviet plane, 1976, and the submarine, 1979, as claims)"
+  },
+  {
+   "fact": "The Fort Meade unit was small (about 15 to 20 people) and was run out of 'an old, leaky wooden barracks' (buildings 2560 and 2561).",
+   "source": "Wikipedia, Stargate Project (U.S. Army unit); FAS, Star Gate"
+  },
+  {
+   "fact": "AIR: 'Starting in 1994, members of the agencies receiving the viewing reports were formally asked to evaluate their accuracy and value'; 'For all of the operational tasks conducted during 1994, representatives from the requesting agencies were asked to provide two summary judgments: one with respect to the accuracy of the remote viewing, and the second of the actual or potential value of the information provided.' 'In 1995, the CIA declassified its past parapsychology program efforts.'",
+   "source": "Mumford, Rose & Goslin 1995"
+  },
+  {
+   "fact": "By the convention Utts cites ('an effect size of 0.2 as small, 0.5 as medium and 0.8 as large'), the lab effect sizes (about 0.21 at SRI over 770 sessions and 0.23 at SAIC over 455 sessions, 1,225 in all) are small.",
+   "source": "Utts 1996 (in the AIR report and JSE 10(1): 3-30)"
+  },
+  {
+   "fact": "The review covered both questions in its title, 'Research and Applications': the laboratory research (judged by Utts and Hyman) and the operational use (end users, viewers and the programme manager interviewed).",
+   "source": "Mumford, Rose & Goslin 1995"
+  }
+ ],
+ "names": [
+  {
+   "name": "Stargate / Star Gate",
+   "say": "STAR-gate (plain English)"
+  },
+  {
+   "name": "Russell Targ",
+   "say": "RUSS-ul TARG"
+  },
+  {
+   "name": "Harold Puthoff",
+   "say": "HAIR-uld PUT-hoff (Hal Puthoff); unsure: some say POOT-hoff, please check against an interview recording"
+  },
+  {
+   "name": "Ingo Swann",
+   "say": "ING-goh SWON"
+  },
+  {
+   "name": "Pat Price",
+   "say": "plain English"
+  },
+  {
+   "name": "Burbank",
+   "say": "BUR-bank"
+  },
+  {
+   "name": "Joseph McMoneagle",
+   "say": "JOH-zef mak-MON-ih-gul (Irish surname, like McMonagle); unsure: please check against an interview recording"
+  },
+  {
+   "name": "Fort Meade",
+   "say": "fort MEED"
+  },
+  {
+   "name": "Maryland",
+   "say": "MAIR-ih-lund"
+  },
+  {
+   "name": "Gondola Wish",
+   "say": "GON-duh-luh WISH (gondola is in LEX)"
+  },
+  {
+   "name": "Grill Flame, Center Lane, Sun Streak",
+   "say": "plain English"
+  },
+  {
+   "name": "Jessica Utts",
+   "say": "JESS-ih-kuh UTTS"
+  },
+  {
+   "name": "Ray Hyman",
+   "say": "RAY HY-mun"
+  },
+  {
+   "name": "David Marks",
+   "say": "plain English"
+  },
+  {
+   "name": "Richard Kammann",
+   "say": "RICH-erd KAM-un"
+  },
+  {
+   "name": "Edwin May",
+   "say": "ED-win MAY"
+  },
+  {
+   "name": "telepathy",
+   "say": "tuh-LEP-uh-thee"
+  },
+  {
+   "name": "magnetometer",
+   "say": "mag-nuh-TOM-ih-ter"
+  },
+  {
+   "name": "Pentagon",
+   "say": "PEN-tuh-gon (in LEX)"
+  },
+  {
+   "name": "Defense Intelligence Agency",
+   "say": "plain English"
+  },
+  {
+   "name": "Stanford Research Institute",
+   "say": "STAN-ferd"
+  },
+  {
+   "name": "American Institutes for Research",
+   "say": "plain English"
+  }
+ ],
+ "words": 1481
+}
