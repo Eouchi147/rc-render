@@ -1,0 +1,821 @@
+{
+ "id": "lf-knossos",
+ "kind": "case",
+ "series": "Myths That Came True",
+ "title": "Knossos: The Palace Behind the Myth",
+ "intro_title": "Knossos: The Palace Behind the Myth",
+ "yt_title": "Was the Minotaur's Labyrinth Real? The Palace of Knossos",
+ "verdict": "Plausible",
+ "verdict_scope": "the myth plausibly remembers a real palace at Knossos, a bull cult and a Cretan sea power; in the weighing, the palace itself as the Labyrinth is graded Open question and a living Minotaur Ruled out",
+ "hook": "Was the Labyrinth a real place?",
+ "end_line": "The palace and the bulls are real. The monster is the story.",
+ "structure_note": "chapters[0] is the cold open and the title beat (no chapter card; YouTube chapter 0:00). Chapters 1 to 5 are the story chapters; 'The weighing' carries the verdict, the test and the close. Shot ids s1..sN are in story order; 'alias of sN' means a return to that panel.",
+ "chapters": [
+  {
+   "title": "Cold open",
+   "beats": [
+    {
+     "role": "hook",
+     "lines": [
+      "[d:intrigue][sfx:boom][act:hushed wonder, painting it]On a palace wall in ^Crete, some three and a half thousand years ago, someone painted ^this: [act:the reveal, delighted][tune:fall]a young acrobat, flying over the back of a charging ^bull.",
+      "[d:tension][act:storytelling, darker]Centuries later, the Greeks told of a king of that island, ^Minos, who kept a monster in a ^maze: half man, half ^bull. [act:the clue, intrigued]And a clay tablet from that very palace sends honey to the Mistress of the ^Labyrinth. [act:the child's question, leaning in][tune:rise]So was the Labyrinth a real ^place?"
+     ],
+     "shots": [
+      {
+       "id": "s1",
+       "say": "On a palace wall in Crete, some three and a half thousand years ago, someone painted this: a young acrobat, flying over the back of a charging bull.",
+       "draw": "HERO IMAGE, complete from the first frame: the Bull-Leaping Fresco of Knossos, drawn large in its frame on a warm dark wall, lamp-lit. A broad border of coloured bands (ochre, blue, red, cream, with the wavy 'veined stone' pattern) around a pale blue field. The bull at full flying gallop across the panel, legs stretched fore and aft, head low with long forward-curving horns, pale hide with dark patches; a pale-skinned figure in front gripping the horns; a red-brown figure upside down in mid-somersault over the bull's back; a pale figure behind with arms out. On 'flying', the acrobat's arc traces as a faint gold dotted line. Small chip 'Knossos, about 1450 BCE' after the hook title clears."
+      },
+      {
+       "id": "s2",
+       "say": "Centuries later, the Greeks told of a king of that island, Minos, who kept a monster in a maze: half man, half bull.",
+       "draw": "The story as Greeks painted it, black-figure on a terracotta frieze between running meanders: at left a crowned king on his throne (label 'Minos', italic); a square maze draws itself in black lines; at its heart a small room where the Minotaur stands, a man's body with a bull's head and horns (label 'the Minotaur'). Story elements are labelled in italic."
+      },
+      {
+       "id": "s3",
+       "say": "And a clay tablet from that very palace sends honey to the Mistress of the Labyrinth.",
+       "draw": "A small clay tablet in lamp light, two lines of schematic Linear B signs, a jar sign at the end of each line; a honey jar beside it glowing amber; the second line glows gold and the words 'Mistress of the Labyrinth' rise beneath. Label 'a tablet from Knossos'."
+      },
+      {
+       "id": "s4",
+       "say": "So was the Labyrinth a real place?",
+       "draw": "The story above, the ground below: a schematic plan of the palace of Knossos in bone lines (rooms around a central court) on the lower half; above it the lilac dotted maze of the story floats, slightly misaligned; a big lilac '?' pops at right on 'real place'. Labels 'the story' (lilac), 'the ground' (bone)."
+      }
+     ]
+    },
+    {
+     "role": "title",
+     "lines": [
+      "[d:calm][act:warm, setting out]Knossos: the palace behind the ^myth."
+     ],
+     "shots": [
+      {
+       "id": "s5",
+       "say": "Knossos: the palace behind the myth.",
+       "draw": "intro_title card 'Knossos: The Palace Behind the Myth' over the dimmed s4 panel. Nothing else drawn."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "A monster in a maze",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:storytelling, unhurried]First, the story, as the Greeks told ^it. [act:storytelling, building]Minos asked the sea god for a sign, and a snow-white bull rose from the ^waves. [act:the fatal choice, darker][tune:fall]He was meant to sacrifice it, and kept it ^instead.",
+      "[act:storytelling, hushed]As punishment, his queen, ^Pasiphae, was made to fall in love with the bull, and bore a son, half man, half ^bull: the ^Minotaur. [act:the builder, intrigued]The craftsman ^Daedalus built a maze to hold it, [act:the punchline, a smile][tune:fall]so cunning that, in one telling, he could barely find his own way ^out."
+     ],
+     "shots": [
+      {
+       "id": "s6",
+       "say": "Minos asked the sea god for a sign, and a snow-white bull rose from the waves. He was meant to sacrifice it, and kept it instead.",
+       "draw": "Black-figure frieze on terracotta, meander borders: the sea in black wave lines at left; a white bull rises out of the waves; at right a crowned, robed king beside an altar. On 'sacrifice' a dotted arrow runs from the bull to the altar; on 'kept it instead' the arrow is struck through and a dotted rope leads from the king's hand to the bull. Labels 'Minos', 'bull from the sea'."
+      },
+      {
+       "id": "s7",
+       "say": "As punishment, his queen, Pasiphae, was made to fall in love with the bull, and bore a son, half man, half bull: the Minotaur.",
+       "draw": "Same frieze style: a queen in a long robe (label 'Pasiphae'), and beside her the Minotaur rises as a tall black silhouette, man's body, bull's head (label 'the Minotaur'). Story style: lilac labels."
+      },
+      {
+       "id": "s8",
+       "say": "The craftsman Daedalus built a maze to hold it, so cunning that, in one telling, he could barely find his own way out.",
+       "draw": "A square maze in plan, gold ink lines on dark (the walls draw themselves); beside it at left a small figure with a set square (label 'Daedalus'); on 'barely find' a lilac dotted path wanders in from the entrance, turns into a dead end and stops at a '?'. Tag 'in Ovid's telling'."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:the cruel price, grave]Then came the ^tribute. [act:counting, grave][tune:level]Athens had to send seven young men and seven young ^women, [act:a fair aside][tune:level]every nine years in one version, every year in ^another, [act:the darkest part, quiet][tune:fall]to be shut in with the ^monster.",
+      "[act:the hero, brighter]Until the Athenian prince ^Theseus sailed as one of ^them. [act:the romance, warm]Minos's daughter, ^Ariadne, gave him a ball of ^thread. [act:the end of the tale][tune:fall]He killed the monster, and followed the thread back ^out."
+     ],
+     "shots": [
+      {
+       "id": "s9",
+       "say": "Then came the tribute. Athens had to send seven young men and seven young women, every nine years in one version, every year in another, to be shut in with the monster.",
+       "draw": "A ship with a black sail on a dark sea, sailing from 'Athens' (left) towards 'Crete' (right); fourteen small figures pop on deck as counted, seven and seven; two tags pop: 'every 9 years?' and 'every year?' (lilac)."
+      },
+      {
+       "id": "s10",
+       "say": "Until the Athenian prince Theseus sailed as one of them. Minos's daughter, Ariadne, gave him a ball of thread. He killed the monster, and followed the thread back out.",
+       "draw": "Back on the maze of s8: the Minotaur's silhouette (lilac outline) stands in the small room at its centre; at the entrance Ariadne (a woman's silhouette, a red ball of thread) and Theseus (a soldier with a spear) rise in; the red thread draws itself through the maze to the centre; a fire-glow flash on 'killed'; a second, paler thread runs back out.",
+       "reuse": "alias of s8, new cam"
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:the catch, curious]Now, the ^catch. [act:explaining, clear]Homer, around {700|seven hundred} BCE, knows King Minos of Knossos, and a dancing floor that Daedalus made there for ^Ariadne. [act:a raised eyebrow][tune:rise]A ^maze? [act:same rhythm][tune:rise]A ^monster? [act:dry][tune:fall]Not a ^word.",
+      "[p:0.93][act:the dates, steady]Vase painters show Theseus fighting a bull-headed man by about {550|five fifty} ^BCE. [act:the punchline, slower][tune:fall]But our fullest tellings come from writers like ^Plutarch, around {100|one hundred} CE, more than fourteen centuries after the palace's last great ^fire. [act:a comparison, clear][tune:fall]Almost as if the first full account of the fall of ^Rome were written this ^year.",
+      "[d:build][act:intrigued, turning it over]And even the ancients argued over ^it. [act:storytelling, amused]Plutarch reports an older version: the Labyrinth was just a ^prison, and the monster a hated general named... [act:the punchline, dry][tune:fall]^Taurus. [act:the aside, a smile][tune:fall]Greek for ^bull.",
+      "[act:serious again, fair]And the careful historian ^Thucydides, in the {400s|four hundreds} BCE, treated Minos as ^history: [act:quoting, clear][tune:fall]the first ruler known to have built a navy, and master of the Greek ^sea."
+     ],
+     "shots": [
+      {
+       "id": "s11",
+       "say": "Now, the catch. Homer, around 700 BCE, knows King Minos of Knossos, and a dancing floor that Daedalus made there for Ariadne. A maze? A monster? Not a word.",
+       "draw": "A time axis 1500 BCE to 2100 CE draws across the panel. At 700 BCE a scroll pops (label 'Homer'); above it a ring of small dancing figures (label 'a dancing floor'); two lilac words 'maze?' and 'monster?' pop beside it and are struck through."
+      },
+      {
+       "id": "s12",
+       "say": "Vase painters show Theseus fighting a bull-headed man by about 550 BCE. But our fullest tellings come from writers like Plutarch, around 100 CE, more than fourteen centuries after the palace's last great fire. Almost as if the first full account of the fall of Rome were written this year.",
+       "draw": "Same axis: a black-figure vase pops at about 550 BCE; a scroll at 100 CE (label 'Plutarch'); a flame at about 1350 BCE ('last great fire'); a red bar draws from the flame to Plutarch, label 'over 14 centuries'. Then a second bar of the same scale draws from 476 CE to today (label 'the fall of Rome to today').",
+       "reuse": "alias of s11"
+      },
+      {
+       "id": "s13",
+       "say": "And even the ancients argued over it. Plutarch reports an older version: the Labyrinth was just a prison, and the monster a hated general named... Taurus. Greek for bull.",
+       "draw": "A stone wall in lamp light: at left a barred prison door (label 'a prison'); a small oil lamp on the floor; a soldier with crested helmet and upright spear rises in (label 'Taurus', lilac); behind him on the wall his shadow, taller, has a bull's head and horns. Chip 'tauros = bull' on 'Greek for bull'."
+      },
+      {
+       "id": "s14",
+       "say": "And the careful historian Thucydides, in the 400s BCE, treated Minos as history: the first ruler known to have built a navy, and master of the Greek sea.",
+       "draw": "Map of the Aegean, View(21.5, 29.5, 34.6, 39.6): Crete at the bottom; small ships fan out from Crete to the Cyclades as dashed lilac arcs; a lilac halo over the sea with the label 'master of the sea?'; label 'Thucydides, 400s BCE'. Labels Crete, Cyclades, Athens. Scale 100 km."
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:aside][act:the landing, warm][tune:fall]So the story reaches us late, and already argued ^over. [act:the invitation, leaning in][tune:fall]Time to dig under ^it."
+     ],
+     "shots": [
+      {
+       "id": "s15",
+       "say": "So the story reaches us late, and already argued over. Time to dig under it.",
+       "draw": "Back to the s4 panel, the camera a little closer and lower: a feathered dark veil turns the story's maze into a ghost, the palace plan brightens in lamp light, and a spade rises in beside it on 'dig under it'.",
+       "reuse": "alias of s4, new cam"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Digging for Minos",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:setting the scene, measured]Knossos stands on a low hill near Crete's north ^coast. [act:storytelling, a smile]The first person to dig here, in {1878|eighteen seventy-eight}, was a Cretan merchant called, of all ^things, ^Minos: [act:plain]Minos ^Kalokairinos. [act:the find, intrigued][tune:fall]He found storerooms of giant ^jars.",
+      "[act:introducing him, warm]Then, in March {1900|nineteen hundred}, came Arthur ^Evans, keeper of the Ashmolean Museum in ^Oxford. [act:his quest, intrigued][tune:fall]He had come to Crete hunting a lost ^script, engraved on little seal ^stones."
+     ],
+     "shots": [
+      {
+       "id": "s16",
+       "say": "The first person to dig here, in 1878, was a Cretan merchant called, of all things, Minos: Minos Kalokairinos. He found storerooms of giant jars.",
+       "draw": "Day landscape (sky, day): the low hill of Kephala with olive trees, the sea far off at left; a small inset map of Crete with Knossos marked, top right (label 'Crete'). On the name, a trench opens in the slope and a man with a spade rises in (label 'Minos Kalokairinos', chip '1878'); on 'storerooms', four tall storage jars (pithoi) rise one by one in the trench (label 'storerooms')."
+      },
+      {
+       "id": "s17",
+       "say": "Then, in March 1900, came Arthur Evans, keeper of the Ashmolean Museum in Oxford. He had come to Crete hunting a lost script, engraved on little seal stones.",
+       "draw": "Lamp-lit study: a figure in a hat with a walking stick (label 'Arthur Evans'), chip 'March 1900'; on 'seal stones', three large round seal stones pop at right, each engraved with small signs, glowing; label 'seal stones'."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:the finds, delighted]In early April, his workmen found the first of thousands of clay ^tablets. [act:the next find, intrigued][tune:fall]And a stone seat against a painted ^wall, in a room Evans called the Throne ^Room.",
+      "[act:the reveal, impressed]Within months, they had uncovered a ^maze. [act:descriptive, building][tune:level]Corridors, staircases, light wells, storerooms, rooms opening onto ^rooms, several storeys ^high, [act:the centre of it][tune:fall]all around a central court about fifty metres ^long. [p:0.93][act:the number, savouring it]The whole complex covered some twenty thousand square ^metres: [act:the punchline][tune:fall]nearly three football ^pitches.",
+      "[d:aside][act:playful, a warm smile]Get lost in there, and you'd start telling stories ^too. [act:his conviction, fair][tune:fall]Evans believed he had found the palace of Minos, and its ^Labyrinth."
+     ],
+     "shots": [
+      {
+       "id": "s18",
+       "say": "In early April, his workmen found the first of thousands of clay tablets. And a stone seat against a painted wall, in a room Evans called the Throne Room.",
+       "draw": "Two vignettes on one floor line: at left a wooden box of clay tablets (chip 'April 1900', label 'clay tablets'); at right the Throne Room: a red wall with two couchant griffins among lilies (dim), gypsum benches, and the gypsum seat with its tall wavy back popping in on 'stone seat' (label 'the Throne Room', small tag 'Evans's name')."
+      },
+      {
+       "id": "s19",
+       "say": "Within months, they had uncovered a maze. Corridors, staircases, light wells, storerooms, rooms opening onto rooms, several storeys high, all around a central court about fifty metres long.",
+       "draw": "Isometric model of the palace, slowly turning: dozens of room blocks of different heights rise around an open central court; long narrow storerooms on the west; a person for scale in the court; label 'central court, about 50 m'.",
+       "reuse": "knossos shot 0 (f11.knossos iso of rooms around the court), redrawn wide"
+      },
+      {
+       "id": "s20",
+       "say": "The whole complex covered some twenty thousand square metres: nearly three football pitches.",
+       "draw": "Plan from above at one scale: the palace footprint (about 20,000 square metres, rooms in thin lines around the court) and beside it three football pitches (105 x 68 m each) drawing in one by one. Labels 'about 20,000 m²', '3 pitches'. Scale bar 50 m."
+      },
+      {
+       "id": "s21",
+       "say": "Get lost in there, and you'd start telling stories too. Evans believed he had found the palace of Minos, and its Labyrinth.",
+       "draw": "Close on the plan of s20: a tiny walker's gold dotted path turns and turns through the rooms and ends at a small '?'; then the footprint of the palace traces itself in lilac dots, label 'the Labyrinth?' (lilac).",
+       "reuse": "alias of s20, new cam"
+      }
+     ]
+    },
+    {
+     "role": "cost",
+     "lines": [
+      "[d:build][act:the catch, candid]But careful: much of what visitors see today is ^Evans. [act:explaining, clear]At first, his team propped up the ruins with ^timber. [act:the turn, plain][tune:fall]Then, above all in the {1920s|nineteen twenties}, they rebuilt in reinforced ^concrete: walls, columns, ^roofs, whole upper ^floors.",
+      "[p:0.93][act:sorting it, careful][tune:rise]So what is Minoan, and what is the {1920s|nineteen twenties}? [act:going through it, clear][tune:level]The stone seat and the lower walls: ^Minoan. [act:same rhythm][tune:level]The famous red columns: concrete copies of wooden ones, which really did widen towards the ^top. [act:same rhythm][tune:level]The griffins around the throne: repainted, and largely invented, say his ^critics. [act:the last one, a raised eyebrow][tune:fall]The dolphin fresco: rebuilt from a handful of ^fragments.",
+      "[act:explaining, a smile]It's like finishing a half-empty jigsaw by painting in the missing pieces ^yourself."
+     ],
+     "shots": [
+      {
+       "id": "s22",
+       "say": "But careful: much of what visitors see today is Evans. At first, his team propped up the ruins with timber. Then, above all in the 1920s, they rebuilt in reinforced concrete: walls, columns, roofs, whole upper floors.",
+       "draw": "Two elevations on one floor line. Left: the ruin as found (low stone stubs, chip '1900'); on 'timber' wooden posts and a beam rise to hold a fragment of upper floor (label 'timber'). Right: the same kind of building rebuilt: Minoan lower walls and the stone seat, then grey concrete rising in the order said: wall tops and a floor slab, four red columns wider at the top with black capitals, a roof slab, and an upper floor in dashed outline (chip '1920s: concrete')."
+      },
+      {
+       "id": "s23",
+       "say": "So what is Minoan, and what is the 1920s? The stone seat and the lower walls: Minoan. The famous red columns: concrete copies of wooden ones, which really did widen towards the top.",
+       "draw": "Same panel, colour-coded as said: gold frames glow round the stone seat's wall and the lower walls (label 'Minoan'); blue dashed frames pop round the four columns (label '1920s copies'); top left, a small wooden column, a tree trunk wider at the top than at the foot, rises in (label 'Minoan: wood').",
+       "reuse": "alias of s22, same cam"
+      },
+      {
+       "id": "s24",
+       "say": "The griffins around the throne: repainted, and largely invented, say his critics. The dolphin fresco: rebuilt from a handful of fragments.",
+       "draw": "Two painted walls side by side: on red, a couchant griffin with a crest of plumes among lilies, all in dashed lilac outline, with three small solid gold fragments popping in (label 'griffins: repainted'); on pale blue, three leaping dolphins with yellow side stripes and small fish, dashed, with three solid fragments (label 'dolphins: a few fragments')."
+      },
+      {
+       "id": "s25",
+       "say": "It's like finishing a half-empty jigsaw by painting in the missing pieces yourself.",
+       "draw": "A jigsaw of 4 x 3 pieces: five real pieces (warm, solid) pop; the empty places are then painted in by a brush, dashed lilac. Labels 'found', 'painted in'."
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:aside][act:fair, warm][tune:level]His critics say the concrete set his guesses in ^stone. [act:same rhythm][tune:level]His admirers say it turned a heap of ruins into a place anyone can read@present. [act:the landing, a smile][tune:fall]Both have a ^point."
+     ],
+     "shots": [
+      {
+       "id": "s26",
+       "say": "His critics say the concrete set his guesses in stone. His admirers say it turned a heap of ruins into a place anyone can read. Both have a point.",
+       "draw": "A balance: on the left pan, a grey concrete block with a lilac '?' set in it (label 'guesses set in stone'); on the right pan, three small visitors before a red column (label 'readable for all'); the beam stays level, a soft glow at the pivot on 'Both have a point'. Labels 'his critics', 'his admirers'."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Bulls and double axes",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:the question, curious][tune:rise]And what about the bull at the heart of the ^story? [act:delighted][tune:fall]At Knossos, bulls are ^everywhere.",
+      "[act:describing it, vivid]Look again at that painting: three young people and a bull at full ^gallop. [act:going through them][tune:level]One grips the ^horns, one vaults over its ^back, one waits behind, arms ^out. [act:counting on][tune:level]There are stone vessels carved as bulls' ^heads. [act:the last one][tune:fall]And on the rooftops, stone ^horns, which Evans called horns of ^consecration."
+     ],
+     "shots": [
+      {
+       "id": "s27",
+       "say": "Look again at that painting: three young people and a bull at full gallop. One grips the horns, one vaults over its back, one waits behind, arms out.",
+       "draw": "The fresco again, drawn larger (the border cropped at the panel's edges): numbered markers pop outside the figures with leader lines as each is described: 1 'grips the horns' at left, 2 'vaults over' by the acrobat's legs, 3 'waits behind' at right.",
+       "reuse": "s1 redrawn closer"
+      },
+      {
+       "id": "s28",
+       "say": "There are stone vessels carved as bulls' heads. And on the rooftops, stone horns, which Evans called horns of consecration.",
+       "draw": "Left: a bull's-head vessel in dark stone, in profile, with a white inlay round the nostrils, a crystal eye ringed in red, carved curls and gilded horns (label 'bull's-head vessel'). Right: the top of a stone building with a parapet; five pairs of stone horns rise along its roof one by one (label 'horns of consecration', small tag 'Evans's name')."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][p:0.93][act:the puzzle, intrigued][tune:rise]Could anyone really make that ^leap? [act:fair, plain]More than a century after the painting was found, nobody has worked out exactly ^how. [act:the reading, careful][tune:fall]The painter may have put several moments into one ^scene.",
+      "[act:the thought, slower][tune:rise]Did a tale of young people and a deadly bull grow from rituals like ^this? [act:honest][tune:fall]A tempting thought, and only a ^thought."
+     ],
+     "shots": [
+      {
+       "id": "s29",
+       "say": "Could anyone really make that leap? More than a century after the painting was found, nobody has worked out exactly how. The painter may have put several moments into one scene.",
+       "draw": "A strip of three small frames, each with the bull and one youth: 1 gripping the horns, 2 upside down over the back, 3 landing behind; a dashed gold arc joins them and a '?' pops on 'exactly how'. On 'several moments', a larger frame below shows all three youths and the bull in one picture (label 'several moments in one?', lilac)."
+      },
+      {
+       "id": "s30",
+       "say": "Did a tale of young people and a deadly bull grow from rituals like this? A tempting thought, and only a thought.",
+       "draw": "Same panel: a lilac dotted arrow curves from the one-picture frame to a small lilac maze with the Minotaur in it; a '?' on the arrow; label 'a tempting thought'.",
+       "reuse": "alias of s29"
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:the next clue, intrigued]Then there's the double ^axe. [act:explaining, clear][tune:fall]Small double axes@axe were left as offerings in great numbers, and the shape returns again and again on the palace ^walls.",
+      "[p:0.93][act:the theory, building]Plutarch, again, says the Lydians of Anatolia called the axe a ^labrys. [act:the leap, delighted]So in {1892|eighteen ninety-two}, a German scholar suggested that labyrinth came from ^labrys, [act:the payoff][tune:fall]and Evans took it up: Knossos, the house@noun of the double ^axe.",
+      "[d:build][sfx:hit][act:the twist, fair]Many linguists now ^doubt it. [act:explaining, plain][tune:level]Labyrinth is older than Greek, and its meaning ^uncertain. [act:same rhythm][tune:level]Double axes@axe turn up in other Cretan palaces ^too. [act:the clincher, careful][tune:fall]And the oldest spelling of the word we have begins not with an L, but with a ^D."
+     ],
+     "shots": [
+      {
+       "id": "s31",
+       "say": "Then there's the double axe. Small double axes@axe were left as offerings in great numbers, and the shape returns again and again on the palace walls.",
+       "draw": "A large bronze double axe on a long shaft glows at left (label 'the labrys'); on 'offerings', nine small double axes pop along a shelf (label 'offerings'); on 'palace walls', three stone blocks appear, each with a double-axe sign cut into it (label 'on the walls')."
+      },
+      {
+       "id": "s32",
+       "say": "Plutarch, again, says the Lydians of Anatolia called the axe a labrys. So in 1892, a German scholar suggested that labyrinth came from labrys, and Evans took it up: Knossos, the house of the double axe.",
+       "draw": "Word chain: a small axe and a scroll, then 'labrys' in large serif (tag 'Lydian, says Plutarch'); a lilac dotted arrow with chip '1892' to 'labyrinthos'; then a building outline with an axe over its door (label 'house of the double axe', lilac, tag 'Evans')."
+      },
+      {
+       "id": "s33",
+       "say": "Many linguists now doubt it. Labyrinth is older than Greek, and its meaning uncertain. Double axes turn up in other Cretan palaces too. And the oldest spelling of the word we have begins not with an L, but with a D.",
+       "draw": "Three cards: 'labyrinthos' with a lilac '?' (label 'older than Greek'); a small map of Crete with double-axe icons popping at Knossos, Phaistos, Malia and Zakros (label 'other palaces too'); the spelling 'da-pu₂-ri-to-jo' with its 'da' in gold (label 'D, not L')."
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:aside][act:the landing, warm][tune:fall]A lovely idea, and still only an ^idea."
+     ],
+     "shots": [
+      {
+       "id": "s34",
+       "say": "A lovely idea, and still only an idea.",
+       "draw": "Back on the word chain of s32: a lilac '?' pops on the dotted link between labrys and labyrinthos, with the note 'still only an idea'.",
+       "reuse": "alias of s32"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Honey for the Labyrinth",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:turning a page, intrigued][tune:rise]Remember the script Evans came ^for? [act:explaining, clear]At Knossos he found thousands of clay ^tablets, [act:the twist, light][tune:fall]and he sorted Crete's writing into two scripts, Linear ^A and Linear ^B.",
+      "[act:the mystery, lower]Linear ^A, used@verb from about {1800|eighteen hundred} to {1450|fourteen fifty} BCE, is still ^unread. [p:0.93][act:explaining, a picture]We can sound out many of its signs, but we don't know the ^language: [act:the comparison, amused][tune:fall]like reading a Finnish menu aloud, with no idea what you've just ^ordered."
+     ],
+     "shots": [
+      {
+       "id": "s35",
+       "say": "At Knossos he found thousands of clay tablets, and he sorted Crete's writing into two scripts, Linear A and Linear B.",
+       "draw": "A storeroom by lamplight, shelves filling with small clay tablets; two tablets come forward side by side, each with rows of schematic signs, labelled 'Linear A' and 'Linear B'; label 'thousands of tablets'."
+      },
+      {
+       "id": "s36",
+       "say": "Linear A, used from about 1800 to 1450 BCE, is still unread. We can sound out many of its signs, but we don't know the language: like reading a Finnish menu aloud, with no idea what you've just ordered.",
+       "draw": "Left: the Linear A tablet with a chip 'about 1800 to 1450 BCE'; small sound marks pop under its signs, then a lilac '?' for the meaning. Right: a cafe menu card with three Finnish dishes; a diner reads it aloud (sound arcs) and a '?' rises over the plate. Labels 'still unread', 'sound, not sense'."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:storytelling, warm]Linear B fell to a young ^architect. [act:the anecdote, a smile]In {1936|nineteen thirty-six}, a fourteen-year-old schoolboy, Michael ^Ventris, heard Evans speak about the tablets in ^London, [act:the vow, quiet][tune:fall]and set his heart on reading ^them.",
+      "[act:explaining, clear]Building on the work of the American scholar Alice ^Kober, who showed that its words changed their ^endings, [act:the reveal, delighted]he cracked it in {1952|nineteen fifty-two}. [p:0.93][act:quoting him, warm][tune:fall]On BBC radio, he called the language a difficult and archaic Greek, [act:the punchline, a smile][tune:fall]but Greek ^nevertheless."
+     ],
+     "shots": [
+      {
+       "id": "s37",
+       "say": "Linear B fell to a young architect. In 1936, a fourteen-year-old schoolboy, Michael Ventris, heard Evans speak about the tablets in London, and set his heart on reading them.",
+       "draw": "A lecture hall: an elderly speaker at a lectern holds up a tablet (label 'Arthur Evans'); rows of listeners in silhouette; one small figure in the front row lights up gold (label 'Michael Ventris, 14'); chip 'London, 1936'."
+      },
+      {
+       "id": "s38",
+       "say": "Building on the work of the American scholar Alice Kober, who showed that its words changed their endings, he cracked it in 1952. On BBC radio, he called the language a difficult and archaic Greek, but Greek nevertheless.",
+       "draw": "Left: three forms of one word as rows of schematic signs, their last sign glowing gold in a box (label 'Alice Kober: changing endings'); a 6 by 5 grid whose cells fill one by one (label 'Ventris's grid', chip '1952'). Right: a 1950s radio set with sound arcs (tag 'BBC, 1952'); the quote 'but Greek nevertheless' in gold italic."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][sfx:hit][act:the twist, fair][tune:fall]^Greek. [act:explaining, clear]Evans had assumed it ^wasn't, and so, at first, had ^Ventris. [p:0.93][act:the consequence, slower][tune:fall]So when these tablets were written, Greek speakers, the Mycenaeans of the mainland, were keeping the palace's ^accounts, and most likely ruling ^Knossos.",
+      "[d:build][sfx:shimmer][act:intrigued, building]And among those Greek accounts is a short list of offerings of ^honey. [act:reading it, slow][tune:level]Honey for all the ^gods, [act:the reveal, hushed wonder][tune:fall]and the same again for the Mistress of the ^Labyrinth. [p:0.93][act:careful, fair]That is the usual reading of two short ^words.",
+      "[act:the inversion, a wry smile][tune:level]In the myth, Athens pays tribute to ^Crete. [act:the history, plain][tune:fall]In the tablets, Greeks end up running ^Knossos."
+     ],
+     "shots": [
+      {
+       "id": "s39",
+       "say": "Greek. Evans had assumed it wasn't, and so, at first, had Ventris.",
+       "draw": "Same panel as s38: the word 'Greek' stamps in gold over the grid; two small thought bubbles 'not Greek' (Evans, Ventris) pop and are struck through.",
+       "reuse": "alias of s38"
+      },
+      {
+       "id": "s40",
+       "say": "So when these tablets were written, Greek speakers, the Mycenaeans of the mainland, were keeping the palace's accounts, and most likely ruling Knossos.",
+       "draw": "Map View(20.5, 27.5, 34.6, 38.8): mainland Greece with pins 'Mycenae' and 'Pylos'; a gold arrow sweeps from the mainland down to 'Knossos' on Crete, where a small stack of tablets glows; label 'Mycenaean Greeks', chip 'after about 1450 BCE'. Scale 100 km."
+      },
+      {
+       "id": "s41",
+       "say": "And among those Greek accounts is a short list of offerings of honey. Honey for all the gods, and the same again for the Mistress of the Labyrinth. That is the usual reading of two short words.",
+       "draw": "The honey tablet large in lamp light (chip 'KN Gg 702'): two lines of schematic signs, each ending in the jar sign. Line 1 highlights and 'honey: all the gods' appears; line 2 glows gold with 'da-pu₂-ri-to-jo po-ti-ni-ja' and, rising, 'the Mistress of the Labyrinth'; two equal honey jars glow beside the lines; lilac tag 'the usual reading'."
+      },
+      {
+       "id": "s42",
+       "say": "In the myth, Athens pays tribute to Crete. In the tablets, Greeks end up running Knossos.",
+       "draw": "Two rows like a see-saw of power. Top (lilac, 'the myth'): Crete crowned, a black-sailed ship of youths coming from Athens. Bottom (gold, 'the tablets'): Knossos with Greek scribes and the crown now on the Greek side."
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:aside][act:the landing, warm][tune:fall]So the word labyrinth was already written at Knossos, centuries before ^Homer. [act:the caveat, gentle][tune:fall]What it named, the tablet doesn't ^say."
+     ],
+     "shots": [
+      {
+       "id": "s43",
+       "say": "So the word labyrinth was already written at Knossos, centuries before Homer. What it named, the tablet doesn't say.",
+       "draw": "Back on the honey tablet: a short time strip under it from a small tablet (about 1400 BCE) to a scroll for Homer (about 700 BCE), label 'centuries before Homer'; a lilac '?' with 'named what?'.",
+       "reuse": "alias of s41, new cam"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The volcano next door",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:setting the scene, quieter]From Knossos, Crete looked out across the ^sea. [act:explaining, clear]Minoan-style towns and goods spread across the southern Aegean, to islands like Kythera and ^Rhodes, [act:the image, warm][tune:fall]and Egyptian tomb paintings show Cretan-looking visitors, the ^Keftiu, bearing ^gifts.",
+      "[act:the neighbour, ominous]And a little over a hundred kilometres to the north lay another island: ^Thera, today's ^Santorini.",
+      "[d:reveal][act:dramatic, lower]Some time in the Bronze Age, its volcano ^exploded, in one of the largest eruptions in human ^history. [act:the detail, hushed]The town of ^Akrotiri vanished under the ^ash. [p:0.9][act:the number, savouring it]The eruption threw out some thirty to forty cubic kilometres of ^rock: [act:the comparison][tune:fall]enough to bury all of Greater London some twenty metres ^deep."
+     ],
+     "shots": [
+      {
+       "id": "s44",
+       "say": "Minoan-style towns and goods spread across the southern Aegean, to islands like Kythera and Rhodes,",
+       "draw": "Map View(21.6, 29.2, 34.6, 37.7): Crete with Knossos pinned; gold dashed arcs run from Knossos to Kythera, Thera and Rhodes, where gold dots pop with their names; label 'Minoan reach'. Scale 100 km."
+      },
+      {
+       "id": "s45",
+       "say": "and Egyptian tomb paintings show Cretan-looking visitors, the Keftiu, bearing gifts.",
+       "draw": "An Egyptian tomb painting in registers on a pale plaster wall: four striding figures with long hair and patterned kilts carry gifts (a tall jar, a cup, a bull's-head vessel); a column of small hieroglyph-like signs; label 'the Keftiu', chip 'Egypt, 1400s BCE'."
+      },
+      {
+       "id": "s46",
+       "say": "And a little over a hundred kilometres to the north lay another island: Thera, today's Santorini.",
+       "draw": "Back on the map of s44, closer on Crete and Thera: a dashed line from Knossos to Thera, label 'about 110 km'; Thera pulses red.",
+       "reuse": "alias of s44, new cam"
+      },
+      {
+       "id": "s47",
+       "say": "Some time in the Bronze Age, its volcano exploded, in one of the largest eruptions in human history. The town of Akrotiri vanished under the ash.",
+       "draw": "Thera at dusk in side view: the island's ridge and its volcano over the sea; a glow at the crater; a billowing column of ash rises and spreads into a wide cloud, ash falling in streaks beneath; on 'vanished', a grey layer of ash fills over the little town of flat-roofed houses on the slope. Labels 'Thera', 'Akrotiri', 'ash'."
+      },
+      {
+       "id": "s48",
+       "say": "The eruption threw out some thirty to forty cubic kilometres of rock: enough to bury all of Greater London some twenty metres deep.",
+       "draw": "London to scale (5.5 units a metre): a row of terraced houses about 9 m tall and the Elizabeth Tower (96 m, label 'Big Ben, 96 m'); chip '30 to 40 km³ of rock'; on 'twenty metres', a translucent grey layer fills to 20 m over everything (dimension and label 'about 20 m'; label 'all of Greater London')."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][p:0.93][act:the question, curious][tune:rise]^When? [act:explaining, clear][tune:level]Radiocarbon has pointed to the late {1600s|sixteen hundreds} ^BCE; [act:same rhythm][tune:level]pottery and links with Egypt, to a century or so ^later. [act:the news, bright][tune:fall]In {2018|twenty eighteen}, tree rings counted year by year nudged the radiocarbon dates towards the {1500s|fifteen hundreds}."
+     ],
+     "shots": [
+      {
+       "id": "s49",
+       "say": "When? Radiocarbon has pointed to the late 1600s BCE; pottery and links with Egypt, to a century or so later. In 2018, tree rings counted year by year nudged the radiocarbon dates towards the 1500s.",
+       "draw": "Timeline 1700 to 1300 BCE: a blue band 'radiocarbon' over the late 1600s; an amber band 'archaeology' about a century later; on 'tree rings', a tree-ring wedge with chip '2018' and a paler blue extension with an arrow towards the 1500s."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:build][sfx:hit][act:the turn, fair]But Knossos didn't end with the ^eruption. [act:the evidence, steady]Its palace carried on for generations: to some, its finest ^years. [act:the next blow, grave][tune:fall]Then, around {1450|fourteen fifty} BCE, fires swept palace after palace across ^Crete. [act:the survivor, plain][tune:fall]Knossos was damaged, but lived on, now with Greek-speaking ^masters.",
+      "[act:the end, quiet][tune:fall]Its last great fire is usually dated to around {1350|thirteen fifty} BCE, and even that date is still ^debated."
+     ],
+     "shots": [
+      {
+       "id": "s50",
+       "say": "But Knossos didn't end with the eruption. Its palace carried on for generations: to some, its finest years. Then, around 1450 BCE, fires swept palace after palace across Crete. Knossos was damaged, but lived on, now with Greek-speaking masters.",
+       "draw": "Map of Crete: palace dots at Knossos, Phaistos, Malia and Zakros glow gold; chip 'about 1450 BCE'; on 'fires swept', flames pop at the palaces one by one (label 'fires across Crete'); Knossos flickers but keeps its glow, and a boar's-tusk helmet (the Mycenaean mark) pops beside it (label 'Greek-speaking masters')."
+      },
+      {
+       "id": "s51",
+       "say": "Its last great fire is usually dated to around 1350 BCE, and even that date is still debated.",
+       "draw": "Back on the timeline of s49: a gold bar 'the palace' runs on past the eruption windows; flames at about 1450 and about 1350 BCE; a lilac dotted box round 1350 with a '?', label 'debated'.",
+       "reuse": "alias of s49"
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:aside][act:the landing, warm]Long after, the Greek city of Knossos made the story its ^own. [act:the image, a smile][tune:fall]From the {400s|four hundreds} BCE, it stamped a labyrinth on its ^coins, [act:the last word][tune:fall]and on some, the ^Minotaur."
+     ],
+     "shots": [
+      {
+       "id": "s52",
+       "say": "Long after, the Greek city of Knossos made the story its own. From the 400s BCE, it stamped a labyrinth on its coins, and on some, the Minotaur.",
+       "draw": "Two silver coins in lamp light: on one a square labyrinth draws itself; on the other the Minotaur, inside a half ring of small dots (stars); label 'coins of Knossos', chip 'from the 400s BCE'."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The weighing",
+   "beats": [
+    {
+     "role": "weigh",
+     "lines": [
+      "[d:verdict][act:calm, laying it out]So, let's ^weigh it. [act:steady authority, counting][tune:level]Established: a great palace of hundreds of rooms, right where the myth puts ^Minos. [act:steady][tune:level]Established: bulls at the heart of its art and ^ritual. [act:steady, careful][tune:fall]*Strong ^evidence*: the word labyrinth in the palace's own records@noun, on the usual ^reading.",
+      "[p:0.95][act:weighing it, calm authority][tune:rise]So does@verb the myth remember a real palace, a bull cult and a sea ^power? [act:the verdict, warm][tune:fall]*^Plausible*. [act:the reason, honest][tune:fall]The chain of memory, from the palace to the Greek storytellers, can't be ^traced.",
+      "[d:build][act:the next one, careful][tune:rise]Was the palace itself the ^Labyrinth? [act:honest, even][tune:fall]*Open ^question*: [act:the reasons, plain][tune:fall]the tablet never says where the Labyrinth ^was, and some look to caves ^instead. [act:the last one, gentle][tune:rise]And a Minotaur, half man, half ^bull, as a living ^creature? [act:plain, kind][tune:fall]*Ruled ^out*. [act:a smile][tune:fall]That part is ^story."
+     ],
+     "shots": [
+      {
+       "id": "s53",
+       "say": "Established: a great palace of hundreds of rooms, right where the myth puts Minos. Established: bulls at the heart of its art and ritual. Strong evidence: the word labyrinth in the palace's own records, on the usual reading.",
+       "draw": "A ledger fills row by row, each row a small pictogram, a short text and a grade chip that pops as the grade is said: 'a great palace' Established; 'a bull cult' Established; 'the word labyrinth' Strong evidence."
+      },
+      {
+       "id": "s54",
+       "say": "So does@verb the myth remember a real palace, a bull cult and a sea power? Plausible. The chain of memory, from the palace to the Greek storytellers, can't be traced.",
+       "draw": "Its own panel: a small palace plan at left ('the palace') and a scroll at right ('Greek storytellers'), joined by a chain whose middle links are lilac and dotted (label 'can't be traced'); above, 'palace, bull cult, sea power' and the large gold chip 'Plausible' popping on the word."
+      },
+      {
+       "id": "s55",
+       "say": "Was the palace itself the Labyrinth? Open question: the tablet never says where the Labyrinth was, and some look to caves instead. And a Minotaur, half man, half bull, as a living creature? Ruled out. That part is story.",
+       "draw": "Back on the ledger: row 4 'the palace as Labyrinth' with chip 'Open question' (a small cave mouth pops beside it on 'caves', label 'caves?'); row 5 'a living Minotaur' with chip 'Ruled out' and a red strike across its silhouette.",
+       "reuse": "alias of s53"
+      }
+     ]
+    },
+    {
+     "role": "test",
+     "lines": [
+      "[d:tension][act:open, genuinely curious][tune:fall]What would change our ^minds? [act:clear, practical][tune:level]Linear A, read@past at last, so the Minoans could tell us what they called their own ^palace. [act:building][tune:level]A tablet that says where the Mistress of the Labyrinth was ^worshipped. [act:the last, practical][tune:fall]Or a firm date for the palace's last fire, to measure how far the memory had to ^travel."
+     ],
+     "shots": [
+      {
+       "id": "s56",
+       "say": "What would change our minds? Linear A, read at last, so the Minoans could tell us what they called their own palace. A tablet that says where the Mistress of the Labyrinth was worshipped. Or a firm date for the palace's last fire, to measure how far the memory had to travel.",
+       "draw": "Three wanted items in lilac dashed outline, popping as named: a Linear A tablet with a speech bubble ('their own name', label 'Linear A, read'); a tablet with a map pin ('where?'); a flame and a scroll on a line with a dimension between them ('how far?')."
+      }
+     ]
+    },
+    {
+     "role": "close",
+     "lines": [
+      "[d:tension][p:0.93][act:the last word, quiet wonder][tune:fall]Memory may have given the story its ^palace, its ^bulls and its ^word. [act:same rhythm][tune:fall]The story gave it a ^monster. [act:warm, inviting][tune:fall]Weigh it ^yourself."
+     ],
+     "shots": [
+      {
+       "id": "s57",
+       "say": "Memory may have given the story its palace, its bulls and its word. The story gave it a monster. Weigh it yourself.",
+       "draw": "The opening fresco of s1 again, the camera a touch closer, a warm low glow over it; the story's maze glimmers faintly in lilac at the top left of the wall. Then the end card (verdict chip 'Plausible').",
+       "reuse": "alias of s1, new cam"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "description": "A palace wall on Crete painted with a young acrobat flying over a charging bull. A Greek myth of King Minos, a maze and a monster, half man and half bull. And a clay tablet from the same palace that sends honey to the Mistress of the Labyrinth. Was the Labyrinth a real place?\n\nWe read the myth and see how late it was written down; follow Minos Kalokairinos and Arthur Evans into the hill of Knossos, and sort what is Minoan from what is 1920s concrete; look at the bulls and the double axes, and the debated link between labrys and labyrinth; watch Michael Ventris read Linear B as Greek, and find the word labyrinth in the palace's own records; then set the eruption of Thera and the fall of the palaces against the story. Verdict: Plausible. The myth plausibly remembers a real palace, a bull cult and a sea power. Whether the palace itself was the Labyrinth is an Open question. A living Minotaur is Ruled out.\n\nChapters\n0:00 Cold open\nmm:ss A monster in a maze\nmm:ss Digging for Minos\nmm:ss Bulls and double axes\nmm:ss Honey for the Labyrinth\nmm:ss The volcano next door\nmm:ss The weighing\n\nSources\nEvans, A. J. 1921-1935, The Palace of Minos at Knossos, 4 vols in 6 (Macmillan, London); index volume 1936\nEvans, A. J. 1901, Mycenaean Tree and Pillar Cult and its Mediterranean Relations, Journal of Hellenic Studies 21: 99-204, doi:10.2307/623870\nMacGillivray, J. A. 2000, Minotaur: Sir Arthur Evans and the Archaeology of the Minoan Myth (Jonathan Cape, London; Hill and Wang, New York)\nCastleden, R. 1990, The Knossos Labyrinth: A New View of the 'Palace of Minos' at Knossos (Routledge)\nVentris, M. & Chadwick, J. 1953, Evidence for Greek Dialect in the Mycenaean Archives, Journal of Hellenic Studies 73: 84-103, doi:10.2307/628239\nVentris, M. & Chadwick, J. 1956, Documents in Mycenaean Greek (Cambridge University Press): the Knossos tablet KN Gg 702\nChadwick, J. 1958, The Decipherment of Linear B (Cambridge University Press)\nKerenyi, C. 1976, Dionysos: Archetypal Image of Indestructible Life (Princeton University Press), on KN Gg 702: honey to all the gods and, in equal amount, to the Mistress of the Labyrinth\nManning, S. W., Bronk Ramsey, C., Kutschera, W., Higham, T., Kromer, B., Steier, P. & Wild, E. M. 2006, Chronology for the Aegean Late Bronze Age 1700-1400 B.C., Science 312(5773): 565-569, doi:10.1126/science.1125682\nPearson, C. L., Brewer, P. W., Brown, D., Heaton, T. J., Hodgins, G. W. L., Jull, A. J. T., Lange, T. & Salzer, M. W. 2018, Annual radiocarbon record indicates 16th century BCE date for the Thera eruption, Science Advances 4(8): eaar8241, doi:10.1126/sciadv.aar8241\nMayer, M. 1892, Mykenische Beitrage II, Jahrbuch des Kaiserlich Deutschen Archaologischen Instituts 7: 191 (labyrinthos from labrys)\nBeekes, R. S. P. 2010, Etymological Dictionary of Greek (Brill): labyrinthos a pre-Greek word, the link with labrys speculative\nPlutarch, Life of Theseus 15, 16 and 19 (about 100 CE), trans. B. Perrin, Loeb Classical Library 1914 (the tribute every nine years; Philochorus's prison and the general Taurus)\nPlutarch, Greek Questions 45 (the Lydians call the axe labrys)\nThucydides, History of the Peloponnesian War 1.4, trans. R. Crawley (Minos, the first known to have a navy, master of the Hellenic sea)\nOvid, Metamorphoses 8 (Daedalus could scarcely find the way out of his own labyrinth), trans. S. Garth, J. Dryden et al.\nHomer, Iliad 18.590-592 (the dancing floor Daedalus made at Knossos for Ariadne); Odyssey 19.178-179 (Minos at Knossos)\nBritish School at Athens, Knossos Research Centre: history of Knossos (Evans's estate passed to the School, 1926; to the Greek state, 1952-1955)\nHeraklion Archaeological Museum: the Bull-Leaping Fresco (about 1450 BCE, 78 x 105 cm, from the upper floor of the palace's east wing) and the bull's-head rhyton",
+ "sources": [
+  "Evans, A. J. 1921-1935, The Palace of Minos at Knossos, 4 vols in 6 (Macmillan, London); index volume 1936",
+  "Evans, A. J. 1901, Mycenaean Tree and Pillar Cult and its Mediterranean Relations, Journal of Hellenic Studies 21: 99-204, doi:10.2307/623870",
+  "MacGillivray, J. A. 2000, Minotaur: Sir Arthur Evans and the Archaeology of the Minoan Myth (Jonathan Cape, London; Hill and Wang, New York)",
+  "Castleden, R. 1990, The Knossos Labyrinth: A New View of the 'Palace of Minos' at Knossos (Routledge)",
+  "Ventris, M. & Chadwick, J. 1953, Evidence for Greek Dialect in the Mycenaean Archives, Journal of Hellenic Studies 73: 84-103, doi:10.2307/628239",
+  "Ventris, M. & Chadwick, J. 1956, Documents in Mycenaean Greek (Cambridge University Press): the Knossos tablet KN Gg 702",
+  "Chadwick, J. 1958, The Decipherment of Linear B (Cambridge University Press)",
+  "Kerenyi, C. 1976, Dionysos: Archetypal Image of Indestructible Life (Princeton University Press), on KN Gg 702: honey to all the gods and, in equal amount, to the Mistress of the Labyrinth",
+  "Manning, S. W., Bronk Ramsey, C., Kutschera, W., Higham, T., Kromer, B., Steier, P. & Wild, E. M. 2006, Chronology for the Aegean Late Bronze Age 1700-1400 B.C., Science 312(5773): 565-569, doi:10.1126/science.1125682",
+  "Pearson, C. L., Brewer, P. W., Brown, D., Heaton, T. J., Hodgins, G. W. L., Jull, A. J. T., Lange, T. & Salzer, M. W. 2018, Annual radiocarbon record indicates 16th century BCE date for the Thera eruption, Science Advances 4(8): eaar8241, doi:10.1126/sciadv.aar8241",
+  "Mayer, M. 1892, Mykenische Beitrage II, Jahrbuch des Kaiserlich Deutschen Archaologischen Instituts 7: 191 (labyrinthos from labrys)",
+  "Beekes, R. S. P. 2010, Etymological Dictionary of Greek (Brill): labyrinthos a pre-Greek word, the link with labrys speculative",
+  "Plutarch, Life of Theseus 15, 16 and 19 (about 100 CE), trans. B. Perrin, Loeb Classical Library 1914 (the tribute every nine years; Philochorus's prison and the general Taurus)",
+  "Plutarch, Greek Questions 45 (the Lydians call the axe labrys)",
+  "Thucydides, History of the Peloponnesian War 1.4, trans. R. Crawley (Minos, the first known to have a navy, master of the Hellenic sea)",
+  "Ovid, Metamorphoses 8 (Daedalus could scarcely find the way out of his own labyrinth), trans. S. Garth, J. Dryden et al.",
+  "Homer, Iliad 18.590-592 (the dancing floor Daedalus made at Knossos for Ariadne); Odyssey 19.178-179 (Minos at Knossos)",
+  "British School at Athens, Knossos Research Centre: history of Knossos (Evans's estate passed to the School, 1926; to the Greek state, 1952-1955)",
+  "Heraklion Archaeological Museum: the Bull-Leaping Fresco (about 1450 BCE, 78 x 105 cm, from the upper floor of the palace's east wing) and the bull's-head rhyton"
+ ],
+ "facts_added": [
+  {
+   "fact": "The Bull-Leaping Fresco of Knossos dates to about 1450 BCE, measures about 78 x 105 cm, was set on an upper floor of the palace's east wing and shows three figures (two pale-skinned, one dark, by Minoan convention) around a charging bull; more than a century after its discovery the leap's technique has no accepted explanation, and the painter may have combined several moments in one image.",
+   "source": "Heraklion Archaeological Museum; Wikipedia 'Bull-Leaping Fresco' (Hood; Younger)"
+  },
+  {
+   "fact": "The fullest written versions of the Minotaur myth are late: Diodorus (1st century BCE), Ovid (8 CE), Plutarch (about 100 CE), Apollodorus (1st to 2nd century CE). Plutarch gives a tribute of seven youths and seven maidens every nine years; other versions say every year.",
+   "source": "Plutarch, Theseus 15; Diodorus 4.61; Wikipedia 'Minotaur'"
+  },
+  {
+   "fact": "Homer knows Minos at Knossos and a dancing floor Daedalus made at Knossos for Ariadne, but does not associate it with a labyrinth; Greek vase paintings of Theseus and the Minotaur are attested from about 575 to 550 BCE.",
+   "source": "Homer, Iliad 18.590-592; Wikipedia 'Minotaur' (list of depictions)"
+  },
+  {
+   "fact": "Plutarch reports Philochorus's version: the Labyrinth was a prison, and the youths were prizes in funeral games won by Minos's hated general Taurus (tauros = bull), whom Theseus defeated in wrestling.",
+   "source": "Plutarch, Theseus 16 and 19"
+  },
+  {
+   "fact": "Thucydides (writing in the late 400s BCE) calls Minos the first person known by tradition to have established a navy, master of what is now called the Hellenic sea.",
+   "source": "Thucydides 1.4, trans. Crawley"
+  },
+  {
+   "fact": "In one telling (Ovid), Daedalus himself could scarcely find his way out of the Labyrinth he had built.",
+   "source": "Ovid, Metamorphoses 8 (Garth, Dryden et al. translation)"
+  },
+  {
+   "fact": "The myth's fullest tellings come more than fourteen centuries after the palace's last great fire: the last major destruction of Knossos by fire is conventionally dated about 1350 BCE, Plutarch wrote about 100 CE (about 1,450 years later); for comparison, the fall of Rome (476 CE) lies 1,550 years before 2026.",
+   "source": "Wikipedia 'Knossos' (destruction about 1350 BCE, date debated); arithmetic"
+  },
+  {
+   "fact": "The first modern excavation at Knossos was by Minos Kalokairinos, a Cretan merchant and antiquarian from Heraklion, in 1878 and 1879; he exposed part of the west wing and storerooms with large storage jars (pithoi).",
+   "source": "Wikipedia 'Knossos'; German Wikipedia 'Palast von Knossos'"
+  },
+  {
+   "fact": "Arthur Evans, Keeper of the Ashmolean Museum in Oxford (1884 to 1908), came to Crete in 1894 after buying seal stones engraved with an unknown script; through the Cretan Exploration Fund he acquired the site and began digging in March 1900; within a few months he had uncovered much of what he called the Palace of Minos.",
+   "source": "Wikipedia 'Arthur Evans'; MacGillivray 2000"
+  },
+  {
+   "fact": "On 5 April 1900 the excavators found the first large cache of Linear B tablets; Knossos has yielded about 4,158 Linear B tablets (some 5,500 fragments).",
+   "source": "Wikipedia 'Linear B'"
+  },
+  {
+   "fact": "The palace complex covered about 20,000 square metres on several storeys around a central court of about 53 x 28 m; about 800 rooms are documented. 20,000 square metres is about 2.8 football pitches of 105 x 68 m.",
+   "source": "Wikipedia 'Knossos'; German Wikipedia 'Palast von Knossos'; arithmetic"
+  },
+  {
+   "fact": "The Throne Room holds a gypsum seat set against the wall, with benches and painted griffins; Evans had the room repainted by Emile Gillieron and his son, and critics hold that some of its best-known frescoes are almost complete inventions.",
+   "source": "Wikipedia 'Knossos'; Wikipedia 'Arthur Evans'"
+  },
+  {
+   "fact": "Evans first supported the ruins with imported timber and then turned to concrete; Piet de Jong, hired in 1922, designed and directed much of the reconstruction every year from 1922 to 1930, including the Queen's Megaron, the Throne Room and the dolphin fresco, which was built around a very small number of fragments. The reinforced-concrete reconstructions made the site legible to visitors but are criticised for going beyond what can be securely reconstructed and for 'cementing' individual interpretations.",
+   "source": "Wikipedia 'Piet de Jong (artist)'; Wikipedia 'Knossos'; German Wikipedia 'Palast von Knossos'"
+  },
+  {
+   "fact": "Minoan columns were of wood, wider at the top than at the base, and generally painted red; the red columns seen at Knossos today are concrete reconstructions.",
+   "source": "Wikipedia 'Minoan architecture'"
+  },
+  {
+   "fact": "Horns of consecration is Evans's term; such stone horns were set on roofs, tombs and shrines in Neopalatial Crete; the large horns on view at Knossos are restorations.",
+   "source": "Wikipedia 'Horns of Consecration'"
+  },
+  {
+   "fact": "Small double axes were common votive offerings in Minoan Crete; the double axe recurs on the palace walls of Knossos and was also found in other Cretan palaces.",
+   "source": "Wikipedia 'Labrys'; German Wikipedia 'Palast von Knossos'; Wikipedia 'Labyrinth'"
+  },
+  {
+   "fact": "Plutarch (Greek Questions 45) says the Lydians call the axe labrys; Maximilian Mayer proposed in 1892 that labyrinthos derives from labrys, and Evans read the labyrinth as the house of the double axe. Labyrinth is a pre-Greek word of uncertain meaning; the labrys link lost traction after the Linear B spelling da-pu2-ri-to-jo was found, and Beekes calls it speculative.",
+   "source": "Wikipedia 'Labyrinth' (Mayer 1892; Plutarch; Beekes 2010; Oxford Classical Dictionary)"
+  },
+  {
+   "fact": "Linear A was used from about 1800 to 1450 BCE; about 1,400 inscriptions survive; approximate sound values can be read from the matching Linear B signs, but the language is unknown and it remains undeciphered.",
+   "source": "Wikipedia 'Linear A'"
+  },
+  {
+   "fact": "Michael Ventris, aged 14, attended Evans's 1936 exhibition and lecture for the British School at Athens's 50th anniversary at Burlington House, London, and resolved to decipher Linear B; an architect, he built on Alice Kober's work on inflection and announced the decipherment on BBC radio on 1 July 1952, calling the language 'a difficult and archaic Greek ... but Greek nevertheless'. He had earlier agreed with Evans that Linear B was not Greek (and long tested a link with Etruscan).",
+   "source": "Wikipedia 'Michael Ventris'; Wikipedia 'Linear B' (Pope 2008); Chadwick 1958"
+  },
+  {
+   "fact": "Ventris and Chadwick published the decipherment in the Journal of Hellenic Studies in 1953; the same year a Pylos tablet (PY Ta 641) with tripod pictograms read ti-ri-po-de confirmed it.",
+   "source": "Ventris & Chadwick 1953, doi:10.2307/628239; Wikipedia 'Michael Ventris'"
+  },
+  {
+   "fact": "After about 1450 BCE Knossos became an important Mycenaean (Greek-speaking) administrative centre.",
+   "source": "Wikipedia 'Knossos'; Wikipedia 'Minoan civilization'"
+  },
+  {
+   "fact": "The Knossos tablet KN Gg 702 records honey to all the gods and, in equal amount, honey to da-pu2-ri-to-jo po-ti-ni-ja, usually read 'the Mistress of the Labyrinth'.",
+   "source": "Ventris & Chadwick, Documents in Mycenaean Greek; Kerenyi 1976 (as cited in Wikipedia 'Ariadne'); Wikipedia 'Potnia'"
+  },
+  {
+   "fact": "Coins minted at Knossos from the fifth century BCE show labyrinth patterns; a Knossian didrachm shows the Labyrinth on one side and the Minotaur on the other.",
+   "source": "Wikipedia 'Minotaur'; Wikipedia 'Labyrinth' (labyrinth on coins as early as 430 BCE)"
+  },
+  {
+   "fact": "Fifteenth-century BCE paintings in Theban tombs in Egypt show Minoan-looking gift bearers called Keftiu; Minoan settlements or strong Minoan influence are known on Kythera, Rhodes (Ialysos), Karpathos and Thera (Akrotiri).",
+   "source": "Wikipedia 'Minoan civilization'"
+  },
+  {
+   "fact": "The Thera (Minoan) eruption, about 110 km north of Crete, was one of the largest volcanic events in human history (VEI 7, about 28 to 41 cubic kilometres of dense rock equivalent) and buried the town of Akrotiri. Spread over Greater London (1,572 square kilometres), 30 to 40 cubic kilometres would lie about 19 to 25 m deep.",
+   "source": "Wikipedia 'Minoan eruption'; Wikipedia 'Greater London'; arithmetic"
+  },
+  {
+   "fact": "Radiocarbon dating placed the eruption in the late 17th century BCE (Manning et al. 2006), archaeological dating in the mid 16th to early 15th century BCE; an annual tree-ring radiocarbon record (Pearson et al. 2018) shifted the calibrated range towards the 16th century BCE.",
+   "source": "Manning et al. 2006, doi:10.1126/science.1125682; Pearson et al. 2018, doi:10.1126/sciadv.aar8241"
+  },
+  {
+   "fact": "The Minoans recovered after the eruption (the following period is often seen as the high point of Minoan culture); Late Minoan IB ended about 1450 BCE with severe destructions across the island; Knossos was partly destroyed but continued.",
+   "source": "Wikipedia 'Minoan eruption'; Wikipedia 'Minoan civilization'; Wikipedia 'Knossos'"
+  },
+  {
+   "fact": "Settlement on the Kephala hill at Knossos began around 7000 BCE; the first palace was built about 1900 BCE; the second palace (about 1700 to 1450 BCE) was the height of Minoan Knossos.",
+   "source": "Wikipedia 'Knossos'"
+  },
+  {
+   "fact": "Some identify the Labyrinth not with the palace but with caves (Skotino) or the tunnels at Gortyn; the Linear B word may be related to a Linear A word du-pu2-re connected with Mount Dikte and Mount Ida, mountains associated with caverns; Evans's identification of the palace with the Labyrinth 'must be treated sceptically' (Howarth).",
+   "source": "Wikipedia 'Labyrinth' (Sarullo 2008; Aspesi 1996)"
+  },
+  {
+   "fact": "Elizabeth Tower (Big Ben) is 96 m tall.",
+   "source": "Wikipedia 'Big Ben'"
+  }
+ ],
+ "names": [
+  {
+   "name": "Knossos",
+   "say": "KNOSS-oss (in LEX)"
+  },
+  {
+   "name": "Minos",
+   "say": "MY-noss"
+  },
+  {
+   "name": "Minotaur",
+   "say": "MY-nuh-tor"
+  },
+  {
+   "name": "Minoan",
+   "say": "mih-NOH-un (plural in LEX)"
+  },
+  {
+   "name": "Pasiphae",
+   "say": "puh-SIF-ih-ee"
+  },
+  {
+   "name": "Daedalus",
+   "say": "DED-uh-lus"
+  },
+  {
+   "name": "Theseus",
+   "say": "THEE-see-us"
+  },
+  {
+   "name": "Ariadne",
+   "say": "air-ee-AD-nee"
+  },
+  {
+   "name": "Plutarch",
+   "say": "PLOO-tark (in LEX)"
+  },
+  {
+   "name": "Taurus",
+   "say": "TOR-us"
+  },
+  {
+   "name": "Thucydides",
+   "say": "thoo-SID-ih-deez"
+  },
+  {
+   "name": "Minos Kalokairinos",
+   "say": "MY-noss kah-loh-keh-REE-noss (say Minos exactly as for the king, so the 'of all things, Minos' joke lands)"
+  },
+  {
+   "name": "Arthur Evans",
+   "say": "AR-thur EV-unz"
+  },
+  {
+   "name": "Ashmolean",
+   "say": "ash-MOH-lee-un"
+  },
+  {
+   "name": "labrys",
+   "say": "LAB-riss"
+  },
+  {
+   "name": "Lydians",
+   "say": "LID-ee-unz"
+  },
+  {
+   "name": "Anatolia",
+   "say": "an-uh-TOH-lee-uh"
+  },
+  {
+   "name": "Michael Ventris",
+   "say": "VEN-triss"
+  },
+  {
+   "name": "Alice Kober",
+   "say": "KOH-ber"
+  },
+  {
+   "name": "Mycenaeans",
+   "say": "my-sih-NEE-unz"
+  },
+  {
+   "name": "Kythera",
+   "say": "KITH-uh-ruh"
+  },
+  {
+   "name": "Keftiu",
+   "say": "KEF-tee-oo"
+  },
+  {
+   "name": "Thera",
+   "say": "THEER-uh (in LEX)"
+  },
+  {
+   "name": "Santorini",
+   "say": "san-tuh-REE-nee (in LEX)"
+  },
+  {
+   "name": "Akrotiri",
+   "say": "ah-kroh-TEER-ee (in LEX)"
+  }
+ ],
+ "words": 1552
+}
