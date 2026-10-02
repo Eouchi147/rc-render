@@ -1018,6 +1018,7 @@ X264 = ["-c:v", "libx264", "-preset", "medium", "-crf", "19", "-maxrate", "14M",
 # (W, H, DPR, VT, css, OVERLAY, _vf, X264 and the 9:16 code paths) is the Shorts' and stays exactly as it is.
 W16, H16, DPR16 = 960, 540, 2                # viewport in CSS px; screenshots at DPR 2 are 1920 x 1080
 FPS16 = 30
+VERD16 = {"unsupported": "Awaiting evidence"}    # the long films say the grade aloud as the brief words it
 LONG_TAIL = 8.0                              # seconds of end card after the last word (room for YouTube end-screen elements)
 MARK16 = ("<svg class='mk' viewBox='0 0 100 100'><defs><clipPath id='rvu{k}'><rect width='100' height='58'/></clipPath></defs>"
           "<circle cx='50' cy='50' r='38' fill='none' stroke='#f5f1eb' stroke-opacity='.9' stroke-width='5'/><circle cx='50' cy='58' r='13' "
@@ -1237,7 +1238,7 @@ def long_data(ep, beats, caps, stamps, counts, kicks, end, cams, fps):
             "src": ep.get("sources", ""), "caps": caps, "beats": [{k: b[k] for k in ("t0", "t1", "role", "visual", "frame")} for b in beats],
             "stamps": stamps, "counts": counts, "kicks": kicks, "end": end, "cams": cams, "fps": 0 if fps < 50 else fps,
             "note": ep.get("note", "Schematic reconstruction · sources in the description"), "claim": ep.get("claim", ""),
-            "vlabel": VERD.get(ep.get("verdict"), ""), "vcol": VCOL.get(ep.get("verdict"), "#fff"), "endLine": ep.get("end_line", ""),
+            "vlabel": VERD16.get(ep.get("verdict")) or VERD.get(ep.get("verdict"), ""), "vcol": VCOL.get(ep.get("verdict"), "#fff"), "endLine": ep.get("end_line", ""),
             "chapters": chapters16(ep, beats), "intro": intro16(ep, beats), "stageSel": f"#sy-{ep['id']} .sy-stage",
             "mark1": MARK16.format(k="a"), "mark2": MARK16.format(k="b")}
 
