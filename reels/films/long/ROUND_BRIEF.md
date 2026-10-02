@@ -1,10 +1,11 @@
 # Long-form round brief: one agent, one film, script to compiled film
 
 You make one complete long-form deep dive (16:9, about 10 minutes) for the history channel Residual Continuum, from
-research to a compiled, previewed film module. Ten films are already finished this way (LF.01 to LF.10: Under Giza,
+research to a compiled, previewed film module. Fifteen films are already finished this way (LF.01 to LF.15: Under Giza,
 Atlantis, Göbekli Tepe, The Comet and the Cold, The UFO Files, Impossible Stones, Gunung Padang, Derinkuyu, Ancient
-Astronauts, Voynich); the owner loved them. The goal of the channel: social buzz and to be the number one reference on
-these subjects, without ever trading honesty for clicks.
+Astronauts, Voynich, Troy, The Sea Peoples, The Library of Alexandria, MKUltra, The First Americans); the owner loved
+them. Study one or two of them before you start (lf_troy.py and lf_mkultra.py are good recent examples). The goal of the
+channel: social buzz and to be the number one reference on these subjects, without ever trading honesty for clicks.
 
 Lessons from the review of round 2 (apply them):
 - The first 3 seconds: the hero image must be fully drawn and instantly recognisable. In LF.09 the famous carved lid of
@@ -13,6 +14,12 @@ Lessons from the review of round 2 (apply them):
 - Cross-sections, maps and diagrams must read on a phone: at most about 6 labels on a panel, generous spacing, back layers
   dimmed for depth. LF.08's underground cross-section was too busy. Two clear panels beat one crowded one.
 - Each film is reviewed from its contact sheet before it is rendered: a panel that is empty, crowded or wrong is sent back.
+
+Lessons from the review of round 3 (apply them too):
+- Never leave the screen empty while the narrator talks. In LF.13 a few panels waited 5 to 6 seconds for their cue word
+  on a bare background. Every panel shows something from its first second (a dim establishing element, the previous
+  object, a place name) and then builds on the cue words.
+- Preview stills are taken 2.5 s into each step: if a still is empty, check it again at 6 s and 11 s and fix the panel.
 
 Workspace: `/home/claude/rc2/reels` (a clone of the render farm repo). Scratch: `/tmp/claude-0/` and your scratchpad.
 
