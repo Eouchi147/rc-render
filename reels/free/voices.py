@@ -134,6 +134,19 @@ LEX.update({"fravor": "fɹˈeɪvɚ", "trilithon": "tɹaɪlˈɪθɑːn", "djehuti
             "ruz": "ɹˈuːs", "johannes": "joʊhˈɑːnɛs", "marci": "mˈɑːɹtsi", "kircher": "kˈɪɹkɚ", "beinecke": "bˈaɪnəki",
             "fagin": "fˈeɪɡɪn", "schinner": "ʃˈɪnɚ", "torsten": "tˈɔːɹstən", "ducats": "dˈʌkəts"})
 
+# long-form round 3 names (2 Oct 2026): espeak said "pree-um", "blej-un", "uh-chee-unz", "kish-un", "toll-mee", "sof-ah-kulz", "bay-kul"...
+LEX.update({"dardanelles": "dˌɑːɹdənˈɛlz", "priam": "pɹˈaɪəm", "wilhelm": "vˈɪlhɛlm", "doerpfeld": "dˈɜːpfɛlt", "manfred": "mˈɑːnfɹɛd",
+            "korfmann": "kˈɔːɹfmɑːn", "kolb": "kˈɔlp", "hattusa": "hɑːtˈuːsə", "ilios": "ˈɪliɑːs", "appaliuna": "ˌæpɑːliˈuːnə",
+            "achaeans": "əkˈiːənz", "walmu": "wˈɑːlmuː", "avdo": "ˈɑːvdoʊ", "medjedovic": "mˈɛdʒɛdoʊvˌɪtʃ", "blegen": "blˈɛɡən",
+            "pylos": "pˈaɪlɑːs", "medinet": "mɛdˈiːnɛt", "mycenae": "maɪsˈiːni", "merneptah": "mˈɛɹnɛptɑː", "lukka": "lˈʊkə",
+            "lycia": "lˈɪʃiə", "ammurapi": "ˌæmuːɹˈɑːpi", "gibala": "ɡˈɪbələ", "tiryns": "tˈɪɹɪnz", "kition": "kˈɪtiɑːn",
+            "nur": "nˈʊɹ", "uluburun": "ˌuːluːbuːɹˈuːn", "bernard": "bˈɜːnɚd", "hatti": "hˈæti",
+            "ptolemy": "tˈɑːləmi", "ptolemies": "tˈɑːləmiz", "mouseion": "muːsˈeɪɑːn", "aeschylus": "ˈɛskɪləs",
+            "sophocles": "sˈɑːfəkliːz", "euripides": "jʊɹˈɪpɪdiːz", "callimachus": "kəlˈɪməkəs", "bagnall": "bˈæɡnəl",
+            "aristarchus": "ˌæɹɪstˈɑːɹkəs", "serapis": "sɛɹˈɑːpɪs", "gottlieb": "ɡˈɑːtliːb", "maryland": "mˈɛɹələnd",
+            "detrick": "dˈiːtɹɪk", "beringia": "bəɹˈɪndʒiə", "verde": "vˈɛɹdeɪ", "paisley": "pˈeɪzli", "otero": "oʊtˈɛɹoʊ",
+            "chiquihuite": "tʃˌiːkiːwˈiːteɪ", "baikal": "baɪkˈɑːl"})
+
 
 def _key(w):
     return re.sub(r"[^\wöüışçğ'’]", "", w.lower()).replace("’", "'")
