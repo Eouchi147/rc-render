@@ -1,0 +1,751 @@
+{
+ "id": "lf-impossible-stones",
+ "kind": "theme",
+ "series": "Impossible Stones",
+ "title": "Impossible Stones",
+ "yt_title": "Impossible Stones: How Do You Move 1,000 Tonnes?",
+ "verdict": "Mixed record",
+ "hook": "How do you move a 1,000-tonne stone?",
+ "chapters": [
+  {
+   "title": "Cold open",
+   "beats": [
+    {
+     "role": "hook",
+     "lines": [
+      "[d:intrigue][sfx:boom][act:hushed wonder, drawing them in]In a quarry in Lebanon lies a single block of stone as heavy as a thousand ^cars. [p:0.93][act:the number lands, slow][tune:fall]About sixteen hundred and fifty ^*tonnes*.",
+      "[d:tension][act:quickening, a teaser][tune:level]Nearby, three of its cousins sit high in a temple wall, each about nineteen metres ^long. [act:same pace, intrigued][tune:level]In Bolivia, hard grey blocks with razor-sharp inside ^corners. [act:same pace, a raised eyebrow][tune:fall]In Peru, walls so tight that a knife blade won't go ^in.",
+      "[d:wonder][act:the child's question, wide-eyed][tune:rise]So how could anyone move a ^thousand-tonne stone? [act:reporting the other answer, even][tune:fall]On television, the answer is often: they ^couldn't, not without a lost ^technology."
+     ],
+     "shots": [
+      {
+       "id": "s1",
+       "say": "In a quarry in Lebanon lies a single ... About sixteen hundred and fifty tonnes.",
+       "draw": "Dusk over the limestone quarry at Baalbek. The 2014 block lies in its cutting, drawn as a 3-D block to one scale (40 units a metre: 19.6 m long, 5.6 m high, 6 m deep), the bedded quarry face behind it, a lit 1.7 m person standing on top. At 'a thousand cars' a car park of a thousand tiny cars (50 x 20) fills in beside it, row by row; at 'tonnes' the label '1,650 t' appears on the block's face (serif, 56). No labels in the first 3 s.",
+       "reuse": "baalbek shot 3 (the 2014 block in its bed), redrawn wide"
+      },
+      {
+       "id": "s2",
+       "say": "Nearby, three of its cousins sit high in a temple wall, each about nineteen metres long.",
+       "draw": "The trilithon wall as an iso model seen almost face on, turning very slowly: the course of six blocks below, the three giants above, each outlined in gold in turn; a '19 m' dimension along the middle giant; a tiny person at its foot.",
+       "reuse": "baalbek shot 0 (the western podium wall, to scale), recentred for 16:9"
+      },
+      {
+       "id": "s3",
+       "say": "In Bolivia, hard grey blocks with razor-sharp inside corners.",
+       "draw": "Four andesite H-blocks in a row (iso, turning slowly); the four inside corners of the first glow and a gold outline traces the inner H.",
+       "reuse": "puma-punku shot 0 (the kit of H-blocks)"
+      },
+      {
+       "id": "s4",
+       "say": "In Peru, walls so tight that a knife blade won't go in.",
+       "draw": "A wall of polygonal stones fitted without mortar (the Sacsayhuaman jigsaw, wide); a steel knife slides in from the right towards a joint and stops; a small red cross.",
+       "reuse": "sacsayhuaman jigsaw() wall + the knife from sacsayhuaman_m()"
+      },
+      {
+       "id": "s5",
+       "say": "So how could anyone move a thousand-tonne stone?",
+       "draw": "Back to the quarry block: a crowd of tiny people with ropes appears in front of it, the ropes go slack; a large lilac question mark pops above the block.",
+       "reuse": "the panel of s1"
+      },
+      {
+       "id": "s6",
+       "say": "On television, the answer is often: they couldn't, not without a lost technology.",
+       "draw": "An old television set: on its screen the block glows in lilac with dotted 'beams' playing over it; a label 'lost technology?' (lilac, dotted style)."
+      }
+     ]
+    },
+    {
+     "role": "title",
+     "lines": [
+      "[d:calm][act:warm, setting out]Impossible ^Stones. [act:the promise, friendly][tune:fall]Who moved them, how, and ^when."
+     ],
+     "shots": [
+      {
+       "id": "s7",
+       "say": "Impossible Stones. Who moved them, how, and when.",
+       "draw": "The quarry panel held and dimmed under the full-frame intro title card 'Impossible Stones'.",
+       "reuse": "the panel of s1"
+      }
+     ],
+     "intro": true
+    }
+   ]
+  },
+  {
+   "title": "Giants in a Roman wall",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:plain, orienting]This is ^Baalbek, in Lebanon's Beqaa ^valley. [act:easy storytelling]About two thousand years ago it was a Roman colony, ^Heliopolis, crowned by a vast temple to ^Jupiter. [p:0.93][act:giving the size, a touch of awe]Its platform holds the ^trilithon: three limestone blocks, each about nineteen metres long, almost two buses end to ^end.",
+      "[d:build][p:0.93][act:careful, an honest wrinkle]Each weighs about eight hundred tonnes, by the classic ^estimate@noun. [act:same, precise]The German team working there reckons nearer a ^*thousand*. [act:wonder creeping in]And in the quarry, less than a kilometre away, lie three even bigger ^blocks: [act:counting them off][tune:level]about a thousand tonnes, about twelve hundred, [act:the last one, slow][tune:fall]and the one found in {2014|twenty fourteen}, about sixteen hundred and ^fifty."
+     ],
+     "shots": [
+      {
+       "id": "s8",
+       "say": "About two thousand years ago it was a ... by a vast temple to Jupiter.",
+       "draw": "A 16:9 map of Lebanon and its neighbours, View(34.6, 37.6, 32.9, 35.2): the Mediterranean, Beirut, Damascus; a gold pin 'Baalbek', the Beqaa valley labelled in italic, a 50 km scale bar. At 'Heliopolis' a small temple glyph (columns and pediment) draws itself above the pin with a glow; 'Roman Heliopolis' under it.",
+       "reuse": "baalbek_m() shot 1 (map + temple glyph), redrawn wide"
+      },
+      {
+       "id": "s9",
+       "say": "Its platform holds the trilithon: three limestone blocks, ... almost two buses end to end.",
+       "draw": "The western wall of the temple platform in elevation, to one scale (about 38 units a metre): the course of six blocks below, the trilithon above; the three giants outline in gold one by one; a dimension '19 m' draws along the middle one; two 12 m buses rise under it at 'two buses'; a 1.7 m person at the foot.",
+       "reuse": "baalbek_m() shot 0 (giants, buses), redrawn as an elevation"
+      },
+      {
+       "id": "s10",
+       "say": "Each weighs about eight hundred tonnes, by the ... working there reckons nearer a thousand.",
+       "draw": "A big dial scale: one trilithon block rests on its pan; the needle swings to '800 t' (bone, 'classic estimate'), then on to '1,000 t' (gold, 'German team') where it settles between the two marks."
+      },
+      {
+       "id": "s11",
+       "say": "And in the quarry, less than a kilometre ... fourteen, about sixteen hundred and fifty.",
+       "draw": "The quarry as an iso model: three blocks lying in it (the tilted Stone of the Pregnant Woman, the 2014 block, the block found in the 1990s), each outlining in gold as its weight is said: '1,000 t', '1,240 t', '1,650 t'; a person for scale.",
+       "reuse": "baalbek shot 2 (the quarry iso) + baalbek_m() weights"
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:fair-minded, taking it seriously][tune:rise]The writer Graham ^Hancock asks a fair question: are these giant lower courses ^older than the Roman temple on ^top? [act:his reasons, even]Nothing else the Romans built uses blocks this ^big, [act:a telling detail, pointed][tune:fall]and no Roman writer ever boasts about moving ^them."
+     ],
+     "shots": [
+      {
+       "id": "s12",
+       "say": "The writer Graham Hancock asks a fair question: ... writer ever boasts about moving them.",
+       "draw": "The wall elevation again, now with the Roman temple on top (columns and roof drawn in bone); the giant courses get a lilac dotted outline and 'older?'. At 'Nothing else the Romans built' a row of ordinary Roman blocks pops beside them ('usual'); at 'no Roman writer' a scroll with blank lines and 'no boast'.",
+       "reuse": "baalbek_m() case (older?, usual, no boast)"
+      }
+     ]
+    },
+    {
+     "role": "cost",
+     "lines": [
+      "[d:build][p:0.93][act:the method, curious][tune:rise]So how do you date a ^wall? [act:plain, a small smile][tune:fall]Not by its ^stone: the limestone is millions of years ^old. [act:a quick aside, light]One geologist dated ancient cart ruts in Turkey that way, and got a date before ^humans. [p:0.93][act:the analogy, clear][tune:fall]That's like dating a road by the age of the hill it ^climbs.",
+      "[d:build][act:explaining, a picture]You date what the builders left ^behind. [act:confident, matter of fact]German archaeologists have studied Baalbek on and off since {1898|eighteen ninety-eight}. [act:uncovering it, slower][tune:level]Inside the Roman platform sits an ^older, smaller ^one, [act:gently deflating, dry][tune:fall]built of ordinary ^blocks. [act:explaining, clear and steady]The giant platform wraps around it, like a new coat over an old ^one: so the giants came ^later."
+     ],
+     "shots": [
+      {
+       "id": "s13",
+       "say": "So how do you date a wall? Not ... limestone is millions of years old.",
+       "draw": "A limestone block in section: fine sea layers inside it; a clock tag 'rock: millions of years' on the layers; a chisel mark on its face with a lilac tag 'cut: when?'."
+      },
+      {
+       "id": "s14",
+       "say": "One geologist dated ancient cart ruts in Turkey ... age of the hill it climbs.",
+       "draw": "Left: two cart ruts cut in a slab of bare rock, running away in perspective, a cart wheel in one ('cart ruts'); a lilac tag 'before humans?' struck through in red. Right, as the analogy comes: a big old hill, and a new road winding up it with a small car; tags 'hill: very old' and 'road: new'.",
+       "reuse": "cart-ruts cart_ruts_m() rockage (the rock's age is not the groove's)"
+      },
+      {
+       "id": "s15",
+       "say": "You date what the builders left behind. German ... on and off since eighteen ninety-eight.",
+       "draw": "An excavation trench in section at dusk: two archaeologists, a trowel, a sieve, a lamp; six columns of the temple on the skyline; a thin timeline at the top from 1898 to today, gold where the German work ran (1898 to 1905, and from 1997): 'German digs, on and off'."
+      },
+      {
+       "id": "s16",
+       "say": "Inside the Roman platform sits an older, smaller ... one: so the giants came later.",
+       "draw": "The platform cut open (section): inside, a smaller, older terrace of ordinary blocks builds course by course ('older terrace', 1); then the giant blocks wrap around it on both sides ('2'), a gold arrow 'later'.",
+       "reuse": "baalbek_m() dig + wrap"
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:the clincher, measured]In the quarry, the team found a few scraps of pottery that can be ^dated: [act:the key point][tune:fall]early Roman ^times. [act:an engineer's eye, admiring]The block found in {2014|twenty fourteen} is as long as the trilithon's, cut for a third course that was never ^laid. [p:0.93][act:plain, a little rueful]The platform was planned three or four courses ^high. [act:the landing, quiet][tune:fall]Only two were ^finished.",
+      "[d:aside][act:fair, the silence][tune:rise]And the Roman ^silence? [act:plainly][tune:fall]Most of their building records@noun are simply ^lost. [act:plain, a little rueful]An empty shelf can't tell you what was never ^written.",
+      "[d:calm][act:curious, a side question][tune:rise]And why leave the biggest blocks ^behind? [p:0.93][act:explaining, careful]The Stone of the Pregnant Woman has hollows and cracks along one ^edge. [act:a practical shrug][tune:fall]It might have broken on the ^road."
+     ],
+     "shots": [
+      {
+       "id": "s17",
+       "say": "In the quarry, the team found a few ... can be dated: early Roman times.",
+       "draw": "The quarry floor at dusk: a heap of stone chips; three potsherds glow one after another, a tag 'early Roman' pops."
+      },
+      {
+       "id": "s18",
+       "say": "The block found in twenty fourteen is as ... courses high. Only two were finished.",
+       "draw": "The podium in elevation: course 1 (the six-block course) and course 2 (the trilithon) solid; course 3 drawn dashed with the 2014 block's outline ghosted into it ('never laid'); course 4 dashed with '?'. Labels 'planned: 3 or 4 courses', then 'built: 2'."
+      },
+      {
+       "id": "s19",
+       "say": "And the Roman silence? Most of their building ... tell you what was never written.",
+       "draw": "A shelf of scrolls and tablets: two solid, the rest dotted outlines that fade in ('lost').",
+       "reuse": "baalbek_m() shelf"
+      },
+      {
+       "id": "s20",
+       "say": "And why leave the biggest blocks behind? The ... might have broken on the road.",
+       "draw": "The Stone of the Pregnant Woman lying tilted in the quarry (elevation): cracks draw along one edge and dark hollows (karst) open in it; a dashed road leads off towards the temple with a small break sign on it."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "How to move 1,000 tonnes",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][p:0.93][act:the child's question, inviting][tune:rise]So, how ^do you move a thousand-tonne stone? [act:explaining, simple]The enemy isn't really the ^weight. [act:the twist][tune:fall]It's ^friction: stone grinding against ^ground. [p:0.93][act:an everyday picture, light]Think of shoving a fridge across a carpet, then rolling it on a ^trolley. [act:the answer, light][tune:fall]Put a stone on a sledge, on a smooth track, and you're halfway ^there."
+     ],
+     "shots": [
+      {
+       "id": "s21",
+       "say": "The enemy isn't really the weight. It's friction: stone grinding against ground.",
+       "draw": "A stone block on bare ground pushed by a line of tiny people; at the contact, short red friction marks flicker; label 'friction'."
+      },
+      {
+       "id": "s22",
+       "say": "Think of shoving a fridge across a carpet, then rolling it on a trolley.",
+       "draw": "Left: a person shoving a fridge across a carpet, the carpet rucking up, red marks. Right: the same fridge on a trolley rolling, a light arrow."
+      },
+      {
+       "id": "s23",
+       "say": "Put a stone on a sledge, on a smooth track, and you're halfway there.",
+       "draw": "The block on a timber sledge running on a track of cross-timbers; a long arrow shows it gliding; label 'sledge + track'."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:storytelling, onward]About three thousand nine hundred years ago, an Egyptian governor named ^Djehutihotep had a scene painted in his ^tomb. [p:0.93][act:describing it, vivid]A colossal statue of about sixty tonnes, on a sledge, hauled by a hundred and seventy-two ^men. [act:the clue, hushed][tune:fall]And at the front, one man pours ^water onto the sand. [act:fair, the other reading][tune:level]Some Egyptologists read@present that as a ^ritual. [act:a smile][tune:rise]Engineers asked: does@verb it ^help?",
+      "[d:reveal][act:the experiment, delighted]In {2014|twenty fourteen}, a team of physicists in Amsterdam tested it, with a model sledge in a tray of ^sand. [p:0.9][act:the result, precise]With just the right amount of water, the sand stiffens, and the pull you need drops by about ^*half*. [act:an everyday picture, light][tune:fall]Like walking on wet sand at the beach, instead of ^dry.",
+      "[d:build][act:widening out, curious]Other experiments keep finding cheap ^tricks. [p:0.93][act:vivid, delighted]In Hawaii, eighteen people with three ropes rocked a replica Easter Island statue of more than four tonnes from side to side, [act:the payoff, light][tune:fall]and walked it a hundred metres in forty minutes@time."
+     ],
+     "shots": [
+      {
+       "id": "s24",
+       "say": "About three thousand nine hundred years ago, an ... ritual. Engineers asked: does it help?",
+       "draw": "The tomb painting of Djehutihotep, redrawn schematically in ochre and black on a plaster panel: a seated colossal statue on a sledge ('60 t'); four rows of 43 pullers (172 small figures) pop in along the ropes ('172 men'); a man at the front pours water from a jar, blue drops ('water'). At 'ritual' a lilac tag 'ritual?' beside the pourer; at 'does it help?' a gold '?' over the wet sand."
+      },
+      {
+       "id": "s25",
+       "say": "In twenty fourteen, a team of physicists in ... at the beach, instead of dry.",
+       "draw": "A lab tray of sand with a model sledge: on dry sand a berm piles up in front and a long force arrow; on wet sand no berm and an arrow half as long; label 'about half'. Then, as the beach is named: two footprints, deep in dry sand, shallow on wet."
+      },
+      {
+       "id": "s26",
+       "say": "Other experiments keep finding cheap tricks. In Hawaii, ... a hundred metres in forty minutes.",
+       "draw": "Daylight: a replica Easter Island statue seen from the front ('4.35 t replica'); two faint ghosts show it rocked onto one corner, then the other; three ropes from its head to three teams of six ('18 people'); a dashed 100 m path and an arrow: '100 m in 40 min'."
+      }
+     ]
+    },
+    {
+     "role": "cost",
+     "lines": [
+      "[d:build][act:explaining, a picture]Romans had better ^kit. [p:0.93][act:explaining, clear]A capstan is an upright wooden drum: people push its bars, walk in a circle, and the rope winds@coil ^in. [act:brisk, glad to explain]In {1977|nineteen seventy-seven}, the architect Jean-Pierre ^Adam did the sums for Baalbek. [sfx:hit][act:counting them off, deliberate][tune:level]^Six capstans, with pulleys. [act:adding up, same pace][tune:level]A hundred and forty-four ^people. [act:the payoff, firm][tune:fall]One eight-hundred-tonne ^block."
+     ],
+     "shots": [
+      {
+       "id": "s27",
+       "say": "Romans had better kit. A capstan is an ... circle, and the rope winds in.",
+       "draw": "A capstan: an upright wooden drum with four bars; four people push the bars and walk in a circle (a circular arrow); the rope winds onto the drum and runs off to a block.",
+       "reuse": "baalbek_m() capm (one capstan explained)"
+      },
+      {
+       "id": "s28",
+       "say": "In nineteen seventy-seven, the architect Jean-Pierre Adam did ... and forty-four people. One eight-hundred-tonne block.",
+       "draw": "Jean-Pierre Adam's layout: the 800-tonne block on a timber track; ahead of it six capstans in a row, each ringed by 24 small figures (144 in all); ropes run back to the block; counters '6 capstans', '144 people', '800 t'.",
+       "reuse": "baalbek_m() capm (six capstans, 144 people)"
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:a raised eyebrow][tune:rise]Sums on ^paper? [act:the reveal, delighted]Then here's the real ^thing. [p:0.93][act:storytelling, vivid]In {1770|seventeen seventy}, in Russia, about four hundred people hauled a granite boulder of more than a thousand tonnes some six kilometres over ^land, [act:the method, clear]on a sledge rolling over bronze ^balls, pulled by ^capstans. [act:a quiet image, warm]It still carries a bronze horseman in Saint ^Petersburg. [act:the comparison, pointed][tune:fall]When it moved, it outweighed any block in Baalbek's ^wall. [act:the kicker, dry][tune:fall]No lost technology. [act:same rhythm][tune:fall]Just ^people, rope and ^patience."
+     ],
+     "shots": [
+      {
+       "id": "s29",
+       "say": "Sums on paper? Then here's the real thing. ... over bronze balls, pulled by capstans.",
+       "draw": "A snowy plain at dusk, '1770': the Thunder Stone, a huge granite boulder, rides a timber sledge on a track; two capstans ahead and a crowd of tiny figures ('about 400 people'); a dashed route line '6 km over land'. At 'bronze balls' a round magnifier opens over the track: the sledge beam above, the track below, bronze balls between them."
+      },
+      {
+       "id": "s30",
+       "say": "It still carries a bronze horseman in Saint ... technology. Just people, rope and patience.",
+       "draw": "The boulder today as a pedestal, a rearing horse and rider in bronze-green silhouette on top ('Saint Petersburg'); then a balance: the boulder ('over 1,000 t') outweighs a Baalbek giant ('800 to 1,000 t'). At 'No lost technology' that line appears in gold, and three icons light up as named: a person ('people'), a coil ('rope'), a clock ('patience')."
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:tension][act:fair, the open part][tune:level]What we don't know is the exact recipe at ^Baalbek: [act:honest, plain]how the giants were raised onto the course below, and nudged into ^place. [act:a small shrug][tune:fall]Ramps and levers, most likely, but nobody left the ^instructions."
+     ],
+     "shots": [
+      {
+       "id": "s31",
+       "say": "What we don't know is the exact recipe ... likely, but nobody left the instructions.",
+       "draw": "The trilithon wall in elevation: one giant hovers in a dashed outline above its course with a lilac '?'; a dashed earth ramp draws up to the course; a lever pokes under the block; a blank sheet labelled 'instructions?'."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The kit at Puma Punku",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:plain storytelling, warm]High in the Andes of Bolivia, at three thousand eight hundred and fifty metres, lies Puma ^Punku, a stone platform in the ancient city of ^Tiwanaku. [act:the marvel, unhurried]Its hard grey andesite blocks are cut into H-shapes with crisp inside ^corners, [act:a picture][tune:fall]like pieces of a ^kit. [act:a little sad, plain]Today they lie broken and scattered, as if a giant toy box had been tipped ^out.",
+      "[d:build][act:matter of fact, steady]The andesite came from about ninety kilometres away, across or around Lake ^Titicaca. [act:a quick contrast, lighter]The red sandstone came from just ^ten. [p:0.9][act:weighing it out, impressed]Its biggest slab weighs about a hundred and thirty-one ^tonnes."
+     ],
+     "shots": [
+      {
+       "id": "s32",
+       "say": "Its hard grey andesite blocks are cut into ... corners, like pieces of a kit.",
+       "draw": "Four andesite H-blocks (iso, turning): the inside corners glow and an amber template outline traces over each in turn.",
+       "reuse": "puma-punku shot 0 + puma_punku_m() kit"
+      },
+      {
+       "id": "s33",
+       "say": "Today they lie broken and scattered, as if a giant toy box had been tipped out.",
+       "draw": "Seen from above, a field of broken, tilted blocks scattered across the platform; a few H-shapes among them."
+      },
+      {
+       "id": "s34",
+       "say": "The andesite came from about ninety kilometres away, ... red sandstone came from just ten.",
+       "draw": "A map of Lake Titicaca (View(-70.4, -67.6, -17.6, -15.0)): gold pin 'Tiwanaku', 'Copacabana', 'La Paz'; a dashed gold route '90 km' draws across the lake. At 'red sandstone', a small red ring '10 km' around Tiwanaku.",
+       "reuse": "puma_punku_m() shot 1 (map), redrawn wide"
+      },
+      {
+       "id": "s35",
+       "say": "Its biggest slab weighs about a hundred and thirty-one tonnes.",
+       "draw": "The red sandstone slab as an iso model, 7.8 x 5.2 x 1.1 m, to scale with a 1.7 m person; dimension lines '7.8 m' and '5.2 m'; label '131 t'.",
+       "reuse": "puma-punku shot 2 (the slab)"
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:storytelling, intrigued]The explorer Arthur ^Posnansky measured where Tiwanaku's temple walls point, against the sky. [p:0.93][act:explaining, a simple picture]Over thousands of years the sky slowly ^drifts, so a wall aimed at a sunrise long ago no longer lines up ^today. [act:the big claim, let it land][tune:fall]From the mismatch, he dated the city to about fifteen thousand ^BCE. [act:brisk, matter of fact]In the {1990s|nineteen nineties}, Graham Hancock revived that ^date. [act:a light, dry report][tune:fall]And on television, the blocks are called ^machined: too precise for hand ^tools."
+     ],
+     "shots": [
+      {
+       "id": "s36",
+       "say": "The explorer Arthur Posnansky measured where Tiwanaku's temple ... ago no longer lines up today.",
+       "draw": "Dawn horizon: a wall aimed at the horizon (a gold sight line); a lilac sun 'long ago' sits on the line; an arrow 'the sky drifts'; a gold sun 'today' rises beside it; the angle between them draws as 'mismatch'.",
+       "reuse": "puma_punku_m() pos (Posnansky)"
+      },
+      {
+       "id": "s37",
+       "say": "From the mismatch, he dated the city to ... nineties, Graham Hancock revived that date.",
+       "draw": "A timeline from 16,000 BCE to today: a lilac dotted dot '15,000 BCE?' with 'Posnansky'; at 'Graham Hancock', a small book pops with '1990s'."
+      },
+      {
+       "id": "s38",
+       "say": "And on television, the blocks are called machined: too precise for hand tools.",
+       "draw": "The TV set again: on its screen an H-block with a lilac gear turning; 'machined?' in lilac.",
+       "reuse": "puma_punku_m() gear + TV"
+      }
+     ]
+    },
+    {
+     "role": "cost",
+     "lines": [
+      "[d:build][act:the turn, crisp][tune:fall]Then came ^radiocarbon. [p:0.93][act:explaining, clear]Living things take in a trace of radioactive carbon, which fades after death at a steady pace, like a candle burning ^down. [act:precise, reading the lab result]Organic material from the lowest fill of the platform: about AD {536|five thirty-six} to {600|six hundred}. [act:explaining, fair, not gloating]Posnansky's method had a weak ^spot: misjudge what a wall was aimed at by a sliver of a degree, and the date swings by ^thousands of years."
+     ],
+     "shots": [
+      {
+       "id": "s39",
+       "say": "Then came radiocarbon. Living things take in a ... pace, like a candle burning down.",
+       "draw": "A plant takes in carbon (green dots); then a candle beside it burns down, a bar 'what's left' measuring it.",
+       "reuse": "puma_punku_m() rc (candle clock)"
+      },
+      {
+       "id": "s40",
+       "say": "Organic material from the lowest fill of the platform: about AD five thirty-six to six hundred.",
+       "draw": "The platform in section: andesite and sandstone courses on top, the lowest fill below; green specks glow in it; 'lowest fill', then 'AD 536 to 600' (serif, gold). The timeline returns below with a short gold band at the far right and the 15,000 BCE dot struck out.",
+       "reuse": "puma_punku_m() rc + weak"
+      },
+      {
+       "id": "s41",
+       "say": "Posnansky's method had a weak spot: misjudge what ... date swings by thousands of years.",
+       "draw": "Two lines leave one point a sliver of a degree apart; far away they are far apart; at the end the gap reads 'thousands of years' (red double arrow).",
+       "reuse": "puma_punku_m() weak"
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:leaning in, a new clue]And the ^metal. [act:vivid, building]Some blocks were locked together with I-shaped ^cramps, poured molten into sockets carved across the ^joint. [act:the clincher, quiet and sure]The alloy, copper, arsenic and ^nickel, belongs to Tiwanaku's own ^era.",
+      "[d:build][act:admiring, even]Architects who measured the blocks found repeated designs, as if cut from ^patterns, like a dressmaker's ^template. [act:fair, a nuance][tune:fall]But no two are quite the same size, so not a true ^kit. [p:0.93][act:honest, curious][tune:rise]And the tools that cut those sharp inside ^corners? [act:a small shrug][tune:fall]Still ^unknown."
+     ],
+     "shots": [
+      {
+       "id": "s42",
+       "say": "And the metal. Some blocks were locked together ... nickel, belongs to Tiwanaku's own era.",
+       "draw": "Two andesite blocks meet at a joint; an I-shaped socket outlines across it; a crucible tips and orange molten bronze fills the socket; then three element dots: copper, arsenic, nickel; 'Tiwanaku's own era'.",
+       "reuse": "puma-punku shot 4 + puma_punku_m() clamp"
+      },
+      {
+       "id": "s43",
+       "say": "Architects who measured the blocks found repeated designs, ... size, so not a true kit.",
+       "draw": "Three H-block profiles side by side; a dashed amber template slides over each; small mismatches glow where the template and the stone differ ('not identical').",
+       "reuse": "puma_punku_m() tpl"
+      },
+      {
+       "id": "s44",
+       "say": "And the tools that cut those sharp inside corners? Still unknown.",
+       "draw": "A close-up of a sharp inside corner, lit; a lilac question mark; a faint hammerstone outline and a struck-through gear; label 'tools: unknown'."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "A jigsaw above Cusco",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:plain, placing it]Now, Peru, above ^Cusco, the old Inca ^capital. [act:painting the picture]Three terraced walls ^zigzag across a hill here for about four hundred metres: ^Sacsayhuamán. [act:admiring, slower]Some stones weigh well over a hundred ^tonnes, cut into many-sided shapes, [act:the marvel][tune:fall]and fitted so tightly, without mortar, that a knife blade won't slide ^between them."
+     ],
+     "shots": [
+      {
+       "id": "s45",
+       "say": "Three terraced walls zigzag across a hill here for about four hundred metres: Sacsayhuamán.",
+       "draw": "Sacsayhuamán's three zigzag terraces as an iso model on the green hill; the zigzags trace in gold one after another; a dimension 'about 400 m' along the top; the name in gold.",
+       "reuse": "sacsayhuaman shot 0 + sacsayhuaman_m() zigzags"
+      },
+      {
+       "id": "s46",
+       "say": "Some stones weigh well over a hundred tonnes, ... knife blade won't slide between them.",
+       "draw": "The polygonal wall (the hook's jigsaw panel, closer): one giant outlined in gold '100+ t'; its many corners dot in turn; the knife at a joint; 'no mortar'.",
+       "reuse": "the panel of s4"
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:fair-minded, presenting the case]Some writers say these giants are ^older, and the Incas only built on ^top. [act:pointing, inviting a look][tune:level]Huge, perfect@adj blocks at the ^bottom; [act:the contrast][tune:fall]smaller, rougher stones ^above. [act:their logic, fair][tune:rise]Two styles, two ^builders?"
+     ],
+     "shots": [
+      {
+       "id": "s47",
+       "say": "Some writers say these giants are older, and ... stones above. Two styles, two builders?",
+       "draw": "The wall in elevation: giant polygonal stones at the bottom ('1', 'huge, perfect'), two rows of small rough stones above ('2', 'smaller, rougher'); a lilac dotted box round the giants, 'older?'; at the end 'two builders?'.",
+       "reuse": "sacsayhuaman_m() case"
+      }
+     ]
+    },
+    {
+     "role": "cost",
+     "lines": [
+      "[d:build][act:historical, steady]In {1536|fifteen thirty-six}, Spanish soldiers fought the Incas over these very ^walls. [act:the key point, calm]Chroniclers writing within a generation describe an ^Inca work. [act:quoting the source, impressed]One of them, Pedro Cieza de ^León, reports twenty thousand workers, taking ^turns. [act:counting them off][tune:level]Four thousand ^quarrying. [act:finishing the count][tune:fall]Six thousand hauling with ^ropes. [act:simple, a little sad][tune:rise]And the rougher upper ^walls? [act:the explanation, clear][tune:fall]Mostly ^gone: after the siege, stone that could be moved was carted down to build colonial ^Cusco. [act:the payoff, plain][tune:fall]What's left at the bottom are the giants: too big to ^shift."
+     ],
+     "shots": [
+      {
+       "id": "s48",
+       "say": "In fifteen thirty-six, Spanish soldiers fought the Incas ... a generation describe an Inca work.",
+       "draw": "A timeline 1500 to 1580: crossed swords at 1536 ('the siege'); an arc 'a generation' to a chronicle book at about 1553 ('an Inca work').",
+       "reuse": "sacsayhuaman_m() rec"
+      },
+      {
+       "id": "s49",
+       "say": "One of them, Pedro Cieza de León, reports ... quarrying. Six thousand hauling with ropes.",
+       "draw": "200 small figures, each 100 workers ('each figure: 100 workers'); 40 turn amber ('4,000 quarrying'), 60 turn blue ('6,000 hauling').",
+       "reuse": "sacsayhuaman_m() work"
+      },
+      {
+       "id": "s50",
+       "say": "And the rougher upper walls? Mostly gone: after ... the giants: too big to shift.",
+       "draw": "The hill in elevation: the upper courses drawn as dotted ghosts ('gone'); arrows carry small stones down to the houses and tower of colonial Cusco; the giants at the bottom glow ('too big to shift').",
+       "reuse": "sacsayhuaman_m() cart"
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:the experiment, curious][tune:rise]And the perfect@adj ^fit? [act:storytelling, onward]In the {1980s|nineteen eighties}, the architect Jean-Pierre ^Protzen picked up hammerstones like those the Incas left in their ^quarries. [p:0.93][act:precise, impressed]With one of about four kilos, he dressed a face of a small block in twenty minutes@time. [act:practical, a craftsman's rhythm]To fit two stones: lower one onto the other, see where it ^touches, pound those spots down, ^repeat. [act:warm, the payoff][tune:fall]His joints came close@adj to the Incas' ^own.",
+      "[d:build][act:the moving part, plain]At the Inca quarry for ^Ollantaytambo, he mapped their ramps, up to eight metres wide, [act:a quiet detail][tune:fall]with about eighty blocks abandoned along the ^way."
+     ],
+     "shots": [
+      {
+       "id": "s51",
+       "say": "And the perfect fit? In the nineteen eighties, ... a small block in twenty minutes.",
+       "draw": "A 4 kg hammerstone strikes a small andesite block, dust flies; a stopwatch sweeps to '20 min'; one face of the block turns smooth."
+      },
+      {
+       "id": "s52",
+       "say": "To fit two stones: lower one onto the ... came close to the Incas' own.",
+       "draw": "The fitting cycle in four steps left to right: lower (the upper stone set on the lower), mark (red dots where they touch), pound (the hammerstone), repeat (a loop arrow); then a tight joint glows.",
+       "reuse": "sacsayhuaman_m() cyc"
+      },
+      {
+       "id": "s53",
+       "say": "At the Inca quarry for Ollantaytambo, he mapped ... eighty blocks abandoned along the way.",
+       "draw": "A mountainside in elevation: a broad ramp road zigzags down from the quarry to the valley ('up to 8 m wide'); 80 small blocks lie along it, popping in a stream ('80 abandoned blocks')."
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:verdict][p:0.93][act:fair, a concession]People did live@verb on that hill before the ^Incas, from about {900|nine hundred} CE. [act:precise, the crux][tune:fall]But no older wall has been ^dated."
+     ],
+     "shots": [
+      {
+       "id": "s54",
+       "say": "People did live on that hill before the ... no older wall has been dated.",
+       "draw": "A timeline from 800 to 1600 CE: a band 'Killke, before the Incas' from about 900; a gold band 'Inca works' from about 1440; then the giant wall's outline with a lilac '?' and 'older wall: undated'.",
+       "reuse": "sacsayhuaman timeline + verdict"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The weighing",
+   "beats": [
+    {
+     "role": "weigh",
+     "lines": [
+      "[d:verdict][act:stepping back, calm]So, the ^ledger. [act:clear, counting them off][tune:level]A lost high technology, needed to move these stones: *ruled ^out*. [act:same steady pace][tune:level]Baalbek's giants older than Rome: *awaiting ^evidence*. [act:same pace][tune:level]Exactly how the trilithon was raised: an *open ^question*.",
+      "[act:same pace][tune:level]Puma Punku in fifteen thousand BCE: *ruled ^out*. [act:same pace][tune:level]How its sharp corners were cut: *open ^question*. [act:same pace][tune:level]Older builders under Sacsayhuamán: *awaiting ^evidence*. [act:closing the column][tune:fall]Inca hammerstones behind that fit: *strong ^evidence*.",
+      "[d:calm][p:0.95][act:the whole picture, warm]Taken together, a *mixed ^record@noun*. [act:clear, fair]Wherever we can check, the evidence points to people archaeology already knows: the ^Romans, the builders of ^Tiwanaku, the ^Incas. [act:tender, a little wonder][tune:fall]What's lost isn't a ^machine. [act:the last word of it][tune:fall]It's the know-how of people who rarely wrote it ^down. [act:warm, sincere]That makes the stones more ^impressive, not less: they're monuments to ^people."
+     ],
+     "shots": [
+      {
+       "id": "s55",
+       "say": "A lost high technology, needed to move these ... hammerstones behind that fit: strong evidence.",
+       "draw": "A ledger board with seven rows, each with a small picture at the left: 'a lost high technology' (a gear), 'Baalbek older than Rome' (the trilithon), 'raising the trilithon' (a ramp), 'Puma Punku, 15,000 BCE' (an H-block), 'cutting those corners' (a sharp corner), 'older builders, Cusco' (the polygonal wall), 'Inca hammerstones' (a hammerstone). Each row lights as it is named and its grade chip pops as the grade is said: Ruled out, Awaiting evidence, Open question; then Ruled out, Open question, Awaiting evidence, Strong evidence.",
+       "reuse": "lf_under_giza s59 ledger pattern"
+      },
+      {
+       "id": "s56",
+       "say": "Taken together, a mixed record. Wherever we can ... not less: they're monuments to people.",
+       "draw": "Three small monuments side by side (the trilithon wall, the H-blocks, the polygonal wall); a central chip 'Mixed record'; under each, as named, its builders: 'Romans', 'Tiwanaku', 'Incas'; at 'monuments to people', crowds of small figures rise in front of each."
+      }
+     ]
+    },
+    {
+     "role": "test",
+     "lines": [
+      "[d:tension][act:practical, counting them off][tune:rise]What would change our ^minds? [act:same beat][tune:level]At Baalbek, a sealed layer under the trilithon: Roman pottery beneath it would close@verb the file, and only older finds would reopen ^it. [act:same beat][tune:level]At Sacsayhuamán, one charcoal date from the fill behind the ^giants. [act:same beat][tune:level]At Puma Punku, a replica, cut with tools of the time, that matches those ^corners. [act:the last one, a smile][tune:fall]And for the lost technology, just one thing it left behind: a ^tool, a ^workshop, a ^drill bit."
+     ],
+     "shots": [
+      {
+       "id": "s57",
+       "say": "What would change our minds? At Baalbek, a ... tool, a workshop, a drill bit.",
+       "draw": "Four cards build in turn: a sealed layer under the trilithon with a potsherd ('sealed layer'); a charcoal fleck behind a giant with a radiocarbon tag ('one date'); a replica corner and stone tools ('a replica'); a dashed outline of a tool, a workshop and a drill bit with '?' ('one thing left behind')."
+      }
+     ]
+    },
+    {
+     "role": "close",
+     "lines": [
+      "[d:wonder][p:0.93][act:quiet, warm]In a quarry in Lebanon, the largest block known from the ancient world still waits for a crew that never ^came. [act:the last word, a smile][tune:fall]Weigh it ^yourself."
+     ],
+     "shots": [
+      {
+       "id": "s58",
+       "say": "In a quarry in Lebanon, the largest block ... that never came. Weigh it yourself.",
+       "draw": "The quarry at night under stars, the 2014 block alone in its cutting, a faint lamp glow on its face; nobody there. The camera holds for the end card.",
+       "reuse": "the panel of s1, at night"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "description": "In a quarry in Lebanon lies a block of stone of about 1,650 tonnes, the largest known from the ancient world. In Bolivia, hard grey blocks with razor-sharp inside corners; in Peru, walls so tight a knife blade won't go in. On television they are often called impossible without a lost technology.\n\nWe weigh Baalbek, Puma Punku and Sacsayhuamán claim by claim, with each challenger at their strongest, and answer the child's question: how do you move a thousand-tonne stone? Sledges, wet sand, capstans, ramps and levers, a granite boulder hauled by hand in 1770, and the experiments that tested them. Verdict: Mixed record. Weigh it yourself.\n\nChapters\n0:00 Impossible Stones\nmm:ss Giants in a Roman wall\nmm:ss How to move 1,000 tonnes\nmm:ss The kit at Puma Punku\nmm:ss A jigsaw above Cusco\nmm:ss The weighing\n\nSources\nvan Ess 2015, Baalbek: research in the quarry (e-Forschungsberichte des Deutschen Archäologischen Instituts 2015)\nGerman Archaeological Institute (DAI) 2014, press release on the 1,650-tonne block in the Baalbek quarry\nLohmann 2010, Giant strides towards monumentality: the architecture of the Jupiter sanctuary in Baalbek/Heliopolis, Bollettino di Archeologia On Line, volume speciale\nAdam 1977, À propos du trilithon de Baalbek: le transport et la mise en œuvre des mégalithes, Syria 54(1/2): 31-63\nHancock 2015, Magicians of the Gods (Coronet)\nMottershead, Pearson & Schaefer 2008, The cart ruts of Malta: an applied geomorphology approach, Antiquity 82\nNewberry 1895, El Bersheh I: The Tomb of Tehuti-hetep (Egypt Exploration Fund)\nHabachi 1984, The Obelisks of Egypt: Skyscrapers of the Past (American University in Cairo Press)\nFall et al. 2014, Sliding friction on wet and dry sand, Physical Review Letters 112: 175502, doi:10.1103/PhysRevLett.112.175502\nLipo & Hunt 2025, The walking moai hypothesis, Journal of Archaeological Science 183: 106383, doi:10.1016/j.jas.2025.106383\nLipo, Hunt & Rapu Haoa 2013, The walking megaliths of Easter Island, Journal of Archaeological Science 40(6): 2859-2866, doi:10.1016/j.jas.2012.09.029\nLive Science, 24 October 2012, Easter Island statues may have 'walked' (the replica experiment in Hawaii)\nCarburi 1777, Monument élevé à la gloire de Pierre-le-Grand (Paris)\nGuinness World Records, Largest stone moved by manpower alone (the Thunder Stone)\nVranich 1999, Interpreting the meaning of ritual spaces: the temple complex of Pumapunku, Tiwanaku, Bolivia (PhD thesis, University of Pennsylvania)\nVranich 2018, Reconstructing ancient architecture at Tiwanaku, Bolivia: the potential and promise of 3D printing, Heritage Science 6: 65, doi:10.1186/s40494-018-0231-0\nLechtman 1998, Architectural cramps at Tiwanaku: copper-arsenic-nickel bronze, in Metallurgica Antiqua (Der Anschnitt, Beiheft 8): 77-92\nProtzen & Nair 1997, Who taught the Inca stonemasons their skills? A comparison of Tiahuanaco and Inca cut-stone masonry, Journal of the Society of Architectural Historians 56(2): 146-167\nProtzen & Nair 2013, The Stones of Tiahuanaco (Cotsen Institute of Archaeology Press)\nPosnansky 1945, Tihuanacu: The Cradle of American Man (J. J. Augustin, New York)\nHancock 1995, Fingerprints of the Gods (Heinemann)\nProtzen 1985, Inca quarrying and stonecutting, Journal of the Society of Architectural Historians 44(2): 161-182\nProtzen 1986, Inca stonemasonry, Scientific American 254(2): 94-105\nCieza de León, c. 1553, El señorío de los Incas (Crónica del Perú, part 2)\nBauer 2004, Ancient Cuzco: Heartland of the Inca (University of Texas Press)\nHemming & Ranney 1982, Monuments of the Incas (Little, Brown)",
+ "sources": [
+  "van Ess, M. 2015, Baalbek, Libanon: Forschungen im Steinbruch und die Aufarbeitung der Forschungen von 2001-2012, e-Forschungsberichte des Deutschen Archäologischen Instituts 2015 (trilithon blocks 19.6 m, about 1,000 t each; podium planned with three or four courses, two built; the 2014 block cut for the third course; early Roman imperial pottery in the quarry)",
+  "German Archaeological Institute (DAI), Orient Department, press release December 2014 (the 2014 block: 19.6 x 6 x at least 5.5 m, about 1,650 t; the Hajjar al-Hibla abandoned for poor stone quality at one edge), as reported by HeritageDaily and DigVentures, December 2014",
+  "Lohmann, D. 2010, Giant Strides towards Monumentality: The Architecture of the Jupiter Sanctuary in Baalbek/Heliopolis, Bollettino di Archeologia On Line, volume speciale (International Congress of Classical Archaeology, Rome 2008)",
+  "Adam, J.-P. 1977, À propos du trilithon de Baalbek: le transport et la mise en œuvre des mégalithes, Syria 54(1/2): 31-63 (six capstans, 144 men, about 78 t of pull, for a block of about 800 t)",
+  "The Short 'baalbek' (films/f06.py) and its sources: Adam 1977, Lohmann 2010, Abdul Massih 2015, van Ess 2008, Ruprechtsberger 1999 (the older terrace under the podium; the quarry blocks; the Roman silence)",
+  "Wiegand, Th. (ed.) 1921-1925, Baalbek: Ergebnisse der Ausgrabungen und Untersuchungen in den Jahren 1898 bis 1905 (de Gruyter, Berlin)",
+  "Hancock, G. 2015, Magicians of the Gods (Coronet, London)",
+  "Mottershead, D., Pearson, A. & Schaefer, M. 2008, The cart ruts of Malta: an applied geomorphology approach, Antiquity 82 (the Short 'cart-ruts': Koltypin's dating of the rock, not the groove)",
+  "Newberry, P. E. 1895, El Bersheh Part I: The Tomb of Tehuti-hetep, Archaeological Survey of Egypt (Egypt Exploration Fund, London)",
+  "Habachi, L. 1984, The Obelisks of Egypt: Skyscrapers of the Past (American University in Cairo Press), as cited by Dziedzic (statue about 60 t, 172 men, no rollers)",
+  "Dziedzic, article on ancient heavy transport, bibliotekanauki.pl article 1683708 (secondary, citing Habachi 1984)",
+  "Live Science, 24 October 2012, Easter Island statues may have 'walked' (the 2012 experiment at Kualoa Ranch, Hawaii: 4.35 t replica, 18 people, three hemp ropes, 100 m in under an hour)",
+  "Nosonovsky, M., 'Carrying water by the house of eternity', or again about Djehutihotep's tomb painting of 'earliest water lubrication' (University of Wisconsin-Milwaukee): the ritual reading (Newberry) against the engineers' lubrication reading",
+  "Fall, A., Weber, B., Pakpour, M., Lenoir, N., Shahidzadeh, N., Fiscina, J., Wagner, C. & Bonn, D. 2014, Sliding friction on wet and dry sand, Physical Review Letters 112: 175502, doi:10.1103/PhysRevLett.112.175502",
+  "Lipo, C. P. & Hunt, T. L. 2025, The walking moai hypothesis: archaeological evidence, experimental validation, and response to critics, Journal of Archaeological Science 183: 106383, doi:10.1016/j.jas.2025.106383",
+  "Lipo, C. P., Hunt, T. L. & Rapu Haoa, S. 2013, The 'walking' megalithic statues (moai) of Easter Island, Journal of Archaeological Science 40(6): 2859-2866, doi:10.1016/j.jas.2012.09.029",
+  "Carburi, M. 1777, Monument élevé à la gloire de Pierre-le-Grand, ou relation des travaux et des moyens mécaniques qui ont été employés pour transporter à Pétersbourg un rocher (Paris)",
+  "Guinness World Records, Largest stone moved by manpower alone (the Thunder Stone: about 1,500 t estimated, 400 men, about 6 km overland)",
+  "Vranich, A. 1999, Interpreting the meaning of ritual spaces: the temple complex of Pumapunku, Tiwanaku, Bolivia, PhD dissertation, University of Pennsylvania (radiocarbon AD 536-600 from the lowest fill)",
+  "Vranich, A. 2018, Reconstructing ancient architecture at Tiwanaku, Bolivia: the potential and promise of 3D printing, Heritage Science 6: 65, doi:10.1186/s40494-018-0231-0",
+  "Lechtman, H. 1998, Architectural cramps at Tiwanaku: copper-arsenic-nickel bronze, in T. Rehren, A. Hauptmann & J. D. Muhly (eds), Metallurgica Antiqua, Der Anschnitt Beiheft 8: 77-92",
+  "Ponce Sanginés, C., Castaños Echazú, A., Ávila Salinas, W. & Urquidi Barrau, F. 1971, Procedencia de las areniscas utilizadas en el templo precolombino de Pumapunku (Tiwanaku), Academia Nacional de Ciencias de Bolivia, Publicación 22 (sandstone about 10 km; andesite from the Copacabana peninsula, about 90 km)",
+  "Protzen, J.-P. & Nair, S. E. 1997, Who Taught the Inca Stonemasons Their Skills? A Comparison of Tiahuanaco and Inca Cut-Stone Masonry, Journal of the Society of Architectural Historians 56(2): 146-167",
+  "Protzen, J.-P. & Nair, S. E. 2013, The Stones of Tiahuanaco: A Study of Architecture and Construction (Cotsen Institute of Archaeology Press, Los Angeles)",
+  "Posnansky, A. 1945, Tihuanacu: The Cradle of American Man (J. J. Augustin, New York)",
+  "Hancock, G. 1995, Fingerprints of the Gods (Heinemann, London)",
+  "Protzen, J.-P. 1985, Inca Quarrying and Stonecutting, Journal of the Society of Architectural Historians 44(2): 161-182",
+  "Protzen, J.-P. 1986, Inca Stonemasonry, Scientific American 254(2): 94-105",
+  "Cieza de León, P. de, c. 1553, El señorío de los Incas (second part of the Crónica del Perú)",
+  "Bauer, B. S. 2004, Ancient Cuzco: Heartland of the Inca (University of Texas Press, Austin)",
+  "Hemming, J. & Ranney, E. 1982, Monuments of the Incas (Little, Brown, Boston)"
+ ],
+ "facts_added": [
+  {
+   "fact": "The trilithon blocks are about 19.6 m long and 4.35 m high and, by the German Archaeological Institute's reckoning, weigh about 1,000 t each; the classic estimate (Adam 1977 and most guides) is about 800 t. Sources disagree, and the film says so.",
+   "source": "van Ess 2015, e-Forschungsberichte des DAI; Adam 1977, Syria 54"
+  },
+  {
+   "fact": "The podium of the Temple of Jupiter was planned with three or four courses (13.45 m high); only two were built. The block found in 2014 has the trilithon's length and was cut for the third course.",
+   "source": "van Ess 2015, e-Forschungsberichte des DAI"
+  },
+  {
+   "fact": "Few but well-datable pottery fragments from the quarry point to quarrying in the early Roman imperial period.",
+   "source": "van Ess 2015, e-Forschungsberichte des DAI"
+  },
+  {
+   "fact": "The 2014 block measures 19.6 x 6 x at least 5.5 m and weighs about 1,650 t; it lies beside and partly beneath the Hajjar al-Hibla (Stone of the Pregnant Woman); it is the largest stone block known from antiquity.",
+   "source": "DAI press release, December 2014 (HeritageDaily; DigVentures); van Ess 2015"
+  },
+  {
+   "fact": "The Hajjar al-Hibla (about 1,000 t) was left in the quarry because of poor stone quality along one edge (karst cavities and cracks) that could have broken it in transport; it was never cut free of the bedrock.",
+   "source": "DAI press release, December 2014; van Ess 2015"
+  },
+  {
+   "fact": "The Roman platform of the Temple of Jupiter was raised over an earlier, pre-Roman base (a podium, staircase and foundation walls) that was incorporated into the Roman master plan.",
+   "source": "Lohmann 2010, Bollettino di Archeologia On Line"
+  },
+  {
+   "fact": "Systematic German excavation at Baalbek began in 1898 after the visit of Kaiser Wilhelm II (Otto Puchstein's expedition worked until 1904); the DAI and Lebanon's Directorate General of Antiquities have run a joint programme since 1997.",
+   "source": "Wiegand (ed.) 1921-1925, Baalbek: Ergebnisse der Ausgrabungen und Untersuchungen in den Jahren 1898 bis 1905; DAI Baalbek project (joint programme with the DGA since 1997)"
+  },
+  {
+   "fact": "The tomb painting of the nomarch Djehutihotep at Deir el-Bersha (about 1880 BCE, Middle Kingdom) shows a colossal statue of about 6.8 m, estimated at about 58 to 60 t, on a sledge hauled by 172 men, with a man pouring liquid in front of the sledge. Newberry read the pouring as a ceremonial act; engineers read it as lubrication.",
+   "source": "Newberry 1895; Habachi 1984, as cited by Dziedzic (bibliotekanauki.pl article 1683708: about 60 t, 172 men); Nosonovsky (UWM essay: the ritual and lubrication readings)"
+  },
+  {
+   "fact": "With the right amount of water, desert sand becomes about twice as stiff and the force needed to pull a sledge over it falls by about half (laboratory experiment with a model sledge).",
+   "source": "Fall et al. 2014, Physical Review Letters 112: 175502, doi:10.1103/PhysRevLett.112.175502"
+  },
+  {
+   "fact": "In 2012, at Kualoa Ranch in Hawaii, eighteen people with three hemp ropes rocked a 4.35-tonne concrete replica of an Easter Island moai from side to side and 'walked' it 100 m in about 40 minutes (under an hour).",
+   "source": "Lipo & Hunt 2025, Journal of Archaeological Science 183: 106383, doi:10.1016/j.jas.2025.106383; Lipo, Hunt & Rapu Haoa 2013, doi:10.1016/j.jas.2012.09.029; Live Science, 24 October 2012 (location and ropes)"
+  },
+  {
+   "fact": "The Thunder Stone, a granite boulder estimated at well over 1,000 t (estimates from about 1,250 to 1,500 t and more), was moved about 6 km overland in 1769-1770 by about 400 men, on a sledge running on bronze balls in grooved rails, pulled by capstans; it is the pedestal of the Bronze Horseman in Saint Petersburg.",
+   "source": "Carburi 1777; Guinness World Records (largest stone moved by manpower alone)"
+  },
+  {
+   "fact": "None of Pumapunku's roughly 150 surviving blocks is in its original position; the site was quarried and looted over centuries.",
+   "source": "Vranich 2018, Heritage Science 6: 65, doi:10.1186/s40494-018-0231-0"
+  },
+  {
+   "fact": "In Pumapunku's south canal the I-shaped cramps of copper-arsenic-nickel bronze were cast in place, poured into the sockets.",
+   "source": "Lechtman 1998, Metallurgica Antiqua (Der Anschnitt Beiheft 8)"
+  },
+  {
+   "fact": "Pumapunku's blocks fall into about eleven repeated designs (some in left- and right-handed versions), but blocks of the same design vary in size and are not interchangeable like a true kit; the Tiahuanaco masons' tools remain essentially unknown, except perhaps hammerstones, and the sharp 90-degree interior angles were most likely not made with hammerstones.",
+   "source": "Protzen & Nair 1997, Journal of the Society of Architectural Historians 56(2): 146-167; Protzen & Nair 2013"
+  },
+  {
+   "fact": "Posnansky dated Tiwanaku's Kalasasaya to about 15,000 BCE from the change in the Earth's tilt (obliquity) against the wall's solstice alignment.",
+   "source": "Posnansky 1945, Tihuanacu: The Cradle of American Man"
+  },
+  {
+   "fact": "At an Inca quarry Protzen found 68 hammerstones of 2 to 8 kg; with a 4 kg hammerstone he dressed one face of a small andesite block in about 20 minutes, and fitted blocks by repeated trial lowering, marking and pounding (about 90 minutes for one fit), with results comparable to Inca masonry.",
+   "source": "Protzen 1985, Journal of the Society of Architectural Historians 44(2): 161-182; Protzen 1986, Scientific American 254(2)"
+  },
+  {
+   "fact": "At Kachiqhata, the quarry for Ollantaytambo, Inca access ramps are 4 to 8 m wide, and about 80 abandoned blocks lie along the routes.",
+   "source": "Protzen 1985, Journal of the Society of Architectural Historians 44(2): 161-182"
+  },
+  {
+   "fact": "The hill of Sacsayhuamán was occupied from about 900 CE (the Killke period) before the Incas built the terraces.",
+   "source": "Bauer 2004, Ancient Cuzco"
+  }
+ ],
+ "names": [
+  {
+   "name": "Baalbek",
+   "say": "BAHL-bek (in LEX)"
+  },
+  {
+   "name": "Beqaa",
+   "say": "beh-KAH (in LEX)"
+  },
+  {
+   "name": "Heliopolis",
+   "say": "hee-lee-OP-oh-lis (in LEX)"
+  },
+  {
+   "name": "trilithon",
+   "say": "try-LITH-on (in LEX)"
+  },
+  {
+   "name": "Graham Hancock",
+   "say": "HAN-cock (in LEX)"
+  },
+  {
+   "name": "Djehutihotep",
+   "say": "jeh-HOO-tee-HOH-tep"
+  },
+  {
+   "name": "Jean-Pierre Adam",
+   "say": "zhahn-PYAIR ah-DAHM (Jean-Pierre in LEX; Adam said the French way)"
+  },
+  {
+   "name": "Easter Island",
+   "say": "plain English"
+  },
+  {
+   "name": "Saint Petersburg",
+   "say": "saint PEE-terz-burg"
+  },
+  {
+   "name": "Puma Punku",
+   "say": "POO-mah POON-koo (punku in LEX)"
+  },
+  {
+   "name": "Tiwanaku",
+   "say": "tee-wah-NAH-koo (in LEX)"
+  },
+  {
+   "name": "Titicaca",
+   "say": "tee-tee-KAH-kah (in LEX)"
+  },
+  {
+   "name": "andesite",
+   "say": "AN-deh-zite (in LEX)"
+  },
+  {
+   "name": "Arthur Posnansky",
+   "say": "poz-NAN-skee (in LEX)"
+  },
+  {
+   "name": "Cusco",
+   "say": "KOOS-koh (in LEX)"
+  },
+  {
+   "name": "Sacsayhuamán",
+   "say": "sak-sai-wah-MAHN (in LEX)"
+  },
+  {
+   "name": "Pedro Cieza de León",
+   "say": "PEH-droh see-EH-sah deh leh-OHN (Cieza and León in LEX)"
+  },
+  {
+   "name": "Jean-Pierre Protzen",
+   "say": "zhahn-PYAIR PROT-sen (in LEX)"
+  },
+  {
+   "name": "Ollantaytambo",
+   "say": "oh-yahn-tie-TAHM-boh"
+  }
+ ],
+ "words": 1532
+}
