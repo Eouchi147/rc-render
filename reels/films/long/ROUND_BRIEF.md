@@ -1,9 +1,18 @@
 # Long-form round brief: one agent, one film, script to compiled film
 
 You make one complete long-form deep dive (16:9, about 10 minutes) for the history channel Residual Continuum, from
-research to a compiled, previewed film module. Four films are already finished this way (LF.01 to LF.04: Under Giza,
-Atlantis, Göbekli Tepe, The Comet and the Cold); the owner loved them. The goal of the channel: social buzz and to be the
-number one reference on these subjects, without ever trading honesty for clicks.
+research to a compiled, previewed film module. Ten films are already finished this way (LF.01 to LF.10: Under Giza,
+Atlantis, Göbekli Tepe, The Comet and the Cold, The UFO Files, Impossible Stones, Gunung Padang, Derinkuyu, Ancient
+Astronauts, Voynich); the owner loved them. The goal of the channel: social buzz and to be the number one reference on
+these subjects, without ever trading honesty for clicks.
+
+Lessons from the review of round 2 (apply them):
+- The first 3 seconds: the hero image must be fully drawn and instantly recognisable. In LF.09 the famous carved lid of
+  the cold open was drawn as a plain slab, the weakest moment of that film. If the object is famous, draw its silhouette
+  and the details people know it by, with light and depth, before anything else appears.
+- Cross-sections, maps and diagrams must read on a phone: at most about 6 labels on a panel, generous spacing, back layers
+  dimmed for depth. LF.08's underground cross-section was too busy. Two clear panels beat one crowded one.
+- Each film is reviewed from its contact sheet before it is rendered: a panel that is empty, crowded or wrong is sent back.
 
 Workspace: `/home/claude/rc2/reels` (a clone of the render farm repo). Scratch: `/tmp/claude-0/` and your scratchpad.
 
@@ -35,7 +44,7 @@ Rules that matter:
 - The opening chapter (hook + title beat) gets no card; the title beat has role "title" and `"intro": True`.
 - `description` = the script's description with the chapter list replaced by `{chapters}`.
 - Compile and preview ONLY in your sandbox `/tmp/claude-0/sbx_<id>` with all three RC_FILMS_ variables (see SCENE_BRIEF).
-  Look at every still and fix what is wrong. Five other authors share the 2 CPUs: run one preview at a time, and prefer
+  Look at every still and fix what is wrong. Four other authors share the 2 CPUs: run one preview at a time, and prefer
   previews of the panels you changed (e.g. render stills for chosen steps with your own small playwright script).
 - Edit only `films/long/<id>/script.json` and `films/long/<mod>.py`. Never run films.py without the RC_FILMS_ variables.
   Do not run longjob.py or reel.py (the farm voices and renders).
