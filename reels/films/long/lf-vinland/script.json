@@ -1,0 +1,829 @@
+{
+ "id": "lf-vinland",
+ "kind": "case",
+ "series": "Myths That Came True",
+ "title": "Vinland: The Vikings Before Columbus",
+ "intro_title": "Vinland: The Vikings Before Columbus",
+ "yt_title": "Vikings in America: How a Solar Storm Gave Us the Year",
+ "verdict": "Established",
+ "verdict_scope": "the Norse presence at L'Anse aux Meadows, Newfoundland, around 1021 CE (graded Established); the Vinland Map and the Kensington Runestone are graded Ruled out in the weighing; how long the Norse stayed and where Vinland lay are graded Open question",
+ "hook": "Did Vikings reach America before Columbus?",
+ "end_line": "The camp is found. The land of grapes is still out there.",
+ "structure_note": "chapters[0] is the cold open and the title beat (no chapter card; YouTube chapter 0:00). Chapters 1 to 5 are the story chapters; 'The weighing' carries the verdict, the test and the close. Shot ids s1..sN are in story order; 'alias of sN' means a return to that panel. The word 'Skraelings' is used only as the sagas' word, never on screen.",
+ "chapters": [
+  {
+   "title": "Cold open",
+   "beats": [
+    {
+     "role": "hook",
+     "lines": [
+      "[d:intrigue][sfx:boom][act:hushed wonder, painting it]A thousand years ago, on the northern tip of ^Newfoundland, someone cut a tree with a metal ^blade. [act:the twist, slower][tune:fall]At the time, the people of that land made no metal ^tools.",
+      "[d:tension][act:wonder, leaning in]And the wood itself, thanks to a storm on the ^Sun, gives us the ^year: [act:the date, firm][tune:fall]{1021|ten twenty-one}. [act:letting it land, slower][tune:fall]Four hundred and seventy-one years before ^Columbus.",
+      "[act:the child's question, curious][tune:rise]So did Vikings really reach ^America, nearly five centuries before ^Columbus? [act:the bigger question, slower][tune:rise]And where was the land their stories called ^Vinland, the land of ^grapes?"
+     ],
+     "shots": [
+      {
+       "id": "s1",
+       "say": "A thousand years ago, on the northern tip of Newfoundland, someone cut a tree with a metal blade.",
+       "draw": "HERO IMAGE, complete from the first frame. Dusk at the northern tip of Newfoundland (base sky, tod dusk, ground about 690, the sun low at left over the sea). A shallow bay across the lower left and centre; on a grassy terrace at right, three Norse turf halls in side view (long, low, gabled sod roofs, doors glowing warm, thin smoke rising); at anchor in the bay, a Norse ship drawn large and unmistakable: a clinker hull with high curled stem and stern posts, a mast and a square sail with vertical red and cream stripes, its reflection in the water. At far right, dark firs, and a person swinging an axe at one of them. On 'metal blade', a glint flashes on the axe head and a chip of wood flies. The top left (the sky) stays clear for the hook title."
+      },
+      {
+       "id": "s2",
+       "say": "At the time, the people of that land made no metal tools.",
+       "draw": "Same panel, the camera pushes in (z about 1.8) on the axe and the cut: the cut face shows clean, flat facets (two bright angled lines); label 'a metal blade' (gold) with a leader to the axe head; on 'no metal tools', a small label 'no local metal tools' (bone).",
+       "reuse": "alias of s1, new cam"
+      },
+      {
+       "id": "s3",
+       "say": "And the wood itself, thanks to a storm on the Sun, gives us the year: 1021. Four hundred and seventy-one years before Columbus.",
+       "draw": "Dark panel: a large slice of a tree trunk (bark, rings drawn ring by ring). At top right the Sun flares (glow, rays); a burst of particles streams down to one ring, which turns gold. The outermost ring under the bark lights; '1021' pops in large gold serif beside the bark edge. Below, a short time line 1000 to 1500 draws itself: a gold dot '1021' and a boat, a bone dot 'Columbus, 1492' and a second boat, and an amber arc between them with '471 years'.",
+       "reuse": "vinland_m tree slice and span (f11.vinland_m: disc, 471 years), redrawn wide"
+      },
+      {
+       "id": "s4",
+       "say": "So did Vikings really reach America, nearly five centuries before Columbus? And where was the land their stories called Vinland, the land of grapes?",
+       "draw": "Map of the North Atlantic, View(-80, 15, 30, 72): land in dark ochre. Pins 'Norway', 'Iceland', 'Greenland', 'Newfoundland'. A gold dashed route draws itself from Norway by Iceland and Greenland to the tip of Newfoundland; far to the south, a bone dashed route 'Columbus, 1492' runs from Spain to the Caribbean. On 'really reach America', a lilac question mark pops over the gold route's end. On 'Vinland', a lilac dotted region glows on the coasts south-west of Newfoundland with a small grape cluster and the label 'Vinland?'. Six labels at most."
+      }
+     ]
+    },
+    {
+     "role": "title",
+     "lines": [
+      "[d:calm][act:warm, setting out]Vinland: the Vikings before ^Columbus."
+     ],
+     "shots": [
+      {
+       "id": "s5",
+       "say": "Vinland: the Vikings before Columbus.",
+       "draw": "intro_title card 'Vinland: The Vikings Before Columbus' over the dimmed s4 map. Nothing else drawn."
+      }
+     ],
+     "intro": true
+    }
+   ]
+  },
+  {
+   "title": "Two sagas, one land",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:setting the scene, measured]Greenland, around the year one ^thousand. [act:orienting, clear]Norse farmers from Iceland have settled its south-western ^fjords, led by Erik the ^Red.",
+      "[act:storytelling, warm]His son, Leif ^Eriksson, sails ^west. [p:0.93][act:naming them, a little awed]The sagas name three lands: ^Helluland, the land of flat ^stones; ^Markland, the land of ^forests; [act:the prize][tune:fall]and ^Vinland, the land of ^wine.",
+      "[act:amused, storytelling]In one saga, a German in Leif's crew, ^Tyrkir, comes back from a walk with ^news. [act:the punchline][tune:fall]He has found ^grapes."
+     ],
+     "shots": [
+      {
+       "id": "s6",
+       "say": "Norse farmers from Iceland have settled its south-western fjords, led by Erik the Red.",
+       "draw": "Map of southern Greenland and Iceland, View(-56, -12, 58.5, 67.5): Greenland's ice in pale blue-white over the land, its south-western fjords dark; a dashed gold arrow from Iceland down the east coast and round Cape Farewell to the south-western fjords ('from Iceland'); fifteen small gold farm dots pop in the two settlements as 'Norse farmers' is said, a gold leader to 'Erik the Red's farm' at Brattahlid. Labels: 'Greenland', 'Iceland', 'from Iceland', 'Norse farms', 'Erik the Red's farm'."
+      },
+      {
+       "id": "s7",
+       "say": "His son, Leif Eriksson, sails west. The sagas name three lands: Helluland, the land of flat stones; Markland, the land of forests; and Vinland, the land of wine.",
+       "draw": "Map west of Greenland, View(-80, -40, 44, 70): Baffin Island, Labrador, Newfoundland and the Gulf. A Norse ship pops at Greenland, label 'Leif Eriksson'; a gold dashed route draws itself west and south along the coasts. As each land is named, its name pops on the land with a pictogram: flat grey stone slabs on Baffin Island ('Helluland'), a cluster of dark conifers on Labrador ('Markland'), a lilac grape cluster south of Newfoundland ('Vinland', lilac, claimed style, since where it lies is unknown)."
+      },
+      {
+       "id": "s8",
+       "say": "In one saga, a German in Leif's crew, Tyrkir, comes back from a walk with news. He has found grapes.",
+       "draw": "The saga as an illuminated page: a vellum sheet (cream, warm edges) with a red initial; drawn on it in brown ink, a forest edge with vines climbing the trees and hanging grape clusters (purple); at left a small camp with booths and a fire; a man walks out of the trees holding up a grape cluster; the others turn to look. Label 'Tyrkir' (ink) and, on 'grapes', the clusters glow."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:storytelling, building]Others follow. [act:introducing them, warm]An Icelandic trader, Thorfinn ^Karlsefni, sails west with his wife, ^Gudrid, to settle the new ^land. [act:tender, a small wonder][tune:fall]There, the sagas agree, Gudrid gives birth to a son, ^Snorri. [act:a quiet aside][tune:fall]One of his grandsons would become a bishop in ^Iceland.",
+      "[act:careful, respectful]They meet the people of the land, whom the sagas call ^Skraelings. [act:storytelling][tune:level]They trade furs for red ^cloth. [act:darker, lower][tune:level]Then they ^fight. [act:plain][tune:fall]Within a few years, the Norse sail ^home."
+     ],
+     "shots": [
+      {
+       "id": "s9",
+       "say": "Others follow. An Icelandic trader, Thorfinn Karlsefni, sails west with his wife, Gudrid, to settle the new land. There, the sagas agree, Gudrid gives birth to a son, Snorri. One of his grandsons would become a bishop in Iceland.",
+       "draw": "A second vellum page: a Norse ship under sail drawn in ink, people aboard and two cattle and sheep in its waist; then, standing on a shore, a man and a woman (labels 'Thorfinn Karlsefni', 'Gudrid'); on 'Snorri', a swaddled baby appears in Gudrid's arms with a soft lamp glow, label 'Snorri'; on 'bishop', a small crozier and mitre in red ink pop in the margin."
+      },
+      {
+       "id": "s10",
+       "say": "They meet the people of the land, whom the sagas call Skraelings. They trade furs for red cloth. Then they fight. Within a few years, the Norse sail home.",
+       "draw": "A third vellum page, a shore: at left Norse figures with a bolt of red cloth; at right, figures beside boats drawn up on the beach, holding bundles of furs (all drawn in the same simple ink style, no caricature); two arrows cross between them, 'furs' and 'red cloth'. On 'fight', a short jagged red line splits the shore between the groups. On 'sail home', a second, smaller Norse ship appears out at sea at the left, heading away, with a dashed wake."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:aside][act:a quiet caveat, lower]But these sagas were written down about two centuries after the ^voyages, [act:the catch, plain][tune:fall]and they don't ^agree.",
+      "[act:laying it out, brisk]In the Saga of the ^Greenlanders, a trader called ^Bjarni sights the new land first, blown off course, and Leif follows his ^route. [act:the contrast][tune:fall]In Erik the Red's ^Saga, Leif finds it ^himself, on his way home from ^Norway.",
+      "[p:0.93][act:counting, amused]One saga gives Karlsefni sixty-five ^people. [act:the other][tune:fall]The other, well over a ^hundred.",
+      "[p:0.93][act:explaining, warm]Think of a family story, retold at every wedding for eight ^generations. [act:the point, a small smile][tune:fall]The names survive. The details ^drift."
+     ],
+     "shots": [
+      {
+       "id": "s11",
+       "say": "But these sagas were written down about two centuries after the voyages, and they don't agree.",
+       "draw": "Time line 950 to 1450 CE on a dark panel: a gold band 'the voyages' around 1000 to 1025; a lilac band 'written down' through the 1200s, with two small closed books above it; a bracket below the axis, 'about 200 years'. On 'don't agree', a lilac '?' pops over the two books."
+      },
+      {
+       "id": "s12",
+       "say": "In the Saga of the Greenlanders, a trader called Bjarni sights the new land first, blown off course, and Leif follows his route. In Erik the Red's Saga, Leif finds it himself, on his way home from Norway.",
+       "draw": "Two open books side by side, titled 'the Greenlanders' and 'Erik the Red's Saga'. In the left one, a small ship labelled 'Bjarni' is pushed off course by a curling wind arrow and sights a coast; then a second ship 'Leif' follows its dashed track. In the right one, a single ship 'Leif' comes from 'Norway' (label) and is blown to the same coast."
+      },
+      {
+       "id": "s13",
+       "say": "One saga gives Karlsefni sixty-five people. The other, well over a hundred.",
+       "draw": "Same two books: under the left one, 65 small figures pop in rows of 13 (count true), label '65'; under the right one, 100 figures pop in rows of 20 with a dashed '+' block after them, label 'over 100'.",
+       "reuse": "alias of s12"
+      },
+      {
+       "id": "s14",
+       "say": "Think of a family story, retold at every wedding for eight generations. The names survive. The details drift.",
+       "draw": "Eight figures in a row from left to right, each a generation (tiny chips 1 to 8), each with a speech bubble: in every bubble the same gold names ('Leif', 'Vinland') stay; the little pictures change from bubble to bubble (the ship grows, the grapes multiply, a second ship appears and goes). Labels 'eight generations', 'names survive' (gold), 'details drift' (lilac)."
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:reveal][act:the twist, intrigued]Yet one writer heard of Vinland much ^sooner. [act:storytelling]Around {1075|ten seventy-five}, a German churchman, Adam of ^Bremen, wrote that the king of Denmark had told him of an island in the ocean called ^Vinland, [act:quoting, savouring it][tune:fall]where vines grow by themselves and make the best ^wine.",
+      "[act:the landing, even]Still, for nine centuries, the story was all there ^was. [act:plain][tune:fall]No one had found a single Norse house@noun beyond ^Greenland."
+     ],
+     "shots": [
+      {
+       "id": "s15",
+       "say": "Yet one writer heard of Vinland much sooner. Around 1075, a German churchman, Adam of Bremen, wrote that the king of Denmark had told him of an island in the ocean called Vinland, where vines grow by themselves and make the best wine.",
+       "draw": "Back on the s11 time line: a thick gold segment draws itself along the axis from 1021 to 1075, a gold dot at 1075, label 'about 50 years' under it; a churchman at a lectern rises above (label 'Adam of Bremen'), a crowned figure beside him pointing ('king of Denmark'); on 'vines', a vine sprig with grapes curls over the lectern.",
+       "reuse": "alias of s11"
+      },
+      {
+       "id": "s16",
+       "say": "Still, for nine centuries, the story was all there was. No one had found a single Norse house beyond Greenland.",
+       "draw": "The North Atlantic map of s4 again, framed on Greenland and Newfoundland: Greenland's Norse farm ruins glow as gold dots ('Norse ruins'); across the sea, Labrador and Newfoundland stay dark, with a dashed empty circle and 'nothing found' in bone; a faint lilac 'Vinland?' floats.",
+       "reuse": "alias of s4, new cam"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Bumps in the grass",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:storytelling, setting out]In {1960|nineteen sixty}, a Norwegian explorer came looking for ^Vinland. [act:naming him, warm]Helge ^Ingstad searched the coasts of ^Newfoundland with his daughter, ^Benedicte.",
+      "[act:the moment, warm]At the fishing village of L'Anse aux ^Meadows, a local man, George ^Decker, led them to some grassy bumps and ridges that looked like old ^walls. [act:his words, delighted][tune:fall]Ingstad said he felt as if he had hooked a large ^salmon."
+     ],
+     "shots": [
+      {
+       "id": "s17",
+       "say": "Helge Ingstad searched the coasts of Newfoundland with his daughter, Benedicte.",
+       "draw": "Map of the Strait of Belle Isle, View(-60.5, -52.5, 49.6, 53.2): the Great Northern Peninsula of Newfoundland, Labrador across the strait. A small boat slides up the coast trailing a dashed wake; chip '1960'; labels 'Newfoundland', 'Labrador', 'Helge and Benedicte Ingstad'; a gold pin 'L'Anse aux Meadows' pops at the tip as the boat reaches it."
+      },
+      {
+       "id": "s18",
+       "say": "At the fishing village of L'Anse aux Meadows, a local man, George Decker, led them to some grassy bumps and ridges that looked like old walls. Ingstad said he felt as if he had hooked a large salmon.",
+       "draw": "Day landscape at the site (sky, tod day): a flat grassy terrace above a shallow bay, a few fishing houses far off at left. On the terrace, low grassy bumps and ridges in rough rectangles, lit by low sun. Three figures walk in: one points ('George Decker'), two follow ('the Ingstads'). On 'ridges', gold dashed outlines trace the rectangles. On 'salmon', a thought bubble rises from Ingstad with a salmon on a line in it (label 'a large salmon')."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:storytelling, building]From {1961|nineteen sixty-one}, his wife, the archaeologist Anne Stine ^Ingstad, led an international team through eight years of ^digging.",
+      "[act:counting them off]Under the turf lay the remains of eight ^buildings: [act:explaining][tune:fall]walls of sod, once raised around wooden ^frames. [p:0.93][act:the scale, vivid]The biggest hall was almost thirty metres ^long. [act:the comparison, a smile][tune:fall]Longer than a tennis ^court.",
+      "[act:the clincher, firm][tune:fall]And the objects@noun were ^Norse. [act:counting them off][tune:level]A bronze cloak ^pin. [act:building][tune:level]A stone spindle ^whorl. [act:the last, firm][tune:fall]A smithy, where someone had made ^iron."
+     ],
+     "shots": [
+      {
+       "id": "s19",
+       "say": "From 1961, his wife, the archaeologist Anne Stine Ingstad, led an international team through eight years of digging.",
+       "draw": "The same terrace in a raking cutaway: a dig grid of pegs and strings draws itself over the bumps; kneeling diggers with trowels pop along it (label 'Anne Stine Ingstad' at a standing figure with a plan board); eight tally marks for the seasons 1961 to 1968 pop along the top, chip '1961 to 1968'.",
+       "reuse": "alias of s18, new cam"
+      },
+      {
+       "id": "s20",
+       "say": "Under the turf lay the remains of eight buildings: walls of sod, once raised around wooden frames.",
+       "draw": "Plan of the site (base plan): the terrace above Black Duck Brook, the bog skirting it, the shore. Eight building outlines draw themselves (three large halls each with a small hut, and the smithy across the brook), schematic layout, solid lines. Labels 'eight buildings', 'smithy', 'the bog', 'the sea'. Then an inset section of a hall: wooden posts and rafters (amber) inside thick layered sod walls and a sod roof, label 'sod on a frame'."
+      },
+      {
+       "id": "s21",
+       "say": "The biggest hall was almost thirty metres long. Longer than a tennis court.",
+       "draw": "Plan view to scale (20 units = 1 m): hall F's outline, 28.8 m by 15.6 m, its rooms; beside it a tennis court, 23.8 m by 11 m, its lines in white on green. Dimension lines 'about 29 m' and '24 m'; three people (1.7 m) in the hall for scale."
+      },
+      {
+       "id": "s22",
+       "say": "And the objects were Norse. A bronze cloak pin. A stone spindle whorl. A smithy, where someone had made iron.",
+       "draw": "A dark museum panel, three lit plinths popping in the order said: a bronze ring-headed cloak pin (a long pin with a ring through its head, bronze, glinting), a stone spindle whorl (a small grey-green disc with a hole), and a little smithy hut with a glowing furnace. Labels 'bronze cloak pin', 'spindle whorl', 'smithy'."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:explaining, a picture]The iron came from the bog next ^door. [p:0.93][act:the analogy, clear]Bog iron gathers in wet ground, the way rust stains a ^puddle. [act:the method][tune:fall]Roast it, smelt it with charcoal, and out comes ^iron, and a glassy waste called ^slag.",
+      "[p:0.9][act:the number, savouring it]Here, just a few kilograms, from a single ^smelting. [act:the reason, plain]Enough to mend a ^boat. [p:0.93][act:the evidence]The diggers found about a hundred broken iron ^nails, [act:the detail][tune:fall]cut the way old rivets are cut from a ship under ^repair.",
+      "[act:a gentle surprise]That spindle whorl, and a little whetstone for ^needles, lay in a shed beside the biggest ^hall. [act:the point, warm][tune:fall]Tools of women's work in the Norse ^world. [act:the link][tune:fall]The sagas, too, speak of ^women."
+     ],
+     "shots": [
+      {
+       "id": "s23",
+       "say": "The iron came from the bog next door. Bog iron gathers in wet ground, the way rust stains a puddle. Roast it, smelt it with charcoal, and out comes iron, and a glassy waste called slag.",
+       "draw": "Left: a puddle in a boot print with a rust-orange film spreading through the water (label 'like rust in a puddle'). Centre: the bog in section with orange-brown lumps of ore in the wet peat ('bog iron'). Right: a clay shaft furnace with charcoal and flames, an arrow from the ore into it; out of its base come a grey iron bloom ('iron') and a dark glassy crust ('slag'). The puddle's label: 'rust in a puddle'."
+      },
+      {
+       "id": "s24",
+       "say": "Here, just a few kilograms, from a single smelting. Enough to mend a boat. The diggers found about a hundred broken iron nails, cut the way old rivets are cut from a ship under repair.",
+       "draw": "A small balance holds one fist-sized iron bloom, chip 'a few kilograms'; beside it a Norse boat hull on stocks in side view, its overlapping planks fixed by rows of rivets; on 'cut', a few rivets glint red and drop out; 100 small nail icons pop in rows of 20 into a tray below, label 'about 100 nails'."
+      },
+      {
+       "id": "s25",
+       "say": "That spindle whorl, and a little whetstone for needles, lay in a shed beside the biggest hall. Tools of women's work in the Norse world. The sagas, too, speak of women.",
+       "draw": "Hall F's outline (from s21) with its lean-to shed lit; the spindle whorl and a small whetstone pop inside it with soft glows; beside the plan, a woman spinning wool with a drop spindle (silhouette, the whorl glinting), label 'women's work'.",
+       "reuse": "alias of s21, new cam (closer on hall F)"
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:aside][act:the landing, warm]No shelters for ^animals: [act:plain][tune:fall]this was no ^farm. [act:the conclusion, even][tune:fall]A base for mending ships and exploring, for perhaps seventy to ninety ^people."
+     ],
+     "shots": [
+      {
+       "id": "s26",
+       "say": "No shelters for animals: this was no farm. A base for mending ships and exploring, for perhaps seventy to ninety people.",
+       "draw": "The site plan of s20 again: a dashed byre outline with a small cow pictogram is struck through in red ('no animal shelters'); a boat on the shore ('ship repair') and a dashed gold arrow out to sea ('exploring'); at the right, a block of figures pops: 70 solid and 20 dashed, label '70 to 90 people'.",
+       "reuse": "alias of s20, new cam"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "A storm in the tree rings",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:the question, curious][tune:rise]But when exactly were the Norse ^here? [p:0.93][act:explaining, the analogy]Radiocarbon dating is like a clock with only an hour ^hand. [act:the catch][tune:fall]It tells you roughly when, not the ^year.",
+      "[p:0.9][act:the number, a little dry]The site has fifty-five radiocarbon dates from its Norse ^layers. [act:the punchline][tune:fall]Together, they span the whole Viking ^Age, and ^more."
+     ],
+     "shots": [
+      {
+       "id": "s27",
+       "say": "Radiocarbon dating is like a clock with only an hour hand. It tells you roughly when, not the year.",
+       "draw": "A large clock face on a dark panel with twelve ticks and only an hour hand (no minute hand), which swings and settles between two numbers; a lilac blur arc spreads either side of it. Labels 'radiocarbon dating', 'only an hour hand', 'roughly when'."
+      },
+      {
+       "id": "s28",
+       "say": "The site has fifty-five radiocarbon dates from its Norse layers. Together, they span the whole Viking Age, and more.",
+       "draw": "A chart on an axis 600 to 1200 CE: 55 thin horizontal date ranges stack up quickly (each a bar of its own length), together covering about 660 to 1190; then a gold band 'the Viking Age' with its edges marked '793' and '1066' fades in behind them, and the bars overrun it at both ends. Label '55 dates'."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:explaining, warm]Trees keep better ^time. [p:0.93][act:the analogy, gentle]A tree adds one ring every year, like the pencil marks on a door frame as a child grows ^taller.",
+      "[act:wonder, explaining]And in {993|nine ninety-three}, a burst of particles, most likely from the ^Sun, hit the upper air and made extra ^radiocarbon. [p:0.93][act:the key, slower]Every tree growing that year locked a little more of it into that year's ^ring. [act:delighted][tune:fall]A date stamp, ^worldwide.",
+      "[act:crediting them, warm][tune:fall]A Japanese team led by Fusa ^Miyake found that stamp in {2013|twenty thirteen}."
+     ],
+     "shots": [
+      {
+       "id": "s29",
+       "say": "Trees keep better time. A tree adds one ring every year, like the pencil marks on a door frame as a child grows taller.",
+       "draw": "Left: a door frame with pencil marks climbing it, a child standing against it, a new mark each year. Right: a tree trunk's cross-section grows ring by ring from the centre outward in step with the marks. Label 'one ring a year'."
+      },
+      {
+       "id": "s30",
+       "say": "And in 993, a burst of particles, most likely from the Sun, hit the upper air and made extra radiocarbon. Every tree growing that year locked a little more of it into that year's ring. A date stamp, worldwide.",
+       "draw": "The Sun at left flares; a stream of particles crosses to the Earth at right, whose thin atmosphere glows; small trees stand around the globe's limb and each blinks gold; the globe shows the real continents (orthographic, the Atlantic in the middle). Inset: a ring slice whose one ring turns gold. Labels 'the Sun's burst', '993', 'every tree, that year'."
+      },
+      {
+       "id": "s31",
+       "say": "A Japanese team led by Fusa Miyake found that stamp in 2013.",
+       "draw": "Same panel, a small chart rises below the globe: radiocarbon in tree rings year by year, flat, then a sharp step up at 993 (the step glows), chip 'found 2013'.",
+       "reuse": "alias of s30"
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:storytelling, precise]In {2021|twenty twenty-one}, scientists tested three pieces of Norse wood from the site, from three different ^trees. [act:the detail, firm][tune:level]Each had been cut with a metal ^blade. [act:the key][tune:fall]Each still had its last ring, the one just under the ^bark.",
+      "[p:0.93][act:precise, detective work]In each, the spike of {993|nine ninety-three} sits in one ^ring. [act:counting it out][tune:level]Count outward to the bark: twenty-eight more ^rings. [p:0.9][act:the answer, firm and clear][tune:fall]Nine ninety-three plus twenty-eight: {1021|ten twenty-one}, in all three ^trees.",
+      "[act:a small wonder]One was cut in ^spring, another in summer or ^autumn. [act:the landing, slower][tune:fall]Someone was felling trees here in more than one season of that ^year."
+     ],
+     "shots": [
+      {
+       "id": "s32",
+       "say": "In 2021, scientists tested three pieces of Norse wood from the site, from three different trees. Each had been cut with a metal blade. Each still had its last ring, the one just under the bark.",
+       "draw": "Three pieces of wood lie side by side on a dark table, lit from above, each with its own grain and colour: their ends show clean flat cut facets (white highlight lines) on 'metal blade'; on 'bark', a thin dark bark edge outlines each and a gold line traces the last ring. Labels 'three trees', 'metal cuts', 'last ring'."
+      },
+      {
+       "id": "s33",
+       "say": "In each, the spike of 993 sits in one ring. Count outward to the bark: twenty-eight more rings. Nine ninety-three plus twenty-eight: 1021, in all three trees.",
+       "draw": "A large cross-section of one piece: its rings drawn true in count; the 993 ring glows gold (label '993'); 28 gold dots pop one by one along a radius from that ring to the bark (label '28 more rings'); at the bark '1021' pops in gold serif. Then three narrow ring strips, one per tree, stand beside it and line up on the same two marks, the 993 spike and the bark edge at 1021, each ticked on 'in all three'; label '993 + 28 = 1021'.",
+       "reuse": "vinland_m tree slice (f11.vinland_m disc: the spike ring, the rings counted to the bark), redrawn wide and true: 28 rings after 993"
+      },
+      {
+       "id": "s34",
+       "say": "One was cut in spring, another in summer or autumn. Someone was felling trees here in more than one season of that year.",
+       "draw": "Back on the three pieces of s32: a small budding twig pops by one ('spring'), a sun with a falling leaf by another ('summer or autumn'); a thin calendar bar for 1021 runs under them with two lit seasons.",
+       "reuse": "alias of s32, new cam"
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:aside][p:0.93][act:the big picture, quiet wonder]The researchers call it the first known moment when humans had circled the ^globe. [act:explaining, warm]Our species had spread east, through Asia into the ^Americas, and west, into ^Europe. [act:the landing][tune:fall]With the Norse in Newfoundland, the circle ^closed."
+     ],
+     "shots": [
+      {
+       "id": "s35",
+       "say": "The researchers call it the first known moment when humans had circled the globe. Our species had spread east, through Asia into the Americas, and west, into Europe. With the Norse in Newfoundland, the circle closed.",
+       "draw": "World map (equirectangular, dark): from Africa, an amber arrow runs east across Asia, over Beringia and down into the Americas (label 'east, through Asia'); a gold arrow runs west into Europe, then by Iceland and Greenland to Newfoundland (label 'west, into Europe'). The two tips meet in Newfoundland: a gold ring pops and glows there, chip '1021'."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Nuts from the south",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:reveal][act:leaning in, a delicious clue]Then the bog gave up a ^clue. [act:the find, intrigued]Among the wood chips lay three ^butternuts, a kind of ^walnut, [act:the next clue][tune:fall]and a lump of butternut wood, cut with a metal ^knife.",
+      "[act:the key fact, plain]Butternut trees don't grow in ^Newfoundland. [p:0.93][act:explaining, clear]The nearest grow in northeastern New ^Brunswick, almost nine hundred kilometres away in a straight ^line. [act:the conclusion, warm][tune:fall]Someone from this camp went there, and came ^back."
+     ],
+     "shots": [
+      {
+       "id": "s36",
+       "say": "Among the wood chips lay three butternuts, a kind of walnut, and a lump of butternut wood, cut with a metal knife.",
+       "draw": "Waterlogged wood chips and shavings scattered on dark peat; three butternuts pop among them (oblong, ridged, brown), label '3 butternuts'; then a knobbly lump of wood with one clean flat cut face (a bright facet), label 'cut with a knife'."
+      },
+      {
+       "id": "s37",
+       "say": "Butternut trees don't grow in Newfoundland. The nearest grow in northeastern New Brunswick, almost nine hundred kilometres away in a straight line. Someone from this camp went there, and came back.",
+       "draw": "Map of the Gulf of St Lawrence, View(-71, -52, 43.5, 52.5): a gold pin 'L'Anse aux Meadows'; a red cross over Newfoundland ('no butternuts'); the butternut's northern limit at about 47 degrees north as a green dashed line, the land south of it tinted green ('butternut country'); a straight dashed line from the pin to the inner Miramichi in New Brunswick, label 'about 900 km'; on 'came back', an amber arrow there and a second one back."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:the second clue, intrigued]And those same shores are the northernmost places where wild grapes ^grow. [act:the link, delighted][tune:fall]Butternuts and grapes, side by ^side.",
+      "[act:the interpretation, fair]So the archaeologist Birgitta ^Wallace reads this meadow as a ^gateway, [act:the picture][tune:fall]and Vinland as a whole region around the Gulf of Saint ^Lawrence."
+     ],
+     "shots": [
+      {
+       "id": "s38",
+       "say": "And those same shores are the northernmost places where wild grapes grow. Butternuts and grapes, side by side.",
+       "draw": "Same map: a purple-tinted band of wild grapes along the southern Gulf shores overlaps the green; small grape clusters pop beside small butternut icons in northeastern New Brunswick. Label 'wild grapes'.",
+       "reuse": "alias of s37"
+      },
+      {
+       "id": "s39",
+       "say": "So the archaeologist Birgitta Wallace reads this meadow as a gateway, and Vinland as a whole region around the Gulf of Saint Lawrence.",
+       "draw": "Same map: the pin at L'Anse aux Meadows grows a gold gateway ring ('the gateway'); a lilac dotted outline draws itself around the shores of the Gulf of St Lawrence, label 'Vinland?' (lilac).",
+       "reuse": "alias of s37"
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:calm][act:turning, careful]But the Norse were not alone in this ^land. [p:0.93][act:explaining, respectful]On this very meadow, five or six different peoples had camped over some six thousand ^years, [act:the detail][tune:fall]though none, it seems, while the Norse were ^there.",
+      "[act:the question, careful][tune:rise]So who were the people the sagas call ^Skraelings? [act:honest, plain]Probably the ancestors of the ^Beothuk, the ^Innu and the ^Mi'kmaq. [act:the north][tune:fall]Further north, perhaps ^Dorset people.",
+      "[d:aside][act:honest, quiet]Which of them, we can't ^say. [act:fair, warm]And we hear only one side of these ^meetings: [act:the point][tune:fall]the Norse stories, written down two centuries ^later."
+     ],
+     "shots": [
+      {
+       "id": "s40",
+       "say": "On this very meadow, five or six different peoples had camped over some six thousand years, though none, it seems, while the Norse were there.",
+       "draw": "A time line of the meadow, about 4000 BCE to 1500 CE: five soft coloured bands for the earlier peoples and one after, each a different earth colour, spaced along it (first tick '6,000 years ago', label 'five or six peoples'); a dashed zoom opens the years 600 to 1500 CE below, where a gold band for the Norse sits alone in a gap around 1000 CE (label 'the Norse'), and a bracket over the gap reads 'none at that time'."
+      },
+      {
+       "id": "s41",
+       "say": "So who were the people the sagas call Skraelings? Probably the ancestors of the Beothuk, the Innu and the Mi'kmaq. Further north, perhaps Dorset people.",
+       "draw": "Map of the region, View(-80, -50, 43, 66): soft warm glows (not borders) on the homelands named, each label in a calm bone serif with 'ancestors of' wording: 'Beothuk' on Newfoundland, 'Innu' on Labrador and the Quebec North Shore, 'Mi'kmaq' on the Gulf's southern shores, and 'Dorset' far north on Baffin Island and northern Labrador (dashed, 'perhaps'). L'Anse aux Meadows as a small gold dot."
+      },
+      {
+       "id": "s42",
+       "say": "Which of them, we can't say. And we hear only one side of these meetings: the Norse stories, written down two centuries later.",
+       "draw": "Two pages side by side: at left a saga page full of brown script with a small ship drawn in the margin ('the Norse stories'); at right a page of the same size, empty and dashed, quiet ('the other side?'). A small lilac '?' between them."
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:aside][act:the open question, curious][tune:rise]And how long did the Norse ^stay? [act:fair, laying it out][tune:fall]Wallace reads the site as a matter of years, not ^decades. [p:0.93][act:the challenger, fair]But in {2019|twenty nineteen}, a study of a newly found layer in the bog suggested that Norse activity here may have lasted as long as a ^century. [act:even, plain][tune:fall]The experts don't ^agree."
+     ],
+     "shots": [
+      {
+       "id": "s43",
+       "say": "And how long did the Norse stay? Wallace reads the site as a matter of years, not decades. But in 2019, a study of a newly found layer in the bog suggested that Norse activity here may have lasted as long as a century. The experts don't agree.",
+       "draw": "Time line 990 to 1130 CE: the gold dot '1021' sits on it; a short solid gold bar from about 1000 to about 1025 ('years, not decades', Wallace); then a long lilac dashed bar from about 1000 to about 1100 ('up to a century?', 2019); a small balance between them stays level with a lilac '?'."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Too good to be true",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:aside][act:lighter, a sideways glance]A real story attracts ^fakes. [act:storytelling]In {1965|nineteen sixty-five}, the day before Columbus Day, Yale University unveiled a map said to be from the fifteenth ^century, [act:the hook][tune:fall]with Vinland drawn south-west of ^Greenland. [p:0.9][act:the number, a little dry]A donor had paid about three hundred thousand dollars for ^it.",
+      "[act:explaining, brisk]In the {1970s|nineteen seventies}, a chemist found anatase in its ^ink: [act:the key][tune:fall]a white titanium pigment first made in the {1920s|nineteen twenties}. [act:fair, plain][tune:fall]For decades, experts ^argued."
+     ],
+     "shots": [
+      {
+       "id": "s44",
+       "say": "In 1965, the day before Columbus Day, Yale University unveiled a map said to be from the fifteenth century, with Vinland drawn south-west of Greenland. A donor had paid about three hundred thousand dollars for it.",
+       "draw": "A parchment sheet on a dark desk under a lamp: a world map in brown ink (Europe, Africa and Asia as rounded masses), Greenland at top left, and at the far left a large island with two inlets, drawn lilac and labelled 'Vinland' (lilac, claimed). Chip 'Yale, 1965'; label 'claimed: 15th century'; on 'three hundred thousand dollars', a small stack of banknotes pops with the chip 'about $300,000'."
+      },
+      {
+       "id": "s45",
+       "say": "In the 1970s, a chemist found anatase in its ink: a white titanium pigment first made in the 1920s. For decades, experts argued.",
+       "draw": "Same sheet, the camera closer: a round magnifier slides over one ink line; inside it the line is a yellowish band dotted with rounded white crystals (label 'anatase'); chip 'first made 1920s' under the lens. On 'argued', a green tick, 'or', and a red cross pop in the sheet's top corner.",
+       "reuse": "alias of s44, new cam"
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:firm, the owners speak]In {2021|twenty twenty-one}, Yale's own team found titanium throughout the ink ^lines, [act:the detail][tune:fall]and an inscription on the back rewritten in modern ^ink. [act:quoting, crisp]Their curator put it plainly. [act:the quote, firm][tune:fall]The Vinland Map is a ^fake. [act:the quote ends, firm][tune:fall]There is no reasonable doubt ^here.",
+      "[p:0.93][act:a smile, the comparison]It's like finding a plastic bottle in a Viking ^grave."
+     ],
+     "shots": [
+      {
+       "id": "s46",
+       "say": "In 2021, Yale's own team found titanium throughout the ink lines, and an inscription on the back rewritten in modern ink. Their curator put it plainly. The Vinland Map is a fake. There is no reasonable doubt here.",
+       "draw": "Same sheet, wide: a scanner head sweeps across it and blue-white dots pop all along every ink line ('titanium in every line'); the sheet's back corner turns to show a short inscription whose letters turn blue ('rewritten'); on 'fake', a red stamp 'FAKE' thumps onto the map.",
+       "reuse": "alias of s44"
+      },
+      {
+       "id": "s47",
+       "say": "It's like finding a plastic bottle in a Viking grave.",
+       "draw": "A Viking grave mound cut open (section): grave goods in the earth, a sword, two oval brooches, a string of beads (no human remains drawn); among them a clear plastic bottle with a blue cap, glowing. Labels 'a Viking grave', 'a plastic bottle'.",
+       "reuse": "vinland_m fake panel (f11.vinland_m: the mound and the bottle), redrawn wide"
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:storytelling, vivid]Then there's ^Minnesota. [p:0.93][act:storytelling]In {1898|eighteen ninety-eight}, a Swedish immigrant farmer, Olof ^Ohman, reported a stone slab tangled in the roots of a ^tree. [act:the claim, at its strongest]Its runes tell of thirty Swedes and Norwegians, exploring west from ^Vinland, in the year {1362|thirteen sixty-two}. [act:fair, the defence]Its defenders point to those ^roots.",
+      "[act:the problem, clear]But its language reads like Swedish of the {1800s|eighteen hundreds}, not the {1300s|thirteen hundreds}. [p:0.93][act:the analogy, a smile][tune:fall]Like a letter dated {1362|thirteen sixty-two} that signs off with ^okay."
+     ],
+     "shots": [
+      {
+       "id": "s48",
+       "say": "Then there's Minnesota. In 1898, a Swedish immigrant farmer, Olof Ohman, reported a stone slab tangled in the roots of a tree. Its runes tell of thirty Swedes and Norwegians, exploring west from Vinland, in the year 1362. Its defenders point to those roots.",
+       "draw": "Left: a map of North America, View(-128, -50, 24, 60): a gold dot at L'Anse aux Meadows on the coast and a lilac pin 'Kensington, Minnesota' deep inland, label 'about 3,000 km' on a thin dashed line between them. Right: a grey stone slab with rows of runes, tilted in the ground with the roots of a small tree wrapped around it; a farmer with a spade beside it ('Olof Ohman, 1898'); on '1362', a lilac chip 'dated 1362'; on 'roots', the roots glow."
+      },
+      {
+       "id": "s49",
+       "say": "But its language reads like Swedish of the 1800s, not the 1300s. Like a letter dated 1362 that signs off with okay.",
+       "draw": "A letter on parchment: '1362' written at its top in old script, lines of ink, and at the bottom, in the same hand, 'OK!'; a red circle draws itself around 'OK!'. Label 'Swedish of the 1800s'."
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:aside][act:the fair one, warm]And sometimes, the scientists correct ^themselves. [act:storytelling]In {2016|twenty sixteen}, a team guided by satellite images reported a possible second Norse site, at Point ^Rosee, in southwestern ^Newfoundland: [act:the hope][tune:fall]what looked like a turf wall, and roasted bog ^iron.",
+      "[act:the honest end, plain]They dug ^again. [act:quoting their report, even][tune:fall]Their {2017|twenty seventeen} report found no evidence of Norse presence, nor of any human activity there before recent ^centuries. [act:the landing, warm][tune:fall]That's how it's meant to ^work."
+     ],
+     "shots": [
+      {
+       "id": "s50",
+       "say": "In 2016, a team guided by satellite images reported a possible second Norse site, at Point Rosee, in southwestern Newfoundland: what looked like a turf wall, and roasted bog iron.",
+       "draw": "A satellite view from above: a grassy headland by the sea in greens and greys with a scan-line sheen; lilac dashed rectangles (a long house shape) draw themselves on the grass ('turf wall?'), a lilac dashed circle by them ('bog iron?'); label 'Point Rosee' and a small map inset of Newfoundland with the spot marked."
+      },
+      {
+       "id": "s51",
+       "say": "They dug again. Their 2017 report found no evidence of Norse presence, nor of any human activity there before recent centuries. That's how it's meant to work.",
+       "draw": "Same view: trench outlines cut into the lilac shapes; the lilac outlines fade to grey and a label 'natural' appears; a report page pops with '2017' and 'no evidence'; on 'meant to work', a green tick draws itself.",
+       "reuse": "alias of s50"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The weighing",
+   "beats": [
+    {
+     "role": "weigh",
+     "lines": [
+      "[d:verdict][act:calm, laying it out]So, let's ^weigh it. [act:steady][tune:level]The sagas tell of Norse voyages to a land in the ^west. [act:the evidence, building][tune:level]At L'Anse aux ^Meadows, there are Norse buildings and Norse ^objects@noun, [act:the clincher][tune:fall]and wood cut with metal blades in {1021|ten twenty-one}. [act:the sagas' share, warm][tune:fall]And the sagas got the outline ^right: a land to the west, women on the voyages, and journeys to where the grapes ^grow.",
+      "[p:0.95][act:weighing it, calm authority][tune:rise]The Norse in America, around the year one ^thousand? [act:the verdict, confident][tune:fall]^*Established*.",
+      "[d:build][act:brisk][tune:rise]The Vinland ^Map? [act:plain][tune:fall]*Ruled ^out*: a modern ^ink. [act:the next][tune:rise]The Kensington ^Runestone? [act:plain][tune:fall]*Ruled ^out*: a modern ^language.",
+      "[act:the open ones, curious][tune:rise]How long they stayed, and where exactly Vinland ^was? [act:honest, even][tune:fall]*Open ^question*."
+     ],
+     "shots": [
+      {
+       "id": "s52",
+       "say": "So, let's weigh it. The sagas tell of Norse voyages to a land in the west. At L'Anse aux Meadows, there are Norse buildings and Norse objects, and wood cut with metal blades in 1021. And the sagas got the outline right: a land to the west, women on the voyages, and journeys to where the grapes grow. The Norse in America, around the year one thousand? Established.",
+       "draw": "A five-row ledger on a dark panel fills row by row. Row 1 builds as the evidence is named: three small pictograms pop in turn (an open saga book, a turf hall, a ring slice with '1021'), text 'the Norse at L'Anse aux Meadows, about 1021'; on 'outline right', three small gold ticks pop under the saga pictogram (a coast, a spindle, a grape); on 'Established', its green chip pops."
+      },
+      {
+       "id": "s53",
+       "say": "The Vinland Map? Ruled out: a modern ink. The Kensington Runestone? Ruled out: a modern language.",
+       "draw": "Row 2 'the Vinland Map' (map pictogram) gets its red chip 'Ruled out' as said; row 3 'the Kensington Runestone' (rune stone pictogram) gets its chip 'Ruled out'; small notes 'modern ink' and 'modern language' in red beside the two rows.",
+       "reuse": "alias of s52"
+      },
+      {
+       "id": "s54",
+       "say": "How long they stayed, and where exactly Vinland was? Open question.",
+       "draw": "Rows 4 'how long they stayed' (an hourglass) and 5 'where Vinland was' (a grape cluster with '?') pop, and both get amber chips 'Open question'.",
+       "reuse": "alias of s52"
+      }
+     ]
+    },
+    {
+     "role": "test",
+     "lines": [
+      "[d:tension][act:open, genuinely curious][tune:rise]What would settle the ^rest? [act:clear, practical]A second Norse camp in butternut and grape ^country, [act:the method][tune:fall]dated by the same signal in its ^wood. [act:building][tune:fall]Or more Norse wood from this meadow, cut in other ^years, to show how long they ^stayed."
+     ],
+     "shots": [
+      {
+       "id": "s55",
+       "say": "What would settle the rest? A second Norse camp in butternut and grape country, dated by the same signal in its wood. Or more Norse wood from this meadow, cut in other years, to show how long they stayed.",
+       "draw": "A clean copy of the s37 Gulf map (same view) with only butternut and grape country tinted: in New Brunswick, a dashed lilac hall outline pops ('a second camp?') with a small ring slice beside it whose 993 ring glows ('993'); at L'Anse aux Meadows, three small ring slices pop, their years blank and dashed ('other years?')."
+      }
+     ]
+    },
+    {
+     "role": "close",
+     "lines": [
+      "[d:calm][act:quiet wonder][tune:rise]And Vinland itself, the land of ^grapes? [act:the options, gentle][tune:level]Perhaps the shores of the Gulf of Saint ^Lawrence, with this meadow as its ^gateway. [act:the other][tune:level]Perhaps somewhere further south, in New ^England. [act:the last word, quiet][tune:fall]The sagas remember ^it. [act:the very last, quiet][tune:fall]The ground has not given it up ^yet.",
+      "[d:calm][act:warm, inviting][tune:fall]Weigh it ^yourself."
+     ],
+     "shots": [
+      {
+       "id": "s56",
+       "say": "And Vinland itself, the land of grapes? Perhaps the shores of the Gulf of Saint Lawrence, with this meadow as its gateway. Perhaps somewhere further south, in New England. The sagas remember it. The ground has not given it up yet. Weigh it yourself.",
+       "draw": "A wide night map from Newfoundland to New England, View(-77, -50, 39, 54), moonlit sea: L'Anse aux Meadows glows gold; a lilac dotted zone around the Gulf shores ('Gulf of St Lawrence?') and a second one on the New England coast ('New England?') glow softly in turn, with small grape clusters; a tiny Norse ship sails slowly between them. Then the end card (verdict chip 'Established')."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "description": "A thousand years ago, someone cut wood with a metal blade at the northern tip of Newfoundland, and a storm on the Sun, frozen in the tree rings, gives us the year: 1021. Did the Norse really reach America nearly five centuries before Columbus? And where was the land of grapes their sagas called Vinland?\n\nWe read the two Vinland sagas and where they disagree; follow Helge Ingstad and Anne Stine Ingstad to the grassy bumps of L'Anse aux Meadows and the eight buildings beneath them; date the wood with the cosmic-ray signal of 993; follow three butternuts south to New Brunswick; ask, with care, who the people the sagas met really were; and test the claims that did not hold: the Vinland Map, the Kensington Runestone and Point Rosee. Verdict: Established for the Norse at L'Anse aux Meadows around 1021. The Vinland Map and the Kensington Runestone: Ruled out. Where Vinland was, and how long the Norse stayed: Open question.\n\nChapters\n0:00 Cold open\nmm:ss Two sagas, one land\nmm:ss Bumps in the grass\nmm:ss A storm in the tree rings\nmm:ss Nuts from the south\nmm:ss Too good to be true\nmm:ss The weighing\n\nSources\nKuitems, M., Wallace, B. L., Lindsay, C., Scifo, A., Doeve, P., Jenkins, K., Lindauer, S., Erdil, P., Ledger, P. M., Forbes, V., Vermeeren, C., Friedrich, R. & Dee, M. W. 2022, Evidence for European presence in the Americas in AD 1021, Nature 601: 388-391 (published online 20 October 2021), doi:10.1038/s41586-021-03972-8\nMiyake, F., Masuda, K. & Nakamura, T. 2013, Another rapid event in the carbon-14 content of tree rings, Nature Communications 4: 1748, doi:10.1038/ncomms2783\nMekhaldi, F., Muscheler, R., Adolphi, F. et al. 2015, Multiradionuclide evidence for the solar origin of the cosmic-ray events of AD 774/5 and 993/4, Nature Communications 6: 8611, doi:10.1038/ncomms9611\nLedger, P. M., Girdland-Flink, L. & Forbes, V. 2019, New horizons at L'Anse aux Meadows, Proceedings of the National Academy of Sciences 116(31): 15341-15343, doi:10.1073/pnas.1907986116\nIngstad, H. & Stine Ingstad, A. 2000, The Viking Discovery of America: The Excavation of a Norse Settlement in L'Anse aux Meadows, Newfoundland (Breakwater Books; first published 1991)\nWallace, B. L. 2003, The Norse in Newfoundland: L'Anse aux Meadows and Vinland, Newfoundland Studies 19(1)\nWallace, B. L. 2006, L'Anse aux Meadows, The Canadian Encyclopedia (Historica Canada), 28 November 2006, revised 2025\nWallace, B. L. 2006, Westward Vikings: The Saga of L'Anse aux Meadows (Historic Sites Association of Newfoundland and Labrador)\nParks Canada, L'Anse aux Meadows National Historic Site: 'Culture and history', 'A saga of discovery' and 'Indigenous sites'\nThe Saga of the Greenlanders (Graenlendinga saga), preserved in Flateyjarbok (late 14th century); Erik the Red's Saga (Eiriks saga rauda), preserved in Hauksbok (14th century) and Skalholtsbok (15th century)\nAdam of Bremen, c. 1075, Gesta Hammaburgensis ecclesiae pontificum, book 4 (Descriptio insularum Aquilonis), chapter 39, ed. B. Schmeidler 1917\nCummings, M. 2021, Analysis unlocks secret of the Vinland Map: it's a fake, YaleNews, 1 September 2021 (R. Clemens, R. Hark and colleagues, Yale University Library and Beinecke Library)\nBrown, K. L. & Clark, R. J. H. 2002, Analysis of pigmentary materials on the Vinland Map and Tartar Relation by Raman microprobe spectroscopy, Analytical Chemistry 74(15): 3658-3661, doi:10.1021/ac025610r\nWilliams, H. 2012, The Kensington Runestone: Fact and Fiction, The Swedish-American Historical Quarterly 63(1): 3-22\nWahlgren, E. 1958, The Kensington Stone: A Mystery Solved (University of Wisconsin Press)\nParcak, S. & Mumford, G. 2017, Point Rosee, Codroy Valley, NL (ClBu-07) 2016 Test Excavations under Archaeological Investigation Permit #16.26, report to the Provincial Archaeology Office of Newfoundland and Labrador, 8 November 2017",
+ "sources": [
+  "Kuitems, M., Wallace, B. L., Lindsay, C., Scifo, A., Doeve, P., Jenkins, K., Lindauer, S., Erdil, P., Ledger, P. M., Forbes, V., Vermeeren, C., Friedrich, R. & Dee, M. W. 2022, Evidence for European presence in the Americas in AD 1021, Nature 601: 388-391 (published online 20 October 2021), doi:10.1038/s41586-021-03972-8",
+  "Miyake, F., Masuda, K. & Nakamura, T. 2013, Another rapid event in the carbon-14 content of tree rings, Nature Communications 4: 1748, doi:10.1038/ncomms2783",
+  "Mekhaldi, F., Muscheler, R., Adolphi, F. et al. 2015, Multiradionuclide evidence for the solar origin of the cosmic-ray events of AD 774/5 and 993/4, Nature Communications 6: 8611, doi:10.1038/ncomms9611",
+  "Ledger, P. M., Girdland-Flink, L. & Forbes, V. 2019, New horizons at L'Anse aux Meadows, Proceedings of the National Academy of Sciences 116(31): 15341-15343, doi:10.1073/pnas.1907986116",
+  "Ingstad, H. & Stine Ingstad, A. 2000, The Viking Discovery of America: The Excavation of a Norse Settlement in L'Anse aux Meadows, Newfoundland (Breakwater Books; first published 1991)",
+  "Wallace, B. L. 2003, The Norse in Newfoundland: L'Anse aux Meadows and Vinland, Newfoundland Studies 19(1)",
+  "Wallace, B. L. 2006, L'Anse aux Meadows, The Canadian Encyclopedia (Historica Canada), 28 November 2006, revised 2025",
+  "Wallace, B. L. 2006, Westward Vikings: The Saga of L'Anse aux Meadows (Historic Sites Association of Newfoundland and Labrador)",
+  "Parks Canada, L'Anse aux Meadows National Historic Site: 'Culture and history', 'A saga of discovery' and 'Indigenous sites'",
+  "The Saga of the Greenlanders (Graenlendinga saga), preserved in Flateyjarbok (late 14th century); Erik the Red's Saga (Eiriks saga rauda), preserved in Hauksbok (14th century) and Skalholtsbok (15th century)",
+  "Adam of Bremen, c. 1075, Gesta Hammaburgensis ecclesiae pontificum, book 4 (Descriptio insularum Aquilonis), chapter 39, ed. B. Schmeidler 1917",
+  "Cummings, M. 2021, Analysis unlocks secret of the Vinland Map: it's a fake, YaleNews, 1 September 2021 (R. Clemens, R. Hark and colleagues, Yale University Library and Beinecke Library)",
+  "Brown, K. L. & Clark, R. J. H. 2002, Analysis of pigmentary materials on the Vinland Map and Tartar Relation by Raman microprobe spectroscopy, Analytical Chemistry 74(15): 3658-3661, doi:10.1021/ac025610r",
+  "Williams, H. 2012, The Kensington Runestone: Fact and Fiction, The Swedish-American Historical Quarterly 63(1): 3-22",
+  "Wahlgren, E. 1958, The Kensington Stone: A Mystery Solved (University of Wisconsin Press)",
+  "Parcak, S. & Mumford, G. 2017, Point Rosee, Codroy Valley, NL (ClBu-07) 2016 Test Excavations under Archaeological Investigation Permit #16.26, report to the Provincial Archaeology Office of Newfoundland and Labrador, 8 November 2017"
+ ],
+ "facts_added": [
+  {
+   "fact": "Three wooden items from L'Anse aux Meadows, from three different trees (fir, possibly balsam fir, and juniper or thuja), had been modified by metal tools ('characteristically clean, low angle-in cuts'), implements not made by the Indigenous inhabitants of the area at the time; the waney edge (the last ring under the bark) survives in all three; the cosmic-ray radiocarbon spike of AD 993 lies 28 rings inside it, so each tree was felled in AD 1021.",
+   "source": "Kuitems et al. 2022 (online 2021), Nature 601: 388-391, doi:10.1038/s41586-021-03972-8"
+  },
+  {
+   "fact": "Felling seasons: one item was cut in spring, another in summer or autumn.",
+   "source": "Kuitems et al. 2021/2022, Nature"
+  },
+  {
+   "fact": "More than 150 radiocarbon dates have come from the site, 55 of them relating to the Norse occupation; their calibrated ranges extend across and beyond the whole Viking Age (AD 793-1066).",
+   "source": "Kuitems et al. 2021/2022, Nature"
+  },
+  {
+   "fact": "The authors present AD 1021 as 'the first known point at which humans encircled the globe'.",
+   "source": "Kuitems et al. 2021/2022, Nature (abstract)"
+  },
+  {
+   "fact": "The rapid rise in atmospheric radiocarbon of AD 993/994 was found in tree rings by a Japanese team (Miyake, Masuda and Nakamura) in 2013.",
+   "source": "Miyake, Masuda & Nakamura 2013, Nature Communications 4: 1748, doi:10.1038/ncomms2783"
+  },
+  {
+   "fact": "Radionuclide evidence points to a solar origin (high-energy solar protons) for the cosmic-ray event of AD 993/4.",
+   "source": "Mekhaldi et al. 2015, Nature Communications 6: 8611, doi:10.1038/ncomms9611"
+  },
+  {
+   "fact": "In 1960 Helge Ingstad and his daughter Benedicte came to the area; George Decker, grandson of the village founder, led them to the grassy mounds; Anne Stine Ingstad led the excavations from 1961 to 1968 with an international team (Norway, Iceland, Sweden, the United States) over eight years; Parks Canada excavated in 1973-1976 (Bengt Schonback, Birgitta Wallace).",
+   "source": "Wallace 2006, The Canadian Encyclopedia; Parks Canada, L'Anse aux Meadows 'Culture and history'"
+  },
+  {
+   "fact": "Ingstad described the moment: 'I felt as if I had hooked a large salmon.'",
+   "source": "Helge Ingstad's account, as quoted in Wikipedia 'Helge Ingstad' (said in the film as indirect speech)"
+  },
+  {
+   "fact": "Eight buildings in four complexes: three dwelling compounds, each with a large hall and a small hut, and an iron-working complex; sod placed over a wooden frame; hall F measures 28.8 by 15.6 m (longer than a 23.8 m tennis court).",
+   "source": "Wallace 2003, Newfoundland Studies 19(1); Wikipedia 'L'Anse aux Meadows' (building F)"
+  },
+  {
+   "fact": "The iron was smelted from local bog ore: only a few kilograms, in a single smelting event. Ninety-nine nail fragments and one whole nail were found, practically all the iron on the site; nails in double-digit numbers on a West Norse site signal boat repair, and X-rays show the nails were cut as in repairs.",
+   "source": "Wallace 2003, Newfoundland Studies 19(1)"
+  },
+  {
+   "fact": "Two objects definitely associated with women's work, a spindle whorl and a small whetstone for needles and small scissors, lay in the lean-to shed of hall F; a bronze ring-headed pin was found in the smithy's forge pit.",
+   "source": "Wallace 2003, Newfoundland Studies 19(1); Wallace 2006, The Canadian Encyclopedia (ringed pins, spindle whorls)"
+  },
+  {
+   "fact": "No sign of enclosures or shelters for livestock; the site was a base for exploration and a transshipment station; something like 70 to 90 people; occupation short, 'probably a matter of years rather than decades'.",
+   "source": "Wallace 2003, Newfoundland Studies 19(1)"
+  },
+  {
+   "fact": "A burl of butternut wood cut with a sharp metal knife and three butternuts were found in the carpentry waste in the bog; butternut (Juglans cinerea) is not native to Newfoundland, its northern limit lies at about 47 degrees north in the inner Miramichi region of northeastern New Brunswick, and the nearest butternut areas are also the northernmost places where wild grapes grow.",
+   "source": "Wallace 2003, Newfoundland Studies 19(1)"
+  },
+  {
+   "fact": "L'Anse aux Meadows to the inner Miramichi (about 47 N, 65.6 W): about 890 km in a straight line.",
+   "source": "great-circle arithmetic from the coordinates"
+  },
+  {
+   "fact": "Wallace reads L'Anse aux Meadows as the sagas' Straumfjord and a gateway base, with Hop most likely in northeastern New Brunswick and Vinland a region around the Gulf of St Lawrence; others placed Vinland in New England (Rafn 1837: Cape Cod and Buzzards Bay).",
+   "source": "Wallace 2003; Wikipedia 'Vinland' (Rafn 1837)"
+  },
+  {
+   "fact": "Indigenous peoples used the site as far back as 6,000 years ago, as many as five or six distinct groups, but none during the century of the Norse voyages; the Dorset camped by the bay more than 200 years before the Norse; the later Little Passage occupants were proto-Beothuk.",
+   "source": "Parks Canada, 'Indigenous sites'; Wallace 2003; Wallace 2006, The Canadian Encyclopedia"
+  },
+  {
+   "fact": "The saga encounters were with Indigenous peoples who would have been ancestors of the Mi'kmaq, the Beothuk and the Innu; further north (Helluland, Baffin Island), the Norse probably met Dorset people.",
+   "source": "Wallace 2006, The Canadian Encyclopedia; Parks Canada 'Indigenous sites' (encounters elsewhere in Vinland and to the north); Wikipedia 'Helluland'"
+  },
+  {
+   "fact": "A newly found cultural layer in the peat bog, with its radiocarbon dates, suggests 'Norse activity at LAM may have endured for a century'.",
+   "source": "Ledger, Girdland-Flink & Forbes 2019, PNAS 116(31): 15341-15343, doi:10.1073/pnas.1907986116; Wikipedia 'L'Anse aux Meadows'"
+  },
+  {
+   "fact": "Erik the Red settled south-west Greenland from Iceland in 985; Leif Eriksson was his son.",
+   "source": "Wikipedia 'Erik the Red'; the Short 'vinland'"
+  },
+  {
+   "fact": "In the Saga of the Greenlanders, Bjarni Herjolfsson sights the western lands first and Leif follows; Karlsefni takes sixty men and five women; Snorri is born in Vinland. In Erik the Red's Saga, Leif is blown to the new land on his way back from Norway; Karlsefni's party is 160 people in two ships (Parks Canada gives 135 men and 15 women); they trade red cloth for pelts, fight, and leave when Snorri is three. Erik's saga was written in the 13th century (Hauksbok, 14th century); the Greenlanders' saga is dated from about 1200 to the late 13th century (Flateyjarbok, late 14th century).",
+   "source": "Wikipedia 'Saga of the Greenlanders', 'Saga of Erik the Red', 'Snorri Thorfinnsson'; Parks Canada 'A saga of discovery'"
+  },
+  {
+   "fact": "Snorri was most likely born between 1004 and 1013; his daughter Hallfrid was the mother of Thorlak Runolfsson, bishop of Skalholt in Iceland.",
+   "source": "Wikipedia 'Snorri Thorfinnsson'"
+  },
+  {
+   "fact": "Paul Mellon bought the Vinland Map for about $300,000 and gave it to Yale (1965).",
+   "source": "Wikipedia 'Vinland Map'"
+  },
+  {
+   "fact": "In one saga, Tyrkir the German, of Leif's crew, finds the grapes; Karlsefni was an Icelandic trader.",
+   "source": "Parks Canada 'A saga of discovery'; Saga of the Greenlanders"
+  },
+  {
+   "fact": "Around 1075, Adam of Bremen, told by King Svend Estridsen of Denmark, wrote of an island called Winland 'because vines grow there by themselves, producing the best wine'.",
+   "source": "Adam of Bremen, Gesta IV, 39 (ed. Schmeidler 1917), quoted in Wikipedia 'Vinland'"
+  },
+  {
+   "fact": "The Vinland Map came to light in 1957; Paul Mellon gave it to Yale, which revealed it the day before Columbus Day 1965. In 1974 Walter McCrone's team found anatase, a titanium dioxide pigment made since the 1920s, in its ink lines. In 2021 Yale's analysis (XRF, Raman, FE-SEM) found titanium throughout the ink lines and an inscription on the back overwritten in titanium-bearing ink; curator Raymond Clemens: 'The Vinland Map is a fake. There is no reasonable doubt here.'",
+   "source": "Cummings 2021, YaleNews; Wikipedia 'Vinland Map'; Brown & Clark 2002, Analytical Chemistry, doi:10.1021/ac025610r"
+  },
+  {
+   "fact": "The Kensington Runestone was found in late 1898 by Olof Ohman, a Swedish immigrant farmer, in Douglas County, Minnesota, tangled in the roots of a poplar; its text names 8 Geats (Swedes) and 22 Norwegians on an exploration journey west from Vinland in 1362; its language is closer to 19th-century than 14th-century Swedish, and the scholarly consensus classes it as a 19th-century creation.",
+   "source": "Williams 2012, Swedish-American Historical Quarterly 63(1): 3-22; Wahlgren 1958; Wikipedia 'Kensington Runestone'"
+  },
+  {
+   "fact": "Point Rosee: proposed from satellite images (2014-2016) as a possible second Norse site with a turf wall and roasted bog iron ore; the 2017 report 'found no evidence whatsoever for either a Norse presence or human activity at Point Rosee prior to the historic period', the features being natural.",
+   "source": "Parcak & Mumford 2017, report to the Provincial Archaeology Office (as quoted in Wikipedia 'Point Rosee' and 'Sarah Parcak')"
+  }
+ ],
+ "names": [
+  {
+   "name": "Newfoundland",
+   "say": "NOO-fun-lund (in LEX)"
+  },
+  {
+   "name": "Leif Eriksson",
+   "say": "LEEF (in LEX) ERIK-sun"
+  },
+  {
+   "name": "Erik the Red",
+   "say": "ERIK"
+  },
+  {
+   "name": "Helluland",
+   "say": "HEL-oo-land"
+  },
+  {
+   "name": "Markland",
+   "say": "MARK-land"
+  },
+  {
+   "name": "Vinland",
+   "say": "VIN-land"
+  },
+  {
+   "name": "Tyrkir",
+   "say": "TEER-keer"
+  },
+  {
+   "name": "Thorfinn Karlsefni",
+   "say": "THOR-fin KARL-sev-nee"
+  },
+  {
+   "name": "Gudrid",
+   "say": "GOOD-rid"
+  },
+  {
+   "name": "Snorri",
+   "say": "SNOR-ee"
+  },
+  {
+   "name": "Skraelings",
+   "say": "SKRAY-lingz"
+  },
+  {
+   "name": "Bjarni",
+   "say": "BYAR-nee"
+  },
+  {
+   "name": "Adam of Bremen",
+   "say": "BRAY-mun"
+  },
+  {
+   "name": "Helge Ingstad",
+   "say": "HEL-guh ING-stahd (in LEX)"
+  },
+  {
+   "name": "Benedicte",
+   "say": "ben-eh-DIK-tuh"
+  },
+  {
+   "name": "L'Anse aux Meadows",
+   "say": "LANSS-oh-MED-ohz"
+  },
+  {
+   "name": "George Decker",
+   "say": "DEK-er"
+  },
+  {
+   "name": "Anne Stine Ingstad",
+   "say": "AH-nuh STEE-nuh ING-stahd (Stine in LEX)"
+  },
+  {
+   "name": "Fusa Miyake",
+   "say": "FOO-sah mee-YAH-keh"
+  },
+  {
+   "name": "Birgitta Wallace",
+   "say": "bir-GIT-uh WOL-iss"
+  },
+  {
+   "name": "Beothuk",
+   "say": "bee-OTH-uk"
+  },
+  {
+   "name": "Innu",
+   "say": "IN-oo"
+  },
+  {
+   "name": "Mi'kmaq",
+   "say": "MEEG-mah"
+  },
+  {
+   "name": "Dorset",
+   "say": "DOR-set"
+  },
+  {
+   "name": "Olof Ohman",
+   "say": "OO-lof UR-mun"
+  },
+  {
+   "name": "Kensington",
+   "say": "KEN-zing-tun"
+  },
+  {
+   "name": "Point Rosee",
+   "say": "ROH-zee"
+  },
+  {
+   "name": "anatase",
+   "say": "AN-uh-tayz"
+  },
+  {
+   "name": "New Brunswick",
+   "say": "BRUNZ-wik"
+  }
+ ],
+ "words": 1528
+}
