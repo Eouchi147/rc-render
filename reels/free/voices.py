@@ -126,6 +126,13 @@ LEX.update({"necmi": "nˈɛdʒmi", "karul": "kɑːɹˈuːl", "timaeus": "taɪmˈ
             "akrotiri": "ˌɑːkɹoʊtˈɪɹi", "minoans": "mɪnˈoʊənz", "heracleides": "hˌɛɹəklˈaɪdiːz", "biondi": "biˈɑːndi",
             "malanga": "məlˈɑːŋɡə", "conyers": "kˈɑːnjɚz", "luis": "luːˈiːs", "gauri": "ɡˈaʊɹi", "hureyra": "huːɹˈeɪɹə",
             "agassiz": "ˈæɡəsi", "microspherules": "mˌaɪkɹoʊsfˈɪɹuːlz"})
+# long-form round 2 names (2 Oct 2026)
+LEX.update({"fravor": "fɹˈeɪvɚ", "trilithon": "tɹaɪlˈɪθɑːn", "djehutihotep": "dʒɛhˌuːtihˈoʊtɛp", "ollantaytambo": "ˌoʊjɑːntaɪtˈɑːmboʊ",
+            "lutfi": "lˈuːtfi", "kaymakli": "kaɪmˈɑːklə", "ozkonak": "ˈɜːzkoʊnˌɑːk", "nevsehir": "nˈɛvʃɛhˌɪɹ", "yima": "jˈiːmə",
+            "malakopi": "məlˈɑːkoʊpi", "asikli": "ˌɑːʃʊklˈʌ", "hoyuk": "hˈɜːjʊk", "katafygia": "kˌɑːtɑːfˈiːjiə", "kayseri": "kˈaɪsɛɹi",
+            "imam": "ɪmˈɑːm", "henri": "ɑːnɹˈiː", "hathor": "hˈæθɔːɹ", "harsomtus": "hɑːɹsˈɑːmtəs", "palenque": "pɑːlˈɛŋkeɪ",
+            "ruz": "ɹˈuːs", "johannes": "joʊhˈɑːnɛs", "marci": "mˈɑːɹtsi", "kircher": "kˈɪɹkɚ", "beinecke": "bˈaɪnəki",
+            "fagin": "fˈeɪɡɪn", "schinner": "ʃˈɪnɚ", "torsten": "tˈɔːɹstən", "ducats": "dˈʌkəts"})
 
 
 def _key(w):
