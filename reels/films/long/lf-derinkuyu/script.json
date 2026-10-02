@@ -1,0 +1,736 @@
+{
+ "id": "lf-derinkuyu",
+ "kind": "theme",
+ "series": "Underworlds",
+ "title": "The Cities Under Cappadocia",
+ "yt_title": "Derinkuyu: who dug a city 85 metres under Turkey, and when?",
+ "verdict": "Awaiting evidence",
+ "hook": "Who dug a city under the ground?",
+ "intro_title": "The Cities Under Cappadocia",
+ "end_line": "Soft rock keeps its secrets. It also keeps getting dug.",
+ "chapters": [
+  {
+   "title": "The city behind the wall",
+   "beats": [
+    {
+     "role": "hook",
+     "lines": [
+      "[d:intrigue][sfx:boom][act:storytelling, drawing us in]In {1963|nineteen sixty-three}, in central ^Turkey, a man knocking through a wall in his ^basement found a room he never knew was ^there.",
+      "[d:tension][act:the reveal, low and slow]Below it lay a whole ^city, cut into the rock. [p:0.93][act:a sense of scale, hushed]About ^eighty-five metres deep: as deep as a twenty-five-storey building is ^tall.",
+      "[d:list][act:counting the wonders, amazed][tune:level]^Stables and ^wells. [act:same rhythm][tune:level]A ^church. [act:the clever one, admiring][tune:fall]And doors made of stone ^wheels, rolled shut from ^inside.",
+      "[d:wonder][act:the child's question, wide-eyed][tune:rise]So who dug a city under the ^ground? [act:the second question, leaning in][tune:rise]And ^when? [act:the bold answer, reporting it fairly][tune:fall]Some say: before history ^began, as a shelter from the cold of the Ice ^Age."
+     ],
+     "shots": [
+      {
+       "id": "s1",
+       "say": "In nineteen sixty-three, in central Turkey, a man knocking ... room he never knew was there.",
+       "draw": "1963: the house on the plateau at dusk, framed close; the man in the basement; a crack runs down the back wall, the wall breaks and a dark room glows behind it.",
+       "reuse": "derinkuyu shot 0 (derinkuyu_m: the house, the basement wall, the room behind it), redrawn wide"
+      },
+      {
+       "id": "s2",
+       "say": "Below it lay a whole city, cut into the ... as a twenty-five-storey building is tall.",
+       "draw": "The camera pulls back: the city builds floor by floor below the house, two shafts, 85 m, the 25-storey ghost.",
+       "reuse": "derinkuyu shot 0 (derinkuyu_m 'deep': the 18 levels, 85 m, the 25-storey ghost), redrawn wide"
+      },
+      {
+       "id": "s3",
+       "say": "Stables and wells. A church. And doors made of stone wheels, rolled shut from inside.",
+       "draw": "Closer on the middle levels: in the order said, a horse in a stable, blue water at the foot of the deep shaft ('wells'), a cross-shaped church plan, and a little stone wheel at a passage mouth ('stone doors').",
+       "reuse": "derinkuyu_m 'tour' (stables, well, chapel), redrawn wide"
+      },
+      {
+       "id": "s4",
+       "say": "So who dug a city under the ground? And ... the cold of the Ice Age.",
+       "draw": "Night over the plateau: the city dim below; a lilac question over the house; snow; a dotted line down to the deepest level, 'Ice Age shelter?'."
+      }
+     ]
+    },
+    {
+     "role": "title",
+     "intro": true,
+     "lines": [
+      "[d:calm][act:warm, setting out]The cities under ^Cappadocia. [act:the promise, a small smile][tune:fall]Who dug them, and why they're so hard to ^date."
+     ],
+     "shots": [
+      {
+       "id": "s5",
+       "say": "The cities under Cappadocia. Who dug them, and why they're so hard to date.",
+       "draw": "The night section of s4 held and dimmed under the full-frame intro title card 'The Cities Under Cappadocia'; nothing else (captions are hidden under the card)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Rooms cut from volcanic ash",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:plain, orienting]To understand these cities, start with the ^rock. [act:orienting, unhurried]This is ^Cappadocia, on the high plateau of central ^Turkey. [p:0.93][act:the deep past, unhurried]Between about ten and five million years ago, volcanoes here blasted out clouds of glowing ^ash, again and ^again.",
+      "[d:build][p:0.93][act:the result, clear]The ash settled, layer on layer, in places more than four hundred metres ^thick, and set into a pale, soft stone: ^tuff.",
+      "[act:explaining, an everyday picture]Tuff is light and full of tiny ^holes, soft enough to cut with simple hand ^tools. [act:the bonus, warm]And it keeps the rooms inside at a steady temperature, like a thick wool ^blanket.",
+      "[d:aside][act:a lovely aside, light]Rain and wind@air carve it ^too: that's how Cappadocia got its famous rock ^chimneys, many wearing a hat of harder ^stone. [act:plain, a small fact]Along with its rock-cut churches, they've been on the World Heritage list since {1985|nineteen eighty-five}."
+     ],
+     "shots": [
+      {
+       "id": "s6",
+       "say": "This is Cappadocia, on the high plateau of central Turkey.",
+       "draw": "A map of Turkey: Istanbul and Ankara small, Cappadocia as a soft amber region on the central plateau, Derinkuyu in gold."
+      },
+      {
+       "id": "s7",
+       "say": "Between about ten and five million years ago, volcanoes ... of glowing ash, again and again.",
+       "draw": "About 10 to 5 million years ago: three volcanoes on the horizon; glowing ash clouds billow up one after another and grey ash flows spread over the plain."
+      },
+      {
+       "id": "s8",
+       "say": "The ash settled, layer on layer, in places more ... into a pale, soft stone: tuff.",
+       "draw": "The ash settles, layer on layer (pale bands fill from the bottom), 'over 430 m' up the right side; the top layer: tuff."
+      },
+      {
+       "id": "s9",
+       "say": "Tuff is light and full of tiny holes, soft ... temperature, like a thick wool blanket.",
+       "draw": "Tuff close: a magnified disc full of small pores; a hand pick cuts a groove in a tuff face; then a small chart: 'outside' swings between hot and cold, 'inside' stays nearly flat (schematic, no numbers)."
+      },
+      {
+       "id": "s10",
+       "say": "Rain and wind carve it too: that's how Cappadocia ... World Heritage list since nineteen eighty-five.",
+       "draw": "Rain and wind on the tuff: a valley of fairy chimneys with darker caps; rain streaks and a wind arrow; a little rock-cut church door in one; 'World Heritage, 1985'."
+      }
+     ]
+    },
+    {
+     "role": "cost",
+     "lines": [
+      "[d:aside][act:a modern detail, amused]People here still ^dig into it. [p:0.93][act:the number, delighted]Central Anatolia has more than two thousand stores cut into tuff, keeping potatoes fresh from one harvest to the ^next. [act:dry, a small smile][tune:fall]No fridge ^needed."
+     ],
+     "shots": [
+      {
+       "id": "s11",
+       "say": "People here still dig into it. Central Anatolia has ... to the next. No fridge needed.",
+       "draw": "A tuff cliff with a wooden door; inside, a chamber where sacks and crates of potatoes stack up; '2,000+ tuff stores'; 'harvest to harvest'; a fridge outline, struck."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:wonder][act:touring it, fascinated]The most famous of these underground cities is ^Derinkuyu: in Turkish, deep ^well. [act:plain]It opened to visitors within a few years of the ^find. [p:0.93][act:the numbers, savouring]Reports count up to eighteen levels, and visitors see only a small part of the ^city. [act:a fair caveat]Estimates@noun of how many people it could hold run as high as twenty ^thousand, with their animals. [act:honest, plain][tune:fall]That's an estimate@noun, not a ^count.",
+      "[d:list][act:pointing them out][tune:level]Stables and ^storerooms. [act:same rhythm][tune:level]Presses for ^wine. [act:same rhythm][tune:level]A church cut in the shape of a ^cross. [act:the vital bit, clear][tune:fall]And more than fifty air ^shafts, some sunk all the way down to ^water. [act:explaining, simple][tune:fall]They kept fresh air reaching even the lowest ^floors."
+     ],
+     "shots": [
+      {
+       "id": "s12",
+       "say": "The most famous of these underground cities is Derinkuyu: ... a few years of the find.",
+       "draw": "Back on the city, whole: 'Derinkuyu', 'deep well' as the well shaft glows down to water; 'open since the 1960s'.",
+       "reuse": "derinkuyu_m 'tour' (the deep well), redrawn wide"
+      },
+      {
+       "id": "s13",
+       "say": "Reports count up to eighteen levels, and visitors see ... That's an estimate, not a count.",
+       "draw": "Eighteen levels ticked down the left; a warm band over part of the upper levels, 'open to visitors'; then tiny people in many rooms and a dashed chip 'up to 20,000? an estimate'.",
+       "reuse": "derinkuyu_m 'tour' (up to 18 floors), redrawn wide"
+      },
+      {
+       "id": "s14",
+       "say": "Stables and storerooms. Presses for wine. A church cut in the shape of a cross.",
+       "draw": "Closer: a stable, storeroom jars, a wine press with a red trough, the cross-shaped church ringed.",
+       "reuse": "derinkuyu_m 'tour' (stables, chapel), redrawn wide"
+      },
+      {
+       "id": "s14b",
+       "say": "And more than fifty air shafts, some sunk all ... air reaching even the lowest floors.",
+       "draw": "Whole again: four more air shafts draw down through every level, two ending in water; small arrows of air going down.",
+       "reuse": "derinkuyu_m 'tour' (more than 50 air shafts), redrawn wide"
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:build][act:the clever detail, admiring]Then the ^doors. [p:0.93][act:describing it, vivid]Stone wheels, up to almost two metres across, still stand in slots beside the ^passages. [act:the mechanism, clear]From a little room on the inside, defenders rolled them across the way ^in, and each level could be sealed on its ^own.",
+      "[d:tension][act:the landing, quiet]This was no cave people hid in by ^chance. [act:firm, simple][tune:fall]It was built for ^hiding."
+     ],
+     "shots": [
+      {
+       "id": "s15",
+       "say": "Then the doors. Stone wheels, up to almost two ... stand in slots beside the passages.",
+       "draw": "The door: a stone wheel up to 1.85 m across (140 units a metre) rests in its slot beside the doorway; a person 1.7 m tall beside it; the dimension 'up to 1.85 m'.",
+       "reuse": "derinkuyu_m 'door' (the wheel in its slot, seen from inside), redrawn wide"
+      },
+      {
+       "id": "s16",
+       "say": "From a little room on the inside, defenders rolled ... could be sealed on its own.",
+       "draw": "The operation room behind glows; the wheel rolls across the doorway (cover and pop); at the right, a small section where each level's door closes in turn, top to bottom.",
+       "reuse": "derinkuyu_m 'door' (the wheel rolls across), redrawn wide"
+      },
+      {
+       "id": "s17",
+       "say": "This was no cave people hid in by chance. It was built for hiding.",
+       "draw": "The whole city: every level's passage sealed by a small wheel, top to bottom."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "A landscape of hiding places",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:reveal][act:widening the view, wonder]And Derinkuyu isn't ^alone. [act:the next one, plain]About ten kilometres to the north lies ^Kaymakli: eight levels, four of them open to ^visitors, with storerooms, wine tanks and a ^church. [act:the legend, fair]Some writers say a tunnel links it to ^Derinkuyu. [act:the other side, even][tune:fall]Others reply that no such tunnel has ever been ^found.",
+      "[d:calm][act:storytelling, a nice find]In {1972|nineteen seventy-two}, at ^Ozkonak, the village imam watched his irrigation water drain away into the ^ground. [act:the reveal, light][tune:fall]It led him to another underground ^city. [act:a lovely detail, intrigued]Its levels are linked by narrow holes about five centimetres wide, perhaps for talking from floor to ^floor.",
+      "[d:build][p:0.93][act:the count, careful]Surveyors now list more than two hundred underground shelters across the ^region. [act:fair, the other count]One recent tally of underground sites passes three hundred and ^sixty. [act:a modern note, light]And in {2023|twenty twenty-three}, nearly one and a half million visitors went down into ^them."
+     ],
+     "shots": [
+      {
+       "id": "s18",
+       "say": "About ten kilometres to the north lies Kaymakli: eight ... such tunnel has ever been found.",
+       "draw": "The local map: Derinkuyu and Kaymakli, 10 km apart; a small section of Kaymakli (8 levels, 4 lit); a dotted lilac tunnel between them with '?', then 'never found'."
+      },
+      {
+       "id": "s19",
+       "say": "In nineteen seventy-two, at Ozkonak, the village imam watched ... for talking from floor to floor.",
+       "draw": "Ozkonak, 1972: a field in section; the imam with his hoe; irrigation water runs along a channel and drains into a crack; below, passages and rooms appear; then the narrow holes between levels, under a magnifier: 'about 5 cm'."
+      },
+      {
+       "id": "s20",
+       "say": "Surveyors now list more than two hundred underground shelters ... million visitors went down into them.",
+       "draw": "Across the region, small amber dots pop until '200+'; lighter dashed rings join them, '360+?': two counts; then a counter '1.5 million visitors, 2023'.",
+       "reuse": "derinkuyu_m 'many' (dots around Derinkuyu), redrawn wide on a local map"
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:reveal][act:fresh news, leaning in]One of the newest turned up under ^Nevsehir, the provincial ^capital. [p:0.93][act:storytelling, vivid]In {2013|twenty thirteen}, demolition crews clearing old houses@noun around its castle broke into tunnels and ^rooms.",
+      "[d:build][act:the method, clear]Geophysicists scanned the hill with electric currents and sound ^waves, like an ultrasound of the ^ground. [act:the big promise, eyebrows up]Their first results hinted at a city perhaps a third bigger than ^Derinkuyu. [act:dry, a small smile]Digging is slower than ^scanning. [act:plain]Part of it opened to visitors in {2020|twenty twenty}. [p:0.93][act:the clue, careful][tune:fall]What the excavators have found inside so far runs from about the sixth century to our own ^day."
+     ],
+     "shots": [
+      {
+       "id": "s21",
+       "say": "One of the newest turned up under Nevsehir, the ... castle broke into tunnels and rooms.",
+       "draw": "Nevsehir, 2013: a hill with a small castle on top and old houses on its slopes; a bulldozer rolls in; the houses go; dark openings appear in the hillside where they stood."
+      },
+      {
+       "id": "s22",
+       "say": "Geophysicists scanned the hill with electric currents and sound waves, like an ultrasound of the ground.",
+       "draw": "Scans: electrodes along the hill and arcs of current and sound going into it, like an ultrasound."
+      },
+      {
+       "id": "s23",
+       "say": "Their first results hinted at a city perhaps a ... sixth century to our own day.",
+       "draw": "Two footprints: Derinkuyu solid, a dotted lilac outline a third bigger ('first results'); a small spade, 'digging is slower'; a timeline from 500 CE to today: 'finds inside' fills from about 550 to today; a tick at 2020, 'opened'."
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:aside][act:a telling detail, quiet]Here, as at Kaymakli, families had long used@verb the old passages as ^cellars. [act:the landing, wry][tune:fall]Lost, but never quite ^forgotten."
+     ],
+     "shots": [
+      {
+       "id": "s24",
+       "say": "Here, as at Kaymakli, families had long used the ... cellars. Lost, but never quite forgotten.",
+       "draw": "Houses on a slope in section; under each, a cellar and a short stair down into an older passage that runs on beneath the next house; jars and a lamp in each cellar."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Shelters from the Ice Age?",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:build][act:the real puzzle, curious][tune:rise]So how old are the deepest ^rooms? [act:presenting his idea, fairly]The writer Graham ^Hancock, who has long argued for a civilisation lost at the end of the Ice Age, asks whether these cities began long before anyone ^thinks. [act:plain, reporting]In a {2022|twenty twenty-two} Netflix series, he walked Derinkuyu's passages and put that question to the ^world.",
+      "[p:0.93][act:the backdrop, graver]Nearly thirteen thousand years ago, the warming world lurched back into the ^cold, for some twelve centuries: the Younger ^Dryas. [p:0.93][act:how we know, an everyday picture]We read@present it in Greenland's ice, which adds a layer every year, like the rings of a ^tree. [act:his case, vivid]Hancock points to an old Persian story of a king, ^Yima, who built a refuge against a deadly ^winter.",
+      "[d:build][act:his bigger picture, fair]He ties that cold to a ^comet, and to great floods remembered, he argues, in the world's flood ^stories. [act:the claim, measured][tune:fall]Shelters, then, older than the ^Flood. [p:0.93][act:his strongest point, fair][tune:rise]And why else, he asks, would anyone dig so ^deep?"
+     ],
+     "shots": [
+      {
+       "id": "s25",
+       "say": "The writer Graham Hancock, who has long argued for ... put that question to the world.",
+       "draw": "13,000 years on one line: a gold sliver at the right end, 'dated'; far left, at 12,800 years ago, a lilac dotted marker 'Ice Age shelter?' and a dotted arc from it; a small screen, 'Netflix, 2022'.",
+       "reuse": "derinkuyu_m 'when' (13,000 years, the dated sliver, the claim far back), redrawn wide"
+      },
+      {
+       "id": "s26",
+       "say": "Nearly thirteen thousand years ago, the warming world lurched ... like the rings of a tree.",
+       "draw": "A schematic temperature curve, 16,000 to 10,000 years ago: out of the Ice Age, then a sharp drop into a blue band 'Younger Dryas' about 1,200 years wide, then up again (shape only); beside it an ice core whose yearly layers draw one by one, and tree rings."
+      },
+      {
+       "id": "s27",
+       "say": "Hancock points to an old Persian story of a ... a refuge against a deadly winter.",
+       "draw": "An old Persian story, drawn in lilac dotted lines (a story, not a site): a snowy plain at night, a walled square enclosure, people and animals walking in, snow falling: 'a refuge from winter'."
+      },
+      {
+       "id": "s28",
+       "say": "He ties that cold to a comet, and to ... asks, would anyone dig so deep?",
+       "draw": "The same sky: a comet streaks in and breaks up (lilac, dotted); waves roll across the plain; 'flood stories'; 'older than the Flood?'; a dotted arrow plunges into the ground: 'why dig so deep?'."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][sfx:shimmer][act:conceding, sincere]And he has a ^point. [act:explaining, plain]Nobody has ever dated the digging ^itself. [p:0.93][act:explaining, an everyday picture]Radiocarbon dating works on things that were once ^alive, like bone or ^charcoal. [act:the catch, simple][tune:fall]A carved room is empty space: there's nothing in it to ^measure.",
+      "[d:aside][act:fair, a surprising ally]And people really have gone underground to escape the ^cold. [p:0.93][act:storytelling, vivid]Around four hundred ^BCE, the Greek soldier ^Xenophon, marching through the snows of Armenia, found villages of underground ^houses@noun: a mouth like a ^well, spacious below, with ramps for the animals and ladders for the ^people. [act:delighted, a vivid picture]Inside were goats, sheep, cattle and ^poultry, stores of wheat and ^barley, and barley beer, drunk through ^straws.",
+      "[act:the catch, light][tune:fall]That was about two thousand four hundred years ago, though, and far to the ^east."
+     ],
+     "shots": [
+      {
+       "id": "s29",
+       "say": "And he has a point. Nobody has ever dated ... there's nothing in it to measure.",
+       "draw": "Radiocarbon: a bone and a lump of charcoal, each with a small clock that ticks; beside them an empty carved room, a dashed ring and a '?': nothing to put a clock on."
+      },
+      {
+       "id": "s30",
+       "say": "And people really have gone underground to escape the ... and barley beer, drunk through straws.",
+       "draw": "Xenophon, about 400 BCE: snow on a mountain plain; a cut-away underground house: a mouth like a well with a ladder, a wide room below with goats, sheep, cattle and poultry, a sloping ramp for the animals; a bowl of barley beer with straws; a small map inset, Armenia far east of Cappadocia."
+      },
+      {
+       "id": "s31",
+       "say": "That was about two thousand four hundred years ago, though, and far to the east.",
+       "draw": "The 13,000-year line again: a bone-coloured tick at 2,400 years ago, 'Xenophon', close to the dated sliver, very far from the lilac Ice Age marker."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][sfx:hit][act:the twist, thoughtful]And here's the real trap: carving ^erases its own history. [p:0.93][act:explaining, an everyday picture]A built city grows by ^adding, layer on layer, like pages in a ^diary. [act:the contrast, clear]A carved city grows by taking ^away.",
+      "[p:0.93][act:explaining, slower]Every time a room was enlarged, the older surface was scraped off and carried ^out, like a blackboard wiped clean and written on ^again.",
+      "[d:aside][act:a second example, brisk]It's the same at ^Longyou, in China, where villagers who drained a pond in {1992|nineteen ninety-two} found twenty-four halls cut by hand into ^rock. [act:the catch, plain]The pottery inside is about two thousand years ^old. [act:pointed][tune:fall]A pot dates a ^visit. [act:same, simple][tune:fall]Not the ^digging."
+     ],
+     "shots": [
+      {
+       "id": "s32",
+       "say": "And here's the real trap: carving erases its own ... carved city grows by taking away.",
+       "draw": "Built versus carved. Left: a mound in section, layers stacking up one by one, oldest at the bottom, like pages. Right: a room in tuff whose outline grows outwards, each older outline cut away."
+      },
+      {
+       "id": "s33",
+       "say": "Every time a room was enlarged, the older surface ... wiped clean and written on again.",
+       "draw": "The room scraped: the older wall (lilac, dashed) scraped away stroke by stroke, rubble carried out in a basket by a small figure; today's wall drawn solid; at right, a blackboard with chalk marks, wiped, and written on again.",
+       "reuse": "derinkuyu_m 'scrape' (the room enlarged, the older surface scraped away), redrawn wide"
+      },
+      {
+       "id": "s34",
+       "say": "It's the same at Longyou, in China, where villagers ... dates a visit. Not the digging.",
+       "draw": "Longyou: the hall from the Short (iso, wide); a small pot on its floor, 'about 2,000 years'; a solid arrow to the pot, a dotted one to the walls with a '?': a pot dates a visit, not the digging.",
+       "reuse": "longyou-caves shot 0 (f07.longyou: the iso hall), its labels dropped, redrawn wide"
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:tension][act:the landing, quiet]So the deepest room could be very old, or fairly ^new. [act:plain, honest][tune:fall]The rock alone can't ^tell us."
+     ],
+     "shots": [
+      {
+       "id": "s35",
+       "say": "So the deepest room could be very old, or fairly new. The rock alone can't tell us.",
+       "draw": "The deepest level, close: the lowest room glows; two faint tags, 'very old?' and 'fairly new?', then a single lilac '?'."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Chapels, raids and refugees",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:naming the knowns, confident][tune:rise]So what ^can we date? [act:the method, clear]What people left behind: crosses cut into the walls, carved churches, and broken Byzantine ^pottery. [p:0.93][act:an everyday picture]Pottery is dated by its ^style, like cars: every age has its fashions, and an expert can tell the era at a ^glance.",
+      "[p:0.93][act:the history, plain]From the six hundreds, Cappadocia lay on the frontier of the ^Byzantine Empire, the Greek-speaking, Christian eastern half of the Roman ^world. [act:the first blow, graver]In {611|six hundred and eleven}, Persian armies took ^Caesarea, the region's great city, today's ^Kayseri. [act:the threat, graver]Then Arab armies came north through the passes of the Taurus ^mountains, raiding almost every year, until the nine ^hundreds. [act:plain, the record]Chroniclers on both sides wrote the raids down, season after ^season."
+     ],
+     "shots": [
+      {
+       "id": "s36",
+       "say": "What people left behind: crosses cut into the walls, ... tell the era at a glance.",
+       "draw": "What can be dated: a cross incised stroke by stroke on a tuff wall, a church plan in the shape of a cross, three sherds, each with a green tick; then pots of three styles over cars of three eras: 'styles change'."
+      },
+      {
+       "id": "s37",
+       "say": "From the six hundreds, Cappadocia lay on the frontier ... the raids down, season after season.",
+       "draw": "Anatolia: the Byzantine side shaded warm, the Taurus as a ridge line, Caesarea (611); red arrows cross the mountains into Cappadocia one after another; '600s to 900s'; two chronicles, one each side."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:the picture, vivid]When raiders came, families led their animals ^below, rolled the stones ^across, and ^waited.",
+      "[p:0.93][act:the scholars' view, clear]Most specialists date the great underground cities to these centuries, from about the seventh to the ^eleventh. [act:fair, the older ideas]Earlier starts have been proposed: ^Phrygians, nearly three thousand years ago, or even ^Hittites. [act:honest, plain][tune:fall]Those stay ^open."
+     ],
+     "shots": [
+      {
+       "id": "s38",
+       "say": "When raiders came, families led their animals below, rolled the stones across, and waited.",
+       "draw": "Dusk: a line of people and a goat go down the entrance stair beneath a house; dust of riders on the horizon; a wheel rolls across behind them; lamps glow in the rooms below."
+      },
+      {
+       "id": "s39",
+       "say": "Most specialists date the great underground cities to these ... or even Hittites. Those stay open.",
+       "draw": "2000 BCE to 2000 CE: a solid gold band 'most specialists' from 600 to 1100 CE; dashed markers 'Phrygians?' (about 750 BCE) and 'Hittites?' (about 1650 to 1200 BCE), both amber and open; an arrow off the left edge, 'Ice Age? far off this chart'.",
+       "reuse": "derinkuyu_m 'dated' and the Short's timeline 'Phrygian start? proposed, not dated', redrawn wide"
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:a surprise, warm]And they were never truly ^forgotten. [p:0.93][act:storytelling]Around {1910|nineteen ten}, the British scholar R. M. ^Dawkins, studying the Greek spoken in these villages, found tunnel entrances inside the ^houses@noun. [act:a lovely detail, warm]The villagers called them ^katafygia: refuges. [act:a detail, intrigued]At ^Malakopi, Derinkuyu's Greek name, the galleries went down to water, about seventy metres ^below.",
+      "[d:tension][p:0.93][act:quiet, human, gentle]In {1909|nineteen oh-nine}, when news came of massacres at ^Adana, to the south, much of one village took refuge underground, and for some nights did not sleep above ^ground.",
+      "[d:calm][act:plain, respectful]In {1923|nineteen twenty-three}, Greece and Turkey agreed to exchange their ^populations, and the Greek Orthodox families of these villages had to leave for ^Greece. [act:quiet]The tunnels fell ^silent. [act:the echo, soft][tune:fall]Forty years later, a basement wall came ^down."
+     ],
+     "shots": [
+      {
+       "id": "s40",
+       "say": "And they were never truly forgotten. Around nineteen ten, ... to water, about seventy metres below.",
+       "draw": "A village about 1910 in section: houses, a trapdoor and stair inside each; galleries running down beneath the village to a blue water line, 'water, about 70 m'; a notebook '1910'; 'katafygia: refuges'."
+      },
+      {
+       "id": "s41",
+       "say": "In nineteen oh-nine, when news came of massacres at ... nights did not sleep above ground.",
+       "draw": "The same village at night: a dark veil over the sky, lamps going down the stairs into the galleries; '1909'."
+      },
+      {
+       "id": "s42",
+       "say": "In nineteen twenty-three, Greece and Turkey agreed to exchange ... for Greece. The tunnels fell silent.",
+       "draw": "The Aegean and Anatolia: a soft arrow from Cappadocia to Greece and another from Greece to Anatolia; '1923: an exchange of populations'; Cappadocia's pin dims: the tunnels fell silent."
+      },
+      {
+       "id": "s43",
+       "say": "Forty years later, a basement wall came down.",
+       "draw": "The opening picture again (a clean copy): the house on the plateau at dusk, the man in the basement, the wall breaking open and the room behind it; '1963'."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The weighing",
+   "beats": [
+    {
+     "role": "weigh",
+     "lines": [
+      "[d:verdict][act:stepping back, calm]Let's ^weigh it. [act:firm, plain][tune:level]Underground refuges used@verb by Byzantine Christians in the centuries of the Arab raids: ^*established*. [act:same steady pace][tune:level]Their use@noun as shelters and cellars into the twentieth century: ^*established*.",
+      "[act:honest, open][tune:rise]When were the very first rooms cut, and by ^whom? [act:same steady pace][tune:level]Phrygians, Hittites, or the Byzantines ^themselves: an *open ^question*. [act:the clue, landing it]And the doors hint at the danger. [p:0.93][act:the punchline, quiet][tune:fall]A rolling stone keeps out ^people, not ^frost.",
+      "[d:verdict][p:0.95][act:the bold claim, weighing it][tune:rise]Shelters from the Ice ^Age? [act:the verdict, level-headed][tune:fall]*Awaiting ^evidence*. [act:fair, plain]Not ruled out, because the digging itself has never been ^dated. [act:to its credit, warm]And to its credit, the idea makes a prediction we can ^test. [act:careful, the other side]But so far, nothing found inside points that far ^back. [p:0.93][act:the context, clear]And the oldest village known nearby, Asikli ^Hoyuk, was built of mud brick, above ground, after the Ice Age had ^ended."
+     ],
+     "shots": [
+      {
+       "id": "s44",
+       "say": "Underground refuges used by Byzantine Christians in the centuries ... cellars into the twentieth century: established.",
+       "draw": "A ledger board: four rows, each with a small picture (a church plan, a house with a cellar stair, a first pick mark, a snowflake); row 1 'Byzantine refuges' lights and its chip 'Established' pops; row 2 'used until 1923', 'Established'."
+      },
+      {
+       "id": "s45",
+       "say": "When were the very first rooms cut, and by ... the Byzantines themselves: an open question.",
+       "draw": "Ledger row 3 'the first rooms' lights ('Phrygians? Hittites? Byzantines?' under it) and its chip 'Open question' pops."
+      },
+      {
+       "id": "s46",
+       "say": "And the doors hint at the danger. A rolling stone keeps out people, not frost.",
+       "draw": "The doors' clue: a stone wheel shut across a passage; small raider figures stop at it, red arrows bounce back; snowflakes drift down an air shaft beside it, unaffected: 'keeps out people', 'not frost'."
+      },
+      {
+       "id": "s47",
+       "say": "Shelters from the Ice Age? Awaiting evidence. Not ruled ... found inside points that far back.",
+       "draw": "Ledger row 4 'Ice Age shelters' lights, its snowflake gets a lilac ring, and its chip 'Awaiting evidence' pops."
+      },
+      {
+       "id": "s48",
+       "say": "And the oldest village known nearby, Asikli Hoyuk, was ... after the Ice Age had ended.",
+       "draw": "The local map: a pin 'Asikli Hoyuk' about 45 km west of Derinkuyu; small mud-brick houses rise above ground; 'after the Ice Age'."
+      }
+     ]
+    },
+    {
+     "role": "test",
+     "lines": [
+      "[d:build][p:0.93][act:practical, clear][tune:rise]What would change our ^minds? [act:the first test][tune:level]A hearth or a bone sealed under an untouched floor in the deepest rooms, and radiocarbon ^dated. [act:the second test][tune:level]A study of the tool marks, level by level: stone tools, or ^iron? [act:the third test][tune:fall]Or the dug-out rock itself: find where it was dumped, and date the ground buried beneath ^it. [act:the last test, hopeful][tune:fall]And a full survey@noun of the levels no visitor ever ^sees."
+     ],
+     "shots": [
+      {
+       "id": "s49",
+       "say": "What would change our minds? A hearth or a ... the deepest rooms, and radiocarbon dated.",
+       "draw": "Test 1: under the deepest room's floor, a small hearth with charcoal and a bone glows; a dashed ring and a tag 'dated?' (dashed: not done)."
+      },
+      {
+       "id": "s50",
+       "say": "A study of the tool marks, level by level: stone tools, or iron?",
+       "draw": "Test 2: a tuff wall under a magnifier: broad shallow scoops on one side, narrow sharp cuts on the other; a stone tool and an iron pick hover beside them with a '?'."
+      },
+      {
+       "id": "s51",
+       "say": "Or the dug-out rock itself: find where it was dumped, and date the ground buried beneath it.",
+       "draw": "Test 3: near the town, a low spoil heap of pale tuff chips over the old dark soil line; a dashed core is drawn down through the heap into that soil; tag 'date it' (dashed: not done)."
+      },
+      {
+       "id": "s52",
+       "say": "And a full survey of the levels no visitor ever sees.",
+       "draw": "Test 4 (a clean night copy of the city): dashed survey lines sweep across the levels no visitor sees."
+      }
+     ]
+    },
+    {
+     "role": "close",
+     "lines": [
+      "[d:wonder][p:0.93][act:reflective, a little poetic]Soft rock keeps its ^secrets. [act:the wry twist, light]It also keeps getting ^dug. [act:the last word, warm][tune:fall]Weigh it ^yourself."
+     ],
+     "shots": [
+      {
+       "id": "s53",
+       "say": "Soft rock keeps its secrets. It also keeps getting dug. Weigh it yourself.",
+       "draw": "The close: night over the plateau; one lit window in the house; in a modern cellar near the surface, a figure with a lamp cuts a new niche, tiny chips falling."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "description": "In 1963, in central Turkey, a man knocking through his basement wall found a room he never knew was there. Below it lay a city cut into soft volcanic rock, about 85 metres deep, with stables, wells, a church and doors made of stone wheels. It is one of hundreds of underground shelters in Cappadocia.\n\nWho dug them, and when? We weigh what can be dated (crosses, churches, Byzantine pottery, written accounts of raids and refugees) against the boldest claim, Ice Age shelters older than the Flood, and show why carving erases its own history. Verdicts: Byzantine refuges, Established; Ice Age shelters, Awaiting evidence.\n\nChapters\n0:00 The city behind the wall\nmm:ss Rooms cut from volcanic ash\nmm:ss A landscape of hiding places\nmm:ss Shelters from the Ice Age?\nmm:ss Chapels, raids and refugees\nmm:ss The weighing\n\nSources\nNývlt, Musílek, Čejka & Stopka 2016, Procedia Engineering 161: 2253-2258, doi:10.1016/j.proeng.2016.08.824\nAydan & Ulusay 2013, Rock Mechanics and Rock Engineering 46: 731-754, doi:10.1007/s00603-012-0301-7\nUlusay & Aydan 2018, Bulletin of Engineering Geology and the Environment 77: 457-488, doi:10.1007/s10064-017-1190-5\nTopal & Doyuran 1997, Engineering Geology 47: 175-187, doi:10.1016/S0013-7952(97)00017-3\nLe Pennec et al. 2005, Journal of Volcanology and Geothermal Research 141: 45-64, doi:10.1016/j.jvolgeores.2004.09.004\nIUGS Geoheritage, The Miocene Cappadocian Ignimbrites sequence (First 100 IUGS Geological Heritage Sites)\nCapoglu & Ozden 2023, Potato Research 66: 873-887, doi:10.1007/s11540-022-09579-4\nYamaç 2022, Jerusalem Journal of Archaeology 3: 70-107, doi:10.52486/01.00003.6\nYamaç & Tok 2026, Underground Shelters of Cappadocia, Turkey (Springer), doi:10.1007/978-3-032-16095-9\nOusterhout 2017, Visualizing Community: Art, Material Culture, and Settlement in Byzantine Cappadocia (Dumbarton Oaks)\nDawkins 1916, Modern Greek in Asia Minor (Cambridge University Press), pp. 15-16\nXenophon, Anabasis 4.5.25 (trans. Brownson, Loeb Classical Library)\nHancock 2015, Magicians of the Gods (Coronet)\nAncient Apocalypse 2022, Netflix, the Derinkuyu episode\nRasmussen et al. 2006, Journal of Geophysical Research 111: D06102, doi:10.1029/2005JD006079\nCurry 2015, National Geographic, Massive underground city found in Cappadocia region of Turkey (25 March 2015)\nAnadolu Agency 2022, Underground city tunnels in Turkey's Cappadocia open to travelers (Daily Sabah)\nTurkish Ministry of Culture and Tourism, Derinkuyu and Kaymaklı Underground City museum pages (turkishmuseums.com)\nHISTORY 2026, Why is there a massive ancient city hidden beneath Turkey? (12 May 2026)\nYang, Yue & Li 2011, Tunnelling and Underground Space Technology (the Longyou caverns)\nStiner et al. 2014, PNAS 111: 8404-8409, doi:10.1073/pnas.1322723111 (Aşıklı Höyük)",
+ "sources": [
+  "Nývlt, Musílek, Čejka & Stopka 2016, Procedia Engineering 161: 2253-2258, doi:10.1016/j.proeng.2016.08.824",
+  "Aydan & Ulusay 2013, Rock Mechanics and Rock Engineering 46: 731-754, doi:10.1007/s00603-012-0301-7",
+  "Ulusay & Aydan 2018, Bulletin of Engineering Geology and the Environment 77: 457-488, doi:10.1007/s10064-017-1190-5",
+  "Topal & Doyuran 1997, Engineering Geology 47: 175-187, doi:10.1016/S0013-7952(97)00017-3",
+  "Le Pennec et al. 2005, Journal of Volcanology and Geothermal Research 141: 45-64, doi:10.1016/j.jvolgeores.2004.09.004",
+  "IUGS Geoheritage, The Miocene Cappadocian Ignimbrites sequence (First 100 IUGS Geological Heritage Sites)",
+  "Capoglu & Ozden 2023, Potato Research 66: 873-887, doi:10.1007/s11540-022-09579-4",
+  "Yamaç 2022, Jerusalem Journal of Archaeology 3: 70-107, doi:10.52486/01.00003.6",
+  "Yamaç & Tok 2026, Underground Shelters of Cappadocia, Turkey (Springer), doi:10.1007/978-3-032-16095-9",
+  "Ousterhout 2017, Visualizing Community: Art, Material Culture, and Settlement in Byzantine Cappadocia (Dumbarton Oaks)",
+  "Dawkins 1916, Modern Greek in Asia Minor (Cambridge University Press), pp. 15-16",
+  "Xenophon, Anabasis 4.5.25 (trans. Brownson, Loeb Classical Library)",
+  "Hancock 2015, Magicians of the Gods (Coronet)",
+  "Ancient Apocalypse 2022, Netflix, the Derinkuyu episode",
+  "Rasmussen et al. 2006, Journal of Geophysical Research 111: D06102, doi:10.1029/2005JD006079",
+  "Curry 2015, National Geographic, Massive underground city found in Cappadocia region of Turkey (25 March 2015)",
+  "Anadolu Agency 2022, Underground city tunnels in Turkey's Cappadocia open to travelers (Daily Sabah)",
+  "Turkish Ministry of Culture and Tourism, Derinkuyu and Kaymaklı Underground City museum pages (turkishmuseums.com)",
+  "HISTORY 2026, Why is there a massive ancient city hidden beneath Turkey? (12 May 2026)",
+  "Yang, Yue & Li 2011, Tunnelling and Underground Space Technology (the Longyou caverns)",
+  "Stiner et al. 2014, PNAS 111: 8404-8409, doi:10.1073/pnas.1322723111 (Aşıklı Höyük)"
+ ],
+ "facts_added": [
+  {
+   "fact": "Derinkuyu was found in 1963 during work on a house and opened to visitors in 1969 (the ministry page says 1965: hence 'within a few years'); up to 18 floors, the deepest up to 85 m; more than 50 ventilation shafts.",
+   "source": "Nývlt et al. 2016, Procedia Engineering 161, doi:10.1016/j.proeng.2016.08.824; Turkish Ministry of Culture and Tourism, Derinkuyu museum page"
+  },
+  {
+   "fact": "Only a small part of Derinkuyu can be visited (about ten percent); a cross-planned church on a lower floor; a deep ventilation shaft also served as a water well.",
+   "source": "Turkish Ministry of Culture and Tourism, Derinkuyu Underground City museum page"
+  },
+  {
+   "fact": "The Cappadocian ignimbrites (the tuff) erupted about 10 to 5 million years ago from calderas now buried; the sequence is more than 430 m thick.",
+   "source": "IUGS Geoheritage, The Miocene Cappadocian Ignimbrites sequence; Le Pennec et al. 2005, doi:10.1016/j.jvolgeores.2004.09.004"
+  },
+  {
+   "fact": "Cappadocian tuff is moderately weak to very weak, very porous and light.",
+   "source": "Topal & Doyuran 1997, Engineering Geology 47, doi:10.1016/S0013-7952(97)00017-3"
+  },
+  {
+   "fact": "Easy carving and thermal insulation are the main reasons for the region's underground use, past and present.",
+   "source": "Ulusay & Aydan 2018, Bull. Eng. Geol. Environ. 77, doi:10.1007/s10064-017-1190-5"
+  },
+  {
+   "fact": "More than two thousand tuff storage facilities in Central Anatolia keep potatoes from one harvest to the next without cooling equipment.",
+   "source": "Capoglu & Ozden 2023, Potato Research 66, doi:10.1007/s11540-022-09579-4"
+  },
+  {
+   "fact": "Millstone doors measure about 1.2 to 1.85 m across and 26 to 40 cm thick, worked from small operation rooms; underground cities are dated by engraved crosses, churches, Byzantine pottery sherds and architecture; most scholars place their excavation in the 7th to 11th centuries CE, when Arab armies raided the region practically every year until the 10th century.",
+   "source": "Yamaç 2022, Jerusalem Journal of Archaeology 3: 70-107, doi:10.52486/01.00003.6"
+  },
+  {
+   "fact": "More than 200 underground shelters are known in Cappadocia, constructed between the 7th and 11th centuries AD against Arab raids, with dating still debated.",
+   "source": "Yamaç & Tok 2026, Underground Shelters of Cappadocia, Turkey (Springer), doi:10.1007/978-3-032-16095-9"
+  },
+  {
+   "fact": "More than 360 underground sites have been geolocated in Cappadocia (a second, higher count).",
+   "source": "HISTORY 2026 (history.com, 12 May 2026), quoting the Centro Studi Sotterranei"
+  },
+  {
+   "fact": "Kaymaklı opened to the public in 1964; it has eight floors, four open to visitors; the official page attributes its first floor to the Hittites.",
+   "source": "Turkish Ministry of Culture and Tourism, Kaymaklı Underground City museum page"
+  },
+  {
+   "fact": "Özkonak was found in 1972 when the village imam noticed irrigation water draining into the ground.",
+   "source": "showcaves.com, Özkonak Yeraltı Şehri"
+  },
+  {
+   "fact": "Nevşehir's underground city was exposed in 2013 when houses around the castle were demolished; early geophysical measurements suggested it might be a third larger than Derinkuyu.",
+   "source": "Curry 2015, National Geographic (25 March 2015)"
+  },
+  {
+   "fact": "Part of the Nevşehir underground settlement opened to tourism in 2020; it bears traces of life from the sixth century until today (archaeologist Semih İstanbulluoğlu).",
+   "source": "Anadolu Agency via Daily Sabah 2022"
+  },
+  {
+   "fact": "Kaymaklı's neighbours and Nevşehir's residents used the old passages as cellars.",
+   "source": "showcaves.com, Kaymaklı and Nevşehir pages; Dawkins 1916 (cellars at Malakopi)"
+  },
+  {
+   "fact": "Hancock links the Zoroastrian story of Yima's refuge against a 'fatal winter' to the Younger Dryas, a comet impact and flood traditions, and suggests Derinkuyu may be far older than its Byzantine use.",
+   "source": "Hancock 2015, Magicians of the Gods; Ancient Apocalypse 2022 (Netflix)"
+  },
+  {
+   "fact": "The Younger Dryas cold lasted from about 12,900 to 11,700 years ago.",
+   "source": "Rasmussen et al. 2006, JGR 111 D06102, doi:10.1029/2005JD006079"
+  },
+  {
+   "fact": "Around 400 BCE Xenophon found underground houses in Armenia: a mouth like a well, spacious below, tunnels for the animals, ladders for the people.",
+   "source": "Xenophon, Anabasis 4.5.25 (trans. Brownson)"
+  },
+  {
+   "fact": "Around 1909 to 1911 Dawkins found the galleries' entrances inside the houses, used as cellars; at Malakopi (Derinkuyu) the galleries reach water at about 70 m; in 1909, news of the Adana massacres sent much of one village (Axo) underground for some nights.",
+   "source": "Dawkins 1916, Modern Greek in Asia Minor, pp. 15-16"
+  },
+  {
+   "fact": "Under the 1923 Convention on the exchange of populations, the Orthodox Christians of Cappadocia left for Greece; the underground cities were abandoned.",
+   "source": "Convention concerning the Exchange of Greek and Turkish Populations, Lausanne, 30 January 1923"
+  },
+  {
+   "fact": "Aşıklı Höyük, the earliest village of Central Anatolia, about 45 km west of Derinkuyu, was founded in the wake of the Younger Dryas (before 8200 BCE), with mud-brick houses.",
+   "source": "Stiner et al. 2014, PNAS 111, doi:10.1073/pnas.1322723111; CMATE Aşıklı Höyük project page"
+  },
+  {
+   "fact": "Nearly 1.5 million tourists visited Cappadocia's underground cities in 2023 (Kaymakli about 560,000).",
+   "source": "Anadolu Agency via Daily Sabah, January 2024"
+  },
+  {
+   "fact": "Arab and Byzantine chroniclers (al-Tabari, Theophanes and others) recorded the near-annual raids across the Taurus into Cappadocia in the 7th to 10th centuries.",
+   "source": "Haldon & Kennedy 1980, Zbornik Radova Vizantoloskog Instituta 19: 79-116; Yamaç 2022, doi:10.52486/01.00003.6"
+  },
+  {
+   "fact": "In 611 the Sasanian Persians occupied and destroyed Caesarea (Kayseri).",
+   "source": "Yamaç 2022, Jerusalem Journal of Archaeology 3, doi:10.52486/01.00003.6"
+  },
+  {
+   "fact": "The Nevsehir survey used electrical resistivity and seismic tomography.",
+   "source": "Curry 2015, National Geographic (25 March 2015)"
+  },
+  {
+   "fact": "Ancient Apocalypse (Netflix, 2022): Hancock visits Derinkuyu and proposes an Ice Age origin.",
+   "source": "Ancient Apocalypse 2022; Feagans 2022, A Hot Cup of Joe (review of episodes 7 and 8)"
+  },
+  {
+   "fact": "Xenophon's underground houses held goats, sheep, cattle and fowls, with wheat, barley, beans and barley wine drunk through straws.",
+   "source": "Xenophon, Anabasis 4.5.25-27 (trans. Brownson)"
+  },
+  {
+   "fact": "The Cappadocia region (Göreme National Park and the Rock Sites of Cappadocia) has been on the UNESCO World Heritage List since 1985.",
+   "source": "Ulusay & Aydan 2018, doi:10.1007/s10064-017-1190-5"
+  },
+  {
+   "fact": "Fairy chimneys are erosional forms of the Cappadocian tuff, often capped by harder rock.",
+   "source": "Topal & Doyuran 1997, doi:10.1016/S0013-7952(97)00017-3"
+  },
+  {
+   "fact": "Longyou: 24 caverns cut by hand into siltstone, found in 1992; Western Han pottery (about 2,000 years old) found inside dates a visit, not the digging.",
+   "source": "Yang, Yue & Li 2011, Tunnelling and Underground Space Technology; the Short 'longyou-caves'"
+  }
+ ],
+ "names": [
+  {
+   "name": "Derinkuyu",
+   "say": "DEH-rin-koo-yoo (in the lexicon)"
+  },
+  {
+   "name": "Cappadocia",
+   "say": "kap-uh-DOH-shuh (in the lexicon)"
+  },
+  {
+   "name": "Kaymakli (Kaymaklı)",
+   "say": "kye-MAHK-luh"
+  },
+  {
+   "name": "Ozkonak (Özkonak)",
+   "say": "URZ-koh-nahk"
+  },
+  {
+   "name": "Nevsehir (Nevşehir)",
+   "say": "NEV-sheh-heer"
+  },
+  {
+   "name": "Yima",
+   "say": "YEE-mah"
+  },
+  {
+   "name": "Xenophon",
+   "say": "ZEN-uh-fun"
+  },
+  {
+   "name": "Malakopi",
+   "say": "mah-LAH-koh-pee"
+  },
+  {
+   "name": "R. M. Dawkins",
+   "say": "ar em DAW-kinz"
+  },
+  {
+   "name": "Adana",
+   "say": "AH-dah-nah"
+  },
+  {
+   "name": "Asikli Hoyuk (Aşıklı Höyük)",
+   "say": "ah-shuk-LUH hur-YOOK"
+  },
+  {
+   "name": "Phrygians",
+   "say": "FRIJ-ee-unz"
+  },
+  {
+   "name": "Hittites",
+   "say": "HIT-ites (in the lexicon)"
+  },
+  {
+   "name": "Younger Dryas",
+   "say": "YUNG-ger DRY-us (Dryas in the lexicon)"
+  },
+  {
+   "name": "Longyou",
+   "say": "long-YOH (in the lexicon)"
+  },
+  {
+   "name": "Graham Hancock",
+   "say": "GRAY-um HAN-cock (in the lexicon)"
+  },
+  {
+   "name": "tuff",
+   "say": "tuff (rhymes with rough)"
+  },
+  {
+   "name": "katafygia",
+   "say": "kah-tah-FEE-yee-ah (Greek: refuges)"
+  },
+  {
+   "name": "Caesarea",
+   "say": "see-zuh-REE-uh"
+  },
+  {
+   "name": "Kayseri",
+   "say": "KAI-seh-ree"
+  },
+  {
+   "name": "Taurus (mountains)",
+   "say": "TOR-us"
+  },
+  {
+   "name": "imam",
+   "say": "ih-MAHM"
+  }
+ ],
+ "words": 1502
+}
