@@ -147,6 +147,16 @@ LEX.update({"dardanelles": "dˌɑːɹdənˈɛlz", "priam": "pɹˈaɪəm", "wilhe
             "detrick": "dˈiːtɹɪk", "beringia": "bəɹˈɪndʒiə", "verde": "vˈɛɹdeɪ", "paisley": "pˈeɪzli", "otero": "oʊtˈɛɹoʊ",
             "chiquihuite": "tʃˌiːkiːwˈiːteɪ", "baikal": "baɪkˈɑːl"})
 
+# long-form round 4 names (2 Oct 2026): espeak said "kresh-un troyz", "lel-und", "sree", "in-NOO", "mee-nohz", "thuss-ih-dydz"...
+LEX.update({"ambrosius": "æmbɹˈoʊziəs", "aurelianus": "ɔːɹˌiːliˈɑːnəs", "artognou": "ɑːɹtˈɑːɡnuː", "avalon": "ˈævəlɑːn", "cabal": "kˈæbæl",
+            "chretien": "kɹeɪtjˈæn", "troyes": "tɹwˈɑː", "gododdin": "ɡɑːdˈɑːðɪn", "leland": "lˈiːlənd", "newburgh": "nˈuːbɹə",
+            "benedicte": "bˌɛnɪdˈɪktə", "beothuk": "biˈɑːθʊk", "birgitta": "bɪɹɡˈɪtə", "bremen": "bɹˈeɪmən", "fusa": "fˈuːsə",
+            "miyake": "miːjˈɑːkeɪ", "gudrid": "ɡˈʊdɹɪd", "helluland": "hˈɛluːlænd", "innu": "ˈɪnuː", "l'anse": "lˈɑːns", "aux": "oʊ",
+            "mi'kmaq": "mˈiːɡmɑː", "ohman": "ˈɜːmən", "olof": "ˈuːlɑːf", "tyrkir": "tˈɪɹkɪɹ",
+            "ariadne": "ˌæɹiˈædni", "daedalus": "dˈɛdələs", "kalokairinos": "kˌɑːloʊkɛɹˈiːnɑːs", "kythera": "kˈɪθəɹə",
+            "minoan": "mɪnˈoʊən", "minoans": "mɪnˈoʊənz", "minos": "mˈaɪnɑːs", "pasiphae": "pəsˈɪfiːi", "thucydides": "θuːsˈɪdɪdiːz",
+            "cretan": "kɹˈiːtən", "ingo": "ˈɪŋɡoʊ", "mcmoneagle": "məkmˈɑːnəɡəl", "puthoff": "pˈʊthɑːf", "sri": "ˌɛsˌɑːɹˈaɪ", "labrys": "lˈæbɹɪs"})
+
 
 def _key(w):
     return re.sub(r"[^\wöüışçğ'’]", "", w.lower()).replace("’", "'")
