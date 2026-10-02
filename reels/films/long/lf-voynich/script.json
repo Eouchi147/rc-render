@@ -1,0 +1,781 @@
+{
+ "id": "lf-voynich",
+ "kind": "case",
+ "series": "Unreadable",
+ "title": "The Voynich Manuscript: Message or Nonsense?",
+ "intro_title": "The Voynich Manuscript: Message or Nonsense?",
+ "yt_title": "The Voynich Manuscript: The Book Nobody on Earth Can Read",
+ "verdict": "Open question",
+ "hook": "Can a book exist that nobody can read?",
+ "chapters": [
+  {
+   "title": "Cold open",
+   "beats": [
+    {
+     "role": "hook",
+     "lines": [
+      "[d:intrigue][sfx:boom][act:hushed, wonder]A painted plant that no botanist can ^name. [act:building the picture]Around it, lines of an alphabet that nobody alive can ^read@present. [p:0.93][act:the number lands][tune:fall]And two hundred and forty pages just like ^it.",
+      "[d:tension][act:the child's question, leaning in][tune:rise]Can a book exist that nobody on Earth can ^read@present? [act:plain, the stakes]This one has beaten wartime ^codebreakers, ^computers, and a century of claimed ^solutions. [act:the real puzzle, hushed][tune:rise]Is there a ^message inside at all?"
+     ],
+     "shots": [
+      {
+       "id": "s1",
+       "say": "A painted plant that no botanist can name. Around it, lines of an alphabet that nobody alive can read.",
+       "draw": "Close on one vellum page lit by a lamp (cam z 1.35): a plant draws itself from the roots up (a fat brown root, a green stem, broad leaves, a red flower) and, around it, six lines of Voynichese write themselves left to right in brown ink (real EVA word shapes: daiin, chedy, qokeedy...). A soft lamp glow breathes on the page.",
+       "reuse": "voynich shot 0 (the plant page), redrawn wide as an open book"
+      },
+      {
+       "id": "s2",
+       "say": "And two hundred and forty pages just like it.",
+       "draw": "Pull back to the whole open book on a dark desk (cam z 1): left of it, a pile of 24 vellum leaves stacks up from the desk, one every 0.05 s (each leaf stands for ten pages), and the label '240 pages' appears over it."
+      },
+      {
+       "id": "s3",
+       "say": "Can a book exist that nobody on Earth can read?",
+       "draw": "The curve of the Earth across the bottom of the frame under a starry sky (a dark blue-green arc with a thin blue rim); the book open on a lectern at the top of the curve, lit by a lamp; along the curve on both sides, about 30 people of every height rise one after another, a small lilac question mark popping over about half of them."
+      },
+      {
+       "id": "s4",
+       "say": "This one has beaten wartime codebreakers, computers, and a century of claimed solutions. Is there a message inside at all?",
+       "draw": "Same panel: three things pop in the sky as they are named: a punched card ('codebreakers'), a computer screen ('computers'), a fan of dotted lilac papers ('claimed solutions') that a red stroke strikes through. On the last sentence a large gold question mark rises over the book."
+      }
+     ]
+    },
+    {
+     "role": "title",
+     "lines": [
+      "[d:calm][act:warm, setting out]The Voynich ^manuscript: [act:the promise, a small smile][tune:fall]a message, or beautiful ^nonsense?"
+     ],
+     "shots": [
+      {
+       "id": "s5",
+       "say": "The Voynich manuscript: a message, or beautiful nonsense?",
+       "draw": "The intro title card 'The Voynich Manuscript: Message or Nonsense?' over the dimmed Earth-and-book panel of s3/s4 (no new panel). Only the title is said here."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "A letter inside the book",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:storytelling, unhurried]In {1912|nineteen twelve}, a book dealer called Wilfrid ^Voynich bought a batch of old manuscripts from the Jesuits, near ^Rome. [act:the find, a little wonder][tune:fall]One of them was ^this. [p:0.93][act:the clue, leaning in]And inside it lay a ^letter, written in Prague in about {1665|sixteen sixty-five}."
+     ],
+     "shots": [
+      {
+       "id": "s6",
+       "say": "One of them was this. And inside it lay a letter, written in Prague in about 1665.",
+       "draw": "A long shelf of old manuscript spines (leather browns) builds left to right with a small dealer figure and the tag '1912'; one spine glows gold and slides forward as an open book; a folded letter with lines of Latin handwriting rises out of it, tagged 'Prague, c. 1665'."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:reading the letter, intrigued]Its writer, the physician Johannes Marcus ^Marci, was sending the book to the famous scholar Athanasius ^Kircher, in Rome, [act:the hope, warm][tune:fall]sure that no one else could read@present ^it.",
+      "[p:0.93][act:the gossip, savouring it]He passed on a story: the Emperor Rudolf the Second had once paid six hundred ^ducats for it. [p:0.9][act:the punchline][tune:fall]About two kilos of ^gold. [act:fair, a caveat]Second-hand ^gossip. [act:the support, intrigued]But under ultraviolet light, the first page still shows the faded name of the emperor's own ^distiller.",
+      "[d:aside][act:tracing it, light][tune:level]And in Kircher's archive sits an older letter, from {1639|sixteen thirty-nine}: [act:the detail][tune:fall]a Prague alchemist, asking for his help with the very same ^book. [act:tracing the chain, light][tune:level]Prague, then Rome, then ^Voynich. [act:the end of the trail][tune:fall]Since {1969|nineteen sixty-nine}, it has lived in Yale's Beinecke ^Library, catalogued as manuscript {408|four oh eight}."
+     ],
+     "shots": [
+      {
+       "id": "s7",
+       "say": "Its writer, the physician Johannes Marcus Marci, was sending the book to the famous scholar Athanasius Kircher, in Rome, sure that no one else could read it.",
+       "draw": "Map of central Europe and Italy (View 4 to 22 E, 39.5 to 52.5 N): gold pin Prague, pin Rome; a small figure at each ('Marci', 'Kircher'); a dotted gold route draws itself from Prague over the Alps to Rome, a tiny book icon riding it; scale bar 300 km.",
+       "reuse": "voynich shot 2 (the map Prague to Rome), redrawn wide"
+      },
+      {
+       "id": "s8",
+       "say": "He passed on a story: the Emperor Rudolf the Second had once paid six hundred ducats for it. About two kilos of gold. Second-hand gossip.",
+       "draw": "A crowned figure ('Rudolf II') and a closed book; 600 small gold coins pop in row by row as a block of 30 by 20 ('600 ducats') with an arrow to the book; two gold bars ('about 2 kg of gold': a ducat held about 3.5 g). On 'Second-hand gossip', a dotted lilac chain from the emperor through three small lilac figures to the letter: claimed, not documented."
+      },
+      {
+       "id": "s9",
+       "say": "But under ultraviolet light, the first page still shows the faded name of the emperor's own distiller.",
+       "draw": "The first page of the book, its text faint; a violet ultraviolet lamp sweeps a beam across it; at the foot of the page a faded line of Latin handwriting glows into view, labelled 'Jacobj a Tepenecz' and 'the emperor's distiller'."
+      },
+      {
+       "id": "s10",
+       "say": "And in Kircher's archive sits an older letter, from 1639 ... Prague, then Rome, then Voynich. Since 1969, it has lived in Yale's Beinecke Library, catalogued as manuscript 408.",
+       "draw": "A timeline 1350 to 2050 builds: a letter icon at 1639 ('a letter to Kircher'); then, as the chain is said, ticks pop: 'Prague, c. 1600' (Rudolf), '1665 to Rome', '1912 Voynich', '1969 Yale, MS 408'; a thin gold thread links them left to right."
+      }
+     ]
+    },
+    {
+     "role": "cost",
+     "lines": [
+      "[d:build][act:the doubt, fair][tune:rise]But how old is the book ^itself? [act:plain]Some even suspected Voynich of forging ^it.",
+      "[p:0.93][act:explaining, the method]In {2009|two thousand nine}, a team at the University of ^Arizona cut four slivers from the edges of its calfskin pages, each about the size of a grain of ^rice. [p:0.93][act:explaining, the analogy]Living things hold a trace of radioactive carbon, which fades after death at a steady pace, like a candle burning ^down: [act:the payoff][tune:fall]measure what's left, and you know when the calf ^died.",
+      "[p:0.9][act:the result, plain]Between about {1404|fourteen oh four} and {1438|fourteen thirty-eight}. [act:firm][tune:fall]Not a modern ^fake. [act:the caveat, careful]That dates the ^skin, not the ^ink, [act:fair][tune:fall]but its paints are ordinary pigments of the ^age."
+     ],
+     "shots": [
+      {
+       "id": "s11",
+       "say": "But how old is the book itself? Some even suspected Voynich of forging it.",
+       "draw": "Back on the timeline: a dotted lilac bracket rises over 1912 with a small quill and the words 'forged by Voynich?' (claimed style), and a lilac question mark."
+      },
+      {
+       "id": "s12",
+       "say": "In 2009, a team at the University of Arizona cut four slivers from the edges of its calfskin pages, each about the size of a grain of rice.",
+       "draw": "Four page edges stacked at the left; a scalpel; a small dark notch cut in each edge; on a dark tray at the right, four slivers 1 by 6 mm (drawn at 20 units a millimetre: 120 by 20) with a '6 mm' dimension, beside a grain of rice at the same scale (about 6.5 by 2.5 mm); tag 'Arizona, 2009'."
+      },
+      {
+       "id": "s13",
+       "say": "Living things hold a trace of radioactive carbon, which fades after death at a steady pace, like a candle burning down: measure what's left, and you know when the calf died.",
+       "draw": "A calf silhouette with 16 blue carbon dots; then four candles, tall to short (each lit), with 16, 8, 4 and 2 blue dots above them (the carbon halving as time passes) and an arrow 'time since death' under them; a dimension on the shortest candle: 'what's left tells the date'.",
+       "reuse": "voynich_m dating scene (the candles), redrawn wide"
+      },
+      {
+       "id": "s14",
+       "say": "Between about 1404 and 1438. Not a modern fake.",
+       "draw": "Back on the timeline: four sample ticks drop from above onto a gold band 1404 to 1438 that pops and glows, labelled '1404 to 1438, radiocarbon'; the dotted 'forged by Voynich?' bracket is struck through in red."
+      },
+      {
+       "id": "s15",
+       "say": "That dates the skin, not the ink, but its paints are ordinary pigments of the age.",
+       "draw": "Two halves: left, a piece of calfskin with a green tick and a small gold band '1404 to 1438'; right, an ink pot with a dashed outline and a '?' ('ink: not dated'). Below, three pigment pots pop as named in the narration's sense: azurite blue, red ochre, copper green, each with a small tick, and the label 'pigments of the period'."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:wonder][act:inviting, turning pages][tune:rise]So what's ^in it? [act:the tour, delighted][tune:level]^Plants, on about half the pages, each with its block of ^text. [act:same rhythm][tune:level]Circles of ^stars, and the signs of the ^zodiac. [act:same rhythm, a little surprised][tune:level]Small bathing women in green ^pools, joined by strange ^pipes. [act:same rhythm][tune:level]A fold-out of nine great ^rosettes. [act:same rhythm][tune:level]Jars beside roots and ^leaves. [act:the last one, landing][tune:fall]And pages of short paragraphs, each marked with a ^star.",
+      "[p:0.93][act:the point, a smile]It looks like a book of ^herbs, ^heavens and ^healing. [act:the twist, quiet][tune:fall]If only we could read@present the ^labels."
+     ],
+     "shots": [
+      {
+       "id": "s16",
+       "say": "So what's in it? Plants, on about half the pages, each with its block of text. Circles of stars, and the signs of the zodiac.",
+       "draw": "Six small vellum pages in a row, the camera close on the first two (cam z 1.6): a plant page draws itself (plant, block of text); a zodiac page: concentric rings of stars, a ring of small figures, a sign in the centre."
+      },
+      {
+       "id": "s17",
+       "say": "Small bathing women in green pools, joined by strange pipes. A fold-out of nine great rosettes.",
+       "draw": "The camera slides to pages three and four: green pools joined by pipes with small schematic bathing figures (no anatomical detail); a fold-out with nine rosettes in a three by three grid joined by causeways."
+      },
+      {
+       "id": "s18",
+       "say": "Jars beside roots and leaves. And pages of short paragraphs, each marked with a star.",
+       "draw": "Pages five and six: tall painted jars beside roots and leaves with tiny labels; a page of short paragraphs, a small star at the left of each."
+      },
+      {
+       "id": "s19",
+       "say": "It looks like a book of herbs, heavens and healing. If only we could read the labels.",
+       "draw": "The camera pulls back to all six pages: as each word is said a coloured rule appears under its pages and a legend word pops ('herbs' green: plants and jars; 'heavens' blue: zodiac and rosettes; 'healing' amber: pools and recipes); then gold rings circle the little labels by the drawings and lilac question marks pop over three pages."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Counting the unreadable",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][p:0.93][act:the child's question, curious][tune:rise]How do you study a book you can't ^read@present? [act:plain, a smile][tune:fall]You ^count it. [act:explaining]About thirty-eight thousand ^words, made from some eight thousand different ^ones."
+     ],
+     "shots": [
+      {
+       "id": "s20",
+       "say": "You count it. About thirty-eight thousand words, made from some eight thousand different ones.",
+       "draw": "A grid of 380 small word tiles (19 rows of 20, each tile = 100 words) pops in row by row with a counter label 'about 38,000 words'; then 80 of them turn gold, scattered through the grid, labelled 'about 8,000 different'."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][p:0.93][act:explaining, clear]In every language, the most common word turns up about twice as often as the ^second, three times as often as the ^third, and so on down a smooth ^staircase. [act:the point, building][tune:fall]This book has the ^same staircase.",
+      "[act:one more point, building]And some words crowd into ^one section of the book, the way oven and flour crowd into a ^cookbook. [p:0.93][act:the result]In {2013|twenty thirteen}, two physicists measured that crowding, and found it just like real ^languages: [act:their conclusion, measured][tune:fall]support, they argued, for a genuine ^message.",
+      "[d:aside][act:a surprising detail, lightly]In {1976|nineteen seventy-six}, the veteran codebreaker Prescott ^Currier spotted two ^dialects, A and ^B, each with its own favourite ^words. [act:the follow-up, admiring]In {2020|twenty twenty}, the palaeographer Lisa Fagin ^Davis told the handwriting apart, loop by ^loop: [tune:fall]^five scribes. [act:where, explaining]Dialect A runs through most of the plant ^pages; [tune:fall]dialect B, through the bathing ^pools."
+     ],
+     "shots": [
+      {
+       "id": "s21",
+       "say": "In every language, the most common word turns up about twice as often as the second ... This book has the same staircase.",
+       "draw": "Two bar charts side by side, 'English' and 'this book': ten bars each grow from the bottom in rank order (heights 1, 1/2, 1/3 ... of the first: Zipf's law, schematic), a dashed staircase curve draws over each; the second chart's bars wear little Voynich word labels.",
+       "reuse": "voynich_m 'like a language' scene (the word staircase), redrawn wide"
+      },
+      {
+       "id": "s22",
+       "say": "And some words crowd into one section of the book, the way oven and flour crowd into a cookbook. In 2013, two physicists measured that crowding ...",
+       "draw": "Left: a cookbook strip of 12 pages where small 'oven' and 'flour' tags cluster on the baking pages. Right: the Voynich as a strip of sections (plants, stars, pools, recipes); gold dots of one word cluster in one section, blue dots of another in another; label 'Montemurro and Zanette, 2013'."
+      },
+      {
+       "id": "s23",
+       "say": "In 1976, the veteran codebreaker Prescott Currier spotted two dialects, A and B, each with its own favourite words.",
+       "draw": "A long strip of page tiles across the panel (cam on the top half, z 1.35): tiles turn amber (A) or blue (B); above each colour, its own favourite word in Voynich script pops ('A', 'B' chips)."
+      },
+      {
+       "id": "s24",
+       "say": "In 2020, the palaeographer Lisa Fagin Davis told the handwriting apart, loop by loop: five scribes.",
+       "draw": "Lower half of the same panel (cam z 1.5): the same gallows letter written five ways (loop size, stem slant, crossbar curve, foot length), each drawing itself above 'scribe 1' to 'scribe 5'; label 'five scribes', 'Davis, 2020'."
+      },
+      {
+       "id": "s25",
+       "say": "Dialect A runs through most of the plant pages; dialect B, through the bathing pools.",
+       "draw": "The whole panel: small section icons (a plant, a pool) appear above the strip; the amber run lines up under the plant icon, the blue under the pools."
+      }
+     ]
+    },
+    {
+     "role": "cost",
+     "lines": [
+      "[d:tension][sfx:shimmer][act:the counterpoint, crisp]But here's the ^snag. [p:0.93][act:explaining, playful]Play a game of guess the next ^letter. [act:explaining, clear]In English, after a q, bet on a ^u; but most letters keep you ^guessing. [act:the point, crisp][tune:fall]In this book, the next letter is far easier to ^guess.",
+      "[p:0.9][act:the number, precise]On a standard measure of that surprise, European languages score about ^three. [act:the punchline][tune:fall]This book scores about ^two. [p:0.93][act:the comparison]A Yale team checked it against nearly three hundred languages, [act:the landing][tune:fall]and it matched ^none.",
+      "[act:puzzled, slower]And words repeat in strange ^runs, the same word two or three times in a row@line, [act:a picture, light][tune:fall]like a stuck ^record@noun."
+     ],
+     "shots": [
+      {
+       "id": "s26",
+       "say": "Play a game of guess the next letter. In English, after a q, bet on a u; but most letters keep you guessing. In this book, the next letter is far easier to guess.",
+       "draw": "Three rows of the game: 'q' with one tall bar for 'u'; 't' with many short bars (h, o, e, i, a, r...); then a Voynich letter with one or two tall bars only. Labels: 'English', 'this book'.",
+       "reuse": "voynich_m 'unlike a language' scene (the guessing bars), redrawn wide"
+      },
+      {
+       "id": "s27",
+       "say": "On a standard measure of that surprise, European languages score about three. This book scores about two. A Yale team checked it against nearly three hundred languages, and it matched none.",
+       "draw": "A bar chart 'surprise per letter': a band of bars at 3.0 to 3.4 ('European languages', Bennett 1976), a lone short bar at 2.2 ('this book') that glows; then a grid of 294 small squares (one per language sample) and the book's square apart, a red 'no match'."
+      },
+      {
+       "id": "s28",
+       "say": "And words repeat in strange runs, the same word two or three times in a row, like a stuck record.",
+       "draw": "A line of Voynich script: the same word appears three times in a row, each copy ringed in amber as it pops; beside it a record on a turntable, the needle jumping back to the same groove."
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:verdict][act:the landing, even][tune:fall]Word by word, it behaves like a ^language. [act:same rhythm][tune:fall]Letter by letter, like ^none we know."
+     ],
+     "shots": [
+      {
+       "id": "s29",
+       "say": "Word by word, it behaves like a language. Letter by letter, like none we know.",
+       "draw": "Two cards: 'words' with the small staircase and a green tick; 'letters' with the lone 2.2 bar and a red question mark."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "A century of solutions",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:build][act:storytelling, relishing it]The first famous solution arrived in {1921|nineteen twenty-one}. [act:introducing him]William ^Newbold, a professor in Philadelphia, said the real message was ^hidden: [act:the claim, vivid][tune:fall]tiny strokes inside each letter, seen only under a ^lens.",
+      "[p:0.93][act:his result, wide-eyed]His reading made the English friar Roger ^Bacon the author, with a ^microscope and a ^telescope, [act:the escalation, playful][tune:fall]drawing the spiral of a galaxy, centuries before any telescope could ^show one."
+     ],
+     "shots": [
+      {
+       "id": "s30",
+       "say": "William Newbold, a professor in Philadelphia, said the real message was hidden: tiny strokes inside each letter, seen only under a lens.",
+       "draw": "One big Voynich letter on vellum; a magnifying lens slides over it; inside the lens, tiny strokes along the letter's edge pop in dotted lilac (claimed), labelled 'hidden shorthand?'."
+      },
+      {
+       "id": "s31",
+       "say": "His reading made the English friar Roger Bacon the author, with a microscope and a telescope, drawing the spiral of a galaxy, centuries before any telescope could show one.",
+       "draw": "All in dotted lilac (claimed): a friar figure labelled 'Roger Bacon, 1200s?'; a microscope and a telescope pop beside him; a spiral draws itself in the sky, labelled 'a galaxy?'; a small time arrow 'centuries before telescopes could show it'."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:the takedown, firm but fair]In {1931|nineteen thirty-one}, the scholar John ^Manly took a closer ^look. [p:0.93][act:explaining, a picture]The tiny strokes were ^cracks, where the ink had dried on the ^skin. [act:the second flaw][tune:level]And Newbold's method let him shuffle letters until Latin came ^out. [act:the landing, dry][tune:fall]Shuffle freely, and a page can say almost ^anything."
+     ],
+     "shots": [
+      {
+       "id": "s32",
+       "say": "In 1931, the scholar John Manly took a closer look. The tiny strokes were cracks, where the ink had dried on the skin.",
+       "draw": "Back to the lens, closer (cam z 1.5): the dotted strokes turn into a network of fine cracks in the dried ink, drawn solid; the label 'cracks in the ink' replaces the claim."
+      },
+      {
+       "id": "s33",
+       "say": "And Newbold's method let him shuffle letters until Latin came out. Shuffle freely, and a page can say almost anything.",
+       "draw": "Four letter tiles R O M A; below them the same four tiles re-form, row after row, into other Latin words: AMOR, MORA, ORAM, RAMO, each popping in; a label 'same letters, any message'."
+      }
+     ]
+    },
+    {
+     "role": "cost",
+     "lines": [
+      "[d:build][act:raising the stakes]Then came the ^professionals. [p:0.93][act:explaining, impressed]From {1944|nineteen forty-four}, William ^Friedman, the great American codebreaker, ran a study group of wartime cryptanalysts, [act:the method][tune:fall]with the text punched onto cards for the ^machines. [act:the result, plain][tune:fall]It never ^cracked.",
+      "[d:aside][act:the anecdote, delighted]In {1959|nineteen fifty-nine}, Friedman hid his verdict in a footnote, as an ^anagram. [act:the irony, a smile][tune:fall]It began: I put no trust in anagrammatic acrostic ^cyphers. [p:0.93][act:the reveal, slower]Unscrambled after his ^death, it read@past: [act:quoting, measured][tune:fall]an early attempt to construct an artificial or universal ^language.",
+      "[act:his idea, explaining]A language built from pure ^logic, where the letters of each word file it into a ^category. [act:the catch, plain][tune:fall]But the first known schemes of that kind come from the sixteen ^hundreds, two centuries after the ^vellum."
+     ],
+     "shots": [
+      {
+       "id": "s34",
+       "say": "From 1944, William Friedman ... ran a study group of wartime cryptanalysts, with the text punched onto cards for the machines. It never cracked.",
+       "draw": "A row of six desks with seated figures; a stack of punched cards grows beside a tabulating machine (a boxy iso cabinet with a glowing slot); '1944' tag; a padlock over the book stays shut."
+      },
+      {
+       "id": "s35",
+       "say": "In 1959, Friedman hid his verdict in a footnote, as an anagram ... an early attempt to construct an artificial or universal language.",
+       "draw": "A journal page with a footnote that types itself: 'I put no trust in anagrammatic acrostic cyphers...'; a sealed envelope pops beside it, tagged 'opened after his death'; it opens and a second line types: 'an early attempt to construct an artificial or universal language'."
+      },
+      {
+       "id": "s36",
+       "say": "A language built from pure logic, where the letters of each word file it into a category. But the first known schemes of that kind come from the sixteen hundreds, two centuries after the vellum.",
+       "draw": "A branching tree of categories (dotted lilac, claimed): 'everything' splits into 'plants', 'stars', 'bodies', each branch ending in a Voynich word whose first letter glows. Below, a timeline 1350 to 1750: the gold vellum band 1404 to 1438 and a tick 1668 ('Wilkins, a philosophical language'); a bracket 'two centuries' between them."
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:calm][act:the modern parade, light][tune:level]Since then, the solutions keep ^coming: [act:listing them][tune:level]^Hebrew, ^Latin, ^Turkish, a lost ^Romance language. [p:0.93][act:one example, fair]In {2016|twenty sixteen}, a computer program guessed Hebrew, with the letters ^rearranged. [act:quoting, even]Through an online translator, its first sentence came out as: [act:reading it out, plainly][tune:fall]she made recommendations to the priest, man of the house@noun and me and ^people. [act:fair, even][tune:fall]One of its authors called it strange but sensible, and said historians of Hebrew would have to ^judge.",
+      "[d:verdict][p:0.93][act:the rule, firm and fair]Here's the test every claim so far has ^failed. [act:explaining, clear]A real reading follows fixed rules, works on every page, not just the ones you ^pick, [act:the last condition][tune:fall]and gives the same text when a stranger applies the ^rules."
+     ],
+     "shots": [
+      {
+       "id": "s37",
+       "say": "Since then, the solutions keep coming: Hebrew, Latin, Turkish, a lost Romance language.",
+       "draw": "A fan of claim cards, each dotted lilac with a language name, popping in turn: 'Hebrew', 'Latin', 'Turkish', 'lost Romance'."
+      },
+      {
+       "id": "s38",
+       "say": "In 2016, a computer program guessed Hebrew, with the letters rearranged ... historians of Hebrew would have to judge.",
+       "draw": "A computer screen: a Voynich word's letters rearrange (tiles swap positions in steps, dotted); an arrow to a speech card where the translated sentence types itself; a small figure with a book (a historian) and a '?' beside it."
+      },
+      {
+       "id": "s39",
+       "say": "Here's the test every claim so far has failed. A real reading follows fixed rules, works on every page ... and gives the same text when a stranger applies the rules.",
+       "draw": "Three test boxes draw themselves: a rulebook ('fixed rules'), a stack of pages each with a tick ('every page'), two figures handing over identical pages ('a stranger gets the same'). The claim cards from s37 slide in below and each gets a red strike."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Beautiful nonsense?",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:tension][act:the opposite idea, fair]So maybe there's nothing there to ^read@present. [p:0.93][act:the challenger at full strength]In {2004|two thousand four}, the computer scientist Gordon ^Rugg showed how one person could fill a book like this with ^nonsense."
+     ],
+     "shots": [
+      {
+       "id": "s40",
+       "say": "In 2004, the computer scientist Gordon Rugg showed how one person could fill a book like this with nonsense.",
+       "draw": "One seated figure at a desk under a lamp, writing; beside him a stack of vellum pages grows (fx fill) into a whole book; tag '2004, Gordon Rugg'."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[act:explaining, step by step]Write a table of meaningless ^syllables: beginnings, middles and ^ends. [act:explaining, the trick]Lay a card with windows cut in it over the ^table, and copy what ^shows. [act:explaining, the next step]Slide the card, and copy ^again. [sfx:hit][act:delighted, slower][tune:fall]Out comes something very like ^Voynichese.",
+      "[act:his case, fair]Later, he argued, the same method can even mimic the word ^staircase. [act:a second recipe, fair]In {2019|twenty nineteen}, Torsten ^Timm and Andreas ^Schinner offered a simpler one: copy a word from earlier on the page, change a letter or two, and carry ^on. [act:the result][tune:fall]Their simulation mimics many of the book's ^quirks."
+     ],
+     "shots": [
+      {
+       "id": "s41",
+       "say": "Write a table of meaningless syllables ... Slide the card, and copy again. Out comes something very like Voynichese.",
+       "draw": "A table of three columns ('beginnings', 'middles', 'ends') filled with Voynich syllables; a dark card with three windows lands on it (one cell in each column shows through); the three syllables join into a word on a page below; the card slides down a row (a dotted ghost where it was) and a second word appears; then a line of words writes itself.",
+       "reuse": "Rugg 2004 (Cryptologia 28: 31-46), table and grille"
+      },
+      {
+       "id": "s42",
+       "say": "Later, he argued, the same method can even mimic the word staircase. In 2019, Torsten Timm and Andreas Schinner ... Their simulation mimics many of the book's quirks.",
+       "draw": "A small staircase chart pops with 'Rugg and Taylor, 2016'; then a page where a word is copied from an earlier line with an arrow, one letter changed (that glyph glows), and the copy is copied again down the page, a chain of five."
+      }
+     ]
+    },
+    {
+     "role": "cost",
+     "lines": [
+      "[d:build][act:the objections, fair][tune:level]The objections came ^quickly. [act:the first][tune:level]A card with windows like that is first described around {1550|fifteen fifty}, a century after the ^vellum. [act:the second, building][tune:fall]Critics doubt a sliding card would crowd words by ^topic, the way the physicists ^found. [act:the third, a smile][tune:rise]And five scribes, keeping two dialects apart, page after page, for ^nothing? [act:dry][tune:fall]That's a lot@amount of discipline for a ^joke."
+     ],
+     "shots": [
+      {
+       "id": "s43",
+       "say": "The objections came quickly ... That's a lot of discipline for a joke.",
+       "draw": "Three objections build left to right: a mini timeline (vellum band 1404 to 1438, the card at 1550, a bracket 'a century'); the section strip with clustered word dots and the grille card beside a '?'; five pens and the two dialect colours, amber and blue, with a dotted '?' 'a joke?'."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:the experiment, delighted]In {2022|twenty twenty-two}, a Yale team tried the obvious ^experiment. [p:0.93][act:explaining]They asked forty-two volunteers to fill pages with fake, meaningless ^text. [act:the result, intrigued][tune:fall]It came out predictable and repetitive, a lot@amount like this ^book.",
+      "[act:the exception, careful]Except in one ^way: [tune:fall]nobody packed certain letters into the start and end of words as tightly as the scribes ^did. [act:the other door, fair]And the same team showed that some ciphers, ones that merge sounds together, make text just as ^predictable."
+     ],
+     "shots": [
+      {
+       "id": "s44",
+       "say": "In 2022, a Yale team tried the obvious experiment. They asked forty-two volunteers to fill pages with fake, meaningless text. It came out predictable and repetitive, a lot like this book.",
+       "draw": "42 small figures in a grid of 6 rows of 7, each popping with a little page; their pages fill with scribbles; two meters then fill: 'predictable', 'repetitive', each pointer landing beside the book's mark."
+      },
+      {
+       "id": "s45",
+       "say": "Except in one way: nobody packed certain letters into the start and end of words as tightly as the scribes did. And the same team showed that some ciphers, ones that merge sounds together, make text just as predictable.",
+       "draw": "Left: a Voynich word with its first and last letters glowing, a bracket on each end; under it a volunteer's word with loose ends (dashed). Right: two sounds, 'b' and 'p', funnel into one symbol; the surprise bar below drops to the book's level."
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:reveal][act:the reveal, lean in]Then, in {2025|twenty twenty-five}, the science writer Michael ^Greshko built a cipher from ^dice and playing ^cards, ordinary tools of fifteenth-century ^Italy. [p:0.93][act:explaining, step by step]A roll of the die cuts a Latin sentence into pieces of one or two ^letters; [act:the next step]a card picks one of six ^tables for each ^piece. [sfx:hit][act:delighted, slower][tune:fall]Out comes something very like ^Voynichese.",
+      "[act:careful, a raised finger][tune:fallrise]Not a ^solution: it decodes no ^page, [act:honest, quoting him][tune:fall]and he calls it almost certainly not the way the book was ^made. [act:the landing, a smile][tune:fall]Nonsense can look like this. [act:same rhythm][tune:fall]So can a ^cipher."
+     ],
+     "shots": [
+      {
+       "id": "s46",
+       "say": "Then, in 2025, the science writer Michael Greshko built a cipher from dice and playing cards ... Out comes something very like Voynichese.",
+       "draw": "A flow left to right: a Latin line 'VENI VIDI VICI'; a die rolls (pop) and the line splits into pieces of one or two letters ('VE N I VI D I...'); a playing card pops and one of six small tables lights; each piece becomes a Voynich word on a vellum strip at the right.",
+       "reuse": "voynich_m cipher scene (dice, card, Latin in, Voynich-like out), redrawn wide"
+      },
+      {
+       "id": "s47",
+       "say": "Not a solution: it decodes no page ... Nonsense can look like this. So can a cipher.",
+       "draw": "A balance with the book at its pivot: on the left pan the grille card ('nonsense'), on the right the die and card ('cipher'); the beam settles level; a dotted 'not a solution' tag hangs from the cipher pan."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The weighing",
+   "beats": [
+    {
+     "role": "weigh",
+     "lines": [
+      "[d:verdict][p:0.95][act:taking stock, calm authority]Let's ^weigh it: what we know, and what we ^don't. [act:firm, plain][tune:level]Established: a real book, on calfskin from the early fourteen hundreds, painted with pigments of its ^time. [act:firm][tune:fall]A modern fake by Voynich? *Ruled ^out*. [act:plain][tune:fall]Already solved, by any reading so far? *Ruled ^out*, too.",
+      "[d:build][act:the first idea, fair][tune:rise]A language invented from pure ^logic? [act:even][tune:fall]*Awaiting ^evidence*: nobody has tied a single prefix or ending to a ^meaning.",
+      "[d:verdict][p:0.95][act:the two big ones, weighing][tune:rise]A real language, ^enciphered? [act:even][tune:rise]Or meaningless text, made by ^hand? [act:the verdict, level-headed][tune:fall]Both: *Open ^question*. [act:fair, warm][tune:level]The words behave like a ^language; [act:same rhythm][tune:level]the letters, like nothing we ^know; [act:plain][tune:fall]and fifteenth-century tools can make text like it either ^way."
+     ],
+     "shots": [
+      {
+       "id": "s48",
+       "say": "Let's weigh it ... Established: a real book, on calfskin from the early fourteen hundreds ... Already solved, by any reading so far? Ruled out, too.",
+       "draw": "A ledger board of four rows, each with a small picture at the left: the book with its gold date band, Voynich's dotted quill, the struck claim cards; each row lights as it is named and its grade chip pops: 'Established', 'Ruled out', 'Ruled out'."
+      },
+      {
+       "id": "s49",
+       "say": "A language invented from pure logic? Awaiting evidence: nobody has tied a single prefix or ending to a meaning.",
+       "draw": "The camera settles on the fourth row (cam z 1.15): the dotted category tree, 'a language built from logic', and its chip 'Awaiting evidence'; under it, small: 'no prefix or ending tied to a meaning'."
+      },
+      {
+       "id": "s50",
+       "say": "A real language, enciphered? Or meaningless text, made by hand? Both: Open question. The words behave like a language; the letters, like nothing we know; and fifteenth-century tools can make text like it either way.",
+       "draw": "A balance, level: on the left pan a padlocked page ('a language, in cipher'), on the right the grille card ('meaningless'), each appearing as named; 'Open question' chips pop under both pans and a large 'Open question' chip over the beam; then the reasons pop: the green word staircase with a tick (left), the short 2.2 bar with a question mark (right), the die and the grille card at the foot ('either way')."
+      }
+     ]
+    },
+    {
+     "role": "test",
+     "lines": [
+      "[d:build][p:0.93][act:practical, clear][tune:rise]What would change our ^minds? [act:the first test][tune:level]A key, or a ^bilingual: the same words in a script we can ^read@present, like a sign at an ^airport. [act:the second test][tune:level]A reading that names the plant beside it, page after page, with no free ^choices. [act:the third test, plain][tune:level]A second book in the same ^script. [act:the fourth test][tune:fall]Or a medieval method that matches all the statistics at ^once: letters, words and ^topics.",
+      "[d:calm][act:looking ahead, warm]And the book keeps giving clues: images released in {2024|twenty twenty-four} show columns of letters in the margin of its first ^page, [act:the detail, delighted][tune:fall]probably Marci's own attempt to ^crack it."
+     ],
+     "shots": [
+      {
+       "id": "s51",
+       "say": "What would change our minds? A key, or a bilingual ... Or a medieval method that matches all the statistics at once: letters, words and topics.",
+       "draw": "Four test boxes in blue (style inferred) fill one by one as named: an airport sign with one line in Voynich and one in Latin letters; a plant page whose label lights in step with the plant across three pages; a second book with the same script; a machine (dice and card) whose output bars match the book's on three meters, 'letters', 'words', 'topics'.",
+       "reuse": "lost-scripts (the bilingual, like a sign at an airport)"
+      },
+      {
+       "id": "s52",
+       "say": "And the book keeps giving clues: images released in 2024 show columns of letters in the margin of its first page, probably Marci's own attempt to crack it.",
+       "draw": "The first page again (cam z 1.3 on its right side): faint coloured scan bands sweep down it (multispectral imaging); in the right margin three faint columns of letters glow in, two in Latin letters and one in Voynich script; a dashed tag 'Marci's key?' points at them; label '2024 images'."
+      }
+     ]
+    },
+    {
+     "role": "close",
+     "lines": [
+      "[d:tension][p:0.93][act:quiet, full of wonder][tune:level]About six hundred years on, its plants are still waiting for a ^reader. [act:hushed, the last words][tune:fall]Weigh it ^yourself."
+     ],
+     "shots": [
+      {
+       "id": "s53",
+       "say": "About six hundred years on, its plants are still waiting for a reader. Weigh it yourself.",
+       "draw": "Night: the open book on a desk by a window full of stars; the lamp glows; the plants on the page glow softly one after another; an empty chair waits; the camera holds as the end card arrives."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "description": "Two hundred and forty pages in an alphabet nobody can read, painted with plants no botanist can name, on calfskin from the early fourteen hundreds. For more than a century, the Voynich manuscript has beaten wartime codebreakers, computers and a parade of claimed solutions.\n\nWe follow the book from seventeenth-century Prague to Yale, count what can be counted in a text nobody can read, and weigh the main ideas: a real language in cipher, a language built from logic, beautiful nonsense, and the solutions that keep making headlines. Verdict: Open question.\n\nChapters\n0:00 Cold open\nmm:ss A letter inside the book\nmm:ss Counting the unreadable\nmm:ss A century of solutions\nmm:ss Beautiful nonsense?\nmm:ss The weighing\n\nSources\nBeinecke Rare Book and Manuscript Library, Yale University, Beinecke MS 408 (digital facsimile)\nHodgins 2011, University of Arizona radiocarbon dating of the Voynich manuscript (news release, February 2011)\nMcCrone Associates 2009, materials analysis of Beinecke MS 408\nBarlow 1986, Cryptologia, doi:10.1080/0161-118691861010\nManly 1931, Speculum, doi:10.2307/2848508\nNewbold 1928, The Cipher of Roger Bacon (University of Pennsylvania Press), doi:10.9783/9781512818239\nFriedman & Friedman 1959, Philological Quarterly 38: 1-20\nD'Imperio 1978, The Voynich Manuscript: An Elegant Enigma (National Security Agency)\nBennett 1976, Scientific and Engineering Problem-Solving with the Computer (Prentice-Hall)\nReddy & Knight 2011, Proceedings of the ACL Workshop on Language Technology for Cultural Heritage (LaTeCH)\nMontemurro & Zanette 2013, PLOS ONE, doi:10.1371/journal.pone.0066344\nDavis 2020, Manuscript Studies, doi:10.1353/mns.2020.0011\nLindemann & Bowern 2020, arXiv:2010.14697\nBowern & Lindemann 2021, Annual Review of Linguistics, doi:10.1146/annurev-linguistics-011619-030613\nRugg 2004, Cryptologia, doi:10.1080/0161-110491892755\nRugg & Taylor 2016, Cryptologia, doi:10.1080/01611194.2016.1206753\nTimm & Schinner 2020, Cryptologia, doi:10.1080/01611194.2019.1596999\nHauer & Kondrak 2016, Transactions of the ACL, doi:10.1162/tacl_a_00084\nGaskell & Bowern 2022 and Bowern & Gaskell 2022, International Conference on the Voynich Manuscript 2022, CEUR Workshop Proceedings 3313\nGreshko 2025, Cryptologia, doi:10.1080/01611194.2025.2566408\nWilkins 1668, An Essay towards a Real Character and a Philosophical Language (Royal Society, London)\nZandbergen, The Voynich MS (voynich.nu): history, radiocarbon dating and text statistics",
+ "sources": [
+  "Beinecke Rare Book and Manuscript Library, Yale University: Beinecke MS 408 (the Voynich manuscript), catalogue record and digital facsimile; with the letter of Johannes Marcus Marci to Athanasius Kircher (1665 or 1666) found inside it",
+  "Clemens, R. (ed.) 2016, The Voynich Manuscript, Yale University Press (facsimile with essays)",
+  "University of Arizona news release, February 2011 (G. Hodgins: four samples about 1 by 6 mm, 1404 to 1438), as reported by Medievalists.net, 2011; Hodgins, G. 2012, presentation at the Voynich centenary, Villa Mondragone",
+  "McCrone Associates 2009, Voynich manuscript materials analysis (pigments consistent with the period), as summarised by Zandbergen, voynich.nu",
+  "Zandbergen, R., The Voynich MS (voynich.nu): pages on the history of the manuscript, the radiocarbon dating, the solvers, and character and word statistics (accessed October 2026)",
+  "Encyclopaedia Britannica, 'Voynich manuscript' (acquired from a Jesuit college near Rome; the Marci letter found inside the book)",
+  "Barlow, M. 1986, The Voynich manuscript: by Voynich?, Cryptologia 10(4): 210-216, doi:10.1080/0161-118691861010",
+  "Newbold, W. R. 1928, The Cipher of Roger Bacon (ed. R. G. Kent), University of Pennsylvania Press, doi:10.9783/9781512818239",
+  "Manly, J. M. 1931, Roger Bacon and the Voynich MS, Speculum 6(3): 345-391, doi:10.2307/2848508",
+  "Friedman, W. F. & Friedman, E. S. 1959, Acrostics, Anagrams, and Chaucer, Philological Quarterly 38: 1-20 (the Voynich anagram footnote)",
+  "Tablet Magazine 2013, 'Cracking the Voynich Code' (the text of Friedman's anagram and of its solution, opened after his death)",
+  "D'Imperio, M. E. 1978, The Voynich Manuscript: An Elegant Enigma, National Security Agency (Friedman's study groups; Currier's findings)",
+  "Currier, P. 1976, Some important new statistical findings, Voynich Manuscript Symposium (in D'Imperio 1978)",
+  "Bennett, W. R. 1976, Scientific and Engineering Problem-Solving with the Computer, Prentice-Hall (character entropy of the Voynich text)",
+  "Reddy, S. & Knight, K. 2011, What we know about the Voynich manuscript, Proceedings of the 5th ACL-HLT Workshop on Language Technology for Cultural Heritage (LaTeCH): 78-86",
+  "Montemurro, M. A. & Zanette, D. H. 2013, Keywords and co-occurrence patterns in the Voynich manuscript: an information-theoretic analysis, PLOS ONE 8(6): e66344, doi:10.1371/journal.pone.0066344",
+  "Davis, L. F. 2020, How many glyphs and how many scribes? Digital paleography and the Voynich manuscript, Manuscript Studies 5(1): 164-180, doi:10.1353/mns.2020.0011",
+  "Lindemann, L. & Bowern, C. 2020, Character entropy in modern and historical texts: comparison metrics for an undeciphered manuscript, arXiv:2010.14697",
+  "Bowern, C. L. & Lindemann, L. 2021, The linguistics of the Voynich manuscript, Annual Review of Linguistics 7: 285-308, doi:10.1146/annurev-linguistics-011619-030613",
+  "Rugg, G. 2004, An elegant hoax? A possible solution to the Voynich manuscript, Cryptologia 28(1): 31-46, doi:10.1080/0161-110491892755",
+  "Rugg, G. 2004, The mystery of the Voynich manuscript, Scientific American 291(1): 104-109, doi:10.1038/scientificamerican0704-104",
+  "Rugg, G. & Taylor, G. 2016, Hoaxing statistical features of the Voynich Manuscript, Cryptologia 41(3): 247-268, doi:10.1080/01611194.2016.1206753",
+  "Schinner, A. 2007, The Voynich manuscript: evidence of the hoax hypothesis, Cryptologia 31(2): 95-107, doi:10.1080/01611190601133539",
+  "Timm, T. & Schinner, A. 2020, A possible generating algorithm of the Voynich manuscript, Cryptologia 44(1): 1-19, doi:10.1080/01611194.2019.1596999",
+  "Hauer, B. & Kondrak, G. 2016, Decoding anagrammed texts written in an unknown language and script, Transactions of the Association for Computational Linguistics 4: 75-86, doi:10.1162/tacl_a_00084",
+  "University of Alberta news, January 2018, 'Using AI to uncover ancient mysteries' (the Hebrew guess, the translated first sentence, Kondrak's comments)",
+  "Gaskell, D. E. & Bowern, C. L. 2022, Gibberish after all? Voynichese is statistically similar to human-produced samples of meaningless text, Proceedings of the International Conference on the Voynich Manuscript 2022, CEUR Workshop Proceedings 3313",
+  "Bowern, C. L. & Gaskell, D. E. 2022, Enciphered after all? Word-level text metrics are compatible with some types of encipherment, same proceedings, CEUR Workshop Proceedings 3313",
+  "Greshko, M. A. 2025, The Naibbe cipher: a substitution cipher that encrypts Latin and Italian as Voynich Manuscript-like ciphertext, Cryptologia, doi:10.1080/01611194.2025.2566408; Newsweek and Schneier on Security reports, December 2025",
+  "The Art Newspaper, 25 September 2024, 'Voynich manuscript scans reveal early decoding attempt' (multispectral images of f1r by the Lazarus Project and RIT, released 2024; L. F. Davis: three columns of letters, probably by Marci)",
+  "Wilkins, J. 1668, An Essay towards a Real Character and a Philosophical Language, Royal Society, London",
+  "Cardano, G. 1550, De subtilitate (the grille)",
+  "The Shorts 'voynich' (12.02), 'lost-scripts' (12.01) and 'unreadable-ledger' (12.07): films/f12.py and films/rewrite/voynich.json, lost-scripts.json, ledgers/unreadable-ledger.json"
+ ],
+ "facts_added": [
+  {
+   "fact": "Wilfrid Voynich, a book dealer, acquired the manuscript in 1911 or 1912 from the Jesuits near Rome, in a discreet sale of part of their holdings.",
+   "source": "Zandbergen, voynich.nu (history); Britannica ('from a Jesuit college near Rome')"
+  },
+  {
+   "fact": "A letter from Johannes Marcus Marci, written in Prague and dated 1665 (or 1666), was found inside the book; Marci sent the book to Athanasius Kircher in Rome, convinced that no one else could read it.",
+   "source": "Britannica; Zandbergen, voynich.nu (the Marci letter); Beinecke MS 408"
+  },
+  {
+   "fact": "Marci reported, from Dr Raphael (Mnishovsky), that Emperor Rudolf II had paid 600 ducats for the book; Marci himself suspended judgement on Roger Bacon as author.",
+   "source": "Marci letter (Beinecke MS 408), as quoted by Zandbergen, voynich.nu"
+  },
+  {
+   "fact": "600 ducats is about 2 kg of gold (a ducat held about 3.5 g of gold).",
+   "source": "Arithmetic on the standard ducat weight; Wikipedia 'Voynich manuscript' note: 600 ducats = 67.5 troy ounces, about 2.10 kg"
+  },
+  {
+   "fact": "The name 'Jacobj a Tepenecz' at the foot of the first page, legible under ultraviolet light: Jacobus Horcicky de Tepenec, whom Rudolf II ennobled and appointed his imperial distiller.",
+   "source": "Zandbergen, voynich.nu (history); Wikipedia 'Voynich manuscript'"
+  },
+  {
+   "fact": "Georg Baresch, a Prague alchemist, wrote to Kircher in April 1639 about the book (having sent him a sample transcription earlier); the letter survives in Kircher's correspondence in Rome.",
+   "source": "Zandbergen, voynich.nu (history)"
+  },
+  {
+   "fact": "After Voynich's death the book passed to Ethel Voynich and Anne Nill; H. P. Kraus bought it in 1961 and gave it to Yale in 1969, where it is Beinecke MS 408.",
+   "source": "Zandbergen, voynich.nu (history); Beinecke Library"
+  },
+  {
+   "fact": "Some suspected Voynich himself of forging the manuscript.",
+   "source": "Barlow 1986, Cryptologia 10(4): 210-216, doi:10.1080/0161-118691861010"
+  },
+  {
+   "fact": "In 2009 the University of Arizona (Greg Hodgins) dated four samples, each about 1 by 6 mm, cut from the edges of four pages; the parchment dates to between 1404 and 1438 (announced 2011). The dating applies to the parchment, not the writing; the inks cannot be dated directly.",
+   "source": "University of Arizona news release 2011 (via Medievalists.net); Zandbergen, voynich.nu (radiocarbon)"
+  },
+  {
+   "fact": "Analysis by McCrone Associates found the paints to be materials expected of the period (azurite blue, red ochre, copper-based green).",
+   "source": "McCrone Associates 2009, via Zandbergen, voynich.nu and Wikipedia 'Voynich manuscript'"
+  },
+  {
+   "fact": "The sections: herbal (about half the pages), astronomical with zodiac roundels, 'balneological' (small nude women in pools joined by tubes), the cosmological fold-out of nine rosettes, pharmaceutical (jars beside plant parts), and recipes (short paragraphs each marked with a star).",
+   "source": "Britannica; Clemens 2016; Wikipedia 'Voynich manuscript' (126 herbal pages of about 240)"
+  },
+  {
+   "fact": "The text has 37,919 word tokens and 8,114 word types.",
+   "source": "Reddy & Knight 2011 (LaTeCH), as cited by Zandbergen, voynich.nu (word statistics)"
+  },
+  {
+   "fact": "Word frequencies follow Zipf's law: the most common word occurs about twice as often as the second, three times as often as the third.",
+   "source": "Montemurro & Zanette 2013, PLOS ONE, doi:10.1371/journal.pone.0066344; Reddy & Knight 2011 (LaTeCH)"
+  },
+  {
+   "fact": "Content words cluster in particular sections, as keywords do in real texts; the authors argue this supports a genuine message and limits the hoax hypothesis.",
+   "source": "Montemurro & Zanette 2013, PLOS ONE, doi:10.1371/journal.pone.0066344"
+  },
+  {
+   "fact": "Prescott Currier (1976) identified two 'languages', A and B, with substantially different common vocabulary: A in the herbal and pharmaceutical sections, B in the balneological section and other parts.",
+   "source": "Currier 1976 in D'Imperio 1978; Bowern & Lindemann 2021, doi:10.1146/annurev-linguistics-011619-030613"
+  },
+  {
+   "fact": "Lisa Fagin Davis (2020) identified five scribes from small differences in letter forms (loops, crossbars, feet), varying between sections but not within them.",
+   "source": "Davis 2020, Manuscript Studies 5(1): 164-180, doi:10.1353/mns.2020.0011"
+  },
+  {
+   "fact": "Second-order character entropy (h2): Voynich about 2.2 bits, against 3.0 to 3.4 for European languages.",
+   "source": "Bennett 1976, as tabulated by Zandbergen, voynich.nu (character statistics)"
+  },
+  {
+   "fact": "Compared with 294 language samples, Voynichese is distinct from every comparison text in character predictability.",
+   "source": "Lindemann & Bowern 2020, arXiv:2010.14697"
+  },
+  {
+   "fact": "Words repeat in runs, the same word two or three times in a row.",
+   "source": "Short 'voynich' (films/rewrite/voynich.json); Bowern & Lindemann 2021"
+  },
+  {
+   "fact": "William Romaine Newbold (University of Pennsylvania) presented his solution in 1921: microscopic shorthand strokes inside each letter; it made Roger Bacon the author, with a microscope and telescope, and read one drawing as the Andromeda nebula with spiral structure.",
+   "source": "Newbold 1928, The Cipher of Roger Bacon; Zandbergen, voynich.nu (solvers)"
+  },
+  {
+   "fact": "John Manly (1931) showed the strokes were cracks in the dried ink on the vellum, and that Newbold's method rearranged letters at will.",
+   "source": "Manly 1931, Speculum 6(3): 345-391, doi:10.2307/2848508"
+  },
+  {
+   "fact": "William Friedman's First Study Group (1944 to 1946) transcribed the text onto IBM punched cards.",
+   "source": "D'Imperio 1978; Zandbergen, voynich.nu (solvers); Reeds 1995, Cryptologia 19(1): 1-23"
+  },
+  {
+   "fact": "Friedman's 1959 footnote anagram ('I put no trust in anagrammatic acrostic cyphers, for they are of little real value, a waste, and may prove nothing. Finis.') was solved, after his death, as 'The Voynich MSS was an early attempt to construct an artificial or universal language of the a priori type. Friedman.'",
+   "source": "Friedman & Friedman 1959, Philological Quarterly 38: 1-20; Tablet Magazine 2013"
+  },
+  {
+   "fact": "Philosophical (a priori) languages such as Wilkins's (1668) postdate the manuscript's parchment by about two centuries; no one has assigned a plausible meaning to any Voynich prefix or suffix.",
+   "source": "Wilkins 1668; Wikipedia 'Voynich manuscript' (constructed language hypothesis)"
+  },
+  {
+   "fact": "Claimed solutions include Hebrew, abbreviated Latin, Old Turkic and a 'proto-Romance' language; none has been accepted by specialists.",
+   "source": "Zandbergen, voynich.nu (solvers); Wikipedia 'Voynich manuscript' (decipherment claims 2014 to 2020)"
+  },
+  {
+   "fact": "Hauer and Kondrak's algorithm (2016) suggested Hebrew written as alphagrams; the first sentence, passed through Google Translate, read 'She made recommendations to the priest, man of the house and me and people'; Kondrak called it a strange sentence to start a manuscript but one that makes sense, and said historians of Hebrew were needed.",
+   "source": "Hauer & Kondrak 2016, TACL 4: 75-86, doi:10.1162/tacl_a_00084; University of Alberta news, January 2018"
+  },
+  {
+   "fact": "Gordon Rugg (2004) produced Voynich-like text with a table of prefixes, middles and suffixes and a Cardan grille; the grille was described around 1550.",
+   "source": "Rugg 2004, Cryptologia 28(1): 31-46, doi:10.1080/0161-110491892755; Rugg 2004, Scientific American 291(1)"
+  },
+  {
+   "fact": "Rugg and Taylor (2016) argued the table-and-grille method reproduces Zipf's law and textual clustering.",
+   "source": "Rugg & Taylor 2016, Cryptologia 41(3): 247-268, doi:10.1080/01611194.2016.1206753"
+  },
+  {
+   "fact": "Timm and Schinner proposed 'self-citation': scribes copying and modifying earlier words; their simulation reproduces many of the text's statistical features.",
+   "source": "Timm & Schinner 2020, Cryptologia 44(1): 1-19, doi:10.1080/01611194.2019.1596999"
+  },
+  {
+   "fact": "In a Yale experiment, 42 volunteers wrote pages of meaningless text; it showed lower information content, lower conditional entropy and more repetition, like the Voynich text, but not its strong bias in where characters sit within words.",
+   "source": "Gaskell & Bowern 2022, CEUR Workshop Proceedings 3313"
+  },
+  {
+   "fact": "Encipherment methods that merge phonemic contrasts can reproduce Voynich-like word-level metrics.",
+   "source": "Bowern & Gaskell 2022, CEUR Workshop Proceedings 3313; Lindemann & Bowern 2020"
+  },
+  {
+   "fact": "Greshko's Naibbe cipher (2025): dice respace Latin or Italian plaintext into single letters and pairs; playing cards pick one of six substitution tables; the output resembles Voynichese; the author says it is almost certainly not how the manuscript was made, and its replication of Voynich B is incomplete.",
+   "source": "Greshko 2025, Cryptologia, doi:10.1080/01611194.2025.2566408; Newsweek, December 2025; Schneier on Security, December 2025"
+  },
+  {
+   "fact": "Multispectral images of the first page (taken 2014 by the Lazarus Project and RIT, released 2024) show three columns of letters in the right margin, two in the Roman alphabet and one in Voynich script, probably by Marci.",
+   "source": "The Art Newspaper, 25 September 2024 (L. F. Davis)"
+  }
+ ],
+ "names": [
+  {
+   "name": "Voynich",
+   "say": "VOY-nitch (in LEX)"
+  },
+  {
+   "name": "Voynichese",
+   "say": "voy-nitch-EEZ (in LEX)"
+  },
+  {
+   "name": "Wilfrid",
+   "say": "WIL-frid"
+  },
+  {
+   "name": "Johannes Marcus Marci",
+   "say": "yo-HAH-nes MAR-kus MAR-tsee"
+  },
+  {
+   "name": "Athanasius Kircher",
+   "say": "ath-uh-NAY-shus KEER-ker"
+  },
+  {
+   "name": "Rudolf",
+   "say": "ROO-dolf"
+  },
+  {
+   "name": "Beinecke",
+   "say": "BYE-neh-kee"
+  },
+  {
+   "name": "Prescott Currier",
+   "say": "PRESS-kot KUR-ee-er"
+  },
+  {
+   "name": "Lisa Fagin Davis",
+   "say": "LEE-suh FAY-gin DAY-vis"
+  },
+  {
+   "name": "William Newbold",
+   "say": "NOO-bold"
+  },
+  {
+   "name": "Roger Bacon",
+   "say": "ROJ-er BAY-kn"
+  },
+  {
+   "name": "John Manly",
+   "say": "MAN-lee"
+  },
+  {
+   "name": "William Friedman",
+   "say": "FREED-mun"
+  },
+  {
+   "name": "Gordon Rugg",
+   "say": "RUG"
+  },
+  {
+   "name": "Torsten Timm",
+   "say": "TOR-sten TIM"
+  },
+  {
+   "name": "Andreas Schinner",
+   "say": "an-DRAY-us SHIN-er"
+  },
+  {
+   "name": "Michael Greshko",
+   "say": "GRESH-ko (in LEX)"
+  },
+  {
+   "name": "Jesuits",
+   "say": "JEZ-yoo-its"
+  },
+  {
+   "name": "ducats",
+   "say": "DUCK-its"
+  },
+  {
+   "name": "palaeographer",
+   "say": "pay-lee-OG-ruh-fer"
+  },
+  {
+   "name": "cryptanalysts",
+   "say": "kript-AN-uh-lists"
+  },
+  {
+   "name": "anagrammatic",
+   "say": "an-uh-gruh-MAT-ik"
+  },
+  {
+   "name": "acrostic",
+   "say": "uh-KROSS-tik"
+  },
+  {
+   "name": "cyphers",
+   "say": "SY-ferz (an old spelling of ciphers)"
+  }
+ ],
+ "end_line": "About six hundred years on, its plants are still waiting for a reader.",
+ "words": 1489
+}
