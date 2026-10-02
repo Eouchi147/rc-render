@@ -1,0 +1,791 @@
+{
+ "id": "lf-first-americans",
+ "kind": "theme",
+ "series": "Before Us",
+ "title": "The First Americans",
+ "intro_title": "The First Americans",
+ "yt_title": "Ice Age Footprints: When Did People Reach the Americas?",
+ "verdict": "Strong evidence",
+ "hook": "When did people first reach the Americas?",
+ "chapters": [
+  {
+   "title": "Cold open",
+   "beats": [
+    {
+     "role": "hook",
+     "lines": [
+      "[d:intrigue][sfx:boom][act:hushed, setting the scene][tune:level]Small bare ^footprints, pressed into the mud of a lake that vanished long ^ago. [act:tender, a picture][tune:fall]Many were made by ^teenagers and ^children, in New ^Mexico. [p:0.93][act:wonder, slower][tune:fall]In the depths of the last Ice ^Age.",
+      "[d:tension][act:the child's question, leaning in][tune:rise]So when did people first reach the ^Americas? [act:a small smile][tune:level]For much of the twentieth century, the textbooks had a neat ^answer: [tune:fall]about thirteen thousand years ^ago. [act:lightly, the twist][tune:fall]These footprints are at least eight thousand years ^older."
+     ],
+     "shots": [
+      {
+       "id": "s1",
+       "say": "Small bare footprints, pressed into the mud of a lake that vanished long ago. Many were made by teenagers and children, in New Mexico.",
+       "draw": "The hero image, complete within the first second: pale lake mud seen from above in low evening light, fine mud cracks, and two trails of bare human footprints crossing the frame diagonally, lower left to upper right (clear of the hook title, top left): a teenager's prints (about 150 units long) and, beside them, a child's (about 110 units). Each print is drawn so it reads at a glance: heel, arch, ball, five toes, a dark inner shadow on the side away from the light and a pale raised rim of squeezed mud on the lit side. The prints press in one after another along the trails (0.1 to 1.2 s). On 'teenagers and children' two small labels: 'teenager' and 'child'; after the hook title clears, 'White Sands, New Mexico' bottom right.",
+       "reuse": "first-americans shot 0 (the footprints on White Sands), redrawn wide and close"
+      },
+      {
+       "id": "s2",
+       "say": "In the depths of the last Ice Age.",
+       "draw": "Dusk on an Ice Age lake shore: snow-capped mountains on the far side, the long grey-blue lake, a cold sky with the first stars. A teenager and a child walk along the wet shore, leaving a line of small prints; far off at the water's edge, the silhouettes of three mammoths (their tracks are known from the same lake basin). Label 'the last Ice Age'."
+      },
+      {
+       "id": "s3",
+       "say": "So when did people first reach the Americas?",
+       "draw": "The Americas on a dark globe (orthographic, centred on the Americas): oceans deep blue, land in warm brown with a pale rim; Asia's tip at the top left across the Bering Strait. A gold dot glows at White Sands; a large lilac question mark rises over the two continents."
+      },
+      {
+       "id": "s4",
+       "say": "For much of the twentieth century, the textbooks had a neat answer: about thirteen thousand years ago. These footprints are at least eight thousand years older.",
+       "draw": "A time axis in years ago, 25,000 to 10,000, older to the left. On 'textbooks', an open book pops at 13,000 with a gold tick under it ('the textbook date'). On 'these footprints', a gold band 23,000 to 21,000 with a small footprint icon rises above the axis; a bracket from 21,000 to 13,000 draws itself, labelled 'at least 8,000 years'."
+      }
+     ]
+    },
+    {
+     "role": "title",
+     "lines": [
+      "[d:calm][act:warm, setting out]The first ^Americans: [act:the promise, a small smile][tune:fall]how a wall of dates fell, and what still ^stands."
+     ],
+     "shots": [
+      {
+       "id": "s5",
+       "say": "The first Americans: how a wall of dates fell, and what still stands.",
+       "draw": "The intro title card 'The First Americans' over the dimmed timeline panel of s4 (no new panel). Only the title is said here."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The Clovis wall",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:storytelling, unhurried]The story starts near a railway town in New ^Mexico. [act:the find, vivid]In the {1930s|nineteen thirties}, beside the bones of ^mammoths, diggers found stone spear points of a striking ^kind. [p:0.93][act:explaining, a picture]Each one is ^fluted: a long groove chipped up the middle of each face, to seat it on a ^shaft. [act:naming them][tune:fall]After the town, they're called Clovis ^points.",
+      "[d:build][act:widening out]Points like these turned up right across North ^America. [p:0.93][act:the method, an everyday picture]To date them, archaeologists measure radioactive carbon in the bones and charcoal beside them: it fades after death at a steady pace, like a candle burning ^down. [act:the payoff][tune:fall]See what's left, and you know how long it's been ^burning. [p:0.9][act:the number, clear][tune:fall]The answer, again and again: about thirteen thousand years ^ago."
+     ],
+     "shots": [
+      {
+       "id": "s6",
+       "say": "In the 1930s, beside the bones of mammoths, diggers found stone spear points of a striking kind.",
+       "draw": "A dig in cross-section at a dry lake bed near Clovis (Blackwater Draw): sandy layers under a dusk sky, two diggers with a trowel and a sieve at the trench edge; in the grey bone bed below, a mammoth tusk, jaw and ribs appear, then three small stone points glint among them (pale stone, gold glow). Labels: '1930s', 'mammoth bones', 'spear points'."
+      },
+      {
+       "id": "s7",
+       "say": "Each one is fluted: a long groove chipped up the middle of each face, to seat it on a shaft. After the town, they're called Clovis points.",
+       "draw": "One Clovis point, large and centred on a dark ground: a leaf-shaped point with a concave base, chipped flake scars across both faces; the flute, a channel from the base about a third of the way up, draws itself and glows; a wooden shaft slides up into the flute and sinew binding wraps round it. Labels 'flute', 'shaft', then 'Clovis point'.",
+       "reuse": "first-americans_m shot 1 (the fluted point and its shaft), redrawn wide"
+      },
+      {
+       "id": "s8",
+       "say": "Points like these turned up right across North America.",
+       "draw": "A map of North America (Natural Earth outline): about fifty small fluted-point icons pop one after another from the southern plains outward, across the United States and into southern Canada and northern Mexico. Label 'Clovis points' and a pin at Clovis, New Mexico."
+      },
+      {
+       "id": "s9",
+       "say": "To date them, archaeologists measure radioactive carbon in the bones and charcoal beside them: it fades after death at a steady pace, like a candle burning down. See what's left, and you know how long it's been burning.",
+       "draw": "Left: a mammoth bone and a lump of charcoal, each with a few blue carbon-14 dots, an arrow to the right. Right: four candles, tall to short, each lit, with 16, 8, 4 and 2 blue dots above them (half gone at each step), an arrow under them 'time since death'; a bracket on the shortest candle, 'what's left tells the time'.",
+       "reuse": "voynich_m dating scene (the candles), redrawn"
+      },
+      {
+       "id": "s10",
+       "say": "The answer, again and again: about thirteen thousand years ago.",
+       "draw": "A short time axis, 15,000 to 11,000 years ago: twenty date ticks drop one after another and stack into a tight gold pile between 13,050 and 12,750 (Waters et al. 2020: a span of about three centuries), labelled 'about 13,000 years ago'."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:laying out the model, fair]So a neat story ^formed. [act:explaining, vivid]In the Ice Age, the sea stood so low that Asia and Alaska were joined by land: ^Beringia. [act:the route, a picture]When the ice over Canada parted, big-game hunters walked south through the ^gap, [act:the payoff][tune:fall]and swept all the way to the tip of South ^America. [act:naming it, crisp][tune:fall]Clovis ^first. [act:fair, admiring][tune:fall]It fitted the ice, the points and the ^dates."
+     ],
+     "shots": [
+      {
+       "id": "s11",
+       "say": "So a neat story formed. In the Ice Age, the sea stood so low that Asia and Alaska were joined by land: Beringia.",
+       "draw": "A map of the North Pacific rim from Siberia to Alaska: the modern coastline, then the Ice Age land bridge rises as a broad tan shape between them (dashed edge, inferred) labelled 'Beringia'; labels 'Asia' and 'Alaska'; a small note '120 m lower sea'.",
+       "reuse": "first-americans shot 5 (the Beringia shape), redrawn wide"
+      },
+      {
+       "id": "s12",
+       "say": "When the ice over Canada parted, big-game hunters walked south through the gap, and swept all the way to the tip of South America. Clovis first. It fitted the ice, the points and the dates.",
+       "draw": "The Americas, with two ice sheets over Canada drawn apart (white, a gap between them); a dotted lilac arrow (the claim) runs from Beringia down the gap and on, all the way to the tip of South America; a chip 'Clovis first'; then three small ticks pop beside it: 'ice', 'points', 'dates'."
+      }
+     ]
+    },
+    {
+     "role": "cost",
+     "lines": [
+      "[d:build][act:fair, why it held]And it held for decades, for good ^reasons. [act:explaining, clear]An older site had to pass three ^tests: real tools or human bones, in undisturbed ^layers, with sound ^dates. [p:0.93][act:the record, wry]Claim after claim ^failed: rocks broken by nature, layers churned by roots, dates on the wrong ^material. [act:the image, light][tune:fall]Thirteen thousand years became a kind of ^wall: older dates bounced right off ^it."
+     ],
+     "shots": [
+      {
+       "id": "s13",
+       "say": "And it held for decades, for good reasons. An older site had to pass three tests: real tools or human bones, in undisturbed layers, with sound dates.",
+       "draw": "Three test cards side by side draw themselves as each test is named: 1, a stone tool beside a bone ('real tools or bones'); 2, a neat stack of flat layers ('undisturbed layers'); 3, a small candle clock ('sound dates')."
+      },
+      {
+       "id": "s14",
+       "say": "Claim after claim failed: rocks broken by nature, layers churned by roots, dates on the wrong material.",
+       "draw": "The same three cards: under each, the way claims failed pops in with a red cross: a rock split by frost ('broken by nature'); layers churned by roots and a burrow ('churned'); a date tag pinned on an old drifted log ('the wrong material')."
+      },
+      {
+       "id": "s15",
+       "say": "Thirteen thousand years became a kind of wall: older dates bounced right off it.",
+       "draw": "A time axis (25,000 to 10,000 years ago, older to the left) and a brick wall rising at 13,000, labelled '13,000'; three grey dots for older claimed dates fly in from the left, hit the wall and bounce back along red dotted arcs.",
+       "reuse": "first-americans_m shot 2 (the wall at 13,000 years), redrawn wide"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "A camp in Chile",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:storytelling, admiring]Then came a camp in the far south of the ^Americas. [act:placing it]Monte ^Verde, by a creek in southern ^Chile. [act:the find]In {1977|nineteen seventy-seven}, the American archaeologist Tom ^Dillehay began digging there with Chilean ^colleagues. [p:0.93][act:explaining, a picture]A peat bog had sealed the camp like food in a ^jar: no air, so little had ^rotted.",
+      "[d:list][act:listing, delighted][tune:level]The wooden frames of ^huts. [act:same rhythm][tune:level]^Hearths. [act:same rhythm][tune:level]Meat and hide from ^mastodons. [act:same rhythm][tune:level]Wild ^potatoes. [act:the last one, landing][tune:fall]And chewed ^seaweed, carried in from the ^sea. [p:0.9][act:the number, slow]Its age: about fourteen and a half thousand ^years. [act:the puzzle, clear][tune:fall]Older than Clovis, and a whole continent further ^south."
+     ],
+     "shots": [
+      {
+       "id": "s16",
+       "say": "Monte Verde, by a creek in southern Chile.",
+       "draw": "A map of South America with the Pacific coast: a gold pin 'Monte Verde' in southern Chile, a small inset of a winding creek beside it ('Chinchihuapi Creek' as a short label 'a creek')."
+      },
+      {
+       "id": "s17",
+       "say": "In 1977, the American archaeologist Tom Dillehay began digging there with Chilean colleagues. A peat bog had sealed the camp like food in a jar: no air, so little had rotted.",
+       "draw": "A creek bank in cross-section under southern beech trees: a dark peat layer lies over the camp layer like a lid; diggers kneel at the cut ('1977'); blue air dots fall on the peat and stop at its surface; inside the camp layer, wooden stakes and plant remains glow intact. On 'like food in a jar', a small sealed jar outline draws beside the peat. Labels 'peat', 'the camp'."
+      },
+      {
+       "id": "s18",
+       "say": "The wooden frames of huts. Hearths. Meat and hide from mastodons. Wild potatoes. And chewed seaweed, carried in from the sea.",
+       "draw": "The camp rebuilt as a schematic plan-and-elevation: a long frame of wooden poles and stakes (solid, the wood found) under a dashed hide roof (inferred); hearths glowing; a slab of gomphothere meat and hide; a handful of small wild potatoes; green seaweed quids. Each pops in as it is named, with a short label: 'huts', 'hearths', 'mastodon meat', 'wild potatoes', 'seaweed'."
+      },
+      {
+       "id": "s19",
+       "say": "Its age: about fourteen and a half thousand years. Older than Clovis, and a whole continent further south.",
+       "draw": "Back on the map of s16, wider: a pin at Clovis (New Mexico) with '13,000', the Monte Verde pin with '14,500' in gold; a long thin gold line draws from Clovis down to Monte Verde, 'a whole continent'."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:wry, a small smile]Most experts didn't believe ^it. [act:storytelling, admiring persistence]For twenty years, Dillehay defended the ^site.",
+      "[d:reveal][sfx:hit][act:building, a touch of suspense][tune:level]Then, in {1997|nineteen ninety-seven}, a group of experts, sceptics among them, came to see the site and its ^finds... [act:the payoff, warm][tune:fall]and ^agreed. [act:a small smile][tune:fall]The wall had its first ^crack."
+     ],
+     "shots": [
+      {
+       "id": "s20",
+       "say": "Most experts didn't believe it. For twenty years, Dillehay defended the site.",
+       "draw": "One figure with a box of finds (a wooden stake, a stone tool) on the left; facing him, a row of nine figures, a small lilac question mark over each; between them a bar '1977' to '1997' draws itself, report pages stacking beside the lone figure."
+      },
+      {
+       "id": "s21",
+       "say": "Then, in 1997, a group of experts, sceptics among them, came to see the site and its finds... and agreed.",
+       "draw": "Same panel: the nine figures stand round the finds table ('1997'); on 'agreed', the question marks give way to green ticks, one after another."
+      },
+      {
+       "id": "s22",
+       "say": "The wall had its first crack.",
+       "draw": "The wall of s15 again, on its axis: a gold dot at 14,500 ('Monte Verde') sits beyond it on the older side, and a white crack runs down the wall from top to bottom with a flash of light.",
+       "reuse": "first-americans_m (the first crack in the wall)"
+      }
+     ]
+    },
+    {
+     "role": "cost",
+     "lines": [
+      "[d:build][act:picking up pace]More cracks ^followed. [act:the first, vivid]In Oregon's Paisley ^Caves: dried human dung, more than fourteen thousand years ^old. [act:a dry aside][tune:fall]Not glamorous, but its DNA and its chemistry both say ^human. [act:the second]In Idaho, at Cooper's ^Ferry: a hearth, pits and stone tools, about sixteen thousand years ^old."
+     ],
+     "shots": [
+      {
+       "id": "s23",
+       "say": "More cracks followed. In Oregon's Paisley Caves: dried human dung, more than fourteen thousand years old. Not glamorous, but its DNA and its chemistry both say human.",
+       "draw": "A rock shelter in a basalt cliff above an old lake basin ('Paisley Caves, Oregon'); in its floor layers a small brown coprolite glows, tagged 'over 14,000 years'; on 'DNA' a short double helix draws beside it with a green tick, on 'chemistry' a lab flask with a green tick."
+      },
+      {
+       "id": "s24",
+       "say": "In Idaho, at Cooper's Ferry: a hearth, pits and stone tools, about sixteen thousand years old.",
+       "draw": "A river terrace in a canyon (the lower Salmon River) cut by a trench: in its lowest layer a hearth (glow), two pits (dark bowls), stone tools and a stemmed point pop in as named; label 'Cooper's Ferry, Idaho' and 'about 16,000 years'; a small note 'Nez Perce village of Nipéhe'."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:the twist, leaning in]Then, in {2026|twenty twenty-six}, Monte Verde itself was back in ^court. [p:0.93][act:explaining, fair]A team led by the archaeologist Todd ^Surovell studied the creek's layers ^nearby. [act:their claim, clear]They argue the camp lies on ground laid down after the Ice Age, less than about eight thousand years ^ago, [act:their point][tune:fall]and that its old dates come from Ice Age wood, washed in by the ^creek. [p:0.93][act:the house rule, firm]A date dates the ^sample, not the ^site.",
+      "[d:aside][act:the reply, fair]The excavators answer that the new team never dug at the camp ^itself, [act:the evidence][tune:fall]and that seaweed chewed on its floor dates to about fourteen thousand two hundred ^years. [act:landing it, even][tune:fall]The jury is out ^again. [act:the point, calm][tune:fall]But the wall doesn't stand back ^up: Oregon and Idaho are still older than ^Clovis."
+     ],
+     "shots": [
+      {
+       "id": "s25",
+       "say": "Then, in 2026, Monte Verde itself was back in court. A team led by the archaeologist Todd Surovell studied the creek's layers nearby.",
+       "draw": "A schematic cross-section of the creek valley: stepped terraces of sand and gravel, the creek at the bottom, the camp marked as a small gold patch on one terrace; '2026'; two small figures sample a cut bank some distance away, a dashed outline round their exposure."
+      },
+      {
+       "id": "s26",
+       "say": "They argue the camp lies on ground laid down after the Ice Age, less than about eight thousand years ago, and that its old dates come from Ice Age wood, washed in by the creek.",
+       "draw": "Same section, all in the dotted 'claimed' style: a volcanic ash line drawn under the camp's ground ('ash, about 11,000 years'), the ground tagged 'under 8,000 years?', and three old logs carried by the creek (blue arrows) into the younger sediment, tagged 'Ice Age wood'."
+      },
+      {
+       "id": "s27",
+       "say": "A date dates the sample, not the site.",
+       "draw": "The rule as a picture: a new stone wall with an old timber beam set into it; a date tag on the beam reads 'old', a tag on the wall reads 'new'; an arrow 'what was dated' points at the beam."
+      },
+      {
+       "id": "s28",
+       "say": "The excavators answer that the new team never dug at the camp itself, and that seaweed chewed on its floor dates to about fourteen thousand two hundred years.",
+       "draw": "Back on the creek section: a dimension line between the sampling cut and the camp, 'sampled elsewhere'; on the camp floor a green seaweed quid pops with a green tick and the tag '14,200 years'."
+      },
+      {
+       "id": "s29",
+       "say": "The jury is out again. But the wall doesn't stand back up: Oregon and Idaho are still older than Clovis.",
+       "draw": "The cracked wall of s22: the Monte Verde dot turns into a lilac question mark ('open again'), while two more gold dots light up on the older side, 'Paisley Caves' (just over 14,000) and 'Cooper's Ferry' (about 16,000), the crack still there."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Footprints in the mud",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:painting it, slow]Now back to New Mexico, and the white dunes of White ^Sands. [p:0.93][act:explaining, a picture]In the Ice Age, this basin held a great lake, Lake ^Otero. [act:the change]When it dried, the wind@air scoured its bed into the largest field of gypsum dunes on ^Earth.",
+      "[d:build][act:the find, tender]In the old lake mud, researchers mapped sixty-one human ^footprints, layer upon ^layer. [act:tender, a picture][tune:fall]Teenagers and children, mostly; adult prints are ^rarer. [p:0.93][act:explaining, the method]The prints are sealed between layers of mud, like flowers pressed between the pages of a ^book: [act:the payoff]date the pages above and below, and the prints are trapped in ^between.",
+      "[d:list][act:the first clock]The first dates came from seeds of a water plant, ditch ^grass. [p:0.9][act:the number, slow and clear][tune:fall]About twenty-three to twenty-one thousand years ^old."
+     ],
+     "shots": [
+      {
+       "id": "s30",
+       "say": "In the Ice Age, this basin held a great lake, Lake Otero. When it dried, the wind scoured its bed into the largest field of gypsum dunes on Earth.",
+       "draw": "A wide basin between two mountain ranges: a blue lake fills it ('Lake Otero', 'Ice Age'); then white dunes rise across the floor, wave after wave, and cover the old lake bed ('gypsum dunes', 'today')."
+      },
+      {
+       "id": "s31",
+       "say": "In the old lake mud, researchers mapped sixty-one human footprints, layer upon layer. Teenagers and children, mostly; adult prints are rarer.",
+       "draw": "Left: a trench wall of thin mud layers with small footprint dips on several surfaces, a researcher kneeling at the top. Right: sixty-one small footprint icons pop in rows of ten, '61 footprints'; then a teenager and a child figure rise beside them, a taller adult figure dimmed behind."
+      },
+      {
+       "id": "s32",
+       "say": "The prints are sealed between layers of mud, like flowers pressed between the pages of a book: date the pages above and below, and the prints are trapped in between.",
+       "draw": "An open book seen edge-on: a pressed flower lies between two pages; the pages become layers of mud, the flower becomes a footprint; arrows: 'date above' (younger) and 'date below' (older), the print caught between.",
+       "reuse": "first-americans_m shot 4 (the prints pressed between layers, dated above and below), redrawn"
+      },
+      {
+       "id": "s33",
+       "say": "The first dates came from seeds of a water plant, ditch grass. About twenty-three to twenty-one thousand years old.",
+       "draw": "Same panel: a sprig of ditch grass with tiny seeds draws itself at the side; seed dots pop in the layers above and below the print; date tags '21,000' above and '23,000' below; a gold band 'about 23,000 to 21,000 years' glows across."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:tension][act:the doubt, fair]Critics spotted a ^snag. [p:0.93][act:explaining, clear]Water plants take their carbon from the ^water, and groundwater can carry old carbon from ancient ^rock. [act:the analogy, light][tune:fall]It's like lighting a candle that's already half ^burnt: it looks older than it ^is. [act:their test, vivid]They dated ditch grass collected from a nearby spring in {1947|nineteen forty-seven}. [p:0.9][act:the punchline, dry][tune:fall]It came out about seven thousand four hundred years ^old."
+     ],
+     "shots": [
+      {
+       "id": "s34",
+       "say": "Critics spotted a snag. Water plants take their carbon from the water, and groundwater can carry old carbon from ancient rock.",
+       "draw": "A cut-away of the lake edge: a ditch grass plant under water, grey 'old carbon' dots carried by blue groundwater arrows up from grey layers of ancient rock and into the plant; above the water, gold air dots stay out of reach. Labels 'old carbon', 'ancient rock'."
+      },
+      {
+       "id": "s35",
+       "say": "It's like lighting a candle that's already half burnt: it looks older than it is.",
+       "draw": "Two candles lit at the same moment: a fresh tall one, and one that starts already half burnt (its missing half dashed); a tag on the short one, 'looks older'."
+      },
+      {
+       "id": "s36",
+       "say": "They dated ditch grass collected from a nearby spring in 1947. It came out about seven thousand four hundred years old.",
+       "draw": "A herbarium sheet with a pressed sprig of ditch grass and its label '1947, nearby spring'; a radiocarbon reading prints beside it: 'about 7,400 years' in red, with a small calendar '1947' for scale."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:the answer, building]So in {2023|twenty twenty-three}, the team brought in clocks the water can't ^fool. [p:0.93][act:explaining, a picture]Pollen from pine, spruce and ^fir: trees on land, breathing the ^air. [act:the effort, amazed]About seventy-five thousand grains, picked out for every ^date. [act:the second clock]And the quartz grains in the ^mud. [p:0.93][act:the analogy, clear]Sunlight drains them flat, like a ^battery; once buried, they slowly ^recharge, [act:the payoff][tune:fall]and the charge tells how long they've lain in the ^dark.",
+      "[d:reveal][sfx:hit][act:the result, firm][tune:fall]Both agreed with the ^seeds. [act:one more][tune:level]In {2025|twenty twenty-five}, a separate@adj team dated the lake mud ^itself: [tune:fall]the same ^answer. [act:fair, the holdouts]Some experts still ^doubt: pollen can wash in from older soils, and quartz may not be fully ^reset. [act:the landing, even][tune:fall]But seeds, pollen, mud and quartz now tell one ^story."
+     ],
+     "shots": [
+      {
+       "id": "s37",
+       "say": "So in 2023, the team brought in clocks the water can't fool. Pollen from pine, spruce and fir: trees on land, breathing the air.",
+       "draw": "Conifers (pine, spruce, fir) on the mountain slopes above the lake ('2023'); gold air dots flow into their needles; yellow pollen drifts down from them onto the lake and settles in the mud. Labels 'pine, spruce, fir', 'air'."
+      },
+      {
+       "id": "s38",
+       "say": "About seventy-five thousand grains, picked out for every date.",
+       "draw": "Under a microscope circle, three pine pollen grains with their two air sacs; beside it a block of 750 tiny gold dots fills row by row (each dot is 100 grains): 'about 75,000 grains per date'."
+      },
+      {
+       "id": "s39",
+       "say": "And the quartz grains in the mud. Sunlight drains them flat, like a battery; once buried, they slowly recharge, and the charge tells how long they've lain in the dark.",
+       "draw": "A quartz grain with a battery gauge: in sunshine on the surface its gauge drains to empty; then layers of mud bury it and the gauge slowly fills in the dark; label 'the charge tells the time'.",
+       "reuse": "dating-methods (luminescence as a battery that recharges in the dark)"
+      },
+      {
+       "id": "s40",
+       "say": "Both agreed with the seeds. In 2025, a separate team dated the lake mud itself: the same answer.",
+       "draw": "A time axis 25,000 to 19,000 years ago: four bars build one after another: 'seeds' (23,000 to 21,000, gold), 'pollen' (about 23,400 to 22,600, green), 'quartz' (at least 21,500, an arrow pointing older, blue), and, tagged '2025', 'mud' (22,400 to 20,700, brown)."
+      },
+      {
+       "id": "s41",
+       "say": "Some experts still doubt: pollen can wash in from older soils, and quartz may not be fully reset. But seeds, pollen, mud and quartz now tell one story.",
+       "draw": "Same chart: two lilac dotted caveat tags pop by the pollen bar ('washed in?') and the quartz bar ('not reset?'); then a soft gold column lights the overlap of all four bars, 'one story'."
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:build][act:pushing further, curious][tune:rise]And older ^still? [act:the claim, fair]In Chiquihuite ^Cave, high in the mountains of Mexico, a team reported nearly two thousand stone ^pieces, in layers going back perhaps thirty thousand ^years. [act:the doubt, even][tune:fall]Critics say the cave's own limestone breaks just like ^that. [act:the boldest claim, fair]And near San ^Diego, broken mastodon bones and battered cobbles have been claimed as the work of people a hundred and thirty thousand years ^ago. [act:dry][tune:fall]Most specialists are not ^convinced."
+     ],
+     "shots": [
+      {
+       "id": "s42",
+       "say": "And older still? In Chiquihuite Cave, high in the mountains of Mexico, a team reported nearly two thousand stone pieces, in layers going back perhaps thirty thousand years. Critics say the cave's own limestone breaks just like that.",
+       "draw": "A limestone mountain with a cave mouth high on its flank ('Chiquihuite Cave, Mexico'); cut away, the cave floor in layers with many small stone chips (dotted 'claimed'), tagged 'nearly 2,000 stones' and 'about 30,000 years?'; then chips fall from the cave roof onto the floor (red dotted arrows), 'the cave's own rock?'."
+      },
+      {
+       "id": "s43",
+       "say": "And near San Diego, broken mastodon bones and battered cobbles have been claimed as the work of people a hundred and thirty thousand years ago. Most specialists are not convinced.",
+       "draw": "Broken mastodon limb bones and three rounded cobbles on a dark ground, drawn in the dotted 'claimed' style, tagged 'San Diego' and '130,000 years?'; below, a long time axis to 140,000 years where the claim sits far to the left of the White Sands band at 23,000; a row of small figures, most with lilac question marks."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Which road?",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:reveal][act:leaning in, painting it]Picture North America twenty-two thousand years ^ago. [p:0.93][act:a picture, slower]Two great ice sheets cover almost all of ^Canada, like a lid over half a ^continent. [act:the reveal, slower][tune:fall]And the walkers of White Sands are already ^south of it. [act:the puzzle][tune:rise]So which way did they ^come?"
+     ],
+     "shots": [
+      {
+       "id": "s44",
+       "say": "Two great ice sheets cover almost all of Canada, like a lid over half a continent. And the walkers of White Sands are already south of it. So which way did they come?",
+       "draw": "North America at the height of the Ice Age: the Laurentide and Cordilleran ice sheets spread white over Canada and meet; Beringia joins Alaska to Asia; a gold pin at White Sands with three small walkers south of the ice; a lilac question mark between Beringia and New Mexico. Labels 'ice sheets', 'Beringia', 'White Sands'.",
+       "reuse": "first-americans shot 5 (the ice sheets c. 21,000 years ago, Beringia), redrawn wide"
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:the old answer, explaining]The old answer was ^inland: a gap between the two ice sheets, the ice-free ^corridor. [p:0.93][act:the problem, plain]But the sheets met at the height of the cold, and dating of the rocks shows the gap didn't fully reopen until about thirteen thousand eight hundred years ^ago. [act:one more]It took more than a thousand years more to grow grass and game to live@verb ^on. [act:landing it][tune:fall]Too late for Cooper's ^Ferry."
+     ],
+     "shots": [
+      {
+       "id": "s45",
+       "say": "The old answer was inland: a gap between the two ice sheets, the ice-free corridor. But the sheets met at the height of the cold, and dating of the rocks shows the gap didn't fully reopen until about thirteen thousand eight hundred years ago.",
+       "draw": "The camera moves in on the seam between the two ice sheets: the line of the corridor draws itself as a dashed amber path, then a white weld closes it ('closed'); a boulder on the old ice edge glows with a small clock tag, 'open again: 13,800'."
+      },
+      {
+       "id": "s46",
+       "say": "It took more than a thousand years more to grow grass and game to live on. Too late for Cooper's Ferry.",
+       "draw": "A time axis 18,000 to 12,000 years ago: a blue tick at 13,800 ('corridor opens'), a green tick at 12,600 ('grass and game'), a bison icon there; then Cooper's Ferry's gold mark at about 16,000 on the older side and a red bracket 'too late' between them."
+      }
+     ]
+    },
+    {
+     "role": "cost",
+     "lines": [
+      "[d:build][act:the other road, vivid]The other road is the ^coast. [act:the evidence]By about seventeen thousand years ago, islands off Alaska were free of ^ice, [act:a detail, delighted][tune:fall]and seal bones of about that age show food was ^waiting. [p:0.93][act:explaining, a picture]Along the North Pacific grow forests of ^kelp, full of fish, shellfish, seals and ^seabirds: [act:the name, a smile][tune:fall]a kelp ^highway, for people with ^boats. [act:a clue, intrigued]And the stone points of Cooper's Ferry look much like ones made in ^Japan, around the same ^time."
+     ],
+     "shots": [
+      {
+       "id": "s47",
+       "say": "The other road is the coast. By about seventeen thousand years ago, islands off Alaska were free of ice, and seal bones of about that age show food was waiting.",
+       "draw": "A coastal map of southeast Alaska and British Columbia: the Cordilleran ice front (dashed white) pulls back from a string of islands, which turn green, 'ice-free by about 17,000 years ago'; a cave pin on one island and a small seal icon, 'seal bones'; a dotted coastal route runs south past them."
+      },
+      {
+       "id": "s48",
+       "say": "Along the North Pacific grow forests of kelp, full of fish, shellfish, seals and seabirds: a kelp highway, for people with boats.",
+       "draw": "Under water and above: tall kelp fronds rise from a rocky sea floor and sway; fish, shellfish on the rocks, a seal and seabirds appear in turn; a small skin boat with two paddlers glides along the surface above the forest. Labels 'kelp forest', 'a kelp highway'."
+      },
+      {
+       "id": "s49",
+       "say": "And the stone points of Cooper's Ferry look much like ones made in Japan, around the same time.",
+       "draw": "A map of the North Pacific from Japan to Idaho (longitudes shifted so the ocean is whole): a dotted coastal arc from Japan round by Alaska down to the Columbia River and Idaho; at each end a stemmed stone point draws itself, 'Japan' and 'Cooper's Ferry', with a small '≈' between them."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:tension][act:the catch, honest]The catch: in the Ice Age, the sea stood up to about a hundred and twenty metres ^lower, [act:the consequence][tune:fall]so any camps on that old shore now lie ^underwater. [act:dry, a small smile][tune:fall]The first chapter of this story may need ^divers. [act:the two answers, even][tune:level]So the first people came down the ^coast, [tune:fall]or walked inland before the ice closed the ^way."
+     ],
+     "shots": [
+      {
+       "id": "s50",
+       "say": "The catch: in the Ice Age, the sea stood up to about a hundred and twenty metres lower, so any camps on that old shore now lie underwater. The first chapter of this story may need divers.",
+       "draw": "A coastal cross-section: today's sea level line and, 120 m below it on the drowned slope, the Ice Age shoreline with a small camp (a hide shelter, a hearth); a dimension '120 m'; the water fills down over the old shore; a diver with a lamp swims down towards the camp."
+      },
+      {
+       "id": "s51",
+       "say": "So the first people came down the coast, or walked inland before the ice closed the way.",
+       "draw": "Back on the Ice Age map of s44: two dotted routes draw themselves to White Sands, one down the Pacific coast (blue, 'coast') and one inland (amber, 'inland, before the ice closed')."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "What the genes say",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:the second witness, intrigued]Then there's a second witness: ancient ^DNA. [p:0.93][act:explaining, a picture]Your DNA is a family recipe book, copied down the generations with small ^changes: [act:the payoff][tune:fall]count the differences, and you can tell when two families ^parted."
+     ],
+     "shots": [
+      {
+       "id": "s52",
+       "say": "Your DNA is a family recipe book, copied down the generations with small changes: count the differences, and you can tell when two families parted.",
+       "draw": "A family of small recipe books copied left to right; at one copy the line forks into two branches; along each branch every new copy gains one small red mark; at the far right the marks are counted ('count the differences') and a bracket back to the fork reads 'when they parted'."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:calm][act:tender, careful]One genome comes from a baby girl, buried about eleven and a half thousand years ago in ^Alaska; the local Native community named her Sunrise ^Child-girl. [act:the story, clear][tune:level]With others, it tells a ^story. [p:0.93][act:the first step]The ancestors of Native Americans branched off from East Asian ^peoples, and mixed with Siberians related to a boy buried near Lake ^Baikal, about twenty-four thousand years ^ago.",
+      "[d:build][act:the pause, a picture]Then came a long ^pause, probably in Beringia, cut off by the ^ice. [act:the next step][tune:level]Around twenty thousand years ago, one branch stayed in the ^north. [act:the move][tune:fall]The other moved south of the ice, and split again, roughly sixteen thousand years ^ago."
+     ],
+     "shots": [
+      {
+       "id": "s53",
+       "say": "One genome comes from a baby girl, buried about eleven and a half thousand years ago in Alaska; the local Native community named her Sunrise Child-girl.",
+       "draw": "Dawn over a river valley in interior Alaska: low hills, a winding river, a spruce line, the sun rising; a small soft glow on a terrace by the river (no remains are drawn). Labels 'Upward Sun River, Alaska', 'about 11,500 years ago', 'Sunrise Child-girl'."
+      },
+      {
+       "id": "s54",
+       "say": "With others, it tells a story. The ancestors of Native Americans branched off from East Asian peoples, and mixed with Siberians related to a boy buried near Lake Baikal, about twenty-four thousand years ago.",
+       "draw": "A family tree that grows left to right along a time axis (years ago): a trunk 'East Asian peoples'; a branch splits off, 'ancestors of Native Americans'; from below, a dashed line from 'Siberians' (a small marker 'Lake Baikal, 24,000') joins into the branch."
+      },
+      {
+       "id": "s55",
+       "say": "Then came a long pause, probably in Beringia, cut off by the ice. Around twenty thousand years ago, one branch stayed in the north. The other moved south of the ice, and split again, roughly sixteen thousand years ago.",
+       "draw": "Same tree: the branch runs through a shaded box 'the pause, Beringia?'; at about 20,000 it forks: one twig stays in the box ('Ancient Beringians'), the other crosses a white ice line and forks again at about 16,000 into 'north' and 'south'."
+      }
+     ]
+    },
+    {
+     "role": "cost",
+     "lines": [
+      "[d:calm][act:tender, careful]And a small boy, buried with Clovis tools in Montana about twelve thousand six hundred years ago, belongs to that southern ^branch: [act:the point, warm][tune:fall]many living Native peoples descend from people like ^him. [act:quiet, respectful][tune:fall]In {2014|twenty fourteen}, tribal members and scientists laid him back to ^rest."
+     ],
+     "shots": [
+      {
+       "id": "s56",
+       "say": "And a small boy, buried with Clovis tools in Montana about twelve thousand six hundred years ago, belongs to that southern branch: many living Native peoples descend from people like him.",
+       "draw": "Montana hills at late afternoon with a sandstone outcrop; a scatter of Clovis tools coloured with red ochre on the ground by it (no remains are drawn), 'Montana, about 12,600 years ago'; above, the 'south' twig of the family tree glows and fans out into many small figures, 'many living Native peoples'."
+      },
+      {
+       "id": "s57",
+       "say": "In 2014, tribal members and scientists laid him back to rest.",
+       "draw": "Same hills: a small group of figures gathered by the outcrop as the light warms, a soft glow where the tools lay; label '2014'."
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:tension][act:the puzzle, honest]And here's the ^rub. [p:0.93][act:explaining, careful]The White Sands prints are as old as that first parting in ^Beringia, or older. [act:the options, fair][tune:level]Either the genetic clocks need ^adjusting, [tune:level]or the first walkers belonged to a people who left few or no ^descendants, [act:the sceptics' option][tune:fall]or, say the sceptics, the footprint dates are ^wrong.",
+      "[d:calm][act:warm, respectful]And many Native nations hold their own histories of how their peoples came to be in these ^lands. [act:plain, gentle][tune:fall]Those histories are theirs to tell; this film weighs only stones, seeds and ^dates."
+     ],
+     "shots": [
+      {
+       "id": "s58",
+       "say": "And here's the rub. The White Sands prints are as old as that first parting in Beringia, or older. Either the genetic clocks need adjusting, or the first walkers belonged to a people who left few or no descendants, or, say the sceptics, the footprint dates are wrong.",
+       "draw": "A time axis 26,000 to 14,000 years ago: a blue bar 'first parting, 22,000 to 18,000 (genes)' and above it the gold band 'White Sands, 23,000 to 21,000'; they overlap and the gold reaches older. Then three option cards pop as named: a clock with a turning arrow ('clocks adjusted?'), a branch that fades out ('no descendants?'), the footprint band with a lilac question mark ('dates wrong?')."
+      },
+      {
+       "id": "s59",
+       "say": "And many Native nations hold their own histories of how their peoples came to be in these lands. Those histories are theirs to tell; this film weighs only stones, seeds and dates.",
+       "draw": "Night under a wide sky of stars: a small fire with a circle of seated figures (plain silhouettes, no borrowed symbols); then, apart and small at the right, a balance with a stone, a seed and a date tag on its pans."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The weighing",
+   "beats": [
+    {
+     "role": "weigh",
+     "lines": [
+      "[d:verdict][p:0.95][act:taking stock, calm authority]Let's weigh it: what's settled, and what's still ^open. [act:firm][tune:rise]Clovis ^first? [act:flat, final][tune:fall]*Ruled ^out*. [act:steady][tune:rise]People here before Clovis, more than fourteen thousand years ^ago? [act:firm][tune:fall]*^Established*: Oregon and Idaho stand, whatever Monte Verde's age turns out to ^be. [act:plain, even][tune:rise]And Monte Verde itself, after the {2026|twenty twenty-six} ^challenge? [tune:fall]*Open ^question*, for ^now.",
+      "[d:verdict][p:0.95][act:the big one, weighing][tune:rise]People in the Americas by about twenty-one thousand years ago, in the depths of the Ice ^Age? [act:the verdict, confident][tune:fall]*Strong ^evidence*. [act:plain, fair][tune:level]Seeds, pollen, mud and quartz agree at White ^Sands. [act:the remaining doubt, honest][tune:fall]What holds it back from Established: one well-dated site, some careful ^sceptics, and no human bones or DNA from that ^age.",
+      "[d:build][act:the older claims, even][tune:rise]Chiquihuite, at thirty thousand ^years? [act:even][tune:fall]*Open ^question*. [act:the boldest][tune:rise]A hundred and thirty thousand, near San ^Diego? [act:even][tune:fall]*Awaiting ^evidence*. [act:the road][tune:rise]And the ^road? [act:even][tune:fall]Down the coast first: *^Plausible*."
+     ],
+     "shots": [
+      {
+       "id": "s60",
+       "say": "Clovis first? Ruled out. People here before Clovis, more than fourteen thousand years ago? Established: Oregon and Idaho stand, whatever Monte Verde's age turns out to be. And Monte Verde itself, after the 2026 challenge? Open question, for now.",
+       "draw": "A ledger board of four rows, each with a small picture at the left (the Clovis point, the coprolite and the Idaho point, the Monte Verde stake, the footprint); the first three rows light as they are named and their grade chips pop: 'Ruled out', 'Established', 'Open question'."
+      },
+      {
+       "id": "s61",
+       "say": "People in the Americas by about twenty-one thousand years ago, in the depths of the Ice Age? Strong evidence. Seeds, pollen, mud and quartz agree at White Sands. What holds it back from Established: one well-dated site, some careful sceptics, and no human bones or DNA from that age.",
+       "draw": "The camera settles on the fourth row: the footprint lights and the chip 'Strong evidence' pops large; four small icons tick in turn (seed, pollen grain, mud layer, quartz grain); then three muted notes appear under it: 'one site', 'some sceptics', 'no bones or DNA yet'."
+      },
+      {
+       "id": "s62",
+       "say": "Chiquihuite, at thirty thousand years? Open question. A hundred and thirty thousand, near San Diego? Awaiting evidence. And the road? Down the coast first: Plausible.",
+       "draw": "A second, shorter ledger of three rows: 'Chiquihuite, 30,000?' with stone chips, 'San Diego, 130,000?' with a broken bone and cobble, 'the coast first' with a small boat on a kelp line; chips pop as said: 'Open question', 'Awaiting evidence', 'Plausible'."
+      }
+     ]
+    },
+    {
+     "role": "test",
+     "lines": [
+      "[d:build][p:0.93][act:practical, clear][tune:rise]What would settle the oldest ^dates? [act:the first test][tune:level]A human bone or tooth, or human DNA in the mud, from a layer older than twenty thousand ^years. [act:the second test][tune:level]More footprint sites, each dated by clocks that can't fool each ^other. [act:the third test][tune:level]At Monte Verde, a new trench, dug and dated by both ^sides. [act:the fourth test, wonder][tune:fall]And on the drowned coast, a camp on the old shoreline, under the ^sea."
+     ],
+     "shots": [
+      {
+       "id": "s63",
+       "say": "What would settle the oldest dates? A human bone or tooth, or human DNA in the mud, from a layer older than twenty thousand years. More footprint sites, each dated by clocks that can't fool each other. At Monte Verde, a new trench, dug and dated by both sides. And on the drowned coast, a camp on the old shoreline, under the sea.",
+       "draw": "Four test boxes in blue (dashed: tests not yet done) fill one by one as named: a tooth and a strand of DNA in a layer marked 'older than 20,000'; a new trail of footprints with three small clocks; a trench with two teams of figures on either side; a sonar fan over a drowned shoreline where a small camp waits."
+      }
+     ]
+    },
+    {
+     "role": "close",
+     "lines": [
+      "[d:tension][p:0.93][act:quiet, full of wonder][tune:level]Somewhere, the oldest footprints in the Americas are still waiting to be ^found. [act:hushed, the last words][tune:fall]Weigh it ^yourself."
+     ],
+     "shots": [
+      {
+       "id": "s64",
+       "say": "Somewhere, the oldest footprints in the Americas are still waiting to be found. Weigh it yourself.",
+       "draw": "Night on the old lake bed under a sky full of stars: a trail of small footprints leads away across the pale ground towards the dark dunes; the last print glows softly, and the camera holds as the end card arrives."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "description": "Small footprints in the mud of a vanished lake in New Mexico, many of them made by teenagers and children in the depths of the last Ice Age. For much of the twentieth century, the textbooks said people reached the Americas only about 13,000 years ago. How did that wall of dates fall, and what still stands?\n\nWe follow the Clovis points, the long fight over Monte Verde in Chile and its new challenge in 2026, the caves of Oregon and a riverbank in Idaho, the White Sands footprints and the argument over their dates, the two roads past the ice, and what ancient genomes say about the ancestors of Native Americans. Verdict on people in the Americas by about 21,000 years ago: Strong evidence.\n\nChapters\n0:00 Introduction\nmm:ss The Clovis wall\nmm:ss A camp in Chile\nmm:ss Footprints in the mud\nmm:ss Which road?\nmm:ss What the genes say\nmm:ss The weighing\n\nSources\nBennett, Bustos, Pigati, Springer, Urban, Holliday, Reynolds, Budka, Honke, Hudson, Fenerty, Connelly, Martinez, Santucci & Odess 2021, Science 373(6562): 1528-1531, doi:10.1126/science.abg7586\nPigati, Springer, Honke, Wahl, Champagne, Zimmerman, Gray, Santucci, Odess, Bustos & Bennett 2023, Science 382(6666): 73-75, doi:10.1126/science.adh5007\nHolliday, Windingstad, Bright, Phillips, Butler, Breslawski & Bowman 2025, Science Advances 11(25), doi:10.1126/sciadv.adv4951\nOviatt, Madsen, Rhode & Davis 2023, Quaternary Research 111: 138-147, doi:10.1017/qua.2022.38\nRhode, Neudorf, Rachal, Davis, Madsen & Dello-Russo 2024, PaleoAmerica 10: 10-27, doi:10.1080/20555563.2024.2345979\nPigati, Springer, Gray, Bennett & Bustos 2024, PaleoAmerica 10: 28-44, doi:10.1080/20555563.2024.2376298\nSpringer, Pigati, Bustos, Urban & Bennett 2026, USGS Fact Sheet 2025-3046, doi:10.3133/fs20253046\nHaynes 1964, Science 145(3639): 1408-1413, doi:10.1126/science.145.3639.1408\nWaters, Stafford & Carlson 2020, Science Advances 6(43): eaaz0455, doi:10.1126/sciadv.aaz0455\nDillehay 1997, Monte Verde: A Late Pleistocene Settlement in Chile, Vol. 2 (Smithsonian Institution Press, Washington)\nMeltzer, Grayson, Ardila, Barker, Dincauze, Haynes, Mena, Núñez & Stanford 1997, American Antiquity 62(4): 659-663, doi:10.2307/281884\nDillehay, Ramirez, Pino, Collins, Rossen & Pino-Navarro 2008, Science 320(5877): 784-786, doi:10.1126/science.1156533\nSurovell, Méndez, García, Lüthgens, Thompson & Latorre 2026, Science 391(6791): 1283-1288, doi:10.1126/science.adw9217\nDillehay et al. 2026, Science eLetter (4 May 2026), and 'Archaeological and geological evidence at Monte Verde II, Chile, supports a human occupation at about 14,500 years ago', PaleoAmerica 2026, doi:10.1080/20555563.2026.2699017\nMeltzer et al. 2026, Science eLetter (4 May 2026) on the genetic evidence and Monte Verde\nWaters, Halligan, Mandel, Holcomb, Davis & Holliday 2026, PaleoAmerica, doi:10.1080/20555563.2026.2699013 (and Science eLetter, 5 May 2026)\nGilbert et al. 2008, Science 320(5877): 786-789, doi:10.1126/science.1154116\nShillito, Whelton, Blong, Jenkins, Connolly & Bull 2020, Science Advances 6(29): eaba6404, doi:10.1126/sciadv.aba6404\nDavis et al. 2019, Science 365(6456): 891-897, doi:10.1126/science.aax9830\nManning 2020, Science 368(6487), doi:10.1126/science.aaz4695 (comment on Davis et al. 2019) and Davis, Becerra-Valdivia, Madsen & Higham 2020, doi:10.1126/science.aaz6626 (response)\nArdelean et al. 2020, Nature 584: 87-92, doi:10.1038/s41586-020-2509-0\nChatters, Potter, Prentiss, Fiedel, Haynes et al. 2022, PaleoAmerica 8(1): 1-16, doi:10.1080/20555563.2021.1940441\nHolen et al. 2017, Nature 544: 479-483, doi:10.1038/nature22065\nHeintzman et al. 2016, PNAS 113(29): 8057-8063, doi:10.1073/pnas.1601077113\nClark et al. 2022, PNAS 119(14): e2118558119, doi:10.1073/pnas.2118558119\nPedersen et al. 2016, Nature 537: 45-49, doi:10.1038/nature19085\nLesnek, Briner, Lindqvist, Baichtal & Heaton 2018, Science Advances 4(5): eaar5040, doi:10.1126/sciadv.aar5040\nErlandson, Graham, Bourque, Corbett, Estes & Steneck 2007, Journal of Island and Coastal Archaeology 2(2): 161-174, doi:10.1080/15564890701628612\nMoreno-Mayar et al. 2018, Nature 553: 203-207, doi:10.1038/nature25173\nRaghavan et al. 2014, Nature 505: 87-91, doi:10.1038/nature12736\nRasmussen et al. 2014, Nature 506: 225-229, doi:10.1038/nature13025\nTamm et al. 2007, PLOS ONE 2(9): e829, doi:10.1371/journal.pone.0000829\nWillerslev & Meltzer 2021, Nature 594: 356-364, doi:10.1038/s41586-021-03499-y\nBecerra-Valdivia & Higham 2020, Nature 584: 93-97, doi:10.1038/s41586-020-2491-6",
+ "sources": [
+  "Bennett, Bustos, Pigati, Springer, Urban, Holliday, Reynolds, Budka, Honke, Hudson, Fenerty, Connelly, Martinez, Santucci & Odess 2021, Science 373(6562): 1528-1531, doi:10.1126/science.abg7586",
+  "Pigati, Springer, Honke, Wahl, Champagne, Zimmerman, Gray, Santucci, Odess, Bustos & Bennett 2023, Science 382(6666): 73-75, doi:10.1126/science.adh5007",
+  "Holliday, Windingstad, Bright, Phillips, Butler, Breslawski & Bowman 2025, Science Advances 11(25), doi:10.1126/sciadv.adv4951",
+  "Oviatt, Madsen, Rhode & Davis 2023, Quaternary Research 111: 138-147, doi:10.1017/qua.2022.38",
+  "Rhode, Neudorf, Rachal, Davis, Madsen & Dello-Russo 2024, PaleoAmerica 10: 10-27, doi:10.1080/20555563.2024.2345979",
+  "Pigati, Springer, Gray, Bennett & Bustos 2024, PaleoAmerica 10: 28-44, doi:10.1080/20555563.2024.2376298",
+  "Springer, Pigati, Bustos, Urban & Bennett 2026, USGS Fact Sheet 2025-3046, doi:10.3133/fs20253046",
+  "Haynes 1964, Science 145(3639): 1408-1413, doi:10.1126/science.145.3639.1408",
+  "Waters, Stafford & Carlson 2020, Science Advances 6(43): eaaz0455, doi:10.1126/sciadv.aaz0455",
+  "Dillehay 1997, Monte Verde: A Late Pleistocene Settlement in Chile, Vol. 2 (Smithsonian Institution Press, Washington)",
+  "Meltzer, Grayson, Ardila, Barker, Dincauze, Haynes, Mena, Núñez & Stanford 1997, American Antiquity 62(4): 659-663, doi:10.2307/281884",
+  "Dillehay, Ramirez, Pino, Collins, Rossen & Pino-Navarro 2008, Science 320(5877): 784-786, doi:10.1126/science.1156533",
+  "Surovell, Méndez, García, Lüthgens, Thompson & Latorre 2026, Science 391(6791): 1283-1288, doi:10.1126/science.adw9217",
+  "Dillehay et al. 2026, Science eLetter (4 May 2026), and 'Archaeological and geological evidence at Monte Verde II, Chile, supports a human occupation at about 14,500 years ago', PaleoAmerica 2026, doi:10.1080/20555563.2026.2699017",
+  "Meltzer et al. 2026, Science eLetter (4 May 2026) on the genetic evidence and Monte Verde",
+  "Waters, Halligan, Mandel, Holcomb, Davis & Holliday 2026, PaleoAmerica, doi:10.1080/20555563.2026.2699013 (and Science eLetter, 5 May 2026)",
+  "Gilbert et al. 2008, Science 320(5877): 786-789, doi:10.1126/science.1154116",
+  "Shillito, Whelton, Blong, Jenkins, Connolly & Bull 2020, Science Advances 6(29): eaba6404, doi:10.1126/sciadv.aba6404",
+  "Davis et al. 2019, Science 365(6456): 891-897, doi:10.1126/science.aax9830",
+  "Manning 2020, Science 368(6487), doi:10.1126/science.aaz4695 (comment on Davis et al. 2019) and Davis, Becerra-Valdivia, Madsen & Higham 2020, doi:10.1126/science.aaz6626 (response)",
+  "Ardelean et al. 2020, Nature 584: 87-92, doi:10.1038/s41586-020-2509-0",
+  "Chatters, Potter, Prentiss, Fiedel, Haynes et al. 2022, PaleoAmerica 8(1): 1-16, doi:10.1080/20555563.2021.1940441",
+  "Holen et al. 2017, Nature 544: 479-483, doi:10.1038/nature22065",
+  "Heintzman et al. 2016, PNAS 113(29): 8057-8063, doi:10.1073/pnas.1601077113",
+  "Clark et al. 2022, PNAS 119(14): e2118558119, doi:10.1073/pnas.2118558119",
+  "Pedersen et al. 2016, Nature 537: 45-49, doi:10.1038/nature19085",
+  "Lesnek, Briner, Lindqvist, Baichtal & Heaton 2018, Science Advances 4(5): eaar5040, doi:10.1126/sciadv.aar5040",
+  "Erlandson, Graham, Bourque, Corbett, Estes & Steneck 2007, Journal of Island and Coastal Archaeology 2(2): 161-174, doi:10.1080/15564890701628612",
+  "Moreno-Mayar et al. 2018, Nature 553: 203-207, doi:10.1038/nature25173",
+  "Raghavan et al. 2014, Nature 505: 87-91, doi:10.1038/nature12736",
+  "Rasmussen et al. 2014, Nature 506: 225-229, doi:10.1038/nature13025",
+  "Tamm et al. 2007, PLOS ONE 2(9): e829, doi:10.1371/journal.pone.0000829",
+  "Willerslev & Meltzer 2021, Nature 594: 356-364, doi:10.1038/s41586-021-03499-y",
+  "Becerra-Valdivia & Higham 2020, Nature 584: 93-97, doi:10.1038/s41586-020-2491-6"
+ ],
+ "facts_added": [
+  {
+   "fact": "At White Sands Locality 2 (east side of Alkali Flat, Tularosa Basin), 61 human tracks were documented on seven footprint surfaces; many appear to be those of teenagers along with children, and large adult footprints are less frequent.",
+   "source": "Bennett et al. 2021, Science, doi:10.1126/science.abg7586"
+  },
+  {
+   "fact": "Seeds of the aquatic plant Ruppia cirrhosa (spiral ditchgrass) in the layers above and below the prints gave calibrated ages from 22,860 +/- 320 to 21,130 +/- 250 years ago (11 aliquots, in stratigraphic order): humans present for about two millennia during the Last Glacial Maximum.",
+   "source": "Bennett et al. 2021, Science, doi:10.1126/science.abg7586"
+  },
+  {
+   "fact": "Lake Otero was the largest of several perennial lakes that filled the Tularosa Basin between about 36,000 and 19,000 years ago; wind erosion of its sediments built the largest gypsum dune field in the world, leaving the Alkali Flat.",
+   "source": "Bennett et al. 2021; Springer et al. 2026, USGS Fact Sheet 2025-3046, doi:10.3133/fs20253046"
+  },
+  {
+   "fact": "Critics argued the Ruppia ages could be too old because aquatic plants take up old carbon from groundwater (the hard-water effect); Ruppia specimens collected in 1947 from nearby Malpais Spring returned a radiocarbon age of about 7,400 cal yr BP.",
+   "source": "Oviatt, Madsen, Rhode & Davis 2023, Quaternary Research 111: 138-147, doi:10.1017/qua.2022.38"
+  },
+  {
+   "fact": "In 2023 the team dated terrestrial conifer pollen (pine, spruce, fir; about 75,000 grains isolated for each dated sample) from the same horizons as the seeds: 23,400 +/- 2,500 to 22,600 +/- 2,300 years; optically stimulated luminescence of quartz from the footprint-bearing layers gave a minimum age of about 21,500 +/- 1,900 years; both statistically indistinguishable from the seed ages.",
+   "source": "Pigati et al. 2023, Science 382: 73-75, doi:10.1126/science.adh5007; USGS news release, 5 October 2023"
+  },
+  {
+   "fact": "Rhode et al. (2024) argued that pollen ages could be too old through reworking and that the luminescence ages may be maximum ages (partially bleached quartz); Pigati et al. (2024) replied that the geochronology of Locality 2 is resolved.",
+   "source": "Rhode et al. 2024, PaleoAmerica 10: 10-27, doi:10.1080/20555563.2024.2345979; Pigati et al. 2024, PaleoAmerica 10: 28-44, doi:10.1080/20555563.2024.2376298"
+  },
+  {
+   "fact": "In 2025 a separate team (University of Arizona) dated ancient mud of Lake Otero to between about 22,400 and 20,700 years ago, a third dated material from a third laboratory; two research groups now report 55 consistent radiocarbon dates.",
+   "source": "Holliday et al. 2025, Science Advances 11(25), doi:10.1126/sciadv.adv4951; University of Arizona news, June 2025"
+  },
+  {
+   "fact": "Sceptics remain: in 2023 Michael Waters said he suspected the White Sands ages are older than they truly are, and noted that if correct the prints predate the genetic split of ancestral Native Americans from Beringian populations, implying either a population with no descendants or a dating problem.",
+   "source": "Smithsonian Magazine, 5 October 2023 (interview with M. R. Waters)"
+  },
+  {
+   "fact": "Clovis points were first recognised in 1929 at Blackwater Draw, about 18 km southwest of Clovis, New Mexico (a town founded as a railway town); excavations from 1932 found them with mammoth remains, and Blackwater Draw points became the type specimens in the 1930s.",
+   "source": "Blackwater Draw site history (Eastern New Mexico University); Clovis, New Mexico, founded in 1906 as the Atchison, Topeka and Santa Fe Railway was built through the area (city history); Haynes 1964, Science, doi:10.1126/science.145.3639.1408"
+  },
+  {
+   "fact": "Redated with new radiocarbon dates from ten Clovis sites, Clovis spans about 13,050 to 12,750 calendar years ago, roughly three centuries.",
+   "source": "Waters, Stafford & Carlson 2020, Science Advances 6: eaaz0455, doi:10.1126/sciadv.aaz0455"
+  },
+  {
+   "fact": "The Clovis-first model linked the Clovis age to the opening of an ice-free corridor between the Cordilleran and Laurentide ice sheets, through which big-game hunters would have entered and spread across the continent.",
+   "source": "Haynes 1964, Science 145: 1408-1413, doi:10.1126/science.145.3639.1408"
+  },
+  {
+   "fact": "Monte Verde lies on Chinchihuapi Creek, a tributary of the Maullin River near Puerto Montt; bones exposed in the creek bank were reported in 1975 and Tom Dillehay began excavating in 1977. Peat sealed the site, preserving wood, plant remains and animal tissue.",
+   "source": "Dillehay 1997 (Smithsonian Institution Press); Vanderbilt University news, 8 May 2008"
+  },
+  {
+   "fact": "Monte Verde II preserved wooden structures (huts with wooden frames and stakes), hearths, bone, hide and pieces of meat from at least seven gomphotheres (Notiomastodon), wild potatoes and nine species of seaweed and marine algae, some chewed into quids; the seaweeds were directly dated to about 14,220 to 13,980 cal BP. The site is more than 50 miles from the open coast and about 10 miles from a large marine bay.",
+   "source": "Dillehay et al. 2008, Science 320: 784-786, doi:10.1126/science.1156533; Dillehay et al. 2026, Science eLetter; Vanderbilt University news, 8 May 2008"
+  },
+  {
+   "fact": "In January 1997 a group of Paleoindian specialists, including former sceptics such as C. Vance Haynes, examined the site and its collections and agreed that the MV-II occupation is archaeological and about 12,500 radiocarbon years old (about 14,500 calendar years).",
+   "source": "Meltzer et al. 1997, American Antiquity 62(4): 659-663, doi:10.2307/281884"
+  },
+  {
+   "fact": "Human coprolites from the Paisley Five Mile Point Caves, Oregon, yielded Native American founding mtDNA lineages and dates of about 12,300 radiocarbon years BP (about 14,300 calendar years); fecal lipid biomarkers later confirmed that pre-Clovis coprolites there are human.",
+   "source": "Gilbert et al. 2008, Science 320: 786-789, doi:10.1126/science.1154116; Shillito et al. 2020, Science Advances 6: eaba6404, doi:10.1126/sciadv.aba6404"
+  },
+  {
+   "fact": "At Cooper's Ferry (the Nez Perce village of Nipehe, on the lower Salmon River, Idaho), a hearth, pits, stone tools and bone fragments date to about 16,560 to 15,280 years ago; its stemmed points resemble Late Upper Paleolithic points made around the same time in Japan. (Manning 2020 argued occupation more likely began after about 15,000 years ago.)",
+   "source": "Davis et al. 2019, Science 365: 891-897, doi:10.1126/science.aax9830; Oregon State University news, August 2019; Manning 2020, Science, doi:10.1126/science.aaz4695"
+  },
+  {
+   "fact": "In March 2026 Surovell and colleagues argued that the surface on which the Monte Verde materials rest formed after an 11,000-year-old volcanic ash and that the sediments burying MV-II are mid-Holocene (at most about 8,200 years), the old radiocarbon dates coming from redeposited Ice Age wood.",
+   "source": "Surovell et al. 2026, Science 391: 1283-1288, doi:10.1126/science.adw9217; University of Wyoming news, March 2026; National Geographic, 19 March 2026"
+  },
+  {
+   "fact": "Dillehay and colleagues answered that there is no 11,000-year ash below the MV-II site, that the new team did not excavate within the original site, and that marine-algae quids from the occupation floor date to 14.2 to 14.3 thousand years; Waters and colleagues and Meltzer and colleagues also disputed the redating; Surovell's team replied in June 2026.",
+   "source": "Dillehay et al. 2026, Waters et al. 2026 and Meltzer et al. 2026, Science eLetters (4 to 5 May 2026); Waters et al. 2026, PaleoAmerica, doi:10.1080/20555563.2026.2699013; University of Wyoming news, June 2026"
+  },
+  {
+   "fact": "Chiquihuite Cave (Astillero Mountains, Zacatecas, about 2,740 m above sea level) yielded about 1,930 stone pieces of recrystallised limestone in layers dated by 46 radiocarbon and 6 luminescence dates; the authors suggested a human presence possibly as early as 33,000 to 31,000 years ago; no human DNA was found.",
+   "source": "Ardelean et al. 2020, Nature 584: 87-92, doi:10.1038/s41586-020-2509-0"
+  },
+  {
+   "fact": "Twenty researchers led by James Chatters argued that the Chiquihuite assemblage is probably limestone broken by natural processes (geofacts) and does not support human arrival before the Last Glacial Maximum.",
+   "source": "Chatters et al. 2022, PaleoAmerica 8(1): 1-16, doi:10.1080/20555563.2021.1940441"
+  },
+  {
+   "fact": "At the Cerutti Mastodon site near San Diego, spiral-fractured mastodon bones and five large cobbles interpreted as hammerstones and anvils were dated by uranium-series to 130,700 +/- 9,400 years; many archaeologists, among them David Meltzer, judge the evidence too ambiguous.",
+   "source": "Holen et al. 2017, Nature 544: 479-483, doi:10.1038/nature22065; Scientific American, 26 April 2017"
+  },
+  {
+   "fact": "The ice-free corridor was closed from after about 23,000 until about 13,400 years ago (bison DNA) and did not fully open until about 13,800 years ago (cosmogenic exposure dating of boulders); it became biologically viable, with steppe plants, bison and mammoth, by about 12,600 years ago.",
+   "source": "Heintzman et al. 2016, PNAS, doi:10.1073/pnas.1601077113; Clark et al. 2022, PNAS, doi:10.1073/pnas.2118558119; Pedersen et al. 2016, Nature, doi:10.1038/nature19085"
+  },
+  {
+   "fact": "Islands of southeast Alaska's Alexander Archipelago were free of ice by about 17,000 years ago, and ringed seal bones of about the same age from a nearby cave show food was available along the coastal route.",
+   "source": "Lesnek et al. 2018, Science Advances 4: eaar5040, doi:10.1126/sciadv.aar5040"
+  },
+  {
+   "fact": "Kelp forests, among the most productive habitats on Earth, ring the North Pacific and may have offered a 'kelp highway' of food for maritime peoples moving from Asia to the Americas.",
+   "source": "Erlandson et al. 2007, Journal of Island and Coastal Archaeology 2: 161-174, doi:10.1080/15564890701628612"
+  },
+  {
+   "fact": "At the height of the last Ice Age the sea stood about 120 m lower than today (less as the ice melted), so the coastlines of that time are now under water.",
+   "source": "the Short 'drowned-coasts' (films/rewrite/drowned-coasts.json) and its sources"
+  },
+  {
+   "fact": "The genome of an infant girl buried about 11,500 years ago at Upward Sun River, Alaska, named Xach'itee'aanenh t'eede gay (Sunrise Child-girl) by the local Native community, defines the Ancient Beringians; with other genomes it suggests ancestral Native Americans split from East Asians about 36,000 years ago with gene flow until about 25,000, received Ancient North Eurasian gene flow 25,000 to 20,000 years ago, saw Ancient Beringians branch off about 22,000 to 18,100 years ago, and split into northern and southern branches about 17,500 to 14,600 years ago, probably south of the ice sheets.",
+   "source": "Moreno-Mayar et al. 2018, Nature 553: 203-207, doi:10.1038/nature25173; University of Cambridge news, 3 January 2018"
+  },
+  {
+   "fact": "The genome of a boy buried about 24,000 years ago at Mal'ta near Lake Baikal, Siberia, shows that some 14 to 38 percent of Native American ancestry comes from a population related to his.",
+   "source": "Raghavan et al. 2014, Nature 505: 87-91, doi:10.1038/nature12736"
+  },
+  {
+   "fact": "Native American founder lineages differentiated during a pause in Beringia (the Beringian standstill), followed by a swift spread south.",
+   "source": "Tamm et al. 2007, PLOS ONE 2: e829, doi:10.1371/journal.pone.0000829; Moreno-Mayar et al. 2018"
+  },
+  {
+   "fact": "The Anzick child, a boy buried about 12,700 to 12,550 years ago in Montana with about 100 stone tools and 15 bone and antler tools covered in red ochre (Clovis), belongs to a population from which many living Native Americans descend, closest to Central and South Americans; tribal members and scientists reburied him on 28 June 2014.",
+   "source": "Rasmussen et al. 2014, Nature 506: 225-229, doi:10.1038/nature13025; The Scientist, July 2014"
+  }
+ ],
+ "names": [
+  {
+   "name": "Clovis",
+   "say": "KLOH-vis (in LEX)"
+  },
+  {
+   "name": "Beringia",
+   "say": "buh-RIN-jee-uh"
+  },
+  {
+   "name": "Monte Verde",
+   "say": "MON-tay VER-day (monte, verde in LEX)"
+  },
+  {
+   "name": "Tom Dillehay",
+   "say": "tom DILL-uh-hay"
+  },
+  {
+   "name": "Chile",
+   "say": "CHILL-ee (in LEX)"
+  },
+  {
+   "name": "Paisley Caves",
+   "say": "PAYZ-lee"
+  },
+  {
+   "name": "Cooper's Ferry",
+   "say": "KOO-perz FAIR-ee"
+  },
+  {
+   "name": "Todd Surovell",
+   "say": "tod SUR-uh-vel (stress unverified)"
+  },
+  {
+   "name": "Otero",
+   "say": "oh-TAIR-oh"
+  },
+  {
+   "name": "Chiquihuite",
+   "say": "chee-kee-WEE-tay"
+  },
+  {
+   "name": "San Diego",
+   "say": "san dee-AY-go"
+  },
+  {
+   "name": "Baikal",
+   "say": "by-KAHL"
+  },
+  {
+   "name": "Sunrise Child-girl",
+   "say": "plain English (the English form of the name given by the local Native community)"
+  }
+ ],
+ "end_line": "Somewhere, the oldest footprints are still waiting to be found.",
+ "words": 1627
+}
