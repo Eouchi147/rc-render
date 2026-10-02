@@ -157,6 +157,11 @@ LEX.update({"ambrosius": "æmbɹˈoʊziəs", "aurelianus": "ɔːɹˌiːliˈɑːn
             "minoan": "mɪnˈoʊən", "minoans": "mɪnˈoʊənz", "minos": "mˈaɪnɑːs", "pasiphae": "pəsˈɪfiːi", "thucydides": "θuːsˈɪdɪdiːz",
             "cretan": "kɹˈiːtən", "ingo": "ˈɪŋɡoʊ", "mcmoneagle": "məkmˈɑːnəɡəl", "puthoff": "pˈʊthɑːf", "sri": "ˌɛsˌɑːɹˈaɪ", "labrys": "lˈæbɹɪs"})
 
+# long-form LF.20 names (2 Oct 2026): espeak said "kem-ul", "gal-ih-pah-lee", "sow-sek", "bel-ingsh-aw-sen"...
+LEX.update({"kemal": "kɛmˈɑːl", "gallipoli": "ɡəlˈɪpəli", "kitabi": "kiːtˈɑːbɪ", "bahriye": "bɑːɹiˈjɛ", "selim": "sɛlˈiːm",
+            "topkapi": "tˈɑːpkɑːpə", "topkapı": "tˈɑːpkɑːpə", "ornofay": "ˌɔːɹnoʊfˈaɪ", "mcintosh": "mˈækɪntˌɑːʃ",
+            "soucek": "sˈoʊtʃɛk", "svat": "svˈɑːt", "bellingshausen": "bˈɛlɪŋzhˌaʊzən"})
+
 
 def _key(w):
     return re.sub(r"[^\wöüışçğ'’]", "", w.lower()).replace("’", "'")
