@@ -120,6 +120,12 @@ LEX.update({"dhul": "ðˈʊl", "qarnayn": "kɑːɹnˈaɪn", "musa": "mˈuːsə",
             "hud": "hˈuːd", "yajuj": "jɑːdʒˈuːdʒ", "majuj": "mɑːdʒˈuːdʒ", "menkaure": "mɛŋkˈaʊɹeɪ", "shuruppak": "ʃʊɹˈʊpæk",
             "erlitou": "ˈɜːliːtˌoʊ", "thera": "θˈɪɹə", "qumran": "kʊmɹˈɑːn", "kerna": "kˈɛɹnə", "faynan": "feɪnˈɑːn",
             "wilusa": "wiːlˈuːsə", "gorgan": "ɡɔːɹɡˈɑːn"})
+# long-form names (2 Oct 2026): espeak said "tim-ee-us", "krish-uz", "sighs", "kon-eers", "gaw-ree", "hyoor-ir-a"...
+LEX.update({"necmi": "nˈɛdʒmi", "karul": "kɑːɹˈuːl", "timaeus": "taɪmˈiːəs", "critias": "kɹˈɪtiəs", "sais": "sˈeɪɪs",
+            "ignatius": "ɪɡnˈeɪʃəs", "azores": "əzˈɔːɹz", "spartel": "spɑːɹtˈɛl", "bahamas": "bəhˈɑːməz",
+            "akrotiri": "ˌɑːkɹoʊtˈɪɹi", "minoans": "mɪnˈoʊənz", "heracleides": "hˌɛɹəklˈaɪdiːz", "biondi": "biˈɑːndi",
+            "malanga": "məlˈɑːŋɡə", "conyers": "kˈɑːnjɚz", "luis": "luːˈiːs", "gauri": "ɡˈaʊɹi", "hureyra": "huːɹˈeɪɹə",
+            "agassiz": "ˈæɡəsi", "microspherules": "mˌaɪkɹoʊsfˈɪɹuːlz"})
 
 
 def _key(w):

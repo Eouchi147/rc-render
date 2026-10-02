@@ -1013,6 +1013,235 @@ def _vf(fps):
 X264 = ["-c:v", "libx264", "-preset", "medium", "-crf", "19", "-maxrate", "14M", "-bufsize", "28M", "-profile:v", "high", "-pix_fmt", "yuv420p"]
 
 
+# ================================================================== 16:9 long form (YouTube): landscape HUD, look and captions
+# Used only for a film whose episode has "aspect": "16:9" (see free/longjob.py and films/long/LONG_ENGINE.md). Everything above
+# (W, H, DPR, VT, css, OVERLAY, _vf, X264 and the 9:16 code paths) is the Shorts' and stays exactly as it is.
+W16, H16, DPR16 = 960, 540, 2                # viewport in CSS px; screenshots at DPR 2 are 1920 x 1080
+FPS16 = 30
+LONG_TAIL = 8.0                              # seconds of end card after the last word (room for YouTube end-screen elements)
+MARK16 = ("<svg class='mk' viewBox='0 0 100 100'><defs><clipPath id='rvu{k}'><rect width='100' height='58'/></clipPath></defs>"
+          "<circle cx='50' cy='50' r='38' fill='none' stroke='#f5f1eb' stroke-opacity='.9' stroke-width='5'/><circle cx='50' cy='58' r='13' "
+          "fill='#e8b87a' clip-path='url(#rvu{k})'/><line x1='12.5' y1='58' x2='87.5' y2='58' stroke='#f5f1eb' stroke-width='5'/>"
+          "<line x1='24' y1='66' x2='76' y2='66' stroke='#f5f1eb' stroke-opacity='.45' stroke-width='3.5'/></svg>")
+
+
+def css16(fonts):
+    """The landscape HUD (960 x 540 CSS px): brand top left, chapter top right, captions bottom centre (2 lines, 660 px = 1320 px
+    on the 1920 frame), progress bar along the bottom edge, hook title top left, intro title card, end card."""
+    ff = "".join(f"@font-face{{font-family:'{fam}';font-style:{st};font-weight:{wt};src:url('file://{fonts}/{fn}') format('woff2')}}"
+                 for fam, st, wt, fn in [("Newsreader", "normal", 400, "newsreader-latin-400-normal.woff2"), ("Newsreader", "italic", 400, "newsreader-latin-400-italic.woff2"),
+                                         ("Newsreader", "normal", 500, "newsreader-latin-500-normal.woff2"), ("Newsreader", "italic", 500, "newsreader-latin-500-italic.woff2"),
+                                         ("Inter", "normal", 400, "inter-latin-400-normal.woff2"), ("Inter", "normal", 600, "inter-latin-600-normal.woff2"),
+                                         ("Inter", "normal", 700, "inter-latin-700-normal.woff2")])
+    return ff + """
+html,body{scrollbar-width:none}::-webkit-scrollbar{display:none}
+*,*::before,*::after{animation-play-state:paused!important;transition-duration:0s!important;transition-delay:0s!important}
+html,body,#main,.page,.story,.story-in,.sy,.sy-in{overflow-x:clip!important}
+.sy-stage{position:sticky!important;top:0!important;height:100vh!important;max-height:none!important;min-height:0!important;z-index:50!important;margin:0!important;border-radius:0!important;overflow:hidden!important}
+.sy-hud,.sy-intro,.sy-cnt,.sy-bar{display:none!important}
+#rv{position:fixed;inset:0;z-index:9999;pointer-events:none;font-family:Inter,system-ui,sans-serif;color:#fff6e8;overflow:hidden}
+#rv [hidden]{display:none!important}
+#rv .vig{position:absolute;inset:0;background:radial-gradient(125% 115% at 50% 46%,rgba(0,0,0,0) 58%,rgba(0,0,0,.5) 100%),linear-gradient(rgba(0,0,0,.36),rgba(0,0,0,0) 20%,rgba(0,0,0,0) 66%,rgba(0,0,0,.5))}
+#rv .track{position:absolute;left:0;right:0;bottom:0;height:3px;background:rgba(255,246,232,.1)}
+#rv .track i{position:absolute;top:0;width:2px;height:3px;background:rgba(10,8,6,.95)}
+#rv .bar{position:absolute;left:0;bottom:0;height:3px;background:#e0b27a;box-shadow:0 0 8px rgba(224,178,122,.6)}
+#rv .brand{position:absolute;top:20px;left:28px;display:flex;align-items:center;gap:9px;font:700 9.5px Inter;letter-spacing:.17em;text-transform:uppercase;text-shadow:0 1px 8px rgba(0,0,0,.7)}
+#rv .brand .mk{width:19px;height:19px;display:block}#rv .brand span{opacity:.92}
+#rv .brand i{font-style:normal;color:#e8b87a;opacity:.95}
+#rv .brand i:not(:empty):before{content:"";display:inline-block;width:14px;height:1px;background:rgba(255,246,232,.5);vertical-align:middle;margin:0 9px 0 1px}
+#rv .chap{position:absolute;top:23px;right:28px;font:600 9.5px Inter;letter-spacing:.17em;text-transform:uppercase;color:rgba(255,246,232,.86);text-shadow:0 1px 8px rgba(0,0,0,.75);opacity:0}
+#rv .chap b{color:#e8b87a;font-weight:700;margin-right:9px}
+#rv .hook{position:absolute;left:28px;top:58px;max-width:500px;font:500 36px/1.06 Newsreader,serif;letter-spacing:-.015em;text-shadow:0 2px 24px rgba(0,0,0,.85)}
+#rv .hook em{font-style:italic;color:#f2c98e}
+#rv .cap{position:absolute;left:50%;bottom:30px;width:660px;margin-left:-330px;text-align:center;text-wrap:balance;font:600 20px/1.36 Inter;letter-spacing:-.005em}
+#rv .cap .pill{display:inline;background:rgba(12,9,6,.52);padding:3px 9px 5px;border-radius:9px;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+#rv .cap span{display:inline-block;margin:0 .1em;color:rgba(255,246,232,.66);text-shadow:0 1px 3px rgba(0,0,0,.95),0 0 14px rgba(0,0,0,.75)}
+#rv .cap span.done{color:#fff6e8}#rv .cap span.on{color:#ffcf8a}#rv .cap span.em.done,#rv .cap span.em.on{color:#ffcf8a}
+#rv .stamp{position:absolute;left:50%;top:38%;font:800 22px Inter;letter-spacing:.14em;text-transform:uppercase;padding:9px 16px;border:3px solid currentColor;border-radius:9px;white-space:nowrap;background:rgba(10,8,6,.45);text-shadow:0 0 14px rgba(0,0,0,.6)}
+#rv .count{position:absolute;left:0;right:0;top:16%;text-align:center;font:500 76px/1 Newsreader,serif;text-shadow:0 2px 30px rgba(0,0,0,.9)}
+#rv .count small{font:700 19px Inter;letter-spacing:.06em;margin-left:6px;color:#f2c98e}
+#rv .note{position:absolute;right:28px;bottom:12px;font:600 7.5px Inter;letter-spacing:.14em;text-transform:uppercase;opacity:.4}
+#rv .intro{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:14px;text-align:center;background:radial-gradient(90% 80% at 50% 50%,rgba(13,10,7,.5),rgba(7,6,5,.8))}
+#rv .intro .k{font:700 10px Inter;letter-spacing:.24em;text-transform:uppercase;color:#e8b87a}
+#rv .intro .t{font:500 54px/1.04 Newsreader,serif;letter-spacing:-.015em;max-width:760px;text-wrap:balance;text-shadow:0 2px 30px rgba(0,0,0,.8)}
+#rv .intro .t em{font-style:italic;color:#f2c98e}
+#rv .intro .r{width:120px;height:1px;background:#e8b87a;opacity:.85}
+#rv .end{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:11px;text-align:center;padding:0 80px;background:radial-gradient(90% 80% at 50% 44%,#1d160f,#070605)}
+#rv .end .k{font:700 10px Inter;letter-spacing:.22em;text-transform:uppercase;color:#e8b87a}
+#rv .end .q{font:italic 400 21px/1.25 Newsreader,serif;opacity:.92;max-width:640px}
+#rv .end .v{font:800 13px Inter;letter-spacing:.12em;text-transform:uppercase;padding:8px 16px;border-radius:999px;border:2.5px solid var(--vc);color:var(--vc)}
+#rv .end .emk .mk{width:40px;height:40px;display:block;margin:4px auto 0}
+#rv .end .t{font:500 42px/1.04 Newsreader,serif}#rv .end .t em{color:#e8b87a}
+#rv .end .l{font:italic 400 17px/1.3 Newsreader,serif;opacity:.84;max-width:600px}
+#rv .end .u{font:600 12px Inter;opacity:.8}
+#rv .end .src{font:500 9.5px/1.5 Inter;opacity:.55;max-width:700px;margin-top:4px}#rv .end .src b{font-weight:700;letter-spacing:.14em;text-transform:uppercase;font-size:8.5px;margin-right:6px}
+#rv .end .m{position:absolute;bottom:22px;left:0;right:0;font:italic 400 12px Newsreader,serif;opacity:.55}
+"""
+
+
+OVERLAY16 = r"""(D)=>{
+ const rv=document.createElement('div');rv.id='rv';document.body.appendChild(rv);
+ const em=s=>s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/\*([^*]+)\*/g,'<em>$1</em>');
+ rv.innerHTML='<div class="vig"></div><div class="track"></div><div class="bar"></div>'+
+  '<div class="brand">'+D.mark1+'<span>Residual Continuum</span><i></i></div><div class="chap"><b></b><span></span></div>'+
+  '<div class="hook"></div><div class="cap"></div><div class="stamp" hidden></div><div class="count" hidden></div><div class="note"></div>'+
+  '<div class="intro" hidden><span class="k"></span><span class="t"></span><span class="r"></span></div><div class="end" hidden></div>';
+ const $=s=>rv.querySelector(s);
+ $('.brand i').textContent=D.series||''; $('.note').textContent=D.note||'';
+ $('.hook').innerHTML=em(D.hook||'');
+ const tr=$('.track'); (D.chapters||[]).forEach(c=>{ if(c.t>.5&&c.t<D.end){ const m=document.createElement('i'); m.style.left=(100*c.t/D.end).toFixed(2)+'%'; tr.appendChild(m); } });
+ const IN=D.intro; if(IN){ $('.intro .k').textContent=IN.kicker||''; $('.intro .t').innerHTML=em(IN.title); }
+ const e=$('.end');
+ e.innerHTML='<span class="k">'+(D.vlabel?'The verdict':'Where do you stand?')+'</span>'+(D.claim?'<span class="q">'+em(D.claim)+'</span>':'')+
+  (D.vlabel?'<span class="v" style="--vc:'+D.vcol+'">'+D.vlabel+'</span>':'')+'<span class="emk">'+D.mark2+'</span><span class="t">Weigh it <em>yourself.</em></span>'+
+  (D.endLine?'<span class="l">'+em(D.endLine)+'</span>':'')+(D.src?'<span class="src"><b>Sources</b> '+em(D.src)+'</span>':'')+(D.handle?'<span class="u">'+D.handle+'</span>':'')+
+  '<span class="m">Coherence is the measure, not final demonstration.</span>';
+ const ease=x=>x<.5?4*x*x*x:1-Math.pow(-2*x+2,3)/2, clamp=(v,a,b)=>v<a?a:v>b?b:v;
+ const stage=D.stageSel?document.querySelector(D.stageSel):null;
+ if(stage){ stage.style.transformOrigin='50% 50%'; stage.style.willChange='auto'; stage.style.contain='none'; }
+ let capKey='', chKey='', lastT=null; const cam={init:false,beat:-1,s:1,x:0,y:0,vs:0,vx:0,vy:0};
+ function frameOf(i){ const f=(D.beats[i]&&D.beats[i].frame)||{}; return {s:f.s||1,x:f.x||0,y:f.y||0}; }
+ window.__frame=(t,seed)=>{
+  const tc=t; if(D.fps>=50) t=Math.floor((t*60+1.0001)/2)/30;
+  $('.bar').style.width=(100*Math.min(1,t/D.end)).toFixed(2)+'%';
+  const hk=$('.hook'); const hkE=Math.max(1.2,Math.min(2.9,...D.counts.map(q=>q.t-.5),...D.stamps.map(q=>q.t-.5)));
+  const ho=t<hkE?Math.min(1,t/.25):Math.max(0,1-(t-hkE)/.35); hk.style.opacity=ho; hk.style.transform='translateY('+((1-Math.min(1,t/.7))*12).toFixed(1)+'px)';
+  let bi=0; for(let i=0;i<D.beats.length;i++){ if(t>=D.beats[i].t0) bi=i; }
+  if(stage){ /* the same camera as the Shorts (a critically damped spring, a slow push-in across each beat, a breath of handheld
+     float), calmer and in landscape pixels */
+    const b=D.beats[bi]; let z=frameOf(bi); for(const c of D.cams){ if(c.b===bi&&tc>=c.t) z={s:c.s,x:c.x,y:c.y}; }
+    const du=clamp((tc-b.t0)/Math.max(1,b.t1-b.t0),0,1), dir=bi%2?1:-1;
+    const T={s:z.s*(1+.03*ease(du)), x:z.x+dir*.01*du, y:z.y-.006*du};
+    const h=lastT===null?0:Math.min(.1,Math.max(0,tc-lastT)); lastT=tc;
+    if(!cam.init){ cam.s=T.s; cam.x=T.x; cam.y=T.y; cam.vs=cam.vx=cam.vy=0; cam.init=true; }
+    cam.beat=bi;
+    const w=2.4, steps=Math.max(1,Math.round(h/.004)), dt_=h/steps;
+    for(let i=0;i<steps;i++){ for(const k of ['s','x','y']){ const v='v'+k; cam[v]+=(w*w*(T[k]-cam[k])-2*w*cam[v])*dt_; cam[k]+=cam[v]*dt_; } }
+    const hx=(Math.sin(tc*.53)*.6+Math.sin(tc*1.31+1.7)*.3+Math.sin(tc*2.9+.4)*.1)*2.2, hy=(Math.sin(tc*.47+2.1)*.6+Math.sin(tc*1.13+.5)*.3+Math.sin(tc*2.3+1.1)*.1)*1.6;
+    const rot=(Math.sin(tc*.41+.3)*.6+Math.sin(tc*1.07)*.4)*.08;
+    if(window.__wallCam) __wallCam(cam.s*1.025,cam.x*960+hx,cam.y*540+hy,rot);   /* a wall draws it inside the picture (see kit.js WALL) */
+    else stage.style.transform='translate('+(cam.x*960+hx).toFixed(2)+'px,'+(cam.y*540+hy).toFixed(2)+'px) rotate('+rot.toFixed(3)+'deg) scale('+(cam.s*1.025).toFixed(4)+')'; }
+  const eo=clamp((t-D.end)/.45,0,1);
+  let io=0; if(IN){ io=clamp(Math.min((t-IN.t0)/.45,(IN.t1-t)/.6),0,1); const ie=$('.intro'); ie.hidden=io<=0;
+    if(io>0){ const u=clamp((t-IN.t0)/1.1,0,1); ie.style.opacity=io.toFixed(3); ie.querySelector('.t').style.transform='translateY('+((1-ease(u))*14).toFixed(1)+'px)'; ie.querySelector('.r').style.transform='scaleX('+ease(clamp((t-IN.t0-.3)/.9,0,1)).toFixed(3)+')'; } }
+  let ch=null; for(const c of (D.chapters||[])){ if(t>=c.t+2.4) ch=c; }
+  const cE=$('.chap'), ck=ch?ch.n+'':''; if(ck!==chKey){ chKey=ck; if(ch){ cE.firstChild.textContent=(ch.n<10?'0':'')+ch.n; cE.lastChild.textContent=ch.title; } }
+  cE.style.opacity=(ch?Math.min(1,(t-ch.t-2.4)/.6):0)*(1-io)*(1-eo);
+  let k=null; for(const q of D.kicks){ if(t>=q.t&&t<q.t+2.3) k=q; }
+  let g=null; for(const q of D.caps){ if(t>=q.t0&&t<q.t1){ g=q; break; } }
+  const cap=$('.cap');
+  if(g&&t<D.end){ const key=g.t0+''; if(key!==capKey){ capKey=key; cap.innerHTML='<b class="pill">'+g.w.map(w=>'<span'+(w[3]?' class="em"':'')+'>'+w[0].replace(/&/g,'&amp;').replace(/</g,'&lt;')+'</span>').join(' ')+'</b>'; }
+    const sp=cap.firstChild.children; g.w.forEach((w,i)=>{ const on=t>=w[1]-.04&&t<w[2]+.02, done=t>=w[2]; sp[i].className=(on?'on':done?'done':'')+(w[3]?' em':''); });
+    const u=t-g.t0; cap.style.opacity=(Math.min(1,u/.1)*(1-io)).toFixed(3); cap.style.transform='translateY('+(Math.max(0,1-u/.14)*6).toFixed(1)+'px)'; }
+  else { cap.style.opacity=0; capKey=''; }
+  let st=null; for(const q of D.stamps){ if(t>=q.t&&t<q.t+2.2) st=q; }
+  const se=$('.stamp'); if(st){ se.hidden=false; if(se.textContent!==st.text) se.textContent=st.text; se.style.color=st.c; const u=t-st.t, sk=Math.min(1,u/.16);
+    const sh=u<.3?Math.sin(u*90)*(1-u/.3)*3:0; se.style.transform='translate(-50%,-50%) rotate(-6deg) translate('+sh.toFixed(1)+'px,0) scale('+(1.9-.9*ease(sk)).toFixed(3)+')'; se.style.opacity=Math.min(sk*1.5,1)*Math.min(1,(2.2-u)/.35); } else se.hidden=true;
+  let ct=null; for(const q of D.counts){ if(t>=q.t&&t<q.t+3.2) ct=q; }
+  const ce=$('.count'); if(ct){ ce.hidden=false; const u=t-ct.t, v=ct.to*ease(Math.min(1,u/1.3)); ce.innerHTML=v.toLocaleString('en-GB',{minimumFractionDigits:ct.dec,maximumFractionDigits:ct.dec})+(ct.unit?'<small>'+ct.unit+'</small>':''); ce.style.opacity=Math.min(1,u/.2)*Math.min(1,(3.2-u)/.4); } else ce.hidden=true;
+  e.hidden=eo<=0; window.__covered=eo>=1; if(stage){ const v=eo>=1?'hidden':''; if(stage.style.visibility!==v) stage.style.visibility=v; } e.style.opacity=eo; e.style.transform='scale('+(1.03-.03*eo).toFixed(3)+')';
+ };
+}"""
+
+
+def _vf16(fps):
+    """The Shorts' film look (_vf) at 1920 x 1080: the same halation, curve, colour, fringing and grain, its plates scaled to the
+    landscape frame (halation at a quarter, grain at half resolution)."""
+    return ("[0:v]scale=1920:1080:flags=lanczos,format=gbrp,split[a][b];"
+            "[b]scale=480:270:flags=bilinear,curves=all='0/0 0.56/0 1/1',gblur=sigma=7,colorchannelmixer=rr=1.1:gg=.9:bb=.68,scale=1920:1080:flags=bicubic[g];"
+            "[a][g]blend=all_mode=screen:all_opacity=0.34,"
+            "curves=all='0/0.032 0.25/0.24 0.75/0.765 1/0.962',colorbalance=rs=-.018:bs=.022:rh=.028:bh=-.024,"
+            "rgbashift=rh=-1:bh=1,format=yuv420p,split[p1][p2];"
+            "[p2]scale=960:540:flags=bilinear,format=gray,geq=lum='128',format=yuv420p,noise=c0s=38:c0f=t,gblur=sigma=0.7,scale=1920:1080:flags=bicubic[n];"
+            "[p1][n]blend=all_mode=overlay:all_opacity=0.15,format=yuv420p[v]")
+
+
+SOFT16 = {"the", "a", "an", "of", "to", "from", "and", "in", "on", "at", "by", "for", "with", "or", "but", "as", "that", "his", "her", "their",
+          "its", "into", "than", "more", "some", "this", "these", "those", "is", "was", "were", "are", "be", "who", "which", "not", "no", "very"}
+
+
+def _split16(ws, mc, mw):
+    """A sentence too long for one caption, cut into the most even pieces that fit, preferring cuts after a comma and never
+    leaving a little word (the, of, from...) at the end of a line."""
+    L = lambda i, j: len(" ".join(w["disp"] for w in ws[i:j]))
+    n = len(ws)
+    if L(0, n) <= mc and n <= mw:
+        return [ws]
+    m = max(-(-L(0, n) // mc), -(-n // mw)); target = L(0, n) / m
+    def pen(w):
+        d = re.sub(r"[^\w']", "", w["disp"].lower())
+        return 4 + (-8 if re.search(r"[,;:]$", w["disp"]) else 0) + (12 if d in SOFT16 else 0)
+    dp, prev = [0.0] + [1e18] * n, [0] * (n + 1)
+    for j in range(1, n + 1):
+        for i in range(j - 1, -1, -1):
+            if L(i, j) > mc or j - i > mw:
+                break
+            c = dp[i] + (L(i, j) - target) ** 2 / 100 + (pen(ws[j - 1]) if j < n else 0)
+            if c < dp[j]:
+                dp[j], prev[j] = c, i
+    cuts, j = [], n
+    while j > 0:
+        cuts.append((prev[j], j)); j = prev[j]
+    return [ws[i:j] for i, j in reversed(cuts)]
+
+
+def captions16(words, max_chars=62, max_words=12):
+    """Long-form captions: sentence by sentence (a long one in even pieces), at most two lines of about 1300 px, never across
+    a beat, each word lighting as it is said."""
+    sents, cur = [], []
+    for i, w in enumerate(words):
+        cur.append(w)
+        nxt = words[i + 1] if i + 1 < len(words) else None
+        if w["end"] or not nxt or nxt["beat"] != w["beat"]:
+            sents.append(cur); cur = []
+    if cur:
+        sents.append(cur)
+    groups = [g for s in sents for g in _split16(s, max_chars, max_words)]
+    out = []
+    for gi, g in enumerate(groups):
+        t0 = g[0]["t0"] - 0.06
+        t1 = groups[gi + 1][0]["t0"] - 0.06 if gi + 1 < len(groups) else g[-1]["t1"] + 0.6
+        t1 = min(t1, g[-1]["t1"] + 1.1)
+        out.append({"t0": round(t0, 3), "t1": round(t1, 3), "w": [[x["disp"], x["t0"], x["t1"], 1 if x.get("em") else 0] for x in g]})
+    return out
+
+
+def chapters16(ep, beats):
+    """[{t, n, title}]: where each chapter starts (the start of its first beat, when the camera sets off for its card)."""
+    out = []
+    for bi, b in enumerate(ep["beats"]):
+        if b.get("chapter"):
+            out.append({"t": beats[bi]["t0"], "n": len(out) + 1, "title": b["chapter"]})
+    return out
+
+
+def intro16(ep, beats):
+    """The intro title card: over the title beat (role "title" or "intro": true), at least 3.4 s; without one, just after the hook."""
+    if not ep.get("intro_title"):
+        return None
+    bi = next((i for i, b in enumerate(ep["beats"]) if b.get("intro") or b.get("role") == "title"), None)
+    t0, t1 = (beats[bi]["t0"], beats[bi]["t1"] - 0.15) if bi is not None else (3.3, 7.3)
+    return {"t0": round(t0, 3), "t1": round(max(t1, t0 + 3.4), 3), "title": ep["intro_title"], "kicker": ep.get("series", "")}
+
+
+def youtube_chapters(chapters, total):
+    """YouTube's chapter list (first entry at 0:00)."""
+    f = lambda t: f"{int(t // 60)}:{int(t % 60):02d}"
+    rows = [] if chapters and chapters[0]["t"] < 1 else ["0:00 Introduction"]
+    return "\n".join(rows + [f"{f(c['t'])} {c['title']}" for c in chapters])
+
+
+def long_data(ep, beats, caps, stamps, counts, kicks, end, cams, fps):
+    """What OVERLAY16 needs to draw the HUD of a long film."""
+    return {"series": ((ep["code"] + " · ") if ep.get("code") else "") + ep.get("series", ""), "hook": ep["hook_text"], "handle": os.environ.get("RC_HANDLE", ""),
+            "src": ep.get("sources", ""), "caps": caps, "beats": [{k: b[k] for k in ("t0", "t1", "role", "visual", "frame")} for b in beats],
+            "stamps": stamps, "counts": counts, "kicks": kicks, "end": end, "cams": cams, "fps": 0 if fps < 50 else fps,
+            "note": ep.get("note", "Schematic reconstruction · sources in the description"), "claim": ep.get("claim", ""),
+            "vlabel": VERD.get(ep.get("verdict"), ""), "vcol": VCOL.get(ep.get("verdict"), "#fff"), "endLine": ep.get("end_line", ""),
+            "chapters": chapters16(ep, beats), "intro": intro16(ep, beats), "stageSel": f"#sy-{ep['id']} .sy-stage",
+            "mark1": MARK16.format(k="a"), "mark2": MARK16.format(k="b")}
+
+
 def encode(frames, audio, out, fps, part=None):
     """Whole film in one go, or (part=(a, b)) just frames a..b as a silent piece to be joined by mux()."""
     if part:
@@ -1076,6 +1305,9 @@ def main():
         voices_demo(a.out); return
     E = {e["id"]: e for e in json.load(open(os.path.join(ROOT, "episodes", os.environ.get("RC_EPISODES", "episodes3.json")), encoding="utf-8"))}
     ep = E[a.episode]
+    if ep.get("aspect") == "16:9":                         # a long film (16:9): voiced, filmed in chunks and assembled by longjob.py
+        import longjob
+        return longjob.from_reel(ep, a)
     fps = 15 if a.draft else a.fps
     work = os.path.join(a.out, "work", ep["id"] + "-v2"); os.makedirs(work, exist_ok=True)
     who = a.voice or ep.get("voice", NARRATOR)
