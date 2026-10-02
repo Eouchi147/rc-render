@@ -1,0 +1,876 @@
+{
+ "id": "lf-sea-peoples",
+ "kind": "theme",
+ "series": "Fallen Worlds",
+ "title": "The Sea Peoples and the End of the Bronze Age",
+ "intro_title": "The Sea Peoples and the End of the Bronze Age",
+ "yt_title": "The Sea Peoples: Who Really Ended the Bronze Age?",
+ "verdict": "Mixed record",
+ "hook": "Who brought down the Bronze Age world?",
+ "end_line": "A connected world is rich, until several things fail at once.",
+ "chapters": [
+  {
+   "title": "The Sea Peoples",
+   "beats": [
+    {
+     "role": "hook",
+     "lines": [
+      "[d:intrigue][sfx:boom][act:hushed wonder, drawing them in]Around {1177|eleven seventy-seven} BCE, a pharaoh of Egypt fought a battle at sea, and had it carved on his temple ^wall. [act:the image, vivid]Strange ships, with a bird's head at ^each end. [act:same, vivid]Warriors in feathered crowns and horned ^helmets.",
+      "[d:tension][act:grave, quickening]In those same decades, from Greece to Syria, palaces ^burned, or stood ^empty. [act:tolling them, slow][tune:level]^Mycenae. [act:heavier, slower][tune:level]The Hittite ^capital. [act:the last, final][tune:fall]The great port of ^Ugarit.",
+      "[d:intrigue][act:quiet, the voice from the past]Its king wrote to the king of ^Cyprus. [act:quoting him, urgent]'The enemy's ships ^came. [act:continuing the quote, grave]My cities were ^burned.'",
+      "[d:wonder][act:the child's question, wide-eyed][tune:rise]So who brought down the Bronze Age ^world?"
+     ],
+     "shots": [
+      {
+       "id": "s1",
+       "say": "Around 1177 BCE, a pharaoh of Egypt fought a battle at sea ... Warriors in feathered crowns and horned helmets.",
+       "draw": "HERO, fully drawn from the first frame: the Medinet Habu sea-battle relief as a carved sandstone wall in low raking light (warm stone blocks, sunk outlines with a dark shadow edge and a lit edge, columns of hieroglyphs along the top). Right: the pharaoh drawn huge in Egyptian profile under the blue crown, drawing his bow towards the ships. Left, over a band of zigzag water: Sea Peoples ships with a bird's head on the stem and on the stern, a mast with a crow's nest and a furled sail, warriors with round shields in feathered crowns and horned helmets; a capsized hull keel-up in the water with two warriors tumbling; an Egyptian ship with a lion's head on the prow, oars and archers, its grappling hook on an enemy rail; arrows in flight. The top left (hook title) is plain stone and glyph columns. At 'a bird's head at each end' gold rings draw round the bird heads of the top ship; at 'feathered crowns and horned helmets' a light picks out one crown and one horned helmet."
+      },
+      {
+       "id": "s2",
+       "say": "In those same decades, from Greece to Syria, palaces burned, or stood empty. Mycenae. The Hittite capital. The great port of Ugarit.",
+       "draw": "Night map of the eastern Mediterranean, View(19, 41, 29.5, 42.5): the land dark, the sea deep blue. Fires pop one after another as each place is tolled: Mycenae, Hattusa ('the Hittite capital'), Ugarit; faint smaller embers at Pylos, Tiryns and on Cyprus first. Three labels only (Mycenae, Hattusa, Ugarit).",
+       "reuse": "sea-peoples shot 1 (mapshot pins: Pylos, Mycenae, Hattusa, Ugarit) + sea_peoples_m fires, redrawn wide"
+      },
+      {
+       "id": "s3",
+       "say": "Its king wrote to the king of Cyprus. 'The enemy's ships came. My cities were burned.'",
+       "draw": "Lamplight on a clay tablet covered in cuneiform, on a wooden table in a dark room. Through the window behind it, a dusk sea: small dark ships with bird-head posts slide in from the left, and a glow of fire rises on the shore at 'burned'."
+      },
+      {
+       "id": "s4",
+       "say": "So who brought down the Bronze Age world?",
+       "draw": "The night map again, wider and dimmer, the fires still burning; six small dim icons pop round the sea one by one (a ship, a sun over cracked earth, an empty grain jar, a cracked wall, a copper ingot, a raised fist), and a large lilac question mark glows over the sea. No labels."
+      }
+     ]
+    },
+    {
+     "role": "title",
+     "intro": true,
+     "lines": [
+      "[d:calm][act:warm, setting out]The Sea Peoples, and the end of the Bronze ^Age. [act:the promise, friendly][tune:fall]Six suspects, and the clues to weigh each ^one."
+     ],
+     "shots": [
+      {
+       "id": "s5",
+       "say": "The Sea Peoples, and the end of the Bronze Age. Six suspects, and the clues to weigh each one.",
+       "draw": "The s4 panel held, dimmed under the full-frame intro title card; nothing else (the captions are hidden under the card).",
+       "reuse": "same panel as s4"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Raiders from the sea",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:setting the scene, unhurried]Egypt, around {1177|eleven seventy-seven} BCE. [act:storytelling, vivid]Ramesses the ^Third is in the eighth year of his reign, and invaders are coming by ^land, and by ^sea.",
+      "[act:explaining, clear]On land, his carvings show ox carts carrying women and ^children: [act:the point, gently]not just an ^army, but families on the ^move. [act:vivid, the battle]At sea, Egypt's rowing ships, packed with archers, catch their fleet in the mouths of the ^Nile. [act:same, vivid]Sailors throw grappling ^hooks, and tip the enemy ships ^over.",
+      "[act:explaining, a touch of irony]His temple, Medinet Habu, makes the enemy sound ^unstoppable. [act:quoting, grand]'No land could stand before their ^arms,' it says, naming the Hittites, Cyprus and ^Carchemish. [act:wry, a knowing aside][tune:fall]But it's the ^winner's version: in Carchemish, the kings ruled ^on."
+     ],
+     "shots": [
+      {
+       "id": "s6",
+       "say": "Ramesses the Third is in the eighth year of his reign, and invaders are coming by land, and by sea.",
+       "draw": "Map of Egypt and the Levant, View(26, 38, 24.5, 37.5): the Nile and its delta; a gold pin 'Medinet Habu' at Thebes (32.60 E, 25.72 N). Two dotted arrows (claimed, Egypt's account) draw in: one down the Levant coast towards the delta, with a small ox-cart icon ('by land'), one across the sea to the delta mouths, with small ships ('by sea'). Labels: Medinet Habu, by land, by sea, Nile."
+      },
+      {
+       "id": "s7",
+       "say": "On land, his carvings show ox carts carrying women and children: not just an army, but families on the move.",
+       "draw": "The land-battle relief in the same carved sandstone style: two two-wheeled carts with solid wheels, each pulled by a pair of humped oxen, women and children standing in them; a warrior with a feathered crown walks beside. The carts draw in left to right; a soft light settles on a mother holding a child at 'families on the move'."
+      },
+      {
+       "id": "s8",
+       "say": "At sea, Egypt's rowing ships, packed with archers, catch their fleet in the mouths of the Nile. Sailors throw grappling hooks, and tip the enemy ships over.",
+       "draw": "The sea battle closer, in the same carved style: an Egyptian ship rowing in from the left, archers at bow and stern; arrows fly as said; a Sea Peoples ship heels over under a grappling hook whose rope draws from the Egyptian prow; at the right another enemy ship tips over, half under the water, and a gold ring settles on it at 'tip the enemy ships over'.",
+       "reuse": "the s1 panel, new framing"
+      },
+      {
+       "id": "s9",
+       "say": "His temple, Medinet Habu, makes the enemy sound unstoppable.",
+       "draw": "Dawn at Medinet Habu: the temple's first pylon in elevation (two tapering towers, a gateway, flagstaff grooves), each tower carved with a giant smiting pharaoh; the long outer wall runs off to the right with bands of battle scenes; two small visitors at the foot for scale."
+      },
+      {
+       "id": "s10",
+       "say": "'No land could stand before their arms,' it says, naming the Hittites, Cyprus and Carchemish. But it's the winner's version: in Carchemish, the kings ruled on.",
+       "draw": "Map, View(24, 42, 30, 41.5): Egypt's claim drawn in the claimed (dotted) style: three lilac dotted rings with a cross pop on Hatti, Cyprus and Carchemish as they are named. At 'winner's version' the Carchemish ring turns solid green and a small crown pops on it ('ruled on'). Labels: Hatti, Cyprus, Carchemish, Egypt's claim."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:precise, informative]Egypt's texts name nine of these peoples, among them the Sherden, the Shekelesh and the ^Peleset. [act:plain, informative]Some had come ^before: about thirty years earlier, Pharaoh ^Merneptah fought a few of them, as allies of a Libyan ^king. [act:a fun fact, light]'Sea Peoples' isn't their name at ^all: French scholars coined it in the {1800s|eighteen hundreds}.",
+      "[act:curious, the old puzzle][tune:rise]So where were they ^from? [act:explaining, careful]Some names sound like ^places: the Lukka like Lycia, in southwest ^Turkey, the Sherden like ^Sardinia, the Shekelesh like ^Sicily. [act:honest, a gentle warning][tune:fall]But a name that sounds alike is a ^clue, not a ^passport.",
+      "[act:the challenger's case, fair][tune:rise]And could raiders really topple ^kingdoms? [act:his answer, clear]The historian Robert ^Drews argued ^yes. [p:0.93][act:explaining, vivid]Great kingdoms fought from ^chariots; swarms of foot soldiers with javelins and long swords could cut them ^down."
+     ],
+     "shots": [
+      {
+       "id": "s11",
+       "say": "Egypt's texts name nine of these peoples, among them the Sherden, the Shekelesh and the Peleset.",
+       "draw": "Nine warriors in carved profile stand in a row on the stone, popping in one by one as if counted (horned helmets, feathered crowns, caps); the three named ones take labels as said (Sherden, Shekelesh, Peleset), the Peleset glowing gold.",
+       "reuse": "sea_peoples_m 'nine' (helmeted figures, the Peleset glowing), redrawn wide"
+      },
+      {
+       "id": "s12",
+       "say": "Some had come before: about thirty years earlier, Pharaoh Merneptah fought a few of them ... French scholars coined it in the 1800s.",
+       "draw": "A timeline 1220 to 1170 BCE: a gold tick 'Ramesses III' (about 1177) is there from the start; at 'about thirty years earlier' a gold tick 'Merneptah' (about 1208) draws, five small helmeted heads pop beside it and a figure 'a Libyan king'. Then at 'Sea Peoples isn't their name' a small notebook opens at the right on the words 'peuples de la mer', tagged 'the 1800s'.",
+       "reuse": "sea-peoples shot 5 (timeline: Merneptah's battle, Ramesses III's battles)"
+      },
+      {
+       "id": "s13",
+       "say": "So where were they from? Some names sound like places ... But a name that sounds alike is a clue, not a passport.",
+       "draw": "Map of the central and eastern Mediterranean, View(5, 33, 33, 45): three dotted lilac lines (claimed) link each name to a place as said: Lukka to Lycia, Sherden to Sardinia, Shekelesh to Sicily, each place with a small '?'. At 'a clue, not a passport' a magnifying glass settles over the lines. Labels: Lycia, Sardinia, Sicily (the three names on the lines)."
+      },
+      {
+       "id": "s14",
+       "say": "And could raiders really topple kingdoms? The historian Robert Drews argued yes ... could cut them down.",
+       "draw": "A plain at dusk: a two-horse chariot with a driver and an archer (the great kingdoms' army) on the right, labelled 'chariots'; from the left a loose swarm of foot soldiers with round shields, javelins and long swords ('foot soldiers'); dotted lilac javelin arcs fly at the horses and a lilac caption reads 'Drews: a new way of fighting?' (his proposal, drawn as a claim)."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:the connection, interested]One name, the Peleset, is usually matched with the ^Philistines, who settled the coast of Canaan around this time, in cities like ^Ashkelon. [sfx:shimmer][act:the modern clue, intrigued]In {2019|twenty nineteen}, geneticists read@past the DNA of ten people buried there, before and after the Philistines ^came.",
+      "[p:0.93][act:the analogy, clear]Think of your DNA as a deck of cards, shuffled together from all your ^ancestors. [act:the reveal, careful]Four infants, buried with care under the floors of their homes soon after the Philistines arrived, held cards from a ^new deck, probably from southern ^Europe. [act:quiet, a small wonder]Within two centuries, those cards were shuffled into the local ^mix.",
+      "[act:the landing, warm][tune:fall]Raiders, ^yes. [act:same, warm][tune:fall]But also ^families, who ^stayed."
+     ],
+     "shots": [
+      {
+       "id": "s15",
+       "say": "One name, the Peleset, is usually matched with the Philistines ... in cities like Ashkelon.",
+       "draw": "Map of the southern Levant coast, View(32.2, 37.2, 30.6, 34.2): small ships arrive from the west (dotted); five Philistine city dots pop along the coast and inland (Gaza, Ashkelon, Ashdod, Ekron, Gath), only Ashkelon labelled (gold); a soft band 'Philistine cities'."
+      },
+      {
+       "id": "s16",
+       "say": "In 2019, geneticists read the DNA of ten people buried there, before and after the Philistines came.",
+       "draw": "A timeline of Ashkelon builds left to right in three bands: 'Bronze Age' with three figures, 'early Iron Age' with four small figures (infants), 'later Iron Age' with three figures; a gold tick 'the Philistines arrive' between the first two bands. The figures pop as counted (3, 4, 3)."
+      },
+      {
+       "id": "s17",
+       "say": "Think of your DNA as a deck of cards, shuffled together from all your ancestors.",
+       "draw": "Two fans of cards (amber and warm sand, two parents) slide together and riffle into one new fan in the middle; small labels 'mother', 'father', 'you'."
+      },
+      {
+       "id": "s18",
+       "say": "Four infants, buried with care under the floors of their homes ... most likely from southern Europe.",
+       "draw": "A house in section at dusk, a small lamp-lit hollow under its floor (a wrapped bundle shape, no bones), drawn with care; beside it a fan of amber cards with a few blue cards; a dotted blue arrow comes in from the west, labelled 'southern Europe?'."
+      },
+      {
+       "id": "s19",
+       "say": "Within two centuries, those cards were shuffled into the local mix.",
+       "draw": "Back on the s16 timeline: card fans pop under each band: all amber under the Bronze Age, amber with blue cards under the early Iron Age, and under the later Iron Age the blue cards fade back to amber; a bracket 'within two centuries'.",
+       "reuse": "the s16 panel, additions"
+      },
+      {
+       "id": "s20",
+       "say": "Raiders, yes. But also families, who stayed.",
+       "draw": "A coast at dusk: a ship with a bird-head post pulled up on the beach; a family (two adults, a child) walks up to a cluster of flat-roofed houses, a hearth glow; a second house rises."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "A world on fire",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:painting the picture, warm]Now picture the world they came ^into. [act:explaining, unhurried]A club of great kingdoms: Egypt, the Hittites, Babylon and ^Assyria, with the Mycenaean Greeks and Cyprus close@adj ^by. [act:a warm detail]They traded gold, grain and horses, and their kings called each other ^brother.",
+      "[act:the hub, vivid]At the crossroads sat ^Ugarit, a rich port on the Syrian coast where ships from Egypt, Cyprus and the Aegean ^met, with archives of clay ^letters."
+     ],
+     "shots": [
+      {
+       "id": "s21",
+       "say": "A club of great kingdoms: Egypt, the Hittites, Babylon and Assyria, with the Mycenaean Greeks and Cyprus close by. They traded gold, grain and horses, and their kings called each other brother.",
+       "draw": "Map of the whole Near East, View(19, 50, 24, 42.5), day-lit: the great kingdoms fill in as named (soft tinted areas): Egypt, Hatti, Babylon, Assyria, then the Mycenaean Greeks and Cyprus; amber trade lines draw between them, with tiny gold, grain and horse icons gliding along. Six labels at most (the six names)."
+      },
+      {
+       "id": "s22",
+       "say": "At the crossroads sat Ugarit, a rich port on the Syrian coast where ships from Egypt, Cyprus and the Aegean met, with archives of clay letters.",
+       "draw": "Ugarit at dusk from the sea: the city on its low mound, walls and a flat-roofed palace, lamps lit ('Ugarit'); three merchant ships under sail come in on dotted wakes as 'ships from Egypt, Cyprus and the Aegean' is said; a round lit niche with shelves of clay tablets pops at 'clay letters'."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:tension][act:grave, the letters speak]Remember the king who wrote to ^Cyprus? [act:plain]He was Ammurapi, Ugarit's ^last king, and his letter goes ^on. [act:quoting him, urgent]'All my troops and chariots are in the land of ^Hatti, and all my ships are in the land of ^Lukka.'",
+      "[p:0.9][act:quoting him, grave]'The seven ships of the enemy that came here inflicted much ^damage upon us.' [act:the punchline, quiet][tune:fall]Seven ^ships."
+     ],
+     "shots": [
+      {
+       "id": "s23",
+       "say": "Remember the king who wrote to Cyprus? He was Ammurapi, Ugarit's last king, and his letter goes on.",
+       "draw": "A closer lamplit view of the clay letter on its table (the room of s3), its wedges deep in the clay; 'Ammurapi' and 'the last king of Ugarit' appear beside it; warm lines run along the rows of wedges as if being read."
+      },
+      {
+       "id": "s24",
+       "say": "'All my troops and chariots are in the land of Hatti, and all my ships are in the land of Lukka.'",
+       "draw": "Map, View(26, 39, 32, 41.5): Ugarit glows; chariot marks march north-west into Hatti, ship marks sail west to Lukka (south-west Turkey); Ugarit is left with a dim, empty ring. Labels: Ugarit, Hatti, Lukka."
+      },
+      {
+       "id": "s25",
+       "say": "'The seven ships of the enemy that came here inflicted much damage upon us.' Seven ships.",
+       "draw": "Ugarit's coast at night seen from the sea: seven dark ships with bird-head posts pop in one by one, each numbered as counted (1 to 7); fires rise on the shore behind them; a large gold '7' at 'Seven ships'."
+      }
+     ]
+    },
+    {
+     "role": "cost",
+     "lines": [
+      "[d:build][act:explaining, the method]How do we date a ^fire? [p:0.93][act:the analogy, clear]Burnt seeds and olive stones hold a clock that runs down at a steady pace, like sand in an ^hourglass. [act:plain, the evidence]At Gibala, a harbour town of Ugarit's kingdom, that clock, checked against the tablets, puts the burning around {1190|eleven ninety} BCE. [act:quiet, the end][tune:fall]Then Ugarit's letters ^stop."
+     ],
+     "shots": [
+      {
+       "id": "s26",
+       "say": "How do we date a fire? Burnt seeds and olive stones hold a clock that runs down at a steady pace, like sand in an hourglass.",
+       "draw": "A handful of charred seeds and olive stones on dark ground beside an hourglass whose sand runs down; a bar 'carbon left' shrinks in step with it."
+      },
+      {
+       "id": "s27",
+       "say": "At Gibala, a harbour town of Ugarit's kingdom ... puts the burning around 1190 BCE. Then Ugarit's letters stop.",
+       "draw": "The mound of Gibala cut open on the left: layers, with a dark burnt layer that glows ('burnt layer'); dots mark samples taken from it and an arrow carries them to a timeline on the right (1250 to 1150 BCE), where a band settles at 'about 1190 BCE'. Then a row of small clay tablets ('letters') marching along the timeline stops at the band, empty outlines after it."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:the twist begins, curious]Now go inland, to the Hittite capital, ^Hattusa. [act:the surprise, careful]Its palace and temples burned, but archaeologists found the city had been emptied ^first: [act:explaining]the royal court and its treasures, ^gone. [act:wry, a raised eyebrow][tune:fall]Whoever lit the fire walked into a ghost ^town. [act:plain, fair]Perhaps old enemies from the northern hills, the ^Kaska. [act:the point, quiet][tune:fall]There's no sign of raiders from the ^sea.",
+      "[d:build][act:steady, moving west]In Greece, the palaces of Mycenae, Tiryns and Pylos burned, around {1200|twelve hundred} BCE. [act:a strange gift, wondering]At Pylos, the fire baked the palace's clay records@noun ^hard, saving its last year of ^paperwork. [p:0.9][act:the punchline, heavy][tune:fall]Then writing vanished from Greece for some four hundred ^years."
+     ],
+     "shots": [
+      {
+       "id": "s28",
+       "say": "Now go inland, to the Hittite capital, Hattusa ... the royal court and its treasures, gone.",
+       "draw": "Hattusa at dusk: the land climbs a ridge to the right, a wall with towers along the crest, a temple in the lower city, the citadel on its crag at the top ('Hattusa'). A line of small figures with carts and baskets of tablets leaves through a gate and walks off to the left along a dashed road ('the court leaves')."
+      },
+      {
+       "id": "s29",
+       "say": "Whoever lit the fire walked into a ghost town. Perhaps old enemies from the northern hills, the Kaska. There's no sign of raiders from the sea.",
+       "draw": "The same city, empty and dark: fire takes the citadel and the temple roofs; a few lilac dotted figures with torches come down from the northern hills ('Kaska?'); far left, a small ship outline in the claimed style with a faint cross: no sea raiders here.",
+       "reuse": "the s28 panel, additions"
+      },
+      {
+       "id": "s30",
+       "say": "In Greece, the palaces of Mycenae, Tiryns and Pylos burned, around 1200 BCE.",
+       "draw": "Map of the Peloponnese, View(20.6, 24.2, 36.3, 38.5): Mycenae, Tiryns and Pylos pop with fires as named; a small label 'around 1200 BCE'."
+      },
+      {
+       "id": "s31",
+       "say": "At Pylos, the fire baked the palace's clay records hard, saving its last year of paperwork.",
+       "draw": "The archive room of the palace at Pylos in section: shelves and baskets of pale unbaked leaf-shaped tablets; the fire's glow sweeps in and the tablets turn baked orange-red one after another. Label: Linear B tablets."
+      },
+      {
+       "id": "s32",
+       "say": "Then writing vanished from Greece for some four hundred years.",
+       "draw": "A timeline 1400 to 700 BCE: a band of little Linear B signs runs up to about 1200 and stops; a long empty grey gap with a bracket 'about 400 years'; at about 800 the first letters of the Greek alphabet begin. Labels: Linear B, no writing, alphabet."
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:reveal][act:the surprise, careful][tune:rise]And Cyprus, the island of ^copper? [act:plain]Some of its towns burned or were ^abandoned, but Kition was rebuilt, grander than ^before. [act:the landing, thoughtful][tune:fall]Not one crash, then: a ripple over ^decades, and not everyone ^fell."
+     ],
+     "shots": [
+      {
+       "id": "s33",
+       "say": "And Cyprus, the island of copper? Some of its towns burned or were abandoned, but Kition was rebuilt, grander than before.",
+       "draw": "Map of Cyprus: a copper ingot ('copper'); small town dots, two with fires and one fading to an empty dashed ring; Kition on the south coast glows gold as a new wall arc and a temple front draw themselves over the old outline ('Kition', 'rebuilt')."
+      },
+      {
+       "id": "s34",
+       "say": "Not one crash, then: a ripple over decades, and not everyone fell.",
+       "draw": "The eastern Mediterranean with a small timeline in a band along the top (about 1225 to about 1150 BCE): its gold bar draws across while fires light on the map one after another, scattered rather than in one sweep; then Egypt, Carchemish and Kition take green survivor marks."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Drought, hunger and quakes",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:turning the page, curious]Now, the suspects that don't come by ^ship. [act:explaining, the method]First, the ^weather. [p:0.93][act:the analogy, clear]Lake mud is a ^diary: year after year, pollen from the plants around it settles to the bottom, layer on ^layer. [act:explaining, patient]When tree pollen thins and dry-land plants take over, the land is ^drying.",
+      "[act:the evidence, plain]Cores from a salt lake on Cyprus, from the Syrian coast and from the Sea of Galilee tell the same ^story: [p:0.9][tune:fall]a long dry spell, taking hold around {1200|twelve hundred} BCE."
+     ],
+     "shots": [
+      {
+       "id": "s35",
+       "say": "First, the weather. Lake mud is a diary ... the land is drying.",
+       "draw": "A lake in section: trees and low dry-land shrubs on the shore; pollen grains drift down (round ones from trees, spiky ones from dry-land plants) and settle in thin layers at the bottom; a core tube pulls a column out beside it, where the round tree pollen thins towards the top and the spiky dry-land pollen takes over. Labels: tree pollen, dry-land plants, drying."
+      },
+      {
+       "id": "s36",
+       "say": "Cores from a salt lake on Cyprus, from the Syrian coast and from the Sea of Galilee tell the same story: a long dry spell, taking hold around 1200 BCE.",
+       "draw": "Map, View(31, 38, 31.5, 36.4): three core pins pop as named (Larnaca salt lake on Cyprus, the Syrian coast near Gibala, the Sea of Galilee), each with a small line chart beside it whose line drops at a gold tick marked 1200 BCE. Labels: the three places, around 1200 BCE."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:the sharper clock, intrigued]In {2023|twenty twenty-three} came a sharper ^clock. [act:explaining, the analogy]A tree grows one ring a year: wide in a wet year, thin in a dry ^one, [act:same, clear]so old timbers carry a barcode of ^years.",
+      "[act:the evidence, measured]Juniper timbers from Gordion, in central Turkey, show ^three drought years in a ^row@line, each drier than fifteen years out of ^sixteen, [p:0.9][act:the date, precise]around {1198|eleven ninety-eight} to {1196|eleven ninety-six} BCE, give or take ^three. [act:the link, quiet]Just as the Hittite empire was ^ending.",
+      "[act:explaining, warm]Farmers kept enough in store for one bad ^year. [act:quiet, the weight of it][tune:fall]Three in a row@line means ^famine."
+     ],
+     "shots": [
+      {
+       "id": "s37",
+       "say": "In 2023 came a sharper clock. A tree grows one ring a year ... so old timbers carry a barcode of years.",
+       "draw": "A sawn juniper trunk face on, its rings drawing out from the centre (a wide wet ring, a thin dry ring labelled as said); then a strip from the bark to the pith unrolls to the right into a long barcode of years.",
+       "reuse": "sea_peoples_m drought scene (tree rings), redrawn wide"
+      },
+      {
+       "id": "s38",
+       "say": "Juniper timbers from Gordion, in central Turkey ... Just as the Hittite empire was ending.",
+       "draw": "Map of central Turkey, View(29, 37, 37.5, 41.8): Gordion and Hattusa pins and a 230 km scale bar; beside it the barcode, where three thin bars in a row turn red at '1198 to 1196 BCE' with a small '+/- 3 years' bracket. Labels: Gordion, Hattusa, 1198 to 1196 BCE."
+      },
+      {
+       "id": "s39",
+       "say": "Farmers kept enough in store for one bad year. Three in a row means famine.",
+       "draw": "Three big storage jars in a row in a storeroom: year 1, the first drains and the store just covers it; year 2, the second drains; year 3, the third drains and all three stand empty; a dry sun icon over each year. Labels: year 1, year 2, year 3."
+      }
+     ]
+    },
+    {
+     "role": "cost",
+     "lines": [
+      "[d:build][act:connecting, clear]And the letters ^agree. [act:quoting, urgent]A Hittite king asks Ugarit for a ship of grain: [tune:level]'It is a matter of life or ^death!' [act:quoting, plain]Ugarit's king writes to Egypt: 'In the land of Ugarit there is a severe ^hunger.'",
+      "[act:the evidence, wry]And Pharaoh Merneptah, who had fought those early raiders, boasts of sending grain in ships, 'to keep alive the land of ^Hatti'. [act:the landing, plain][tune:fall]Hunger isn't a ^theory here. [act:same][tune:fall]People wrote it ^down."
+     ],
+     "shots": [
+      {
+       "id": "s40",
+       "say": "And the letters agree. A Hittite king asks Ugarit for a ship of grain ... 'In the land of Ugarit there is a severe hunger.'",
+       "draw": "Grain map, View(26, 39, 24.5, 41.5): a tablet icon travels from Hatti to Ugarit and a ship with grain sacks sails north-west from the Syrian coast towards the Hittite coast; then a second tablet icon travels from Ugarit to Egypt. Labels: Hatti, Ugarit, Egypt."
+      },
+      {
+       "id": "s41",
+       "say": "And Pharaoh Merneptah ... boasts of sending grain in ships, 'to keep alive the land of Hatti'. Hunger isn't a theory here. People wrote it down.",
+       "draw": "Same map: grain ships sail from the delta north to the Hittite coast; then the three letters stack up as clay tablets in a small dark box at the side with a wheat ear ('written down').",
+       "reuse": "the s40 panel, additions"
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:build][act:one more suspect, intrigued]One more natural suspect@noun: the ground ^itself. [act:explaining, plain]The Aegean is quake country, where two plates of the Earth's crust ^meet. [act:explaining, with care]At Mycenae, Tiryns and Midea, people were found under fallen ^stones. [p:0.93][act:the theory, fair]In {2000|two thousand}, the geophysicist Amos Nur and the archaeologist Eric Cline proposed an earthquake ^storm: [act:the analogy, clear]quake after quake for fifty years, like dominoes along a ^fault.",
+      "[d:tension][act:the test, crisp]In {2018|twenty eighteen}, seismologists put Tiryns and Midea to the ^test. [act:the result, measured]Most of the damage, they found, could have other ^causes, and a destructive quake there looks ^unlikely. [act:the landing, fair][tune:fall]The ground may have shaken, but cities in quake country usually ^rebuild."
+     ],
+     "shots": [
+      {
+       "id": "s42",
+       "say": "One more natural suspect: the ground itself. The Aegean is quake country, where two plates of the Earth's crust meet.",
+       "draw": "Map of the Aegean, View(19.5, 30, 34.2, 41): the arc where the African plate dives under the Aegean is drawn as a toothed line south of Crete; small quake rings pulse along it and across the Aegean. Labels: Aegean, plates meet."
+      },
+      {
+       "id": "s43",
+       "say": "At Mycenae, Tiryns and Midea, people were found under fallen stones.",
+       "draw": "The Lion Gate of Mycenae at dusk: two lions over the lintel, the huge blocks of the walls; to one side a stretch of wall has slumped and stones lie fallen, a small lamp glow over them (no bodies drawn). Label: Mycenae."
+      },
+      {
+       "id": "s44",
+       "say": "In 2000, the geophysicist Amos Nur and the archaeologist Eric Cline proposed an earthquake storm: quake after quake for fifty years, like dominoes along a fault.",
+       "draw": "On a dark table, a fault line drawn dotted red; nine dominoes stand along it and tip over one after another while a quake ring pops above each, all in the claimed style; 'an earthquake storm?' (lilac), 'Nur and Cline, 2000'; a small timeline 1225 to 1175 BCE under it."
+      },
+      {
+       "id": "s45",
+       "say": "In 2018, seismologists put Tiryns and Midea to the test ... cities in quake country usually rebuild.",
+       "draw": "Tiryns: a wall of big blocks in section, leaning a little ('Tiryns'); a seismometer trace and a scanner beam measure it ('the test'); three other causes pop beside it (a sagging foundation, fire, slow decay: 'other causes'); a chip 'quake: unlikely'; then a new top course of blocks rises on the wall ('rebuilt')."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "A web of failures",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:turning, curious]Now follow the metal that gave the age its ^name. [act:the recipe, clear]Bronze is a ^recipe: about ten parts copper to one part ^tin. [act:the catch, intrigued]Copper came from Cyprus; tin from far away, perhaps as far as Central ^Asia.",
+      "[act:the proof, vivid]Around {1300|thirteen hundred} BCE, a ship sank off southern Turkey, at ^Uluburun. [p:0.9][act:the punchline, savouring it]In its hold: about ten tonnes of copper, and a tonne of ^tin, enough for some eleven tonnes of ^bronze. [act:explaining][tune:fall]Almost no kingdom had both; everyone needed the sea ^lanes.",
+      "[act:the danger, quiet]Raiders on those lanes, or a buyer who can't pay, and the bronze ^stops."
+     ],
+     "shots": [
+      {
+       "id": "s46",
+       "say": "Bronze is a recipe: about ten parts copper to one part tin.",
+       "draw": "In the order said: a bronze blade rises from a glowing crucible ('bronze') at 'Bronze is a recipe'; ten copper ingots pop into two rows as counted ('10 parts copper'); one small tin ingot ('1 part tin'); arrows lead both into the crucible."
+      },
+      {
+       "id": "s47",
+       "say": "Copper came from Cyprus; tin from far away, perhaps as far as Central Asia.",
+       "draw": "A wide map, View(18, 72, 24, 45): Cyprus glows copper-red; a long dashed grey route draws from Central Asia across Iran and Mesopotamia to the coast. Labels: Cyprus, copper, tin, Central Asia."
+      },
+      {
+       "id": "s48",
+       "say": "Around 1300 BCE, a ship sank off southern Turkey, at Uluburun ... everyone needed the sea lanes.",
+       "draw": "Underwater: the wreck on a rocky slope with rows of four-handled copper ingots, stacks of tin ingots and storage jars; a diver with a lamp for scale; tallies pop as said: '10 tonnes of copper', '1 tonne of tin'."
+      },
+      {
+       "id": "s49",
+       "say": "Raiders on those lanes, or a buyer who can't pay, and the bronze stops.",
+       "draw": "Back on the wide map: small copper dots pass along three sea lanes from Cyprus; red strikes cut one lane at 'Raiders on those lanes' and another at 'a buyer who can't pay', and the dots beyond them never arrive; 'the bronze stops'.",
+       "reuse": "the s47 panel, additions"
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:tension][act:the inside story, careful][tune:rise]And trouble from ^within? [act:quoting, a sharp reply]A senior official on Cyprus wrote to Ugarit that the enemies were 'the people from your ^country', in 'your own ^ships'.",
+      "[act:the evidence, plain]Even in Egypt, the winner, about twenty years after the sea battle, the royal tomb builders put down their ^tools. [act:quoting, simple][tune:fall]'We are ^hungry!' [act:a small wonder]It's the first strike on ^record@noun. [act:quiet, with care][tune:fall]A few years later, Ramesses himself was killed in a palace ^plot."
+     ],
+     "shots": [
+      {
+       "id": "s50",
+       "say": "And trouble from within? A senior official on Cyprus wrote to Ugarit ... 'your own ships'.",
+       "draw": "Two coasts face each other across a strip of sea (Cyprus left, Ugarit right); a clay letter sails from Cyprus to Ugarit; then Ugarit's own ships, drawn in Ugarit's amber, turn round in dotted arcs towards their own coast. Labels: Cyprus, Ugarit, your own ships?"
+      },
+      {
+       "id": "s51",
+       "say": "Even in Egypt, the winner ... the royal tomb builders put down their tools. 'We are hungry!' It's the first strike on record.",
+       "draw": "The Theban cliffs at dusk and a temple wall; the royal tomb builders sit down on the ground, chisels and mallets laid beside them ('tomb builders'); an empty grain basket glows ('no grain'); 'the first strike on record'."
+      },
+      {
+       "id": "s52",
+       "say": "A few years later, Ramesses himself was killed in a palace plot.",
+       "draw": "A dark palace hall: an empty throne with the blue crown resting on it; a lamp beside it gutters and dims. No label."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:the big picture, measured]So many historians now speak of a perfect@adj ^storm, or, in the archaeologist Colin Renfrew's phrase, a systems ^collapse. [p:0.93][act:the analogy, clear]Think of a spider's web: cut one thread, and it ^holds; cut five, and it ^tears@rip. [act:explaining]Drought, hunger, quakes, raiders, revolt and broken ^trade: each survivable alone, but not all at ^once.",
+      "[d:aside][act:the fair objection, even][tune:rise]The catch? [act:honest, plain]A storm of everything can explain almost ^anything. [act:fair, careful]And the archaeologists Bernard Knapp and Sturt Manning point out that each place fell, or didn't, in its own ^way."
+     ],
+     "shots": [
+      {
+       "id": "s53",
+       "say": "So many historians now speak of a perfect storm ... each survivable alone, but not all at once.",
+       "draw": "A web of six nodes in an ellipse (pictures: a sun over cracked earth, an empty jar, a cracked wall, a ship, a raised fist, a copper ingot), every node linked to every other by thin threads; at 'cut one thread' one thread is struck through and 'holds' appears; at 'cut five' four more are struck and 'tears' replaces it; the six causes take their names as they are said; all glow at 'not all at once'.",
+       "reuse": "sea_peoples_m web of six causes with red strikes, redrawn wide"
+      },
+      {
+       "id": "s54",
+       "say": "The catch? A storm of everything can explain almost anything ... each place fell, or didn't, in its own way.",
+       "draw": "A storm swirl with a lilac question mark ('explains anything?'); then the eastern Mediterranean as a mosaic of fates as Knapp and Manning are named: fire for burned (Pylos, Mycenae, Tiryns, Ugarit, Gibala, Enkomi), an empty dashed ring for abandoned (Hattusa), green for survived (Carchemish, Egypt), gold for rebuilt (Kition), with a small key (burned, abandoned, survived)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The weighing",
+   "beats": [
+    {
+     "role": "weigh",
+     "lines": [
+      "[d:verdict][act:stepping back, calm]So, the ledger, one line for each ^suspect@noun. [act:clear, counting them off][tune:level]Raiders and migrants from the sea: real and destructive, ^*established*. [act:same steady pace][tune:level]Drought: *strong ^evidence*. [act:same steady pace][tune:level]Hunger: *strong ^evidence*, in their own ^letters.",
+      "[act:same pace][tune:level]Earthquakes: an *open ^question*. [act:same pace][tune:level]Broken trade: ^*plausible*. [act:same pace][tune:level]Revolt from within: some hints, but *awaiting ^evidence*. [act:closing the column][tune:fall]And the perfect@adj storm that ties them together: ^*plausible*, but hard to ^test.",
+      "[d:verdict][act:firm, plain]One culprit for every fire, from Greece to ^Syria: *ruled ^out*. [p:0.95][act:weighing it, calm][tune:rise]So, did the Sea Peoples bring down the Bronze Age ^world? [act:the verdict, balanced][tune:fall]*Mixed ^record@noun*. [act:fair, warm]They were real, and they burned ^cities. [act:the turn, thoughtful]But they look like one cause among several: [p:0.93][act:the analogy, gentle]like a ^fever, real, but a sign of something ^deeper."
+     ],
+     "shots": [
+      {
+       "id": "s55",
+       "say": "So, the ledger, one line for each suspect. Raiders and migrants from the sea ... Hunger: strong evidence, in their own letters.",
+       "draw": "A ledger board, first half: three rows, each with a small picture at the left (a bird-head ship, a sun over cracked earth, an empty grain jar); each row lights and its chip pops in its grade colour as the grade is said: 'Established', 'Strong evidence', 'Strong evidence'."
+      },
+      {
+       "id": "s56",
+       "say": "Earthquakes: an open question. Broken trade: plausible. Revolt from within: some hints, but awaiting evidence.",
+       "draw": "The ledger's second half, three more rows (a cracked wall, a copper ingot, a raised fist): chips 'Open question', 'Plausible', 'Awaiting evidence' pop as said."
+      },
+      {
+       "id": "s57",
+       "say": "And the perfect storm that ties them together: plausible, but hard to test.",
+       "draw": "Back on the web of six (s53), whole again and softly lit; a chip 'Plausible' pops at its centre and a small 'hard to test' under it.",
+       "reuse": "the s53 panel, additions"
+      },
+      {
+       "id": "s58",
+       "say": "One culprit for every fire, from Greece to Syria: ruled out.",
+       "draw": "Back on the mosaic map (s54): one dotted lilac arrow tries to join every fire to a single ship icon, and a chip 'Ruled out' pops over it.",
+       "reuse": "the s54 panel, additions"
+      },
+      {
+       "id": "s59",
+       "say": "So, did the Sea Peoples bring down the Bronze Age world? Mixed record ... like a fever, real, but a sign of something deeper.",
+       "draw": "The bird-head ship carved on a stone slab in the centre, the five other causes as small dim pictures on either side; a large chip 'Mixed record' pops above at the verdict; 'one cause among several'; at 'like a fever' a thermometer at the side fills red and the slab glows warmer."
+      }
+     ]
+    },
+    {
+     "role": "test",
+     "lines": [
+      "[d:tension][act:practical, counting them off][tune:rise]What would settle the order of ^events? [act:same beat][tune:level]Destruction layers dated to the ^decade, site by site, to see who fell ^first. [act:same beat][tune:level]Tree rings from the ^coasts, not just from central ^Turkey. [act:same beat][tune:level]More ancient DNA from the Philistine cities and the ^Aegean, and the chemistry of teeth, which remembers where a child grew ^up. [act:the last one, hopeful][tune:fall]And about a hundred tablets from Ugarit's last archive, still waiting to be ^published."
+     ],
+     "shots": [
+      {
+       "id": "s60",
+       "say": "What would settle the order of events? Destruction layers dated to the decade, site by site, to see who fell first.",
+       "draw": "Six small site columns side by side (Pylos, Mycenae, Hattusa, Ugarit, Gibala, Enkomi), each with a glowing burnt layer at a different depth; dashed lines drop from each burnt layer to a timeline below, where dashed rings wait for their dates ('who fell first?')."
+      },
+      {
+       "id": "s61",
+       "say": "Tree rings from the coasts, not just from central Turkey.",
+       "draw": "The eastern Mediterranean: a solid tree-ring icon at Gordion ('Gordion'); dashed ring icons pop at the coasts (Greece, Cyprus, the Syrian and Philistine coasts): records still 'wanted'."
+      },
+      {
+       "id": "s62",
+       "say": "More ancient DNA from the Philistine cities and the Aegean, and the chemistry of teeth, which remembers where a child grew up.",
+       "draw": "A DNA helix draws itself; dashed arrows link the Aegean and the Philistine coast on a small map; a tooth beside it glows with layered bands (where a child grew up). Labels: DNA, teeth."
+      },
+      {
+       "id": "s63",
+       "say": "And about a hundred tablets from Ugarit's last archive, still waiting to be published.",
+       "draw": "A museum storeroom by lamplight: shelves of boxes holding small clay tablets that pop in by the dozen to about a hundred; one tablet glows. Label: about 100 tablets."
+      }
+     ]
+    },
+    {
+     "role": "close",
+     "lines": [
+      "[d:wonder][act:quiet, warm, to the viewer][tune:rise]What does@verb it mean for ^us? [act:same, warm]A connected world is rich, and it can fall faster than anyone ^expects, when several things fail at ^once. [act:the turn, gentle]Yet in the ruins, traders on the Levant coast spread a simple script of twenty-two ^letters: [act:the last image, a smile]the likely ancestor of the letters you're reading ^now. [act:the last word, a smile][tune:fall]Weigh it ^yourself."
+     ],
+     "shots": [
+      {
+       "id": "s64",
+       "say": "What does it mean for us? A connected world is rich, and it can fall faster than anyone expects, when several things fail at once.",
+       "draw": "The trade map of the great kingdoms at night, its routes glowing gold between lamp-lit capitals; red strikes break the routes one after another, faster towards the end, and the whole map darkens at 'fail at once'."
+      },
+      {
+       "id": "s65",
+       "say": "Yet in the ruins, traders on the Levant coast spread a simple script of twenty-two letters ... Weigh it yourself.",
+       "draw": "Dawn over the sea off the Levant coast; a merchant ship sails, its wake drawn behind it; twenty-two simple letter shapes draw themselves one by one in a line above the water ('22 letters'); a gold ring settles on the first, the ox-head aleph, and an arrow leads down to a capital A. The camera holds still for the end card."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "description": "Around 1177 BCE, Ramesses III had a sea battle carved on his temple at Medinet Habu: ships with a bird's head at each end, warriors in feathered crowns and horned helmets. In the same decades, palaces from Greece to Syria burned or were abandoned, and the last king of Ugarit wrote that enemy ships had burned his cities.\n\nDid the Sea Peoples bring down the Bronze Age world? We weigh six suspects one by one: raiders and migrants (the Medinet Habu texts, the last letters of Ugarit, ancient DNA from Philistine Ashkelon), drought (lake cores and the tree rings of Gordion), hunger, earthquakes, broken trade and revolt, and the idea of a perfect storm. Verdict: Mixed record.\n\nChapters\n0:00 The Sea Peoples\nmm:ss Raiders from the sea\nmm:ss A world on fire\nmm:ss Drought, hunger and quakes\nmm:ss A web of failures\nmm:ss The weighing\n\nSources\nEpigraphic Survey 1930, Medinet Habu I: Earlier Historical Records of Ramses III (Oriental Institute Publications 8)\nEdgerton & Wilson 1936, Historical Records of Ramses III (Studies in Ancient Oriental Civilization 12)\nCline 2014, 1177 B.C.: The Year Civilization Collapsed (Princeton University Press; revised edition 2021)\nKnapp & Manning 2016, American Journal of Archaeology 120(1): 99-149, doi:10.3764/aja.120.1.0099\nKaniewski et al. 2011, PLoS ONE 6(6): e20232, doi:10.1371/journal.pone.0020232\nKaniewski et al. 2013, PLoS ONE 8(8): e71004, doi:10.1371/journal.pone.0071004\nLanggut, Finkelstein & Litt 2013, Tel Aviv 40(2): 149-175, doi:10.1179/033443513X13753505864205\nManning et al. 2023, Nature 614: 719-724, doi:10.1038/s41586-022-05693-y\nFeldman et al. 2019, Science Advances 5(7): eaax0061, doi:10.1126/sciadv.aax0061\nDrews 1993, The End of the Bronze Age (Princeton University Press)\nNougayrol et al. 1968, Ugaritica V (Mission de Ras Shamra 16)\nNur & Cline 2000, Journal of Archaeological Science 27(1): 43-63, doi:10.1006/jasc.1999.0431\nHinzen et al. 2018, Bulletin of the Seismological Society of America 108(3A): 1046-1071, doi:10.1785/0120170348\nPulak 2008, The Uluburun shipwreck and Late Bronze Age trade, in Beyond Babylon (Metropolitan Museum of Art)\nBryce 2005, The Kingdom of the Hittites (Oxford University Press)\nHawass et al. 2012, BMJ 345: e8268, doi:10.1136/bmj.e8268",
+ "sources": [
+  "The Epigraphic Survey 1930, Medinet Habu I: Earlier Historical Records of Ramses III, Oriental Institute Publications 8, University of Chicago Press (the naval and land battle reliefs, plates 29-44)",
+  "Edgerton, W. F. & Wilson, J. A. 1936, Historical Records of Ramses III: The Texts in Medinet Habu Volumes I and II, Studies in Ancient Oriental Civilization 12, University of Chicago Press",
+  "Wilson, J. A. 1969, translation of the year 8 inscription of Ramesses III, in Pritchard, J. B. (ed.), Ancient Near Eastern Texts Relating to the Old Testament, 3rd ed., Princeton University Press, p. 262 ('The foreign countries made a conspiracy in their islands... No land could stand before their arms, from Hatti, Kode, Carchemish, Arzawa, and Alashiya on')",
+  "Breasted, J. H. 1906, Ancient Records of Egypt III-IV, University of Chicago Press (Merneptah's Great Karnak Inscription; Medinet Habu, iv.65-66)",
+  "Cline, E. H. 2014, 1177 B.C.: The Year Civilization Collapsed, Princeton University Press; revised and updated edition 2021 (year 8 = 1177 BCE; 'perfect storm'; translation of RS 20.18, p. 151)",
+  "Cline, E. H. 2024, After 1177 B.C.: The Survival of Civilizations, Princeton University Press",
+  "Knapp, A. B. & Manning, S. W. 2016, Crisis in Context: The End of the Late Bronze Age in the Eastern Mediterranean, American Journal of Archaeology 120(1): 99-149, doi:10.3764/aja.120.1.0099",
+  "Kaniewski, D. et al. 2011, The Sea Peoples, from Cuneiform Tablets to Carbon Dating, PLoS ONE 6(6): e20232, doi:10.1371/journal.pone.0020232",
+  "Kaniewski, D. et al. 2013, Environmental Roots of the Late Bronze Age Crisis, PLoS ONE 8(8): e71004, doi:10.1371/journal.pone.0071004",
+  "Langgut, D., Finkelstein, I. & Litt, T. 2013, Climate and the Late Bronze collapse: new evidence from the southern Levant, Tel Aviv 40(2): 149-175, doi:10.1179/033443513X13753505864205",
+  "Manning, S. W., Kocik, C., Lorentzen, B. & Sparks, J. P. 2023, Severe multi-year drought coincident with Hittite collapse around 1198-1196 bc, Nature 614: 719-724, doi:10.1038/s41586-022-05693-y",
+  "Cornell Chronicle, 8 February 2023, Drought may have doomed the Hittite empire (Manning on one, two and three dry years)",
+  "Feldman, M. et al. 2019, Ancient DNA sheds light on the genetic origins of early Iron Age Philistines, Science Advances 5(7): eaax0061, doi:10.1126/sciadv.aax0061",
+  "Drews, R. 1993, The End of the Bronze Age: Changes in Warfare and the Catastrophe ca. 1200 B.C., Princeton University Press (reviewed in BMCR 1994.01.09)",
+  "Nougayrol, J., Laroche, E., Virolleaud, C. & Schaeffer, C. F.-A. (eds) 1968, Ugaritica V, Mission de Ras Shamra 16, Paris (RS 20.238, Ammurapi to the king of Alashiya, pp. 87-89; RS 20.212, the Hittite grain request, pp. 105-107)",
+  "Archaeology (Archaeological Institute of America), July/August 2021, The Ugarit Archives (the house of Urtenu; Ammurapi's letter on hunger; tablets still unpublished)",
+  "Singer, I. 1999, A Political History of Ugarit, in Watson, W. G. E. & Wyatt, N. (eds), Handbook of Ugaritic Studies, Brill (Merneptah's grain for Hatti)",
+  "Bryce, T. 2005, The Kingdom of the Hittites, new edition, Oxford University Press (the abandonment of Hattusa; the Kaska)",
+  "Seeher, J. 2001, Die Zerstörung der Stadt Hattuša, in Wilhelm, G. (ed.), Akten des IV. Internationalen Kongresses für Hethitologie, Harrassowitz, pp. 623-634",
+  "Bryce, T. 2012, The World of the Neo-Hittite Kingdoms, Oxford University Press (Carchemish after the fall of Hattusa; Kuzi-Teshub, Great King)",
+  "Blegen, C. W. & Rawson, M. 1966, The Palace of Nestor at Pylos in Western Messenia I, Princeton University Press (the burnt palace and its baked Linear B archive)",
+  "Kyprios Character (National Hellenic Research Foundation), Kition: monumental renewal in the 12th century BCE",
+  "Nur, A. & Cline, E. H. 2000, Poseidon's Horses: Plate Tectonics and Earthquake Storms in the Late Bronze Age Aegean and Eastern Mediterranean, Journal of Archaeological Science 27(1): 43-63, doi:10.1006/jasc.1999.0431",
+  "Hinzen, K.-G. et al. 2018, Reassessing the Mycenaean Earthquake Hypothesis: Results of the HERACLES Project from Tiryns and Midea, Greece, Bulletin of the Seismological Society of America 108(3A): 1046-1071, doi:10.1785/0120170348",
+  "Pulak, C. 2008, The Uluburun Shipwreck and Late Bronze Age Trade, in Aruz, J., Benzel, K. & Evans, J. M. (eds), Beyond Babylon: Art, Trade, and Diplomacy in the Second Millennium B.C., Metropolitan Museum of Art, pp. 289-310",
+  "Museo Egizio, Turin, The Turin Strike Papyrus (Cat. 1880), year 29 of Ramesses III",
+  "Hawass, Z. et al. 2012, Revisiting the harem conspiracy and death of Ramesses III: anthropological, forensic, radiological, and genetic study, BMJ 345: e8268, doi:10.1136/bmj.e8268",
+  "Renfrew, C. 1979, Systems collapse as social transformation, in Renfrew, C. & Cooke, K. L. (eds), Transformations: Mathematical Approaches to Culture Change, Academic Press, pp. 481-506",
+  "Bentley, R. A. 2006, Strontium isotopes from the earth to the archaeological skeleton: a review, Journal of Archaeological Method and Theory 13: 135-187, doi:10.1007/s10816-006-9009-x",
+  "Encyclopaedia Britannica, Phoenician alphabet (22 letters; the Ahiram epitaph, 11th century BCE; the probable ancestor of the Greek alphabet and of all Western alphabets)",
+  "Short 'sea-peoples' (films/f11.py, films/rewrite/sea-peoples.json): Cline 2014; Knapp & Manning 2016; Kaniewski et al. 2011; Manning et al. 2023; Feldman et al. 2019; Drews 1993"
+ ],
+ "facts_added": [
+  {
+   "fact": "The year 8 inscription at Medinet Habu says 'The foreign countries made a conspiracy in their islands... No land could stand before their arms, from Hatti, Kode, Carchemish, Arzawa, and Alashiya on'; it names the Peleset, Tjeker, Shekelesh, Denyen and Weshesh.",
+   "source": "Wilson 1969, in Pritchard (ed.), Ancient Near Eastern Texts, p. 262; Edgerton & Wilson 1936"
+  },
+  {
+   "fact": "The year 8 battle is usually dated to about 1177 BCE (other chronologies give about 1179 to 1175 BCE); it was fought on land and at sea, the sea battle in the river mouths of the delta.",
+   "source": "Cline 2014; Breasted 1906, iv.65-66"
+  },
+  {
+   "fact": "In the land-battle reliefs, Peleset and Tjeker warriors are accompanied by women and children in ox carts.",
+   "source": "Epigraphic Survey 1930, Medinet Habu I; Cline 2014"
+  },
+  {
+   "fact": "In the naval relief the Sea Peoples' ships have a bird-head device on both stems, sails furled; warriors wear horned helmets on two ships and feathered headdresses on three; one enemy ship is capsized; the Egyptian ships are rowed, carry archers, and use grappling hooks.",
+   "source": "Epigraphic Survey 1930, Medinet Habu I; Nelson 1943 and Wachsmann, as summarised by the ULB Ancient Mediterranean database; Cline 2014"
+  },
+  {
+   "fact": "Carchemish survived the fall of Hattusa: Kuzi-Teshub, son of its last Hittite viceroy, styled himself Great King (seal impressions from Lidar Hoyuk).",
+   "source": "Bryce 2012, The World of the Neo-Hittite Kingdoms"
+  },
+  {
+   "fact": "Egyptian texts name nine groups: Sherden, Shekelesh, Ekwesh, Lukka and Teresh under Merneptah (his year 5, about 1208 BCE, as allies of the Libyans) and Peleset, Tjeker, Denyen and Weshesh (with Sherden, Shekelesh and Teresh) under Ramesses III.",
+   "source": "Cline 2014; Breasted 1906 (Great Karnak Inscription)"
+  },
+  {
+   "fact": "The term 'Sea Peoples' (peuples de la mer) is modern, coined by French Egyptologists in the 19th century (de Rouge 1855; popularised by Maspero).",
+   "source": "Cline 2014 ('early French Egyptologists dubbed them the Sea Peoples')"
+  },
+  {
+   "fact": "Name links to places (Lukka with Lycia; Sherden with Sardinia; Shekelesh with Sicily) are proposals; the Shekelesh origin in particular remains uncertain. Lukka is generally placed in south-west Anatolia.",
+   "source": "Cline 2014; Knapp & Manning 2016"
+  },
+  {
+   "fact": "Drews argued that the catastrophe came when raiders realised chariot-based armies could be overwhelmed by swarming infantry with javelins and long swords; he rejected earthquakes, drought and systems collapse as main causes.",
+   "source": "Drews 1993; BMCR 1994.01.09"
+  },
+  {
+   "fact": "Ten individuals from Ashkelon were sequenced (3 Late Bronze Age, 4 early Iron Age infants buried under house floors, 3 later Iron Age); the early Iron Age individuals carry a European-related ancestry component absent before; within no more than two centuries it is no longer detectable; a southern European source is plausible but not pinpointed.",
+   "source": "Feldman et al. 2019, Science Advances, doi:10.1126/sciadv.aax0061"
+  },
+  {
+   "fact": "Ammurapi, the last king of Ugarit, wrote to the king of Alashiya: 'My father, behold, the enemy's ships came (here); my cities(?) were burned... all my troops and chariots(?) are in the Land of Hatti, and all my ships are in the Land of Lukka... the seven ships of the enemy that came here inflicted much damage upon us.'",
+   "source": "Nougayrol et al. 1968, Ugaritica V, no. 24 (RS 20.238)"
+  },
+  {
+   "fact": "Gibala (Tell Tweini), a harbour town at the southern edge of the kingdom of Ugarit: short-lived samples (olive stones, seeds, young branches) from the destruction layer, combined with the tablets and an eclipse, place the destruction at 1192-1190 BCE.",
+   "source": "Kaniewski et al. 2011, PLoS ONE, doi:10.1371/journal.pone.0020232"
+  },
+  {
+   "fact": "Hattusa was burned early in the 12th century BCE after much of it had already been abandoned, the court, its portable valuables and important official records gone; the final blow may have come from the Kaska of the northern hills.",
+   "source": "Seeher 2001; Bryce 2005"
+  },
+  {
+   "fact": "The palace of Nestor at Pylos burned about 1180 BCE; the fire baked its clay Linear B tablets, preserving the records of its final year.",
+   "source": "Blegen & Rawson 1966"
+  },
+  {
+   "fact": "After the palaces fell, writing disappears from Greece until the Greek alphabet, about four centuries later (8th century BCE).",
+   "source": "Cline 2014; Knapp & Manning 2016"
+  },
+  {
+   "fact": "On Cyprus some sites were destroyed or abandoned around 1200 BCE, but prosperity continued into the 12th century; Kition saw a monumental renewal in the 12th century BCE.",
+   "source": "Knapp & Manning 2016; Kyprios Character, Kition"
+  },
+  {
+   "fact": "Pollen from the Larnaca Salt Lake (Cyprus) and coastal Syria marks the onset of a roughly 300-year drought about 3200 years ago; a Sea of Galilee core shows the driest event of the Bronze and Iron Ages about 1250-1100 BCE.",
+   "source": "Kaniewski et al. 2013, PLoS ONE; Langgut, Finkelstein & Litt 2013, Tel Aviv"
+  },
+  {
+   "fact": "Juniper ring widths and carbon isotopes from Gordion, about 230 km west of Hattusa, show an unusually severe continuous dry period about 1198-1196 (+/- 3) BCE: three consecutive years in the lowest 6.25% of values (drier than 15 years in 16).",
+   "source": "Manning et al. 2023, Nature, doi:10.1038/s41586-022-05693-y"
+  },
+  {
+   "fact": "Manning: one drought year was manageable with stored provisions; a second strains the system; three consecutive years would bring famine.",
+   "source": "Cornell Chronicle, 8 February 2023"
+  },
+  {
+   "fact": "A Hittite king asked Ugarit for a ship and crew to carry about 2,000 measures of grain: 'It is a matter of life or death!'",
+   "source": "Nougayrol et al. 1968, Ugaritica V, pp. 105-107 (RS 20.212); Cline 2014"
+  },
+  {
+   "fact": "Ammurapi wrote to the pharaoh: 'In the land of Ugarit there is a severe hunger. May my Lord save it...'",
+   "source": "Archaeology, July/August 2021, The Ugarit Archives"
+  },
+  {
+   "fact": "Merneptah's inscription says he 'caused grain to be taken in ships, to keep alive this land of Hatti'.",
+   "source": "Breasted 1906 (Great Karnak Inscription); Singer 1999"
+  },
+  {
+   "fact": "Nur and Cline proposed an 'earthquake storm' about 1225-1175 BCE, listing 47 destroyed sites and skeletons found under fallen stones at Mycenae, Tiryns and Midea.",
+   "source": "Nur & Cline 2000, Journal of Archaeological Science, doi:10.1006/jasc.1999.0431"
+  },
+  {
+   "fact": "The HERACLES project concluded that a destructive earthquake at Tiryns and Midea is unlikely: most observed damage can be explained by non-seismic causes.",
+   "source": "Hinzen et al. 2018, BSSA, doi:10.1785/0120170348"
+  },
+  {
+   "fact": "The Uluburun ship (end of the 14th century BCE) carried about 10 tonnes of Cypriot copper in 354 ingots and nearly a tonne of tin, enough for about 11 tonnes of bronze at the 10 to 1 ratio; its tin may come partly from Central Asia.",
+   "source": "Pulak 2008, in Beyond Babylon"
+  },
+  {
+   "fact": "An official of Alashiya (Eshuwara) answered Ugarit: 'As for the matter concerning those enemies: (it was) the people from your country (and) your own ships (who) did this!'",
+   "source": "Cline 2014, p. 151 (RS 20.18)"
+  },
+  {
+   "fact": "In year 29 of Ramesses III the necropolis workmen stopped work because their grain rations were late ('We are hungry!'): the first recorded strike.",
+   "source": "Museo Egizio, Turin Strike Papyrus (Cat. 1880)"
+  },
+  {
+   "fact": "Ramesses III was killed in the harem conspiracy; CT of his mummy shows a deep throat wound.",
+   "source": "Hawass et al. 2012, BMJ, doi:10.1136/bmj.e8268"
+  },
+  {
+   "fact": "Knapp and Manning argue no single overarching explanation accounts for all the changes, and call for decade-level chronologies, coordinated radiocarbon and local high-resolution climate records.",
+   "source": "Knapp & Manning 2016, AJA"
+  },
+  {
+   "fact": "About a hundred tablets from the house of Urtenu at Ugarit are believed to remain unpublished in Syrian storerooms and museums.",
+   "source": "Archaeology, July/August 2021"
+  },
+  {
+   "fact": "Strontium isotopes in tooth enamel record the geology of the place where a person grew up.",
+   "source": "Bentley 2006, Journal of Archaeological Method and Theory"
+  },
+  {
+   "fact": "The Phoenician alphabet had 22 letters; its earliest surviving inscription (Ahiram, Byblos) is of the 11th century BCE; it is the probable ancestor of the Greek alphabet and so of Western alphabets.",
+   "source": "Encyclopaedia Britannica, Phoenician alphabet"
+  }
+ ],
+ "names": [
+  {
+   "name": "Ramesses the Third",
+   "say": "RAM-uh-seez (in the lexicon)"
+  },
+  {
+   "name": "Medinet Habu",
+   "say": "meh-DEE-net HAH-boo"
+  },
+  {
+   "name": "Mycenae",
+   "say": "my-SEE-nee"
+  },
+  {
+   "name": "Mycenaean",
+   "say": "my-suh-NEE-un"
+  },
+  {
+   "name": "Hittite(s)",
+   "say": "HIT-ite (in the lexicon)"
+  },
+  {
+   "name": "Ugarit",
+   "say": "oo-guh-REET (in the lexicon)"
+  },
+  {
+   "name": "Carchemish",
+   "say": "KAR-kuh-mish"
+  },
+  {
+   "name": "Sherden",
+   "say": "SHER-den"
+  },
+  {
+   "name": "Shekelesh",
+   "say": "SHEK-uh-lesh"
+  },
+  {
+   "name": "Peleset",
+   "say": "PEL-uh-set"
+  },
+  {
+   "name": "Merneptah",
+   "say": "MER-nep-tah"
+  },
+  {
+   "name": "Lukka",
+   "say": "LOOK-uh"
+  },
+  {
+   "name": "Lycia",
+   "say": "LISS-ee-uh"
+  },
+  {
+   "name": "Robert Drews",
+   "say": "DROOZ"
+  },
+  {
+   "name": "Philistines",
+   "say": "FIL-ih-steenz"
+  },
+  {
+   "name": "Canaan",
+   "say": "KAY-nun (in the lexicon)"
+  },
+  {
+   "name": "Ashkelon",
+   "say": "ASH-kuh-lon (in the lexicon)"
+  },
+  {
+   "name": "Ammurapi",
+   "say": "ah-moo-RAH-pee"
+  },
+  {
+   "name": "Hatti",
+   "say": "HAT-ee"
+  },
+  {
+   "name": "Gibala",
+   "say": "GIB-uh-luh (hard G)"
+  },
+  {
+   "name": "Hattusa",
+   "say": "HAT-oo-sah"
+  },
+  {
+   "name": "Kaska",
+   "say": "KAS-kuh"
+  },
+  {
+   "name": "Tiryns",
+   "say": "TIRR-inz"
+  },
+  {
+   "name": "Pylos",
+   "say": "PIE-loss"
+  },
+  {
+   "name": "Kition",
+   "say": "KIT-ee-on"
+  },
+  {
+   "name": "Galilee",
+   "say": "GAL-ih-lee"
+  },
+  {
+   "name": "Gordion",
+   "say": "GOR-dee-on"
+  },
+  {
+   "name": "Midea",
+   "say": "mih-DEE-uh"
+  },
+  {
+   "name": "Amos Nur",
+   "say": "AY-mus NOOR"
+  },
+  {
+   "name": "Eric Cline",
+   "say": "ERR-ik KLINE"
+  },
+  {
+   "name": "Uluburun",
+   "say": "oo-loo-boo-ROON"
+  },
+  {
+   "name": "Colin Renfrew",
+   "say": "KOL-in REN-froo"
+  },
+  {
+   "name": "Bernard Knapp",
+   "say": "BER-nerd NAP"
+  },
+  {
+   "name": "Sturt Manning",
+   "say": "STURT MAN-ing"
+  },
+  {
+   "name": "Levant",
+   "say": "luh-VANT"
+  },
+  {
+   "name": "Aegean",
+   "say": "ih-JEE-un"
+  }
+ ],
+ "words": 1520
+}
