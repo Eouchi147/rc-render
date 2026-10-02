@@ -1,0 +1,649 @@
+{
+ "id": "lf-ufo-files",
+ "kind": "theme",
+ "series": "The Files",
+ "title": "The UFO Files",
+ "yt_title": "The UFO Files: What Governments Actually Admitted",
+ "verdict": "Awaiting evidence",
+ "hook": "What have governments actually admitted?",
+ "chapters": [
+  {
+   "title": "The UFO Files",
+   "beats": [
+    {
+     "role": "hook",
+     "lines": [
+      "[d:intrigue][sfx:boom][act:hushed, vivid]November {2004|two thousand and four}, off San Diego: two Navy fighter jets see the calm sea below them ^churning. [p:0.93][act:the image, precise][tune:level]Above the foam, something white is darting about, shaped like a Tic Tac ^mint, about the size of their own ^jets. [act:counting what it lacked][tune:level]No ^wings. [act:same rhythm][tune:fall]No ^exhaust.",
+      "[d:tension][act:the moment, quickening]One pilot, David ^Fravor, dives to meet it. [act:the turn, hushed]It swings round to match him, climbs, [sfx:whoosh][tune:fall]and is ^gone. [p:0.93][act:the stakes, measured]Nineteen years later, he told Congress, under ^oath.",
+      "[d:wonder][act:widening out, curious]Since {1947|nineteen forty-seven}, governments have kept ^files on moments like this. [act:the child's question, leaning in][tune:rise]So what have they ^actually admitted?"
+     ],
+     "shots": [
+      {
+       "id": "s1",
+       "say": "November 2004, off San Diego: two Navy fighter jets see the calm sea below them churning.",
+       "draw": "A bright day over the Pacific, seen from high up: a calm blue sea filling the lower two thirds (horizon at y 330), gentle swell lines; two small grey fighter-jet silhouettes cross the sky top right one behind the other (0.4 s, 0.8 s); at 1.4 s a patch of white water churns in the middle of the sea (rings of foam draw outward). No labels in the first 3 s (hook title top left)."
+      },
+      {
+       "id": "s2",
+       "say": "Above the foam, something white is darting about, shaped like a Tic Tac mint, about the size of their own jets. No wings. No exhaust.",
+       "draw": "Closer on the churn: three ghost capsules with dotted hops show the white Tic Tac darting about, then it hangs solid above the foam. A dashed leader opens a detail card at the right: the capsule large, with a dotted pair of wings struck through ('no wings') and a dotted exhaust plume struck through ('no exhaust'), and under it the dashed outline of a fighter of the same length ('a fighter jet', about 12 m)."
+      },
+      {
+       "id": "s3",
+       "say": "One pilot, David Fravor, dives to meet it. It swings round to match him, climbs, and is gone.",
+       "draw": "The same sea from the side, wider: one jet spirals down towards the capsule along a dotted path (fx draw); the capsule turns end-on to face it, rises along a curve and streaks off to the right as a fading line; where it was, a small lilac '?' pops. Label 'David Fravor' small by the jet."
+      },
+      {
+       "id": "s4",
+       "say": "Nineteen years later, he told Congress, under oath.",
+       "draw": "A hearing room in warm light: a long witness table, a microphone, a person seated; a raised right hand rises (oath); a dim dais above. Label 'under oath · 2023'."
+      },
+      {
+       "id": "s5",
+       "say": "Since 1947, governments have kept files on moments like this. So what have they actually admitted?",
+       "draw": "A dark desk with a long row of file folders standing in a box, their tabs popping in left to right with years: 1947, 1952, 1972, 2004, 2017, 2023, 2026; a lamp glow; a lilac '?' rises over them at the question."
+      }
+     ]
+    },
+    {
+     "role": "hook",
+     "lines": [
+      "[d:calm][act:warm, setting out]The UFO ^Files. [act:the promise, friendly][tune:fall]What's on the record@noun, file by file, and what is only ^said."
+     ],
+     "shots": [
+      {
+       "id": "s6",
+       "say": "The UFO Files. What's on the record, file by file, and what is only said.",
+       "draw": "The folder box held and dimmed under the full-frame intro title card 'The UFO Files'; the camera drifts in 3%.",
+       "reuse": "same panel as s5"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "A saucer in the paper",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:storytelling, setting the scene]The first file opens in New Mexico, in July {1947|nineteen forty-seven}. [act:deadpan, let it land]The army air base at ^Roswell tells the press it has captured a flying ^saucer. [act:a small smile][tune:fall]It makes the front ^page.",
+      "[d:build][act:plain storytelling]The debris came from a ranch, where a rancher, Mac ^Brazel, had found a field of wreckage weeks ^earlier. [act:counting them off][tune:level]Rubber ^strips. [act:counting on][tune:level]^Tinfoil. [act:counting on][tune:level]A rather tough ^paper. [act:the last one][tune:fall]And ^sticks. [p:0.93][act:the detail, intrigued]Some of it was sealed with tape printed with ^flowers. [act:fair, his point][tune:fall]Brazel said it looked nothing like the weather balloons he had found ^before.",
+      "[d:tension][act:dry, unimpressed][tune:fall]That same evening, a general in Texas showed reporters the debris: a weather ^balloon. [act:sceptical, one eyebrow up][tune:rise]Case ^closed?"
+     ],
+     "shots": [
+      {
+       "id": "s7",
+       "say": "The army air base at Roswell tells the press it has captured a flying saucer. It makes the front page.",
+       "draw": "A newspaper front page on a dark desk, schematic: masthead 'ROSWELL DAILY RECORD', date '8 July 1947', headline 'RAAF Captures Flying Saucer' and 'On Ranch in Roswell Region' typing in, grey column lines below; to the right a dotted lilac saucer glows (the claim).",
+       "reuse": "roswell-mogul shot 0 (newspaper) + roswell_m() hook saucer, widened"
+      },
+      {
+       "id": "s8",
+       "say": "The debris came from a ranch, where a rancher, Mac Brazel, had found a field of wreckage weeks earlier.",
+       "draw": "A map of central New Mexico (View -107.4..-103.2 E, 32.45..34.75 N): the Rio Grande and the Pecos faint blue, Corona as a small dot; gold pin 'Roswell air base'; pin 'the debris field, near Corona' as the ranch is named; a small figure 'Mac Brazel'; white debris dots scatter at the field and an amber arrow carries them to the base; scale bar 100 km.",
+       "reuse": "roswell-mogul shot 1 (map) + roswell_m() debris"
+      },
+      {
+       "id": "s9",
+       "say": "Rubber strips. Tinfoil. A rather tough paper. And sticks. Some of it was sealed with tape printed with flowers. Brazel said it looked nothing like the weather balloons he had found before.",
+       "draw": "The debris laid out on the ground at dusk, each piece popping as named: grey rubber strips, crumpled foil, a sheet of tough paper, light sticks; labels 'rubber', 'foil', 'paper', 'sticks'; then a strip of tape with small pink flowers draws across the sticks ('tape with flowers'); then two plain weather balloons ghost in above with a '≠' between them and the pile ('not like a weather balloon').",
+       "reuse": "roswell_m() ground (lay), widened"
+      },
+      {
+       "id": "s10",
+       "say": "That same evening, a general in Texas showed reporters the debris: a weather balloon. Case closed?",
+       "draw": "An office floor in Fort Worth: the debris spread on brown paper, a general (person) standing over it, flash bulbs pop as white glows (press photos); a dotted weather balloon with its radar target draws above; label 'Fort Worth, same evening'; then a large lilac '?' pops at 'Case closed?'."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:the turn, news that changes everything]Thirty-one years later, Major Jesse ^Marcel, the officer who had gathered the debris, said the balloon had been a ^cover story. [sfx:shimmer][act:building, a little faster]Researchers went on to collect ^hundreds of interviews: strange metal, threats, even ^bodies.",
+      "[d:aside][act:a quiet caveat, lower]Most were recorded thirty to fifty years after the ^event. [p:0.93][act:explaining, warm]Memory is a bit like a photocopy of a ^photocopy: [act:explaining, clear][tune:fall]each copy loses a little detail, and picks up a little ^noise."
+     ],
+     "shots": [
+      {
+       "id": "s11",
+       "say": "Thirty-one years later, Major Jesse Marcel ... said the balloon had been a cover story. Researchers went on to collect hundreds of interviews: strange metal, threats, even bodies.",
+       "draw": "A time line from 1940 to 2000 draws itself (framed on its upper half): a gold dot '1947', an amber arc '31 years' to 1978 where a figure stands, 'Jesse Marcel, 1978', with a speech bubble 'a cover story'; then about ninety small paper cards (interviews) pop in a cloud over the 1980s and 1990s, 'hundreds of interviews', and three dotted lilac bubbles pop as said: 'strange metal', 'threats', 'bodies'.",
+       "reuse": "roswell_m() memory (mem), widened"
+      },
+      {
+       "id": "s12",
+       "say": "Most were recorded thirty to fifty years after the event. Memory is a bit like a photocopy of a photocopy ...",
+       "draw": "Below the time line a bracket '30 to 50 years later' draws from 1977 to 1997; then four sheets in a row, each a copy of the last: a simple drawing of a balloon fades and blurs and gains specks from sheet to sheet, small arrows between them; labels 'detail lost', 'noise added'.",
+       "reuse": "roswell_m() gap (photocopies), widened"
+      }
+     ]
+    },
+    {
+     "role": "cost",
+     "lines": [
+      "[d:reveal][act:revealing a fact, confident]In {1994|nineteen ninety-four}, the Air Force named a real ^secret: Project@noun ^Mogul. [p:0.93][act:explaining, brisk]Trains of balloons more than a hundred metres long, hung with radar reflectors and a ^microphone, [act:the purpose, clear][tune:fall]listening for the far-off boom of a Soviet atomic ^test.",
+      "[d:build][act:connecting it, delighted]The reflectors came from a toy ^company: foil, paper and balsa ^sticks. [p:0.93][act:the payoff, a smile][tune:fall]Short of tape, the company used@verb its own, printed with pink ^flowers.",
+      "[d:aside][act:wry, a small smile]A real ^secret. [act:dry, pointed][tune:fall]Just not ^that one."
+     ],
+     "shots": [
+      {
+       "id": "s13",
+       "say": "In 1994, the Air Force named a real secret: Project Mogul. Trains of balloons more than a hundred metres long, hung with radar reflectors and a microphone, listening for the far-off boom of a Soviet atomic test.",
+       "draw": "A dawn sky over the desert: the title 'Project Mogul, named in 1994'; a train of 23 white balloons rises on one line (20 feet apart: more than 130 m, a dimension 'over 100 m'), three small radar reflectors and a microphone hung below, labelled as said; on the ground a person drawn to scale (tiny, ringed: 'a person, to scale'); far off on the left horizon a faint glow ('a far-off boom') sends five sound arcs across the sky towards the microphone.",
+       "reuse": "roswell-mogul shot 2 (iso balloon train) redrawn wide"
+      },
+      {
+       "id": "s14",
+       "say": "The reflectors came from a toy company: foil, paper and balsa sticks. Short of tape, the company used its own, printed with pink flowers.",
+       "draw": "Close on one radar reflector: a frame of balsa sticks with foil-paper faces (a corner reflector seen as a kite-like diamond); a small toy-block icon pops ('toy company'); then a strip of tape with tiny pink flowers seals one seam; beside it, the flower tape from Brazel's pile slides in and a gold ring joins the two ('the same tape')."
+      },
+      {
+       "id": "s15",
+       "say": "A real secret. Just not that one.",
+       "draw": "Same reflector: a red 'TOP SECRET' stamp pops over it; then a dotted lilac saucer outline above is struck through with a thin line."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:leaning in, fair]But the official story kept ^changing. [act:counting them off][tune:level]A flying ^disc. [act:counting on][tune:level]A weather ^balloon. [act:counting on][tune:level]Project@noun ^Mogul. [act:the punchline, slower]Then, in {1997|nineteen ninety-seven}, for the bodies people remembered: test ^dummies... [act:the sting, quiet][tune:fall]dropped over New Mexico from {1954|nineteen fifty-four} to {1959|fifty-nine}, years after {1947|forty-seven}. [act:fair, conceding]No wonder people stopped ^trusting it.",
+      "[d:build][sfx:hit][act:heavier, deliberate][tune:rise]And the base's own records@noun from those years? [act:flat, final][tune:highfall]Destroyed. [p:0.93][act:precise, even]In {1995|nineteen ninety-five}, Congress's auditors found no record@noun of who destroyed them, or on whose ^authority. [act:explaining, even]A missing file is not a ^spaceship. [act:quiet, knowing][tune:fall]But legends grow best in the ^gaps."
+     ],
+     "shots": [
+      {
+       "id": "s16",
+       "say": "But the official story kept changing. A flying disc. A weather balloon. Project Mogul. Then, in 1997, ... test dummies ... from 1954 to 1959, years after 1947.",
+       "draw": "Four cards in a row, each drawing its answer as said: a dotted saucer '1947: a disc', a weather balloon '1947: a balloon', a balloon train '1994: Mogul', a test dummy hanging from a parachute '1997: dummies'; arrows between them; below, a small time axis 1945 to 1960 with a gold dot at 1947 and a lilac band from 1954 to 1959 ('dummy drops'), a bracket showing the gap.",
+       "reuse": "roswell_m() answers (four cards + 1950s drops), widened"
+      },
+      {
+       "id": "s17",
+       "say": "And the base's own records from those years? Destroyed. In 1995, Congress's auditors found no record of who destroyed them, or on whose authority. A missing file is not a spaceship. But legends grow best in the gaps.",
+       "draw": "An archive shelf of record boxes labelled by year 1944 to 1951; the boxes from 1945 to 1949 glow red and vanish, leaving a dark gap; a sheet 'GAO, 1995' pops beside it with a '?' (who, on whose authority); then small dotted lilac saucers and question marks sprout and grow inside the gap ('legends')."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Spy planes and psychic spies",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:plain, orienting]The second file is the Air Force's own ^UFO desk. [act:explaining, steady]From {1952|nineteen fifty-two}, it was called Project@noun Blue ^Book. [p:0.93][act:the numbers, savouring them]By the time it shut, in {1969|nineteen sixty-nine}, its files held twelve thousand, six hundred and eighteen ^sightings. [act:the punchline, level][tune:fall]Seven hundred and one, it never ^explained.",
+      "[d:calm][act:respectful, warm]Its scientific adviser, the astronomer J. Allen ^Hynek, began as a ^sceptic, [act:fair, his view][tune:fall]and came to think some of those cases deserved real ^science."
+     ],
+     "shots": [
+      {
+       "id": "s18",
+       "say": "From 1952, it was called Project Blue Book. By the time it shut, in 1969, its files held 12,618 sightings. Seven hundred and one, it never explained.",
+       "draw": "A grid of 100 small file cards (10 x 10), each card standing for about 126 reports, popping in row by row (label '12,618 sightings'); then five and a half cards turn lilac (701 is 5.6 in 100) and glow; label '701 unexplained'. A small band '1952 to 1969' above."
+      },
+      {
+       "id": "s19",
+       "say": "Its scientific adviser, the astronomer J. Allen Hynek, began as a sceptic, and came to think some of those cases deserved real science.",
+       "draw": "A night observatory: a person at a small telescope under stars; beside him a stack of folders; a dial (gauge) whose needle swings slowly from 'sceptic' towards 'worth study'; label 'J. Allen Hynek, astronomer'."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:reveal][act:leaning in, the twist]Here's what the files ^admit. [p:0.93][act:explaining, clear]From {1955|nineteen fifty-five}, the CIA was flying a secret spy plane, the {U-2|U two}, about eighteen kilometres up: [act:the scale][tune:fall]at least three times higher than the airliners of the ^day. [act:the image, vivid]At sunrise and sunset, its silver wings caught the sun, and looked like ^fire.",
+      "[d:build][p:0.9][act:the reveal, slow]CIA officials later estimated that ^over half of UFO reports from the late {1950s|nineteen fifties} through the {1960s|nineteen sixties} were spy ^flights. [act:plain, firm]Blue Book staff who knew put those sightings down to ^nature, to keep the secret. [act:fair, sober][tune:fall]A CIA historian later called the Air Force's statements misleading and ^deceptive.",
+      "[d:aside][act:dry, amused]In {1953|nineteen fifty-three}, a panel convened by the CIA had even suggested a campaign to ^debunk UFOs, [act:counting][tune:level]through schools, ^clubs, [act:the punchline, deadpan][tune:fall]and even ^Disney."
+     ],
+     "shots": [
+      {
+       "id": "s20",
+       "say": "From 1955, the CIA was flying a secret spy plane, the U-2, about eighteen kilometres up: at least three times higher than the airliners of the day.",
+       "draw": "An altitude chart at dusk: a vertical axis 0 to 20 km at the left, a person on the ground; a translucent band at 3 to 6 km with a 1950s airliner in side view ('airliners, 1950s'); high up at 18 km a slim U-2 in side view, long thin wing, single tall fin ('U-2, about 18 km'); dimensions '6 km' and '18 km' draw up from the ground and the label '3 times higher'."
+      },
+      {
+       "id": "s21",
+       "say": "At sunrise and sunset, its silver wings caught the sun, and looked like fire.",
+       "draw": "Same chart, the sun just below the horizon at right: its rays slant up and light only the U-2, which flares orange-gold while the ground stays dark; the person below raises an arm; a dotted lilac 'UFO?' tag pops by the bright spot."
+      },
+      {
+       "id": "s22",
+       "say": "CIA officials later estimated that over half of UFO reports from the late 1950s through the 1960s were spy flights. Blue Book staff who knew put those sightings down to nature ... misleading and deceptive.",
+       "draw": "100 small report cards in a block; more than half of them (55) flip to amber with a tiny U-2 mark (label 'over half: spy flights'); then three cards slide out at the right and get a stamp 'NATURE' while a faint U-2 shows through the paper; label 'misleading and deceptive' (CIA history, 1997)."
+      },
+      {
+       "id": "s23",
+       "say": "In 1953, a panel convened by the CIA had even suggested a campaign to debunk UFOs, through schools, clubs, and even Disney.",
+       "draw": "A panel of five people at a long table under a lamp, a folder '1953'; then three icons pop in a row as named: a schoolhouse, a club table with chairs, a small cinema screen with a film reel ('even Disney' as a label); a stamp 'debunk' over the folder."
+      }
+     ]
+    },
+    {
+     "role": "cost",
+     "lines": [
+      "[d:build][act:the strange turn, straight face]And sometimes, the strange story ^was the secret. [p:0.93][act:setting it up, deadpan]From {1972|nineteen seventy-two}, for twenty-three years, American agencies paid people to spy... [act:the payoff, wide-eyed][tune:risefall]with their ^minds.",
+      "[d:build][act:relishing the names][tune:level]Gondola Wish. [act:same rhythm][tune:level]Grill Flame. [act:keeping the beat][tune:level]Center Lane. [act:one more][tune:level]Sun Streak. [sfx:shimmer][act:the famous one, a flourish][tune:highfall]^Star Gate.",
+      "[d:calm][act:explaining, plainly]The method was called remote ^viewing: [act:explaining, step by step]given only a number@count for a target, a viewer sketched whatever came to ^mind. [p:0.93][act:the everyday picture]But one striking hit can be luck, like calling a coin toss ^right. [act:the real test][tune:fall]The question is whether viewers beat ^chance, again and again."
+     ],
+     "shots": [
+      {
+       "id": "s24",
+       "say": "And sometimes, the strange story was the secret. From 1972, for twenty-three years, American agencies paid people to spy... with their minds.",
+       "draw": "A person sits at a table at left; a lilac dotted line leaves their head and travels far across the panel to a small dim building outline at right ('the target'); along the bottom, 23 amber ticks for 23 years draw one by one from '1972' to '1995'.",
+       "reuse": "stargate_m() mind, widened"
+      },
+      {
+       "id": "s25",
+       "say": "Gondola Wish. Grill Flame. Center Lane. Sun Streak. Star Gate.",
+       "draw": "Five manila folders drop in a fan, one per name as said, each name printed on its tab; the last, 'STAR GATE', larger and gold-lit.",
+       "reuse": "stargate_m() code (five folders)"
+      },
+      {
+       "id": "s26",
+       "say": "The method was called remote viewing: given only a number for a target, a viewer sketched whatever came to mind.",
+       "draw": "A sheet of paper: 'TARGET 4471' typed at the top (a number only); a pencil sketch draws itself (a tall frame, a beam, a hook: big, metal, a crane?); a person's hand outline at the edge.",
+       "reuse": "stargate-psychic shot 0 (viewer's sketch), widened"
+      },
+      {
+       "id": "s27",
+       "say": "But one striking hit can be luck, like calling a coin toss right. The question is whether viewers beat chance, again and again.",
+       "draw": "A coin spins and lands, heads, tails, heads... ten small coin dots fall into two columns that end about level ('chance: about half'); a dashed line 'chance' across a small bar chart; a lilac dotted bar 'viewers?' tries to rise above it."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:serious now, lean in]In {1995|nineteen ninety-five}, an evaluation for the CIA called the spying vague and ^ambiguous. [sfx:hit][act:plain, damning]It had never guided a single intelligence ^operation. [act:final, closing the file][tune:fall]After about twenty million dollars, the programme was shut ^down."
+     ],
+     "shots": [
+      {
+       "id": "s28",
+       "say": "In 1995, an evaluation for the CIA called the spying vague and ambiguous. It had never guided a single intelligence operation. After about twenty million dollars, the programme was shut down.",
+       "draw": "A report 'EVALUATION, 1995' on the left; a pale fog rolls over its lines at 'vague and ambiguous'; a large '0' with 'operations guided'; a row of 23 small stacks of banknotes ('about $20 million, over 23 years'); a red CLOSED stamp slams on the report.",
+       "reuse": "stargate_m() fog, widened"
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:calm][p:0.93][act:the point, warm]So yes: agencies do fund strange ^things. [act:the lesson, clear][tune:fall]And when they do, the paperwork tends to surface in the end: budgets, code names, a final ^report."
+     ],
+     "shots": [
+      {
+       "id": "s29",
+       "say": "So yes: agencies do fund strange things. And when they do, the paperwork tends to surface in the end: budgets, code names, a final report.",
+       "draw": "Three documents slide up out of a dark drawer as named: a budget sheet with bars, a folder tab 'STAR GATE', a bound report '1995'; a 'DECLASSIFIED' stamp lands across all three."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The Tic Tac tapes",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:plain, the news]In December {2017|twenty seventeen}, the New York Times revealed a ^secret. [p:0.93][act:steady, explaining]The Pentagon had quietly run a UFO study, with about twenty-two million dollars, from {2007|two thousand seven} to {2012|twenty twelve}. [act:the hook, intrigued][tune:fall]With the story came Navy ^videos.",
+      "[d:build][act:explaining, a hint of wonder]Three short clips, from infrared targeting cameras, which see ^heat rather than light. [act:counting them][tune:level]One from the Tic Tac encounter of {2004|two thousand and four}. [act:counting on][tune:level]Two from {2015|twenty fifteen}, nicknamed ^Gimbal and Go ^Fast. [act:firm][tune:fall]In {2020|twenty twenty}, the Pentagon released all three ^officially. [act:plain, a new word]Its name for such things now: UAP, unidentified anomalous ^phenomena."
+     ],
+     "shots": [
+      {
+       "id": "s30",
+       "say": "The Pentagon had quietly run a UFO study, with about twenty-two million dollars, from 2007 to 2012. With the story came Navy videos.",
+       "draw": "A newspaper page at the left (schematic: 'THE NEW YORK TIMES', 'December 2017', headline bars); at the right an axis 2006 to 2013 with a gold band from 2007 to 2012 ('a hidden UFO study') and 22 small coin stacks rising on it ('about $22 million'); at 'videos' a film strip slides out from the paper with an arrow: 'Navy videos'."
+      },
+      {
+       "id": "s31",
+       "say": "Three short clips, from infrared targeting cameras, which see heat rather than light. One from the Tic Tac encounter of 2004. Two from 2015, nicknamed Gimbal and Go Fast.",
+       "draw": "Three dark-green infrared screens in a row, each with crosshairs and a white heat blob: a small capsule ('2004'), a blob with a glare halo that rotates ('Gimbal, 2015'), a dot skimming over grey sea texture ('Go Fast, 2015'); their tags pop as said.",
+       "reuse": "uap-disclosure shot 0 (FLIR screen), three across"
+      },
+      {
+       "id": "s32",
+       "say": "In 2020, the Pentagon released all three officially. Its name for such things now: UAP, unidentified anomalous phenomena.",
+       "draw": "The three screens get a stamp 'released 2020'; then the letters 'UAP' pop large above them, with three small words under them as said: 'unidentified', 'anomalous', 'phenomena'."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][p:0.93][act:curious, the method][tune:rise]Can a video tell you how fast something ^moves? [act:explaining][tune:fall]Not on its ^own. [p:0.93][act:the everyday picture, light]Look out of a speeding ^train: a cow in a field seems to race past, [act:a small smile][tune:fall]though it's standing ^still.",
+      "[d:reveal][act:the result, precise]In {2023|twenty twenty-three}, NASA's independent panel worked out Go Fast's numbers from the camera's own on-screen ^readings. [p:0.9][act:the punchline, savouring it]The object@noun was about four thousand metres up, moving at roughly sixty-five kilometres an ^hour: [act:dry, light][tune:fall]a typical wind@air at that ^height. [act:fair, careful]Most likely, something drifting with the wind@air."
+     ],
+     "shots": [
+      {
+       "id": "s33",
+       "say": "Can a video tell you how fast something moves? Not on its own. Look out of a speeding train: a cow in a field seems to race past, though it's standing still.",
+       "draw": "A train window frame (dark carriage around it); outside, a field with a fence and a cow; the near fence posts streak past fast, the cow slides across the window and out, motion lines behind it; then the view freezes and a small label shows the cow with '0 km/h' and 'standing still'."
+      },
+      {
+       "id": "s34",
+       "say": "In 2023, NASA's independent panel worked out Go Fast's numbers from the camera's own on-screen readings. The object was about four thousand metres up, moving at roughly sixty-five kilometres an hour: a typical wind at that height. Most likely, something drifting with the wind.",
+       "draw": "A side view over the sea, 'NASA, 2023: Go Fast': the jet high at the left; its camera's sight line (dashed blue) slants down past a small white object to the sea far beyond; a dimension 'about 4,000 m' from the sea to the object. The jet moves on (a second, fainter jet and an arrow): the new sight line meets the sea far to the left, a long blue arrow along the sea ('the sea races past'), while the object moves only a short gold arrow ('about 65 km/h'); three wind arrows drift beside it ('the wind at that height')."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:tension][act:fair, the other side]Not every case shrinks like ^that. [p:0.93][act:serious, measured]The Tic Tac was seen by four aviators, with their own ^eyes, [act:reporting]and, Fravor says, the ship's radar had been tracking such objects@noun for two ^weeks. [act:honest, even][tune:fall]No official explanation has ever been ^published. [act:reporting, respectful]Off Virginia, another Navy pilot, Ryan ^Graves, says his squadron saw unknown objects@noun every day, for at least a couple of ^years.",
+      "[d:build][sfx:shimmer][act:the bigger picture, careful]In {2021|twenty twenty-one}, US intelligence reviewed a hundred and forty-four reports, mostly from Navy ^crews. [act:the sting, dry]It could explain ^one: a large, deflating ^balloon. [p:0.93][act:putting it in proportion, gentle][tune:fall]For most of the rest, there wasn't enough data to ^say.",
+      "[d:calm][act:gentle, the key distinction]And unexplained isn't the same as ^alien. [p:0.9][act:an everyday picture, warm]A bird you can't identify in a blurry photo is an unidentified ^bird, [act:light, a small smile][tune:fall]not a new ^species."
+     ],
+     "shots": [
+      {
+       "id": "s35",
+       "say": "Not every case shrinks like that. The Tic Tac was seen by four aviators, with their own eyes, and, Fravor says, the ship's radar had been tracking such objects for two weeks. No official explanation has ever been published.",
+       "draw": "The sea again, wide: two jets, each with two small seat marks that light up one by one (four aviators); on the horizon a warship with a radar fan sweeping, 14 small day ticks pop above it ('two weeks, says Fravor'); the white capsule hangs dotted over the churn with a lilac '?'; label 'no official explanation'."
+      },
+      {
+       "id": "s36",
+       "say": "Off Virginia, another Navy pilot, Ryan Graves, says his squadron saw unknown objects every day, for at least a couple of years.",
+       "draw": "A map strip of the US east coast at Virginia (View -80..-70 E, 33..40 N) with the sea at right; a dashed training box offshore; a jet track loops inside it and small white dots pop in it day after day (a run of ticks along the bottom, 'every day'); label 'Ryan Graves', 'off Virginia, 2014 to 2015' (his account)."
+      },
+      {
+       "id": "s37",
+       "say": "In 2021, US intelligence reviewed a hundred and forty-four reports, mostly from Navy crews. It could explain one: a large, deflating balloon. For most of the rest, there wasn't enough data to say.",
+       "draw": "144 grey dots in a 16 x 9 block pop in quickly ('144 reports, 2021'); one dot turns green with a small sagging balloon beside it ('1 explained: a balloon'); then most of the grey dots dim behind a fog veil ('not enough data').",
+       "reuse": "uap_m() reports (144 dots), widened"
+      },
+      {
+       "id": "s38",
+       "say": "And unexplained isn't the same as alien. A bird you can't identify in a blurry photo is an unidentified bird, not a new species.",
+       "draw": "Left: a large circle 'unexplained' and a small dotted lilac circle 'alien' with a '≠' between them. Right: a photo frame with a blurred grey bird shape; label 'unidentified bird'; a dotted tag 'new species?' is struck through.",
+       "reuse": "uap_m() venn"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Under oath",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:build][act:serious, setting the scene]July {2023|twenty twenty-three}, a hearing room in the US ^Congress. [act:reporting it straight]A former intelligence officer, David ^Grusch, testifies under oath, beside two former Navy pilots, one of them ^Fravor. [p:0.93][act:careful, measured]He says America has run a decades-long programme to recover crashed craft of non-human ^origin, [act:quieter, weighing the words][tune:fall]and that bodies came with some of them: non-human ^biologics, in his words.",
+      "[d:build][act:the caveat, fair]He says he was told this by others in the course of his ^duties, and was denied ^access. [p:0.9][act:gently explaining, an everyday picture]A story passed along a chain of people can be completely ^sincere, and still impossible to ^check. [act:neutral, reporting][tune:fall]The Pentagon said it had found no verifiable information to support ^it."
+     ],
+     "shots": [
+      {
+       "id": "s39",
+       "say": "A former intelligence officer, David Grusch, testifies under oath, beside two former Navy pilots, one of them Fravor.",
+       "draw": "The hearing room wide: a raised dais with a row of members at the top, a witness table below with three people seated, microphones; the middle witness lit; labels 'David Grusch' (centre), 'two Navy pilots' (sides), '26 July 2023'."
+      },
+      {
+       "id": "s40",
+       "say": "He says America has run a decades-long programme to recover crashed craft of non-human origin, and that bodies came with some of them: non-human biologics, in his words.",
+       "draw": "Everything in the claimed style (lilac, dotted): a hangar outline; inside it a dotted craft shape; a long dotted band 'decades' behind; then a dotted stretcher with a covered shape; labels 'claimed: craft', 'claimed: biologics'."
+      },
+      {
+       "id": "s41",
+       "say": "He says he was told this by others ... and was denied access. A story passed along a chain of people can be completely sincere, and still impossible to check. The Pentagon said it had found no verifiable information to support it.",
+       "draw": "Five people in a row; a speech bubble passes from one to the next, growing fainter; at the far end a closed door with a lock ('access denied'); then a magnifying glass sweeps along the chain and finds nothing to test ('impossible to check'); a small Pentagon outline at right with 'no verifiable information'.",
+       "reuse": "uap_m() hearsay, widened"
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:plain, the scale of it]Then came the ^reviews. [p:0.93][act:steady]NASA's panel, in {2023|twenty twenty-three}: no evidence that UAP are ^extraterrestrial, and a plea for better ^data. [act:steady, firm]The Pentagon's UAP office, in {2024|twenty twenty-four}, after combing records@noun back to {1945|nineteen forty-five}: [act:the punch, calm][tune:fall]no sign that any investigation had ever confirmed alien ^technology.",
+      "[d:calm][p:0.93][act:explaining, careful]Its explanation for the crash stories: circular ^reporting. [act:the picture, clear][tune:fall]The same few claims, passed around among people who sincerely believe them, until they sound like many ^sources."
+     ],
+     "shots": [
+      {
+       "id": "s42",
+       "say": "NASA's panel, in 2023: no evidence that UAP are extraterrestrial, and a plea for better data.",
+       "draw": "Sixteen people at a long curved table (the NASA panel, 2023); then three sensor icons pop below as 'better data': a camera, a radar dish, a satellite; label 'no evidence: extraterrestrial'."
+      },
+      {
+       "id": "s43",
+       "say": "The Pentagon's UAP office, in 2024, after combing records back to 1945: no sign that any investigation had ever confirmed alien technology.",
+       "draw": "'The Pentagon's UAP office, 2024': a long time axis 1945 to 2024 with archive boxes along it; a dashed sweep line runs from 1945 to 2024 over the boxes ('back to 1945') and a magnifier lands at the end; then a result card pops: 'confirmed alien technology' and a large green '0'."
+      },
+      {
+       "id": "s44",
+       "say": "Its explanation for the crash stories: circular reporting. The same few claims, passed around among people who sincerely believe them, until they sound like many sources.",
+       "draw": "Six people in a ring; one lilac note travels round the ring and at each person a copy pops, so six notes show ('six sources?'); then lines trace every note back to the one note in the middle ('one claim')."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:aside][act:amused, a strange aside]Then, in {2025|twenty twenty-five}, a twist from inside the ^military. [act:wry, explaining]For decades, some Air Force officers had been told, as a hazing ^prank, that they'd joined a secret alien ^programme. [act:dry, the point][tune:fall]Some alien stories were pranks, spread inside the military ^itself.",
+      "[d:reveal][act:the big moment, measured]In February {2026|twenty twenty-six}, the president ordered the files ^out. [p:0.93][act:the scale of it, plain]By then the Pentagon's UAP office held over two thousand ^cases, about half too thin even to ^analyse. [act:counting, steady]By September, ^six releases. [sfx:hit][act:what they held, plainly][tune:level]Unresolved ^sightings. [act:one by one, firm][tune:level]No ^craft. [act:same beat][tune:level]No ^bodies. [act:the last, final][tune:fall]No ^material."
+     ],
+     "shots": [
+      {
+       "id": "s45",
+       "say": "Then, in 2025, a twist from inside the military. For decades, some Air Force officers had been told, as a hazing prank, that they'd joined a secret alien programme. Some alien stories were pranks, spread inside the military itself.",
+       "draw": "A briefing table: a new officer (person) receives a folder; the folder opens on a photo of a dotted saucer; a band behind 'for decades, until 2023'; then a red stamp 'PRANK' lands on the photo."
+      },
+      {
+       "id": "s46",
+       "say": "In February 2026, the president ordered the files out. By then the Pentagon's UAP office held over two thousand cases, about half too thin even to analyse.",
+       "draw": "A wall of 200 small case cards (each one ten cases) builds row by row ('over 2,000 cases'); then about half of them grey out and sink behind a veil ('too little data'); a gold seal 'February 2026: release the files' pops above."
+      },
+      {
+       "id": "s47",
+       "say": "By September, six releases. Unresolved sightings. No craft. No bodies. No material.",
+       "draw": "A filing cabinet; six folders slide out one by one (labels 'May', 'May', 'June', 'July', 'August', 'September' 2026), spilling small photos of lights and blurry dots ('unresolved sightings'); then three empty evidence trays light under a lamp as said: 'craft', 'bodies', 'material', each empty.",
+       "reuse": "uap_m() tray (empty tray), three across"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The ledger",
+   "beats": [
+    {
+     "role": "weigh",
+     "lines": [
+      "[d:verdict][act:stepping back, calm]So, let's close@verb the files, one by ^one. [act:clear, counting them off][tune:level]Roswell's secret balloon: *strong ^evidence*. [act:same steady pace][tune:level]Spy planes behind the sightings: ^*established*. [act:same pace][tune:level]Psychic spies: *ruled ^out*, by the programme's own ^evaluation. [act:same pace][tune:level]A hidden Pentagon UFO study: ^*established*. [act:same pace][tune:level]Go Fast drifting with the wind@air: ^*plausible*. [act:same pace][tune:level]The Tic Tac: a genuine *open ^question*. [act:closing the column][tune:fall]Crashed craft and bodies, from Roswell to the hearing room: *awaiting ^evidence*.",
+      "[d:calm][p:0.93][act:the whole picture, warm]Notice the ^pattern. [act:fair, clear]Every secret we could check turned out to be ^human: balloons, spy planes, psychic spies, even ^pranks. [act:thoughtful, even]And the cover stories told to hide them gave the legends room to ^grow. [act:respectful, sincere]The pilots saw something real, and they deserve better data, not ^jokes. [p:0.95][act:the verdict, level-headed][tune:rise]Non-human craft and ^bodies? [act:the verdict, calm][tune:fall]*Awaiting ^evidence*."
+     ],
+     "shots": [
+      {
+       "id": "s48",
+       "say": "Roswell's secret balloon: strong evidence. Spy planes behind the sightings: established. Psychic spies: ruled out, by their own evaluation. A hidden Pentagon UFO study: established.",
+       "draw": "A ledger board: seven rows, each a small drawing at the left (a balloon train, a U-2, a viewer's sketch, a folder '2007', a Go Fast dot over the sea, the Tic Tac, a dotted saucer) and its words ('Roswell: a secret balloon', 'Spy planes behind sightings', 'Psychic spies', 'A hidden UFO study', 'Go Fast: the wind', 'The Tic Tac', 'Crashed craft and bodies'); rows 1 to 4 light as named and their grade chips pop as each grade is said: 'Strong evidence', 'Established', 'Ruled out', 'Established'."
+      },
+      {
+       "id": "s49",
+       "say": "Go Fast drifting with the wind: plausible. The Tic Tac: a genuine open question. Crashed craft and bodies, from Roswell to the hearing room: awaiting evidence.",
+       "draw": "The same board, the camera easing down to its lower rows: rows 5, 6 and 7 light as named and their chips pop as said: 'Plausible', 'Open question', 'Awaiting evidence'."
+      },
+      {
+       "id": "s50",
+       "say": "Notice the pattern. Every secret we could check turned out to be human ... And the cover stories told to hide them gave the legends room to grow. The pilots saw something real, and they deserve better data, not jokes. Non-human craft and bodies? Awaiting evidence.",
+       "draw": "Four small icons (balloon, U-2, sketch, prank folder) pop on the left and a bracket gathers them over three people ('human'); a grey cover sheet slides over them and dotted lilac saucers sprout from its edges ('legends'); at right, a pilot figure beside a bank of better sensors (camera, radar, satellite); in the centre a large chip 'Awaiting evidence' pops over a dotted saucer."
+      }
+     ]
+    },
+    {
+     "role": "test",
+     "lines": [
+      "[d:tension][act:practical, counting them off][tune:rise]What would change our ^minds? [act:same beat][tune:level]One piece of material, examined in public by independent ^labs. [act:same beat][tune:level]The raw radar and camera data from a case like the Tic Tac, released in ^full. [act:the last one, hopeful][tune:fall]Or a paper trail, budgets and code names, like the one Stargate ^left. [act:fair, the other way][tune:fall]And if case after case shrinks to balloons, drones and wind@air, that will be an answer ^too."
+     ],
+     "shots": [
+      {
+       "id": "s51",
+       "say": "One piece of material, examined in public by independent labs. The raw radar and camera data ... released in full. Or a paper trail, budgets and code names, like the one Stargate left. And if case after case shrinks to balloons, drones and wind, that will be an answer too.",
+       "draw": "Four cards build as named: a small sample under a glass dome with three lab buildings sending arrows to it; a radar screen and an infrared screen pouring a stream of data dots into an open folder; a trail of folders with tabs and a budget sheet; the first three dashed (not done); then a fourth card where a row of '?' marks turn one by one into a balloon, a drone and a wind arrow."
+      }
+     ]
+    },
+    {
+     "role": "close",
+     "lines": [
+      "[d:wonder][p:0.93][act:quiet, warm]Out over that calm sea, the sky is now watched by better cameras than ^ever. [act:the last word, a smile][tune:fall]Weigh it ^yourself."
+     ],
+     "shots": [
+      {
+       "id": "s52",
+       "say": "Out over that calm sea, the sky is now watched by better cameras than ever. Weigh it yourself.",
+       "draw": "Dusk over the Pacific: a calm sea, the last light on the horizon, one jet's contrail drawing slowly high up, a few stars; on the horizon, a ship's radar fan sweeps once; the camera holds still for the end card."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "description": "In 1947, an army base in New Mexico announced it had captured a flying saucer. In 2004, off San Diego, two Navy fighter jets met something white over a churning sea. Around those moments lie eight decades of secret studies, cover stories, sworn testimony and released files.\n\nWe open them one by one: Roswell and Project Mogul, Project Blue Book and the spy planes it hid, the government's own psychic spies, the 2017 revelations and the Navy videos, the 2021 intelligence review, sworn testimony in Congress, the NASA and Pentagon reviews, and the 2026 releases. What is on the record, what is only said, and each file's grade. The verdict on crashed craft and non-human bodies: Awaiting evidence.\n\nChapters\n0:00 The UFO Files\nmm:ss A saucer in the paper\nmm:ss Spy planes and psychic spies\nmm:ss The Tic Tac tapes\nmm:ss Under oath\nmm:ss The ledger\n\nSources\nRoswell Daily Record, 8 July 1947 ('RAAF Captures Flying Saucer on Ranch in Roswell Region') and 9 July 1947 ('Harassed Rancher Who Located Saucer Sorry He Told About It')\nUS General Accounting Office 1995, Government Records: Results of a Search for Records Concerning the 1947 Crash Near Roswell, New Mexico, GAO/NSIAD-95-187 (28 July 1995)\nWeaver, R. L. & McAndrew, J. 1995, The Roswell Report: Fact vs. Fiction in the New Mexico Desert (US Air Force; includes the 1994 Weaver report and McAndrew's synopsis of Project Mogul)\nMcAndrew, J. 1997, The Roswell Report: Case Closed (US Air Force, Headquarters USAF)\nSaler, B., Ziegler, C. A. & Moore, C. B. 1997, UFO Crash at Roswell: The Genesis of a Modern Myth (Smithsonian Institution Press)\nNational Archives (NARA), Project BLUE BOOK: Unidentified Flying Objects, research guide (12,618 sightings, 701 unidentified; termination 17 December 1969)\nHynek, J. A. 1972, The UFO Experience: A Scientific Inquiry (Henry Regnery, Chicago)\nHaines, G. K. 1997, CIA's Role in the Study of UFOs, 1947-90, Studies in Intelligence 1(1) (CIA Center for the Study of Intelligence)\nMumford, M. D., Rose, A. M. & Goslin, D. A. 1995, An Evaluation of Remote Viewing: Research and Applications (American Institutes for Research, 29 September 1995)\nTarg, R. & Puthoff, H. 1974, Information transmission under conditions of sensory shielding, Nature 251: 602-607, doi:10.1038/251602a0\nMarks, D. & Kammann, R. 1978, Information transmission in remote viewing experiments, Nature 274: 680-681, doi:10.1038/274680a0\nUtts, J. 1996 and Hyman, R. 1996, evaluations of the remote viewing research, Journal of Scientific Exploration 10(1)\nCooper, H., Blumenthal, R. & Kean, L. 2017, Glowing Auras and 'Black Money': The Pentagon's Mysterious U.F.O. Program, The New York Times, 16 December 2017\nUS Department of Defense 2020, Statement by the Department of Defense on the Release of Historical Navy Videos, 27 April 2020\nFravor, D. 2023, written statement to the House Committee on Oversight and Accountability, Subcommittee on National Security, the Border, and Foreign Affairs, 26 July 2023\nOffice of the Director of National Intelligence 2021, Preliminary Assessment: Unidentified Aerial Phenomena (25 June 2021)\nUS House of Representatives 2023, Unidentified Anomalous Phenomena: Implications on National Security, Public Safety, and Government Transparency, hearing of 26 July 2023 (testimony of D. Grusch, D. Fravor, R. Graves)\nNASA 2023, Unidentified Anomalous Phenomena Independent Study Team Report (14 September 2023; chair D. Spergel), including the GOFAST analysis\nAll-domain Anomaly Resolution Office (AARO) 2024, Report on the Historical Record of U.S. Government Involvement with Unidentified Anomalous Phenomena, Volume I (8 March 2024)\nSchectman, J. & Viswanatha, A. 2025, The Pentagon Disinformation That Fueled America's UFO Mythology, The Wall Street Journal, 6 June 2025\nDefenseScoop 2026, AARO caseload of over 2,000 UAP cases, about 1,000 lacking sufficient data (25 February 2026)\nNPR 2026, Trump directs government to release files on UFOs (19-20 February 2026); US Department of War, UAP file releases of 8 May, 22 May, 12 June, 10 July, 7 August and 18 September 2026",
+ "sources": [
+  "Roswell Daily Record, 8 July 1947 ('RAAF Captures Flying Saucer on Ranch in Roswell Region') and 9 July 1947 ('Harassed Rancher Who Located Saucer Sorry He Told About It')",
+  "US General Accounting Office 1995, Government Records: Results of a Search for Records Concerning the 1947 Crash Near Roswell, New Mexico, GAO/NSIAD-95-187 (28 July 1995)",
+  "Weaver, R. L. & McAndrew, J. 1995, The Roswell Report: Fact vs. Fiction in the New Mexico Desert (US Air Force; includes the 1994 Weaver report and McAndrew's synopsis of Project Mogul)",
+  "McAndrew, J. 1997, The Roswell Report: Case Closed (US Air Force, Headquarters USAF)",
+  "Saler, B., Ziegler, C. A. & Moore, C. B. 1997, UFO Crash at Roswell: The Genesis of a Modern Myth (Smithsonian Institution Press)",
+  "National Archives (NARA), Project BLUE BOOK: Unidentified Flying Objects, research guide (12,618 sightings, 701 unidentified; termination 17 December 1969)",
+  "Hynek, J. A. 1972, The UFO Experience: A Scientific Inquiry (Henry Regnery, Chicago)",
+  "Haines, G. K. 1997, CIA's Role in the Study of UFOs, 1947-90, Studies in Intelligence 1(1) (CIA Center for the Study of Intelligence)",
+  "Mumford, M. D., Rose, A. M. & Goslin, D. A. 1995, An Evaluation of Remote Viewing: Research and Applications (American Institutes for Research, 29 September 1995)",
+  "Targ, R. & Puthoff, H. 1974, Information transmission under conditions of sensory shielding, Nature 251: 602-607, doi:10.1038/251602a0",
+  "Marks, D. & Kammann, R. 1978, Information transmission in remote viewing experiments, Nature 274: 680-681, doi:10.1038/274680a0",
+  "Utts, J. 1996 and Hyman, R. 1996, evaluations of the remote viewing research, Journal of Scientific Exploration 10(1)",
+  "Cooper, H., Blumenthal, R. & Kean, L. 2017, Glowing Auras and 'Black Money': The Pentagon's Mysterious U.F.O. Program, The New York Times, 16 December 2017",
+  "US Department of Defense 2020, Statement by the Department of Defense on the Release of Historical Navy Videos, 27 April 2020",
+  "Fravor, D. 2023, written statement to the House Committee on Oversight and Accountability, Subcommittee on National Security, the Border, and Foreign Affairs, 26 July 2023",
+  "Office of the Director of National Intelligence 2021, Preliminary Assessment: Unidentified Aerial Phenomena (25 June 2021)",
+  "US House of Representatives 2023, Unidentified Anomalous Phenomena: Implications on National Security, Public Safety, and Government Transparency, hearing of 26 July 2023 (testimony of D. Grusch, D. Fravor, R. Graves)",
+  "NASA 2023, Unidentified Anomalous Phenomena Independent Study Team Report (14 September 2023; chair D. Spergel), including the GOFAST analysis",
+  "All-domain Anomaly Resolution Office (AARO) 2024, Report on the Historical Record of U.S. Government Involvement with Unidentified Anomalous Phenomena, Volume I (8 March 2024)",
+  "Schectman, J. & Viswanatha, A. 2025, The Pentagon Disinformation That Fueled America's UFO Mythology, The Wall Street Journal, 6 June 2025",
+  "DefenseScoop 2026, AARO caseload of over 2,000 UAP cases, about 1,000 lacking sufficient data (25 February 2026)",
+  "NPR 2026, Trump directs government to release files on UFOs (19-20 February 2026); US Department of War, UAP file releases of 8 May, 22 May, 12 June, 10 July, 7 August and 18 September 2026"
+ ],
+ "facts_added": [
+  {
+   "fact": "Fravor's encounter was on 14 November 2004, off the coast of San Diego; two F/A-18F jets, four aviators (Fravor, Alex Dietrich and their back-seaters); the object was white, Tic Tac shaped, about the size of an F/A-18, with no wings, markings or exhaust plumes; it moved over a patch of white water on a calm sea.",
+   "source": "Fravor 2023 written statement to the House subcommittee (26 July 2023); CBS News 26 July 2023; Cooper, Blumenthal & Kean 2017, NYT"
+  },
+  {
+   "fact": "As Fravor descended towards it, 'the object suddenly shifted its longitudinal axis, aligned it with my aircraft and began to climb', then 'rapidly accelerated and disappeared'; the ship's air controller told him its Aegis radar had been observing such objects for the previous two weeks; the infrared video was filmed later that day by another crew.",
+   "source": "Fravor 2023 written statement (House Oversight subcommittee, 26 July 2023)"
+  },
+  {
+   "fact": "Brazel found the debris on 14 June 1947, about seven or eight miles from his ranch house: rubber strips, tinfoil, a rather tough paper and sticks, about five pounds, with Scotch tape and 'some tape with flowers printed upon it'; no sign of metal for an engine or of propellers; he had found two weather balloons before and this did not resemble them.",
+   "source": "Roswell Daily Record, 9 July 1947"
+  },
+  {
+   "fact": "Project Mogul's radar reflectors were made of balsa wood and metallised paper by a toy company that, in a time of shortage, sealed them with its own plastic tape printed with pink and purple flowers and geometric designs; the flight blamed for the debris (Flight 4, launched from Alamogordo on 4 June 1947) carried up to 23 balloons spaced 20 feet apart (more than 130 m).",
+   "source": "Weaver & McAndrew 1995, The Roswell Report: Fact vs. Fiction (McAndrew's synopsis of Project Mogul)"
+  },
+  {
+   "fact": "The 1997 Air Force report attributed the 'bodies' to anthropomorphic test dummies: 67 dummies on 43 high-altitude balloon flights launched and recovered across New Mexico between June 1954 and February 1959 (projects High Dive and Excelsior), and to events 'consolidated' from many years into a few days of July 1947.",
+   "source": "McAndrew 1997, The Roswell Report: Case Closed (USAF)"
+  },
+  {
+   "fact": "Roswell Army Air Field administrative records (March 1945 to December 1949) and outgoing messages (October 1946 to December 1949) were destroyed; the disposition form 'does not indicate what organization or person destroyed the records and when or under what authority'. The 509th Bomb Group history for July 1947 says the 'flying disc' turned out to be a radar tracking balloon.",
+   "source": "GAO 1995, GAO/NSIAD-95-187"
+  },
+  {
+   "fact": "From 1947 to 1969, 12,618 sightings were reported to Project Blue Book (with its predecessors Sign and Grudge); 701 remain 'unidentified'. Blue Book ran from March 1952 at Wright-Patterson AFB, Ohio; its termination was announced on 17 December 1969 after the University of Colorado study and a National Academy of Sciences review.",
+   "source": "National Archives, Project BLUE BOOK research guide; Wikipedia summary of the project's dates"
+  },
+  {
+   "fact": "J. Allen Hynek, Blue Book's astronomer consultant, started out sceptical and came to consider a minority of reports unexplained and worth scientific study.",
+   "source": "Hynek 1972, The UFO Experience: A Scientific Inquiry"
+  },
+  {
+   "fact": "The U-2 was being tested by August 1955 and flew at about 60,000 feet (about 18 km), when most airliners flew at 10,000 to 20,000 feet; the early U-2s were silver and, especially at sunrise and sunset, 'often appeared as fiery objects to observers below'. CIA officials later estimated that 'over half of all UFO reports from the late 1950s through the 1960s were accounted for by manned reconnaissance flights' (U-2 and OXCART); Blue Book investigators aware of the flights linked such sightings to natural phenomena, and the Air Force made 'misleading and deceptive statements to the public'.",
+   "source": "Haines 1997, Studies in Intelligence 1(1), CIA"
+  },
+  {
+   "fact": "The CIA-sponsored Robertson Panel met 14 to 17 January 1953 and recommended a policy to debunk UFO reports through mass media, advertising, business clubs, schools 'and even the Disney corporation'.",
+   "source": "Haines 1997, Studies in Intelligence 1(1), CIA"
+  },
+  {
+   "fact": "Remote viewing research began in 1972 at SRI with CIA money; the army and DIA units ran under the names Gondola Wish, Grill Flame, Center Lane, Sun Streak and Star Gate; about $20 million was spent over more than two decades; the 1995 AIR evaluation found the operational reports vague and ambiguous and that the information had never been used to guide intelligence operations; the programme ended in 1995.",
+   "source": "Mumford, Rose & Goslin 1995 (AIR); FAS Intelligence Resource Program, STAR GATE; the Short stargate-psychic"
+  },
+  {
+   "fact": "The New York Times revealed the Advanced Aerospace Threat Identification Program on 16 December 2017: about $22 million (late 2008 to 2011) within a programme run 2007 to 2012, requested by Senator Harry Reid, contracted largely to Bigelow Aerospace.",
+   "source": "Cooper, Blumenthal & Kean 2017, The New York Times, 16 December 2017"
+  },
+  {
+   "fact": "NASA's independent UAP study team computed that the GOFAST object was at about 13,000 feet (about 4,000 m) and moved about 390 m in 22 s, an average of about 40 mph (about 65 km/h), 'a typical wind speed at 13,000 feet'; the impression of speed is at least partly parallax from the fast-moving jet; the object is 'most likely drifting with the wind'. The team found no evidence that UAP are extraterrestrial and called for better, calibrated data.",
+   "source": "NASA 2023, UAP Independent Study Team Report (14 September 2023)"
+  },
+  {
+   "fact": "ODNI's preliminary assessment covered 144 reports from 2004 to 2021, mostly from Navy personnel; one was identified with high confidence as a large, deflating balloon; most remain unidentified 'due to limited data'.",
+   "source": "ODNI 2021, Preliminary Assessment: Unidentified Aerial Phenomena (25 June 2021)"
+  },
+  {
+   "fact": "Grusch, a retired Air Force intelligence officer detailed to the NRO, testified on 26 July 2023 that he 'was informed in the course of my official duties of a multi-decade UAP crash retrieval and reverse engineering program to which I was denied access', and that 'non-human' biologics came with some recoveries; the Pentagon (spokeswoman Sue Gough) said investigators had found no verifiable information to substantiate such claims. The other witnesses were the former Navy pilots David Fravor and Ryan Graves.",
+   "source": "US House hearing, 26 July 2023; AP report of 26 July 2023"
+  },
+  {
+   "fact": "AARO's historical report (8 March 2024) reviewed US government UAP efforts since 1945 and found no evidence that any investigation had confirmed that any UAP sighting represented extraterrestrial technology; it called the reverse-engineering claim 'in large part, the result of circular reporting from a group of individuals who believe this to be the case'.",
+   "source": "AARO 2024, Historical Record Report Vol. I; Pentagon statement of 8 March 2024"
+  },
+  {
+   "fact": "For decades until 2023, some Air Force officers were briefed, as a hazing ritual, into a fictitious programme ('Yankee Blue') said to involve alien technology; AARO found it and the Pentagon banned the practice; a Pentagon spokeswoman confirmed the 'pranks'.",
+   "source": "Schectman & Viswanatha 2025, The Wall Street Journal, 6 June 2025"
+  },
+  {
+   "fact": "On 19 February 2026 the president directed agencies to release files on UAP and UFOs; six releases followed on 8 May, 22 May, 12 June, 10 July, 7 August and 18 September 2026, described by the Pentagon as unresolved cases; none contained a craft, bodies or material for testing.",
+   "source": "NPR, 20 February 2026; Wikipedia 'United States UFO files'; EarthSky on the sixth release (18 September 2026); the Short uap-disclosure"
+  }
+ ],
+ "names": [
+  {
+   "name": "Fravor",
+   "say": "FRAY-ver"
+  },
+  {
+   "name": "Roswell",
+   "say": "ROZ-well"
+  },
+  {
+   "name": "Mac Brazel",
+   "say": "MACK BRAY-zul (as most documentaries say it; please check)"
+  },
+  {
+   "name": "Jesse Marcel",
+   "say": "JESS-ee mar-SELL"
+  },
+  {
+   "name": "Mogul",
+   "say": "MOH-gul"
+  },
+  {
+   "name": "Hynek",
+   "say": "J. Allen HY-nek"
+  },
+  {
+   "name": "U-2",
+   "say": "written {U-2|U two}: 'you two'"
+  },
+  {
+   "name": "Gondola Wish, Grill Flame, Center Lane, Sun Streak, Star Gate",
+   "say": "plain English (gondola in LEX)"
+  },
+  {
+   "name": "Gimbal",
+   "say": "GIM-bul"
+  },
+  {
+   "name": "Grusch",
+   "say": "Grush (in LEX)"
+  },
+  {
+   "name": "UAP",
+   "say": "U.A.P (in LEX)"
+  },
+  {
+   "name": "Tic Tac",
+   "say": "TIK TAK"
+  }
+ ],
+ "words": 1495
+}
