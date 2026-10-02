@@ -1,0 +1,791 @@
+{
+ "id": "lf-sky-fell",
+ "kind": "theme",
+ "series": "The Sky Fell?",
+ "title": "The Comet and the Cold",
+ "yt_title": "Did a Comet Bring Back the Ice Age? The Younger Dryas, Weighed",
+ "verdict": "Awaiting evidence",
+ "hook": "Did a comet bring back the Ice Age?",
+ "chapters": [
+  {
+   "title": "The cold comes back",
+   "beats": [
+    {
+     "role": "hook",
+     "lines": [
+      "[d:intrigue][sfx:boom][act:hushed, setting the scene]About {12,900|twelve thousand nine hundred} years ago, the last Ice Age was finally ^letting go. [act:the turn, darker][tune:fall]Then the cold came ^*back*.",
+      "[d:tension][p:0.93][act:letting it sink in]In central Greenland, the air turned about ^nine degrees colder, and stayed cold for twelve hundred ^years. [act:a child's question, wide-eyed][tune:rise]What could throw the whole north back into the ^freezer? [act:a hushed tease][tune:level]One team of scientists says... [act:the reveal, quiet][tune:fall]the ^*sky* fell. [act:the hook, intrigued]And that it left a ^fingerprint: one thin layer in the ground, on four ^continents."
+     ],
+     "shots": [
+      {
+       "id": "s1",
+       "say": "About twelve thousand nine hundred years ago, the last Ice Age was finally letting go. Then the cold came back.",
+       "draw": "Night sky over a dark tundra horizon (ground y 700, stars). The thermometer of the past builds across the frame: a time axis at y 760 from 16,000 to 10,000 years ago (x 160 to 1620, a tick every 1,000, label 'years ago'); an amber curve sits low, climbs steeply at 14,700 and holds high; on 'came back' it plunges blue at 12,900. Vertical scale 22 units per degree, so the rise (about 14 °C) is 308 units and the drop (about 9 °C) is 198.",
+       "reuse": "sky-fell shot 0 (lg_c._thermo), the thermometer of the past, redrawn wide"
+      },
+      {
+       "id": "s2",
+       "say": "In central Greenland, the air turned about nine degrees colder, and stayed cold for twelve hundred years.",
+       "draw": "Same chart: a gold bracket at 12,900 measures the drop, label 'about 9 °C colder'; the blue trough runs to 11,700 while a bracket draws itself along it, label '1,200 years'; then the amber line climbs again at 11,700 (about 12 °C, drawn to scale, no label)."
+      },
+      {
+       "id": "s3",
+       "say": "What could throw the whole north back into the freezer? One team of scientists says... the sky fell. And that it left a fingerprint: one thin layer in the ground, on four continents.",
+       "draw": "The camera tilts up into the sky: a lilac dotted comet track (claim style) streaks in from the top right and bursts into four small dotted rings above the horizon, a question mark over the plunge. Then the ground below opens as a section: one thin bright lilac line draws itself across it, left to right; a strip map above pops four pins (North America, South America, Europe, western Asia), each tied to the line by a dotted thread. Label 'one thin layer?'."
+      }
+     ]
+    },
+    {
+     "role": "title",
+     "lines": [
+      "[d:calm][act:warm, setting out]The Comet and the Cold. [act:the promise, inviting][tune:fall]Two decades of evidence, ^weighed."
+     ],
+     "intro": true,
+     "shots": [
+      {
+       "id": "s4",
+       "say": "The Comet and the Cold. Two decades of evidence, weighed.",
+       "draw": "Intro title card 'The Comet and the Cold' over the dimmed wall (engine intro_title); behind it the thin lilac line of the last shot still glows faintly. Only the title is said here."
+      }
+     ]
+    },
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:storytelling, painting the picture]Rewind to about {14,700|fourteen thousand seven hundred} years ago. [p:0.93][act:warm, vivid]Central Greenland warms by about ^fourteen degrees, the ice sheets shrink, forests march north, and people walk into land the ice has ^left.",
+      "[d:build][act:the turn, steady][tune:fall]Less than two thousand years later, the north slides back towards Ice Age ^cold. [act:a small, vivid picture]Scientists call it the Younger ^Dryas, after a little white tundra ^flower whose leaves turn up again in lake mud of that ^age.",
+      "[d:wonder][p:0.93][gap:0.4][act:curious, the method]How do we ^know? [act:explaining, an everyday picture]Greenland's snow changes with the ^seasons, dustier in spring, different again in ^summer. [act:explaining, clear]Buried and squeezed into ice, each year becomes a thin band, stacked like the rings of a ^tree. [p:0.93][act:precise, counting]Count them down a core, and the cold begins about twelve thousand nine hundred years ago, and ends about eleven thousand seven ^hundred.",
+      "[d:build][act:widening the view]Lakes keep diaries ^too. [p:0.93][act:explaining, wonder]In a crater lake in Germany, mud settles in yearly ^layers as well, and there the winds@air over western Europe shifted from one year to the ^*next*.",
+      "[d:aside][act:fair, a careful note]That lake puts the start more than a century and a half later than the ^ice. [act:light, a wink][tune:fall]Even good clocks ^argue, and that will ^matter. [d:tension][act:quiet, certain][tune:fall]The cold itself is not in ^doubt. [act:the question, lower][tune:fall]What pulled the ^*trigger* is."
+     ],
+     "shots": [
+      {
+       "id": "s5",
+       "say": "Rewind to about fourteen thousand seven hundred years ago.",
+       "draw": "Chapter card 1, 'The cold comes back' (engine card, holds for this sentence)."
+      },
+      {
+       "id": "s6",
+       "say": "Central Greenland warms by about fourteen degrees, the ice sheets shrink, forests march north, and people walk into land the ice has left.",
+       "draw": "A wide landscape section at dusk (ground y 640): a white ice sheet dome fills the left half and recedes leftward about 500 units; a small inset thermometer top right climbs amber, label '+14 °C'; conifer silhouettes pop in from the right, one by one; three people walk left onto the freed ground.",
+       "reuse": "sky-fell shot 1 (lg_c._sea), ice dome and people walking into new lands"
+      },
+      {
+       "id": "s7",
+       "say": "Less than two thousand years later, the north slides back towards Ice Age cold.",
+       "draw": "Same landscape: the sky greys, snow falls, two trees at the forest edge fade, the ice edge creeps forward as a dotted line; a strip timeline at the top draws from 14,700 to 12,900, label 'under 2,000 years'."
+      },
+      {
+       "id": "s8",
+       "say": "Scientists call it the Younger Dryas, after a little white tundra flower whose leaves turn up again in lake mud of that age.",
+       "draw": "Close on tundra ground: a mountain avens flower (eight white petals, gold centre, low scalloped leaves) draws and opens; beside it a vertical lake-mud core in which one band of small leaf shapes appears. Label 'Younger Dryas' in serif.",
+       "reuse": "sky-fell (lg_c._dryas), the little flower"
+      },
+      {
+       "id": "s9",
+       "say": "How do we know? Greenland's snow changes with the seasons, dustier in spring, different again in summer. Buried and squeezed into ice, each year becomes a thin band, stacked like the rings of a tree.",
+       "draw": "Greenland's ice sheet in cross-section with a drill tower on top; snow falls; thin seasonal bands lay down (a dusty spring line, a pale summer line), pressed thinner with depth; a core lifts out, and beside it a tree-ring disc draws ring by ring. Labels 'spring dust', 'one year'.",
+       "reuse": "sky-fell shot 5 (lg_c._core), the Greenland dome, core and tree rings"
+      },
+      {
+       "id": "s10",
+       "say": "Count them down a core, and the cold begins about twelve thousand nine hundred years ago, and ends about eleven thousand seven hundred.",
+       "draw": "The core laid on its side as a long banded bar (x 160 to 1620), a tick per century counted right to left; the stretch from 12,900 to 11,700 lights blue. Labels '12,900' and '11,700' at its ends."
+      },
+      {
+       "id": "s11",
+       "say": "Lakes keep diaries too. In a crater lake in Germany, mud settles in yearly layers as well, and there the winds over western Europe shifted from one year to the next.",
+       "draw": "A small round crater lake in section (x 500 to 1280): thin light and dark yearly layers fill up from the bottom; above the water, wind arrows blow one way, then between two neighbouring layers swing to a new direction. Inset map top left: western Europe, one pin. Labels 'yearly layers', 'one year'."
+      },
+      {
+       "id": "s12",
+       "say": "That lake puts the start more than a century and a half later than the ice. Even good clocks argue, and that will matter.",
+       "draw": "Two strips on one time axis: 'Greenland ice' (white) above, 'German lake' (brown) below; each ticks its start of the cold; the lake's tick sits to the right (younger); a gold bracket between the ticks, label 'over 150 years'."
+      },
+      {
+       "id": "s13",
+       "say": "The cold itself is not in doubt. What pulled the trigger is.",
+       "draw": "Back on the thermometer: the cold trough rings green (real); then a large question mark pops at the moment it began.",
+       "reuse": "alias of the opening thermometer"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The comet's case",
+   "beats": [
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:presenting the bold claim, fair]In {2007|two thousand seven}, Richard ^Firestone, James ^Kennett and a large team made a bold ^claim. [p:0.93][act:vivid, the claim at its strongest]About twelve thousand nine hundred years ago, they wrote, a comet or its fragments exploded over northern North ^America. [act:vivid, quick][tune:level]Shock ^waves. [act:vivid, quick][tune:level]^Fires. [act:low, the stakes][tune:fall]The ice sheet shaken, and the climate tipped into ^cold.",
+      "[d:build][p:0.93][act:explaining, an everyday picture]The ground reads like a stack of ^pages: the deeper, the ^older. [act:laying out evidence]At about fifty sites from the time of the Clovis people, famous for their fluted spear points, a dark layer called the black ^mat lies on ^top. [act:steady][tune:level]Below it, Clovis tools and the bones of mammoths and other lost ^giants. [act:flat, final][tune:fall]Above it, ^none."
+     ],
+     "shots": [
+      {
+       "id": "s14",
+       "say": "In two thousand seven, Richard Firestone, James Kennett and a large team made a bold claim.",
+       "draw": "Chapter card 2, 'The comet's case' (engine card, holds for this sentence)."
+      },
+      {
+       "id": "s15",
+       "say": "About twelve thousand nine hundred years ago, they wrote, a comet or its fragments exploded over northern North America. Shock waves. Fires. The ice sheet shaken, and the climate tipped into cold.",
+       "draw": "North America under its Laurentide and Cordilleran ice sheets: a lilac dotted comet track enters from the top right and splits into fragments; on 'Shock waves' four dotted airburst rings bloom over the north; on 'Fires' about a dozen fire glows spread across the land; on the last sentence the ice sheet's southern edge shimmers and a small blue arrow runs off it towards the Atlantic. Every claim element dotted.",
+       "reuse": "sky-fell shot 3 (lg_c._claim), comet, bursts and fires over North America"
+      },
+      {
+       "id": "s16",
+       "say": "The ground reads like a stack of pages: the deeper, the older.",
+       "draw": "A riverbank cut open as a section (ground y 300), a person with a trowel on top; layers fill from the bottom up; a side arrow, 'newer' at the top, 'older' at the bottom.",
+       "reuse": "sky-fell shot 4 (lg_c._dig), the ground read like pages"
+      },
+      {
+       "id": "s17",
+       "say": "At about fifty sites from the time of the Clovis people, famous for their fluted spear points, a dark layer called the black mat lies on top.",
+       "draw": "In the section a dark band draws across, label 'black mat'; an inset strip map of the United States pops about fifty small dots in a quick count (schematic positions), label 'about 50 sites'."
+      },
+      {
+       "id": "s18",
+       "say": "Below it, Clovis tools and the bones of mammoths and other lost giants. Above it, none.",
+       "draw": "Below the mat, mammoth bones and three fluted Clovis points pop one by one, label 'Clovis points'; above it, dotted ghost outlines of a bone and a point appear and are struck through.",
+       "reuse": "mammoths_m scene 2, the black mat over the bones"
+      }
+     ]
+    },
+    {
+     "role": "cost",
+     "lines": [
+      "[d:list][act:laying out evidence, vivid]At the base of that mat, the team reported a thin layer of ^clues: magnetic grains with ^iridium, tiny melted beads called ^microspherules, soot, and ^nanodiamonds, too small to ^see. [p:0.93][act:the punchline, savouring it]By {2013|twenty thirteen}, they reported beads at eighteen sites across North America, Europe and the Middle ^East: an estimated ten million tonnes, spread over about a ^tenth of Earth's surface.",
+      "[d:wonder][p:0.93][act:intrigued, leaning in]Then the ^ice. [act:explaining, clear]That same year, a different team found that in a Greenland core, near the start of the cold, ^platinum rises at least a hundredfold over about fourteen years, then falls back in about ^seven. [act:explaining]Platinum is rare at Earth's ^surface, and richer in some rocks from ^space."
+     ],
+     "shots": [
+      {
+       "id": "s19",
+       "say": "At the base of that mat, the team reported a thin layer of clues: magnetic grains with iridium, tiny melted beads called microspherules, soot, and nanodiamonds, too small to see.",
+       "draw": "Close on the base of the black mat: a lilac dotted box marks the thin layer; a magnifier circle opens (radius about 200) on round melted beads, angular magnetic grains, black soot specks and tiny diamond glints. Labels pop as named: 'magnetic grains', 'microspherules', 'soot', 'nanodiamonds'."
+      },
+      {
+       "id": "s20",
+       "say": "By twenty thirteen, they reported beads at eighteen sites across North America, Europe and the Middle East: an estimated ten million tonnes, spread over about a tenth of Earth's surface.",
+       "draw": "A map from North America to the Middle East: eighteen lilac pins pop across North America, Europe and the Middle East (schematic positions), label '18 sites'; then a row of ten squares stands for Earth's surface and one fills lilac, label 'a tenth of Earth'."
+      },
+      {
+       "id": "s21",
+       "say": "Then the ice. That same year, a different team found that in a Greenland core, near the start of the cold, platinum rises at least a hundredfold over about fourteen years, then falls back in about seven. Platinum is rare at Earth's surface, and richer in some rocks from space.",
+       "draw": "Back at the Greenland core, framed closer: beside the band where the cold begins, a chart builds; a flat gold line, then over 14 year-dots it climbs to at least 100 times its base, then falls over 7 dots. Labels 'platinum', '14 years', '7 years'. Then a rock from space with gold flecks rises beside a plain grey rock; a lilac dotted arrow arcs from it to the spike, label 'from space?'.",
+       "reuse": "sky-fell shot 5 (lg_c._core), the platinum line and the rock"
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:storytelling, setting the scene]And in {2020|twenty twenty}, a village. [p:0.93][act:vivid, the picture]Abu ^Hureyra, beside the Euphrates in Syria, was one of the world's earliest villages, dug in the {1970s|nineteen seventies}, just before a reservoir drowned ^it. [act:leaning in, the detail]In its layer from the start of the cold, the team found glass splashed on building material and animal ^bones, melted, they argued, at over twenty-two hundred ^degrees. [act:quoting, vivid]Hot enough, one of them said, to melt a car in under a minute@time.",
+      "[d:calm][act:fair, giving them their due]Here the comet camp is at its ^strongest. [p:0.93][act:explaining, the logic]Three big changes land close@adj ^together: the climate flips, the giant animals ^vanish, and the Clovis style of tools ^ends. [act:warm, persuasive][tune:fall]One sudden cause would tie all three ^together."
+     ],
+     "shots": [
+      {
+       "id": "s22",
+       "say": "And in twenty twenty, a village. Abu Hureyra, beside the Euphrates in Syria, was one of the world's earliest villages, dug in the nineteen seventies, just before a reservoir drowned it.",
+       "draw": "Map of northern Syria (longitude 36 to 41, latitude 34.5 to 37.5): the Euphrates draws itself; a gold pin 'Abu Hureyra'; on 'drowned it' a blue reservoir fills over the pin (schematic outline)."
+      },
+      {
+       "id": "s23",
+       "say": "In its layer from the start of the cold, the team found glass splashed on building material and animal bones, melted, they argued, at over twenty-two hundred degrees. Hot enough, one of them said, to melt a car in under a minute.",
+       "draw": "Iso model of a small Stone Age village of round, half-sunken huts on a river terrace, people for scale; a magnifier on an animal bone and a mud-brick fragment shows glassy droplets; a thermometer bar fills to 'over 2,200 °C'; beside it a small car outline glows and sags (dotted, it is a quote)."
+      },
+      {
+       "id": "s24",
+       "say": "Here the comet camp is at its strongest. Three big changes land close together: the climate flips, the giant animals vanish, and the Clovis style of tools ends. One sudden cause would tie all three together.",
+       "draw": "A three-lane timeline from 14,000 to 11,000 years ago: lane one, the climate line flips at 12,900; lane two, a mammoth icon fades within the next few centuries; lane three, a Clovis point dims. Then a lilac dotted vertical line drops from a small comet at the top and ties the three lanes at 12,900. Labels 'climate', 'giants', 'Clovis'."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The critics answer",
+   "beats": [
+    {
+     "role": "collision",
+     "lines": [
+      "[d:aside][act:playful, childlike curiosity][tune:fall]Now, the question a six-year-old asks ^first: where's the ^hole? [act:plain, sober]No crater of the right age has been ^found. [act:explaining, fair]One suspect@noun under Greenland's ice turned out to be fifty-eight ^million years old. [act:fair, the comet team's answer]To be ^fair, a burst in the air can leave no crater at ^all, as Siberia saw in {1908|nineteen oh eight}."
+     ],
+     "shots": [
+      {
+       "id": "s25",
+       "say": "Now, the question a six-year-old asks first: where's the hole?",
+       "draw": "Chapter card 3, 'The critics answer' (engine card, holds for the child's question)."
+      },
+      {
+       "id": "s26",
+       "say": "No crater of the right age has been found. One suspect under Greenland's ice turned out to be fifty-eight million years old.",
+       "draw": "A wide plain with an empty dotted crater outline and a question mark. Then a map of north-west Greenland: a ring under the ice, label 'Hiawatha crater'; two bars compare ages, '12,900 years' (a sliver) against '58 million years' (a bar running off the right edge with a break mark)."
+      },
+      {
+       "id": "s27",
+       "say": "To be fair, a burst in the air can leave no crater at all, as Siberia saw in nineteen oh eight.",
+       "draw": "The 1908 forest through a window: trees felled outward from a point under a burst in the sky, and no hole in the ground. Label '1908, Siberia'.",
+       "reuse": "taurids_m scene 3 (the forest felled from the sky), as an inset"
+      }
+     ]
+    },
+    {
+     "role": "cost",
+     "lines": [
+      "[d:build][act:brisk, the test]In {2009|two thousand nine}, another team sampled seven sites, two of them the comet team's own, and found no peak of ^beads. [act:steady]Another said the claimed nanodiamonds were ^graphene, a common form of ^carbon. [p:0.93][act:plain, sober]By {2011|twenty eleven}, a review found that seven of the twelve original clues had not been ^reproduced. [act:fair, even]Supporters replied that the testers had used@verb the wrong ^methods. [d:aside][act:dry, a small smile][tune:fall]Science, it turns out, has ^sequels.",
+      "[d:build][act:the next clue]Then the black ^mats. [p:0.93][act:laying out evidence]In {2012|twenty twelve}, geologists sampled black mats from the American southwest to northern Chile, from about six thousand to more than forty thousand years ^old, [act:the reveal][tune:fall]and found the same kinds of markers in ^all of them. [act:explaining, the analogy]If the confetti is on every page of the album, it can't mark the day of the ^party.",
+      "[d:tension][p:0.93][act:explaining, the key test]Then the sharpest test: ^time. [act:explaining, an everyday picture]One blast is one moment, like a camera ^flash: every photo it lights shares one ^timestamp. [act:precise, reading the result]In {2014|twenty fourteen}, a team checked twenty-nine claimed sites. [p:0.9][act:the punchline, savouring it]Only ^three fell in the right window. [act:steady]A gentler review saw ages scattered by up to two ^centuries, yet called some clues hard to ^explain. [act:fair, even]Here the critics are at their ^strongest. [d:build][act:fair, the other side]The comet team answered with statistics on more than three hundred and fifty ^dates, which they say fit within a single ^century. [act:honest, level][tune:fall]Same ground. [act:honest, level][tune:fall]Opposite ^readings."
+     ],
+     "shots": [
+      {
+       "id": "s28",
+       "say": "In two thousand nine, another team sampled seven sites, two of them the comet team's own, and found no peak of beads.",
+       "draw": "Seven core columns in a row, two outlined lilac (label 'original sites'); up each column a bead-count bar graph builds; a gold dashed level marks the start of the cold, and no bar spikes at it. Labels '7 sites', 'no peak'."
+      },
+      {
+       "id": "s29",
+       "say": "Another said the claimed nanodiamonds were graphene, a common form of carbon. By twenty eleven, a review found that seven of the twelve original clues had not been reproduced. Supporters replied that the testers had used the wrong methods. Science, it turns out, has sequels.",
+       "draw": "A magnifier: a diamond lattice glyph flattens into a honeycomb sheet, label 'graphene'. Then twelve tiles in a row, the original clues; seven turn grey one by one, label '7 of 12'. Then two desks face each other, a person at each, and paper sheets fly back and forth along an arc, tagged '2009' and '2012'."
+      },
+      {
+       "id": "s30",
+       "say": "Then the black mats. In twenty twelve, geologists sampled black mats from the American southwest to northern Chile, from about six thousand to more than forty thousand years old, and found the same kinds of markers in all of them.",
+       "draw": "A map strip of the Americas with pins in the American southwest and northern Chile; below it a time axis from today to 45,000 years ago; black mat bars appear at many ages, the youngest at 6,000 and the oldest past 40,000 (the ones between are schematic); the same lilac marker specks sprinkle onto every bar. Labels '6,000', 'over 40,000'."
+      },
+      {
+       "id": "s31",
+       "say": "If the confetti is on every page of the album, it can't mark the day of the party.",
+       "draw": "An open photo album; pages flip, confetti on every page; one page with a party hat gets a gold ring, which dissolves."
+      },
+      {
+       "id": "s32",
+       "say": "Then the sharpest test: time. One blast is one moment, like a camera flash: every photo it lights shares one timestamp. In twenty fourteen, a team checked twenty-nine claimed sites. Only three fell in the right window.",
+       "draw": "A camera flash bursts; four photos fly out in a row, each with the same little clock face. Then a time axis from 14,000 to 11,000 years ago with a narrow gold window at the start of the cold; 29 dots pop in rows (positions schematic, a few hollow at the side for sites with no date); only 3 land inside the window and glow. Labels '29 sites', 'only 3'.",
+       "reuse": "sky-fell shot 6 (lg_c._test), the scattered dates"
+      },
+      {
+       "id": "s33",
+       "say": "A gentler review saw ages scattered by up to two centuries, yet called some clues hard to explain. Here the critics are at their strongest.",
+       "draw": "Same axis: a soft bracket spans ages up to 200 years apart, label 'up to 2 centuries'; a few dots get small amber rings (clues hard to explain); a gold underline runs beneath the scatter."
+      },
+      {
+       "id": "s34",
+       "say": "The comet team answered with statistics on more than three hundred and fifty dates, which they say fit within a single century. Same ground. Opposite readings.",
+       "draw": "The right half: a cloud of 354 tiny lilac dots condenses into a bell inside a gold band 100 years wide, label 'within 100 years'; the left half keeps the 29-site scatter. Labels 'critics' and 'comet team' over the two halves."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:intrigue][act:wonder, setting the scene]Then there are the Carolina ^Bays: half a ^million oval hollows along the eastern United States, lined up as if fanning out from one ^point. [act:laying out the claim, fair]The comet team reported its layer in fifteen of them, and some said the bays were ^craters from the ^blast. [p:0.93][act:explaining, an everyday picture]But buried sand grains slowly charge up in the dark, like tiny ^batteries: measure the charge, and you know how long they've been ^buried. [act:slow, spanning the ages][tune:level]The rims: a hundred and nine thousand years old... [act:landing it][tune:fall]down to two ^thousand.",
+      "[d:reveal][act:the decisive detail, warm]And at White ^Pond, the comet team's own core shows the bay filling with mud for thirty-one thousand ^years. [act:fair, clear]A thin layer inside may still be ^real. [act:the verdict, firm][tune:fall]But the bays are not its ^*craters*."
+     ],
+     "shots": [
+      {
+       "id": "s35",
+       "say": "Then there are the Carolina Bays: half a million oval hollows along the eastern United States, lined up as if fanning out from one point.",
+       "draw": "The US Atlantic coastal plain (longitude -86 to -72, latitude 29.5 to 41): about 170 small blue ovals appear, densest in the Carolinas; their long axes draw gold and extend dotted inland, converging on one point near the Great Lakes. Label 'Carolina Bays'.",
+       "reuse": "carolina-bays_m scene 0 (hook map with ovals and axes)"
+      },
+      {
+       "id": "s36",
+       "say": "The comet team reported its layer in fifteen of them, and some said the bays were craters from the blast.",
+       "draw": "Fifteen ovals ring lilac; from the far inland point, dotted lilac arcs of ice blocks rain down on the plain (claim style).",
+       "reuse": "carolina-bays_m scene 2 (the claimed rain of ice)"
+      },
+      {
+       "id": "s37",
+       "say": "But buried sand grains slowly charge up in the dark, like tiny batteries: measure the charge, and you know how long they've been buried. The rims: a hundred and nine thousand years old... down to two thousand.",
+       "draw": "Sand grains drawn as tiny batteries filling with charge underground in the dark. Then a time axis from 110,000 years ago to today: an amber band draws from 109,000 down to 2,000; a lilac dotted tick at 12,800, label 'the proposed blast'.",
+       "reuse": "carolina-bays_m scene 4 (the sand clock)"
+      },
+      {
+       "id": "s38",
+       "say": "And at White Pond, the comet team's own core shows the bay filling with mud for thirty-one thousand years. A thin layer inside may still be real. But the bays are not its craters.",
+       "draw": "White Pond in section: mud settles layer by layer like dust on a shelf; a core beside it, label '31,000 years'; a thin lilac line high in the core marks the 12,800 level and stays; the crater outline drawn over the bay is struck through.",
+       "reuse": "carolina-bays_m scene 6 (White Pond's mud)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Who turned the tap?",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:the mainstream view, clear]So what do most specialists blame for the ^cold? [act:plain][tune:fall]^Meltwater. [p:0.93][act:explaining, an everyday picture]The Atlantic works like a conveyor ^belt: warm, salty water flows north, cools, grows heavy and ^sinks, pulling more warmth along behind it. [act:explaining, clear]Pour a flood of fresh meltwater on ^top, and it floats like a ^lid. [act:the payoff][tune:fall]The belt slows, and the north turns ^cold.",
+      "[d:build][act:storytelling]In {1989|nineteen eighty-nine}, Wallace ^Broecker and colleagues argued that Lake ^Agassiz, a vast meltwater lake at the ice sheet's edge, switched its outlet from the Mississippi to the Saint ^Lawrence, straight into the North ^Atlantic."
+     ],
+     "shots": [
+      {
+       "id": "s39",
+       "say": "So what do most specialists blame for the cold?",
+       "draw": "Chapter card 4, 'Who turned the tap?' (engine card, holds for this sentence)."
+      },
+      {
+       "id": "s40",
+       "say": "Meltwater. The Atlantic works like a conveyor belt: warm, salty water flows north, cools, grows heavy and sinks, pulling more warmth along behind it.",
+       "draw": "The North Atlantic as a conveyor: a warm amber arrow runs north along the surface; in the north it glows, turns blue and sinks; a deep blue return runs south; a faint loop closes. Labels 'warm, salty', 'sinks'.",
+       "reuse": "sky-fell shot 7 (lg_c._belt), the conveyor belt"
+      },
+      {
+       "id": "s41",
+       "say": "Pour a flood of fresh meltwater on top, and it floats like a lid. The belt slows, and the north turns cold.",
+       "draw": "A pale blue lid of fresh meltwater spreads over the northern surface; the sinking arrow is struck through; the belt's arrows dim and slow; snowflakes over the north. Label 'fresh meltwater'.",
+       "reuse": "sky-fell shot 7 (lg_c._belt), the lid"
+      },
+      {
+       "id": "s42",
+       "say": "In nineteen eighty-nine, Wallace Broecker and colleagues argued that Lake Agassiz, a vast meltwater lake at the ice sheet's edge, switched its outlet from the Mississippi to the Saint Lawrence, straight into the North Atlantic.",
+       "draw": "Map of North America (longitude -115 to -50, latitude 25 to 62): the ice sheet's edge; Lake Agassiz as a schematic outline along its southern margin; an arrow south down the Mississippi to the Gulf fades; a new arrow runs east through the Great Lakes and the St Lawrence into the North Atlantic. Labels 'Lake Agassiz', 'Mississippi', 'St Lawrence'."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:the twist, delighted][tune:rise]One of his co-authors? [act:the reveal, warm][tune:fall]James ^*Kennett*, who would later help launch the comet ^idea. [p:0.93][act:explaining, the insight]And even the comet paper of {2007|two thousand seven} had the blast shake loose the ice sheet's ^meltwater. [act:a knowing smile][tune:fall]Both camps share the ^plumbing. [act:the punchline, light][tune:fall]They argue about who turned the ^*tap*."
+     ],
+     "shots": [
+      {
+       "id": "s43",
+       "say": "One of his co-authors? James Kennett, who would later help launch the comet idea.",
+       "draw": "Two paper sheets side by side, '1989' (meltwater) and '2007' (comet); a gold thread links the name 'Kennett' on the 1989 author list to the 2007 sheet."
+      },
+      {
+       "id": "s44",
+       "say": "And even the comet paper of two thousand seven had the blast shake loose the ice sheet's meltwater. Both camps share the plumbing. They argue about who turned the tap.",
+       "draw": "A plumbing drawing: the ice sheet as a tank, a pipe, a tap, and the Atlantic basin with its belt loop; a small group of people stands either side of the tap; a lilac dotted comet points at the tap from above, a blue melting arrow from below. Labels 'comet camp', 'meltwater camp', 'the tap'."
+      }
+     ]
+    },
+    {
+     "role": "cost",
+     "lines": [
+      "[d:aside][act:honest, the weak spot]But the meltwater story has a gap of its ^own. [act:explaining, fair]By {2010|twenty ten}, Broecker and colleagues wrote that the flood had left no clear trace on the land at the right time and ^place. [d:build][act:a new clue, intrigued]Then, in {2018|twenty eighteen}, cores from the Arctic seabed revealed a flood of meltwater pouring down Canada's Mackenzie ^River for about seven hundred ^years. [act:the payoff, quiet][tune:fall]Within the clocks' margins, it began just as the cold ^did."
+     ],
+     "shots": [
+      {
+       "id": "s45",
+       "say": "But the meltwater story has a gap of its own. By twenty ten, Broecker and colleagues wrote that the flood had left no clear trace on the land at the right time and place.",
+       "draw": "Back on the North America map: the St Lawrence route turns dotted; a magnifier along it finds no flood channel at the right time; a question mark at its mouth.",
+       "reuse": "alias of the Lake Agassiz map"
+      },
+      {
+       "id": "s46",
+       "say": "Then, in twenty eighteen, cores from the Arctic seabed revealed a flood of meltwater pouring down Canada's Mackenzie River for about seven hundred years. Within the clocks' margins, it began just as the cold did.",
+       "draw": "The map widens north (longitude -150 to -50, latitude 40 to 75): from Lake Agassiz an arrow runs north-west down the Mackenzie River into the Arctic Ocean; a core glyph on the seabed off its mouth. A strip timeline below: a flood band about 700 years long starting at 12,940 with a bar of plus or minus 150, beside the cold's onset at 12,850 with a bar of plus or minus 140; the two bars overlap. Labels 'Mackenzie River', 'Arctic Ocean', 'about 700 years'."
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:build][act:the second clue, steady]And the ^platinum? [p:0.93][act:explaining, clear]In {2025|twenty twenty-five}, a team re-read the Greenland ice on updated ^clocks. [act:precise]The spike starts about forty-five years ^after the cooling began, and lasts fourteen ^years, [act:explaining]more like a long volcanic eruption from a crack in Iceland than a single ^strike. [act:fair, even]That reading is new, and still being ^tested. [act:quiet, the landing][tune:fall]But a trigger can't come after the ^*bang*."
+     ],
+     "shots": [
+      {
+       "id": "s47",
+       "say": "And the platinum? In twenty twenty-five, a team re-read the Greenland ice on updated clocks. The spike starts about forty-five years after the cooling began, and lasts fourteen years, more like a long volcanic eruption from a crack in Iceland than a single strike.",
+       "draw": "The Greenland core again, year ticks spreading out finer near the onset. Then a decade timeline: a blue tick 'cooling begins' at year 0, 45 small dots tick by, a gold platinum bar runs from year 45 to year 59. Then a North Atlantic map: Iceland with a glowing orange fissure line and a plume drifting towards Greenland. Labels '45 years', '14 years', 'Iceland'."
+      },
+      {
+       "id": "s48",
+       "say": "That reading is new, and still being tested. But a trigger can't come after the bang.",
+       "draw": "On the decade timeline, a small burst glyph at year 0, 'the bang'; a dotted lilac arrow tries to run from the platinum bar back to it and is struck through."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The first farmers",
+   "beats": [
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:turning back to the village]Back to Abu ^Hureyra, and its ^glass. [p:0.93][act:explaining, clear]Another team found similar glassy droplets at four Syrian sites spread over three thousand ^years, and traced them to burning houses@noun of mud brick and ^straw. [act:fair, the reply]The comet team answers that some minerals in their glass needed more heat than a house@noun fire can ^give. [act:honest, even][tune:fall]That one is still ^argued."
+     ],
+     "shots": [
+      {
+       "id": "s49",
+       "say": "Back to Abu Hureyra, and its glass.",
+       "draw": "Chapter card 5, 'The first farmers' (engine card, holds for this sentence)."
+      },
+      {
+       "id": "s50",
+       "say": "Another team found similar glassy droplets at four Syrian sites spread over three thousand years, and traced them to burning houses of mud brick and straw.",
+       "draw": "Back on the map of northern Syria: four small pins along the Euphrates (schematic); a time axis from 13,000 to 10,000 years ago with four droplet icons spread across it; then an iso mud-brick house with a straw roof catches fire and glassy droplets form in its ash. Labels '4 sites', '3,000 years', 'house fire'.",
+       "reuse": "alias of the Abu Hureyra map"
+      },
+      {
+       "id": "s51",
+       "say": "The comet team answers that some minerals in their glass needed more heat than a house fire can give. That one is still argued.",
+       "draw": "Two thermometers side by side: 'house fire' (part-filled, no number) and 'comet team' filling past 2,200 °C; a balance between them wobbles and settles level."
+      }
+     ]
+    },
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:storytelling, warm]But the village matters for a bigger ^reason. [p:0.93][act:explaining, clear]Its first villagers were foragers who gathered wild ^cereals, and as the cold set in, their world turned colder and ^drier, and the wild food plants near the village ^thinned."
+     ],
+     "shots": [
+      {
+       "id": "s52",
+       "say": "But the village matters for a bigger reason. Its first villagers were foragers who gathered wild cereals, and as the cold set in, their world turned colder and drier, and the wild food plants near the village thinned.",
+       "draw": "The village model again: round half-sunken huts on the terrace above the Euphrates, people gathering among wild cereal stalks and woodland; the sky greys, the woodland edge pulls back tree by tree, the stalks thin. Labels 'wild cereals', 'woodland retreats'.",
+       "reuse": "alias of the Abu Hureyra village model"
+      }
+     ]
+    },
+    {
+     "role": "cost",
+     "lines": [
+      "[d:build][act:laying out the claim, fair]The expert who studied their seeds argued that the villagers began to ^cultivate wild rye: some of the first farming on ^Earth. [act:fair, the other side]Others read@present the same seeds as a broader diet, not ^farming. [act:the comet reading, even]And the comet team adds its own ^chapter: in their reading, a few villagers survived the blast, ^rebuilt, and took up ^farming."
+     ],
+     "shots": [
+      {
+       "id": "s53",
+       "say": "The expert who studied their seeds argued that the villagers began to cultivate wild rye: some of the first farming on Earth. Others read the same seeds as a broader diet, not farming.",
+       "draw": "A tray of charred seeds under a lamp: rye grains glow gold and a small dotted field with two people tilling appears (the cultivation reading); then the tray fans out into many kinds of seed (the broader diet). Labels 'rye', 'broader diet'."
+      },
+      {
+       "id": "s54",
+       "say": "And the comet team adds its own chapter: in their reading, a few villagers survived the blast, rebuilt, and took up farming.",
+       "draw": "The village model in lilac dotted style: a flash in the sky; the round huts give way to rectangular houses above ground; a few people return; a small field appears."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][p:0.93][act:the insight, clear]For the first farmers, what mattered was the ^cold, and the cold is not in doubt, whatever caused ^it. [d:wonder][act:wonder, widening out]When it lifted, about eleven thousand seven hundred years ago, people soon began raising the great carved pillars of Gobekli ^Tepe. [act:wonder, landing it][tune:fall]About a thousand years later, fully domesticated cereals ^appear."
+     ],
+     "shots": [
+      {
+       "id": "s55",
+       "say": "For the first farmers, what mattered was the cold, and the cold is not in doubt, whatever caused it.",
+       "draw": "The thermometer again: a gold ring around the cold trough; two small dim icons at its side, a comet and a meltwater wave, each with a question mark.",
+       "reuse": "alias of the opening thermometer"
+      },
+      {
+       "id": "s56",
+       "say": "When it lifted, about eleven thousand seven hundred years ago, people soon began raising the great carved pillars of Gobekli Tepe. About a thousand years later, fully domesticated cereals appear.",
+       "draw": "The timeline runs on past 11,700: at about 11,600 a T-shaped carved pillar rises with a person for scale, label 'Göbekli Tepe'; at about 10,500 a wheat ear pops, label 'domesticated cereals'."
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:tension][act:the landing, quiet][tune:fall]A cold snap may have nudged people towards ^farming. [act:the open question, gentle][tune:fall]Who started the cold is a separate@adj ^question."
+     ],
+     "shots": [
+      {
+       "id": "s57",
+       "say": "A cold snap may have nudged people towards farming. Who started the cold is a separate question.",
+       "draw": "Dusk: a person at the edge of a small field; behind, the cold band of the thermometer, faint; above, the comet and meltwater icons, both still with question marks."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The weighing",
+   "beats": [
+    {
+     "role": "weigh",
+     "lines": [
+      "[d:calm][act:stepping back, calm]Where does@verb that leave us ^today? [p:0.93][act:even, reporting]In {2023|twenty twenty-three}, thirteen scientists published a comprehensive ^refutation, among them the man whose team found the platinum ^spike. [act:fair, the reply]The comet team replied in the same journal that differing readings cannot ^refute a hypothesis. [act:plain, sober]Since {2025|twenty twenty-five}, journals have retracted three airburst papers by members of the comet team, two of them about this very ^layer. [act:fair, even]The authors strongly ^disagree. [p:0.93][act:honest, the principle][tune:fall]A retraction is not a ^refutation. [act:quietly firm][tune:fall]But the flagship evidence keeps failing its ^checks.",
+      "[d:verdict][p:0.95][act:weighing it, calm authority][tune:rise]The cold ^snap? [act:firm, certain][tune:highfall]^*Established*, in ice and lake mud ^alike. [act:even][tune:rise]The Carolina Bays as its ^craters? [act:the verdict, firm][tune:fall]*Ruled ^out* by the dates. [act:open, honest][tune:level]What tipped the climate, and what made the ^platinum? [act:honest, level-headed][tune:fall]Still ^open, with meltwater the leading suspect@noun. [act:the next question, even][tune:rise]A comet behind it ^all? [act:the verdict, fair][tune:fall]*Awaiting ^evidence*. [p:0.93][act:fair, the reason]Not ruled out, because a burst in the sky can leave only faint ^traces."
+     ],
+     "shots": [
+      {
+       "id": "s58",
+       "say": "Where does that leave us today?",
+       "draw": "Chapter card 6, 'The weighing' (engine card, holds for this sentence)."
+      },
+      {
+       "id": "s59",
+       "say": "In twenty twenty-three, thirteen scientists published a comprehensive refutation, among them the man whose team found the platinum spike. The comet team replied in the same journal that differing readings cannot refute a hypothesis.",
+       "draw": "Two journal sheets face each other on a dark desk: '2023' with thirteen small figures above it, one lit gold beside a tiny platinum-spike glyph; '2024' answers with an arrow back."
+      },
+      {
+       "id": "s60",
+       "say": "Since twenty twenty-five, journals have retracted three airburst papers by members of the comet team, two of them about this very layer. The authors strongly disagree. A retraction is not a refutation. But the flagship evidence keeps failing its checks.",
+       "draw": "Three sheets; a red strike draws across each, label 'retracted'; two of them link by a thin line to a small section with the thin layer; then a balance tips slowly away from the comet's pan."
+      },
+      {
+       "id": "s61",
+       "say": "The cold snap? Established, in ice and lake mud alike. The Carolina Bays as its craters? Ruled out by the dates.",
+       "draw": "The ledger: the thermometer's cold band rings green with the chip 'Established'; beside it the bays map, struck, with the chip 'Ruled out'."
+      },
+      {
+       "id": "s62",
+       "say": "What tipped the climate, and what made the platinum? Still open, with meltwater the leading suspect. A comet behind it all? Awaiting evidence. Not ruled out, because a burst in the sky can leave only faint traces.",
+       "draw": "Amber chips 'trigger: open' and 'platinum: open', the meltwater lid icon brightest beside them; then the dotted comet rings lilac with the chip 'Awaiting evidence'; a faint airburst glow over a landscape with no crater."
+      }
+     ]
+    },
+    {
+     "role": "test",
+     "lines": [
+      "[d:build][act:practical, clear, listing the tests][tune:level]What would change our ^minds? [act:steady]Labs re-sampling the same sections ^blind, not told which layer is ^which, like a blind taste ^test. [act:continuing]Shocked minerals, or a crater, confirmed by impact experts outside the comet ^team. [act:continuing, steady]Platinum and iridium from several ice and ocean cores that tell a comet from a ^volcano. [act:looking ahead, hopeful][tune:level]Or one layer, with one date, ^everywhere. [act:fair, the other side][tune:fall]And if blind tests find the same markers at every level, the comet ^fades."
+     ],
+     "shots": [
+      {
+       "id": "s63",
+       "say": "What would change our minds? Labs re-sampling the same sections blind, not told which layer is which, like a blind taste test.",
+       "draw": "A boundary section with six numbered sample bags (no layer names) travelling to three small lab buildings, a blindfold glyph in each window."
+      },
+      {
+       "id": "s64",
+       "say": "Shocked minerals, or a crater, confirmed by impact experts outside the comet team. Platinum and iridium from several ice and ocean cores that tell a comet from a volcano. Or one layer, with one date, everywhere. And if blind tests find the same markers at every level, the comet fades.",
+       "draw": "A shocked quartz grain with crossing lines and a crater outline, ticked by a figure labelled 'outside experts'; several cores, ice and ocean, feed a fork to a comet glyph or a volcano glyph; a world map where pins at many sites light together on one date line; then, the other way, the same specks appear at every level of a section and the comet glyph fades."
+      }
+     ]
+    },
+    {
+     "role": "close",
+     "lines": [
+      "[d:tension][p:0.93][act:quiet wonder]Something abrupt really did happen, twelve thousand nine hundred years ^ago. [act:the last word, warm][tune:fall]We just haven't caught ^*what*. [act:inviting, a smile][tune:fall]Weigh it ^yourself."
+     ],
+     "shots": [
+      {
+       "id": "s65",
+       "say": "Something abrupt really did happen, twelve thousand nine hundred years ago. We just haven't caught what. Weigh it yourself.",
+       "draw": "The quiet last image: night tundra under stars, the mountain avens flower in the foreground, a riverbank cut where the thin layer glows faintly, a faint dotted comet trail high in the sky; the camera holds as the end card comes in."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "description": "About 12,900 years ago, as the last Ice Age was letting go, the north plunged back into the cold for some 1,200 years: the Younger Dryas. Since 2007 a team of scientists has argued that a comet, or its fragments, set it off and left a thin layer of clues on four continents. Most specialists blame meltwater that stalled the Atlantic.\n\nWe weigh both camps at their strongest: the black mat and its microspherules and nanodiamonds, the Greenland platinum spike, the melted glass of Abu Hureyra, the Carolina Bays, the failed replications and the fight over dates, the meltwater routes, the newest papers and retractions, and why it all matters for the first farmers. The verdict on the comet: Awaiting evidence.\n\nChapters\n00:00 The cold comes back\nmm:ss The comet's case\nmm:ss The critics answer\nmm:ss Who turned the tap?\nmm:ss The first farmers\nmm:ss The weighing\n\nSources\nRasmussen S. O. et al. 2006, Journal of Geophysical Research 111: D06102, doi:10.1029/2005JD006079\nBuizert C. et al. 2014, Science 345: 1177-1180, doi:10.1126/science.1254961\nBrauer A. et al. 2008, Nature Geoscience 1: 520-523, doi:10.1038/ngeo263\nFirestone R. B. et al. 2007, PNAS 104(41): 16016-16021, doi:10.1073/pnas.0706977104\nHaynes C. V. 2008, PNAS 105(18): 6520-6525, doi:10.1073/pnas.0800560105\nWittke J. H. et al. 2013, PNAS 110(23): E2088-E2097, doi:10.1073/pnas.1301760110\nPetaev M. I. et al. 2013, PNAS 110(32): 12917-12920, doi:10.1073/pnas.1303924110\nMoore A. M. T. et al. 2020, Scientific Reports 10: 4185, doi:10.1038/s41598-020-60867-w\nUniversity of California, Santa Barbara, news release on Moore et al. 2020 (6 March 2020), quoting J. P. Kennett\nKenny G. G. et al. 2022, Science Advances 8(10): eabm2434, doi:10.1126/sciadv.abm2434\nSurovell T. A. et al. 2009, PNAS 106(43): 18155-18158, doi:10.1073/pnas.0907857106\nLeCompte M. A. et al. 2012, PNAS (reply to Surovell et al. 2009; NC State University news release, 17 September 2012)\nDaulton T. L., Pinter N., Scott A. C. 2010, PNAS 107(37): 16043-16047, doi:10.1073/pnas.1003904107\nPinter N. et al. 2011, Earth-Science Reviews 106(3-4): 247-264, doi:10.1016/j.earscirev.2011.02.005\nPigati J. S. et al. 2012, PNAS 109(19): 7208-7212, doi:10.1073/pnas.1200296109\nMeltzer D. J. et al. 2014, PNAS 111(21): E2162-E2171, doi:10.1073/pnas.1401150111\nHolliday V. T. et al. 2014, Journal of Quaternary Science 29(6): 515-530, doi:10.1002/jqs.2724\nvan Hoesel A. et al. 2014, Quaternary Science Reviews 83: 95-114, doi:10.1016/j.quascirev.2013.10.033\nKennett J. P. et al. 2015, PNAS 112(32): E4344-E4353, doi:10.1073/pnas.1507146112\nThy P., Willcox G., Barfield G. H., Fuller D. Q. 2015, Journal of Archaeological Science 54: 193-209, doi:10.1016/j.jas.2014.11.027\nBrooks M. J., Taylor B. E., Ivester A. H. 2010, Southeastern Archaeology 29: 146-163, doi:10.1179/sea.2010.29.1.010\nMoore C. R. et al. 2016, Southeastern Geology 51: 145-171 (Herndon Bay)\nMoore C. R. et al. 2019, Scientific Reports 9: 15121, doi:10.1038/s41598-019-51552-8\nLundine M., Trembanis A. 2025, Marine Geology 480: 107449, doi:10.1016/j.margeo.2024.107449\nBroecker W. S., Kennett J. P., Flower B. P., Teller J. T., Trumbore S., Bonani G., Wolfli W. 1989, Nature 341: 318, doi:10.1038/341318a0\nBroecker W. S. et al. 2010, Quaternary Science Reviews 29: 1078-1081, doi:10.1016/j.quascirev.2010.02.019\nKeigwin L. D. et al. 2018, Nature Geoscience 11: 599-604, doi:10.1038/s41561-018-0169-6\nGreen C. E. et al. 2025, PLOS ONE 20(9): e0331811, doi:10.1371/journal.pone.0331811\nHolliday V. T. et al. 2023, Earth-Science Reviews 247: 104502, doi:10.1016/j.earscirev.2023.104502\nSweatman M. B., Powell J. L., West A. 2024, Earth-Science Reviews 258: 104960, doi:10.1016/j.earscirev.2024.104960\nHolliday V. T. et al. 2024, Earth-Science Reviews 258: 104961, doi:10.1016/j.earscirev.2024.104961\nPLOS ONE Editors 2026, Retraction: Shocked quartz at the Younger Dryas onset (12.8 ka) supports cosmic airbursts/impacts, PLOS ONE, doi:10.1371/journal.pone.0342620\nPLOS ONE Editors 2026, Retraction: A 12,800-year-old layer with cometary dust, microspherules, and platinum anomaly recorded in multiple cores from Baffin Bay, PLOS ONE (11 February 2026)\nScientific Reports 2025, Retraction Note to Bunch et al. 2021 (airburst at Tall el-Hammam, Jordan), April 2025\nRetraction Watch, 23 April 2025 and 4 March 2026 (authors' responses to the retractions)\nHillman G. et al. 2001, The Holocene 11(4): 383-393, doi:10.1191/095968301678302823\nColledge S., Conolly J. 2010, Environmental Archaeology 15(2): 124-138, doi:10.1179/146141010X12640787648504\nMoore A. M. T. 2021, A Cosmic Impact and the Beginning of Farming at Abu Hureyra in Syria, ANE Today (American Society of Overseas Research), 4 March 2021",
+ "sources": [
+  "Rasmussen S. O. et al. 2006, Journal of Geophysical Research 111: D06102, doi:10.1029/2005JD006079",
+  "Buizert C. et al. 2014, Science 345: 1177-1180, doi:10.1126/science.1254961",
+  "Brauer A. et al. 2008, Nature Geoscience 1: 520-523, doi:10.1038/ngeo263",
+  "Firestone R. B. et al. 2007, PNAS 104(41): 16016-16021, doi:10.1073/pnas.0706977104",
+  "Haynes C. V. 2008, PNAS 105(18): 6520-6525, doi:10.1073/pnas.0800560105",
+  "Wittke J. H. et al. 2013, PNAS 110(23): E2088-E2097, doi:10.1073/pnas.1301760110",
+  "Petaev M. I. et al. 2013, PNAS 110(32): 12917-12920, doi:10.1073/pnas.1303924110",
+  "Moore A. M. T. et al. 2020, Scientific Reports 10: 4185, doi:10.1038/s41598-020-60867-w",
+  "University of California, Santa Barbara, news release on Moore et al. 2020 (6 March 2020), quoting J. P. Kennett",
+  "Kenny G. G. et al. 2022, Science Advances 8(10): eabm2434, doi:10.1126/sciadv.abm2434",
+  "Surovell T. A. et al. 2009, PNAS 106(43): 18155-18158, doi:10.1073/pnas.0907857106",
+  "LeCompte M. A. et al. 2012, PNAS (reply to Surovell et al. 2009; NC State University news release, 17 September 2012)",
+  "Daulton T. L., Pinter N., Scott A. C. 2010, PNAS 107(37): 16043-16047, doi:10.1073/pnas.1003904107",
+  "Pinter N. et al. 2011, Earth-Science Reviews 106(3-4): 247-264, doi:10.1016/j.earscirev.2011.02.005",
+  "Pigati J. S. et al. 2012, PNAS 109(19): 7208-7212, doi:10.1073/pnas.1200296109",
+  "Meltzer D. J. et al. 2014, PNAS 111(21): E2162-E2171, doi:10.1073/pnas.1401150111",
+  "Holliday V. T. et al. 2014, Journal of Quaternary Science 29(6): 515-530, doi:10.1002/jqs.2724",
+  "van Hoesel A. et al. 2014, Quaternary Science Reviews 83: 95-114, doi:10.1016/j.quascirev.2013.10.033",
+  "Kennett J. P. et al. 2015, PNAS 112(32): E4344-E4353, doi:10.1073/pnas.1507146112",
+  "Thy P., Willcox G., Barfield G. H., Fuller D. Q. 2015, Journal of Archaeological Science 54: 193-209, doi:10.1016/j.jas.2014.11.027",
+  "Brooks M. J., Taylor B. E., Ivester A. H. 2010, Southeastern Archaeology 29: 146-163, doi:10.1179/sea.2010.29.1.010",
+  "Moore C. R. et al. 2016, Southeastern Geology 51: 145-171 (Herndon Bay)",
+  "Moore C. R. et al. 2019, Scientific Reports 9: 15121, doi:10.1038/s41598-019-51552-8",
+  "Lundine M., Trembanis A. 2025, Marine Geology 480: 107449, doi:10.1016/j.margeo.2024.107449",
+  "Broecker W. S., Kennett J. P., Flower B. P., Teller J. T., Trumbore S., Bonani G., Wolfli W. 1989, Nature 341: 318, doi:10.1038/341318a0",
+  "Broecker W. S. et al. 2010, Quaternary Science Reviews 29: 1078-1081, doi:10.1016/j.quascirev.2010.02.019",
+  "Keigwin L. D. et al. 2018, Nature Geoscience 11: 599-604, doi:10.1038/s41561-018-0169-6",
+  "Green C. E. et al. 2025, PLOS ONE 20(9): e0331811, doi:10.1371/journal.pone.0331811",
+  "Holliday V. T. et al. 2023, Earth-Science Reviews 247: 104502, doi:10.1016/j.earscirev.2023.104502",
+  "Sweatman M. B., Powell J. L., West A. 2024, Earth-Science Reviews 258: 104960, doi:10.1016/j.earscirev.2024.104960",
+  "Holliday V. T. et al. 2024, Earth-Science Reviews 258: 104961, doi:10.1016/j.earscirev.2024.104961",
+  "PLOS ONE Editors 2026, Retraction: Shocked quartz at the Younger Dryas onset (12.8 ka) supports cosmic airbursts/impacts, PLOS ONE, doi:10.1371/journal.pone.0342620",
+  "PLOS ONE Editors 2026, Retraction: A 12,800-year-old layer with cometary dust, microspherules, and platinum anomaly recorded in multiple cores from Baffin Bay, PLOS ONE (11 February 2026)",
+  "Scientific Reports 2025, Retraction Note to Bunch et al. 2021 (airburst at Tall el-Hammam, Jordan), April 2025",
+  "Retraction Watch, 23 April 2025 and 4 March 2026 (authors' responses to the retractions)",
+  "Hillman G. et al. 2001, The Holocene 11(4): 383-393, doi:10.1191/095968301678302823",
+  "Colledge S., Conolly J. 2010, Environmental Archaeology 15(2): 124-138, doi:10.1179/146141010X12640787648504",
+  "Moore A. M. T. 2021, A Cosmic Impact and the Beginning of Farming at Abu Hureyra in Syria, ANE Today (American Society of Overseas Research), 4 March 2021"
+ ],
+ "facts_added": [
+  {
+   "fact": "Greenland's annual-layer chronology (GICC05) dates the onset of the Younger Dryas to 12,896 years before AD 2000 (maximum counting error 138 years), its end to 11,703 (99 years) and the onset of the Bolling warm phase to 14,692 (186 years); layers are counted from seasonal signals, spring dust and summer chemistry. Said as 'about 12,900', 'about 11,700', 'about 14,700', 'twelve hundred years' and 'less than two thousand years later'.",
+   "source": "Rasmussen et al. 2006, JGR 111: D06102, doi:10.1029/2005JD006079 (Table 4 and section on annual layers)"
+  },
+  {
+   "fact": "Central Greenland (GISP2) warmed by about 14.4 +/- 1.9 C at the Bolling onset and cooled by about 9.2 +/- 0.9 C at the Younger Dryas onset (said: 'about fourteen degrees', 'about nine degrees colder').",
+   "source": "Buizert et al. 2014, Science 345: 1177, doi:10.1126/science.1254961"
+  },
+  {
+   "fact": "In the annually layered sediments of a German crater lake (Meerfelder Maar, Eifel) the Younger Dryas begins at 12,679 varve years BP, with an abrupt wind shift 'from one year to the next'. Derived: GICC05's 12,896 b2k equals 12,846 years BP, so the lake's onset is about 167 years later (said: 'more than a century and a half later').",
+   "source": "Brauer et al. 2008, Nature Geoscience 1: 520-523, doi:10.1038/ngeo263; Rasmussen et al. 2006"
+  },
+  {
+   "fact": "Firestone and 25 co-authors (2007) proposed that one or more extraterrestrial objects exploded over northern North America about 12,900 years ago, partially destabilising the Laurentide Ice Sheet (its meltwater disrupting Atlantic circulation) and triggering the cooling; a black layer at about 50 Clovis-age sites, with megafauna bones and Clovis tools below it but not within or above; a thin basal layer with magnetic grains with iridium, magnetic microspherules, charcoal, soot, carbon spherules, glass-like carbon with nanodiamonds and fullerenes; the layer reported in at least 15 Carolina Bays.",
+   "source": "Firestone et al. 2007, PNAS 104(41): 16016-16021, doi:10.1073/pnas.0706977104; black mat: Haynes 2008, PNAS, doi:10.1073/pnas.0800560105"
+  },
+  {
+   "fact": "Spherules reported at 18 sites across North America, Europe and the Middle East; an estimated 10 million tonnes over about 50 million km2. Derived: Earth's surface is about 510 million km2, so about a tenth.",
+   "source": "Wittke et al. 2013, PNAS 110(23): E2088-E2097, doi:10.1073/pnas.1301760110"
+  },
+  {
+   "fact": "In the GISP2 Greenland ice core, near the Younger Dryas onset, platinum rises at least 100-fold over about 14 years and drops back over about 7 years (found by Petaev's team, separate from the founding comet paper).",
+   "source": "Petaev et al. 2013, PNAS 110(32): 12917-12920, doi:10.1073/pnas.1303924110"
+  },
+  {
+   "fact": "Abu Hureyra (Syria, on the Euphrates) was excavated in 1972-73 before the Tabqa Dam flooded it under Lake Assad; in 2020 Moore and colleagues reported meltglass in its Younger Dryas boundary layer, splashed on building material and animal bones, with melting temperatures above 2,200 C; Kennett: 'such high temperatures would completely melt an automobile in less than a minute'.",
+   "source": "Moore et al. 2020, Scientific Reports 10: 4185, doi:10.1038/s41598-020-60867-w; UCSB news release, 6 March 2020; project case page younger-dryas-impact"
+  },
+  {
+   "fact": "Greenland's Hiawatha impact structure, once suggested as a candidate, is about 58 million years old; no crater dates to the Younger Dryas onset.",
+   "source": "Kenny et al. 2022, Science Advances 8(10): eabm2434, doi:10.1126/sciadv.abm2434; Holliday et al. 2014, doi:10.1002/jqs.2724; Holliday et al. 2023, doi:10.1016/j.earscirev.2023.104502"
+  },
+  {
+   "fact": "Surovell and colleagues (2009) sampled seven sites, two of them examined by Firestone et al., and could not reproduce the results (no magnetic microspherule peaks).",
+   "source": "Surovell et al. 2009, PNAS 106(43): 18155-18158, doi:10.1073/pnas.0907857106"
+  },
+  {
+   "fact": "LeCompte and colleagues (2012) replied that the 2009 study used flawed protocols and reported spherules at Blackwater Draw, Topper and a Maryland site; critics note several authors were linked to the original team (said only as 'Supporters replied that the testers had used the wrong methods').",
+   "source": "LeCompte et al. 2012, PNAS; NC State University news release, 17 September 2012"
+  },
+  {
+   "fact": "Daulton, Pinter and Scott (2010) found that the claimed nanodiamonds in carbon spherules were graphene and graphene/graphane-oxide aggregates, not diamond.",
+   "source": "Daulton et al. 2010, PNAS 107(37): 16043-16047, doi:10.1073/pnas.1003904107"
+  },
+  {
+   "fact": "Pinter et al. (2011): of the 12 original lines of evidence, seven had so far turned out to be non-reproducible.",
+   "source": "Pinter et al. 2011, Earth-Science Reviews 106: 247-264, doi:10.1016/j.earscirev.2011.02.005"
+  },
+  {
+   "fact": "Black mats ranging from about 6,000 to more than 40,000 years old in the south-western US and the Atacama Desert of northern Chile hold elevated 'impact markers', which arise from ordinary wetland processes.",
+   "source": "Pigati et al. 2012, PNAS 109(19): 7208-7212, doi:10.1073/pnas.1200296109"
+  },
+  {
+   "fact": "Of 29 sites claimed to hold the boundary layer, only 3 fall within the proponents' own time window for the Younger Dryas onset.",
+   "source": "Meltzer et al. 2014, PNAS 111(21): E2162-E2171, doi:10.1073/pnas.1401150111"
+  },
+  {
+   "fact": "A critical review found an age discrepancy of up to two centuries between sites linked to the proposed event, while noting that some evidence cannot fully be explained.",
+   "source": "van Hoesel et al. 2014, Quaternary Science Reviews 83: 95-114, doi:10.1016/j.quascirev.2013.10.033"
+  },
+  {
+   "fact": "Bayesian modelling of 354 dates from 23 sections in 12 countries on four continents puts the boundary layer at 12,835 to 12,735 cal BP (95%), a single century (said: 'more than three hundred and fifty dates', 'within a single century'); also the source for 'four continents' in the hook.",
+   "source": "Kennett et al. 2015, PNAS 112(32): E4344-E4353, doi:10.1073/pnas.1507146112"
+  },
+  {
+   "fact": "Similar glassy (scoria) droplets occur at four northern Syrian sites dated from about 13,000 to 10,000 years ago (a 3,000-year spread) and formed in burning buildings of mud brick and straw; Moore and colleagues reply that minerals in their glass required temperatures above 2,200 C.",
+   "source": "Thy et al. 2015, Journal of Archaeological Science 54: 193-209, doi:10.1016/j.jas.2014.11.027 (UC Davis news, 6 January 2015); Moore et al. 2020"
+  },
+  {
+   "fact": "In 1989 Broecker, Kennett and colleagues argued that the Younger Dryas began when Laurentide meltwater (Lake Agassiz) was diverted from the Mississippi to the St Lawrence; co-author James P. Kennett (UC Santa Barbara) later co-led the impact hypothesis.",
+   "source": "Broecker et al. 1989, Nature 341: 318, doi:10.1038/341318a0; Firestone et al. 2007; Kennett et al. 2015"
+  },
+  {
+   "fact": "Broecker and colleagues (2010): the Lake Agassiz flood scenario 'has fallen from favor due to lack of a clear geomorphic signature at the correct time and place'; the Younger Dryas looks like an integral part of the deglacial sequence.",
+   "source": "Broecker et al. 2010, Quaternary Science Reviews 29: 1078-1081, doi:10.1016/j.quascirev.2010.02.019"
+  },
+  {
+   "fact": "Beaufort Sea cores record a flood of meltwater, ice and sediment to the Arctic via the Mackenzie River, beginning about 12,940 +/- 150 years ago and lasting about 700 years, virtually the same as the Younger Dryas onset in Greenland ice (12,850 +/- 140).",
+   "source": "Keigwin et al. 2018, Nature Geoscience 11: 599-604, doi:10.1038/s41561-018-0169-6"
+  },
+  {
+   "fact": "Re-examined on updated chronologies, the Greenland platinum spike begins about 45 years after the Younger Dryas cooling began and lasts about 14 years, more consistent with an Icelandic fissure eruption than an instantaneous event.",
+   "source": "Green et al. 2025, PLOS ONE 20(9): e0331811, doi:10.1371/journal.pone.0331811 (45 years: J. Baldini's summary in The Conversation, republished by Space.com, 2025)"
+  },
+  {
+   "fact": "Holliday et al. 2023, 'Comprehensive refutation of the YDIH', has 13 authors, among them M. I. Petaev, first author of the 2013 platinum paper; Sweatman, Powell and West replied in the same journal in 2024 that differences of interpretation cannot falsify the hypothesis; Holliday and colleagues answered with a rebuttal.",
+   "source": "Holliday et al. 2023, Earth-Science Reviews 247: 104502, doi:10.1016/j.earscirev.2023.104502; Sweatman et al. 2024, doi:10.1016/j.earscirev.2024.104960; Holliday et al. 2024, doi:10.1016/j.earscirev.2024.104961"
+  },
+  {
+   "fact": "Retractions: Scientific Reports retracted the 2021 Tall el-Hammam airburst paper (corresponding author Allen West) in April 2025; PLOS ONE retracted two 2025 papers on 11 February 2026, on shocked quartz at the Younger Dryas onset and on a 12,800-year-old layer in Baffin Bay cores (corresponding author Christopher Moore), citing missing data and age-model problems; the authors disagreed ('strongly disagree', West; 'confident in the integrity of the data', Moore).",
+   "source": "PLOS ONE retraction, doi:10.1371/journal.pone.0342620; Scientific Reports Retraction Note, April 2025; Retraction Watch, 23 April 2025 and 4 March 2026"
+  },
+  {
+   "fact": "Carolina Bays: about 500,000 ovals; luminescence ages of rims from about 109,000 to 2,000 years; at White Pond, a bay where the comet team itself reports a 12,800-year platinum anomaly, lake mud began accumulating about 31,000 years ago (from the Short 'carolina-bays'; the team link from the case page).",
+   "source": "Brooks et al. 2010, doi:10.1179/sea.2010.29.1.010; Moore C. R. et al. 2016; Moore C. R. et al. 2019, Scientific Reports 9: 15121, doi:10.1038/s41598-019-51552-8; Lundine and Trembanis 2025, doi:10.1016/j.margeo.2024.107449"
+  },
+  {
+   "fact": "At Abu Hureyra the botanist Gordon Hillman argued that systematic cultivation of cereals began by at least 13,000 years ago, with rye among the first crops, as a cold, dry reversal equivalent to the Younger Dryas thinned the wild staples.",
+   "source": "Hillman et al. 2001, The Holocene 11(4): 383-393, doi:10.1191/095968301678302823"
+  },
+  {
+   "fact": "The Late Epipalaeolithic phases at Abu Hureyra (about 13,100 to 12,000 cal BP) span the Younger Dryas onset, a reversion to cold and dry conditions with woodland receding; the plant changes are more parsimoniously read as a broadening diet than as cultivation.",
+   "source": "Colledge and Conolly 2010, Environmental Archaeology 15(2): 124-138, doi:10.1179/146141010X12640787648504"
+  },
+  {
+   "fact": "In Moore's reading, a few villagers survived the airburst, rebuilt the village as rectangular above-ground houses, and took up farming (rye, then wheat and legumes).",
+   "source": "Moore A. M. T. 2021, ANE Today, 4 March 2021; Moore et al. 2020"
+  }
+ ],
+ "names": [
+  {
+   "name": "Younger Dryas",
+   "say": "YUNG-ger DRY-us (LEX has dryas)"
+  },
+  {
+   "name": "Clovis",
+   "say": "KLOH-viss (LEX has clovis)"
+  },
+  {
+   "name": "Richard Firestone",
+   "say": "RICH-erd FIRE-stone"
+  },
+  {
+   "name": "James Kennett",
+   "say": "JAYMZ KEN-it"
+  },
+  {
+   "name": "Abu Hureyra",
+   "say": "AH-boo hoo-RAY-ruh (LEX has abu; hureyra is new)"
+  },
+  {
+   "name": "Euphrates",
+   "say": "yoo-FRAY-teez"
+  },
+  {
+   "name": "Wallace Broecker",
+   "say": "WOL-iss BROH-ker"
+  },
+  {
+   "name": "Lake Agassiz",
+   "say": "AG-uh-see"
+  },
+  {
+   "name": "Saint Lawrence",
+   "say": "saynt LOR-ens"
+  },
+  {
+   "name": "Mackenzie River",
+   "say": "muh-KEN-zee"
+  },
+  {
+   "name": "Gobekli Tepe",
+   "say": "guh-BECK-lee TEP-eh (LEX has gobekli and tepe; written without the umlaut in the narration, Göbekli Tepe on screen)"
+  },
+  {
+   "name": "microspherules",
+   "say": "my-kroh-SFEER-oolz"
+  },
+  {
+   "name": "nanodiamonds",
+   "say": "NAN-oh-DYE-uh-mundz"
+  },
+  {
+   "name": "iridium",
+   "say": "ih-RID-ee-um"
+  },
+  {
+   "name": "graphene",
+   "say": "GRAF-een"
+  },
+  {
+   "name": "Chile",
+   "say": "CHIL-ee (RESPELL has chile)"
+  },
+  {
+   "name": "Siberia, Iceland, Greenland, Syria, Carolina Bays, White Pond, Mississippi",
+   "say": "as usual in English"
+  }
+ ],
+ "words": 1686
+}
