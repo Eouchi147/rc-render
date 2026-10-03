@@ -1,0 +1,750 @@
+{
+ "id": "lf-orion",
+ "kind": "case",
+ "series": "Under Giza",
+ "title": "The Orion Correlation",
+ "intro_title": "The Orion Correlation",
+ "yt_title": "Are the Pyramids a Map of Orion's Belt? The Evidence",
+ "verdict": "Awaiting evidence",
+ "verdict_scope": "a plan of Giza that records the sky of about 10,500 BCE (Bauval and Gilbert 1994: 10,450 BC; Hancock and Bauval 1996): Awaiting evidence, the Short's grade, reached again from the evidence. The claimed match of the belt's lean misses by about ten degrees in that year (Fairall 1999), a ground plan cannot record the belt's height (the 'lowest point' the date rests on), and nothing built at Giza has been dated to that age, while radiocarbon, Merer's diary of Khufu's year 27 and the builders' town place the three pyramids in three successive reigns around 2500 BCE. Not Ruled out: an intention to commemorate an older sky cannot be dated directly. Graded separately in the weighing: the three pyramids built by Khufu, Khafre and Menkaure about 4,500 years ago, Established; shafts aimed at the stars of that age as a road for the king, Plausible (the angles are also simple builders' slopes); a plan copied from Orion's Belt, Open question (a real, better-than-chance likeness and Egypt's reverence for Sah, against a plan grown over three reigns, a sky that must be turned round and no Egyptian text linking them).",
+ "hook": "Did Egypt's builders copy the sky?",
+ "end_line": "The sky has moved since Khufu. The pyramids have not.",
+ "structure_note": "chapters[0] is the cold open and the title beat (no chapter card; YouTube chapter 0:00). Chapters 1 to 5 are the story chapters, each opening on a sentence that stands alone; 'The weighing' carries the verdict, the test and the close. Shot ids s1..s46 are in story order; 'alias of sN' means a return to that panel.",
+ "chapters": [
+  {
+   "title": "Cold open",
+   "beats": [
+    {
+     "role": "hook",
+     "lines": [
+      "[d:intrigue][sfx:boom][act:hushed wonder, painting it]Seen from above, the three great pyramids of ^Giza: two giants in a ^line, and a smaller one, stepped a little ^aside.",
+      "[d:wonder][act:the turn, slower]Now look ^up. [p:0.93][act:wonder, matching it][tune:fall]Orion's Belt: two bright stars in a ^line, and a fainter one, stepped a little ^aside.",
+      "[d:tension][act:the detail, precise]And inside the biggest pyramid, a narrow shaft climbs through the stone, [act:the reveal, hushed][tune:fall]toward the height where Orion's Belt crossed the sky four and a half thousand years ^ago.",
+      "[act:the child's question, wide-eyed][tune:rise]Did Egypt's builders copy the ^sky? [act:the bigger question, slower][tune:rise]And can the sky tell us ^*when*?"
+     ],
+     "shots": [
+      {
+       "id": "s1",
+       "say": "Seen from above, the three great pyramids of Giza: two giants in a line, and a smaller one, stepped a little aside.",
+       "draw": "HERO IMAGE, fully drawn from the first frame: night over Giza, an aerial view from the north looking south. The three pyramids at true size and place (isometric, starlit faces): Khufu nearest at lower left, Khafre behind it, Menkaure small at upper right; the desert floor fading to a dark horizon; above it the southern sky, Orion standing with its belt glowing. On 'two giants in a line' a dashed gold line runs through the two big pyramids and on past them; on 'stepped a little aside' Menkaure glows and a short gold arrow shows its step off the line."
+      },
+      {
+       "id": "s2",
+       "say": "Now look up. Orion's Belt: two bright stars in a line, and a fainter one, stepped a little aside.",
+       "draw": "Same panel, the camera tilts up to the sky (alias of s1, new framing): the belt's three stars brighten; a dashed gold line through the two bright ones runs on past them; the third (Mintaka) glows smaller and a short arrow shows its step off the line, the same way as Menkaure's below.",
+       "reuse": "alias of s1, new cam"
+      },
+      {
+       "id": "s3",
+       "say": "And inside the biggest pyramid, a narrow shaft climbs through the stone, toward the height where Orion's Belt crossed the sky four and a half thousand years ago.",
+       "draw": "The Great Pyramid in section at night (north on the left, to scale): the King's Chamber glows; the southern shaft draws itself from the chamber to the south face at 45 degrees and carries on as a dotted line into the sky, where the belt's three stars sit at that height; chip 'about 2500 BCE'."
+      },
+      {
+       "id": "s4",
+       "say": "Did Egypt's builders copy the sky? And can the sky tell us when?",
+       "draw": "Back to the hero view, wide (alias of s1): a lilac '?' pops in the sky between belt and pyramids on 'copy the sky'; on 'when' a lilac dotted arc sweeps the belt down toward the horizon, ending in a second, small '?'.",
+       "reuse": "alias of s1"
+      }
+     ]
+    },
+    {
+     "role": "title",
+     "intro": true,
+     "lines": [
+      "[d:calm][act:warm, setting out]The Orion ^correlation. [act:the promise, steady][tune:fall]Three pyramids, three stars, and a date ^between them."
+     ],
+     "shots": [
+      {
+       "id": "s4t",
+       "say": "The Orion correlation. Three pyramids, three stars, and a date between them.",
+       "draw": "intro_title card 'The Orion Correlation' over the dimmed hero panel (s4). Nothing else drawn.",
+       "reuse": "alias of s4"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Three stars, three pyramids",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:introducing him, warm]Robert ^Bauval worked in construction, laying out buildings on the ^ground. [act:storytelling, setting the scene]One night in the desert@noun outside ^Riyadh, a friend who sailed by the stars showed him the belt of ^Orion. [act:the moment, wonder][tune:fall]He saw the plan of the ^pyramids.",
+      "[act:explaining, clear]Khufu's and Khafre's pyramids stand on one diagonal ^line. [act:pointing to the odd one]Menkaure's, much smaller, sits a little off it, to the ^east. [act:the match, delighted][tune:fall]In the belt, the faintest star, ^Mintaka, steps aside the same ^way."
+     ],
+     "shots": [
+      {
+       "id": "s5",
+       "say": "One night in the desert outside Riyadh, a friend who sailed by the stars showed him the belt of Orion. He saw the plan of the pyramids.",
+       "draw": "Desert night: dunes under the stars, a tent and a small campfire, two figures; one raises an arm to Orion over the dunes; the belt's three stars flare; on 'the plan of the pyramids' three small gold squares (the Giza plan) fade in beside the belt, linked to it by a dotted line."
+      },
+      {
+       "id": "s6",
+       "say": "Khufu's and Khafre's pyramids stand on one diagonal line. Menkaure's, much smaller, sits a little off it, to the east. In the belt, the faintest star, Mintaka, steps aside the same way.",
+       "draw": "Plan of Giza from above, north up, true size and place (after published site plans): Khufu, Khafre, Menkaure as squares with their diagonals; a gold dashed line through Khufu's and Khafre's centres runs on to the south-west; Menkaure sits off it, a short arrow 'east'. At right the belt as seen in the sky: the same dashed line through Alnitak and Alnilam, Mintaka off it with its own arrow; label 'Mintaka'."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:the likenesses, building]He found more ^likenesses. [p:0.93][act:explaining, careful]The two big pyramids are almost ^twins, about a hundred and forty-six and a hundred and forty-three metres tall when ^new, [act:the match][tune:fall]and the other two stars of the belt shine almost ^equally. [act:the third, a small smile]Menkaure's pyramid is less than half as ^tall, [tune:fall]and Mintaka is the faintest of the ^three.",
+      "[d:wonder][act:the river, wonder]And the ^Nile? [act:explaining][tune:level]The pyramids stand just west of the ^river, [act:the match, soft][tune:fall]as the three stars stand just west of the Milky Way, the river of light across the night ^sky."
+     ],
+     "shots": [
+      {
+       "id": "s7",
+       "say": "He found more likenesses. The two big pyramids are almost twins, about 146 and 143 metres tall when new, and the other two stars of the belt shine almost equally. Menkaure's pyramid is less than half as tall, and Mintaka is the faintest of the three.",
+       "draw": "The three pyramids side by side in profile, to one scale (146.6, 143.5 and 65.5 m), heights marked as they are said; above each, its star as a disc with a halo sized by brightness (two nearly equal, Mintaka clearly smaller), joined to its pyramid by a faint dotted line; label 'faintest' on Mintaka."
+      },
+      {
+       "id": "s8",
+       "say": "And the Nile? The pyramids stand just west of the river, as the three stars stand just west of the Milky Way, the river of light across the night sky.",
+       "draw": "Split panel: left, the plateau from above with the Nile's broad band to its east (blue) and the three pyramid squares just west of it, label 'Nile'; right, the night sky with the Milky Way's pale band and the three belt stars just west of it, label 'Milky Way'; a lilac dotted link between the two triads."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:build][act:the reason, fair]Egypt had a reason to look ^there, too. [act:explaining][tune:fall]In texts carved inside slightly later pyramids, the dead king rises to the sky, to join ^Orion.",
+      "[act:the publication, plain]In {1989|nineteen eighty-nine}, Bauval set out the idea in the journal Discussions in ^Egyptology. [act:the book, building][tune:fall]In {1994|nineteen ninety-four}, with the writer Adrian ^Gilbert, he told it to the world in a book: The Orion ^Mystery."
+     ],
+     "shots": [
+      {
+       "id": "s9",
+       "say": "Egypt had a reason to look there, too. In texts carved inside slightly later pyramids, the dead king rises to the sky, to join Orion.",
+       "draw": "A carved wall in warm lamplight, columns of hieroglyphs (schematic strokes); a small figure of the king rises out of the wall along a dotted gold path to the constellation of Orion drawn above, whose belt glows."
+      },
+      {
+       "id": "s10",
+       "say": "In 1989, Bauval set out the idea in the journal Discussions in Egyptology. In 1994, with the writer Adrian Gilbert, he told it to the world in a book: The Orion Mystery.",
+       "draw": "A short timeline: on '1989' a journal page pops (schematic: a title bar, two columns, a small diagram of three dots and three squares), chip 'Discussions in Egyptology, 1989'; on '1994' a closed book rises beside it with three stars over three pyramids on its cover (schematic), chip 'The Orion Mystery, 1994', label 'Bauval and Gilbert'."
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:aside][act:the question, curious][tune:rise]Is the likeness just ^chance? [p:0.93][act:explaining, fair]In {2026|twenty twenty-six}, a statistical study compared the plan with every trio of bright stars seen from Giza: nearly seven hundred thousand ^trios. [act:the result, impressed][tune:fall]Orion's Belt fitted it better than all but about seventeen ^hundred.",
+      "[act:the landing, warm][tune:fall]A real likeness, ^then. [act:the question, soft][tune:fall]The question is what it ^means."
+     ],
+     "shots": [
+      {
+       "id": "s11",
+       "say": "Is the likeness just chance? In 2026, a statistical study compared the plan with every trio of bright stars seen from Giza: nearly seven hundred thousand trios. Orion's Belt fitted it better than all but about seventeen hundred.",
+       "draw": "A field of 162 bright stars; on 'every trio' thin triangles flicker between random trios, faster and faster; counter label '695,520 trios'. Then a tall ranked column (best fit at the top): a gold tick near the very top for Orion's Belt, label '1,717th', a bracket above it '1,716 fit better'."
+      },
+      {
+       "id": "s12",
+       "say": "A real likeness, then. The question is what it means.",
+       "draw": "Back to the plan of Giza (alias of s6): the belt's three stars, turned to fit, settle onto the three pyramids in gold; a quiet lilac '?' beside them.",
+       "reuse": "alias of s6"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "A sky from 10,500 BCE?",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:setting it up, curious]Orion's Belt has not always crossed the sky over Giza at the same ^height. [p:0.93][act:explaining, patient]Earth spins like a top, and like a top, it slowly ^wobbles, once in about twenty-six thousand ^years. [act:the picture, clear][tune:fall]As it wobbles, the belt's path climbs and sinks across the southern ^sky.",
+      "[act:today, warm]These days, it crosses more than halfway ^up. [act:the low point, hushed][tune:fall]Around ten thousand, five hundred BCE, it skimmed low over the ^horizon: the bottom of its ^swing."
+     ],
+     "shots": [
+      {
+       "id": "s13",
+       "say": "Earth spins like a top, and like a top, it slowly wobbles, once in about 26,000 years. As it wobbles, the belt's path climbs and sinks across the southern sky.",
+       "draw": "Left: the Earth with its tilted axis; the axis traces a slow dotted cone above it, label 'one wobble: about 26,000 years'. Right: the southern sky over the pyramids' silhouettes, an altitude scale; the belt's crossing point slides along the meridian, leaving faint copies."
+      },
+      {
+       "id": "s14",
+       "say": "These days, it crosses more than halfway up. Around 10,500 BCE, it skimmed low over the horizon: the bottom of its swing.",
+       "draw": "The same gauge, closer (alias of s13): the belt marked 'today', high (about 58 degrees from Giza), above a dashed 'halfway up' mark; faint belts step down the meridian to 'about 10,500 BCE', low over the horizon (about 9 degrees); a bracket 'the bottom of its swing'.",
+       "reuse": "alias of s13, new cam"
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:the claim, fair]In their book, The Orion ^Mystery, Robert Bauval and Adrian Gilbert went ^further. [p:0.93][act:the claim, clear]The pyramids and the Nile, they wrote, mirror the belt and the Milky Way as they stood around ten thousand, four hundred and fifty ^BCE: [act:softer, respectful][tune:fall]the First Time, when, in Egyptian tradition, the gods ruled on ^earth.",
+      "[act:building][tune:fall]Later, with the writer Graham ^Hancock, Bauval read@past all of Giza as a picture of that ^sky: [act:softer, the romance of it][tune:fall]a memory of a lost age, set in ^stone."
+     ],
+     "shots": [
+      {
+       "id": "s15",
+       "say": "In their book, The Orion Mystery, Robert Bauval and Adrian Gilbert went further. The pyramids and the Nile, they wrote, mirror the belt and the Milky Way as they stood around 10,450 BCE: the First Time, when, in Egyptian tradition, the gods ruled on earth.",
+       "draw": "Left: the Giza plan with the Nile; right: the belt with the Milky Way as drawn for the claim; lilac dotted links join pyramid to star and river to river; a chip 'about 10,450 BCE' pops; italic label 'the First Time'."
+      },
+      {
+       "id": "s16",
+       "say": "Later, with the writer Graham Hancock, Bauval read all of Giza as a picture of that sky: a memory of a lost age, set in stone.",
+       "draw": "The hero view again, but with the sky of about 10,500 BCE: Orion low over the southern horizon behind the pyramids, its feet below the horizon; lilac dotted links run from the three belt stars down to the three pyramids; chip 'about 10,500 BCE', italic label 'a memory set in stone' (claimed style)."
+      }
+     ]
+    },
+    {
+     "role": "cost",
+     "lines": [
+      "[d:build][act:brisk, matter of fact]Astronomers ^checked. [act:the first test, clear]To lay the three stars on the three pyramids, the picture of the sky has to be turned nearly ^upside down. [act:the source, plain][tune:fall]The astronomer Ed ^Krupp pointed out that the book's maps put ^south at the top. [act:a small confession, wry][tune:fall]So did our opening picture: it looked ^south.",
+      "[act:fair, the other side]In fairness, Egyptians faced south, toward the source of the ^Nile: [act:a small smile][tune:fall]their word for west also meant ^right."
+     ],
+     "shots": [
+      {
+       "id": "s17",
+       "say": "Astronomers checked. To lay the three stars on the three pyramids, the picture of the sky has to be turned nearly upside down. The astronomer Ed Krupp pointed out that the book's maps put south at the top. So did our opening picture: it looked south.",
+       "draw": "Left: Orion as seen facing south. Right: the Giza plan, north up. In the middle, the same picture of Orion turned through about 165 degrees, nearly upside down (a curved amber arrow, label 'nearly upside down'); only then do its belt stars fall on the pyramids (dotted links, gold stars on the three squares). Then a page of the book with its north arrow pointing down, label 'south at the top', and a small copy of our opening view with an arrow 'looking south'."
+      },
+      {
+       "id": "s18",
+       "say": "In fairness, Egyptians faced south, toward the source of the Nile: their word for west also meant right.",
+       "draw": "A person seen from behind, standing by the Nile and facing south, upstream; the river flows toward them; on their right hand the word 'west', on the left 'east'; label 'west = right'."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:list][p:0.93][act:the key idea, slower]Now the deeper ^test. [act:explaining, clear]Over twelve thousand years, the shape of the belt barely ^changes. [act:the catch][tune:level]What changes is how ^high it crosses, and how it ^leans. [act:the point, firm][tune:fall]A plan on flat ground can't show a height: only the ^lean.",
+      "[act:precise, adding it up]In {1999|nineteen ninety-nine}, the astronomer Anthony ^Fairall worked out that ^lean. [p:0.93][act:the result]Around ten thousand, five hundred BCE, the belt leaned about ^*ten* degrees away from the line of the ^pyramids. [act:the other date][tune:fall]In Khufu's own time, an earlier study found, more than ^thirty."
+     ],
+     "shots": [
+      {
+       "id": "s19",
+       "say": "Now the deeper test. Over twelve thousand years, the shape of the belt barely changes. What changes is how high it crosses, and how it leans. A plan on flat ground can't show a height: only the lean.",
+       "draw": "Top left: two belts, today and about 10,500 BCE, the same shape ('the same shape'). Bottom left: a sky gauge, the belt with a height arrow from the horizon and a lean arc from the meridian ('height', 'lean'). Right: the plan on flat ground, in perspective: the line of the pyramids and its lean from the north-south line carry over ('lean: kept'); a height arrow over it stays dotted and is crossed out ('no height')."
+      },
+      {
+       "id": "s20",
+       "say": "In 1999, the astronomer Anthony Fairall worked out that lean. Around 10,500 BCE, the belt leaned about ten degrees away from the line of the pyramids. In Khufu's own time, an earlier study found, more than thirty.",
+       "draw": "On the plan (north up, meridian drawn): the line of the pyramids at about 38 degrees from the meridian; the belt's line at its crossing around 10,500 BCE drawn from Khufu at about 48 to 50 degrees, the gap between them filled and labelled 'about 10 degrees'; then the belt of about 2500 BCE at about 73 degrees, label 'more than 30 degrees'."
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:aside][act:the landing, warm]The shape ^fits. [act:the sting, gentle][tune:fall]The date ^doesn't."
+     ],
+     "shots": [
+      {
+       "id": "s21",
+       "say": "The shape fits. The date doesn't.",
+       "draw": "At left the plan with the belt's stars laid on the three pyramids and a green tick, 'shape'; at right a lilac dotted chip 'about 10,500 BCE' with a '?', 'date'."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Shafts aimed at the stars",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:setting the scene]Deep inside the Great Pyramid, two narrow shafts leave the King's ^Chamber, one heading north, one ^south. [act:explaining][tune:fall]They climb at a slant through the stone, out to the pyramid's ^faces.",
+      "[act:the old idea, light]For a long time, people called them air ^shafts. [act:the turn]In {1964|nineteen sixty-four}, the Egyptologist Alexander ^Badawy and the astronomer Virginia ^Trimble asked a different ^question: [act:curious][tune:rise]what did they point ^at?"
+     ],
+     "shots": [
+      {
+       "id": "s22",
+       "say": "They climb at a slant through the stone, out to the pyramid's faces. For a long time, people called them air shafts. In 1964, the Egyptologist Alexander Badawy and the astronomer Virginia Trimble asked a different question: what did they point at?",
+       "draw": "The Great Pyramid in section at night (to scale, north on the left): the King's Chamber glows; its two shafts draw themselves out to the faces, the northern at about 32.5 degrees with its kinks, the southern at 45; labels 'north', 'south'; on 'air shafts' faint dotted breeze arrows; on '1964' a chip 'Badawy and Trimble, 1964' and a lilac '?' at each shaft's mouth."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][p:0.93][act:explaining, a picture]Each night, every star crosses the south at its own ^height. [act:explaining]And with Earth's slow wobble, that height creeps up or down, century by ^century. [act:the analogy, warm][tune:fall]So a shaft fixed at one slope is like a clock with a very slow ^hand: it frames a given star for only a few centuries at a ^time.",
+      "[d:reveal][act:the result, clear]The southern shaft rises at about forty-five ^degrees. [p:0.93][act:the click, slower]Around {2500|twenty-five hundred} BCE, that was just the height where Orion's Belt crossed the ^south. [act:the north][tune:fall]The northern shaft pointed close@adj to the ^pole, where Thuban, the pole star of that age, ^circled."
+     ],
+     "shots": [
+      {
+       "id": "s23",
+       "say": "Each night, every star crosses the south at its own height. And with Earth's slow wobble, that height creeps up or down, century by century. So a shaft fixed at one slope is like a clock with a very slow hand: it frames a given star for only a few centuries at a time.",
+       "draw": "The southern sky seen from the side: a block of stone with a shaft cut through it at 45 degrees ('the shaft's line'); one star's crossing point steps up the sky millennium by millennium (dots for 4000, 3000, 2500, 2000 and 1000 BCE); where it meets the shaft, about 2500 BCE, a glow and 'a few centuries'; a small clock face with a very slow hand."
+      },
+      {
+       "id": "s24",
+       "say": "The southern shaft rises at about forty-five degrees. Around 2500 BCE, that was just the height where Orion's Belt crossed the south. The northern shaft pointed close to the pole, where Thuban, the pole star of that age, circled.",
+       "draw": "Back to the section (alias of s22, wider): the southern shaft extended as a gold dotted line to the belt at 45 degrees, chip 'about 2500 BCE'; the northern extended to the pole, a small dotted circle round it with a star on it, label 'Thuban'.",
+       "reuse": "alias of s22, new cam"
+      }
+     ]
+    },
+    {
+     "role": "cost",
+     "lines": [
+      "[d:build][act:building, steady]In the early {1990s|nineteen nineties}, Rudolf ^Gantenbrink's robots measured the shafts more ^exactly, and Bauval and Gilbert ran the numbers ^again. [act:counting them off][tune:level]Two stars in the south: Orion's Belt, and ^Sirius. [act:counting on][tune:level]Two near the pole, in the ^north. [p:0.9][act:the date, landing it][tune:fall]All around {2450|twenty-four fifty} ^BCE.",
+      "[d:reveal][act:the twist, gentle]Notice the ^date. [act:the point, warm][tune:fall]By Bauval and Gilbert's own sums, the shafts point to the age the archaeologists give the ^building."
+     ],
+     "shots": [
+      {
+       "id": "s25",
+       "say": "In the early 1990s, Rudolf Gantenbrink's robots measured the shafts more exactly, and Bauval and Gilbert ran the numbers again. Two stars in the south: Orion's Belt, and Sirius. Two near the pole, in the north. All around 2450 BCE.",
+       "draw": "A small tracked robot climbs a stone shaft, its lamp on, a cable behind it; then the section with all four shafts (King's and Queen's Chambers), each line ending at its star as it is named: 'Orion's Belt' and 'Sirius' in the south, two stars near the pole in the north; chip 'about 2450 BCE'."
+      },
+      {
+       "id": "s26",
+       "say": "Notice the date. By Bauval and Gilbert's own sums, the shafts point to the age the archaeologists give the building.",
+       "draw": "A time line from 11,000 BCE to 2000 BCE: a lilac dot far left 'about 10,500 BCE'; at the right end the shafts' date 'about 2450 BCE' (gold) lands inside an amber band 'the pyramid age'; a gold tick."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:build][act:fair, the other view]Not everyone reads them as star ^sights. [act:explaining, clear]Forty-five degrees is also the simplest slope a builder can ^set: one step up for each step ^along. [act:the second point][tune:fall]The northern shaft bends on its way ^up, so no one could sight a star along ^it. [act:the third point][tune:fall]And the Queen's Chamber shafts, as far as we know, never reach the open ^air."
+     ],
+     "shots": [
+      {
+       "id": "s27",
+       "say": "Not everyone reads them as star sights. Forty-five degrees is also the simplest slope a builder can set: one step up for each step along. The northern shaft bends on its way up, so no one could sight a star along it. And the Queen's Chamber shafts, as far as we know, never reach the open air.",
+       "draw": "A builder's square and a staircase of equal blocks drawing a 45-degree line ('one up, one along'); then a small section of the pyramid: the King's northern shaft with its kinks (a straight sight line drawn along it is blocked, 'no view'); the two Queen's Chamber shafts climb and stop at little stone doors short of the faces, label 'closed'."
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:aside][act:the landing, warm][tune:fall]If the shafts were aimed at stars, they were aimed at the sky of the builders' own ^day."
+     ],
+     "shots": [
+      {
+       "id": "s28",
+       "say": "If the shafts were aimed at stars, they were aimed at the sky of the builders' own day.",
+       "draw": "Back to the section (alias of s22): both King's Chamber shafts glow toward their stars of about 2500 BCE; italic label 'the builders' own sky'.",
+       "reuse": "alias of s22"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "What the builders left",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:setting the scene]In the mortar between the pyramids' blocks, there are tiny flecks of ^charcoal. [act:explaining][tune:fall]The builders burned wood to make their ^mortar, and bits of the fire were mixed ^in."
+     ],
+     "shots": [
+      {
+       "id": "s29",
+       "say": "The builders burned wood to make their mortar, and bits of the fire were mixed in.",
+       "draw": "Close on a joint between two great limestone blocks: pink mortar in the gap, black flecks in it; an inset of a fire under a heap of gypsum, its smoke and ash drifting into a mortar trough."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][p:0.93][act:the method, a picture]Charcoal keeps carbon from a living tree, and one kind of that carbon fades at a steady pace, like a candle burning ^down. [act:the projects, plain][tune:fall]In {1984|nineteen eighty-four} and {1995|ninety-five}, teams dated hundreds of samples from Egypt's pyramids and other ^monuments.",
+      "[d:reveal][act:the result, plain]The dates came out older than the history ^books, by one to four ^centuries. [act:the explanation, warm]Builders probably reused old ^wood, and charcoal dates when its tree died, not when it ^burned. [act:firm, plain][tune:fall]None came anywhere near ten thousand ^BCE."
+     ],
+     "shots": [
+      {
+       "id": "s30",
+       "say": "Charcoal keeps carbon from a living tree, and one kind of that carbon fades at a steady pace, like a candle burning down. In 1984 and 1995, teams dated hundreds of samples from Egypt's pyramids and other monuments.",
+       "draw": "A tree, then a lump of charcoal; beside it a candle that burns down as a clock; then rows of small sample vials pop by the hundred, chips '1984' and '1995'."
+      },
+      {
+       "id": "s31",
+       "say": "The dates came out older than the history books, by one to four centuries. Builders probably reused old wood, and charcoal dates when its tree died, not when it burned. None came anywhere near 10,000 BCE.",
+       "draw": "A time line: the history books' date for Khufu (about 2550 BCE) marked; the radiocarbon dates as a cluster of dots one to four centuries older, bracket 'one to four centuries'; an old beam reused in a new fire ('old wood'); far to the left, 10,000 BCE, an empty stretch with a lilac ring and 'no dates here'."
+      }
+     ]
+    },
+    {
+     "role": "cost",
+     "lines": [
+      "[d:build][act:storytelling]In {2013|twenty thirteen}, at an ancient harbour on the Red ^Sea, Pierre ^Tallet's team uncovered the oldest inscribed papyri known from ^Egypt. [act:the diary, delighted][tune:fall]Among them: a work ^diary, kept by an inspector named ^Merer.",
+      "[p:0.93][act:the detail, vivid]In the twenty-seventh year of Khufu's ^reign, his crew ferried white limestone from the Tura quarries across the ^Nile, [act:the name, the reveal][tune:fall]to a site they called the Horizon of ^Khufu: the Great Pyramid's own ^name."
+     ],
+     "shots": [
+      {
+       "id": "s32",
+       "say": "In 2013, at an ancient harbour on the Red Sea, Pierre Tallet's team uncovered the oldest inscribed papyri known from Egypt. Among them: a work diary, kept by an inspector named Merer.",
+       "draw": "Map of northern Egypt: Giza, Tura, the Nile, and the Red Sea harbour at Wadi al-Jarf (pin); a papyrus roll unrolls with lines of hieratic, label 'the diary of Merer'."
+      },
+      {
+       "id": "s33",
+       "say": "In the twenty-seventh year of Khufu's reign, his crew ferried white limestone from the Tura quarries across the Nile, to a site they called the Horizon of Khufu: the Great Pyramid's own name.",
+       "draw": "Side view across the Nile in flood: boats carry white blocks from the Tura cliffs on the east bank across the water toward Giza on the west, where the Great Pyramid stands in its white casing; chip 'year 27 of Khufu'; label 'the Horizon of Khufu'."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:build][act:the town, vivid]South of the ^Sphinx, archaeologists have dug up the town where the builders worked and ^ate: bakeries, storerooms, long ^galleries. [act:the dating, clear][tune:fall]Clay seals there carry the names of Khafre and ^Menkaure. [act:respectful][tune:fall]Nearby lie the workers' own tombs, with titles like overseer of the side of the ^pyramid."
+     ],
+     "shots": [
+      {
+       "id": "s34",
+       "say": "South of the Sphinx, archaeologists have dug up the town where the builders worked and ate: bakeries, storerooms, long galleries. Clay seals there carry the names of Khafre and Menkaure. Nearby lie the workers' own tombs, with titles like overseer of the side of the pyramid.",
+       "draw": "Plan of the builders' town south of the Sphinx, beyond its great stone wall: long galleries, bakeries with bread moulds, storerooms, drawing in as named; clay sealings pop with the names of Khafre and Menkaure in cartouches; up the slope, small tombs, one with its title."
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:aside][act:the sum, plain]Three pyramids, three kings: a father, his son and his ^grandson. [act:the landing][tune:fall]Each new pyramid had to find its place beside the ones already ^there."
+     ],
+     "shots": [
+      {
+       "id": "s35",
+       "say": "Three pyramids, three kings: a father, his son and his grandson. Each new pyramid had to find its place beside the ones already there.",
+       "draw": "The plan of Giza builds in time order: Khufu's square first, then Khafre's beside it, then Menkaure's; under them a strip with three reigns one after another, 'father', 'son', 'grandson'."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Sah, the king's star",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:setting the scene, respectful]Around {2350|twenty-three fifty} BCE, inside the pyramid of King ^Unas, carvers covered the walls of the burial chamber with ^words. [act:explaining][tune:fall]Egyptologists call them the Pyramid ^Texts: spells to protect the king and carry him up into the ^sky.",
+      "[d:wonder][act:the stars, wonder]They speak of Sah, their name for ^Orion, whom they linked with the god ^Osiris, [act:the second star][tune:fall]and of Sopdet, our Sirius, linked with his wife, ^Isis. [act:quoting, soft][tune:fall]In one spell, the king is greeted as a great star, the companion of ^Orion."
+     ],
+     "shots": [
+      {
+       "id": "s36",
+       "say": "Egyptologists call them the Pyramid Texts: spells to protect the king and carry him up into the sky.",
+       "draw": "Unas's burial chamber: a gabled ceiling painted with rows of five-pointed stars, walls filled with columns of hieroglyphs (schematic strokes, blue-green), the dark sarcophagus at the end; lamplight."
+      },
+      {
+       "id": "s37",
+       "say": "They speak of Sah, their name for Orion, whom they linked with the god Osiris, and of Sopdet, our Sirius, linked with his wife, Isis. In one spell, the king is greeted as a great star, the companion of Orion.",
+       "draw": "Orion's stars; on 'Sah' its figure lines draw themselves in gold, label 'Sah, linked with Osiris'; lower left Sirius flares, label 'Sopdet, linked with Isis'; then a new bright star pops beside the belt, a dotted ring round it, italic label 'the companion of Orion'."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[act:the north, wonder]They speak of the north ^too, [act:explaining][tune:fall]where the king joins the Imperishable ^Stars, the ones that circle the pole and never ^set.",
+      "[d:reveal][act:the link, careful]Two skies, north and ^south. [act:the shafts again][tune:fall]The shafts of the King's Chamber point to ^both."
+     ],
+     "shots": [
+      {
+       "id": "s38",
+       "say": "They speak of the north too, where the king joins the Imperishable Stars, the ones that circle the pole and never set. Two skies, north and south. The shafts of the King's Chamber point to both.",
+       "draw": "The northern sky: star trails circling the pole, none touching the horizon, label 'the Imperishable Stars'; then the view widens to both skies over the pyramid in section, the two shafts glowing, one toward each."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[act:the honest caveat]These texts were carved about two centuries after ^Khufu. [act:fair, the view][tune:fall]Still, many Egyptologists think his shafts were a road for the king's spirit, not for ^air.",
+      "[d:aside][act:fair, the limit][tune:fall]What no Egyptian text yet found does@verb is match the three pyramids to the three ^stars."
+     ],
+     "shots": [
+      {
+       "id": "s39",
+       "say": "These texts were carved about two centuries after Khufu. Still, many Egyptologists think his shafts were a road for the king's spirit, not for air.",
+       "draw": "A time strip: Khufu (about 2570 BCE) and Unas (about 2350 BCE), bracket 'about two centuries'; above, the section with a dotted gold path of the king's spirit rising up the southern shaft into the sky."
+      },
+      {
+       "id": "s40",
+       "say": "What no Egyptian text yet found does is match the three pyramids to the three stars.",
+       "draw": "The three pyramids and the three stars facing each other across the panel; a dotted line starts to join them and stops halfway at a lilac '?'; a papyrus beside it, blank where that line would be."
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[act:the landing, warm]Egypt's kings hoped to ^join Orion. [act:gentle][tune:fall]Whether they also drew it on the ground, their own words don't ^say."
+     ],
+     "shots": [
+      {
+       "id": "s41",
+       "say": "Egypt's kings hoped to join Orion. Whether they also drew it on the ground, their own words don't say.",
+       "draw": "Dawn over the pyramids seen from the east (Menkaure at left, Khufu at right), Orion low in the west above them; a dotted gold path with three small lights rises from the Great Pyramid toward the belt; on 'drew it on the ground', faint lilac dotted lines from the belt down to the pyramids and a small '?'."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The weighing",
+   "beats": [
+    {
+     "role": "weigh",
+     "lines": [
+      "[d:verdict][act:calm, laying it out]So, let's ^weigh it. [act:steady][tune:fall]Three pyramids built by Khufu, his son and his grandson, about four and a half thousand years ^ago: ^*established*.",
+      "[act:steady][tune:rise]Shafts aimed at the stars of that ^age, a road for the king's ^spirit? [act:the verdict, fair][tune:fall]^*Plausible*. [act:fair][tune:fall]Simple builders' slopes could explain their angles ^too.",
+      "[act:steady][tune:rise]A plan copied from Orion's ^Belt? [act:the verdict][tune:fall]*Open ^question*. [act:explaining, fair]The likeness is real, and Egypt looked to ^Orion. [act:the other side][tune:fall]But the plan grew over three reigns, fits only with the sky turned round, and no text ties the two ^together.",
+      "[d:verdict][p:0.95][act:the claim, even][tune:rise]And a map of the sky of ten thousand, five hundred ^BCE? [act:the verdict, level-headed][tune:fall]*Awaiting ^evidence*. [act:explaining, plain][tune:fall]The claimed match misses by about ten ^degrees, and nothing built at Giza has been dated to that ^age."
+     ],
+     "shots": [
+      {
+       "id": "s42",
+       "say": "So, let's weigh it. Three pyramids built by Khufu, his son and his grandson, about four and a half thousand years ago: established. Shafts aimed at the stars of that age, a road for the king's spirit? Plausible. Simple builders' slopes could explain their angles too.",
+       "draw": "A four-row ledger fills row by row, each with a pictogram and a grade chip that pops as the grade is said: 'built by three kings, about 2500 BCE' Established; 'shafts aimed at the stars of that age' Plausible (small tag 'or builders' slopes')."
+      },
+      {
+       "id": "s43",
+       "say": "A plan copied from Orion's Belt? Open question. The likeness is real, and Egypt looked to Orion. But the plan grew over three reigns, fits only with the sky turned round, and no text ties the two together.",
+       "draw": "Row 3 (alias of s42): 'a plan copied from the belt' Open question; under it a small balance: 'likeness, Sah' against 'three reigns, turned sky, no text', level.",
+       "reuse": "alias of s42"
+      },
+      {
+       "id": "s44",
+       "say": "And a map of the sky of 10,500 BCE? Awaiting evidence. The claimed match misses by about ten degrees, and nothing built at Giza has been dated to that age.",
+       "draw": "Row 4 (alias of s42): 'a map of the sky of 10,500 BCE' Awaiting evidence, glowing; small tags 'about 10 degrees off' and 'nothing dated to that age'.",
+       "reuse": "alias of s42"
+      }
+     ]
+    },
+    {
+     "role": "test",
+     "lines": [
+      "[d:tension][act:what would settle it, inviting][tune:rise]What would change our ^minds? [act:listing][tune:level]An Egyptian text, or a builder's plan, that ties the three pyramids to the three ^stars. [act:listing][tune:level]Signs that all three sites were marked out together, before Khufu's first ^block. [act:the last][tune:fall]Or anything built at Giza, a hearth, a wall, a foundation, dated to around ten thousand, five hundred ^BCE."
+     ],
+     "shots": [
+      {
+       "id": "s45",
+       "say": "What would change our minds? An Egyptian text, or a builder's plan, that ties the three pyramids to the three stars. Signs that all three sites were marked out together, before Khufu's first block. Or anything built at Giza, a hearth, a wall, a foundation, dated to around 10,500 BCE.",
+       "draw": "Three 'wanted' cards in lilac dashed outline pop as named: a papyrus with three squares and three stars; three survey pegs and a cord on bare rock; a hearth and the foot of a wall with a sample tag 'about 10,500 BCE?'."
+      }
+     ]
+    },
+    {
+     "role": "close",
+     "lines": [
+      "[d:calm][act:quiet, the image]On a winter night, Orion's Belt still crosses the sky above the three ^pyramids, [act:soft][tune:fall]higher than Khufu's builders ever saw ^it.",
+      "[d:calm][act:the sign-off, warm][tune:fall]Weigh it ^yourself."
+     ],
+     "shots": [
+      {
+       "id": "s46",
+       "say": "On a winter night, Orion's Belt still crosses the sky above the three pyramids, higher than Khufu's builders ever saw it. Weigh it yourself.",
+       "draw": "The close: the three pyramids at night seen from the north, the belt high in the south (about 58 degrees, 'tonight'); lower down a faint gold dotted ghost of the belt where it crossed in Khufu's day (about 45 degrees), a small arrow up between them."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "description": "Seen from above, the three pyramids of Giza stand like the three stars of Orion's Belt: two in a line, the smallest stepped aside. Robert Bauval's Orion correlation (1989; The Orion Mystery, with Adrian Gilbert, 1994) says the plan copies the belt, and that it remembers the sky of about 10,500 BCE.\n\nWe take the claim at its strongest, then run the tests: the turn the map needs, what precession can and cannot date, the stars the Great Pyramid's shafts aim at, the builders' own dates (radiocarbon, the diary of Merer, the builders' town) and what the Pyramid Texts say about Sah, Egypt's Orion. Verdict: a map of the sky of 10,500 BCE is Awaiting evidence; a plan copied from the belt, Open question.\n\nChapters\n0:00 Cold open\nmm:ss Three stars, three pyramids\nmm:ss A sky from 10,500 BCE?\nmm:ss Shafts aimed at the stars\nmm:ss What the builders left\nmm:ss Sah, the king's star\nmm:ss The weighing\n\nSources\nBauval 1989, Discussions in Egyptology 13: 7-18\nBauval & Gilbert 1994, The Orion Mystery (Heinemann)\nBauval & Gilbert 1994, Discussions in Egyptology 28: 5-13\nMalek 1994, Orion and the Giza pyramids, Discussions in Egyptology 30: 101-114\nHancock & Bauval 1996, Keeper of Genesis (Heinemann)\nKrupp 1997, Pyramid marketing schemes, Sky & Telescope 93(2)\nLegon 1995, The Orion correlation and air-shaft theories, Discussions in Egyptology 33: 45-56\nFairall 1999, Astronomy & Geophysics, doi:10.1093/astrog/40.3.3.4\nAllan 2026, Journal of Astronomical History and Heritage, doi:10.3724/SP.J.1440-2807.2026.02.06\nVondrak, Capitaine & Wallace 2011, Astronomy & Astrophysics, doi:10.1051/0004-6361/201117274\nBadawy 1964 and Trimble 1964, Mitteilungen des Instituts fur Orientforschung 10\nBonani et al. 2001, Radiocarbon, doi:10.1017/S0033822200038558\nTallet & Marouard 2014, Near Eastern Archaeology, doi:10.5615/neareastarch.77.1.0004\nTallet 2017, Les papyrus de la mer Rouge I: le journal de Merer (IFAO)\nLehner & Hawass 2017, Giza and the Pyramids (Thames & Hudson)\nFaulkner 1969, The Ancient Egyptian Pyramid Texts (Clarendon Press)\nKessler 1977, Himmelsrichtungen, Lexikon der Agyptologie 2 (Harrassowitz)",
+ "sources": [
+  "Bauval, R. 1989, A master-plan for the three pyramids of Giza based on the configuration of the three stars of the belt of Orion, Discussions in Egyptology 13: 7-18",
+  "Bauval, R. & Gilbert, A. 1994, The Orion Mystery: Unlocking the Secrets of the Pyramids (Heinemann; Crown in the USA)",
+  "Bauval, R. & Gilbert, A. 1994, The adze of Upuaut: the Opening of the Mouth ceremony and the northern shafts in Cheops's pyramid, Discussions in Egyptology 28: 5-13",
+  "Malek, J. 1994, Orion and the Giza pyramids (review of The Orion Mystery), Discussions in Egyptology 30: 101-114",
+  "Hancock, G. & Bauval, R. 1996, Keeper of Genesis (Heinemann; in the USA The Message of the Sphinx, Crown)",
+  "Krupp, E. C. 1997, Pyramid marketing schemes, Sky & Telescope 93(2), February 1997: 66-67",
+  "Legon, J. A. R. 1995, The Orion correlation and air-shaft theories, Discussions in Egyptology 33: 45-56",
+  "Fairall, A. 1999, Precession and the layout of the ancient Egyptian pyramids, Astronomy & Geophysics 40(3): 3.4, doi:10.1093/astrog/40.3.3.4",
+  "Allan, E. 2026, A comprehensive statistical evaluation of the Orion-Giza correlation, Journal of Astronomical History and Heritage 29(2): 367-378, doi:10.3724/SP.J.1440-2807.2026.02.06",
+  "Vondrak, J., Capitaine, N. & Wallace, P. 2011, New precession expressions, valid for long time intervals, Astronomy & Astrophysics 534: A22, doi:10.1051/0004-6361/201117274",
+  "van Leeuwen, F. 2007, Validation of the new Hipparcos reduction, Astronomy & Astrophysics 474: 653-664, doi:10.1051/0004-6361:20078357",
+  "Badawy, A. 1964, The stellar destiny of Pharaoh and the so-called air-shafts of Cheops' pyramid, Mitteilungen des Instituts fur Orientforschung 10: 189-206",
+  "Trimble, V. 1964, Astronomical investigation concerning the so-called air-shafts of Cheops' pyramid, Mitteilungen des Instituts fur Orientforschung 10: 183-187",
+  "Bonani, G., Haas, H., Hawass, Z., Lehner, M., Nakhla, S., Nolan, J., Wenke, R. & Wolfli, W. 2001, Radiocarbon dates of Old and Middle Kingdom monuments in Egypt, Radiocarbon 43(3): 1297-1320, doi:10.1017/S0033822200038558",
+  "AERA (Ancient Egypt Research Associates), How old are the pyramids? (the 1984 and 1995 radiocarbon projects, old wood)",
+  "Tallet, P. & Marouard, G. 2014, The harbor of Khufu on the Red Sea coast at Wadi al-Jarf, Egypt, Near Eastern Archaeology 77(1): 4-14, doi:10.5615/neareastarch.77.1.0004",
+  "Tallet, P. 2017, Les papyrus de la mer Rouge I: le journal de Merer (Institut francais d'archeologie orientale, MIFAO 136)",
+  "AERA, The Lost City of the Pyramids (Heit el-Ghurab): galleries, bakeries, sealings with the names of Khafre and Menkaure",
+  "Lehner, M. & Hawass, Z. 2017, Giza and the Pyramids (Thames & Hudson)",
+  "Faulkner, R. O. 1969, The Ancient Egyptian Pyramid Texts (Oxford, Clarendon Press): Utterances 442 and 466 (paragraphs 820-822 and 882)",
+  "Piankoff, A. 1968, The Pyramid of Unas (Princeton University Press, Bollingen Series): Utterances 215 to 219 name Orion and the Imperishable Stars",
+  "Kessler, D. 1977, Himmelsrichtungen, in Helck, W. & Otto, E. (eds), Lexikon der Agyptologie 2 (Harrassowitz)",
+  "Shaw, I. (ed.) 2000, The Oxford History of Ancient Egypt (Oxford University Press): reign dates of Khufu, Khafre, Menkaure and Unas",
+  "Bauval, R., interviewed by M. Sleiman, A civilised theory, Arabian Business (his own account of the camping trip outside Riyadh)"
+ ],
+ "facts_added": [
+  {
+   "fact": "Bauval's own account: working in construction, used to setting out buildings, he found it strange that the two big pyramids lie on the diagonal and the small one is offset; on a camping trip in the desert outside Riyadh a navigator friend who used the stars showed him Orion's belt, and he saw the plan of the pyramids.",
+   "source": "Bauval, interview 'A civilised theory', Arabian Business (M. Sleiman); The Orion Mystery 1994, prologue (his engineering work in Sudan and Saudi Arabia)"
+  },
+  {
+   "fact": "Bauval published the correlation in 1989: Delta Orionis (Mintaka) much less bright than the other two belt stars (2.20 against 1.70 and 1.79), Menkaure's pyramid much smaller (65 m against 146 m and 143 m); the uppermost star offset slightly to the east of the diagonal, as Menkaure's pyramid is offset slightly to the east; both triads lie immediately west of their 'Niles' (the Milky Way, the Nile).",
+   "source": "Bauval 1989, Discussions in Egyptology 13: 7-18"
+  },
+  {
+   "fact": "The Orion Mystery (1994, with Adrian Gilbert) argued that the relationship of the Giza pyramids and the Nile reflects that of Orion's belt and the Milky Way in 10,450 BC, which they identified with the Egyptian 'First Time'; an Oxford Egyptologist's review concluded the correlation cannot be dismissed out of hand but is 'not proven'.",
+   "source": "Malek 1994, Discussions in Egyptology 30: 101-114"
+  },
+  {
+   "fact": "Keeper of Genesis (Hancock and Bauval, 1996) presents Giza as a 'sky-ground image' of Orion's belt in 10,500 BC, the 'First Time' of Osiris-Orion.",
+   "source": "Hancock & Bauval 1996 (list of figures and publisher's description)"
+  },
+  {
+   "fact": "Krupp noted that to match pyramids and stars 'you have to turn Egypt upside down': the book's maps put south at the top; he also argued that if the shafts aim north and south, north means north.",
+   "source": "Krupp 1997, Sky & Telescope 93(2): 66-67"
+  },
+  {
+   "fact": "Egyptians oriented themselves facing south (upstream): the word for west also means right, the word for east left.",
+   "source": "Kessler 1977, Lexikon der Agyptologie 2 ('Himmelsrichtungen')"
+  },
+  {
+   "fact": "Fairall found the belt's angle (to the horizon at culmination) about 47 to 50 degrees around 10,500 BC, against the 38-degree angle of the pyramids' line: about ten degrees out.",
+   "source": "Fairall 1999, Astronomy & Geophysics 40(3): 3.4, doi:10.1093/astrog/40.3.3.4 (figures as summarised in the literature)"
+  },
+  {
+   "fact": "For the epoch of about 2500 BC, the alignment of the belt stars referred to the meridian diverged by more than 30 degrees from the alignment on the ground.",
+   "source": "Legon 1995, Discussions in Egyptology 33: 45-56"
+  },
+  {
+   "fact": "Computed for this film with the IAU long-term precession model (ERFA ltp, Vondrak et al. 2011) and Hipparcos proper motions: Alnitak crosses the meridian at Giza at about 58 degrees today and about 9 to 10 degrees at its lowest, around 10,700 BCE (Bauval: 10,450 BC); around 10,500 BCE the belt's line lies about 50 degrees from the meridian against the pyramids' 38 (about 12 degrees out; around 2500 BCE about 35 out); a 45-degree southern shaft meets Alnitak about 2500 BCE, the Queen's Chamber southern shaft (about 39.5 degrees) Sirius about 2400 BCE, the northern shafts Thuban and Kochab about 2350 BCE; over 12,000 years the belt stars move against each other by under an arcminute (the belt is about 2.7 degrees long).",
+   "source": "Vondrak, Capitaine & Wallace 2011, doi:10.1051/0004-6361/201117274; van Leeuwen 2007, doi:10.1051/0004-6361:20078357 (calculation)"
+  },
+  {
+   "fact": "In 2026 a statistical test compared the Giza layout with all 695,520 trios of 162 bright naked-eye stars (shape compared after removing position, rotation and scale): Orion's Belt ranked 1,717th (p about 0.0025), the first named asterism in the ranking; the study found the layout cannot serve as a dating tool.",
+   "source": "Allan 2026, Journal of Astronomical History and Heritage 29(2): 367-378, doi:10.3724/SP.J.1440-2807.2026.02.06 (title and journal confirmed in Crossref; figures from the author's announcement)"
+  },
+  {
+   "fact": "In 1964 Badawy argued the King's Chamber southern shaft was aimed at Orion's belt and the northern at the circumpolar stars, and Trimble computed the alignments (about 2600 to 2700 BC with the angles then known, about 44.5 degrees for the southern shaft).",
+   "source": "Badawy 1964; Trimble 1964, MIO 10; Krupp 1997"
+  },
+  {
+   "fact": "Gantenbrink measured the King's Chamber southern shaft at 45 degrees 0 minutes and the northern at 32 degrees 36 minutes.",
+   "source": "Legon 1995 (citing Gantenbrink's survey)"
+  },
+  {
+   "fact": "Bauval and Gilbert assigned the four shafts to Orion (King's Chamber south), Sirius (Queen's Chamber south), Alpha Draconis or Thuban (King's Chamber north) and Kochab in Ursa Minor (Queen's Chamber north), all at about 2450 BC.",
+   "source": "Bauval & Gilbert 1994, Discussions in Egyptology 28: 5-13"
+  },
+  {
+   "fact": "Legon argued that the shaft angles come from geometry: 45 degrees is a square's diagonal (one in one), and the northern shaft's angle is a simple builder's ratio.",
+   "source": "Legon 1995"
+  },
+  {
+   "fact": "The Queen's Chamber shafts are closed at both ends (their mouths were hidden behind the chamber walls until 1872), so they could not serve as sight lines.",
+   "source": "Lehner & Hawass 2017; the Under Giza long film (LF.01)"
+  },
+  {
+   "fact": "Between 1984 and 1995 more than 450 organic samples (charcoal, ash, reed, wood) were collected from Old and Middle Kingdom monuments and 429 processed; the 1984 dates averaged 374 years older than the historical dates, the 1995 dates 100 to 200 years older; reused old wood is the likely reason (radiocarbon dates when a tree died, not when it was burned).",
+   "source": "Bonani et al. 2001, Radiocarbon 43(3): 1297-1320, doi:10.1017/S0033822200038558; AERA, How old are the pyramids?"
+  },
+  {
+   "fact": "The Wadi al-Jarf papyri, found in 2013, are the oldest inscribed papyri ever discovered in Egypt; they date to year 27 of Khufu (the year after the 13th cattle count); the logbook of the inspector Merer records the transport of limestone blocks from the Tura quarries on the Nile and canals to the Horizon of Khufu, the Great Pyramid.",
+   "source": "Tallet & Marouard 2014, Near Eastern Archaeology 77(1): 4-14, doi:10.5615/neareastarch.77.1.0004; Tallet 2017"
+  },
+  {
+   "fact": "The Lost City (Heit el-Ghurab), excavated since December 1988 about 400 m south of the Sphinx beyond the Wall of the Crow, held galleries, bakeries, storerooms and houses; clay sealings with the royal names of Khafre and Menkaure date it; the workers' cemetery nearby holds titles like overseer of the side of the pyramid.",
+   "source": "AERA, The Lost City of the Pyramids; the Short 'builders-town'"
+  },
+  {
+   "fact": "Khufu (about 2589 to 2566 BCE), his son Khafre (about 2558 to 2532 BCE) and Khafre's son Menkaure (about 2532 to 2503 BCE) built the three pyramids one after another; Unas reigned about 2375 to 2345 BCE.",
+   "source": "Shaw (ed.) 2000, The Oxford History of Ancient Egypt; Lehner & Hawass 2017"
+  },
+  {
+   "fact": "The Pyramid Texts first appear in the pyramid of Unas at Saqqara; Unas's texts name Orion and the Imperishable Stars (the circumpolar stars); in later spells the king is 'this great star, the companion of Orion' and Osiris 'has come as Orion' (Sah, linked with Osiris).",
+   "source": "Faulkner 1969 (Utterances 442 and 466, paragraphs 820-822 and 882, as quoted in Bauval 1989); Piankoff 1968, The Pyramid of Unas (Utterances 215 to 219)"
+  },
+  {
+   "fact": "No Egyptian text equates the pyramids of the Fourth Dynasty with particular stars of Orion.",
+   "source": "Legon 1995; Malek 1994"
+  },
+  {
+   "fact": "Arithmetic for the pictures: 2,500 BCE is about four and a half thousand years ago; Unas (about 2350 BCE) is about two centuries after Khufu (about 2570 BCE); the pyramids' heights when new 146.6, 143.5 and 65.5 m.",
+   "source": "Arithmetic on the cited figures; heights after Lehner & Hawass 2017"
+  }
+ ],
+ "names": [
+  {
+   "name": "Robert Bauval",
+   "say": "BOH-vahl (bauval in LEX)"
+  },
+  {
+   "name": "Adrian Gilbert",
+   "say": "plain English"
+  },
+  {
+   "name": "Riyadh",
+   "say": "ree-YAHD"
+  },
+  {
+   "name": "Mintaka",
+   "say": "min-TAH-kuh"
+  },
+  {
+   "name": "Graham Hancock",
+   "say": "HAN-kok (hancock in LEX)"
+  },
+  {
+   "name": "Ed Krupp",
+   "say": "KRUP"
+  },
+  {
+   "name": "Anthony Fairall",
+   "say": "FAIR-ul"
+  },
+  {
+   "name": "Alexander Badawy",
+   "say": "bah-DAH-wee"
+  },
+  {
+   "name": "Virginia Trimble",
+   "say": "TRIM-bul"
+  },
+  {
+   "name": "Thuban",
+   "say": "THOO-ban"
+  },
+  {
+   "name": "Rudolf Gantenbrink",
+   "say": "GAHN-ten-brink (in LEX)"
+  },
+  {
+   "name": "Sirius",
+   "say": "SEER-ee-us"
+  },
+  {
+   "name": "Pierre Tallet",
+   "say": "tah-LAY (in LEX)"
+  },
+  {
+   "name": "Merer",
+   "say": "MEH-rer (in LEX)"
+  },
+  {
+   "name": "Tura",
+   "say": "TOO-rah (in LEX)"
+  },
+  {
+   "name": "Unas",
+   "say": "OO-nahs"
+  },
+  {
+   "name": "Sah",
+   "say": "SAH"
+  },
+  {
+   "name": "Osiris",
+   "say": "oh-SY-ris"
+  },
+  {
+   "name": "Sopdet",
+   "say": "SOP-det"
+  },
+  {
+   "name": "Isis",
+   "say": "EYE-sis"
+  },
+  {
+   "name": "Khufu, Khafre, Menkaure",
+   "say": "KOO-foo, KAF-ray, men-KOW-ray (in LEX)"
+  },
+  {
+   "name": "Giza",
+   "say": "GEE-zuh"
+  }
+ ],
+ "words": 1549
+}
