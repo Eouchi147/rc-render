@@ -1,0 +1,791 @@
+{
+ "id": "lf-amazon-cities",
+ "kind": "case",
+ "series": "Myths That Came True",
+ "title": "The Amazon's Lost Cities: From Legend to Lidar",
+ "intro_title": "The Amazon's Lost Cities: From Legend to Lidar",
+ "yt_title": "The Amazon's Lost Cities: What Lidar Found Under the Trees",
+ "verdict": "Established",
+ "verdict_scope": "Planned, long-lived settlements with platforms, plazas, causeways, canals, reservoirs and straight roads stood in the Amazon long before Europeans (Casarabe culture, Bolivia, about 500 to 1400 CE; Upano valley, Ecuador, from about 500 BCE; Upper Xingu, about 1250 to 1650 CE): Established (lidar, excavation and radiocarbon dates). Graded separately in the weighing: dark earth made by people: Established; Carvajal's crowded riverbanks: Strong evidence (big villages clustered on the high banks with empty stretches between, as he himself wrote); a forest shaped by people: Strong evidence (clearest near old settlements, its extent argued); 'cities' or 'garden cities': Open question (no agreed term; Prumers et al. 2022 write 'large settlement site'); how many people: Open question (5 to more than 8 million in 1492; 1.25 to 3 million proposed for southwest Amazonia around 100 to 300 CE; few signs of people away from rivers in western Amazonia); El Dorado or Fawcett's Z as cities of gold or stone: Awaiting evidence. Why this differs from the Short's single 'Awaiting evidence': the Short weighed one claim (knowledge inherited from a lost Ice Age civilisation); the deep dive weighs whether the lost cities themselves were real.",
+ "hook": "Who built cities under the rainforest?",
+ "end_line": "Not cities of gold: towns of earth, under a forest that grew back.",
+ "structure_note": "chapters[0] is the cold open and the title beat (no chapter card; YouTube chapter 0:00). Chapters 1 to 5 are the story chapters; 'The weighing' carries the verdict, the test and the close. Shot ids s1..sN are in story order; 'alias of sN' means a return to that panel.",
+ "chapters": [
+  {
+   "title": "Cold open",
+   "beats": [
+    {
+     "role": "hook",
+     "lines": [
+      "[d:intrigue][sfx:boom][act:hushed wonder, painting it]At the foot of the Andes, in Ecuador, the rainforest looks ^untouched. [p:0.93][act:the reveal, slower]Fire lasers through the leaves, strip the trees ^away, and the ground ^appears: [act:counting the wonders, building][tune:level]more than six thousand earthen platforms, gathered round little ^plazas, [act:the payoff, awe][tune:fall]and roads as straight as a ^ruler, running for ^kilometres.",
+      "[d:tension][act:the date, a little awed][tune:fall]The oldest of it is about two and a half thousand years ^old. [act:the stakes, steady]For centuries, explorers hunted for lost cities in the ^Amazon, [tune:fall]and for decades, many scientists doubted the forest could ever have ^fed one. [act:the child's question, leaning in][tune:rise]So ^who built this? [act:the bigger question, slower][tune:rise]And how does@verb a whole city vanish under the ^trees?"
+     ],
+     "shots": [
+      {
+       "id": "s1",
+       "say": "At the foot of the Andes, in Ecuador, the rainforest looks untouched. Fire lasers through the leaves, strip the trees away, and the ground appears:",
+       "draw": "HERO IMAGE, fully drawn from the first frame. Dawn over the Upano valley, seen obliquely from the air in true perspective: the Andes in three dim layers across the back, the cone of Sangay smoking at right, a low sun. The valley floor is a rainforest canopy (rows of crowns with emergent trees, darker and hazier far away). A small lidar aircraft at top centre-right fans thin blue laser rays down onto the valley. The left third of the floor is already scanned: the trees are gone there and the bare earth shows in grey lidar relief, with golden rectangular platforms in clusters round little plazas, drained fields and a dead-straight sunken road; a glowing blue scan front marks the edge. On 'strip the trees away' the front sweeps right in sixteen strips, the forest giving way to the city, until the whole floor is bare earth with two straight roads crossing it. Top left stays sky for the hook title."
+      },
+      {
+       "id": "s2",
+       "say": "more than six thousand earthen platforms, gathered round little plazas, and roads as straight as a ruler, running for kilometres. The oldest of it is about two and a half thousand years old.",
+       "draw": "Same panel, the camera pushes in (z 1.32) on the city: platform tops glint round three plazas; chip '6,000+ platforms'; the two roads light up amber along their length, chip 'straight roads', km dots and chips '1 km', '2 km', '3 km' along one road; on 'two and a half thousand years', chip 'about 2,500 years old'.",
+       "reuse": "alias of s1, new cam"
+      },
+      {
+       "id": "s3",
+       "say": "For centuries, explorers hunted for lost cities in the Amazon, and for decades, many scientists doubted the forest could ever have fed one.",
+       "draw": "Night at the edge of the forest, two halves. Left: two explorers with lanterns walk towards the trees (a sixteenth-century crested helmet, a 1920s wide-brimmed hat); above the canopy a lilac dotted mirage of a city skyline with gold glints, chip 'lost cities?'. Right (on 'scientists'): a cut through the ground under a row of crowns, a thin dark topsoil over pale soil with blue leaching lines, three huts on top and a dashed red lid over them, chip 'too poor for cities?'."
+      },
+      {
+       "id": "s4",
+       "say": "So who built this? And how does a whole city vanish under the trees?",
+       "draw": "Back to the hero panel, wide (the push-in's chips stay): a large lilac question mark pops over the city on 'who built this'; on 'vanish under the trees', three rows of lilac dotted crown outlines draw across it (the forest that hid it).",
+       "reuse": "alias of s1, new cam"
+      }
+     ]
+    },
+    {
+     "role": "title",
+     "lines": [
+      "[d:calm][act:warm, setting out]The Amazon's lost ^cities: [act:the promise, steady][tune:fall]from legend to ^lidar."
+     ],
+     "intro": true,
+     "shots": [
+      {
+       "id": "s5",
+       "say": "The Amazon's lost cities: from legend to lidar.",
+       "draw": "intro_title card 'The Amazon's Lost Cities: From Legend to Lidar' over the dimmed s4 panel. Nothing else drawn."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "A river of villages",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:storytelling, setting the scene]In {1541|fifteen forty-one}, a Spanish army marched east from ^Quito, over the Andes, hunting for cinnamon and ^gold. [act:explaining, warm]They were chasing a story: el ^dorado, the golden one, a ruler covered in gold dust who made offerings on a mountain ^lake. [p:0.93][act:a quiet aside, respectful]The ceremony belonged to the Muisca people, in the highlands of ^Colombia, [tune:fall]and a small gold raft found in {1969|nineteen sixty-nine} shows a scene ^very like it."
+     ],
+     "shots": [
+      {
+       "id": "s6",
+       "say": "They were chasing a story: el dorado, the golden one, a ruler covered in gold dust who made offerings on a mountain lake.",
+       "draw": "Dawn on a round mountain lake ringed by green highland hills (Guatavita, schematic). On the water, a reed raft with four small attendants and, at its centre, a standing figure that glows gold (gold dust), sparks of gold falling into the lake as offerings; reflections. Labels: 'the golden one' (gold serif), 'a mountain lake'."
+      },
+      {
+       "id": "s7",
+       "say": "The ceremony belonged to the Muisca people, in the highlands of Colombia, and a small gold raft found in 1969 shows a scene very like it.",
+       "draw": "Dark museum panel: a glass display case on a plinth, drawn from the first frame; at right, a framed small map of the Colombian highlands (clipped), the Andes, pin 'Muisca', label 'Colombian highlands'. On 'small gold raft', lamp light and the gold raft inside the case, drawn as the Muisca raft is known: a raft of thin strands with a tall central figure in a fanned headdress and smaller attendants round the edges, two holding staffs; glints; label 'Muisca raft', chip 'found 1969', a 'about 19.5 cm' scale bar."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:the turn, brisk][tune:fall]The army found hunger ^instead. [act:storytelling]At the end of the year, a captain, Francisco de ^Orellana, took about fifty men downriver to look for ^food, [act:a small smile][tune:fall]and the current never let them ^back. [act:the scale, a little awed]Eight months later, they reached the ^Atlantic, [tune:fall]the first Europeans to follow the river from the Andes to the ^sea."
+     ],
+     "shots": [
+      {
+       "id": "s8",
+       "say": "The army found hunger instead. At the end of the year, a captain, Francisco de Orellana, took about fifty men downriver to look for food, and the current never let them back.",
+       "draw": "Ecuador close up (map, coast from the land data, rivers Napo, Coca, Maranon and the upper Amazon drawn, the Andes as a band, label 'the Andes'): pin 'Quito', chip '1541'; the army's dashed route east over the Andes to the Coca with three small figures; on 'hunger' a red glow and label; on 'Orellana', a small boat, chip 'December 1541', label 'about 50 men', and a gold route that draws down the Napo; on 'the current never let them back' an arrow back upstream beside the route, crossed in red. Label 'Napo'."
+      },
+      {
+       "id": "s9",
+       "say": "Eight months later, they reached the Atlantic, the first Europeans to follow the river from the Andes to the sea.",
+       "draw": "The whole basin (northern South America, the main rivers, the Andes): pin 'Quito'; the gold route, already down the Napo, draws on down the Amazon to the Atlantic over four seconds; a glow and chip 'August 1542' at the mouth; labels 'the Atlantic', 'Amazon'."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:the witness, intrigued]Their chaplain, a friar named Gaspar de ^Carvajal, wrote down what they ^saw. [act:counting them off][tune:level]Village after village on the high ^banks. [act:counting on][tune:level]Roads running ^inland. [act:counting on][tune:level]Fleets of war ^canoes. [act:the last one, delighted][tune:fall]And pottery, he wrote, finer than the famous ware of ^Malaga.",
+      "[d:aside][act:fair, careful]He was honest about the gaps, ^too: [tune:fall]once, he wrote, they went two hundred leagues without seeing a ^village. [act:a dry aside][tune:fall]He also told of warriors led by women, and so Europeans named the river after the Amazons of Greek ^legend."
+     ],
+     "shots": [
+      {
+       "id": "s10",
+       "say": "Their chaplain, a friar named Gaspar de Carvajal, wrote down what they saw. Village after village on the high banks. Roads running inland. Fleets of war canoes. And pottery, he wrote, finer than the famous ware of Malaga.",
+       "draw": "On the river by day: in the foreground a small Spanish brigantine with a friar figure writing in a book (label 'Carvajal'). Across the water, high red-earth banks: villages pop one after another along the top (thatched houses, smoke), straight paths draw inland from them, a fleet of canoes slides out onto the water, then a painted polychrome jar pops at right in a lamp glow, label 'finer than Malaga's'."
+      },
+      {
+       "id": "s11",
+       "say": "He was honest about the gaps, too: once, he wrote, they went two hundred leagues without seeing a village. He also told of warriors led by women, and so Europeans named the river after the Amazons of Greek legend.",
+       "draw": "Back to the basin map of s9: on 'two hundred leagues' a long stretch of the route on the Napo and the upper river turns grey, with a leader to chip '200 leagues, no village'; on 'warriors led by women', a black-figure Amazon warrior on a terracotta disc (as on a Greek vase) pops north of the river, and 'River of the Amazons' (italic, gold) appears along it.",
+       "reuse": "alias of s9"
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:tension][act:the turn, quieter][tune:fall]Later travellers found long stretches of empty ^river. [act:explaining, plain]Epidemics and slave raids had swept ^through, [tune:fall]and many came to read@present the friar's crowded banks as a tall ^tale. [act:the landing, slow][tune:fall]Either Carvajal made them ^up, or something had emptied the ^river."
+     ],
+     "shots": [
+      {
+       "id": "s12",
+       "say": "Later travellers found long stretches of empty river. Epidemics and slave raids had swept through, and many came to read the friar's crowded banks as a tall tale. Either Carvajal made them up, or something had emptied the river.",
+       "draw": "The same high bank as s10, at dusk and empty: forest down to the water, faint dashed outlines where houses stood, a single canoe. On 'epidemics and slave raids' dim red glows sweep along the bank, left to right. At left, the friar's open book; chip 'tall tale?'. On the last line, two lilac chips pop: 'made up?' under the book and 'emptied?' over the bank."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The lost city of Z",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:storytelling, setting the scene]In {1925|nineteen twenty-five}, the British explorer Percy ^Fawcett walked into the forests of Mato ^Grosso, in Brazil, to find a lost ^city. [act:a small smile][tune:fall]He called it ^Z. [act:explaining, fair]A seasoned surveyor, he had mapped remote borders in Bolivia and ^Brazil, [tune:fall]and he had read@past a Portuguese account from the {1750s|seventeen fifties}, describing ruins with stone arches and a ^statue."
+     ],
+     "shots": [
+      {
+       "id": "s13",
+       "say": "He called it Z. A seasoned surveyor, he had mapped remote borders in Bolivia and Brazil, and he had read a Portuguese account from the 1750s, describing ruins with stone arches and a statue.",
+       "draw": "Dark panel: on 'He called it Z', a big lilac serif 'Z' glows. Then a surveyor in a wide-brimmed hat behind a theodolite on a tripod (label 'Percy Fawcett') before a map sheet with two rivers; a dashed red border draws across it (label 'borders'). At right, an old manuscript page with lines of writing (chip '1750s'), and above it, on 'stone arches', a lilac dotted mirage of three ruined arches, a broken column and a statue on a pedestal (claimed style), label 'stone arches, a statue'."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:the expedition, quieter]He took his son, ^Jack, and Jack's friend, Raleigh ^Rimell. [act:reading it, careful]On the twenty-ninth of May, he wrote to his wife from a place they called Dead Horse ^Camp: [act:quoting him, steady][tune:fall]you need have no fear of any ^failure. [act:the silence, slow][tune:fall]It was his last ^letter. [act:plain][tune:fall]None of the three came ^back."
+     ],
+     "shots": [
+      {
+       "id": "s14",
+       "say": "He took his son, Jack, and Jack's friend, Raleigh Rimell. On the twenty-ninth of May, he wrote to his wife from a place they called Dead Horse Camp: you need have no fear of any failure. It was his last letter. None of the three came back.",
+       "draw": "Map of Mato Grosso (rivers Xingu, Culuene, Araguaia and Teles Pires drawn): pin 'Cuiaba', labels 'Mato Grosso' and 'Upper Xingu'; three small walking figures 'Percy', 'Jack', 'Raleigh'; a dashed gold route draws north to pin 'Dead Horse Camp', chip '29 May 1925'; a letter sheet pops at top right with the quote 'no fear of any failure', a dashed leader to the camp; then the route goes on as lilac dots into the Xingu forest and stops at a lilac '?'."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:the twist, leaning in]Some seventy years later, archaeologists came to the Upper ^Xingu, the region where he ^vanished, [act:respectful, warm]and worked with the Kuikuro people, who live@verb there ^today. [act:a warm detail][tune:fall]The Kuikuro chief, ^Afukaka, is one of the authors of their ^papers. [act:counting them off][tune:level]Under the forest, they mapped ditches up to five metres ^deep, [tune:level]plazas, bridges and ^ponds, [act:the last one, impressed][tune:fall]and roads up to fifty metres wide, running straight from town to ^town. [p:0.93][act:the date, clear][tune:fall]Most of it dates from about {1250|twelve fifty} to {1650|sixteen fifty} ^CE. [act:quoting him, fair][tune:fall]The lead@verb archaeologist, Michael ^Heckenberger, calls it not cities, but urbanism, built around ^towns."
+     ],
+     "shots": [
+      {
+       "id": "s15",
+       "say": "Some seventy years later, archaeologists came to the Upper Xingu, the region where he vanished, and worked with the Kuikuro people, who live there today. The Kuikuro chief, Afukaka, is one of the authors of their papers. Under the forest, they mapped ditches up to five metres deep, plazas, bridges and ponds, and roads up to fifty metres wide, running straight from town to town.",
+       "draw": "Plan of an ancient Upper Xingu town (schematic): forest texture and a stream; in a framed corner, two archaeologists and three Kuikuro figures with a survey pole, label 'with the Kuikuro', and on 'Afukaka' chip 'co-author: Afukaka Kuikuro'. Then, as named: a curved ditch round the town (label 'ditches, up to 5 m deep'), the plaza with fourteen houses round it, two bridges where roads cross the stream, three ponds, and three broad straight roads running out (label 'roads, up to 50 m wide'). North arrow."
+      },
+      {
+       "id": "s16",
+       "say": "Most of it dates from about 1250 to 1650 CE. The lead archaeologist, Michael Heckenberger, calls it not cities, but urbanism, built around towns.",
+       "draw": "An oblique reconstruction of one town (schematic, earth and thatch): large oval thatched houses round a plaza, a palisade and ditch, a straight road leaving the gate, fields and orchards around; chip 'about 1250 to 1650 CE'; then a quote chip 'not cities, but urbanism' with a small tag 'Heckenberger'."
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:aside][act:the question, warm][tune:rise]So was this ^Z? [act:fair, plain][tune:fall]Not the city he ^dreamed of. [act:the landing, quiet][tune:fall]Fawcett was looking for ^stone. [act:same rhythm][tune:fall]The towns were made of ^earth."
+     ],
+     "shots": [
+      {
+       "id": "s17",
+       "say": "So was this Z? Not the city he dreamed of. Fawcett was looking for stone. The towns were made of earth.",
+       "draw": "Split panel, both halves dim from the first frame: left, the lilac dotted stone city of the dream (arches, a broken column, a statue); right, the earth: a ditch, a bank, a mound with a thatched house, a road. On 'So was this Z?' a lilac 'Z?' pops between them; on 'looking for stone' the left brightens (label 'stone'); on 'made of earth' the right fills in (labels 'ditch', 'mound', 'road', and 'earth' in amber)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "A counterfeit paradise?",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:setting the scene, measured]In {1971|nineteen seventy-one}, the American archaeologist Betty ^Meggers gave the Amazon a famous ^name: [act:the title, grave][tune:fall]a counterfeit ^paradise. [act:her case, fair][tune:fall]Her argument was ^serious. [p:0.93][act:explaining, clear][tune:fall]Most soils under the rainforest are old, acid and ^poor, washed out by the ^rain.",
+      "[d:build][act:the analogy, warm]The forest keeps its wealth in its trees, not in its ^soil, [tune:fall]like a family whose savings are all in the ^furniture. [act:the logic, plain][tune:fall]Burn the trees for a field, and the ash feeds your crops for a few ^years. [act:plain][tune:fall]Then the field is ^spent. [act:her conclusion, even][tune:fall]So, she argued, the forest's lushness hid a ceiling on how many people it could ^feed."
+     ],
+     "shots": [
+      {
+       "id": "s18",
+       "say": "a counterfeit paradise. Her argument was serious. Most soils under the rainforest are old, acid and poor, washed out by the rain.",
+       "draw": "Cutaway of the rainforest: tall trees and dense canopy above ground (lush), below it a thin dark topsoil over deep pale yellow-red soil. Chip 'a counterfeit paradise?' (lilac) at the top; on 'washed out by the rain', rain streaks fall and blue arrows run down through the soil, carrying small nutrient dots away; labels 'lush forest', 'poor soil'."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][sfx:hit][act:the twist, delighted][tune:rise]But look closer at the ^soil. [act:the reveal]Scattered across the Amazon are patches of black earth, that Brazilians call terra ^preta. [p:0.93][act:explaining, a picture]It's full of charcoal, broken pottery, bone and food ^waste, [act:the punchline, a smile][tune:fall]built up over centuries around old ^villages: a compost heap, kept going for ^generations. [act:the number, impressed][tune:fall]It can hold up to seventy times more charcoal than the ^soil around it.",
+      "[d:build][act:warm, respectful, admiring][tune:fall]And it's living ^knowledge. [act:explaining, warm]In the Upper Xingu, the Kuikuro still make dark earth on ^purpose. [act:counting them off][tune:level]They heap food scraps and ash in ^middens, [tune:level]spread ash on their ^fields, [tune:fall]and set charcoal round the base of their ^trees."
+     ],
+     "shots": [
+      {
+       "id": "s19",
+       "say": "The forest keeps its wealth in its trees, not in its soil, like a family whose savings are all in the furniture.",
+       "draw": "A single big tree, its trunk and crown full of small gold dots (nutrients), the soil below with just three; label 'wealth in the trees'. Right: an armchair and a cabinet with gold coins tucked into them, label 'savings in the furniture'."
+      },
+      {
+       "id": "s20",
+       "say": "Burn the trees for a field, and the ash feeds your crops for a few years. Then the field is spent.",
+       "draw": "A small clearing: felled trunks, fire glows, grey ash settles, a row of crop plants grows tall; beside it three harvest bars draw, tall, medium, short (labels 'year 1', 'year 2', 'year 3'); on 'Then the field is spent', a terracotta 'spent' tag over the last bar. Schematic."
+      },
+      {
+       "id": "s21",
+       "say": "So, she argued, the forest's lushness hid a ceiling on how many people it could feed.",
+       "draw": "A low ceiling: a dashed red line across the panel over a row of small villages of a few huts each and their people; above the line, the faint lilac outline of a big town that cannot rise through it; label 'a ceiling?'."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:widening, wonder][tune:fall]Even the trees carry their ^mark. [p:0.93][act:the number, clear]The Amazon has some sixteen thousand kinds of ^tree, yet just two hundred and twenty-seven make up half of all the ^trees. [act:the twist, intrigued][tune:fall]Among them are the Brazil nut and the acai ^palm, both domesticated by ^people. [act:the number, steady][tune:fall]Domesticated kinds are five times likelier than others to be that ^common."
+     ],
+     "shots": [
+      {
+       "id": "s22",
+       "say": "But look closer at the soil. Scattered across the Amazon are patches of black earth, that Brazilians call terra preta.",
+       "draw": "Two soil columns side by side, each under a strip of ground: left 'ordinary soil' (thin dark top, pale below); right 'terra preta' (deep black earth from the surface down, rich, with a tiny village on top). Label 'terra preta' in serif."
+      },
+      {
+       "id": "s23",
+       "say": "It's full of charcoal, broken pottery, bone and food waste, built up over centuries around old villages: a compost heap, kept going for generations. It can hold up to seventy times more charcoal than the soil around it.",
+       "draw": "Same panel, the camera closer on the black column: charcoal bits, red pottery sherds, white bone fragments and food scraps pop in as named; a small compost heap pops beside the huts; then two bars at right under the word 'charcoal': a tiny one 'around it' and one seventy times taller 'up to 70 times' (black).",
+       "reuse": "alias of s22, new cam"
+      },
+      {
+       "id": "s24",
+       "say": "And it's living knowledge. In the Upper Xingu, the Kuikuro still make dark earth on purpose. They heap food scraps and ash in middens, spread ash on their fields, and set charcoal round the base of their trees.",
+       "draw": "A Kuikuro village by day (schematic, respectful): a round plaza with large oval thatched houses; as named, a midden heap of food scraps and ash grows by a house, a figure spreads ash over a field (grey drift), and a ring of charcoal appears round the base of a fruit tree. Label 'Kuikuro: eegepe' (their word, italic) and 'dark earth, on purpose'."
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:aside][act:the landing, a smile][tune:fall]Not a counterfeit ^paradise. [act:same rhythm][tune:fall]A ^cultivated one."
+     ],
+     "shots": [
+      {
+       "id": "s25",
+       "say": "Even the trees carry their mark. The Amazon has some sixteen thousand kinds of tree, yet just two hundred and twenty-seven make up half of all the trees.",
+       "draw": "A field of 100 small tree icons in a 20 by 5 grid. Label '16,000 kinds of tree'; on '227', 50 of the icons turn gold, bracket and label 'half of all trees: 227 kinds'."
+      },
+      {
+       "id": "s26",
+       "say": "Among them are the Brazil nut and the acai palm, both domesticated by people. Domesticated kinds are five times likelier than others to be that common.",
+       "draw": "Same panel: at left a tall Brazil nut tree (straight trunk, umbrella crown above the canopy, its crowns rimmed in gold, round pods), at right an acai palm clump (slender stems, feathery fronds, dark purple fruit), labels 'Brazil nut', 'acai palm', chip 'domesticated by people'; then two bars, 'others' (short) and 'domesticated' (five times longer), label '5 times likelier'.",
+       "reuse": "alias of s25"
+      },
+      {
+       "id": "s27",
+       "say": "Not a counterfeit paradise. A cultivated one.",
+       "draw": "Back to the rainforest cutaway of s18: black earth patches spread under two clearings with huts, three trees turn gold (domesticated), label 'cultivated' (gold).",
+       "reuse": "alias of s18"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Causeways in the floodplain",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:setting the scene, measured]The Llanos de Mojos, in Bolivia, is a vast plain of grass and forest ^islands, [tune:fall]flooded for months each ^year. [act:the history, intrigued]For more than a century, archaeologists had dug into mounds here, left by a people they call the Casarabe ^culture, from about {500|five hundred} to {1400|fourteen hundred} ^CE. [act:the problem, plain][tune:fall]But the forest hid how the pieces fit ^together."
+     ],
+     "shots": [
+      {
+       "id": "s28",
+       "say": "For more than a century, archaeologists had dug into mounds here, left by a people they call the Casarabe culture, from about 500 to 1400 CE. But the forest hid how the pieces fit together.",
+       "draw": "The Llanos de Mojos in the wet season, wide: a flat plain of grass with sheets of water, round forest islands, sun. In the middle, a forest-covered mound with a trench cut into it and two diggers, chip 'dug since 1908'; chip 'Casarabe culture, about 500 to 1400 CE'; on 'hid', dashed outlines (inferred) of a platform under the trees and of causeways running off across the plain, label 'hidden?'."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][p:0.93][act:explaining, a picture][tune:fall]So, in {2019|twenty nineteen}, a team flew ^lidar. [act:explaining, clear][tune:fall]A laser beneath an aircraft fires thousands of pulses every ^second. [act:the analogy, warm]Most hit leaves, but a few slip through the gaps and bounce back from the ^ground, [tune:fall]like sunlight dappling a forest ^floor. [act:the payoff][tune:fall]Keep only those, and the trees ^vanish."
+     ],
+     "shots": [
+      {
+       "id": "s29",
+       "say": "So, in 2019, a team flew lidar. A laser beneath an aircraft fires thousands of pulses every second. Most hit leaves, but a few slip through the gaps and bounce back from the ground, like sunlight dappling a forest floor. Keep only those, and the trees vanish.",
+       "draw": "Lidar in side view on a flat dark ground: an aircraft at top, chip '2019'; on 'Most hit leaves', blue pulses run down to the crowns of fourteen trees and stop there (blue dots); on 'a few slip', brighter pulses reach the ground through seven gaps; on 'sunlight dappling', warm flecks on the forest floor; on 'Keep only those', the trees darken away (a cover that follows the ground) and a gold profile line draws along the ground points, showing a terrace with a cone (label 'mound') and a raised causeway (label 'causeway').",
+       "reuse": "amazon_m lidar side view (f11.amazon_m), redrawn wide"
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:the reveal, wonder][tune:fall]Two great towns ^appeared: [act:counting them][tune:level]^Cotoca, a hundred and forty-seven hectares, [tune:fall]and ^Landivar, more than twice as ^big. [act:the detail, impressed][tune:fall]Each was ringed by three lines of moat and ^rampart. [p:0.9][act:the height, a little awed][tune:fall]At Cotoca, a cone of earth rises twenty-two metres, as tall as a seven-storey ^building.",
+      "[d:build][act:the network, brisk][tune:level]From the towns, straight raised causeways run out for ^kilometres, with canals, and reservoirs to hold ^water. [act:explaining, practical][tune:fall]Where the land floods every year, a raised road is a dry ^road, and a reservoir is water for the dry ^season."
+     ],
+     "shots": [
+      {
+       "id": "s30",
+       "say": "Two great towns appeared: Cotoca, a hundred and forty-seven hectares, and Landivar, more than twice as big. Each was ringed by three lines of moat and rampart.",
+       "draw": "Lidar plan on dark relief, to scale with each other (250 units = 1 km, a 500 m bar): Cotoca (147 ha) and Landivar (315 ha) as irregular footprints with their central mound complexes, platforms and cones, labels 'Cotoca, 147 ha' and 'Landivar, 315 ha'; on 'three lines', three concentric rings draw round each, label 'three moat-and-rampart rings'."
+      },
+      {
+       "id": "s31",
+       "say": "At Cotoca, a cone of earth rises twenty-two metres, as tall as a seven-storey building.",
+       "draw": "Side elevation to scale: a conical earthen pyramid 22 m tall on its platform, a seven-storey building beside it reaching the same height (floors drawn), a person for scale; dimension '22 m'; label '7 storeys'.",
+       "reuse": "amazon_m tall mound (f11: 22 m and 7 floors), redrawn wide"
+      },
+      {
+       "id": "s32",
+       "say": "From the towns, straight raised causeways run out for kilometres, with canals, and reservoirs to hold water.",
+       "draw": "Oblique view of a town on its terraces with the 22 m cone; straight raised causeways run out to the horizon in four directions, canals beside them, a round reservoir by the town; labels 'causeways', 'canals', 'reservoir'."
+      },
+      {
+       "id": "s33",
+       "say": "Where the land floods every year, a raised road is a dry road, and a reservoir is water for the dry season.",
+       "draw": "Same view: flood water rises over the plain (blue fill) while the causeways stay dry above it, label 'a dry road'; the drowned reservoir and canals keep their outlines and names above the water; on 'a reservoir', the reservoir glints, chip 'water for the dry season'.",
+       "reuse": "alias of s32"
+      }
+     ]
+    },
+    {
+     "role": "cost",
+     "lines": [
+      "[d:build][p:0.93][act:the number, savouring it]The earth moved for Cotoca's centre ^alone: some five hundred and seventy thousand cubic ^metres. [act:the punchline][tune:fall]About two hundred and thirty Olympic swimming ^pools."
+     ],
+     "shots": [
+      {
+       "id": "s34",
+       "say": "The earth moved for Cotoca's centre alone: some five hundred and seventy thousand cubic metres. About two hundred and thirty Olympic swimming pools.",
+       "draw": "At left, Cotoca's centre in section (terrace, the cone, two platforms) rises from the first second, label 'Cotoca's centre'; on the volume, chip 'about 570,000 cubic metres'. At right, on 'About two hundred and thirty', 230 small pool icons (blue, lane lines) pop row by row, label 'about 230 Olympic pools'."
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:aside][act:the long view, warm][tune:fall]People had shaped this plain for a long ^time: [act:the date, wonder][tune:fall]more than ten thousand years ago, they were growing squash and manioc on forest islands of their own ^making. [act:the landing, quiet][tune:fall]The Casarabe towns faded around {1400|fourteen hundred}, before any European ^arrived. [act:the point, plain][tune:fall]Whatever ended them, it wasn't the ^conquest."
+     ],
+     "shots": [
+      {
+       "id": "s35",
+       "say": "People had shaped this plain for a long time: more than ten thousand years ago, they were growing squash and manioc on forest islands of their own making. The Casarabe towns faded around 1400, before any European arrived. Whatever ended them, it wasn't the conquest.",
+       "draw": "Two time lines. Top, 11,000 years ago to today: a green band 'forest islands, first crops' from about 10,850 years ago with manioc and squash glyphs; a short gold band for the Casarabe towns. Below, close up (300 to 1600 CE, dashed leaders from the gold band): the band 'Casarabe towns, 500 to 1400 CE'; on 'before any European', a red tick 'Europeans, 1492' and a bracket 'about a century' between the end of the band and 1492."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The valley of straight roads",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:setting the scene]The Upano valley, in Ecuador, lies at the foot of the Andes, under a volcano, ^Sangay, that has been erupting for ^decades. [act:history, warm]The archaeologist Stephen ^Rostain had dug there since the {1990s|nineteen nineties}, finding hearths, pottery and ^mounds. [act:the reveal, wonder][tune:fall]In {2015|twenty fifteen}, Ecuador's heritage institute commissioned a lidar ^survey@noun, and in {2024|twenty twenty-four}, his team published the whole ^picture."
+     ],
+     "shots": [
+      {
+       "id": "s36",
+       "say": "The archaeologist Stephen Rostain had dug there since the 1990s, finding hearths, pottery and mounds.",
+       "draw": "An excavation trench cut into an earthen platform at the foot of the forest, Sangay smoking far behind: in the section, a hearth (glow) on the platform's floor line, then pottery sherds, pop as named; two diggers, chip 'since the 1990s', label 'Stephen Rostain'."
+      },
+      {
+       "id": "s37",
+       "say": "In 2015, Ecuador's heritage institute commissioned a lidar survey, and in 2024, his team published the whole picture.",
+       "draw": "The whole picture from above (a new panel, schematic lidar plan): grey relief, the Upano river across the top, the two straight roads drawn, hundreds of small platform marks popping across the valley from the near side to the far, drained-field hatches, a 1 km bar; chips '2015: lidar survey' and '2024: published'."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:counting them off][tune:level]More than six thousand platforms, about twenty metres by ^ten, [tune:level]set in groups round low ^plazas, [tune:level]with drained fields in ^between. [act:the payoff, impressed][tune:fall]And roads dug dead straight across the valley, ignoring the ^hills: [tune:fall]one runs for at least twenty-five ^kilometres. [act:the team's word, warm][tune:fall]The team calls it garden ^urbanism: towns spread out among their ^fields."
+     ],
+     "shots": [
+      {
+       "id": "s38",
+       "say": "More than six thousand platforms, about twenty metres by ten, set in groups round low plazas, with drained fields in between.",
+       "draw": "Plan of one cluster in lidar style (8 units = 1 m): six raised platforms round a low square plaza pop in; dimension lines '20 m' and '10 m' on one platform; on 'drained fields', grids of drainage ditches draw in the fields at right and below left, label 'drained fields'; a sunken street with pale banks along the bottom."
+      },
+      {
+       "id": "s39",
+       "say": "And roads dug dead straight across the valley, ignoring the hills: one runs for at least twenty-five kilometres.",
+       "draw": "Top: a relief strip with contour lines of hills and stream valleys; a road draws dead straight across them, bracket 'at least 25 km'. Bottom: the road's cross-section, dug into the ground with the earth banked up on either side, a person for scale."
+      },
+      {
+       "id": "s40",
+       "say": "The team calls it garden urbanism: towns spread out among their fields.",
+       "draw": "Back to the cluster: thatched roofs pop onto the six platforms, crops (green dots) fill the drained fields, chip 'garden urbanism' (gold).",
+       "reuse": "alias of s38"
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:the date, a little awed][tune:fall]Mud from a nearby lake shows maize growing here by about {570|five hundred and seventy} ^BCE. [act:fair, the disagreement][tune:fall]The excavators saw the towns end ^suddenly, around {400|four hundred} to {600|six hundred} ^CE. [act:the other view, even][tune:fall]The lake mud tells of a slow decline over centuries, not one great fall of volcanic ^ash."
+     ],
+     "shots": [
+      {
+       "id": "s41",
+       "say": "Mud from a nearby lake shows maize growing here by about 570 BCE.",
+       "draw": "A lake in section with a core tube driven into its mud; the core lifts out beside it, its layers drawn; a gold band low in the core with a maize cob glyph, chip 'maize' and label 'about 570 BCE'."
+      },
+      {
+       "id": "s42",
+       "say": "The excavators saw the towns end suddenly, around 400 to 600 CE. The lake mud tells of a slow decline over centuries, not one great fall of volcanic ash.",
+       "draw": "A schematic chart of human activity in the valley over time (axis 500 BCE to 900 CE, label 'human activity'): a lilac band for 400 to 600 CE and a lilac dotted line that drops straight down there, label 'a sudden end?'; then a gold curve that rises after about 570 BCE and slopes down gently to about 550 CE, label 'a slow decline'; a grey ash cloud crossed in red, label 'one big ashfall?'."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:widening the view][tune:fall]And the Upano isn't ^alone. [act:explaining]In Brazil's {Acre|Akre} state, as ranchers cleared the forest, more than four hundred and fifty giant circles and squares came to ^light: [tune:fall]ditches up to eleven metres wide, that archaeologists call ^geoglyphs. [p:0.93][act:the twist][tune:fall]Tiny plant fossils in the soil show they were built inside a living forest, opened only in small ^clearings.",
+      "[d:reveal][act:the news, bright][tune:fall]Then lidar went over the standing ^forest, in a study published in {2026|twenty twenty-six}. [act:counting][tune:fall]Along its flight lines it found four hundred and thirty-two earthworks, where thirty-six were ^known. [p:0.93][act:the number, slow]Its authors now estimate@verb twenty-four to thirty thousand in this one corner of the ^Amazon, [act:the bold claim, careful][tune:fall]and propose that over a million people lived here, perhaps three ^million, between {100|one hundred} and {300|three hundred} ^CE."
+     ],
+     "shots": [
+      {
+       "id": "s43",
+       "say": "And the Upano isn't alone. In Brazil's {Acre|Akre} state, as ranchers cleared the forest, more than four hundred and fifty giant circles and squares came to light: ditches up to eleven metres wide, that archaeologists call geoglyphs.",
+       "draw": "Cleared cattle pasture in Acre, from the air: a giant ditched circle and a ditched square draw themselves into the grass (dark ditches, pale banks), stumps pop on 'ranchers cleared', tiny cattle and a person; the forest edge behind; chip '450+ geoglyphs'; on 'eleven metres', an inset section of a ditch with dimension '11 m' and a person."
+      },
+      {
+       "id": "s44",
+       "say": "Tiny plant fossils in the soil show they were built inside a living forest, opened only in small clearings.",
+       "draw": "Same view: dashed tree crowns (inferred) grow back round the geoglyphs, leaving only small clearings (label 'small clearings'); a round magnifier at top right shows glassy plant fossils (label 'tiny plant fossils').",
+       "reuse": "alias of s43"
+      },
+      {
+       "id": "s45",
+       "say": "Then lidar went over the standing forest, in a study published in 2026. Along its flight lines it found four hundred and thirty-two earthworks, where thirty-six were known.",
+       "draw": "Southwest Amazonia (Acre and southern Amazonas: rivers Purus, Jurua, Acre, Madeira and Beni; pin 'Rio Branco'; labels 'Acre', 'Amazonas'); chip '2026'; nine flight lines draw across the forest; on 'four hundred and thirty-two', 396 gold dots pop along them, then the 36 known ones in grey; chips '432 found' and '36 known before'."
+      },
+      {
+       "id": "s46",
+       "say": "Its authors now estimate twenty-four to thirty thousand in this one corner of the Amazon, and propose that over a million people lived here, perhaps three million, between 100 and 300 CE.",
+       "draw": "Left: a block of small squares, each one 100 earthworks: 240 solid, then 60 dashed, label '24,000 to 30,000'. Right: person icons, each 100,000 people: 12 solid and a half, then dashed up to 30, label '1.25 to 3 million?' (proposed), chip '100 to 300 CE'."
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:aside][act:the landing, warm][tune:fall]Each new survey@noun finds more than the ^last."
+     ],
+     "shots": [
+      {
+       "id": "s47",
+       "say": "Each new survey finds more than the last.",
+       "draw": "Back to the flight-line map: beyond the lines the forest glows faintly, a lilac '?' and chip 'not yet scanned'.",
+       "reuse": "alias of s45"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The weighing",
+   "beats": [
+    {
+     "role": "weigh",
+     "lines": [
+      "[d:verdict][act:calm, laying it out][tune:fall]So, let's ^weigh it, claim by ^claim. [act:steady authority][tune:rise]Planned towns in the Amazon, with platforms, causeways and reservoirs, long before ^Europeans? [act:the verdict, confident][tune:fall]*^Established*: mapped, dug and ^dated. [act:steady][tune:rise]Dark earth made by ^people? [act:the verdict][tune:fall]*^Established*. [act:steady][tune:rise]Carvajal's crowded ^banks? [act:the verdict][tune:fall]*Strong ^evidence*: big villages on the high banks, with empty stretches between, much as he ^said. [act:steady][tune:rise]A forest shaped by their ^gardens? [act:the verdict][tune:fall]*Strong ^evidence*, clearest near old ^settlements.",
+      "[d:build][act:the open questions, careful][tune:rise]Cities, or garden ^cities? [act:fair, a smile][tune:fall]Even the team who mapped Casarabe wrote that no agreed word exists ^yet: [act:the verdict][tune:fall]*Open ^question*. [act:the next][tune:rise]How many ^people? [act:fair, plain][tune:level]Estimates@noun for {1492|fourteen ninety-two} run from about five million to more than ^eight, [act:the caveat][tune:fall]while soil cores far from the rivers show few signs of people at ^all: [act:the verdict][tune:fall]*Open ^question*. [act:the next, quieter][tune:rise]And what emptied the ^towns? [act:fair, even][tune:fall]Some faded centuries before Europeans ^came. [act:grave, quiet][tune:fall]Along the great river, epidemics and slave raids did the ^rest.",
+      "[d:verdict][p:0.95][act:the last claim, even][tune:rise]El Dorado, or Fawcett's ^Z: cities of gold, or of ^stone? [act:the verdict, level-headed][tune:fall]*Awaiting ^evidence*. [act:the landing, warm][tune:fall]But towns of earth stood where both were ^sought."
+     ],
+     "shots": [
+      {
+       "id": "s48",
+       "say": "Planned towns in the Amazon, with platforms, causeways and reservoirs, long before Europeans? Established: mapped, dug and dated. Dark earth made by people? Established. Carvajal's crowded banks? Strong evidence: big villages on the high banks, with empty stretches between, much as he said. A forest shaped by their gardens? Strong evidence, clearest near old settlements.",
+       "draw": "A ledger fills row by row (a pictogram, a short text, a grade chip that pops as the grade is said): 'planned towns, long before Europeans' Established; 'dark earth made by people' Established; 'Carvajal's crowded banks' Strong evidence (note 'villages clustered, gaps between'); 'a forest shaped by people' Strong evidence (note 'clearest near old settlements')."
+      },
+      {
+       "id": "s49",
+       "say": "Cities, or garden cities? Even the team who mapped Casarabe wrote that no agreed word exists yet: Open question. How many people? Estimates for 1492 run from about five million to more than eight, while soil cores far from the rivers show few signs of people at all: Open question.",
+       "draw": "Two more rows: 'cities, or garden cities?' (note 'no agreed word yet') chip Open question; 'how many people in 1492?' chip Open question, with a range bar from 5 to 8 million, dashed beyond ('more?'), and a small soil core with one dark speck, note 'few signs far from rivers'."
+      },
+      {
+       "id": "s50",
+       "say": "And what emptied the towns? Some faded centuries before Europeans came. Along the great river, epidemics and slave raids did the rest.",
+       "draw": "Timeline 600 BCE to 1800 CE: bands that end as named, 'Upano valley' (to about 550 CE), 'Acre earthworks' (to about 850), 'Casarabe towns' (500 to 1400), then 'Upper Xingu towns' (1250 to 1650); a red line '1492', and after it a dark red band 'epidemics, slave raids'."
+      },
+      {
+       "id": "s51",
+       "say": "El Dorado, or Fawcett's Z: cities of gold, or of stone? Awaiting evidence. But towns of earth stood where both were sought.",
+       "draw": "Above, lilac and gold dotted mirages: a golden city skyline (label 'El Dorado?') and the stone arches and statue of Z (label 'Z?'); chip 'Awaiting evidence'. Below, dim from the first frame and then solid on 'towns of earth': four earthen platforms with thatched houses on a straight causeway, label 'towns of earth'."
+      }
+     ]
+    },
+    {
+     "role": "test",
+     "lines": [
+      "[d:tension][act:open, genuinely curious][tune:rise]What would settle the ^rest? [act:practical][tune:level]Lidar over the whole ^forest: [act:the number, a little amazed][tune:fall]by {2023|twenty twenty-three}, less than a tenth of one per cent had been ^scanned. [act:practical][tune:level]Digs to date what the lasers ^find. [act:the last][tune:fall]And mud from many more lakes, telling us when the forest was cleared, and when it grew ^back."
+     ],
+     "shots": [
+      {
+       "id": "s52",
+       "say": "What would settle the rest? Lidar over the whole forest: by 2023, less than a tenth of one per cent had been scanned. Digs to date what the lasers find. And mud from many more lakes, telling us when the forest was cleared, and when it grew back.",
+       "draw": "Three tests pop as named: the Amazon basin in dark green with five tiny bright lidar strips (label 'under 0.1% scanned (2023)'); a trench with a digger and a sample bag (label 'dig and date'); a lake with a core tube driven into its mud (label 'more lake cores')."
+      }
+     ]
+    },
+    {
+     "role": "close",
+     "lines": [
+      "[d:tension][p:0.93][act:the last word, quiet wonder][tune:fall]The Amazon's lost cities were never made of ^gold. [act:same rhythm][tune:fall]They were made of earth, by ^Amazonians, and the forest grew ^back over them. [act:warm, inviting][tune:fall]Weigh it ^yourself."
+     ],
+     "shots": [
+      {
+       "id": "s53",
+       "say": "The Amazon's lost cities were never made of gold. They were made of earth, by Amazonians, and the forest grew back over them. Weigh it yourself.",
+       "draw": "The valley again at dusk, all forest: on 'made of earth', the city's ghost glows through the canopy in faint gold (the platforms and the two straight roads); three birds; then the end card (verdict chip 'Established')."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "description": "Under the rainforest at the foot of the Andes, lasers have found thousands of earthen platforms and roads as straight as a ruler, the oldest about 2,500 years old. Who built towns in a forest that scientists once judged too poor to feed one, and what became of them?\n\nWe follow the friar Gaspar de Carvajal down the Amazon in 1542 and Percy Fawcett into the Xingu in 1925, weigh Betty Meggers' case for a 'counterfeit paradise', then look at the dark earths people made, the towns, causeways and reservoirs of the Casarabe culture in Bolivia, the Upano valley in Ecuador, the geoglyphs of Acre and a lidar survey published in 2026. Verdict: Established for planned towns in the Amazon long before Europeans. Whether to call them cities, and how many people lived there, remain Open questions.\n\nChapters\n0:00 Cold open\nmm:ss A river of villages\nmm:ss The lost city of Z\nmm:ss A counterfeit paradise?\nmm:ss Causeways in the floodplain\nmm:ss The valley of straight roads\nmm:ss The weighing\n\nSources\nCarvajal, G. de 1542, Relacion del nuevo descubrimiento del famoso rio Grande; English text in Medina, J. T. (ed.) 1934, The Discovery of the Amazon (American Geographical Society)\nHemming, J. 1978, Red Gold: The Conquest of the Brazilian Indians (Macmillan)\nBanco de la Republica, Museo del Oro, Bogota: the Muisca raft (Pasca, found 1969)\nFawcett, P. H. (ed. B. Fawcett) 1953, Exploration Fawcett (Hutchinson)\nHeckenberger, M. J. et al. 2003, Amazonia 1492: pristine forest or cultural parkland?, Science 301: 1710-1714, doi:10.1126/science.1086112\nHeckenberger, M. J. et al. 2008, Pre-Columbian urbanism, anthropogenic landscapes, and the future of the Amazon, Science 321: 1214-1217, doi:10.1126/science.1159769\nMeggers, B. J. 1971, Amazonia: Man and Culture in a Counterfeit Paradise (Aldine); Meggers, B. J. 1954, American Anthropologist 56: 801-824\nGlaser, B. et al. 2001, The 'Terra Preta' phenomenon, Naturwissenschaften 88: 37-41, doi:10.1007/s001140000193\nSchmidt, M. J. et al. 2023, Intentional creation of carbon-rich dark earth soils in the Amazon, Science Advances 9: eadh8499, doi:10.1126/sciadv.adh8499\nter Steege, H. et al. 2013, Hyperdominance in the Amazonian tree flora, Science 342: 1243092, doi:10.1126/science.1243092\nLevis, C. et al. 2017, Persistent effects of pre-Columbian plant domestication on Amazonian forest composition, Science 355: 925-931, doi:10.1126/science.aal0157\nPrumers, H. et al. 2022, Lidar reveals pre-Hispanic low-density urbanism in the Bolivian Amazon, Nature 606: 325-328, doi:10.1038/s41586-022-04780-4\nLombardo, U. et al. 2020, Early Holocene crop cultivation and landscape modification in Amazonia, Nature 581: 190-193, doi:10.1038/s41586-020-2162-7\nRostain, S. et al. 2024, Two thousand years of garden urbanism in the Upper Amazon, Science 383: 183-189, doi:10.1126/science.adi6317\nBush, M. B. et al. 2025, Ecological legacies and recent footprints of the Amazon's Lost City, Nature Communications 16, doi:10.1038/s41467-025-62315-7\nWatling, J. et al. 2017, Impact of pre-Columbian 'geoglyph' builders on Amazonian forests, PNAS 114: 1868-1873, doi:10.1073/pnas.1614359114\nParssinen, M. et al. 2026, Over 20,000 precolonial earthworks in the Southwest Amazonia, Nature 657: 420-425, doi:10.1038/s41586-026-10835-7\nPeripato, V. et al. 2023, More than 10,000 pre-Columbian earthworks are still hidden throughout Amazonia, Science 382: 103-109, doi:10.1126/science.ade2541\nMcMichael, C. H. et al. 2012, Sparse pre-Columbian human habitation in western Amazonia, Science 336: 1429-1431, doi:10.1126/science.1219982\nDenevan, W. M. 1996, A bluff model of riverine settlement in prehistoric Amazonia, Annals of the Association of American Geographers 86: 654-681\nDenevan, W. M. 2003, The native population of Amazonia in 1492 reconsidered, Revista de Indias 63(227): 175-188\nClement, C. R. et al. 2015, The domestication of Amazonia before European conquest, Proc. R. Soc. B 282: 20150813, doi:10.1098/rspb.2015.0813\nKoch, A. et al. 2019, Earth system impacts of the European arrival and Great Dying in the Americas after 1492, Quaternary Science Reviews 207: 13-36, doi:10.1016/j.quascirev.2018.12.004",
+ "sources": [
+  "Carvajal, G. de 1542, Relacion del nuevo descubrimiento del famoso rio Grande; English text in Medina, J. T. (ed.) 1934, The Discovery of the Amazon (American Geographical Society)",
+  "Hemming, J. 1978, Red Gold: The Conquest of the Brazilian Indians (Macmillan)",
+  "Banco de la Republica, Museo del Oro, Bogota: the Muisca raft (Pasca, found 1969)",
+  "Fawcett, P. H. (ed. B. Fawcett) 1953, Exploration Fawcett (Hutchinson)",
+  "Heckenberger, M. J. et al. 2003, Amazonia 1492: pristine forest or cultural parkland?, Science 301: 1710-1714, doi:10.1126/science.1086112",
+  "Heckenberger, M. J. et al. 2008, Pre-Columbian urbanism, anthropogenic landscapes, and the future of the Amazon, Science 321: 1214-1217, doi:10.1126/science.1159769",
+  "Meggers, B. J. 1971, Amazonia: Man and Culture in a Counterfeit Paradise (Aldine); Meggers, B. J. 1954, American Anthropologist 56: 801-824",
+  "Glaser, B. et al. 2001, The 'Terra Preta' phenomenon, Naturwissenschaften 88: 37-41, doi:10.1007/s001140000193",
+  "Schmidt, M. J. et al. 2023, Intentional creation of carbon-rich dark earth soils in the Amazon, Science Advances 9: eadh8499, doi:10.1126/sciadv.adh8499",
+  "ter Steege, H. et al. 2013, Hyperdominance in the Amazonian tree flora, Science 342: 1243092, doi:10.1126/science.1243092",
+  "Levis, C. et al. 2017, Persistent effects of pre-Columbian plant domestication on Amazonian forest composition, Science 355: 925-931, doi:10.1126/science.aal0157",
+  "Prumers, H. et al. 2022, Lidar reveals pre-Hispanic low-density urbanism in the Bolivian Amazon, Nature 606: 325-328, doi:10.1038/s41586-022-04780-4",
+  "Lombardo, U. et al. 2020, Early Holocene crop cultivation and landscape modification in Amazonia, Nature 581: 190-193, doi:10.1038/s41586-020-2162-7",
+  "Rostain, S. et al. 2024, Two thousand years of garden urbanism in the Upper Amazon, Science 383: 183-189, doi:10.1126/science.adi6317",
+  "Bush, M. B. et al. 2025, Ecological legacies and recent footprints of the Amazon's Lost City, Nature Communications 16, doi:10.1038/s41467-025-62315-7",
+  "Watling, J. et al. 2017, Impact of pre-Columbian 'geoglyph' builders on Amazonian forests, PNAS 114: 1868-1873, doi:10.1073/pnas.1614359114",
+  "Parssinen, M. et al. 2026, Over 20,000 precolonial earthworks in the Southwest Amazonia, Nature 657: 420-425, doi:10.1038/s41586-026-10835-7",
+  "Peripato, V. et al. 2023, More than 10,000 pre-Columbian earthworks are still hidden throughout Amazonia, Science 382: 103-109, doi:10.1126/science.ade2541",
+  "McMichael, C. H. et al. 2012, Sparse pre-Columbian human habitation in western Amazonia, Science 336: 1429-1431, doi:10.1126/science.1219982",
+  "Denevan, W. M. 1996, A bluff model of riverine settlement in prehistoric Amazonia, Annals of the Association of American Geographers 86: 654-681",
+  "Denevan, W. M. 2003, The native population of Amazonia in 1492 reconsidered, Revista de Indias 63(227): 175-188",
+  "Clement, C. R. et al. 2015, The domestication of Amazonia before European conquest, Proc. R. Soc. B 282: 20150813, doi:10.1098/rspb.2015.0813",
+  "Koch, A. et al. 2019, Earth system impacts of the European arrival and Great Dying in the Americas after 1492, Quaternary Science Reviews 207: 13-36, doi:10.1016/j.quascirev.2018.12.004"
+ ],
+ "facts_added": [
+  {
+   "fact": "In 1541 Gonzalo Pizarro's expedition left Quito eastwards over the Andes looking for cinnamon (the 'Land of Cinnamon') and El Dorado; at the end of December 1541 Francisco de Orellana went downriver with about fifty men to find food, could not return against the current, and reached the Atlantic in late August 1542, the first Europeans known to descend the river from the Andes to the sea.",
+   "source": "Carvajal 1542 (Medina 1934); Hemming 1978"
+  },
+  {
+   "fact": "'El dorado' ('the golden one') began as a person and a ceremony: Spanish chroniclers describe a new Muisca ruler covered in gold dust making offerings from a raft on a highland lake (Guatavita); a gold raft found in 1969 at Pasca (19.5 cm, radiocarbon dated about 1295 to 1410 CE, Museo del Oro) shows a central figure on a raft with attendants; its link to Guatavita is debated.",
+   "source": "Museo del Oro, Bogota (Muisca raft); Rodriguez Freyle 1636 (El Carnero)"
+  },
+  {
+   "fact": "Carvajal, the Dominican chaplain, described many villages on the banks, roads leading inland, attacks by fleets of canoes, and pottery he judged finer than that of Malaga; he also wrote that one stretch of two hundred leagues had no settlement at all; women fighting at the head of warriors gave the river its name after the Amazons of Greek legend.",
+   "source": "Carvajal 1542, Relacion (Spanish text, e.g. Biblioteca Nacional 1992 edition; English: Medina 1934)"
+  },
+  {
+   "fact": "Prehistoric settlement in Amazonia was concentrated on bluffs along the major rivers, sporadic rather than continuous, with large settlements where channels meet bluffs; after contact, epidemics, slave raids and missions depopulated long stretches of the main river.",
+   "source": "Denevan 1996, Annals AAG 86: 654-681; Hemming 1978"
+  },
+  {
+   "fact": "Percy Fawcett (born 1867), a former surveyor who had mapped the Bolivia-Brazil frontier from 1906, left Cuiaba in April 1925 with his son Jack and Raleigh Rimell to find a lost city he called Z; his last letter, to his wife, is dated 29 May 1925 from Dead Horse Camp ('You need have no fear of any failure'); none returned. He had read Manuscript 512, a Portuguese account of a 1753 discovery of ruins with arches and a statue.",
+   "source": "Fawcett 1953, Exploration Fawcett (Hutchinson)"
+  },
+  {
+   "fact": "In the Upper Xingu (where Fawcett vanished), Heckenberger's team, working with the Kuikuro (Afukaka Kuikuro, the Kuikuro paramount chief, is a co-author), mapped late pre-Columbian settlements with ditches up to about 5 m deep, plazas, bridges, ponds and dams, and straight roads 10 to 50 m wide; the largest settlements date to about 1250 to 1650 CE.",
+   "source": "Heckenberger et al. 2003, Science 301: 1710; Heckenberger et al. 2008, Science 321: 1214; Pesquisa FAPESP 2003; University of Florida (Chief Afukaka)"
+  },
+  {
+   "fact": "Heckenberger on the Xingu settlements: 'These are not cities, but this is urbanism, built around towns.'",
+   "source": "University of Florida News, 28 August 2008 (press release for Heckenberger et al. 2008)"
+  },
+  {
+   "fact": "Betty Meggers (1921-2012) argued (1954; 1971, Amazonia: Man and Culture in a Counterfeit Paradise) that the Amazon's luxuriant vegetation concealed limits on farming that placed a ceiling on pre-Columbian population density and social complexity.",
+   "source": "Meggers 1954, American Anthropologist 56: 801-824; Meggers 1971 (Aldine); Smithsonian Institution Scholarly Press description of the 1996 revised edition"
+  },
+  {
+   "fact": "Terra preta (Amazonian dark earth) contains up to 70 times more black carbon (charcoal) than the surrounding soils, with pottery, bone and organic waste, and stays fertile for centuries.",
+   "source": "Glaser et al. 2001, Naturwissenschaften 88: 37-41"
+  },
+  {
+   "fact": "The Kuikuro of the Upper Xingu make dark earth (eegepe) on purpose: food scraps and ash in middens, ash spread on fields, charcoal around the base of trees; ancient and modern dark earths match in pattern and composition, and some ancient sites hold as much carbon as the rainforest above them.",
+   "source": "Schmidt et al. 2023, Science Advances 9: eadh8499 (with Kuikuro co-authors)"
+  },
+  {
+   "fact": "Amazonia has about 16,000 tree species, of which just 227 (1.4%) account for half of all trees.",
+   "source": "ter Steege et al. 2013, Science 342: 1243092"
+  },
+  {
+   "fact": "85 woody species domesticated by pre-Columbian peoples are five times more likely than non-domesticated species to be hyperdominant, and are more abundant on and around archaeological sites; the Brazil nut and the acai palm (Euterpe precatoria) are domesticated hyperdominants.",
+   "source": "Levis et al. 2017, Science 355: 925-931 (and its press materials)"
+  },
+  {
+   "fact": "Casarabe culture (about 500 to 1400 CE), Llanos de Mojos: lidar (flown in October 2019) shows two large settlement sites, Cotoca (147 ha) and Landivar (315 ha), each surrounded by three concentric moat-and-rampart lines, conical pyramids up to 22 m tall, straight raised causeways running for several kilometres, canals (one 7 km long) and reservoirs; the team calls it low-density urbanism and notes that no formally agreed term exists ('large settlement site').",
+   "source": "Prumers et al. 2022, Nature 606: 325-328; Iriarte, 'What Percy Fawcett never found', Springer Nature Research Communities, 2022"
+  },
+  {
+   "fact": "Cotoca's civic-ceremonial core required about 570,690 cubic metres of earth, ten times the Akapana at Tiwanaku (53,546 cubic metres); at 2,500 cubic metres per Olympic pool, about 228 pools.",
+   "source": "Prumers et al. 2022; arithmetic"
+  },
+  {
+   "fact": "In the Llanos de Mojos, people built about 4,700 artificial forest islands from about 10,850 years ago and cultivated manioc (about 10,350 years ago) and squash (about 10,250 years ago) on them.",
+   "source": "Lombardo et al. 2020, Nature 581: 190-193"
+  },
+  {
+   "fact": "Archaeologists dug into Casarabe-culture mounds from 1908 (Erland Nordenskiold).",
+   "source": "Iriarte 2022 (Springer Nature Research Communities); Prumers et al. 2022"
+  },
+  {
+   "fact": "Upano valley, Ecuador: a 2015 lidar survey commissioned by Ecuador's National Institute of Cultural Heritage revealed more than 6,000 rectangular earthen platforms (about 20 by 10 m) grouped around low plazas, at least 15 settlements, drained fields, and dead-straight dug roads that ignore the relief (the main ones up to about 10 to 13 m wide; one traced for at least 25 km); occupation from about 500 BCE to 300-600 CE; the team calls it garden urbanism. Stephen Rostain has excavated there since the 1990s; Sangay volcano has erupted continuously for decades.",
+   "source": "Rostain et al. 2024, Science 383: 183-189; CNRS News 2024 (Rostain interview)"
+  },
+  {
+   "fact": "A sediment core from Lake Cormoran, beside the Upano valley, records maize cultivation from about 570 BCE and a gradual decline in forest use before abandonment around 550 CE, not a sudden abandonment caused by a single large ashfall from Sangay.",
+   "source": "Bush et al. 2025, Nature Communications 16 (doi:10.1038/s41467-025-62315-7); Florida Institute of Technology news release, 2025"
+  },
+  {
+   "fact": "Over 450 geometric ditched enclosures ('geoglyphs') occupy about 13,000 square km of Acre, Brazil, exposed by deforestation; ditches up to 11 m wide and 4 m deep; phytolith and charcoal records show they were built in bamboo forest with only small, temporary clearings.",
+   "source": "Watling et al. 2017, PNAS 114: 1868-1873"
+  },
+  {
+   "fact": "Lidar along 4,430 km of flight lines (4,497 square km) in Acre and Amazonas found 432 earthworks where 36 were known; the authors estimate 24,000 to 30,000 earthworks in southwest Amazonia, built about 600 BCE to 850 CE (densest 100 to 300 CE), and propose 1.25 to 3 million people around 100 to 300 CE.",
+   "source": "Parssinen et al. 2026, Nature 657: 420-425"
+  },
+  {
+   "fact": "Lidar over 5,315 square km (about 0.08% of Amazonia) found 24 unreported earthworks; a model estimates 10,272 to 23,648 earthworks still hidden in the whole basin.",
+   "source": "Peripato et al. 2023, Science 382: 103-109"
+  },
+  {
+   "fact": "Soil cores (247, from 55 sites across central and western Amazonia) show little charcoal or disturbance away from rivers, suggesting sparse habitation in the interfluves.",
+   "source": "McMichael et al. 2012, Science 336: 1429-1431"
+  },
+  {
+   "fact": "Population of Amazonia in 1492: about 5 to 6 million (Denevan 2003) to at least 8 million (Clement et al. 2015).",
+   "source": "Denevan 2003, Revista de Indias 63: 175-188; Clement et al. 2015, Proc R Soc B 282: 20150813"
+  },
+  {
+   "fact": "Across the Americas, about 60.5 million people before 1492; about 90% died within a century, mostly of introduced epidemics.",
+   "source": "Koch et al. 2019, Quaternary Science Reviews 207: 13-36 (background for 'epidemics')"
+  }
+ ],
+ "names": [
+  {
+   "name": "Quito",
+   "say": "KEE-toh"
+  },
+  {
+   "name": "el dorado",
+   "say": "el doh-RAH-doh"
+  },
+  {
+   "name": "Muisca",
+   "say": "MWEES-kah"
+  },
+  {
+   "name": "Francisco de Orellana",
+   "say": "fran-SEES-koh deh oh-reh-YAH-nah"
+  },
+  {
+   "name": "Gaspar de Carvajal",
+   "say": "gas-PAR deh kar-vah-HAHL"
+  },
+  {
+   "name": "Malaga",
+   "say": "MAL-uh-guh"
+  },
+  {
+   "name": "Percy Fawcett",
+   "say": "PUR-see FAW-sit"
+  },
+  {
+   "name": "Mato Grosso",
+   "say": "MAH-toh GROH-soh"
+  },
+  {
+   "name": "Raleigh Rimell",
+   "say": "RAH-lee RIM-ul"
+  },
+  {
+   "name": "Xingu",
+   "say": "shing-GOO (in LEX)"
+  },
+  {
+   "name": "Kuikuro",
+   "say": "kwee-KOO-roh (in LEX)"
+  },
+  {
+   "name": "Afukaka",
+   "say": "ah-foo-KAH-kah"
+  },
+  {
+   "name": "Michael Heckenberger",
+   "say": "MY-kul HECK-en-bur-ger"
+  },
+  {
+   "name": "Betty Meggers",
+   "say": "BET-ee MEG-erz"
+  },
+  {
+   "name": "terra preta",
+   "say": "TEH-rah PREH-tah"
+  },
+  {
+   "name": "acai",
+   "say": "ah-sah-EE"
+  },
+  {
+   "name": "Llanos de Mojos",
+   "say": "YAH-nohs deh MOH-hohs"
+  },
+  {
+   "name": "Casarabe",
+   "say": "kah-sah-RAH-beh"
+  },
+  {
+   "name": "Cotoca",
+   "say": "koh-TOH-kah"
+  },
+  {
+   "name": "Landivar",
+   "say": "lahn-DEE-var"
+  },
+  {
+   "name": "manioc",
+   "say": "MAN-ee-ok"
+  },
+  {
+   "name": "Upano",
+   "say": "oo-PAH-noh (in LEX)"
+  },
+  {
+   "name": "Sangay",
+   "say": "sahn-GUY"
+  },
+  {
+   "name": "Stephen Rostain",
+   "say": "STEF-en ros-TAN (French: Stephen, ros-TAN)"
+  },
+  {
+   "name": "Acre",
+   "say": "AH-kree (the Brazilian state, not the English 'acre')"
+  },
+  {
+   "name": "geoglyphs",
+   "say": "JEE-oh-glifs"
+  },
+  {
+   "name": "Amazonians",
+   "say": "am-uh-ZOH-nee-unz"
+  },
+  {
+   "name": "lidar",
+   "say": "LIE-dar"
+  }
+ ],
+ "words": 1577
+}
