@@ -1,10 +1,11 @@
 # Long-form round brief: one agent, one film, script to compiled film
 
 You make one complete long-form deep dive (16:9, about 10 minutes) for the history channel Residual Continuum, from
-research to a compiled, previewed film module. Fifteen films are already finished this way (LF.01 to LF.15: Under Giza,
+research to a compiled, previewed film module. Twenty films are already finished this way (LF.01 to LF.20: Under Giza,
 Atlantis, Göbekli Tepe, The Comet and the Cold, The UFO Files, Impossible Stones, Gunung Padang, Derinkuyu, Ancient
-Astronauts, Voynich, Troy, The Sea Peoples, The Library of Alexandria, MKUltra, The First Americans); the owner loved
-them. Study one or two of them before you start (lf_troy.py and lf_mkultra.py are good recent examples). The goal of the
+Astronauts, Voynich, Troy, The Sea Peoples, The Library of Alexandria, MKUltra, The First Americans, King Arthur, Vinland,
+Knossos, Stargate, The Piri Reis Map); the owner loved them. Study one or two of them before you start (lf_troy.py,
+lf_mkultra.py and lf_vinland.py are good recent examples). The goal of the
 channel: social buzz and to be the number one reference on these subjects, without ever trading honesty for clicks.
 
 Lessons from the review of round 2 (apply them):
@@ -20,6 +21,14 @@ Lessons from the review of round 3 (apply them too):
   on a bare background. Every panel shows something from its first second (a dim establishing element, the previous
   object, a place name) and then builds on the cue words.
 - Preview stills are taken 2.5 s into each step: if a still is empty, check it again at 6 s and 11 s and fix the panel.
+
+Lessons from the review of round 4 (apply them too):
+- The hook title (the episode's `hook_text`) sits at the top left for the first ~3 s (Newsreader 36 px in a 960 x 540
+  frame, at most 500 px wide). In LF.20 its last word ran onto the opening map and had to be re-rendered. Keep `hook_text`
+  to about 28 characters (it ends near x = 28 + 14 px per character, of 960) or keep the opening drawing right of
+  x = 960 (of 1778) in the top 180 units of the frame.
+- The YouTube description (the script's description with chapters and sources) plus hashtags must stay under 4,900
+  characters: keep each source to one line (author, year, journal or publisher, DOI); LF.14's ran to 5,600.
 
 Workspace: `/home/claude/rc2/reels` (a clone of the render farm repo). Scratch: `/tmp/claude-0/` and your scratchpad.
 
