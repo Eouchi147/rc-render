@@ -1,0 +1,873 @@
+{
+ "id": "lf-antikythera",
+ "kind": "case",
+ "series": "Sky Watchers",
+ "title": "The Antikythera Mechanism: A Cosmos in Bronze",
+ "intro_title": "The Antikythera Mechanism: A Cosmos in Bronze",
+ "yt_title": "The Antikythera Mechanism: A 2,000-Year-Old Computer",
+ "verdict": "Established",
+ "verdict_scope": "that the Antikythera fragments are a Greek geared calculator of the sky, showing the Sun, the Moon, eclipse predictions, calendars and the games cycle, made in the second or early first century BCE (graded Established: the gears, dials and inscriptions survive and agree); in the weighing, its planetary display is graded Strong evidence (described in the inscriptions, gears lost), the 2021 gear-by-gear model Plausible (more than half its gears inferred, not yet built), who made it and where Open question, and an origin out of its time or from elsewhere Ruled out (its language, calendar, games, astronomy and its errors are Greek and Babylonian, its teeth hand-cut)",
+ "hook": "A computer, two thousand years old?",
+ "end_line": "Someone cut those teeth by hand, to hold the sky in a box.",
+ "structure_note": "chapters[0] is the cold open and the title beat (no chapter card; YouTube chapter 0:00). Chapters 1 to 5 are the story chapters; 'The weighing' carries the verdict, the test and the close. Shot ids s1..sN are in story order; 'alias of sN' means a return to that panel.",
+ "chapters": [
+  {
+   "title": "Cold open",
+   "beats": [
+    {
+     "role": "hook",
+     "lines": [
+      "[d:intrigue][sfx:boom][act:hushed wonder, painting it]A lump of corroded bronze, raised from a shipwreck off a small Greek ^island. [act:leaning in, slower]Look closer: there's a wheel inside, with ^teeth. [p:0.93][act:the reveal, awed]X-rays of its pieces find thirty gear wheels, and thousands of Greek letters, most about two millimetres ^tall.",
+      "[d:tension][act:the date, hushed]The ship sank around {60|sixty} ^BCE. [act:the child's question, wide-eyed][tune:rise]A computer, two thousand years ^old? [act:the bigger question, slower][tune:rise]Who could build ^this, and what did it ^do?"
+     ],
+     "shots": [
+      {
+       "id": "s1",
+       "say": "A lump of corroded bronze, raised from a shipwreck off a small Greek island. Look closer: there's a wheel inside, with teeth.",
+       "draw": "HERO IMAGE, fully drawn from the first frame: the famous main fragment (Fragment A) on a dark museum ground, lit by a warm lamp from the upper left. An irregular, chipped slab of corroded bronze, blue-green verdigris with brown and grey patches, pitting and dark cracks, centred, about x 530..1300, y 200..780 (the hook title sits above y 180, clear of it). Set in it, the great four-spoked wheel (the main drive wheel): a rim with small triangular teeth along its upper and right edge, four tapered spokes in a cross, a square hub; fragments of two smaller gears at the lower right; a sliver of wood grain at one edge. On 'with teeth', the camera pushes in and the teeth of the upper rim glint gold, tooth by tooth."
+      },
+      {
+       "id": "s2",
+       "say": "X-rays of its pieces find thirty gear wheels, and thousands of Greek letters, most about two millimetres tall.",
+       "draw": "Same panel, the camera back to the whole slab: an X-ray look washes over it (a cold blue veil); inside, hidden gear wheels draw themselves as pale blue rings with teeth, one after another, a counter pops '30 gears'; along a strip at the bottom of the slab, rows of tiny letters glow; a round magnifier shows four of them large with a small bar '2 mm'.",
+       "reuse": "alias of s1, new cam"
+      },
+      {
+       "id": "s3",
+       "say": "The ship sank around 60 BCE. A computer, two thousand years old? Who could build this, and what did it do?",
+       "draw": "Night sea in section: the surface with a moon, a Roman-era merchant ship (single square sail) settling at the surface; a dashed line falls to the seabed, where the green lump lies among amphorae (chip 'about 60 BCE'). On 'A computer', above the water, the reconstructed machine appears as a lilac dotted outline (claimed, a guess at this point): a box with a round front dial, pointers, two spirals behind; on 'what did it do', a large lilac question mark pops beside it."
+      }
+     ]
+    },
+    {
+     "role": "title",
+     "lines": [
+      "[d:calm][act:warm, setting out]The Antikythera mechanism: a cosmos in ^bronze."
+     ],
+     "shots": [
+      {
+       "id": "s4",
+       "say": "The Antikythera mechanism: a cosmos in bronze.",
+       "draw": "intro_title card 'The Antikythera Mechanism: A Cosmos in Bronze' over the dimmed s3 panel. Nothing else drawn."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "A wreck full of statues",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:setting the scene, measured]Spring, {1900|nineteen hundred}, in the sea south of ^Greece. [act:storytelling]Sponge divers from the island of ^Symi, sailing home from North Africa, shelter from a storm off ^Antikythera, a small island between Crete and the ^mainland.",
+      "[act:the find, wonder]One of them, Elias ^Stadiatis, goes down more than forty metres, and finds a wreck heaped with bronze and marble ^statues. [act:the proof, a smile][tune:fall]The divers bring up a bronze arm, larger than ^life."
+     ],
+     "shots": [
+      {
+       "id": "s5",
+       "say": "Sponge divers from the island of Symi, sailing home from North Africa, shelter from a storm off Antikythera, a small island between Crete and the mainland.",
+       "draw": "Map View(8.5, 29.5, 31.0, 40.0): Tunisia, the central Mediterranean, Greece, Crete and the Dodecanese. A dotted amber route draws from the Tunisian coast eastwards towards Symi (a small boat icon rides it); at Antikythera, between Kythera and Crete, a storm cloud with slanting rain pops and the route bends in to shelter. Pins: 'Antikythera' (gold), 'Symi'. Labels: 'Tunisia', 'Greece', 'Crete'. Scale bar 200 km."
+      },
+      {
+       "id": "s6",
+       "say": "One of them, Elias Stadiatis, goes down more than forty metres, and finds a wreck heaped with bronze and marble statues. The divers bring up a bronze arm, larger than life.",
+       "draw": "Underwater section (sea in day light fading to deep blue): a sponge boat at the surface; a helmeted diver on a line descends (label 'Elias Stadiatis'); a depth bar from the surface to the seabed 'more than 40 m'; on the sloping seabed, the wreck: timbers, scattered amphorae, and statues lying in heaps, dark bronze figures and pale marble ones, built in as named. On 'bronze arm', a larger-than-life bronze arm rises up the line towards the boat (label 'a bronze arm')."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:the scale, steady]From November {1900|nineteen hundred}, helped by the Greek navy, they spend ten months raising the ^cargo. [p:0.93][act:grave, a picture]They dive in metal helmets, breathing through hoses from the surface, with only five minutes@time on the ^bottom. [act:quiet, respectful][tune:fall]One diver dies, and two are left ^paralysed.",
+      "[d:calm][act:the haul, warm]Up come bronze and marble statues, glass and ^pottery. [act:the overlooked, quieter][tune:fall]And some shapeless lumps of corroded bronze and ^wood, sent to the museum in ^Athens."
+     ],
+     "shots": [
+      {
+       "id": "s7",
+       "say": "From November 1900, helped by the Greek navy, they spend ten months raising the cargo. They dive in metal helmets, breathing through hoses from the surface, with only five minutes on the bottom. One diver dies, and two are left paralysed.",
+       "draw": "Surface at dusk, with the sea cut away below the waterline: a grey navy steamship with a funnel and a sponge boat side by side; on the boat's deck an air pump with a big wheel turned by two men; air hoses run down to a diver in a metal helmet on the line below (label 'metal helmets'); chip 'Nov 1900 to Sept 1901'. On 'five minutes', a small clock face with a five-minute wedge pops by the diver. On 'One diver dies', a single small lamp glow on the water, held, and a quiet label 'one died, two paralysed'. No body drawn."
+      },
+      {
+       "id": "s8",
+       "say": "Up come bronze and marble statues, glass and pottery. And some shapeless lumps of corroded bronze and wood, sent to the museum in Athens.",
+       "draw": "A museum storeroom by lamp light: the bronze youth (a standing figure, right arm raised), two damaged marble figures, amphorae, glass bowls, built in as named; on a shelf at the right three shapeless green lumps (label 'lumps of bronze and wood'); a small chip 'Athens'."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:the moment, hushed]May, {1902|nineteen oh two}. [act:explaining, clear]As the wood inside one lump dries, it shrinks, and the lump splits ^open. [act:the find, delighted][tune:fall]Inside: a gear wheel, and tiny Greek ^letters.",
+      "[act:fair, a small smile]The first to notice, say the old reports, was a visitor: Spyridon ^Stais, a former education ^minister. [act:fair, even][tune:fall]Many books credit his cousin ^Valerios, an ^archaeologist."
+     ],
+     "shots": [
+      {
+       "id": "s9",
+       "say": "May, 1902. As the wood inside one lump dries, it shrinks, and the lump splits open. Inside: a gear wheel, and tiny Greek letters.",
+       "draw": "Close on one lump on a museum tray under a lamp (chip 'May 1902'): thin wood strips inside it pale and narrow; crack lines draw across it; the lump parts into two pieces with a dark gap; in the gap a gear wheel's toothed edge glints gold (label 'a gear wheel'), and a line of tiny letters glows on the broken face (label 'Greek letters')."
+      },
+      {
+       "id": "s10",
+       "say": "The first to notice, say the old reports, was a visitor: Spyridon Stais, a former education minister. Many books credit his cousin Valerios, an archaeologist.",
+       "draw": "Two men in 1900s frock coats stand either side of the split lump: left 'Spyridon Stais' with a small tag 'former minister', right 'Valerios Stais' with a tag 'archaeologist'. A small stack of old printed reports ('old reports') sends a solid arrow to Spyridon; a stack of modern books ('many books') sends a dashed arrow to Valerios."
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:aside][act:the landing, warm]Not a statue, and not ^treasure. [act:wonder, slower]A ^machine. [act:dry, a smile][tune:fall]For half a century, nobody could say for sure what ^kind."
+     ],
+     "shots": [
+      {
+       "id": "s11",
+       "say": "Not a statue, and not treasure. A machine. For half a century, nobody could say for sure what kind.",
+       "draw": "Back on the split lump (alias of s9, wider): a statue icon and a coin icon pop and are struck through on 'not'; on 'A machine' the gear edge glows; then lilac dotted guesses pop around it, 'astrolabe?' and 'ship's instrument?', and a thin dotted time strip under it with a lilac question mark.",
+       "reuse": "alias of s9, same cam"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Counting the teeth",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:introducing him, warm]Enter Derek de Solla ^Price, a British-born physicist turned historian of ^science. [act:storytelling]In {1958|nineteen fifty-eight}, he studied the fragments in Athens, and the next year, in Scientific American, he called them an ancient Greek ^computer.",
+      "[act:amused, his words][tune:fall]He said it was like finding a jet plane in Tutankhamun's ^tomb."
+     ],
+     "shots": [
+      {
+       "id": "s12",
+       "say": "In 1958, he studied the fragments in Athens, and the next year, in Scientific American, he called them an ancient Greek computer.",
+       "draw": "A desk by lamp light: Derek de Solla Price, seated, bends over the fragments on a cloth with a magnifier (label 'Derek de Solla Price', chip '1958'); then at the right a magazine cover drops in with a gear drawn on it and the title 'An Ancient Greek Computer' (tag 'Scientific American, 1959')."
+      },
+      {
+       "id": "s13",
+       "say": "He said it was like finding a jet plane in Tutankhamun's tomb.",
+       "draw": "A lamp-lit Egyptian burial chamber in section (stone walls, a gilded coffin in its sarcophagus); in the middle of the chamber a jet plane appears in lilac dots (a figure of speech, not a find); label 'like a jet plane' and chip 'Price, 1958'."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:the problem, clear]But the gears were locked inside the ^corrosion. [p:0.93][act:the method, a picture]So in {1971|nineteen seventy-one}, with the Greek physicist Charalambos ^Karakalos, he shone gamma rays and X-rays through them, the way a dentist sees your teeth through your ^gums.",
+      "[act:counting, amused]Then they counted teeth, one by one, on the ^films. [p:0.9][act:the clue, delighted]On one wheel: a hundred and twenty-seven ^teeth. [act:the logic, clear]Double it: two hundred and fifty-four, the number@count of times the Moon goes round the sky in nineteen ^years.",
+      "[act:the conclusion, warm][tune:fall]Gears, cut to an astronomer's ^cycle. [act:plain]In {1974|nineteen seventy-four}, he published it all as Gears from the ^Greeks."
+     ],
+     "shots": [
+      {
+       "id": "s14",
+       "say": "But the gears were locked inside the corrosion. So in 1971, with the Greek physicist Charalambos Karakalos, he shone gamma rays and X-rays through them, the way a dentist sees your teeth through your gums.",
+       "draw": "Left: a radiography set-up in side view: a source box glowing blue, a fan of rays, the fragment, a film plate behind it on which pale gear rings appear (labels 'gamma rays and X-rays', 'Karakalos', chip '1971'). Right: a tooth in its gum seen as a dental X-ray: the pink gum outline fades to a cold blue film, the tooth and its roots glow pale (label 'a dentist's X-ray')."
+      },
+      {
+       "id": "s15",
+       "say": "Then they counted teeth, one by one, on the films. On one wheel: a hundred and twenty-seven teeth.",
+       "draw": "A radiograph on a light box: a big gear ring; tick marks pop around its rim one by one in a quick count, the count reaching 127 (big serif label '127 teeth')."
+      },
+      {
+       "id": "s16",
+       "say": "Double it: two hundred and fifty-four, the number of times the Moon goes round the sky in nineteen years. Gears, cut to an astronomer's cycle.",
+       "draw": "A chart that builds: '127 x 2 = 254' at the top; below, nineteen columns (one per year, axis '19 years'), each filling with small Moon dots, 13 or 14 per column, 254 in all (label '254 laps of the Moon'). On 'astronomer's cycle', a small three-gear train glows beside it."
+      },
+      {
+       "id": "s17",
+       "say": "In 1974, he published it all as Gears from the Greeks.",
+       "draw": "Same panel: a slim book drops in at the right, its cover showing a gear wheel and the title 'Gears from the Greeks' (tag '1974').",
+       "reuse": "alias of s16, same cam"
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:the twist, fair]But Price had misread how some gears ^connected. [act:introducing him, warm]The fix came from Michael ^Wright, a curator at London's Science Museum, working with the computer scientist Allan ^Bromley.",
+      "[p:0.93][act:the method, clear]In the {1990s|nineteen nineties}, they took sharper X-ray pictures, each focused on a single layer of the ^bronze. [act:the results, delighted]Wright showed that the dials on the back were ^spirals, worked out that a little ball turned to show the Moon's ^phase, and built working ^replicas."
+     ],
+     "shots": [
+      {
+       "id": "s18",
+       "say": "But Price had misread how some gears connected. The fix came from Michael Wright, a curator at London's Science Museum, working with the computer scientist Allan Bromley.",
+       "draw": "Left: Price's gear plan, four gears with connecting lines; one connection turns red and dashed with a red cross (label 'misread'). Right: a columned museum front (label 'Science Museum') with two figures before it, 'Michael Wright' and 'Allan Bromley'."
+      },
+      {
+       "id": "s19",
+       "say": "In the 1990s, they took sharper X-ray pictures, each focused on a single layer of the bronze.",
+       "draw": "Linear tomography in side view: an X-ray tube at the top slides left while a film at the bottom slides right (arrows); between them the fragment as three stacked layers; the middle layer comes sharp and bright while the others blur and dim (label 'one sharp layer', chip '1990s')."
+      },
+      {
+       "id": "s20",
+       "say": "Wright showed that the dials on the back were spirals, worked out that a little ball turned to show the Moon's phase, and built working replicas.",
+       "draw": "Three discoveries in a row, built as named: a back dial whose scale draws itself as a five-turn spiral (label 'spiral dials'); a little ball, half pale and half dark, turning through four phases (label 'Moon phase'); a bronze-coloured box with a front dial and a crank (label 'working replicas')."
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:aside][act:the landing, warm]Each new way of seeing found more gears, and fixed old ^mistakes. [act:a smile][tune:fall]The next one weighed eight ^tonnes."
+     ],
+     "shots": [
+      {
+       "id": "s21",
+       "say": "Each new way of seeing found more gears, and fixed old mistakes. The next one weighed eight tonnes.",
+       "draw": "Three views of the same fragment outline in a row, each clearer than the last: by eye (1902, one gear edge), on film (1971, several rings), in layers (1990s, many rings), tags under each; on 'eight tonnes', a huge crate silhouette slides in at the right (label '8 tonnes')."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Eight tonnes of X-rays",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:setting the scene]Athens, {2005|two thousand five}, in the National Archaeological ^Museum. [act:storytelling, amused]The fragments were too fragile to travel, so a British and Greek team, the Antikythera Mechanism Research Project@noun, brought an eight-tonne X-ray scanner to ^them.",
+      "[p:0.93][act:explaining, a picture]It sliced each fragment into thin X-ray pictures, like slicing a loaf without a ^knife. [act:the second method, clear]And a metre-wide dome of flashbulbs photographed every surface lit from fifty directions, the way you tilt a worn coin under a lamp to read@present its ^date."
+     ],
+     "shots": [
+      {
+       "id": "s22",
+       "say": "The fragments were too fragile to travel, so a British and Greek team, the Antikythera Mechanism Research Project, brought an eight-tonne X-ray scanner to them.",
+       "draw": "The museum's columned front in Athens at dusk (chip '2005'); a huge crate on a low trailer rolls up to the steps (label '8 tonnes'); then inside, the scanner in side view: an X-ray source, a turntable carrying a fragment, a flat detector, a cone of blue rays between them."
+      },
+      {
+       "id": "s23",
+       "say": "It sliced each fragment into thin X-ray pictures, like slicing a loaf without a knife.",
+       "draw": "Left: a loaf of bread; slice lines draw across it and the slices fan apart (label 'like slicing a loaf'). Right: the fragment as a stack of thin translucent slices fanning out the same way, each showing gear rings in cross-section (label 'CT slices')."
+      },
+      {
+       "id": "s24",
+       "say": "And a metre-wide dome of flashbulbs photographed every surface lit from fifty directions, the way you tilt a worn coin under a lamp to read its date.",
+       "draw": "Left: a dome in section over the fragment, a camera at its top; fifty small flashbulbs pop around the dome, a few flash in turn (label '50 flashes'). Right: a worn coin under a desk lamp; the lamp swings low and raking light brings up its letters (label 'a worn coin')."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:explaining, the machine]Turn it by hand, and a big four-spoked wheel goes round once a ^year. [act:the picture, clear][tune:fall]Its turning flows through the gears to pointers: the Sun's place among the stars, the Moon's, and the ^date.",
+      "[p:0.93][act:the hard part, slower]But the Moon doesn't keep an even ^pace: it speeds up when it's nearer to us, and slows down when it's ^farther. [act:the reveal, delighted]The machine copies that with two small gears on axles about a millimetre ^apart. [act:explaining, clear]A pin on one rides in a slot on the other, so the second gear runs fast, then slow, then fast ^again.",
+      "[p:0.93][act:the punchline, savouring it]And that pair rides on a bigger wheel that turns once in about nine years, following the slow swing of the Moon's ^orbit. [act:credit, warm]Greek astronomers like ^Hipparchus explained the uneven Moon with circles riding on ^circles. [act:the landing][tune:fall]Here, the idea is cut in ^bronze."
+     ],
+     "shots": [
+      {
+       "id": "s25",
+       "say": "Turn it by hand, and a big four-spoked wheel goes round once a year. Its turning flows through the gears to pointers: the Sun's place among the stars, the Moon's, and the date.",
+       "draw": "The machine reconstructed in front view, schematic: a knob on the right side (label 'by hand'); the big four-spoked wheel in the middle with a curved arrow (label 'once a year'); a chain of smaller gears lights up behind it, leading to the front dial: a zodiac ring and a calendar ring; three pointers pop as named, the Sun with a little golden sphere, the Moon with a half-dark ball, and the date (labels 'Sun', 'Moon', 'date')."
+      },
+      {
+       "id": "s26",
+       "say": "But the Moon doesn't keep an even pace: it speeds up when it's nearer to us, and slows down when it's farther.",
+       "draw": "The Moon's orbit, exaggerated: the Earth off centre inside an ellipse; Moon dots placed at equal time steps pop round the orbit, far apart on the near side and bunched on the far side, with long and short arrows (labels 'nearer: faster', 'farther: slower')."
+      },
+      {
+       "id": "s27",
+       "say": "The machine copies that with two small gears on axles about a millimetre apart. A pin on one rides in a slot on the other, so the second gear runs fast, then slow, then fast again.",
+       "draw": "Close on two gears of fifty teeth, one in front of the other, their centres slightly offset (the offset drawn large, with a dimension 'about 1 mm'); the back gear's pin rides in a radial slot of the front gear; ghosted positions of the pin round the turn, with speed arrows that grow and shrink (labels 'pin', 'slot', 'fast', 'slow')."
+      },
+      {
+       "id": "s28",
+       "say": "And that pair rides on a bigger wheel that turns once in about nine years, following the slow swing of the Moon's orbit. Greek astronomers like Hipparchus explained the uneven Moon with circles riding on circles. Here, the idea is cut in bronze.",
+       "draw": "The big wheel of 223 teeth with the pin-and-slot pair mounted off centre on it; a slow curved arrow round the wheel (label 'about 9 years'). At the right, an inset in lilac dashes: a circle carried on a circle with the Moon on the small one (label 'circles on circles', tag 'Hipparchus'); on 'cut in bronze', the inset and the gears glow together."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:turning it round]On the back, two ^spirals. [act:explaining][tune:level]The upper counts two hundred and thirty-five months: nineteen years, after which the Moon's phases return to the same ^dates. [act:the eclipse dial, intrigued][tune:fall]The lower counts two hundred and twenty-three months, about eighteen years, the eclipse cycle of Babylonian ^astronomers.",
+      "[act:the detail, delighted]In its cells, little signs: an S for Selene, the Moon, an H for Helios, the Sun, and the ^hour. [act:the surprise, playful]And a small dial counts four years, naming the ^games: [tune:fall]the Olympics, and the other great festivals of ^Greece.",
+      "[d:build][act:the text, wonder]The scans doubled the text that could be ^read@present. [act:explaining, warm]The back cover describes each display, like the labels in a museum ^case: [act:quoting it, delighted]the Sun is a little golden sphere; the Moon, a ball half black, half ^white. [act:the strange part, intrigued]Around the eclipse dial, another text notes their colour, black or fiery red, and the ^wind@air. [act:the landing][tune:fall]That's the sky as the Greeks ^read@past it."
+     ],
+     "shots": [
+      {
+       "id": "s29",
+       "say": "On the back, two spirals. The upper counts two hundred and thirty-five months: nineteen years, after which the Moon's phases return to the same dates. The lower counts two hundred and twenty-three months, about eighteen years, the eclipse cycle of Babylonian astronomers.",
+       "draw": "The back plate: the upper spiral of five turns draws itself and its scale fills with 235 small cells (label '235 months = 19 years', a small Moon-phase icon); then the lower spiral of four turns with 223 cells (label '223 months: eclipses', a small eclipse icon)."
+      },
+      {
+       "id": "s30",
+       "say": "In its cells, little signs: an S for Selene, the Moon, an H for Helios, the Sun, and the hour.",
+       "draw": "Close on a stretch of the lower spiral (alias of s29, new cam): in a few cells, glyphs pop: a Greek Sigma beside a reddened Moon (label 'Selene, the Moon'), a Greek Eta beside a darkened Sun (label 'Helios, the Sun'), and small hour marks (label 'the hour').",
+       "reuse": "alias of s29, new cam"
+      },
+      {
+       "id": "s31",
+       "say": "And a small dial counts four years, naming the games: the Olympics, and the other great festivals of Greece.",
+       "draw": "A small round dial in four quarters (label 'four years'); names pop round it as said: 'Olympia' first, then 'Isthmia', 'Nemea', 'Pythia'; a Greek runner in silhouette runs in beside it."
+      },
+      {
+       "id": "s32",
+       "say": "The scans doubled the text that could be read. The back cover describes each display, like the labels in a museum case: the Sun is a little golden sphere; the Moon, a ball half black, half white.",
+       "draw": "A bronze plate covered in rows of tiny letters (label 'the back cover'), the rows doubling as they light; a magnifier slides over it and shows, as named, a little golden sphere (label 'a little golden sphere') and a ball half black and half white (label 'half black, half white')."
+      },
+      {
+       "id": "s33",
+       "say": "Around the eclipse dial, another text notes their colour, black or fiery red, and the wind. That's the sky as the Greeks read it.",
+       "draw": "A night sky with two full Moons; as the colours are named one darkens to black (label 'black'), the other to red (label 'fiery red'); four wind arrows blow in from the sides (label 'the wind'); on 'as the Greeks read it', a faint ring of Greek letters circles the scene."
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:aside][act:the landing, warm, counting]A calendar, an eclipse predictor and a games ^timetable, [act:a smile][tune:fall]in a box about the size of a ^shoebox."
+     ],
+     "shots": [
+      {
+       "id": "s34",
+       "say": "A calendar, an eclipse predictor and a games timetable, in a box about the size of a shoebox.",
+       "draw": "Three small icons pop as named (a calendar page, an eclipsed Sun, a laurel wreath); then the reconstructed box in three-quarter view beside a shoebox of the same size, a dimension line 'about 32 cm' (the case is estimated at about 315 x 190 x 100 mm)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The lost planets",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:the question, curious][tune:rise]And what about the ^planets? [act:explaining, clear]The texts name all five the Greeks knew, Mercury to ^Saturn, each with a pointer and a little sphere, in order outward from the ^Earth.",
+      "[act:the catch, plain][tune:fall]But the gears that moved them are ^gone. [p:0.93][act:the scale of it, careful][tune:fall]Only about a third of the machine ^survives."
+     ],
+     "shots": [
+      {
+       "id": "s35",
+       "say": "The texts name all five the Greeks knew, Mercury to Saturn, each with a pointer and a little sphere, in order outward from the Earth.",
+       "draw": "The front display as the texts describe it: the Earth at the centre; concentric rings draw outward in lilac dashes (inferred), each with a little sphere that pops in order, the Moon, Mercury, Venus, the Sun (gold), Mars (red), Jupiter, Saturn (labels 'Earth', 'Mercury', 'Saturn', 'the Sun')."
+      },
+      {
+       "id": "s36",
+       "say": "But the gears that moved them are gone. Only about a third of the machine survives.",
+       "draw": "The case outline in front view, dashed; the surviving fragments fill about a third of it in solid bronze-green shapes; the planet rings fade to empty dashes (label 'gears gone'); a small three-part bar with one part solid (label 'about a third survives')."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:the clue, intrigued]Then the scans found two numbers on the front ^cover: four hundred and sixty-two years for Venus, and four hundred and forty-two for ^Saturn. [p:0.93][act:explaining, a picture]They're ^cycles: after four hundred and sixty-two years, Venus repeats its dance with the Sun almost ^exactly.",
+      "[act:the reconstruction, fair]In {2021|twenty twenty-one}, a team at University College London used@verb those numbers to design gears for every ^planet: [act:the honest count, steady][tune:fall]sixty-nine gears in all, more than half of them ^inferred. [act:fair, the authors][tune:fall]The team said the next step was to build it with ancient methods, and see if it ^worked."
+     ],
+     "shots": [
+      {
+       "id": "s37",
+       "say": "Then the scans found two numbers on the front cover: four hundred and sixty-two years for Venus, and four hundred and forty-two for Saturn.",
+       "draw": "A dark bronze cover plate with rows of tiny letters; two spots light up gold, the Greek numerals for 462 and 442, each lifting out with a label below, 'Venus: 462 years' and 'Saturn: 442 years'."
+      },
+      {
+       "id": "s38",
+       "say": "They're cycles: after four hundred and sixty-two years, Venus repeats its dance with the Sun almost exactly.",
+       "draw": "Venus's dance with the Sun, seen from the Earth: a looping rosette path draws itself round the centre and closes on its own start (label 'back in step'); a small chip '462 years'."
+      },
+      {
+       "id": "s39",
+       "say": "In 2021, a team at University College London used those numbers to design gears for every planet: sixty-nine gears in all, more than half of them inferred. The team said the next step was to build it with ancient methods, and see if it worked.",
+       "draw": "A grid of 69 small gear icons pops in (chip '2021: 69 gears'): 30 solid bronze (label '30 survive') and 39 lilac dashed (label 'inferred'); then a workbench with simple hand tools and a dashed box on it (label 'next: build it')."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:the honest part, careful]So here's the ^line. [act:steady][tune:level]Read@past in the bronze: the surviving gears, the dials, the ^words. [act:steady][tune:fall]Inferred: the planets' gears, and exactly how they were ^shown.",
+      "[d:build][act:another doubt, intrigued][tune:rise]And did it even run ^smoothly? [act:explaining, fair]In {2025|twenty twenty-five}, two researchers in Argentina simulated its hand-cut ^teeth: with the errors measured on today's corroded gears, it would ^jam. [act:their own caveat, fair][tune:fall]They doubt anyone built it to fail, and suspect@verb the ^measurements."
+     ],
+     "shots": [
+      {
+       "id": "s40",
+       "say": "So here's the line. Read in the bronze: the surviving gears, the dials, the words. Inferred: the planets' gears, and exactly how they were shown.",
+       "draw": "A vertical line draws down the middle. Left, solid and lit: a gear, a spiral dial, a strip of letters (label 'read in the bronze'). Right, lilac dashed: a planetary gear train and the rings of the display (label 'inferred')."
+      },
+      {
+       "id": "s41",
+       "say": "And did it even run smoothly? In 2025, two researchers in Argentina simulated its hand-cut teeth: with the errors measured on today's corroded gears, it would jam. They doubt anyone built it to fail, and suspect the measurements.",
+       "draw": "Close on two meshing gears with triangular teeth, a little uneven; where two teeth clash a red flash and the label 'jam' (chip 'simulation, 2025'); then a green crust of corrosion spreads over the teeth (label 'corrosion?') and a lilac question mark pops."
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:aside][act:the landing, a smile]The planets are the boldest part of every ^reconstruction, [tune:fall]and the part with the fewest surviving ^gears."
+     ],
+     "shots": [
+      {
+       "id": "s42",
+       "say": "The planets are the boldest part of every reconstruction, and the part with the fewest surviving gears.",
+       "draw": "Back to the rings of s35: the planet rings glow lilac; one small solid gear appears in a corner (label 'fewest surviving gears'); label 'boldest part'.",
+       "reuse": "alias of s35, new cam"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Out of its time?",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:the question, curious][tune:rise]So when, and where, was it ^made? [act:the clues, steady]The ship's coins say it sank around {60|sixty} BCE; [tune:fall]the style of its lettering points to the second century BCE, or a little ^later.",
+      "[p:0.93][act:the dials, intrigued]And its dials have a starting ^point: several studies say {205|two hundred and five} BCE; another prefers {178|one hundred and seventy-eight}. [act:the caveat, a picture][tune:fall]But a start date isn't a birth date: a timetable can be older than the copy in your ^hand.",
+      "[act:the place, intrigued]As for ^where: its month names belong to a calendar of ^Corinth and its colonies, from Sicily to Epirus in northwest ^Greece. [act:the clue, a smile][tune:fall]And its games dial seems to list a festival of ^Rhodes, the island where Hipparchus ^worked."
+     ],
+     "shots": [
+      {
+       "id": "s43",
+       "say": "The ship's coins say it sank around 60 BCE; the style of its lettering points to the second century BCE, or a little later.",
+       "draw": "A timeline from 250 BCE to the year 1 builds: a coin pops and the wreck band (about 70 to 60 BCE, solid) with a small sinking ship (label 'the wreck'); a band over 150 to 100 BCE with a dashed tail towards 70 BCE (label 'the lettering')."
+      },
+      {
+       "id": "s44",
+       "say": "And its dials have a starting point: several studies say 205 BCE; another prefers 178. But a start date isn't a birth date: a timetable can be older than the copy in your hand.",
+       "draw": "Same timeline: a gold marker pops at 205 BCE (label '205 BCE?'), a dashed marker at 178 BCE ('or 178?'); then a printed timetable card headed by the old date slides along to the right and a hand holds its copy near 100 BCE (label 'a later copy?').",
+       "reuse": "alias of s43, same cam"
+      },
+      {
+       "id": "s45",
+       "say": "As for where: its month names belong to a calendar of Corinth and its colonies, from Sicily to Epirus in northwest Greece. And its games dial seems to list a festival of Rhodes, the island where Hipparchus worked.",
+       "draw": "Map View(12, 30, 33.5, 41.8) of Greece and the central Mediterranean: pin 'Corinth' (gold); dashed amber arcs to its colonies, 'Syracuse' in Sicily and 'Epirus' in the northwest; then a pin 'Rhodes' with a small laurel; the wreck at Antikythera as a small dim marker. Scale bar 200 km."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:the challenger's case, fair]Now, the boldest ^claim. [act:presenting it, fair]Ancient astronaut books and TV shows list it as an out-of-place ^artefact: [tune:rise]too advanced for its time, perhaps even a gift from ^visitors.",
+      "[act:the strongest form, fair]And it's true: nothing this complex survives again for over a thousand ^years. [act:a wry callback][tune:fall]Remember Price's jet plane in Tutankhamun's ^tomb."
+     ],
+     "shots": [
+      {
+       "id": "s46",
+       "say": "Now, the boldest claim. Ancient astronaut books and TV shows list it as an out-of-place artefact: too advanced for its time, perhaps even a gift from visitors.",
+       "draw": "The green fragment small at the centre of a dark panel, ringed by a lilac dotted halo (label 'out of place?'); above it a lilac dotted saucer shape lowers a dotted beam onto it (label 'visitors?')."
+      },
+      {
+       "id": "s47",
+       "say": "And it's true: nothing this complex survives again for over a thousand years. Remember Price's jet plane in Tutankhamun's tomb.",
+       "draw": "A long timeline from 300 BCE to 1500 CE: the mechanism glows at about 100 BCE; the stretch after it stays dark and empty; a bracket 'over 1,000 years' reaches the first great astronomical clocks of the 14th century (a small clock tower); a little lilac dotted jet plane glides across the gap."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:the answer, warm]But look at what's on ^it. [act:counting, steady][tune:level]Greek ^words. [act:same pace][tune:level]A Corinthian ^calendar. [act:same pace][tune:level]Greek ^games. [act:the key point, slower][tune:fall]And Greek astronomy, limits and all: the Earth at the centre, eclipse times off by an hour or two, and eclipse colours, a piece of ancient sky ^lore.",
+      "[act:the craft, a closer look]Its teeth were cut by hand, about a millimetre and a half apart, and not quite ^even. [act:the clincher, warm][tune:fall]If visitors helped, they knew exactly what the Greeks knew, and made the same ^mistakes.",
+      "[d:calm][act:fair, the limits]It shows what one Greek workshop could ^do. [act:fair][tune:fall]It can't tell us how many such machines there ^were."
+     ],
+     "shots": [
+      {
+       "id": "s48",
+       "say": "But look at what's on it. Greek words. A Corinthian calendar. Greek games. And Greek astronomy, limits and all: the Earth at the centre, eclipse times off by an hour or two, and eclipse colours, a piece of ancient sky lore.",
+       "draw": "Four evidence cards pop in a row as named: a strip of Greek letters ('Greek words'), a ring of month names ('a Corinthian calendar'), a runner ('Greek games'), the Earth inside rings ('Greek astronomy'); then three small limits under the last card: the Earth at the centre, a clock face with a wedge 'an hour or two', and a red Moon ('colours')."
+      },
+      {
+       "id": "s49",
+       "say": "Its teeth were cut by hand, about a millimetre and a half apart, and not quite even. If visitors helped, they knew exactly what the Greeks knew, and made the same mistakes.",
+       "draw": "Close on a gear's rim: triangular teeth, magnified, each slightly different, spaced about 1.5 mm apart (a dimension line); a few spacing marks show the unevenness. On 'visitors', the lilac dotted saucer from s46 appears faint at the top, and on 'same mistakes' the label 'the same mistakes' pops under the teeth."
+      },
+      {
+       "id": "s50",
+       "say": "It shows what one Greek workshop could do. It can't tell us how many such machines there were.",
+       "draw": "A workshop by lamp light: a craftsman at a bench, seated, works on a gear wheel; at the right a row of five dashed boxes with a lilac question mark (label 'how many?')."
+      }
+     ]
+    },
+    {
+     "role": "cost",
+     "lines": [
+      "[d:build][act:the context, warm]And it wasn't ^alone. [act:storytelling]The Roman writer Cicero describes a bronze sphere made by ^Archimedes, carried off to Rome when Syracuse fell in {212|two hundred and twelve} BCE, showing the Sun, the Moon, the planets, even ^eclipses. [act:the second, a smile][tune:fall]And another, made in his own day by his friend ^Posidonius.",
+      "[p:0.93][act:the survival problem, explaining][tune:rise]So why so few ^survivors? [act:plain]Bronze was worth melting down, and most ancient bronzes went back into the ^pot. [act:the irony, quiet][tune:fall]This one survived because it ^sank.",
+      "[act:the thread, steady]The next geared calendar we have is a Byzantine sundial from around {500|five hundred} CE. [act:the next, steady][tune:fall]The oldest complete geared machine is an astrolabe made in ^Isfahan, in {1221|twelve twenty-one}."
+     ],
+     "shots": [
+      {
+       "id": "s51",
+       "say": "The Roman writer Cicero describes a bronze sphere made by Archimedes, carried off to Rome when Syracuse fell in 212 BCE, showing the Sun, the Moon, the planets, even eclipses. And another, made in his own day by his friend Posidonius.",
+       "draw": "Cicero in a toga with a scroll at the left (label 'Cicero'); in the centre a sphere of rings in lilac dots (described, not found) with the Sun, the Moon and planet dots on it (label 'Archimedes', chip '212 BCE'); then a second dotted sphere at the right (label 'Posidonius')."
+      },
+      {
+       "id": "s52",
+       "say": "So why so few survivors? Bronze was worth melting down, and most ancient bronzes went back into the pot. This one survived because it sank.",
+       "draw": "A crucible over a fire, glowing; bronze things (a statue's arm, a bowl, a gear) slide into it one by one; at the right the sea in section, and one green lump sinks to the seabed (label 'it sank')."
+      },
+      {
+       "id": "s53",
+       "say": "The next geared calendar we have is a Byzantine sundial from around 500 CE. The oldest complete geared machine is an astrolabe made in Isfahan, in 1221.",
+       "draw": "Back on the long timeline of s47: a small sundial disc pops at about 500 CE (label 'Byzantine sundial'), then an astrolabe at 1221 (label 'Isfahan, 1221'); the lilac dotted spheres of Archimedes and Posidonius sit before the mechanism.",
+       "reuse": "alias of s47, same cam"
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:aside][act:the landing, warm]Not a machine out of its ^time. [act:quiet][tune:fall]A survivor of a craft that was mostly ^lost."
+     ],
+     "shots": [
+      {
+       "id": "s54",
+       "say": "Not a machine out of its time. A survivor of a craft that was mostly lost.",
+       "draw": "Same timeline (alias of s47): a thin gold thread joins the points, solid where an object survives and dotted across the long gaps (label 'a craft mostly lost'); the mechanism's point glows.",
+       "reuse": "alias of s47, new cam"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The weighing",
+   "beats": [
+    {
+     "role": "weigh",
+     "lines": [
+      "[d:verdict][act:calm, laying it out]So, let's ^weigh it. [act:steady authority][tune:rise]A Greek calculator of the sky, with gears for the Sun, the Moon, eclipses, calendars and ^games? [act:the verdict, confident][tune:fall]^*Established*: the gears, the dials and the words are in the ^bronze.",
+      "[act:steady][tune:rise]A display of the five ^planets? [act:the verdict][tune:fall]*Strong ^evidence*: the texts describe it, but its gears are ^lost. [act:steady][tune:rise]The {2021|twenty twenty-one} model, gear by ^gear? [act:the verdict, fair][tune:fall]^*Plausible*, until someone builds it and it ^works.",
+      "[d:build][act:the open part, honest][tune:rise]Who made it, and ^where: Rhodes, Syracuse, ^Epirus? [act:honest][tune:fall]*Open ^question*. [act:the last row, firm but kind][tune:rise]A machine out of its time, or from somewhere ^else? [act:the verdict, level][tune:fall]*Ruled ^out*: it carries Greek knowledge, and Greek ^mistakes."
+     ],
+     "shots": [
+      {
+       "id": "s55",
+       "say": "So, let's weigh it. A Greek calculator of the sky, with gears for the Sun, the Moon, eclipses, calendars and games? Established: the gears, the dials and the words are in the bronze.",
+       "draw": "A five-row ledger fills row by row (a small pictogram, a short text and a grade chip that pops as the grade is said): row 1 'a geared calculator of the sky' (gear pictogram) Established."
+      },
+      {
+       "id": "s56",
+       "say": "A display of the five planets? Strong evidence: the texts describe it, but its gears are lost. The 2021 model, gear by gear? Plausible, until someone builds it and it works.",
+       "draw": "Rows 2 and 3: 'a display of five planets' (rings pictogram) Strong evidence; 'the 2021 model, gear by gear' (gear grid pictogram) Plausible.",
+       "reuse": "alias of s55"
+      },
+      {
+       "id": "s57",
+       "say": "Who made it, and where: Rhodes, Syracuse, Epirus? Open question. A machine out of its time, or from somewhere else? Ruled out: it carries Greek knowledge, and Greek mistakes.",
+       "draw": "Rows 4 and 5: 'who made it, and where' (map pin pictogram) Open question; 'out of its time, or from elsewhere' (dotted saucer pictogram) Ruled out, with a red strike across the pictogram.",
+       "reuse": "alias of s55"
+      }
+     ]
+    },
+    {
+     "role": "test",
+     "lines": [
+      "[d:tension][act:open, curious][tune:fall]What would change our ^minds? [act:practical][tune:level]New pieces: divers are still working the wreck, and in {2024|twenty twenty-four} they uncovered part of the ship's ^hull. [act:building][tune:level]A second mechanism, from ^anywhere. [act:the text, leaning in][tune:level]A few more lines of that tiny text, with a ^name. [act:fair, the far test][tune:fall]And for the last row@line: one part that no ancient workshop could have ^made."
+     ],
+     "shots": [
+      {
+       "id": "s58",
+       "say": "What would change our minds? New pieces: divers are still working the wreck, and in 2024 they uncovered part of the ship's hull. A second mechanism, from anywhere. A few more lines of that tiny text, with a name. And for the last row: one part that no ancient workshop could have made.",
+       "draw": "Underwater at the wreck: two modern divers over a grid; hull planks and frames draw on the seabed (chip '2024', label 'the hull'). Then wanted items in lilac dashes pop as named: a fragment shape ('new pieces'), a second box ('a second mechanism'), a strip of text with a blank slot ('a name'), and a strange part with a question mark ('impossible part?')."
+      }
+     ]
+    },
+    {
+     "role": "close",
+     "lines": [
+      "[d:tension][p:0.93][act:the last word, quiet wonder][tune:fall]Somewhere, more than two thousand years ago, someone cut those teeth by hand, to hold the sky in a ^box. [act:warm, inviting][tune:fall]Weigh it ^yourself."
+     ],
+     "shots": [
+      {
+       "id": "s59",
+       "say": "Somewhere, more than two thousand years ago, someone cut those teeth by hand, to hold the sky in a box. Weigh it yourself.",
+       "draw": "The opening fragment redrawn at night on its own panel (the X-ray look stays on the opening panel): stars above it, the great wheel's teeth glow gold in a slow sweep on 'cut those teeth', a soft breathing lamp; then the end card (verdict chip 'Established')."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "description": "A lump of corroded bronze from a shipwreck off the Greek island of Antikythera turned out to hold thirty gear wheels and thousands of tiny Greek letters: a calculator of the sky, made more than two thousand years ago. How did it work, who made it, and is it really out of its time?\n\nWe follow it from the sponge divers of 1900 and the gear noticed in 1902, through Derek de Solla Price's radiographs and Michael Wright's tomography, to the X-ray scans of 2005 and the 2021 model of its lost planets; we sort what is read in the bronze from what is inferred, weigh its dates, and test the out-of-place claim. Verdict: Established, a Greek geared calculator of the Sun, the Moon, eclipses, calendars and games. Its planetary display: Strong evidence. The 2021 gear-by-gear model: Plausible. Its maker and place: Open question. An origin out of its time: Ruled out.\n\nChapters\n0:00 Cold open\nmm:ss A wreck full of statues\nmm:ss Counting the teeth\nmm:ss Eight tonnes of X-rays\nmm:ss The lost planets\nmm:ss Out of its time?\nmm:ss The weighing\n\nSources\nFreeth, T. et al. 2006, Nature 444: 587-591, doi:10.1038/nature05357\nFreeth, T., Jones, A., Steele, J. M. & Bitsakis, Y. 2008, Nature 454: 614-617, doi:10.1038/nature07130\nFreeth, T. & Jones, A. 2012, The Cosmos in the Antikythera Mechanism, ISAW Papers 4\nFreeth, T. 2014, PLoS ONE 9(7): e103275, doi:10.1371/journal.pone.0103275\nFreeth, T. et al. 2021, A Model of the Cosmos, Scientific Reports 11: 5821, doi:10.1038/s41598-021-84310-w\nCarman, C. C. & Evans, J. 2014, Archive for History of Exact Sciences 68: 693-774, doi:10.1007/s00407-014-0145-5\nPrice, D. de S. 1959, An Ancient Greek Computer, Scientific American 200(6), doi:10.1038/scientificamerican0659-60\nPrice, D. de S. 1974, Gears from the Greeks, Transactions of the American Philosophical Society 64(7), doi:10.2307/1006146\nJones, A. 2018, Derek de Solla Price and the Antikythera Mechanism, Proceedings of the American Philosophical Society 162(3)\nJones, A. 2017, A Portable Cosmos (Oxford University Press)\nJones, A. 2020, The Epoch Dates of the Antikythera Mechanism, ISAW Papers 17\nAnastasiou, M., Bitsakis, Y., Jones, A. et al. 2016, The Inscriptions of the Antikythera Mechanism, Almagest 7(1)\nWright, M. T., Bromley, A. G. & Magou, H. 1995, Simple X-ray tomography and the Antikythera Mechanism, PACT 45\nWright, M. T. 2006, The early history of the moon-phase display, Antiquarian Horology 29(3)\nWright, M. T. 2007, The Antikythera Mechanism reconsidered, Interdisciplinary Science Reviews 32(1), doi:10.1179/030801807X163670\nSeiradakis, J. H. 2012 and Zapheiropoulou, M. 2012, Proceedings of Science 170 (From Antikythera to the SKA)\nRamsey, A. 2012, X-ray tomography of the Antikythera Mechanism (Antikythera and SKA conference)\nIversen, P. A. 2017, Hesperia 86(1): 129-203, doi:10.2972/hesperia.86.1.0129\nVoulgaris, A., Mouratidis, C. & Vossinakis, A. 2023, Almagest 14(1)\nSzigety, E. G. & Arenas, G. F. 2025, arXiv:2504.00327\nHilts, P. J. 2014, Diving to Antikythera Shipwreck, Scientific American\nUniversity of Geneva 2024, Exceptional excavation season in Antikythera\nMarchant, J. 2008, Decoding the Heavens (William Heinemann)\nJones, A. 2019, The Antikythera Mechanism, BBC Science Focus\nAncient Aliens: Origins 2024, S1E9 Extraterrestrial Devices (History)\nEncyclopaedia Britannica, Antikythera mechanism\nCicero, De Re Publica 1.21-22; De Natura Deorum 2.88\nScience Museum, London, Byzantine sundial-calendar; History of Science Museum, Oxford, geared astrolabe, Isfahan 1221/2",
+ "sources": [
+  "Freeth, T., Bitsakis, Y., Moussas, X., Seiradakis, J. H., Tselikas, A., Mangou, H., Zafeiropoulou, M., Hadland, R., Bate, D., Ramsey, A., Allen, M., Crawley, A., Hockley, P., Malzbender, T., Gelb, D., Ambrisco, W. & Edmunds, M. G. 2006, Decoding the ancient Greek astronomical calculator known as the Antikythera Mechanism, Nature 444: 587-591, doi:10.1038/nature05357",
+  "Freeth, T., Jones, A., Steele, J. M. & Bitsakis, Y. 2008, Calendars with Olympiad display and eclipse prediction on the Antikythera Mechanism, Nature 454: 614-617, doi:10.1038/nature07130",
+  "Freeth, T. & Jones, A. 2012, The Cosmos in the Antikythera Mechanism, ISAW Papers 4 (Institute for the Study of the Ancient World, New York University)",
+  "Freeth, T. 2014, Eclipse Prediction on the Ancient Greek Astronomical Calculating Machine Known as the Antikythera Mechanism, PLoS ONE 9(7): e103275, doi:10.1371/journal.pone.0103275",
+  "Freeth, T., Higgon, D., Dacanalis, A., MacDonald, L., Georgakopoulou, M. & Wojcik, A. 2021, A Model of the Cosmos in the ancient Greek Antikythera Mechanism, Scientific Reports 11: 5821, doi:10.1038/s41598-021-84310-w; UCL News, 12 March 2021, Experts recreate a mechanical Cosmos for the world's first computer",
+  "Carman, C. C. & Evans, J. 2014, On the epoch of the Antikythera mechanism and its eclipse predictor, Archive for History of Exact Sciences 68: 693-774, doi:10.1007/s00407-014-0145-5",
+  "Price, D. de S. 1959, An Ancient Greek Computer, Scientific American 200(6): 60-67, doi:10.1038/scientificamerican0659-60",
+  "Price, D. de S. 1974, Gears from the Greeks: The Antikythera Mechanism, a Calendar Computer from ca. 80 B.C., Transactions of the American Philosophical Society 64(7): 1-70, doi:10.2307/1006146",
+  "Jones, A. 2018, 'Like Opening a Pyramid and Finding an Atomic Bomb': Derek de Solla Price and the Antikythera Mechanism, Proceedings of the American Philosophical Society 162(3)",
+  "Jones, A. 2017, A Portable Cosmos: Revealing the Antikythera Mechanism, Scientific Wonder of the Ancient World (Oxford University Press); Jones, A. 2017, New finds from the Antikythera shipwreck, OUPblog, October 2017",
+  "Jones, A. 2020, The Epoch Dates of the Antikythera Mechanism (with an Appendix on its Authenticity), ISAW Papers 17",
+  "Anastasiou, M., Bitsakis, Y., Jones, A., Moussas, X., Steele, J. M., Tselikas, A. & Zafeiropoulou, M. 2016, The Inscriptions of the Antikythera Mechanism, Almagest 7(1): 1-310 (incl. Bitsakis & Jones, The Back Cover Inscription; Anastasiou et al., The Back Dial and Back Plate Inscriptions)",
+  "Wright, M. T., Bromley, A. G. & Magou, H. 1995, Simple X-ray tomography and the Antikythera Mechanism, PACT 45: 531-543",
+  "Wright, M. T. 2006, The Antikythera Mechanism and the early history of the moon-phase display, Antiquarian Horology 29(3): 319-329",
+  "Wright, M. T. 2007, The Antikythera Mechanism reconsidered, Interdisciplinary Science Reviews 32(1): 27-43, doi:10.1179/030801807X163670",
+  "Seiradakis, J. H. 2012, The Antikythera Mechanism: a short history of the research, Proceedings of Science 170 (From Antikythera to the Square Kilometre Array)",
+  "Zapheiropoulou, M. 2012, The Antikythera shipwreck and the treasures, Proceedings of Science 170 (From Antikythera to the Square Kilometre Array)",
+  "Ramsey, A. 2012, X-ray tomography of the Antikythera Mechanism (X-Tek), presentation at From Antikythera to the Square Kilometre Array, Kerastari, June 2012",
+  "Iversen, P. A. 2017, The Calendar on the Antikythera Mechanism and the Corinthian Family of Calendars, Hesperia 86(1): 129-203, doi:10.2972/hesperia.86.1.0129",
+  "Voulgaris, A., Mouratidis, C. & Vossinakis, A. 2023, The Initial Calibration Date of the Antikythera Mechanism after the Saros Spiral Mechanical Apokatastasis, Almagest 14(1)",
+  "Szigety, E. G. & Arenas, G. F. 2025, The Impact of Triangular-Toothed Gears on the Functionality of the Antikythera Mechanism, arXiv:2504.00327",
+  "Hilts, P. J. 2014, Diving to Antikythera Shipwreck, Technology Tackles Dangers of the Deep, Scientific American (Expeditions blog)",
+  "University of Geneva 2024, Exceptional excavation season in Antikythera (press release; Swiss School of Archaeology in Greece with the Ephorate of Underwater Antiquities)",
+  "Marchant, J. 2008, Decoding the Heavens: Solving the Mystery of the World's First Computer (William Heinemann); Marchant, J. 2009, Tricks of the light and Alien hands (Decoding the Heavens blog)",
+  "Jones, A. 2019, The Antikythera Mechanism: the ancient computer that mapped the stars, BBC Science Focus",
+  "Ancient Aliens: Origins, season 1, episode 9, Extraterrestrial Devices (History, December 2024), on the mechanism and ancient technology",
+  "Cicero, De Re Publica 1.21-22 (the sphere of Archimedes taken from Syracuse); De Natura Deorum 2.88 (the sphere of Posidonius)",
+  "Science Museum, London: Byzantine sundial-calendar, AD 400-600, inv. 1983-1393; History of Science Museum, Oxford: geared astrolabe of Muhammad ibn Abi Bakr, Isfahan, 1221/2",
+  "Encyclopaedia Britannica, Antikythera mechanism (the most complex mechanism known until the medieval astronomical clocks)"
+ ],
+ "facts_added": [
+  {
+   "fact": "Shortly before Easter 1900, sponge divers from Symi, sailing home eastwards from Tunisian waters, sheltered from storms at Antikythera, in the channel between Kythera and Crete; the diver Elias Stadiatis went down about 42 m and found a wrecked ship with bronze and marble statues; a larger-than-life bronze right arm was brought up.",
+   "source": "Price 1974, Gears from the Greeks, pp. 7-8"
+  },
+  {
+   "fact": "The salvage ran from the end of November 1900 to the end of September 1901 with Greek navy ships; one diver was killed and two permanently disabled.",
+   "source": "Price 1974; Zapheiropoulou 2012 (ten months, three Royal Navy ships); Hilts 2014 (diver Georgios Kritikos died of decompression sickness)"
+  },
+  {
+   "fact": "The 1900 divers wore metal helmets with air hoses to the surface and allowed themselves only about five minutes on the bottom.",
+   "source": "Hilts 2014, Scientific American Expeditions blog"
+  },
+  {
+   "fact": "The wreck lies at roughly 42 to 50 m (Price: about 42 m; Zapheiropoulou: about 50 m); the narration says 'more than forty metres'.",
+   "source": "Price 1974; Zapheiropoulou 2012"
+  },
+  {
+   "fact": "The cargo included bronze and marble statues, glassware and pottery; ancient bronze statuary rarely escaped the melting pot.",
+   "source": "Zapheiropoulou 2012; Jones 2017, OUPblog"
+  },
+  {
+   "fact": "The mechanism lay unnoticed as a formless lump until May 1902; the drying wooden case shrank and the lump cracked apart, exposing gears and inscriptions.",
+   "source": "Price 1974"
+  },
+  {
+   "fact": "The pre-1920s sources unanimously say Spyridon Stais (1859-1932), a former education minister, noticed the fragments first, on a visit to the National Archaeological Museum on 18 or 20 May 1902; many later accounts credit his cousin, the archaeologist Valerios Stais.",
+   "source": "Jones 2018, Proceedings of the American Philosophical Society 162(3)"
+  },
+  {
+   "fact": "Derek de Solla Price began work on the mechanism around 1951, examined the fragments in Athens in summer 1958, and published 'An Ancient Greek Computer' in Scientific American in June 1959.",
+   "source": "Price 1974; Price 1959"
+  },
+  {
+   "fact": "At the AAAS meeting of 30 December 1958, Price's talk was reported with phrases such as 'like finding a jet plane in the tomb of King Tut'.",
+   "source": "Jones 2018"
+  },
+  {
+   "fact": "In 1971 Price, with Charalambos Karakalos of the Greek Atomic Energy Commission, used gamma-ray and X-ray radiography to see the gears through the corrosion; teeth were counted on the radiographs.",
+   "source": "Price 1974"
+  },
+  {
+   "fact": "A gear of 127 teeth (half of 254) gives the 254 sidereal months of the Moon in 19 years; the Moon train is 64/38 x 48/24 x 127/32 = 254/19.",
+   "source": "Price 1974; Freeth et al. 2006 (supplementary gear table); Marchant 2008"
+  },
+  {
+   "fact": "Price's reconstruction rested on a misunderstood connection in the internal gearing, which Wright and Bromley corrected.",
+   "source": "Wright 2007; Jones 2018 (Price's 'differential')"
+  },
+  {
+   "fact": "Michael Wright, curator of mechanical engineering at the Science Museum in London, with Allan Bromley used linear X-ray tomography in the 1990s; Wright proposed that the back dials are spirals, identified a Moon-phase display (a rotating half-silvered ball) and built working replicas.",
+   "source": "Wright, Bromley & Magou 1995; Wright 2006; Seiradakis 2012; Jones 2019 (BBC Science Focus)"
+  },
+  {
+   "fact": "In 2005 the Antikythera Mechanism Research Project imaged the fragments with microfocus X-ray CT (X-Tek) and reflectance imaging (Hewlett-Packard); the CT system, about eight tonnes, was shipped to Athens because the fragments were too fragile to move; about 600 GB of data were collected in two weeks.",
+   "source": "Freeth et al. 2006; Ramsey 2012; Anastasiou et al. 2016 (General Preface)"
+  },
+  {
+   "fact": "The HP reflectance rig was a metre-wide dome of flashbulbs photographing each surface lit from 50 directions.",
+   "source": "Marchant 2009 (Decoding the Heavens blog, 'Tricks of the light')"
+  },
+  {
+   "fact": "82 fragments survive, with 30 gears: 27 in Fragment A and one each in Fragments B, C and D; only about a third of the original survives.",
+   "source": "Freeth et al. 2006; Freeth et al. 2021"
+  },
+  {
+   "fact": "The mechanism was probably hand-driven; the four-spoked main wheel b1 turns at the rate of the mean Sun, once a year; the front dial showed the Sun and Moon in the zodiac and a calendar.",
+   "source": "Freeth et al. 2006; Freeth & Jones 2012"
+  },
+  {
+   "fact": "The Moon's variable speed is modelled by a pin-and-slot on gears k1 and k2 (50 teeth each), on arbors about 1.1 mm apart; they ride on gear e3, which turns at the rate of the Moon's apogee, about 9 years: a mechanical version of Hipparchus' lunar theory.",
+   "source": "Freeth et al. 2006; Freeth & Jones 2012"
+  },
+  {
+   "fact": "Back dials: an upper five-turn spiral of 235 lunar months (the 19-year Metonic cycle) and a lower four-turn spiral of 223 months (the Saros eclipse cycle); eclipse glyphs give Sigma for a lunar eclipse, Eta for a solar one, and the hour.",
+   "source": "Freeth et al. 2006; Anastasiou et al. 2016"
+  },
+  {
+   "fact": "The Saros dial carried 51 glyphs in the full reconstruction (38 lunar and 28 solar predictions); about 20 glyph cells survive; the eclipse times have RMS errors of about 1.7 hours.",
+   "source": "Freeth 2014; Anastasiou et al. 2016"
+  },
+  {
+   "fact": "A subsidiary dial follows the four-year cycle of the Olympiad and the Panhellenic games (Isthmia, Olympia, Nemea, Pythia, probably the Naa of Dodona and very probably the Halieia of Rhodes); the month names are Corinthian.",
+   "source": "Freeth et al. 2008; Anastasiou et al. 2016; Iversen 2017"
+  },
+  {
+   "fact": "CT doubled the number of deciphered inscriptions; letters range from about 1.2 to 3.0 mm tall, most about 2 mm.",
+   "source": "Freeth et al. 2006; Anastasiou et al. 2016; Jones 2018"
+  },
+  {
+   "fact": "The Back Cover Inscription describes the displays: the planets in order outward from the Earth, the Sun's 'golden little sphere', the Moon's sphere half black and half white.",
+   "source": "Bitsakis & Jones 2016 (Almagest 7(1))"
+  },
+  {
+   "fact": "The Back Plate Inscription describes eclipses with colours (black, fiery red, partly restored), sizes and wind directions: the only Greco-Roman source known to suggest predicting eclipse colours.",
+   "source": "Anastasiou et al. 2016"
+  },
+  {
+   "fact": "The case is estimated at about 315 x 190 x 100 mm (uncertain), about the size of a shoebox.",
+   "source": "Freeth et al. 2006"
+  },
+  {
+   "fact": "CT revealed the numbers 462 (Venus) and 442 (Saturn) in the Front Cover Inscription: period relations of 289 synodic cycles in 462 years and 427 in 442 years.",
+   "source": "Freeth et al. 2021"
+  },
+  {
+   "fact": "The 2021 UCL model has 69 gears (34 in front of the main wheel for the Cosmos display); its line-of-nodes indicator is a hypothetical element; the team said its feasibility still has to be tested by building it with ancient techniques.",
+   "source": "Freeth et al. 2021; UCL News 2021 (A. Wojcik)"
+  },
+  {
+   "fact": "A 2025 simulation of the triangular teeth found the tooth shape alone negligible, but the measured manufacturing errors would cause jamming or disengagement; the authors judge it unlikely that such a device was built not to work and question whether the measured errors reflect the original.",
+   "source": "Szigety & Arenas 2025, arXiv:2504.00327"
+  },
+  {
+   "fact": "Teeth are triangular, hand-made, mean module about 0.47 mm (a pitch of about 1.5 mm); poor tooth-form and uneven division were inevitable with simple means.",
+   "source": "Freeth & Jones 2012; Wright 2007"
+  },
+  {
+   "fact": "The wreck's coins (32 cistophoric tetradrachms of Pergamon and 4 of Ephesos, issued between 104 and 67 BCE) date its sinking to about 70 to 60 BCE.",
+   "source": "Zapheiropoulou 2012; Jones 2017"
+  },
+  {
+   "fact": "The letterforms were dated to the second half of the second century BCE (150 to 100 BCE); others place them closer to the wreck.",
+   "source": "Freeth et al. 2006; Jones 2018; Iversen 2017"
+  },
+  {
+   "fact": "Price dated the dial setting to about 87 BCE.",
+   "source": "Price 1974"
+  },
+  {
+   "fact": "The eclipse dial's epoch: full Moon of 12 May 205 BCE (Carman & Evans 2014; Freeth 2014); the calendar start shortly after the new moon of 23 August 205 BCE (Iversen 2017); epochs in 205 BCE (Jones 2020); 22/23 December 178 BCE preferred by Voulgaris et al. 2023. The epoch need not be the date of manufacture.",
+   "source": "Carman & Evans 2014; Freeth 2014; Iversen 2017; Jones 2020; Voulgaris et al. 2023"
+  },
+  {
+   "fact": "The calendar belongs to the Corinthian family, used at Corinth or its colonies (Syracuse or northwest Greece / Epirus); Iversen argues it was built on Rhodes, possibly for a client from Epirus.",
+   "source": "Freeth et al. 2008; Iversen 2017; Anastasiou et al. 2016"
+  },
+  {
+   "fact": "Hipparchus made his observations on Rhodes in the second century BCE.",
+   "source": "Jones 2017"
+  },
+  {
+   "fact": "Cicero describes Archimedes' sphere, taken to Rome by Marcellus after Syracuse fell in 212 BCE, showing the Sun, the Moon, the five planets and eclipses; and a sphere recently made by Posidonius.",
+   "source": "Cicero, De Re Publica 1.21-22; De Natura Deorum 2.88"
+  },
+  {
+   "fact": "Ancient astronaut books (von Daniken's, per Marchant) and TV (Ancient Aliens: Origins, 2024) present the mechanism as a puzzle of ancient technology, beyond its time or alien-inspired.",
+   "source": "Marchant 2009 (blog 'Alien hands', on von Daniken's books); Ancient Aliens: Origins S1E9 'Extraterrestrial Devices' (History, 2024)"
+  },
+  {
+   "fact": "The Byzantine sundial-calendar (AD 400-600) is the second oldest known geared calendar; the geared astrolabe of Isfahan (1221/2) is the oldest complete geared machine, from a largely lost tradition going back to the Antikythera mechanism.",
+   "source": "Science Museum, London; History of Science Museum, Oxford"
+  },
+  {
+   "fact": "Nothing as complex is known until the medieval astronomical clocks, about a thousand years later.",
+   "source": "Britannica; Marchant 2008"
+  },
+  {
+   "fact": "In 2024 the excavation (Swiss School of Archaeology in Greece with the Ephorate of Underwater Antiquities) uncovered a large section of the ship's hull.",
+   "source": "University of Geneva 2024"
+  }
+ ],
+ "names": [
+  {
+   "name": "Antikythera",
+   "say": "an-tee-kih-THEER-uh"
+  },
+  {
+   "name": "Symi",
+   "say": "SEE-mee"
+  },
+  {
+   "name": "Elias Stadiatis",
+   "say": "eh-LEE-ahs stah-dee-AH-tees"
+  },
+  {
+   "name": "Spyridon Stais",
+   "say": "spee-REE-thon STAH-ees"
+  },
+  {
+   "name": "Valerios",
+   "say": "vah-LEH-ree-oss"
+  },
+  {
+   "name": "Derek de Solla Price",
+   "say": "DEH-rik duh SOL-uh PRYSS"
+  },
+  {
+   "name": "Charalambos Karakalos",
+   "say": "khah-RAH-lahm-boss kah-RAH-kah-loss"
+  },
+  {
+   "name": "Tutankhamun",
+   "say": "too-tahn-KAH-moon (in LEX)"
+  },
+  {
+   "name": "Allan Bromley",
+   "say": "AL-un BROM-lee"
+  },
+  {
+   "name": "Hipparchus",
+   "say": "hip-AR-kus (in LEX)"
+  },
+  {
+   "name": "Selene",
+   "say": "seh-LEE-nee"
+  },
+  {
+   "name": "Helios",
+   "say": "HEE-lee-oss"
+  },
+  {
+   "name": "Babylonian",
+   "say": "bab-ih-LOH-nee-un"
+  },
+  {
+   "name": "Corinth",
+   "say": "KOR-inth"
+  },
+  {
+   "name": "Corinthian",
+   "say": "kuh-RIN-thee-un"
+  },
+  {
+   "name": "Epirus",
+   "say": "eh-PIE-rus"
+  },
+  {
+   "name": "Syracuse",
+   "say": "SIGH-ruh-kyooz"
+  },
+  {
+   "name": "Archimedes",
+   "say": "ar-kih-MEE-deez"
+  },
+  {
+   "name": "Posidonius",
+   "say": "poss-ih-DOH-nee-us"
+  },
+  {
+   "name": "Cicero",
+   "say": "SISS-uh-roh"
+  },
+  {
+   "name": "Byzantine",
+   "say": "bih-ZAN-tyne"
+  },
+  {
+   "name": "Isfahan",
+   "say": "iss-fuh-HAHN"
+  }
+ ],
+ "words": 1617
+}
