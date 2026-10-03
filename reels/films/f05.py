@@ -225,7 +225,7 @@ def sphinx_chambers():
     s5 = like(s3, cam=[2.2, X(8), Y(-1)], add=[fan, dict(anom, **{"in": 1.0}), {"k": "q", "x": X(4.5), "y": Y(-3.4), "size": 44, "in": 1.4, "fx": "pop"},
                                                {"k": "label", "x": X(4.5), "y": Y(-6.2), "t": "1991 seismic anomaly", "st": "small", "c": "#cfe6ff", "in": 1.2}])
     s6 = like(s5, cam=[1.2, 470, 970], add=[dict(drill, **{"in": .3, "fx": "draw"}), dict(cav, **{"in": 1.0}),
-                                             {"k": "label", "x": X(40), "y": Y(-9.5), "t": "1998 test drill · natural cavity", "st": "small", "in": 1.2},
+                                             {"k": "label", "x": X(40), "y": Y(-9.5), "t": "1978 test holes · natural cracks", "st": "small", "in": 1.2},
                                              {"k": "label", "x": X(4.5), "y": Y(-8.8), "t": "never opened", "st": "small", "c": GOLD, "in": 1.8}])
     s7 = like(s6, cam=[1.05, 500, 930], add=[dict(hall, **{"in": .2, "op": .45}), {"k": "label", "x": X(9), "y": Y(-7.6), "t": "no trace of a hall", "c": GOLD, "st": "small", "in": .6}])
     shots = [s0, s1, s2, s3, s4, s5, s6, s7]
@@ -237,7 +237,7 @@ def sphinx_chambers():
         B("collision", 3, ["[d:build][k:THE HOLES][act:curious, getting practical][tune:fall]So what's ^actually in there? [act:counting them off][tune:level]A ^shaft in the ^head. [act:same pace, next one][tune:level]A hole drilled behind it in {1837|eighteen thirty-seven}. [go:4|2.2][act:the last one, a small grin][tune:fall]A ^tunnel in the ^rump.",
                            "[d:list][sfx:hit][act:brisk, factual]Each one has been ^explored. [act:plainly, steady]Each one ends in ^rock... [act:a shrug in the voice][tune:fall]or ^*groundwater*."]),
         B("cost", 4, ["[d:build][k:1991 · THE SCAN][go:5|2.2][act:building, a little intrigue]Then a seismic survey@noun found ^something under the front paws. [act:quiet, letting it land]A ^hollow. [act:tentative, intrigued][tune:fallrise]Maybe cut by ^*hands*."], cut=False),
-        B("reversal", 5, ["[d:reveal][k:THE TWIST][go:6|2.2][act:leaning in]In {1998|nineteen ninety-eight}, one anomaly near the Sphinx ^*was* drilled. [sfx:hit][act:plain, a touch deflating][tune:fall]A ^natural cavity.",
+        B("reversal", 5, ["[d:reveal][k:THE TWIST][go:6|2.2][act:leaning in]In {1978|nineteen seventy-eight}, echoes near the Sphinx ^*were* drilled. [sfx:hit][act:plain, a touch deflating][tune:fall]Only natural ^cracks.",
                           "[d:reveal][act:turning back to it][tune:rise]But the hollow under the ^paws? [act:quiet, pointed][tune:fall]^*Never* opened."], cut=False),
         B("tag", 7, ["[d:verdict][k:THE VERDICT][p:0.95][act:weighing it, calm][tune:rise]A ^small hidden space? [act:fair, open][tune:fall]^Possible. [act:same measure][tune:rise]A hall of ^records@noun? [act:firm, level-headed][tune:fall]Not a ^trace of one.",
                      "[d:tension][p:0.93][cam:1.2|0|0.08][act:the last word, quietly practical]^One narrow drill hole could ^*settle* it."]),
@@ -294,7 +294,7 @@ def sphinx_chambers_m():
     v = [ring(X(4.5), Y(-6), 75, .6, AMBER, 3), strike(hall_x, hall_y + hall_h, hall_x + hall_w, hall_y, 3.0)]
     drill = [tri(X(4.5), 915, 20, 180, "#cbbca8", .2), line([[X(4.5), 930], [X(4.5), Y(-4.5)]], .4, BONE, 5, dur=1.2), glow(X(4.5), Y(-6), 90, 1.8, .7, "blue")]
     s7 = copy.deepcopy(ep["shots"][7])
-    s7["els"] = [e for e in s7["els"] if not (e.get("k") == "label" and e.get("t") in ("1991 seismic anomaly", "never opened", "1998 test drill · natural cavity"))]
+    s7["els"] = [e for e in s7["els"] if not (e.get("k") == "label" and e.get("t") in ("1991 seismic anomaly", "never opened", "1978 test holes · natural cracks"))]
     for e in s7["els"]:
         if e.get("k") == "label" and e.get("t") == "no trace of a hall":
             e.update(y=Y(-7) + 5 * m + 48, x=hall_x + hall_w / 2)
@@ -663,8 +663,8 @@ def sphinx_surveys():
     s2 = like(dict(sec, cam=[1.1, 500, 960]), add=[{"k": "fan", "x": X(x), "y": gy, "a0": 60, "a1": 120, "r": 160, "n": 9, "in": .2 + i * .3} for i, x in enumerate((-2, 20, 45, 70))])
     s3 = like(dict(sec, cam=[1.6, X(40), Y(-3)]), add=[{"k": "line", "p": [[X(40), Y(0)], [X(40), Y(-6)]], "c": BONE, "w": 3, "in": .2, "fx": "draw"},
                                                          {"k": "circle", "x": X(40), "y": Y(-6.8), "r": 10, "fill": "rgba(245,236,220,.15)", "c": BONE, "w": 1.6, "in": 1.0},
-                                                         {"k": "label", "x": X(40), "y": Y(-9.4), "t": "1998 · natural cavity", "st": "small", "in": 1.2}])
-    s4 = like(s3, cam=[1.2, 500, 960], add=[{"k": "cap", "x": 500, "y": 560, "t": "no further drilling", "c": RED, "in": .3}])
+                                                         {"k": "label", "x": X(40), "y": Y(-9.4), "t": "1978 · natural cracks", "st": "small", "in": 1.2}])
+    s4 = like(s3, cam=[1.2, 500, 960], add=[{"k": "cap", "x": 500, "y": 560, "t": "drilling needs a permit", "c": RED, "in": .3}])
     patches = [{"k": "rect", "x": 140 + i * 90, "y": 990 - (i % 2) * 8, "w": 70, "h": 22 + (i % 3) * 6, "fill": "#cdb48e", "c": "#fff3de", "sw": 1, "in": .3 + i * .1} for i in range(8)]
     s5 = like(sphinx_side("day", w=720, x=500, pyramid=False), add=patches + [{"k": "label", "x": 500, "y": 1150, "t": "modern patching of a crumbling statue", "st": "small", "in": 1.2}])
     s6 = {"base": "dark", "cam": [1, 500, 860], "els": [{"k": "rect", "x": 290, "y": 560, "w": 420, "h": 460, "r": 12, "fill": "#e9dcc4", "c": "#fff6e6", "sw": 2, "in": .1},
@@ -676,8 +676,8 @@ def sphinx_surveys():
                       "[d:tension][act:darker, slower]Then came the ^fight... [act:the real stakes][tune:fall]over who gets to ^*look*."], cut=False),
         B("world", 1, ["[d:calm][k:THE SURVEYS][act:plain, laying out the facts]Between {1978|nineteen seventy-eight} and {1996|nineteen ninety-six}, at least ^*five* teams scanned the ground around the Sphinx.",
                        "[d:list][go:2|2.2][sfx:shimmer][act:counting them off, crisp][tune:level]^American. [act:same beat][tune:level]^Japanese. [act:same beat, closing][tune:fall]^Egyptian. [act:then the tools, lightly][tune:fall]^Radar, and ^seismic."]),
-        B("collision", 3, ["[d:build][k:1998][act:building, precise]In {1998|nineteen ninety-eight}, Egypt allowed ^one test drill, into a spot the radar had ^flagged. [sfx:hit][act:plain, deflating][tune:fall]A ^*natural* cavity.",
-                           "[d:tension][go:4|2][act:flat, final][tune:fall]After that: ^no more drilling."]),
+        B("collision", 3, ["[d:build][k:1978][act:building, precise]In {1978|nineteen seventy-eight}, the first team drilled ^five narrow holes into its strongest ^echoes. [sfx:hit][act:plain, deflating][tune:fall]Cameras saw only ^*natural* cracks.",
+                           "[d:tension][go:4|2][act:flat, final][tune:fall]Since then, every drill hole needs Egypt's ^permission."]),
         B("cost", 4, ["[d:build][k:THE CHARGE][act:fair, giving the critics' case]Critics say access got ^harder once the old-Sphinx idea got ^famous. [act:pressing the point, even]And that the survey@noun data was ^never fully ^*released*."], cut=False),
         B("reversal", 5, ["[d:reveal][k:THE TWIST][act:turning it, calmly]But the record@noun shows outside teams ^*were* let in, ^again and again.",
                           "[d:reveal][act:their side, evenly]And the authorities argue the Sphinx is ^crumbling. [sfx:hit][act:serious, weighing it]^Every drill hole is a ^*risk*."]),
@@ -685,8 +685,8 @@ def sphinx_surveys():
                      "[d:tension][p:0.93][act:practical, warm]The fix is ^simple. [act:firm, friendly][tune:fall]^*Publish* the raw data."]),
     ]
     return EP("sphinx-surveys", "05.07", "The Sphinx Surveys", "sphinx-surveys", "unsupported", "Was research shut down?", "Who gets to *look*?", beats, shots,
-              "Dobecki & Schoch 1992, Geoarchaeology · Hawass & Lehner 1997, NOVA · Hawass 1998, The Secrets of the Sphinx",
-              "Five surveys, one test drill and a TV special watched by 33 million. What the record shows about access to the Sphinx.",
+              "Dolphin 1999, SRI's 1978 Sphinx survey · Dobecki & Schoch 1992, Geoarchaeology · Hawass & Lehner 1997, NOVA · Hawass 1998, The Secrets of the Sphinx",
+              "Five surveys, five test holes and a TV special watched by 33 million. What the record shows about access to the Sphinx.",
               ["#Sphinx", "#Giza", "#AncientEgypt", "#Archaeology", "#History"])
 
 
@@ -703,9 +703,9 @@ def sphinx_surveys_m():
             line([[230, 1215], [770, 1215]], 6.0, RED, 4, dur=.8)] + [line([[x, 1185], [x, 1245]], 6.2, RED, 4, dur=.2) for x in (230, 500, 770)]
     tvs += question(840, 1330, 7.6, 80)
     s0 = {"base": "dark", "cam": [1, 500, 860], "els": tvs}
-    # after 1998: no more drilling; access harder; the data never fully released
+    # after 1978: a drill hole needs a permit; access harder; the data never fully released
     gt = [line([[250, 360], [200, 560]], .2, "#cbbca8", 4, draw=False), line([[250, 360], [300, 560]], .2, "#cbbca8", 4, draw=False),
-          line([[250, 380], [250, 600]], .3, BONE, 4, dur=.5), strike(150, 600, 350, 380, .9), label(420, 480, "no more drilling", 1.1, RED, 30, "start")]
+          line([[250, 380], [250, 600]], .3, BONE, 4, dur=.5), strike(150, 600, 350, 380, .9), label(420, 480, "permits needed", 1.1, RED, 30, "start")]
     gt += [{"k": "sphinx", "x": 210, "y": 880, "w": 260, "in": 2.0},
            box(380, 700, 18, 180, "#8c7152", r=3, at=2.2, fx="fill"), box(620, 700, 18, 180, "#8c7152", r=3, at=2.2, fx="fill"),
            line([[398, 760], [620, 760]], 3.4, RED, 6, dur=.6), line([[398, 820], [620, 820]], 3.6, RED, 6, dur=.6)]
