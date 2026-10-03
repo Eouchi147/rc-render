@@ -1,0 +1,61 @@
+name: clips
+# The chapter clips of the long films (vertical, for Shorts and Reels): one machine per long film cuts every clip listed
+# for it in yt/clips.json (farm/clips.py, reels/free/clip.py) and publishes them to the films release.
+on:
+  workflow_dispatch:
+    inputs:
+      films:
+        description: "Long film ids, separated by commas or spaces, or all"
+        required: true
+        default: "all"
+permissions:
+  contents: write
+concurrency:
+  group: clips-${{ github.run_id }}
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      films: ${{ steps.m.outputs.films }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: m
+        env:
+          F: ${{ inputs.films }}
+        run: |
+          echo "films=$(python3 -c 'import os,json,re
+          a=[x for x in re.split(r"[,\s]+",os.environ["F"]) if x]
+          ids=list(dict.fromkeys(c["film"] for c in json.load(open("yt/clips.json"))["clips"]))
+          print(json.dumps(ids if a in ([],["all"]) else [x for x in a if x in ids]))')" >> "$GITHUB_OUTPUT"
+  film:
+    needs: plan
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    strategy:
+      fail-fast: false
+      max-parallel: 20
+      matrix:
+        film: ${{ fromJson(needs.plan.outputs.films) }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: tools
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null
+          pip install -q numpy scipy playwright==1.56.0
+          python -m playwright install --with-deps chromium > /dev/null
+      - name: clips
+        env:
+          GH_REPO: ${{ github.repository }}
+        run: python3 farm/clips.py ${{ matrix.film }}
+      - name: publish
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          ls -la build/clips || true
+          f=$(ls build/clips/*.mp4 build/clips/*.clips.json 2>/dev/null || true)
+          [ -n "$f" ] && gh release upload films $f --clobber || echo "nothing to publish"
