@@ -1,0 +1,726 @@
+{
+ "id": "lf-rapa-nui",
+ "kind": "case",
+ "series": "Fallen Worlds",
+ "title": "Rapa Nui: Stone Giants and the Last Tree",
+ "intro_title": "Rapa Nui: Stone Giants and the Last Tree",
+ "yt_title": "Easter Island: Did They Really Destroy Their Own World?",
+ "verdict": "Mixed record",
+ "verdict_scope": "for the famous story as a whole (an ecocide on Rapa Nui followed by a collapse before Europeans arrived), graded Mixed record: the palm forest was lost after people came, by fire with rats eating its seeds (Established; who did more is still argued); the moai walked upright along the roads (Strong evidence: statues, roads and experiments agree, untested at 80 t, and some read the road statues as set up on purpose); a great population crash before 1722 (Ruled out: radiocarbon chronologies, platform building after 1722, the 2024 genomes and the 2024 rock-garden map all point the other way, though some dry areas declined after about 1650); contact with the Americas before Europeans (Strong evidence, from the 2024 genomes); a collapse after contact, by slave raids and smallpox (Established); rongorongo invented on the island before contact (Open question: one tablet's wood dates to about 1500, but wood can be older than the carving).",
+ "hook": "Did they destroy their own world?",
+ "end_line": "The giants still look out over the island, and their people still live beside them.",
+ "structure_note": "chapters[0] is the cold open and the title beat (no chapter card; YouTube chapter 0:00). Chapters 1 to 6 are the story chapters (each also cut as a vertical clip: each opens on a sentence that stands alone and closes on a landing line); 'The weighing' carries the verdict, the test and the close. Shot ids s1..s45 are in story order; 'alias of sN' means a return to that panel.",
+ "chapters": [
+  {
+   "title": "The famous story",
+   "beats": [
+    {
+     "role": "hook",
+     "lines": [
+      "[d:intrigue][sfx:boom][act:hushed wonder, painting it]On the slope of an old volcano, giant stone heads stare out of the ^grass. [act:leaning in, slower][tune:fall]Dig, and the heads have ^bodies, buried by centuries of ^soil. [p:0.93][act:the scale, awed]Nearly a thousand giants like these stand or lie on an island twenty-four kilometres ^long, three and a half thousand kilometres from South ^America.",
+      "[d:tension][act:the famous story, grave]A famous story says their makers cut down every ^tree, then starved, fought and ^fell, before any European ^came. [act:the child's question, wide-eyed][tune:rise]Did they destroy their own ^world?"
+     ],
+     "shots": [
+      {
+       "id": "s1",
+       "say": "On the slope of an old volcano, giant stone heads stare out of the grass.",
+       "draw": "HERO IMAGE, fully drawn from the first frame: the outer slope of Rano Raraku at golden dusk. A green volcanic slope rises from left to right to a crater rim against an amber sky, the Pacific a thin band at the far left. Seven moai heads of grey-yellow tuff stand in the grass at different heights and tilts, the nearest one large at the right (x 1120..1440, y 250..760): long face, heavy brow ridge in shadow, long straight nose, pursed lips, jutting chin, long ears, warm light on its left cheek. Two small people at the foot of the slope for scale. The top-left corner (x < 960, y < 180) is sky only, kept for the hook title. Labels after the hook title: 'Rano Raraku'."
+      },
+      {
+       "id": "s2",
+       "say": "Dig, and the heads have bodies, buried by centuries of soil.",
+       "draw": "Same panel, the camera pushes in on the nearest head: the ground in front of it opens as a cut-away (dark soil with faint layer lines), and the buried torso of the statue appears inside it, arms along the body and long fingers meeting over the belly, reaching about twice the head's height below the grass. Label 'buried by soil'.",
+       "reuse": "alias of s1, new cam"
+      },
+      {
+       "id": "s3",
+       "say": "Nearly a thousand giants like these stand or lie on an island twenty-four kilometres long, three and a half thousand kilometres from South America.",
+       "draw": "Map of the south-east Pacific View(-150, -64, -48, -6): the South American coast at the right, open ocean, Rapa Nui a glowing speck (label 'Rapa Nui'). A window at the lower left shows the island enlarged (its triangle with three volcanoes); on 'nearly a thousand', tiny statue marks sprinkle round its coast and the quarry (label 'nearly 1,000 moai'); a dimension along it '24 km'. Then a dashed amber arrow draws from the speck to the Chilean coast (label '3,500 km')."
+      },
+      {
+       "id": "s4",
+       "say": "A famous story says their makers cut down every tree, then starved, fought and fell, before any European came. Did they destroy their own world?",
+       "draw": "Dusk: a far island with palms on the horizon, present from the start. The famous story as a strip of four small scenes in front of it, all in lilac dotted lines (a claim, not evidence), built as named: a palm falling to a stone adze ('every tree'), an empty basket ('starved'), two crossed spears ('fought'), a statue lying face down ('fell'); at the right edge a sailing ship on the horizon (chip '1722'). On the question, a large lilac question mark pops over the strip."
+      }
+     ]
+    },
+    {
+     "role": "title",
+     "lines": [
+      "[d:calm][act:warm, setting out]Rapa Nui: stone giants, and the last ^tree."
+     ],
+     "shots": [
+      {
+       "id": "s4t",
+       "say": "Rapa Nui: stone giants, and the last tree.",
+       "draw": "intro_title card 'Rapa Nui: Stone Giants and the Last Tree' over the dimmed panel of s4. Nothing else drawn."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "A forest of giant palms",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:setting the scene, warm]Around {1200|twelve hundred}, Polynesian voyagers reach Rapa Nui, a small green island at the eastern corner of the Polynesian ^world. [act:respectful, storytelling]Rapanui tradition remembers the first high chief, Hotu ^Matua, landing on the white sand of ^Anakena.",
+      "[p:0.93][act:the question, curious][tune:rise]How do we know it was ^green? [act:explaining, a picture]Crater lakes keep a diary in their mud: layer upon layer, with pollen from whatever grew ^nearby. [act:the reveal, warm][tune:fall]Drill down, and the old layers are full of trees and ^palms."
+     ],
+     "shots": [
+      {
+       "id": "s5",
+       "say": "Rapanui tradition remembers the first high chief, Hotu Matua, landing on the white sand of Anakena.",
+       "draw": "Dawn at Anakena: a white beach in a small bay, green wooded hills behind it with tall palms; a double-hulled voyaging canoe with a crab-claw sail in the shallows; three figures wade ashore (label 'Hotu Matu'a', with a soft glow). Labels 'Anakena', chip 'about 1200'. A small map at the upper right shows the Polynesian triangle (Hawaii, Aotearoa, Rapa Nui at its eastern corner, glowing)."
+      },
+      {
+       "id": "s6",
+       "say": "How do we know it was green? Crater lakes keep a diary in their mud: layer upon layer, with pollen from whatever grew nearby. Drill down, and the old layers are full of trees and palms.",
+       "draw": "A crater lake in cross-section: the crater rim, still water, and below it mud in many thin layers. A coring tube drills down; at the right a pulled core is shown enlarged as a column of layers, with a magnifier on two of them: near the top, grass pollen (pale grains); deep down, palm and tree pollen (dark green grains). Labels 'crater lake', 'layer upon layer', 'grass', 'palms and trees'."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:the scale, amazed]One was a giant palm, a cousin of the Chilean wine palm, now ^extinct. [p:0.9][act:the number, savouring it]Studies of the soil suggest more than sixteen million of them once grew ^here. [act:the turn, grave][tune:fall]By the {1500s|fifteen hundreds}, nearly all were ^gone."
+     ],
+     "shots": [
+      {
+       "id": "s7",
+       "say": "One was a giant palm, a cousin of the Chilean wine palm, now extinct. Studies of the soil suggest more than sixteen million of them once grew here.",
+       "draw": "Left: a hillside of giant palms (thick grey trunks, wide crowns of fronds), a person beside the nearest trunk for scale (label 'giant palm, now extinct'). Right: the island outline fills with small palm marks over about 70 percent of its area (the woodland cover estimated from soil studies), a counter '16 million +'."
+      },
+      {
+       "id": "s8",
+       "say": "By the 1500s, nearly all were gone.",
+       "draw": "Same panel: the palms fade, leaving stumps in grass; the island's palm marks dim away; chip 'by the 1500s'.",
+       "reuse": "alias of s7"
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:the first suspect, steady]What took them? [act:the evidence, plain]Burned stumps and layers of charred palm nuts point to people, clearing land with ^fire between about {1250|twelve fifty} and {1500|fifteen hundred}.",
+      "[act:the second suspect, intrigued]But the canoes carried other passengers: the Polynesian ^rat. [act:the clue, delighted]Nearly every palm nut found on the island has been gnawed by ^rats. [p:0.93][act:the model, a little amazed]With no predators, one model says, rats could pass eleven million in under fifty ^years, eating almost every ^seed."
+     ],
+     "shots": [
+      {
+       "id": "s9",
+       "say": "What took them? Burned stumps and layers of charred palm nuts point to people, clearing land with fire between about 1250 and 1500.",
+       "draw": "A soil section under a field: a black burned layer with charred palm nuts and a burned stump in it; above, small figures clearing land with fire (flames and smoke on the slope). Labels 'burned stump', 'charred nuts', chip '1250 to 1500'."
+      },
+      {
+       "id": "s10",
+       "say": "But the canoes carried other passengers: the Polynesian rat. Nearly every palm nut found on the island has been gnawed by rats.",
+       "draw": "Close: a Polynesian rat (small, brown-grey, long tail) beside a large palm nut whose shell shows a gnawed hole; a row of nuts behind it, all gnawed (label 'gnawed by rats'); a small canoe icon with a rat in it ('carried by canoe')."
+      },
+      {
+       "id": "s11",
+       "say": "With no predators, one model says, rats could pass eleven million in under fifty years, eating almost every seed.",
+       "draw": "A chart that builds: rat numbers on an axis of years 0 to 50, a curve rising steeply from a pair to 11 million by year 47 (label '11 million'); beside it, twenty palm seeds of which nineteen are eaten (95 percent), one left whole."
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:aside][act:fair, weighing]One team blames people ^first; another says the rats were their ^partners. [act:the landing, warm][tune:fall]Most likely ^both: fire cleared the forest, and rats ate its ^seeds."
+     ],
+     "shots": [
+      {
+       "id": "s12",
+       "say": "One team blames people first; another says the rats were their partners. Most likely both: fire cleared the forest, and rats ate its seeds.",
+       "draw": "A balance: on the left pan a flame and a stone adze ('people'), on the right a rat ('rats'); it tilts a little left, then levels as both glow together (label 'both')."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Giants on the road",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:setting the scene]Almost every moai on Rapa Nui was carved from the soft volcanic rock of one crater, Rano ^Raraku. [act:the scale, amazed]The tallest ever raised, Paro, stood about ten metres high and weighed some eighty ^tonnes.",
+      "[act:the puzzle, curious][tune:rise]So how do you move that across an island, with no wheels and no animals to ^pull?"
+     ],
+     "shots": [
+      {
+       "id": "s13",
+       "say": "The tallest ever raised, Paro, stood about ten metres high and weighed some eighty tonnes.",
+       "draw": "Paro standing on its stone platform at dusk, the sea behind it, drawn to scale (55 units = 1 m) beside a person of 1.7 m at the platform's foot; a dimension line 'about 10 m', a chip 'about 80 t', label 'Paro'."
+      },
+      {
+       "id": "s14",
+       "say": "So how do you move that across an island, with no wheels and no animals to pull?",
+       "draw": "Map of Rapa Nui: the quarry Rano Raraku pinned; platform sites dotted around the coast; dashed paths from the quarry to the coast; two icons struck through: a wheel and an ox ('no wheels', 'no draft animals')."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:the classic answer, fair]The famous story's answer: lay them on wooden sledges and rollers, and ^haul. [act:a test, plain]In {1998|nineteen ninety-eight}, sixty Rapanui pulled a ten-tonne replica on a sledge, nearly a hundred metres in a ^day.",
+      "[act:the other answer, intrigued]But Rapanui tradition has long said something ^else: the statues ^walked."
+     ],
+     "shots": [
+      {
+       "id": "s15",
+       "say": "The famous story's answer: lay them on wooden sledges and rollers, and haul. In 1998, sixty Rapanui pulled a ten-tonne replica on a sledge, nearly a hundred metres in a day.",
+       "draw": "A replica moai lying on its back on a wooden sledge over log rails; long ropes run forward to rows of small pullers (label '60 people'); chip '1998', label 'about 10 t'; a dashed arrow along the ground 'nearly 100 m'."
+      },
+      {
+       "id": "s16",
+       "say": "But Rapanui tradition has long said something else: the statues walked. Look at the statues lying beside the island's old roads.",
+       "draw": "Dusk: an old road runs from the quarry hill in the distance towards the viewer, a shallow dished track; on 'walked', a soft gold label in italics 'the moai walked' (tradition, not graded), 'Rapanui tradition'. On 'Look at the statues', statues lying beside the road build in, seen from a little above: some on their backs with their faces to the sky, some face down, one broken at the neck."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:the clue, leaning in]Look at the statues lying beside the island's old ^roads. [act:explaining, clear]Unlike the ones on platforms, they lean ^forward on wide, D-shaped bases, and their eye sockets were never ^carved.",
+      "[p:0.93][act:the experiment, delighted]In {2012|twenty twelve}, a team built a replica of more than four tonnes in that shape, and tied on three ^ropes. [act:the picture, light]Eighteen people rocked it from side to side, the way you'd walk a full fridge across a ^kitchen. [act:the payoff, delighted][tune:fall]It walked a hundred metres in forty minutes@time.",
+      "[act:the roads, clear]The roads fit too: about four and a half metres wide, and dished like a shallow ^bowl. [act:the pattern, steady]And half the roadside statues lie within two kilometres of the quarry, the pattern you'd expect if walkers fell along the ^way."
+     ],
+     "shots": [
+      {
+       "id": "s17",
+       "say": "Unlike the ones on platforms, they lean forward on wide, D-shaped bases, and their eye sockets were never carved.",
+       "draw": "Two statues in side view: left 'on a platform' (upright, flat base, eye sockets), right 'on the road' (leaning forward, wide base, no eye sockets); under each, its base seen from above: a narrow rectangle and a wide D shape. Labels 'leans forward', 'D-shaped base', 'no eye sockets'."
+      },
+      {
+       "id": "s18",
+       "say": "In 2012, a team built a replica of more than four tonnes in that shape, and tied on three ropes. Eighteen people rocked it from side to side, the way you'd walk a full fridge across a kitchen. It walked a hundred metres in forty minutes.",
+       "draw": "The replica upright in a field, three ropes from its head: two side teams and one behind (18 small figures); two small arrows over its head ('side to side'); a zig-zag of base prints along a dashed track. Chip '2012', labels '4.35 t replica', '18 people', '100 m in 40 min'; in a window at the upper right a fridge rocked onto one corner, then the other ('like a fridge')."
+      },
+      {
+       "id": "s19",
+       "say": "The roads fit too: about four and a half metres wide, and dished like a shallow bowl. And half the roadside statues lie within two kilometres of the quarry, the pattern you'd expect if walkers fell along the way.",
+       "draw": "Left: the road in cross-section, a shallow concave dish 4.5 m wide with a walking statue in it (dimension '4.5 m'). Right: a bar chart of roadside statues by distance from the quarry, highest near the quarry and falling away; the bars within 2 km glow (label 'half within 2 km')."
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:aside][act:fair, the doubt]Some archaeologists think the roadside statues were set up there on ^purpose, and nobody has walked eighty tonnes ^yet. [act:the landing, a smile][tune:fall]But a walking giant needs rope and know-how, not a forest of ^rollers."
+     ],
+     "shots": [
+      {
+       "id": "s20",
+       "say": "Some archaeologists think the roadside statues were set up there on purpose, and nobody has walked eighty tonnes yet. But a walking giant needs rope and know-how, not a forest of rollers.",
+       "draw": "A road across the bottom with a statue lying beside it, from the start. Left: a statue standing on a little platform beside the road, in lilac dashes ('set up on purpose?'). Middle: the small replica beside a huge dashed outline of Paro ('80 t: untested'). Right: a coil of rope (solid) and a stack of logs (dashed, struck through)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Counting the people",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:the famous version, fair]In {2005|two thousand five}, the bestseller Collapse told the story of Rapa Nui at full ^strength. [act:explaining, steady]Perhaps fifteen thousand people or more crowd a small ^island. [act:the story, grave]The forest goes, the soil fails, hunger and war follow, and by about {1680|sixteen eighty}, before any European, their society ^falls.",
+      "[act:the moral, quiet][tune:fall]The book called it the clearest example of a society that destroyed ^itself."
+     ],
+     "shots": [
+      {
+       "id": "s21",
+       "say": "Perhaps fifteen thousand people or more crowd a small island. The forest goes, the soil fails, hunger and war follow, and by about 1680, before any European, their society falls. The book called it the clearest example of a society that destroyed itself.",
+       "draw": "A book (cover 'Collapse', '2005') at the left; at the right the story's population curve in lilac dots (claimed): rising to '15,000 or more?' then crashing at 'about 1680', before a ship mark at 1722; icons along the fall as named: a stump, a cracked field, an empty bowl, crossed spears; label 'destroyed itself?'."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:the challenge, curious][tune:rise]But how do you count people who left no ^census? [act:the first method, clear]Every house@noun and hearth leaves charcoal you can ^date. [p:0.93][act:the analogy, a picture]Pile up the dates, and they rise and fall with how busy the island was, like the receipts in a shop's ^drawer.",
+      "[act:the result, plain]Those dates climb steadily until the Europeans ^arrive. [act:the clincher, warm][tune:fall]And the great stone platforms for the statues were still being built after {1722|seventeen twenty-two}."
+     ],
+     "shots": [
+      {
+       "id": "s22",
+       "say": "But how do you count people who left no census? Every house and hearth leaves charcoal you can date. Pile up the dates, and they rise and fall with how busy the island was, like the receipts in a shop's drawer. Those dates climb steadily until the Europeans arrive.",
+       "draw": "Left: boat-shaped houses with hearths; small charcoal flecks rise from the fires and fly into an open drawer of receipts (the analogy). Right: a chart of radiocarbon dates by century, 1200 to 1800, a stack of date marks building into a curve that climbs steadily up to the line at 1722 (labels 'charcoal dates', '1722')."
+      },
+      {
+       "id": "s23",
+       "say": "And the great stone platforms for the statues were still being built after 1722.",
+       "draw": "Same panel: under the chart, a row of small platform icons pops along the time axis, the last ones after the 1722 line (label 'platforms still built').",
+       "reuse": "alias of s22"
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:the second method, intrigued]Then, in {2024|twenty twenty-four}, a team mapped the island's rock gardens from ^space. [act:explaining]Farmers spread broken stone over their fields to keep the soil damp and feed it ^minerals. [p:0.93][act:the method, a picture]In infrared satellite images, those gardens stand out like a watered patch on a dry ^lawn.",
+      "[act:the comparison, careful]Earlier estimates@noun allowed up to twenty-one square kilometres of ^them. [p:0.9][act:the punchline, savouring it]The map found less than ^one: with fish and other food, enough for about three thousand ^people, close@adj to what the first Europeans ^reported."
+     ],
+     "shots": [
+      {
+       "id": "s24",
+       "say": "Then, in 2024, a team mapped the island's rock gardens from space. Farmers spread broken stone over their fields to keep the soil damp and feed it minerals. In infrared satellite images, those gardens stand out like a watered patch on a dry lawn.",
+       "draw": "Left: a rock garden in section, broken stones over brown soil with sweet potato leaves between them; small arrows 'keeps it damp' and 'minerals'. Above right: a satellite; below it, an infrared view of the ground where garden patches glow; beside it, a small dry lawn with one watered patch (the analogy)."
+      },
+      {
+       "id": "s25",
+       "say": "Earlier estimates allowed up to twenty-one square kilometres of them. The map found less than one: with fish and other food, enough for about three thousand people, close to what the first Europeans reported.",
+       "draw": "Island map: a big dashed area ('up to 21 km2', earlier estimates) over the island, then the mapped gardens as small solid patches ('0.76 km2'). Right: 30 small figures pop, each for 100 people ('about 3,000'), beside a ship tag '1722 reports'."
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:aside][act:fair, the doubts]Critics say the map misses upland gardens and other kinds of ^farming, and one study finds use@noun of the dry northwest falling after about {1650|sixteen fifty}. [act:the landing][tune:fall]Strain in places, ^perhaps. [act:quiet, firm][tune:fall]But a great crash is not what the numbers ^show."
+     ],
+     "shots": [
+      {
+       "id": "s26",
+       "say": "Critics say the map misses upland gardens and other kinds of farming, and one study finds use of the dry northwest falling after about 1650. Strain in places, perhaps. But a great crash is not what the numbers show.",
+       "draw": "The island map again on its own panel: the uplands outlined in dashes ('missed gardens?'), the dry northwest shaded ('dry northwest: use fell after 1650'); at the right the famous story's lilac crash curve, then a solid gold line rising gently without a crash ('no great crash'), and a red strike through the crash."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Fifteen ancestors",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:setting the scene, respectful]For many decades, the remains of fifteen Rapanui people lay in a museum in ^Paris. [act:explaining, gently]In {2024|twenty twenty-four}, working with Rapanui representatives, a team read@past their whole ^genomes. [act:plain, warm][tune:fall]The fifteen had lived between about {1670|sixteen seventy} and the twentieth century, and their closest kin are the Rapanui of ^today."
+     ],
+     "shots": [
+      {
+       "id": "s27",
+       "say": "In 2024, working with Rapanui representatives, a team read their whole genomes. The fifteen had lived between about 1670 and the twentieth century, and their closest kin are the Rapanui of today.",
+       "draw": "A quiet museum store: fifteen small boxes on shelves, each with a soft warm light (no bones drawn); above them a DNA double helix draws itself in gold (chip '2024'); a time bar '1670 to 1950'; then a gentle line links the fifteen lights to a group of present-day Rapanui silhouettes ('closest kin')."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:the method, a picture]A population crash leaves a scar in the ^genes. [act:the analogy, clear]Rebuild a crowd from a few survivors, and its variety shrinks, like refilling a jar of mixed beads from one ^handful. [p:0.93][act:the result, steady]These genomes show no such squeeze in the {1600s|sixteen hundreds}. [act:warm][tune:fall]Instead, a population growing steadily from the {1200s|twelve hundreds} until the Europeans ^came."
+     ],
+     "shots": [
+      {
+       "id": "s28",
+       "say": "A population crash leaves a scar in the genes. Rebuild a crowd from a few survivors, and its variety shrinks, like refilling a jar of mixed beads from one handful. These genomes show no such squeeze in the 1600s. Instead, a population growing steadily from the 1200s until the Europeans came.",
+       "draw": "Left: a jar of many-coloured beads; one handful goes into a new jar, which fills with only a few colours (label 'after a crash'). Right: the genomes' population line from 1200 to 1750: a dashed lilac pinch at the 1600s is drawn and struck through ('no squeeze'), then the solid gold line rises steadily to 1722."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:the surprise, leaning in]And they held a ^surprise. [p:0.93][act:the number, careful]About a tenth of their ancestry came from Native ^Americans, mixed in between about {1250|twelve fifty} and {1430|fourteen thirty}. [act:the scale, wonder][tune:fall]Someone crossed three and a half thousand kilometres of open ocean, from one side or the other, long before any European sailed that ^ocean."
+     ],
+     "shots": [
+      {
+       "id": "s29",
+       "say": "About a tenth of their ancestry came from Native Americans, mixed in between about 1250 and 1430. Someone crossed three and a half thousand kilometres of open ocean, from one side or the other, long before any European sailed that ocean.",
+       "draw": "Left: a 10 by 10 grid of squares, 10 of them turning amber ('a tenth Native American'). Right: a map of Rapa Nui and the South American coast, a dashed arc with arrowheads at both ends between them ('3,500 km'), chip '1250 to 1430'."
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:aside][act:fair, careful]A smaller study in {2017|twenty seventeen}, of five people, found no such ^trace; the new genomes hold far more ^DNA. [act:the landing, warm][tune:fall]And the results are helping bring the fifteen ^home."
+     ],
+     "shots": [
+      {
+       "id": "s30",
+       "say": "A smaller study in 2017, of five people, found no such trace; the new genomes hold far more DNA. And the results are helping bring the fifteen home.",
+       "draw": "Left: '2017', five small dots with thin data bars; '2024', fifteen dots with long full bars. Then fifteen small warm lights travel along a dotted arc across the ocean towards the island (label 'home')."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "When the ships came",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:setting the scene]Easter Sunday, {1722|seventeen twenty-two}: Dutch ships reach Rapa Nui, and give it a new name, Easter ^Island. [act:storytelling, plain]The visitors find people on the shore, and statues still ^standing. [act:quiet, grave][tune:fall]On the day they land, shots ring out, and about a dozen islanders are ^killed."
+     ],
+     "shots": [
+      {
+       "id": "s31",
+       "say": "The visitors find people on the shore, and statues still standing. On the day they land, shots ring out, and about a dozen islanders are killed.",
+       "draw": "Morning: three Dutch sailing ships at anchor offshore; on the island, people on the shore and a row of moai standing on a platform, backs to the sea (chip '1722'). On 'shots ring out', a puff of musket smoke by a landing boat; then twelve small lights on the shore dim out, quietly (label 'about a dozen killed'). No bodies drawn."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:explaining, steady]More ships ^follow. [act:the evidence, plain]By {1774|seventeen seventy-four}, Captain Cook's crew find many statues ^fallen. [act:plain][tune:fall]By the {1860s|eighteen sixties}, not one stands on its ^platform. [act:honest][tune:fall]Why they fell is still ^debated."
+     ],
+     "shots": [
+      {
+       "id": "s32",
+       "say": "More ships follow. By 1774, Captain Cook's crew find many statues fallen. By the 1860s, not one stands on its platform. Why they fell is still debated.",
+       "draw": "A time line 1722 to 1870 under a platform of seven statues: at 1722 all stand; on '1774' three of them fall (drawn lying on their sides in front of the platform); on 'the 1860s' the rest; small ship marks at the visits; a lilac question mark over the empty platform."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:grave, slower]Then, in December {1862|eighteen sixty-two}, slave raiders from Peru ^arrive. [p:0.93][act:the numbers, heavy]Within months, more than fourteen hundred people are taken, a third or more of the ^island. [act:grave][tune:fall]Most die in Peru, of disease and ^overwork.",
+      "[act:quiet, the cruelty]After protests, the survivors are shipped ^home, [act:quieter][tune:fall]but only a dozen or so make it, and they carry ^smallpox. [act:grave, slow]It sweeps the ^island. [p:0.9][act:the toll, very quiet]By {1877|eighteen seventy-seven}, after raids, disease and departures, about a hundred and ten Rapanui are left on the ^island."
+     ],
+     "shots": [
+      {
+       "id": "s33",
+       "say": "Then, in December 1862, slave raiders from Peru arrive. Within months, more than fourteen hundred people are taken, a third or more of the island. Most die in Peru, of disease and overwork.",
+       "draw": "Night: raiders' ships offshore (chip 'December 1862'). In a dark card at the left, the island's people as 120 small lights; a third of them go dark there and appear in a card by the ships (label 'more than 1,400 taken'), and all but four of those go out (label 'most died in Peru')."
+      },
+      {
+       "id": "s34",
+       "say": "After protests, the survivors are shipped home, but only a dozen or so make it, and they carry smallpox. It sweeps the island. By 1877, after raids, disease and departures, about a hundred and ten Rapanui are left on the island.",
+       "draw": "Map: a dashed route from Peru to Rapa Nui, a ship with a dozen lights on it; at the island a dull red haze spreads ('smallpox'); then a bar of the island's people shrinks to a small cluster of 110 dots (chip '1877', label 'about 110')."
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:aside][act:steady, sober]For decades after, the island was a sheep ranch, and its people were confined to one village until the {1960s|nineteen sixties}. [act:the landing, quiet][tune:fall]There was a collapse on Rapa ^Nui. [act:quieter][tune:fall]It came on the ^ships."
+     ],
+     "shots": [
+      {
+       "id": "s35",
+       "say": "For decades after, the island was a sheep ranch, and its people were confined to one village until the 1960s. There was a collapse on Rapa Nui. It came on the ships.",
+       "draw": "Left: the island with sheep over its grass and a walled village by the west coast (label 'one village', 'until the 1960s'). Right: the people line from 1200 to 1900, solid and steady until the 1860s, then dropping steeply, a ship icon at the drop (label 'the collapse')."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "A script of their own",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:setting the scene, curious]In {1864|eighteen sixty-four}, a missionary on Rapa Nui reported something no outsider had ^noticed: wooden tablets covered in rows of tiny carved ^signs. [act:explaining, a picture]Every second line runs upside down, so the reader turns the tablet at the end of each row@line.",
+      "[act:the name, warm]Rapanui call it ^rongorongo. [act:plain][tune:fall]Fewer than thirty pieces survive, in museums around the world, and no one can read@present them ^yet."
+     ],
+     "shots": [
+      {
+       "id": "s36",
+       "say": "Every second line runs upside down, so the reader turns the tablet at the end of each row.",
+       "draw": "A rongorongo tablet, dark wood with a rounded outline and fluting, eight rows of small carved signs (figures, birds, plants); on 'upside down', every second row turns over; arrows show the reading direction left to right and a curved arrow turns the tablet at the end of each row (label 'turn at each row')."
+      },
+      {
+       "id": "s37",
+       "say": "Rapanui call it rongorongo. Fewer than thirty pieces survive, in museums around the world, and no one can read them yet.",
+       "draw": "Title on a dark ground 'rongorongo'; below, two shelves with 26 small inscribed tablets and a staff popping one by one (label 'fewer than 30 survive'); a small lock (label 'not yet read')."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:the doubt, fair]Some scholars suspect@verb it began after a visit in {1770|seventeen seventy}, when a Spanish crew watched islanders practise writing with a ^quill. [act:the question, plain][tune:rise]Invented on the island, or copied from ^strangers?"
+     ],
+     "shots": [
+      {
+       "id": "s38",
+       "say": "Some scholars suspect it began after a visit in 1770, when a Spanish crew watched islanders practise writing with a quill. Invented on the island, or copied from strangers?",
+       "draw": "A Spanish ship offshore (chip '1770'); on the shore, a sheet of paper and a quill with a few marks on it; two paths to a tablet at the right, one from an island hut (gold, 'invented here?'), one from the ship (lilac dots, 'copied?'); a question mark between them."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:the test, clear]In {2024|twenty twenty-four}, a team radiocarbon dated the wood of four tablets kept in ^Rome. [act:the results, steady]Three came from trees of the {1800s|eighteen hundreds}. [p:0.93][act:the surprise, delighted]The fourth, called the notched tablet, came from a tree felled more than two centuries before the first European ^ships.",
+      "[act:the caveat, fair]But that is the tree's date, not the ^carving's, like the date stamped on a brick, not the day the house@noun went ^up. [act:the twist, intrigued][tune:fall]And the tree never grew on the island: it came from southern ^Africa, as driftwood perhaps, or in a ^ship."
+     ],
+     "shots": [
+      {
+       "id": "s39",
+       "say": "In 2024, a team radiocarbon dated the wood of four tablets kept in Rome. Three came from trees of the 1800s. The fourth, called the notched tablet, came from a tree felled more than two centuries before the first European ships.",
+       "draw": "Four tablets in a row, the notched one first with a notch in its edge (chip 'Rome, 2024', label 'the notched tablet'); a time line 1400 to 1900 below them with a ship mark at 1722; a line from each tablet drops to its date: three land in the 1800s, the notched tablet's on a short gold band at 1493 to 1509 (label 'about 1500')."
+      },
+      {
+       "id": "s40",
+       "say": "But that is the tree's date, not the carving's, like the date stamped on a brick, not the day the house went up. And the tree never grew on the island: it came from southern Africa, as driftwood perhaps, or in a ship.",
+       "draw": "Left: a brick stamped '1500' and, apart from it, a house going up with a later dashed date (labels 'the tree's date', 'the carving?'). Right: a map from southern Africa to Rapa Nui: a dashed route with a drifting log and a ship icon, both with question marks (label 'from southern Africa')."
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:aside][act:the stakes, wonder]If it was carved before {1722|seventeen twenty-two}, writing was invented here on its own, as it was in Mesopotamia, Egypt, China and ^Mesoamerica. [act:the landing, quiet][tune:fall]By a few thousand people, on a speck of ^land."
+     ],
+     "shots": [
+      {
+       "id": "s41",
+       "say": "If it was carved before 1722, writing was invented here on its own, as it was in Mesopotamia, Egypt, China and Mesoamerica. By a few thousand people, on a speck of land.",
+       "draw": "A world map: on 'invented here', a lilac dashed ring on Rapa Nui ('Rapa Nui?'); then four gold pins pop as named (Mesopotamia, Egypt, China, Mesoamerica, the known independent inventions of writing); on 'a speck of land' the ring glows."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The weighing",
+   "beats": [
+    {
+     "role": "weigh",
+     "lines": [
+      "[d:verdict][act:calm, laying it out]So, let's ^weigh it. [act:steady][tune:rise]A palm forest lost after people ^came? [act:the verdict, confident][tune:fall]^*Established*: fire cleared it, rats ate its ^seeds, and who did more is still ^argued. [act:steady][tune:rise]Giants that walked upright along the ^roads? [act:the verdict][tune:fall]*Strong ^evidence*: it fits the statues, the roads and the ^tests, though no one has walked eighty ^tonnes.",
+      "[d:build][act:steady][tune:rise]A great crash before the Europeans ^came? [act:the verdict, firm][tune:fall]*Ruled ^out*: the dates, the gardens and the genes all point the other ^way. [act:steady][tune:rise]Contact with the ^Americas, before ^Columbus? [act:the verdict][tune:fall]*Strong ^evidence*, in the ^genes. [act:steady][tune:rise]A collapse after ^contact? [act:the verdict, grave][tune:fall]^*Established*: raids and ^smallpox.",
+      "[act:steady][tune:rise]A script invented on the ^island? [act:the verdict, honest][tune:fall]*Open ^question*. [d:verdict][act:the summing up, warm][tune:rise]And the famous story, as a ^whole? [act:the verdict, measured][tune:fall]A *mixed ^record@noun*: the forest ^vanished, but the people ^endured."
+     ],
+     "shots": [
+      {
+       "id": "s42",
+       "say": "So, let's weigh it. A palm forest lost after people came? Established ... Giants that walked upright along the roads? Strong evidence ... A great crash before the Europeans came? Ruled out ...",
+       "draw": "A three-row ledger fills row by row (a small pictogram, a short text and a grade chip that pops as the grade is said): 'a palm forest lost' (palm stump) Established; 'giants that walked' (leaning moai) Strong evidence; 'a crash before 1722' (dotted falling curve) Ruled out."
+      },
+      {
+       "id": "s43",
+       "say": "Contact with the Americas, before Columbus? Strong evidence ... A collapse after contact? Established ... A script invented on the island? Open question. And the famous story, as a whole? A mixed record: the forest vanished, but the people endured.",
+       "draw": "A second ledger: 'contact with the Americas' (arc) Strong evidence; 'a collapse after contact' (ship) Established; 'a script invented here' (tablet) Open question; then a wide banner across the bottom: 'the famous story' with the chip Mixed record, a stump on one side and a small group of people on the other."
+      }
+     ]
+    },
+    {
+     "role": "test",
+     "lines": [
+      "[d:tension][act:open, curious][tune:fall]What would change our ^minds? [act:practical][tune:level]Genomes from people who lived before {1600|sixteen hundred}. [act:building][tune:level]Dated gardens and house@noun sites in the uplands, where the map may have missed ^some. [act:the giants][tune:level]An eighty-tonne ^walk. [act:the script, leaning in][tune:fall]And a rongorongo tablet of island wood, dated before {1722|seventeen twenty-two}."
+     ],
+     "shots": [
+      {
+       "id": "s44",
+       "say": "What would change our minds? Genomes from people who lived before 1600. Dated gardens and house sites in the uplands, where the map may have missed some. An eighty-tonne walk. And a rongorongo tablet of island wood, dated before 1722.",
+       "draw": "Four dashed frames pop as named: a DNA helix with 'before 1600'; an upland slope with a garden and a house outline and a map pin; a big moai with ropes and a question mark ('80 t'); a tablet of island wood with '1722?'."
+      }
+     ]
+    },
+    {
+     "role": "close",
+     "lines": [
+      "[d:tension][p:0.93][act:the last word, quiet wonder][tune:fall]On the slopes of Rano Raraku, the giants still look out over the ^island, and their people still live@verb beside ^them. [act:warm, inviting][tune:fall]Weigh it ^yourself."
+     ],
+     "shots": [
+      {
+       "id": "s45",
+       "say": "On the slopes of Rano Raraku, the giants still look out over the island, and their people still live beside them. Weigh it yourself.",
+       "draw": "The opening slope again at night on its own panel: the heads under stars, a low moon; far off along the coast, the warm lights of the village of Hanga Roa; the heads catch a little moonlight. Then the end card (verdict chip 'Mixed record')."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "description": "On Rapa Nui, Easter Island, nearly a thousand stone giants stand and lie on an island 24 km long, 3,500 km from South America. A famous story says the islanders cut down every tree, starved, fought and collapsed before any European arrived. Is it true?\n\nWe weigh it claim by claim: the lost palm forest and what took it (fire, rats, or both), how the moai moved (sledges, the walking experiments and the old roads), how to count people who left no census (radiocarbon and rock gardens mapped from space), the 2024 ancient genomes and a contact with the Americas long before Europeans, what the slave raids and smallpox of the 1860s did, and rongorongo, the island's undeciphered script, with the 2024 dating of a tablet's wood. Verdict: Mixed record. The forest lost: Established. Walking statues: Strong evidence. A great crash before Europeans: Ruled out. Contact with the Americas: Strong evidence. A collapse after contact: Established. A script invented on the island: Open question.\n\nChapters\n0:00 The famous story\nmm:ss A forest of giant palms\nmm:ss Giants on the road\nmm:ss Counting the people\nmm:ss Fifteen ancestors\nmm:ss When the ships came\nmm:ss A script of their own\nmm:ss The weighing\n\nSources\nMoreno-Mayar, J. V. et al. 2024, Nature 633: 389-397, doi:10.1038/s41586-024-07881-4\nDavis, D. S. et al. 2024, Science Advances 10: eado1459, doi:10.1126/sciadv.ado1459\nFerrara, S. et al. 2024, Scientific Reports 14: 2794, doi:10.1038/s41598-024-53063-7\nLastilla, L. et al. 2022, Digital Scholarship in the Humanities 37(2): 497-516, doi:10.1093/llc/fqab045\nLipo, C. P. & Hunt, T. L. 2025, Journal of Archaeological Science 183: 106383, doi:10.1016/j.jas.2025.106383\nLipo, C. P., Hunt, T. L. & Rapu Haoa, S. 2013, Journal of Archaeological Science 40: 2859-2866, doi:10.1016/j.jas.2012.09.029\nHunt, T. L. & Lipo, C. P. 2025, Journal of Archaeological Science 184: 106388, doi:10.1016/j.jas.2025.106388\nMieth, A. & Bork, H.-R. 2010, Journal of Archaeological Science 37: 417-426, doi:10.1016/j.jas.2009.10.006\nHunt, T. L. 2007, Journal of Archaeological Science 34: 485-502, doi:10.1016/j.jas.2006.10.003\nHunt, T. L. & Lipo, C. P. 2006, Science 311: 1603-1606, doi:10.1126/science.1121879\nDiNapoli, R. J. et al. 2020, Journal of Archaeological Science 116: 105094, doi:10.1016/j.jas.2020.105094\nDiNapoli, R. J. et al. 2021, Nature Communications 12: 3939, doi:10.1038/s41467-021-24252-z\nDiNapoli, R. J. et al. 2019, PLOS ONE 14: e0210409, doi:10.1371/journal.pone.0210409\nStevenson, C. M. et al. 2015, PNAS 112: 1025-1030, doi:10.1073/pnas.1420712112\nPuleston, C. O. et al. 2017, Frontiers in Ecology and Evolution 5: 69, doi:10.3389/fevo.2017.00069\nFehren-Schmitz, L. et al. 2017, Current Biology 27: 3209-3215, doi:10.1016/j.cub.2017.09.029\nFlenley, J. R. & King, S. M. 1984, Nature 307: 47-50, doi:10.1038/307047a0\nDransfield, J. et al. 1984, Nature 312: 750-752, doi:10.1038/312750a0\nRichards, C. et al. 2011, World Archaeology 43(2): 191-210, doi:10.1080/00438243.2011.579483\nDiamond, J. 2005, Collapse: How Societies Choose to Fail or Succeed (Viking)\nVan Tilburg, J. A. 1994, Easter Island: Archaeology, Ecology and Culture (British Museum Press)\nFischer, S. R. 2005, Island at the End of the World (Reaktion Books)\nMaude, H. E. 1981, Slavers in Paradise (Australian National University Press)\nMetraux, A. 1940, Ethnology of Easter Island (Bernice P. Bishop Museum Bulletin 160)\nRoutledge, K. 1919, The Mystery of Easter Island (Sifton, Praed)\nPBS NOVA 1998, Secrets of Lost Empires: Easter Island (the sledge experiment)",
+ "sources": [
+  "Moreno-Mayar, J. V., Sousa da Mota, B., Higham, T. et al. (incl. Malaspinas, A.-S.) 2024, Ancient Rapanui genomes reveal resilience and pre-European contact with the Americas, Nature 633: 389-397, doi:10.1038/s41586-024-07881-4; University of Copenhagen press release, 11 September 2024",
+  "Davis, D. S., DiNapoli, R. J., Pakarati, G., Hunt, T. L. & Lipo, C. P. 2024, Island-wide characterization of agricultural production challenges the demographic collapse hypothesis for Rapa Nui (Easter Island), Science Advances 10: eado1459, doi:10.1126/sciadv.ado1459",
+  "Science News, 21 June 2024, A new study challenges the idea that Rapa Nui islanders caused an 'ecocide' (critiques by C. Stevenson, S. Sherwood and J. A. Van Tilburg)",
+  "Ferrara, S., Tassoni, L., Kromer, B. et al. 2024, The invention of writing on Rapa Nui (Easter Island). New radiocarbon dates on the Rongorongo script, Scientific Reports 14: 2794, doi:10.1038/s41598-024-53063-7",
+  "Lastilla, L., Ravanelli, R., Valerio, M. & Ferrara, S. 2022, Modelling the Rongorongo tablets: a new transcription of the Echancree tablet, Digital Scholarship in the Humanities 37(2): 497-516, doi:10.1093/llc/fqab045",
+  "Lipo, C. P. & Hunt, T. L. 2025, The walking moai hypothesis: archaeological evidence, experimental validation, and response to critics, Journal of Archaeological Science 183: 106383, doi:10.1016/j.jas.2025.106383",
+  "Lipo, C. P., Hunt, T. L. & Rapu Haoa, S. 2013, The 'walking' megalithic statues (moai) of Easter Island, Journal of Archaeological Science 40(6): 2859-2866, doi:10.1016/j.jas.2012.09.029",
+  "Hunt, T. L. & Lipo, C. P. 2025, Reassessing the role of Polynesian rats (Rattus exulans) in Rapa Nui (Easter Island) deforestation: faunal evidence and ecological modeling, Journal of Archaeological Science 184: 106388, doi:10.1016/j.jas.2025.106388",
+  "Mieth, A. & Bork, H.-R. 2010, Humans, climate or introduced rats: which is to blame for the woodland destruction on prehistoric Rapa Nui (Easter Island)?, Journal of Archaeological Science 37(2): 417-426, doi:10.1016/j.jas.2009.10.006",
+  "Hunt, T. L. 2007, Rethinking Easter Island's ecological catastrophe, Journal of Archaeological Science 34(3): 485-502, doi:10.1016/j.jas.2006.10.003",
+  "Hunt, T. L. & Lipo, C. P. 2006, Late colonization of Easter Island, Science 311(5767): 1603-1606, doi:10.1126/science.1121879",
+  "DiNapoli, R. J., Rieth, T. M., Lipo, C. P. & Hunt, T. L. 2020, A model-based approach to the tempo of 'collapse': the case of Rapa Nui (Easter Island), Journal of Archaeological Science 116: 105094, doi:10.1016/j.jas.2020.105094",
+  "DiNapoli, R. J., Crema, E. R., Lipo, C. P., Rieth, T. M. & Hunt, T. L. 2021, Approximate Bayesian Computation of radiocarbon and paleoenvironmental record shows population resilience on Rapa Nui (Easter Island), Nature Communications 12: 3939, doi:10.1038/s41467-021-24252-z",
+  "DiNapoli, R. J., Lipo, C. P., Brosnan, T., Hunt, T. L., Hixon, S., Morrison, A. E. & Becker, M. 2019, Rapa Nui (Easter Island) monument (ahu) locations explained by freshwater sources, PLOS ONE 14(1): e0210409, doi:10.1371/journal.pone.0210409",
+  "Stevenson, C. M., Puleston, C. O., Vitousek, P. M., Chadwick, O. A., Haoa, S. & Ladefoged, T. N. 2015, Variation in Rapa Nui (Easter Island) land use indicates production and population peaks prior to European contact, PNAS 112(4): 1025-1030, doi:10.1073/pnas.1420712112",
+  "Puleston, C. O., Ladefoged, T. N., Haoa, S., Chadwick, O. A., Vitousek, P. M. & Stevenson, C. M. 2017, Rain, sun, soil, and sweat: a consideration of population limits on Rapa Nui (Easter Island) before European contact, Frontiers in Ecology and Evolution 5: 69, doi:10.3389/fevo.2017.00069",
+  "Fehren-Schmitz, L., Jarman, C. L., Harkins, K. M., Kayser, M., Popp, B. N. & Skoglund, P. 2017, Genetic ancestry of Rapanui before and after European contact, Current Biology 27(20): 3209-3215, doi:10.1016/j.cub.2017.09.029",
+  "Flenley, J. R. & King, S. M. 1984, Late Quaternary pollen records from Easter Island, Nature 307: 47-50, doi:10.1038/307047a0",
+  "Dransfield, J., Flenley, J. R., King, S. M., Harkness, D. D. & Rapu, S. 1984, A recently extinct palm from Easter Island, Nature 312: 750-752, doi:10.1038/312750a0",
+  "Richards, C., Croucher, K., Paoa, T., Parish, T., Tucki, E. & Welham, K. 2011, Road my body goes: re-creating ancestors from stone at the great moai quarry of Rano Raraku, Rapa Nui (Easter Island), World Archaeology 43(2): 191-210, doi:10.1080/00438243.2011.579483; Richards, C. 2010, The Road of the Winds, in The Gotland Papers (Gotland University Press); World Archaeology magazine 42 (2010), The secrets of Easter Island's fallen idols (roadside statues as set up on purpose)",
+  "Diamond, J. 2005, Collapse: How Societies Choose to Fail or Succeed (Viking), chapter 2, Twilight at Easter",
+  "Van Tilburg, J. A. 1994, Easter Island: Archaeology, Ecology and Culture (British Museum Press); the statue inventory as summarised by PBS NOVA (887 moai, Paro 9.8 m and about 82 t)",
+  "PBS NOVA 1998, Secrets of Lost Empires: Easter Island (Van Tilburg's sledge experiment: a nearly 10-ton replica, 60 Rapa Nui pullers, almost 100 m on the first day); Easter Island Statue Project, Transport (on upright methods)",
+  "Fischer, S. R. 2005, Island at the End of the World: The Turbulent History of Easter Island (Reaktion Books)",
+  "Maude, H. E. 1981, Slavers in Paradise: The Peruvian Labour Trade in Polynesia, 1862-1864 (Australian National University Press)",
+  "Metraux, A. 1940, Ethnology of Easter Island (Bernice P. Bishop Museum Bulletin 160); Thomson, W. J. 1891, Te Pito te Henua, or Easter Island (Report of the US National Museum for 1889) (traditions that the statues walked, as cited by Lipo, Hunt & Rapu Haoa 2013)",
+  "Routledge, K. 1919, The Mystery of Easter Island (Sifton, Praed); Heyerdahl, T. & Ferdon, E. N. (eds.) 1961, Archaeology of Easter Island (Reports of the Norwegian Archaeological Expedition, vol. 1) (the buried bodies of the Rano Raraku statues)"
+ ],
+ "facts_added": [
+  {
+   "fact": "About 150 statues stand upright on the inner and outer slopes of Rano Raraku, buried to their shoulders or to varying depths by sediment washed down from above; excavations (Routledge 1914-15, Heyerdahl 1955) exposed their bodies.",
+   "source": "Routledge 1919; Heyerdahl & Ferdon 1961 (as summarised by UCSB Geography, 'Easter Island heads have great bodies')"
+  },
+  {
+   "fact": "Rapa Nui covers about 164 km2, lies about 3,500 km from South America and nearly 2,000 km from the nearest inhabited island; it is about 24 km from end to end.",
+   "source": "DiNapoli et al. 2019, PLOS ONE (164 km2; 3,500 km; 2,000 km); Davis et al. 2024 (163.6 km2)"
+  },
+  {
+   "fact": "More than 1,000 moai were carved; Lipo & Hunt analysed 962; Van Tilburg's inventory counted 887 (397 still at Rano Raraku, 288 on platforms, 92 in transit). The tallest ever erected, Paro, is about 9.8 m and about 82 t; average 4 m and 12.5 t.",
+   "source": "Lipo & Hunt 2025, JAS 183: 106383; Van Tilburg 1994 (via PBS NOVA)"
+  },
+  {
+   "fact": "Polynesians settled Rapa Nui around 1200 CE, later than the 400 to 800 CE once assumed (radiocarbon dates from Anakena).",
+   "source": "Hunt & Lipo 2006, Science 311: 1603-1606; DiNapoli et al. 2020"
+  },
+  {
+   "fact": "Rapanui tradition remembers the first ariki (high chief), Hotu Matu'a, landing at Anakena.",
+   "source": "Metraux 1940; Routledge 1919"
+  },
+  {
+   "fact": "Pollen in crater lake sediments shows a wooded island with palms and trees before people, and forest decline over the last thousand years.",
+   "source": "Flenley & King 1984, Nature 307: 47-50"
+  },
+  {
+   "fact": "The palm was a now-extinct species related to the Chilean wine palm (Jubaea); it was described from nuts in 1984.",
+   "source": "Dransfield et al. 1984, Nature 312: 750-752; Mieth & Bork 2010"
+  },
+  {
+   "fact": "About 70 percent of the island was covered by dense palm woodland; soil profiles indicate more than 16 million palms; nearly all were removed by the 16th century; burned stumps and burned soil layers with charred palm nuts show slash-and-burn between 1250 and 1500 CE; Mieth & Bork conclude people, not rats, were the dominant destroyers (they found regrowth in one area after a first clearing).",
+   "source": "Mieth & Bork 2010, JAS 37: 417-426"
+  },
+  {
+   "fact": "Rats (Rattus exulans) came with the Polynesian settlers; the vast majority of palm nuts recovered on Rapa Nui show rat gnawing; a model shows introduced rats could reach 11.2 million within 47 years, with 95 percent seed predation, enough to stop palm regeneration; the authors see rats and human clearing acting together.",
+   "source": "Hunt 2007, JAS 34: 485-502; Hunt & Lipo 2025, JAS 184: 106388"
+  },
+  {
+   "fact": "In 1998 a nearly 10-ton concrete moai replica on a wooden sledge with rails was pulled by 60 Rapa Nui people almost 100 m on the first day (Van Tilburg, filmed by NOVA); Van Tilburg doubts that upright methods suit Rapa Nui's terrain.",
+   "source": "PBS NOVA 1998 dispatches; Easter Island Statue Project, Transport"
+  },
+  {
+   "fact": "Rapanui oral traditions say the statues 'walked' from the quarry (recorded by Thomson 1889 and Metraux 1940).",
+   "source": "Lipo, Hunt & Rapu Haoa 2013; Lipo & Hunt 2025"
+  },
+  {
+   "fact": "Road moai have wide, D-shaped bases and lean forward, and lack eye sockets; roads are about 4.5 m wide with concave cross-sections; 51.6 percent of the 62 road moai lie within 2 km of Rano Raraku, an exponential fall-off expected from transport failures; in 2012 a precisely scaled 4.35 t replica was walked 100 m in 40 minutes by 18 people with three ropes.",
+   "source": "Lipo & Hunt 2025, JAS 183: 106383; Lipo, Hunt & Rapu Haoa 2013; University of Arizona news, October 2025"
+  },
+  {
+   "fact": "Some archaeologists (Richards, Hamilton and colleagues) argue the roadside statues were erected along the roads on purpose, as ceremonial avenues towards the quarry, rather than abandoned in transit.",
+   "source": "Richards 2010; Richards et al. 2011; World Archaeology magazine 42 (2010)"
+  },
+  {
+   "fact": "Diamond's Collapse (2005) called Easter Island the clearest example of a society that destroyed itself by overexploiting its resources, with a peak of perhaps 15,000 people or more and a collapse around 1680.",
+   "source": "Diamond 2005 (as summarised by Columbia Magazine 2024 and others)"
+  },
+  {
+   "fact": "Bayesian modelling of radiocarbon dates shows platform (ahu) construction began soon after settlement, increased between the early 14th and mid-15th centuries, and continued at a steady rate beyond European contact in 1722.",
+   "source": "DiNapoli et al. 2020, JAS 116: 105094"
+  },
+  {
+   "fact": "Approximate Bayesian Computation of summed radiocarbon dates shows the population was resilient to environmental and climatic change and grew until European contact.",
+   "source": "DiNapoli et al. 2021, Nature Communications 12: 3939"
+  },
+  {
+   "fact": "Rock gardens (lithic mulch) mapped island-wide from WorldView-3 short-wave infrared imagery with machine learning cover 0.76 km2 (about 0.5 percent of the island), against earlier estimates of 4.9 to 21.1 km2; average carrying capacity about 2,000, about 3,000 with marine and other foods, never more than about 4,000 from the gardens alone; this matches 18th-century European reports.",
+   "source": "Davis et al. 2024, Science Advances 10: eado1459"
+  },
+  {
+   "fact": "Critics say the 2024 map underestimates rock gardens (missing surveyed upland gardens) and overlooks other cultivation practices.",
+   "source": "Science News, 21 June 2024 (C. Stevenson; S. Sherwood and J. A. Van Tilburg)"
+  },
+  {
+   "fact": "A 2017 model of agricultural limits allowed average sustainable populations of about 3,500 (low nitrogen) to 17,500 (high nitrogen), and more than 25,000 under some assumptions; its authors frame pre-contact Rapa Nui in terms of constraint rather than collapse.",
+   "source": "Puleston et al. 2017, Frontiers in Ecology and Evolution 5: 69; Puleston et al. 2018 response, Frontiers in Ecology and Evolution"
+  },
+  {
+   "fact": "Obsidian hydration dating shows land use in the dry northwest declining after about 1650 and in the interior after about 1705, before European contact, in response to regional rainfall and soil limits.",
+   "source": "Stevenson et al. 2015, PNAS 112: 1025-1030"
+  },
+  {
+   "fact": "Fifteen Rapanui individuals held in the Musee de l'Homme collections in Paris (Pinart 1877 and Metraux 1935), radiocarbon dated to 1670-1950 CE, were whole-genome sequenced; they are Polynesian and closest to present-day Rapanui; simulations reject a severe bottleneck in the 1600s; the population grew steadily from the 13th century to European contact; ancient and present-day Rapanui carry about 10 percent Native American ancestry, admixed about 1250-1430 CE; the team met Rapanui community representatives and the results support repatriation.",
+   "source": "Moreno-Mayar et al. 2024, Nature 633: 389-397; University of Copenhagen press release, 11 September 2024"
+  },
+  {
+   "fact": "An earlier ancient DNA study of five Rapanui individuals found no Native American ancestry before European contact.",
+   "source": "Fehren-Schmitz et al. 2017, Current Biology 27: 3209-3215"
+  },
+  {
+   "fact": "Jacob Roggeveen's Dutch ships arrived on Easter Sunday, 5 April 1722, naming the island; ten or twelve islanders were shot dead at the landing; Dutch (1722) and Spanish (1770) visitors saw only standing statues, Cook's crew in 1774 saw many toppled, and by 1838 the only standing moai were at Rano Raraku and Orongo; none stood on platforms by the 1860s.",
+   "source": "Fischer 2005, p. 64 and passim"
+  },
+  {
+   "fact": "Peruvian slave raids from December 1862 took more than 1,400 Rapanui (about a third of the population, some estimates half); most died in Peru within two years; a dozen or so survivors returned with smallpox, which caused an epidemic; with departures in the 1870s the population fell to about 110 (111 in 1877).",
+   "source": "Maude 1981; Fischer 2005, pp. 86-91; Moreno-Mayar et al. 2024 (about 110)"
+  },
+  {
+   "fact": "Until the 1960s the Rapanui were confined to Hanga Roa while the rest of the island was leased as a sheep ranch (Williamson-Balfour to 1953, then the Chilean Navy until 1966).",
+   "source": "Fischer 2005"
+  },
+  {
+   "fact": "Rongorongo was first noticed by outsiders in 1864 (the missionary Eugene Eyraud); fewer than 30 inscribed wooden objects survive (26 inscriptions in Barthel's corpus); it is undeciphered and written in reverse boustrophedon (left to right, each line turned 180 degrees).",
+   "source": "Ferrara et al. 2024; Lastilla et al. 2022, DSH 37: 497-516; Fischer 1997"
+  },
+  {
+   "fact": "In 1770, during the Spanish visit, islanders were observed writing and practising with a quill; contact as a stimulus for the script cannot be excluded.",
+   "source": "Ferrara et al. 2024"
+  },
+  {
+   "fact": "Four tablets held by the Congregation of the Sacred Hearts in Rome, collected in 1869 for Bishop Tepano Jaussen, were radiocarbon dated: three date to the 19th century; Tablet D (Echancree, 'notched') is of Podocarpus latifolia, native to southern Africa, dated 1493-1509 cal AD (68.3 percent), before European contact; the wood may have arrived as driftwood or from European vessels and gives only a date after which it was carved.",
+   "source": "Ferrara et al. 2024, Scientific Reports 14: 2794"
+  },
+  {
+   "fact": "Writing was invented independently in Mesopotamia, Egypt, China and Mesoamerica; if Tablet D was inscribed before contact, rongorongo could be one of the few independent inventions of writing.",
+   "source": "Ferrara et al. 2024"
+  }
+ ],
+ "names": [
+  {
+   "name": "Rapa Nui",
+   "say": "RAH-pah NOO-ee"
+  },
+  {
+   "name": "Rapanui",
+   "say": "rah-pah-NOO-ee"
+  },
+  {
+   "name": "moai",
+   "say": "MOH-eye"
+  },
+  {
+   "name": "Rano Raraku",
+   "say": "RAH-noh rah-RAH-koo"
+  },
+  {
+   "name": "Anakena",
+   "say": "ah-nah-KEH-nah"
+  },
+  {
+   "name": "Hotu Matua",
+   "say": "HOH-too mah-TOO-ah"
+  },
+  {
+   "name": "Paro",
+   "say": "PAH-roh"
+  },
+  {
+   "name": "rongorongo",
+   "say": "RONG-oh-RONG-oh (in LEX)"
+  },
+  {
+   "name": "Polynesian",
+   "say": "pol-ih-NEE-zhun"
+  },
+  {
+   "name": "Mesoamerica",
+   "say": "meh-zoh-uh-MEH-rih-kuh"
+  }
+ ],
+ "words": 1517
+}
