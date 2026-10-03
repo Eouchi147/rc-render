@@ -177,6 +177,22 @@ LEX.update({"roswell": "ɹˈɑːzwɛl", "roswell's": "ɹˈɑːzwɛlz", "alamogor
             "symi": "sˈiːmi", "tutankhamun's": "tˌuːtɑːŋkˈɑːmuːnz", "valerios": "vɑːlˈɛɹioʊs"})
 
 
+# long-form round 6 names (4 Oct 2026, LF.26 to LF.30): espeak said "goh-dog", "rose-why-felin", "wawn mawn", "mag-lee",
+# "BEL-mont", "MOH-ee", "AN-ayk-nuh", "HAH-doo", "ree-yad", "THYOO-bun", "YOO-nuz", "myoo-iska", "kar-vuh-jul", "lan-oz" (a Welsh ll)...
+LEX.update({"goedog": "ɡˈɔɪdɑːɡ", "craig": "kɹˈaɪɡ", "rhosyfelin": "ɹˌoʊsəvˈɛlɪn", "waun": "wˈaɪn", "mawn": "mˈaʊn",
+            "trilithons": "tɹaɪlˈɪθɑːnz", "archaeoastronomers": "ˌɑːɹkioʊəstɹˈɑːnəmɚz", "giulio": "dʒˈuːlioʊ", "magli": "mˈɑːlji",
+            "belmonte": "bɛlmˈɑːnteɪ", "malagasy": "mˌæləɡˈæsi", "ramilisonina": "ɹˌɑːmiːlˌiːsuːnˈiːnə",
+            "rapanui": "ɹˌɑːpɑːnˈuːi", "moai": "mˈoʊaɪ", "raraku": "ɹɑːɹˈɑːkuː", "anakena": "ˌɑːnɑːkˈeɪnə", "hotu": "hˈoʊtuː",
+            "matua": "mɑːtˈuːə", "paro": "pˈɑːɹoʊ",
+            "riyadh": "ɹiːjˈɑːd", "badawy": "bɑːdˈɑːwi", "thuban": "θˈuːbæn", "unas": "ˈuːnɑːs",
+            "muisca": "mwˈiːskə", "orellana": "ˌɔːɹeɪjˈɑːnə", "carvajal": "kˌɑːɹvɑːhˈɑːl", "carvajal's": "kˌɑːɹvɑːhˈɑːlz",
+            "rimell": "ɹˈɪməl", "afukaka": "ˌɑːfuːkˈɑːkə", "acai": "ˌɑːsɑːˈiː", "açaí": "ˌɑːsɑːˈiː", "llanos": "jˈɑːnoʊs",
+            "mojos": "mˈoʊhoʊs", "casarabe": "kˌɑːsɑːɹˈɑːbeɪ", "landivar": "lɑːndˈiːvɑːɹ", "landívar": "lɑːndˈiːvɑːɹ",
+            "sangay": "sɑːŋɡˈaɪ", "rostain": "ɹɔːstˈæn", "akre": "ˈɑːkɹeɪ",
+            "denisova": "dᵻnˈiːsəvə", "altai": "ɑːltˈaɪ", "kazakhstan": "kˌɑːzɑːkstˈɑːn", "denis": "dˈɛnɪs",
+            "magbukon": "mɑːɡbˈuːkɔːn"})
+
+
 def _key(w):
     return re.sub(r"[^\wöüışçğ'’]", "", w.lower()).replace("’", "'")
 
