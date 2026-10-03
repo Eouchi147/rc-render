@@ -2158,7 +2158,7 @@ def film():
     assert "{chapters}" in desc and "mm:ss" not in desc
     ep = {"id": "lf-piri-reis", "code": "LF.20", "series": script["series"], "title": script["title"], "case": "piri-reis",
           "verdict": "debunked", "claim": "Does a map from 1513 show Antarctica's coast free of ice?", "mood": "mystery",
-          "hook_text": "Antarctica, drawn before the *ice*?", "beats": beats, "shots": shots,
+          "hook_text": "Antarctica before the *ice*?", "beats": beats, "shots": shots,
           "sources": "Piri Reis 1513 (Topkapı Palace) · McIntosh 2000 · Soucek 1992 · Kahle 1933 (doi:10.2307/209247) · Hapgood 1966, with the Ohlmeyer letter of 1960 · "
                      "Fretwell et al. 2013 (doi:10.5194/tc-7-375-2013) · Ruth et al. 2007 (doi:10.5194/cp-3-475-2007) · DeConto & Pollard 2003 (doi:10.1038/nature01290) · "
                      "Hublin et al. 2017 (doi:10.1038/nature22336)",
