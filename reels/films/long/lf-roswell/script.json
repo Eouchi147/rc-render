@@ -1,0 +1,665 @@
+{
+ "id": "lf-roswell",
+ "kind": "case",
+ "series": "The Files",
+ "title": "Roswell: What Fell on the Ranch",
+ "intro_title": "Roswell: What Fell on the Ranch",
+ "yt_title": "The US Army Said It Captured a Flying Saucer. What Was It?",
+ "verdict": "Ruled out",
+ "verdict_scope": "An alien craft fell on the Foster ranch near Roswell in 1947 (the debris Brazel found and Marcel collected): Ruled out. Every record from July 1947 (the 9 July interview, the FBI teletype, the Fort Worth photographs and identification, the base history) describes about five pounds of rubber, foil, paper, sticks and flower-printed tape, and a secret Project Mogul balloon train, launched ten days earlier and never recovered, matches it down to the tape. Graded separately in the weighing: a secret in 1947 (Project Mogul), hidden behind the weather balloon explanation: Established; the debris came from a Mogul balloon train: Strong evidence (the gap: which flight, since Flight 4 rests on one diary and a reconstructed wind path); the bodies as later memories merged (the 1997 Air Force explanation): Plausible; the 1995 autopsy film as genuine: Ruled out (its maker calls it a re-creation); bodies or a second craft recovered elsewhere and hidden: Awaiting evidence (no piece, photo or document from 1947; the accounts began 31 to 55 years later and contradict each other). Why this is sharper than the Short's single 'Awaiting evidence': the deep dive separates the claim the 1947 record can test, the ranch debris, from the later claims it cannot.",
+ "hook": "What really fell on that ranch?",
+ "end_line": "About two kilos of foil, rubber and flowered tape, and a legend that outgrew them.",
+ "structure_note": "chapters[0] is the cold open and the title beat (no chapter card; YouTube chapter 0:00). Chapters 1 to 4 are the story chapters; 'The weighing' carries the verdict, the test and the close. Shot ids s1..s45 are in story order (s5t is the title card over s5; s10 returns to the New Mexico map of s6, closer; s37 adds to the time line of s36).",
+ "chapters": [
+  {
+   "title": "Cold open",
+   "beats": [
+    {
+     "role": "hook",
+     "lines": [
+      "[d:intrigue][sfx:boom][act:hushed, vivid]The eighth of July, {1947|nineteen forty-seven}, Roswell, New ^Mexico. [act:the image, slow]The local paper's front ^page: [p:0.93][act:reading it out, amazed][tune:fall]the army air field has captured a flying ^saucer.",
+      "[d:tension][act:the detail, precise]The news came from the base ^itself, [act:the stakes, low][tune:fall]home to the only unit in the world trained to drop atomic ^bombs.",
+      "[d:reveal][act:the reversal, dry]By the next morning, the army had a new ^story: [act:deadpan][tune:fall]a weather ^balloon. [act:the long view, quieter]For thirty years, the story ^slept. [act:building][tune:fall]Then it woke up ^bigger: a crashed craft, alien ^bodies, a ^cover-up.",
+      "[d:tension][act:the child's question, leaning in][tune:rise]So what really fell on that ^ranch? [act:the stakes, steady][tune:fall]And how did a few kilos of debris become the world's most famous UFO ^story?"
+     ],
+     "shots": [
+      {
+       "id": "s1",
+       "say": "The eighth of July, 1947, Roswell, New Mexico. The local paper's front page: the army air field has captured a flying saucer.",
+       "draw": "THE HERO IMAGE, fully drawn from the first frame: the front page of the Roswell Daily Record of Tuesday 8 July 1947 set over the right half of the frame (x 980..1650), tilted, lit by the dusk: the masthead 'ROSWELL DAILY RECORD', the two-line banner headline in heavy black capitals 'RAAF Captures Flying Saucer' / 'On Ranch in Roswell Region', the subheads 'No Details of Flying Disk Are Revealed' and 'Roswell Hardware Man and Wife Report Disk Seen', columns of grey type lines. Behind it, at the left, the New Mexico ranch country at dusk: a low mesa, a windmill, a wire fence running into the distance, scrub, and a scatter of small foil glints in the grass. Labels build after the hook title clears: '8 July 1947', 'Roswell, New Mexico'.",
+       "reuse": "roswell_m() shot 0, the newspaper page (f13.py), redrawn wide over a ranch at dusk"
+      },
+      {
+       "id": "s2",
+       "say": "The news came from the base itself, home to the only unit in the world trained to drop atomic bombs.",
+       "draw": "Roswell Army Air Field at dusk: a long runway, two hangars, a control tower with a lit window, a B-29 silhouette parked on the apron (to scale with a hangar), a flagpole. Labels pop as said: 'Roswell Army Air Field', then '509th Bomb Group', then a small tag 'the only atomic bomb unit, 1947'. A thin dotted line runs from the base out to the left edge, towards the ranch."
+      },
+      {
+       "id": "s3",
+       "say": "By the next morning, the army had a new story: a weather balloon.",
+       "draw": "The next day's front page slides in over the first, tilted: 'Gen. Ramey Empties Roswell Saucer' (Roswell Daily Record, 9 July 1947). Beside it a white weather balloon rises on its string with a small radar reflector (a foil box kite) hanging below; the word 'saucer' on the first paper is struck through in red as 'weather balloon' is said."
+      },
+      {
+       "id": "s4",
+       "say": "For thirty years, the story slept. Then it woke up bigger: a crashed craft, alien bodies, a cover-up.",
+       "draw": "A time line 1945 to 2025 draws itself across the panel; at 1947 a small gold dot ('1947'); the stretch 1947 to 1978 stays empty and dim ('30 years'); at 1978 the line lights and three dotted lilac icons pop above the later decades as named: a saucer ('a crashed craft'), a small figure ('alien bodies'), a folder with a 'cover-up' stamp. The icons are drawn in the dotted 'claimed' style."
+      },
+      {
+       "id": "s5",
+       "say": "So what really fell on that ranch? And how did a few kilos of debris become the world's most famous UFO story?",
+       "draw": "The ranch again, now at night under a quarter moon: the scatter of debris glinting in the grass (a few small pieces); a lilac question mark glows above it. At the right, a tall dim stack rises (books, film reels, a museum's facade) far larger than the debris: 'a few kilos' under the debris, 'the most famous UFO story' over the stack."
+      }
+     ]
+    },
+    {
+     "role": "title",
+     "lines": [
+      "[d:calm][act:warm, setting out]Roswell: what fell on the ^ranch. [act:the promise, steady][tune:fall]The record@noun, one document at a ^time."
+     ],
+     "shots": [
+      {
+       "id": "s5t",
+       "say": "Roswell: what fell on the ranch. The record, one document at a time.",
+       "draw": "The night ranch of s5 held and dimmed under the full-frame intro title card 'Roswell: What Fell on the Ranch'."
+      }
+     ],
+     "intro": true
+    }
+   ]
+  },
+  {
+   "title": "A disc in the paper",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:storytelling, setting the scene]It starts with a rancher in a ^hurry. [p:0.93][act:plain storytelling]On the fourteenth of June, {1947|nineteen forty-seven}, Mac ^Brazel, the foreman of a sheep ranch north-west of Roswell, came across a patch of scattered ^debris. [act:a small smile][tune:fall]He had his rounds to make, so he left it ^there.",
+      "[d:build][act:explaining, clear]Ten days later, a pilot flying past Mount ^Rainier, in Washington State, reported nine shiny objects@noun, moving, he said, like saucers skipped across ^water. [act:the craze, a small smile][tune:fall]Within days, the papers were full of flying ^saucers, and some offered rewards for ^one.",
+      "[d:calm][act:plain storytelling]On the fourth of July, Brazel went back with his family and gathered the debris ^up. [act:counting them off][tune:level]Rubber ^strips. [act:counting on][tune:level]^Tinfoil. [act:counting on][tune:level]A rather tough ^paper. [act:the last one][tune:fall]And ^sticks, [act:the detail, intrigued]some held together with tape printed with ^flowers."
+     ],
+     "shots": [
+      {
+       "id": "s6",
+       "say": "On the fourteenth of June, 1947, Mac Brazel, the foreman of a sheep ranch north-west of Roswell, came across a patch of scattered debris. He had his rounds to make, so he left it there.",
+       "draw": "A map of New Mexico (View(-109.3, -102.7, 31.5, 37.2)) in sand tones: pins 'Roswell' and 'the Foster ranch' (33.95 N, 105.30 W, about 100 km north-west of Roswell); a scale bar '50 km'. Inset at the right: the ranch at noon, a man on horseback passing a small patch of glinting debris in the grass; '14 June 1947'; a dashed arrow: he rode on ('left it there').",
+       "reuse": "roswell_m() shot 1, the New Mexico map (f13.py), redrawn wide"
+      },
+      {
+       "id": "s7",
+       "say": "Ten days later, a pilot flying past Mount Rainier, in Washington State, reported nine shiny objects, moving, he said, like saucers skipped across water. Within days, the papers were full of flying saucers, and some offered rewards for one.",
+       "draw": "A map of the western United States: pin 'Mount Rainier' in Washington State, '24 June 1947'; a small plane and, beside it, a chain of nine small bright crescents in the dotted 'claimed' style ('nine shiny objects'); a saucer skipping across water in three small arcs ('like saucers skipped across water'). Then newspapers stack up at the right, each with a 'FLYING SAUCER' headline, and a tag pops: 'rewards offered'."
+      },
+      {
+       "id": "s8",
+       "say": "On the fourth of July, Brazel went back with his family and gathered the debris up. Rubber strips. Tinfoil. A rather tough paper. And sticks, some held together with tape printed with flowers.",
+       "draw": "The debris laid out on the dark ground in a row, each piece popping as it is named, with a label beneath: grey rubber strips ('rubber strips'), a crumpled sheet of foil ('tinfoil'), a torn sheet of tough paper ('tough paper'), thin square sticks ('sticks'), and a strip of tape printed with small pink flowers wound around two sticks ('tape with flowers'). Four family figures stand at the left, gathering ('4 July'). True to the record: no metal parts, nothing heavy.",
+       "reuse": "roswell_m() 'ground' panel (f13.py): rubber, foil, paper, sticks, redrawn wide"
+      }
+     ],
+     "chapter": "A disc in the paper"
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:the turn, curious]The next day, he heard about the flying ^saucers. [act:amused, quoting the paper]On Monday, in town to sell his wool, he whispered to the sheriff, kinda confidential like, that he might have found a flying ^disc. [act:brisk][tune:fall]The sheriff called the air ^base.",
+      "[d:build][act:plain, brisk]The base sent its intelligence officer, Major Jesse ^Marcel, with a counter-intelligence ^officer. [act:matter of fact][tune:fall]They loaded up the debris and brought it ^back. [p:0.93][act:the moment, slow]On the eighth of July, the base announced it had gained possession of a flying ^disc. [act:the scale, a little amazed][tune:fall]The news raced along the wires, into papers across the ^country."
+     ],
+     "shots": [
+      {
+       "id": "s9",
+       "say": "The next day, he heard about the flying saucers. On Monday, in town to sell his wool, he whispered to the sheriff, kinda confidential like, that he might have found a flying disc. The sheriff called the air base.",
+       "draw": "A small-town street in Roswell, 1947, at noon: low storefronts, a pickup truck with wool bales in the back, the sheriff's office door. Brazel's figure leans towards the sheriff's figure; a small dotted speech bubble with a tiny saucer in it ('a flying disc?'). Then a telephone line draws itself from the office to the base on the horizon ('the sheriff calls the base'); '7 July'."
+      },
+      {
+       "id": "s10",
+       "say": "The base sent its intelligence officer, Major Jesse Marcel, with a counter-intelligence officer. They loaded up the debris and brought it back.",
+       "draw": "The New Mexico map (alias of s6, closer): a car icon drives from the 'Roswell Army Air Field' pin to the ranch along a dashed road and back; two small figures at the ranch labelled 'Maj. Jesse Marcel' and 'a counter-intelligence officer'; the debris pieces lift into the car."
+      },
+      {
+       "id": "s11",
+       "say": "On the eighth of July, the base announced it had gained possession of a flying disc. The news raced along the wires, into papers across the country.",
+       "draw": "A typed press release sheet rises: '509th Bomb Group', '8 July 1947', a typed line 'possession of a flying disc' highlighted in gold. Then, at the right, a map of the United States: teleprinter lines race out from Roswell to dots in cities across the country, each dot popping a tiny newspaper ('across the country')."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:tension][act:dry, unimpressed]That same evening, at headquarters in Fort Worth, Texas, a general showed reporters the debris, spread on his office ^floor. [act:deadpan][tune:fall]His weather officer named it: a balloon, with a radar ^target. [act:the detail, plain][tune:fall]The photographs still exist: foil, sticks and torn ^rubber.",
+      "[d:aside][act:the rancher's side, gentle]The next day, Brazel gave the paper his own ^account. [act:reading it out][tune:level]The whole bundle weighed maybe five pounds, about two ^kilos. [act:reading on][tune:fall]No sign of any metal for an ^engine. [act:fair, his point]He had found weather balloons ^before, [act:the twist][tune:fall]and this looked like neither of ^them. [act:a small smile][tune:fall]Next time, he said, unless it was a ^bomb, he would keep it to ^himself."
+     ],
+     "shots": [
+      {
+       "id": "s12",
+       "say": "That same evening, at headquarters in Fort Worth, Texas, a general showed reporters the debris, spread on his office floor. His weather officer named it: a balloon, with a radar target. The photographs still exist: foil, sticks and torn rubber.",
+       "draw": "An office at night seen from above at an angle: a carpet, a desk, a map on the wall; the debris spread on the floor (crumpled foil, sticks in a broken box-kite frame, shredded rubber); a general's figure crouching beside it; two photographers' flashes burst. Labels: 'Fort Worth, 8 July, evening'; then 'a balloon' and 'a radar target' point at the rubber and at a reassembled foil reflector (a hexagon outline). A small photo frame with the same scene pops: 'the photographs'."
+      },
+      {
+       "id": "s13",
+       "say": "The next day, Brazel gave the paper his own account. The whole bundle weighed maybe five pounds, about two kilos. No sign of any metal for an engine. He had found weather balloons before, and this looked like neither of them. Next time, he said, unless it was a bomb, he would keep it to himself.",
+       "draw": "The 9 July paper's column ('Harassed Rancher who Located Saucer Sorry He Told About It', schematic); beside it a kitchen scale tips under a small bundle: 'about 5 lb, 2 kg'; a gear and a nut in dotted lilac, struck through in red ('no metal, no engine'); two small weather balloons he had found before, with a dashed 'not like these' bracket.",
+       "reuse": "roswell_m() 'ground' panel: the struck-through engine and metal (f13.py)"
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:calm][act:closing the file, dry]The base's own history for that month closed the file in one ^line: [act:quoting, flat][tune:fall]the object@noun turned out to be a radar tracking ^balloon."
+     ],
+     "shots": [
+      {
+       "id": "s14",
+       "say": "The base's own history for that month closed the file in one line: the object turned out to be a radar tracking balloon.",
+       "draw": "A typed unit history page under a desk lamp: '509th Bomb Group, history, July 1947'; one line lights in gold: 'The object turned out to be a radar tracking balloon.' A manila folder closes over it."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Thirty years later",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:the long quiet, slow]Then, for thirty years, almost ^nothing. [act:explaining, plain]The saucer craze moved ^on, [act:a small smile][tune:fall]and Roswell became a ^footnote.",
+      "[d:build][act:the turn, news that changes everything]In {1978|nineteen seventy-eight}, a nuclear physicist turned UFO researcher, Stanton ^Friedman, tracked down Jesse ^Marcel, long ^retired. [act:firm, reporting him]Marcel told him the weather balloon had been a cover ^story."
+     ],
+     "shots": [
+      {
+       "id": "s15",
+       "say": "The saucer craze moved on, and Roswell became a footnote.",
+       "draw": "The time line of s4, close on 1947 to 1978: the stretch between them is a long dim road with a few faint dots; a book page lies open below, its text in grey lines, with a tiny footnote marker and a one-line footnote at the bottom: 'Roswell'."
+      },
+      {
+       "id": "s16",
+       "say": "In 1978, a nuclear physicist turned UFO researcher, Stanton Friedman, tracked down Jesse Marcel, long retired. Marcel told him the weather balloon had been a cover story.",
+       "draw": "A small map of the southern US: a line from New Mexico to Louisiana, pin 'Houma, Louisiana', where Marcel lived; at the right two seated figures facing each other at a table under a lamp: labels 'Stanton Friedman', 'Jesse Marcel', '1978'. A dotted lilac card rises from Marcel: 'the balloon was a cover story' (his claim, dotted)."
+      }
+     ],
+     "chapter": "Thirty years later"
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:his account, respectful]The debris, Marcel said, was like nothing he had ^seen. [act:counting them off][tune:level]Pieces as light as balsa ^wood. [act:counting on][tune:level]Pieces that would not ^burn. [act:the last one][tune:level]Markings like Chinese ^writing. [p:0.93][act:quoting him, quiet][tune:fall]It came to earth, he said, but not from ^earth.",
+      "[d:build][act:building, a little faster]In {1980|nineteen eighty} came a tabloid front ^page, and a book, The Roswell ^Incident, whose authors said they had talked to more than ninety ^people. [act:the escalation][tune:fall]More books followed, and by the {1990s|nineteen nineties}, ^hundreds of ^interviews.",
+      "[d:reveal][act:the story growing, vivid]With each book, the story ^grew. [act:counting them off][tune:level]A second crash site, two hundred and forty kilometres west, with ^bodies. [act:counting on][tune:level]Then two ^saucers, and eight ^aliens. [act:the last one][tune:fall]Then a new site, north of ^Roswell. [act:dry, even][tune:fall]The versions disagree on where it fell, and on who was ^aboard."
+     ],
+     "shots": [
+      {
+       "id": "s17",
+       "say": "The debris, Marcel said, was like nothing he had seen. Pieces as light as balsa wood. Pieces that would not burn. Markings like Chinese writing. It came to earth, he said, but not from earth.",
+       "draw": "Three dotted lilac cards (his account) pop as named: a small balance that stays level with a strip of balsa on one pan and nothing on the other ('light as balsa'); a lighter flame under a piece that stays unburnt ('would not burn'); a stick with small lilac markings ('markings like writing'). Then, below, in lilac italics: 'not from earth' (header: Jesse Marcel's account, 1979)."
+      },
+      {
+       "id": "s18",
+       "say": "In 1980 came a tabloid front page, and a book, The Roswell Incident, whose authors said they had talked to more than ninety people. More books followed, and by the 1990s, hundreds of interviews.",
+       "draw": "A tabloid front page pops ('1980', a big saucer headline, schematic) and a book cover 'The Roswell Incident' (1980); a grid of ninety small figures fills in beside it ('over 90 people'). Then a shelf of books grows to the right with years on their spines (1991, 1992, 1994) and a counter of interview cassettes rises: 'hundreds of interviews'."
+      },
+      {
+       "id": "s19",
+       "say": "With each book, the story grew. A second crash site, two hundred and forty kilometres west, with bodies. Then two saucers, and eight aliens. Then a new site, north of Roswell. The versions disagree on where it fell, and on who was aboard.",
+       "draw": "A fresh map of New Mexico: the Foster ranch pin solid ('1947: debris'). Dotted lilac crash sites pop as named, each with its year: 'Plains of San Agustin' about 240 km west of the ranch ('1980: bodies'); a pair of small saucers ('1992: two saucers, eight aliens'); a site about 55 km north of Roswell ('1994: a new site'). Dotted lines join them all to the one solid pin."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:aside][act:quiet, careful]Even the officer who wrote the {1947|nineteen forty-seven} press release, Walter ^Haut, left a sealed statement, opened after his ^death: [act:reporting it straight][tune:fall]he had seen a craft, and ^bodies. [act:the caveat, fair][tune:fall]He signed it in {2002|two thousand and two}, fifty-five years ^on. [act:even][tune:fall]In {1993|nineteen ninety-three}, under oath, he had described ^neither.",
+      "[d:aside][act:a quiet caveat, lower]Most of these accounts were given thirty to fifty years after the ^event. [p:0.93][act:explaining, warm]When a memory and an old photograph ^disagree, you trust the ^photograph. [act:explaining, clear][tune:fall]And here, our photograph is the {1947|nineteen forty-seven} ^newspaper.",
+      "[d:build][act:comparing, precise]In {1947|nineteen forty-seven}, the rancher described debris spread over about two hundred ^yards. [act:the contrast][tune:fall]By {1979|nineteen seventy-nine}, Marcel remembered a field three-quarters of a mile ^long. [act:fair, kind]Nobody has to be lying for that to ^happen. [act:the point, gentle][tune:fall]Memories drift, and stories told again and again drift ^faster."
+     ],
+     "shots": [
+      {
+       "id": "s20",
+       "say": "Even the officer who wrote the 1947 press release, Walter Haut, left a sealed statement, opened after his death: he had seen a craft, and bodies. He signed it in 2002, fifty-five years on. In 1993, under oath, he had described neither.",
+       "draw": "A sealed envelope with a red wax seal lies on a desk; it opens and a typed statement rises ('Walter Haut', 'signed 2002', 'published 2007'); a dotted lilac line on it lights: 'a craft and bodies' (his claim). Below, a bar from 1947 to 2002 draws itself: '55 years'."
+      },
+      {
+       "id": "s21",
+       "say": "Most of these accounts were given thirty to fifty years after the event. When a memory and an old photograph disagree, you trust the photograph. And here, our photograph is the 1947 newspaper.",
+       "draw": "A bracket over 1977 to 1997 on a small time line ('30 to 50 years after'); then a framed old photograph of a house beside a dotted thought bubble with the same house drawn bigger and different (an extra storey, a tower): a gold tick on the photograph. The photograph slides aside and becomes the 9 July 1947 newspaper column: 'our photograph'."
+      },
+      {
+       "id": "s22",
+       "say": "In 1947, the rancher described debris spread over about two hundred yards. By 1979, Marcel remembered a field three-quarters of a mile long. Nobody has to be lying for that to happen. Memories drift, and stories told again and again drift faster.",
+       "draw": "Two debris fields drawn from above to the same scale (1.2 units = 1 m): a solid gold circle about 183 m across ('1947: about 200 yards', the rancher) and below it a dotted lilac strip about 1,200 m long and about 80 m wide ('1979: three-quarters of a mile', Marcel's memory); a scale bar '200 m'. The strip draws itself out to its full length as the line is said."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "A secret in the sky",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:the turn, setting it up]The next clue came out of ^Congress. [p:0.93][act:explaining, plain]In {1994|nineteen ninety-four}, a New Mexico congressman, Steven ^Schiff, worried that the Pentagon had not told him everything, asked Congress's own auditors to search the ^files. [act:the result, firm][tune:fall]The Air Force searched its own, and that year it named a ^secret: Project@noun ^Mogul."
+     ],
+     "shots": [
+      {
+       "id": "s23",
+       "say": "In 1994, a New Mexico congressman, Steven Schiff, worried that the Pentagon had not told him everything, asked Congress's own auditors to search the files. The Air Force searched its own, and that year it named a secret: Project Mogul.",
+       "draw": "The Capitol dome at the left ('Congress'), a figure 'Steven Schiff, New Mexico'; an arrow to a building 'the auditors, GAO'; a second arrow to a filing room 'Air Force records' where drawers slide open; a folder lifts out and a red 'TOP SECRET' stamp thumps on it, then the name 'PROJECT MOGUL' is typed across it; '1994'."
+      }
+     ],
+     "chapter": "A secret in the sky"
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:explaining, brisk]Mogul was top ^secret. [act:the stakes, serious]America wanted to know the moment the Soviet Union tested an atomic ^bomb. [p:0.93][act:explaining, clear]The idea: high in the sky, the low rumble of a distant blast might travel thousands of kilometres, trapped in a layer of ^air, [act:the everyday picture, warm][tune:fall]the way a whispering gallery carries a whisper around a ^dome.",
+      "[d:build][act:the method, plain]So a team from New York University sent microphones up on ^balloons, launched from ^Alamogordo, about a hundred and forty kilometres from the ^ranch. [act:the scale, impressed]Not one balloon: a ^train. [p:0.93][act:the numbers, savouring them]Up to twenty-three of them on a single line, six metres ^apart: [act:the picture, a smile][tune:fall]longer than a football pitch, stood on ^end.",
+      "[d:build][act:the detail, delighted]Hung on the line were radar reflectors, so it could be ^tracked: balsa sticks and foil-backed ^paper. [act:the payoff, a smile]They were made by a toy ^company, [act:the punchline][tune:fall]which, short of tape, used@verb its own, printed with pink and purple ^flowers."
+     ],
+     "shots": [
+      {
+       "id": "s24",
+       "say": "Mogul was top secret. America wanted to know the moment the Soviet Union tested an atomic bomb. The idea: high in the sky, the low rumble of a distant blast might travel thousands of kilometres, trapped in a layer of air, the way a whispering gallery carries a whisper around a dome.",
+       "draw": "A cross-section of the atmosphere over a curved horizon: at the far left a small red flash and mushroom ('a distant test'); a pale band high in the sky ('a layer of air'); sound rays (dotted blue arcs) leave the flash, bend back and forth inside the band and travel to the right, where a small balloon with a microphone hangs inside the band ('a microphone, listening'). An inset at the top right: a dome in cross-section with a whisper (small arcs) running round its inner wall ('a whispering gallery')."
+      },
+      {
+       "id": "s25",
+       "say": "So a team from New York University sent microphones up on balloons, launched from Alamogordo, about a hundred and forty kilometres from the ranch.",
+       "draw": "A closer map of south-central New Mexico, framed in a window: pin 'Alamogordo Army Air Field', the ranch pin, a dashed line between them '140 km'; at the left a small launch crew figure ('New York University team') beside a balloon train rising."
+      },
+      {
+       "id": "s26",
+       "say": "Not one balloon: a train. Up to twenty-three of them on a single line, six metres apart: longer than a football pitch, stood on end.",
+       "draw": "The train to scale (4.5 units = 1 m): a vertical line about 134 m tall with 23 white balloons spaced 6 m apart, popping from the top down; radar reflectors and a small instrument box hang near the bottom; beside it a football pitch (105 m) drawn standing on end, green with its white lines; at the foot, a 1.7 m person (tiny, ringed). Labels: '23 balloons', '6 m apart', 'a football pitch, 105 m', 'more than 130 m'.",
+       "reuse": "roswell_m() shot 2, the iso balloon train (f13.py), redrawn wide and to scale"
+      },
+      {
+       "id": "s27",
+       "say": "Hung on the line were radar reflectors, so it could be tracked: balsa sticks and foil-backed paper. They were made by a toy company, which, short of tape, used its own, printed with pink and purple flowers.",
+       "draw": "Close on one radar reflector, drawn as a box kite of balsa sticks with triangular foil-backed paper faces catching the light ('balsa sticks', 'foil-backed paper'); a radar beam (dotted blue arcs) bounces off it ('so it could be tracked'). Then a roll of tape unrolls along a stick: pink and purple flowers and small geometric marks ('tape from a toy company')."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:leaning in]On the fourth of June, {1947|nineteen forty-seven}, the team launched Flight ^Four. [act:plain][tune:fall]They never got it ^back. [p:0.93][act:the click, slow][tune:fall]Ten days later, Mac Brazel came across his ^debris.",
+      "[d:build][act:counting them off, the match][tune:level]Rubber from the ^balloons. [act:counting on][tune:level]Foil and paper from the ^reflectors. [act:counting on][tune:level]Balsa ^sticks. [act:the last one, a smile][tune:fall]Tape with ^flowers. [act:the callback, quiet]And Marcel's strange ^markings? [act:the reveal][tune:fall]In {1994|nineteen ninety-four}, the weather officer from Fort Worth recalled Marcel showing him pink or lavender figures on the sticks, and calling them alien ^writing."
+     ],
+     "shots": [
+      {
+       "id": "s28",
+       "say": "On the fourth of June, 1947, the team launched Flight Four. They never got it back. Ten days later, Mac Brazel came across his debris.",
+       "draw": "Two calendar pages: '4 June 1947' (gold) with a balloon train drifting off the top of the frame, 'Flight 4', and a dashed 'never recovered' tag; then '14 June 1947' with the patch of debris on the ranch; a dotted line joins the launch to the ranch on a small map ('10 days')."
+      },
+      {
+       "id": "s29",
+       "say": "Rubber from the balloons. Foil and paper from the reflectors. Balsa sticks. Tape with flowers.",
+       "draw": "The match: at the left, the rancher's 1947 list as four small pictures (rubber, foil and paper, sticks, flowered tape: from s8); at the right, the parts of a Mogul train (a balloon, a reflector face, a balsa stick, the flowered tape); gold lines join each pair as named and a green tick pops on each."
+      },
+      {
+       "id": "s30",
+       "say": "And Marcel's strange markings? In 1994, the weather officer from Fort Worth recalled Marcel showing him pink or lavender figures on the sticks, and calling them alien writing.",
+       "draw": "Close on one balsa stick with the toy company's tape: small pink and lavender flower and geometric figures; a dotted lilac speech card from a figure ('alien writing?', Marcel, as recalled) and a second figure ('the weather officer') with a plain card: 'figures on tape'; a small tag '1994 statement'."
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:aside][act:wry, a small smile]A real ^secret. [act:dry, pointed][tune:fall]Just not ^that one. [act:fair, the gap]One gap ^remains. [act:explaining]Flight Four never made the project's formal ^reports: [act:plain][tune:fall]its launch rests on one scientist's diary, and its route to the ranch on wind@air ^records@noun. [act:even][tune:fall]Which train it was is still ^argued."
+     ],
+     "shots": [
+      {
+       "id": "s31",
+       "say": "A real secret. Just not that one. One gap remains. Flight Four never made the project's formal reports: its launch rests on one scientist's diary, and its route to the ranch on wind records. Which train it was is still argued.",
+       "draw": "The TOP SECRET Mogul folder of s23 at the left with a gold tick ('a real secret'), a dotted saucer beside it struck through ('not that one'). Then a table of NYU flights (Flight 2 to Flight 9) where flights 2, 3 and 4 are dashed and empty ('not in the formal reports'); a small open diary with a gold line ('one scientist's diary, 4 June'); a dashed path on a wind map ('route from wind records')."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Dummies, a film and lost files",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:build][act:serious, setting the scene]In {1995|nineteen ninety-five}, the auditors ^reported. [p:0.93][act:explaining, plain]They had searched six agencies, and found just two documents from {1947|nineteen forty-seven} about ^Roswell: [act:counting them][tune:level]the base history and its radar tracking ^balloon, [act:the second][tune:fall]and an FBI message describing a hexagonal disc, hanging from a ^balloon.",
+      "[d:build][sfx:hit][act:heavier, deliberate][tune:rise]And the base's outgoing ^messages from those years? [act:flat, final][tune:highfall]Destroyed. [p:0.93][act:precise, even]No record@noun says who destroyed them, when, or on whose ^authority. [act:fair, the stakes][tune:fall]They would have shown what Roswell told its ^superiors."
+     ],
+     "shots": [
+      {
+       "id": "s32",
+       "say": "They had searched six agencies, and found just two documents from 1947 about Roswell: the base history and its radar tracking balloon, and an FBI message describing a hexagonal disc, hanging from a balloon.",
+       "draw": "Six agency buildings in a row, each lit in turn as searched ('6 agencies'); from them only two sheets rise and come forward: the base history page (from s14) and a teletype strip 'FBI, 8 July 1947' with a small drawing of a hexagon hanging from a balloon by a cable ('a hexagonal disc, from a balloon'). Label '2 documents from 1947'."
+      },
+      {
+       "id": "s33",
+       "say": "And the base's outgoing messages from those years? Destroyed. No record says who destroyed them, when, or on whose authority. They would have shown what Roswell told its superiors.",
+       "draw": "Archive shelves; one run of boxes labelled 'outgoing messages, Oct 1946 to Dec 1949' fades to dashed empty outlines; a disposition form below with three blank fields 'who?', 'when?', 'authority?'; then a dashed arrow from Roswell to a box 'its superiors' with a '?'."
+      }
+     ],
+     "chapter": "Dummies, a film and lost files"
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:reveal][act:the strange turn, vivid]That same summer, a grainy black and white film went round the ^world: [act:the image, hushed][tune:fall]figures in protective suits, dissecting a body said to come from ^Roswell. [act:the answer, plain]In {2006|two thousand and six}, the man who released it, Ray ^Santilli, admitted it was a re-creation, filmed on a set in a London ^flat. [act:fair, his side]He calls it a restoration of real footage he says he once ^saw. [act:even][tune:fall]That footage has never been ^shown."
+     ],
+     "shots": [
+      {
+       "id": "s34",
+       "say": "That same summer, a grainy black and white film went round the world: figures in protective suits, dissecting a body said to come from Roswell.",
+       "draw": "An old television set in a dark room glowing grey: on its screen, a grainy schematic scene, two figures in hooded suits beside a table with a sheet over a still form (nothing graphic); scan lines and grain; '1995'. Small globes of broadcast arcs spread from the set ('round the world')."
+      },
+      {
+       "id": "s35",
+       "say": "In 2006, the man who released it, Ray Santilli, admitted it was a re-creation, filmed on a set in a London flat. He calls it a restoration of real footage he says he once saw. That footage has never been shown.",
+       "draw": "Pull back from the screen: the same scene was a set in a room of a flat, with a lamp on a stand, a film camera on a tripod, sheets pinned over the walls, and a sculpted dummy on the table ('a set in a London flat', '2006'). A dotted lilac card: 'a restoration of real footage' (his claim); a dashed empty film can: 'never shown'."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:leaning in]And the bodies people ^remembered? [p:0.93][act:explaining, steady]In {1997|nineteen ninety-seven}, the Air Force gave its ^answer: test ^dummies. [act:the numbers, precise]Sixty-seven of them, carried up by high-altitude balloons over New Mexico, from {1954|nineteen fifty-four} to {1959|fifty-nine}. [act:solemn, careful][tune:fall]Add an air crash in {1956|nineteen fifty-six} that killed eleven ^airmen, and a balloon accident in {1959|fifty-nine} that left a pilot's face badly ^swollen.",
+      "[d:build][act:the theory, clear]Its idea: years of real events, merged in memory into a few days of July {1947|nineteen forty-seven}. [p:0.93][act:the everyday picture, warm]Like holiday photos from different summers, shuffled into one ^album: [act:a small smile][tune:fall]years later, you remember a single ^trip.",
+      "[d:aside][act:fair, conceding]But to many people, it sounded like one more ^change. [act:counting them off][tune:level]A ^disc. [act:counting on][tune:level]A weather ^balloon. [act:counting on][tune:level]^Mogul. [act:the sting, quiet][tune:fall]Dummies that fell seven years too ^late. [act:fair, warm][tune:fall]No wonder trust ran ^out."
+     ],
+     "shots": [
+      {
+       "id": "s36",
+       "say": "And the bodies people remembered? In 1997, the Air Force gave its answer: test dummies. Sixty-seven of them, carried up by high-altitude balloons over New Mexico, from 1954 to 1959.",
+       "draw": "A desert sky: a high balloon with a gondola; dummies (plain human-shaped figures, grey, featureless) descend under parachutes and lie on the ground, recovery trucks approaching. A time line below 1947 to 1960: a band from 1954 to 1959 fills as said, with 67 small dots popping along it ('67 dummies'); the 1947 dot stands alone at the left."
+      },
+      {
+       "id": "s37",
+       "say": "Add an air crash in 1956 that killed eleven airmen, and a balloon accident in 1959 that left a pilot's face badly swollen.",
+       "draw": "The same time line: at 1956 a small dark aircraft silhouette and eleven small quiet marks in a row ('1956: eleven airmen died', respectful, no wreckage drawn); at 1959 a balloon gondola tilted on the ground ('1959: a pilot injured'). Calm, dim colours."
+      },
+      {
+       "id": "s38",
+       "say": "Its idea: years of real events, merged in memory into a few days of July 1947. Like holiday photos from different summers, shuffled into one album: years later, you remember a single trip.",
+       "draw": "The marks at 1954 to 1959 slide left along curved arrows and pile onto the 1947 dot, which becomes a small calendar page 'July 1947' ('merged in memory'). Then three snapshots from different summers (a beach, a mountain, a lake; each with a year in its corner) slide into one album page labelled 'one trip'."
+      },
+      {
+       "id": "s39",
+       "say": "But to many people, it sounded like one more change. A disc. A weather balloon. Mogul. Dummies that fell seven years too late. No wonder trust ran out.",
+       "draw": "Four cards pop in a row as counted: a saucer ('1947: a disc'), a balloon ('1947: a balloon'), a balloon train ('1994: Mogul'), a dummy ('1997: dummies'); a bracket under the last: '1954: seven years after 1947'. Then a trust meter beside them drains from gold to empty.",
+       "reuse": "roswell_m() 'answers' panel (f13.py): four answers, redrawn wide"
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:calm][act:the epilogue, plain]In {2024|twenty twenty-four}, the Pentagon's UFO office went through the history ^again. [act:the answer, even][tune:fall]A military balloon, then dummies and later ^accidents. [act:plain][tune:fall]The same answer, and no new evidence either ^way."
+     ],
+     "shots": [
+      {
+       "id": "s40",
+       "say": "In 2024, the Pentagon's UFO office went through the history again. A military balloon, then dummies and later accidents. The same answer, and no new evidence either way.",
+       "draw": "A report cover rises: 'Historical Record Report, Volume I', 'March 2024'; three lines light on it as said: 'a military balloon', 'test dummies', 'later accidents'; then a balance with both pans empty and level: 'no new evidence'."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The weighing",
+   "beats": [
+    {
+     "role": "weigh",
+     "lines": [
+      "[d:verdict][act:stepping back, calm]So, let's weigh the ^record@noun. [act:the first, firm][tune:fall]A secret in {1947|nineteen forty-seven}, hidden behind a weather ^balloon: ^*Established*. [act:the second, steady][tune:fall]The debris, from a Mogul balloon ^train: *Strong ^evidence*. [act:explaining][tune:fall]It matches down to the ^tape; the gap is which flight, ^exactly. [act:the third, even][tune:fall]The bodies, as later memories ^merged: ^*Plausible*. [act:the fourth, crisp][tune:fall]The autopsy film as real: *Ruled ^out*, by the man who released ^it."
+     ],
+     "shots": [
+      {
+       "id": "s41",
+       "say": "So, let's weigh the record. A secret in 1947, hidden behind a weather balloon: Established. The debris, from a Mogul balloon train: Strong evidence. It matches down to the tape; the gap is which flight, exactly. The bodies, as later memories merged: Plausible. The autopsy film as real: Ruled out, by the man who released it.",
+       "draw": "The ledger board: four rows with small icons (a TOP SECRET folder, a balloon train, a calendar with merged photos, a film can); each row lights as named and its chip pops: 'Established' (a secret, hidden in 1947), 'Strong evidence' (with a small note 'gap: which flight'), 'Plausible', 'Ruled out'."
+      }
+     ],
+     "chapter": "The weighing"
+    },
+    {
+     "role": "weigh",
+     "lines": [
+      "[d:verdict][p:0.95][act:the claim, even][tune:rise]And an alien craft on the ^ranch? [act:explaining, fair]Every document from that July describes rubber, foil, paper and ^sticks, [act:firm][tune:fall]and nothing from the time describes anything ^else. [act:the verdict, level-headed][tune:fall]*Ruled ^out*. [act:the open part, fair][tune:rise]Bodies, or a second craft hidden ^elsewhere? [act:honest, even][tune:fall]*Awaiting ^evidence*, [act:quiet][tune:fall]after almost eighty ^years.",
+      "[d:aside][act:fair, warm]Nobody here needs to be a ^liar. [act:fair, plain]The secrecy was ^real, and so was the distrust it ^earned. [act:the believer's view, respectful]Karl ^Pflock, a former CIA officer who believed in alien ^visitors, spent eight years on ^Roswell, [act:the landing][tune:fall]and concluded it was ^Mogul."
+     ],
+     "shots": [
+      {
+       "id": "s42",
+       "say": "And an alien craft on the ranch? Every document from that July describes rubber, foil, paper and sticks, and nothing from the time describes anything else. Ruled out. Bodies, or a second craft hidden elsewhere? Awaiting evidence, after almost eighty years.",
+       "draw": "An evidence table: five 1947 documents laid in a row (the 8 July paper, the FBI teletype, the 9 July interview, the Fort Worth photograph, the base history), each showing the same four small icons (rubber, foil, paper, sticks); a dotted saucer above them is struck through: chip 'Ruled out' ('an alien craft on the ranch'). Then three dashed empty trays ('a piece', 'a photo', 'a document') under a dotted second craft: chip 'Awaiting evidence' ('elsewhere'); a small label '79 years and counting'."
+      },
+      {
+       "id": "s43",
+       "say": "Nobody here needs to be a liar. The secrecy was real, and so was the distrust it earned. Karl Pflock, a former CIA officer who believed in alien visitors, spent eight years on Roswell, and concluded it was Mogul.",
+       "draw": "A row of quiet silhouettes in warm light (a rancher, an officer, a press officer, a researcher), no faces; above them a TOP SECRET stamp with a gold tick ('real'). Then one figure steps forward: 'Karl Pflock, former CIA officer'; a bar of eight small calendar squares fills ('8 years'), ending on a balloon train icon: 'Mogul'."
+      }
+     ]
+    },
+    {
+     "role": "test",
+     "lines": [
+      "[d:tension][act:what would settle it, inviting][tune:rise]What would change our ^minds? [act:listing][tune:level]One fragment, traced back to {1947|nineteen forty-seven} and tested in the open by independent ^labs. [act:the paper trail][tune:level]Copies of Roswell's lost messages, from the offices that received ^them. [act:the last][tune:fall]Or Flight Four's own records@noun, settling which balloon it ^was."
+     ],
+     "shots": [
+      {
+       "id": "s44",
+       "say": "What would change our minds? One fragment, traced back to 1947 and tested in the open by independent labs. Copies of Roswell's lost messages, from the offices that received them. Or Flight Four's own records, settling which balloon it was.",
+       "draw": "Three dashed panels (tests not yet done) pop as named: a fragment in a sealed evidence bag with a chain of tags back to '1947', beside three lab buildings with dashed ticks ('tested in the open'); a teletype message travelling from Roswell to two receiving offices ('Fort Worth', 'Wright Field') where dashed copies wait ('the copies'); a flight log page 'Flight 4' with its blank rows filling in ('which balloon')."
+      }
+     ]
+    },
+    {
+     "role": "close",
+     "lines": [
+      "[d:calm][act:quiet, the image]On the ranch, the grass grew back long ^ago. [act:soft][tune:fall]What fell there weighed about two ^kilos. [act:quiet, a smile][tune:fall]What grew from it is the most famous UFO story in the ^world.",
+      "[d:calm][act:the sign-off, warm][tune:fall]Weigh it ^yourself."
+     ],
+     "shots": [
+      {
+       "id": "s45",
+       "say": "On the ranch, the grass grew back long ago. What fell there weighed about two kilos. What grew from it is the most famous UFO story in the world. Weigh it yourself.",
+       "draw": "The ranch of the opening at dusk, quiet: the wire fence, the windmill, grass where the debris lay; on one fence barb a short strip of tape with tiny pink flowers stirs in the wind; far off on the horizon, the lights of Roswell. The camera eases back as the light fades a little."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "description": "On 8 July 1947 the army air field at Roswell, New Mexico, told the press it had gained possession of a flying disc, found on a sheep ranch. By the evening it was a weather balloon. Thirty years later the story came back as the world's most famous UFO case: a crashed craft, alien bodies and a cover-up.\n\nWe follow the record in order: Mac Brazel's debris and the base's press release, the photographs in Fort Worth, the long silence, Jesse Marcel's interview of 1978 and the books that followed, the 1995 search by Congress's auditors and the records that were destroyed, the Air Force reports of 1994 and 1997 (Project Mogul's balloon trains from Alamogordo, Flight 4, the test dummies and memories that merge), the 1995 autopsy film, and the Pentagon review of 2024. A secret in 1947: Established. The debris from a Mogul balloon train: Strong evidence. An alien craft on the ranch: Ruled out. Bodies or a second craft elsewhere: Awaiting evidence.\n\nChapters\n0:00 Cold open\nmm:ss A disc in the paper\nmm:ss Thirty years later\nmm:ss A secret in the sky\nmm:ss Dummies, a film and lost files\nmm:ss The weighing\n\nSources\nRoswell Daily Record, 8 and 9 July 1947\nFBI, teletype from Dallas, 8 July 1947 (FBI Vault)\nUS General Accounting Office 1995, Results of a Search for Records Concerning the 1947 Crash Near Roswell, GAO/NSIAD-95-187\nWeaver, R. L. 1994, Report of Air Force Research Regarding the Roswell Incident (US Air Force)\nMcAndrew, J. 1995, Report on Project Mogul, in The Roswell Report: Fact vs. Fiction in the New Mexico Desert (US Air Force)\nMcAndrew, J. 1997, The Roswell Report: Case Closed (US Air Force)\nAARO 2024, Report on the Historical Record of U.S. Government Involvement with UAP, Volume I (US Department of Defense)\nSaler, B., Ziegler, C. A. & Moore, C. B. 1997, UFO Crash at Roswell: The Genesis of a Modern Myth (Smithsonian Institution Press)\nThomas, D. 1995, The Roswell Incident and Project Mogul, Skeptical Inquirer 19(4)\nPflock, K. T. 2001, Roswell: Inconvenient Facts and the Will to Believe (Prometheus Books)\nPratt, B. 1980, interview with Jesse Marcel, National Enquirer, 28 February 1980\nBerlitz, C. & Moore, W. L. 1980, The Roswell Incident (Grosset & Dunlap)\nCarey, T. J. & Schmitt, D. R. 2007, Witness to Roswell (New Page Books)\nEamonn Investigates: Alien Autopsy, Sky One, 4 April 2006\nLoftus, E. F. 2005, Planting misinformation in the human mind, Learning & Memory 12(4): 361-366, doi:10.1101/lm.94705",
+ "sources": [
+  "Roswell Daily Record, 8 July 1947 ('RAAF Captures Flying Saucer On Ranch in Roswell Region') and 9 July 1947 ('Gen. Ramey Empties Roswell Saucer'; 'Harassed Rancher who Located Saucer Sorry He Told About It')",
+  "Federal Bureau of Investigation, teletype from the Dallas office, 8 July 1947 ('Flying disc, information concerning'), FBI Vault",
+  "US General Accounting Office 1995, Government Records: Results of a Search for Records Concerning the 1947 Crash Near Roswell, New Mexico, GAO/NSIAD-95-187 (28 July 1995)",
+  "Schiff, S. 1995, press release on the GAO report, 28 July 1995",
+  "Weaver, R. L. 1994, Report of Air Force Research Regarding the 'Roswell Incident' (Department of the Air Force, July 1994), with the statements of S. Cavitt and I. Newton",
+  "McAndrew, J. 1995, Report on Project Mogul: Synopsis of Balloon Research Findings, in Weaver & McAndrew 1995, The Roswell Report: Fact vs. Fiction in the New Mexico Desert (US Air Force)",
+  "McAndrew, J. 1997, The Roswell Report: Case Closed (Headquarters US Air Force)",
+  "All-domain Anomaly Resolution Office (AARO) 2024, Report on the Historical Record of U.S. Government Involvement with Unidentified Anomalous Phenomena, Volume I (8 March 2024), pp. 21-22",
+  "Saler, B., Ziegler, C. A. & Moore, C. B. 1997, UFO Crash at Roswell: The Genesis of a Modern Myth (Smithsonian Institution Press)",
+  "Thomas, D. 1995, The Roswell Incident and Project Mogul, Skeptical Inquirer 19(4)",
+  "Pflock, K. T. 2001, Roswell: Inconvenient Facts and the Will to Believe (Prometheus Books)",
+  "Pratt, B. 1980, Former intelligence officer reveals 'I picked up wreckage of UFO that exploded over U.S.', National Enquirer, 28 February 1980 (interview with J. Marcel, December 1979)",
+  "Berlitz, C. & Moore, W. L. 1980, The Roswell Incident (Grosset & Dunlap)",
+  "Randle, K. D. & Schmitt, D. R. 1991, UFO Crash at Roswell (Avon); 1994, The Truth About the UFO Crash at Roswell (M. Evans)",
+  "Friedman, S. T. & Berliner, D. 1992, Crash at Corona (Paragon House)",
+  "Carey, T. J. & Schmitt, D. R. 2007, Witness to Roswell (New Page Books), with W. Haut's sealed statement signed in 2002; Haut, W. 1993, affidavit of 14 May 1993",
+  "Eamonn Investigates: Alien Autopsy, Sky One, 4 April 2006; Santilli, R. & Shoefield, G., interview, Dread Central, 30 September 2010; Rothman, L. 2016, The Alien Autopsy Hoax, TIME, 24 June 2016",
+  "Loftus, E. F. 2005, Planting misinformation in the human mind: a 30-year investigation of the malleability of memory, Learning & Memory 12(4): 361-366, doi:10.1101/lm.94705",
+  "Publishers Weekly 1991, review of Randle & Schmitt, UFO Crash at Roswell (Avon): 'accounts by 200 witnesses'",
+  "Bloecher, T. 1967, Report on the UFO Wave of 1947 (Kenneth Arnold's sighting of 24 June 1947 and the rewards offered), as summarised in Wikipedia, 1947 flying disc craze",
+  "Wikipedia, Walker Air Force Base (the 509th Bomb Group, the only unit trained for the atomic bomb mission in 1946 to 1947); Roswell incident (the later accounts and their crash sites)",
+  "The Short 'roswell-mogul' (13.04): films/f13.py and films/rewrite/roswell-mogul.json"
+ ],
+ "facts_added": [
+  {
+   "fact": "W. W. 'Mac' Brazel, foreman of the J. B. Foster ranch, found the debris on 14 June 1947 about 7 or 8 miles from the ranch house while 'in a hurry to get his round made'; on 4 July he, his wife and two children gathered it; 'the next day he first heard about the flying disks'; on Monday 7 July, in Roswell to sell wool, he 'whispered kinda confidential like' to Sheriff George Wilcox that he might have found one.",
+   "source": "Roswell Daily Record, 9 July 1947, 'Harassed Rancher who Located Saucer Sorry He Told About It'"
+  },
+  {
+   "fact": "Brazel's 1947 description: rubber strips, tinfoil, a rather tough paper and sticks, scattered over an area about 200 yards in diameter; bundled, about 18 to 20 inches long and 5 inches thick, weighing 'maybe five pounds'; Scotch tape and 'some tape with flowers printed upon it'; no sign of any metal that 'might have been used for an engine'; he had previously found two weather balloons and this 'did not in any way resemble either of these'; if he found anything else 'besides a bomb', they would 'have a hard time' getting him to talk about it.",
+   "source": "Roswell Daily Record, 9 July 1947"
+  },
+  {
+   "fact": "On 24 June 1947 the pilot Kenneth Arnold reported nine shiny objects near Mount Rainier, Washington; the press coined 'flying saucer'; $1,000 rewards for a disc were offered in three parts of the country during the wave of reports that peaked in early July.",
+   "source": "Bloecher 1967, Report on the UFO Wave of 1947, as summarised in Wikipedia, 1947 flying disc craze"
+  },
+  {
+   "fact": "In May 1946 Strategic Air Command was given the atomic bomb mission and 'only the 509th was trained and ready' for it; the 509th Bomb Group was based at Roswell Army Air Field (renamed Walker AFB on 13 January 1948).",
+   "source": "Wikipedia, Walker Air Force Base (USAF unit histories)"
+  },
+  {
+   "fact": "Major Jesse A. Marcel, the 509th's intelligence officer, and 'a man in plain clothes' (identified by the Air Force as Sheridan Cavitt of the Counter Intelligence Corps) went to the ranch and collected the debris; on 8 July the base's press release said the 509th's intelligence office had gained possession of a 'flying disc'.",
+   "source": "Roswell Daily Record, 8 and 9 July 1947; Weaver 1994"
+  },
+  {
+   "fact": "That evening at Eighth Air Force headquarters in Fort Worth, the weather officer Irving Newton identified the debris as 'a balloon and a RAWIN target'; in his 1994 statement he recalled Major Marcel picking up pieces of the target sticks and trying to convince him that notations on them 'were alien writing', the figures being 'lavender or pink in color'.",
+   "source": "Weaver 1994 (statement of I. Newton, 1994)"
+  },
+  {
+   "fact": "The FBI teletype of 8 July 1947 reported that the disc was 'hexagonal in shape' and hung by cable from a balloon about twenty feet in diameter, and that the object resembled 'a high altitude weather balloon with a radar reflector'.",
+   "source": "FBI teletype, Dallas, 8 July 1947 (FBI Vault); GAO 1995"
+  },
+  {
+   "fact": "The 509th Bomb Group and RAAF history for July 1947 says the public information office answered inquiries on the 'flying disc' and that 'The object turned out to be a radar tracking balloon'.",
+   "source": "GAO 1995, GAO/NSIAD-95-187"
+  },
+  {
+   "fact": "The Roswell retrieval 'remained relatively obscure for three decades'; in February 1978 Stanton Friedman interviewed Jesse Marcel, who said the weather balloon story was a cover; the National Enquirer ran Bob Pratt's interview with Marcel on 28 February 1980.",
+   "source": "Wikipedia, Roswell incident; Wikipedia, Jesse Marcel; Pratt 1980"
+  },
+  {
+   "fact": "In the 1979 interview Marcel described pieces that were 'weightless ... just like you handle balsa wood', that did not burn under a lighter, with 'two-color markings ... like Chinese writing', a debris field 'three-quarters of a mile long and a few hundred feet wide', and said the material 'came to earth but not from earth'.",
+   "source": "Pratt 1980 (interview of December 1979)"
+  },
+  {
+   "fact": "The Roswell Incident (Berlitz & Moore 1980) claimed over 90 witnesses (25 in the book) and added alien bodies found about 150 miles west of the debris site on the Plains of San Agustin; Crash at Corona (1992) raised the number of saucers to two and of aliens to eight; Randle & Schmitt (1994) dropped San Agustin and proposed a site 35 miles north of Roswell; the accounts contradict each other on the crash location and the number of bodies.",
+   "source": "Berlitz & Moore 1980; Friedman & Berliner 1992; Randle & Schmitt 1991, 1994; as summarised in Wikipedia, Roswell incident"
+  },
+  {
+   "fact": "Randle and Schmitt's 1991 book was 'pieced together from accounts by 200 witnesses', on top of the more than 90 claimed in 1980: by the 1990s the interviews ran into the hundreds.",
+   "source": "Publishers Weekly 1991 (review of Randle & Schmitt 1991); Wikipedia, Roswell incident"
+  },
+  {
+   "fact": "Memory for past events can be altered by information met afterwards (the misinformation effect), and people can come to believe in complex events that never happened; this underlies the film's 'memories drift' and the 1997 report's merged memories.",
+   "source": "Loftus 2005, Learning & Memory 12(4): 361-366, doi:10.1101/lm.94705"
+  },
+  {
+   "fact": "Walter Haut, who issued the 1947 press release, signed a statement in 2002 (published after his death in 2005, in Witness to Roswell, 2007) describing an egg-shaped craft about 12 to 15 feet long and bodies under a tarpaulin; his affidavit of 14 May 1993 reports what Colonel Blanchard told him and that he believed Blanchard saw the material, but does not say Haut saw the debris, a craft or bodies.",
+   "source": "Carey & Schmitt 2007; Wikipedia, Walter Haut; Haut's affidavit of 14 May 1993 (witnessed by Max Littell), as transcribed in the Roswell literature"
+  },
+  {
+   "fact": "In February 1994 the GAO, acting on the request of Congressman Steven Schiff (New Mexico), who was 'concerned that the Department of Defense may not have provided' all available information, began an audit; the Air Force searched its own records and reported in July 1994 that the most likely source of the debris was a Project Mogul balloon train.",
+   "source": "GAO 1995; Weaver 1994"
+  },
+  {
+   "fact": "Project Mogul sought 'long range, balloon-borne, low frequency acoustic detection' of Soviet nuclear explosions, using Maurice Ewing's idea of a sound channel in the upper atmosphere; New York University's balloon group launched from Alamogordo Army Air Field.",
+   "source": "Weaver 1994; McAndrew 1995; Wikipedia, Project Mogul"
+  },
+  {
+   "fact": "The Foster ranch train consisted of 'as many as 23 350-gram balloons spaced at 20 foot intervals' (about 6 m; 22 gaps make about 134 m), 'several radar targets (3 to 5)', ballast tubes, parchment parachutes, a black cutoff box and a sonobuoy; the targets resembled 'a box kite constructed of balsa wood and metallicized paper'; the toy company that made them, 'in a time of shortage', used its own tape with 'pink/purple flowers and geometric designs'.",
+   "source": "McAndrew 1995, Synopsis of Balloon Research Findings"
+  },
+  {
+   "fact": "Flight 4 was launched from Alamogordo on 4 June 1947 and 'was not recovered by the NYU group'; its launch is known from A. P. Crary's journal (a 'cluster of balloons' and a 'regular sonabuoy'); service flights 2, 3 and 4 are absent from NYU's formal reports; Brazel found the debris ten days later; C. B. Moore reconstructed its likely path from wind data.",
+   "source": "Weaver 1994; McAndrew 1995; Saler, Ziegler & Moore 1997; Thomas 1995"
+  },
+  {
+   "fact": "Distances (computed): Foster ranch debris site (about 33.95 N, 105.30 W) to Roswell Army Air Field about 100 km; to Alamogordo Army Air Field about 140 km; Plains of San Agustin about 240 km west of the ranch.",
+   "source": "computed (haversine) from coordinates; Thomas 1995 gives about 85 miles from Alamogordo"
+  },
+  {
+   "fact": "The GAO found 'only two government records originating in 1947' on Roswell (the 509th history and the FBI teletype), searched DOD, the National Security Council, the White House science office, the CIA, the FBI and the Department of Energy (six agencies), and found that RAAF administrative records (March 1945 to December 1949) and outgoing messages (October 1946 to December 1949) were destroyed; the disposition form does not say who destroyed the records, when, or 'under what authority'.",
+   "source": "GAO 1995, GAO/NSIAD-95-187"
+  },
+  {
+   "fact": "Schiff on the destroyed outgoing messages: they would have shown how officers in Roswell were 'explaining to their superiors exactly what happened'.",
+   "source": "Schiff 1995, press release of 28 July 1995"
+  },
+  {
+   "fact": "The 'alien autopsy' film was broadcast by Fox on 28 August 1995 and on television worldwide; in 2006 Ray Santilli acknowledged it was a re-creation filmed on a set in a flat in Camden, London, with dummies made by a sculptor, which he calls a restoration of genuine footage he says he saw and which had deteriorated ('It wasn't a hoax. It was a carefully constructed restoration'); that original has never been produced.",
+   "source": "Eamonn Investigates: Alien Autopsy (Sky One, 4 April 2006); TIME, 24 June 2016; Santilli interview, Dread Central, 30 September 2010 (his own words)"
+  },
+  {
+   "fact": "The 1997 Air Force report attributed the 'bodies' to anthropomorphic dummies (67 of them, carried on 43 high altitude balloon flights launched and recovered in New Mexico between June 1954 and February 1959), to a 1956 KC-97 accident in which 11 airmen died (26 June 1956, near Walker AFB) and to a 1959 manned balloon mishap (21 May 1959) in which Capt. Dan Fulgham's head was badly swollen; events of many years were 'consolidated' into a few days of July 1947.",
+   "source": "McAndrew 1997, The Roswell Report: Case Closed"
+  },
+  {
+   "fact": "AARO (2024): the Roswell incident was the July 1947 recovery of 'metallic and rubber debris from a crashed military balloon'; the materials 'were consistent with a balloon of the type used in the then-classified Project Mogul'; the alleged bodies were test dummies; hospital accounts most likely conflate the 1956 KC-97 accident and the 1959 balloon mishap.",
+   "source": "AARO 2024, Historical Record Report Vol. I, pp. 21-22"
+  },
+  {
+   "fact": "Karl T. Pflock (1943 to 2006), a former CIA intelligence officer and Deputy Assistant Secretary of Defense who continued to believe in alien spacecraft, concluded after about eight years of research that Roswell was Project Mogul, not a crashed saucer.",
+   "source": "Pflock 2001; Publishers Weekly review; Wikipedia, Karl T. Pflock"
+  }
+ ],
+ "names": [
+  {
+   "name": "Roswell",
+   "say": "ROZ-well"
+  },
+  {
+   "name": "Mac Brazel",
+   "say": "MACK BRAY-zul (as in LF.05; some local speakers say BRAZZ-ul: please check)"
+  },
+  {
+   "name": "Jesse Marcel",
+   "say": "JESS-ee mar-SELL"
+  },
+  {
+   "name": "Mount Rainier",
+   "say": "mount ruh-NEER"
+  },
+  {
+   "name": "Stanton Friedman",
+   "say": "STAN-tun FREED-mun"
+  },
+  {
+   "name": "Walter Haut",
+   "say": "WALL-ter HOWT (rhymes with 'out'); some say HOT: please check"
+  },
+  {
+   "name": "Steven Schiff",
+   "say": "STEE-ven SHIFF"
+  },
+  {
+   "name": "Mogul",
+   "say": "MOH-gul"
+  },
+  {
+   "name": "Alamogordo",
+   "say": "al-uh-muh-GOR-doh"
+  },
+  {
+   "name": "Ray Santilli",
+   "say": "RAY san-TILL-ee"
+  },
+  {
+   "name": "Karl Pflock",
+   "say": "KARL FLOCK (the P is silent in English use; please check)"
+  },
+  {
+   "name": "Fort Worth",
+   "say": "fort WURTH"
+  },
+  {
+   "name": "kinda",
+   "say": "KIND-uh (quoted from the 1947 paper)"
+  },
+  {
+   "name": "dummies",
+   "say": "DUM-eez (in LEX)"
+  },
+  {
+   "name": "Pentagon",
+   "say": "PEN-tuh-gon (in LEX)"
+  }
+ ],
+ "words": 1508
+}
