@@ -162,6 +162,20 @@ LEX.update({"kemal": "kɛmˈɑːl", "gallipoli": "ɡəlˈɪpəli", "kitabi": "ki
             "topkapi": "tˈɑːpkɑːpə", "topkapı": "tˈɑːpkɑːpə", "ornofay": "ˌɔːɹnoʊfˈaɪ", "mcintosh": "mˈækɪntˌɑːʃ",
             "soucek": "sˈoʊtʃɛk", "svat": "svˈɑːt", "bellingshausen": "bˈɛlɪŋzhˌaʊzən"})
 
+# long-form round 5 names (3 Oct 2026, LF.21 to LF.25): espeak said "rahs-well", "pee-flock", "skiff", "ay-ner", "fay-um",
+# "thut-mose", "fill-ode-mus", "pie-ag-ee-oh", "sigh-sro", "yow-sef", "eye-ski", "an-tee-kith-er-a"...
+LEX.update({"roswell": "ɹˈɑːzwɛl", "roswell's": "ɹˈɑːzwɛlz", "alamogordo": "ˌæləməɡˈɔːɹdoʊ", "pflock": "flˈɑːk", "rainier": "ɹənˈɪɹ",
+            "schiff": "ʃˈɪf", "aigner": "ˈaɪɡnɚ", "bauval": "boʊvˈɑːl", "djedefre": "dʒɛdˈɛfɹeɪ", "dobecki": "doʊbˈɛki",
+            "fayum": "faɪjˈuːm", "thutmose": "tuːtmˈoʊsə", "gauri's": "ɡˈaʊɹiz", "lal": "lˈɑːl", "aristocreon": "ˌæɹɪstˈɑːkɹiən",
+            "chrysippus": "kɹaɪsˈɪpəs", "engedi": "ɛnɡˈɛdi", "epicurus": "ˌɛpɪkjˈʊɹəs", "farritor": "fˈɛɹɪtɔːɹ",
+            "gadara": "ɡˈædəɹə", "grenoble": "ɡɹənˈoʊbəl", "nader": "nˈɑːdɚ", "philodemus": "ˌfɪloʊdˈiːməs",
+            "piaggio": "piˈɑːdʒoʊ", "piso": "pˈaɪsoʊ", "pompeii's": "pɑːmpˈeɪz", "schilliger": "ʃˈɪlɪɡɚ", "youssef": "jˈuːsɛf",
+            "porphyras": "pˈɔːɹfɚɹɑːs", "aratake": "ˌɑːɹɑːtˈɑːkeɪ", "iseki": "iːsˈɛki", "kihachiro": "kiːhˈɑːtʃiɹoʊ",
+            "kimura's": "kiːmˈʊɹəz", "ryukyus": "ɹiˈuːkjuːz", "antikythera": "ˌæntɪkɪθˈɪɹə", "charalambos": "hɑːɹˈɑːlɑːmboʊs",
+            "cicero": "sˈɪsəɹoʊ", "elias": "ɛlˈiːɑːs", "epirus": "ɛpˈaɪɹəs", "helios": "hˈiːlioʊs", "isfahan": "ˌɪsfəhˈɑːn",
+            "karakalos": "kɑːɹˈɑːkɑːloʊs", "spyridon": "spɪɹˈiːdɑːn", "stadiatis": "stɑːdiˈɑːtiːs", "stais": "stˈɑːiːs",
+            "symi": "sˈiːmi", "tutankhamun's": "tˌuːtɑːŋkˈɑːmuːnz", "valerios": "vɑːlˈɛɹioʊs"})
+
 
 def _key(w):
     return re.sub(r"[^\wöüışçğ'’]", "", w.lower()).replace("’", "'")
