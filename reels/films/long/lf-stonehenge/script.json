@@ -1,0 +1,846 @@
+{
+ "id": "lf-stonehenge",
+ "kind": "case",
+ "series": "Sky Watchers",
+ "title": "Stonehenge, Stone by Stone",
+ "intro_title": "Stonehenge, Stone by Stone",
+ "yt_title": "Stonehenge: Who Built It, How, and Why? Every Claim Weighed",
+ "verdict": "Established",
+ "verdict_scope": "that Stonehenge was built in stages by Neolithic farming communities of Britain, from its ditch and bank of about 3000 BCE to its last pits of about 1600 BCE (graded Established: antler picks, cremations and the stones' sockets are radiocarbon dated, and the builders' tools, homes and genomes survive); in the weighing, bluestones from west Wales moved by people rather than ice and the Altar Stone from north-east Scotland are graded Strong evidence, Waun Mawn as a first Stonehenge Open question, the solstice axis Established, a place for the dead and for midwinter feasts Strong evidence, the 365-day calendar and a place of healing Awaiting evidence, and Merlin's stones from Ireland, a lost civilisation and stones raised long before 3000 BCE Ruled out",
+ "hook": "How did this stone get here?",
+ "end_line": "One slab of stone, carried almost the length of Britain.",
+ "structure_note": "chapters[0] is the cold open and the title beat (no chapter card; YouTube chapter 0:00). Chapters 1 to 5 are the story chapters (each opens on a sentence that stands alone, for its vertical clip); 'The weighing' carries the verdict, the test and the close. Shot ids s1..sN are in story order; 'alias of sN' means a return to that panel.",
+ "chapters": [
+  {
+   "title": "Cold open",
+   "beats": [
+    {
+     "role": "hook",
+     "lines": [
+      "[d:intrigue][sfx:boom][act:hushed wonder, painting it]At the heart of Stonehenge, under two fallen giants, lies a flat slab of greenish ^sandstone: the Altar ^Stone. [act:the scale, slower][tune:fall]About five metres long, and six ^tonnes.",
+      "[p:0.93][act:the reveal, awed]In {2024|twenty twenty-four}, tiny crystals inside it traced it to the far north-east of ^Scotland, [tune:fall]more than seven hundred kilometres ^away.",
+      "[d:tension][act:the child's question, wide-eyed][tune:rise]How did this stone get ^here? [act:the bigger questions, slower][tune:rise]And who built Stonehenge, and ^why?"
+     ],
+     "shots": [
+      {
+       "id": "s1",
+       "say": "At the heart of Stonehenge, under two fallen giants, lies a flat slab of greenish sandstone: the Altar Stone. About five metres long, and six tonnes.",
+       "draw": "HERO IMAGE, fully drawn from the first frame: Stonehenge at dusk, seen from the north-east down its axis, in perspective (a small 3-D model of the real plan: the ring of thirty sarsen uprights with its surviving run of lintels at the front, the five trilithons of the horseshoe rising behind, the tallest at the back, bluestones small between them, fallen stones on the grass, a person for scale outside the ring), a low sun at the right edge with the horizon glowing, long shadows, warm light on the sunlit faces and cool shade on the others, the hook title clear above. On 'the Altar Stone', the slab under the fallen stones of the tallest trilithon glows and its outline traces itself in gold, with a leader and the label 'the Altar Stone'; on 'About five metres long', the camera pushes in on it: a dimension along the slab, 'about 5 m', then '6 tonnes'."
+      },
+      {
+       "id": "s2",
+       "say": "In 2024, tiny crystals inside it traced it to the far north-east of Scotland, more than seven hundred kilometres away.",
+       "draw": "Map of Great Britain (View -11..2.5 E, 49.6..59.2 N): a magnifier circle at the left shows a chip of the stone with tiny bright crystals glinting (label 'tiny crystals', chip '2024'); then a gold line draws from Caithness in the far north-east of Scotland down to a pin on Salisbury Plain, with a small slab riding it; label 'more than 700 km' along the line; pins 'north-east Scotland' and 'Stonehenge'."
+      },
+      {
+       "id": "s3",
+       "say": "How did this stone get here? And who built Stonehenge, and why?",
+       "draw": "Back on the hero (the opening panel, the camera pulled back to the whole monument): the sky deepens to dusk; a lilac question mark rises over the Altar Stone, then two smaller ones over the monument (labels 'who?' and 'why?').",
+       "reuse": "alias of s1, wide cam"
+      }
+     ]
+    },
+    {
+     "role": "title",
+     "lines": [
+      "[d:calm][act:warm, setting out]Stonehenge, stone by ^stone."
+     ],
+     "shots": [
+      {
+       "id": "s4",
+       "say": "Stonehenge, stone by stone.",
+       "draw": "intro_title card 'Stonehenge, Stone by Stone' over the dimmed hero panel. Nothing else drawn."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Who built it, and when?",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:setting the scene, measured]Stonehenge stands on the chalk of Salisbury Plain, in southern ^England. [act:the claim, fair][tune:rise]How old is ^it? [act:presenting it, fair][tune:fall]Some books and videos say it's far older than archaeologists ^think.",
+      "[act:a grain of truth, intrigued]And in one way, they have a ^point. [p:0.93][act:the find, storytelling]In {1966|nineteen sixty-six}, when a car park was dug beside the stones, archaeologists found the holes of large pine ^posts, [tune:fall]raised by hunter-gatherers between eight and ten thousand years ^ago."
+     ],
+     "shots": [
+      {
+       "id": "s5",
+       "say": "How old is it? Some books and videos say it's far older than archaeologists think.",
+       "draw": "Salisbury Plain at morning: long rolling chalk downs in three dimmed ridges, a white chalk cut in the turf, Stonehenge small on a rise (label 'Salisbury Plain'); on 'far older', a lilac dotted chip floats above it, 'far older?', with a lilac question mark."
+      },
+      {
+       "id": "s6",
+       "say": "In 1966, when a car park was dug beside the stones, archaeologists found the holes of large pine posts, raised by hunter-gatherers between eight and ten thousand years ago.",
+       "draw": "A cut through the chalk at the car park: grass and topsoil over white chalk; three large postholes in section (dark fills), a small 1960s car on the surface for the car park (chip '1966'); then above each hole a tall pine post rises in solid amber (they were real; labels 'postholes', 'pine posts'), two hunter-gatherer figures with spears beside them (label 'hunter-gatherers'); chip '8,000 to 10,000 years ago'."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:the catch, clear]But posts aren't ^stones. [act:the method, a picture]The monument itself begins with a ring-shaped ditch and bank, about a hundred and ten metres ^across. [p:0.93][act:the clue, delighted]On the floor of that ditch, its diggers left more than a hundred red deer ^antlers, many worn down as picks and ^rakes.",
+      "[act:the analogy, warm]Antler holds radiocarbon, a natural clock that starts ticking once it stops ^growing. [act:a picture, a smile]Finding them is like finding the builder's dated receipt in the ^foundations. [act:the result][tune:fall]The ditch was dug around {3000|three thousand} ^BCE."
+     ],
+     "shots": [
+      {
+       "id": "s7",
+       "say": "But posts aren't stones. The monument itself begins with a ring-shaped ditch and bank, about a hundred and ten metres across.",
+       "draw": "Plan from above on green turf: a faint dashed ring first, then the circular ditch (dark ring) with the bank inside it (pale ring) draws itself round; a gap for the entrance in the north-east; a dimension across the circle '110 m'; a person dot for scale and a north arrow; label 'ditch and bank'."
+      },
+      {
+       "id": "s8",
+       "say": "On the floor of that ditch, its diggers left more than a hundred red deer antlers, many worn down as picks and rakes.",
+       "draw": "The ditch in section (a steep-sided cut in white chalk, about 2 m deep): on its floor red deer antlers pop one after another; one antler pick is drawn large with its worn tine; a digger kneels at the bottom working the chalk with an antler pick; a counter '100+ antlers'."
+      },
+      {
+       "id": "s9",
+       "say": "Antler holds radiocarbon, a natural clock that starts ticking once it stops growing. Finding them is like finding the builder's dated receipt in the foundations. The ditch was dug around 3000 BCE.",
+       "draw": "Left: an antler with a clock face beside it whose hand starts sweeping (label 'radiocarbon clock'). Right: a house's foundations in section, a paper receipt lying in the concrete with a date line on it (label 'a dated receipt'). Then a chip pops in the middle: 'about 3000 BCE'."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:the build-up, steady]Just inside the bank, a ring of fifty-six holes probably held the first ^bluestones. [act:quiet, respectful][tune:fall]Around them, for five centuries, people buried the burnt bones of their dead: the largest group of cremations of its age in ^Britain.",
+      "[p:0.93][act:the giants arrive, awed]Then, around {2500|twenty-five hundred} BCE, came the ^giants: [tune:level]a ring of thirty sarsens capped with ^lintels, [tune:fall]and inside it, five towering ^trilithons. [act:the craft, delighted][tune:fall]Their builders joined them like ^carpenters, with pegs, sockets and grooves cut in solid ^stone.",
+      "[act:the long tail, steady][tune:fall]Then they rearranged the bluestones, again and again, until the last pits were dug around {1600|sixteen hundred} ^BCE."
+     ],
+     "shots": [
+      {
+       "id": "s10",
+       "say": "Just inside the bank, a ring of fifty-six holes probably held the first bluestones. Around them, for five centuries, people buried the burnt bones of their dead: the largest group of cremations of its age in Britain.",
+       "draw": "Back on the plan of s7: a ring of 56 small holes pops round just inside the bank (label '56 holes'); small blue-grey stones rise in many of them (label 'the first bluestones?', dashed: probable); then small warm dots for cremation burials appear in and around the holes and along the ditch (label 'cremations, 3000 to 2500 BCE').",
+       "reuse": "alias of s7"
+      },
+      {
+       "id": "s11",
+       "say": "Then, around 2500 BCE, came the giants: a ring of thirty sarsens capped with lintels, and inside it, five towering trilithons.",
+       "draw": "The monument as built (a 3-D view of the complete plan, slightly from above): the thirty sarsen uprights rise one after another round the ring, the lintels drop onto them in a continuous ring; then the five trilithons rise in the horseshoe, the tallest at the back; people for scale (label 'a person'); chips 'about 2500 BCE', labels '30 sarsens' and '5 trilithons'."
+      },
+      {
+       "id": "s12",
+       "say": "Their builders joined them like carpenters, with pegs, sockets and grooves cut in solid stone.",
+       "draw": "Close-up diagram: the tops of two uprights, each with a knob (tenon) on top; a lintel lowers onto them with hollows (mortises) underneath that fit the knobs; at its end a tongue fits the groove of the next lintel; labels 'peg and socket' and 'tongue and groove'; a small woodworking joint in timber beside it (label 'a carpenter's joint')."
+      },
+      {
+       "id": "s13",
+       "say": "Then they rearranged the bluestones, again and again, until the last pits were dug around 1600 BCE.",
+       "draw": "Four small plans in a row, the sarsen ring faint in each, the bluestones blue: a double arc, a circle and an oval, a circle and a horseshoe; arrows between them; then two rings of pits around the outside of the last plan pop (label 'the last pits'), chip 'about 1600 BCE'."
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:aside][act:the builders, warm]Ancient DNA shows that Neolithic Britons were farmers, whose ancestors had arrived from mainland Europe about a thousand years before the ^ditch. [act:the landing, a smile][tune:fall]Not one Stonehenge, then, but many, over some fourteen ^centuries."
+     ],
+     "shots": [
+      {
+       "id": "s14",
+       "say": "Ancient DNA shows that Neolithic Britons were farmers, whose ancestors had arrived from mainland Europe about a thousand years before the ditch. Not one Stonehenge, then, but many, over some fourteen centuries.",
+       "draw": "A timeline from 4500 BCE to 1500 BCE: at 4000 BCE a small boat crossing with a family and a DNA double helix (label 'farmers arrive'); then markers as the monument grows: 'ditch' at 3000, 'sarsens' at 2500, 'last pits' at 1600; a bracket from 3000 to 1600 'some 14 centuries'."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Bluestones from Wales",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:storytelling, a smile]Nearly nine hundred years ago, the writer Geoffrey of Monmouth told how Stonehenge came to ^be. [act:the tale, warm]The wizard Merlin, he wrote, brought it from a mountain in ^Ireland: [tune:level]a ring called the Giants' ^Dance, [tune:fall]raised by giants who had carried its stones from Africa for their healing ^powers.",
+      "[act:the turn, intrigued]The rocks tell another ^story, with a ^twist. [p:0.93][act:the method, clear]In {1923|nineteen twenty-three}, the geologist Herbert Thomas matched many of the bluestones to the Preseli Hills of west ^Wales, [tune:fall]about two hundred and thirty kilometres ^away."
+     ],
+     "shots": [
+      {
+       "id": "s15",
+       "say": "The wizard Merlin, he wrote, brought it from a mountain in Ireland: a ring called the Giants' Dance, raised by giants who had carried its stones from Africa for their healing powers.",
+       "draw": "Left: a page of a medieval manuscript on vellum, columns of script and an illuminated miniature: a robed figure with a staff before a ring of standing stones (label 'Geoffrey of Monmouth, about 1136'). Right: a small map from Africa to Britain and Ireland; a lilac dotted route (the tale, claimed) draws from Africa to Ireland (label 'giants') and from Ireland to Salisbury Plain (label 'Merlin'); a ring icon at Ireland, 'the Giants' Dance'."
+      },
+      {
+       "id": "s16",
+       "say": "In 1923, the geologist Herbert Thomas matched many of the bluestones to the Preseli Hills of west Wales, about two hundred and thirty kilometres away.",
+       "draw": "Map of southern Britain (View -5.6..-0.6 E, 50.3..53.0 N): a hand lens over a bluestone sample with white spots on blue-grey at the left (label 'Herbert Thomas, 1923'); the Preseli Hills shaded at the west (pin 'Preseli Hills'), a solid gold line to Stonehenge (pin) with 'about 230 km'; scale bar 50 km."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:the finds, delighted]Since {2011|twenty eleven}, archaeologists have excavated two of those ^sources: Carn Goedog and Craig ^Rhos-y-felin. [act:explaining, a picture][tune:fall]There, the rock grows in natural ^pillars, like a bundle of giant ^pencils.",
+      "[p:0.93][act:the method, clear]The diggers found stone wedges in the cracks, and platforms of stone and earth at the foot, where pillars could be ^lowered. [act:the dates][tune:fall]And hearths, with charcoal from around {3000|three thousand} BCE, just when Stonehenge ^began."
+     ],
+     "shots": [
+      {
+       "id": "s17",
+       "say": "Since 2011, archaeologists have excavated two of those sources: Carn Goedog and Craig Rhos-y-felin. There, the rock grows in natural pillars, like a bundle of giant pencils.",
+       "draw": "A rocky outcrop on a hillside of heather at dusk: a crag of tall natural pillars, close-packed, in blue-grey dolerite with pale spots (labels 'Carn Goedog' and, smaller on a second outcrop below, 'Craig Rhos-y-felin'); two tiny people for scale; on 'giant pencils', a small bundle of pencils pops beside the crag (label 'like giant pencils')."
+      },
+      {
+       "id": "s18",
+       "say": "The diggers found stone wedges in the cracks, and platforms of stone and earth at the foot, where pillars could be lowered. And hearths, with charcoal from around 3000 BCE, just when Stonehenge began.",
+       "draw": "Side view of the outcrop's foot: a worker hammers a stone wedge into the crack behind one pillar (label 'wedges'); the pillar tilts out and slides down onto a built platform of stone and earth (label 'a platform'); then a hearth glows by the platform with charcoal (chip 'about 3000 BCE') and a stone tool pops beside it."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:the bold idea, intrigued]In {2021|twenty twenty-one}, Mike Parker Pearson's team went ^further. [act:presenting it, fair]At Waun Mawn, about five kilometres away, they dug beside an arc of standing stones and found the empty holes of ^others, [tune:level]part of a circle as wide as Stonehenge's ^ditch, [tune:fall]and one hole with a five-sided outline that seemed to fit a Stonehenge bluestone, Stone sixty-two, like a key in a ^lock. [act:their idea][tune:fall]Their suggestion: a first Stonehenge, built in Wales, then taken apart and ^moved.",
+      "[act:the doubts, fair]Others aren't ^convinced. [p:0.93][act:steady]In {2022|twenty twenty-two}, geologists, Parker Pearson among them, tested the ^chemistry: [tune:fall]neither the stones still at Waun Mawn, nor fragments from one of its holes, match Stone sixty-^two. [act:fair, even][tune:fall]Even its excavators now think the circle was never ^finished, and some doubt it was ever a circle at ^all."
+     ],
+     "shots": [
+      {
+       "id": "s19",
+       "say": "In 2021, Mike Parker Pearson's team went further. At Waun Mawn, about five kilometres away, they dug beside an arc of standing stones and found the empty holes of others, part of a circle as wide as Stonehenge's ditch, and one hole with a five-sided outline that seemed to fit a Stonehenge bluestone, Stone sixty-two, like a key in a lock. Their suggestion: a first Stonehenge, built in Wales, then taken apart and moved.",
+       "draw": "Plan of Waun Mawn on moorland: an arc of four standing stones (solid) and several empty stoneholes (dark ovals) along the north side of a circle; the rest of the circle dashed (inferred), and Stonehenge's ditch ring laid over it in gold, the same size (label 'as wide as Stonehenge's ditch', '110 m'); one empty hole highlighted: its five-sided outline, and beside it the base of Stone 62 drawn and sliding in to fit (label 'Stone 62?'); on 'Their suggestion', the camera glides to a small map of south Wales and Wessex: a lilac dotted ring leaves Waun Mawn and an arrow carries it east to Stonehenge (label 'a first Stonehenge?')."
+      },
+      {
+       "id": "s20",
+       "say": "Others aren't convinced. In 2022, geologists, Parker Pearson among them, tested the chemistry: neither the stones still at Waun Mawn, nor fragments from one of its holes, match Stone sixty-two. Even its excavators now think the circle was never finished, and some doubt it was ever a circle at all.",
+       "draw": "Back on the Waun Mawn plan (alias of s19): a chemistry readout pops beside the stones, two sets of bars (Waun Mawn stones and the chips from the hole versus Stone 62) that do not line up, a red cross and 'no match'; the stones' source tagged 'from a nearby outcrop'; on 'Even its excavators', the built north arc is traced in bone and question marks line the empty south (labels 'never finished?', 'a circle at all?').",
+       "reuse": "alias of s19"
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:aside][act:the landing, warm]Merlin's tale pointed west, and west was ^right. [act:a smile][tune:fall]The stones just came from Wales, not ^Ireland."
+     ],
+     "shots": [
+      {
+       "id": "s21",
+       "say": "Merlin's tale pointed west, and west was right. The stones just came from Wales, not Ireland.",
+       "draw": "Back on the legend's map (alias of s15): a compass arrow 'west' pops; the lilac route from Ireland dims; a solid gold route draws from west Wales to Salisbury Plain (label 'Wales').",
+       "reuse": "alias of s15"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "A stone from Scotland",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:setting the scene]Stonehenge's biggest stones, the sarsens, came from surprisingly close@adj ^by. [act:storytelling]In {1958|nineteen fifty-eight}, during repairs, a core was drilled out of one of them, Stone fifty-^eight, [tune:fall]and it ended up in ^America. [act:the return, a smile][tune:fall]Sixty years later, it came ^back.",
+      "[p:0.93][act:the method, a picture]In {2020|twenty twenty}, David Nash's team read@past its chemistry like a ^fingerprint, and compared it with sarsens across southern ^England. [act:the result, delighted][tune:fall]Fifty of the fifty-two surviving sarsens share one chemistry, and it points to West Woods, about twenty-five kilometres to the ^north."
+     ],
+     "shots": [
+      {
+       "id": "s22",
+       "say": "In 1958, during repairs, a core was drilled out of one of them, Stone fifty-eight, and it ended up in America. Sixty years later, it came back.",
+       "draw": "A trilithon being re-erected in 1958 (chip '1958'): a crane with a jib and cable, scaffolding, the upright 'Stone 58'; a slim stone core slides out of it (label 'a core'); then a small Atlantic arc: the core flies to 'America' and back, chip '2018'."
+      },
+      {
+       "id": "s23",
+       "say": "In 2020, David Nash's team read its chemistry like a fingerprint, and compared it with sarsens across southern England. Fifty of the fifty-two surviving sarsens share one chemistry, and it points to West Woods, about twenty-five kilometres to the north.",
+       "draw": "Map of Wiltshire: Stonehenge pin in the south, West Woods pin about 25 km to the north (gold, label 'West Woods'), a gold line between them '25 km'; a fingerprint icon at the left; a grid of 52 small sarsen icons fills in, 50 gold and 2 grey (labels '50 of 52 match', '2 differ')."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:the odd one, intrigued]But one stone never fitted ^anywhere: the Altar ^Stone. [act:the old view, fair][tune:fall]For a century, it was thought to come from Wales, like the ^bluestones, [act:the turn][tune:fall]until tests in {2023|twenty twenty-three} found no ^match.",
+      "[p:0.93][act:the method, clear]So a team led by Anthony Clarke, at Curtin University in Australia, dated tiny mineral grains inside chips of the ^stone. [act:the analogy, warm]Each grain keeps the age of the rock it wore away from, like a stamp in a ^passport. [act:the reveal, awed][tune:fall]In {2024|twenty twenty-four}, those passport stamps pointed to the old red sandstones of north-east ^Scotland."
+     ],
+     "shots": [
+      {
+       "id": "s24",
+       "say": "But one stone never fitted anywhere: the Altar Stone. For a century, it was thought to come from Wales, like the bluestones, until tests in 2023 found no match.",
+       "draw": "The Altar Stone drawn large on a dark ground: a long greenish-grey slab, about 5 m by 1 m, with fine layering (label 'the Altar Stone'); a lilac dotted arrow towards 'Wales?' and a red cross over it with a chip '2023: no match'."
+      },
+      {
+       "id": "s25",
+       "say": "So a team led by Anthony Clarke, at Curtin University in Australia, dated tiny mineral grains inside chips of the stone. Each grain keeps the age of the rock it wore away from, like a stamp in a passport. In 2024, those passport stamps pointed to the old red sandstones of north-east Scotland.",
+       "draw": "Left: a chip of the stone under a microscope circle; tiny grains glint (label 'mineral grains', tag 'Anthony Clarke, Curtin University'). Right: an open passport whose pages fill with round stamps, each an age in millions of years (460, 1,000, 1,600 and 2,700; labels 'like passport stamps', 'ages in millions of years'); on 'In 2024', the camera moves to the passport and a final stamp 'SCOTLAND' lands in gold."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:narrowing it, steady]That same year, another team checked the great stone circles of ^Orkney: [tune:fall]no ^match. [p:0.93][act:the latest][tune:fall]And in {2026|twenty twenty-six}, the closest match turned up in ^Caithness, at the northern tip of mainland ^Scotland.",
+      "[act:the question, intrigued][tune:rise]So, by land, or by ^sea? [act:fair][tune:level]The {2024|twenty twenty-four} team favoured the ^sea. [act:fair][tune:fall]The {2026|twenty twenty-six} study suggests a journey in ^stages, over land, river and ^coast. [act:honest][tune:fall]Nobody knows ^yet."
+     ],
+     "shots": [
+      {
+       "id": "s26",
+       "say": "That same year, another team checked the great stone circles of Orkney: no match. And in 2026, the closest match turned up in Caithness, at the northern tip of mainland Scotland.",
+       "draw": "Map of northern Scotland and Orkney (View -6.5..-0.5 E, 56.6..59.4 N): the Orcadian Basin shaded amber along the coasts of the Moray Firth, Caithness and Orkney (label 'old red sandstone'); on Orkney two little stone rings (labels 'Stenness', 'Brodgar') with a red cross and a chip '2024: no match'; then Caithness glows gold (label 'Caithness', chip '2026: closest match')."
+      },
+      {
+       "id": "s27",
+       "say": "So, by land, or by sea? The 2024 team favoured the sea. The 2026 study suggests a journey in stages, over land, river and coast. Nobody knows yet.",
+       "draw": "Map of Great Britain: from Caithness, a blue dashed sea route down the east coast and round to the south coast (label 'by sea?'); then an amber dotted route in stages overland and along rivers (label 'in stages?'); both end at a Stonehenge pin; a lilac question mark between them."
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:aside][act:the landing, warm]Six tonnes, carried almost the length of ^Britain. [act:wonder, quiet][tune:fall]Neolithic Britain was far better connected than we used@to to ^think."
+     ],
+     "shots": [
+      {
+       "id": "s28",
+       "say": "Six tonnes, carried almost the length of Britain. Neolithic Britain was far better connected than we used to think.",
+       "draw": "Back on the Britain map (alias of s27): small slab icons pop one after another along the way (label '6 tonnes'); then thin gold threads link the far corners where the stones came from (Caithness, west Wales, Wiltshire) to Stonehenge (label 'connected').",
+       "reuse": "alias of s27"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Moving the giants",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:the question, curious][tune:rise]How did Stonehenge's builders move their stones so ^far? [act:the challenger, fair]Since {1971|nineteen seventy-one}, some geologists have argued that they didn't: [tune:fall]Ice Age glaciers carried the bluestones most of the way from ^Wales.",
+      "[act:fair, their strongest point]And for a long time, direct evidence either way was ^scarce. [act:the test, clear][tune:fall]But ice that carried bluestones should have left Welsh boulders and grains scattered across the ^plain."
+     ],
+     "shots": [
+      {
+       "id": "s29",
+       "say": "Since 1971, some geologists have argued that they didn't: Ice Age glaciers carried the bluestones most of the way from Wales.",
+       "draw": "Map of southern Britain in the Ice Age: a lilac dotted ice sheet (the claim) spreads from west Wales eastwards over the Bristol Channel, carrying boulders inside it, its tongue reaching towards Salisbury Plain (labels 'glaciers?' and 'since 1971'); the Stonehenge pin."
+      },
+      {
+       "id": "s30",
+       "say": "And for a long time, direct evidence either way was scarce. But ice that carried bluestones should have left Welsh boulders and grains scattered across the plain.",
+       "draw": "Same map (alias of s29): a balance with two empty pans pops (label 'scarce evidence'); then lilac dotted boulders and grains appear scattered over Salisbury Plain where the ice would have dropped them (label 'what ice would leave').",
+       "reuse": "alias of s29"
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:the evidence, steady]One boulder, dug up at Stonehenge in {1924|nineteen twenty-four}, was long held up as a glacial ^stray. [act:the result][tune:fall]In {2025|twenty twenty-five}, new tests tied it to the quarry at Craig ^Rhos-y-felin: most likely a broken piece of a ^bluestone. [p:0.93][act:the second test][tune:fall]And in {2026|twenty twenty-six}, more than five hundred zircon grains from the streams around Stonehenge showed no sign that the ice ever reached the ^plain."
+     ],
+     "shots": [
+      {
+       "id": "s31",
+       "say": "One boulder, dug up at Stonehenge in 1924, was long held up as a glacial stray. In 2025, new tests tied it to the quarry at Craig Rhos-y-felin: most likely a broken piece of a bluestone.",
+       "draw": "A small rounded boulder on a museum tray with a label tag '1924' (label 'a glacial stray?' in lilac); then a gold thread from it to a small outcrop icon 'Craig Rhos-y-felin' (chip '2025: a match'); a broken bluestone stump drawn beside it with its missing top outlined, the boulder fitting there (label 'a piece of a bluestone')."
+      },
+      {
+       "id": "s32",
+       "say": "And in 2026, more than five hundred zircon grains from the streams around Stonehenge showed no sign that the ice ever reached the plain.",
+       "draw": "A chalk stream in section with sand on its bed; a scoop of sand lifts into a magnifier circle full of tiny grains (counter '500+ zircon grains'); beside it a small map of the plain with streams, and the lilac ice tongue of s29 struck through (label 'no sign of ice'), chip '2026'."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:the experiment, delighted]So, people, ^then. [act:storytelling]In {2016|twenty sixteen}, students in London loaded a one-tonne block onto a sycamore ^sledge, sliding on a track of ^timbers. [p:0.93][act:the punchline][tune:fall]Ten people could pull ^it. [act:the scale][tune:fall]A two-tonne bluestone, about ^twenty.",
+      "[act:a new clue, intrigued]And they may have had ^help. [p:0.93][act:the find]A cow's jaw, laid by Stonehenge's south entrance@noun around {3000|three thousand} BCE, holds a tooth whose chemistry points to old rocks, like those of the Preseli ^Hills. [act:fair, careful][tune:rise]Did cattle haul the ^stones? [act:honest][tune:fall]A possibility, not yet a ^finding."
+     ],
+     "shots": [
+      {
+       "id": "s33",
+       "say": "In 2016, students in London loaded a one-tonne block onto a sycamore sledge, sliding on a track of timbers. Ten people could pull it. A two-tonne bluestone, about twenty.",
+       "draw": "Side view on a London square: a Y-shaped wooden sledge carrying a block (label '1 tonne', chip '2016') on a track of timbers laid across; ten figures lean into two ropes and it slides (counter '10 people'); then a second, smaller scene: a bluestone pillar on a sledge with twenty figures (label '2 tonnes: about 20')."
+      },
+      {
+       "id": "s34",
+       "say": "A cow's jaw, laid by Stonehenge's south entrance around 3000 BCE, holds a tooth whose chemistry points to old rocks, like those of the Preseli Hills. Did cattle haul the stones? A possibility, not yet a finding.",
+       "draw": "Left: a cow's lower jaw with its teeth, one tooth highlighted and sliced into thin growth bands that light up one by one (label 'a cow's tooth', chip 'about 3000 BCE'); a gold arrow from the tooth west to a small map pin 'Preseli Hills?'. On 'Did cattle haul the stones?', the camera moves right: in lilac dots (a possibility), a pair of oxen pulling a sledge with a bluestone (label 'cattle hauling?')."
+      }
+     ]
+    },
+    {
+     "role": "cost",
+     "lines": [
+      "[d:build][act:the challenger's case, fair]Some books and TV shows go further: stones this big, they say, need a lost, advanced ^civilisation. [act:the answer, warm]But the builders left their ^traces: [tune:level]antler picks, stone hammers, heaps of ^chippings, [tune:fall]and probably their village, at Durrington Walls, three kilometres ^away."
+     ],
+     "shots": [
+      {
+       "id": "s35",
+       "say": "Some books and TV shows go further: stones this big, they say, need a lost, advanced civilisation. But the builders left their traces: antler picks, stone hammers, heaps of chippings, and probably their village, at Durrington Walls, three kilometres away.",
+       "draw": "A sarsen lies on the plain; above it a lilac dotted strange machine hovers with a beam (label 'a lost civilisation?'); then the evidence pops in solid colours along the ground as named: an antler pick, two hammerstones, a heap of stone chippings; at the right, a village of square houses with smoke inside a great bank (label 'Durrington Walls', '3 km')."
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:aside][act:the landing, warm]No lost machines: rope, timber, muscle, and a great many ^people. [act:a smile][tune:fall]The hardest part wasn't the stone. [act:the punchline, dry][tune:fall]It was getting everyone to turn ^up."
+     ],
+     "shots": [
+      {
+       "id": "s36",
+       "say": "No lost machines: rope, timber, muscle, and a great many people. The hardest part wasn't the stone. It was getting everyone to turn up.",
+       "draw": "A great sarsen on a sledge on timber rails, hauled by a long double line of people on ropes (about forty figures), more people laying timbers ahead; labels 'rope', 'timber', 'muscle'; on 'turn up', more figures walk in from the edges."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Sun, ancestors and feasts",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:setting the scene]Stonehenge is built on a ^line. [act:the alignment, a picture][tune:level]At midsummer, the Sun rises along the Avenue, by the Heel ^Stone. [act:the other end][tune:fall]At midwinter, it sets the other way, once framed by the tallest trilithon, over the Altar ^Stone.",
+      "[p:0.93][act:the twist, delighted]And digging in the Avenue found natural grooves in the chalk, left by the Ice Age, lying along that same ^line. [act:wonder, quiet][tune:fall]Perhaps the builders found their line in the ground, before they set it in ^stone."
+     ],
+     "shots": [
+      {
+       "id": "s37",
+       "say": "At midsummer, the Sun rises along the Avenue, by the Heel Stone. At midwinter, it sets the other way, once framed by the tallest trilithon, over the Altar Stone.",
+       "draw": "Plan of Stonehenge from above at a slight tilt: the sarsen ring, the horseshoe, the Altar Stone, the Avenue's two banks running north-east past the Heel Stone; a gold axis line draws through; at the north-east end a rising sun with rays (label 'midsummer sunrise'); at the south-west end a red setting sun between the uprights of the tallest trilithon, over the Altar Stone (label 'midwinter sunset')."
+      },
+      {
+       "id": "s38",
+       "say": "And digging in the Avenue found natural grooves in the chalk, left by the Ice Age, lying along that same line. Perhaps the builders found their line in the ground, before they set it in stone.",
+       "draw": "A trench cut across the Avenue (the two banks and ditches drawn in a plan close-up): in its white chalk floor, natural grooves draw themselves as long parallel stripes (label 'Ice Age grooves'); the gold solstice axis lays itself along them, parallel; small figures of excavators at the trench edge."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:a bigger claim, intrigued]In {2022|twenty twenty-two}, the archaeologist Timothy Darvill proposed ^more: a calendar of three hundred and sixty-five ^days. [act:counting it out][tune:level]Thirty sarsens for the days of a month, counted twelve ^times; [tune:level]five trilithons for five extra ^days; [tune:fall]four Station Stones, to count to a leap ^year.",
+      "[act:the critics, fair]Two archaeoastronomers, Giulio Magli and Juan Antonio Belmonte, ^disagreed. [act:their points, steady][tune:level]The number@count twelve appears nowhere in the ^stones. [act:the second point][tune:fall]And near the solstice, the Sun's rising point barely moves for days, so stones can't tell one day from the ^next."
+     ],
+     "shots": [
+      {
+       "id": "s39",
+       "say": "In 2022, the archaeologist Timothy Darvill proposed more: a calendar of three hundred and sixty-five days. Thirty sarsens for the days of a month, counted twelve times; five trilithons for five extra days; four Station Stones, to count to a leap year.",
+       "draw": "The plan as a calendar (tag 'Timothy Darvill, 2022', a chip '365 days?' in lilac: proposed); on 'Thirty sarsens' the camera moves in: the 30 sarsens of the ring light one by one (label '30 days'), then a chip 'x 12 = 360'; the 5 trilithons glow (label '+ 5 days'); the 4 Station Stones at the corners of a rectangle outside the ring are ringed (label 'leap year'; drawn closer to the ring than their true 43 m so the plan fits)."
+      },
+      {
+       "id": "s40",
+       "say": "Two archaeoastronomers, Giulio Magli and Juan Antonio Belmonte, disagreed. The number twelve appears nowhere in the stones. And near the solstice, the Sun's rising point barely moves for days, so stones can't tell one day from the next.",
+       "draw": "Left: the ring of 30 stones with a '12' that searches round it and is struck through (label 'no twelve'). Right: a horizon at dawn; a sun dot rises for each day around the solstice, the dots crowding onto almost the same spot (label 'days blur together'), a narrow stone gap that cannot separate them."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:another view, warm]Others see a place for the ^dead. [act:storytelling]Mike Parker Pearson and the Malagasy archaeologist Ramilisonina compared it with Madagascar, where stone is for the ancestors, and wood for the ^living. [p:0.93][act:the evidence][tune:fall]And of twenty-five people cremated here, at least ten had spent their last years away from the chalk, most likely in west ^Wales.",
+      "[act:fair, another idea]Timothy Darvill and Geoffrey Wainwright suggested a place of ^healing: [tune:level]a legend of healing stones, bluestones chipped for charms, people with injuries buried ^nearby. [act:fair][tune:fall]Intriguing clues, but none of them ^direct."
+     ],
+     "shots": [
+      {
+       "id": "s41",
+       "say": "Others see a place for the dead. Mike Parker Pearson and the Malagasy archaeologist Ramilisonina compared it with Madagascar, where stone is for the ancestors, and wood for the living.",
+       "draw": "Two halves: left, a stone circle in grey at dusk (label 'stone: the ancestors'); right, a circle of timber posts in warm brown with smoke and small figures (label 'wood: the living'); a small map of Madagascar between them (label 'Madagascar')."
+      },
+      {
+       "id": "s42",
+       "say": "And of twenty-five people cremated here, at least ten had spent their last years away from the chalk, most likely in west Wales.",
+       "draw": "Twenty-five small urn-like markers in five rows (label '25 people'); ten of them turn blue one by one (label 'at least 10'); a blue arrow carries them west to a small map pin 'west Wales'."
+      },
+      {
+       "id": "s43",
+       "say": "Timothy Darvill and Geoffrey Wainwright suggested a place of healing: a legend of healing stones, bluestones chipped for charms, people with injuries buried nearby. Intriguing clues, but none of them direct.",
+       "draw": "Three clues pop in lilac dashes as named: a scroll (label 'a legend'), a bluestone with chips flying off (label 'chipped for charms'), a burial with a figure lying curled (label 'injuries'); then a dashed bracket under all three (label 'indirect clues')."
+      }
+     ]
+    },
+    {
+     "role": "cost",
+     "lines": [
+      "[d:build][act:the feast, delighted]Three kilometres away, at Durrington Walls, people ^feasted. [act:the evidence]Pig teeth show most were killed at about nine months ^old: [tune:fall]born in spring, eaten in ^midwinter. [p:0.93][act:the surprise, awed][tune:fall]And their bones show pigs raised as far away as Scotland, north-east England and west ^Wales, brought to the ^feast."
+     ],
+     "shots": [
+      {
+       "id": "s44",
+       "say": "Three kilometres away, at Durrington Walls, people feasted. Pig teeth show most were killed at about nine months old: born in spring, eaten in midwinter.",
+       "draw": "Durrington Walls at a winter dusk: square houses with glowing doorways inside a great bank, fires, people, pigs (label 'Durrington Walls'); at the right a year wheel: a piglet at spring, an arc of nine months drawing round to midwinter, a snowflake and a fire (labels 'born in spring', 'eaten in midwinter', '9 months')."
+      },
+      {
+       "id": "s45",
+       "say": "And their bones show pigs raised as far away as Scotland, north-east England and west Wales, brought to the feast.",
+       "draw": "Map of Great Britain: amber arrows draw from Scotland, north-east England and west Wales, and from other places, converging on Durrington Walls (pin), a small pig icon on each arrow (labels 'Scotland', 'north-east England', 'west Wales')."
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:aside][act:the landing, warm][tune:rise]A monument to the Sun, to the dead, or to the ^feast? [act:a smile][tune:fall]Quite possibly all three, at ^once."
+     ],
+     "shots": [
+      {
+       "id": "s46",
+       "say": "A monument to the Sun, to the dead, or to the feast? Quite possibly all three, at once.",
+       "draw": "Stonehenge small in silhouette at the centre; three icons pop round it as named: a sun, a cremation urn, a fire with a pig; then gold arcs join all three to the stones."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The weighing",
+   "beats": [
+    {
+     "role": "weigh",
+     "lines": [
+      "[d:verdict][act:calm, laying it out]So, let's ^weigh it. [act:steady][tune:rise]Built in stages by Neolithic farmers, from about {3000|three thousand} to {1600|sixteen hundred} ^BCE? [act:the verdict, confident][tune:fall]^*Established*.",
+      "[act:steady][tune:rise]Bluestones from Wales, moved by people, not ^ice? [act:the verdict][tune:fall]*Strong ^evidence*. [act:steady][tune:rise]The Altar Stone, from north-east ^Scotland? [act:the verdict][tune:fall]*Strong ^evidence*: three studies ^agree. [act:steady][tune:rise]A first Stonehenge at Waun ^Mawn? [act:honest][tune:fall]*Open ^question*.",
+      "[d:build][act:steady][tune:rise]Built on the solstice ^line? [act:firm][tune:fall]^*Established*. [act:steady][tune:rise]A place for the dead, and for midwinter ^feasts? [act:the verdict][tune:fall]*Strong ^evidence*. [act:fair][tune:rise]A calendar of three hundred and sixty-five days, or a place of ^healing? [act:even][tune:fall]*Awaiting ^evidence*.",
+      "[act:the last claims, firm but kind][tune:rise]Merlin's stones from Ireland, a lost civilisation, or stones raised long before {3000|three thousand} ^BCE? [act:the verdict, level][tune:fall]*Ruled ^out*: [act:plain][tune:fall]the stones came from Wales, Wiltshire and Scotland, and the tools, the dates and the homes all point to Neolithic ^Britons."
+     ],
+     "shots": [
+      {
+       "id": "s47",
+       "say": "Built in stages by Neolithic farmers, from about 3000 to 1600 BCE? Established.",
+       "draw": "Ledger, panel one ('How it was built'), four rows that fill one by one (a pictogram, a short text, a grade chip popping as the grade is said): row 1 'built in stages, 3000 to 1600 BCE' (a small trilithon) Established."
+      },
+      {
+       "id": "s48",
+       "say": "Bluestones from Wales, moved by people, not ice? Strong evidence. The Altar Stone, from north-east Scotland? Strong evidence: three studies agree. A first Stonehenge at Waun Mawn? Open question.",
+       "draw": "Rows 2 to 4 of the same ledger: 'bluestones from Wales, moved by people' (a sledge) Strong evidence; 'the Altar Stone from north-east Scotland' (a slab) Strong evidence; 'a first Stonehenge at Waun Mawn' (a dashed ring) Open question.",
+       "reuse": "alias of s47"
+      },
+      {
+       "id": "s49",
+       "say": "Built on the solstice line? Established. A place for the dead, and for midwinter feasts? Strong evidence. A calendar of three hundred and sixty-five days, or a place of healing? Awaiting evidence.",
+       "draw": "Ledger, panel two ('What it was for'): 'built on the solstice line' (a sun on a line) Established; 'for the dead, and midwinter feasts' (an urn and a fire) Strong evidence; 'a 365-day calendar, or healing' (a dial) Awaiting evidence."
+      },
+      {
+       "id": "s50",
+       "say": "Merlin's stones from Ireland, a lost civilisation, or stones raised long before 3000 BCE? Ruled out: the stones came from Wales, Wiltshire and Scotland, and the tools, the dates and the homes all point to Neolithic Britons.",
+       "draw": "The last row of panel two: 'Merlin, a lost civilisation, far older stones' (a lilac dotted star and a question) Ruled out, with a red strike across its pictogram.",
+       "reuse": "alias of s49"
+      }
+     ]
+    },
+    {
+     "role": "test",
+     "lines": [
+      "[d:tension][act:open, curious][tune:rise]What would change our ^minds? [act:practical][tune:level]A Neolithic quarry in Caithness, with a six-tonne gap in the ^rock. [act:same pace][tune:level]A stone at Waun Mawn that matches one at ^Stonehenge. [act:same pace][tune:level]Welsh boulders in the gravels under Salisbury ^Plain. [act:the far test][tune:fall]Or stones set in holes dated long before {3000|three thousand} ^BCE."
+     ],
+     "shots": [
+      {
+       "id": "s51",
+       "say": "What would change our minds? A Neolithic quarry in Caithness, with a six-tonne gap in the rock. A stone at Waun Mawn that matches one at Stonehenge. Welsh boulders in the gravels under Salisbury Plain. Or stones set in holes dated long before 3000 BCE.",
+       "draw": "Four wanted items in lilac dashes pop as named, across the panel: a sandstone outcrop with a slab-shaped gap (label 'a quarry in Caithness'); a stone with an '=' to a Stonehenge stone (label 'a Waun Mawn match'); boulders in a gravel section (label 'Welsh boulders'); a stonehole with a date chip 'before 3000 BCE' (label 'an older stonehole')."
+      }
+     ]
+    },
+    {
+     "role": "close",
+     "lines": [
+      "[d:tension][p:0.93][act:the last word, quiet wonder][tune:fall]Some four and a half thousand years ago, people chose one slab of stone in the far north, and carried it almost the length of ^Britain. [act:warm, inviting][tune:fall]Weigh it ^yourself."
+     ],
+     "shots": [
+      {
+       "id": "s52",
+       "say": "Some four and a half thousand years ago, people chose one slab of stone in the far north, and carried it almost the length of Britain. Weigh it yourself.",
+       "draw": "The hero again at night on its own panel: Stonehenge under stars, the Altar Stone at its heart glowing softly gold; on 'carried it', a faint gold thread rises from the slab and runs north across the sky."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "description": "At the heart of Stonehenge lies the Altar Stone, a six-tonne slab of sandstone. In 2024, tiny crystals inside it traced it to the far north-east of Scotland, more than 700 km away. Who built Stonehenge, how did its stones get there, and what was it for?\n\nWe follow the ditch and its antler picks, the sarsens and the bluestones; the Welsh quarries and the Waun Mawn idea; the Altar Stone's journey; glaciers, sledges and a cow from Wales; the solstice line, the calendar debate, the cremations and the midwinter feasts at Durrington Walls; and we weigh Merlin, a lost civilisation and a monument far older than the archaeologists say. Verdict: Established, built in stages by Neolithic farmers from about 3000 to 1600 BCE. Bluestones moved from Wales by people, and the Altar Stone from north-east Scotland: Strong evidence. A first Stonehenge at Waun Mawn: Open question. A 365-day calendar or a place of healing: Awaiting evidence. Merlin's stones, a lost civilisation, stones raised long before 3000 BCE: Ruled out.\n\nChapters\n0:00 Cold open\nmm:ss Who built it, and when?\nmm:ss Bluestones from Wales\nmm:ss A stone from Scotland\nmm:ss Moving the giants\nmm:ss Sun, ancestors and feasts\nmm:ss The weighing\n\nSources\nClarke et al. 2024, Nature 632: 570-575, doi:10.1038/s41586-024-07652-1\nBevins et al. 2024, J. Archaeol. Sci. Rep. 58: 104738, doi:10.1016/j.jasrep.2024.104738\nClarke et al. 2026, J. Quaternary Sci. 41: 888-895, doi:10.1002/jqs.70080\nClarke & Kirkland 2026, Commun. Earth Environ. 7: 54, doi:10.1038/s43247-025-03105-3\nBevins et al. 2023, J. Archaeol. Sci. Rep. 51: 104215, doi:10.1016/j.jasrep.2023.104215\nParker Pearson et al. 2024, Archaeology International 27: 113-137, doi:10.14324/ai.27.1.13\nNash et al. 2020, Science Advances 6: eabc0133, doi:10.1126/sciadv.abc0133\nThomas 1923, Antiquaries Journal 3: 239-260, doi:10.1017/S0003581500005096\nParker Pearson et al. 2015, Antiquity 89: 1331-1352, doi:10.15184/aqy.2015.177\nParker Pearson et al. 2019, Antiquity 93: 45-62, doi:10.15184/aqy.2018.111\nParker Pearson et al. 2021, Antiquity 95: 85-103, doi:10.15184/aqy.2020.239\nDarvill 2022, Antiquity 96, doi:10.15184/aqy.2022.82\nParker Pearson et al. 2022, Antiquity 96: 1530-1537, doi:10.15184/aqy.2022.132\nBevins et al. 2022, J. Archaeol. Sci. Rep. 45: 103556, doi:10.1016/j.jasrep.2022.103556\nKellaway 1971, Nature 233: 30-35, doi:10.1038/233030a0\nJohn 2024, E&G Quaternary Sci. J. 73: 117, doi:10.5194/egqsj-73-117-2024\nBevins et al. 2025, J. Archaeol. Sci. Rep. 66: 105303, doi:10.1016/j.jasrep.2025.105303\nHarris 2016, Public Archaeology 15: 148-156, doi:10.1080/14655187.2016.1261250\nEvans et al. 2025, J. Archaeol. Sci. 180: 106269, doi:10.1016/j.jas.2025.106269\nBayliss, Bronk Ramsey & McCormac 1997, Proc. British Academy 92: 39-59 (Oxford University Press)\nCleal, Walker & Montague 1995, Stonehenge in its Landscape (English Heritage)\nDarvill et al. 2012, Antiquity 86: 1021-1040, doi:10.1017/S0003598X00048225\nWillis et al. 2016, Antiquity 90: 337-356, doi:10.15184/aqy.2016.26\nSnoeck et al. 2018, Scientific Reports 8: 10790, doi:10.1038/s41598-018-28969-8\nBrace et al. 2019, Nature Ecology & Evolution 3: 765-771, doi:10.1038/s41559-019-0871-9\nAllen et al. 2016, Antiquity 90: 991-1008, doi:10.15184/aqy.2016.98\nRuggles 1997, Proc. British Academy 92: 203-229 (Oxford University Press)\nDarvill 2022, Antiquity 96: 319-335, doi:10.15184/aqy.2022.5\nMagli & Belmonte 2023, Antiquity 97, doi:10.15184/aqy.2023.33\nParker Pearson & Ramilisonina 1998, Antiquity 72: 308-326, doi:10.1017/S0003598X00086592\nDarvill & Wainwright 2009, Antiquaries Journal 89: 1-19, doi:10.1017/S000358150900002X\nWright et al. 2014, J. Archaeol. Sci. 52: 497-514, doi:10.1016/j.jas.2014.09.009\nMadgwick et al. 2019, Science Advances 5: eaau6078, doi:10.1126/sciadv.aau6078\nParker Pearson et al. 2007, Antiquity 81: 617-639, doi:10.1017/S0003598X00095624\nGeoffrey of Monmouth, c. 1136, The History of the Kings of Britain, ed. Reeve, trans. Wright 2007 (Boydell Press)",
+ "sources": [
+  "Clarke, A. J. I., Kirkland, C. L., Bevins, R. E., Pearce, N. J. G., Glorie, S. & Ixer, R. A. 2024, A Scottish provenance for the Altar Stone of Stonehenge, Nature 632: 570-575, doi:10.1038/s41586-024-07652-1",
+  "Bevins, R. E., Pearce, N. J. G., Hillier, S., Pirrie, D., Ixer, R. A., Ando, S., Barbarano, M., Power, M. & Turner, P. 2024, Was the Stonehenge Altar Stone from Orkney? Journal of Archaeological Science: Reports 58: 104738, doi:10.1016/j.jasrep.2024.104738",
+  "Clarke, A. J. I., Veness, R. L. J., Kirkland, C. L., Clark, C. D., Gandy, N., Emery, A., Bradley, S. L., Ely, J. C. & Igneczi, A. 2026, From Highlands to Henge: Refining the Provenance and Transport Pathways of Stonehenge's Altar Stone, Journal of Quaternary Science 41(6): 888-895, doi:10.1002/jqs.70080",
+  "Clarke, A. J. I. & Kirkland, C. L. 2026, Detrital zircon-apatite fingerprinting challenges glacial transport of Stonehenge's megaliths, Communications Earth & Environment 7: 54, doi:10.1038/s43247-025-03105-3",
+  "Bevins, R. E., Pearce, N. J. G., Ixer, R. A., Pirrie, D., Ando, S., Hillier, S., Turner, P. & Power, M. 2023, The Stonehenge Altar Stone was probably not sourced from the Old Red Sandstone of the Anglo-Welsh Basin, Journal of Archaeological Science: Reports 51: 104215, doi:10.1016/j.jasrep.2023.104215",
+  "Parker Pearson, M., Bevins, R., Bradley, R., Ixer, R., Pearce, N. & Richards, C. 2024, Stonehenge and its Altar Stone: the significance of distant stone sources, Archaeology International 27(1): 113-137, doi:10.14324/ai.27.1.13",
+  "Nash, D. J., Ciborowski, T. J. R., Ullyott, J. S., Parker Pearson, M., Darvill, T., Greaney, S., Maniatis, G. & Whitaker, K. A. 2020, Origins of the sarsen megaliths at Stonehenge, Science Advances 6(31): eabc0133, doi:10.1126/sciadv.abc0133",
+  "Thomas, H. H. 1923, The source of the stones of Stonehenge, The Antiquaries Journal 3(3): 239-260, doi:10.1017/S0003581500005096",
+  "Parker Pearson, M., Bevins, R., Ixer, R. et al. 2015, Craig Rhos-y-felin: a Welsh bluestone megalith quarry for Stonehenge, Antiquity 89(348): 1331-1352, doi:10.15184/aqy.2015.177",
+  "Parker Pearson, M., Pollard, J., Richards, C., Welham, K. et al. 2019, Megalith quarries for Stonehenge's bluestones, Antiquity 93(367): 45-62, doi:10.15184/aqy.2018.111",
+  "Parker Pearson, M., Pollard, J., Richards, C. et al. 2021, The original Stonehenge? A dismantled stone circle in the Preseli Hills of west Wales, Antiquity 95(379): 85-103, doi:10.15184/aqy.2020.239",
+  "Darvill, T. 2022, Mythical rings? Waun Mawn and Stonehenge Stage 1, Antiquity 96(390), doi:10.15184/aqy.2022.82",
+  "Parker Pearson, M., Pollard, J., Richards, C. et al. 2022, How Waun Mawn stone circle was designed and built, and when the Bluestones arrived at Stonehenge: a response to Darvill, Antiquity 96(390): 1530-1537, doi:10.15184/aqy.2022.132",
+  "Bevins, R. E., Pearce, N. J. G., Parker Pearson, M. & Ixer, R. A. 2022, Identification of the source of dolerites used at the Waun Mawn stone circle in the Mynydd Preseli, west Wales and implications for the proposed link with Stonehenge, Journal of Archaeological Science: Reports 45: 103556, doi:10.1016/j.jasrep.2022.103556",
+  "Kellaway, G. A. 1971, Glaciation and the stones of Stonehenge, Nature 233: 30-35, doi:10.1038/233030a0",
+  "John, B. S. 2024, A bluestone boulder at Stonehenge: implications for the glacial transport theory, E&G Quaternary Science Journal 73: 117, doi:10.5194/egqsj-73-117-2024",
+  "Bevins, R., Pearce, N., Ixer, R., Scourse, J., Daw, T., Parker Pearson, M., Pitts, M., Field, D., Pirrie, D., Saunders, I. & Power, M. 2025, The enigmatic 'Newall boulder' excavated at Stonehenge in 1924: new data and correcting the record, Journal of Archaeological Science: Reports 66: 105303, doi:10.1016/j.jasrep.2025.105303",
+  "Harris, B. 2016, Profile: Moving Stonehenge, Public Archaeology 15(2-3): 148-156, doi:10.1080/14655187.2016.1261250",
+  "Evans, J., Madgwick, R., Pashley, V., Wagner, D., Savickaite, K., Buckley, M. & Parker Pearson, M. 2025, Sequential multi-isotope sampling through a Bos taurus tooth from Stonehenge, Journal of Archaeological Science 180: 106269, doi:10.1016/j.jas.2025.106269",
+  "Bayliss, A., Bronk Ramsey, C. & McCormac, F. G. 1997, Dating Stonehenge, in Cunliffe, B. & Renfrew, C. (eds), Science and Stonehenge, Proceedings of the British Academy 92: 39-59 (Oxford University Press)",
+  "Cleal, R. M. J., Walker, K. E. & Montague, R. 1995, Stonehenge in its Landscape: Twentieth-Century Excavations, English Heritage Archaeological Report 10 (English Heritage)",
+  "Darvill, T., Marshall, P., Parker Pearson, M. & Wainwright, G. 2012, Stonehenge remodelled, Antiquity 86(334): 1021-1040, doi:10.1017/S0003598X00048225",
+  "Willis, C., Marshall, P., McKinley, J. et al. 2016, The dead of Stonehenge, Antiquity 90(350): 337-356, doi:10.15184/aqy.2016.26",
+  "Snoeck, C., Pouncett, J., Claeys, P. et al. 2018, Strontium isotope analysis on cremated human remains from Stonehenge support links with west Wales, Scientific Reports 8: 10790, doi:10.1038/s41598-018-28969-8",
+  "Brace, S., Diekmann, Y., Booth, T. J. et al. 2019, Ancient genomes indicate population replacement in Early Neolithic Britain, Nature Ecology & Evolution 3: 765-771, doi:10.1038/s41559-019-0871-9",
+  "Allen, M. J., Chan, B., Cleal, R. et al. 2016, Stonehenge's Avenue and 'Bluestonehenge', Antiquity 90(352): 991-1008, doi:10.15184/aqy.2016.98",
+  "Ruggles, C. 1997, Astronomy and Stonehenge, in Cunliffe, B. & Renfrew, C. (eds), Science and Stonehenge, Proceedings of the British Academy 92: 203-229 (Oxford University Press)",
+  "Darvill, T. 2022, Keeping time at Stonehenge, Antiquity 96(386): 319-335, doi:10.15184/aqy.2022.5",
+  "Magli, G. & Belmonte, J. A. 2023, Archaeoastronomy and the alleged 'Stonehenge calendar', Antiquity 97, doi:10.15184/aqy.2023.33",
+  "Parker Pearson, M. & Ramilisonina 1998, Stonehenge for the ancestors: the stones pass on the message, Antiquity 72(276): 308-326, doi:10.1017/S0003598X00086592",
+  "Darvill, T. & Wainwright, G. 2009, Stonehenge excavations 2008, The Antiquaries Journal 89: 1-19, doi:10.1017/S000358150900002X",
+  "Wright, E., Viner-Daniels, S., Parker Pearson, M. & Albarella, U. 2014, Age and season of pig slaughter at Late Neolithic Durrington Walls (Wiltshire, UK) as detected through a new system for recording tooth wear, Journal of Archaeological Science 52: 497-514, doi:10.1016/j.jas.2014.09.009",
+  "Madgwick, R., Lamb, A. L., Sloane, H., Nederbragt, A. J., Albarella, U., Parker Pearson, M. & Evans, J. A. 2019, Multi-isotope analysis reveals that feasts in the Stonehenge environs and across Wessex drew people and animals from throughout Britain, Science Advances 5(3): eaau6078, doi:10.1126/sciadv.aau6078",
+  "Parker Pearson, M., Cleal, R., Marshall, P. et al. 2007, The age of Stonehenge, Antiquity 81(313): 617-639, doi:10.1017/S0003598X00095624",
+  "Geoffrey of Monmouth, c. 1136, Historia Regum Britanniae, book 8; ed. M. D. Reeve, trans. N. Wright 2007, The History of the Kings of Britain (Boydell Press)",
+  "English Heritage, The Stones of Stonehenge and Building Stonehenge (online guides, 2024 to 2026): mortise and tenon and tongue and groove joints; sarsen and flint hammerstones; the Altar Stone beneath the fallen stones of the largest trilithon"
+ ],
+ "facts_added": [
+  {
+   "fact": "The Altar Stone (Stone 80) is a recumbent sandstone block of about 4.9 x 1.0 x 0.5 m, weighing about 6 tonnes; it lies beneath two fallen stones of the largest (Great) trilithon.",
+   "source": "Clarke et al. 2024, Nature; English Heritage, The Stones of Stonehenge"
+  },
+  {
+   "fact": "Ages of detrital zircon, apatite and rutile grains from Altar Stone fragments match the Old Red Sandstone of the Orcadian Basin, north-east Scotland, at least 750 km from Stonehenge; the authors suggest transport by sea.",
+   "source": "Clarke et al. 2024, Nature 632: 570-575"
+  },
+  {
+   "fact": "The Altar Stone's chemistry and mineralogy do not match the Old Red Sandstone of the Anglo-Welsh Basin, long proposed as its source (2023).",
+   "source": "Bevins et al. 2023, J. Archaeol. Sci. Rep. 51: 104215"
+  },
+  {
+   "fact": "Comparison with the stones of the Stones of Stenness and the Ring of Brodgar and with Orcadian sandstones shows the Altar Stone was not sourced from Mainland Orkney but from elsewhere in north-east Scotland (2024).",
+   "source": "Bevins et al. 2024, J. Archaeol. Sci. Rep. 58: 104738"
+  },
+  {
+   "fact": "Sandstones from Caithness, on the mainland of north-east Scotland, give the closest match to the Altar Stone's zircon ages; ice could at most have carried such rock part way (towards Dogger Bank), so substantial human transport was needed, perhaps in stages over land, river and coast (2026).",
+   "source": "Clarke et al. 2026, J. Quaternary Sci. 41: 888-895"
+  },
+  {
+   "fact": "The Altar Stone came from more than 700 km away; Stonehenge's sarsens come from about 24 km north and its bluestones from the Preseli Hills about 225 km away; the midwinter sunset falls over the middle of the Altar Stone, between the two largest uprights; the Altar Stone probably arrived around 2500 BCE.",
+   "source": "Parker Pearson et al. 2024, Archaeology International 27: 113-137; UCL News, 20 December 2024"
+  },
+  {
+   "fact": "50 of the 52 surviving sarsens share one chemistry; a core drilled from Stone 58 in the 1958 restoration and returned from the United States in 2018 matches West Woods, Wiltshire, 25 km north of Stonehenge; uprights 26 and 160 differ. Typical uprights weigh about 20 tonnes; about 80 sarsens stood originally.",
+   "source": "Nash et al. 2020, Science Advances 6: eabc0133"
+  },
+  {
+   "fact": "In 1923 H. H. Thomas of the Geological Survey identified sources of the bluestones in the Preseli Hills (Mynydd Preseli) of north Pembrokeshire.",
+   "source": "Thomas 1923, Antiquaries Journal 3: 239-260"
+  },
+  {
+   "fact": "The Preseli Hills lie about 230 km from Stonehenge (225 km in other papers); Carn Goedog and Craig Rhos-y-felin were excavated, showing megalith quarrying around 3000 BCE, the same period as the first stage of Stonehenge; the craig at Rhos-y-felin was discovered as a quarry in 2011.",
+   "source": "Parker Pearson et al. 2019, Antiquity 93: 45-62; Parker Pearson et al. 2015, Antiquity 89: 1331-1352"
+  },
+  {
+   "fact": "At the quarries, the rock forms natural vertical pillars; workers drove wedges into the joints between pillars and lowered them onto man-made platforms of stone and earth; charcoal from both sites dates to around 3000 BCE.",
+   "source": "UCL News, February 2019, on Parker Pearson et al. 2019"
+  },
+  {
+   "fact": "Waun Mawn, about 5 km from the quarries, was proposed in 2021 as a dismantled stone circle of the same diameter as Stonehenge's enclosing ditch (110 m), with a stonehole of pentagonal outline matching Stone 62, and was suggested to be an original Stonehenge moved to Salisbury Plain.",
+   "source": "Parker Pearson et al. 2021, Antiquity 95: 85-103; UCL News, 12 February 2021"
+  },
+  {
+   "fact": "pXRF analyses found that none of the four surviving Waun Mawn monoliths, nor fragments from stonehole 91, match Stone 62 (sourced to Garn Ddu Fach); the Waun Mawn stones come from Cerrig Lladron nearby. Parker Pearson was a co-author.",
+   "source": "Bevins, Pearce, Parker Pearson & Ixer 2022, J. Archaeol. Sci. Rep. 45: 103556"
+  },
+  {
+   "fact": "The Waun Mawn team now describe a construction sequence abandoned before the monument was completed; Darvill (2022) offered an alternative reading of the site, and John (2024) argued that the circle never existed.",
+   "source": "Parker Pearson et al. 2022, Antiquity 96: 1530-1537; Darvill 2022, Antiquity 96; John 2024, E&G Quaternary Sci. J. 73"
+  },
+  {
+   "fact": "Kellaway (1971) proposed that ice sheets, not people, brought the stones to Salisbury Plain; both sides agree direct evidence for either hypothesis was scant.",
+   "source": "Kellaway 1971, Nature 233: 30-35; John 2024; Bevins et al. 2025"
+  },
+  {
+   "fact": "The 'Newall boulder', collected at Stonehenge by Hawley in 1924 and once taken for a glacial erratic, is rhyolite from Craig Rhos-y-felin, most likely a piece of the broken Stone 32d, with no evidence of glacial transport.",
+   "source": "Bevins et al. 2025, J. Archaeol. Sci. Rep. 66: 105303"
+  },
+  {
+   "fact": "U-Pb ages of more than 500 detrital zircon grains (and apatite) from modern streams around Stonehenge show local recycled sediment and no glacial input: Salisbury Plain stayed unglaciated, making direct glacial transport of the megaliths unlikely.",
+   "source": "Clarke & Kirkland 2026, Communications Earth & Environment 7: 54; Curtin University news, 22 January 2026"
+  },
+  {
+   "fact": "In June 2016, UCL students hauled a block of about one tonne on a Y-shaped sycamore sledge over a timber track; 10 people were enough; about 20 people could move a 2-tonne bluestone, the bluestones' average weight.",
+   "source": "Harris 2016, Public Archaeology 15: 148-156; Live Science, 2 June 2016"
+  },
+  {
+   "fact": "A cattle jaw placed beside Stonehenge's south entrance, dated 2995-2900 BCE, has a tooth whose lead isotopes point to older Palaeozoic rocks such as those around the Preseli Hills; the authors raise the possibility that cattle helped haul the stones.",
+   "source": "Evans et al. 2025, J. Archaeol. Sci. 180: 106269; UCL and BGS news, August 2025"
+  },
+  {
+   "fact": "The main Stonehenge ditch was cut in 3015-2935 cal BCE (95%); well over 100 antlers, many used as picks or rakes and worn, lay on the ditch base.",
+   "source": "Bayliss, Bronk Ramsey & McCormac 1997, Proc. British Academy 92: 39-59"
+  },
+  {
+   "fact": "Stonehenge's circular enclosing ditch, with its bank inside, is about 110 m across (the diameter the Waun Mawn team compared).",
+   "source": "Parker Pearson et al. 2021, Antiquity 95: 85-103; Cleal, Walker & Montague 1995"
+  },
+  {
+   "fact": "Pine postholes found in 1966 in the Stonehenge car park (excavated by Faith and Lance Vatcher) were dug in the eighth and seventh millennia BCE, in the Mesolithic.",
+   "source": "Cleal, Walker & Montague 1995; English Heritage blog, Stonehenge 1965-77"
+  },
+  {
+   "fact": "Stonehenge's Neolithic cremated remains are the largest such assemblage in Britain, deposited over about five centuries from c. 3000 to 2500 BCE; earlier cremations were placed in or beside the Aubrey Holes, which had probably held small bluestones.",
+   "source": "Willis et al. 2016, Antiquity 90: 337-356"
+  },
+  {
+   "fact": "The sarsen circle (30 uprights with lintels) and the trilithons date to about 2620-2480 BCE (Stage 2); the bluestones were rearranged in later stages; the Y and Z holes, the last major features, date to around 1600 BCE.",
+   "source": "Darvill et al. 2012, Antiquity 86: 1021-1040; Parker Pearson et al. 2007; Cleal et al. 1995"
+  },
+  {
+   "fact": "The lintels are fixed with mortise and tenon joints to the uprights and tongue and groove joints to each other, techniques of woodworking; sarsen and flint hammerstones and heaps of sarsen and bluestone waste were found at the site.",
+   "source": "English Heritage, The Stones of Stonehenge and Building Stonehenge; Cleal et al. 1995"
+  },
+  {
+   "fact": "Neolithic farming appears in Britain about 4000 BCE; British Neolithic genomes show incoming continental farmers mostly descended from Aegean farmers by the Mediterranean route.",
+   "source": "Brace et al. 2019, Nature Ecology & Evolution 3: 765-771"
+  },
+  {
+   "fact": "Geoffrey of Monmouth (c. 1136) wrote that Merlin brought the Giants' Ring (Giants' Dance) from Mount Killaraus in Ireland, where giants had set up stones brought from Africa for their healing powers.",
+   "source": "Geoffrey of Monmouth, Historia Regum Britanniae, book 8 (trans. Wright 2007)"
+  },
+  {
+   "fact": "Periglacial fissures in the chalk within the Stonehenge Avenue lie on the monument's solstitial axis (midwinter sunset to midsummer sunrise).",
+   "source": "Allen et al. 2016, Antiquity 90: 991-1008"
+  },
+  {
+   "fact": "Darvill (2022) proposed that the sarsen settings encode a solar calendar of 365.25 days: 30 sarsens for the days of a month (12 months), 5 trilithons for 5 extra days, 4 Station Stones for a leap day.",
+   "source": "Darvill 2022, Antiquity 96: 319-335; Bournemouth University news, March 2022"
+  },
+  {
+   "fact": "Magli and Belmonte (2023) reply that the proposal rests on numerology, astronomical error and unsupported analogy: the number 12 is missing from the monument, and near the solstices the Sun's rising position changes too little to count single days.",
+   "source": "Magli & Belmonte 2023, Antiquity 97, doi:10.15184/aqy.2023.33"
+  },
+  {
+   "fact": "Parker Pearson and the Malagasy archaeologist Ramilisonina proposed, by analogy with Madagascar, that stone monuments were for the ancestors and timber ones for the living.",
+   "source": "Parker Pearson & Ramilisonina 1998, Antiquity 72: 308-326"
+  },
+  {
+   "fact": "Strontium isotopes show at least 10 of 25 cremated individuals from Stonehenge did not spend their lives (the last years before death, which cremated bone records) on the Wessex chalk; west Wales is the most plausible origin.",
+   "source": "Snoeck et al. 2018, Scientific Reports 8: 10790"
+  },
+  {
+   "fact": "Darvill and Wainwright suggested Stonehenge was a place of healing: the bluestones were valued for special, perhaps healing, properties; fragments were chipped off as charms into the nineteenth century; burials in the surrounding landscape show injuries and ill health.",
+   "source": "Darvill & Wainwright 2009, Antiquaries Journal 89: 1-19; reports of April and September 2008"
+  },
+  {
+   "fact": "Pigs at Durrington Walls were mostly killed at about nine months old, so born in spring and slaughtered in midwinter; the settlement is about 3 km from Stonehenge and dates to about 2500 BCE.",
+   "source": "Wright et al. 2014, J. Archaeol. Sci. 52: 497-514; English Heritage, Stonehenge midwinter feasts; Parker Pearson et al. 2007"
+  },
+  {
+   "fact": "Isotopes of 131 pigs from Durrington Walls, Marden, Mount Pleasant and West Kennet show animals raised as far away as Scotland, north-east England and west Wales.",
+   "source": "Madgwick et al. 2019, Science Advances 5: eaau6078"
+  },
+  {
+   "fact": "At midsummer the Sun rises along the Avenue near the Heel Stone; at midwinter it sets on the same axis to the south-west, once seen between the uprights of the largest trilithon.",
+   "source": "Ruggles 1997; English Heritage, The Stones of Stonehenge; Parker Pearson et al. 2024"
+  }
+ ],
+ "names": [
+  {
+   "name": "Salisbury Plain",
+   "say": "SAWLZ-bree PLAYN"
+  },
+  {
+   "name": "Preseli Hills",
+   "say": "preh-SEL-ee HILLZ"
+  },
+  {
+   "name": "Carn Goedog",
+   "say": "KARN GOY-dog"
+  },
+  {
+   "name": "Craig Rhos-y-felin",
+   "say": "KRYG rohss-uh-VEL-in"
+  },
+  {
+   "name": "Waun Mawn",
+   "say": "WINE MOWN (Mawn rhymes with town)"
+  },
+  {
+   "name": "Geoffrey of Monmouth",
+   "say": "JEF-ree of MON-muth (Monmouth in LEX)"
+  },
+  {
+   "name": "Merlin",
+   "say": "MUR-lin"
+  },
+  {
+   "name": "Herbert Thomas",
+   "say": "HUR-bert TOM-us"
+  },
+  {
+   "name": "Mike Parker Pearson",
+   "say": "MYKE PAR-ker PEER-sun"
+  },
+  {
+   "name": "David Nash",
+   "say": "DAY-vid NASH"
+  },
+  {
+   "name": "Anthony Clarke",
+   "say": "AN-tuh-nee KLARK"
+  },
+  {
+   "name": "Curtin University",
+   "say": "KUR-tin"
+  },
+  {
+   "name": "Orkney",
+   "say": "ORK-nee"
+  },
+  {
+   "name": "Caithness",
+   "say": "KAYTH-ness"
+  },
+  {
+   "name": "Durrington Walls",
+   "say": "DUR-ing-tun WAWLZ"
+  },
+  {
+   "name": "Heel Stone",
+   "say": "HEEL STOHN"
+  },
+  {
+   "name": "sarsen, sarsens",
+   "say": "SAR-sun, SAR-sunz"
+  },
+  {
+   "name": "trilithon, trilithons",
+   "say": "try-LITH-on, try-LITH-onz (singular in LEX)"
+  },
+  {
+   "name": "Neolithic",
+   "say": "nee-uh-LITH-ik"
+  },
+  {
+   "name": "zircon",
+   "say": "ZUR-kon"
+  },
+  {
+   "name": "archaeoastronomers",
+   "say": "ar-kee-oh-uh-STRON-uh-murz"
+  },
+  {
+   "name": "Timothy Darvill",
+   "say": "TIM-uh-thee DAR-vil"
+  },
+  {
+   "name": "Giulio Magli",
+   "say": "JOO-lee-oh MAL-yee"
+  },
+  {
+   "name": "Juan Antonio Belmonte",
+   "say": "HWAHN an-TOH-nee-oh bel-MON-tay"
+  },
+  {
+   "name": "Malagasy",
+   "say": "mal-uh-GASS-ee"
+  },
+  {
+   "name": "Ramilisonina",
+   "say": "rah-mee-lee-soo-NEE-nuh (Malagasy; please check)"
+  },
+  {
+   "name": "Geoffrey Wainwright",
+   "say": "JEF-ree WAYN-ryte"
+  }
+ ],
+ "words": 1613
+}
