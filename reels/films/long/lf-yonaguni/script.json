@@ -1,0 +1,708 @@
+{
+ "id": "lf-yonaguni",
+ "kind": "case",
+ "series": "Drowned Worlds",
+ "title": "Yonaguni: The Steps Under the Sea",
+ "intro_title": "Yonaguni: The Steps Under the Sea",
+ "yt_title": "Yonaguni's Underwater Pyramid: Carved by People or the Sea?",
+ "verdict": "Awaiting evidence",
+ "verdict_scope": "a monument carved or built by people (Kimura's reading of the formation as a stepped pyramid, roads, walls and a city), whether shaped while the rock was dry before the sea covered it (about 10,000 to 7,000 years ago) or built 2,000 to 3,000 years ago and sunk later; the rock itself is the island's own bedrock, and its steps and right angles have a sufficient natural explanation (bedding, joints, waves, the same forms on the coast); people walking on or touching up natural steps while they were dry is not ruled out, and no controlled excavation has tested it",
+ "hook": "Who carved these giant steps under the sea?",
+ "end_line": "The shape can't settle it. The mud on its steps might.",
+ "structure_note": "chapters[0] is the cold open and the title beat (no chapter card; YouTube chapter 0:00). Chapters 1 to 5 are the story chapters; 'The weighing' carries the verdict, the test and the close. Shot ids s1..sN are in story order; 'alias of sN' means a return to that panel.",
+ "chapters": [
+  {
+   "title": "Steps under the sea",
+   "beats": [
+    {
+     "role": "hook",
+     "lines": [
+      "[d:intrigue][sfx:boom][act:hushed wonder, painting it]Off Japan's westernmost island, a staircase of stone drops into the ^blue. [act:counting them off, slow][tune:level]Flat ^terraces. [act:building][tune:level]Sheer ^walls. [act:landing it][tune:fall]Corners that meet at ^right angles.",
+      "[d:tension][act:the legend, a hint of awe][tune:fall]Some call it a drowned ^pyramid. [act:the child's question, leaning in][tune:rise]Who carved these giant steps under the ^sea? [p:0.93][act:the second question, curious][tune:rise]And when was this rock last dry ^land?",
+      "[act:the promise, warm][tune:fall]One answer is written in the sea's own ^clocks. [act:quiet, intriguing][tune:fall]The other may still lie buried in the mud on its ^steps."
+     ],
+     "shots": [
+      {
+       "id": "s1",
+       "say": "Off Japan's westernmost island, a staircase of stone drops into the blue. Flat terraces. Sheer walls. Corners that meet at right angles.",
+       "draw": "HERO IMAGE, complete from the first frame. Underwater, 16:9: blue water lit from the top, the shimmering surface just under the top edge, slanting light rays. Five broad rock terraces climb up and back in three-quarter view, from the sandy floor at left (about 25 m down) to the top terrace near the surface (about 5 m down); each tier ends at right in a rough broken face; flat treads with patches of growth, sheer walls with bedding lines, straight joint cracks running down through the tiers, a narrow slot in the top terrace, a few fallen blocks at the foot, a bluer reef farther back. A diver with a lamp hangs in open water at left (1.8 m to scale), bubbles rising, small fish. On 'Flat terraces' the tread edges trace in gold, on 'Sheer walls' the vertical edges, on 'right angles' three small right-angle marks pop at the corners. The top left stays clear for the hook title."
+      },
+      {
+       "id": "s2",
+       "say": "Some call it a drowned pyramid. Who carved these giant steps under the sea?",
+       "draw": "Its own panel: the same terraces, smaller and dimmer. On 'drowned pyramid' a lilac dotted stepped outline (claimed style) traces up their steps and is mirrored down the far side into a symmetric pyramid, label 'a drowned pyramid?' (lilac italic). On 'Who carved' a large lilac question mark pops at right."
+      },
+      {
+       "id": "s3",
+       "say": "And when was this rock last dry land? One answer is written in the sea's own clocks. The other may still lie buried in the mud on its steps.",
+       "draw": "The same terraces in the open air at dusk: the Ice Age coast, the sea a thin strip at the horizon, shrubs on the plain and in the cracks; one small lilac figure on the top terrace (a question, not a find). On 'last dry land' a large lilac question mark pops in the sky. On 'the sea's own clocks' a small clock face glows; on 'buried in the mud' dark sediment pockets on the treads glow amber."
+      }
+     ]
+    },
+    {
+     "role": "title",
+     "lines": [
+      "[d:calm][act:warm, setting out]Yonaguni: the steps under the ^sea."
+     ],
+     "shots": [
+      {
+       "id": "s4",
+       "say": "Yonaguni: the steps under the sea.",
+       "draw": "The intro title card 'Yonaguni: The Steps Under the Sea' over the dimmed dry-rock panel. Only the title is said.",
+       "reuse": "intro card over the dry-rock panel"
+      }
+     ]
+    }
+   ],
+   "words": 71
+  },
+  {
+   "title": "Ruins Point",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:setting out, calm][tune:fall]This story starts at the very edge of ^Japan. [act:placing it on the map][tune:level]Yonaguni is the last island at the western end of the country's long southern ^chain. [p:0.93][act:explaining, clear][tune:fall]It lies about a hundred and ten kilometres from ^Taiwan: on a clear day, Taiwan's mountains show on the ^horizon.",
+      "[d:build][act:storytelling, vivid][tune:level]In {1986|nineteen eighty-six}, a local diver, Kihachiro ^Aratake, was exploring off the island's south ^coast. [act:the moment, wonder][tune:fall]Beneath him, the sea floor turned into giant ^stairs. [act:a smile][tune:fall]He named the spot Iseki Point: Ruins ^Point."
+     ],
+     "shots": [
+      {
+       "id": "s5",
+       "say": "Yonaguni is the last island at the western end of the country's long southern chain. It lies about a hundred and ten kilometres from Taiwan: on a clear day, Taiwan's mountains show on the horizon.",
+       "draw": "Map View(118.0, 131.5, 22.6, 29.6) in x 90..1690: Taiwan at left, the Ryukyu chain curving up to the right towards an amber arrow 'to mainland Japan'; labels Taiwan, Okinawa, East China Sea, Pacific Ocean; scale 200 km. Yonaguni (a schematic outline: the Natural Earth coast lacks it) gets the gold pin on 'Yonaguni is'; an amber dashed line runs down the chain to it on 'southern chain'. On 'a hundred and ten kilometres' a bone line from Taiwan, '110 km'; on 'clear day' a dotted sightline, label 'Taiwan visible on a clear day'."
+      },
+      {
+       "id": "s6",
+       "say": "In nineteen eighty-six, a local diver, Kihachiro Aratake, was exploring off the island's south coast. Beneath him, the sea floor turned into giant stairs. He named the spot Iseki Point: Ruins Point.",
+       "draw": "Yonaguni in plan, schematic outline (about 11 km long), green hills, the sea around it; labels 'Yonaguni', 'Cape Irizaki' (the west tip), 'south coast'; scale bar 2 km. A small dive boat pops off the south-east coast with a chip '1986'. On 'Beneath him' a round magnifier opens below the boat: inside it, a tiny diver over giant steps. On 'Ruins Point' a gold pin there: 'Iseki Point', 'Ruins Point'."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:introducing him, respectful][tune:level]From {1992|nineteen ninety-two}, a marine geologist at the University of the Ryukyus, Masaaki ^Kimura, led his team down again and ^again. [act:the method, clear][tune:fall]They mapped it with divers, with ^sonar, and with underwater ^robots.",
+      "[p:0.93][act:the scale, savouring it][tune:level]By his measure, the main mass starts about a hundred metres offshore and runs about two hundred and seventy ^metres: as long as the ^Titanic. [act:landing the number][tune:fall]And it rises twenty-five metres, from the sea floor almost to the ^waves."
+     ],
+     "shots": [
+      {
+       "id": "s7",
+       "say": "From nineteen ninety-two, a marine geologist at the University of the Ryukyus, Masaaki Kimura, led his team down again and again. They mapped it with divers, with sonar, and with underwater robots.",
+       "draw": "Underwater: the terraces in three-quarter view, smaller. Chip 'from 1992'. A survey boat on the surface sends a sonar fan down (blue, label 'sonar'); sonar dots land along the steps one by one and join into their outline (dashed). Two divers stretch a measuring tape along the top terrace ('divers'); a small underwater robot with a lamp glides on the floor ('robot').",
+       "reuse": "the rock profile as in yonaguni_m (f04.py)"
+      },
+      {
+       "id": "s8",
+       "say": "By his measure, the main mass starts about a hundred metres offshore and runs about two hundred and seventy metres: as long as the Titanic. And it rises twenty-five metres, from the sea floor almost to the waves.",
+       "draw": "To scale (4 units a metre): the shore at left, the sea surface across the panel; the main mass in profile starts 100 m offshore (dimension '100 m'), 270 m long ('270 m'), rising from 25 m down almost to the waves ('25 m'). On 'Titanic' the liner's outline (269 m: hull, superstructure, four funnels) rises as a bone dashed outline on the surface right above it, the same length; label 'Titanic, 269 m'."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:up close, wonder][tune:level]Up close@adj, the shapes are startling: terraces as flat as a ^floor, walls that drop straight ^down, a narrow trench along one side, like a ^gutter. [act:the stakes, even][tune:fall]To many divers, it looks ^built."
+     ],
+     "shots": [
+      {
+       "id": "s9",
+       "say": "Up close, the shapes are startling: terraces as flat as a floor, walls that drop straight down, a narrow trench along one side, like a gutter. To many divers, it looks built.",
+       "draw": "Its own panel, close on the upper terraces (the hero drawn 1.5 times larger). Gold traces run along the flat treads on 'flat as a floor', then down the walls on 'straight down'; the narrow slot in the top terrace outlines amber on 'gutter', label 'a trench'. On 'looks built' lilac dotted vertical lines appear on the risers, as if they were courses of blocks, label 'built?' (lilac italic)."
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:aside][act:a one-line landing, even][tune:fall]Kimura would spend decades arguing that it ^was. [act:dry, even][tune:fall]Other geologists answer: it's the ^rock, and the ^sea."
+     ],
+     "shots": [
+      {
+       "id": "s10",
+       "say": "Kimura would spend decades arguing that it was. Other geologists answer: it's the rock, and the sea.",
+       "draw": "Dark panel: a balance beam, level. Left pan: a small lilac dotted stepped monument, label 'Kimura: a monument'. Right pan: a small block of layered rock with straight cracks and a wave line above it, label 'others: rock and sea'."
+      }
+     ]
+    }
+   ],
+   "words": 195
+  },
+  {
+   "title": "The case for a monument",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:build][act:fair, giving him his due][tune:level]Here is Kimura's case, at its ^strongest. [act:explaining, steady][tune:fall]He read@past the formation feature by feature, the way an archaeologist reads a ^ruin.",
+      "[p:0.93][act:listing, building][tune:level]Around the main hill, he mapped a ring ^road, with great blocks set aside along its edge. [act:same rhythm][tune:level]Retaining ^walls. [act:same rhythm][tune:level]A ^gate, with paving stones in front of it. [act:the last item][tune:fall]And a drainage ^channel."
+     ],
+     "shots": [
+      {
+       "id": "s11",
+       "say": "He read the formation feature by feature, the way an archaeologist reads a ruin. Around the main hill, he mapped a ring road, with great blocks set aside along its edge. Retaining walls. A gate, with paving stones in front of it. And a drainage channel.",
+       "draw": "Plan view (from above), schematic, of the main hill: five nested terrace outlines in sandstone tones, north arrow. Kimura's features build in lilac dotted (claimed) as named: a ring road around the hill with small blocks along its edge, short thick wall segments, a gate (two posts) with paving squares in front, and a narrow drainage channel. Labels: 'ring road', 'walls', 'gate', 'channel'; caption 'after Kimura, schematic'."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:the evidence, careful][tune:level]At the corners of the steps, he pointed to dents he read@past as the marks of ^wedges and ^levers, the tools quarry workers use@verb to split stone.",
+      "[act:the finds, intrigued][tune:level]His team reported finds as well: a stone slab with incised ^lines, found behind a fallen block after a typhoon in {1994|nineteen ninety-four}. [act:continuing][tune:fall]And a round stone, seventy centimetres across, carved with an ^animal.",
+      "[d:wonder][act:the strangest, slower][tune:level]Further out, he named a ^stadium and a giant ^turtle. [act:slower, wonder][tune:fall]And a rock about seven metres tall that, to him, looked like a human ^face. [act:his words, wonder][tune:fall]Seen from the side, he wrote, it looks like a king in a feathered ^hat."
+     ],
+     "shots": [
+      {
+       "id": "s12",
+       "say": "At the corners of the steps, he pointed to dents he read as the marks of wedges and levers, the tools quarry workers use to split stone.",
+       "draw": "Left: a step corner of the rock in three-quarter view; three small dents at the corner ringed in lilac dotted circles, label 'dents?'. Right, drawn solid as an illustration of the method: a quarry block with a row of five wedge slots, a figure hammering a wedge, a crack running along the row, label 'how wedges split stone'."
+      },
+      {
+       "id": "s13",
+       "say": "His team reported finds as well: a stone slab with incised lines, found behind a fallen block after a typhoon in nineteen ninety-four. And a round stone, seventy centimetres across, carved with an animal.",
+       "draw": "Dark panel, three reported objects drawn as lilac dotted outlines (reported, not published): a flat stone slab with incised lines; a typhoon spiral with the chip '1994' beside it; a round stone with an animal outline carved on it and a dimension '70 cm'. Labels: 'incised slab', 'carved stone'."
+      },
+      {
+       "id": "s14",
+       "say": "Further out, he named a stadium and a giant turtle. And a rock about seven metres tall that, to him, looked like a human face. Seen from the side, he wrote, it looks like a king in a feathered hat.",
+       "draw": "Underwater: at left a lilac dotted stadium (terraced oval, 'stadium?') and at right a lilac dotted turtle ('turtle?'), small, as named; in the centre a tall natural rock, 7 m (dimension), a 1.8 m diver beside it for scale; on 'human face' a lilac dotted profile (brow, nose, lips) draws along the rock's side ('a face?'); on 'feathered hat' a dotted zigzag crown over its top ('a feathered hat?')."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:fair, a key point][tune:level]It's all one solid piece of ^bedrock, not stacked blocks. [act:fair, the counterpoint][tune:fall]That alone doesn't count against ^him. [p:0.93][act:explaining, a picture][tune:fall]People have carved whole temples out of living rock, from ^Petra in Jordan to ^Ellora in India."
+     ],
+     "shots": [
+      {
+       "id": "s15",
+       "say": "It's all one solid piece of bedrock, not stacked blocks. That alone doesn't count against him. People have carved whole temples out of living rock, from Petra in Jordan to Ellora in India.",
+       "draw": "Left: the formation cut open, its sandstone layers running unbroken through it (no blocks, no mortar), label 'one piece of bedrock'. Right, two small vignettes of rock-cut monuments: a temple facade carved into a rose-red cliff ('Petra, Jordan') and a temple carved down into a hill of rock, standing in its own pit ('Ellora, India')."
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:aside][act:his comparison, warm][tune:level]He likened the main hill to the old stone castles of ^Okinawa. [act:plain, a fact][tune:fall]And in {1998|nineteen ninety-eight}, his team filed it with the authorities as an archaeological ^site."
+     ],
+     "shots": [
+      {
+       "id": "s16",
+       "say": "He likened the main hill to the old stone castles of Okinawa. And in nineteen ninety-eight, his team filed it with the authorities as an archaeological site.",
+       "draw": "Left: an old Okinawan stone castle (gusuku) on its hill: walls of fitted stone following the hilltop, upturned corners, an arched gate, an inner wall above; label 'Okinawan castle'. Right: the terraces, smaller, with a lilac dotted wall traced along their edges, label 'a castle?'. On '1998' a paper notice pops with a red seal, label '1998: filed as a site'."
+      }
+     ]
+    }
+   ],
+   "words": 214
+  },
+  {
+   "title": "Flat layers, straight cracks",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:turning the page, brisk][tune:fall]Now let's ask the ^rock. [p:0.93][act:explaining, clear][tune:level]It's sandstone and mudstone, made of sand and mud washed off the Asian mainland, and laid down on an ancient sea floor fifteen to twenty million years ^ago. [act:the lift][tune:fall]Since then, the land has been pushed up out of the ^sea."
+     ],
+     "shots": [
+      {
+       "id": "s17",
+       "say": "It's sandstone and mudstone, made of sand and mud washed off the Asian mainland, and laid down on an ancient sea floor fifteen to twenty million years ago. Since then, the land has been pushed up out of the sea.",
+       "draw": "Section of an ancient sea floor: water above, sand and mud settling in alternating layers that fill from the bottom (pale sandstone, grey-brown mudstone), an amber arrow from 'Asian mainland' at left carrying sediment; chip '15 to 20 million years ago'. On 'pushed up' the whole stack rises as a block above a new sea line, an arrow up, label 'lifted'."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:explaining, hands-on][tune:level]Rock like this breaks in two ways. [act:the first][tune:level]It splits along its flat ^layers. [act:the second][tune:fall]And it cracks straight down, in sets of ^joints that often cross at right ^angles.",
+      "[p:0.93][act:explaining, a simple picture][tune:level]Think of a thick stack of paper, sliced straight down in a ^grid. [act:the neat trick, delighted][tune:fall]Lift out a few blocks, and you've made a staircase: flat treads, sheer walls, right angles, for ^free.",
+      "[act:the agent, vivid][tune:level]Here, the lifting is done by the ^waves. [act:explaining][tune:fall]Storm after storm, they pry loose the blocks between the cracks, and tumble them down the ^slope. [act:a detail, clear][tune:fall]And the softer mudstone wears away faster, undercutting the sandstone above it until it snaps off in clean ^slabs."
+     ],
+     "shots": [
+      {
+       "id": "s18",
+       "say": "Rock like this breaks in two ways. It splits along its flat layers. And it cracks straight down, in sets of joints that often cross at right angles.",
+       "draw": "Iso model, slowly turning: a slab of the rock, alternating sandstone and mudstone layers, cut by two sets of vertical joints at right angles (a grid of dark lines on its top and down its faces). Labels as said: 'flat layers', 'joints', then a small gold ring on a crossing, 'right angles'."
+      },
+      {
+       "id": "s19",
+       "say": "Think of a thick stack of paper, sliced straight down in a grid. Lift out a few blocks, and you've made a staircase: flat treads, sheer walls, right angles, for free.",
+       "draw": "Two iso models side by side, same scale: left, a thick stack of paper with a knife's grid traced on its top in red; right, the same stack with blocks lifted out (amber arrow 'lift out') so it steps down. Labels pop as said: 'flat treads', 'sheer walls', 'right angles'."
+      },
+      {
+       "id": "s20",
+       "say": "Here, the lifting is done by the waves. Storm after storm, they pry loose the blocks between the cracks, and tumble them down the slope. And the softer mudstone wears away faster, undercutting the sandstone above it until it snaps off in clean slabs.",
+       "draw": "Side section of a stepped rocky coast, sandstone and mudstone in bands, joints drawn: wave arrows hit the face ('waves'); a block between two joints outlines dashed amber, an arrow carries it down the slope, and tumbled blocks pop at the foot ('fallen blocks'). On 'softer mudstone' dark notches open under two sandstone ledges, label 'mudstone wears faster'."
+      }
+     ]
+    },
+    {
+     "role": "cost",
+     "lines": [
+      "[d:aside][act:lighter, a sideways glance][tune:fall]You don't even need to ^dive to see it. [act:painting it][tune:level]On the island's south-east coast, the same rock steps down to the sea in the open ^air. [p:0.93][act:the official stamp, pleased][tune:fall]In {2024|twenty twenty-four}, Japan made one stretch of that coast a national natural ^monument. [act:the reason][tune:fall]The citation: sandstone layers cut by faults and straight cracks, shaped by weather and ^waves."
+     ],
+     "shots": [
+      {
+       "id": "s21",
+       "say": "You don't even need to dive to see it. On the island's south-east coast, the same rock steps down to the sea in the open air.",
+       "draw": "Daylight coast: sandstone cliffs stepping down to the sea in terraces and sheer walls, layered and cracked, waves at the foot, a person on a ledge for scale (1.7 m). Label 'Yonaguni, south-east coast'."
+      },
+      {
+       "id": "s22",
+       "say": "In twenty twenty-four, Japan made one stretch of that coast a national natural monument. The citation: sandstone layers cut by faults and straight cracks, shaped by weather and waves.",
+       "draw": "Same coast: its layers and straight cracks trace in gold; a round seal pops, 'Natural Monument, 2024', label 'Sanninudai'.",
+       "reuse": "alias of the coast panel"
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:introducing him, fair][tune:level]The American geologist Robert ^Schoch made dozens of dives here, chipping off samples with hammer and ^chisel. [act:his hope, warm][tune:fall]He had hoped to find monumental stonework from the end of the Ice ^Age.",
+      "[p:0.93][act:his verdict, plain][tune:level]He concluded that it's primarily a ^natural structure: over ninety-five per cent, by his ^estimate@noun. [act:fair, the door left open][tune:fall]People, he thinks, may have ^touched up parts of it. [act:his evidence, plain][tune:fall]And the rock breaks the same way, he notes, under water and on ^land."
+     ],
+     "shots": [
+      {
+       "id": "s23",
+       "say": "The American geologist Robert Schoch made dozens of dives here, chipping off samples with hammer and chisel. He had hoped to find monumental stonework from the end of the Ice Age.",
+       "draw": "Underwater, beside a sheer natural wall of the rock (bedding lines, joints, crusts): a diver with a lamp, hammer and chisel at its face, chips falling, a sample bag; chip 'dozens of dives'. On 'Ice Age' a thought rises from him: three small lilac circles and a lilac dotted stepped monument above (his hope, claimed style)."
+      },
+      {
+       "id": "s24",
+       "say": "He concluded that it's primarily a natural structure: over ninety-five per cent, by his estimate. People, he thinks, may have touched up parts of it. And the rock breaks the same way, he notes, under water and on land. He came hoping for a monument, and reported what the rock showed him.",
+       "draw": "Same panel, the camera eases in to the right: on a dark card beside the diver a bar of 100 small cells builds, 95 in sandstone colour ('primarily natural') then 5 lilac dotted ('touched up?'); on 'under water and on land' two small icons pop on the card, a wave and a sun over a cliff.",
+       "reuse": "alias of the Schoch panel"
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:aside][act:a one-line landing, admiring][tune:fall]He came hoping for a monument, and reported what the rock showed ^him."
+     ],
+     "shots": []
+    }
+   ],
+   "words": 286
+  },
+  {
+   "title": "When the rock was dry",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:the second question, inviting][tune:rise]So when was this rock last ^dry? [act:explaining, brief][tune:fall]In the last Ice Age, so much water was locked up in ice that the sea stood far lower; our film on Atlantis tells that ^story."
+     ],
+     "shots": [
+      {
+       "id": "s25",
+       "say": "In the last Ice Age, so much water was locked up in ice that the sea stood far lower; our film on Atlantis tells that story.",
+       "draw": "Coastal section to scale (3 units a metre): today's sea line dashed near the top; the slope plunges far below; the Ice Age sea line about 120 m lower fills blue; the stepped rock, between 5 and 25 m below today's line, stands high and dry. Labels: 'sea today', 'Ice Age sea', 'the steps'; dimension '120 m'."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:a lovely clue, delighted][tune:level]Kimura's own team found a lovely ^clue. [act:painting it][tune:fall]Off the south coast, seventeen metres down, there's a drowned cave hung with ^stalactites, some of them tens of thousands of years ^old.",
+      "[p:0.93][act:explaining, a simple picture][tune:level]Stalactites grow drip by drip, in ^air, like icicles. [act:the key point][tune:fall]Under the sea, they don't form at ^all. [act:landing it][tune:fall]So when they grew, this coast was dry ^land."
+     ],
+     "shots": [
+      {
+       "id": "s26",
+       "say": "Kimura's own team found a lovely clue. Off the south coast, seventeen metres down, there's a drowned cave hung with stalactites, some of them tens of thousands of years old.",
+       "draw": "Underwater section: a cliff of the island's rock, a cave running into it 17 m down (dimension from the surface, 25 units a metre), stalactites popping along its roof ('stalactites'), the sea filling it now; label 'a drowned cave'; on 'tens of thousands of years' a chip 'tens of thousands of years old'."
+      },
+      {
+       "id": "s27",
+       "say": "Stalactites grow drip by drip, in air, like icicles. Under the sea, they don't form at all. So when they grew, this coast was dry land.",
+       "draw": "Two small panels side by side: left, in air, a stalactite with drops forming at its tip (drops fall one by one), label 'in air: they grow'; right, the same cave full of water, a dashed stalactite outline struck through, label 'under the sea: they don't'. On 'dry land' a gold tick."
+      }
+     ]
+    },
+    {
+     "role": "cost",
+     "lines": [
+      "[d:build][act:the melt, wonder][tune:level]Then the ice melted, and the sea came ^back. [p:0.93][act:the dates, precise][tune:level]Sea-level curves put the rising water at the rock's foot, twenty-five metres down, roughly nine to ten thousand years ^ago. [act:landing it][tune:fall]By about seven thousand years ago, it had closed over the upper ^steps.",
+      "[d:aside][act:honest, careful][tune:level]Those dates are ^fuzzy. [act:explaining the doubt][tune:fall]Specialists still disagree by several metres about that early rise, and in earthquake country, the land itself can rise or ^sink.",
+      "[act:a second clock, intrigued][tune:level]There's a second clock on the rock ^itself. [act:explaining][tune:level]Kimura's team dated the corals and algae that grew on it, which only live@verb in the ^sea. [act:the result, precise][tune:fall]Their dates run back about six thousand two hundred ^years: by then, at least part of it was under ^water."
+     ],
+     "shots": [
+      {
+       "id": "s28",
+       "say": "Then the ice melted, and the sea came back. Sea-level curves put the rising water at the rock's foot, twenty-five metres down, roughly nine to ten thousand years ago. By about seven thousand years ago, it had closed over the upper steps.",
+       "draw": "Chart, schematic envelope of published curves: years ago 11,000 to 5,000 (x), metres below today's sea level 0 to 50 (y), 'today's sea level' dashed. A shaded band rises left to right (label 'sea level'). Two lines across: 'foot, 25 m' and 'top, 5 m', with the rock as a sand bar at the right. Where the band crosses 25 m, a bracket '9,000 to 10,000 years ago'; where it reaches 5 m, a gold mark 'about 7,000'."
+      },
+      {
+       "id": "s29",
+       "say": "Those dates are fuzzy. Specialists still disagree by several metres about that early rise, and in earthquake country, the land itself can rise or sink.",
+       "draw": "Same chart: gold dashed curves trace the band's two edges, label 'curves differ'; small up and down arrows at right, label 'the land can move too'.",
+       "reuse": "alias of the curve panel"
+      },
+      {
+       "id": "s30",
+       "say": "There's a second clock on the rock itself. Kimura's team dated the corals and algae that grew on it, which only live in the sea. Their dates run back about six thousand two hundred years: by then, at least part of it was under water.",
+       "draw": "Close on the rock face underwater (bedding lines, two joints): pink coralline crusts and small corals pop across it; label 'they grow only in the sea'; a chisel takes a sample in a gold ring; chip 'about 6,200 years'."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:the turn, careful][tune:level]Kimura's estimates@noun of its age moved over the ^years. [p:0.93][act:tracing it, even][tune:level]In {2004|two thousand and four}, he wrote of about ten thousand years, or ^more. [act:the later idea][tune:fall]By {2007|two thousand and seven}, his team proposed just two to three ^thousand: built on land, then lowered as the crust ^sank.",
+      "[sfx:hit][act:the catch, plain][tune:level]That would need this coast to drop some twenty-five metres in a few thousand ^years. [p:0.93][act:fair, using his own data][tune:fall]Yet his team's dates from the island's north shore suggest it has stayed within a few metres of today's sea level for six and a half thousand ^years."
+     ],
+     "shots": [
+      {
+       "id": "s31",
+       "say": "Kimura's estimates of its age moved over the years. In two thousand and four, he wrote of about ten thousand years, or more. By two thousand and seven, his team proposed just two to three thousand: built on land, then lowered as the crust sank.",
+       "draw": "Left: a time axis, years ago 12,000 to today; Kimura's estimates pop as lilac dotted marks as said: '2004: about 10,000 or more' (a bar back past 10,000), then '2007: 2,000 to 3,000'. Right: a coast section, sea line, 'coast'; on 'built on land' the terraces rise above the sea line in lilac dashes, label 'built on land?'."
+      },
+      {
+       "id": "s32",
+       "say": "That would need this coast to drop some twenty-five metres in a few thousand years. Yet his team's dates from the island's north shore suggest it has stayed within a few metres of today's sea level for six and a half thousand years.",
+       "draw": "Same panel, right: the lilac dashed terraces reappear 25 m lower (arrow down, dimension '25 m') on 'drop some twenty-five metres'; then a solid gold marker on the north shore at the sea line, labels 'north shore: within a few m' and 'for 6,500 years'.",
+       "reuse": "alias of the estimates panel"
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:aside][act:a one-line landing, even][tune:fall]So if people carved it, they did it while it was ^dry: before about seven to ten thousand years ^ago."
+     ],
+     "shots": [
+      {
+       "id": "s33",
+       "say": "So if people carved it, they did it while it was dry: before about seven to ten thousand years ago.",
+       "draw": "Back on the sea-level chart: the region before the curve crosses the rock's depths shades amber, label 'if carved: before this'.",
+       "reuse": "alias of the curve panel"
+      }
+     ]
+    }
+   ],
+   "words": 309
+  },
+  {
+   "title": "What a quarry leaves",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:build][act:the next question, curious][tune:rise]Could people have been here, back ^then? [act:the evidence, warm][tune:fall]Humans reached these islands at least thirty thousand years ^ago.",
+      "[p:0.93][act:admiring, vivid][tune:level]In {2019|twenty nineteen}, five paddlers took a dugout canoe, hollowed out with stone ^axes@axe, from Taiwan to ^Yonaguni, steering by the sun, the stars and the ^swell. [act:the numbers, savouring][tune:fall]Two hundred and twenty-five kilometres, in about forty-five ^hours."
+     ],
+     "shots": [
+      {
+       "id": "s34",
+       "say": "Humans reached these islands at least thirty thousand years ago.",
+       "draw": "Its own panel, the chain map again (as drawn before): Yonaguni pinned; pins pop on Okinawa ('Sakitari Cave') and Ishigaki ('Shiraho'), chip 'over 30,000 years ago'."
+      },
+      {
+       "id": "s35",
+       "say": "In twenty nineteen, five paddlers took a dugout canoe, hollowed out with stone axes, from Taiwan to Yonaguni, steering by the sun, the stars and the swell. Two hundred and twenty-five kilometres, in about forty-five hours.",
+       "draw": "Open sea: Taiwan's coast at left, Yonaguni at right; a dugout canoe with five paddlers crosses; an amber dashed arrow '225 km'; above, two suns and a moon tick by (two days and a night), label 'about 45 hours'.",
+       "reuse": "adapted from yonaguni_m scene 3 (f04.py, the crossing)"
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:the test, practical][tune:level]So if people carved this, what should we ^find? [act:a picture, lively][tune:fall]A quarry is a messy ^place. [p:0.93][act:an everyday picture, a smile][tune:fall]Think of a carpenter's workshop: sweep it all you like, and sawdust still hides in the ^corners.",
+      "[p:0.93][act:listing, building][tune:level]Splitting stone with wedges leaves rows of matching ^slots. [act:same rhythm][tune:level]Workers leave ^chips, broken tools, and blocks abandoned half ^cut. [act:same rhythm][tune:level]They leave hearths, ^shells and bones. [act:the payoff][tune:fall]And sealed in a layer, all of that can be ^dated.",
+      "[act:the contrast, even][tune:fall]Nature leaves something else: shapes that follow the rock's own layers and cracks, and fallen blocks lying where they ^dropped."
+     ],
+     "shots": [
+      {
+       "id": "s36",
+       "say": "So if people carved this, what should we find? A quarry is a messy place. Think of a carpenter's workshop: sweep it all you like, and sawdust still hides in the corners.",
+       "draw": "A carpenter's workshop in warm lamp light, the everyday picture: a bench, a broom, the floor swept clean in the middle; on 'sawdust' small curls of sawdust glow in the four corners, label 'sawdust in the corners'."
+      },
+      {
+       "id": "s37",
+       "say": "Splitting stone with wedges leaves rows of matching slots. Workers leave chips, broken tools, and blocks abandoned half cut. They leave hearths, shells and bones. And sealed in a layer, all of that can be dated.",
+       "draw": "An ancient quarry, drawn solid as an illustration of what a quarry leaves: a rock face with a row of matching wedge slots along a crack; a heap of chips and a broken tool; a block abandoned half cut; a hearth with shells and bones; a soil layer sealing them, with a date tag. Built in the order said. Labels: 'wedge slots', 'chips', 'hearth', 'dated layer'."
+      },
+      {
+       "id": "s38",
+       "say": "Nature leaves something else: shapes that follow the rock's own layers and cracks, and fallen blocks lying where they dropped.",
+       "draw": "A natural outcrop: steps whose edges follow the bedding and joints (gold dashed lines along the cracks), and fallen blocks lying at its foot where they dropped. Labels: 'follows the cracks', 'fallen blocks'."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:the scorecard, fair][tune:rise]So what has been ^found? [act:fair to both][tune:level]Dents that Kimura reads as wedge marks, and his critics as the work of the ^sea. [act:same rhythm][tune:fall]Blocks he reads as moved aside, which they see as ^fallen.",
+      "[p:0.93][act:careful, honest][tune:level]As far as we know, the incised slab and carved stone he reported have not been published with their exact find spot, layer and date, so that others can test ^them. [act:plain][tune:fall]And Japan's cultural authorities have not recognised it as an archaeological ^site."
+     ],
+     "shots": [
+      {
+       "id": "s39",
+       "say": "So what has been found? Dents that Kimura reads as wedge marks, and his critics as the work of the sea. Blocks he reads as moved aside, which they see as fallen.",
+       "draw": "A scorecard on the dark wall: two columns, 'expected if carved' and 'found so far', four rows: 'wedge slots in rows', 'debris, broken tools', 'finds in dated layers', 'an official site'. The first two fill as said: 'dents, disputed' and 'blocks: moved or fallen?', each with a lilac question mark."
+      },
+      {
+       "id": "s40",
+       "say": "As far as we know, the incised slab and carved stone he reported have not been published with their exact find spot, layer and date, so that others can test them. And Japan's cultural authorities have not recognised it as an archaeological site.",
+       "draw": "Same scorecard: rows three and four fill as said, muted: 'reported, not published'; 'not recognised'.",
+       "reuse": "alias of the scorecard panel"
+      }
+     ]
+    },
+    {
+     "role": "cost",
+     "lines": [
+      "[d:build][act:the island's own record, even][tune:level]On Yonaguni itself, the oldest dated traces of people, at a beach site, are about four and a half thousand years ^old. [act:the gap, pointed][tune:fall]That's long after the sea closed over the ^steps. [act:fair, the caveat][tune:fall]Of course, any older camp on the Ice Age shore would now be under the sea ^too."
+     ],
+     "shots": [
+      {
+       "id": "s41",
+       "say": "On Yonaguni itself, the oldest dated traces of people, at a beach site, are about four and a half thousand years old. That's long after the sea closed over the steps. Of course, any older camp on the Ice Age shore would now be under the sea too.",
+       "draw": "Timeline, years ago 12,000 to today: a blue band 'the sea closes over the steps' (about 10,000 to 7,000); a gold dot at about 4,400, labels 'oldest dated traces on Yonaguni' and 'Tuguru-hama, about 4,400'; a bracket 'thousands of years' between them; before 10,000, a lilac dotted zone 'older camps?', 'under the sea'."
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:tension][act:quiet, pointed][tune:fall]And as far as we know, no one has ever published a controlled dig in the mud on those ^terraces. [act:flat, final][tune:highfall]Not ^once."
+     ],
+     "shots": [
+      {
+       "id": "s42",
+       "say": "And as far as we know, no one has ever published a controlled dig in the mud on those terraces. Not once.",
+       "draw": "Close on a terrace underwater (the hero's terraces, 2.4 times larger): dark mud and sand filling a hollow on the tread; a dashed amber rectangle where a trench would go, label 'no published dig'; on 'Not once' it glows.",
+       "reuse": "adapted from yonaguni_m scene 5 (f04.py, the sediment nobody has dug)"
+      }
+     ]
+    }
+   ],
+   "words": 286
+  },
+  {
+   "title": "The weighing",
+   "beats": [
+    {
+     "role": "weigh",
+     "lines": [
+      "[d:verdict][act:taking stock, calm authority][tune:level]So let's ^weigh it. [act:firm, plain][tune:level]Established: this is the island's own ^bedrock, layered sandstone and mudstone that splits into flat steps and right angles, as it does@verb on the coast ^nearby.",
+      "[act:steady][tune:level]Established too: it stood in the open air through the Ice Age, and the sea closed over it between about ten and seven thousand years ^ago. [act:fair, open][tune:level]Plausible: people from these islands could have reached it, and walked on it, while it was ^dry. [act:honest][tune:fall]Open: whether anyone ever ^shaped it.",
+      "[d:verdict][p:0.95][act:weighing it, calm authority][tune:rise]A monument carved by ^people? [act:the verdict, level-headed][tune:fall]*Awaiting ^evidence*. [act:fair, plain][tune:fall]Not ruled ^out, because nobody has ^dug. [act:plain][tune:fall]But nothing found so far needs a human ^hand."
+     ],
+     "shots": [
+      {
+       "id": "s43",
+       "say": "Established: this is the island's own bedrock, layered sandstone and mudstone that splits into flat steps and right angles, as it does on the coast nearby.",
+       "draw": "Ledger board, first row lights up as named, a small picture at left: the layered rock ('the island's own bedrock') chip 'Established'."
+      },
+      {
+       "id": "s44",
+       "say": "Established too: it stood in the open air through the Ice Age, and the sea closed over it between about ten and seven thousand years ago. Plausible: people from these islands could have reached it, and walked on it, while it was dry. Open: whether anyone ever shaped it.",
+       "draw": "Rows two to four light up as named: a wave over steps ('dry in the Ice Age, drowned 10,000 to 7,000 years ago') chip 'Established'; small figures ('people could have walked on it') chip 'Plausible'; a lilac question ('whether anyone shaped it') chip 'Open question'.",
+       "reuse": "alias of the ledger panel"
+      },
+      {
+       "id": "s45",
+       "say": "A monument carved by people? Awaiting evidence. Not ruled out, because nobody has dug. But nothing found so far needs a human hand.",
+       "draw": "Last row: a lilac dotted monument ('a monument carved by people'), the chip 'Awaiting evidence' pops as it is said.",
+       "reuse": "alias of the ledger panel"
+      }
+     ]
+    },
+    {
+     "role": "test",
+     "lines": [
+      "[d:build][p:0.93][act:practical, clear][tune:rise]What would change our ^minds? [act:the test, precise][tune:level]A trench through the mud on a terrace, with a stone tool, a hearth or a broken wedge sealed against a cut ^face. [act:the second test][tune:level]Tool marks in rows that ignore the rock's natural ^cracks. [act:the payoff][tune:fall]Dates from that layer, from more than one lab, published so anyone can ^check. [act:warm, hopeful][tune:fall]Best of all, dug by people who disagree, side by ^side."
+     ],
+     "shots": [
+      {
+       "id": "s46",
+       "say": "What would change our minds? A trench through the mud on a terrace, with a stone tool, a hearth or a broken wedge sealed against a cut face. Tool marks in rows that ignore the rock's natural cracks.",
+       "draw": "Section of a terrace with mud: a stepped trench (blue, inferred) cuts down through the mud to the rock, two divers in it; lilac dotted (wanted, not found): a stone tool, a hearth, a broken wedge, label 'sealed finds, wanted'. Then, on the rock below, a row of identical gold marks running across the natural cracks, label 'marks across the cracks'."
+      },
+      {
+       "id": "s47",
+       "say": "Dates from that layer, from more than one lab, published so anyone can check. Best of all, dug by people who disagree, side by side.",
+       "draw": "Three lab flasks pop, each with a matching chip 'same date'; a journal page with a green tick, 'published'; two divers, one gold and one blue, side by side, label 'rivals, side by side'."
+      }
+     ]
+    },
+    {
+     "role": "close",
+     "lines": [
+      "[d:tension][p:0.93][act:quiet, the last word][tune:fall]The shape can't settle ^it. [act:hushed, hopeful][tune:fall]The mud on its steps still ^might. [act:warm, inviting][tune:fall]Weigh it ^yourself."
+     ],
+     "shots": [
+      {
+       "id": "s48",
+       "say": "The shape can't settle it. The mud on its steps still might. Weigh it yourself.",
+       "draw": "The hero rock again, wide and quiet: the light dims to dusk blue, one lamp glows on the mud of a terrace; the camera holds as the end card arrives.",
+       "reuse": "alias of s1"
+      }
+     ]
+    }
+   ],
+   "words": 180
+  }
+ ],
+ "description": "Off Japan's westernmost island, Yonaguni, giant stone steps drop into the sea: flat terraces, sheer walls, right angles. Some call it a drowned pyramid. We follow it from the diver who found it in 1986, through Masaaki Kimura's case for a carved monument, to the sandstone it is made of, the sea-level clocks that date when it went under, and what a real quarry would have left behind.\n\nVerdict on a monument carved by people: Awaiting evidence. The rock is the island's own bedrock and its steps have a natural explanation; whether anyone ever shaped them has never been tested with a dig. Weigh it yourself.\n\nChapters\n0:00 Steps under the sea\nmm:ss Ruins Point\nmm:ss The case for a monument\nmm:ss Flat layers, straight cracks\nmm:ss When the rock was dry\nmm:ss What a quarry leaves\nmm:ss The weighing\n\nSources\nKimura 2004, The Yonaguni underwater ruins: present state and protection, Ocean Newsletter 103 (Ocean Policy Research Foundation)\nKimura 2000, Paleogeography of the Ryukyu Islands, Tropics 10(1): 5-24, doi:10.3759/tropics.10.5\nKimura, Asato, Nakamura, Sugiyama & Matsuura 2002, Radiocarbon dating of the Tuguru-hama site and beachrocks, Yonaguni (Nagoya University AMS report)\nKimura, Ichikawa, Yoshimatsu, Furukawa & Nakamura 2005, Submerged age of the Iseki Point area off Yonaguni (Nagoya University AMS report)\nKimura, Furukawa, Nakamura et al. 2007, Dating of submarine structures off Chatan and a re-examination of the Yonaguni age (Nagoya University AMS report 18)\nRyall 2007, Japan's ancient underwater 'pyramid' mystifies scholars, National Geographic News, 19 September 2007\nSchoch, The underwater monument at Yonaguni, Japan (author's website, research highlights); Schoch & McNally 1999, Voices of the Rocks (Harmony Books)\nYazaki 1982, Geology of the Yonaguni Jima district, 1:50,000 geological map and explanatory text, Geological Survey of Japan\nOgata, Otsubo & Itoh 2020, Geosites of Yonaguni Island, E-journal GEO 15(1): 44-54, doi:10.4157/ejgeo.15.44\nAgency for Cultural Affairs, Sanninudai, Place of Scenic Beauty and Natural Monument (designated 21 February 2024); Okinawa Prefectural Board of Education, report of 20 October 2023\nPollard & Aydin 1988, Progress in understanding jointing over the past century, GSA Bulletin 100(8): 1181-1204, doi:10.1130/0016-7606(1988)100<1181:PIUJOT>2.3.CO;2\nSunamura 1992, Geomorphology of Rocky Coasts, Wiley\nLambeck, Rouby, Purcell, Sun & Sambridge 2014, PNAS 111(43): 15296-15303, doi:10.1073/pnas.1411762111\nHijma, Bradley, Cohen, van der Wal et al. 2025, Global sea-level rise in the early Holocene revealed from North Sea peats, Nature 639: 652-657, doi:10.1038/s41586-025-08769-7\nHongo, Fujita, Kawasaki, Minei & Sasaki 2015, Holocene sea-level record from a drilled core on a reef crest in Okinawa Island, JpGU 2015 abstract BBG21-P03\nFujita et al. 2016, PNAS 113(40): 11184-11189, doi:10.1073/pnas.1607857113\nNakagawa et al. 2010, Anthropological Science 118(3): 173-183, doi:10.1537/ase.091214\nKaifu, Kuo, Kubota & Jan 2020, Palaeolithic voyage for invisible islands beyond the horizon, Scientific Reports 10: 19785, doi:10.1038/s41598-020-76831-7\nKaifu et al. 2025, Palaeolithic seafaring in East Asia: an experimental test of the dugout canoe hypothesis, Science Advances, doi:10.1126/sciadv.adv5507\nOkinawa Prefectural Board of Education 1984, Preliminary report on the excavation of the Tuguru-hama site, Yonaguni\nKlemm & Klemm 2008, Stones and Quarries in Ancient Egypt, British Museum Press\nUNESCO World Heritage List: Petra (no. 326) and Ellora Caves (no. 243)\nEncyclopaedia Britannica, Titanic (length 882 ft 9 in, about 269 m)",
+ "sources": [
+  "Kimura 2004, The Yonaguni underwater ruins: present state and protection, Ocean Newsletter 103 (Ocean Policy Research Foundation)",
+  "Kimura 2000, Paleogeography of the Ryukyu Islands, Tropics 10(1): 5-24, doi:10.3759/tropics.10.5",
+  "Kimura, Asato, Nakamura, Sugiyama & Matsuura 2002, Radiocarbon dating of the Tuguru-hama site and beachrocks, Yonaguni (Nagoya University AMS report)",
+  "Kimura, Ichikawa, Yoshimatsu, Furukawa & Nakamura 2005, Submerged age of the Iseki Point area off Yonaguni (Nagoya University AMS report)",
+  "Kimura, Furukawa, Nakamura et al. 2007, Dating of submarine structures off Chatan and a re-examination of the Yonaguni age (Nagoya University AMS report 18)",
+  "Ryall 2007, Japan's ancient underwater 'pyramid' mystifies scholars, National Geographic News, 19 September 2007",
+  "Schoch, The underwater monument at Yonaguni, Japan (author's website, research highlights); Schoch & McNally 1999, Voices of the Rocks (Harmony Books)",
+  "Yazaki 1982, Geology of the Yonaguni Jima district, 1:50,000 geological map and explanatory text, Geological Survey of Japan",
+  "Ogata, Otsubo & Itoh 2020, Geosites of Yonaguni Island, E-journal GEO 15(1): 44-54, doi:10.4157/ejgeo.15.44",
+  "Agency for Cultural Affairs, Sanninudai, Place of Scenic Beauty and Natural Monument (designated 21 February 2024); Okinawa Prefectural Board of Education, report of 20 October 2023",
+  "Pollard & Aydin 1988, Progress in understanding jointing over the past century, GSA Bulletin 100(8): 1181-1204, doi:10.1130/0016-7606(1988)100<1181:PIUJOT>2.3.CO;2",
+  "Sunamura 1992, Geomorphology of Rocky Coasts, Wiley",
+  "Lambeck, Rouby, Purcell, Sun & Sambridge 2014, PNAS 111(43): 15296-15303, doi:10.1073/pnas.1411762111",
+  "Hijma, Bradley, Cohen, van der Wal et al. 2025, Global sea-level rise in the early Holocene revealed from North Sea peats, Nature 639: 652-657, doi:10.1038/s41586-025-08769-7",
+  "Hongo, Fujita, Kawasaki, Minei & Sasaki 2015, Holocene sea-level record from a drilled core on a reef crest in Okinawa Island, JpGU 2015 abstract BBG21-P03",
+  "Fujita et al. 2016, PNAS 113(40): 11184-11189, doi:10.1073/pnas.1607857113",
+  "Nakagawa et al. 2010, Anthropological Science 118(3): 173-183, doi:10.1537/ase.091214",
+  "Kaifu, Kuo, Kubota & Jan 2020, Palaeolithic voyage for invisible islands beyond the horizon, Scientific Reports 10: 19785, doi:10.1038/s41598-020-76831-7",
+  "Kaifu et al. 2025, Palaeolithic seafaring in East Asia: an experimental test of the dugout canoe hypothesis, Science Advances, doi:10.1126/sciadv.adv5507",
+  "Okinawa Prefectural Board of Education 1984, Preliminary report on the excavation of the Tuguru-hama site, Yonaguni",
+  "Klemm & Klemm 2008, Stones and Quarries in Ancient Egypt, British Museum Press",
+  "UNESCO World Heritage List: Petra (no. 326) and Ellora Caves (no. 243)",
+  "Encyclopaedia Britannica, Titanic (length 882 ft 9 in, about 269 m)"
+ ],
+ "facts_added": [
+  {
+   "fact": "In 1986 a local diver, Kihachiro Aratake, came upon a stair-like structure off Yonaguni's south coast, named the spot 'Iseki Point' (Ruins Point) and began surveying it as a dive site; the University of the Ryukyus survey team under Masaaki Kimura began work in 1992, using scuba, a 3-D sonar (SeaBat), robots, laser and aerial surveys of the land, and beryllium-10 and carbon-14 dating.",
+   "source": "Kimura 2004, Ocean Newsletter 103 (his own account); Ryall 2007, National Geographic News"
+  },
+  {
+   "fact": "Kimura's 'Monument No. 1' (the main hill), about 100 m offshore, rises from about 25 m depth as a stepped form about 270 m east-west, 120 m north-south and about 26 m high.",
+   "source": "Kimura 2004, Ocean Newsletter 103"
+  },
+  {
+   "fact": "Kimura's case: dents at the corners of Monument No. 1 and of retaining walls read as wedge and lever marks; a loop road with megaliths set aside along it; retaining walls; a gate with paving stones; drainage ditches; a stadium, a turtle-shaped 'temple', an obelisk-like stone, and a face rock about 7 m tall; finds including stone tools, an incised stone tablet that came out from behind a fallen megalith of the loop road's wall after a 1994 typhoon, and a round stone about 70 cm across carved with an animal; he compared the main hill to Okinawan gusuku castles such as Shuri Castle; in 1998 his team filed a notice of discovery with the Okinawa Prefectural Board of Education.",
+   "source": "Kimura 2004, Ocean Newsletter 103"
+  },
+  {
+   "fact": "Kimura's age estimates changed: in 2000 'greater than 6,000 years old'; in 2004 'about 10,000 years or earlier', made by people on land; in 2007 he told a conference the ruins were at least 5,000 years old and had sunk in an earthquake; the 2007 Nagoya report proposes formation on land about 3,000 to 2,000 years ago, then submergence by crustal subsidence.",
+   "source": "Kimura 2000, Tropics 10: 5-24; Kimura 2004, Ocean Newsletter 103; Ryall 2007, National Geographic; Kimura et al. 2007, Nagoya University AMS report 18"
+  },
+  {
+   "fact": "Kimura's team dated corals and coralline algae growing on the Iseki Point structures (7 to 30 m depth): a continuous run of ages back to about 6,199 cal BP, from which they concluded the area may have formed on land before then.",
+   "source": "Kimura et al. 2005, Nagoya University AMS report (Submerged age of the Iseki Point area)"
+  },
+  {
+   "fact": "The Hikawa submarine stalactite cave, found in 1998 about 500 m off Hikawa on Yonaguni's south coast at 17 m depth (entrance about 20 m wide and 15 m high), holds stalactites with radiocarbon ages from about 12,600 to over 38,000 years BP (the authors note that dead carbon makes stalactite ages too old and allow a wide margin); stalactites form in air, so the cave was once dry.",
+   "source": "Kimura et al. 2005, Nagoya University AMS report"
+  },
+  {
+   "fact": "Kimura's team dated shells and corals from the Tuguru-hama site and beachrocks on Yonaguni's north coast: the site's lower layer about 4,410 cal BP (the oldest Neolithic date in the Sakishima region), and the north coast has stayed within about 5 m of present sea level since about 6,500 years ago, consistent with the sea-level curve.",
+   "source": "Kimura, Asato, Nakamura, Sugiyama & Matsuura 2002, Nagoya University AMS report; Okinawa Prefecture (Tuguru-hama: Shimotabaru-type culture, no pottery)"
+  },
+  {
+   "fact": "Yonaguni's bedrock is the Miocene Yaeyama Group, a sand-dominated alternation of sandstone and shale (flysch facies); foraminifera correlate it with the Middle Miocene (others give Early Miocene, about 20 million years); the south-east coast from Sanninudai to Arakawabana is a fault-line and wave-cut coast.",
+   "source": "Yazaki 1982, Geological Survey of Japan 1:50,000 map 'Yonaguni Jima'; Schoch, The Underwater Monument at Yonaguni, Japan (author's website)"
+  },
+  {
+   "fact": "Sanninudai, on Yonaguni's south-east coast (about 1.3 km of rocky coast), was designated a national Place of Scenic Beauty and Natural Monument on 21 February 2024: landforms formed by weathering and erosion of sandstone layers with well-developed faults and joints; the strata derive from sand and mud carried from the Eurasian continent and hold trace fossils of sea-floor animals.",
+   "source": "Agency for Cultural Affairs, Cultural Heritage Online, Sanninudai (designation 21 Feb 2024); Okinawa Prefectural Board of Education, report of 20 October 2023; Ryukyu Shimpo, 20 October 2023"
+  },
+  {
+   "fact": "Robert Schoch made dozens of dives at Yonaguni, collecting samples with hammer and chisel; he had hoped to find evidence of monumental stonework from the end of the last Ice Age, but concluded the monument is 'primarily a natural structure' (perhaps 'over 95% natural'), the rock breaking neatly along horizontal and vertical planes, underwater and on the island; parts may have been 'touched up' by people.",
+   "source": "Schoch, The Underwater Monument at Yonaguni, Japan (author's website, research highlights)"
+  },
+  {
+   "fact": "Neither Japan's Agency for Cultural Affairs nor Okinawa Prefecture recognises the Yonaguni formation as an important cultural property, and neither has carried out official research there.",
+   "source": "Ryall 2007, National Geographic News; Kimura 2004 (notice of 1998 filed, no protection given)"
+  },
+  {
+   "fact": "Global mean sea level rose about 37.7 m (2 sigma 29.3 to 42.2 m) between 11,000 and 3,000 years ago by the North Sea record, against 45 to 55 m in far-field curves: specialists still differ by several metres on the early Holocene rise. In Okinawa the rise continued until about 7,000 cal BP, with a mid-Holocene highstand about 2.7 m above present at about 6,760 cal BP.",
+   "source": "Hijma et al. 2025, Nature 639: 652-657; Lambeck et al. 2014, PNAS 111: 15296-15303; Hongo et al. 2015, JpGU abstract"
+  },
+  {
+   "fact": "Modern humans crossed to the Ryukyu Islands about 35,000 to 30,000 years ago (Sakitari Cave, Okinawa, shell tools and fishhooks); human bones from Shiraho-Saonetabaru Cave on Ishigaki date to 20,000 to 16,000 radiocarbon years BP.",
+   "source": "Fujita et al. 2016, PNAS 113: 11184-11189; Kaifu et al. 2020, Scientific Reports 10: 19785; Nakagawa et al. 2010, Anthropological Science 118: 173-183"
+  },
+  {
+   "fact": "In July 2019, five paddlers (four men, one woman) took a 7.5 m dugout made with stone axes from Taiwan to Yonaguni: 225 km in 45 hours 10 minutes, steering by sun, stars and swells.",
+   "source": "Kaifu et al. 2025, Science Advances, doi:10.1126/sciadv.adv5507; National Museum of Nature and Science project page; University of Tokyo press release, 25 June 2025"
+  },
+  {
+   "fact": "The Titanic was 882 ft 9 in (about 269 m) long, about the length Kimura gives for the main mass (about 270 m).",
+   "source": "Encyclopaedia Britannica, Titanic; Kimura 2004"
+  },
+  {
+   "fact": "Taiwan, about 107 to 111 km from Yonaguni at the closest point, is visible from the island on a clear day.",
+   "source": "Yazaki 1982 (110 km); Ogata, Otsubo & Itoh 2020 (outcrops overlooking Taiwan); Cape Irizaki entry (107.4 km)"
+  },
+  {
+   "fact": "Systematic joints in layered sedimentary rock commonly form in sets perpendicular to bedding, often two sets at high angles to each other; waves quarry out joint-bounded blocks on rocky coasts.",
+   "source": "Pollard & Aydin 1988, GSA Bulletin 100: 1181-1204; Sunamura 1992, Geomorphology of Rocky Coasts"
+  },
+  {
+   "fact": "Splitting stone with wedges leaves rows of wedge holes along the line of the split; quarries keep debris, broken tools and abandoned blocks.",
+   "source": "Klemm & Klemm 2008, Stones and Quarries in Ancient Egypt"
+  },
+  {
+   "fact": "Petra's monuments and the Kailasa temple at Ellora are carved out of living rock.",
+   "source": "UNESCO World Heritage List, Petra (326) and Ellora Caves (243)"
+  }
+ ],
+ "names": [
+  {
+   "name": "Yonaguni",
+   "say": "yoh-nah-GOO-nee (in LEX)"
+  },
+  {
+   "name": "Kihachiro Aratake",
+   "say": "kee-HAH-chee-roh ah-rah-TAH-keh"
+  },
+  {
+   "name": "Iseki",
+   "say": "ee-SEH-kee"
+  },
+  {
+   "name": "Ryukyus",
+   "say": "ree-OO-kyooz (University of the Ryukyus)"
+  },
+  {
+   "name": "Masaaki Kimura",
+   "say": "mah-sah-AH-kee kee-MOO-rah (both in LEX)"
+  },
+  {
+   "name": "Robert Schoch",
+   "say": "SHOCK (in LEX)"
+  },
+  {
+   "name": "Okinawa",
+   "say": "oh-kee-NAH-wah"
+  },
+  {
+   "name": "Taiwan",
+   "say": "tie-WAHN"
+  },
+  {
+   "name": "Titanic",
+   "say": "tie-TAN-ik"
+  },
+  {
+   "name": "Petra",
+   "say": "PET-ruh"
+  },
+  {
+   "name": "Ellora",
+   "say": "eh-LOR-uh (in LEX)"
+  },
+  {
+   "name": "Atlantis",
+   "say": "at-LAN-tis"
+  }
+ ],
+ "words": 1541
+}
