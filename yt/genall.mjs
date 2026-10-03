@@ -1,4 +1,4 @@
-// Metadata {t,d} for every Short from a given order on, every long film and its teaser,
+// Metadata {t,d} for every Short (and chapter clip: kind "clip", long = its film, "{long_url}" filled at upload) from a given order on, every long film and its teaser,
 // plus the upload calendar (Ottawa local times) from a start day.
 process.env.PUBLIC_HOST = "residualcontinuum.com";
 process.chdir("/home/claude/rcsite");
@@ -8,7 +8,7 @@ const P = S.plan();
 const SITE = "https://residualcontinuum.com";
 const meta = {};
 const bad = s => /[<>]/.test(s);
-for (const f of P.films) { const y = S.shape(f, "youtube"); meta[f.id] = { t: y.title, d: y.description, kind: "short", order: f.order }; }
+for (const f of P.films) { const y = S.shape(f, "youtube"); meta[f.id] = { t: y.title, d: y.description, kind: f.kind || "short", order: f.order, ...(f.long ? { long: f.long } : {}) }; }
 for (const l of P.long) {
   const tags = String(l.hashtags || "").split(/\s+/).filter(t => /^#\w/.test(t)).join(" ");
   const d = [String(l.description).trim(), "Every case, with its sources: " + SITE, tags].filter(Boolean).join("\n\n");
