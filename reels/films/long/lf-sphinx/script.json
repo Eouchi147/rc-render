@@ -1,0 +1,771 @@
+{
+ "id": "lf-sphinx",
+ "kind": "case",
+ "series": "Under Giza",
+ "title": "The Age of the Sphinx",
+ "intro_title": "The Age of the Sphinx",
+ "yt_title": "Is the Sphinx Older Than the Pharaohs? The Evidence",
+ "verdict": "Awaiting evidence",
+ "verdict_scope": "a Sphinx carved thousands of years before the pharaohs (Schoch's first carving at about 7000 to 5000 BCE, or about 12,000 years ago in Schoch and Bauval 2017): Awaiting evidence, the Shorts' grade, reached again from the evidence. Its only support is one reading of the weathering of the pit walls and floor, which salt, damp sand and the fast decay of these soft beds can also explain (Gauri et al. 1995; Harrell 1994), while the quarry sequence (the trench cut after Khafre's causeway, its blocks in temples built after the Valley Temple's granite), the builders' debris, the light dates of the Sphinx Temple and the absence of any earlier workplace all point to the pyramid age. Not Ruled out, because the carving itself has never been dated directly. Graded separately in the weighing: carved from the living rock, its quarry feeding the temple, Established; carved in Khafre's building works around 2500 BCE, Strong evidence (Khufu or Djedefre would shift it by decades); a start a few centuries earlier (Reader), Open question.",
+ "hook": "Was the Sphinx carved before the pharaohs?",
+ "end_line": "Old when a prince dreamed in its shadow. Older still? Only a date can tell.",
+ "structure_note": "chapters[0] is the cold open and the title beat (no chapter card; YouTube chapter 0:00). Chapters 1 to 5 are the story chapters; 'The weighing' carries the verdict, the test and the close. Shot ids s1..sN are in story order; 'alias of sN' means a return to that panel.",
+ "chapters": [
+  {
+   "title": "Cold open",
+   "beats": [
+    {
+     "role": "hook",
+     "lines": [
+      "[d:intrigue][sfx:boom][act:hushed wonder, painting it]A lion as long as a jumbo ^jet, with the face of a ^king, lying in a pit at the edge of the ^desert@noun. [act:the reveal, slower][tune:fall]Nobody built it from ^blocks: it was carved out of the hill ^itself.",
+      "[d:tension][act:storytelling, intrigued]Around {1400|fourteen hundred} BCE, a young prince fell asleep in its ^shadow. [act:quieter, the dream]In his dream, the lion asked him to clear away the ^sand, and promised him a ^crown. [p:0.93][act:the turn, slower][tune:fall]Even then, it was more than a thousand years ^old.",
+      "[d:wonder][act:the child's question, wide-eyed][tune:rise]So how old is the Great ^Sphinx, really? [act:leaning in, the bigger question][tune:rise]Was it carved long before the ^*pharaohs*?"
+     ],
+     "shots": [
+      {
+       "id": "s1",
+       "say": "A lion as long as a jumbo jet, with the face of a king, lying in a pit at the edge of the desert. Nobody built it from blocks: it was carved out of the hill itself.",
+       "draw": "HERO IMAGE, fully drawn from the first frame: dawn sky, the Great Sphinx in profile (head to the left, east), 73 m long and 20 m high at about 15 units a metre: striped nemes headdress, the lappet behind the face, the worn face with no nose, the forepaws stretched out, the long back, the haunch and the curled tail; its body banded in soft and hard layers; behind it the far wall of its pit and, beyond, Khafre's pyramid with its cap of casing. A person (1.7 m) at the paws. On 'jumbo jet' a dashed outline of a 747 (about 71 m) draws over the body, label '73 m'; on 'carved out of the hill' the layers of the pit wall light up and continue straight through the lion's body."
+      },
+      {
+       "id": "s2",
+       "say": "Around 1400 BCE, a young prince fell asleep in its shadow. In his dream, the lion asked him to clear away the sand, and promised him a crown. Even then, it was more than a thousand years old.",
+       "draw": "Night: the Sphinx buried to its shoulders in drifted sand, moon above; a small sleeping figure in its shadow (chip 'about 1400 BCE'); on 'dream' a dotted line rises from him to a pale double crown that glows; on 'more than a thousand years', a strip along the bottom: 'carved, about 2500 BCE' to 'the dream, about 1400 BCE', bracket '1,100 years'."
+      },
+      {
+       "id": "s3",
+       "say": "So how old is the Great Sphinx, really? Was it carved long before the pharaohs?",
+       "draw": "Back to the hero panel (alias of s1), wide: a lilac dotted arrow sweeps from the Sphinx far to the left into the dawn sky, past a few faint date ticks, and a large lilac '?' pops on 'pharaohs'.",
+       "reuse": "alias of s1, new cam"
+      }
+     ]
+    },
+    {
+     "role": "title",
+     "lines": [
+      "[d:calm][act:warm, setting out]The age of the ^Sphinx. [act:the promise, friendly][tune:fall]What the rock, the rain and the builders' ^rubbish can tell us."
+     ],
+     "shots": [
+      {
+       "id": "s4",
+       "say": "The age of the Sphinx. What the rock, the rain and the builders' rubbish can tell us.",
+       "draw": "intro_title card 'The Age of the Sphinx' over the dimmed s3 panel. Nothing else drawn.",
+       "reuse": "alias of s3"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Cut from the living rock",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:setting the scene, unhurried]Giza, on the west bank of the ^Nile, beside modern ^Cairo. [act:a little wonder, the deep past]About fifty million years ago, all of this lay under a warm, shallow ^sea.",
+      "[act:explaining, vivid]Its limestone is packed with fossil shells shaped like little ^coins.",
+      "[d:aside][act:dry, amused]The Greek geographer ^Strabo was told they were the builders' ^lentils, turned to stone. [act:the punchline, deadpan][tune:fall]He thought that not ^improbable."
+     ],
+     "shots": [
+      {
+       "id": "s5",
+       "say": "Giza, on the west bank of the Nile, beside modern Cairo. About fifty million years ago, all of this lay under a warm, shallow sea.",
+       "draw": "Map View(30.6, 31.9, 29.6, 30.4): the Nile and its valley, pins 'Giza' (gold) and 'Cairo'; scale bar 10 km. On 'fifty million years ago' a translucent blue sea floods the whole map from the north, label 'a shallow sea, about 50 million years ago'."
+      },
+      {
+       "id": "s6",
+       "say": "Its limestone is packed with fossil shells shaped like little coins. The Greek geographer Strabo was told they were the builders' lentils, turned to stone. He thought that not improbable.",
+       "draw": "Close-up on a limestone face lit from the side: dozens of disc-shaped fossil shells (nummulites), a few broken open to show their spiral; a coin pops beside one for size (label 'fossil shells'). On 'Strabo', a small bowl of lentils pops at right with a dotted lilac link to the discs (label 'the builders' lentils?'), tag 'Strabo, about 2,000 years ago'."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][p:0.93][act:explaining, a picture]The rock lies in layers, like a ^cake. [act:counting them off][tune:level]At the bottom, the hard rock of an old ^reef. [act:same pace][tune:level]Above it, bands of soft and hard ^stone. [act:the last one][tune:fall]And on top, a harder, better ^stone.",
+      "[act:the method, clear]The carvers didn't stack ^stones. [act:the picture, vivid]They dug a deep trench in the shape of a ^U around a block of bedrock, and shaped what was ^left: [act:the reveal, delighted][tune:fall]the reef for the floor, the soft bands for the ^body, the better stone for the ^head."
+     ],
+     "shots": [
+      {
+       "id": "s7",
+       "say": "The rock lies in layers, like a cake. At the bottom, the hard rock of an old reef. Above it, bands of soft and hard stone. And on top, a harder, better stone.",
+       "draw": "A section through the plateau's bedrock, three units building in from the bottom as named: a knobbly reef ('old reef'), alternating soft and hard bands ('soft and hard bands'), a pale top layer ('better stone'); beside it a small layer cake with the same three layers."
+      },
+      {
+       "id": "s8",
+       "say": "The carvers didn't stack stones. They dug a deep trench in the shape of a U around a block of bedrock, and shaped what was left: the reef for the floor, the soft bands for the body, the better stone for the head.",
+       "draw": "Left, a plan from above: a U-shaped trench (dark) cut round a rectangle of bedrock, open to the east. Right, the same layered section: the trench cuts down both sides of a central block, then the lion's outline draws on the block, its head in the top layer, its body in the bands, its base on the reef; three short leaders 'head', 'body', 'floor'."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:the twist, intrigued]And the stone they dug out didn't go to ^waste. [p:0.93][act:the size, a touch of awe]Blocks of up to a hundred ^tonnes were dragged a short way east, to build a ^temple in front of the lion.",
+      "[d:build][act:the question, curious][tune:rise]How do we ^know? [act:explaining, step by step]In {1980|nineteen eighty}, the geologist Thomas ^Aigner logged every layer in the trench, and each of the {173|hundred and seventy-three} big blocks in the ^temple. [p:0.93][act:the reveal, delighted]Most of those blocks carry a yellow ^band: the same band that runs across the lion's chest and ^shoulders. [act:the analogy, light][tune:fall]Like slices of a layer cake, fitted back onto the ^cake."
+     ],
+     "shots": [
+      {
+       "id": "s9",
+       "say": "And the stone they dug out didn't go to waste. Blocks of up to a hundred tonnes were dragged a short way east, to build a temple in front of the lion.",
+       "draw": "Side view at dawn: the trench beside the Sphinx; big blocks rise out of the trench one by one and slide east (left) on sledges hauled by tiny teams, stacking into the walls of a temple in front of the paws; label 'up to 100 tonnes' on the biggest block."
+      },
+      {
+       "id": "s10",
+       "say": "How do we know? In 1980, the geologist Thomas Aigner logged every layer in the trench, and each of the 173 big blocks in the temple.",
+       "draw": "A geologist's log: left, a column of the trench layers with small fossil icons (urchin, oyster, shark's tooth, coral); right, 173 small block icons pop in a grid as he counts (label '173 blocks'), each getting a tick; tag 'Aigner, 1980'."
+      },
+      {
+       "id": "s11",
+       "say": "Most of those blocks carry a yellow band: the same band that runs across the lion's chest and shoulders. Like slices of a layer cake, fitted back onto the cake.",
+       "draw": "The Sphinx in profile at left with a yellow band glowing across its chest and shoulders; at right the temple wall's blocks, most crossed by the same yellow band; dashed gold links join the bands. On 'layer cake' a cake slice slides back into its gap in a small cake."
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:aside][act:the landing, warm][tune:fall]So the Sphinx isn't a ^building. [act:a smile, the image][tune:fall]It's what the quarrymen left ^standing."
+     ],
+     "shots": [
+      {
+       "id": "s12",
+       "say": "So the Sphinx isn't a building. It's what the quarrymen left standing.",
+       "draw": "The Sphinx in its trench, three-quarter light: the stone that was cut away floats above and around it as faint dashed block outlines, which drift east towards the temple; the lion alone stays solid."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Khafre's building site",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:orienting, clear]Around {2500|twenty-five hundred} BCE, Khufu's son ^Khafre built the second great pyramid at ^Giza. [act:the plan, unhurried]From its temple, a causeway runs almost half a kilometre down to a second temple, by the valley ^floor.",
+      "[act:pointing, a little wonder][tune:fall]And right beside that lower temple, at the foot of the causeway, lies the ^Sphinx."
+     ],
+     "shots": [
+      {
+       "id": "s13",
+       "say": "Around 2500 BCE, Khufu's son Khafre built the second great pyramid at Giza. From its temple, a causeway runs almost half a kilometre down to a second temple, by the valley floor.",
+       "draw": "Plan of the Giza plateau, north up (positions after published plans): the three pyramids as squares, Khafre's lit; chip 'about 2500 BCE'; his pyramid temple, then the causeway draws itself down to the Valley Temple (label 'almost half a kilometre', scale bar 100 m)."
+      },
+      {
+       "id": "s14",
+       "say": "And right beside that lower temple, at the foot of the causeway, lies the Sphinx.",
+       "draw": "Same plan (alias of s13), the camera closer on the foot of the causeway: the Sphinx in its trench glows beside the Valley Temple, with the Sphinx Temple in front of it.",
+       "reuse": "alias of s13, new cam"
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:the detective, curious][tune:level]But beside isn't the same as built ^together. [act:the first clue, clear]Look at the trench's south ^wall: it's the edge of Khafre's ^causeway. [p:0.93][act:the analogy, light]When a flowerbed follows the exact edge of a path, the path was there ^first. [act:the payoff][tune:fall]So the trench was cut after the causeway was ^built.",
+      "[act:the second clue, steady]Next door, the Valley Temple's granite was already in place when the Sphinx Temple's wall went up against ^it. [act:the third, crisp][tune:fall]And both temples are built alike: giant limestone blocks, cased in red ^granite."
+     ],
+     "shots": [
+      {
+       "id": "s15",
+       "say": "But beside isn't the same as built together. Look at the trench's south wall: it's the edge of Khafre's causeway. When a flowerbed follows the exact edge of a path, the path was there first. So the trench was cut after the causeway was built.",
+       "draw": "Close plan of the trench and the causeway: the trench's south wall and the causeway's north edge flash together as one line (label 'one edge'). Inset: a garden path and a flowerbed hugging its edge, tags '1 path' and '2 flowerbed'; then the same tags on the plan: '1 causeway', '2 trench'."
+      },
+      {
+       "id": "s16",
+       "say": "Next door, the Valley Temple's granite was already in place when the Sphinx Temple's wall went up against it. And both temples are built alike: giant limestone blocks, cased in red granite.",
+       "draw": "Where the two temples meet, in section: a red granite block of the Valley Temple's bench, then the Sphinx Temple's huge limestone end block lowered over it (tags '1' and '2'). Then the two temples side by side in plan, limestone cores (tan) inside red granite casing, labels 'Valley Temple' and 'Sphinx Temple'."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:the find, delighted]Then there's the ^rubbish. [p:0.93][act:storytelling, vivid]In {1978|nineteen seventy-eight}, in a corner of the trench, Zahi ^Hawass and Mark ^Lehner found big blocks abandoned on their way to the ^temple. [act:the details, savouring them]In a little heap of debris: half of an everyday jar from the pyramid ^age, and stone ^hammers, one still flecked with ^copper, as if from striking a ^chisel.",
+      "[d:build][act:the last clue, thoughtful]The job@work was never ^finished. [act:explaining, clear]The temple's blocks still carry rough ^knobs, and none of the hundreds of tombs of that age at Giza names a priest of the ^Sphinx. [act:the landing, quiet][tune:fall]A building site, abandoned in ^mid-stride."
+     ],
+     "shots": [
+      {
+       "id": "s17",
+       "say": "Then there's the rubbish. In 1978, in a corner of the trench, Zahi Hawass and Mark Lehner found big blocks abandoned on their way to the temple.",
+       "draw": "The trench's north-east corner seen from above and the side: three big blocks lie on a dragging track, short of the temple; two small excavators kneel by them; chip '1978'."
+      },
+      {
+       "id": "s18",
+       "say": "In a little heap of debris: half of an everyday jar from the pyramid age, and stone hammers, one still flecked with copper, as if from striking a chisel.",
+       "draw": "A finds tray under a lamp: half of a plain jar (the broken edge shown), four round hammerstones; on 'copper' green-gold flecks glint on one stone's striking end; a dotted ghost copper chisel taps against it (label 'a chisel?')."
+      },
+      {
+       "id": "s19",
+       "say": "The job was never finished. The temple's blocks still carry rough knobs, and none of the hundreds of tombs of that age at Giza names a priest of the Sphinx. A building site, abandoned in mid-stride.",
+       "draw": "Left: the temple's corner blocks with rough bosses still sticking out (rings mark them, label 'never trimmed'). Right: a row of small tomb doorways with inscriptions; a magnifier passes along them, none lights (label 'no priest of the Sphinx')."
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:aside][act:fair, even][tune:rise]Was it ^Khafre, then? [act:the mainstream, plain]Most Egyptologists think ^so. [act:fair, the minority][tune:level]A few credit his father, ^Khufu, or his brother, ^Djedefre. [act:the landing, a small smile][tune:fall]Either way, the answer moves by ^decades, not ^millennia."
+     ],
+     "shots": [
+      {
+       "id": "s20",
+       "say": "Was it Khafre, then? Most Egyptologists think so. A few credit his father, Khufu, or his brother, Djedefre. Either way, the answer moves by decades, not millennia.",
+       "draw": "A small family tree (Khufu above, Djedefre and Khafre below) beside a time axis from 3000 to 2400 BCE: their three reigns as short bars side by side, Khafre's bright ('most Egyptologists'); a bracket 'decades' spans the three; far left on the axis a long dim bar 'millennia' for scale."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Written by rain?",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:plain, a respectful introduction]Around {1990|nineteen ninety}, the Boston University geologist Robert ^Schoch read@past these walls ^differently. [act:describing, a careful eye]The soft layers are cut back into deep, rounded ^hollows, and long cracks run down from the ^top.",
+      "[act:sympathetic, his view]To him, that's the signature of ^rain, streaming down rock for thousands of ^years. [p:0.93][act:his logic, clear and fair]Wind@air carves level grooves; rain cuts ^down. [act:his comparison, intrigued]And tombs of Khafre's age nearby are so lightly worn, he says, you can still read@present their ^inscriptions."
+     ],
+     "shots": [
+      {
+       "id": "s21",
+       "say": "Around 1990, the Boston University geologist Robert Schoch read these walls differently. The soft layers are cut back into deep, rounded hollows, and long cracks run down from the top.",
+       "draw": "The trench wall face on, hard and soft beds; a small geologist with a hand lens at its foot (chip '1990'); on 'rounded hollows' the soft beds cut back into rolling recesses; on 'cracks' four deep vertical fissures draw down from the top."
+      },
+      {
+       "id": "s22",
+       "say": "To him, that's the signature of rain, streaming down rock for thousands of years. Wind carves level grooves; rain cuts down. And tombs of Khafre's age nearby are so lightly worn, he says, you can still read their inscriptions.",
+       "draw": "Rain streams down the wall and into the fissures (blue). Two small swatches: 'wind' (sharp level grooves, arrows sideways) and 'rain' (rounded, cut downwards, arrows down). Then a tomb front with a crisp carved inscription pops at right (label 'tomb of Khafre's age')."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:the test, building]In {1991|nineteen ninety-one}, he and the geophysicist Thomas ^Dobecki sent sound waves into the floor of the ^pit. [p:0.93][act:the analogy, clear]Weathering creeps into rock like damp into a ^wall: the longer it's open to the air, the deeper it ^goes.",
+      "[p:0.9][act:the result, precise]In front and along the sides, the floor was weathered up to two and a half metres ^deep. [act:same, precise][tune:fall]Behind the lion, only a little over ^one.",
+      "[d:build][act:his reasoning, fair]Schoch reasoned that the back was cut free later, under ^Khafre, and the front long ^before. [p:0.9][act:stating his date, even]In {1992|nineteen ninety-two}, he put the first carving between seven thousand and five thousand ^BCE. [act:the bigger claim, eyebrows up]In a {2017|twenty seventeen} book with Robert ^Bauval, he went further: about twelve thousand years ^ago."
+     ],
+     "shots": [
+      {
+       "id": "s23",
+       "say": "In 1991, he and the geophysicist Thomas Dobecki sent sound waves into the floor of the pit. Weathering creeps into rock like damp into a wall: the longer it's open to the air, the deeper it goes.",
+       "draw": "Section through the pit's floor: a hammer strikes a plate, a row of geophones, sound arcs spread and echoes return (chip '1991'). Inset: a house wall with damp creeping up from the floor, tide marks for '1 year' and '10 years'."
+      },
+      {
+       "id": "s24",
+       "say": "In front and along the sides, the floor was weathered up to two and a half metres deep. Behind the lion, only a little over one.",
+       "draw": "Plan of the Sphinx in its pit, from above: a weathered band in the floor drawn thick in front and along both sides (label 'up to 2.5 m deep') and thin behind the haunches (label 'about 1.2 m'); beside it two depth bars with a person (1.7 m) for scale."
+      },
+      {
+       "id": "s25",
+       "say": "Schoch reasoned that the back was cut free later, under Khafre, and the front long before. In 1992, he put the first carving between seven thousand and five thousand BCE. In a 2017 book with Robert Bauval, he went further: about twelve thousand years ago.",
+       "draw": "Timeline from 12,000 BCE to 1 CE: Khafre's mark about 2500 BCE (amber), tag 'the back'; Schoch's blue dashed band 7000 to 5000 BCE (tag '1992', 'the front'); then a lilac dotted mark near 10,000 BCE (tag '2017, with Bauval: about 12,000 years ago')."
+      }
+     ]
+    },
+    {
+     "role": "cost",
+     "lines": [
+      "[d:build][act:more evidence, steady]He sees the same story in the ^temples: their limestone cores, he argues, were already weathered when the granite facing was ^added. [act:the last clue, intrigued]And the head looks too ^small for the body, as if it had been recarved from an older ^one."
+     ],
+     "shots": [
+      {
+       "id": "s26",
+       "say": "He sees the same story in the temples: their limestone cores, he argues, were already weathered when the granite facing was added.",
+       "draw": "A temple wall in section: a limestone core block with a rounded, worn face; a red granite facing slab moves in and its back follows the worn curve; tag 'worn first?' in blue dashes."
+      },
+      {
+       "id": "s27",
+       "say": "And the head looks too small for the body, as if it had been recarved from an older one.",
+       "draw": "The Sphinx in profile; the head outlined in gold; a larger, dotted lilac head outline (an older head, as he suggests) behind it; a bar compares head and body lengths, label 'too small?'."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:aside][act:fair, even-handed]Not every geologist who sees water goes so ^far. [act:introducing him, respectful]Colin ^Reader reads the damage as rain ^runoff, pouring off the plateau into the ^pit. [act:landing his view][tune:fall]His Sphinx is older than ^Khafre, but by a few ^centuries, not thousands of ^years."
+     ],
+     "shots": [
+      {
+       "id": "s28",
+       "say": "Not every geologist who sees water goes so far. Colin Reader reads the damage as rain runoff, pouring off the plateau into the pit. His Sphinx is older than Khafre, but by a few centuries, not thousands of years.",
+       "draw": "The plateau in section sloping east down to the pit: rain falls far upslope and blue runoff arrows run down the surface and pour over the pit's edge (label 'runoff'). A small timeline: Khafre's mark, Reader's short green band just before it ('a few centuries'), Schoch's blue band far to the left, dimmed."
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:aside][act:the landing, thoughtful][tune:fall]For Schoch, the walls are a ^clock. [act:the question, quiet][tune:rise]The question is whether that clock keeps good ^time."
+     ],
+     "shots": [
+      {
+       "id": "s29",
+       "say": "For Schoch, the walls are a clock. The question is whether that clock keeps good time.",
+       "draw": "The worn wall again (alias of s21), wider: a clock face draws itself on the rock, its hands turning unevenly, fast then slow; a lilac '?' beside it.",
+       "reuse": "alias of s21, new cam"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Salt, sand and silence",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:the other side, crisp]Other geologists ^answered, starting with the same ^walls. [p:0.93][act:explaining, step by step]Lal ^Gauri's team found ^salt in the soft layers. [act:the mechanism, vivid]Night dew soaks in; by day it dries, and salt crystals grow in the pores and burst the ^grains, [act:the analogy, homely][tune:fall]like the white crust that flakes a damp cellar ^wall.",
+      "[act:simple, matter of fact]Soft bands crumble back, hard ones ^stay: rounded hollows, no rain ^needed. [p:0.93][act:the surprise, delighted]The long cracks, they argue, are natural joints, widened by groundwater long before there were ^humans."
+     ],
+     "shots": [
+      {
+       "id": "s30",
+       "say": "Lal Gauri's team found salt in the soft layers. Night dew soaks in; by day it dries, and salt crystals grow in the pores and burst the grains, like the white crust that flakes a damp cellar wall.",
+       "draw": "Magnified grains of a soft bed: a moon, dew drops soak in (blue); a sun, the water dries and white salt crystals grow between the grains, pushing them apart (small cracks). Inset: a cellar wall with a white crust flaking off."
+      },
+      {
+       "id": "s31",
+       "say": "Soft bands crumble back, hard ones stay: rounded hollows, no rain needed. The long cracks, they argue, are natural joints, widened by groundwater long before there were humans.",
+       "draw": "The wall: the soft bands retreat into rounded hollows while the hard ones stay sharp, no rain drawn. Then a deep section of the limestone: joints widen into blue channels as groundwater moves; a time arrow 'millions of years ago' to 'humans', a tiny person at its far end."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:a second answer, steady]James ^Harrell adds the ^sand. [act:explaining, a picture]For long stretches, the pit was full of it, wetted by rain and by Nile ^floods. [act:the logic, clear][tune:fall]Damp sand, pressed against soft rock for centuries, eats it ^away.",
+      "[d:build][p:0.93][act:the speed, pointed]And this rock decays ^fast. [act:counting, firm][tune:level]By the prince's dream, the body was already so worn it needed a new skin of ^stone. [act:same rhythm][tune:level]In {1988|nineteen eighty-eight}, a chunk of its shoulder ^fell. [act:the image, quiet][tune:fall]On windy days, flakes peel off the walls while you ^watch."
+     ],
+     "shots": [
+      {
+       "id": "s32",
+       "say": "James Harrell adds the sand. For long stretches, the pit was full of it, wetted by rain and by Nile floods. Damp sand, pressed against soft rock for centuries, eats it away.",
+       "draw": "Side section: the pit filled with sand up to the lion's neck; a damp blue zone spreads through the lower sand; at left a blue flood line rises to just below the pit floor (label 'Nile floods'); small arrows of moisture press into the walls."
+      },
+      {
+       "id": "s33",
+       "say": "And this rock decays fast. By the prince's dream, the body was already so worn it needed a new skin of stone. In 1988, a chunk of its shoulder fell. On windy days, flakes peel off the walls while you watch.",
+       "draw": "The Sphinx in profile: casing blocks pop along its worn body (chip 'about 1400 BCE'); then a chunk drops from the shoulder (chip '1988'); then wind lines and small flakes peeling off the pit wall behind."
+      }
+     ]
+    },
+    {
+     "role": "cost",
+     "lines": [
+      "[d:build][act:fair, the climate][tune:level]Rain hadn't ended, ^either: even Reader finds runoff at Giza after Khafre's ^time. [act:the critics, crisp][tune:level]The weak layer under the floor may simply be softer rock, laid down that ^way. [act:same, plain][tune:level]The temple's limestone looks trimmed to fit its granite, not worn ^before it. [act:the last, light][tune:fall]And to Lehner, the odd part is the body, not the head: stretched, perhaps, to get past a great natural ^crack."
+     ],
+     "shots": [
+      {
+       "id": "s34",
+       "say": "Rain hadn't ended, either: even Reader finds runoff at Giza after Khafre's time.",
+       "draw": "A strip of time from 3000 to 2300 BCE: Khafre's mark; rain bars keep falling after it (label 'runoff after Khafre')."
+      },
+      {
+       "id": "s35",
+       "say": "The weak layer under the floor may simply be softer rock, laid down that way. The temple's limestone looks trimmed to fit its granite, not worn before it. And to Lehner, the odd part is the body, not the head: stretched, perhaps, to get past a great natural crack.",
+       "draw": "Three small panes: the pit floor's weak layer relabelled 'softer rock?'; the granite and limestone joint where a chisel trims the limestone to the granite's rough back (arrow reversed from s26); the Sphinx's body with a natural crack across its back and a bracket 'one head length' along the body."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:turning the page, curious][tune:rise]And the ^archaeology? [p:0.93][act:the big gap, slower]Around seven thousand BCE, Egypt had no farming villages at ^all. [act:explaining, vivid]The first farmers we know of turn up around {5400|fifty-four hundred} BCE, by a lake in the ^Fayum, storing grain in pits lined with ^baskets. [act:the question, pointed][tune:rise]So who carved a seventy-three-metre lion, long before ^them?",
+      "[d:build][act:fair, his answer]Schoch points to Göbekli ^Tepe, in Turkey, where hunter-gatherers raised carved pillars around {9500|ninety-five hundred} ^BCE. [act:fair, weighing it]True, and ^remarkable. [p:0.93][act:the difference, clear]But they left a ^trail: thousands of grinding stones, flint tools, animal ^bones. [act:the point, quiet][tune:fall]At Giza, nobody has found a workplace from that ^age."
+     ],
+     "shots": [
+      {
+       "id": "s36",
+       "say": "And the archaeology? Around seven thousand BCE, Egypt had no farming villages at all. The first farmers we know of turn up around 5400 BCE, by a lake in the Fayum, storing grain in pits lined with baskets. So who carved a seventy-three-metre lion, long before them?",
+       "draw": "Map of northern Egypt: the Nile, Giza, the Fayum lake (pin 'Fayum'); a time strip 7000 to 5000 BCE with an empty stretch ('no farming villages') then a tag 'first farmers, about 5400 BCE'; a grain pit in section, lined with basketry, full of grain; on 'who carved', the Sphinx's silhouette in lilac dots over 7000 BCE with a '?'."
+      },
+      {
+       "id": "s37",
+       "say": "Schoch points to Göbekli Tepe, in Turkey, where hunter-gatherers raised carved pillars around 9500 BCE. True, and remarkable. But they left a trail: thousands of grinding stones, flint tools, animal bones. At Giza, nobody has found a workplace from that age.",
+       "draw": "Two columns under one band 'about 9500 to 5000 BCE': left 'Göbekli Tepe', a carved T-pillar standing on a layer that fills with grinding stones, flints and bones as named; right 'Giza', the same layer empty, a lilac dashed outline and a small '?' (label 'nothing found')."
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:build][act:a new clock, curious]And one clock can be read@present ^directly. [p:0.93][act:the analogy, gentle]Sunlight wipes a stone's surface clean, like a ^blackboard; [act:same, gentle]in the dark, natural radiation slowly writes on it ^again. [act:the payoff][tune:fall]Measure the writing, and you know when it last saw the ^sun.",
+      "[p:0.93][act:the result, precise]In {2015|twenty fifteen}, four stones of the Sphinx Temple were read@past this ^way: between about thirty-one hundred and twelve hundred ^BCE, with wide ^margins. [act:the landing, quiet][tune:fall]None came near the age of the first ^farmers."
+     ],
+     "shots": [
+      {
+       "id": "s38",
+       "say": "And one clock can be read directly. Sunlight wipes a stone's surface clean, like a blackboard; in the dark, natural radiation slowly writes on it again. Measure the writing, and you know when it last saw the sun.",
+       "draw": "A blackboard: a sun's rays wipe it clean; then darkness falls and tally marks appear one by one (label 'natural radiation'); beside it a temple block being set in a wall, its hidden face lit by the same tally marks."
+      },
+      {
+       "id": "s39",
+       "say": "In 2015, four stones of the Sphinx Temple were read this way: between about thirty-one hundred and twelve hundred BCE, with wide margins. None came near the age of the first farmers.",
+       "draw": "Timeline 8000 BCE to 1 CE: four dots with error bars (3100 +/- 540, 2740 +/- 640, 2220 +/- 220, 1190 +/- 340 BCE) pop; Khafre's mark; 'first farmers, about 5400 BCE' and Schoch's dimmed band far to the left; a bracket shows the gap."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Dreams, patches and probes",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:storytelling, warm]Back to the prince who fell asleep in its ^shadow. [act:the story, unhurried]He became king as Thutmose the ^Fourth, around {1400|fourteen hundred} BCE, and kept his side of the ^bargain.",
+      "[act:the works, vivid]His workers cleared the sand, gave the body that new skin of limestone ^blocks, and ringed the pit with mudbrick walls more than eight metres ^high. [act:the image, a little wonder][tune:fall]From above, it looked like a royal name in its oval ^frame."
+     ],
+     "shots": [
+      {
+       "id": "s40",
+       "say": "He became king as Thutmose the Fourth, around 1400 BCE, and kept his side of the bargain.",
+       "draw": "Back to the night scene of s2 (alias), now at dawn: the sleeper stands, crowned (chip 'Thutmose IV, about 1400 BCE'); the sand around the lion begins to clear.",
+       "reuse": "alias of s2, new cam"
+      },
+      {
+       "id": "s41",
+       "say": "His workers cleared the sand, gave the body that new skin of limestone blocks, and ringed the pit with mudbrick walls more than eight metres high. From above, it looked like a royal name in its oval frame.",
+       "draw": "Plan from above: the pit cleared, the Sphinx inside; a rounded mudbrick wall draws itself around the pit (label 'mudbrick, over 8 m high'); beside it a cartouche, a king's name in hieroglyphs inside its oval, of the same shape."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:the stele, admiring]Between the paws he set up a slab of granite, taller than two ^people, telling his ^dream. [act:dry, amused][tune:fall]It's ^recycled: a door lintel taken from one of Khafre's ^temples.",
+      "[d:build][p:0.93][act:the clue, careful]Copies made in the {1800s|eighteen hundreds} show part of Khafre's name in a broken ^line, which has since flaked ^away. [act:fair, the limit][tune:fall]A hint, not a ^signature."
+     ],
+     "shots": [
+      {
+       "id": "s42",
+       "say": "Between the paws he set up a slab of granite, taller than two people, telling his dream. It's recycled: a door lintel taken from one of Khafre's temples.",
+       "draw": "Front view between the forepaws: the Dream Stele, a round-topped granite slab with its scene (two sphinxes on plinths, the king offering) and rows of text; two people beside it for scale (3.6 m). Then a dotted doorway outline appears at right with the slab lying across its top as a lintel (label 'once a door lintel')."
+      },
+      {
+       "id": "s43",
+       "say": "Copies made in the 1800s show part of Khafre's name in a broken line, which has since flaked away. A hint, not a signature.",
+       "draw": "Close on the stele's text (alias of s42): a broken line glows with a fragment of a royal name (label 'Khaf...', tag 'copied in the 1800s'); the surface around it flakes and falls away, leaving a blank (label 'flaked away'); chip 'a hint, not a signature'.",
+       "reuse": "alias of s42, new cam"
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:build][act:the long care, steady]Later rulers patched it ^again: around {600|six hundred} BCE, and under Greek and Roman ^rule. [act:the modern era][tune:level]Then, in the {1980s|nineteen eighties} and {1990s|nineties}, years of modern ^repairs. [act:the landing, warm][tune:fall]Every patch is a line in its medical ^record@noun.",
+      "[d:reveal][act:the probes, curious]Others have looked ^under it. [p:0.93][act:explaining, plain]Since {1978|nineteen seventy-eight}, teams from America, Japan and Egypt have scanned the ground with radar and ^sound. [act:the result, plain][tune:fall]Where drills went down, including groundwater test holes around {2009|two thousand and nine}, one angled under the left ^paw, cameras found only natural rock and ^cracks. [act:the open part, careful][tune:fall]Whether any crossed the hollow picked up in {1991|nineteen ninety-one}, no report ^says."
+     ],
+     "shots": [
+      {
+       "id": "s44",
+       "say": "Later rulers patched it again: around 600 BCE, and under Greek and Roman rule. Then, in the 1980s and 1990s, years of modern repairs. Every patch is a line in its medical record.",
+       "draw": "The Sphinx in profile with patches popping along its body in three tones as each age is named ('about 1400 BCE', 'about 600 BCE', 'Greek and Roman', '1980s and 1990s'); at right a clipboard 'medical record' whose lines tick one by one."
+      },
+      {
+       "id": "s45",
+       "say": "Others have looked under it. Since 1978, teams from America, Japan and Egypt have scanned the ground with radar and sound. Where drills went down, including groundwater test holes around 2009, one angled under the left paw, cameras found only natural rock and cracks. Whether any crossed the hollow picked up in 1991, no report says.",
+       "draw": "Section under the Sphinx: sounding fans from several spots (tag 'since 1978'); two thin drill holes go down, a camera icon at each bottom finds a hairline crack ('natural cracks'); a third hole slants from beside the left paw under the body (tag '2009'); in front of the paws a lilac dashed hollow with a small '?' ('1991: a hollow')."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The weighing",
+   "beats": [
+    {
+     "role": "weigh",
+     "lines": [
+      "[d:verdict][act:calm, laying it out]So, let's ^weigh it. [act:steady authority, counting][tune:level]Carved from the living rock, its quarry feeding the temple in ^front: ^*established*. [act:steady][tune:level]Carved in Khafre's building works, around {2500|twenty-five hundred} BCE: *strong ^evidence*. [act:fair, a footnote][tune:fall]Khufu or Djedefre would shift that by ^decades.",
+      "[act:the open part, careful][tune:rise]A start a few centuries ^earlier, as Reader thinks? [act:honest, even][tune:fall]*Open ^question*. [p:0.95][act:weighing it, calm authority][tune:rise]A Sphinx carved thousands of years before the ^pharaohs? [act:the verdict, measured][tune:fall]*Awaiting ^evidence*.",
+      "[act:the reason, even]Its case rests on one reading of the ^weathering, which salt, damp sand and fast decay can also ^explain. [act:same, firm][tune:fall]And every trace we can date points to the pyramid ^age. [act:fair, warm]The walls really are deeply ^worn. [act:the landing][tune:fall]But rock that crumbles at its own pace makes a poor ^clock."
+     ],
+     "shots": [
+      {
+       "id": "s46",
+       "say": "So, let's weigh it. Carved from the living rock, its quarry feeding the temple in front: established. Carved in Khafre's building works, around 2500 BCE: strong evidence. Khufu or Djedefre would shift that by decades.",
+       "draw": "A four-row ledger fills row by row, each with a pictogram and a grade chip that pops as the grade is said: 'cut from the rock, quarry to temple' Established; 'Khafre's works, about 2500 BCE' Strong evidence (small tag 'Khufu or Djedefre: decades')."
+      },
+      {
+       "id": "s47",
+       "say": "A start a few centuries earlier, as Reader thinks? Open question. A Sphinx carved thousands of years before the pharaohs? Awaiting evidence.",
+       "draw": "Rows 3 and 4 (alias of s46): 'a few centuries earlier' Open question; 'thousands of years before the pharaohs' Awaiting evidence.",
+       "reuse": "alias of s46"
+      },
+      {
+       "id": "s48",
+       "say": "Its case rests on one reading of the weathering, which salt, damp sand and fast decay can also explain. And every trace we can date points to the pyramid age. The walls really are deeply worn. But rock that crumbles at its own pace makes a poor clock.",
+       "draw": "Under row 4: a balance with 'weathering' on one pan and 'salt, damp sand, fast decay' on the other, level; then the dated traces (jar, hammerstone, light dates) line up under 'the pyramid age'; a small clock with uneven hands.",
+       "reuse": "alias of s46, new cam"
+      }
+     ]
+    },
+    {
+     "role": "test",
+     "lines": [
+      "[d:tension][act:open, genuinely curious][tune:rise]What would change our ^minds? [act:clear, practical][tune:level]Something datable, sealed under the oldest weathering in the ^pit: charcoal, a tool, a pot, older than the ^pharaohs. [act:building][tune:level]More light dates, from the quarry's own ^surfaces. [act:building][tune:level]A camp of that age nearby, with an earlier crew's hearths and ^tools. [act:the last, practical][tune:fall]And for the hollow under the paws: one drill aimed at it, and the survey@noun data out in the ^open."
+     ],
+     "shots": [
+      {
+       "id": "s49",
+       "say": "What would change our minds? Something datable, sealed under the oldest weathering in the pit: charcoal, a tool, a pot, older than the pharaohs. More light dates, from the quarry's own surfaces. A camp of that age nearby, with an earlier crew's hearths and tools. And for the hollow under the paws: one drill aimed at it, and the survey data out in the open.",
+       "draw": "Four 'wanted' items in lilac dashed outline, popping as named: charcoal, a tool and a pot under a weathered crust ('sealed and datable'); a stone face with a light-dating sample ('more light dates'); a hearth with tools ('a camp of that age'); a narrow drill aimed at the hollow and an open data file ('one drill hole, open data')."
+      }
+     ]
+    },
+    {
+     "role": "close",
+     "lines": [
+      "[d:wonder][p:0.93][act:quiet wonder, the last image]It was already old when a prince dreamed in its ^shadow. [act:gentle, final][tune:fall]Whether it's older still, only a ^date can tell. [act:warm, inviting][tune:fall]Weigh it ^yourself."
+     ],
+     "shots": [
+      {
+       "id": "s50",
+       "say": "It was already old when a prince dreamed in its shadow. Whether it's older still, only a date can tell. Weigh it yourself.",
+       "draw": "The opening Sphinx (alias of s1) at dusk, wide and quiet; a faint lilac '?' far to the left in the sky. Then the end card (verdict chip 'Awaiting evidence').",
+       "reuse": "alias of s1, new cam"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "description": "A lion as long as a jumbo jet, carved out of the bedrock at Giza and worn into deep hollows. Was it carved long before the pharaohs, as the geologist Robert Schoch reads its weathering, or by Khafre's workmen around 2500 BCE?\n\nWe follow the rock from a fifty-million-year-old sea floor to the quarry that made both the lion and its temple, weigh the rain hypothesis at its strongest against salt, damp sand and the builders' own rubbish, read the Dream Stele of Thutmose IV, and end on the tests that would change the verdict. Verdict: a Sphinx thousands of years older than the pharaohs is Awaiting evidence; carved in Khafre's building works, Strong evidence.\n\nChapters\n0:00 Cold open\nmm:ss Cut from the living rock\nmm:ss Khafre's building site\nmm:ss Written by rain?\nmm:ss Salt, sand and silence\nmm:ss Dreams, patches and probes\nmm:ss The weighing\n\nSources\nLehner 1992, Reconstructing the Sphinx, Cambridge Archaeological Journal, doi:10.1017/S0959774300000421\nLehner 2003, The Sphinx, in Hawass (ed.), The Treasures of the Pyramids (White Star)\nLehner & Hawass 2017, Giza and the Pyramids (Thames & Hudson)\nAERA, Geology of the Sphinx; Khafre's Monuments (Ancient Egypt Research Associates)\nHadingham 2010, Uncovering Secrets of the Sphinx, Smithsonian Magazine\nSchoch 1992, Redating the Great Sphinx of Giza, KMT 3(2)\nSchoch 1995, Habibi 14(2) (his summary of the seismic and weathering case)\nDobecki & Schoch 1992, Geoarchaeology, doi:10.1002/gea.3340070603\nSchoch & Bauval 2017, Origins of the Sphinx (Inner Traditions)\nGauri 1984, Geologic study of the Sphinx, ARCE Newsletter 127\nGauri, Sinai & Bandyopadhyay 1995, Geoarchaeology, doi:10.1002/gea.3340100203\nHarrell 1994, The Sphinx controversy: another look at the geological evidence, KMT 5(2)\nReader 2001, Archaeometry, doi:10.1111/1475-4754.00009\nLiritzis & Vafiadou 2015, Journal of Cultural Heritage, doi:10.1016/j.culher.2014.05.007\nLinseele et al. 2014, PLOS ONE, doi:10.1371/journal.pone.0108517\nDietrich L. et al. 2019, PLOS ONE, doi:10.1371/journal.pone.0215214\nDietrich O. et al. 2012, Antiquity, doi:10.1017/S0003598X00047840\nStrabo, Geography 17.1.34 (trans. H. L. Jones, Loeb)\nMallet 1888, The Stele of Thothmes IV, Records of the Past, new series 2\nDolphin 1999, Geophysical studies around the Sphinx (SRI fieldwork of 1978)\nLehner & Hawass 1997, answers on the Sphinx surveys, NOVA Online (PBS)\nHadingham 2010, Saving the Sphinx, NOVA (PBS)\nHeritage Key 2011, Drilling under the Sphinx (report on the 2008 to 2009 groundwater holes)",
+ "sources": [
+  "Lehner, M. 1992, Reconstructing the Sphinx, Cambridge Archaeological Journal 2(1): 3-26, doi:10.1017/S0959774300000421",
+  "Lehner, M. 2003, The Sphinx, in Hawass, Z. (ed.), The Treasures of the Pyramids (White Star): 172-189",
+  "Lehner, M. & Hawass, Z. 2017, Giza and the Pyramids (Thames & Hudson)",
+  "AERA (Ancient Egypt Research Associates), Geology of the Sphinx; Khafre's Monuments (web pages, M. Lehner)",
+  "Hadingham, E. 2010, Uncovering Secrets of the Sphinx, Smithsonian Magazine (February 2010)",
+  "Schoch, R. M. 1992, Redating the Great Sphinx of Giza, KMT 3(2): 52-59, 66-70",
+  "Schoch, R. M. 1995, Habibi 14(2), Spring 1995 (his own summary of the seismic and weathering case)",
+  "Dobecki, T. L. & Schoch, R. M. 1992, Seismic investigations in the vicinity of the Great Sphinx of Giza, Egypt, Geoarchaeology 7(6): 527-544, doi:10.1002/gea.3340070603",
+  "Schoch, R. M. & Bauval, R. 2017, Origins of the Sphinx: Celestial Guardian of Pre-Pharaonic Civilization (Inner Traditions), publisher's description",
+  "Gauri, K. L. 1984, Geologic study of the Sphinx, Newsletter of the American Research Center in Egypt 127: 24-43",
+  "Gauri, K. L., Sinai, J. J. & Bandyopadhyay, J. K. 1995, Geologic weathering and its implications on the age of the Sphinx, Geoarchaeology 10(2): 119-133, doi:10.1002/gea.3340100203",
+  "Harrell, J. A. 1994, The Sphinx controversy: another look at the geological evidence, KMT 5(2): 70-74; and his reply in KMT 5(3): 3-4",
+  "Reader, C. D. 2001, A geomorphological study of the Giza necropolis, with implications for the development of the site, Archaeometry 43(1): 149-165, doi:10.1111/1475-4754.00009",
+  "Liritzis, I. & Vafiadou, A. 2015, Surface luminescence dating of some Egyptian monuments, Journal of Cultural Heritage 16(2): 134-150, doi:10.1016/j.culher.2014.05.007",
+  "Linseele, V. et al. 2014, New archaeozoological data from the Fayum 'Neolithic' with a critical assessment of the evidence for early stock keeping in Egypt, PLOS ONE 9(10): e108517, doi:10.1371/journal.pone.0108517",
+  "Dietrich, L. et al. 2019, Cereal processing at Early Neolithic Gobekli Tepe, PLOS ONE 14(5): e0215214, doi:10.1371/journal.pone.0215214",
+  "Dietrich, O., Heun, M., Notroff, J., Schmidt, K. & Zarnkow, M. 2012, The role of cult and feasting in the emergence of Neolithic communities, Antiquity 86: 674-695, doi:10.1017/S0003598X00047840",
+  "Strabo, Geography 17.1.34 (trans. H. L. Jones, Loeb Classical Library): the 'lentils' at the pyramids",
+  "Mallet, D. 1888, The Stele of Thothmes IV, in Sayce, A. H. (ed.), Records of the Past, new series 2 (Bagster): found in 1818 by Caviglia; Khafri named in the damaged middle",
+  "Dolphin, L. T. 1999, Geophysical studies around the Sphinx (report on the SRI fieldwork of spring 1978: five four-inch drill holes, natural cracks)",
+  "Lehner, M. & Hawass, Z. 1997, answers to viewers on cavities under the Sphinx, NOVA Online, Pyramids: The Inside Story (PBS): the 1991 anomalies in front of the front left paw; no permission to drill on the basis of anomalies",
+  "Hadingham, E. 2010, Saving the Sphinx, NOVA (PBS), 1 January 2010: test holes drilled into the bedrock around the Sphinx; water table about 15 ft beneath the statue; pumps installed",
+  "Heritage Key 2011, Drilling Under the Sphinx: A Heritage Key Video About Keeping Your Paws Dry (19 October 2011): four holes 20 m into the enclosure bedrock, cameras lowered; one bored beside the left paw at an angle under the monument; no tunnels or rooms found",
+  "Pyramid of Khafre: causeway 494.6 m long (standard survey figure, as given in the Wikipedia article 'Pyramid of Khafre')",
+  "Residual Continuum facts base: the Shorts 'sphinx-erosion', 'sphinx-chambers', 'sphinx-surveys' (f05.py, rewrite/*.json) and LF.01 'Under Giza'"
+ ],
+ "facts_added": [
+  {
+   "fact": "The Sphinx is carved from the Mokattam Formation, Eocene limestone about 50 million years old, laid down where an ancient sea left a lagoon with shoals and coral reef.",
+   "source": "AERA, Geology of the Sphinx (Lehner)"
+  },
+  {
+   "fact": "Three members: Member I, the hard, brittle rock of an ancient reef, forms the base (rising to about 12 ft at the rump and 2 to 3 ft at the paws); Member II, layers alternating softer and harder, forms most of the body; Member III, softer at the neck and harder at the head, good building stone, forms the head.",
+   "source": "AERA, Geology of the Sphinx; Gauri 1984, ARCE Newsletter 127 (Member II about 10 m thick, beds 1 to 2 m)"
+  },
+  {
+   "fact": "Strabo describes chips 'like lentils in both form and size' in the heaps in front of the pyramids, said to be the petrified leftovers of the workmen's food, which he thought 'not improbable' (these are nummulite fossils).",
+   "source": "Strabo, Geography 17.1.34"
+  },
+  {
+   "fact": "The builders quarried a U-shaped ditch out of the natural limestone, leaving a core that they sculpted as the Sphinx; the ditch opens east to a terrace.",
+   "source": "Lehner 1992, Cambridge Archaeological Journal, doi:10.1017/S0959774300000421; Lehner 2003"
+  },
+  {
+   "fact": "In 1980 Thomas Aigner, a geologist from the University of Tubingen, studied the layers of the Sphinx, its ditch and each of the 173 core blocks of the Sphinx Temple, using their fossils; the layers run continuously through adjacent blocks.",
+   "source": "Lehner 2003, The Sphinx, in Hawass (ed.), The Treasures of the Pyramids"
+  },
+  {
+   "fact": "Blocks from the upper layers (at head level and possibly higher) went into Khafre's Valley Temple; as the ditch deepened, blocks were dragged directly east to build the Sphinx Temple; most of these carry a yellow band like the layers at the Sphinx's chest and shoulder height; blocks weigh up to 100 tons.",
+   "source": "Lehner 2003"
+  },
+  {
+   "fact": "Khafre built the second pyramid at Giza around 2500 BCE; he was Khufu's son.",
+   "source": "Lehner 2003; Lehner & Hawass 2017"
+  },
+  {
+   "fact": "Khafre's causeway is about 494.6 m long, from his pyramid temple down to the Valley Temple; the Sphinx sits at its valley end.",
+   "source": "Pyramid of Khafre survey figure (Wikipedia); Lehner 1992"
+  },
+  {
+   "fact": "The south side of the Sphinx quarry is the north side of the foundation of Khafre's causeway, so the causeway precedes the quarry in the construction sequence.",
+   "source": "AERA, Khafre's Monuments"
+  },
+  {
+   "fact": "Ricke recognised that the builders had completed the granite bench, and probably the whole granite casing, of the Valley Temple before building the Sphinx Temple's wall of large limestone blocks, whose end block fits over a granite block of that bench.",
+   "source": "Lehner 2003 (after Ricke)"
+  },
+  {
+   "fact": "The Sphinx Temple's masonry, multi-toned limestone core blocks with granite casing, matches Khafre's Valley Temple; the two stand on the same terrace.",
+   "source": "Lehner 1992"
+  },
+  {
+   "fact": "In 1978 Zahi Hawass and Mark Lehner found blocks abandoned in a corner of the quarry while being dragged to build the Sphinx Temple; a small mound of debris in the north-east corner of the ditch held half of a common Fourth Dynasty jar and hammer stones, one with copper flecks on its striking end.",
+   "source": "Hadingham 2010, Smithsonian Magazine; Lehner 2003; AERA, Khafre's Monuments (blocks intended for the third course)"
+  },
+  {
+   "fact": "The Sphinx Temple was left unfinished (extra stock left on its huge corner core blocks), and no titles of priests or priestesses of the Sphinx are known from the hundreds of Old Kingdom tombs at Giza.",
+   "source": "Lehner 2003; AERA, Khafre's Monuments"
+  },
+  {
+   "fact": "Some Egyptologists credit Khufu (the face is compared with his only known statuette) or Djedefre (who ruled briefly and was buried at Abu Roash); Lehner judges Khafre the most probable owner.",
+   "source": "AERA, Khafre's Monuments"
+  },
+  {
+   "fact": "Schoch began his Sphinx work around 1990; he read the rounded, rolling profile and the vertical fissures of the enclosure walls as precipitation weathering, and noted that Fourth Dynasty tombs nearby are so little weathered that their inscriptions can still be read.",
+   "source": "Schoch 1992, KMT 3(2); Schoch 1995, Habibi 14(2)"
+  },
+  {
+   "fact": "The 1991 seismic survey (Dobecki and Schoch) found the floor of the enclosure weathered up to 6 to 8 ft (about 1.8 to 2.4 m) deep in front and along the sides, but about 4 ft (about 1.2 m) behind the Sphinx; the abstract states that subsurface weathering is not uniform and reports cavities flanking the Sphinx and between its paws.",
+   "source": "Schoch 1995, Habibi 14(2); Dobecki & Schoch 1992, Geoarchaeology, doi:10.1002/gea.3340070603"
+  },
+  {
+   "fact": "Schoch held that Khafre had the back of the Sphinx carved free from the cliff, and from 50 to 100 percent deeper weathering in front estimated the initial carving at about 7000 to 5000 BCE; he also argued that the temples' limestone cores weathered before their granite facing was added and that the head is too small for the body.",
+   "source": "Schoch 1995, Habibi 14(2); Schoch 1992, KMT 3(2)"
+  },
+  {
+   "fact": "In 2017 Schoch and Robert Bauval argued that the Sphinx was first built by a pre-pharaonic civilisation about 12,000 years ago, contemporaneous with Gobekli Tepe.",
+   "source": "Schoch & Bauval 2017, Origins of the Sphinx (Inner Traditions), publisher's description"
+  },
+  {
+   "fact": "Reader reads the uneven erosion as rainfall runoff rather than direct rainfall, documents runoff at Giza through the late Fifth Dynasty, and suggests the Sphinx may predate Khufu (a few centuries, not thousands of years).",
+   "source": "Reader 2001, Archaeometry, doi:10.1111/1475-4754.00009; Bordeau summary in Hall of Maat (as used in LF.01)"
+  },
+  {
+   "fact": "Gauri and colleagues showed that weathering in an arid climate can produce the rounded profile and that the channels in the walls are pre-Pliocene karst features formed by underground water; the salts in the beds are gypsum and halite.",
+   "source": "Gauri, Sinai & Bandyopadhyay 1995, Geoarchaeology, doi:10.1002/gea.3340100203; Gauri 1984"
+  },
+  {
+   "fact": "Harrell argues that sand filling the enclosure, periodically wetted by Nile floods and rain, weathered the soft beds; that the seismic low-velocity layer may reflect the rock's original character rather than weathering; and that the limestone was cut to fit the irregular backs of the granite, not the reverse; the 4,500 years since Khafre are enough.",
+   "source": "Harrell 1994, KMT 5(2): 70-74; Harrell 1994, KMT 5(3): 3-4"
+  },
+  {
+   "fact": "Thutmose IV (about 1401 BCE) covered the eroded body with large limestone casing slabs and built mud-brick walls more than eight metres tall around the ditch, 'like a giant cartouche'; later repairs date to the 26th Dynasty and to Greek and Roman times.",
+   "source": "Lehner 2003; Lehner 1992"
+  },
+  {
+   "fact": "In the 1980s two sizeable stones fell: masonry veneer from the left hind paw in 1981 and a large piece of bedrock from the right shoulder in 1988; on windy days flakes of limestone blow off the quarry walls; the 1990s restoration lasted a decade.",
+   "source": "AERA, Geology of the Sphinx"
+  },
+  {
+   "fact": "The earliest domesticated plants and animals in the Fayum date from about 5400 BC (Merimde from about 4900 BC); the Fayum sites show hearths and basket-lined granaries with emmer and barley.",
+   "source": "Linseele et al. 2014, PLOS ONE, doi:10.1371/journal.pone.0108517"
+  },
+  {
+   "fact": "Gobekli Tepe (about 9500 to 8000 BCE) has yielded more than 7,000 food-processing artefacts, flint tools and the bones of hunted animals.",
+   "source": "Dietrich L. et al. 2019, PLOS ONE, doi:10.1371/journal.pone.0215214; Dietrich O. et al. 2012, Antiquity, doi:10.1017/S0003598X00047840"
+  },
+  {
+   "fact": "Surface luminescence dates for Sphinx Temple stones: 2220 +/- 220 BC (limestone), 2740 +/- 640, 3100 +/- 540 and 1190 +/- 340 BC (granite); the authors say none of the dates for the Sphinx Temple or Giza corroborates a prehistoric age, though a pre-Khafre date cannot be ruled out.",
+   "source": "Liritzis & Vafiadou 2015, Journal of Cultural Heritage, doi:10.1016/j.culher.2014.05.007"
+  },
+  {
+   "fact": "The Dream Stele: granite, about 3.6 m tall and 15 tons, set between the paws in year 1 of Thutmose IV (about 1401 BCE); in the dream the god asks to be saved from the sand and promises the kingship; it is a reused lintel from a doorway of one of Khafre's temples.",
+   "source": "Lehner 2003; Mallet 1888, Records of the Past n.s. 2 (translation); Dream Stele dimensions as given by Lehner and standard references"
+  },
+  {
+   "fact": "Nineteenth-century copies of the stele show part of Khafre's name in its damaged middle; that part has since flaked off (gone by the re-excavation of the 1920s).",
+   "source": "Mallet 1888 (Khafri named in the damaged middle); Colavito 2001 on Henry Salt's 1820 copy; Hassan 1953 as summarised in standard references"
+  },
+  {
+   "fact": "In spring 1978 an SRI team drilled five four-inch holes on the strongest resistivity and seismic anomalies (three in the temple area, two in the bedrock floor); a borehole television camera showed only minor natural cracks.",
+   "source": "Dolphin 1999, Geophysical studies around the Sphinx"
+  },
+  {
+   "fact": "The 1991 seismic anomalies under the Sphinx's front lay in front of the front left paw; in 1997 Hawass said that permission would not be given to drill into the Sphinx on the basis of anomalies, conservation being the priority.",
+   "source": "Lehner & Hawass 1997, NOVA Online, Pyramids: The Inside Story (PBS); Dobecki & Schoch 1992, Geoarchaeology, doi:10.1002/gea.3340070603"
+  },
+  {
+   "fact": "Around 2008 to 2009 Cairo University's Engineering Center drilled groundwater test holes into the bedrock of the Sphinx enclosure for the antiquities authority (four holes 20 m deep with cameras lowered, one bored beside the left paw at an angle under the monument); the water table lay about 15 ft beneath the statue and pumps were installed; the report states that no tunnels or rooms were found. No report I found says whether any hole crossed the 1991 anomaly.",
+   "source": "Hadingham 2010, Saving the Sphinx, NOVA (PBS); Heritage Key 2011, Drilling Under the Sphinx (video report)"
+  },
+  {
+   "fact": "Lehner reads the head as a reserved block about 20 by 20 royal cubits and the body as about one head-length too long, perhaps extended to get past the major fissure that cuts through all layers.",
+   "source": "Lehner 1992; Lehner 2003"
+  },
+  {
+   "fact": "Arithmetic for the pictures: 73 m of Sphinx against a Boeing 747-400 of about 71 m; 6 to 8 ft = 1.8 to 2.4 m, said 'up to two and a half metres'; 4 ft = 1.2 m, said 'a little over one'; 2500 BCE to 1400 BCE = 1,100 years.",
+   "source": "Arithmetic on the cited figures"
+  }
+ ],
+ "names": [
+  {
+   "name": "Strabo",
+   "say": "STRAY-boh (in LEX)"
+  },
+  {
+   "name": "Thomas Aigner",
+   "say": "TOM-us AYG-ner (German, hard g)"
+  },
+  {
+   "name": "Khafre",
+   "say": "KAF-ray (in LEX)"
+  },
+  {
+   "name": "Khufu",
+   "say": "KOO-foo (in LEX)"
+  },
+  {
+   "name": "Djedefre",
+   "say": "jed-EF-ray"
+  },
+  {
+   "name": "Zahi Hawass",
+   "say": "ZAH-hee ha-WAHSS (in LEX)"
+  },
+  {
+   "name": "Mark Lehner",
+   "say": "LAY-ner (in LEX)"
+  },
+  {
+   "name": "Robert Schoch",
+   "say": "SHOCK (in LEX)"
+  },
+  {
+   "name": "Thomas Dobecki",
+   "say": "doh-BEK-ee"
+  },
+  {
+   "name": "Robert Bauval",
+   "say": "BOH-vahl"
+  },
+  {
+   "name": "Colin Reader",
+   "say": "KOL-in REE-der (plain English)"
+  },
+  {
+   "name": "Lal Gauri",
+   "say": "LAHL GOW-ree (gauri in LEX)"
+  },
+  {
+   "name": "James Harrell",
+   "say": "HAIR-ul"
+  },
+  {
+   "name": "Fayum",
+   "say": "fy-YOOM"
+  },
+  {
+   "name": "Göbekli Tepe",
+   "say": "guh-BECK-lee TEP-eh (in LEX)"
+  },
+  {
+   "name": "Thutmose",
+   "say": "thoot-MOH-seh (Thutmose the Fourth)"
+  },
+  {
+   "name": "Giza",
+   "say": "GEE-zuh"
+  }
+ ],
+ "words": 1644
+}
