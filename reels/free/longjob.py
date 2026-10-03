@@ -265,8 +265,10 @@ def assemble(bundle, out=None):
     out = out or os.path.join(bundle, job["id"] + ".mp4")
     lst = os.path.join(bundle, "concat.txt")
     open(lst, "w").write("".join(f"file '{os.path.abspath(os.path.join(bundle, f'seg_{i}_of_{N}.mp4'))}'\n" for i in range(1, N + 1)))
+    # a safety limiter on the way into AAC: a 10 ms burst in LF.21's mix reached +2.6 dBFS after encoding (3 Oct 2026)
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", lst, "-i", os.path.join(bundle, "mix.wav"),
-                    "-map", "0:v", "-map", "1:a", "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", "-shortest", "-movflags", "+faststart", out], check=True)
+                    "-map", "0:v", "-map", "1:a", "-c:v", "copy", "-af", "alimiter=limit=0.79:attack=0.5:release=30:level=disabled",
+                    "-c:a", "aac", "-b:a", "192k", "-shortest", "-movflags", "+faststart", out], check=True)
     os.remove(lst)
     # ---- QA: every frame there, the length right, the loudness on target
     pr = json.loads(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "stream=codec_type,width,height,r_frame_rate,duration:format=duration",
