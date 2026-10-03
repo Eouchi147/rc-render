@@ -1,0 +1,790 @@
+{
+ "id": "lf-denisovans",
+ "kind": "theme",
+ "series": "Before Us",
+ "title": "The Denisovans",
+ "intro_title": "The Denisovans",
+ "yt_title": "The Denisovans: A Lost People First Known From a Fingertip",
+ "verdict": "Established",
+ "verdict_scope": "A distinct human group, known first from the DNA of a finger bone from Denisova Cave, who lived in Asia and passed genes to people alive today: Established (a high-coverage genome, several individuals from the cave, sediment DNA on the Tibetan Plateau, and admixture signals replicated by many studies). Graded separately in the weighing: the jaws from Tibet and Taiwan as Denisovan: Strong evidence (ancient proteins, two specific variants each, plus sediment DNA and a rib at the Tibetan cave); the Harbin skull as a Denisovan face: Strong evidence (three protein variants and mtDNA from dental calculus, one team, some specialists cautious); the Laos molar: Plausible (shape only, its proteins say Homo); tall people, about 1.8 and 1.9 m: Plausible (two leg bones, a 2026 preprint not yet peer reviewed); giants far beyond the human range: Awaiting evidence (no bone points there); their full range, the number of groups and when and how they vanished: Open question.",
+ "hook": "Who were the people of the fingertip?",
+ "end_line": "Somewhere, in a cave or under the sea, the rest of them is waiting.",
+ "structure_note": "chapters[0] is the cold open and the title beat (no chapter card; YouTube chapter 0:00). Chapters 1 to 6 are the story chapters, each opening on a sentence that stands alone (each will also be cut as a vertical clip); 'The weighing' carries the verdicts, the open questions, the test and the close. Shot ids s1..s55 are in story order (s5t is the title card over s5; s12 adds to the tree of s11; s52 is a lower framing of the ledger of s51).",
+ "chapters": [
+  {
+   "title": "Cold open",
+   "beats": [
+    {
+     "role": "hook",
+     "lines": [
+      "[d:intrigue][sfx:boom][act:hushed, vivid][tune:level]A chip of bone, about the size of a ^ladybird. [act:tender, the detail][tune:fall]The tip of a girl's little ^finger, from a cave in ^Siberia. [p:0.93][act:wonder, slow][tune:fall]Inside it was the DNA of a people nobody knew had ever ^lived.",
+      "[d:tension][act:building, hushed][tune:level]Nobody had seen their ^face. [act:building][tune:level]Nobody knew their ^name. [act:the twist, warm]Yet their genes live@verb on in millions of people ^today, [act:wonder][tune:fall]and help some of them breathe on the roof of the ^world.",
+      "[d:tension][act:the child's question, leaning in][tune:rise]So who were the people of the ^fingertip? [act:the stakes, intrigued][tune:fall]And how much can one chip of bone tell ^us?"
+     ],
+     "shots": [
+      {
+       "id": "s1",
+       "say": "A chip of bone, about the size of a ladybird. The tip of a girl's little finger, from a cave in Siberia.",
+       "draw": "THE HERO IMAGE, fully drawn from the first frame: a dark warm ground with one soft shaft of light falling from the upper left (the hole in the cave roof). A modern human index finger, drawn large, enters from the right edge and points left, pad up, nail on top, lit along its upper edge. Resting on the fingertip: a small pale chip of bone, irregular, glowing softly; beside it on the same fingertip a red ladybird with black spots, the same size as the chip (true scale: both about 7 mm, about 70 units here). Kept right of x 960 in the top 280 units so the hook title stays clear. Labels after the title clears: 'a chip of finger bone' and 'a ladybird, for scale'. On 'the tip of a girl's little finger': at the left, a small hand skeleton (five fingers, schematic) draws itself and the tip bone of the little finger glows gold, with a thin line to the chip; label 'Denisova Cave, Siberia, 2008'."
+      },
+      {
+       "id": "s2",
+       "say": "Inside it was the DNA of a people nobody knew had ever lived.",
+       "draw": "The chip at the lower left, glowing. A double helix unwinds out of it and climbs to the right; where it rises, a long line of faint human figures appears one by one along a low horizon (about fourteen silhouettes in dim lilac, men, women and children, not one face drawn), the line of them fading into the dark at the right. Label 'a people nobody knew'."
+      },
+      {
+       "id": "s3",
+       "say": "Nobody had seen their face. Nobody knew their name.",
+       "draw": "Close on one head and shoulders in profile, drawn only as a dotted lilac outline (the 'claimed/unknown' style): the face is empty and a soft question mark glows where the features would be; label 'face: ?'. Then beside it an empty museum name plate pops, its text line blank with a question mark: 'name: ?'."
+      },
+      {
+       "id": "s4",
+       "say": "Yet their genes live on in millions of people today, and help some of them breathe on the roof of the world.",
+       "draw": "A dark map of Asia and Oceania (View about 60 to 160 E, 15 S to 60 N). Light pools of blue rise where Denisovan DNA is strongest today: New Guinea (brightest), Australia and the Philippines, then a fainter wash over East and South Asia; label 'their DNA, today'. On 'roof of the world' the Tibetan Plateau lifts as a pale raised shape with a small breath cloud and the label 'the roof of the world'."
+      },
+      {
+       "id": "s5",
+       "say": "So who were the people of the fingertip? And how much can one chip of bone tell us?",
+       "draw": "Back to the fingertip and the chip of the hero image, closer; behind them in the dark the line of faceless lilac figures from s2 stands dimmed, and a large lilac question mark rises over them."
+      }
+     ]
+    },
+    {
+     "role": "title",
+     "lines": [
+      "[d:calm][act:warm, setting out]The ^Denisovans. [act:the promise, steady][tune:fall]From a fingertip to a ^face, one clue at a ^time."
+     ],
+     "shots": [
+      {
+       "id": "s5t",
+       "say": "The Denisovans. From a fingertip to a face, one clue at a time.",
+       "draw": "The intro title card 'The Denisovans' over the dimmed fingertip panel of s5 (no new panel). Only the title is said here."
+      }
+     ],
+     "intro": true
+    }
+   ]
+  },
+  {
+   "title": "A cave in Siberia",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:storytelling, placing it]Denisova Cave sits in the Altai Mountains of southern ^Siberia, not far from where Russia meets Kazakhstan, Mongolia and ^China. [act:a picture]It's a high, arched hall above a little ^river, [act:a small smile][tune:fall]named, the story goes, after a hermit called ^Denis, who lived there in the eighteenth ^century.",
+      "[d:build][act:the dig, vivid]For decades, archaeologists have dug its floor, layer by layer: [act:listing][tune:level]stone ^tools, animal ^bones, [tune:fall]the odd human ^tooth. [p:0.93][act:the moment, slow]In {2008|two thousand and eight}, out came the chip of finger ^bone. [act:plain][tune:fall]Part of it went to a laboratory in ^Germany that reads ancient ^DNA."
+     ],
+     "shots": [
+      {
+       "id": "s6",
+       "say": "It's a high, arched hall above a little river, named, the story goes, after a hermit called Denis, who lived there in the eighteenth century.",
+       "draw": "Denisova Cave at dawn: forested Altai ridges in layers (back ones dim), a pale limestone cliff with a tall dark arched mouth, a small river below it in the valley with a glint; a shaft of light falls into the mouth. Inset top right: a small locator map of Asia with a gold pin in the Altai near the meeting of Russia, Kazakhstan, Mongolia and China. On 'a hermit called Denis': a tiny figure with a staff by the cave mouth and a small glow, label 'Denis, 18th century'. Label 'Denisova Cave'."
+      },
+      {
+       "id": "s7",
+       "say": "For decades, archaeologists have dug its floor, layer by layer: stone tools, animal bones, the odd human tooth.",
+       "draw": "The cave floor in cross-section under the arch: about six sediment layers in earth tones, two diggers kneeling at a cut with trowels and a lamp; as named, a stone tool, a few animal bones and one small tooth pop in the layers, each with a short label ('stone tools', 'animal bones', 'a tooth')."
+      },
+      {
+       "id": "s8",
+       "say": "In 2008, out came the chip of finger bone. Part of it went to a laboratory in Germany that reads ancient DNA.",
+       "draw": "Left: the chip in a small sealed sample bag with a tag '2008'. A dotted route arcs across a small map of Eurasia from the Altai to Germany (pins 'Denisova Cave' and 'Germany'). Right: a clean-room lab bench with a figure in a white suit and mask, a sequencer box with a screen of coloured bars; label 'an ancient DNA lab'."
+      }
+     ],
+     "chapter": "A cave in Siberia"
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:the surprise, delighted]It was a lucky ^bone. [p:0.93][act:explaining, a picture]In most ancient bones, the owner's own DNA is a tiny fraction, swamped by ^bacteria. [act:the number, amazed][tune:fall]In this one, about seventy percent was ^hers.",
+      "[d:list][p:0.93][act:explaining, clear]Reading DNA is like comparing two copies of a very long ^book, letter by ^letter: [act:the payoff][tune:fall]the fewer the differences, the closer the ^family."
+     ],
+     "shots": [
+      {
+       "id": "s9",
+       "say": "It was a lucky bone. In most ancient bones, the owner's own DNA is a tiny fraction, swamped by bacteria. In this one, about seventy percent was hers.",
+       "draw": "Two grids of 100 small squares side by side. Left, 'a typical ancient bone': the squares fill grey-green (bacteria) with only a few gold; right, 'this bone': 70 squares turn gold one row after another and 30 stay grey; the label '70 in 100' pops in gold. Small microbe shapes drift among the grey squares."
+      },
+      {
+       "id": "s10",
+       "say": "Reading DNA is like comparing two copies of a very long book, letter by letter: the fewer the differences, the closer the family.",
+       "draw": "Two long open books, one above the other; their lines become two rows of coloured letter blocks (A, C, G, T as four colours); a scanning bracket slides along and rings the few blocks that differ in red; a small meter beside it reads 'few differences: close family'."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:the first result, intrigued]In {2010|twenty ten}, a first look, at a small loop of its DNA, pointed to a branch of the human family even older than the ^Neanderthals. [p:0.93][act:the twist, careful]By the end of that year, the whole genome told a different ^story: [act:the reveal, warm][tune:fall]cousins of the Neanderthals, on a branch of their ^own. [sfx:hit][act:naming them, slow][tune:fall]The team named them after the ^cave: the ^Denisovans."
+     ],
+     "shots": [
+      {
+       "id": "s11",
+       "say": "In 2010, a first look, at a small loop of its DNA, pointed to a branch of the human family even older than the Neanderthals.",
+       "draw": "A family tree growing upward from a trunk at the bottom: branches 'us' (gold) and 'Neanderthals' (amber) fork near the top; lower down, an older dashed branch splits off and is tagged 'the bone? first reading, 2010' with a small loop of DNA (mitochondria) beside it."
+      },
+      {
+       "id": "s12",
+       "say": "By the end of that year, the whole genome told a different story: cousins of the Neanderthals, on a branch of their own. The team named them after the cave: the Denisovans.",
+       "draw": "Same tree: the old dashed branch fades; a new solid blue branch grows from the Neanderthal branch's base and forks off as the Neanderthals' sister: 'Denisovans', glowing; a tag 'the whole genome, 2010'."
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:aside][act:the extra clue, intrigued]In {2012|twenty twelve}, a sharper reading of the girl's genome even hinted at her colouring: [act:listing][tune:level]gene versions that, in people today, go with dark ^skin, brown ^hair and brown ^eyes.",
+      "[act:the second clue]A molar from the same cave carried the same kind of ^DNA. [act:the detail, amazed][tune:fall]And it was huge: its chewing surface about twice the size of ^ours. [p:0.93][act:the landing, slow][tune:fall]A whole human group, known from its DNA before anyone had seen its ^face."
+     ],
+     "shots": [
+      {
+       "id": "s13",
+       "say": "In 2012, a sharper reading of the girl's genome even hinted at her colouring: gene versions that, in people today, go with dark skin, brown hair and brown eyes.",
+       "draw": "A head-and-shoulders outline in dashes (no face drawn) beside a short glowing strand of DNA; three round colour swatches pop as named, each with a small label: 'dark skin', 'brown hair', 'brown eyes'; tag '2012: a sharper genome'."
+      },
+      {
+       "id": "s14",
+       "say": "A molar from the same cave carried the same kind of DNA. And it was huge: its chewing surface about twice the size of ours.",
+       "draw": "Two molars seen from above (chewing surfaces with cusps), side by side: 'ours' and 'Denisova molar', the second with about twice the area (1.4 times the width); a dashed outline of ours laid over it to compare."
+      },
+      {
+       "id": "s15",
+       "say": "A whole human group, known from its DNA before anyone had seen its face.",
+       "draw": "A museum case with a lit plinth: inside, the chip and the big molar, tiny; behind the case a full-height person drawn only as a dashed outline with a question mark for a face; a small double helix glows on the plinth label 'known from DNA'."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Two peoples, one girl",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:storytelling, plain]In {2012|twenty twelve}, archaeologists in Denisova Cave, in Siberia, dug up a scrap of ^bone, about two and a half centimetres ^long. [act:the problem, a small smile][tune:fall]Nothing marked it as ^human: it went into a bag with thousands of other ^splinters."
+     ],
+     "shots": [
+      {
+       "id": "s16",
+       "say": "Nothing marked it as human: it went into a bag with thousands of other splinters.",
+       "draw": "A bone splinter beside a ruler marked 0 to 3 cm (true length 2.5 cm); then it slides into an open sample bag already full of similar splinters, and more bags line up behind it on a shelf ('thousands of splinters')."
+      }
+     ],
+     "chapter": "Two peoples, one girl"
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:the method, brisk]By {2016|twenty sixteen}, a team had screened {2,315|two thousand three hundred and fifteen} of those splinters by their ^collagen, [act:explaining][tune:fall]the protein that gives bone its ^strength. [p:0.93][act:the everyday picture, warm]Each kind of animal has its own version, like a barcode at the ^checkout. [act:the find, delighted][tune:fall]One scrap scanned as ^human."
+     ],
+     "shots": [
+      {
+       "id": "s17",
+       "say": "By 2016, a team had screened 2,315 of those splinters by their collagen, the protein that gives bone its strength. Each kind of animal has its own version, like a barcode at the checkout. One scrap scanned as human.",
+       "draw": "A conveyor of splinters passing under a red scanner beam; above each a small barcode pops with an animal icon (deer, horse, bear, bison...); a counter '2,315'; one splinter's barcode lights gold with a small human figure: 'human'."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:the first clue, careful]Its mitochondrial DNA, which passes only from mother to ^child, was ^Neanderthal. [p:0.93][act:the twist, slow]Then, in {2018|twenty eighteen}, came her whole ^genome. [act:explaining, a picture]We each carry two copies of our DNA, one from each ^parent. [act:the reveal, leaning in][tune:fall]Hers: one copy Neanderthal, the other Denisovan, almost ^everywhere.",
+      "[d:reveal][sfx:hit][act:the reveal, slow][tune:fall]Her mother was a ^Neanderthal. [act:the reveal, warm][tune:fall]Her father, a ^Denisovan."
+     ],
+     "shots": [
+      {
+       "id": "s18",
+       "say": "Its mitochondrial DNA, which passes only from mother to child, was Neanderthal.",
+       "draw": "A mother figure and a child figure; a small amber ring (mitochondrial DNA) passes from the mother down to the child along a curved arrow; label 'from the mother only' and an amber tag 'Neanderthal'."
+      },
+      {
+       "id": "s19",
+       "say": "Then, in 2018, came her whole genome. We each carry two copies of our DNA, one from each parent. Hers: one copy Neanderthal, the other Denisovan, almost everywhere.",
+       "draw": "Two long bars (the two copies of a chromosome) under two parent icons: the top bar fills amber from the mother, the bottom bar fills blue from the father, in segments; a short row of example sites below each shows one amber and one blue at every site; tag '2018: her whole genome'."
+      },
+      {
+       "id": "s20",
+       "say": "Her mother was a Neanderthal. Her father, a Denisovan.",
+       "draw": "A warm family scene at a hearth inside the cave: a Neanderthal woman (amber-lit silhouette), a Denisovan man (blue-lit silhouette, taller), and between them a girl; labels 'mother: Neanderthal', 'father: Denisovan'."
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:calm][act:tender, the details]She was at least thirteen when she died, about a hundred thousand years ^ago. [act:warm, a small smile][tune:fall]Researchers call her ^Denny. [act:the twist, intrigued]Her father had a Neanderthal somewhere in his family tree, ^too, [act:the point][tune:fall]and her mother's people were closer to the Neanderthals of western ^Europe than to those who had lived earlier in the same ^cave. [act:the landing, warm][tune:fall]When these peoples ^met, they had ^children."
+     ],
+     "shots": [
+      {
+       "id": "s21",
+       "say": "She was at least thirteen when she died, about a hundred thousand years ago. Researchers call her Denny.",
+       "draw": "A time axis from 200,000 years ago to today; at about 100,000 a gold marker and a small girl figure pop, label 'Denny, at least 13'; a short bracket shows the dating range 80,000 to 140,000."
+      },
+      {
+       "id": "s22",
+       "say": "Her father had a Neanderthal somewhere in his family tree, too, and her mother's people were closer to the Neanderthals of western Europe than to those who had lived earlier in the same cave.",
+       "draw": "A map of Eurasia: a pin at Denisova Cave; amber dots in western Europe ('western Europe'); a dashed amber arc runs from Europe to the Altai ('her mother's people'); a small family-tree icon by the cave with one amber twig in the father's blue line."
+      },
+      {
+       "id": "s23",
+       "say": "When these peoples met, they had children.",
+       "draw": "Two small groups of figures walk towards each other on a plain at dusk, amber from the left and blue from the right; where they meet, two small children appear between them; a soft glow."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Their genes in us",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:plain, the fact]Millions of people alive today carry Denisovan ^DNA. [p:0.93][act:explaining, a picture]Split a person's DNA into a hundred equal ^parts. [act:the reveal][tune:fall]In some people in Papua New Guinea, about four to six of those parts are ^Denisovan. [act:widening out][tune:fall]Across mainland Asia, many people carry a ^trace: about two parts in a ^thousand.",
+      "[d:build][act:the method, curious][tune:rise]How can anyone tell, after tens of thousands of ^years? [p:0.93][act:explaining, a picture]Think of a long text, copied by hand for ^generations. [act:the payoff][tune:fall]If a whole passage matches a rare old edition, word for ^word, that's where it came ^from."
+     ],
+     "shots": [
+      {
+       "id": "s24",
+       "say": "Split a person's DNA into a hundred equal parts. In some people in Papua New Guinea, about four to six of those parts are Denisovan. Across mainland Asia, many people carry a trace: about two parts in a thousand.",
+       "draw": "A person standing at the left ('Papua New Guinea'); beside them a 10 x 10 grid of squares builds; four squares turn solid blue and two more get a dashed blue rim; label '4 to 6 in 100'. Then at the right a field of 1,000 tiny squares (40 x 25) appears and just two of them light blue: 'mainland Asia: 2 in 1,000'."
+      },
+      {
+       "id": "s25",
+       "say": "How can anyone tell, after tens of thousands of years? Think of a long text, copied by hand for generations. If a whole passage matches a rare old edition, word for word, that's where it came from.",
+       "draw": "A row of hand-copied pages from left to right (generations), each with grey lines; one passage in each page is highlighted blue; above, a rare old book ('the old edition', blue) with the same passage; thin lines link the passages word for word; a tick."
+      }
+     ],
+     "chapter": "Their genes in us"
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:widening out]The Ayta Magbukon people of the Philippines carry even ^more: [act:the number][tune:fall]about a third more than Papuan ^Highlanders. [p:0.93][act:the puzzle, intrigued]And the Denisovan passages in Papua New Guinea come from at least ^two different ^groups, [act:the depth][tune:fall]apart from each other for hundreds of thousands of ^years."
+     ],
+     "shots": [
+      {
+       "id": "s26",
+       "say": "The Ayta Magbukon people of the Philippines carry even more: about a third more than Papuan Highlanders.",
+       "draw": "A map of island Southeast Asia and New Guinea: the Philippines (Luzon) and New Guinea glow blue; two bars rise: 'Papuan Highlanders' and 'Ayta Magbukon', the second about a third taller."
+      },
+      {
+       "id": "s27",
+       "say": "And the Denisovan passages in Papua New Guinea come from at least two different groups, apart from each other for hundreds of thousands of years.",
+       "draw": "A tree: the Denisovan trunk splits deep into two blue branches, 'group 1' and 'group 2', with a long bracket 'hundreds of thousands of years apart'; both branches send thin lines into one figure at the right, 'Papua New Guinea'."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:the turn, wonder]Then there's ^Tibet. [p:0.93][act:explaining, clear]High up, every breath holds less ^oxygen, and most bodies answer by making extra red blood ^cells, [act:the problem][tune:fall]until the blood grows ^thick.",
+      "[act:the reveal, warm]Most Tibetans carry a different version of a gene that steers that ^response, [act:the payoff][tune:fall]and their blood thickens far ^less. [p:0.93][act:the reveal, slow]In {2014|twenty fourteen}, geneticists traced that version to the ^Denisovans, [act:careful][tune:fall]or to people very like ^them."
+     ],
+     "shots": [
+      {
+       "id": "s28",
+       "say": "Then there's Tibet. High up, every breath holds less oxygen, and most bodies answer by making extra red blood cells, until the blood grows thick.",
+       "draw": "Left: a high plateau with a walker and a breath cloud holding fewer oxygen dots than a sea-level cloud below ('sea level', 'high up'). Right: a blood vessel in cross-section filling with red cells until it is crowded: 'thick blood'."
+      },
+      {
+       "id": "s29",
+       "say": "Most Tibetans carry a different version of a gene that steers that response, and their blood thickens far less. In 2014, geneticists traced that version to the Denisovans, or to people very like them.",
+       "draw": "Two vessels side by side: 'most people, high up' (crowded) and 'most Tibetans' (far fewer cells); below, a DNA strand with one segment glowing blue, label 'EPAS1', and a dashed blue line from it to a small Denisovan silhouette: '2014: a Denisovan version'."
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:calm][act:the landing, quiet wonder][tune:fall]A people nobody has ever seen still helps people breathe on the roof of the ^world."
+     ],
+     "shots": [
+      {
+       "id": "s30",
+       "say": "A people nobody has ever seen still helps people breathe on the roof of the world.",
+       "draw": "Dawn on the Tibetan Plateau: snow peaks, a herder walking with yaks, his breath a small cloud in the cold air; behind him, a tall faint dotted silhouette walks in step like a shadow, and a thin blue thread links the two."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The roof of the world",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:storytelling, unhurried]In {1980|nineteen eighty}, a Buddhist monk found half of a human jaw in a cave high on the Tibetan ^Plateau. [act:the setting, a picture]The cave opens in a cliff, {3,280|three thousand two hundred and eighty} metres above the ^sea. [act:plain][tune:fall]Through a senior lama, the jaw found its way to a ^university."
+     ],
+     "shots": [
+      {
+       "id": "s31",
+       "say": "The cave opens in a cliff, 3,280 metres above the sea. Through a senior lama, the jaw found its way to a university.",
+       "draw": "A broad grassy valley on the plateau under a high cold sky, a pale limestone cliff with a cave mouth; a small robed figure stands at the mouth holding half a jaw that glows; an altitude bar at the right climbs to '3,280 m'; label 'Baishiya Karst Cave, Tibetan Plateau'."
+      }
+     ],
+     "chapter": "The roof of the world"
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:the problem, plain]No DNA could be found in ^it. [p:0.93][act:explaining, a picture]But proteins can outlast DNA, and each is a chain of tiny beads, in an order set by our ^genes: [act:the payoff][tune:fall]the order works like a family ^signature. [act:the result, firm]In {2019|twenty nineteen}, proteins from one of its teeth matched the ^Denisovans. [act:the date][tune:fall]A crust on the jaw was at least {160,000|a hundred and sixty thousand} years ^old."
+     ],
+     "shots": [
+      {
+       "id": "s32",
+       "say": "No DNA could be found in it. But proteins can outlast DNA, and each is a chain of tiny beads, in an order set by our genes: the order works like a family signature.",
+       "draw": "The half jaw drawn large (the right half of a lower jaw with its two big molars), a crossed-out DNA helix ('no DNA'); from one molar a chain of coloured beads unspools to the right ('a protein')."
+      },
+      {
+       "id": "s33",
+       "say": "In 2019, proteins from one of its teeth matched the Denisovans. A crust on the jaw was at least 160,000 years old.",
+       "draw": "Two bead chains, 'the jaw' and 'Denisovan', line up; green match lines drop between them bead by bead; tag '2019'. Then a pale crust on the jaw glows, label 'at least 160,000 years'."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:the twist, intrigued]Then the cave floor itself ^spoke. [p:0.93][act:explaining]In {2020|twenty twenty}, Denisovan DNA turned up in the ^dirt, [act:the dates][tune:fall]in layers about {100,000|a hundred thousand} and {60,000|sixty thousand} years ^old, and perhaps {45,000|forty-five thousand}.",
+      "[d:build][act:more, vivid]In {2024|twenty twenty-four} came a broken ^rib, roughly {48,000|forty-eight thousand} to {32,000|thirty-two thousand} years ^old. [act:listing, delighted][tune:level]And the bones of what they ^butchered. [act:counting them off][tune:level]Blue ^sheep. [act:counting on][tune:level]Wild ^yaks. [act:counting on][tune:level]Woolly ^rhinos. [act:the last one, a smile][tune:fall]Even a golden ^eagle."
+     ],
+     "shots": [
+      {
+       "id": "s34",
+       "say": "Then the cave floor itself spoke. In 2020, Denisovan DNA turned up in the dirt, in layers about 100,000 and 60,000 years old, and perhaps 45,000.",
+       "draw": "The cave floor in cross-section: stacked layers with age tags at the side; blue DNA helices glow inside the layers tagged '100,000' and '60,000', and a dashed one in the layer tagged '45,000?'; tag '2020: DNA in the dirt'."
+      },
+      {
+       "id": "s35",
+       "say": "In 2024 came a broken rib, roughly 48,000 to 32,000 years old. And the bones of what they butchered. Blue sheep. Wild yaks. Woolly rhinos. Even a golden eagle.",
+       "draw": "A broken rib fragment glows, tag '48,000 to 32,000 years'; then four animals pop in a row as named, as silhouettes with a rim light: a blue sheep (bharal), a wild yak, a woolly rhino, a golden eagle with spread wings; each labelled."
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:calm][act:the landing, wonder]Up there, every breath holds about a third less ^oxygen. [p:0.93][act:the point, slow][tune:fall]The Denisovans lived with it, long before our own species ^arrived."
+     ],
+     "shots": [
+      {
+       "id": "s36",
+       "say": "Up there, every breath holds about a third less oxygen. The Denisovans lived with it, long before our own species arrived.",
+       "draw": "Two breath clouds: 'sea level' with 30 oxygen dots, '3,280 m' with 20; then a time axis below, 200,000 years ago to today: a blue band 'Denisovans on the plateau' from 160,000 onward and a small gold mark 'our species, about 40,000'."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "A face from a well",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:storytelling, intrigued]In {1933|nineteen thirty-three}, a man building a railway bridge in Harbin, in northeast ^China, dug up a human ^skull. [act:the secret, hushed]The city was under Japanese ^occupation, [act:the twist][tune:fall]and, his family says, he hid it at the bottom of an old ^well. [act:quiet][tune:fall]Decades later, as an old man, he told ^them. [act:plain][tune:fall]About eighty-five years after it was found, the skull reached a ^museum."
+     ],
+     "shots": [
+      {
+       "id": "s37",
+       "say": "The city was under Japanese occupation, and, his family says, he hid it at the bottom of an old well.",
+       "draw": "Left: a steel railway bridge under construction over a wide river at dusk (the Songhua at Harbin), workers small on the piers. Right: an old stone well in cross-section; a wrapped skull is lowered on a rope and settles at the bottom in the dark; label 'an old well'."
+      },
+      {
+       "id": "s38",
+       "say": "Decades later, as an old man, he told them. About eighty-five years after it was found, the skull reached a museum.",
+       "draw": "A time line 1933 to 2018 draws itself under the well, with '85 years' over it; at its end a museum case lights up with the skull on a stand."
+      }
+     ],
+     "chapter": "A face from a well"
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:the reveal, impressed]It's one of the largest human skulls ever ^found. [act:listing][tune:level]A brain about as big as ^ours, in a long, low ^skull. [act:listing][tune:level]A heavy ^brow. [act:the last one][tune:fall]Huge, almost square eye ^sockets. [p:0.93][act:the date]Dating of the bone itself gives at least {146,000|a hundred and forty-six thousand} ^years. [act:the naming, even][tune:fall]Its describers called it a new species, nicknamed Dragon ^Man."
+     ],
+     "shots": [
+      {
+       "id": "s39",
+       "say": "It's one of the largest human skulls ever found. A brain about as big as ours, in a long, low skull. A heavy brow. Huge, almost square eye sockets.",
+       "draw": "The Harbin skull large in three-quarter view, heavy and long; a dashed outline of a modern skull overlaid for comparison (higher and rounder); labels pop as named: 'brain about 1.4 litres', 'heavy brow', 'square eye sockets'."
+      },
+      {
+       "id": "s40",
+       "say": "Dating of the bone itself gives at least 146,000 years. Its describers called it a new species, nicknamed Dragon Man.",
+       "draw": "A time axis with a gold marker 'at least 146,000 years'; a name plate pops: 'Homo longi, Dragon Man, 2021'."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:the turn, leaning in]In {2025|twenty twenty-five}, a team in Beijing tried something ^bolder. [p:0.93][act:explaining]From the dense bone around the inner ^ear, they recovered ninety-five ^proteins: [act:the result][tune:fall]three carried versions known only from ^Denisovans. [act:the second clue, delighted]And from the tartar on its one remaining ^tooth, a trace of DNA from the mother's ^line: [act:the match][tune:fall]Denisovan ^too."
+     ],
+     "shots": [
+      {
+       "id": "s41",
+       "say": "In 2025, a team in Beijing tried something bolder. From the dense bone around the inner ear, they recovered ninety-five proteins: three carried versions known only from Denisovans.",
+       "draw": "The skull again; the inner ear region glows; 95 tiny bead chains fan out in a grid; three of them light blue with a small tag 'Denisovan only'."
+      },
+      {
+       "id": "s42",
+       "say": "And from the tartar on its one remaining tooth, a trace of DNA from the mother's line: Denisovan too.",
+       "draw": "Close on the one molar in the upper jaw with a pale crust of tartar; a small loop of DNA rises from the crust and matches a blue loop tagged 'Denisovan'."
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:aside][act:fair, the caveat]Not everyone is ^convinced: [act:their point][tune:fall]three markers and a trace of DNA make a thin ^thread, and one skull may not speak for a whole ^people. [p:0.93][act:the landing, warm][tune:fall]But if it holds, the people of the fingertip finally have a ^face."
+     ],
+     "shots": [
+      {
+       "id": "s43",
+       "say": "Not everyone is convinced: three markers and a trace of DNA make a thin thread, and one skull may not speak for a whole people. But if it holds, the people of the fingertip finally have a face.",
+       "draw": "The faceless lilac profile of s3 returns at the left; a thin thread runs from the chip of bone to the Harbin skull; on 'if it holds', the skull's profile settles into the empty face outline as a dashed reconstruction."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "How big were they?",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:plain, the question][tune:rise]Were the Denisovans ^giants? [act:the setting, fair]Online, you'll often read@present that they ^were, [act:fair][tune:fall]and the bones we have are certainly ^big.",
+      "[d:build][act:the evidence, brisk]A child's molar from a cave in ^Laos, roughly {150,000|a hundred and fifty thousand} years old, [act:the detail][tune:fall]is shaped like the teeth of the Tibetan ^jaw. [act:the second]Fishermen dragged a jaw up from the bottom of the Taiwan ^Strait, [act:the detail][tune:fall]which was dry land in the Ice Age, when the sea stood ^lower. [p:0.93][act:the result]In {2025|twenty twenty-five}, its proteins named it: a Denisovan ^man, [act:the detail][tune:fall]with big molars and a heavy ^jaw."
+     ],
+     "shots": [
+      {
+       "id": "s44",
+       "say": "Online, you'll often read that they were, and the bones we have are certainly big.",
+       "draw": "A lineup on a ground line: a person 'us, 1.72 m' (gold) and a dotted lilac giant three metres tall with a question mark ('a giant?'); in front, the big bones laid out small: molar, jaw, skull."
+      },
+      {
+       "id": "s45",
+       "say": "A child's molar from a cave in Laos, roughly 150,000 years old, is shaped like the teeth of the Tibetan jaw.",
+       "draw": "A map of East and Southeast Asia with pins: Denisova Cave, Baishiya (Tibet), Harbin, then the new pin 'Cobra Cave, Laos' with a small molar icon and 'about 150,000 years'; a dashed line to the Tibetan pin with '≈ shape'."
+      },
+      {
+       "id": "s46",
+       "say": "Fishermen dragged a jaw up from the bottom of the Taiwan Strait, which was dry land in the Ice Age, when the sea stood lower. In 2025, its proteins named it: a Denisovan man, with big molars and a heavy jaw.",
+       "draw": "The Taiwan Strait in cross-section: a fishing boat at the surface drags a net along the sea floor 60 to 120 m down; a dashed line far below today's surface marks the Ice Age shore, the floor then dry land with a small grassy strip; the jaw rises in the net and glows; tag '2025: Denisovan, male'."
+      }
+     ],
+     "chapter": "How big were they?"
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:news, brisk]The same fishing grounds had yielded two leg ^bones, a thigh and a ^shin, kept in a museum ^collection. [p:0.93][act:the result]In {2026|twenty twenty-six}, their proteins showed a Denisovan ^marker. [act:the method, a picture]A longer leg bone means a taller ^person, [act:the analogy, light][tune:fall]like guessing someone's height from the length of their ^trousers. [act:the numbers, wonder]About one metre ^eighty, [tune:fall]and one metre ^ninety. [act:the age, plain][tune:fall]Radiocarbon puts the shin at about {45,000|forty-five thousand} years ^old."
+     ],
+     "shots": [
+      {
+       "id": "s47",
+       "say": "The same fishing grounds had yielded two leg bones, a thigh and a shin, kept in a museum collection. In 2026, their proteins showed a Denisovan marker.",
+       "draw": "A museum drawer with two long bones, a thigh bone (femur) and a shin bone (tibia), drawn large and pale; a bead chain beside them with one bead turning blue: 'a Denisovan marker, 2026'."
+      },
+      {
+       "id": "s48",
+       "say": "A longer leg bone means a taller person, like guessing someone's height from the length of their trousers. About one metre eighty, and one metre ninety. Radiocarbon puts the shin at about 45,000 years old.",
+       "draw": "Three figures to scale on a ground line: 'us, 1.72 m', then two Denisovan men '1.8 m' and '1.9 m', each with the leg bone glowing inside the leg and a pair of trousers drawn over it; a small tag on the shin '45,000 years'."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:weighing it, fair][tune:level]Tall, ^then. [act:the next question][tune:rise]^Giants? [p:0.93][act:explaining, gentle]One metre ninety is the height of a tall man ^today, [act:a picture][tune:fall]and plenty of people pass two metres without being called ^giants. [act:a careful caveat, lower]It's ^two bones, in a study not yet peer ^reviewed. [act:dry][tune:fall]And a big tooth tells you about ^chewing, not about ^height."
+     ],
+     "shots": [
+      {
+       "id": "s49",
+       "say": "Tall, then. Giants? One metre ninety is the height of a tall man today, and plenty of people pass two metres without being called giants. It's two bones, in a study not yet peer reviewed. And a big tooth tells you about chewing, not about height.",
+       "draw": "The lineup again: 'today, 2 m' joins at the left; the dotted three-metre giant at the right dims and a lilac question mark stays; a preprint page with a stamp 'not yet peer reviewed' and 'two bones'; a molar beside a jaw with a small arrow 'chewing'."
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:calm][act:the landing, plain][tune:fall]Big, strong ^people, as tall as a tall person ^today. [act:the verdict on it, even][tune:fall]Not ^giants."
+     ],
+     "shots": [
+      {
+       "id": "s50",
+       "say": "Big, strong people, as tall as a tall person today. Not giants.",
+       "draw": "The final lineup in warm light: the two Denisovan men beside a tall man of today, all within the human range; the dotted giant gone, only a faint ring where it stood."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The weighing",
+   "beats": [
+    {
+     "role": "weigh",
+     "lines": [
+      "[d:verdict][act:stepping back, calm]So, let's weigh the ^fingertip. [act:the first, firm][tune:rise]A distinct human group, known first from its ^DNA, whose genes live@verb on in ^us? [act:the verdict, firm][tune:fall]*^Established*. [act:the second, steady][tune:rise]The jaws from Tibet and ^Taiwan? [act:the verdict, steady][tune:fall]*Strong ^evidence*, from their ^proteins. [act:the third, steady][tune:rise]The Harbin skull as a Denisovan ^face? [act:the verdict, fair][tune:fall]*Strong ^evidence*, with a few careful ^sceptics.",
+      "[d:verdict][act:the next, even][tune:rise]The tooth from ^Laos? [act:fair][tune:fall]*^Plausible*: [act:explaining][tune:fall]its shape says Denisovan, its proteins only say ^human. [act:the next][tune:rise]Tall ^people? [act:fair][tune:fall]*^Plausible*, on two leg bones not yet peer ^reviewed. [act:the last, level-headed][tune:rise]^Giants? [act:the verdict, even][tune:fall]*Awaiting ^evidence*. [act:plain][tune:fall]No bone points ^there."
+     ],
+     "shots": [
+      {
+       "id": "s51",
+       "say": "A distinct human group, known first from its DNA, whose genes live on in us? Established. The jaws from Tibet and Taiwan? Strong evidence, from their proteins. The Harbin skull as a Denisovan face? Strong evidence, with a few careful sceptics.",
+       "draw": "A ledger board of six rows, each with a small picture at the left (the chip with a helix, two jaws, the Harbin skull, the Laos molar, two leg bones, the dotted giant); the first three rows light as named and their grade chips pop: 'Established', 'Strong evidence', 'Strong evidence'."
+      },
+      {
+       "id": "s52",
+       "say": "The tooth from Laos? Plausible: its shape says Denisovan, its proteins only say human. Tall people? Plausible, on two leg bones not yet peer reviewed. Giants? Awaiting evidence. No bone points there.",
+       "draw": "Same ledger, the camera lower: rows four to six light and their chips pop: 'Plausible', 'Plausible', 'Awaiting evidence'."
+      }
+     ],
+     "chapter": "The weighing"
+    },
+    {
+     "role": "weigh",
+     "lines": [
+      "[d:build][act:the open questions, honest]And the biggest questions are still ^open. [act:listing][tune:level]How far they ^ranged: from Siberia to Taiwan, and, their genes hint, the islands ^beyond. [act:listing][tune:level]How many groups there ^were. [act:listing][tune:fall]And when, and how, they ^vanished. [p:0.93][act:the clues, careful]The youngest bones so far are between about {48,000|forty-eight thousand} and {32,000|thirty-two thousand} years ^old, [act:the clue][tune:fall]and the genes hint that some lived on until about {30,000|thirty thousand}. [act:the question, even][tune:rise]How they ^disappeared? [act:the verdict, even][tune:fall]*Open ^question*. [act:a small smile][tune:fall]Partly, perhaps, into ^us."
+     ],
+     "shots": [
+      {
+       "id": "s53",
+       "say": "How far they ranged: from Siberia to Taiwan, and, their genes hint, the islands beyond. How many groups there were. And when, and how, they vanished. The youngest bones so far are between about 48,000 and 32,000 years old, and the genes hint that some lived on until about 30,000. How they disappeared? Open question. Partly, perhaps, into us.",
+       "draw": "A map of Asia and Oceania with every site pinned (Denisova Cave, Baishiya, Harbin, Cobra Cave, Penghu); a solid outline links them, then a dashed one reaches past Wallacea to New Guinea ('the islands?'); two blue branches for 'how many groups'; a small time axis at the bottom: bars for the rib (48,000 to 32,000) and the shin (about 45,000), a dashed bar to 30,000 ('genes'), then an 'Open question' chip."
+      }
+     ]
+    },
+    {
+     "role": "test",
+     "lines": [
+      "[d:tension][act:what would settle it, inviting][tune:rise]What would change our ^minds? [act:listing][tune:level]A Denisovan skeleton, head to ^toe. [act:listing][tune:level]Ancient DNA from a Denisovan bone on the islands, where their genes run strongest ^today. [act:the last][tune:fall]And a firm date for the very last of ^them."
+     ],
+     "shots": [
+      {
+       "id": "s54",
+       "say": "What would change our minds? A Denisovan skeleton, head to toe. Ancient DNA from a Denisovan bone on the islands, where their genes run strongest today. And a firm date for the very last of them.",
+       "draw": "Three blue dashed boxes (tests not yet done) fill as named: a whole skeleton outline; a double helix over a chain of islands; a clock face over a time axis marked 'the last of them'."
+      }
+     ]
+    },
+    {
+     "role": "close",
+     "lines": [
+      "[d:calm][act:quiet, the image][tune:fall]Somewhere, in a cave or under the sea, the rest of them is ^waiting. [act:the sign-off, warm][tune:fall]Weigh it ^yourself."
+     ],
+     "shots": [
+      {
+       "id": "s55",
+       "say": "Somewhere, in a cave or under the sea, the rest of them is waiting. Weigh it yourself.",
+       "draw": "Night: a full human outline drawn only in dashes under the stars; the few known Denisovan pieces glow in their places (a fingertip, molars, a jaw, the skull, a rib, a thigh and a shin), the rest of the body empty and waiting; the camera holds as the end card arrives."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "description": "In 2008, archaeologists in a cave in Siberia found a chip of finger bone the size of a ladybird. Its DNA revealed a human group nobody had ever seen: the Denisovans. Their genes live on in millions of people today, and a Denisovan version of one gene helps Tibetans live at altitude. So who were they?\n\nWe follow the clues in order: the genome from Denisova Cave, Denny (the girl with a Neanderthal mother and a Denisovan father), the Denisovan DNA in Papua New Guinea and the Philippines, the jaw from a cave 3,280 metres up on the Tibetan Plateau, the Harbin skull hidden down a well and linked to the Denisovans in 2025, the teeth and jaws from Laos and Taiwan, and the 2026 leg bones behind the \"giants\" headlines. A distinct human group, known first from its DNA, whose genes live on in us: Established. The Harbin skull as a Denisovan face: Strong evidence. Tall people: Plausible. Giants: Awaiting evidence.\n\nChapters\n0:00 Cold open\nmm:ss A cave in Siberia\nmm:ss Two peoples, one girl\nmm:ss Their genes in us\nmm:ss The roof of the world\nmm:ss A face from a well\nmm:ss How big were they?\nmm:ss The weighing\n\nSources\nKrause et al. 2010, Nature 464: 894-897, doi:10.1038/nature08976\nReich et al. 2010, Nature 468: 1053-1060, doi:10.1038/nature09710\nMeyer et al. 2012, Science 338: 222-226, doi:10.1126/science.1224344\nBennett et al. 2019, Science Advances 5(9): eaaw3950, doi:10.1126/sciadv.aaw3950\nDouka et al. 2019, Nature 565: 640-644, doi:10.1038/s41586-018-0870-z\nJacobs, Z. et al. 2019, Nature 565: 594-599, doi:10.1038/s41586-018-0843-2\nBrown et al. 2016, Scientific Reports 6: 23559, doi:10.1038/srep23559\nSlon et al. 2018, Nature 561: 113-116, doi:10.1038/s41586-018-0455-x\nPrufer et al. 2014, Nature 505: 43-49, doi:10.1038/nature12886\nLarena et al. 2021, Current Biology 31: 4219-4230, doi:10.1016/j.cub.2021.07.022\nJacobs, G. S. et al. 2019, Cell 177: 1010-1021, doi:10.1016/j.cell.2019.02.035\nBrowning et al. 2018, Cell 173: 53-61, doi:10.1016/j.cell.2018.02.031\nHuerta-Sanchez et al. 2014, Nature 512: 194-197, doi:10.1038/nature13408\nChen et al. 2019, Nature 569: 409-412, doi:10.1038/s41586-019-1139-x\nZhang, D. et al. 2020, Science 370: 584-587, doi:10.1126/science.abb6320\nXia et al. 2024, Nature 632: 108-113, doi:10.1038/s41586-024-07612-9\nZhang, X. L. et al. 2018, Science 362: 1049-1051, doi:10.1126/science.aat8824\nJi et al. 2021, The Innovation 2(3): 100132, doi:10.1016/j.xinn.2021.100132\nShao et al. 2021, The Innovation 2(3): 100131, doi:10.1016/j.xinn.2021.100131\nFu et al. 2025, Science (proteome of the Harbin cranium), doi:10.1126/science.adu9677\nFu et al. 2025, Cell (mtDNA from the Harbin dental calculus), doi:10.1016/j.cell.2025.05.040\nDemeter et al. 2022, Nature Communications 13: 2557, doi:10.1038/s41467-022-29923-z\nChang et al. 2015, Nature Communications 6: 6037, doi:10.1038/ncomms7037\nTsutaya et al. 2025, Science 388: 176-180, doi:10.1126/science.ads3888\nKaifu et al. 2026, bioRxiv preprint (not peer reviewed), doi:10.64898/2026.08.07.743438\nPeyregne et al. 2025, bioRxiv preprint, doi:10.1101/2025.10.20.683404",
+ "sources": [
+  "Krause, J., Fu, Q., Good, J. M., Viola, B., Shunkov, M. V., Derevianko, A. P. & Paabo, S. 2010, The complete mitochondrial DNA genome of an unknown hominin from southern Siberia, Nature 464: 894-897, doi:10.1038/nature08976",
+  "Reich, D. et al. 2010, Genetic history of an archaic hominin group from Denisova Cave in Siberia, Nature 468: 1053-1060, doi:10.1038/nature09710",
+  "Meyer, M. et al. 2012, A high-coverage genome sequence from an archaic Denisovan individual, Science 338: 222-226, doi:10.1126/science.1224344",
+  "Bennett, E. A. et al. 2019, Morphology of the Denisovan phalanx closer to modern humans than to Neanderthals, Science Advances 5(9): eaaw3950, doi:10.1126/sciadv.aaw3950",
+  "Douka, K. et al. 2019, Age estimates for hominin fossils and the onset of the Upper Palaeolithic at Denisova Cave, Nature 565: 640-644, doi:10.1038/s41586-018-0870-z",
+  "Jacobs, Z. et al. 2019, Timing of archaic hominin occupation of Denisova Cave in southern Siberia, Nature 565: 594-599, doi:10.1038/s41586-018-0843-2",
+  "Shreeve, J. 2013, The Case of the Missing Ancestor, National Geographic, July 2013 (the cave, the size of the finger fragment, the molar)",
+  "Brown, S. et al. 2016, Identification of a new hominin bone from Denisova Cave, Siberia using collagen fingerprinting and mitochondrial DNA analysis, Scientific Reports 6: 23559, doi:10.1038/srep23559",
+  "Slon, V. et al. 2018, The genome of the offspring of a Neanderthal mother and a Denisovan father, Nature 561: 113-116, doi:10.1038/s41586-018-0455-x",
+  "Prufer, K. et al. 2014, The complete genome sequence of a Neanderthal from the Altai Mountains, Nature 505: 43-49, doi:10.1038/nature12886",
+  "Larena, M. et al. 2021, Philippine Ayta possess the highest level of Denisovan ancestry in the world, Current Biology 31: 4219-4230, doi:10.1016/j.cub.2021.07.022",
+  "Jacobs, G. S. et al. 2019, Multiple deeply divergent Denisovan ancestries in Papuans, Cell 177: 1010-1021, doi:10.1016/j.cell.2019.02.035",
+  "Browning, S. R. et al. 2018, Analysis of human sequence data reveals two pulses of archaic Denisovan admixture, Cell 173: 53-61, doi:10.1016/j.cell.2018.02.031",
+  "Huerta-Sanchez, E. et al. 2014, Altitude adaptation in Tibetans caused by introgression of Denisovan-like DNA, Nature 512: 194-197, doi:10.1038/nature13408",
+  "Chen, F. et al. 2019, A late Middle Pleistocene Denisovan mandible from the Tibetan Plateau, Nature 569: 409-412, doi:10.1038/s41586-019-1139-x",
+  "Zhang, D. et al. 2020, Denisovan DNA in Late Pleistocene sediments from Baishiya Karst Cave on the Tibetan Plateau, Science 370: 584-587, doi:10.1126/science.abb6320",
+  "Xia, H. et al. 2024, Middle and Late Pleistocene Denisovan subsistence at Baishiya Karst Cave, Nature 632: 108-113, doi:10.1038/s41586-024-07612-9",
+  "Zhang, X. L. et al. 2018, The earliest human occupation of the high-altitude Tibetan Plateau 40 thousand to 30 thousand years ago, Science 362: 1049-1051, doi:10.1126/science.aat8824",
+  "Ji, Q. et al. 2021, Late Middle Pleistocene Harbin cranium represents a new Homo species, The Innovation 2(3): 100132, doi:10.1016/j.xinn.2021.100132",
+  "Shao, Q. et al. 2021, Geochemical provenancing and direct dating of the Harbin archaic human cranium, The Innovation 2(3): 100131, doi:10.1016/j.xinn.2021.100131",
+  "Fu, Q. et al. 2025, The proteome of the late Middle Pleistocene Harbin individual, Science, doi:10.1126/science.adu9677",
+  "Fu, Q. et al. 2025, Denisovan mitochondrial DNA from dental calculus of the >146,000-year-old Harbin cranium, Cell, doi:10.1016/j.cell.2025.05.040",
+  "Demeter, F. et al. 2022, A Middle Pleistocene Denisovan molar from the Annamite Chain of northern Laos, Nature Communications 13: 2557, doi:10.1038/s41467-022-29923-z",
+  "Chang, C.-H. et al. 2015, The first archaic Homo from Taiwan, Nature Communications 6: 6037, doi:10.1038/ncomms7037",
+  "Tsutaya, T. et al. 2025, A male Denisovan mandible from Pleistocene Taiwan, Science 388: 176-180, doi:10.1126/science.ads3888",
+  "Kaifu, Y. et al. 2026, Denisovan leg bones from Taiwan reveal large body size, bioRxiv preprint posted August 2026, not peer reviewed, doi:10.64898/2026.08.07.743438",
+  "Peyregne, S. et al. 2025, A high-coverage genome from a 200,000-year-old Denisovan, bioRxiv preprint, doi:10.1101/2025.10.20.683404",
+  "International Organization for Standardization 1975, ISO 2533: Standard Atmosphere (air pressure at 3,280 m about 67 percent of sea level)"
+ ],
+ "facts_added": [
+  {
+   "fact": "The Denisova 3 finger bone was found in July 2008 in Denisova Cave in the Altai Mountains of southern Siberia; the fragment is described as about the size and shape of a pebble you might shake out of a shoe, and as about the size of a ladybird (ladybug).",
+   "source": "Shreeve 2013, National Geographic (July 2013); Science News Explores, 'Tiny fossil tells big tale' (photo caption); Krause et al. 2010, doi:10.1038/nature08976"
+  },
+  {
+   "fact": "The bone is the tip (distal phalanx) of the fifth finger of the right hand of an adolescent female, who likely died at about 13.5 years old; its shape falls within the range of Homo sapiens, not Neanderthals.",
+   "source": "Bennett et al. 2019, Science Advances, doi:10.1126/sciadv.aaw3950"
+  },
+  {
+   "fact": "The cave is named after Denis (Dionisy), a hermit who is said to have lived there in the 18th century; it lies above the Anuy river, roughly 300 km from where Russia meets Mongolia, China and Kazakhstan.",
+   "source": "Shreeve 2013, National Geographic"
+  },
+  {
+   "fact": "The Denisovan phalanx contains about 70% endogenous DNA, an exception among ancient remains, where the owner's DNA is usually a small fraction (under 5% in typical fossils); 40 mg of bone, the whole inner part of the phalanx, gave a genome at about 31-fold coverage.",
+   "source": "Meyer et al. 2012, Science 338: 222-226, doi:10.1126/science.1224344; Shreeve 2013, National Geographic"
+  },
+  {
+   "fact": "In March 2010 the mitochondrial genome from the finger bone differed from all known hominins and implied a common ancestor with humans and Neanderthals about one million years ago, about twice as old as the human-Neanderthal split; in December 2010 the nuclear genome showed the group shares a common origin with Neanderthals, and the team named them Denisovans.",
+   "source": "Krause et al. 2010, Nature, doi:10.1038/nature08976; Reich et al. 2010, Nature, doi:10.1038/nature09710"
+  },
+  {
+   "fact": "A molar from Denisova Cave carries a mitochondrial genome highly similar to the finger bone's and shares no derived features with Neanderthals or modern humans; its chewing surface is about twice that of a typical human molar.",
+   "source": "Reich et al. 2010, Nature, doi:10.1038/nature09710; Shreeve 2013, National Geographic"
+  },
+  {
+   "fact": "Denisovans used Denisova Cave from at least about 200,000 years ago to about 50,000 years ago; the oldest Denisovan fossil there dates to as early as 195,000 years ago and the youngest to 52,000 to 76,000 years ago.",
+   "source": "Jacobs, Z. et al. 2019, Nature, doi:10.1038/s41586-018-0843-2; Douka et al. 2019, Nature, doi:10.1038/s41586-018-0870-z"
+  },
+  {
+   "fact": "Denisova 11, a long-bone fragment 24.7 mm long excavated in 2012, was found by collagen fingerprinting (ZooMS) among 2,315 unidentified fragments; its mitochondrial DNA was of the Neanderthal type.",
+   "source": "Brown et al. 2016, Scientific Reports 6: 23559, doi:10.1038/srep23559; Slon et al. 2018"
+  },
+  {
+   "fact": "The genome of Denisova 11 shows a first-generation child of a Neanderthal mother and a Denisovan father; she was at least 13 years old; the father had at least one Neanderthal ancestor; the mother was closer to Neanderthals who lived later in western Europe than to an earlier Neanderthal from Denisova Cave. The authors nicknamed her 'Denny'. Her age is modelled at about 80,000 to 140,000 years.",
+   "source": "Slon et al. 2018, Nature, doi:10.1038/s41586-018-0455-x; Slon, Behind the paper (Springer Nature Communities, 2018); Douka et al. 2019"
+  },
+  {
+   "fact": "Denisovans contributed 4 to 6% of the genomes of present-day Melanesians (Reich 2010); the high-coverage genome gives 6.0% for Papuans (Meyer 2012).",
+   "source": "Reich et al. 2010, doi:10.1038/nature09710; Meyer et al. 2012, doi:10.1126/science.1224344"
+  },
+  {
+   "fact": "In 2012 the high-coverage genome of the finger bone showed alleles that in present-day humans are associated with dark skin, brown hair and brown eyes.",
+   "source": "Meyer et al. 2012, Science 338: 222-226, doi:10.1126/science.1224344"
+  },
+  {
+   "fact": "The genomes of Han Chinese and other mainland Asian populations, and of Native Americans, contain about 0.2% Denisovan ancestry.",
+   "source": "Prufer et al. 2014, Nature 505: 43-49, doi:10.1038/nature12886; Max Planck Institute press release, 18 December 2013"
+  },
+  {
+   "fact": "The Ayta Magbukon of the Philippines have the highest level of Denisovan ancestry known, about 30 to 40% greater than that of Australians and Papuans, consistent with a separate admixture event.",
+   "source": "Larena et al. 2021, Current Biology, doi:10.1016/j.cub.2021.07.022"
+  },
+  {
+   "fact": "Papuans carry Denisovan ancestry from two deeply divergent Denisovan lineages (D1, D2), which split from the Altai Denisovan about 283,000 and 363,000 years ago; the D1 introgression is estimated at about 29,800 years ago (95% interval 14,400 to 50,400), suggesting Denisovans may have lived in New Guinea or nearby islands until then. East Asians carry two pulses of Denisovan ancestry.",
+   "source": "Jacobs, G. S. et al. 2019, Cell, doi:10.1016/j.cell.2019.02.035; Browning et al. 2018, Cell, doi:10.1016/j.cell.2018.02.031"
+  },
+  {
+   "fact": "The EPAS1 gene (hypoxia pathway, linked to haemoglobin levels at altitude) carries in Tibetans a haplotype that can only be convincingly explained by introgression from Denisovans or Denisovan-related people; it is found at high frequency in Tibetans and at very low frequency in Han Chinese; the Tibetan version raises haemoglobin only slightly at high altitude.",
+   "source": "Huerta-Sanchez et al. 2014, Nature 512: 194-197, doi:10.1038/nature13408; UC Berkeley news release, 2 July 2014"
+  },
+  {
+   "fact": "The Xiahe mandible, the right half of a lower jaw with two molars, was found in 1980 by a local monk in Baishiya Karst Cave (Xiahe, Gansu) at 3,280 m altitude, and passed to Lanzhou University by the Sixth Gung-Thang Living Buddha; ancient proteins from a molar's dentine place it with Denisovans; U-series dating of the adhering carbonate crust gives a minimum age of about 160,000 years (164,500 +/- 6,200).",
+   "source": "Chen et al. 2019, Nature 569: 409-412, doi:10.1038/s41586-019-1139-x"
+  },
+  {
+   "fact": "Denisovan mitochondrial DNA was found in the sediments of Baishiya Karst Cave in layers about 100,000 and 60,000 years old, and possibly 45,000.",
+   "source": "Zhang, D. et al. 2020, Science, doi:10.1126/science.abb6320"
+  },
+  {
+   "fact": "A Denisovan rib (Xiahe 2) from Baishiya Karst Cave dates to about 48,000 to 32,000 years ago; animal bones there show Denisovans processed bharal (blue sheep), wild yak, woolly rhinoceros, spotted hyena, marmots and birds including the golden eagle.",
+   "source": "Xia et al. 2024, Nature 632: 108-113, doi:10.1038/s41586-024-07612-9"
+  },
+  {
+   "fact": "The earliest known modern-human occupation of the high Tibetan Plateau (Nwya Devu, 4,600 m) dates to 40,000 to 30,000 years ago.",
+   "source": "Zhang, X. L. et al. 2018, Science 362: 1049-1051, doi:10.1126/science.aat8824"
+  },
+  {
+   "fact": "At 3,280 m the air pressure, and so the oxygen in each breath, is about 67% of that at sea level (about a third less).",
+   "source": "ISO 2533 Standard Atmosphere"
+  },
+  {
+   "fact": "The Harbin cranium was reportedly found in 1933 during the building of a railway bridge over the Songhua River in Harbin, under Japanese occupation, hidden in a well, and given to the Geoscience Museum of Hebei GEO University about 85 years later; the account comes from the finder's family.",
+   "source": "Ji et al. 2021, The Innovation, doi:10.1016/j.xinn.2021.100132; Discover Magazine 2021; Smithsonian Magazine 2021"
+  },
+  {
+   "fact": "The Harbin cranium has an endocranial capacity of about 1,420 ml, is larger than other known archaic human crania, long and low, with a thick brow, large almost square orbits and big teeth; it was named Homo longi ('Dragon Man') in 2021; direct U-series dating gives an age older than 146,000 years (likely 138,000 to 309,000).",
+   "source": "Ji et al. 2021, doi:10.1016/j.xinn.2021.100132; Ni et al. 2021, doi:10.1016/j.xinn.2021.100130; Shao et al. 2021, doi:10.1016/j.xinn.2021.100131"
+  },
+  {
+   "fact": "In 2025, 95 endogenous proteins recovered from the Harbin cranium's petrous bone carried three variants known only in Denisovans; mitochondrial DNA from 0.3 mg of dental calculus on its remaining molar belongs to an early Denisovan lineage. Some specialists remain cautious about how few markers the identification rests on.",
+   "source": "Fu et al. 2025, Science, doi:10.1126/science.adu9677; Fu et al. 2025, Cell, doi:10.1016/j.cell.2025.05.040; National Geographic and Science News reports, June 2025"
+  },
+  {
+   "fact": "A molar (TNH2-1) from Tam Ngu Hao 2 (Cobra Cave), Laos, from a child aged 3.5 to 8.5, probably a girl, dated 164,000 to 131,000 years ago, is close in shape to the Xiahe molars; its proteins confirm only the genus Homo.",
+   "source": "Demeter et al. 2022, Nature Communications 13: 2557, doi:10.1038/s41467-022-29923-z"
+  },
+  {
+   "fact": "Penghu 1, a robust mandible with large molars, was dredged by fishing nets from 60 to 120 m deep in the Penghu Channel, Taiwan Strait, part of the Asian mainland at times of low Pleistocene sea level; in 2025, 4,241 amino acid residues from 51 proteins showed two Denisovan-specific variants and a male (amelogenin Y).",
+   "source": "Chang et al. 2015, Nature Communications, doi:10.1038/ncomms7037; Tsutaya et al. 2025, Science 388: 176-180, doi:10.1126/science.ads3888"
+  },
+  {
+   "fact": "A femur (Penghu 2) and a tibia (Penghu 3) dredged from the Penghu Channel and held in the National Museum of Natural Science, Taiwan, carry the Denisovan-specific collagen variant COL1A2 R996K; estimated statures about 180 cm (83 kg) and 190 cm (91 kg); radiocarbon dates on three Penghu fossils including Penghu 3 give 45,000 to 43,000 cal BP. Posted on bioRxiv in August 2026, not peer reviewed.",
+   "source": "Kaifu et al. 2026, bioRxiv, doi:10.64898/2026.08.07.743438; Smithsonian Magazine, August 2026"
+  },
+  {
+   "fact": "A 200,000-year-old Denisovan molar (Denisova 25) yielded a high-coverage genome showing at least two distinct Denisovan groups at Denisova Cave over time and at least three Denisovan sources of ancestry in present-day people.",
+   "source": "Peyregne et al. 2025, bioRxiv, doi:10.1101/2025.10.20.683404"
+  }
+ ],
+ "names": [
+  {
+   "name": "Denisova (Cave)",
+   "say": "dih-NEE-suh-vuh (as LEX 'denisovan', dih-NEE-suh-vun)"
+  },
+  {
+   "name": "Denisovan, Denisovans",
+   "say": "dih-NEE-suh-vun(z) (in LEX)"
+  },
+  {
+   "name": "Altai",
+   "say": "al-TIE"
+  },
+  {
+   "name": "Siberia",
+   "say": "sigh-BEER-ee-uh (in LEX)"
+  },
+  {
+   "name": "Kazakhstan",
+   "say": "kah-zahk-STAHN"
+  },
+  {
+   "name": "Denis",
+   "say": "DEN-iss"
+  },
+  {
+   "name": "Denny",
+   "say": "DEN-ee"
+  },
+  {
+   "name": "Neanderthal",
+   "say": "nee-AN-der-tahl"
+  },
+  {
+   "name": "Papua New Guinea",
+   "say": "PAP-oo-uh new GIN-ee"
+  },
+  {
+   "name": "Ayta Magbukon",
+   "say": "EYE-tah mahg-BOO-kon"
+  },
+  {
+   "name": "Harbin",
+   "say": "HAR-bin"
+  },
+  {
+   "name": "Laos",
+   "say": "LOWSS (in LEX)"
+  },
+  {
+   "name": "lama",
+   "say": "LAH-muh"
+  }
+ ],
+ "words": 1556
+}
