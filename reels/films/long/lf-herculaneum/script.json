@@ -1,0 +1,866 @@
+{
+ "id": "lf-herculaneum",
+ "kind": "case",
+ "series": "Unreadable",
+ "title": "The Herculaneum Scrolls: The Library Vesuvius Kept",
+ "intro_title": "The Herculaneum Scrolls: The Library Vesuvius Kept",
+ "yt_title": "How Do You Read a Book of Charcoal? The Herculaneum Scrolls",
+ "verdict": "Established",
+ "verdict_scope": "that ancient rolls too fragile to open can be read from the inside with X-ray scans, virtual unwrapping and machine learning (graded Established, the Short's verdict: independent teams found the same letters, papyrologists read them, and the 2026 scans show the ink directly); in the weighing, a whole scroll read end to end (PHerc. 1667, for its surviving core) is graded Strong evidence, the gap being outside review of the June 2026 preprint; more rolls still buried in the unexcavated villa is graded Plausible (much of the villa and its lower floors are unexcavated, rolls were found in several places and in carrying-boxes); a great lost Latin library waiting there is graded Awaiting evidence",
+ "hook": "How do you read a book of charcoal?",
+ "end_line": "One scroll read end to end. Hundreds still wait in the dark.",
+ "structure_note": "chapters[0] is the cold open and the title beat (no chapter card; YouTube chapter 0:00). Chapters 1 to 5 are the story chapters; 'The weighing' carries the verdict, the test and the close. Shot ids s1..sN are in story order; 'alias of sN' means a return to that panel. Greek on screen (the first word and the titles) is drawn as the papyri have it; no reading is invented.",
+ "chapters": [
+  {
+   "title": "Cold open",
+   "card": false,
+   "beats": [
+    {
+     "role": "hook",
+     "lines": [
+      "[d:intrigue][sfx:boom][act:hushed, close to it]This lump of charcoal is a ^book. [act:wonder, slower][tune:fall]Rolled up inside it are words that nobody has read@past for nearly two thousand ^years. [p:0.93][act:a small wince][tune:fall]Try to unroll it, and it crumbles to ^dust.",
+      "[d:tension][act:the child's question, leaning in][tune:rise]So how do you read@present a book you can't ^open? [act:the stakes, building]Vesuvius buried a whole library of them, the only library of the Greek and Roman world to ^survive. [p:0.93][act:the reveal, lower][tune:fall]And in {2026|twenty twenty-six}, for the first time, what is left of one was read@past from beginning to ^end, [act:quiet wonder][tune:fall]without anyone opening ^it."
+     ],
+     "shots": [
+      {
+       "id": "s1",
+       "say": "This lump of charcoal is a book. Rolled up inside it are words that nobody has read for nearly two thousand years. Try to unroll it, and it crumbles to dust.",
+       "draw": "HERO IMAGE, fully drawn from the first frame: a carbonised Herculaneum roll lies on a dark cloth under a warm museum lamp (centre right, about x 700..1500, y 330..600): a black, slightly flattened, wrinkled cylinder about 20 cm long (a museum ruler in centimetres runs below it for scale), its surface blistered and cracked, a lit rim along its top, its left end cut clean so the tight spiral of layers shows (dark rings with thin lighter lines). On 'is a book', a gold label 'a book' with a leader to it; on 'two thousand years', a small chip 'about 2,000 years'. On 'crumbles to dust', a few flakes break off its right end and drop to the cloth (chips popping lower and lower) with a fine dust; label 'touch it, and it crumbles'. The top left stays dark for the hook title."
+      },
+      {
+       "id": "s2",
+       "say": "So how do you read a book you can't open?",
+       "draw": "Same panel (alias of s1), the camera closer on the roll (z 1.35): a pale blue X-ray light washes over it in thin vertical scan lines, left to right; inside the roll's outline the spiral of layers glows faintly blue, and along one layer a few gold Greek letters glimmer; a lilac '?' rises above.",
+       "reuse": "alias of s1"
+      },
+      {
+       "id": "s3",
+       "say": "Vesuvius buried a whole library of them, the only library of the Greek and Roman world to survive.",
+       "draw": "Dusk over the Bay of Naples: Vesuvius at the right, its cone smoking (a dark plume rising and spreading), the sea at the left; on the shore a long low villa with a colonnade (warm lamp windows); a cutaway window into one small room shows wooden cases full of rolls (cream disc ends). Labels pop as said: 'Vesuvius, 79 CE' and 'a library' (gold), then a small chip 'the only one left'."
+      },
+      {
+       "id": "s4",
+       "say": "And in twenty twenty-six, for the first time, what is left of one was read from beginning to end, without anyone opening it.",
+       "draw": "Night, dark panel: at the left a small black core of a roll; a gold dotted arrow unrolls from it into a long flat strip of papyrus that draws itself left to right across the panel, with 22 columns of Greek writing (only their lower halves) typing in one after another; a gold chip '2026' pops above, and an italic label 'read end to end' then 'never opened'."
+      }
+     ]
+    },
+    {
+     "role": "title",
+     "lines": [
+      "[d:calm][act:warm, setting out]The Herculaneum ^scrolls: [act:the promise, a small smile][tune:fall]the library Vesuvius ^kept."
+     ],
+     "shots": [
+      {
+       "id": "s5",
+       "say": "The Herculaneum scrolls: the library Vesuvius kept.",
+       "draw": "intro_title card 'The Herculaneum Scrolls: The Library Vesuvius Kept' over the dimmed s4 panel. Nothing else drawn."
+      }
+     ]
+    }
+   ],
+   "words": 89
+  },
+  {
+   "title": "Books of charcoal",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:storytelling, unhurried]Southern Italy, {1750|seventeen fifty}. [act:placing it, clear]On the Bay of Naples, men digging a well hit a floor of coloured ^marble, deep under the ^ground.",
+      "[act:the reveal][tune:fall]It belonged to a Roman ^villa, buried by Vesuvius in {79|seventy-nine} CE under some twenty metres of volcanic ^rock, beside the town of ^Herculaneum, Pompeii's neighbour on the ^coast. [p:0.93][act:the heat, vivid]The current of gas and ash that buried it was around three hundred and fifty ^degrees, [act:the punchline][tune:fall]hotter than any kitchen ^oven."
+     ],
+     "shots": [
+      {
+       "id": "s6",
+       "say": "Southern Italy, seventeen fifty. On the Bay of Naples, men digging a well hit a floor of coloured marble, deep under the ground.",
+       "draw": "Map of the Bay of Naples (View about 14.0 to 14.7 E, 40.6 to 40.95 N): land and sea, a 5 km scale bar, 'Bay of Naples' in italic on the water. Pins as named: 'Naples' (top left), the red cone of 'Vesuvius', 'Herculaneum' on the shore (gold), 'Pompeii' to the south east. On 'men digging a well', a small well with a windlass pops at the villa site just west of Herculaneum, with a gold chip '1750' and the label 'a well'; on 'coloured marble', a small square of red, green and cream inlay glows under it."
+      },
+      {
+       "id": "s7",
+       "say": "It belonged to a Roman villa, buried by Vesuvius in seventy-nine CE under some twenty metres of volcanic rock, beside the town of Herculaneum, Pompeii's neighbour on the coast.",
+       "draw": "A cross-section of the ground at the villa (1 m = 15 units): at the top, today's town (small houses and trees, a person for scale); below it about 20 m of volcanic deposits in grey and brown bands; at the bottom, a floor of coloured marble (red, green, cream inlay) and the outline of the villa's rooms in warm stone (walls, a colonnade, a doorway), the label 'a Roman villa, 79 CE'. A well shaft runs from a digger at the top, with a rope and bucket, down to the floor, whose spot glows; a dimension line 'about 20 m' draws itself beside the deposits."
+      },
+      {
+       "id": "s8",
+       "say": "The current of gas and ash that buried it was around three hundred and fifty degrees, hotter than any kitchen oven.",
+       "draw": "Same section (alias of s7): the deposit bands glow hot (an orange-red heat glow along the layers, 'gas and ash'); on 'three hundred and fifty degrees' a gold chip 'about 350 °C' pops with a small kitchen oven icon beside it, its dial at the maximum: 'hotter than an oven'.",
+       "reuse": "alias of s7"
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:the scale, admiring][tune:fall]The villa ran for more than two hundred and fifty metres along the ^shore. [act:the method, a wince]The king's men dug it the hard way: through ^tunnels, by smoky torchlight, in rock-hard volcanic ^stone and poisonous ^air. [act:the treasure, delighted][tune:fall]Out came about ninety ^statues, in bronze and ^marble."
+     ],
+     "shots": [
+      {
+       "id": "s9",
+       "say": "The villa ran for more than two hundred and fifty metres along the shore.",
+       "draw": "A schematic plan of the villa seen from above, after the 18th-century plan (labels 'about' throughout): the coastline with the sea below; along it the long garden court with its long pool (a blue rectangle), a square court, the atrium block, a line of rooms, and a round belvedere at the far end; a person dot for scale; a dimension line along the whole length 'more than 250 m' and a 50 m scale bar."
+      },
+      {
+       "id": "s10",
+       "say": "The king's men dug it the hard way: through tunnels, by smoky torchlight, in rock-hard volcanic stone and poisonous air. Out came about ninety statues, in bronze and marble.",
+       "draw": "A cutaway of hard grey volcanic rock, dark: a branching network of narrow tunnels draws itself (thin dark passages), small crouching workers with torches (warm glows) along them; a greenish haze in one dead end ('bad air'). On 'statues', a row and a block of small statue silhouettes (bronze dark gold and marble cream, about 90 in all, 9 rows of 10) pop in on the right: 'nearly 90 statues'."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:aside][act:the puzzle, intrigued]And, from {1752|seventeen fifty-two}, hundreds of black ^lumps. [act:the mistake, amused][tune:fall]At first they were taken for burnt logs, or charred fishing ^nets. [act:the twist, quieter][tune:fall]Then one broke open, and there was ^writing inside.",
+      "[p:0.93][act:quoting, careful]That November, the keeper of the royal museum wrote to London: rolls of papyrus, turned to a sort of ^charcoal, [act:the wince][tune:fall]so brittle that a touch made them ^ash."
+     ],
+     "shots": [
+      {
+       "id": "s11",
+       "say": "And, from seventeen fifty-two, hundreds of black lumps. At first they were taken for burnt logs, or charred fishing nets. Then one broke open, and there was writing inside.",
+       "draw": "Torchlight on a tunnel floor: a heap of black lumps, rough cylinders of different sizes; a gold chip '1752'. As the guesses are said, dotted lilac outlines float above them: a log ('logs?') and a knotted net ('fishing nets?'). Then one lump splits in two (two halves drawn apart, a spiral of layers inside) and a few small gold letters glint along its layers: label 'writing'."
+      },
+      {
+       "id": "s12",
+       "say": "That November, the keeper of the royal museum wrote to London: rolls of papyrus, turned to a sort of charcoal, so brittle that a touch made them ash.",
+       "draw": "A letter on cream paper, upright, slightly tilted, lines of brown handwriting; its heading 'Naples, 18 November 1752'; a gold italic quote pops in under it: 'a sort of charcoal'. Beside it a black roll crumbles: flakes and dust drop from one end (chips popping lower and lower). A dotted arrow from the letter to the right edge: 'to London'."
+      }
+     ]
+    },
+    {
+     "role": "cost",
+     "lines": [
+      "[d:calm][act:the count, fair][tune:rise]How many ^books? [p:0.93][act:explaining]The inventory lists about eighteen hundred ^items, [act:the catch][tune:fall]but many are scraps of the same ^roll. [p:0.9][act:the honest range][tune:fall]Estimates@noun of separate@adj books run from about seven hundred to eleven ^hundred."
+     ],
+     "shots": [
+      {
+       "id": "s13",
+       "say": "How many books? The inventory lists about eighteen hundred items, but many are scraps of the same roll. Estimates of separate books run from about seven hundred to eleven hundred.",
+       "draw": "A grid of 180 small tiles (18 by 10), each standing for 10 inventory items, pops in row by row: 'about 1,800 items'. On 'scraps of the same roll', thin gold links join tiles into small clusters (several pieces of one roll). Then two dashed bars rise at the right, one to 700 and one to 1,100 on the same scale as the tiles (the range of estimates), joined by a bracket 'separate books: about 700 to 1,100'."
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:aside][act:the owner, intrigued][tune:rise]And whose library was ^it? [act:the leading guess]The favourite candidate is Lucius Calpurnius ^Piso, Julius Caesar's ^father-in-law, [act:the clue][tune:fall]because the man who wrote most of the books we can name was his ^friend. [act:fair, a raised finger][tune:fall]A good guess, not yet a ^fact."
+     ],
+     "shots": [
+      {
+       "id": "s14",
+       "say": "And whose library was it? The favourite candidate is Lucius Calpurnius Piso, Julius Caesar's father-in-law, because the man who wrote most of the books we can name was his friend. A good guess, not yet a fact.",
+       "draw": "A marble bust of a Roman senator drawn in dotted lilac (the claimed style) with a '?' and the label 'Piso?'; under it a small tag 'Caesar's father-in-law'. On 'the man who wrote most of the books', a stack of rolls with gold tags at the right ('Philodemus') and a gold line linking the stack to the bust ('his friend'). On 'not yet a fact', a lilac chip 'a good guess'."
+      }
+     ]
+    }
+   ],
+   "words": 240
+  },
+  {
+   "title": "Opening the unopenable",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:build][act:the problem, rueful][tune:rise]So how do you open a book made of ^charcoal? [p:0.93][act:explaining]Each roll is one long sheet, wound@coiled tight: [act:the size, a little amazed][tune:fall]unrolled, a book could run for several metres, sometimes more than ^ten.",
+      "[act:plain, wincing][tune:fall]The first tries were ^brutal. [p:0.93][act:explaining, vivid]Some rolls were sliced in half, like a ^log. [act:the method, grim][tune:fall]Each exposed layer was copied by hand, then scraped away to reach the next ^one. [act:the cost, quiet][tune:fall]To read@present a page, you destroyed ^it."
+     ],
+     "shots": [
+      {
+       "id": "s15",
+       "say": "So how do you open a book made of charcoal? Each roll is one long sheet, wound tight: unrolled, a book could run for several metres, sometimes more than ten.",
+       "draw": "A roll drawn from the side with a gold dotted arrow unrolling it into a long flat strip with columns of writing that runs across the panel; a dimension line under the strip: 'several metres, sometimes over 10'. A person stands beside the strip for scale."
+      },
+      {
+       "id": "s16",
+       "say": "The first tries were brutal. Some rolls were sliced in half, like a log. Each exposed layer was copied by hand, then scraped away to reach the next one. To read a page, you destroyed it.",
+       "draw": "A black roll sliced lengthwise into two half-cylinders, lying open (red cut line drawn first, 'sliced in half'); the exposed inner layer shows faint letters; beside it a copyist's sheet where the same letters write themselves; then the top layer of the half-roll is scraped away (a dusty patch, a scraper) to show the next; red label 'read it, destroy it'."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:calm][act:introducing him, warm]Then, in {1753|seventeen fifty-three}, a priest from the Vatican Library arrived: Antonio ^Piaggio. [p:0.93][act:explaining, step by step]His machine pulled gently on threads gummed to the back of the roll, while he eased each layer free with a fine ^blade, [act:the detail][tune:fall]and backed it with a skin as thin as an ^onion's.",
+      "[act:the pace, dry][tune:fall]It worked, ^slowly. [p:0.93][act:quoting the report, amused][tune:fall]By February {1755|seventeen fifty-five}, a letter from Naples said a whole year had gone into half of one ^roll."
+     ],
+     "shots": [
+      {
+       "id": "s17",
+       "say": "Then, in seventeen fifty-three, a priest from the Vatican Library arrived: Antonio Piaggio. His machine pulled gently on threads gummed to the back of the roll, while he eased each layer free with a fine blade, and backed it with a skin as thin as an onion's.",
+       "draw": "Piaggio's machine, schematic: a wooden frame on a table (two uprights, a cross bar with small turning pegs at the top); the black roll rests in a cradle at the bottom; many fine silk threads run from the pegs down to the strip of papyrus that rises from the roll, its back lined; a seated priest in a dark cassock at the side holds a fine blade at the roll. Labels as named: '1753', 'threads', 'a fine blade'."
+      },
+      {
+       "id": "s18",
+       "say": "It worked, slowly. By February seventeen fifty-five, a letter from Naples said a whole year had gone into half of one roll.",
+       "draw": "A calendar of 12 months as small squares filling one by one (about 0.3 s each), 'one year'; beside it a roll of which only half has come off as a strip (the other half still rolled, dashed outline): 'half a roll'. A gold chip 'Feb 1755'."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:the hope, building]Scholars hoped for lost ^poems, lost ^plays. [act:the reveal, a smile][tune:fall]The first roll out of the machine was a philosopher arguing that music cannot change your ^character.",
+      "[act:explaining, warm]His name was ^Philodemus, a Greek from Gadara, in today's ^Jordan, [act:the detail][tune:fall]known until then for a handful of short ^poems. [act:the school]He followed ^Epicurus, who taught that the good life is calm pleasure among ^friends. [p:0.93][act:the pattern, plain][tune:fall]Of the works identified since, more than half are ^his."
+     ],
+     "shots": [
+      {
+       "id": "s19",
+       "say": "Scholars hoped for lost poems, lost plays. The first roll out of the machine was a philosopher arguing that music cannot change your character.",
+       "draw": "Hopes in dotted lilac pop at the left: a theatre mask ('lost plays?') and a lyre with a laurel ('lost poems?'); then a cream sheet of papyrus unrolls at the right with a title tag 'On Music' and a small lyre icon; a red strike crosses a line from the lyre to a small figure ('changes your character?'), the label 'music cannot change your character'."
+      },
+      {
+       "id": "s20",
+       "say": "His name was Philodemus, a Greek from Gadara, in today's Jordan, known until then for a handful of short poems. He followed Epicurus, who taught that the good life is calm pleasure among friends. Of the works identified since, more than half are his.",
+       "draw": "Map of the Mediterranean (View about 8 to 38 E, 30 to 44 N): a gold pin 'Gadara' (in today's Jordan), a gold pin 'Naples'; a dotted gold route from Gadara to Italy. Then, on the right, a bar of 75 small squares (the works identified): 44 turn gold, the rest stay grey: '44 of 75 identified'."
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:calm][act:listing, light][tune:level]There is Epicurus ^himself, a few rival ^Stoics, and some scraps of ^Latin, [act:the example][tune:fall]including a poem on the battle of ^Actium.",
+      "[p:0.93][act:the method, brightening]Infrared cameras now make the opened scraps far easier to ^read@present. [act:the turn, quiet][tune:fall]But hundreds of rolls were never opened at ^all. [act:the count, honest][tune:fall]Estimates@noun of how many are still closed run from about two hundred and seventy to more than six ^hundred."
+     ],
+     "shots": [
+      {
+       "id": "s21",
+       "say": "There is Epicurus himself, a few rival Stoics, and some scraps of Latin, including a poem on the battle of Actium.",
+       "draw": "A wooden bookcase seen from the front, its pigeonholes holding roll ends coloured by author as they are named: most gold (Philodemus), some amber ('Epicurus'), a few blue ('Stoics'), a few green ('Latin'); one green roll slides out with a small war-galley icon: 'a poem on Actium'."
+      },
+      {
+       "id": "s22",
+       "say": "Infrared cameras now make the opened scraps far easier to read. But hundreds of rolls were never opened at all. Estimates of how many are still closed run from about two hundred and seventy to more than six hundred.",
+       "draw": "Left: an opened fragment of black papyrus under a small infrared camera; a red-violet light falls on it and its letters come up dark on a lighter ground ('infrared'). Right: a shelf of closed black rolls; two dashed bars rise beside them to their heights on one scale, 'about 270' and 'more than 600', with a bracket 'still closed'."
+      }
+     ]
+    }
+   ],
+   "words": 263
+  },
+  {
+   "title": "Unwrapping without touching",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:the new idea, warm][tune:rise]What if you never opened them at ^all? [act:introducing him]That was the bet of Brent ^Seales, a computer scientist at the University of ^Kentucky.",
+      "[p:0.93][act:explaining, clear]X-rays can see inside a scroll the way a hospital scanner sees inside a ^body, slice by ^slice. [p:0.93][act:explaining, the method]Follow one sheet of papyrus through thousands of slices, like tracing one strand through a ball of ^wool, [act:the payoff][tune:fall]then flatten it on the screen, like unrolling a ^carpet."
+     ],
+     "shots": [
+      {
+       "id": "s23",
+       "say": "What if you never opened them at all? That was the bet of Brent Seales, a computer scientist at the University of Kentucky. X-rays can see inside a scroll the way a hospital scanner sees inside a body, slice by slice.",
+       "draw": "A CT scanner in side view: a large ring standing on a base, a small black roll on a stand inside the ring; a figure at a desk with a screen beside it ('Brent Seales', 'University of Kentucky'). On 'slice by slice', thin blue slice planes stack through the roll one after another, and a screen at the right shows one slice: a dark square with a pale spiral."
+      },
+      {
+       "id": "s24",
+       "say": "Follow one sheet of papyrus through thousands of slices, like tracing one strand through a ball of wool, then flatten it on the screen, like unrolling a carpet.",
+       "draw": "Three steps left to right, joined by arrows: a slice with its spiral, one turn traced in gold ('follow one sheet'); a ball of wool with one strand drawn in gold ('like a strand of wool'); a rolled carpet unrolling into a flat gold sheet ('flatten it'). Each appears as named."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:the first test, plain]In {2009|two thousand nine}, his team scanned two rolled scrolls in ^Paris. [act:the result, rueful][tune:fall]They could see every layer, and not a single ^letter.",
+      "[d:reveal][act:the success, brightening]Then, in {2015|twenty fifteen}, it worked on another charred ^scroll. [p:0.93][act:the story, vivid]Found in {1970|nineteen seventy} in a burned synagogue at En-Gedi, by the Dead ^Sea, it had been through a fire around {600|six hundred} CE. [act:the reveal, warm][tune:fall]On the screen, its text came back: the opening of the book of ^Leviticus."
+     ],
+     "shots": [
+      {
+       "id": "s25",
+       "say": "In two thousand nine, his team scanned two rolled scrolls in Paris. They could see every layer, and not a single letter.",
+       "draw": "Two black rolls on stands labelled 'Paris, 2009'; arrows to a flattened sheet on a screen: every layer outline shows as faint fibres, but the sheet is blank; a lilac '?' and the label 'no letters'."
+      },
+      {
+       "id": "s26",
+       "say": "Then, in twenty fifteen, it worked on another charred scroll. Found in nineteen seventy in a burned synagogue at En-Gedi, by the Dead Sea, it had been through a fire around six hundred CE. On the screen, its text came back: the opening of the book of Leviticus.",
+       "draw": "Left: a small map of the Dead Sea region (View about 34.9 to 35.8 E, 31.2 to 32.0 N) with a gold pin 'En-Gedi' on the western shore of the Dead Sea; chips '1970' and 'burned c. 600 CE'. Right: a small charred lump of a scroll, then, on 'its text came back', a flattened sheet appears beside it with columns of schematic dark writing (strokes, not real letters) and the label 'Leviticus 1 to 2'."
+      }
+     ]
+    },
+    {
+     "role": "cost",
+     "lines": [
+      "[d:build][act:the catch, dry][tune:fall]That ink held traces of ^metal, which X-rays pick out ^easily. [p:0.93][act:the problem, explaining]At Herculaneum, the ink is mostly soot, almost pure ^carbon, on papyrus that has turned to carbon ^too. [act:the picture, wry][tune:fall]Black ink, on a black ^page, in the ^dark."
+     ],
+     "shots": [
+      {
+       "id": "s27",
+       "say": "That ink held traces of metal, which X-rays pick out easily. At Herculaneum, the ink is mostly soot, almost pure carbon, on papyrus that has turned to carbon too. Black ink, on a black page, in the dark.",
+       "draw": "Two magnified cross-sections of a sheet, side by side, as X-ray views: left 'En-Gedi', the ink strokes on the layer shine bright white ('metal in the ink'); right 'Herculaneum', the same strokes on a charred layer are the same grey as the sheet, barely there ('carbon on carbon'). Then a black page with black writing on it fills the right box and the light dims: 'black on black'."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:build][act:the first answer, brisk]So two ideas came ^next. [p:0.93][act:explaining, impressed]First, brighter X-rays, from synchrotrons: rings of magnets hundreds of metres around, where particles race at nearly the speed of ^light. [act:the result][tune:fall]In {2015|twenty fifteen}, a team in Grenoble spotted Greek letters inside a closed ^roll.",
+      "[p:0.93][act:the second answer, intrigued]Second, teach a computer to see what we ^can't. [act:the analogy, warm]Like a sniffer dog trained on samples where the answer is ^known, [act:the method][tune:fall]it learns from broken fragments whose ink shows up in infrared ^photos, [act:the payoff][tune:fall]then hunts for the same faint trace inside the closed ^ones."
+     ],
+     "shots": [
+      {
+       "id": "s28",
+       "say": "So two ideas came next. First, brighter X-rays, from synchrotrons: rings of magnets hundreds of metres around, where particles race at nearly the speed of light. In twenty fifteen, a team in Grenoble spotted Greek letters inside a closed roll.",
+       "draw": "A synchrotron seen from above at an angle: a great ring (an ellipse) with a bright particle tracing round it, a beamline running out of it to a small hutch where a black roll stands in the beam; labels 'a synchrotron' and 'hundreds of metres around'. On 'Grenoble', a gold pin label 'Grenoble, 2015' and a few Greek letters glint inside the roll."
+      },
+      {
+       "id": "s29",
+       "say": "Second, teach a computer to see what we can't. Like a sniffer dog trained on samples where the answer is known, it learns from broken fragments whose ink shows up in infrared photos, then hunts for the same faint trace inside the closed ones.",
+       "draw": "Left: three broken fragments of papyrus with their ink visible (cream letters in an infrared photo) feeding arrows into a small network of nodes (a machine learning model); right: a closed roll's flattened surface where faint gold strokes appear. A small sniffer dog silhouette sniffs along the surface at the bottom: 'like a sniffer dog'."
+      }
+     ]
+    }
+   ],
+   "words": 261
+  },
+  {
+   "title": "A word in the dark",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:build][act:brisk storytelling]March {2023|twenty twenty-three}. [act:the move, lively]Two tech investors, Nat ^Friedman and Daniel ^Gross, joined Seales to launch the Vesuvius ^Challenge: [act:the offer][tune:fall]the scans went online for anyone, with prizes for whoever could read@present ^them."
+     ],
+     "shots": [
+      {
+       "id": "s30",
+       "say": "March twenty twenty-three. Two tech investors, Nat Friedman and Daniel Gross, joined Seales to launch the Vesuvius Challenge: the scans went online for anyone, with prizes for whoever could read them.",
+       "draw": "A world map (land in dark brown, sea dark): at its centre a glowing data cube 'the scans' and a gold coin 'prizes'; on 'online for anyone', thin blue lines run out from the cube to dozens of small dots across every continent, each dot lighting up; a gold chip 'March 2023'."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:wonder][act:the first glimpse, hushed]That summer, a contestant called Casey ^Handmer spotted something in the scans: [act:the picture][tune:fall]a faint texture, like cracked ^mud. [act:the reveal, quiet][tune:fall]It was ^ink.",
+      "[p:0.93][act:the student, building]A twenty-one-year-old student, Luke ^Farritor, trained a model on that ^crackle, night after ^night.",
+      "[d:reveal][sfx:shimmer][act:childlike wonder, slowing][tune:fall]Letters rose out of the dark, and spelled the first word ever read@past inside a closed ^scroll: [act:savouring it][tune:fall]^porphyras. [act:the meaning, warm][tune:fall]^Purple.",
+      "[act:the check, firm][tune:fall]Another contestant, Youssef ^Nader, found the same word, in the same place, with a different ^method."
+     ],
+     "shots": [
+      {
+       "id": "s31",
+       "say": "That summer, a contestant called Casey Handmer spotted something in the scans: a faint texture, like cracked mud. It was ink.",
+       "draw": "Close on the dark surface of a flattened layer (cam z 1.3): fibres run across it; a network of fine cracks draws itself in one patch, in the shape of a Greek letter, like cracked mud; label 'crackle'; then the patch warms to gold: 'ink'."
+      },
+      {
+       "id": "s32",
+       "say": "A twenty-one-year-old student, Luke Farritor, trained a model on that crackle, night after night.",
+       "draw": "Same surface wider (alias of s31, z 1): a small figure at a laptop at the left ('Luke Farritor, 21'); more crackle patches light up along a line, one after another, as his model learns ('night after night').",
+       "reuse": "alias of s31"
+      },
+      {
+       "id": "s33",
+       "say": "Letters rose out of the dark, and spelled the first word ever read inside a closed scroll: porphyras. Purple.",
+       "draw": "A dark strip of papyrus: eight Greek capitals rise out of the dark one by one, glowing cream, Π Ο Ρ Φ Υ Ρ Α Σ; below them in italic 'porphyras'; then a deep purple dot and the word 'purple' in gold."
+      },
+      {
+       "id": "s34",
+       "say": "Another contestant, Youssef Nader, found the same word, in the same place, with a different method.",
+       "draw": "Two small screens side by side, labelled 'Farritor' and 'Nader': both show the same word in the same place, one a little clearer; a green tick between them and the label 'same word, same place'."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:growing excitement, controlled]In February {2024|twenty twenty-four}, Nader, Farritor and Julian ^Schilliger won the grand prize, seven hundred thousand ^dollars, [act:the haul][tune:fall]for more than two thousand ^letters: about five percent of the ^scroll.",
+      "[act:the content, delighted]It is about ^pleasure, and probably by our friend ^Philodemus. [act:the example, a smile][tune:rise]One passage asks whether rare things are really more pleasant than plentiful ^ones, [act:the punchline, dry][tune:fall]with food as the ^example. [act:the landing][tune:fall]Not ^necessarily, it says."
+     ],
+     "shots": [
+      {
+       "id": "s35",
+       "say": "In February twenty twenty-four, Nader, Farritor and Julian Schilliger won the grand prize, seven hundred thousand dollars, for more than two thousand letters: about five percent of the scroll.",
+       "draw": "A long dark strip with about 15 columns of cream Greek-like writing typing in left to right; a gold coin '$700,000' pops at the top; under the strip, a bar for the whole scroll with its first 5 percent filled gold: 'about 5% of the scroll'; label 'more than 2,000 letters'."
+      },
+      {
+       "id": "s36",
+       "say": "It is about pleasure, and probably by our friend Philodemus. One passage asks whether rare things are really more pleasant than plentiful ones, with food as the example. Not necessarily, it says.",
+       "draw": "A balance on a stand: on the left pan a single rare fruit (a small golden fig) glowing ('rare'), on the right pan a heap of ordinary loaves and olives ('plentiful'); the beam settles level; a lilac question 'more pleasant?' above, then the answer 'not necessarily'. A small tag 'probably Philodemus'."
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:build][act:the next step, brisk]In {2025|twenty twenty-five}, two teams, working separately, found a ^title inside a sealed scroll kept in ^Oxford. [p:0.93][act:reading it out, warm][tune:fall]Philodemus, On Vices, Book ^One.",
+      "[d:aside][act:the aside, delighted]Other rolls in the library dedicate his books on vices to his students, by ^name. [act:the punchline, warm][tune:fall]One of them is a young poet called ^Virgil."
+     ],
+     "shots": [
+      {
+       "id": "s37",
+       "say": "In twenty twenty-five, two teams, working separately, found a title inside a sealed scroll kept in Oxford. Philodemus, On Vices, Book One.",
+       "draw": "A domed library building in Oxford, small, at the left ('Oxford'); a sealed black roll on a stand; two thin arrows from two small teams converge on one spot of its flattened layer; a line of Greek capitals types itself (ΦΙΛΟΔΗΜΟΥ ΠΕΡΙ ΚΑΚΙΩΝ Α), and under it in gold 'Philodemus, On Vices, Book 1'."
+      },
+      {
+       "id": "s38",
+       "say": "Other rolls in the library dedicate his books on vices to his students, by name. One of them is a young poet called Virgil.",
+       "draw": "A teacher seated with four young students standing around him (small figures); three rolls float above with tags 'slander', 'envy', 'greed'; one student lights gold and wears a small laurel wreath: 'Virgil'."
+      }
+     ]
+    }
+   ],
+   "words": 208
+  },
+  {
+   "title": "The first whole scroll",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:build][act:storytelling, building]June {2026|twenty twenty-six}. [act:the choice, intrigued]The first complete reading came from a scroll that experts had given up ^on. [p:0.93][act:its history, a wince]Attempts to open it, in the eighteen hundreds, in {1969|nineteen sixty-nine} and in the {1980s|nineteen eighties}, had stripped away its outer ^layers. [act:the verdict then][tune:fall]It was written off as ^unreadable."
+     ],
+     "shots": [
+      {
+       "id": "s39",
+       "say": "June twenty twenty-six. The first complete reading came from a scroll that experts had given up on. Attempts to open it, in the eighteen hundreds, in nineteen sixty-nine and in the nineteen eighties, had stripped away its outer layers. It was written off as unreadable.",
+       "draw": "The roll PHerc. 1667 to scale (1 cm = 30 units): a dashed outline of the roll as it was (about 20 cm tall, 4.9 cm across) and inside it the solid black core that survives (8 cm tall, 2 cm across); dates pop beside flakes falling from the outer layers: '1800s', '1969', '1980s'; then a lilac stamp 'unreadable'."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[p:0.93][act:explaining, careful]What is left is its core: about eight centimetres of a roll once around twenty centimetres ^tall, [act:the size][tune:fall]and about as thick as a ^thumb. [act:the scan][tune:fall]They scanned it in Grenoble, in detail a few thousandths of a millimetre ^fine.",
+      "[d:reveal][act:the result, awe, letting it land]Then they read@past it, from the first surviving turn to the ^last: [p:0.93][act:the numbers][tune:fall]thirty-one turns, twenty-two columns of Greek, nearly one and a half metres of ^papyrus. [act:the caveat, honest][tune:fall]Only the lower part of each column survives, so the text has ^gaps."
+     ],
+     "shots": [
+      {
+       "id": "s40",
+       "say": "What is left is its core: about eight centimetres of a roll once around twenty centimetres tall, and about as thick as a thumb. They scanned it in Grenoble, in detail a few thousandths of a millimetre fine.",
+       "draw": "Same panel (alias of s39), closer on the core (z 1.3): dimension lines '8 cm' and '2 cm'; a thumb outline beside it for scale ('as thick as a thumb'); then a blue beam from the right edge ('Grenoble') washes the core in thin scan lines; label 'a few thousandths of a mm'.",
+       "reuse": "alias of s39"
+      },
+      {
+       "id": "s41",
+       "say": "Then they read it, from the first surviving turn to the last: thirty-one turns, twenty-two columns of Greek, nearly one and a half metres of papyrus. Only the lower part of each column survives, so the text has gaps.",
+       "draw": "The core at the left unwinds: a spiral of 31 turns (drawn) opens into a long strip that draws itself across the panel; 22 columns appear on it one after another, each only its lower part in solid cream writing, the lost upper parts as dashed empty boxes; a dimension line 'nearly 1.5 m' under the strip and a person beside it for scale; chips '31 turns' and '22 columns'; then 'gaps' marks pop on the dashed parts."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:the twist, delighted][tune:fall]And this one seems to come from the rival ^camp. [p:0.93][act:explaining]It reads as Stoic ^ethics, on human nature, impulse, and moral progress@noun, [act:the clue][tune:fall]and it names Aristocreon, the nephew of the great Stoic ^Chrysippus.",
+      "[act:the age, wonder][tune:fall]Its handwriting points to the second century BCE: [act:the punchline, soft][tune:fall]it was already an antique when Vesuvius buried ^it. [act:the open bit, fair][tune:fall]Its author and its title are ^lost."
+     ],
+     "shots": [
+      {
+       "id": "s42",
+       "say": "And this one seems to come from the rival camp. It reads as Stoic ethics, on human nature, impulse, and moral progress, and it names Aristocreon, the nephew of the great Stoic Chrysippus.",
+       "draw": "A Greek colonnade, the Stoa (a row of columns under a roof, a few small figures talking): label 'Stoic ethics'; three small tags pop as said: 'human nature', 'impulse', 'moral progress'. A small family tree draws itself at the right: 'Chrysippus' above, a line down to 'Aristocreon, his nephew', which lights gold with the tag 'named in the text'."
+      },
+      {
+       "id": "s43",
+       "say": "Its handwriting points to the second century BCE: it was already an antique when Vesuvius buried it. Its author and its title are lost.",
+       "draw": "A timeline from 300 BCE to 2026 CE: a gold band over the 2nd century BCE ('copied'), a red tick at 79 CE ('buried'), a blue tick at 2026 ('read'); a bracket from the band to 79 CE: 'already about 200 years old'; at the end a dotted lilac roll top with '?' marks: 'author? title?'."
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:build][act:the bonus, brisk]The same team read@past a title in another sealed ^roll: [act:reading it, warm][tune:fall]Philodemus, On Gods, Book ^Eight, the first sign that the work ran so ^long.",
+      "[d:tension][act:the doubt, fair][tune:rise]But could a computer see letters that aren't there, the way we see faces in ^clouds? [act:the answer, firm][tune:level]Separate@adj teams found the same ^words. [act:the second check][tune:level]Papyrologists read@past them ^independently. [p:0.93][act:the third check, landing][tune:fall]And in the newest scans of the prize scroll, the ink shows up ^directly, with no machine learning at all.",
+      "[act:the limit, honest][tune:fall]It doesn't work everywhere ^yet. [act:explaining][tune:fall]Some scrolls are crushed so tight that their layers ^blur, and the team says plainly that success is not ^guaranteed."
+     ],
+     "shots": [
+      {
+       "id": "s44",
+       "say": "The same team read a title in another sealed roll: Philodemus, On Gods, Book Eight, the first sign that the work ran so long.",
+       "draw": "A second sealed roll on a stand; a title line types itself on its flattened layer (Greek capitals), with 'Philodemus, On Gods, Book 8' in gold beneath; then a row of eight small rolls: the first labelled 'Book 1, known', the eighth lights gold 'Book 8'; a bracket 'at least 8 books'."
+      },
+      {
+       "id": "s45",
+       "say": "But could a computer see letters that aren't there, the way we see faces in clouds? Separate teams found the same words. Papyrologists read them independently. And in the newest scans of the prize scroll, the ink shows up directly, with no machine learning at all.",
+       "draw": "A night sky with a soft cloud in which a dotted lilac face appears and fades ('faces in clouds?'); below, three check boxes fill one by one as said, each with a small picture: two screens with the same word ('separate teams'), a papyrologist with a magnifying glass ('papyrologists'), a raw scan where the letter strokes show bright ('ink seen directly'); a green tick on each."
+      },
+      {
+       "id": "s46",
+       "say": "It doesn't work everywhere yet. Some scrolls are crushed so tight that their layers blur, and the team says plainly that success is not guaranteed.",
+       "draw": "A cross-section through a crushed roll: its layers pressed together, wavy and touching, a grey haze where they blur into one another; one clear part on the left for comparison; labels 'crushed layers' and, in a dashed tag, 'not guaranteed'."
+      }
+     ]
+    }
+   ],
+   "words": 274
+  },
+  {
+   "title": "The weighing",
+   "beats": [
+    {
+     "role": "weigh",
+     "lines": [
+      "[d:verdict][act:calm, laying it out]So, let's ^weigh it. [act:steady authority][tune:rise]Can we read@present ancient books that would crumble if anyone opened ^them? [act:the verdict, warm and sure][tune:fall]*^Established*. [act:the reasons, even][tune:fall]Independent teams found the same letters, specialists read@past them, and the newest scans show the ink ^itself.",
+      "[act:fair][tune:rise]A whole scroll, read@past end to ^end? [act:the grade][tune:fall]*Strong ^evidence*, for what survives of ^it. [act:the gap, even][tune:fall]The team's own papyrologists checked every column; the one gap is a check by outside ^scholars.",
+      "[d:tension][act:the big hope, careful][tune:rise]More books, still buried in the ^villa? [act:the grade, even][tune:fall]*^Plausible*. [act:the reasons][tune:fall]Much of the villa is still underground, its lower floors still full of volcanic ^rock, [act:the clue, quiet][tune:fall]and some rolls were found packed in ^boxes, as if someone had been carrying them ^out.",
+      "[act:the last grade, fair][tune:rise]A great lost library of Latin classics down ^there? [act:even][tune:fall]*Awaiting ^evidence*: scholars have argued for it, but no dig has reached it ^yet."
+     ],
+     "shots": [
+      {
+       "id": "s47",
+       "say": "So, let's weigh it. Can we read ancient books that would crumble if anyone opened them? Established. Independent teams found the same letters, specialists read them, and the newest scans show the ink itself.",
+       "draw": "A ledger in a dark frame fills row by row, each row a small picture, a few words and a grade chip that pops as the grade is said: row 1, a black roll with gold letters, 'reading sealed scrolls', chip 'Established'; three small ticks beside it as the reasons are said ('same letters', 'read by specialists', 'ink seen')."
+      },
+      {
+       "id": "s48",
+       "say": "A whole scroll, read end to end? Strong evidence, for what survives of it. The team's own papyrologists checked every column; the one gap is a check by outside scholars.",
+       "draw": "Same ledger (alias of s47): row 2, the long strip with dashed tops, 'a whole scroll, what survives', chip 'Strong evidence'; a small dashed tag 'outside review' beside it.",
+       "reuse": "alias of s47"
+      },
+      {
+       "id": "s49",
+       "say": "More books, still buried in the villa? Plausible. Much of the villa is still underground, its lower floors still full of volcanic rock, and some rolls were found packed in boxes, as if someone had been carrying them out.",
+       "draw": "A cross-section of the villa's site (1 m = 15 units): today's town on top, about 20 m of volcanic rock; the main floor of the villa with its rooms (solid, explored by the old tunnels) and below it two lower floors on terraces down to the old shore, drawn dashed and still full of rock ('lower floors'); in a colonnade, three wooden boxes of rolls pop in ('packed in boxes'); a lilac question mark over the dark rooms; chip 'Plausible'."
+      },
+      {
+       "id": "s50",
+       "say": "A great lost library of Latin classics down there? Awaiting evidence: scholars have argued for it, but no dig has reached it yet.",
+       "draw": "Back on the ledger (alias of s47): row 3, a small villa section, 'more books in the villa', chip 'Plausible'; row 4, a dotted lilac roll with a Latin 'L', 'a great Latin library', chip 'Awaiting evidence'.",
+       "reuse": "alias of s47"
+      }
+     ]
+    },
+    {
+     "role": "test",
+     "lines": [
+      "[d:build][act:practical, clear][tune:rise]What would change our ^minds? [act:the first test][tune:level]Outside scholars reading the same scroll and finding the same ^text. [act:the second][tune:level]The method working on scroll after scroll, not just the easiest ^ones. [act:the third, hopeful][tune:fall]And a dig into the villa's lower floors that finds a room of ^books."
+     ],
+     "shots": [
+      {
+       "id": "s51",
+       "say": "What would change our minds? Outside scholars reading the same scroll and finding the same text. The method working on scroll after scroll, not just the easiest ones. And a dig into the villa's lower floors that finds a room of books.",
+       "draw": "Three dashed blue frames under the caption 'wanted', each filling as named: two figures holding identical sheets ('the same text'); a row of black rolls each getting a green tick ('scroll after scroll'); a section through the volcanic rock with a trench reaching a buried room whose shelves hold rolls ('a room of books')."
+      }
+     ]
+    },
+    {
+     "role": "close",
+     "lines": [
+      "[d:calm][p:0.93][act:quiet, the image]Nearly two thousand years ago, someone may have tried to carry these books to ^safety. [act:warm, the turn][tune:fall]In a way, we are still finishing the ^rescue. [act:hushed, the last words][tune:fall]Weigh it ^yourself."
+     ],
+     "shots": [
+      {
+       "id": "s52",
+       "say": "Nearly two thousand years ago, someone may have tried to carry these books to safety. In a way, we are still finishing the rescue. Weigh it yourself.",
+       "draw": "Night in the villa's colonnade, schematic: columns, the sea beyond, a lamp glowing; three wooden boxes of rolls on the floor, one lid open, the roll ends warm in the lamp light; the camera holds as the end card arrives."
+      }
+     ]
+    }
+   ],
+   "words": 195
+  }
+ ],
+ "description": "A lump of charcoal that is a book. In 79 CE Vesuvius buried a Roman villa at Herculaneum and baked its library into rolls of carbon that crumble at a touch: the only library of the Greek and Roman world to survive. For more than 270 years, people have tried to read it.\n\nWe follow the black lumps from the tunnels of the 1750s to Piaggio's unrolling machine and the Epicurean philosopher Philodemus; X-ray scans, the En-Gedi scroll and the problem of black ink on a black page; the Vesuvius Challenge, from the first word, 'purple', to the grand prize and the first titles; and the first scroll read end to end, announced in June 2026. Verdict: Established that sealed rolls can be read. A whole scroll read: Strong evidence, awaiting outside review. More books in the unexcavated villa: Plausible.\n\nChapters\n0:00 Cold open\nmm:ss Books of charcoal\nmm:ss Opening the unopenable\nmm:ss Unwrapping without touching\nmm:ss A word in the dark\nmm:ss The first whole scroll\nmm:ss The weighing\n\nSources\nAngelotti, Parsons, Nicolardi et al. 2026, Complete virtual unwrapping and reading of a rolled Herculaneum papyrus, arXiv:2606.29085 (preprint)\nVesuvius Challenge 2023 to 2026, First Letters (Oct 2023), Grand Prize (Feb 2024), first complete scroll (Jun 2026) announcements\nNicolardi, Delattre, Del Mastro, Janko & Fowler 2024, Cronache Ercolanesi 54: 9-27\nBodleian Libraries 2025, press release on the title of PHerc. 172 (6 May 2025)\nSeales, Parker, Segal et al. 2016, Science Advances, doi:10.1126/sciadv.1601247\nMocella, Brun, Ferrero & Delattre 2015, Nature Communications, doi:10.1038/ncomms6895\nParker, Parsons, Bandy et al. 2019, PLOS ONE, doi:10.1371/journal.pone.0215775\nParsons, Parker, Chapman, Hayashida & Seales 2023, EduceLab-Scrolls, arXiv:2304.02084\nBrun, Cotte, Wright et al. 2016, PNAS, doi:10.1073/pnas.1519958113\nGiordano, Zanella, Trolese et al. 2018, Earth and Planetary Science Letters, doi:10.1016/j.epsl.2018.03.023\nPaderni 1753, Philosophical Transactions 48 (letter to Dr Mead, Naples, 18 November 1752)\nA learned gentleman of Naples 1755, Philosophical Transactions 49 (letter of 25 February 1755)\nSider 2005, The Library of the Villa dei Papiri at Herculaneum (J. Paul Getty Museum)\nJanko 2002, The Herculaneum library: some recent developments, Estudios Clásicos 121\nMoran 2024, Journal of Classics Teaching 25: 65-66, doi:10.1017/S2058631023000703\nDelattre 2007, Philodème de Gadara, Sur la musique, Livre IV (Les Belles Lettres)\nWoodward 2009, Diogenes of Babylon: a Stoic on music and ethics (MPhil thesis, UCL)\nScappaticcio 2010, Cronache Ercolanesi 40: 99-136\nMcOsker & Fratantuono 2024, Bulletin of the Institute of Classical Studies, doi:10.1093/bics/qbae031\nBlank 2019, Philodemus, Stanford Encyclopedia of Philosophy\nJ. Paul Getty Museum 2019, Buried by Vesuvius: Treasures from the Villa dei Papiri (exhibition)\nParco Archeologico di Ercolano, The Villa of the Papyri",
+ "sources": [
+  "Angelotti, G., Parsons, S., Nicolardi, F., Nader, Y., Johnson, S. et al. (27 authors, with Seales, W. B.) 2026, Complete virtual unwrapping and reading of a rolled Herculaneum papyrus, arXiv:2606.29085 (preprint, 27 June 2026)",
+  "Vesuvius Challenge 2023, 'First word discovered in unopened Herculaneum scroll by 21yo computer science student' (First Letters prize announcement, 12 October 2023)",
+  "Vesuvius Challenge 2024, 'Vesuvius Challenge 2023 Grand Prize awarded: we can read the scrolls!' (5 February 2024)",
+  "Vesuvius Challenge 2026, 'An entire Herculaneum scroll has been read for the first time' (25 June 2026); 'Open Problems: Why Reading Every Herculaneum Scroll Is Still a Challenge' (2026); FAQ and homepage counts",
+  "Nicolardi, F., Delattre, D., Del Mastro, G., Janko, R. & Fowler, R. 2024, The final columns of PHerc.Paris. 4 revealed through virtual unwrapping, Cronache Ercolanesi 54: 9-27",
+  "Janko, R. 2025, Reading the new aesthetic treatise from Herculaneum with AI, abstract, Society for Classical Studies 156th Annual Meeting",
+  "Bodleian Libraries, University of Oxford 2025, press release on the title of PHerc. 172 (6 May 2025), as reported by Fine Books Magazine and CNN (6 May 2025)",
+  "Seales, W. B., Parker, C. S., Segal, M., Tov, E., Shor, P. & Porath, Y. 2016, From damage to discovery via virtual unwrapping: Reading the scroll from En-Gedi, Science Advances 2(9): e1601247, doi:10.1126/sciadv.1601247",
+  "Mocella, V., Brun, E., Ferrero, C. & Delattre, D. 2015, Revealing letters in rolled Herculaneum papyri by X-ray phase-contrast imaging, Nature Communications 6: 5895, doi:10.1038/ncomms6895",
+  "Parker, C. S., Parsons, S., Bandy, J., Chapman, C., Coppens, F. & Seales, W. B. 2019, From invisibility to readability: Recovering the ink of Herculaneum, PLOS ONE 14(5): e0215775, doi:10.1371/journal.pone.0215775",
+  "Parsons, S., Parker, C. S., Chapman, C., Hayashida, M. & Seales, W. B. 2023, EduceLab-Scrolls: Verifiable recovery of text from Herculaneum papyri using X-ray CT, arXiv:2304.02084",
+  "Brun, E., Cotte, M., Wright, J. et al. 2016, Revealing metallic ink in Herculaneum papyri, PNAS 113(14): 3751-3754, doi:10.1073/pnas.1519958113",
+  "Giordano, G., Zanella, E., Trolese, M. et al. 2018, Thermal interactions of the AD79 Vesuvius pyroclastic density currents and their deposits at Villa dei Papiri (Herculaneum archaeological site, Italy), Earth and Planetary Science Letters 490: 180-192, doi:10.1016/j.epsl.2018.03.023",
+  "Paderni, C. 1753, Extract of a letter from Signor Camillo Paderni, to Dr. Mead, concerning the antiquities dug up from the antient Herculaneum, dated from Naples, Nov. 18, 1752, Philosophical Transactions 48 (read 8 February 1753)",
+  "A learned gentleman of Naples 1755, Copy of a letter dated February 25, 1755, concerning the books and antient writings dug out of the ruins of an edifice near the site of the old city of Herculaneum, Philosophical Transactions 49 (read 17 April 1755)",
+  "Sider, D. 2005, The Library of the Villa dei Papiri at Herculaneum, J. Paul Getty Museum, Los Angeles; reviewed by J. Stronk, Bryn Mawr Classical Review 2006.01.41",
+  "Janko, R. 2002, The Herculaneum library: some recent developments, Estudios Clásicos 121",
+  "Moran, J. 2024, As clear as Herculaneum mud: a plea for clarity, Journal of Classics Teaching 25: 65-66, doi:10.1017/S2058631023000703",
+  "Delattre, D. 2007, Philodème de Gadara, Sur la musique, Livre IV, Les Belles Lettres, Paris; and Delattre, D., Éditer et traduire le De Musica IV de Philodème (Università di Siena, QRO)",
+  "Woodward, L. H. 2009, Diogenes of Babylon: a Stoic on music and ethics, MPhil thesis, University College London",
+  "Scappaticcio, M. C. 2010, PHerc. 817: echi virgiliani e 'pseudoaugusteismo', Cronache Ercolanesi 40: 99-136",
+  "McOsker, M. & Fratantuono, L. 2024, Teaching Vergil to write: Vergil's aesthetics and the influence of Philodemus and Parthenius, Bulletin of the Institute of Classical Studies, doi:10.1093/bics/qbae031",
+  "Blank, D. 2019, Philodemus, Stanford Encyclopedia of Philosophy (first published 2013, revised 2019); Internet Encyclopedia of Philosophy, 'Philodemus of Gadara'",
+  "J. Paul Getty Museum 2019, Buried by Vesuvius: Treasures from the Villa dei Papiri (exhibition texts)",
+  "Parco Archeologico di Ercolano (Ministero della Cultura), The Villa of the Papyri (official site page); The Herculaneum Society (Oxford), The Villa of the Papyri",
+  "CISPE (Centro Internazionale per lo Studio dei Papiri Ercolanesi 'Marcello Gigante'), history of the Herculaneum papyri and The Villa dei Papiri",
+  "McOsker, M. 2024, comment: AI will let us read lost ancient works in the library at Herculaneum for the first time, UCL News, February 2024",
+  "Diamond Light Source, the storage ring (over 560 metres); ESRF, BM18 beamline (220 metres) and the storage ring (844 metres)"
+ ],
+ "facts_added": [
+  {
+   "fact": "The villa was found in 1750 when well-diggers reached a floor of coloured marble; it was explored from 1750 by underground tunnels under the Swiss engineer Karl Weber, in rock-hard volcanic material, by smoky torchlight and in poisonous gases.",
+   "source": "The Herculaneum Society (Oxford), The Villa of the Papyri; J. Paul Getty Museum 2019 (exhibition texts: low light, poor air, noxious fumes); pompeiiinpictures, Villa dei Papiri (a floor inlaid with polychrome marble, 1750)"
+  },
+  {
+   "fact": "The villa lies under about 20 to 25 m of volcanic deposits and ran for more than 250 m along the coast.",
+   "source": "Wikipedia, Villa of the Papyri (20 to 25 m; more than 250 m of coastline); Archeologia Viva 118 (2006), 250 m along the coast; McOsker 2024 (UCL News: 20 metres underground)"
+  },
+  {
+   "fact": "The pyroclastic currents that buried the villa were about 350 °C on average where the deposits are undisturbed (300 to 440 °C), about 265 °C where they mixed with outside air.",
+   "source": "Giordano et al. 2018, Earth and Planetary Science Letters 490: 180-192, doi:10.1016/j.epsl.2018.03.023"
+  },
+  {
+   "fact": "About ninety sculptures in bronze and marble came out of the villa.",
+   "source": "J. Paul Getty Museum 2019 (approximately ninety sculptures); Wikipedia, Villa of the Papyri (at least 80)"
+  },
+  {
+   "fact": "The first papyri were found on 19 October 1752; the excavators first took them for logs or carbonised fishing nets, until one broke and showed writing.",
+   "source": "Sider 2005, as reviewed by Stronk, BMCR 2006.01.41 (19 October 1752); J. Paul Getty Museum 2019 ('logs or carbonized fishing nets')"
+  },
+  {
+   "fact": "On 18 November 1752 Camillo Paderni, keeper of the royal museum, wrote to Dr Richard Mead in London that many volumes of papyrus had been found 'turn'd to a sort of charcoal', so brittle that a touch turned them to ashes.",
+   "source": "Paderni 1753, Philosophical Transactions 48 (letter dated Naples, 18 November 1752, read 8 February 1753)"
+  },
+  {
+   "fact": "The inventories list about 1,826 (1979) to 1,850 (2000) items, many of them pieces of the same roll; estimates of separate books run from about 700 to between 800 and 1,100. The Getty puts it at about 1,100 rolls, the park at over 1,800 scrolls.",
+   "source": "Moran 2024, Journal of Classics Teaching 25: 65-66; J. Paul Getty Museum 2019; Parco Archeologico di Ercolano"
+  },
+  {
+   "fact": "Of about 75 identified works, 44 (58 percent) are by Philodemus.",
+   "source": "Moran 2024; Sider 2005 via Stronk 2006 ('the author of forty-four rolls')"
+  },
+  {
+   "fact": "The villa is often attributed to Lucius Calpurnius Piso Caesoninus, Julius Caesar's father-in-law and the patron of Philodemus; the attribution rests on that connection.",
+   "source": "The Herculaneum Society (Oxford); J. Paul Getty Museum 2019; Blank 2019, SEP 'Philodemus'; IEP 'Philodemus of Gadara'"
+  },
+  {
+   "fact": "Early openers cut rolls into halves, copied the exposed layer and scraped it away to reach the next, destroying hundreds.",
+   "source": "McOsker 2024, UCL News ('cut into halves... then the insides were scooped out'); Wikipedia, Camillo Paderni (slicing scrolls in half, removing layers)"
+  },
+  {
+   "fact": "Antonio Piaggio, a Genoese priest and curator of manuscripts at the Vatican, was sent to Portici in June 1753 at the king's request and built the machine that opened almost all the texts we have.",
+   "source": "CISPE, history of the Herculaneum papyri; Wikipedia, Antonio Piaggio"
+  },
+  {
+   "fact": "A letter of 25 February 1755 describes the machine: threads gummed to the back of the papyrus, pulled by degrees while a fine instrument loosens the layers, the back lined with 'exceeding thin leaves of onion'; a little writing took five or six days, and a whole year had gone on about half of one roll.",
+   "source": "A learned gentleman of Naples 1755, Philosophical Transactions 49; quoted in Encyclopaedia Britannica, 6th ed. (1823)"
+  },
+  {
+   "fact": "The first roll-end unrolled with Piaggio's machine, from 1754, was PHerc. 1497, Philodemus' On Music, Book 4; the 1755 letter calls it a small philosophical tract on music.",
+   "source": "Delattre, Éditer et traduire le De Musica IV (QRO); Delattre 2007; A learned gentleman of Naples 1755"
+  },
+  {
+   "fact": "In On Music IV, Philodemus argues against the Stoic Diogenes of Babylon that music does not have the power to alter character.",
+   "source": "Woodward 2009 (UCL MPhil thesis), on De Musica IV; Delattre 2007"
+  },
+  {
+   "fact": "Scholars hoped the rolls held lost classics such as Greek tragedies; the first texts were Philodemus.",
+   "source": "Il Post, 20 October 2023, 'La storia dei papiri carbonizzati di Ercolano'"
+  },
+  {
+   "fact": "Philodemus (about 110 to about 30 BCE) came from Gadara, now Umm Qais in Jordan; before the papyri, only some of his short poems, in the Palatine Anthology, were known.",
+   "source": "Blank 2019, SEP 'Philodemus'; IEP 'Philodemus of Gadara'"
+  },
+  {
+   "fact": "Unrolled, a roll could run for several metres: the reconstructed On Music IV had 152 columns over about 11 m; the 2009 estimate for the Paris rolls was 11 to 15 m; the Vesuvius Challenge gives 15 to 30 feet as usual.",
+   "source": "Delattre (QRO); Wikipedia, Herculaneum papyri (2009 Institut de France and CNRS estimate); Vesuvius Challenge FAQ"
+  },
+  {
+   "fact": "Besides Philodemus, the library holds books of Epicurus' On Nature, Stoic works (Chrysippus) and Latin texts, among them a Latin hexameter poem on the battle of Actium (PHerc. 817), its author unknown.",
+   "source": "Janko 2002, Estudios Clásicos 121; Wikipedia, Herculaneum papyri; Scappaticcio 2010, Cronache Ercolanesi 40: 99-136"
+  },
+  {
+   "fact": "Multispectral (infrared) imaging of the opened papyri by Brigham Young University with the National Library of Naples, from 1999, made them far more legible; about 1,600 papyri were imaged by 2011.",
+   "source": "CISPE; Wikipedia, Herculaneum papyri"
+  },
+  {
+   "fact": "Estimates of the rolls still unopened differ: about 270 (Janko) to more than 600 (Vesuvius Challenge, which counts 'unopened and unreadable').",
+   "source": "Janko 2025, SCS abstract; Vesuvius Challenge homepage (2026); McOsker 2024 ('up to 300')"
+  },
+  {
+   "fact": "In 2009 Seales' team made the first tomographic scans of closed Herculaneum rolls (PHerc. Paris 3 and 4, Institut de France): the layers showed, the carbon ink did not.",
+   "source": "Parsons et al. 2023, EduceLab-Scrolls, arXiv:2304.02084"
+  },
+  {
+   "fact": "The En-Gedi scroll, found in 1970 in the ark of the synagogue at En-Gedi, burned around 600 CE, was virtually unwrapped by Seales' team in 2015: the first two chapters of Leviticus; micro-CT picked up traces of metal in its ink.",
+   "source": "Seales et al. 2016, Science Advances, doi:10.1126/sciadv.1601247; University of Kentucky news, 20 July 2015; Phys.org, 21 September 2016"
+  },
+  {
+   "fact": "Herculaneum ink is lamp black, made from soot and almost pure carbon, on carbonised papyrus, so it gives little or no X-ray contrast; some inks also contain lead.",
+   "source": "Parsons et al. 2023; Brun et al. 2016, PNAS, doi:10.1073/pnas.1519958113"
+  },
+  {
+   "fact": "Synchrotrons used for the scrolls: Diamond Light Source (UK), storage ring over 560 m; ESRF, Grenoble, storage ring 844 m, its BM18 beamline 220 m long.",
+   "source": "Diamond Light Source, storage ring page; Wikipedia, ESRF; ESRF, BM18 overview"
+  },
+  {
+   "fact": "X-ray phase-contrast tomography at the ESRF (beamline ID17, December 2013) revealed Greek letters inside the rolled PHerc. Paris 4.",
+   "source": "Mocella et al. 2015, Nature Communications 6: 5895, doi:10.1038/ncomms6895"
+  },
+  {
+   "fact": "A model trained on fragments whose ink is visible in (infrared) photographs can detect carbon ink in micro-CT.",
+   "source": "Parker et al. 2019, PLOS ONE, doi:10.1371/journal.pone.0215775"
+  },
+  {
+   "fact": "The Vesuvius Challenge was launched on 15 March 2023 by Nat Friedman and Daniel Gross with Brent Seales, releasing the scans to all with prizes.",
+   "source": "Semafor, 15 March 2023; Vesuvius Challenge homepage (founding sponsors)"
+  },
+  {
+   "fact": "In early August 2023 Casey Handmer found the 'crackle' pattern of ink; Luke Farritor, 21, a computer science student, trained a model on it and found ΠΟΡΦΥΡΑϹ, porphyras, 'purple'; Youssef Nader independently found the same word in the same area by another method; the papyrologists annotated the letters independently and unanimously; prizes announced 12 October 2023.",
+   "source": "Vesuvius Challenge 2023, First Letters announcement"
+  },
+  {
+   "fact": "On 5 February 2024 Youssef Nader, Luke Farritor and Julian Schilliger won the $700,000 Grand Prize: about 15 columns, more than 2,000 characters, about 5% of the scroll; its subject is pleasure, with food and music, very likely by Philodemus; one passage holds that scarce things are not for that reason more pleasant than abundant ones.",
+   "source": "Vesuvius Challenge 2024, Grand Prize announcement; Nicolardi et al. 2024, Cronache Ercolanesi 54"
+  },
+  {
+   "fact": "In May 2025 the title 'Philodemus, On Vices, Book 1' was read in PHerc. 172 (Bodleian Libraries, Oxford; scanned at Diamond Light Source in July 2024), found independently by Marcel Roth and Micha Nowak (University of Würzburg) and by Sean Johnson (Vesuvius Challenge); $60,000 First Title Prize.",
+   "source": "Bodleian Libraries press release, 6 May 2025 (Fine Books Magazine); CNN, 6 May 2025; Smithsonian, May 2025"
+  },
+  {
+   "fact": "Philodemus dedicated works on slander, envy and greed to his students Quintilius, Plotius Tucca, Varius Rufus and Vergil.",
+   "source": "McOsker & Fratantuono 2024, BICS, doi:10.1093/bics/qbae031; IEP 'Philodemus of Gadara'"
+  },
+  {
+   "fact": "PHerc. 1667 (Naples) is the first Herculaneum roll completely unwrapped and read without opening (announced 25 June 2026): earlier attempts in the 19th century, in November 1969 (Fackelmann) and in the 1980s (the Oslo method) had destroyed its outer layers; it shrank from 4.9 to 2 cm across; 8 cm survive of an original 19 to 24 cm height; 31 wraps, 22 columns, about 860 cm² of writing, about 1.4 m of papyrus; scanned on the ESRF's BM18 beamline at 2.4 µm voxels.",
+   "source": "Angelotti et al. 2026, arXiv:2606.29085; Vesuvius Challenge 2026; University of Kentucky news, June 2026 ('deemed completely unreadable' after the 1980s)"
+  },
+  {
+   "fact": "PHerc. 1667 appears to be Stoic ethics (human nature, impulse, moral progress); it names Aristocreon, nephew and disciple of Chrysippus; its handwriting dates to the 2nd century BCE, not excluding the very late 3rd; no author or title survives; only the lower parts of the columns survive, with gaps.",
+   "source": "Angelotti et al. 2026; Vesuvius Challenge 2026"
+  },
+  {
+   "fact": "PHerc. 139 carries the title 'Philodemus, On Gods, Book 8': the first evidence that the work had at least eight books.",
+   "source": "Angelotti et al. 2026"
+  },
+  {
+   "fact": "In the new BM18 scan of PHerc. Paris 4, the ink is visible directly in the tomographic volume, an independent check of the machine-learning readings.",
+   "source": "Angelotti et al. 2026"
+  },
+  {
+   "fact": "The completeness of the reading is defined by explicit criteria: the traced surface tight to the papyrus, letterforms stable across renderings, and the transcription endorsed by papyrologists.",
+   "source": "Angelotti et al. 2026"
+  },
+  {
+   "fact": "The team's own assessment: the process 'is not guaranteed to work everywhere'; compressed regions blur into haze.",
+   "source": "Vesuvius Challenge 2026, Open Problems"
+  },
+  {
+   "fact": "Much of the villa still lies buried beneath the modern town; the 1996 to 1998 excavations exposed only the atrium area and found at least two lower levels, with rooms still blocked by eruption material.",
+   "source": "Parco Archeologico di Ercolano; herculaneum.uk, Villa dei Papiri, the lower levels; CISPE, The Villa dei Papiri"
+  },
+  {
+   "fact": "Papyri were found in several places in the villa, including 101 in three carrying-boxes in a colonnade; Longo Auricchio and Capasso proposed that people were trying to rescue the books; Janko argues that many more rolls await discovery.",
+   "source": "Janko 2002, Estudios Clásicos 121"
+  },
+  {
+   "fact": "The unexcavated part of the villa may hold a Latin library (Sider); Janko argues for a main library still to be recovered.",
+   "source": "Sider 2005 via Stronk 2006; Janko 2025, SCS abstract"
+  }
+ ],
+ "names": [
+  {
+   "name": "Vesuvius",
+   "say": "vuh-SOO-vee-us"
+  },
+  {
+   "name": "Herculaneum",
+   "say": "her-kyoo-LAY-nee-um (in LEX)"
+  },
+  {
+   "name": "Pompeii",
+   "say": "pom-PAY (in LEX)"
+  },
+  {
+   "name": "Naples",
+   "say": "NAY-pulz"
+  },
+  {
+   "name": "Lucius Calpurnius Piso",
+   "say": "LOO-shus kal-PUR-nee-us PY-soh"
+  },
+  {
+   "name": "Antonio Piaggio",
+   "say": "an-TOH-nee-oh pee-AH-joh"
+  },
+  {
+   "name": "Philodemus",
+   "say": "fil-oh-DEE-mus (in LEX)"
+  },
+  {
+   "name": "Gadara",
+   "say": "GAD-uh-ruh"
+  },
+  {
+   "name": "Epicurus",
+   "say": "ep-ih-KYOOR-us"
+  },
+  {
+   "name": "Stoics",
+   "say": "STOH-iks"
+  },
+  {
+   "name": "Stoic",
+   "say": "STOH-ik"
+  },
+  {
+   "name": "Actium",
+   "say": "AK-tee-um"
+  },
+  {
+   "name": "Seales",
+   "say": "SEELZ (in LEX)"
+  },
+  {
+   "name": "Kentucky",
+   "say": "ken-TUK-ee"
+  },
+  {
+   "name": "En-Gedi",
+   "say": "en-GED-ee"
+  },
+  {
+   "name": "Leviticus",
+   "say": "lih-VIT-ih-kus"
+  },
+  {
+   "name": "synchrotrons",
+   "say": "SING-kroh-tronz"
+  },
+  {
+   "name": "Grenoble",
+   "say": "gruh-NOH-bul"
+  },
+  {
+   "name": "Nat Friedman",
+   "say": "NAT FREED-mun"
+  },
+  {
+   "name": "Casey Handmer",
+   "say": "KAY-see HAND-mer"
+  },
+  {
+   "name": "Luke Farritor",
+   "say": "LOOK FAIR-ih-tor"
+  },
+  {
+   "name": "porphyras",
+   "say": "POR-fur-ahs"
+  },
+  {
+   "name": "Youssef Nader",
+   "say": "YOO-sef NAH-der"
+  },
+  {
+   "name": "Julian Schilliger",
+   "say": "JOO-lee-un SHILL-ih-ger"
+  },
+  {
+   "name": "Virgil",
+   "say": "VUR-jil"
+  },
+  {
+   "name": "Aristocreon",
+   "say": "air-iss-TOK-ree-on"
+  },
+  {
+   "name": "Chrysippus",
+   "say": "kry-SIP-us"
+  },
+  {
+   "name": "papyrologists",
+   "say": "pap-ih-ROL-uh-jists"
+  },
+  {
+   "name": "papyrus",
+   "say": "puh-PY-rus"
+  }
+ ],
+ "words": 1530
+}
