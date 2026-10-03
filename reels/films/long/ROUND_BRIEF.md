@@ -1,11 +1,12 @@
 # Long-form round brief: one agent, one film, script to compiled film
 
 You make one complete long-form deep dive (16:9, about 10 minutes) for the history channel Residual Continuum, from
-research to a compiled, previewed film module. Twenty films are already finished this way (LF.01 to LF.20: Under Giza,
-Atlantis, Göbekli Tepe, The Comet and the Cold, The UFO Files, Impossible Stones, Gunung Padang, Derinkuyu, Ancient
+research to a compiled, previewed film module. Twenty-five films are already finished this way (LF.01 to LF.25: Under
+Giza, Atlantis, Göbekli Tepe, The Comet and the Cold, The UFO Files, Impossible Stones, Gunung Padang, Derinkuyu, Ancient
 Astronauts, Voynich, Troy, The Sea Peoples, The Library of Alexandria, MKUltra, The First Americans, King Arthur, Vinland,
-Knossos, Stargate, The Piri Reis Map); the owner loved them. Study one or two of them before you start (lf_troy.py,
-lf_mkultra.py and lf_vinland.py are good recent examples). The goal of the
+Knossos, Stargate, The Piri Reis Map, Roswell, The Age of the Sphinx, The Herculaneum Scrolls, Yonaguni, The Antikythera
+Mechanism); the owner loved them. Study one or two of them before you start (lf_roswell.py, lf_antikythera.py and
+lf_troy.py are good recent examples). The goal of the
 channel: social buzz and to be the number one reference on these subjects, without ever trading honesty for clicks.
 
 Lessons from the review of round 2 (apply them):
@@ -29,6 +30,15 @@ Lessons from the review of round 4 (apply them too):
   x = 960 (of 1778) in the top 180 units of the frame.
 - The YouTube description (the script's description with chapters and sources) plus hashtags must stay under 4,900
   characters: keep each source to one line (author, year, journal or publisher, DOI); LF.14's ran to 5,600.
+
+Lessons from round 5 (apply them too):
+- Every story chapter is now also cut into a vertical clip of its own (a Short of 70 to 150 seconds, with a question
+  above it and "Part k of N" as its kicker). So open each story chapter on a sentence that stands on its own (name the
+  place, the object or the person; never "as we saw" or "this one"), keep each story chapter to about 160 to 360 spoken
+  words (well under 2.5 minutes), and close it on a line that lands. The cold open and the weighing are not cut.
+- A Short was wrong once (the Sphinx drilling: a "1998 test drill" that the sources do not support; the documented
+  drilling is SRI's in 1978). Where a Short and a primary source disagree, follow the primary source and say so in your
+  reply, so the Short can be corrected.
 
 Workspace: `/home/claude/rc2/reels` (a clone of the render farm repo). Scratch: `/tmp/claude-0/` and your scratchpad.
 
