@@ -64,6 +64,8 @@ TOK = re.compile(r"\[(\w+):([^\]]*)\]|\{([^|{}]*)\|([^{}]*)\}([^\s\[{]*)|(//)|(\
 
 def parse(text):
     words, pend = [], []
+    # a marker set inside a word's own marks (^[go:2|1.4]Stables) goes before them, so it is never shown or spoken
+    text = re.sub(r"([\^*]+)((?:\[\w+:[^\]]*\])+)", r"\2\1", text)
     for m in TOK.finditer(text):
         if m.group(1):
             pend.append((m.group(1), m.group(2)))
@@ -75,10 +77,10 @@ def parse(text):
                 words[-1]["brk"] = 0.6
         else:
             words.append({"disp": m.group(7), "say": m.group(7), "ev": pend, "brk": 0}); pend = []
-        if words and words[-1]["disp"].startswith("^"):          # ^word: the focus of the sentence (voice only, no glow)
-            words[-1]["disp"] = words[-1]["disp"][1:]; words[-1]["focus"] = True
         if words and "*" in words[-1]["disp"]:                  # *word*: the narrator leans on it, the caption glows
             words[-1]["disp"] = words[-1]["disp"].replace("*", ""); words[-1]["em"] = True
+        if words and "^" in words[-1]["disp"]:                  # ^word (or *^word*, sixty-^two): the focus of the sentence (voice only, no glow)
+            words[-1]["disp"] = words[-1]["disp"].replace("^", ""); words[-1]["focus"] = True
     if pend and words:
         words[-1].setdefault("ev_end", []).extend(pend)
     import heteronyms as HN
