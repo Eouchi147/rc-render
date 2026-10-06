@@ -844,7 +844,7 @@
      "from": 5
     },
     "lines": [
-     "[d:reveal][go:6|2.2][act:leaning in]Could anyone ^check? [act:clear, precise]In {1998|nineteen ninety-eight}, one anomaly near the Sphinx ^*was* drilled. [sfx:hit][act:plain, a touch deflating][tune:fall]A ^natural cavity. [act:explaining, light]Limestone often has them: water slowly dissolves little ^pockets in it.",
+     "[d:reveal][go:6|2.2][act:leaning in]Has an echo like that ever been ^checked? [act:clear, precise]In {1978|nineteen seventy-eight}, echoes near the Sphinx ^*were* drilled. [sfx:hit][act:plain, a touch deflating][tune:fall]Only natural ^cracks. [act:explaining, light]Limestone is full of them, and of little ^pockets that water slowly dissolves.",
      "[d:reveal][act:turning back to it][tune:rise]But the hollow under the ^paws? [act:quiet, pointed][tune:fall]^*Never* opened. [act:honest, plain]So nobody knows what it ^is."
     ]
    },
@@ -1165,8 +1165,8 @@
      "from": 2
     },
     "lines": [
-     "[go:3|1.42][d:build][p:0.93][act:building, precise]Echoes can hint at a hollow, but only a drill can ^check. [act:building, precise]In {1998|nineteen ninety-eight}, Egypt allowed ^one test drill, into a spot the radar had ^flagged. [sfx:hit][act:plain, deflating][tune:fall]A ^*natural* cavity.",
-     "[d:tension][go:4|2][act:flat, final][tune:fall]After that: ^no more drilling. [act:quiet, the turn]And that's where the ^argument begins."
+     "[go:3|1.42][d:build][p:0.93][act:building, precise]Echoes can hint at a hollow, but only a drill can ^check. [act:building, precise]In {1978|nineteen seventy-eight}, the first team drilled ^five narrow holes into its strongest ^echoes. [sfx:hit][act:plain, deflating][tune:fall]Cameras saw only ^*natural* cracks.",
+     "[d:tension][go:4|2][act:flat, final][tune:fall]Since then, every drill hole needs Egypt's ^permission. [act:quiet, the turn]And that's where the ^argument begins."
     ]
    },
    {
@@ -1199,7 +1199,7 @@
     ]
    }
   ],
-  "post": "Five surveys, one test drill and a TV special watched by 33 million. What the record shows about access to the Sphinx.",
+  "post": "Five surveys, five test holes and a TV special watched by 33 million. What the record shows about access to the Sphinx.",
   "hashtags": [
    "#Sphinx",
    "#Giza",
@@ -1207,7 +1207,7 @@
    "#Archaeology",
    "#History"
   ],
-  "sources": "Dobecki & Schoch 1992, Geoarchaeology · Hawass & Lehner 1997, NOVA · Hawass 1998, The Secrets of the Sphinx",
+  "sources": "Dolphin 1999, SRI's 1978 Sphinx survey · Dobecki & Schoch 1992, Geoarchaeology · Hawass & Lehner 1997, NOVA · Hawass 1998, The Secrets of the Sphinx",
   "view": "films",
   "story": "sphinx-surveys",
   "site": "films/out/sphinx-surveys.html",
@@ -1324,7 +1324,7 @@
      "from": 0
     },
     "lines": [
-     "[go:1|1.43][d:calm][act:plain, respectful]In {1989|nineteen eighty-nine}, Robert Bauval noticed the ^pattern. [act:describing it, carefully]Seen from above, two big pyramids, Khufu's and ^Khafre's, sit on one diagonal ^line. [act:pointing to the odd one][tune:fall]The ^third, Menkaure's, is small, and ^*offset* to one side.",
+     "[go:1|1.43][d:calm][act:plain, respectful]In {1989|nineteen eighty-nine}, Robert Bauval published an ^idea. [act:describing it, carefully]Seen from above, two big pyramids, Khufu's and ^Khafre's, sit on one diagonal ^line. [act:pointing to the odd one][tune:fall]The ^third, Menkaure's, is small, and ^*offset* to one side.",
      "[d:wonder][go:2|2.2][sfx:shimmer][act:wonder, lightly]Now lay the belt of Orion over them. [act:wonder, lightly]Two stars in a ^line, and a third that steps a little ^aside. [act:soft wonder][tune:fall]Just like the ^belt stars."
     ]
    },
@@ -1334,7 +1334,7 @@
      "from": 2
     },
     "lines": [
-     "[go:3|1.39][d:build][act:building, even-handed]With Graham Hancock, he went ^further. [p:0.93][act:explaining, patient]The sky slowly ^shifts over the centuries, because the Earth wobbles on its axis like a spinning ^top. [act:explaining, clear]So the belt climbs and sinks in the southern sky, in a cycle of about twenty-six thousand ^years. [p:0.9][act:the claim, fair]Their claim: the layout matches the belt as it stood around ten thousand, ^five hundred BCE, at its ^lowest. [act:softer, the romance of it]A memory of a ^lost age, set in stone."
+     "[go:3|1.39][d:build][act:building, even-handed]With Adrian Gilbert, he went ^further. [p:0.93][act:explaining, patient]The sky slowly ^shifts over the centuries, because the Earth wobbles on its axis like a spinning ^top. [act:explaining, clear]So the belt climbs and sinks in the southern sky, in a cycle of about twenty-six thousand ^years. [p:0.9][act:the claim, fair]Their claim: the layout matches the belt as it stood around ten thousand, ^five hundred BCE, at its ^lowest. [act:softer, the romance of it]A memory of a ^lost age, set in stone."
     ]
    },
    {
