@@ -2611,7 +2611,7 @@ def film():
           "post": "Malta's stone temples are older than the pyramids of Giza. The equinox light at Mnajdra, Ġgantija and the giantess of "
                   "Gozo's tales, the radiocarbon revolution, the Ice Age and drowned-temple claims, the cart ruts, the Hypogeum and its "
                   "Oracle Room, and the end of the temple builders, weighed.",
-          "hashtags": ["#Malta", "#Megaliths", "#Ggantija", "#Hypogeum", "#Archaeology", "#Underworlds"],
+          "hashtags": ["#Malta", "#Megaliths", "#Ggantija", "#Hypogeum", "#Archaeology", "#Underworlds", "#WeighItYourself"],
           "aspect": "16:9", "intro_title": script["intro_title"], "yt_title": script["yt_title"], "description": desc, "end_line": script["end_line"]}
     ep = remix(ep, alias=alias, cams=cams)
     # the tagged cameras: give each the additions of its shot, on the step that reached it
