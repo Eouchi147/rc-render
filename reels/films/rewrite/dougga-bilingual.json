@@ -1,15 +1,15 @@
 {
  "beats": [
   [
-   "[d:intrigue][sfx:boom][act:storytelling, a hint of disbelief]In {1842|eighteen forty-two}, a British consul ^wrecked a royal tomb in Tunisia, just to take one ^stone.",
-   "[d:tension][act:the turn, wonder]Yet that stone let scholars read@present a lost African ^alphabet. [act:intrigued, a small smile][tune:fall]Or at least, its ^letters."
+   "[d:intrigue][sfx:boom][act:storytelling, a hint of disbelief]Nearly two centuries ago, a British consul ^wrecked a prince's tomb in Tunisia, just to take its ^inscription.",
+   "[d:tension][act:the turn, wonder]Yet that inscription let scholars read@present a lost African ^alphabet. [act:intrigued, a small smile][tune:fall]Or at least, its ^letters."
   ],
   [
-   "[d:calm][act:plain, orienting]The tomb stands at ^Dougga, in northern Tunisia. [p:0.93][act:plain, admiring]It's the Libyco-Punic mausoleum: about twenty-one metres of stone, as tall as a seven-storey building, in ^three tiers, from the second century BCE. [act:explaining, light]A mausoleum is simply a grand ^tomb."
+   "[d:calm][act:plain, orienting]The tomb stands at ^Dougga, in northern Tunisia. [p:0.93][act:plain, admiring]It's the Libyco-Punic mausoleum, built for a Numidian prince: about twenty-one metres of stone, as tall as a seven-storey building, in ^three tiers, from the second century BCE. [act:explaining, light]A mausoleum is simply a grand ^tomb."
   ],
   [
    "[d:build][act:explaining, clear]Its inscription says the same thing ^twice, in two scripts. [act:precise]One is ^Punic, the language of Carthage, which scholars could already read@present. [act:the reveal][tune:fall]The other is ^Libyco-Berber, which nobody could. [act:a simple picture]Like one sentence printed in a language you know, and one you ^don't.",
-   "[d:build][go:4|0][act:storytelling, onward]Consul Thomas Reade had the stone pulled ^out, and the tomb came ^down. [act:plain]The stone went to the British ^Museum, in ^London."
+   "[d:build][go:4|0][act:storytelling, onward]Consul Thomas Reade had the inscription pulled ^out, and the tomb came ^down. [act:plain]Its two stones went to the British ^Museum, in ^London."
   ],
   [
    "[d:build][act:the decipherment, delighted][tune:rise]So how do you crack it? [act:explaining, clear]Names work like ^keys. [p:0.93][act:explaining, building]A name sounds the same in ^any script. [act:precise, building]Find a name in the Punic half, find it again in the other half, and you learn the ^sounds of its letters. [act:a simple picture]Like spotting a friend's name on a postcard written in a foreign ^alphabet. [p:0.9][act:the payoff, confident]Today, twenty-two of the twenty-four eastern signs are ^read@past."
@@ -20,7 +20,7 @@
   ],
   [
    "[d:verdict][p:0.95][act:weighing it, calm][tune:rise]A lost alphabet ^cracked? [act:the verdict, confident][tune:fall]^*Established*, for its sounds. [act:open, honest]What those people actually ^said is still an open question.",
-   "[d:tension][p:0.93][act:plain, the epilogue]The tomb was rebuilt in {1910|nineteen ten}, stone by stone. [act:the last word, quiet][tune:fall]But its most famous stone is still in ^London."
+   "[d:tension][p:0.93][act:plain, the epilogue]The tomb was rebuilt in {1910|nineteen ten}, stone by stone. [act:the last word, quiet][tune:fall]But its most famous stones are still in ^London."
   ]
  ]
 }
