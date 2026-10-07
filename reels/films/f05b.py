@@ -177,15 +177,15 @@ def drill_cores_m():
             I.line([[437, 622], [437, 1020]], 2.1, COP, 8, "known", 3.5), I.line([[563, 622], [563, 1020]], 2.1, COP, 8, "known", 3.5)] +
            [I.dot(round(437 + (j % 2) * 126, 1), 1030, 4, "#f5ecdc", round(5.0 + .1 * j, 2)) for j in range(6)] +
            [I.box(448, 622, 104, 418, "none", I.AMBER, 3, 4, 7.4, fx="draw", dur=1.0), I.label(500, 1290, "core", 7.8, I.AMBER, 32)]}
-    # 6 · the bow drill from a grave over a thousand years older than Khufu
+    # 6 · the bow drill from a grave some 750 years older than Khufu (c. 3300 BCE)
     T = lambda yr: round(150 + 700 * (yr + 4000) / 2000, 1)
     bow = {"base": "dark", "floor": 940, "cam": [1, 500, 900], "els": [I.box(150, 940, 700, 30, "#6d5a52", r=4, at=.2),
            I.line([[500, 480], [500, 930]], .4, COP, 14, "known", .8), I.box(470, 450, 60, 34, "#8a6a48", r=6, at=.6),
            I.line([[110, 1150], [890, 1150]], .8, "#8c7152", 3, "known", .6),
-           I.dot(T(-3500), 1150, 12, COP, 1.6), I.label(T(-3500), 1205, "the drill", 1.6, COP, 28),
+           I.dot(T(-3300), 1150, 12, COP, 1.6), I.label(T(-3300), 1205, "the drill", 1.6, COP, 28),
            I.dot(T(-2560), 1150, 12, I.AMBER, 2.4), I.label(T(-2560), 1205, "Khufu", 2.4, I.AMBER, 28),
-           I.arrow([[T(-3500), 1110], [(T(-3500) + T(-2560)) / 2, 1070], [T(-2560), 1110]], 2.8, I.BONE, 3, "known", 1.0),
-           I.label((T(-3500) + T(-2560)) / 2, 1040, "over 1,000 years", 3.2, I.BONE, 30)] +
+           I.arrow([[T(-3300), 1110], [(T(-3300) + T(-2560)) / 2, 1070], [T(-2560), 1110]], 2.8, I.BONE, 3, "known", 1.0),
+           I.label((T(-3300) + T(-2560)) / 2, 1040, "about 750 years", 3.2, I.BONE, 30)] +
           [I.line([[486, 700 + 14 * j], [514, 708 + 14 * j]], round(4.6 + .1 * j, 2), "#b8875a", 4, draw=False) for j in range(5)] +
           [I.line([[150, 760], [300, 650], [500, 625], [700, 650], [850, 760]], 6.6, "#8a6a48", 9, "known", .8, curve=True),
            I.line([[150, 760], [486, 700]], 6.9, "#b8875a", 3, "known", .5), I.line([[514, 764], [850, 760]], 6.9, "#b8875a", 3, "known", .5),
@@ -212,12 +212,12 @@ def stone_vases_m():
             I.label(706, 725, "a hair", 6.8, "#d9a066", 28, "end"), I.label(800, 725, "1/1000 inch", 5.6, I.BLUE, 28, "start"),
             I.box(90, 860, 80, 150, "none", I.LILAC, 3, 6, 10.0, style="claimed"), I.line([[170, 935], [250, 935]], 10.2, I.LILAC, 3, "claimed", .4),
             I.line([[80, 1240], [700, 1240]], 10.2, I.LILAC, 3, "claimed", .6), I.label(130, 1300, "a lathe?", 10.6, I.LILAC, 30, "start")]}
-    # 7 · eight hundred hours: a hundred working days of eight hours, for one jar
+    # 7 · long hours of grinding with sand, day after day, for one jar (no figure: none could be verified)
     days = {"base": "dark", "floor": 1100, "cam": [1, 500, 880], "els": [{"k": "glow", "x": 200, "y": 980, "r": 220, "kind": "lamp", "op": .3},
             {"k": "vase", "x": 200, "y": 1100, "h": 260, "w": 180, "tone": "#8a8a90", "in": .2},
-            I.label(630, 500, "800 hours", 1.2, GOLD_, 64, st="serif")] +
-           [I.box(380 + 50 * (j % 10), 600 + 46 * (j // 10), 42, 38, I.AMBER, r=5, at=round(3.0 + .02 * j, 2), fx="pop") for j in range(100)] +
-           [I.label(630, 1120, "100 working days", 5.4, I.BONE, 32)]}
+            I.label(630, 690, "day after day", 1.2, GOLD_, 56, st="serif")] +
+           [I.box(380 + 46 * j, 760, 38, 38, I.AMBER, r=5, at=round(3.0 + .12 * j, 2), fx="pop") for j in range(10)] +
+           [I.arrow([[850, 779], [930, 779]], 4.3, I.AMBER, 3, "inferred", .6, False), I.label(630, 870, "for one jar", 5.0, I.BONE, 32)]}
     dig = [I.box(120, 1250, 760, 150, "#5f4c39", r=4, at=.4), {"k": "vase", "x": 500, "y": 1385, "h": 110, "w": 90, "tone": "#b89a78", "in": 1.0}] + \
           [I.line([[430, round(1290 + 18 * j, 1)], [570, round(1290 + 18 * j, 1)]], round(2.6 + .1 * j, 2), I.BLUE, 1.6, "known", .3, op=.7) for j in range(5)] + \
           [I.glow(500, 1330, 90, 3.4, .7, "scan")]
@@ -257,7 +257,7 @@ def serapeum_m():
     tl, ax = timeline(-1400, 0, [(-1400, "1400 BCE"), (-1000, "1000"), (-600, "600"), (-200, "200"), (0, "1 CE")], "Burials of the Apis bulls", y=1000)
     kings = [I.dot(round(ax.x(y), 1), 690, 10, GOLD_, at) for y, at in ((-548, 1.0), (-525, 1.3), (-336, 1.6))] + \
             [I.label(round(ax.x(-440), 1), 650, "the kings", 1.8, GOLD_, 30),
-             I.box(round(ax.x(-664), 1), 770, round(ax.x(-30) - ax.x(-664), 1), 38, "none", GOLD_, 3, 12, 5.4, fx="draw", dur=1.0)]
+             I.box(round(ax.x(-612), 1), 770, round(ax.x(-30) - ax.x(-612), 1), 38, "none", GOLD_, 3, 12, 5.4, fx="draw", dur=1.0)]
     # 6 · the test that would settle it: scan all twenty-four
     grid = [I.box(150 + 190 * (j % 4), 470 + 130 * (j // 4), 120, 70, GR, "#9a938a", 1.5, 4, round(.2 + .02 * j, 2), op=.75) for j in range(24)] + \
            [I.box(150 + 190 * (j % 4), 470 + 130 * (j // 4), 120, 70, "rgba(159,208,255,.45)", I.BLUE, 2, 4, round(9.0 + .12 * j, 2), fx="pop") for j in range(24)] + \

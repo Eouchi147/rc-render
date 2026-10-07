@@ -56,7 +56,7 @@ def tophet():
     field += [L_(0, 5, "urns and stone markers · schematic", GOLD, z=-22, dy=-24), L_(0, 0, "no remains are shown here", "#cfe6ff", z=22, dy=44)]
     s0 = iso(field, cam=[1, 500, 920], s=9, x=500, y=1010, az=-26, spin=1.2, el=.45, table=None)
     s1, v = tunisia([("Carthage · the tophet", 10.323, 36.844, {"c": GOLD}), ("Tunis", 10.18, 36.8, {"a": "end", "lx": -18, "ly": 30}), ("Zita", 11.1, 33.5, {"c": SCAN})])
-    s2 = stat("c. 20,000", "urns", "estimated for c. 400–200 BCE alone, by the team that dug the tophet in the 1970s", "Stager, Carthage excavations")
+    s2 = stat("c. 20,000", "urns", "estimated for c. 400 to 200 BCE alone, by the team that dug the tophet in the 1970s", "Stager, Carthage excavations")
     s3 = quote("They chose two hundred of the noblest children and sacrificed them publicly.", "Diodorus 20.14 · some 280 years later", size=42)
     bars = []
     A = [.9, .7, .5, .35, .25, .2, .15]; Bv = [.2, .3, .55, .9, .6, .35, .2]
@@ -66,13 +66,13 @@ def tophet():
     s4 = {"base": "dark", "cam": [1, 500, 880], "els": bars + [
         {"k": "line", "p": [[150, 1042], [480, 1042]], "c": "#8c7152", "w": 2}, {"k": "line", "p": [[550, 1042], [880, 1042]], "c": "#8c7152", "w": 2},
         {"k": "label", "x": 315, "y": 1100, "t": "many before birth", "st": "small", "c": SCAN, "in": .5},
-        {"k": "label", "x": 715, "y": 1100, "t": "a peak at 1–2 months", "st": "small", "c": AMBER, "in": .8},
+        {"k": "label", "x": 715, "y": 1100, "t": "a peak at 1 to 1.5 months", "st": "small", "c": AMBER, "in": .8},
         {"k": "cap", "x": 500, "y": 600, "t": "two teams, two age profiles · schematic", "in": .2},
         {"k": "label", "x": 500, "y": 1190, "t": "Schwartz et al. 2010 · Smith et al. 2011", "st": "small", "c": "#b9aa97", "in": 1.0}]}
     tl, ax = timeline(-800, 100, [(-800, "800 BCE"), (-600, "600"), (-400, "400"), (-200, "200"), (0, "1 CE")], "The tophet, as dated")
     tl["els"] += [{"k": "band", "x0": ax.x(-750), "x1": ax.x(-146), "y": 745, "h": 16, "c": PUNIC, "t": "the tophet in use", "in": .3}] + \
                  event(ax, -310, "Diodorus' crisis", row=1, c=AMBER, i=.6) + event(ax, -146, "Rome destroys Carthage", row=2, c=RED, i=.9) + \
-                 [{"k": "band", "x0": ax.x(-50), "x1": ax.x(100), "y": 440, "h": 14, "c": SCAN, "t": "Zita: care, no violence", "in": 1.2}]
+                 [{"k": "band", "x0": ax.x(-50), "x1": ax.x(100), "y": 440, "h": 14, "c": SCAN, "t": "Zita: illness and care", "in": 1.2}]
     s5 = tl
     s6 = like(s0, cam=[1.16, 500, 960])
     shots = [s0, s1, s2, s3, s4, s5, s6]
@@ -84,9 +84,9 @@ def tophet():
         B("collision", 3, ["[d:build][k:THE TEXTS][act:serious, measured]Ancient writers say ^yes. [act:reporting, even]Diodorus claims two hundred noble children were sacrificed in a single crisis, in {310|three ten} BCE. [act:fair, a caveat]He wrote ^centuries later, and as an ^outsider.",
                            "[d:build][act:careful, precise]Stone markers above the urns record@verb ^vows to the gods Baal Hammon and ^Tanit."]),
         B("cost", 4, ["[d:build][k:THE BONES][act:laying out the evidence, calm]Then scientists weighed the ^bones. [act:even, clear]One team found many babies who died ^before birth, a pattern that fits ^natural deaths.",
-                      "[d:build][act:the counterpoint, fair]Another found most had died at one to two ^months old: too ^regular, they argue, to be chance."]),
+                      "[d:build][act:the counterpoint, fair]Another found most had died at one to one and a half ^months old: too ^regular, they argue, to be chance."]),
         B("reversal", 5, ["[d:reveal][k:THE CATCH][act:the crux, slower]And here's the ^catch. [act:gentle, precise]Burned bone can show ^age, but rarely the cause of ^death.",
-                          "[d:build][act:warm, careful]At Zita, in southern Tunisia, a later cemetery of infants showed ^illness, and signs of ^care. [act:plain]No violence at ^all."]),
+                          "[d:build][act:warm, careful]At Zita, in southern Tunisia, a later tophet held infants and children who showed signs of ^illness, buried with ^care. [act:plain]No clear sign of ^sacrifice."]),
         B("tag", 6, ["[d:verdict][k:THE VERDICT][p:0.95][act:weighing it, calm authority][tune:rise]Child sacrifice at ^Carthage? [act:the verdict, even][tune:fall]*Mixed ^record@noun*. [act:fair, clear]The texts point one ^way. The bones can't ^confirm it.",
                      "[d:tension][p:0.93][act:quiet, humane]Whatever happened here, these were ^children. [act:the last word, gentle][tune:fall]And someone ^mourned them."]),
     ]
@@ -128,7 +128,7 @@ def tophet_m():
            line([[462, 935], [538, 935]], 2.4, PUNIC, 6, dur=.4), dot(500, 905, 15, PUNIC, 2.6),
            glow(500, 940, 120, 3.0, .45), label(600, 900, "a vow", 3.0, AMBER, 34, "start"), label(600, 950, "to Baal Hammon, Tanit", 3.4, "#cbbca8", 28, "start")] + \
         question(800, 1180, 5.6, 90)
-    # 4 · two teams, two age profiles (schematic): many before birth / a sharp peak at one to two months
+    # 4 · two teams, two age profiles (schematic): many before birth / a sharp peak at one to one and a half months
     A = [.9, .75, .6, .45, .3, .2, .15]; Bv = [.15, .25, .4, .6, .95, .45, .2]
     bx = lambda k: 150 + k * 100
     def chart(base, vals, c, at, name):
@@ -140,7 +140,7 @@ def tophet_m():
     ages = {"base": "dark", "cam": [1, 500, 900], "els": chart(820, A, BLUE, .3, "team one") + [
         label(bx(3) - 15, 460, "birth", 1.0, BONE, 28), label(bx(1) + 35, 870, "before birth", 3.0, BLUE, 30),
         glow(bx(1) + 35, 650, 170, 3.4, .4)]}
-    team2 = chart(1330, Bv, AMBER, .2, "team two") + [label(bx(4) + 35, 1380, "1 to 2 months", 2.4, AMBER, 30), ring(bx(4) + 35, 1130, 70, 2.8, AMBER, 3)]
+    team2 = chart(1330, Bv, AMBER, .2, "team two") + [label(bx(4) + 35, 1380, "1 to 1.5 months", 2.4, AMBER, 30), ring(bx(4) + 35, 1130, 70, 2.8, AMBER, 3)]
     # 5 · the catch: a calendar of age, its last page (the cause) missing; then Zita, a later clue of illness and care
     days = [box(175 + 52 * (k % 5), 640 + 52 * (k // 5), 40, 40, "#3a3029", "#8c7152", 1.5, 4, round(.8 + .04 * k, 2)) for k in range(20)]
     catch = {"base": "dark", "cam": [1, 500, 900], "els": [box(150, 560, 290, 330, "#d8c9a8", "#8a7a66", 2, 10, .3), box(150, 560, 290, 56, PUNIC, r=10, at=.4)]
@@ -177,7 +177,7 @@ def salt():
     s2 = stat("10", "warships", "the most Carthage was allowed after losing at Zama, in 202 BCE", "Polybius 15.18")
     s3 = like(s0, cam=[1.9, 500, 1000], add=[{"k": "cap", "x": 500, "y": 1330, "t": "c. 170 ship sheds · for a fleet of ten", "in": .6},
                                             {"k": "label", "x": 500, "y": 1395, "t": "Hurst & Stager 1978 · UNESCO campaign", "st": "small", "c": "#b9aa97", "in": 1.0}])
-    s4 = stat("1930", "the first 'salting'", "a line in a modern history book. No ancient source mentions salt.", "Ridley 1986 · Stevens 1988")
+    s4 = stat("0", "ancient sources", "mention salt at Carthage. The story grew more than a thousand years later.", "Ridley 1986 · Stevens 1988 · Saladin 2026")
     tl, ax = timeline(-300, 100, [(-300, "300 BCE"), (-200, "200"), (-100, "100"), (0, "1 CE"), (100, "100")], "The end of Punic Carthage")
     tl["els"] += event(ax, -202, "Zama: ten warships", row=1, c=AMBER, i=.3) + \
                  event(ax, -146, "the last war · the city falls", row=3, c=RED, i=.9) + event(ax, -29, "Roman Carthage founded", row=0, c=SCAN, i=1.2)
@@ -192,20 +192,20 @@ def salt():
         B("collision", 3, ["[d:build][k:THE HARBOUR][act:impressed, building]Yet archaeologists found a ^circular war harbour, about three hundred and twenty-five metres across, with sheds for about a hundred and ^seventy ships.",
                            "[d:aside][act:dry, amused]For a fleet of ^ten."]),
         B("cost", 5, ["[d:build][k:THE END][act:grave, sober]In {146|one forty-six} BCE, Rome took the city after a long ^siege. [act:heavy, quiet]It was ^burned, and its people killed or ^enslaved."]),
-        B("reversal", 4, ["[d:reveal][k:THE SALT][act:the twist, precise][tune:rise]And the ^salt? [act:plain, clear]No ancient writer ^mentions it. [act:revealing, a small smile]The story first appears in a history book from {1930|nineteen thirty}.",
+        B("reversal", 4, ["[d:reveal][k:THE SALT][act:the twist, precise][tune:rise]And the ^salt? [act:plain, clear]No ancient writer ^mentions it. [act:revealing, a small smile]Historians traced the story back through a book of {1930|nineteen thirty} and a pope's order of {1299|twelve ninety-nine} to an eleventh-century ^tale.",
                           "[d:build][go:5|0][act:the irony, warm]Within about a century, Rome ^rebuilt Carthage, as one of its greatest ^cities."]),
         B("tag", 6, ["[d:verdict][k:THE VERDICT][p:0.95][act:weighing it, calm][tune:rise]Salted ^earth? [act:the verdict, firm][tune:fall]*Ruled ^out*. [act:the other half, confident]A hidden war harbour for a navy it wasn't ^allowed? [act:sure][tune:fall]That part is ^real.",
-                     "[d:tension][p:0.93][act:the last word, a small smile]Some myths are ancient. [act:quiet, pointed][tune:fall]This one is barely a ^century old."]),
+                     "[d:tension][p:0.93][act:the last word, a small smile]Some myths are ancient. [act:quiet, pointed][tune:fall]This one only ^looks it."]),
     ]
     return EP("carthage-salt", "15.02", "Carthage: The Salt That Never Was", "carthage-salt", "debunked", "Did Rome salt the earth of Carthage in 146 BCE?", "Rome *salted* Carthage?", beats, shots,
-              "Ridley 1986 (doi:10.1086/366973) · Stevens 1988 (doi:10.1086/367078) · Hurst & Stager 1978 · Polybius 15.18 · Appian, Punica 96",
-              "Rome never salted Carthage: the story is a line in a 1930 history book. But the defeated city did build a hidden war harbour for a navy it was forbidden to have.",
+              "Ridley 1986 (doi:10.1086/366973) · Stevens 1988 (doi:10.1086/367078) · Warmington 1988 (doi:10.1086/367123) · Saladin 2026 (doi:10.1086/739931) · Hurst & Stager 1978 · Polybius 15.18 · Appian, Punica 96",
+              "No ancient writer says Rome salted Carthage: the story grew more than a thousand years later. But the defeated city did build a hidden war harbour for a navy it was forbidden to have.",
               ["#Carthage", "#Tunisia", "#Rome", "#MythBusting", "#CarthageAndBefore"])
 
 
 def salt_m():
     """The salt that never was, as one continuous take (see mural.py): ten warships, a round harbour with some 170 sheds (three football
-    pitches across), the fire of 146 BCE, and two thousand years of silence before a 1930 book adds the salt."""
+    pitches across), the fire of 146 BCE, and more than a thousand years of silence before later writers add the salt."""
     from mural import remix
     from illus import arrow, line, glow, label, dot, box, oval, ring, scatter, AMBER, BLUE, GREEN, BONE, LILAC, SEA as SEA_
     ep = salt()
@@ -237,18 +237,22 @@ def salt_m():
         lit.append(line([[round(cx + (R - 40) * math.cos(a), 1), round(cy + (R - 40) * math.sin(a), 1)], [round(cx + (R + 4) * math.cos(a), 1), round(cy + (R + 4) * math.sin(a), 1)]],
                         round(.3 + .12 * j, 2), GOLD, 10, draw=False))
     lit += [glow(cx, cy, 330, .4, .25)]
-    # 4 · the salt: ancient accounts say nothing; c. 2,000 years later, a 1930 book
+    # 4 · the salt: ancient accounts say nothing; traced upstream from a 1930 book to a pope's order of 1299 and an 11th-century tale
     X = lambda yr: round(120 + (yr + 200) / 2200 * 760, 1)
-    grains = [dot(x, y, 4, "#f5f1e6", round(5.4 + .03 * k, 2)) for k, (x, y) in enumerate(scatter(36, 760, 900, 880, 1060, 5))]
+    grains = [dot(x, y, 4, "#f5f1e6", round(11.2 + .02 * k, 2)) for k, (x, y) in enumerate(scatter(36, 500, 900, 880, 1060, 5))]
     silence = {"base": "dark", "cam": [1, 500, 900], "els": [
         line([[110, 940], [890, 940]], .2, "#8c7152", 3), dot(X(-146), 940, 10, RED, .4), label(X(-146) - 10, 1000, "146 BCE", .5, RED, 28, "start")]
         + sum([[box(150 + 70 * k, 790, 46, 70, "#d8c9a8", "#8a7a66", 1.5, 6, round(1.4 + .3 * k, 2), fx="pop"),
                 line([[158 + 70 * k, 810], [188 + 70 * k, 810]], round(1.5 + .3 * k, 2), "#8a7a66", 2, draw=False),
                 line([[158 + 70 * k, 830], [184 + 70 * k, 830]], round(1.5 + .3 * k, 2), "#8a7a66", 2, draw=False)] for k in range(3)], [])
         + [label(240, 740, "ancient accounts", 2.0, "#cbbca8", 28), label(240, 700, "no salt", 2.8, GREEN, 30),
-           arrow([[300, 1080], [800, 1080]], 3.4, AMBER, 3, "inferred", 1.4, False), label(550, 1130, "c. 2,000 years", 4.0, AMBER, 32),
-           box(X(1930) - 45, 780, 90, 110, GOLD, "#fff3dc", 2, 6, 4.6, fx="pop"), line([[X(1930) - 45, 780], [X(1930) - 45, 890]], 4.7, "#8a6a44", 5, draw=False),
-           dot(X(1930), 940, 10, GOLD, 4.6), label(X(1930) + 20, 1000, "1930", 4.8, GOLD, 30, "end")] + grains}
+           box(X(1930) - 45, 780, 90, 110, GOLD, "#fff3dc", 2, 6, 6.8, fx="pop"), line([[X(1930) - 45, 780], [X(1930) - 45, 890]], 6.9, "#8a6a44", 5, draw=False),
+           dot(X(1930), 940, 10, GOLD, 6.8), label(X(1930) + 20, 1000, "1930", 7.0, GOLD, 30, "end"),
+           box(X(1299) - 30, 800, 60, 90, GOLD, "#fff3dc", 2, 6, 8.0, fx="pop"), dot(X(1299), 940, 10, GOLD, 8.0),
+           label(X(1299) - 20, 1000, "1299", 8.2, GOLD, 30, "start"),
+           box(X(1068) - 30, 800, 60, 90, GOLD, "#fff3dc", 2, 6, 9.85, fx="pop"), dot(X(1068), 940, 10, GOLD, 9.85),
+           label(X(1068) + 20, 1000, "11th c.", 10.0, GOLD, 30, "end"),
+           arrow([[300, 1080], [X(1068) - 45, 1080]], 10.65, AMBER, 3, "inferred", .8, False), label(410, 1130, "1,000+ years", 10.95, AMBER, 32)] + grains}
     tl, ax = timeline(-300, 100, [(-300, "300 BCE"), (-200, "200"), (-100, "100"), (0, "1 CE"), (100, "100")], "The end of Punic Carthage")
     fire = [glow(ax.x(-146), 800, 120, 1.0, .75, "red"), glow(ax.x(-146), 780, 70, 1.6, .6, "red")]
     return remix(ep, scenes={2: ten, 3: harb, 4: silence}, alias={6: 0}, adds={5: fire}, cams={6: [1.18, 500, 960]},
@@ -307,10 +311,10 @@ def dougga():
     s2 = {"base": "dark", "cam": [1, 500, 860], "els": [{"k": "rect", "x": 120, "y": 640, "w": 760, "h": 360, "fill": "#cdbb95", "c": "#fff3dc", "sw": 1.5, "in": .1}] + rows_l + rows_r + [
         {"k": "label", "x": 310, "y": 1060, "t": "Punic: readable", "st": "small", "c": AMBER, "in": 1.0}, {"k": "label", "x": 690, "y": 1060, "t": "Libyco-Berber: unknown", "st": "small", "c": SCAN, "in": 1.2},
         {"k": "cap", "x": 500, "y": 580, "t": "one text, two scripts · schematic", "in": .2},
-        {"k": "label", "x": 500, "y": 1140, "t": "the stone: 69 × 207 cm · British Museum", "st": "small", "c": "#b9aa97", "in": 1.4}]}
+        {"k": "label", "x": 500, "y": 1140, "t": "the inscription: two stones · British Museum", "st": "small", "c": "#b9aa97", "in": 1.4}]}
     s3 = stat("22 of 24", "signs read", "in the eastern Libyco-Berber alphabet. The western variant is still largely unread.", "de Saulcy 1843 · Mnamon, Scuola Normale")
-    tl, ax = timeline(-300, 2000, [(-300, "300 BCE"), (500, "500 CE"), (1300, "1300"), (2000, "2000")], "One stone, two thousand years")
-    tl["els"] += event(ax, -150, "the tomb is built", row=1, c=GOLD, i=.3) + right(event(ax, 1842, "Reade removes the stone", row=3, c=RED, i=.7)) + \
+    tl, ax = timeline(-300, 2000, [(-300, "300 BCE"), (500, "500 CE"), (1300, "1300"), (2000, "2000")], "One inscription, two thousand years")
+    tl["els"] += event(ax, -150, "the tomb is built", row=1, c=GOLD, i=.3) + right(event(ax, 1842, "Reade removes the inscription", row=3, c=RED, i=.7)) + \
                  right(event(ax, 1843, "sounds deciphered", row=1, c=SCAN, i=1.0)) + right(event(ax, 1910, "tomb rebuilt", row=2, c=AMBER, i=1.3))
     s4 = tl
     s5 = {"base": "dark", "cam": [1, 500, 860], "els": grp("What we can read", "#8fd9b0", ["names and titles", "'this person, son of that one'"]) +
@@ -318,20 +322,20 @@ def dougga():
     s6 = like(s0, cam=[1.15, 500, 960])
     shots = [s0, s1, s2, s3, s4, s5, s6]
     beats = [
-        B("hook", 0, ["[d:intrigue][k:DOUGGA · TUNISIA][sfx:boom][act:storytelling, a hint of disbelief]In {1842|eighteen forty-two}, a British consul ^wrecked a royal tomb in Tunisia, to take one ^stone.",
-                      "[d:tension][cam:1.12|0|0][act:the turn, wonder]That stone let scholars read@present a lost African ^alphabet."], cut=False),
+        B("hook", 0, ["[d:intrigue][k:DOUGGA · TUNISIA][sfx:boom][act:storytelling, a hint of disbelief]Nearly two centuries ago, a British consul ^wrecked a prince's tomb in Tunisia, to take its ^inscription.",
+                      "[d:tension][cam:1.12|0|0][act:the turn, wonder]That inscription let scholars read@present a lost African ^alphabet."], cut=False),
         B("world", 1, ["[d:calm][k:THE TOMB][act:plain, admiring]The Libyco-Punic mausoleum of ^Dougga: about twenty-one metres of stone, in ^three tiers, from the second century BCE."]),
         B("collision", 2, ["[d:build][k:THE STONE][act:explaining, clear]Its inscription says the same thing in ^two scripts. [act:precise]One is ^Punic, the language of Carthage, which scholars could already read@present. [act:the reveal][tune:fall]The other is ^Libyco-Berber.",
-                           "[d:build][go:4|0][act:storytelling, onward]Consul Thomas Reade had it ^pulled out, and the tomb came ^down. [act:plain]The stone went to the British ^Museum."]),
+                           "[d:build][go:4|0][act:storytelling, onward]Consul Thomas Reade had it ^pulled out, and the tomb came ^down. [act:plain]Its two stones went to the British ^Museum."]),
         B("cost", 3, ["[d:build][k:THE KEY][act:the decipherment, delighted]Names work like ^keys. [act:precise, building]Match the names in Punic, and you learn the ^sounds of the other letters. [act:the payoff, confident]Today, twenty-two of the twenty-four eastern signs are ^read@past."]),
         B("reversal", 5, ["[d:reveal][k:THE CATCH][act:the twist, softer]But reading letters isn't reading a ^language. [act:careful, precise]The script writes no ^vowels, and most texts are ^names: this person, son of ^that one.",
                           "[d:build][act:quiet wonder]The Tuareg script, ^Tifinagh, descends from it. [act:gentle][tune:fall]Yet the ancient language itself is still mostly ^silent."]),
         B("tag", 6, ["[d:verdict][k:THE VERDICT][p:0.95][act:weighing it, calm][tune:rise]A lost alphabet ^cracked? [act:the verdict, confident][tune:fall]^*Established*, for its sounds. [act:open, honest]What those people ^said is still an open question.",
-                     "[d:tension][p:0.93][act:plain, the epilogue]The tomb was rebuilt in {1910|nineteen ten}. [act:the last word, quiet][tune:fall]The stone is still in ^London."]),
+                     "[d:tension][p:0.93][act:plain, the epilogue]The tomb was rebuilt in {1910|nineteen ten}. [act:the last word, quiet][tune:fall]Its stones are still in ^London."]),
     ]
-    return EP("dougga-bilingual", "15.04", "Dougga: The Stone That Spoke Two Languages", "dougga-bilingual", "solid", "How was the Libyco-Berber script deciphered, and how much of it can we really read?", "One *stone*, a lost alphabet.", beats, shots,
+    return EP("dougga-bilingual", "15.04", "Dougga: The Stone That Spoke Two Languages", "dougga-bilingual", "solid", "How was the Libyco-Berber script deciphered, and how much of it can we really read?", "Two *scripts*, a lost alphabet.", beats, shots,
               "British Museum 1852,0305.1 · Mnamon (Scuola Normale Superiore), Libyco-Berber · UNESCO WHC 794 · Chabot 1940, Recueil des inscriptions libyques",
-              "A consul brought down a royal tomb in Tunisia to take one stone. That stone, written in two scripts, let scholars read the sounds of a lost African alphabet, but not yet its language.",
+              "A consul brought down a Numidian prince's tomb in Tunisia to take its inscription. Written in two scripts, it let scholars read the sounds of a lost African alphabet, but not yet its language.",
               ["#Tunisia", "#Dougga", "#Amazigh", "#Decipherment", "#CarthageAndBefore"])
 
 
@@ -725,7 +729,7 @@ def _ledger_text():
         B("world", 1, ["[d:calm][k:ESTABLISHED][act:confident, ticking them off][tune:level]Our species was in ^Morocco some three hundred thousand years ago. [act:plain, sure][tune:level]The sounds of the Libyco-Berber script are ^read@past. [act:the last one, warm][tune:fall]And Kerkouane was left, and never ^rebuilt."]),
         B("collision", 2, ["[d:build][k:STILL WEIGHED][act:weighing each, even][tune:level]Stone Age sailors reaching ^Sicily: plausible. [act:measured, even][tune:level]Sacrifice at the ^tophet: a mixed record@noun. [act:light][tune:fall]And the lake of the ^Argonauts: real lakes, the wrong century."]),
         B("cost", 3, ["[d:build][k:AWAITING EVIDENCE][act:even, fair]The world's oldest ^shrine, at El Guettar. [act:practical]It needs a ^date. [act:hopeful, light][tune:fall]One modern date from the ^deposit could settle it."]),
-        B("reversal", 4, ["[d:reveal][k:RULED OUT][sfx:hit][act:clear, a small smile]Rome salting ^Carthage. [act:dry]A story from {1930|nineteen thirty}. [act:amused, plain][tune:fall]No ancient writer mentions ^salt at all."]),
+        B("reversal", 4, ["[d:reveal][k:RULED OUT][sfx:hit][act:clear, a small smile]Rome salting ^Carthage. [act:dry]A story told more than a thousand years ^later. [act:amused, plain][tune:fall]No ancient writer mentions ^salt at all."]),
         B("tag", 5, ["[d:verdict][k:THE MORAL][p:0.95][act:warm, wise, even]Much of what we think we know about this coast came from its ^enemies, or from modern ^writers. [act:the lesson, simple][tune:fall]The ground tells its own ^story.",
                      "[d:tension][p:0.93][act:the motto, calm and warm]^Coherence is the measure. [act:quiet, the last word][tune:fall]Not ^final demonstration."]),
     ]
@@ -769,7 +773,7 @@ def ledger():
     s7 = C.step(C.cam_cell(EG), C.verdict(EG, "awaiting", "the oldest shrine?", .4))
     s8 = C.step(C.cam_cell(EG), C.question(EG, dx=C.w * .26, dy=-160, at=.2, c=VCOL["awaiting"]) + C.note(EG, "one modern date could settle it", at=.8, c=VCOL["awaiting"]))
     s9 = C.step(C.cam_cell(SA), C.verdict(SA, "ruled", at=.2) + C.struck(SA, "Rome salted the fields", dy=-170, at=.5))
-    s10 = C.step(C.cam_cell(SA), C.note(SA, "first told in 1930", at=.3, c=VCOL["ruled"]))
+    s10 = C.step(C.cam_cell(SA), C.note(SA, "no ancient source", at=.3, c=VCOL["ruled"]))
     s11 = C.step(C.cam_all())
     s12 = C.step(C.cam_all(), [e for i in range(8) for e in C.wash(i, "#e8b87a", at=.3 + .1 * i, op=.12)])
     s13 = C.step(C.cam_all(z=.64, sy=700))

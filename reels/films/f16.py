@@ -85,19 +85,19 @@ def circle_items(lines=True):
 def nabta():
     c = circle_items() + [{"t": "person", "x": 3.6, "y": 0, "z": 2.8, "h": 1.7},
                           L_(0, .6, "the 'calendar circle' · c. 4 m across · schematic", GOLD, z=-2.2, dy=-30),
-                          L_(0, 0, "sightlines: north–south, and midsummer sunrise", "#cfe6ff", z=3.2, dy=50)]
+                          L_(0, 0, "sightlines: north-south, and midsummer sunrise", "#cfe6ff", z=3.2, dy=50)]
     s0 = iso(c, cam=[1, 500, 920], s=54, x=500, y=1020, az=-24, spin=1.0, el=.55, table=None)
     s1, v = sahara([("Nabta Playa", 30.7256, 22.508, {"c": GOLD}), ("Abu Simbel", 31.6258, 22.3372, {"c": SCAN, "ly": 32}),
                     ("Aswan · Nubia Museum", 32.8886, 24.0826, {"a": "end", "lx": -18, "ly": -24})], 27, 36, 19.5, 27.5)
     s1["els"] += [tag_label(v, 29.2, 25.2, "the Western Desert"), {"k": "scale", "x": 80, "y": 1240, "w": v.km(100), "t": "100 km"}]
     zoom = like(s0, cam=[1.5, 500, 1000], add=[{"k": "cap", "x": 500, "y": 1330, "t": "four pairs of upright stones", "in": .4}])
-    s3 = stat("c. 4800", "BCE", "the circle's date: some 1,800 years before the first phase of Stonehenge", "Malville et al. 1998, Nature")
+    s3 = stat("c. 7,000", "years old", "or older: at least 1,800 years before the first phase of Stonehenge", "Malville et al. 1998, Nature")
     tl, ax = timeline(-9000, -2500, [(-9000, "9000 BCE"), (-7000, "7000"), (-5000, "5000"), (-3000, "3000")], "A lake, then a desert")
     tl["els"] += [{"k": "band", "x0": ax.x(-8500), "x1": ax.x(-3600), "y": 745, "h": 14, "c": LAKE, "t": "seasonal lake, herders", "in": .3}] + \
                  event(ax, -5500, "cattle burials", row=2, c=OCHRE, i=.6) + event(ax, -4800, "the circle", row=1, c=GOLD, i=.9) + \
                  right(event(ax, -3000, "Stonehenge begins", row=3, c=SCAN, i=1.2))
     s4 = tl
-    s5 = dark(grp("likely", "#8fd9b0", ["north–south and midsummer lines", "a ceremonial centre for herders"], y=440, size=28) +
+    s5 = dark(grp("likely", "#8fd9b0", ["north-south and midsummer lines", "a ceremonial centre for herders"], y=440, size=28) +
               grp("overreach", "#ff8a7a", ["a precise calendar", "star maps and star distances"], y=820, size=28))
     s6 = like(s0, cam=[1.12, 500, 960])
     shots = [s0, s1, zoom, s3, s4, s5, s6]
@@ -106,7 +106,7 @@ def nabta():
                       "[d:tension][cam:1.12|0|0][act:the question, leaning in][tune:rise]Was it the world's first ^observatory?"], cut=False),
         B("world", 1, ["[d:calm][k:NABTA PLAYA][act:plain, orienting]Nabta Playa lies about a hundred kilometres west of Abu ^Simbel. [act:steady, factual]Back then, summer rains filled a seasonal ^lake, and herders came with their ^cattle."]),
         B("collision", 2, ["[d:build][k:THE CIRCLE][act:building, precise]The circle is only about four metres ^across, with four pairs of upright ^stones. [act:the claim, intrigued]Two gaps line up north to ^south. [act:the second one]Another faces the midsummer ^sunrise."]),
-        B("cost", 3, ["[d:build][k:THE DATE][act:the reveal, strong]It dates to about {4800|forty-eight hundred} BCE. [act:context, wonder]Some eighteen centuries before the first phase of ^Stonehenge.",
+        B("cost", 3, ["[d:build][k:THE DATE][act:the reveal, strong]It's some seven thousand years ^old, perhaps older. [act:context, wonder]At least eighteen centuries before the first phase of ^Stonehenge.",
                       "[d:build][go:4|0][act:vivid]Nearby, cattle were buried in clay-lined ^chambers, and stones nearly three metres tall were dragged into ^lines."]),
         B("reversal", 5, ["[d:reveal][k:THE CATCH][act:fair, the challenger's case]Some go further: star alignments, even a map of ^Orion. [act:the reply, precise]But those dates fall about fifteen hundred years before the ^stones, and some stones may have ^moved.",
                           "[d:build][act:plain, a small smile][tune:fall]Even the excavators say calendar circle may be the wrong ^name."]),
@@ -135,7 +135,7 @@ def glass():
     s0 = dark(frame + scarab(500, 980, .82) + [{"k": "label", "x": 500, "y": 1320, "t": "the scarab at the heart of a pectoral · redrawn", "c": AMBER, "in": 1.2}])
     s1, v = sahara([("the glass field (approx.)", 25.5, 25.4, {"c": GOLD}), ("Grand Egyptian Museum", 31.1187, 29.9942, {"c": SCAN, "a": "end", "lx": -18, "ly": -24})], 22, 34, 21, 32.5)
     s1["els"] += [tag_label(v, 26.2, 27.4, "the Great Sand Sea"), {"k": "scale", "x": 80, "y": 1240, "w": v.km(200), "t": "200 km"}]
-    s2 = stat("c. 29", "million years", "the glass's age, by fission tracks. It is 96.5–99% pure silica", "LPI 2003 · Cavosie & Koeberl 2019")
+    s2 = stat("c. 29", "million years", "the glass's age, by fission tracks. It is 96.5 to 99% pure silica", "LPI 2003 · Cavosie & Koeberl 2019")
     ground = {"k": "rect", "x": 0, "y": 1040, "w": 1000, "h": 400, "fill": "#8a7050", "c": "none", "sw": 0, "in": -1}
     bowl = {"k": "poly", "p": [[80, 1040], [140, 1100], [250, 1130], [360, 1100], [420, 1040]], "fill": "#5a4632", "c": "#e9dccb", "w": 2, "curve": True, "in": .4}
     s3 = dark([ground, bowl, {"k": "arrow", "p": [[120, 640], [200, 820], [250, 1000]], "c": AMBER, "w": 3, "in": .3, "fx": "draw"},
@@ -147,7 +147,7 @@ def glass():
                {"k": "cap", "x": 500, "y": 560, "t": "two ways to melt a desert · schematic", "in": .1},
                {"k": "label", "x": 500, "y": 1300, "t": "no source crater confirmed yet", "st": "small", "c": "#b9aa97", "in": 1.4}])
     tl, ax = timeline(1900, 2030, [(1900, "1900"), (1950, "1950"), (2000, "2000")], "The scarab, re-read")
-    tl["els"] += event(ax, 1922, "Carter: 'chalcedony'", row=1, c=AMBER, i=.3) + event(ax, 1932, "the glass field studied", row=2, c=SCAN, i=.6) + \
+    tl["els"] += event(ax, 1933, "Carter: 'chalcedony'", row=1, c=AMBER, i=.3) + event(ax, 1932, "the glass field studied", row=2, c=SCAN, i=.6) + \
                  event(ax, 1998, "re-identified: desert glass", row=3, c=GOLD, i=.9) + right(event(ax, 2019, "impact mineral found", row=1, c=RED, i=1.2))
     s4 = tl
     s5 = dark(grp("signs of an impact", "#8fd9b0", ["a mineral made only by impacts", "melt above 2,750 °C", "shocked quartz in the bedrock"]))
@@ -158,7 +158,7 @@ def glass():
                       "[d:tension][cam:1.12|0|0][act:the twist, leaning in][tune:fall]It's made of glass, melted by something from ^space."], cut=False),
         B("world", 1, ["[d:calm][k:THE GREAT SAND SEA][act:plain, orienting]The glass lies scattered among the dunes near the border of Egypt and ^Libya.",
                        "[d:build][go:2|0][act:steady, precise]It is almost pure ^silica, and about twenty-nine million years ^old. [act:light, a small smile]Stone Age people made ^tools from it."]),
-        B("collision", 4, ["[d:build][k:THE SCARAB][act:storytelling]In {1922|nineteen twenty-two}, Howard Carter listed the scarab as ^chalcedony, a common stone. [act:the reveal, delighted]In the {1990s|nineteen nineties}, a mineralogist looked again: it was desert@noun ^glass."]),
+        B("collision", 4, ["[d:build][k:THE SCARAB][act:storytelling]Howard Carter catalogued the scarab as ^chalcedony, a common stone. [act:the reveal, delighted]In the {1990s|nineteen nineties}, a mineralogist looked again: it was desert@noun ^glass."]),
         B("cost", 5, ["[d:build][k:THE IMPACT][act:building, precise]Tiny crystals in the glass keep traces of a mineral that forms only in ^impacts. [act:vivid]The melt passed two thousand seven hundred and fifty ^degrees."]),
         B("reversal", 3, ["[d:reveal][k:THE CATCH][act:the crux, curious][tune:fall]But where's the ^crater? [act:fair, the challenger's case]Some argue for an ^airburst: a blast in the sky that melted the sand without leaving a ^hole.",
                           "[d:build][act:plain]One candidate crater, ^Kebira, failed the ^tests."]),
@@ -166,7 +166,7 @@ def glass():
                      "[d:tension][p:0.93][act:the last word, a small smile][tune:fall]The crater is still ^missing."]),
     ]
     return EP("desert-glass", "16.02", "Tutankhamun's Sky-Glass", "desert-glass", "strong", "Is the scarab on Tutankhamun's pectoral made of glass melted by a cosmic impact?", "A scarab made by a *cosmic* blast.", beats, shots,
-              "Cavosie & Koeberl 2019 (doi:10.1130/G45974.1) · Kovaleva et al. 2019 (doi:10.1111/maps.13250) · Kovaleva & Helmy 2023 (doi:10.2138/am-2022-8759) · Boslough & Crawford 2008 (doi:10.1016/j.ijimpeng.2008.07.053) · de Michele 1998",
+              "Cavosie & Koeberl 2019 (doi:10.1130/G45974.1) · Koeberl & Ferrière 2019 (doi:10.1111/maps.13250) · Kovaleva et al. 2023 (doi:10.2138/am-2022-8759) · Boslough & Crawford 2008 (doi:10.1016/j.ijimpeng.2008.07.053) · de Michele 1998",
               "The yellow-green scarab on Tutankhamun's pectoral is Libyan Desert Glass, melted about 29 million years ago by a cosmic impact or airburst. What the glass shows, and the crater nobody has found.",
               ["#Tutankhamun", "#Egypt", "#Meteorite", "#Science", "#GreenSahara"])
 
@@ -210,7 +210,7 @@ def takarkori():
         B("world", 1, ["[d:calm][k:TAKARKORI][act:plain, orienting]A rock shelter in the mountains of south-west ^Libya. [act:steady]Herders lived here with cattle, beside lakes and ^grassland.",
                        "[d:build][act:gentle, careful]The desert@noun air mummified the two women ^naturally."]),
         B("collision", 2, ["[d:build][k:THE GENOMES][act:the reveal, precise]In {2025|twenty twenty-five}, their genomes were ^read@past. [act:building, amazed]Their line split from other African lineages about fifty thousand years ^ago, and then stayed ^apart.",
-                           "[d:build][go:3|0][act:connecting it, delighted]Their closest known relatives lived in ^Morocco, fifteen thousand years ^earlier."]),
+                           "[d:build][go:3|0][act:connecting it, delighted]Their closest known relatives lived in ^Morocco, about fifteen thousand years ^ago."]),
         B("cost", 4, ["[d:build][k:THE HERDERS][act:the point, clear]So the green Sahara's herders were mostly ^local. [act:thoughtful]Cattle and milk arrived as ^ideas, not with a wave of ^newcomers. [act:light, a small smile]Their pots hold Africa's earliest known milk ^fats."]),
         B("reversal", 5, ["[d:reveal][k:THE CATCH][act:fair, a caveat]But two people from one site are not a whole ^people. [act:precise]Teeth and culture elsewhere hint at more ^movement."]),
         B("tag", 6, ["[d:verdict][k:THE VERDICT][p:0.95][act:weighing it, even][tune:rise]A lost lineage in the green ^Sahara? [act:the verdict, measured][tune:fall]*Strong ^evidence*.",
@@ -236,7 +236,7 @@ def roundhead(cx, base, h, c="#d8c7ae", fill="#b0643c", op=1.0, i=.3):
 def tassili():
     wall = {"k": "rect", "x": 0, "y": 520, "w": 1000, "h": 900, "fill": "#7a5a42", "c": "none", "sw": 0, "in": -1}
     s0 = dark([wall] + roundhead(440, 1240, 640, i=.4) + [{"k": "person", "x": 800, "y": 1240, "h": 150, "in": .8},
-               {"k": "label", "x": 500, "y": 1320, "t": "a 'Round Head' figure, up to 5 m tall · redrawn", "c": AMBER, "in": 1.2}])
+               {"k": "label", "x": 500, "y": 1320, "t": "a 'Round Head' figure, about 6 m tall · redrawn", "c": AMBER, "in": 1.2}])
     s1, v = sahara([("Djanet", 9.485, 24.555, {"c": SCAN, "a": "end", "lx": -18, "ly": 30}), ("Tassili n'Ajjer", 9.6, 24.9, {"c": GOLD})], 0, 16, 18, 32)
     s1["els"] += [tag_label(v, 4.5, 28.5, "Algeria"), {"k": "scale", "x": 80, "y": 1240, "w": v.km(300), "t": "300 km"}]
     s2 = stat("15,000+", "images", "painted and engraved across the plateau. UNESCO World Heritage since 1982", "UNESCO · TARA")
@@ -249,7 +249,7 @@ def tassili():
     tl["els"] += event(ax, 1956, "Lhote's copying expedition", row=1, c=AMBER, i=.3) + event(ax, 1968, "'ancient astronauts'", row=2, c=RED, i=.6) + \
                  event(ax, 1982, "UNESCO listing", row=3, c=SCAN, i=.9) + right(event(ax, 2000, "'systematic vandalism'", row=1, c=GOLD, i=1.2))
     s4 = tl
-    s5 = dark(grp("what's real", "#8fd9b0", ["an early style, c. 9,500–7,500 years ago", "masks, body paint, or spirit beings"], y=440, size=28) +
+    s5 = dark(grp("what's real", "#8fd9b0", ["an early style, c. 9,500 to 7,500 years ago", "masks, body paint, or spirit beings"], y=440, size=28) +
               grp("the scandal", "#ff8a7a", ["paintings wetted to brighten them", "some published works faked"], y=820, size=28))
     s6 = like(s0, cam=[1.12, 500, 960])
     shots = [s0, s1, s2, s3, s4, s5, s6]
@@ -268,7 +268,7 @@ def tassili():
     ]
     return EP("tassili", "16.04", "Tassili: The Great Martian God", "tassili", "debunked", "Do the Round Head paintings of Tassili n'Ajjer show ancient astronauts?", "The great *Martian* god?", beats, shots,
               "Keenan 2000 (doi:10.1017/S0003598X00059287) · Keenan 2002 (doi:10.1179/pua.2002.2.3.131) · Mercier et al. 2012 (doi:10.1016/j.quageo.2011.11.010) · Le Quellec 2009, Des Martiens au Sahara · TARA, Rock Art of the Tassili n Ajjer",
-              "A 1950s explorer joked that a giant painted figure in the Sahara was the 'great Martian god', and ancient-astronaut writers took him at his word. What the Round Heads are, and the real scandal of how they were copied.",
+              "A 1950s explorer nicknamed a giant painted figure in the Sahara the 'great Martian god', and ancient-astronaut writers took the name literally. What the Round Heads are, and the real scandal of how they were copied.",
               ["#RockArt", "#Algeria", "#AncientAstronauts", "#MythBusting", "#GreenSahara"])
 
 
@@ -353,7 +353,7 @@ def gobero():
                  event(ax, -3300, "the embrace", row=2, c="#e8a0b8", i=1.2)
     s4 = tl
     s5 = dark(grp("2008", "#e8b87a", ["two peoples, a thousand years apart"], y=460, size=28) +
-              grp("2025", "#8fd9b0", ["their teeth: hard to tell apart", "perhaps one people all along"], y=760, size=28))
+              grp("2026", "#8fd9b0", ["their teeth: hard to tell apart", "perhaps one people all along"], y=760, size=28))
     s6 = like(s0, cam=[1.14, 500, 960])
     shots = [s0, s1, s2, s3, s4, s5, s6]
     beats = [
@@ -364,12 +364,12 @@ def gobero():
         B("collision", 4, ["[d:build][k:TWO PEOPLES?][act:building, precise]The first group, called ^Kiffian, fished with harpoons from about {7700|seventy-seven hundred} BCE. [act:grave]Then a long dry spell, and the lake ^emptied.",
                            "[d:build][act:the change]When the water came back, the burials looked ^different: the ^Tenerians, with ^cattle."]),
         B("cost", 3, ["[d:build][k:THE EMBRACE][act:tender, careful]The embrace belongs to this second ^phase. [act:gentle][tune:fall]Pollen suggests flowers were laid in the ^grave."]),
-        B("reversal", 5, ["[d:reveal][k:THE TWIST][act:fair, even]In {2008|two thousand eight}, the team saw two different ^peoples. [act:the twist, precise]But in {2025|twenty twenty-five}, a study of their teeth, with Sereno as a co-author, found them hard to tell ^apart."]),
+        B("reversal", 5, ["[d:reveal][k:THE TWIST][act:fair, even]In {2008|two thousand eight}, the team saw two different ^peoples. [act:the twist, precise]But in {2026|twenty twenty-six}, a study of their teeth, with Sereno as a co-author, found them hard to tell ^apart."]),
         B("tag", 6, ["[d:verdict][k:THE VERDICT][p:0.95][act:weighing it, even][tune:rise]One people, or ^two? [act:the verdict, measured][tune:fall]*Open ^question*. [act:fair]Ancient DNA could ^settle it.",
                      "[d:tension][p:0.93][act:the last word, warm, gentle][tune:fall]Either way, someone loved ^them."]),
     ]
     return EP("gobero", "16.06", "The Embrace at Gobero", "gobero", "contested", "Were Gobero's two phases of burials made by two different peoples, or one?", "Buried in an *embrace*.", beats, shots,
-              "Sereno et al. 2008 (doi:10.1371/journal.pone.0002995) · Stojanowski, Irish & Sereno 2025 (doi:10.1002/ajpa.70262) · Stojanowski & Knudson 2011 (doi:10.1002/ajpa.21542)",
+              "Sereno et al. 2008 (doi:10.1371/journal.pone.0002995) · Stojanowski, Irish & Sereno 2026 (doi:10.1002/ajpa.70262) · Stojanowski & Knudson 2011 (doi:10.1002/ajpa.21542)",
               "A lakeside cemetery in today's Ténéré desert, used for thousands of years, and a woman and two children buried together on flowers. Two peoples, or one? The teeth have changed the answer.",
               ["#Sahara", "#Niger", "#Archaeology", "#Prehistory", "#GreenSahara"])
 
@@ -392,7 +392,7 @@ def wadisura():
                                    {"k": "label", "x": 500, "y": 1320, "t": "the 'swimmers' · Cave of Swimmers · redrawn", "c": AMBER, "in": 1.4}])
     s1, v = sahara([("Cave of Swimmers", 25.2335, 23.5947, {"c": GOLD}), ("Luxor · the Nile", 32.64, 25.69, {"c": SCAN, "a": "end", "lx": -18, "ly": -24})], 22, 34, 20, 28.5)
     s1["els"] += [tag_label(v, 26.2, 22.4, "Gilf Kebir"), {"k": "scale", "x": 80, "y": 1240, "w": v.km(200), "t": "200 km"}]
-    s2 = stat("5,000–8,000", "figures", "in the Cave of Beasts, a shelter 17 m wide, found in 2002", "Kuper (ed.) 2013")
+    s2 = stat("5,000+", "figures", "up to 8,000, in the Cave of Beasts, a shelter 17 m wide, found in 2002", "Kuper (ed.) 2013")
     hand = [[430, 1000], [430, 850], [445, 845], [455, 930], [462, 820], [478, 818], [484, 925], [494, 830], [510, 832], [512, 935], [524, 860], [540, 866], [534, 1000]]
     s3 = dark([{"k": "poly", "p": [[x - 150, y] for x, y in hand], "fill": "none", "c": "#f0d8b0", "w": 3, "in": .3, "fx": "draw"},
                {"k": "line", "p": [[690, 1000], [690, 880]], "c": "#f0d8b0", "w": 4, "in": .8},
@@ -400,7 +400,7 @@ def wadisura():
                {"k": "line", "p": [[690, 880], [730, 820]], "c": "#f0d8b0", "w": 3, "in": .9}, {"k": "line", "p": [[690, 880], [750, 870]], "c": "#f0d8b0", "w": 3, "in": 1.0},
                {"k": "line", "p": [[690, 880], [630, 870]], "c": "#f0d8b0", "w": 3, "in": 1.0},
                {"k": "label", "x": 340, "y": 1060, "t": "a baby's hand?", "c": "#e9dccb", "in": .6},
-               {"k": "label", "x": 690, "y": 1060, "t": "no: a lizard's foot", "c": GOLD, "in": 1.2},
+               {"k": "label", "x": 690, "y": 1060, "t": "likely a reptile's foot", "c": GOLD, "in": 1.2},
                {"k": "cap", "x": 500, "y": 600, "t": "thirteen tiny stencils, re-examined · schematic", "in": .1}])
     tl, ax = timeline(-7000, -1000, [(-7000, "7000 BCE"), (-5000, "5000"), (-3000, "3000"), (-1000, "1000")], "A long gap to bridge")
     tl["els"] += [{"k": "band", "x0": ax.x(-6500), "x1": ax.x(-4400), "y": 745, "h": 16, "c": OCHRE, "t": "the paintings", "in": .3}] + \
@@ -415,7 +415,7 @@ def wadisura():
                       "[d:tension][cam:1.12|0|0][act:the question, leaning in][tune:rise]Were they swimming, or ^dead?"], cut=False),
         B("world", 1, ["[d:calm][k:THE CAVE OF SWIMMERS][act:storytelling]In {1933|nineteen thirty-three}, the explorer ^Almásy found this cave in the far south-west of ^Egypt. [act:light, a small smile]Decades later, The English Patient made it ^famous."]),
         B("collision", 2, ["[d:build][k:THE CAVE OF BEASTS][act:impressed, building]In {2002|two thousand two}, a second shelter turned up nearby, with five to eight thousand ^figures. [act:vivid]Hands, swimmers, and headless ^beasts.",
-                           "[d:build][go:3|0][act:delighted, a little amazed]Some of the tiny hand stencils were made with the feet of ^lizards."]),
+                           "[d:build][go:3|0][act:delighted, a little amazed]Some of the tiny hand stencils were most likely made with the feet of a ^reptile."]),
         B("cost", 5, ["[d:build][k:TWO READINGS][act:fair, even]Almásy thought the swimmers showed a real ^lake. [act:the other reading, measured]Many archaeologists see the dead, floating in the waters before ^creation, an idea found much later in Egyptian ^tombs."]),
         B("reversal", 4, ["[d:reveal][k:THE CATCH][act:the crux, precise]The paintings date to roughly six and a half to four and a half thousand years ^BCE. [act:fair]The Egyptian texts come two or three thousand years ^later. [act:plain][tune:fall]That's a long gap to ^bridge."]),
         B("tag", 6, ["[d:verdict][k:THE VERDICT][p:0.95][act:weighing it, even][tune:rise]Did Egyptian ideas of the afterlife begin in these ^caves? [act:the verdict, measured][tune:fall]*Open ^question*.",
@@ -423,7 +423,7 @@ def wadisura():
     ]
     return EP("wadi-sura", "16.07", "Swimmers in the Sand", "wadi-sura", "contested", "Do the painted 'swimmers' of Wadi Sura show real swimming, or the dead in a watery afterworld?", "Swimmers in the *desert*?", beats, shots,
               "Kuper (ed.) 2013, Wadi Sura: The Cave of Beasts · Honoré et al. 2016 (doi:10.1016/j.jasrep.2016.02.014) · di Lernia & Gallinaro 2010 (doi:10.1017/S0003598X00067016) · Förster, Riemer & Kuper 2012",
-              "Painted swimmers in one of the driest places on Earth, and a second cave with thousands of figures and hand stencils made with lizard feet. Real swimmers, or the dead in the waters before creation?",
+              "Painted swimmers in one of the driest places on Earth, and a second cave with thousands of figures and tiny stencils most likely made with a reptile's feet. Real swimmers, or the dead in the waters before creation?",
               ["#Egypt", "#RockArt", "#Sahara", "#Archaeology", "#GreenSahara"])
 
 
@@ -445,7 +445,7 @@ def garamantes():
     s2 = stat("c. 9 m", "average shaft depth", "over hundreds of underground canals; some shafts reach about 40 m", "Wilson 2012 · Sterry, Mattingly & Wilson 2022")
     t = [{"t": "slab", "x0": -8, "x1": 8, "z0": -6, "z1": 6, "y": 0, "c": "#c9a36c"}, box(0, 0, 0, 5, 5, .6, "#a88660"),
          {"t": "pyr", "x": 0, "z": 0, "y": .6, "b": 4.2, "h": 3.8, "c": "#b89266", "edge": "rgba(0,0,0,.3)"}, {"t": "person", "x": 4.2, "y": 0, "z": 3, "h": 1.7},
-         L_(0, 4.6, "a mudbrick pyramid tomb · 3–4.5 m · schematic", GOLD, z=0, dy=-26)]
+         L_(0, 4.6, "a mudbrick pyramid tomb · 3 to 4.5 m · schematic", GOLD, z=0, dy=-26)]
     s3 = iso(t, cam=[1, 500, 900], s=54, x=500, y=1080, az=-30, spin=1.0, el=.35, table=None)
     tl, ax = timeline(-1000, 900, [(-1000, "1000 BCE"), (-500, "500"), (0, "1 CE"), (500, "500 CE")], "A desert state")
     tl["els"] += [{"k": "band", "x0": ax.x(-1000), "x1": ax.x(700), "y": 745, "h": 14, "c": GOLD, "t": "the Garamantes", "in": .3},
@@ -465,7 +465,7 @@ def garamantes():
                       "[d:tension][cam:1.12|0|0][act:the twist][tune:fall]In the middle of the ^Sahara."], cut=False),
         B("world", 1, ["[d:calm][k:THE GARAMANTES][act:plain, orienting]The Garamantes of Fezzan, in south-west ^Libya, from about a thousand BCE to seven hundred ^CE. [act:amused, storytelling]Herodotus describes their chariots, and cattle that grazed walking ^backwards."]),
         B("collision", 2, ["[d:build][k:THE TUNNELS][act:building, precise]Their secret was ^water. [act:vivid]Underground canals, called ^foggaras, tapped ancient groundwater, through shafts about nine metres deep on ^average."]),
-        B("cost", 3, ["[d:build][k:THE STATE][act:impressed]With that water came oasis ^towns, the first in the ^Sahara, and pyramid ^tombs. [act:plain]Trade across the desert@noun kept them ^rich."]),
+        B("cost", 3, ["[d:build][k:THE STATE][act:impressed]With that water came oasis ^towns, the first in the central ^Sahara, and pyramid ^tombs. [act:plain]Trade across the desert@noun kept them ^rich."]),
         B("reversal", 5, ["[d:reveal][k:THE CATCH][act:grave, measured]But that groundwater fell as rain thousands of years earlier, in wetter ^times, and it doesn't come ^back. [act:precise]As the water table sank, the canals ran ^dry.",
                           "[d:build][act:fair, careful]Shifting trade, and scarce labour, perhaps ^enslaved, played a part ^too."]),
         B("tag", 6, ["[d:verdict][k:THE VERDICT][p:0.95][act:weighing it, even][tune:rise]A desert@noun kingdom that drank its fossil ^water? [act:the verdict, measured][tune:fall]^*Plausible*. [act:fair]A leading explanation, but not the only ^one.",
@@ -473,7 +473,7 @@ def garamantes():
     ]
     return EP("garamantes", "16.08", "The Kingdom That Drank Its Fossil Water", "garamantes", "plausible", "Did the Garamantes' desert state fade when its ancient groundwater ran out?", "Pyramids and *tunnels* in the Sahara.", beats, shots,
               "Mattingly & Sterry 2013 (doi:10.1017/S0003598X00049097) · Wilson 2012 (doi:10.1080/0067270X.2012.727614) · Sterry, Mattingly & Wilson 2022 · Sterry & Mattingly (eds) 2020 · Herodotus 4.183",
-              "The Garamantes built the Sahara's first towns, pyramid tombs and hundreds of kilometres of underground canals, all on ancient groundwater. Did the water running out bring them down?",
+              "The Garamantes built the first towns of the central Sahara, pyramid tombs and hundreds of kilometres of underground canals, all on ancient groundwater. Did the water running out bring them down?",
               ["#Sahara", "#Libya", "#AncientHistory", "#Archaeology", "#GreenSahara"])
 
 
@@ -483,7 +483,7 @@ def _ledger_text():
     s0 = mapshot(v, pins=[("Nabta Playa", 30.7256, 22.508, {"c": GOLD, "a": "end", "lx": -18, "ly": 30}), ("Wadi Sura", 25.2335, 23.5947, {"ly": -22}),
                           ("Tassili · Takarkori", 10.0, 24.9, {"a": "end", "lx": -18}), ("Germa", 12.78, 26.55, {"ly": -24}),
                           ("Gobero", 9.52, 17.08, {}), ("Lake Chad", 14.2, 13.2, {"c": SCAN})], cam=[1, 500, 860])
-    s1 = dark(grp("Established · strong", "#8fd9b0", ["a green Sahara, 11,000–5,000 years ago", "Tutankhamun's scarab: impact glass", "a lost lineage at Takarkori"]))
+    s1 = dark(grp("Established · strong", "#8fd9b0", ["a green Sahara, 11,000 to 5,000 years ago", "Tutankhamun's scarab: impact glass", "a lost lineage at Takarkori"]))
     s2 = dark(grp("Plausible · mixed", "#e8b87a", ["the Garamantes' fossil water", "Nabta's sun-watching stones", "a switch-off: sudden here, slow there"]))
     s3 = dark(grp("Open question", "#9fd0ff", ["Gobero: one people or two?", "the swimmers: alive or dead?"], size=28))
     s4 = dark(grp("Ruled out", "#ff8a7a", ["astronauts at Tassili"]))
@@ -677,10 +677,10 @@ def nabta_m():
     yb = 1020
     def bracket(a, b, at):
         return [I.arrow([[X(a) + 6, yb - 130], [(X(a) + X(b)) / 2, yb - 190], [X(b) - 6, yb - 130]], at, I.AMBER, 3, dur=.9),
-                I.label((X(a) + X(b)) / 2, yb - 210, "1,800 years", at + .5, I.AMBER, 30)]
+                I.label((X(a) + X(b)) / 2, yb - 210, "1,800+ years" if a < 0 else "1,800 years", at + .5, I.AMBER, 30)]
     dates = {"base": "dark", "cam": [1.2, 500, 930], "els": _t(
         [I.line([[110, yb], [890, yb]], .2, "#8c7152", 3, dur=1.2)] +
-        [I.ring(X(-4800), yb - 40, 34, .8, "#cbbca8", 6, dur=.8), I.dot(X(-4800), yb, 8, I.AU, .8), I.label(X(-4800), yb + 50, "4800 BCE", 1.2, I.AU, 30)] +
+        [I.ring(X(-4800), yb - 40, 34, .8, "#cbbca8", 6, dur=.8), I.dot(X(-4800), yb, 8, I.AU, .8), I.label(X(-4800), yb + 50, "7,000 years", 1.2, I.AU, 30)] +
         trilithon(X(-3000), yb - 2, 4.0) + [I.dot(X(-3000), yb, 8, "#cbbca8", 4.0), I.label(X(-3000), yb + 50, "Stonehenge", 4.4, "#cbbca8", 30)] + bracket(-4800, -3000, 5.2) +
         column(X(226), yb - 2, 8.6) + [I.dot(X(226), yb, 8, "#e8dcc2", 8.6), I.label(X(226), yb + 50, "Rome", 8.8, "#e8dcc2", 30)] +
         [I.person(X(2026) - 10, yb - 2, 110, 10.0, "#f2c98e"), I.label(X(2026) - 10, yb + 50, "us", 10.2, I.AU, 30)] + bracket(226, 2026, 10.6), 1.84)}
@@ -768,11 +768,11 @@ def glass_m():
         [I.line(p_, 12.0 + .35 * k, "#fff6e8", 3, dur=.2) for k, p_ in enumerate(tracks)] + tally +
         [I.person(160, 1410, 160, 23.0, "#e8d6b8"), {"k": "poly", "p": [[196, 1306], [236, 1290], [228, 1318], [204, 1332]], "fill": GL, "c": GLs, "w": 1.5, "in": 23.4, "fx": "pop"},
          I.glow(214, 1312, 60, 23.4, .7, "lamp")], 2.5)}
-    # 4 · the museum tag: 'chalcedony' in 1922; a lens in the 1990s; 'desert glass'
+    # 4 · the museum tag: 'chalcedony' (Carter, published 1933); a lens in the 1990s; 'desert glass'
     tagbox = lambda y, at, c: [I.box(140, y, 330, 86, "#efe3c8", "#8a7a66", 2, 10, at, fx="pop"), I.dot(166, y + 43, 9, "#2a2018", at)]
     tags = {"base": "dark", "cam": [1.05, 500, 900], "els": _t(
         scarab(520, 760, .78, .3) + [I.line([[470, 900], [420, 960], [460, 1000]], 1.4, "#cbbca8", 2, dur=.6, curve=True)] +
-        tagbox(990, 1.6, "#efe3c8") + [I.label(300, 970, "1922", 1.8, "#cbbca8", 30), I.label(320, 1046, "chalcedony", 5.0, "#2a2018", 36, st="serif", halo=False)] +
+        tagbox(990, 1.6, "#efe3c8") + [I.label(300, 970, "Carter", 1.8, "#cbbca8", 30), I.label(320, 1046, "chalcedony", 5.0, "#2a2018", 36, st="serif", halo=False)] +
         [I.ring(520, 760, 215, 8.6, "#cfe6ff", 6, dur=1.0), I.line([[672, 912], [790, 1030]], 9.0, "#cfe6ff", 14, draw=False), I.glow(520, 760, 220, 9.4, .4),
          I.label(720, 560, "1990s", 9.8, "#cfe6ff", 32)] +
         [I.strike(200, 1036, 450, 1028, 14.2, I.RED, 5)] + tagbox(1150, 14.6, "#efe3c8") +
@@ -886,7 +886,7 @@ def takarkori_m():
         [I.line([[S[0], 1080], [880, 1080]], 20.4, "#8c7152", 3, dur=.8), I.dot(S[0], 1080, 9, W2, 20.6), I.label(S[0] - 20, 1130, "50,000 years ago", 21.0, W2, 30, "start"),
          I.label(880, 1130, "7,000", 21.6, "#cbbca8", 30, "end")] +
         [I.arrow([[700, 760], [700, 870]], 25.4, I.BONE, 3, dur=.4, curve=False), I.arrow([[700, 870], [700, 760]], 25.4, I.BONE, 3, dur=.4, curve=False), I.glow(700, 815, 110, 25.6, .35, "lamp")], 2.5)}
-    # 3 · the tree: a twig to Morocco, fifteen thousand years earlier
+    # 3 · the tree: a twig to Morocco, about fifteen thousand years ago
     twig = _t([I.line([[592, 830], [690, 840]], 2.0, I.BLUE, 5, dur=.5), I.glow(706, 820, 70, 2.4, .8), I.person(706, 852, 60, 2.4, I.BLUE)], 1.14)
     # 4 · herders mostly local; cattle and milk passed hand to hand, not a wave of newcomers; milk fat in a pot's clay
     xs = [170, 335, 500, 665, 830]
@@ -933,18 +933,18 @@ def I_ellipse(*a, **k):
 
 
 def tassili_m():
-    """Tassili as one continuous take (see mural.py): a five-metre figure and a dotted saucer, fifteen thousand images on a
+    """Tassili as one continuous take (see mural.py): a six-metre figure and a dotted saucer, fifteen thousand images on a
     wall, a helmet drawn on a face that never had one, a painting sponged to death, and what the blank heads more likely are."""
     import copy
     remix, I = _mur()
     ep = tassili()
     OC = "#b0643c"
-    # 0 · the giant, to scale (a person is 1.7 m: the figure, head to foot, about 5 m); the 'Martian god', drawn dotted
+    # 0 · the giant, to scale (a person is 1.7 m: the figure, head to foot, about 6 m); the 'Martian god', drawn dotted
     s0 = copy.deepcopy(ep["shots"][0])
     s0["els"] = [e for e in s0["els"] if e.get("k") not in ("label", "person")]
     hook = _t([I.line([[175, 1240], [175, 597]], 4.6, I.BONE, 2.5, dur=.7), I.line([[160, 597], [190, 597]], 4.6, I.BONE, 2.5, draw=False),
-               I.line([[160, 1240], [190, 1240]], 4.6, I.BONE, 2.5, draw=False), I.label(160, 930, "5 m", 5.2, I.BONE, 34, "end"),
-               I.person(800, 1240, 219, 5.6, "#1a1511")] + ufo(760, 420, 8.0) +
+               I.line([[160, 1240], [190, 1240]], 4.6, I.BONE, 2.5, draw=False), I.label(160, 930, "c. 6 m", 5.2, I.BONE, 34, "end"),
+               I.person(800, 1240, 182, 5.6, "#1a1511")] + ufo(760, 420, 8.0) +
               [I.line([[730, 440], [600, 620]], 12.6, I.LILAC, 2, "claimed", .6), I.line([[790, 440], [720, 640]], 12.6, I.LILAC, 2, "claimed", .6)], 1.52)
     # 1 · the map: the plateau, its shelters, its paintings
     v = View(0, 16, 18, 32, (40, 330, 920, 900))
@@ -1206,7 +1206,7 @@ def gobero_m():
         spike(680, 480, 28, 4.6) + [I.oval(780, 500, 34, 24, "#d8c070", at=5.6), I.line([[756, 500], [804, 500]], 5.6, "#8a7a40", 3, draw=False)] +
         [{"k": "poly", "p": [[700, 600], [740, 560], [770, 610]], "fill": "#e8c060", "c": "none", "w": 0, "curve": True, "in": 6.6}, I.dot(726, 590, 4, "#8a7a40", 6.6)] +
         flowers + [I.glow(500, 950, 260, 11.6, .4, "lamp")], 2.17)}
-    # 5 · two peoples in 2008; how teeth tell relatives; in 2025, the teeth match
+    # 5 · two peoples in 2008; how teeth tell relatives; in 2026, the teeth match
     molar = [[420, 1180], [430, 1130], [455, 1112], [480, 1128], [500, 1110], [520, 1128], [545, 1112], [570, 1130], [580, 1180], [565, 1260], [540, 1330], [520, 1270],
              [500, 1250], [480, 1270], [460, 1330], [435, 1260]]
     teeth = {"base": "dark", "cam": [1.05, 500, 900], "els": _t(
@@ -1215,7 +1215,7 @@ def gobero_m():
         [{"k": "poly", "p": molar, "fill": "#efe6d2", "c": "#b8a888", "w": 2, "curve": True, "in": 6.0, "fx": "pop"}] +
         [I.ring(x, y, 14, 10.6 + .25 * k, I.AMBER, 3, dur=.3) for k, (x, y) in enumerate(((455, 1122), (500, 1120), (545, 1122)))] +
         [I.tooth(x, 880, 46, 17.6 + .1 * k) for k, x in enumerate((180, 260, 340, 660, 740, 820))] +
-        [I.label(500, 896, "≈", 21.0, I.GREEN, 72, st="serif"), I.glow(500, 870, 120, 21.0, .5), I.label(500, 950, "2025", 17.2, I.GREEN, 34)], 2.0)}
+        [I.label(500, 896, "≈", 21.0, I.GREEN, 72, st="serif"), I.glow(500, 870, 120, 21.0, .5), I.label(500, 950, "2026", 17.2, I.GREEN, 34)], 2.0)}
     tag = _t(helix(330, 600, 670, 600, 2.6, n=18, amp=18) + I.question(720, 600, 3.2, 60) + [I.glow(500, 1000, 300, 7.0, .5, "lamp")], 1.32)
     return remix(ep, scenes={0: s0, 1: s1, 2: shore, 3: embrace, 4: level, 5: teeth}, alias={6: 0}, adds={0: hook, 1: mp},
                  cams={1: [1.4, gx_, gy_ + 60], 6: [1.14, 500, 960]}, beat_adds={5: (tag, [1.14, 500, 960])})
@@ -1275,7 +1275,7 @@ def wadisura_m():
         sum([lying(W0 + 86 * k, 1150, 86, 8.0 + .25 * k, "#e8d6b8" if k % 2 else "#e8b87a") for k in range(10)], []) + marks +
         [{"k": "poly", "p": [[230 + a_ * .9, 1290 + b_ * .9] for a_, b_ in hand], "fill": "none", "c": "#f0d8b0", "w": 3, "in": 15.4, "fx": "draw"},
          I.glow(230, 1290, 90, 15.4, .5, "red")] + swimmer(500, 1300, 2.0, 15.9, "#e0905c") + beast(780, 1360, 1.3, 16.4, "#e8d6b8"), 1.92)}
-    # 3 · a stencil, made; a baby's hand?; no: a lizard's foot
+    # 3 · a stencil, made; a baby's hand?; likely a reptile's foot (perhaps a lizard)
     HX, HY = 300, 900
     hpts = [[HX + a_ * 1.3, HY + b_ * 1.3] for a_, b_ in hand]
     spray = [I.dot(round(HX + (r6() - .5) * 260, 1), round(HY + (r6() - .5) * 320, 1), 7, "#a8402a", 2.6 + .04 * k, op=.85) for k in range(60)]
@@ -1289,7 +1289,7 @@ def wadisura_m():
         sum([[I.line([[700 + sx * 66, y0 + dy], [700 + sx * 66 + 26 * math.cos(t), y0 + dy + 26 * math.sin(t)]], 11.4, "#6f8a4c", 4, draw=False)
               for t in [math.radians(a_) for a_ in ((-150, -120, -90, -60, -30) if dy < 0 else (30, 60, 90, 120, 150))]] for sx, y0, dy in ((-1, 790, -24), (1, 790, -24), (-1, 870, 30), (1, 870, 30))], []) +
         [I.ring(634, 766, 46, 12.0, I.AU, 4, dur=.5)] +
-        [I.label(704, 1170, "no: a lizard's foot", 12.8, I.AU, 32)], 2.5)}
+        [I.label(704, 1170, "likely a reptile's foot", 12.8, I.AU, 32)], 2.5)}
     # 5 · two readings: real swimmers in a real lake; or the dead in the waters before creation (a world rising); later, in tombs
     read = {"base": "dark", "cam": [1.05, 500, 880], "els": _t(I.question(500, 470, .4, 90) +
         [I.box(90, 560, 820, 300, "#3f7f9c", r=10, at=2.6), I.box(90, 560, 820, 90, "#8aa3b8", r=10, at=2.6), I.line([[90, 650], [910, 650]], 2.8, "#e9f2f8", 3, draw=False),
@@ -1306,12 +1306,12 @@ def wadisura_m():
     gap = {"base": "dark", "cam": [1.15, 500, 950], "els": _t(
         [I.line([[90, AY], [910, AY]], .3, "#8c7152", 3, dur=1.0),
          {"k": "rect", "x": X(-6500), "y": AY - 12, "w": X(-4500) - X(-6500), "h": 24, "r": 12, "fill": "#c8643c", "c": "none", "sw": 0, "in": .8, "fx": "pop"},
-         I.label((X(-6500) + X(-4500)) / 2, AY + 56, "paintings", 1.4, "#e8a070", 30), I.label((X(-6500) + X(-4500)) / 2, AY + 96, "6500–4500 BCE", 2.0, "#cbbca8", 28)] +
+         I.label((X(-6500) + X(-4500)) / 2, AY + 56, "paintings", 1.4, "#e8a070", 30), I.label((X(-6500) + X(-4500)) / 2, AY + 96, "6500 to 4500 BCE", 2.0, "#cbbca8", 28)] +
         swimmer((X(-6500) + X(-4500)) / 2, AY - 70, 1.3, 1.0, "#c8643c") +
         [{"k": "rect", "x": X(-2400), "y": AY - 12, "w": X(-1300) - X(-2400), "h": 24, "r": 12, "fill": "#e8dcc2", "c": "none", "sw": 0, "in": 7.0, "fx": "pop"},
          I.box((X(-2400) + X(-1300)) / 2 - 30, AY - 110, 60, 76, "#e8dcc2", "#8a7a66", 2, 4, 7.2, fx="pop"), I.label((X(-2400) + X(-1300)) / 2, AY + 56, "texts", 7.4, "#e8dcc2", 30),
          I.arrow([[X(-4500), AY - 30], [(X(-4500) + X(-2400)) / 2, AY - 240], [X(-2400), AY - 30]], 8.2, I.BONE, 3, "inferred", 1.2),
-         I.label((X(-4500) + X(-2400)) / 2, AY - 270, "2,000–3,000 years", 8.8, I.BONE, 30)] +
+         I.label((X(-4500) + X(-2400)) / 2, AY - 270, "2,000 to 3,000 years", 8.8, I.BONE, 30)] +
         [I.box(X(1) - 34 + 18 * (k % 4), AY - 110 + 18 * (k // 4), 16, 16, ["#c8643c", "#e8dcc2", "#3f7f9c", "#e8b87a"][(k + k // 4) % 4], r=1, at=11.2 + .03 * k) for k in range(16)] +
         [I.label(X(1), AY + 56, "Rome", 11.6, "#e8dcc2", 30), I.box(X(2026) - 46, AY - 96, 44, 62, "#8fb5a0", "#e8dcc2", 2, 3, 12.6, fx="pop"),
          I.label(X(2026) - 20, AY + 56, "today", 12.8, "#cbbca8", 30),
@@ -1396,7 +1396,7 @@ def garamantes_m():
         if e.get("k") == "iso":
             for it in e["items"]:
                 if it.get("t") == "label":
-                    it["text"] = "3–4.5 m"
+                    it["text"] = "3 to 4.5 m"
     town = _t([{"k": "house", "x": 90 + 52 * k, "y": 820 - 14 * (k % 2), "w": 44, "h": 26 + 8 * (k % 3), "in": 1.0 + .15 * k} for k in range(5)] +
               sum([palm(110 + 80 * k, 800, 80, 1.6 + .2 * k) for k in range(3)], []) +
               [I.arrow([[80, 1360], [500, 1330], [920, 1360]], 11.4, I.AMBER, 3, "inferred", 1.6)] +

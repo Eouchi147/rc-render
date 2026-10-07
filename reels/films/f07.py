@@ -297,7 +297,7 @@ def malta():
                       "[d:tension][cam:1.12|0|0][act:genuinely curious][tune:fall]How ^far back does@verb Malta go?"], cut=False),
         B("world", 0, ["[d:calm][k:THE TEMPLES][act:grounded, admiring]Ġgantija, on Gozo: walls still six metres high, built around {3600|thirty-six hundred} BCE. [go:2|0][act:letting it sink in, wonder]Centuries ^older than Egypt's pyramids."]),
         B("collision", 4, ["[d:build][k:THE CASE][act:fair, presenting the bold idea]Graham Hancock goes ^further: maybe the temples are far older, from the ^Ice Age, with more of them now under the sea.",
-                           "[d:build][act:storytelling, adventurous]In {2002|two thousand two}, he ^dived after a reported ^underwater temple."]),
+                           "[d:build][act:storytelling, adventurous]In his {2002|two thousand two} book, he described ^diving after a reported ^underwater temple."]),
         B("cost", 3, ["[d:build][k:THE DATES][act:methodical, stacking the evidence]But radiocarbon from inside and beneath the temples, pottery sequences, and farm villages built over, all point between {3600|thirty-six hundred} and {2500|twenty-five hundred} BCE.",
                       "[d:build][act:with care, quiet]The ^Hypogeum's seven thousand dead ^too."]),
         B("reversal", 5, ["[d:reveal][k:THE TWIST][act:the twist, leaning in]And yet the experts were ^surprised in {2025|twenty twenty-five}. [act:vivid, full of wonder]^Hunter-gatherers reached Malta about eighty-five hundred years ago, across a ^hundred kilometres of open sea.",
@@ -318,7 +318,7 @@ def acoustics():
             [{"k": "circle", "x": 500, "y": 1060, "r": 50 + k * 55, "fill": "none", "c": GOLD, "w": 2, "op": .8 - k * .1, "in": .6 + k * .2} for k in range(6)] + \
             [{"k": "cap", "x": 500, "y": 460, "t": "the stone answers · schematic", "in": .2}]
     s0 = {"base": "dark", "cam": [1, 500, 860], "els": vault}
-    s1 = stat("16", "seconds", "of reverberation at 63 Hz in the Oracle Room of Malta's Hypogeum, at most", "Till 2017")
+    s1 = stat("16", "seconds", "of reverberation at 63 Hz, heard in the main hall of Malta's Hypogeum, at most", "Till 2017")
     ax0, ax1 = 140, 860
     X = lambda f: ax0 + (ax1 - ax0) * f / 400
     s2 = {"base": "dark", "cam": [1, 500, 860], "els": [{"k": "line", "p": [[ax0, 1000], [ax1, 1000]], "c": "#8c7152", "w": 2, "in": .1}] +
@@ -516,7 +516,7 @@ def malta_m():
            {"k": "pyramid", "x": X(2600), "y": 930, "w": 260, "ghost": True, "style": "inferred", "color": I.BONE, "in": 2.6},
            I.line([[X(2600), 940], [X(2600), 990]], 2.8, I.BONE, 3, "inferred", .3), I.label(X(2600), 720, "the pyramids", 3.0, I.BONE, 32),
            I.arrow([[X(3600), 1130], [X(2600), 1130]], 5.4, GOLD, 4, "known", 1.0, False), I.label((X(3600) + X(2600)) / 2, 1190, "about 1,000 years", 6.4, GOLD, 32)]
-    # 4 · the claim: temples from the Ice Age, when the sea stood lower, more of them under water; the 2002 dive
+    # 4 · the claim: temples from the Ice Age, when the sea stood lower, more of them under water; the dive told in his 2002 book
     coast = {"k": "poly", "p": [[60, 700], [380, 700], [470, 820], [620, 960], [790, 1140], [940, 1290], [940, 1420], [60, 1420]], "fill": "#6a5640", "c": "#c9ad85", "w": 2, "in": .2}
     temple = lambda x, y, at, ghost=False: ([I.box(x - 40, y - 46, 22, 46, "none" if ghost else STONE, I.LILAC if ghost else "#8c7152", 2, 3, at, style="claimed" if ghost else "known"),
                                              I.box(x + 18, y - 46, 22, 46, "none" if ghost else STONE, I.LILAC if ghost else "#8c7152", 2, 3, at, style="claimed" if ghost else "known"),
@@ -525,7 +525,7 @@ def malta_m():
             [I.label(220, 760, "today", .8, I.BONE, 28), I.label(880, 800, "sea today", 1.0, I.BLUE, 28, "end"),
              I.line([[560, 1200], [940, 1200]], 7.2, I.BLUE, 3, "inferred", .8), I.label(930, 1250, "Ice Age sea?", 7.8, I.BLUE, 28, "end")] + \
             temple(560, 935, 9.2, True) + temple(720, 1105, 9.8, True) + I.question(640, 1060, 10.4, 60)
-    dive = [{"k": "boat", "x": 820, "y": 818, "w": 120, "in": .6}, I.label(820, 760, "2002", 1.0, I.BONE, 30),
+    dive = [{"k": "boat", "x": 820, "y": 818, "w": 120, "in": .6}, I.label(820, 760, "Underworld, 2002", 1.0, I.BONE, 30),
             I.arrow([[800, 850], [740, 950], [700, 1040]], 2.0, I.BONE, 3, "inferred", 1.2), I.oval(705, 1050, 26, 11, "#e8d6b8", "none", 0, 1, 3.2), I.dot(684, 1044, 9, "#e8d6b8", 3.2)]
     # 3 · dated from below: a floor seals what lies beneath; charcoal and bone, pottery styles, the farm village underneath; 3600 to 2500 BCE
     lay = [I.box(60, 720, 880, 150, "#a8977c", r=0, at=.3, fx="fill"), I.box(60, 870, 880, 220, "#7a6248", r=0, at=.6, fx="fill"), I.box(60, 1090, 880, 90, "#5a4632", r=0, at=.9, fx="fill"),

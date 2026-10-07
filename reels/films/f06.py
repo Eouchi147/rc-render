@@ -1364,7 +1364,7 @@ def cart_ruts():
                                          {"k": "line", "p": [[120, 796], [520, 796], [700, 830]], "c": "#6d5a3e", "w": 5, "in": .5},
                                          {"k": "label", "x": 640, "y": 700, "t": "the ruts go down about a metre or two", "c": AMBER, "in": .8},
                                          {"k": "line", "p": [[520, 1300], [940, 1300]], "c": "#9fd0ff", "w": 2, "style": "inferred", "in": 1.1},
-                                         {"k": "label", "x": 730, "y": 1270, "t": "Ice Age shorelines: tens of metres deeper", "st": "small", "c": "#9fd0ff", "in": 1.3}]}
+                                         {"k": "label", "x": 730, "y": 1270, "t": "Ice Age shorelines: over 100 m deeper", "st": "small", "c": "#9fd0ff", "in": 1.3}]}
     s5 = sec
     s6 = like(s0, cam=[1.18, 480, 960])
     shots = [s0, s1, s2, s3, s4, s5, s6]
@@ -1377,7 +1377,7 @@ def cart_ruts():
         B("cost", 2, ["[d:build][k:THE MECHANISM][act:explaining, clear and patient]Geomorphologists worked out how: two-wheeled ^carts on thin soil, in the ^wet season. [act:simple, the key fact][tune:fall]The limestone ^softens.",
                       "[d:build][sfx:shimmer][act:showing the process, rhythmic]Every pass cuts ^deeper, until the axle ^scrapes. [act:the neat solution, pleased]Then the drivers move ^over and start a ^new line."]),
         B("reversal", 4, ["[d:reveal][k:THE TWIST][act:leaning in, the turn]And the timeline ^boxes it in. [act:laying down the limits][tune:level]No ^people on Malta before about eight and a half ^thousand years ago. [act:the second limit, firm][tune:fall]No ^wheels ^anywhere before about {3500|thirty-five hundred} BCE.",
-                          "[d:build][sfx:hit][act:the flaw, pointed and calm][tune:fall]Koltypin dated the ^rock, not the ^groove. [go:5|0][act:the second flaw, steady][tune:level]And the ruts under the sea go down a ^metre or two. [act:the clincher, quiet][tune:fall]Ice Age shores are ^tens of metres deeper."]),
+                          "[d:build][sfx:hit][act:the flaw, pointed and calm][tune:fall]Koltypin dated the ^rock, not the ^groove. [go:5|0][act:the second flaw, steady][tune:level]And the ruts under the sea go down a ^metre or two. [act:the clincher, quiet][tune:fall]Ice Age shores are more than a ^hundred metres deeper."]),
         B("tag", 6, ["[d:verdict][k:THE VERDICT][p:0.95][act:weighing it, calm authority][tune:rise]^Ice Age ruts? [act:the verdict, firm][tune:fall]*Ruled ^out*. [act:naming the candidates][tune:fall]^Stone Age temple builders, ^Bronze Age farmers or ^Romans? [act:honest, open][tune:fall]Still ^open.",
                      "[d:tension][p:0.93][act:the last word, calm and wise][tune:fall]The age of the ^rock is not the age of the ^road."]),
     ]
@@ -1442,7 +1442,7 @@ def cart_ruts_m():
             arrow([[880, SEA_Y + 20], [880, ICE_Y - 20]], 12.4, BLUE, 3, "known", .8, False), line([[600, ICE_Y], [940, ICE_Y]], 13.4, BLUE, 3, "inferred", .6),
             label(860, ICE_Y + 50, "Ice Age sea", 14.0, BLUE, 28, "end")]}
     flaw = [{"k": "dim", "x1": 470, "y1": SEA_Y, "x2": 470, "y2": SEA_Y + 30, "in": .6, "c": GOLD, "upright": True}, label(455, SEA_Y + 90, "1 to 2 m", 1.0, GOLD, 30, "end"),
-            {"k": "dim", "x1": 600, "y1": SEA_Y + 40, "x2": 600, "y2": ICE_Y, "t": "tens of metres", "in": 4.2, "c": BN, "lx": -26},
+            {"k": "dim", "x1": 600, "y1": SEA_Y + 40, "x2": 600, "y2": ICE_Y, "t": "over 100 m", "in": 4.2, "c": BN, "lx": -26},
             strike(700, 1050, 860, 930, 6.2, RD, 5)]
     # 2 · how carts cut them: a two-wheeled cart, thin soil, rain; wet limestone softens; every pass deeper, then a new line
     cart = [bx(60, 700, 880, 260, ROCK, "#fff3dc", 2, 0, .2), bx(60, 684, 880, 18, SOIL, r=0, at=3.4, fx="fill")] + \

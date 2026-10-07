@@ -1017,7 +1017,7 @@ def drill_cores():
             [{"k": "line", "p": [[450 + i * 26, 780], [462 + i * 26, 850]], "c": "#8a6a44", "w": 7, "op": .9, "in": .6 + i * .05} for i in range(6)]
     s6 = {"base": "dark", "cam": [1.35, 510, 820], "els": drill + [{"k": "glow", "x": 510, "y": 810, "r": 260, "kind": "lamp", "op": .35},
           {"k": "cap", "x": 510, "y": 640, "t": "copper drill with leather thong · Badari", "in": .6},
-          {"k": "label", "x": 510, "y": 960, "t": "Naqada II · over a thousand years before Khufu", "st": "small", "in": 1.0}]}
+          {"k": "label", "x": 510, "y": 960, "t": "Naqada II · some 750 years before Khufu", "st": "small", "in": 1.0}]}
     s7 = like(s0, cam=[1.25, 500, 860], add=[{"k": "q", "x": 660, "y": 820, "size": 60, "in": .6, "fx": "pop"}])
     shots = [s0, s1, s2, s3, s4, s5, s6, s7]
     beats = [
@@ -1046,7 +1046,7 @@ def stone_vases():
     step = [{"k": "step", "x": 500, "y": 820, "w": 560, "h": 280, "n": 6, "in": .1},
             {"k": "rect", "x": 200, "y": 900, "w": 600, "h": 170, "fill": "#1a1411", "c": "#c9ad85", "sw": 1.4, "in": .3}] + \
            [{"k": "vase", "x": 230 + i * 34, "y": 1055 - (i % 2) * 70, "h": 58, "w": 42, "tone": ["#8a8a90", "#b89a78", "#6d7a70", "#a8604a"][i % 4], "in": .5 + i * .02} for i in range(17)]
-    s1 = {"base": "dark", "cam": [1.05, 500, 880], "els": step + [{"k": "num", "x": 500, "y": 470, "t": "40,000+", "u": "stone vessels under Djoser's Step Pyramid", "in": .2, "fx": "pop", "size": 84}]}
+    s1 = {"base": "dark", "cam": [1.05, 500, 880], "els": step + [{"k": "num", "x": 500, "y": 470, "t": "30,000+", "u": "stone vessels, perhaps 40,000, under Djoser's Step Pyramid", "in": .2, "fx": "pop", "size": 84}]}
     row = [{"k": "vase", "x": 190 + i * 155, "y": 1000, "h": 190 + (i % 2) * 50, "w": 120, "tone": c, "in": .2 + i * .15} for i, c in enumerate(["#3a3a3e", "#a8604a", "#6d7a70", "#c9b89a", "#8a8a90"])] + \
           [{"k": "label", "x": 190 + i * 155, "y": 1050, "t": n, "st": "small", "in": .3 + i * .15} for i, n in enumerate(["basalt", "granite", "diorite", "travertine", "schist"])]
     s2 = {"base": "dark", "floor": 1002, "cam": [1, 500, 880], "els": row}
@@ -1077,19 +1077,19 @@ def stone_vases():
             {"k": "label", "x": 640, "y": 1030, "t": "crescent stone borer", "st": "small", "a": "start", "in": 1.0},
             {"k": "label", "x": 600, "y": 520, "t": "weights", "st": "small", "a": "start", "in": 1.1}]
     s6 = {"base": "dark", "cam": [1, 500, 880], "els": tool}
-    s7 = like(s0, cam=[1.2, 500, 860], add=[{"k": "num", "x": 500, "y": 520, "t": "c. 800", "u": "hours for one vessel · Stocks 2003", "in": .4, "fx": "pop", "size": 80}])
+    s7 = like(s0, cam=[1.2, 500, 860], add=[{"k": "num", "x": 500, "y": 520, "t": "by hand", "u": "a drill, sand and time · Stocks 2003", "in": .4, "fx": "pop", "size": 80}])
     shots = [s0, s1, s2, s3, s4, s5, s6, s7]
     beats = [
         B("hook", 0, ["[d:intrigue][k:PREDYNASTIC EGYPT][sfx:boom][act:an intriguing opener]^Stone jars over five ^thousand years old. [act:reporting the claim, even]So ^round, some say only a ^*lathe* could make them."], cut=False),
-        B("world", 1, ["[d:calm][k:DJOSER'S STEP PYRAMID][act:plain, quietly astonished]Under ^one pyramid alone, archaeologists found more than *forty ^thousand* stone vessels.",
+        B("world", 1, ["[d:calm][k:DJOSER'S STEP PYRAMID][act:plain, quietly astonished]Under ^one pyramid alone, archaeologists found between thirty and *forty ^thousand* stone vessels.",
                        "[d:list][go:2|0][act:counting them off, crisp][tune:level]^Basalt. [act:same beat][tune:level]^Granite. [act:same beat, closing][tune:fall]^Diorite. [act:marvelling, softer][tune:fall]Some with walls as thin as ^*eggshell*."]),
         B("collision", 3, ["[d:build][k:2023 · THE SCANS][act:building, precise]Then engineers began ^3D-scanning them, and reported roundness to ^*thousandths* of an inch.",
                            "[d:tension][sfx:hit][act:reporting their claim, even]Too ^perfect@adj for ^hands, they said."]),
-        B("cost", 4, ["[d:build][k:THE CATCH][act:the catch, careful]But most of those vases came from ^private collections. [act:ticking them off][tune:level]No ^find-spot. [act:same beat][tune:level]No ^proof they're ancient. [act:plain, no drama][tune:fall]And the antiquities market is full of ^*fakes*."]),
+        B("cost", 4, ["[d:build][k:THE CATCH][act:the catch, careful]But most of those vases came from ^private collections. [act:ticking them off][tune:level]No ^find-spot. [act:same beat][tune:level]No ^way to be sure they're ancient. [act:plain, no drama][tune:fall]And the antiquities market is full of ^*fakes*."]),
         B("reversal", 5, ["[d:reveal][k:THE TWIST][act:leaning in, careful]In {2025|twenty twenty-five}, a ^peer-reviewed study scanned nineteen vases with a ^known museum history. [sfx:shimmer][act:the reveal, clear][tune:fall]Their surfaces matched ^*handmade* work.",
                           "[d:list][go:6|0][act:showing us, warm interest]And Egyptian art shows the tool: a ^weighted drill, with a ^crescent-shaped stone bit."]),
-        B("tag", 7, ["[d:verdict][k:THE VERDICT][p:0.95][act:the verdict, admiring]^Skill, ^patience, and around ^*eight hundred* hours per vessel.",
-                     "[d:tension][p:0.93][act:a friendly challenge][tune:rise]Want to ^prove a lost machine? [act:practical, warm][tune:fall]Scan the vases that came out of the ^*ground*."]),
+        B("tag", 7, ["[d:verdict][k:THE VERDICT][p:0.95][act:the verdict, admiring]^Skill, ^patience, and long ^*hours* of grinding with sand.",
+                     "[d:tension][p:0.93][act:a friendly challenge][tune:rise]Want to make the ^case for a lost machine? [act:practical, warm][tune:fall]Scan the vases that came out of the ^*ground*."]),
     ]
     return EP("stone-vases", "05.13", "The Stone Vases", "stone-vases", "unsupported", "Too perfect for human hands?", "Only a *lathe* could make them?", beats, shots,
               "Fomitchev-Zamilov 2025, npj Heritage Science · Stocks 2003, Experiments in Egyptian Archaeology · Lacau & Lauer 1959, La Pyramide à degrés",
@@ -1121,7 +1121,7 @@ def serapeum():
           {"k": "label", "x": 440, "y": 690, "t": "box c. 38 t · lid c. 24 t", "c": GOLD, "in": .9}]}
     s3 = like(s2, cam=[2.2, 420, 830], add=[{"k": "rect", "x": 330, "y": 812, "w": 90, "h": 8, "fill": "#e9dccb", "c": "none", "sw": 0, "in": .3},
                                             {"k": "label", "x": 375, "y": 790, "t": "a 6-inch straightedge", "st": "small", "in": .6}])
-    carts = [("Amasis II", "c. 570–526 BCE"), ("Cambyses II", "c. 525 BCE"), ("Khababash", "c. 336 BCE")]
+    carts = [("Amasis II", "c. 570 to 526 BCE"), ("Cambyses II", "c. 525 BCE"), ("Khababash", "c. 336 BCE")]
     s4 = {"base": "dark", "cam": [1, 500, 860], "els": [e for i, (n, d) in enumerate(carts) for e in (
           {"k": "rect", "x": 250, "y": 520 + i * 200, "w": 500, "h": 130, "r": 65, "fill": "rgba(242,201,142,.08)", "c": GOLD, "sw": 2.2, "in": .2 + i * .4},
           {"k": "label", "x": 500, "y": 585 + i * 200, "t": n, "st": "serif", "in": .3 + i * .4},
@@ -1129,7 +1129,7 @@ def serapeum():
           [{"k": "cap", "x": 500, "y": 440, "t": "names inscribed on the boxes", "in": .1}]}
     tl, ax = timeline(-1400, 0, [(-1400, "1400 BCE"), (-1000, "1000"), (-600, "600"), (-200, "200"), (0, "1 CE")], "Burials of the Apis bulls", y=1000)
     tl["els"] += [{"k": "band", "x0": ax.x(-1390), "x1": ax.x(-30), "y": 900, "h": 14, "c": "#c9ad85", "t": "c. 1,400 years of burials", "in": .3},
-                  {"k": "band", "x0": ax.x(-664), "x1": ax.x(-30), "y": 780, "h": 18, "c": AMBER, "t": "Greater Vaults, from Psamtik I", "in": .8}]
+                  {"k": "band", "x0": ax.x(-612), "x1": ax.x(-30), "y": 780, "h": 18, "c": AMBER, "t": "Greater Vaults, from Psamtik I", "in": .8}]
     s5 = tl
     s6 = like(s2, cam=[1.05, 500, 880], add=[{"k": "line", "p": [[200 + j * 30, 1100], [260 + j * 30, 740]], "c": "#9fd0ff", "w": 1, "op": .5, "in": .2 + j * .03} for j in range(16)] +
               [{"k": "label", "x": 440, "y": 640, "t": "full 3D scans of all 24", "c": "#cfe6ff", "in": 1.0}])
@@ -1187,7 +1187,7 @@ def power_plant():
           [{"k": "rect", "x": 390, "y": 470 + i * 150, "w": 150, "h": 44, "r": 22, "fill": "none", "c": "#c43a24", "sw": 3, "in": .8 + i * .2} for i in (0, 2, 3)] + \
           [{"k": "label", "x": 465, "y": 500 + i * 150, "t": "Khufu", "st": "ital", "c": "#e4553a", "in": .9 + i * .2} for i in (0, 2, 3)]
     s6 = {"base": "dark", "cam": [1, 500, 860], "els": rel + [{"k": "cap", "x": 500, "y": 380, "t": "the sealed chambers above the King's Chamber", "in": .1},
-          {"k": "label", "x": 500, "y": 1210, "t": "work-gang marks in red ochre · first entered 1837", "st": "small", "in": 1.4}]}
+          {"k": "label", "x": 500, "y": 1210, "t": "work-gang marks in red ochre · top four opened 1837", "st": "small", "in": 1.4}]}
     s7 = dict(sky, cam=[1, 500, 900], els=[body, shade] + inner + [{"k": "person", "x": 150 + i * 18, "y": 1150, "h": 7, "t": False} for i in range(8)] +
               [{"k": "label", "x": kc[0] + 40, "y": kc[1] - 10, "t": "a king's tomb", "a": "start", "c": GOLD, "in": .5}])
     # 3-D: the pyramid turns, its shafts and chambers seen through the stone; the sealed rooms as a cutaway stack
@@ -1203,7 +1203,7 @@ def power_plant():
     s6 = {"base": "dark", "stars": 40, "cam": [1, 500, 900], "els": [{"k": "glow", "x": 500, "y": 900, "r": 480, "kind": "lamp", "op": .16},
           {"k": "iso", "x": 500, "y": 1210, "s": 30, "az": -35, "spin": 2.4, "el": .34, "items": stack},
           {"k": "cap", "x": 500, "y": 330, "t": "the sealed chambers above the King's Chamber", "in": .1},
-          {"k": "label", "x": 500, "y": 1400, "t": "work-gang marks in red ochre · first entered 1837", "st": "small", "in": 1.4}]}
+          {"k": "label", "x": 500, "y": 1400, "t": "work-gang marks in red ochre · top four opened 1837", "st": "small", "in": 1.4}]}
     s7 = aim(iso(great_pyramid(void=False) + [{"t": "glow", "x": KC[0], "y": KC[1], "z": 0, "r": 70, "kind": "lamp", "pulse": True},
               labL(KC[0], KC[1] + 14, "a king's name inside", GOLD)], spin=1.6), (0, 60, 0), 1.7)
     shots = [s0, s1, s2, s3, s4, s5, s6, s7]
@@ -1214,13 +1214,13 @@ def power_plant():
         B("collision", 3, ["[d:build][k:TESTABLE][act:bright, genuinely pleased]Here's the ^good part: a machine leaves ^traces. [act:warm, eager][tune:fall]So we can ^*check*."]),
         B("cost", 4, ["[d:build][act:first test, crisp][tune:rise]^Salt on the chamber walls? [act:reporting the result, clear]Tested in {2026|twenty twenty-six}: ^rock salt, from the ^limestone itself. [act:plain, closing it][tune:fall]Not a ^chemical reaction.",
                       "[d:list][go:5|0][act:next test, same tone][tune:rise]Granite as a ^crystal generator? [act:explaining, a little amused]Its ^quartz grains point every which ^way. [act:simple, settled][tune:fall]Their effects mostly ^*cancel* out."]),
-        B("reversal", 6, ["[d:reveal][k:THE TWIST][act:lower, leaning in]And in ^sealed rooms above the King's Chamber, ^unopened until {1837|eighteen thirty-seven}...",
+        B("reversal", 6, ["[d:reveal][k:THE TWIST][act:lower, leaning in]And in rooms above the King's Chamber, the top four ^sealed until {1837|eighteen thirty-seven}...",
                           "[d:reveal][sfx:hit][act:the reveal, slower]work ^gangs painted a king's ^name. [gap:0.4][act:the name, clear and firm][tune:highfall]^*Khufu*. [act:quiet, letting it sit][tune:fall]More than a ^dozen times."]),
         B("tag", 7, ["[d:verdict][k:THE VERDICT][p:0.95][act:calm summary]A king's name, ^sealed inside. [act:turning to it, even][tune:rise]The ^power plant? [act:the verdict, firm and kind][tune:fall]*Ruled ^out*, by the evidence.",
                      "[d:tension][p:0.93][act:warm, reflective]The ^only machine we can ^trace... [act:the last word, a warm smile][tune:fall]is ^*people*."]),
     ]
     return EP("power-plant", "05.15", "The Giza Power Plant", "giza-power-plant", "debunked", "A machine, not a tomb?", "A *power plant*?", beats, shots,
-              "Sessa et al. 2026 · Tuck, Stacey & Starkey 1977, Tectonophysics · Vyse 1840–42 · Tallet & Lehner 2021, The Red Sea Scrolls",
+              "Sessa et al. 2026 · Tuck, Stacey & Starkey 1977, Tectonophysics · Vyse 1840 to 1842 · Tallet & Lehner 2021, The Red Sea Scrolls",
               "Christopher Dunn's power-plant theory makes predictions. The salt, the granite and Khufu's name in sealed chambers answer them.",
               ["#GreatPyramid", "#Giza", "#AncientEgypt", "#Science", "#Archaeology"])
 

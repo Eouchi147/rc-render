@@ -48,7 +48,7 @@ def oklo():
                                                             {"k": "label", "x": 250, "y": 780, "t": "2.5 h off", "st": "small", "c": "#9fd0ff", "a": "start", "in": 1.4},
                                                             {"k": "label", "x": 500, "y": 1060, "t": "water slows the neutrons · fission heats it · it boils away · fission stops · water returns", "st": "small", "c": AMBER, "in": 1.8}]}
     tl, ax = timeline(-2600, 0, [(-2500, "2.5 bn yrs ago"), (-2000, "2.0"), (-1000, "1.0"), (0, "today")], "Why only then")
-    tl["els"] += event(ax, -2400, "oxygen builds up in the air", row=1, c=SCAN, i=.3, sub="uranium dissolves in water") + event(ax, -2000, "the reactors run", row=2, c=GOLD, i=.6, sub="fissile uranium: about 3%") + \
+    tl["els"] += event(ax, -2400, "oxygen builds up in the air", row=1, c=SCAN, i=.3, sub="uranium dissolves in water") + event(ax, -2000, "the reactors run", row=2, c=GOLD, i=.6, sub="fissile uranium: about 3.7%") + \
                  event(ax, 0, "today: 0.72%", row=0, c=BONE, i=.9)
     s4 = tl
     s5 = stat("16", "reactor zones", "found in the Franceville basin: the only natural nuclear reactors known", "Gauthier-Lafaye et al. 1996; Meshik 2005")
@@ -61,10 +61,10 @@ def oklo():
                        "[d:build][act:slow, a detective's conclusion]^Something had used@verb it up."]),
         B("collision", 5, ["[d:build][k:THE CASE][act:presenting the claim, fair, a touch playful]Online, it's an ancient nuclear ^plant, built by ^someone. [act:giving the argument its due]After all, it took the ^Manhattan Project@noun for humans to make a chain reaction.",
                            "[d:aside][act:lighter, adding fuel]And it's happened in only ^one basin on Earth."]),
-        B("cost", 4, ["[d:build][k:THE PHYSICS][act:the turn, explaining with relish]But two billion years ago uranium was ^richer: about three percent fissile, close@adj to ^modern reactor fuel.",
+        B("cost", 4, ["[d:build][k:THE PHYSICS][act:the turn, explaining with relish]But two billion years ago uranium was ^richer: about three point seven percent fissile, close@adj to ^modern reactor fuel.",
                       "[d:build][go:0|0][sfx:shimmer][act:building, step by step]Groundwater seeped into the ^seams, slowed the ^neutrons, and the rock went ^critical. [act:flat, final, a small wonder][tune:highfall]By ^itself."]),
         B("reversal", 3, ["[d:reveal][k:THE TWIST][sfx:hit][act:delighted, lean in]And it ^pulsed. [act:laying out the rhythm][tune:level]Thirty minutes@time ^on, until the water ^boiled away. [act:the other half, slower][tune:fall]Two and a half hours ^off, until it ^seeped back.",
-                          "[d:aside][act:admiring aside, lighter]A physicist, Paul Kuroda, ^predicted exactly this in {1956|nineteen fifty-six}, ^sixteen years before anyone found it."]),
+                          "[d:aside][act:admiring aside, lighter]A chemist, Paul Kuroda, ^predicted exactly this in {1956|nineteen fifty-six}, ^sixteen years before anyone found it."]),
         B("tag", 6, ["[d:verdict][k:THE VERDICT][p:0.95][act:weighing it, calm][tune:rise]Built by ^someone? [act:dry, simple][tune:fall]Not a ^trace. [act:turning to the answer][tune:rise]A ^natural reactor? [act:the verdict, confident][tune:fall]^*Established*.",
                      "[d:tension][p:0.93][act:warm, amused wonder]^Nature got there first. [act:the kicker, dry][tune:fall]By about ^two billion years."]),
     ]
@@ -404,20 +404,20 @@ def oklo_m():
     t = sec(1.83)
     basin = [I.oval(500, 1250, 290, 72, "rgba(232,184,122,.08)", "#c9a370", 2, 1, t(2.4), style="inferred")] + \
         [I.dot(x, y, 7, AU, t(3.4 + .06 * k)) for k, (x, y) in enumerate(I.scatter(16, 290, 710, 1215, 1285, 16))] + [I.label(500, 1385, "16 reactor zones", t(4.0), I.BONE, 30), I.glow(500, 1250, 260, t(6.4), .45, "lamp")]
-    # 4 · uranium changes with time: thirty fissile atoms in a thousand two billion years ago, seven today
+    # 4 · uranium changes with time: thirty-seven fissile atoms in a thousand two billion years ago, seven today
     t = sec(2.5)
     BX = lambda x0, c: x0 + 12.6 * c
     BY = lambda r: 640 + 12.6 * r
     import random as _r
     rr = _r.Random(12)
-    cells = rr.sample([(r, c) for r in range(40) for c in range(25)], 30)
+    cells = rr.sample([(r, c) for r in range(40) for c in range(25)], 37)
     hour = {"base": "dark", "cam": [1, 500, 900], "els": [I.box(100, 622, 338, 527, "rgba(255,236,206,.04)", "#8a7a66", 2, 12, t(.6)), I.box(562, 622, 338, 527, "rgba(255,236,206,.04)", "#8a7a66", 2, 12, t(.6))] +
             _dots(118, 640, 25, 40, 12.6, U0, 6, t(.8), t(.03)) + _dots(580, 640, 25, 40, 12.6, U0, 6, t(.8), t(.03)) +
             [I.line([[470, 830], [530, 830], [470, 950], [530, 950], [470, 830]], t(6.8), I.BONE, 3, dur=1.0), {"k": "poly", "p": [[500, 892], [522, 945], [478, 945]], "fill": AU, "c": "none", "w": 0, "in": t(7.6), "fx": "fill", "dur": 2.0},
              {"k": "poly", "p": [[478, 836], [522, 836], [500, 868]], "fill": AU, "c": "none", "w": 0, "in": t(7.0)}, I.arrow([[466, 990], [534, 990]], t(9.4), I.BONE, 3, dur=.5, curve=False)] +
             [I.label(269, 600, "2 billion years ago", t(10.2), I.BONE, 30), I.label(731, 600, "today", t(11.8), I.BONE, 30)] +
             [atom(BX(580, c), BY(r), t(12.0 + .08 * k), 5.5) for k, (r, c) in enumerate(cells[:7])] + [I.label(731, 1205, "0.72%", t(12.8), AU, 44, st="serif")] +
-            [atom(BX(118, c), BY(r), t(14.8 + .04 * k), 5.5) for k, (r, c) in enumerate(cells)] + [I.label(269, 1205, "about 3%", t(16.0), AU, 44, st="serif")] +
+            [atom(BX(118, c), BY(r), t(14.8 + .04 * k), 5.5) for k, (r, c) in enumerate(cells)] + [I.label(269, 1205, "about 3.7%", t(16.0), AU, 44, st="serif")] +
             [I.box(150, 1250, 240, 34, "#8a939c", "#cbd2d8", 2, 17, t(18.4), fx="pop")] + [I.line([[150 + 40 * k, 1252], [150 + 40 * k, 1282]], t(18.6), "#5b6168", 2, draw=False) for k in range(1, 6)] +
             [I.label(269, 1330, "reactor fuel", t(18.8), I.BONE, 28)]}
     # 0 · the seam (still, so the drawings stay on it): groundwater runs in, a neutron slowed by water, the rock goes critical
