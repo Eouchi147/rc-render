@@ -9,6 +9,10 @@ FF = "".join(f"@font-face{{font-family:'{fam}';font-style:{st};font-weight:{wt};
     ("Newsreader", "normal", 400, "newsreader-latin-400-normal.woff2"), ("Newsreader", "italic", 400, "newsreader-latin-400-italic.woff2"),
     ("Newsreader", "normal", 500, "newsreader-latin-500-normal.woff2"), ("Inter", "normal", 400, "inter-latin-400-normal.woff2"),
     ("Inter", "normal", 600, "inter-latin-600-normal.woff2"), ("Inter", "normal", 700, "inter-latin-700-normal.woff2")])
+FF += "".join(f"@font-face{{font-family:'{fam}';font-style:{st};font-weight:{wt};src:url('file://{FONTS}/{fn}');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}}" for fam, st, wt, fn in [
+    ("Newsreader", "normal", 400, "newsreader-latin-ext-400-normal.woff2"), ("Newsreader", "italic", 400, "newsreader-latin-ext-400-italic.woff2"),
+    ("Newsreader", "normal", 500, "newsreader-latin-ext-500-normal.woff2"), ("Inter", "normal", 400, "inter-latin-ext-400-normal.woff2"),
+    ("Inter", "normal", 600, "inter-latin-ext-600-normal.woff2"), ("Inter", "normal", 700, "inter-latin-ext-700-normal.woff2")])
 
 
 async def main(ids, wait=int(os.environ.get("RC_WAIT", "2600"))):
