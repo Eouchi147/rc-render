@@ -88,13 +88,13 @@
   {
    "cell": 7,
    "where": "Carthage, 146 BCE",
-   "evidence_note": "the salt story: first told in 1930",
+   "evidence_note": "the salt story: no ancient source",
    "claim_text": "salted earth?",
    "verdict": "ruled",
    "chip": "",
    "t1": "[act:storytelling, grave]Last stop: ^Carthage, {146|one forty-six} BCE, burned by Rome after a long ^siege.",
    "t2": "[act:the famous claim][tune:rise]And its earth ^salted, so nothing would grow ^again?",
-   "t3": "[act:explaining, the method]Trace a story to its first ^teller, like a rumour to whoever started ^it. [act:the reveal, a small smile]No ancient writer mentions ^salt: it first appears in {1930|nineteen thirty}.",
+   "t3": "[act:explaining, the method]Trace a story to its first ^teller, like a rumour to whoever started ^it. [act:the reveal, a small smile]No ancient writer mentions ^salt: the story appears more than a thousand years ^later.",
    "t4": "[act:the verdict, firm][tune:fall]Salted earth: *ruled ^out*. [act:warm, the irony]Rome itself later rebuilt ^it."
   }
  ],
