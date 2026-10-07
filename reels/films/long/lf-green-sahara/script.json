@@ -1,0 +1,918 @@
+{
+ "id": "lf-green-sahara",
+ "kind": "theme",
+ "series": "When the Sahara Was Green",
+ "title": "When the Sahara Was Green",
+ "intro_title": "When the Sahara Was Green",
+ "yt_title": "When the Sahara Was Green: Hippos, Lakes and a Lost Lineage",
+ "verdict": "Established",
+ "verdict_scope": "A green Sahara, with lakes, hippos, crocodiles, fishers and herders, from about 14,500 to 5,000 years ago, paced by the slow wobble of Earth's orbit through the West African monsoon: Established (lake shorelines, fossils, pollen, dust and leaf-wax records, and the archaeology of hundreds of sites). Graded separately in the weighing: the orbit and the monsoon as its pacemaker: Established (how much the vegetation feedback added is still debated); a North African lineage nobody knew, from the Takarkori genomes: Strong evidence (two women, one site); Nabta Playa's ring watching the sun: Plausible (the star maps: a stretch); the Sahara switching off overnight: Mixed record (abrupt in some records, gradual in others, later further south); Gobero one people or two, the meaning of the swimmers, and drought as the spark of Egypt: Open question; the Garamantes undone by their fossil water: Plausible; astronauts on the rocks: Ruled out.",
+ "hook": "How did the Sahara turn green?",
+ "end_line": "Somewhere under the sand, the green Sahara is still waiting to be read.",
+ "structure_note": "chapters[0] is the cold open and the title beat (no chapter card; YouTube chapter 0:00). Chapters 1 to 6 are the story chapters, each opening on a sentence that stands alone (each will also be cut as a vertical clip); 'The weighing' carries the verdicts, the test and the close. Shot ids s1 to s60 are in story order (s4t is the title card over s4; s2 and s3 are new framings of the hero panel s1; s19 adds to s18, s22 returns to s20, s32 adds to s31, s24 moves in on s23, s43 adds to s42, s44 returns to s39, s49 returns to s5, s55 and s56 add to s54).",
+ "chapters": [
+  {
+   "title": "Cold open",
+   "beats": [
+    {
+     "role": "hook",
+     "lines": [
+      "[d:intrigue][sfx:boom][act:hushed, vivid][tune:level]About nine thousand years ago, in the middle of what is now the Sahara, a hippo came up for ^air. [act:painting it, warm][tune:fall]Around it: a ^lake, wide ^grassland, and people fishing with harpoons of ^bone.",
+      "[d:tension][act:the turn, quiet][tune:fall]Today there's sand to the ^horizon, [act:grave][tune:fall]and in places it hardly ever ^rains.",
+      "[d:tension][act:the child's question, leaning in][tune:rise]So how did the biggest hot desert@noun on Earth turn ^green? [act:the second question, intrigued][tune:rise]And when the rain ^stopped, where did its people ^go?"
+     ],
+     "shots": [
+      {
+       "id": "s1",
+       "say": "About nine thousand years ago, in the middle of what is now the Sahara, a hippo came up for air.",
+       "draw": "THE HERO IMAGE, fully drawn from the first frame, framed close (camera about 1.25x on the lake): morning over a green Saharan valley. A tall layered sandstone cliff on the right, warm ochre with dark ledges and a deep overhang; distant flat-topped mesas in blue haze; tall grass and two flat-topped acacias on the far shore; a wide blue-green lake in front. In the middle of the lake a hippo surfaces: the top of its head, eyes, small round ears and broad nostrils above the water, a gleam on its wet skin, rings of ripples spreading and a few drops. Nothing important in the top left 900 x 180 units (the hook title sits there for 3 s). Label after the title clears: 'about 9,000 years ago'."
+      },
+      {
+       "id": "s2",
+       "say": "Around it: a lake, wide grassland, and people fishing with harpoons of bone.",
+       "draw": "The camera pulls back to the whole valley (same panel): the lake opens wide, the grassland runs to the hills, a giraffe and a few antelope graze far off; on the near shore two people stand in the shallows with long harpoons raised, a third kneels with a fish; small fish flash in the water. Label 'a lake, grassland, fishers'."
+      },
+      {
+       "id": "s3",
+       "say": "Today there's sand to the horizon, and in places it hardly ever rains.",
+       "draw": "Same view, today: the sky turns pale and hazy, the sun harsh; dunes rise from the bottom of the frame and roll over the lake, the grass and the fishers (sand-coloured ridges that build up in layers), until only the bare cliff stands above a sea of sand. Label 'the same place today'."
+      },
+      {
+       "id": "s4",
+       "say": "So how did the biggest hot desert on Earth turn green? And when the rain stopped, where did its people go?",
+       "draw": "A dark map of North Africa (about 18 W to 38 E, 4 to 36 N): the Sahara as a pale sand shape with the Nile in blue. On 'turn green' a green wash spreads over the Sahara and a big question mark glows over it. On 'where did its people go?' three dashed lilac arrows leave the middle of the desert: east to the Nile, south to the Sahel, and up into the central mountains, each ending in a small '?'."
+      }
+     ]
+    },
+    {
+     "role": "title",
+     "lines": [
+      "[d:calm][act:warm, setting out]When the Sahara Was ^Green. [act:the promise, steady][tune:fall]What the sand remembers, one clue at a ^time."
+     ],
+     "shots": [
+      {
+       "id": "s4t",
+       "say": "When the Sahara Was Green. What the sand remembers, one clue at a time.",
+       "draw": "The intro title card 'When the Sahara Was Green' over the dimmed map of s4 (no new panel). Only the title is said here."
+      }
+     ],
+     "intro": true
+    }
+   ]
+  },
+  {
+   "title": "A lake as big as a sea",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:storytelling, placing it]In the southern Sahara, in what is now ^Chad, there was once a lake as big as the Caspian ^Sea. [act:the comparison, wonder][tune:fall]That's the largest lake on Earth ^today. [act:naming it][tune:fall]Geologists call it Lake ^Mega-Chad.",
+      "[d:build][act:the evidence, vivid]Its old beaches still ring the desert@noun, clear enough to trace from ^space. [p:0.93][act:widening out]And across the Sahara, dried-up lake beds hold the bones of fish, ^hippos and ^crocodiles: [act:the point][tune:fall]animals that need water all year ^round."
+     ],
+     "shots": [
+      {
+       "id": "s5",
+       "say": "In the southern Sahara, in what is now Chad, there was once a lake as big as the Caspian Sea. That's the largest lake on Earth today. Geologists call it Lake Mega-Chad.",
+       "draw": "A map of the Chad basin (about 6 to 26 E, 6 to 24 N) with the national borders faint: today's Lake Chad, a small blue patch; then Lake Mega-Chad fills outward from it (a schematic outline scaled to about 360,000 square km), deep blue. On 'the Caspian Sea' the outline of the Caspian, drawn to the same scale, slides in beside it as a dashed blue shape: about the same size. Labels: 'Lake Chad today', 'Lake Mega-Chad', 'Caspian Sea, same scale'.",
+       "reuse": "green-sahara (16.05) hook: Mega-Chad with the Caspian at the same scale, redrawn wide"
+      },
+      {
+       "id": "s6",
+       "say": "Its old beaches still ring the desert, clear enough to trace from space.",
+       "draw": "Seen from orbit: a satellite in the top right sends a pale scanning beam down onto a sand plain; old shorelines draw themselves one after another as long concentric curved ridges in the sand, a ring of beach ridges around a dry basin; a tiny camel and rider for scale. Label 'old shorelines, seen from space'."
+      },
+      {
+       "id": "s7",
+       "say": "And across the Sahara, dried-up lake beds hold the bones of fish, hippos and crocodiles: animals that need water all year round.",
+       "draw": "A dried lake bed cut open: pale lake mud layers under the sand. As named, fossils pop in the layers: a fish skeleton, a hippo jaw with its tusks, a crocodile jaw with teeth; above each, the living animal appears as a faint dashed outline swimming in a ghost of the old water line. Label 'old lake beds'."
+      }
+     ],
+     "chapter": "A lake as big as a sea"
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:the method, curious]Pollen in the old mud shows ^grass and ^trees where there's only sand ^today. [p:0.9][act:the number, amazed][tune:fall]At its height, rain fell at about ten times today's ^rate. [act:fair, the challenger][tune:level]Some geologists argue for a paler ^green: [act:fair][tune:fall]grassland with scattered lakes and ^marshes, and only one true giant ^lake."
+     ],
+     "shots": [
+      {
+       "id": "s8",
+       "say": "Pollen in the old mud shows grass and trees where there's only sand today. At its height, rain fell at about ten times today's rate.",
+       "draw": "Left: a round lens over a smear of mud; inside it pollen grains pop (a round grass grain with one pore, a three-furrowed tree grain), each linked by a thin line to its plant: a grass tuft and an acacia. Right: two rain gauges side by side, 'today' with a thin blue column and 'then' filling to about ten times higher, the label 'about 10 x' popping beside it."
+      },
+      {
+       "id": "s9",
+       "say": "Some geologists argue for a paler green: grassland with scattered lakes and marshes, and only one true giant lake.",
+       "draw": "A map of the whole Sahara in pale green-grey: scattered small blue lakes and marsh dots appear across it; the other giant lakes once proposed (in Libya's Fezzan, in the Algerian Sahara, at the Tunisian chotts) are drawn as dotted outlines with small question marks; Lake Mega-Chad alone stays solid blue. Label 'a paler green?'."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:the question, curious][tune:rise]But ^why? [p:0.93][act:explaining, a picture]Earth's orbit has a slow ^wobble, about twenty thousand years long, that changes which season we spend closest to the ^Sun. [act:the reveal]Ten thousand years ago, that was the northern ^summer. [p:0.93][act:the number][tune:fall]Summer sunshine over North Africa was about seven percent ^stronger.",
+      "[d:build][p:0.93][act:the everyday picture, warm]On a summer afternoon at the beach, the sand heats faster than the ^sea: [act:explaining][tune:level]warm air rises off the ^land, [tune:fall]and cool, damp air blows in to take its ^place. [act:the payoff, wonder]The West African monsoon is that sea breeze, the size of a ^continent. [act:explaining, plain][tune:fall]More sun, more breeze, more ^rain, pushed deep into the ^desert@noun."
+     ],
+     "shots": [
+      {
+       "id": "s10",
+       "say": "But why? Earth's orbit has a slow wobble, about twenty thousand years long, that changes which season we spend closest to the Sun. Ten thousand years ago, that was the northern summer. Summer sunshine over North Africa was about seven percent stronger.",
+       "draw": "Space: the Sun at the left, Earth's orbit as an ellipse (shape exaggerated) with the closest point marked; a curved arrow runs along the orbit, 'about 20,000 years': the season at the closest point slowly changes. At the closest point, a dashed Earth 'today: January' tilted away, then a solid Earth '10,000 years ago: northern summer' with the north tilted towards the Sun and North Africa lit. Then a bar for summer sunshine over North Africa grows 7 percent longer than today's: '+7%'."
+      },
+      {
+       "id": "s11",
+       "say": "On a summer afternoon at the beach, the sand heats faster than the sea: warm air rises off the land, and cool, damp air blows in to take its place.",
+       "draw": "A beach in cross-section on a hot afternoon: the sea on the left, sand on the right, the sun high; a person under a parasol for scale. The sand glows warm; red arrows rise off it; blue arrows blow in low from the sea and curl up; a small cloud forms over the land. Labels 'warm land', 'cool, damp air'."
+      },
+      {
+       "id": "s12",
+       "say": "The West African monsoon is that sea breeze, the size of a continent. More sun, more breeze, more rain, pushed deep into the desert.",
+       "draw": "A map of West and North Africa (about 20 W to 30 E, 0 to 32 N): the Gulf of Guinea in the south; broad blue arrows blow in from the Atlantic over the land; a blue rain belt sits over the Sahel ('today'), then slides north deep into the Sahara ('then'), green spreading behind it, with small rain streaks. Labels 'monsoon', 'rain belt: today', 'then'."
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:build][act:the twist, intrigued]Then the land joined ^in. [p:0.93][act:explaining, clear]Plants and lakes darkened the ^ground, soaked up more ^sunshine, and breathed water back into the ^air. [act:the landing, a small smile][tune:fall]Green made more ^green.",
+      "[d:calm][act:quiet wonder]A few crocodiles still live@verb in rock pools in the desert@noun of ^Mauritania. [act:the last line, warm][tune:fall]They're survivors of the green ^Sahara."
+     ],
+     "shots": [
+      {
+       "id": "s13",
+       "say": "Then the land joined in. Plants and lakes darkened the ground, soaked up more sunshine, and breathed water back into the air. Green made more green.",
+       "draw": "A loop drawn as a landscape: on the left bright bare sand bounces the sunlight back up (yellow arrows reflected); on the right grass, trees and a pond darken the ground and take the light in; wavy vapour rises from the plants and the water into a growing cloud, the cloud rains back on the plants, and a circular arrow closes around them: 'more plants, more rain'."
+      },
+      {
+       "id": "s14",
+       "say": "A few crocodiles still live in rock pools in the desert of Mauritania. They're survivors of the green Sahara.",
+       "draw": "Dusk in a rocky desert canyon: a small dark rock pool (a guelta) at the foot of the cliffs, a crocodile basking on a ledge at the water's edge, its reflection in the pool; sand all around. A small locator map in the corner with a pin in Mauritania. Label 'a guelta, Mauritania'."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The lake at Gobero",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:storytelling]In the year {2000|two thousand}, dinosaur hunters in Niger's Ténéré desert@noun found human bones in the ^sand. [act:plain][tune:fall]The team was led by the palaeontologist Paul ^Sereno.",
+      "[d:build][act:the scale, impressed]It was a ^cemetery: about two hundred ^graves, on a dune beside a lake that has since ^vanished. [p:0.93][act:painting it]The lake was about three kilometres ^across, and no more than three metres ^deep. [act:listing, vivid][tune:level]In the rubbish heaps: bones of Nile ^perch, catfish and ^hippos, [tune:fall]and harpoons and fish hooks made of ^bone."
+     ],
+     "shots": [
+      {
+       "id": "s15",
+       "say": "In the year 2000, dinosaur hunters in Niger's Ténéré desert found human bones in the sand. The team was led by the palaeontologist Paul Sereno.",
+       "draw": "Rolling dunes in hard light; a field team on the crest (three figures, one kneeling with a brush beside a huge dinosaur leg bone half out of the sand). Nearby a few small pale bone fragments show in the sand beside a little marker flag. Inset map: Niger with a pin 'Gobero', the Air Mountains and the Tenere marked. Labels 'Gobero, Niger, 2000'."
+      },
+      {
+       "id": "s16",
+       "say": "It was a cemetery: about two hundred graves, on a dune beside a lake that has since vanished. The lake was about three kilometres across, and no more than three metres deep.",
+       "draw": "Plan view: a long sand ridge on which about two hundred small oval graves pop one by one; beside it the outline of the vanished lake fills blue, with a '3 km' bar across it. Then a small section of the lake below: a shallow water layer and a standing person for scale, '3 m' at its deepest.",
+       "reuse": "gobero (16.06) mural shot 2: two hundred graves beside the lake, redrawn wide"
+      },
+      {
+       "id": "s17",
+       "say": "In the rubbish heaps: bones of Nile perch, catfish and hippos, and harpoons and fish hooks made of bone.",
+       "draw": "A low midden heap in section, shells and ash; out of it rise, one by one as named, a big Nile perch, a whiskered catfish, a hippo (side view); then two bone harpoon points with barbs and a bone fish hook, drawn large and pale like museum pieces. Labels 'Nile perch', 'catfish', 'hippo', 'bone harpoons'."
+      }
+     ],
+     "chapter": "The lake at Gobero"
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:building, precise]The first people buried here are called the ^Kiffian. [act:vivid]From about {7700|seventy-seven hundred} BCE, they fished the lake with ^harpoons. [act:grave]Then came a long dry spell, and the lake ^emptied. [p:0.93][act:grave, quiet][tune:fall]For about a thousand years, no one was buried ^here.",
+      "[d:build][act:the change]When the water came back, so did the ^burials, [act:the change, precise][tune:fall]but they looked ^different. [act:steady]These people are called the ^Tenerians, and they also kept ^cattle."
+     ],
+     "shots": [
+      {
+       "id": "s18",
+       "say": "The first people buried here are called the Kiffian. From about 7700 BCE, they fished the lake with harpoons. Then came a long dry spell, and the lake emptied. For about a thousand years, no one was buried here.",
+       "draw": "A time line from 8000 to 2000 BCE under a lake drawn as a water level: from 7700 BCE the lake fills (blue), a fisher with a harpoon stands at its edge and small grave marks appear, 'Kiffian'; from 6200 BCE the water drains away to cracked mud, 'dry'; a bracket over 6200 to 5200 BCE: 'about 1,000 years', no graves.",
+       "reuse": "gobero (16.06) mural shot 4: the lake that fills, empties and fills again"
+      },
+      {
+       "id": "s19",
+       "say": "When the water came back, so did the burials, but they looked different. These people are called the Tenerians, and they also kept cattle.",
+       "draw": "Same time line: from 5200 BCE the lake fills again; new grave marks in another colour, a herder with cattle at the shore; label 'Tenerian'."
+      }
+     ]
+    },
+    {
+     "role": "cost",
+     "lines": [
+      "[d:build][act:tender, careful]About fifty-three hundred years ago, a woman and two children were laid in one ^grave, [act:tender][tune:fall]their arms and legs ^intertwined. [p:0.93][act:gentle, explaining][tune:fall]Clumps of pollen from wild flowers suggest flowers were laid with ^them."
+     ],
+     "shots": [
+      {
+       "id": "s20",
+       "say": "About fifty-three hundred years ago, a woman and two children were laid in one grave, their arms and legs intertwined. Clumps of pollen from wild flowers suggest flowers were laid with them.",
+       "draw": "No remains are drawn: a grave outline in the sand seen from above, and inside it three soft lights of different sizes close together (a woman and two children), their glows overlapping. 'about 3300 BCE'. Then a round lens shows a few pollen grains, and small pink and white wool-flower plumes scatter over and under the lights.",
+       "reuse": "gobero (16.06) mural shot 3: the embrace drawn only as light"
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:fair, even]In {2008|two thousand eight}, the team read@past the skulls as two different ^peoples. [p:0.93][act:explaining, a simple picture]But teeth run in families ^too, a bit like the shape of a ^nose. [act:the twist, precise][tune:fall]A newer study of their teeth, with Sereno as a co-author, finds the two groups hard to tell ^apart."
+     ],
+     "shots": [
+      {
+       "id": "s21",
+       "say": "In 2008, the team read the skulls as two different peoples. But teeth run in families too, a bit like the shape of a nose. A newer study of their teeth, with Sereno as a co-author, finds the two groups hard to tell apart.",
+       "draw": "Left a group of three figures in blue ('Kiffian'), right three in gold ('Tenerian'), a wall line between them tagged '2008: two peoples'. Then a molar seen from above, its cusps ringed one by one. Then a row of teeth from each group lines up and an '≈' glows between them: 'newer study: alike'; the wall line fades to dashes.",
+       "reuse": "gobero (16.06) mural shot 5: two peoples in 2008, the teeth that match"
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:calm][act:the question, even][tune:rise]One people, or ^two? [act:fair][tune:fall]Ancient DNA could settle it, if any survived the ^heat. [p:0.93][act:the last word, warm, gentle][tune:fall]Either way, someone loved ^them."
+     ],
+     "shots": [
+      {
+       "id": "s22",
+       "say": "One people, or two? Ancient DNA could settle it, if any survived the heat. Either way, someone loved them.",
+       "draw": "Back at the three lights of the embrace (the panel of s20): a dashed double helix with a question mark hovers over the grave; a hot sun glows at the top; then the three lights brighten warmly, the flowers around them."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Swimmers in the desert",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:intrigue][act:storytelling, intrigued]In {1933|nineteen thirty-three}, the Hungarian explorer ^Almásy found a rock shelter in Egypt's far ^south-west, where it almost never ^rains. [act:vivid, quiet]On its wall: little painted figures, arms and legs spread ^wide. [act:steady][tune:fall]He called it the Cave of ^Swimmers."
+     ],
+     "shots": [
+      {
+       "id": "s23",
+       "say": "On its wall: little painted figures, arms and legs spread wide.",
+       "draw": "Under a low sandstone overhang, a smooth pale wall where small red-brown figures appear one by one, bodies flat, arms and legs spread as if swimming; a soft light on the wall. In the top left corner, a small locator map of Egypt (the Nile in blue) with the Gilf Kebir plateau in the far south-west and a pin on its edge, already in place while the card holds the first sentence.",
+       "reuse": "wadi-sura (16.07) shot 0: the painted swimmers; its map as a locator"
+      },
+      {
+       "id": "s24",
+       "say": "He called it the Cave of Swimmers.",
+       "draw": "The camera moves in on the swimmers (same panel); label 'the Cave of Swimmers'."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:impressed, building]In {2002|two thousand two}, a second shelter turned up about ten kilometres ^away: the Cave of ^Beasts. [act:vivid, painting it]Its painted wall is about seventeen metres ^long. [p:0.9][act:the punchline, savouring it]About eight thousand ^figures. [act:the second punchline, amused][tune:fall]And about eight thousand years ^old.",
+      "[d:build][act:listing][tune:level]Hands, ^swimmers, [tune:fall]and strange headless ^beasts. [act:curious, setting it up]A few tiny hand stencils looked like a ^baby's. [p:0.93][act:delighted, a little amazed][tune:fall]Measured against real newborns' hands, they turned out to be most likely the feet of a ^reptile, perhaps a ^lizard."
+     ],
+     "shots": [
+      {
+       "id": "s25",
+       "say": "In 2002, a second shelter turned up about ten kilometres away: the Cave of Beasts. Its painted wall is about seventeen metres long. About eight thousand figures. And about eight thousand years old.",
+       "draw": "A long low shelter: an overhanging lip of rock over a wide pale wall; a 'about 17 m' dimension line draws under it, with three standing people for scale; then thousands of tiny painted marks (red, white, ochre) spread over the wall; labels pop: 'about 8,000 figures', then 'about 8,000 years old'.",
+       "reuse": "wadi-sura (16.07) mural shot 2: the wall of the Cave of Beasts, redrawn wide"
+      },
+      {
+       "id": "s26",
+       "say": "Hands, swimmers, and strange headless beasts. A few tiny hand stencils looked like a baby's. Measured against real newborns' hands, they turned out to be most likely the feet of a reptile, perhaps a lizard.",
+       "draw": "Close on the wall: a hand stencil (a hand outline in a cloud of red spray), a swimmer, and a headless beast pop as named. Then a tiny stencil is ringed; beside it a newborn's hand outline in dashes does not match (a red cross); a lizard's front foot is drawn and matches the stencil (a green tick). Labels 'a baby's hand?', 'a reptile's foot'.",
+       "reuse": "wadi-sura (16.07) mural shot 3: a stencil and a lizard's foot"
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:fair, even][tune:rise]So were the swimmers really ^swimming? [act:the first reading, fair]Almásy thought they showed a real ^lake, from a wetter ^time. [act:the other reading, measured]Others see the ^dead, floating in a watery world ^below, [act:explaining, careful][tune:fall]like the dark waters before creation in later Egyptian ^belief.",
+      "[d:build][p:0.93][act:the crux, precise]But those Egyptian texts come thousands of years after the ^paintings. [act:a picture of time, unhurried][tune:fall]That's like explaining a Roman mosaic with a book written ^today."
+     ],
+     "shots": [
+      {
+       "id": "s27",
+       "say": "So were the swimmers really swimming? Almásy thought they showed a real lake, from a wetter time. Others see the dead, floating in a watery world below, like the dark waters before creation in later Egyptian belief.",
+       "draw": "Two readings, side by side. Left: a bright lake with a grassy shore, the red swimmers floating in it, 'a real lake?'. Right: deep dark water with faint points of light, the same figures drifting pale and still, and a low mound of land rising from the dark water, 'the waters before creation?'. A question mark between them.",
+       "reuse": "wadi-sura (16.07) mural shot 5: two ways to read a swimmer"
+      },
+      {
+       "id": "s28",
+       "say": "But those Egyptian texts come thousands of years after the paintings. That's like explaining a Roman mosaic with a book written today.",
+       "draw": "A time line from 7000 BCE to today: the paintings as a band around 6000 BCE, the Egyptian tomb texts as a band from about 2400 to 1100 BCE, a long dashed arc between them 'thousands of years'. Then under it a second bracket from a small Roman mosaic (about 1 CE) to a modern book (today): '2,000 years'.",
+       "reuse": "wadi-sura (16.07) mural shot 4: the gap and the Roman mosaic"
+      }
+     ]
+    },
+    {
+     "role": "cost",
+     "lines": [
+      "[d:build][act:widening out]Across the Sahara, painters left whole ^herds: [act:vivid][tune:fall]cattle, and even scenes of ^milking. [act:the other side, intrigued]And older giants with smooth, round ^heads. [act:storytelling, a small smile]In the {1950s|nineteen fifties}, the explorer Henri ^Lhote nicknamed one the great Martian ^god. [act:dry][tune:fall]Some later writers took the name ^literally."
+     ],
+     "shots": [
+      {
+       "id": "s29",
+       "say": "Across the Sahara, painters left whole herds: cattle, and even scenes of milking. And older giants with smooth, round heads. In the 1950s, the explorer Henri Lhote nicknamed one the great Martian god. Some later writers took the name literally.",
+       "draw": "A long rock wall. On the right a painted herd: piebald cattle walking in a line, herders, and one person crouched milking a cow, 'herds and milking'. On the left, larger and older, a giant Round Head figure with a smooth round head and raised arms, a small modern person beside it for scale; on 'great Martian god' a dotted flying saucer and a dotted helmet outline are drawn over its head (the claim, in the dotted style), label '1950s nickname'.",
+       "reuse": "tassili (16.04) mural shots 0 and 4: the giant and the helmet drawn on it"
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:calm][act:fair, clear]Archaeologists read@present a blank head as a way of ^painting: perhaps a ^mask, or a ^spirit. [p:0.93][act:the last word, warm, a small smile][tune:fall]The swimmers, though, still aren't ^telling."
+     ],
+     "shots": [
+      {
+       "id": "s30",
+       "say": "Archaeologists read a blank head as a way of painting: perhaps a mask, or a spirit. The swimmers, though, still aren't telling.",
+       "draw": "Three Round Head figures side by side: one with a pale mask over its face, one glowing softly (a spirit), and the dotted helmet struck out in red over the third, 'a way of painting'. Then at the right a small red swimmer floats with a lilac question mark above it.",
+       "reuse": "tassili (16.04) mural shot 5: masks, body paint, or spirit beings"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "A lineage no one knew",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:plain, orienting]In a rock shelter in south-west ^Libya, two women were laid to rest about seven thousand years ^ago. [act:steady][tune:fall]The shelter is called ^Takarkori. [p:0.93][act:painting it, warm]Back then, herders lived here with their ^cattle, beside lakes and ^grassland.",
+      "[d:build][act:gentle, careful][tune:fall]The dry air turned the two women into natural ^mummies."
+     ],
+     "shots": [
+      {
+       "id": "s31",
+       "say": "In a rock shelter in south-west Libya, two women were laid to rest about seven thousand years ago. The shelter is called Takarkori. Back then, herders lived here with their cattle, beside lakes and grassland.",
+       "draw": "A green valley under a sandstone cliff with a deep overhang (the shelter): two small warm lights rest under the overhang (the two women, no remains drawn); grass, a lake, cattle grazing and two herders; a small locator map in the corner with a pin in the Acacus mountains of south-west Libya. Label 'Takarkori, about 7,000 years ago'.",
+       "reuse": "takarkori (16.03) mural shot 0: a rock shelter in a green Sahara, redrawn wide"
+      },
+      {
+       "id": "s32",
+       "say": "The dry air turned the two women into natural mummies.",
+       "draw": "Same valley: sand-coloured veils sweep over the grass and the lake (the desert returns); heat shimmer rises in wavy lines over the shelter; the two lights stay, steady; label 'natural mummies'."
+      }
+     ],
+     "chapter": "A lineage no one knew"
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:the reveal, precise]In {2025|twenty twenty-five}, geneticists read@past their ^DNA. [p:0.93][act:explaining, a simple picture]Each generation, a few tiny ^typos creep into our DNA. [act:explaining, clear][tune:fall]Count the typos two family lines don't ^share, and you can tell how long they've been ^apart."
+     ],
+     "shots": [
+      {
+       "id": "s33",
+       "say": "In 2025, geneticists read their DNA. Each generation, a few tiny typos creep into our DNA. Count the typos two family lines don't share, and you can tell how long they've been apart.",
+       "draw": "A strip of DNA letters as coloured blocks reads across the top ('2025'). Below, one line splits into two branches; as they grow apart, small red tick marks (typos) appear on each branch, different ones on each; a bracket between the branch tips counts them: 'more typos, longer apart'.",
+       "reuse": "takarkori (16.03) mural shot 2: typos counted on two branches"
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:building, amazed]Most of the women's ancestry came from a North African line nobody ^knew. [p:0.9][act:the depth, slow]It split from the lineages south of the Sahara at about the time the ancestors of everyone outside Africa ^did, some fifty thousand years ^ago. [act:the twist, wonder][tune:fall]Then it stayed ^apart.",
+      "[d:build][act:connecting it, curious][tune:rise]Their nearest known ^relatives? [act:the payoff, delighted][tune:fall]Hunters buried in a cave in ^Morocco, about fifteen thousand years ^ago."
+     ],
+     "shots": [
+      {
+       "id": "s34",
+       "say": "Most of the women's ancestry came from a North African line nobody knew. It split from the lineages south of the Sahara at about the time the ancestors of everyone outside Africa did, some fifty thousand years ago. Then it stayed apart.",
+       "draw": "Left: a grid of 100 squares, 93 gold ('a North African line') and 7 lilac ('from the Levant'). Right: a family tree on a time axis from 60,000 years ago to today: a trunk splits about 50,000 years ago into three branches, 'south of the Sahara', 'outside Africa' and the gold 'North Africa'; the gold branch runs on alone to 'Takarkori', with no links to the others."
+      },
+      {
+       "id": "s35",
+       "say": "Their nearest known relatives? Hunters buried in a cave in Morocco, about fifteen thousand years ago.",
+       "draw": "A map of North Africa: pins 'Takarkori, Libya' and 'Taforalt cave, Morocco', a dashed gold arc between them. Below, a small time line: Taforalt at about 15,000 years ago, Takarkori at about 7,000, a bracket 'about 8,000 years apart'."
+      }
+     ]
+    },
+    {
+     "role": "cost",
+     "lines": [
+      "[d:build][act:the point, clear]So the green Sahara's herders were mostly ^local. [p:0.93][act:thoughtful]Cattle and milk spread as ^ideas, passed from neighbour to ^neighbour, not with a wave of ^newcomers. [act:light, a small smile][tune:fall]Their pots hold some of the earliest milk fats known from ^Africa."
+     ],
+     "shots": [
+      {
+       "id": "s36",
+       "say": "So the green Sahara's herders were mostly local. Cattle and milk spread as ideas, passed from neighbour to neighbour, not with a wave of newcomers. Their pots hold some of the earliest milk fats known from Africa.",
+       "draw": "A row of five people standing apart on a ground line; a small cow icon passes from hand to hand along the row with an arc between each pair. Below, a dotted crowd of newcomers marching in from the edge is struck through in red. Then a clay pot rises with a pale glow of milk fat in its wall, label 'milk fat in the clay'.",
+       "reuse": "takarkori (16.03) mural shot 4: an idea passed hand to hand, milk fat in a pot"
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:reveal][act:fair, a caveat]But two women from one shelter are not a whole ^people. [act:precise]Teeth from Gobero, in ^Niger, point to roots near the ^Nile. [act:plain][tune:fall]People moved, ^too. [act:the last word, inviting][tune:fall]We need more ^genomes."
+     ],
+     "shots": [
+      {
+       "id": "s37",
+       "say": "But two women from one shelter are not a whole people. Teeth from Gobero, in Niger, point to roots near the Nile. People moved, too. We need more genomes.",
+       "draw": "A crowd of grey figures with only two lit gold in its middle ('two women'). Then a small map strip: a dashed arrow runs from the Nile valley west to Gobero, a tooth icon on it. At the end, empty dashed figure outlines wait in a row, 'more genomes'.",
+       "reuse": "takarkori (16.03) mural shot 5: two people in a whole crowd"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Stones that watched the sun",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:plain, orienting]At Nabta ^Playa, in Egypt's southern desert@noun, cattle herders set up a ring of stones about four metres ^across. [p:0.93][act:explaining, a simple picture]A playa is a dry lake bed that fills only after ^rain. [act:steady, vivid][tune:fall]Back then, summer rains filled it every ^year, and herders came with their ^cattle."
+     ],
+     "shots": [
+      {
+       "id": "s38",
+       "say": "At Nabta Playa, in Egypt's southern desert, cattle herders set up a ring of stones about four metres across. A playa is a dry lake bed that fills only after rain. Back then, summer rains filled it every year, and herders came with their cattle.",
+       "draw": "Left: a small map of southern Egypt, the Nile and Lake Nasser, pins 'Abu Simbel' and 'Nabta Playa' with a '100 km' arrow between them. Right: a playa in section, a shallow hollow in the desert floor; rain streaks fall, the hollow fills with a seasonal lake, and herders and cattle arrive at its edge.",
+       "reuse": "nabta-playa (16.01) mural shot 1: the playa that fills"
+      }
+     ],
+     "chapter": "Stones that watched the sun"
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:pointing them out]Around the ring stand four pairs of upright ^stones, like little ^gateposts. [p:0.93][act:the claim, intrigued]Look through one pair of gaps, and your line of sight runs north to ^south. [act:the second one, wonder][tune:fall]Another points to where the sun rose at ^midsummer, when the rains were ^due.",
+      "[d:build][act:vivid]Nearby, cattle were buried in clay-lined, roofed ^chambers. [p:0.93][act:vivid, impressed]And stones nearly three metres ^tall were dragged across the sand into ^lines. [act:context, wonder][tune:fall]The ring is older than the first Stonehenge by at least eighteen ^centuries."
+     ],
+     "shots": [
+      {
+       "id": "s39",
+       "say": "Around the ring stand four pairs of upright stones, like little gateposts. Look through one pair of gaps, and your line of sight runs north to south. Another points to where the sun rose at midsummer, when the rains were due.",
+       "draw": "The ring in plan, close: a circle of small stones about 4 m across (a '4 m' bar); four pairs of upright slabs pop as gates; a blue dashed sightline draws through two gates to 'N'; then a gold dashed line through the other pair to a rising sun at the edge, 'midsummer sunrise'.",
+       "reuse": "nabta-playa (16.01) mural shot 2: the circle in plan with its two lines"
+      },
+      {
+       "id": "s40",
+       "say": "Nearby, cattle were buried in clay-lined, roofed chambers. And stones nearly three metres tall were dragged across the sand into lines.",
+       "draw": "A cut through the ground: a chamber lined with clay and roofed, a cow lying in it (an animal burial), a soft light; beside it on the surface a line of four standing stones up to 3 m tall with a '3 m' dimension and people for scale; a team of people hauls another slab on a rope across the sand.",
+       "reuse": "nabta-playa (16.01) mural shot 4: a cattle chamber and dragged stones"
+      },
+      {
+       "id": "s41",
+       "say": "The ring is older than the first Stonehenge by at least eighteen centuries.",
+       "draw": "A time line from 6000 BCE to today: the Nabta ring at about 4800 BCE or earlier (a ring icon, a dashed tail reaching back), Stonehenge's first phase at about 3000 BCE (a trilithon icon), and a bracket between them '1,800 years or more'."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:fair, the challenger's case]Some go much ^further. [act:presenting it, fair]In the little ring, they see a map of the stars of ^Orion, [tune:fall]laid out in ^stone. [p:0.93][act:explaining, clear]But stars drift slowly over the ^centuries, so a line to a star only fits one ^moment.",
+      "[d:reveal][p:0.9][act:the reply, precise]The excavators reply that those star dates fall about fifteen hundred years before the big stones went ^up, [act:fair, careful][tune:fall]and that some stones may have ^moved."
+     ],
+     "shots": [
+      {
+       "id": "s42",
+       "say": "Some go much further. In the little ring, they see a map of the stars of Orion, laid out in stone. But stars drift slowly over the centuries, so a line to a star only fits one moment.",
+       "draw": "Night over the ring: the stars of Orion drawn above, with dotted lilac lines down to stones in the ring (the claim, in the dotted style, 'a map of Orion?'); then the stars slide slowly along an arc (precession), and the dotted lines no longer meet their stones.",
+       "reuse": "nabta-playa (16.01) mural shot 5: a star map that drifts out of true"
+      },
+      {
+       "id": "s43",
+       "say": "The excavators reply that those star dates fall about fifteen hundred years before the big stones went up, and that some stones may have moved.",
+       "draw": "Same night panel: a short time line below: 'the star dates' and, about 1,500 years later, 'the big stones', with a bracket '1,500 years'; one stone's old place is drawn dashed with a red arrow to where it lies now, 'moved?'."
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:calm][act:fair, warm]A place to watch the ^sun, and perhaps to ask for ^rain. [p:0.93][act:the last word, a small smile][tune:fall]The star maps are a ^stretch."
+     ],
+     "shots": [
+      {
+       "id": "s44",
+       "say": "A place to watch the sun, and perhaps to ask for rain. The star maps are a stretch.",
+       "draw": "Back at the ring in plan (the panel of s39): the midsummer sun glows warm at its gate; a grey rain cloud with streaks drifts in over the north; a small dotted Orion in the corner gets a red strike."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "When the rain stopped",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:storytelling, grave]Slowly, as Earth's orbit turned, the monsoon that had greened the Sahara retreated ^south. [act:the question, leaning in][tune:rise]So did the green Sahara switch off ^overnight?"
+     ],
+     "shots": [
+      {
+       "id": "s45",
+       "say": "Slowly, as Earth's orbit turned, the monsoon that had greened the Sahara retreated south. So did the green Sahara switch off overnight?",
+       "draw": "The map of North Africa of s12: the green wash over the Sahara shrinks south, the rain belt slides back to the Sahel, the monsoon arrows shorten; then a big light switch icon appears over the desert with a lilac question mark: 'overnight?'."
+      }
+     ],
+     "chapter": "When the rain stopped"
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][p:0.93][act:explaining, a simple picture]Mud and dust settle at the bottom of seas and lakes year after ^year, like the pages of a ^diary. [act:building, precise]Off the coast of ^Mauritania, the dust blown out to sea jumps about five and a half thousand years ^ago, within decades to ^centuries. [act:the counterpoint]But a lake in Chad called ^Yoa tells a slower ^story: [act:explaining][tune:fall]its trees thin out over thousands of ^years."
+     ],
+     "shots": [
+      {
+       "id": "s46",
+       "say": "Mud and dust settle at the bottom of seas and lakes year after year, like the pages of a diary.",
+       "draw": "Water in section: specks of dust fall through it and settle on the bottom as thin layers that stack up like the pages of a book; then a hollow tube is pushed down through the layers and lifted out: a core with the layers inside, label 'a sediment core'.",
+       "reuse": "green-sahara (16.05) mural shot 3: mud read like a diary"
+      },
+      {
+       "id": "s47",
+       "say": "Off the coast of Mauritania, the dust blown out to sea jumps about five and a half thousand years ago, within decades to centuries. But a lake in Chad called Yoa tells a slower story: its trees thin out over thousands of years.",
+       "draw": "A small map strip at the top with pins 'off Mauritania' and 'Lake Yoa, Chad'. Below, a graph from 8,000 to 3,000 years ago, 'wet' at the top and 'dry' at the bottom: a red line drops like a cliff at about 5,500 years ago ('off Mauritania'); then a green line slopes down slowly over thousands of years ('Lake Yoa').",
+       "reuse": "green-sahara (16.05) mural shot 3: a cliff here, a ramp there"
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:fair, weighing]The best answer so far: [act:listing][tune:level]sudden in some ^places, slow in ^others, [tune:fall]and later the further south you ^go.",
+      "[d:build][act:grave, measured]Lake Mega-Chad fell fast, about five thousand years ^ago. [act:the twist, wonder]Its last basin, the ^Bodélé, held water until about a thousand years ^ago. [act:vivid][tune:fall]Today it's the biggest single source of dust on ^Earth."
+     ],
+     "shots": [
+      {
+       "id": "s48",
+       "say": "The best answer so far: sudden in some places, slow in others, and later the further south you go.",
+       "draw": "A map of North Africa: small cliff icons (sudden) and ramp icons (slow) at a few sites; a broad arrow runs from north to south along the map, 'earlier' at its top and 'later' at its bottom."
+      },
+      {
+       "id": "s49",
+       "say": "Lake Mega-Chad fell fast, about five thousand years ago. Its last basin, the Bodélé, held water until about a thousand years ago. Today it's the biggest single source of dust on Earth.",
+       "draw": "Back at the Mega-Chad map (the panel of s5): the big lake drains to today's small Lake Chad, leaving a smaller lake in the Bodélé basin to the north-east ('about 5,000 years ago'); then the Bodélé lake dries too ('about 1,000 years ago') and plumes of dust blow out of it to the west and south-west, 'the biggest dust source on Earth'.",
+       "reuse": "green-sahara (16.05) mural: Mega-Chad shrinks, the Bodélé dries and blows"
+      }
+     ]
+    },
+    {
+     "role": "cost",
+     "lines": [
+      "[d:build][act:curious, even][tune:rise]And ^people? [act:fair, even]Some argue that grazing herds sped up the ^end. [act:the counterpoint, curious][tune:fall]One model says herding ^slowed it, by some five hundred ^years. [p:0.93][act:storytelling, grave]As the rains failed, the herders left: [act:listing][tune:level]for the highlands and the ^oases, for the ^south, [tune:fall]and for the ^Nile.",
+      "[d:reveal][act:the big idea, careful]Some archaeologists think that move helped spark Egypt's first ^kingdoms. [act:the other side, fair][tune:fall]Others say a herding way of life was already growing along the ^Nile, drought or ^not."
+     ],
+     "shots": [
+      {
+       "id": "s50",
+       "say": "And people? Some argue that grazing herds sped up the end. One model says herding slowed it, by some five hundred years.",
+       "draw": "Herders and cattle on a strip of grassland; above them a time bar of the green Sahara's end; a red arrow pulls the end earlier, 'sooner?'; then a green arrow pushes it later, 'later, by about 500 years?'.",
+       "reuse": "green-sahara (16.05) mural: herders, sooner or later"
+      },
+      {
+       "id": "s51",
+       "say": "As the rains failed, the herders left: for the highlands and the oases, for the south, and for the Nile.",
+       "draw": "A map of north-east Africa: herders' camps as small dots across the eastern Sahara fade one by one; arrows lead away from them: to the highlands of the Gilf Kebir and Jebel Uweinat, to the oases of Dakhla and Kharga, south towards the Sahel, and east to the Nile, which glows."
+      },
+      {
+       "id": "s52",
+       "say": "Some archaeologists think that move helped spark Egypt's first kingdoms. Others say a herding way of life was already growing along the Nile, drought or not.",
+       "draw": "A balance with two pans. Left pan: a herder with cattle arriving from a sand-coloured desert on a dashed arrow, 'pushed by drought'. Right pan: cattle already grazing on a green strip beside the blue Nile, 'already on the Nile'. The beam tilts one way, then settles level."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:storytelling, intrigued]Thousands of years later, in the oases of Libya's ^Fezzan, a people called the Garamantes built the first towns of the central ^Sahara. [act:vivid]Their water had fallen as rain in wetter ^times, thousands of years ^before. [act:explaining, clear][tune:fall]They reached it through hundreds of hand-dug tunnels called ^foggaras.",
+      "[d:reveal][p:0.93][act:explaining, a simple picture]But fossil water is like a savings account with no new ^deposits. [act:grave][tune:fall]As the water table sank, the canals ran dry, one by ^one."
+     ],
+     "shots": [
+      {
+       "id": "s53",
+       "say": "Thousands of years later, in the oases of Libya's Fezzan, a people called the Garamantes built the first towns of the central Sahara.",
+       "draw": "Left: a small map of Libya with Fezzan outlined and a pin 'Garama, Fezzan'. Right: a mud-brick oasis town at dusk, walls and houses, date palms, fields, and a small mud-brick pyramid tomb beside it.",
+       "reuse": "garamantes (16.08) mural shots 1 and 3: Fezzan, the town and the pyramid tomb"
+      },
+      {
+       "id": "s54",
+       "say": "Their water had fallen as rain in wetter times, thousands of years before. They reached it through hundreds of hand-dug tunnels called foggaras.",
+       "draw": "A cut through a gentle slope: grey rain clouds of long ago drop rain that sinks deep into the rock as blue groundwater ('rain from wetter times'); a tunnel slopes gently from the groundwater down to fields and palms at the foot of the slope, water flowing along it; a line of shafts from the surface to the tunnel, a digger in one, 'a foggara'.",
+       "reuse": "garamantes (16.08) mural shot 2: how a foggara works"
+      },
+      {
+       "id": "s55",
+       "say": "But fossil water is like a savings account with no new deposits. As the water table sank, the canals ran dry, one by one.",
+       "draw": "Same section: a glass jar of water with a slot for coins appears in the sky; its water level falls and a red stroke crosses the coin slot ('no new deposits'); then the blue groundwater line sinks below the tunnel, the tunnel goes dry, and the fields at its end turn brown.",
+       "reuse": "garamantes (16.08) mural: a savings account with no deposits, the water table sinks"
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:calm][act:the last word, quiet][tune:fall]The last gift of the wet ages ran out ^underground."
+     ],
+     "shots": [
+      {
+       "id": "s56",
+       "say": "The last gift of the wet ages ran out underground.",
+       "draw": "The dry foggara at dusk (the panel of s54): the last drop of blue fades from the tunnel; the empty shafts stand in a row against a red sky."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The weighing",
+   "beats": [
+    {
+     "role": "weigh",
+     "lines": [
+      "[d:verdict][act:stepping back, calm]So, let's weigh the green ^Sahara. [act:the first, firm][tune:rise]Lakes, hippos and herders, from about fourteen and a half to five thousand years ^ago? [act:the verdict, firm][tune:fall]*^Established*. [act:the second, steady][tune:rise]Paced by Earth's wobble and the ^monsoon? [act:the verdict, steady][tune:fall]*^Established* too; [act:fair][tune:fall]how much the plants added is still ^debated.",
+      "[d:verdict][act:the next, even][tune:rise]A North African lineage nobody ^knew? [act:the verdict, steady][tune:fall]*Strong ^evidence*, from just two ^women. [act:the next][tune:rise]Nabta's stones watching the ^sun? [act:fair][tune:fall]*^Plausible*. [act:the next][tune:rise]The Sahara switching off ^overnight? [act:the verdict, measured][tune:fall]*Mixed ^record@noun*: sudden in places, slow in ^others."
+     ],
+     "shots": [
+      {
+       "id": "s57",
+       "say": "Lakes, hippos and herders, from about fourteen and a half to five thousand years ago? Established. Paced by Earth's wobble and the monsoon? Established too; how much the plants added is still debated. A North African lineage nobody knew? Strong evidence, from just two women. Nabta's stones watching the sun? Plausible. The Sahara switching off overnight? Mixed record: sudden in places, slow in others.",
+       "draw": "A ledger board of five rows, each with a small picture at the left (a hippo in a lake, the orbit and the Sun, a DNA helix with two lights, the stone ring with a sun, a cliff and a ramp line); each row lights as it is named and its grade chip pops: 'Established', 'Established', 'Strong evidence', 'Plausible', 'Mixed record'."
+      }
+     ]
+    },
+    {
+     "role": "weigh",
+     "lines": [
+      "[d:verdict][act:even][tune:rise]Gobero's one people or ^two, [act:even][tune:rise]the swimmers alive or ^dead, [act:even][tune:rise]and drought as Egypt's ^spark? [act:the verdict, even][tune:fall]*Open ^question*, all three. [act:the next, fair][tune:rise]The Garamantes, undone by their fossil ^water? [act:fair][tune:fall]*^Plausible*. [act:the last one, calm][tune:rise]And astronauts on the ^rocks? [act:the verdict, firm][tune:fall]*Ruled ^out*."
+     ],
+     "shots": [
+      {
+       "id": "s58",
+       "say": "Gobero's one people or two, the swimmers alive or dead, and drought as Egypt's spark? Open question, all three. The Garamantes, undone by their fossil water? Plausible. And astronauts on the rocks? Ruled out.",
+       "draw": "A second ledger board of five rows (pictures: two groups of figures, a swimmer, the Nile with a herder, a foggara shaft, a Round Head with a dotted helmet); the first three rows light together with three 'Open question' chips, then 'Plausible', then 'Ruled out' with the dotted helmet struck."
+      }
+     ]
+    },
+    {
+     "role": "test",
+     "lines": [
+      "[d:tension][act:what would settle it, inviting][tune:rise]What would change our ^minds? [act:listing][tune:level]Ancient DNA from Gobero's ^graves. [act:listing][tune:level]More genomes from the green ^Sahara. [act:the last][tune:fall]And new lake cores from its dry ^heart, to time the end, place by ^place."
+     ],
+     "shots": [
+      {
+       "id": "s59",
+       "say": "What would change our minds? Ancient DNA from Gobero's graves. More genomes from the green Sahara. And new lake cores from its dry heart, to time the end, place by place.",
+       "draw": "Three dashed blue boxes (tests not yet done) fill as named: a double helix over a grave outline with three lights; a row of figures each with a small helix; a drill rig over a dry lake basin with a core coming up, beside a map dot for each place."
+      }
+     ]
+    },
+    {
+     "role": "close",
+     "lines": [
+      "[d:calm][act:quiet, the image][tune:fall]Somewhere under the sand, the green Sahara is still waiting to be ^read@past. [act:the sign-off, warm][tune:fall]Weigh it ^yourself."
+     ],
+     "shots": [
+      {
+       "id": "s60",
+       "say": "Somewhere under the sand, the green Sahara is still waiting to be read. Weigh it yourself.",
+       "draw": "Dusk over the dunes of the opening view, the cliff on the right; under the sand, cut open, the old lake bed in pale layers: a hippo jaw, a bone harpoon, a pollen grain, a potsherd and a buried lake line drawn dashed where the water once stood; the first stars come out as the end card arrives."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "description": "About nine thousand years ago, hippos surfaced in lakes in the middle of what is now the Sahara. For thousands of years, monsoon rains turned the biggest hot desert on Earth green, with a lake in Chad as big as the Caspian Sea. How did it happen, who lived there, and how fast did the rain stop?\n\nWe follow the clues: Lake Mega-Chad and the slow wobble of Earth's orbit, the lakeside cemetery of Gobero and its embrace, the painted swimmers of Wadi Sura, the ancient DNA of Takarkori, the stone ring of Nabta Playa, the end of the rains and the move to the Nile and the oases, and the Garamantes, who drank fossil water. A green Sahara: Established. A North African lineage nobody knew: Strong evidence. Nabta watching the sun: Plausible. The switch-off: Mixed record. Astronauts on the rocks: Ruled out.\n\nChapters\n0:00 Cold open\nmm:ss A lake as big as a sea\nmm:ss The lake at Gobero\nmm:ss Swimmers in the desert\nmm:ss A lineage no one knew\nmm:ss Stones that watched the sun\nmm:ss When the rain stopped\nmm:ss The weighing\n\nSources\ndeMenocal et al. 2000, Quaternary Science Reviews 19: 347-361, doi:10.1016/S0277-3791(99)00081-5\ndeMenocal & Tierney 2012, Nature Education Knowledge 3(10): 12\nTierney, Pausata & deMenocal 2017, Science Advances 3: e1601503, doi:10.1126/sciadv.1601503\nDrake & Bristow 2006, The Holocene 16: 901-911, doi:10.1191/0959683606hol981rr\nArmitage, Bristow & Drake 2015, PNAS 112: 8543-8548, doi:10.1073/pnas.1417655112\nQuade et al. 2018, Quaternary Research 90: 253-275, doi:10.1017/qua.2018.46\nClaussen et al. 1999, Geophysical Research Letters 26: 2037-2040, doi:10.1029/1999GL900494\nBrito et al. 2011, PLoS ONE 6: e14734, doi:10.1371/journal.pone.0014734\nSereno et al. 2008, PLoS ONE 3: e2995, doi:10.1371/journal.pone.0002995\nStojanowski, Irish & Sereno 2026, American Journal of Biological Anthropology 190(1), doi:10.1002/ajpa.70262\nKuper (ed.) 2013, Wadi Sura: The Cave of Beasts, Africa Praehistorica 26, Heinrich-Barth-Institut\nForster, Riemer & Kuper 2012, in Huyge et al. (eds), The Signs of Which Times?, Royal Academy for Overseas Sciences, Brussels\nHonore et al. 2016, Journal of Archaeological Science: Reports 6, doi:10.1016/j.jasrep.2016.02.014\nLe Quellec, de Flers & de Flers 2005, Du Sahara au Nil, Fayard\nLe Quellec 2009, Des Martiens au Sahara, Actes Sud\nDunne et al. 2012, Nature 486: 390-394, doi:10.1038/nature11186\nSalem et al. 2025, Nature 641: 144-150, doi:10.1038/s41586-025-08793-7\nMalville et al. 1998, Nature 392: 488-491, doi:10.1038/33131\nWendorf & Schild 1998, Journal of Anthropological Archaeology 17: 97-123, doi:10.1006/jaar.1998.0319\nMalville et al. 2008, African Cultural Astronomy (Springer): 131-143, doi:10.1007/978-1-4020-6639-9_11\nMalville 2015, Handbook of Archaeoastronomy and Ethnoastronomy (Springer), doi:10.1007/978-1-4614-6141-8_101\nKropelin et al. 2008, Science 320: 765-768, doi:10.1126/science.1154913\nShanahan et al. 2015, Nature Geoscience 8: 140-144, doi:10.1038/ngeo2329\nWright 2017, Frontiers in Earth Science 5: 4, doi:10.3389/feart.2017.00004\nBrierley, Manning & Maslin 2018, Nature Communications 9: 4018, doi:10.1038/s41467-018-06321-y\nKuper & Kropelin 2006, Science 313: 803-807, doi:10.1126/science.1130989\nBubenzer & Riemer 2007, Geoarchaeology 22: 607-620, doi:10.1002/gea.20176\nWengrow et al. 2014, Antiquity 88: 95-111, doi:10.1017/S0003598X00050249\nMattingly & Sterry 2013, Antiquity 87: 503-518, doi:10.1017/S0003598X00049097\nSterry, Mattingly & Wilson 2022, in Rost (ed.), Irrigation in Early States, Oriental Institute Seminars 13",
+ "sources": [
+  "deMenocal, P. et al. 2000, Abrupt onset and termination of the African Humid Period: rapid climate responses to gradual insolation forcing, Quaternary Science Reviews 19: 347-361, doi:10.1016/S0277-3791(99)00081-5",
+  "deMenocal, P. B. & Tierney, J. E. 2012, Green Sahara: African Humid Periods paced by Earth's orbital changes, Nature Education Knowledge 3(10): 12",
+  "Tierney, J. E., Pausata, F. S. R. & deMenocal, P. B. 2017, Rainfall regimes of the Green Sahara, Science Advances 3: e1601503, doi:10.1126/sciadv.1601503",
+  "Drake, N. & Bristow, C. 2006, Shorelines in the Sahara: geomorphological evidence for an enhanced monsoon from palaeolake Megachad, The Holocene 16: 901-911, doi:10.1191/0959683606hol981rr",
+  "Armitage, S. J., Bristow, C. S. & Drake, N. A. 2015, West African monsoon dynamics inferred from abrupt fluctuations of Lake Mega-Chad, PNAS 112: 8543-8548, doi:10.1073/pnas.1417655112",
+  "Quade, J. et al. 2018, Megalakes in the Sahara? A review, Quaternary Research 90: 253-275, doi:10.1017/qua.2018.46",
+  "Claussen, M. et al. 1999, Simulation of an abrupt change in Saharan vegetation in the mid-Holocene, Geophysical Research Letters 26: 2037-2040, doi:10.1029/1999GL900494",
+  "Brito, J. C. et al. 2011, Crocodiles in the Sahara Desert: an update of distribution, habitats and population status for conservation planning in Mauritania, PLoS ONE 6: e14734, doi:10.1371/journal.pone.0014734",
+  "Sereno, P. C. et al. 2008, Lakeside cemeteries in the Sahara: 5000 years of Holocene population and environmental change, PLoS ONE 3: e2995, doi:10.1371/journal.pone.0002995",
+  "Stojanowski, C. M., Irish, J. D. & Sereno, P. C. 2026, Early to Middle Holocene hunter-fisher-gatherers from the Green Sahara (Gobero, Niger): dental evidence for regional African affinities, American Journal of Biological Anthropology 190(1), doi:10.1002/ajpa.70262 (online 25 May 2026)",
+  "Kuper, R. (ed.) 2013, Wadi Sura: The Cave of Beasts. A rock art site in the Gilf Kebir (SW-Egypt), Africa Praehistorica 26, Heinrich-Barth-Institut, Cologne",
+  "Forster, F., Riemer, H. & Kuper, R. 2012, The 'Cave of Beasts' (Gilf Kebir, SW Egypt) and its chronological and cultural affiliation: approaches and preliminary results of the Wadi Sura Project, in Huyge, D., Van Noten, F. & Swinne, D. (eds), The Signs of Which Times? Chronological and Palaeoenvironmental Issues in the Rock Art of Northern Africa, Royal Academy for Overseas Sciences, Brussels: 197-216",
+  "Honore, E., Rakza, T., Senut, B., Deruelle, P. & Pouydebat, E. 2016, First identification of non-human stencil hands at Wadi Sura II (Egypt): a morphometric study for new insights into rock art symbolism, Journal of Archaeological Science: Reports 6, doi:10.1016/j.jasrep.2016.02.014",
+  "Le Quellec, J.-L., de Flers, P. & de Flers, P. 2005, Du Sahara au Nil: peintures et gravures d'avant les pharaons, Fayard / Soleb, Paris",
+  "Le Quellec, J.-L. 2009, Des Martiens au Sahara: chroniques d'archeologie romantique, Actes Sud, Arles",
+  "Dunne, J. et al. 2012, First dairying in green Saharan Africa in the fifth millennium BC, Nature 486: 390-394, doi:10.1038/nature11186",
+  "Salem, N. et al. 2025, Ancient DNA from the Green Sahara reveals ancestral North African lineage, Nature 641: 144-150, doi:10.1038/s41586-025-08793-7",
+  "Malville, J. M., Wendorf, F., Mazar, A. A. & Schild, R. 1998, Megaliths and Neolithic astronomy in southern Egypt, Nature 392: 488-491, doi:10.1038/33131",
+  "Wendorf, F. & Malville, J. M. 2001, The megalith alignments, in Wendorf, F., Schild, R. et al., Holocene Settlement of the Egyptian Sahara, vol. 1, Kluwer Academic / Plenum, New York: 489-502 (the gates 'a bit too wide' for a precise calendar)",
+  "Wendorf, F. & Schild, R. 1998, Nabta Playa and its role in northeastern African prehistory, Journal of Anthropological Archaeology 17: 97-123, doi:10.1006/jaar.1998.0319",
+  "Malville, J. M., Schild, R., Wendorf, F. & Brenmer, R. 2008, Astronomy of Nabta Playa, in Holbrook, Medupe & Urama (eds), African Cultural Astronomy, Springer: 131-143, doi:10.1007/978-1-4020-6639-9_11",
+  "Malville, J. M. 2015, Astronomy at Nabta Playa, Southern Egypt, in Ruggles (ed.), Handbook of Archaeoastronomy and Ethnoastronomy, Springer, doi:10.1007/978-1-4614-6141-8_101",
+  "Brophy, T. G. & Rosen, P. A. 2005, Satellite imagery measures of the astronomically aligned megaliths at Nabta Playa, Mediterranean Archaeology and Archaeometry 5(1): 15-24 (the star map claims, as weighed in the film)",
+  "Kropelin, S. et al. 2008, Climate-driven ecosystem succession in the Sahara: the past 6000 years, Science 320: 765-768, doi:10.1126/science.1154913",
+  "Shanahan, T. M. et al. 2015, The time-transgressive termination of the African Humid Period, Nature Geoscience 8: 140-144, doi:10.1038/ngeo2329",
+  "Wright, D. K. 2017, Humans as agents in the termination of the African Humid Period, Frontiers in Earth Science 5: 4, doi:10.3389/feart.2017.00004",
+  "Brierley, C., Manning, K. & Maslin, M. 2018, Pastoralism may have delayed the end of the green Sahara, Nature Communications 9: 4018, doi:10.1038/s41467-018-06321-y",
+  "Kuper, R. & Kropelin, S. 2006, Climate-controlled Holocene occupation in the Sahara: motor of Africa's evolution, Science 313: 803-807, doi:10.1126/science.1130989",
+  "Bubenzer, O. & Riemer, H. 2007, Holocene climatic change and human settlement between the central Sahara and the Nile Valley: archaeological and geomorphological results, Geoarchaeology 22: 607-620, doi:10.1002/gea.20176",
+  "Wengrow, D., Dee, M., Foster, S., Stevenson, A. & Bronk Ramsey, C. 2014, Cultural convergence in the Neolithic of the Nile Valley: a prehistoric perspective on Egypt's place in Africa, Antiquity 88: 95-111, doi:10.1017/S0003598X00050249",
+  "Mattingly, D. J. & Sterry, M. 2013, The first towns in the central Sahara, Antiquity 87: 503-518, doi:10.1017/S0003598X00049097",
+  "Sterry, M., Mattingly, D. J. & Wilson, A. I. 2022, Foggaras and the Garamantes: hydraulic landscapes in the central Sahara, in Rost, S. (ed.), Irrigation in Early States: New Directions, Oriental Institute Seminars 13, The Oriental Institute, Chicago"
+ ],
+ "facts_added": [
+  {
+   "fact": "Palaeolake Mega-Chad covered at least 400,000 square km, bigger than the Caspian Sea (the largest lake on Earth today), and was over 173 m deep; its shorelines are mapped from satellite imagery.",
+   "source": "Drake & Bristow 2006, The Holocene, doi:10.1191/0959683606hol981rr"
+  },
+  {
+   "fact": "Lake Mega-Chad was at its peak by about 11,500 years ago and lasted until about 5,000 years ago, when its level fell rapidly; the Bodele basin dried finally about 1,000 years ago and is today the world's greatest single dust source.",
+   "source": "Armitage, Bristow & Drake 2015, PNAS, doi:10.1073/pnas.1417655112"
+  },
+  {
+   "fact": "About 10,000 years ago Earth was closest to the Sun in the northern summer (half a precession cycle ago); summer radiation over North Africa was about 7 percent higher than today; the warmer land draws moist air in from the tropical Atlantic.",
+   "source": "deMenocal & Tierney 2012, Nature Education Knowledge 3(10): 12"
+  },
+  {
+   "fact": "The African Humid Period ran from about 14,800 to 5,500 years ago (interrupted by the Younger Dryas); off Mauritania its onset and end each took decades to centuries, when summer insolation crossed a threshold about 4.2 percent above today's.",
+   "source": "deMenocal et al. 2000, Quaternary Science Reviews, doi:10.1016/S0277-3791(99)00081-5"
+  },
+  {
+   "fact": "At its height the Green Sahara received about ten times today's rainfall (leaf-wax records; roughly 250 to 1,670 mm a year against under 100 today).",
+   "source": "Tierney, Pausata & deMenocal 2017, Science Advances, doi:10.1126/sciadv.1601503"
+  },
+  {
+   "fact": "A review finds clear evidence of a Holocene megalake only in the Chad basin; other proposed Saharan megalakes lack it, and a 'pale-green and discontinuously wet Sahara' of wetlands and small lakes fits the evidence better.",
+   "source": "Quade et al. 2018, Quaternary Research, doi:10.1017/qua.2018.46"
+  },
+  {
+   "fact": "A climate model reproduces an abrupt Saharan desertification in the mid-Holocene: subtle orbital changes strongly amplified by atmosphere-vegetation feedbacks.",
+   "source": "Claussen et al. 1999, Geophysical Research Letters, doi:10.1029/1999GL900494"
+  },
+  {
+   "fact": "Crocodiles survive in 78 localities in Mauritania, mostly in rocky pools called gueltas: relict populations of the wetter mid-Holocene Sahara.",
+   "source": "Brito et al. 2011, PLoS ONE, doi:10.1371/journal.pone.0014734"
+  },
+  {
+   "fact": "Gobero was found in 2000 during a palaeontological expedition led by Paul Sereno; about 200 burials; the lake was no more than 3 m deep and 3 km across; middens hold Nile perch, large catfish, hippos and crocodiles, with bone harpoon points and hooks.",
+   "source": "Sereno et al. 2008, PLoS ONE, doi:10.1371/journal.pone.0002995; Sereno lab, 'People of the Green Sahara'"
+  },
+  {
+   "fact": "Gobero phases: Kiffian about 7700 to 6200 BCE, abandonment in a dry phase about 6200 to 5200 BCE, Tenerian about 5200 to 2500 BCE with some cattle; the triple burial (an adult woman and two children with intertwined arms and legs) dates to about 3315 BCE, with clusters of wool-flower (Celosia) pollen between the arms and in the sediment beneath.",
+   "source": "Sereno et al. 2008, PLoS ONE, doi:10.1371/journal.pone.0002995"
+  },
+  {
+   "fact": "In 2008 the excavators read the skulls as a population replacement; a dental study (20 Kiffian, 30 Tenerian) finds the two phases dentally indistinguishable, with closest affinities to Nile Valley populations such as al-Khiday in Sudan.",
+   "source": "Stojanowski, Irish & Sereno 2026 (first published online 25 May 2026), American Journal of Biological Anthropology, doi:10.1002/ajpa.70262"
+  },
+  {
+   "fact": "The Cave of Swimmers was found by Laszlo Almasy in October 1933 on the DIAFE expedition; Almasy read the swimmers as real swimming and evidence of a climate change; Hans Rhotert and later Jean-Loic Le Quellec read them as the dead floating in the primeval waters (Nun).",
+   "source": "Kuper (ed.) 2013, Wadi Sura: The Cave of Beasts; Le Quellec, de Flers & de Flers 2005"
+  },
+  {
+   "fact": "The Cave of Beasts (Wadi Sura II), found in 2002 about 10 km west of the Cave of Swimmers, has a decorated rear wall about 17 to 18 m wide (sources differ: 17 m in the Wadi Sura project summaries, 18 m in Forster, Riemer & Kuper 2012) and up to 6 m high with about 8,000 figures, including more than 30 headless beasts and hundreds of hand stencils; its art belongs to the Gilf B phase, about 6500 to 4400 cal BC ('about 8,000 years ago' in the monograph).",
+   "source": "Forster, Riemer & Kuper 2012, The Signs of Which Times? (Brussels): 197-216; Kuper (ed.) 2013, Africa Praehistorica 26"
+  },
+  {
+   "fact": "The tiny 'baby' hand stencils of Wadi Sura II differ in size, proportions and shape from the hands of newborn and premature babies: most probably a reptile's.",
+   "source": "Honore et al. 2016, Journal of Archaeological Science: Reports, doi:10.1016/j.jasrep.2016.02.014"
+  },
+  {
+   "fact": "Saharan rock art depicts cattle herding by early pastoral groups and includes rare scenes of milking; pottery from Takarkori holds the first unequivocal chemical evidence of dairying in Africa, in the fifth millennium BC.",
+   "source": "Dunne et al. 2012, Nature, doi:10.1038/nature11186"
+  },
+  {
+   "fact": "The Takarkori genomes come from two naturally mummified adult women (about 7,158 to 6,796 and 6,555 to 6,281 calibrated years ago); about 93 percent of their ancestry is an unknown North African lineage, about 7 percent Levantine; it diverged from sub-Saharan lineages about when the ancestors of non-Africans did (put at about 50,000 years ago by the team's institute) and stayed isolated; their closest known relatives are the 15,000-year-old foragers of Taforalt, Morocco.",
+   "source": "Salem et al. 2025, Nature, doi:10.1038/s41586-025-08793-7; Max Planck Institute for Evolutionary Anthropology press release, April 2025"
+  },
+  {
+   "fact": "Nabta Playa's circle is about 4 m across with four sets of upright slabs as gates, giving sightlines roughly to the north and to the June solstice sunrise; a hearth beside it gave a radiocarbon date of 6,800 +/- 60 bp; the circle has been moved to the Nubian Museum in Aswan for protection.",
+   "source": "Malville 2015, Handbook of Archaeoastronomy and Ethnoastronomy, doi:10.1007/978-1-4614-6141-8_101"
+  },
+  {
+   "fact": "Nabta's excavators replied that the dates proposed for star alignments in the Orion map claims are about 1,500 years earlier than their best estimates for the construction of the megalithic structures, and that some megaliths may not stand where they were first set.",
+   "source": "Malville, Schild, Wendorf & Brenmer 2008, African Cultural Astronomy, doi:10.1007/978-1-4020-6639-9_11"
+  },
+  {
+   "fact": "Nabta Playa's region became uninhabitable about 4,800 radiocarbon years ago, and the authors suggest the exodus may have stimulated social complexity in predynastic Upper Egypt.",
+   "source": "Malville et al. 1998, Nature, doi:10.1038/33131"
+  },
+  {
+   "fact": "Lake Yoa (Ounianga, northern Chad) records a gradual, not abrupt, end of the humid period in the eastern Sahara: large-scale dust from about 4,300 years ago and today's desert ecosystem by about 2,700 years ago.",
+   "source": "Kropelin et al. 2008, Science, doi:10.1126/science.1154913"
+  },
+  {
+   "fact": "The end of the African Humid Period was locally abrupt but came progressively later at lower latitudes.",
+   "source": "Shanahan et al. 2015, Nature Geoscience, doi:10.1038/ngeo2329"
+  },
+  {
+   "fact": "A climate-vegetation model finds the Green Sahara most susceptible to collapse 7,000 to 6,000 years ago, at least 500 years before the observed collapse: pastoralism may have delayed the end; others argue grazing sped it up.",
+   "source": "Brierley, Manning & Maslin 2018, Nature Communications, doi:10.1038/s41467-018-06321-y; Wright 2017, Frontiers in Earth Science, doi:10.3389/feart.2017.00004"
+  },
+  {
+   "fact": "Radiocarbon dates from about 150 excavations in the eastern Sahara show settlement after the onset of humid conditions about 8500 BCE and an exodus with gradual drying from 5300 BCE; the authors argue the southward shift of the desert margin helped trigger pharaonic civilisation.",
+   "source": "Kuper & Kropelin 2006, Science, doi:10.1126/science.1130989"
+  },
+  {
+   "fact": "A primary pastoral community emerged in the Egyptian and Sudanese Nile Valley in the fifth millennium BC; its chronology challenges explanations that put climate stress first.",
+   "source": "Wengrow et al. 2014, Antiquity, doi:10.1017/S0003598X00050249"
+  },
+  {
+   "fact": "The Garamantes' oasis towns in Fazzan were the first towns of the central Sahara (trade, not farming alone, called them into being); hundreds of foggaras were used from about 400 BCE to 700 CE, and falling water tables and failing foggaras may have contributed to the decline.",
+   "source": "Mattingly & Sterry 2013, Antiquity, doi:10.1017/S0003598X00049097; Sterry, Mattingly & Wilson 2022, Oriental Institute Seminars 13"
+  },
+  {
+   "fact": "In 1958 Henri Lhote described one giant Round Head figure at Jabbaren as the 'great Martian god'; Le Quellec reads the name as a pleasantry, and ancient astronaut writers later took it literally.",
+   "source": "Le Quellec 2009, Des Martiens au Sahara: chroniques d'archeologie romantique, Actes Sud (new edition 2023, Editions du Detour)"
+  },
+  {
+   "fact": "As the eastern Sahara dried from about 5300 BCE, people were forced to the Nile valley or to ecological refuges, or south into the Sudanese Sahara; settlement lasted longer in the oases and favoured places such as Dakhla, the Nabta and Kiseiba region and the Gilf Kebir.",
+   "source": "Kuper & Kropelin 2006, Science, doi:10.1126/science.1130989; Bubenzer & Riemer 2007, Geoarchaeology, doi:10.1002/gea.20176"
+  },
+  {
+   "fact": "Nabta's own excavators note that the gaps in the circle's gates are a bit too wide, and the gates too close, for precise calendar measurements: the 'calendar circle' may be the wrong name.",
+   "source": "Wendorf & Malville 2001, in Holocene Settlement of the Egyptian Sahara, vol. 1: 489-502"
+  },
+  {
+   "fact": "Brophy proposed that stones inside the circle map Orion's belt, shoulders and head, with dates around 4800 BC and 6270 BC; the excavators reply that his dates are about 1,500 years earlier than the megaliths, whose C-line may not stand where it was set.",
+   "source": "Brophy & Rosen 2005, Mediterranean Archaeology and Archaeometry 5(1); Malville, Schild, Wendorf & Brenmer 2008, African Cultural Astronomy"
+  }
+ ],
+ "names": [
+  {
+   "name": "Mega-Chad",
+   "say": "MEG-uh CHAD (in LEX as megachad)"
+  },
+  {
+   "name": "Bodélé",
+   "say": "boh-DAY-lay (in LEX)"
+  },
+  {
+   "name": "Ténéré",
+   "say": "ten-eh-RAY (in LEX)"
+  },
+  {
+   "name": "Niger (the country)",
+   "say": "nee-ZHAIR"
+  },
+  {
+   "name": "Gobero",
+   "say": "go-BAIR-oh (in LEX)"
+  },
+  {
+   "name": "Sereno",
+   "say": "suh-RAY-no (in LEX)"
+  },
+  {
+   "name": "Kiffian",
+   "say": "KIFF-ee-un"
+  },
+  {
+   "name": "Tenerians",
+   "say": "teh-NAIR-ee-unz"
+  },
+  {
+   "name": "Almásy",
+   "say": "AWL-mah-shee (in LEX)"
+  },
+  {
+   "name": "Henri Lhote",
+   "say": "ahn-REE LOAT (Henri in LEX)"
+  },
+  {
+   "name": "Takarkori",
+   "say": "tah-kar-KOR-ee (in LEX)"
+  },
+  {
+   "name": "Nabta Playa",
+   "say": "NAHB-tuh PLY-uh (nabta in LEX)"
+  },
+  {
+   "name": "Orion",
+   "say": "oh-RYE-un"
+  },
+  {
+   "name": "Yoa",
+   "say": "YOH-uh"
+  },
+  {
+   "name": "Mauritania",
+   "say": "mor-ih-TAY-nee-uh"
+  },
+  {
+   "name": "Fezzan",
+   "say": "feh-ZAN (in LEX)"
+  },
+  {
+   "name": "Garamantes",
+   "say": "garra-MAN-teez (in LEX)"
+  },
+  {
+   "name": "foggaras",
+   "say": "FOG-uh-ruz (in LEX)"
+  }
+ ],
+ "words": 1641
+}
