@@ -1,12 +1,13 @@
 # Long-form round brief: one agent, one film, script to compiled film
 
 You make one complete long-form deep dive (16:9, about 10 minutes) for the history channel Residual Continuum, from
-research to a compiled, previewed film module. Twenty-five films are already finished this way (LF.01 to LF.25: Under
+research to a compiled, previewed film module. Thirty films are already finished this way (LF.01 to LF.30: Under
 Giza, Atlantis, Göbekli Tepe, The Comet and the Cold, The UFO Files, Impossible Stones, Gunung Padang, Derinkuyu, Ancient
 Astronauts, Voynich, Troy, The Sea Peoples, The Library of Alexandria, MKUltra, The First Americans, King Arthur, Vinland,
 Knossos, Stargate, The Piri Reis Map, Roswell, The Age of the Sphinx, The Herculaneum Scrolls, Yonaguni, The Antikythera
-Mechanism); the owner loved them. Study one or two of them before you start (lf_roswell.py, lf_antikythera.py and
-lf_troy.py are good recent examples). The goal of the
+Mechanism, Stonehenge, Rapa Nui, The Orion Correlation, The Amazon's Lost Cities, The Denisovans); the owner loved them.
+Study one or two of them before you start (lf_stonehenge.py, lf_denisovans.py, lf_antikythera.py and lf_troy.py are
+good recent examples). The goal of the
 channel: social buzz and to be the number one reference on these subjects, without ever trading honesty for clicks.
 
 Lessons from the review of round 2 (apply them):
@@ -39,6 +40,20 @@ Lessons from round 5 (apply them too):
 - A Short was wrong once (the Sphinx drilling: a "1998 test drill" that the sources do not support; the documented
   drilling is SRI's in 1978). Where a Short and a primary source disagree, follow the primary source and say so in your
   reply, so the Short can be corrected.
+
+Lessons from round 6 (apply them too):
+- Caption markup: keep markers simple. Never put a `[go:]` marker inside `*...*` emphasis marks, and put `^` (focus) on a
+  whole word. A parser bug once showed a stray caret on screen and read a marker aloud ("go two one point four"); it is
+  fixed, but check your own lines: run `python3 /tmp/claude-0/r7/capaudit.py` (it parses every long script with the live
+  parser and lists any `^ * [ ] { } |` left in what is shown or spoken). It must report no leak for your film.
+- Attributions are facts too. The Orion Short said Bauval "noticed the pattern" and wrote his book with the wrong co-author
+  (the idea was published in 1989; the 1994 book was written with Adrian Gilbert). Check every "who wrote, found, dated or
+  said what, and when" against the primary source, and report any Short that gets it wrong.
+- Length: Stonehenge ran to 11:05. Stay inside 1,450 to 1,650 spoken words.
+- This round, each film is the full version of several Shorts that are already on the channel (listed in your
+  assignment). Read every one of them (spec in `films/fNN.py`, narration in `films/rewrite/<id>.json`) so the film and the
+  Shorts agree, and the film can be the place a viewer of any of those Shorts goes next. Where a Short and a primary source
+  disagree, follow the source and say so in your reply.
 
 Workspace: `/home/claude/rc2/reels` (a clone of the render farm repo). Scratch: `/tmp/claude-0/` and your scratchpad.
 
