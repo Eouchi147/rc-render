@@ -1,0 +1,849 @@
+{
+ "id": "lf-malta-temples",
+ "kind": "case",
+ "series": "Underworlds",
+ "title": "The Temple Builders of Malta",
+ "intro_title": "The Temple Builders of Malta",
+ "yt_title": "Older Than the Pyramids: Who Built Malta's Stone Temples?",
+ "verdict": "Established",
+ "verdict_scope": "that Malta's megalithic temples were built by the islands' own Neolithic farming people, from about 3600 BCE to about 2500 BCE, centuries before the pyramids of Giza (graded Established: radiocarbon dates from material sealed beneath and within the temples, the sequence of pottery styles, the farming villages under them, and the temple people's own bones and genomes agree); in the weighing, Ice Age temples now under the sea and cart ruts as Ice Age roads are graded Ruled out, the Hypogeum shaped for its sound Open question, a brain-changing 110 Hz and spirals drawn from sound patterns Awaiting evidence, Bronze Age newcomers who cremated their dead at Tarxien Strong evidence, and the causes of the end of the temple culture Open question",
+ "hook": "Who built this, and when?",
+ "end_line": "Twice a year, the sun still finds the doorway at Mnajdra.",
+ "structure_note": "chapters[0] is the cold open and the title beat (no chapter card; YouTube chapter 0:00). Chapters 1 to 6 are the story chapters (each opens on a sentence that stands alone, for its vertical clip, and closes on a landing line); 'The weighing' carries the verdict, the test and the close. Shot ids s1..sN are in story order; 'alias of sN' means a return to that panel.",
+ "chapters": [
+  {
+   "title": "Cold open",
+   "beats": [
+    {
+     "role": "hook",
+     "lines": [
+      "[d:intrigue][sfx:boom][act:hushed wonder, painting it]At dawn on the equinox, on the south coast of ^Malta, the rising sun sends its first light through a stone ^doorway. [act:slower, following the light][tune:fall]It runs down the middle of the temple, all the way to a niche at the ^back.",
+      "[d:tension][p:0.93][act:the scale of time, awed]This temple, ^Mnajdra, was built some five thousand years ^ago. [act:the bigger reveal][tune:fall]And Malta has temples older still: older than the pyramids of ^Giza.",
+      "[d:wonder][act:the child's question, wide-eyed][tune:rise]Who built them, and ^when? [act:the second question, quieter][tune:rise]Why did they ^stop? [act:the bold claim, fair][tune:fall]And could they, as some say, go back to the Ice ^Age?"
+     ],
+     "shots": [
+      {
+       "id": "s1",
+       "say": "At dawn on the equinox, on the south coast of Malta, the rising sun sends its first light through a stone doorway.",
+       "draw": "HERO IMAGE, complete from the first frame: inside the lower (South) temple of Mnajdra at dawn on the equinox, seen from its back niche down the temple's axis. Two trilithon doorways in perspective: the inner doorway near and large, framing the view; beyond it the first oval chamber (walls of great upright slabs with drilled-pit decoration, courses of smaller blocks above, in deep warm shadow), and far away the main doorway, small and blazing, the sun disc just above a low horizon inside it. A shaft of gold light runs from the main doorway along the paved floor towards us, dust motes in it; rim light on the slab edges. Label 'Mnajdra, Malta' low at the right, after the hook title clears."
+      },
+      {
+       "id": "s1z",
+       "say": "It runs down the middle of the temple, all the way to a niche at the back.",
+       "draw": "Same picture (the camera eases down the axis): the beam brightens and draws itself the whole length of the floor, through the inner doorway, and lights the low stone slab of the niche in the foreground; a small gold label 'equinox sunrise'."
+      },
+      {
+       "id": "s2",
+       "say": "This temple, Mnajdra, was built some five thousand years ago. And Malta has temples older still: older than the pyramids of Giza.",
+       "draw": "A time line from 4000 to 2000 BCE drawn as a horizon: Malta's temples rise on it as small silhouettes (Ġgantija at about 3600 BCE, Mnajdra's lower temple at about 3000 BCE, gold); then, on 'pyramids of Giza', the Great Pyramid rises at about 2560 BCE (pale stone), with a gold bracket from Ġgantija to the pyramid, 'about 1,000 years'."
+      },
+      {
+       "id": "s3",
+       "say": "Who built them, and when? Why did they stop? And could they, as some say, go back to the Ice Age?",
+       "draw": "Back on the hero (alias of s1), the light dimmed a little: three lilac question marks rise over the chamber as each question is asked ('who?', 'when?', 'why?'); then a lilac dotted chip 'the Ice Age?' over the far doorway."
+      }
+     ]
+    },
+    {
+     "role": "title",
+     "lines": [
+      "[d:calm][act:warm, setting out]The temple builders of ^Malta. [act:the promise, a small smile][tune:fall]Who they were, and how we know."
+     ],
+     "shots": [
+      {
+       "id": "s4",
+       "say": "The temple builders of Malta. Who they were, and how we know.",
+       "draw": "intro_title card 'The Temple Builders of Malta' over the dimmed hero. Nothing else drawn."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "A place of giants",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:setting the scene, admiring]On the island of ^Gozo, next to Malta, two stone temples stand side by ^side. [p:0.93][act:the scale, savouring]Their back wall still rises six metres ^high: [tune:fall]as tall as a two-storey ^house@noun.",
+      "[act:the wider view, plain]Malta and Gozo hold about thirty such ^temples. [p:0.93][act:the weight, impressed]At Hagar ^Qim, one slab is estimated at close@adj to twenty ^tonnes: [tune:fall]about as heavy as three big ^elephants. [act:the puzzle, curious][tune:level]No metal ^tools. [act:same, quieter][tune:fall]No ^wheels."
+     ],
+     "shots": [
+      {
+       "id": "s5",
+       "say": "Their back wall still rises six metres high: as tall as a two-storey house.",
+       "draw": "Ġgantija's great back wall at golden evening light: a curved wall of huge grey coralline blocks set alternately upright and on their side, smaller courses above; a person (1.7 m) at its foot; a gold dimension '6 m' draws up beside it; then a two-storey house drawn in dashed outline beside the wall, the same height ('two storeys')."
+      },
+      {
+       "id": "s6",
+       "say": "Malta and Gozo hold about thirty such temples.",
+       "draw": "Map of Gozo, Comino and Malta (outlines drawn from the coast): gold pins pop for the temples named in the film (Ġgantija on Gozo; Ħaġar Qim and Mnajdra on the south coast; Tarxien and the Ħal Saflieni Hypogeum by the Grand Harbour; Skorba in the north-west); label 'about 30 temples'; scale bar 5 km."
+      },
+      {
+       "id": "s7",
+       "say": "At Hagar Qim, one slab is estimated at close to twenty tonnes: about as heavy as three big elephants. No metal tools. No wheels.",
+       "draw": "Ħaġar Qim's facade in honey-coloured globigerina stone with its trilithon doorway; one giant upright slab outlined in gold, chip 'close to 20 t'; on 'three big elephants', three elephant silhouettes pop on a balance beside it; then two small icons struck through in red: a metal axe ('no metal') and a wheel ('no wheels')."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:storytelling, with affection]The people of Gozo had their own ^answer. [act:the tale, warm]They called the place ^Ġgantija, the giants' ^place, [tune:fall]and told of a giantess, ^Sansuna, who carried the stones on her head, with her baby in her ^arms."
+     ],
+     "shots": [
+      {
+       "id": "s8",
+       "say": "The people of Gozo had their own answer. They called the place Ġgantija, the giants' place, and told of a giantess, Sansuna, who carried the stones on her head, with her baby in her arms.",
+       "draw": "A storybook panel in warm folk-art colours, framed like an old print (the tale, told with affection, not a claim to weigh): a giantess walks across the Gozo hills towards the rising temple, a great block balanced on her head, a baby held in one arm; tiny houses and terraced fields at her feet for scale. Labels 'Ġgantija: the giants' place' and 'Sansuna'."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:the archaeologists' answer, clear]Around the stones, archaeologists found the builders' own ^traces: [tune:level]the villages and pottery of farmers whose ancestors had sailed from ^Sicily, [tune:fall]and stone balls that may have served as ^rollers, like marbles under a ^tray.",
+      "[act:inside, hushed]Inside, rounded rooms open off a central passage like the leaves of a ^clover. [act:the carvings, tender]There, these farmers carved spirals and ^animals, [tune:level]and seated figures with vast, rounded ^hips, [tune:fall]often with no clear sign of being men or ^women."
+     ],
+     "shots": [
+      {
+       "id": "s9",
+       "say": "Around the stones, archaeologists found the builders' own traces: the villages and pottery of farmers whose ancestors had sailed from Sicily, and stone balls that may have served as rollers, like marbles under a tray.",
+       "draw": "Left: a small map, a boat crossing from south-east Sicily to Malta (label 'from Sicily'), a village of oval huts and two pots beside it. Right: a great slab sliding on a row of stone balls, a team of people hauling on ropes and levering it; on 'marbles under a tray', a small inset: a tray gliding on marbles (dashed: 'may have')."
+      },
+      {
+       "id": "s10",
+       "say": "Inside, rounded rooms open off a central passage like the leaves of a clover.",
+       "draw": "Plan of Ġgantija's south temple seen from above: the concave facade and doorway at the bottom, the central passage, five rounded rooms (apses) opening off it, drawn one pair at a time; a faint clover leaf drawn over it in gold dashes; person dot for scale."
+      },
+      {
+       "id": "s11",
+       "say": "There, these farmers carved spirals and animals, and seated figures with vast, rounded hips, often with no clear sign of being men or women.",
+       "draw": "Three carvings in a row on a dark ground, lit by a lamp: a slab with running spirals in relief (Tarxien); a frieze of goats and pigs; a seated stone figure with vast rounded hips, a pleated skirt, small feet and a socket where the head fitted (label 'seated figure'); a lilac 'man or woman?' beside it."
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:aside][act:the landing, warm][tune:fall]A giant's work, by ordinary ^hands."
+     ],
+     "shots": [
+      {
+       "id": "s12",
+       "say": "A giant's work, by ordinary hands.",
+       "draw": "Back at Ġgantija's wall (alias of s5): a row of small figures gathers along its foot, hands raised to the stones; the gold light deepens."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Older than the pyramids",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:setting up the old view, fair]For much of the twentieth century, Malta's temples were thought to be echoes of grander civilisations to the ^east. [p:0.93][act:the reasoning, clear]Their carved spirals looked like those on royal graves at ^Mycenae, in Greece, from about {1600|sixteen hundred} ^BCE. [act:the conclusion they drew][tune:fall]So the last temples were dated to around {2000|two thousand} ^BCE."
+     ],
+     "shots": [
+      {
+       "id": "s13",
+       "say": "Their carved spirals looked like those on royal graves at Mycenae, in Greece, from about 1600 BCE. So the last temples were dated to around 2000 BCE.",
+       "draw": "Map of the central and eastern Mediterranean: Malta pin and Mycenae pin; lilac dotted arrows sweep from the east towards Malta ('echoes of the east?'); two spirals side by side in panels, Tarxien's carved spiral and a Mycenaean grave stele's spiral, joined by '≈'; chips 'Mycenae, about 1600 BCE' and, over Malta, a lilac 'about 2000 BCE?'."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:the method, an everyday picture]Then came ^radiocarbon. [p:0.93][act:explaining, clear]Every living thing holds a trace of radioactive carbon, and after death it runs down at a steady pace, like sand in an ^hourglass. [act:the trick, a smile][tune:fall]Measure what's left in charcoal or bone, and you can tell when it ^died.",
+      "[act:the logic, leaning in]And anything sealed under a temple floor is older than the ^floor, [tune:fall]like a coin found under a paving ^stone. [act:the find, delighted]At ^Skorba, one temple even stands on the remains of an older ^village."
+     ],
+     "shots": [
+      {
+       "id": "s14",
+       "say": "Then came radiocarbon. Every living thing holds a trace of radioactive carbon, and after death it runs down at a steady pace, like sand in an hourglass. Measure what's left in charcoal or bone, and you know when it died.",
+       "draw": "A burnt branch (charcoal) and a bone on the left; between them a large hourglass whose sand runs down steadily (label 'radiocarbon'); small dots leave the charcoal one by one; on 'Measure what's left', a gauge reads the remaining sand and a chip pops 'years since death'."
+      },
+      {
+       "id": "s15",
+       "say": "And anything sealed under a temple floor is older than the floor, like a coin found under a paving stone. At Skorba, one temple even stands on the remains of an older village.",
+       "draw": "Cross-section: a temple floor of stone slabs with an upright wall on it; beneath it, in a dark layer, charcoal and bone glow (label 'sealed below'); a small inset of a paving stone lifted on a coin ('like a coin'); then on 'Skorba', deeper layers show the oval walls of older huts under the temple wall (label 'older village')."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:the twist, intrigued]But the hourglass had a ^flaw: [tune:fall]the amount of radiocarbon in the air has changed over the ^ages. [p:0.93][act:the fix, clear]Tree rings, one for every year, counted back over thousands of years, let scientists correct the ^clock.",
+      "[p:0.93][act:the result, awed]In {1973|nineteen seventy-three}, the archaeologist Colin ^Renfrew spelled out what the corrected dates ^meant. [act:the reveal, savouring][tune:level]Malta's temples, as dated today, began around {3600|thirty-six hundred} ^BCE: [tune:level]before Mycenae, before the great stones of ^Stonehenge, [tune:fall]and about a thousand years before the Great ^Pyramid."
+     ],
+     "shots": [
+      {
+       "id": "s16",
+       "say": "But the hourglass had a flaw: the amount of radiocarbon in the air has changed over the ages. Tree rings, one for every year, counted back over thousands of years, let scientists correct the clock.",
+       "draw": "A wavy line across the top (the air's radiocarbon, changing over time); below it a great tree-trunk cross-section whose rings light up from the bark inwards, a counter running; a clock face beside it whose hand is turned back (label 'corrected'); schematic, no numbers."
+      },
+      {
+       "id": "s17",
+       "say": "In 1973, the archaeologist Colin Renfrew spelled out what the corrected dates meant. Malta's temples began around 3600 BCE: before Mycenae, before the great stones of Stonehenge, and about a thousand years before the Great Pyramid.",
+       "draw": "A time line from 4000 to 1400 BCE: a chip '1973, Colin Renfrew'; the lilac '2000 BCE?' from s13 slides back and the gold band of Malta's temples draws from 3600 to 2500 BCE; then icons rise in order as named: Mycenae's lion gate at 1600 BCE, Stonehenge's trilithon at 2500 BCE, the Great Pyramid at about 2560 BCE, with a bracket 'about 1,000 years' from 3600 to the pyramid."
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:aside][act:the landing, warm]Not copies of the ^East, [tune:fall]but something the islanders invented ^themselves."
+     ],
+     "shots": [
+      {
+       "id": "s18",
+       "say": "Not copies of the East, but something the islanders invented themselves.",
+       "draw": "Back on the map of s13 (alias): the lilac arrows from the east are struck through and fade; Malta glows gold, label 'invented here'."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Temples under the sea?",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:build][act:painting the deep past]Twenty thousand years ago, in the last Ice ^Age, the sea around Malta stood about a hundred and twenty metres lower than ^today. [act:the picture, wonder][tune:fall]Dry land joined Malta to ^Sicily.",
+      "[act:the bold idea, fair][tune:rise]Could the temples be that ^old, with more of them now under the ^sea? [p:0.93][act:presenting him fairly]In his {2002|two thousand two} book Underworld, the writer Graham ^Hancock described diving off Malta in search of a drowned ^temple. [act:the next step, fair][tune:fall]And in a {2022|twenty twenty-two} Netflix series, he asked whether the temples themselves go back to the Ice ^Age.",
+      "[act:his strongest points, fair][tune:level]His case: stone can't be radiocarbon ^dated; [tune:level]the temples seem to appear without a learning ^curve; [tune:fall]and in {1999|nineteen ninety-nine}, divers had reported a sunken temple off Malta's east ^coast."
+     ],
+     "shots": [
+      {
+       "id": "s19",
+       "say": "Dry land joined Malta to Sicily.",
+       "draw": "Map of Sicily and the Maltese islands (View about 13.6 to 15.6 E, 35.6 to 37.2 N): today's coasts in dark land; then the Ice Age coast draws in a dashed bright line well outside them and the land between fills in pale (the land bridge), label 'Ice Age coast'; chips 'about 20,000 years ago' and 'sea about 120 m lower'."
+      },
+      {
+       "id": "s20",
+       "say": "Could the temples be that old, with more of them now under the sea?",
+       "draw": "Same map (alias of s19): the sea floods back over the land bridge; small lilac dotted temple outlines appear on the drowned land (claimed), with a lilac question mark."
+      },
+      {
+       "id": "s21",
+       "say": "In his 2002 book Underworld, the writer Graham Hancock described diving off Malta in search of a drowned temple. And in a 2022 Netflix series, he asked whether the temples themselves go back to the Ice Age.",
+       "draw": "Under the sea off Malta's east coast: a sandy seabed with scattered boulders, light from above; a diver swims down with a torch; at the left a closed book icon with '2002' and a screen icon with '2022' (no portraits); a lilac dotted chip 'Ice Age temples?'."
+      },
+      {
+       "id": "s22",
+       "say": "His case: stone can't be radiocarbon dated; the temples seem to appear without a learning curve; and in 1999, divers had reported a sunken temple off Malta's east coast.",
+       "draw": "Three points pop in a row as named: a stone block with a radiocarbon hourglass struck through ('stone can't be dated', solid: true); a temple plan appearing whole in lilac dashes ('no learning curve?'); seabed boulders with a lilac dotted temple outline over them and a chip '1999'."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:the answers, steady]A curator from Malta's museums visited the ^site, [tune:fall]and was not convinced the stones were a ^temple. [p:0.93][act:the dating answer, clear]And while stone can't be dated, what lies beneath it ^can: [tune:fall]under the temples lie the hearths and pottery of farmers, and nothing from the Ice ^Age.",
+      "[act:the second answer, warm]And the plans do show a learning ^curve: [tune:fall]they grew, step by step, from older tombs cut into the ^rock."
+     ],
+     "shots": [
+      {
+       "id": "s23",
+       "say": "A curator from Malta's museums visited the site, and was not convinced the stones were a temple.",
+       "draw": "Back on the seabed (alias of s21): the lilac temple outline fades and the boulders stay, plain grey, label 'boulders, not a temple'."
+      },
+      {
+       "id": "s24",
+       "say": "And while stone can't be dated, what lies beneath it can: under the temples lie the hearths and pottery of farmers, and nothing from the Ice Age.",
+       "draw": "Cross-section under a temple: the temple wall and floor on top; below, a farmers' layer with a hearth, potsherds and charcoal glowing (label 'farmers'); below that, older ground and bedrock, empty; a lilac dotted 'Ice Age layer?' box at the bottom with a red cross."
+      },
+      {
+       "id": "s25",
+       "say": "And the plans do have a learning curve: they grew, step by step, from older tombs cut into the rock.",
+       "draw": "Four small plans in a row from left to right, each popping as the line goes: a lobed tomb cut in rock (dark), a three-lobed temple, a five-apse temple, a four-apse temple with a niche; arrows between them; label 'step by step'."
+      }
+     ]
+    },
+    {
+     "role": "cost",
+     "lines": [
+      "[d:aside][act:another clue, fair][tune:rise]And the cart ruts, grooves in the rock that run straight into the ^sea? [act:the answer, clear][tune:fall]Most likely worn by cart wheels in wet, soft ^limestone. [act:honest][tune:level]When is still debated, from the temple builders to Roman ^quarrymen. [p:0.93][act:the depth, clear][tune:fall]But under the sea, they go down only about two ^metres. [act:the clincher, quiet][tune:fall]The Ice Age shore lies more than a hundred metres ^deeper."
+     ],
+     "shots": [
+      {
+       "id": "s26",
+       "say": "And the cart ruts, grooves in the rock that run straight into the sea? Most likely worn by cart wheels in wet, soft limestone. When is still debated, from the temple builders to Roman quarrymen.",
+       "draw": "A bare limestone shore at Birżebbuġa: two parallel grooves run across the rock and down into the water (label 'cart ruts'); then a two-wheeled cart rolls along them in the rain, the wheels sinking into the wet rock (label 'wet limestone'). On 'When is still debated', a small lilac time bar under the cart runs from the temple builders (about 3600 BCE) to Roman quarrymen, with a question mark."
+      },
+      {
+       "id": "s27",
+       "say": "But under the sea, they go down only about two metres. The Ice Age shore lies more than a hundred metres deeper.",
+       "draw": "A tall depth gauge in section: sea level at the top; the ruts end about 2 m down (gold mark '2 m'); the gauge runs on down a long way to the Ice Age shore at about 120 m (blue mark), a tiny person at the top for scale; label 'more than 100 m deeper'."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:the twist, leaning in]And yet people reached Malta ^earlier than anyone ^thought. [p:0.93][act:the find, vivid]In {2025|twenty twenty-five}, a team reported hearths and cooked sea snails in a cave at ^Latnija, [tune:fall]left by hunter-gatherers some eighty-five hundred years ^ago, after about a hundred kilometres of open ^sea.",
+      "[act:the landing, a smile][tune:fall]Sailors, a thousand years before the ^farmers. [act:the point, quiet][tune:fall]But they left no ^temples."
+     ],
+     "shots": [
+      {
+       "id": "s28",
+       "say": "In 2025, a team reported hearths, stone tools and cooked sea snails in a cave at Latnija, left by hunter-gatherers about eighty-five hundred years ago, after a crossing of some hundred kilometres of open sea.",
+       "draw": "Map of Sicily and Malta (alias of s19, today's coasts only): a dugout canoe crosses from Sicily to the north of Malta along a dashed route, label 'about 100 km'; a pin 'Latnija'; an inset of the cave mouth with a hearth glowing, stone tools and sea-snail shells; chip 'about 8,500 years ago'."
+      },
+      {
+       "id": "s29",
+       "say": "Sailors, a thousand years before the farmers. But they left no temples.",
+       "draw": "A time line from 7000 to 2000 BCE: a canoe at about 6500 BCE ('hunter-gatherers'), a sheaf of grain at about 5500 BCE ('farmers'), the gold temples band from 3600 to 2500 BCE; at the far left, off the line, a lilac 'Ice Age temples' struck through."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The city of the dead",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:storytelling, drawing us in]In {1902|nineteen oh-two}, workmen on Malta broke through the roof of a hidden ^chamber. [act:the detail, plain]They were cutting water tanks for new houses@noun, in the town of ^Paola. [act:the reveal, hushed]Below lay the ^Hypogeum, from the Greek for under the ^earth.",
+      "[p:0.93][act:describing it, slow]Rooms, passages and stairs, carved by hand into the rock on three levels, down to about ten metres ^deep.",
+      "[d:build][act:with care, quiet]From around {4000|four thousand} to {2500|twenty-five hundred} BCE, it was a resting place for the ^dead: [tune:fall]the remains of some seven thousand ^people."
+     ],
+     "shots": [
+      {
+       "id": "s30",
+       "say": "They were cutting water tanks for new houses, in the town of Paola. Below lay the Hypogeum, from the Greek for under the earth. Rooms, passages and stairs, carved by hand into the rock on three levels, down to about ten metres deep.",
+       "draw": "Cross-section: a street of flat-roofed houses on the surface (1902), a workman with a pick by a new cistern breaking into a dark chamber (chip '1902'); below, cut in pale globigerina rock, the Hypogeum's chambers on three levels, linked by passages and steps, built in level by level; a dimension '3 levels, about 10 m'; a person in the top chamber for scale."
+      },
+      {
+       "id": "s31",
+       "say": "From around 4000 to 2500 BCE, it was a resting place for the dead: the remains of some seven thousand people.",
+       "draw": "Same section (alias of s30), the street faded: the chambers fill with a soft warm glow; a chip '4000 to 2500 BCE'; a counter 'about 7,000 people' and a quiet grid of small warm lights, 70 of them, one for every hundred people (no bones drawn)."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[act:how we know, gentle][tune:rise]How can anyone ^count them? [p:0.93][act:explaining, careful]In three cubic metres of earth, the excavator Themistocles ^Zammit counted a hundred and nineteen right ^kneecaps. [act:the logic, simple]Each of us has only ^one. [act:the result][tune:fall]Scaled up to the whole site, that suggested about seven ^thousand."
+     ],
+     "shots": [
+      {
+       "id": "s32",
+       "say": "How can anyone count them? In three cubic metres of earth, the excavator Themistocles Zammit counted a hundred and nineteen right kneecaps. Each of us has only one. Scaled up to the whole site, that suggested about seven thousand.",
+       "draw": "A block of earth 3 m by 1 m by 1 m in three-quarter view (dimensions drawn); small pale kneecap shapes pop inside it in quick succession to a counter '119'; beside it a simple leg outline with the right kneecap circled ('one each'); then '× the whole site' and the chip 'about 7,000'."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:build][act:the treasures, tender]With them, mourners left beads, pots and small ^figures. [act:the famous one, hushed]One, the Sleeping ^Lady, is about twelve centimetres long: [tune:level]a woman lying on her side on a ^couch, [tune:fall]asleep, dreaming, or perhaps at rest for ^good.",
+      "[act:the colour, wonder]On some walls and ceilings, they painted spirals in red ^ochre: [tune:fall]the only prehistoric wall paintings known in ^Malta. [act:the craft, admiring]And they carved its doorways to look like the temples above ^ground."
+     ],
+     "shots": [
+      {
+       "id": "s33",
+       "say": "With them, mourners left beads, pots and small figures. One, the Sleeping Lady, is about twelve centimetres long: a woman lying on her side on a couch, asleep, dreaming, or perhaps at rest for good.",
+       "draw": "A few beads and two small pots pop on a dark ground; then the Sleeping Lady drawn large in warm clay colours: a woman lying on her right side on a sagging couch, one arm under her head, a pleated skirt; a ruler beneath, '12 cm'; three small lilac words drift above, 'asleep?', 'dreaming?', 'at rest?'."
+      },
+      {
+       "id": "s34",
+       "say": "On some walls and ceilings, they painted spirals in red ochre: the only prehistoric wall paintings known in Malta.",
+       "draw": "A rock-cut ceiling lit by a single lamp from below: red ochre spirals and a honeycomb pattern paint themselves across it, one curl at a time; label 'red ochre', chip 'Malta's only prehistoric wall paintings'."
+      },
+      {
+       "id": "s35",
+       "say": "And they carved its doorways to look like the temples above ground.",
+       "draw": "Two doorways side by side: left, a temple's trilithon doorway built of stones above ground (sky behind); right, the Hypogeum's 'Holy of Holies' carved from solid rock in the same form (a doorway framed by larger doorways, corbelled); a gold dashed line joins them, 'the same form'."
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:aside][act:the landing, gentle][tune:fall]The dead were given a temple of their ^own."
+     ],
+     "shots": [
+      {
+       "id": "s36",
+       "say": "The dead were given a temple of their own.",
+       "draw": "Back on the carved doorway (alias of s35): a small lamp glows inside the rock-cut doorway; the built one fades; quiet."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The room that sings",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:intrigue][act:hushed, almost listening]Deep inside Malta's ^Hypogeum, an underground cemetery, lies a small chamber: [tune:fall]the Oracle ^Room. [act:the legend, intrigued]Speak into the niche in its wall, and your voice fills the rooms around ^it.",
+      "[p:0.93][act:quoting, delighted]In {1920|nineteen twenty}, one visitor wrote that a word spoken there was magnified a hundred ^times."
+     ],
+     "shots": [
+      {
+       "id": "s37",
+       "say": "Speak into the niche, and your voice fills the rooms around it. In 1920, one visitor wrote that a word spoken there was magnified a hundred times.",
+       "draw": "The Oracle Room in cut-away: a small rock-cut chamber, its ceiling painted with red ochre spirals, an oval niche in its wall; a person bends to the niche and speaks; gold rings of sound spread out of the chamber into the rooms next to it (a plan strip below shows the main hall); on '1920', a chip '1920: magnified a hundred times?'."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:the modern claims, fair]Since then, the claims have ^grown: [tune:level]that the room resonates at a hundred and ten ^hertz, in the range of a man's ^voice, [tune:fall]and that this note changes how the brain ^works.",
+      "[p:0.93][act:where it comes from, careful]That second idea comes from one small laboratory study in California, in {2008|two thousand eight}: [tune:fall]thirty volunteers heard tones, and their brain activity shifted at a hundred and ^ten. [act:the catch, plain][tune:fall]It wasn't done in ^Malta."
+     ],
+     "shots": [
+      {
+       "id": "s38",
+       "say": "Since then, the claims have grown: that the room resonates at a hundred and ten hertz, in the range of a man's voice, and that this note changes how the brain works.",
+       "draw": "A frequency scale from 0 to 200 hertz: the range of a man's speaking voice as a soft band; a lilac dotted peak rises at 110 Hz (claimed); then a brain outline with lilac dotted waves ('changes the brain?')."
+      },
+      {
+       "id": "s39",
+       "say": "That second idea rests on one small laboratory study, in California in 2008: thirty volunteers listened to tones, and their brain activity shifted at a hundred and ten. It wasn't done in Malta.",
+       "draw": "A laboratory in California: thirty small seated figures in rows, each with a cap of sensors, a loudspeaker playing tones (90 to 130 Hz marks); chip '2008'; a squiggle on a monitor shifts at 110; at the right, a small map pin 'Malta' with a grey 'not here'."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:build][act:the measurement, clear]In {2014|twenty fourteen}, the music researcher Rupert ^Till tested the room with a tone swept from low to ^high, [tune:fall]the way acousticians test a concert ^hall. [p:0.93][act:the results, impressed]A deep note made there could ring on in the main hall for up to sixteen ^seconds.",
+      "[act:the twist, crisp][tune:fall]But its strongest resonances were lower, around forty and seventy-five hertz, not a hundred and ^ten. [act:a nice detail, light][tune:fall]And women's and men's voices carried equally ^well."
+     ],
+     "shots": [
+      {
+       "id": "s40",
+       "say": "In 2014, the music researcher Rupert Till tested the room with a tone swept from low to high, the way acousticians test a concert hall. A deep note made there could ring on in the main hall for up to sixteen seconds.",
+       "draw": "The Oracle Room in plan: a loudspeaker in the chamber and microphones placed out into the main hall; a sweep line rises from low to high ('20 Hz to 20,000 Hz'); chip '2014, Rupert Till'; then a long decaying wave draws across a 0 to 16 second axis ('up to 16 s, at 63 Hz')."
+      },
+      {
+       "id": "s41",
+       "say": "But its strongest resonances were lower, around forty and seventy-five hertz, not a hundred and ten. And women's and men's voices carried equally well.",
+       "draw": "The frequency scale of s38 again (alias): solid gold peaks rise at 41, 72 and 76 Hz; the lilac dotted 110 Hz peak is struck through; then two small figures, a woman and a man, with equal bars ('equally clear')."
+      }
+     ]
+    },
+    {
+     "role": "cost",
+     "lines": [
+      "[d:reveal][act:the strongest case, fair]In {2020|twenty twenty}, Till and two colleagues went ^further. [p:0.93][act:the claim, intrigued]The deepest notes of the middle level, they found, are spaced like the steps of a musical ^scale, [tune:fall]which would need walls shaped to within ten to twenty-five ^centimetres. [act:the caveat, even][tune:fall]But they offered no test of how often chance alone would do the ^same."
+     ],
+     "shots": [
+      {
+       "id": "s42",
+       "say": "In 2020, Till and two colleagues went further. The deepest notes of the middle level, they found, are spaced like the steps of a musical scale, which would need walls shaped to within ten to twenty-five centimetres. But they offered no test of how often chance alone would do the same.",
+       "draw": "Nine gold peaks between about 37 and 93 Hz rise in a row; under them a keyboard lights every other key, a whole-tone scale, the peaks lining up with it (chip '2020'); then a chamber wall with a dimension '± 10 to 25 cm'; then a pair of dice in lilac dashes with a question mark ('chance?')."
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:aside][act:the last claim, curious][tune:rise]And the painted spirals as pictures of ^sound, like the patterns sand makes on a singing ^plate? [act:honest, plain][tune:fall]A popular idea online, but we found no published study that tests ^it.",
+      "[act:the landing, warm][tune:fall]The room does@verb ^sing. [act:thoughtful][tune:fall]Whether it was carved to sing is still ^open."
+     ],
+     "shots": [
+      {
+       "id": "s43",
+       "say": "And the idea, popular online, that the painted spirals are pictures of sound, like the patterns sand makes on a singing plate? We found no published study that tests it.",
+       "draw": "Left: a square metal plate with sand gathered into a symmetrical pattern (a Chladni figure) and a note above it. Right: one of the Hypogeum's red spirals. Between them a lilac dotted '='; then a chip 'no published test'.",
+       "reuse": "cymatic-temples (f07.py cymatic(): the Chladni sand plate)"
+      },
+      {
+       "id": "s44",
+       "say": "The room does sing. Whether it was carved to sing is still open.",
+       "draw": "Back in the Oracle Room (alias of s37): the gold rings of sound spread once more from the niche; a lilac question mark rises beside it."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The end of the temples",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:setting the scene, quiet]After more than a thousand years, Malta's temple culture came to an end, around {2350|twenty-three fifty} ^BCE. [act:the question, curious][tune:rise]What ^happened?",
+      "[d:build][act:the method, an everyday picture]Researchers drilled cores into the valley floors, where mud keeps pollen and soil in layers, like the pages of a ^diary. [p:0.93][act:the findings, steady]They show hills losing their soil, streams drying up, and less cereal pollen, [tune:fall]as the land turned ^drier."
+     ],
+     "shots": [
+      {
+       "id": "s45",
+       "say": "What happened? Researchers drilled cores into the valley floors, where mud keeps pollen and soil in layers, like the pages of a diary. They show hills losing their soil, streams drying up, and less cereal pollen, as the land turned drier.",
+       "draw": "A Maltese valley in section at dusk: terraced hills, a stream, the valley floor; a drilling rig lowers a core tube into the mud; the core comes up and lies across the panel, its layers like pages; then, as named: soil slides down the hills (arrows), the stream line thins and dries, and a row of pollen grains thins out towards the top of the core ('less cereal pollen')."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[act:the people, gentle]Ancient DNA from three of the temple people shows a small, isolated ^population, [tune:fall]including one person whose parents were close@adj ^relatives.",
+      "[d:reveal][act:a twist, careful]A great drought struck the wider region around {2200|twenty-two hundred} ^BCE, [tune:fall]but Malta's decline seems to have begun ^earlier. [act:fair, open][tune:fall]A plague is possible, but no trace of one has been ^found."
+     ],
+     "shots": [
+      {
+       "id": "s46",
+       "say": "Ancient DNA from three of the temple people shows a small, isolated population, including one person whose parents were close relatives.",
+       "draw": "Malta and Gozo small in a wide dark sea; a DNA double helix draws itself beside them; a small family tree whose two branches meet again at one child (gold), label 'parents related'; chip 'three genomes'."
+      },
+      {
+       "id": "s47",
+       "say": "A great drought struck the wider region around 2200 BCE, but Malta's decline seems to have begun earlier. A plague is possible, but no trace of one has been found.",
+       "draw": "A time line from 3000 to 1800 BCE: the temples' band fades out by about 2350 BCE; a gentle decline curve starts well before it; a sandy band 'drought' at about 2200 BCE comes after; a lilac dotted 'plague?' chip floats over the decline."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[act:the last signs, quiet][tune:level]At the Xaghra Circle, a burial ground on ^Gozo, statues were ^smashed. [act:at Tarxien, grave][tune:fall]At ^Tarxien, a layer of soil with no trace of people settled over the temple ^floors.",
+      "[d:build][act:the newcomers, storytelling]Then, around {2000|two thousand} BCE, newcomers arrived with bronze and a new ^custom. [act:the image, gentle][tune:fall]They burned their dead, and buried the ashes in urns, in the ruins of the temple at ^Tarxien."
+     ],
+     "shots": [
+      {
+       "id": "s48",
+       "say": "At the Xaghra Circle, a burial ground on Gozo, statues were smashed. At Tarxien, a layer of soil with no trace of people settled over the temple floors.",
+       "draw": "Left: fragments of a stone seated figure lying broken (label 'Xagħra Circle, Gozo'). Right: a cross-section at Tarxien: the temple's floor slabs and the foot of a carved wall; over them a pale layer of soil draws in, label 'no trace of people'."
+      },
+      {
+       "id": "s49",
+       "say": "Then, around 2000 BCE, newcomers arrived with bronze and a new custom. They burned their dead, and buried the ashes in urns, in the ruins of the temple at Tarxien.",
+       "draw": "The Tarxien section again (alias of s48), at night: above the pale layer, urns appear one by one with a small bronze dagger and axe beside them (label 'urns, ashes, bronze'); at the top left a small boat arrives, chip 'about 2000 BCE'."
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:aside][act:the landing, quiet][tune:fall]Not one catastrophe, it seems, but a slow ^unravelling, [tune:fall]on a small island far out at ^sea."
+     ],
+     "shots": [
+      {
+       "id": "s50",
+       "say": "Not one catastrophe, it seems, but a slow unravelling, on a small island far out at sea.",
+       "draw": "Malta and Gozo at dusk, small in a wide, calm sea under the first stars; one temple light on Gozo dims slowly."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The weighing",
+   "beats": [
+    {
+     "role": "weigh",
+     "lines": [
+      "[d:verdict][act:calm, laying it out]So, let's ^weigh it. [act:steady][tune:rise]Built by Malta's own farming people, from about {3600|thirty-six hundred} BCE, before the ^pyramids? [act:the verdict, confident][tune:fall]^*Established*: the dates, the layers beneath, and the builders' own bones all ^agree.",
+      "[act:steady][tune:rise]Temples from the Ice Age, now under the ^sea? [act:the verdict, firm and kind][tune:fall]*Ruled ^out*: nothing found beneath the temples is older than the first ^farmers, and the sunken temple was never ^confirmed. [act:same pace][tune:rise]Cart ruts as Ice Age ^roads? [act:same, plain][tune:fall]*Ruled ^out*.",
+      "[d:build][act:steady][tune:rise]A Hypogeum carved to ^sing? [act:honest][tune:fall]*Open ^question*: the ringing is real, but a design is not yet ^shown. [act:fair][tune:rise]A brain-changing hundred and ten hertz, or spirals drawn from ^sound? [act:even][tune:fall]*Awaiting ^evidence*.",
+      "[act:steady][tune:rise]Newcomers who burned their dead, around {2000|two thousand} ^BCE? [act:the verdict][tune:fall]*Strong ^evidence*. [act:honest, open][tune:rise]And why the temple builders' world ^ended? [act:even][tune:fall]An *open ^question*: soil, drought, isolation and perhaps disease all have their ^supporters."
+     ],
+     "shots": [
+      {
+       "id": "s51",
+       "say": "Built by Malta's own farming people, from about 3600 BCE, before the pyramids? Established: the dates, the layers beneath, and the builders' own bones all agree.",
+       "draw": "Ledger, panel one ('Who and when'): row 1 fills as said, a small temple icon, 'built by Malta's farmers, from 3600 BCE', grade chip Established."
+      },
+      {
+       "id": "s52",
+       "say": "Temples from the Ice Age, now under the sea? Ruled out: nothing found beneath the temples is older than the first farmers, and the sunken temple was never confirmed. Cart ruts as Ice Age roads? Ruled out.",
+       "draw": "Rows 2 and 3 of the same ledger: 'Ice Age temples under the sea' (a lilac dotted temple under a wave) Ruled out, struck; 'cart ruts as Ice Age roads' (two grooves) Ruled out, struck."
+      },
+      {
+       "id": "s53",
+       "say": "A Hypogeum carved to sing? Open question: the ringing is real, but a design is not yet shown. A brain-changing hundred and ten hertz, or spirals drawn from sound? Awaiting evidence.",
+       "draw": "Ledger, panel two ('Sound and the end'): 'the Hypogeum carved to sing' (sound rings) Open question; '110 Hz brains, sound spirals' (a spiral) Awaiting evidence."
+      },
+      {
+       "id": "s54",
+       "say": "Newcomers who burned their dead, around 2000 BCE? Strong evidence. And why the temple builders' world ended? An open question: soil, drought, isolation and perhaps disease all have their supporters.",
+       "draw": "Rows 3 and 4 of panel two: 'newcomers who burned their dead' (an urn) Strong evidence; 'why it ended' (a wilting stalk) Open question."
+      }
+     ]
+    },
+    {
+     "role": "test",
+     "lines": [
+      "[d:tension][act:open, curious][tune:rise]What would change our ^minds? [act:practical][tune:level]Something from the Ice Age, sealed under a temple ^floor. [act:same pace][tune:level]A sunken temple, found by the surveys@noun now mapping the drowned land toward ^Sicily. [act:same pace][tune:level]A test of the Hypogeum's notes against ^chance. [act:the last one, gentle][tune:fall]And ancient DNA from the few skulls that ^survive from it."
+     ],
+     "shots": [
+      {
+       "id": "s55",
+       "say": "What would change our minds? Something from the Ice Age, sealed under a temple floor. A sunken temple, found by the surveys now mapping the drowned land toward Sicily. A test of the Hypogeum's notes against chance. And ancient DNA from the few skulls that survive from it.",
+       "draw": "Four wanted items in lilac dashes pop across the panel as named: a temple floor with a glowing 'Ice Age' layer beneath; a survey ship over the drowned land bridge with a sonar fan; dice beside a spectrum ('a test against chance'); a skull outline with a DNA helix ('the few surviving skulls')."
+      }
+     ]
+    },
+    {
+     "role": "close",
+     "lines": [
+      "[d:tension][p:0.93][act:the last word, quiet wonder][tune:fall]Twice a year, five thousand years on, the sun still finds the doorway at ^Mnajdra. [act:warm, inviting][tune:fall]Weigh it ^yourself."
+     ],
+     "shots": [
+      {
+       "id": "s56",
+       "say": "Twice a year, five thousand years on, the sun still finds the doorway at Mnajdra. Weigh it yourself.",
+       "draw": "The hero again on its own panel: Mnajdra's doorway at sunrise, the beam already lying the length of the floor, warmer and higher; the light slowly fills the chamber."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "description": "At dawn on the equinox, the rising sun shines straight through the doorway of Mnajdra, a stone temple on Malta built some five thousand years ago. Malta's temples are older than the pyramids of Giza. Who built them, how do we know when, and why did they stop?\n\nWe follow Ġgantija and the giantess Sansuna of Gozo's folklore, the radiocarbon revolution that re-dated the temples, the Ice Age and drowned-temple claims, the cart ruts, the hunter-gatherers who crossed to Malta 8,500 years ago, the Ħal Saflieni Hypogeum and the thousands laid to rest in it, the Oracle Room and what was really measured there, and the end of the temple culture. Verdict: Established, built by Malta's own farming people from about 3600 BCE. Ice Age temples and Ice Age cart ruts: Ruled out. A Hypogeum carved for its sound: Open question. 110 Hz brain effects and sound-pattern spirals: Awaiting evidence. Bronze Age newcomers who cremated their dead: Strong evidence. Why the temple culture ended: Open question.\n\nChapters\n0:00 Cold open\nmm:ss A place of giants\nmm:ss Older than the pyramids\nmm:ss Temples under the sea?\nmm:ss The city of the dead\nmm:ss The room that sings\nmm:ss The end of the temples\nmm:ss The weighing\n\nSources\nRenfrew 1973, Before Civilization: The Radiocarbon Revolution and Prehistoric Europe (Jonathan Cape)\nRenfrew 1986, in Bonanno (ed.), Archaeology and Fertility Cult in the Ancient Mediterranean (B. R. Grüner)\nEvans 1971, The Prehistoric Antiquities of the Maltese Islands (Athlone Press)\nTrump 1966, Skorba (Society of Antiquaries of London)\nTrump 2002, Malta: Prehistory and Temples (Midsea Books)\nMcLaughlin et al. 2020, in French et al., Temple Landscapes (McDonald Institute), doi:10.17863/CAM.59611\nMalone et al. 2020, in Temple Places (McDonald Institute), doi:10.17863/CAM.62641\nStoddart et al. (eds) 2022, Temple People (McDonald Institute), doi:10.17863/CAM.91914\nGroucutt et al. 2022, Frontiers in Earth Science 9: 771683, doi:10.3389/feart.2021.771683\nAriano et al. 2022, Current Biology 32: 2668-2680, doi:10.1016/j.cub.2022.04.069\nScerri et al. 2025, Nature 641: 137-143, doi:10.1038/s41586-025-08780-y\nRossi et al. 2025, Earth Surface Processes and Landforms, doi:10.1002/esp.6061\nTill 2017, Antiquity 91: 74-89, doi:10.15184/aqy.2016.258\nWolfe, Swanson & Till 2020, J. Archaeol. Sci. Rep. 34: 102623, doi:10.1016/j.jasrep.2020.102623\nCook, Pajot & Leuchter 2008, Time and Mind 1: 95-104, doi:10.2752/175169608783489099\nDebertolis, Coimbra & Eneix 2015, Journal of Anthropology and Archaeology 3(1): 59-79\nMottershead, Pearson & Schaefer 2008, Antiquity 82: 1065-1079, doi:10.1017/S0003598X00097787\nMottershead 2007, Malta Archaeological Review 8\nGroucutt 2022, J. Archaeol. Sci. Rep. 41: 103287, doi:10.1016/j.jasrep.2021.103287\nFurlani et al. 2013, Quaternary International 288: 146-157, doi:10.1016/j.quaint.2012.02.038\nAzzopardi 2007, Malta Archaeological Review 8\nZammit 1910, first report on the Hal Saflieni Hypogeum (Malta)\nHancock 2002, Underworld: Flooded Kingdoms of the Ice Age (Michael Joseph)\nAncient Apocalypse, episode 3, Sirius Rising (Netflix, 2022)\nUNESCO World Heritage List, Hal Saflieni Hypogeum (1980); Heritage Malta, Mnajdra and Ħaġar Qim",
+ "sources": [
+  "Renfrew, C. 1973, Before Civilization: The Radiocarbon Revolution and Prehistoric Europe (Jonathan Cape)",
+  "Renfrew, C. 1986, The prehistoric Maltese achievement and its interpretation, in Bonanno, A. (ed.), Archaeology and Fertility Cult in the Ancient Mediterranean (B. R. Grüner)",
+  "Evans, J. D. 1971, The Prehistoric Antiquities of the Maltese Islands: A Survey (Athlone Press)",
+  "Trump, D. H. 1966, Skorba: Excavations Carried Out on Behalf of the National Museum of Malta, 1961-1963, Reports of the Research Committee of the Society of Antiquaries of London 22 (Society of Antiquaries of London)",
+  "Trump, D. H. 2002, Malta: Prehistory and Temples (Midsea Books)",
+  "McLaughlin, T. R., Blaauw, M., Flood, R. P., French, C. et al. 2020, Chronology and stratigraphy of the valley systems, in French, C., Hunt, C. O., Grima, R., McLaughlin, R., Stoddart, S. & Malone, C. (eds), Temple Landscapes: Fragility, Change and Resilience of Holocene Environments in the Maltese Islands (McDonald Institute for Archaeological Research), doi:10.17863/CAM.59611",
+  "Malone, C., Stoddart, S., McLaughlin, R. & Vella, N. C. 2020, Archaeological studies of Maltese prehistory for the FRAGSUS Project 2013-2018, in Temple Places: Excavating Cultural Sustainability in Prehistoric Malta (McDonald Institute for Archaeological Research), doi:10.17863/CAM.62641",
+  "Stoddart, S., Power, R. K., Thompson, J. E., Mercieca-Spiteri, B., McLaughlin, R., Parkinson, E. W., Pace, A. & Malone, C. (eds) 2022, Temple People: Bioarchaeology, Resilience and Culture in Prehistoric Malta (McDonald Institute for Archaeological Research), doi:10.17863/CAM.91914",
+  "Groucutt, H. S., Carleton, W. C., Fenech, K., Gauci, R., Grima, R., Scerri, E. M. L., Stewart, M. & Vella, N. C. 2022, The 4.2 ka Event and the End of the Maltese 'Temple Period', Frontiers in Earth Science 9: 771683, doi:10.3389/feart.2021.771683",
+  "Ariano, B., Mattiangeli, V., Breslin, E. M., Parkinson, E. W., McLaughlin, T. R., Thompson, J. E., Power, R. K., Stock, J. T., Mercieca-Spiteri, B., Stoddart, S., Malone, C., Gopalakrishnan, S., Cassidy, L. M. & Bradley, D. G. 2022, Ancient Maltese genomes and the genetic geography of Neolithic Europe, Current Biology 32(12): 2668-2680, doi:10.1016/j.cub.2022.04.069",
+  "Scerri, E. M. L., Blinkhorn, J., Groucutt, H. S., Stewart, M. et al. 2025, Hunter-gatherer sea voyages extended to remotest Mediterranean islands, Nature 641: 137-143, doi:10.1038/s41586-025-08780-y",
+  "Rossi, S., Prampolini, M., Galea, C., Valle, G. D., Caruana, A. & Soldati, M. 2025, Geomorphological evidence of the Malta-Sicily land-bridge during the Last Glacial Maximum inferred from seismic profiles, Earth Surface Processes and Landforms, doi:10.1002/esp.6061",
+  "Till, R. 2017, An archaeoacoustic study of the Hal Saflieni Hypogeum on Malta, Antiquity 91(355): 74-89, doi:10.15184/aqy.2016.258",
+  "Wolfe, K., Swanson, D. & Till, R. 2020, The frequency spectrum and geometry of the Hal Saflieni Hypogeum appear tuned, Journal of Archaeological Science: Reports 34: 102623, doi:10.1016/j.jasrep.2020.102623",
+  "Cook, I. A., Pajot, S. K. & Leuchter, A. F. 2008, Ancient architectural acoustic resonance patterns and regional brain activity, Time and Mind 1(1): 95-104, doi:10.2752/175169608783489099",
+  "Debertolis, P., Coimbra, F. & Eneix, L. 2015, Archaeoacoustic analysis of the Hal Saflieni Hypogeum in Malta, Journal of Anthropology and Archaeology 3(1): 59-79",
+  "Mottershead, D., Pearson, A. & Schaefer, M. 2008, The cart ruts of Malta: an applied geomorphology approach, Antiquity 82(318): 1065-1079, doi:10.1017/S0003598X00097787",
+  "Mottershead, D. 2007, The origin of Maltese cart-ruts: cut by wheels or tools?, Malta Archaeological Review 8",
+  "Groucutt, H. S. 2022, The morphological variability of Maltese 'cart ruts' and its implications, Journal of Archaeological Science: Reports 41: 103287, doi:10.1016/j.jasrep.2021.103287",
+  "Furlani, S., Antonioli, F., Biolchi, S., Gambin, T., Gauci, R., Lo Presti, V., Anzidei, M., Devoto, S., Palombo, M. & Sulli, A. 2013, Holocene sea level change in Malta, Quaternary International 288: 146-157, doi:10.1016/j.quaint.2012.02.038",
+  "Azzopardi, G. 2007, Cremation burials in early Bronze Age Malta: evidence from Tarxien and Ggantija, Malta Archaeological Review 8",
+  "Zammit, T. 1910, first excavation report on the Hal Saflieni Hypogeum, Paola (Malta); the kneecap count and the estimate of about 7,000 burials as summarised by Heritage Malta",
+  "Griffiths, W. A. 1920, National Geographic Magazine, as cited by Till 2017 and Debertolis et al. 2015 (a word spoken in the Oracle Room 'magnified a hundred-fold')",
+  "Hancock, G. 2002, Underworld: Flooded Kingdoms of the Ice Age (Michael Joseph); reviews: D. Edlin 2002 (Hall of Maat) and the review hosted on grahamhancock.com",
+  "Ancient Apocalypse, season 1, episode 3, 'Sirius Rising' (Netflix, 2022); reviews by R. Vassallo (MaltaToday, 2022) and A Hot Cup of Joe (2022); A. Bonanno interview (MaltaToday, 22 November 2022)",
+  "Heritage Malta: Mnajdra equinox and solstice sunrises (South temple), Ħaġar Qim (a megalith close to 20 tonnes; a stone 5.2 m high), Ħal Tarxien (cremation cemetery after 2000 BCE), the Ħal Saflieni skulls (fewer than 20 survive)",
+  "UNESCO World Heritage List no. 130, Ħal Saflieni Hypogeum (1980): in use from about 4000 to 2500 BCE, remains of about 7,000 individuals, the only prehistoric wall paintings in the Maltese Islands",
+  "Wolfstone, I. F. 2017, Mnajdra: cosmology of the sky, Journal of Integrated Studies (citing P. Micallef and T. Lomsdalen on the equinox and solstice light)",
+  "Stonepages news archive, 18 November 1999: the reported underwater 'temple' off Sliema and the Museums Department curator's inspection"
+ ],
+ "facts_added": [
+  {
+   "fact": "At the spring and autumn equinoxes the rising sun shines through the main doorway of Mnajdra's lower (South) temple and lights its central passage and the inner niche; at the solstices the first light falls on the edges of slabs in the front apses. Heritage Malta: 'not clear whether these orientations were intentional', but 'so systematic that this is very probable'.",
+   "source": "Heritage Malta (Mnajdra equinox, 2022 news); Wolfstone 2017 (citing Micallef and Lomsdalen); Wikipedia summary of Mnajdra"
+  },
+  {
+   "fact": "Mnajdra's lower temple dates to the early Tarxien phase (about 3150-2500 BCE); its upper temple to the Ġgantija phase (3600-3200 BCE). Mnajdra is built of hard coralline limestone. The 1, 2 and 5 cent Maltese euro coins show Mnajdra.",
+   "source": "Wikipedia (Mnajdra), after Trump 2002"
+  },
+  {
+   "fact": "Ġgantija on Gozo: two temples side by side within one outer wall, the southern one older and larger with five apses; its back wall still stands about 6 m high; the name comes from Maltese ġgant, giant ('place of giants'); Gozitan folklore tells of a giantess, Sansuna, who carried the megaliths on her head with her baby, living on broad beans.",
+   "source": "Wikipedia (Ġgantija); islandofgozo.org; World History Encyclopedia travel feature citing Heritage Malta curators"
+  },
+  {
+   "fact": "Malta and Gozo have about thirty megalithic temples; Ħaġar Qim has a megalith estimated at close to 20 tonnes and another stone 5.2 m high; the temples were built without metal tools or the wheel; stone spheres found at Ġgantija, Tarxien and Ħaġar Qim may have served as rollers.",
+   "source": "Heritage Malta (Ħaġar Qim); Wikipedia (Megalithic Temples of Malta; Ġgantija); World History Encyclopedia"
+  },
+  {
+   "fact": "Temple statues: seated and standing figures with outsized hips and thighs, many without clear signs of sex; heads were made separately to fit a socket. The original height of Tarxien's colossal statue cannot be known (only its lower part survives).",
+   "source": "Heritage Malta / National Museum of Archaeology (Google Arts & Culture: Enigmatic statuettes from the Temple period)"
+  },
+  {
+   "fact": "Before radiocarbon, the spirals of the Mycenaean shaft graves (about 1600 BCE) compared with Tarxien's spirals were the main dating evidence, and J. D. Evans placed the developed Tarxien phase around 2000 BCE; calibrated radiocarbon put the Ġgantija phase around 3600 to 3000 BCE and the Tarxien phase 3000 to 2500 BCE, ending the idea of Aegean inspiration.",
+   "source": "Renfrew 1986 (in Bonanno ed.); Renfrew 1973"
+  },
+  {
+   "fact": "At Skorba, excavated by D. H. Trump in 1960 to 1963, the temple was built over an earlier farming village (Għar Dalam, Grey and Red Skorba phases); its radiocarbon dates were key to the Maltese sequence.",
+   "source": "Trump 1966; Wikipedia (Skorba Temples)"
+  },
+  {
+   "fact": "FRAGSUS chronology: cereal farming from about 6000 to 5400 cal BC; a long gap with much reduced evidence from about 4800 to 3800 cal BC; the Temple Period about 3800 to 2400 cal BC; the Earlier Bronze Age from about 2000 cal BC with a sudden change in burial practice.",
+   "source": "McLaughlin et al. 2020 (Temple Landscapes, FRAGSUS vol. 1)"
+  },
+  {
+   "fact": "During the Last Glacial Maximum (about 20,000 years ago) sea level was about 120 m lower and a land bridge joined the Maltese Islands to Sicily; its western coastline lies 119 to 131 m below sea level. The BRIDGES survey (R/V Gaia Blu, December 2025 to January 2026) set out to map it.",
+   "source": "Rossi et al. 2025, Earth Surf. Process. Landforms; OGS news (BRIDGES expedition)"
+  },
+  {
+   "fact": "Graham Hancock's Underworld (2002) describes his dives off Malta with the brothers Shaun and Kurt Arrigo in search of an underwater 'temple' reported by Hubert Zeitlmair; the site was not found. In Ancient Apocalypse (Netflix, 2022, episode 3 'Sirius Rising') he suggested the temples might be far older, from the Ice Age, saying there were no reliable carbon dates and no learning curve. The dives and filming were made before the book and the Channel 4 series came out in 2002: a Times of Malta report of 23 December 2001 says he had already come to Malta with Channel 4 to film the site.",
+   "source": "Edlin 2002 review (Hall of Maat); review hosted on grahamhancock.com; Wikipedia (Ancient Apocalypse); Vassallo 2022 (MaltaToday); A Hot Cup of Joe 2022; Colavito 2022; Times of Malta, 23 December 2001 (via the Megalithic Portal news archive)"
+  },
+  {
+   "fact": "The underwater 'temple' (Ġebel ġol-Baħar) was reported in 1999 by divers working for Hubert Zeitlmair, about 1.5 miles off Sliema/St Julian's at 8 to 20 m; the Museums Department curator Reuben Grima visited the site and was not convinced the stones were a temple.",
+   "source": "Stonepages news archive, 18 Nov 1999; Megalithic Portal news; Wikipedia (Ġebel ġol-Baħar)"
+  },
+  {
+   "fact": "Carbon dating cannot date stone; the temples are dated from carbonised organic matter in carefully excavated layers and from pottery styles (A. Bonanno).",
+   "source": "Bonanno interview, MaltaToday, 22 Nov 2022"
+  },
+  {
+   "fact": "The temple plan developed in steps: from lobed rock-cut tombs to trefoil temples, then five-apse plans, then four-apse plans with a niche in the Tarxien phase.",
+   "source": "Trump 1971 (Megalithic Architecture in Malta); World History Encyclopedia (Megalithic Temples of Malta)"
+  },
+  {
+   "fact": "Malta's cart ruts: about 35 km survive; carts with a gauge of about 1.40 m cut them in wet weather, when globigerina limestone loses much of its strength, until the ground clearance of about 0.675 m was reached and a new track was started; at Birżebbuġa the tracks run into the sea and are eroded in the submerged part at about 2 m depth.",
+   "source": "Mottershead 2007; Mottershead, Pearson & Schaefer 2008; Furlani et al. 2013"
+  },
+  {
+   "fact": "Hunter-gatherers lived at the cave of Latnija (Mellieħa, Malta) from about 8,500 years ago, after a sea crossing of about 100 km; they left stone tools, hearths and cooked food remains (deer, tortoises, birds, seal, fish, thousands of marine snails, crabs, sea urchins), about a thousand years before Neolithic farmers (about 7,500 years ago).",
+   "source": "Scerri et al. 2025, Nature 641: 137-143; University of Liverpool and Max Planck press releases (9 April 2025)"
+  },
+  {
+   "fact": "The Ħal Saflieni Hypogeum in Paola was found in 1902 when workmen cutting cisterns for new houses broke through its roof; Fr Manwel Magri excavated from 1903 (he died in 1907 and his notes were lost) and Themistocles Zammit to 1911; it is cut on three levels about 10 m into globigerina limestone.",
+   "source": "Wikipedia (Ħal Saflieni Hypogeum); World Archaeology (Great Excavations: Zammit); Till 2017"
+  },
+  {
+   "fact": "The Hypogeum was in use from about 4000 to 2500 BCE and held the remains of about 7,000 individuals; its red ochre spiral and honeycomb designs are the only prehistoric wall paintings found in the Maltese Islands; UNESCO World Heritage Site since 1980.",
+   "source": "UNESCO World Heritage List no. 130"
+  },
+  {
+   "fact": "Zammit's estimate of about 7,000 burials came from a sample block of 3 m by 1 m by 1 m deep, in which 119 right kneecaps gave a minimum of about 120 individuals; fewer than 20 skulls survive today.",
+   "source": "Heritage Malta (Hypogeum myths article; Ħal Saflieni skulls research grant, 2019)"
+  },
+  {
+   "fact": "The Sleeping Lady, a clay figure about 12 cm long and 7 cm high, lies on her right side on a couch; it was found in a pit in the Hypogeum and dates to about 3000 to 2500 BCE; interpretations include sleep, dream incubation and death as an eternal sleep.",
+   "source": "Archaeotravel (Sleeping Beauty of the Underworld); Heritage Malta / National Museum of Archaeology (Google Arts & Culture)"
+  },
+  {
+   "fact": "The Hypogeum's 'Holy of Holies' is a porthole doorway within a trilithon framed by larger trilithons, carved in the rock in the form of the temple facades above ground.",
+   "source": "Bradshaw Foundation (Ħal Saflieni)"
+  },
+  {
+   "fact": "In 1920, W. A. Griffiths wrote that a word spoken in the Oracle Room was 'magnified a hundred-fold'; Till (2017) confirmed that sound made in the Oracle Chamber is amplified when heard elsewhere on the same level.",
+   "source": "Griffiths 1920 as quoted by Debertolis et al. 2015 and Till 2017"
+  },
+  {
+   "fact": "Cook, Pajot & Leuchter (UCLA, 2008) played tones from 90 to 130 Hz to 30 volunteers under EEG in a laboratory: left temporal activity was lower at 110 Hz and prefrontal activity shifted to the right. The study was not made in Malta.",
+   "source": "Cook, Pajot & Leuchter 2008, Time and Mind 1: 95-104"
+  },
+  {
+   "fact": "Debertolis, Coimbra & Eneix (2015), testing with voices and instruments, reported a double resonance at 70 and 114 Hz in the Hypogeum.",
+   "source": "Debertolis, Coimbra & Eneix 2015"
+  },
+  {
+   "fact": "Till measured the Hypogeum in 2014 with sine sweeps (20 Hz to 20 kHz): reverberation up to 16 s at low frequencies (63 Hz), with the loudspeaker in the Oracle Chamber and the microphone in the Main Hall about 15 m away (inside the chamber itself the 63 Hz decay was about two thirds as long); the Oracle Chamber's primary resonances are 41, 72 and 76 Hz; male and female speech are equally intelligible; he judged effects inconsistent and design unproven, while the low-frequency reverberation is far greater than in concert halls or cathedrals.",
+   "source": "Till 2017, Antiquity 91: 74-89"
+  },
+  {
+   "fact": "Wolfe, Swanson & Till (2020) found nine prominent peaks between 37.2 and 92.5 Hz in the middle level, spaced close to whole-tone ratios (9:8 or 10:9), and argued the walls would have had to be tuned to within 10 to 25 cm; the paper gives no formal statistical test against chance and notes that early twentieth-century clearance removed deposits that may have changed the acoustics.",
+   "source": "Wolfe, Swanson & Till 2020, J. Archaeol. Sci. Rep. 34: 102623"
+  },
+  {
+   "fact": "No published study was found that links the Hypogeum's painted spirals to sound (cymatic) patterns; Chladni showed sand gathering in patterns on vibrating plates in 1787.",
+   "source": "Our own literature search, October 2026; Chladni 1787 (as in the Short cymatic-temples)"
+  },
+  {
+   "fact": "The Temple Period ended about 4.3 ka (about 2350 BCE): cores show aridification, the disappearance of freshwater streams, erosion and a decline in cereal pollen; modelling suggests decline in the centuries before the 4.2 ka drought, with other factors such as a plague epidemic possibly predominant; statuary at the Xagħra Circle was smashed after about 4.5 ka; a sterile layer separates temple and Bronze Age deposits at Tarxien.",
+   "source": "Groucutt et al. 2022, Frontiers in Earth Science 9: 771683"
+  },
+  {
+   "fact": "Three Late Neolithic Maltese genomes from the Xagħra Circle show long runs of homozygosity (inbreeding), an effective population size of only hundreds, and no late hunter-gatherer resurgence; one individual was the offspring of second-degree relatives; stature fell.",
+   "source": "Ariano et al. 2022, Current Biology 32: 2668-2680; QUB and Trinity College Dublin press releases"
+  },
+  {
+   "fact": "The Xagħra Circle held about 220,000 human bones from 450 to 800 individuals; FRAGSUS found a relatively low level of interpersonal violence and evidence of care for the old.",
+   "source": "Stoddart et al. (eds) 2022, Temple People; Wikipedia (Xagħra Stone Circle)"
+  },
+  {
+   "fact": "After 2000 BCE newcomers turned parts of the Tarxien temples into a cremation cemetery: urns with burnt bones, bronze implements and weapons, ornaments and figurines lay in a deposit over a fine soil layer above the temple floor.",
+   "source": "Heritage Malta (Ħal Tarxien Prehistoric Complex); Azzopardi 2007"
+  },
+  {
+   "fact": "Tarxien was found in 1913 by the farmer Lorenzo Despott and excavated by Themistocles Zammit between 1915 and 1919; its reliefs show spirals and animals (goats, pigs, a ram).",
+   "source": "Heritage Malta (Ħal Tarxien Prehistoric Complex)"
+  },
+  {
+   "fact": "The date of Malta's cart ruts is still debated: estimates run from the Temple Period to classical (Punic and Roman) quarrying; D. H. Trump favoured the Bronze Age, A. Bonanno links many ruts to Punic and Roman quarries, and some are cut through by Punic tombs.",
+   "source": "Groucutt 2022, J. Archaeol. Sci. Rep. 41: 103287; University of Malta Newspoint, 2020 (A. Bonanno); Trump 2002"
+  },
+  {
+   "fact": "Renfrew (1986) summarised the calibrated chronology as the Ġgantija phase around 3000 BC and the Tarxien phase 3000 to 2500 BC; today's dates (Trump 2002; FRAGSUS) put the Ġgantija phase from about 3600 BCE, so the film gives 3600 BCE as the date 'as dated today'.",
+   "source": "Renfrew 1986 (in Bonanno ed.); Trump 2002; McLaughlin et al. 2020"
+  }
+ ],
+ "names": [
+  {
+   "name": "Mnajdra",
+   "say": "IM-nigh-dra (Maltese ['mnajdra]; in RESPELL as 'Im-nigh-dra', not yet in LEX)"
+  },
+  {
+   "name": "Gozo",
+   "say": "GOH-zoh"
+  },
+  {
+   "name": "Ġgantija",
+   "say": "juh-gan-TEE-ya (already in LEX and RESPELL)"
+  },
+  {
+   "name": "Hagar Qim (on screen Ħaġar Qim)",
+   "say": "HAH-jar EEM (Maltese ħ a breathy h, ġ as j in jam, q a glottal stop: Qim rhymes with seem)"
+  },
+  {
+   "name": "Sansuna",
+   "say": "san-SOO-na"
+  },
+  {
+   "name": "Mycenae",
+   "say": "my-SEE-nee (in LEX)"
+  },
+  {
+   "name": "Skorba",
+   "say": "SKOR-ba"
+  },
+  {
+   "name": "Colin Renfrew",
+   "say": "KOL-in REN-froo"
+  },
+  {
+   "name": "Graham Hancock",
+   "say": "GRAY-um HAN-kok (Hancock in RESPELL)"
+  },
+  {
+   "name": "Latnija",
+   "say": "lat-NEE-ya"
+  },
+  {
+   "name": "Paola",
+   "say": "PAH-oh-la (Maltese Pawla, PAW-la; please check)"
+  },
+  {
+   "name": "Hypogeum",
+   "say": "hy-puh-JEE-um (in RESPELL, not yet in LEX)"
+  },
+  {
+   "name": "Themistocles Zammit",
+   "say": "thuh-MIS-tuh-kleez ZAM-it"
+  },
+  {
+   "name": "Rupert Till",
+   "say": "ROO-pert TIL"
+  },
+  {
+   "name": "acousticians",
+   "say": "ak-oo-STISH-unz"
+  },
+  {
+   "name": "Xaghra (on screen Xagħra)",
+   "say": "SHAH-ra (Maltese x as sh, għ silent)"
+  },
+  {
+   "name": "Tarxien",
+   "say": "TAR-shee-en (Maltese x as sh)"
+  },
+  {
+   "name": "ochre",
+   "say": "OH-ker"
+  },
+  {
+   "name": "Giza",
+   "say": "GEE-za"
+  }
+ ],
+ "words": 1614
+}
