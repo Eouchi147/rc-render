@@ -1502,7 +1502,7 @@
      "from": 2
     },
     "lines": [
-     "[go:3|1.43][d:build][act:giving his reading, fair]In {1984|nineteen eighty-four}, machinist Christopher Dunn looked closely at the ^groove. [p:0.93][act:explaining his reading, fair]He read@past it as the track of a ^drill, biting a ^tenth of an inch, about two and a half millimetres, in a single ^turn. [act:his point, serious]By his estimate@noun, around five ^hundred times what a modern drill ^feeds.",
+     "[go:3|1.43][d:build][act:giving his reading, fair]In {1984|nineteen eighty-four}, machinist Christopher Dunn took Petrie's figures for the ^groove into the workshop. [p:0.93][act:explaining his reading, fair]He read@past it as the track of a ^drill, biting a ^tenth of an inch, about two and a half millimetres, in a single ^turn. [act:his point, serious]By his estimate@noun, around five ^hundred times what a modern drill ^feeds.",
      "[d:tension][sfx:hit][act:reporting his verdict, even]^Impossible, he said, without ^power tools. [act:fair, taking it seriously]It's a sharp question from someone who works with ^metal every day. [act:curious][tune:rise]So can hand tools ^do it?"
     ]
    },
@@ -1522,7 +1522,7 @@
      "from": 5
     },
     "lines": [
-     "[go:6|1.66][d:reveal][act:leaning in, fresh news]And in {2025|twenty twenty-five}, researchers identified a copper ^drill from a grave over a thousand years ^older than Khufu. [sfx:shimmer][act:wonder, softly]Its ^leather bow-string was ^still wrapped around it. [p:0.93][act:explaining, clear]Pull a bow@archery back and forth, and the string spins the drill one way, then the other: a ^hand-powered motor."
+     "[go:6|1.66][d:reveal][act:leaning in, fresh news]And in {2025|twenty twenty-five}, researchers identified a copper ^drill from a grave some seven hundred and fifty years ^older than Khufu. [sfx:shimmer][act:wonder, softly]Its ^leather bow-string was ^still wrapped around it. [p:0.93][act:explaining, clear]Pull a bow@archery back and forth, and the string spins the drill one way, then the other: a ^hand-powered motor."
     ]
    },
    {
@@ -1576,7 +1576,7 @@
      "from": 0
     },
     "lines": [
-     "[go:1|1.43][d:calm][act:plain, quietly astonished]Under ^one pyramid alone, a step pyramid built in tiers, archaeologists found more than *forty ^thousand* stone vessels. [p:0.93][act:an image, wonder]Make one a day, and forty thousand would take you more than a hundred ^years.",
+     "[go:1|1.43][d:calm][act:plain, quietly astonished]Under ^one pyramid alone, a step pyramid built in tiers, archaeologists found between thirty and *forty ^thousand* stone vessels. [p:0.93][act:an image, wonder]Make one a day, and thirty thousand would take you more than eighty ^years.",
      "[d:list][go:2|1.66][act:counting them off, crisp][tune:level]^Basalt. [act:same beat][tune:level]^Granite. [act:same beat, closing][tune:fall]^Diorite. [act:explaining]Hard, heavy stones that wear tools ^down. [act:marvelling, softer][tune:fall]And some vessels have walls as thin as ^*eggshell*."
     ]
    },
@@ -1596,7 +1596,7 @@
      "from": 3
     },
     "lines": [
-     "[go:4|1.65][d:build][act:the catch, careful]But there's a ^catch. [act:explaining]Most of the scanned vases came from ^private collections. [act:ticking them off][tune:level]No ^find-spot. [act:same beat][tune:level]No ^proof they're ancient. [act:plain, no drama][tune:fall]And the antiquities market is full of ^*fakes*. [p:0.93][act:explaining, the method]An object@noun speaks as evidence because of where it was ^found: the tomb, the layer, the ^date. [act:the image, gentle]Without that, it's a witness with no ^address@noun."
+     "[go:4|1.65][d:build][act:the catch, careful]But there's a ^catch. [act:explaining]Most of the scanned vases came from ^private collections. [act:ticking them off][tune:level]No ^find-spot. [act:same beat][tune:level]No ^way to be sure they're ancient. [act:plain, no drama][tune:fall]And the antiquities market is full of ^*fakes*. [p:0.93][act:explaining, the method]An object@noun speaks as evidence because of where it was ^found: the tomb, the layer, the ^date. [act:the image, gentle]Without that, it's a witness with no ^address@noun."
     ]
    },
    {
@@ -1615,8 +1615,8 @@
      "from": 6
     },
     "lines": [
-     "[go:7|1.43][d:verdict][p:0.95][act:the verdict, admiring]^Skill, ^patience, and around ^*eight hundred* hours per vessel. [p:0.93][act:doing the sum, warm]Work eight hours a day, and that is about a ^hundred working days, for a single ^jar.",
-     "[go:8|0.8][d:tension][p:0.93][act:a friendly challenge][tune:rise]Want to ^prove a lost machine? [act:practical, warm][tune:fall]Scan the vases that came out of the ^*ground*. [act:warm, the last word][tune:fall]Dated, recorded, and ^known."
+     "[go:7|1.43][d:verdict][p:0.95][act:the verdict, admiring]^Skill, ^patience, and long ^*hours* of grinding with sand. [p:0.93][act:warm, admiring]Day after day, for a single ^jar.",
+     "[go:8|0.8][d:tension][p:0.93][act:a friendly challenge][tune:rise]Want to make the ^case for a lost machine? [act:practical, warm][tune:fall]Scan the vases that came out of the ^*ground*. [act:warm, the last word][tune:fall]Dated, recorded, and ^known."
     ]
    }
   ],
@@ -1682,7 +1682,7 @@
     },
     "lines": [
      "[go:4|1.66][d:build][act:the counterweight, measured]But some boxes carry ^writing, carved into the stone: the ^names of ^kings. [act:reading them off, clear][tune:level]^Amasis. [act:same beat][tune:level]^Cambyses. [act:same beat, landing][tune:fall]^Khababash.",
-     "[d:list][go:5|1.44][act:dating it, precise]Those kings ruled from the ^sixth to the ^fourth century BCE. [p:0.93][act:explaining, clear]And the Greater Vaults were in ^use@noun from about six hundred and sixty BCE. [act:the click, a little delighted][tune:fall]The names land ^right inside that ^window."
+     "[d:list][go:5|1.44][act:dating it, precise]Those kings ruled from the ^sixth to the ^fourth century BCE. [p:0.93][act:explaining, clear]And the Greater Vaults were in ^use@noun from about {612|six hundred and twelve} BCE. [act:the click, a little delighted][tune:fall]The names land ^right inside that ^window."
     ]
    },
    {
@@ -1775,8 +1775,8 @@
      "from": 5
     },
     "lines": [
-     "[go:6|1.67][d:reveal][act:lower, leaning in]And then the strongest ^clue. [act:explaining, clear]Above the King's Chamber sit five ^sealed rooms, stacked like the floors of a ^building, to spread the crushing weight of the stone. [act:lower, leaning in]^Unopened until {1837|eighteen thirty-seven}...",
-     "[go:7|0.8][d:reveal][sfx:hit][act:the reveal, slower]inside, work ^gangs had painted a king's ^name, in red ^ochre. [gap:0.4][act:the name, clear and firm][tune:highfall]^*Khufu*. [act:quiet, letting it sit][tune:fall]More than a ^dozen times. [act:explaining, warm]Builders' marks, hidden where no one was ever meant to ^look."
+     "[go:6|1.67][d:reveal][act:lower, leaning in]And then the strongest ^clue. [act:explaining, clear]Above the King's Chamber sit five low ^rooms, stacked like the floors of a ^building, to spread the crushing weight of the stone. [act:lower, leaning in]The top four stayed ^sealed until {1837|eighteen thirty-seven}...",
+     "[go:7|0.8][d:reveal][sfx:hit][act:the reveal, slower]inside, work ^gangs had painted a king's ^name, in red ^ochre. [gap:0.4][act:the name, clear and firm][tune:highfall]^*Khufu*. [act:quiet, letting it sit][tune:fall]Again and ^again. [act:explaining, warm]Builders' marks, hidden where no one was ever meant to ^look."
     ]
    },
    {
@@ -1798,7 +1798,7 @@
    "#Science",
    "#Archaeology"
   ],
-  "sources": "Sessa et al. 2026 · Tuck, Stacey & Starkey 1977, Tectonophysics · Vyse 1840–42 · Tallet & Lehner 2021, The Red Sea Scrolls",
+  "sources": "Sessa et al. 2026 · Tuck, Stacey & Starkey 1977, Tectonophysics · Vyse 1840 to 1842 · Tallet & Lehner 2021, The Red Sea Scrolls",
   "view": "films",
   "story": "power-plant",
   "site": "films/out/power-plant.html",
@@ -6080,7 +6080,7 @@
     },
     "lines": [
      "[go:8|1.75][d:reveal][act:leaning in, the turn]And the timeline ^boxes it in. [act:laying down the limits][tune:level]No ^people on Malta before about eight and a half ^thousand years ago. [act:the second limit, firm][tune:fall]No ^wheels ^anywhere before about {3500|thirty-five hundred} BCE. [act:the logic, plain][tune:fall]No carts, no ^ruts.",
-     "[go:9|0.8][d:build][sfx:hit][act:the flaw, pointed and calm][tune:fall]Koltypin dated the ^rock, not the ^groove. [p:0.93][act:explaining, a simple picture]That's like dating a road by the age of the hill it ^climbs. [go:10|1.43][act:the second flaw, steady][tune:level]And the ruts under the sea go down only a ^metre or two. [act:the clincher, quiet][tune:fall]Ice Age shores lie ^tens of metres deeper."
+     "[go:9|0.8][d:build][sfx:hit][act:the flaw, pointed and calm][tune:fall]Koltypin dated the ^rock, not the ^groove. [p:0.93][act:explaining, a simple picture]That's like dating a road by the age of the hill it ^climbs. [go:10|1.43][act:the second flaw, steady][tune:level]And the ruts under the sea go down only a ^metre or two. [act:the clincher, quiet][tune:fall]Ice Age shores lie more than a ^hundred metres deeper."
     ]
    },
    {
@@ -8024,7 +8024,7 @@
      "from": 3
     },
     "lines": [
-     "[go:4|1.43][d:build][act:the turn, explaining with relish]But uranium ^changes over time. [p:0.93][act:explaining, an everyday picture]The fissile kind decays ^faster than the other, so its share keeps ^shrinking, like the sand in an ^hourglass. [p:0.9][act:the key number, slow]Two billion years ago, it wasn't seven atoms in a thousand, but about ^thirty: some three ^percent. [act:the payoff, delighted]Close@adj to the fuel in a ^modern reactor.",
+     "[go:4|1.43][d:build][act:the turn, explaining with relish]But uranium ^changes over time. [p:0.93][act:explaining, an everyday picture]The fissile kind decays ^faster than the other, so its share keeps ^shrinking, like the sand in an ^hourglass. [p:0.9][act:the key number, slow]Two billion years ago, it wasn't seven atoms in a thousand, but about ^thirty-seven: some three point seven ^percent. [act:the payoff, delighted]Close@adj to the fuel in a ^modern reactor.",
      "[d:build][go:5|2.21][sfx:shimmer][act:building, step by step]Then groundwater seeped into the uranium ^seams. [p:0.93][act:explaining, a simple picture]Water acts as a ^brake on neutrons, and slow neutrons split atoms far ^better, the way a gentle throw is easier to ^catch. [act:building]The chain reaction took hold, and the rock went ^critical. [act:flat, final, a small wonder][tune:highfall]By ^itself."
     ]
    },
@@ -8035,7 +8035,7 @@
     },
     "lines": [
      "[go:6|1.66][d:reveal][sfx:hit][act:delighted, lean in]And it ^pulsed. [p:0.93][act:laying out the rhythm][tune:level]The reaction heated the water until it ^boiled away. [act:the consequence, crisp]No water, no ^brake: the reactor switched itself ^off. [act:the other half, slower][tune:fall]Then water ^seeped back, and it came on ^again. [p:0.9][act:the rhythm, precise][tune:level]Thirty minutes@time ^on. [act:the other half, slower][tune:fall]Two and a half hours ^off.",
-     "[go:7|0.8][d:aside][p:0.93][act:storytelling, admiring]In {1956|nineteen fifty-six}, a physicist, Paul ^Kuroda, predicted that nature could run just such a ^reactor. [act:the payoff, delighted][tune:fall]^Sixteen years before anyone found one."
+     "[go:7|0.8][d:aside][p:0.93][act:storytelling, admiring]In {1956|nineteen fifty-six}, a chemist, Paul ^Kuroda, predicted that nature could run just such a ^reactor. [act:the payoff, delighted][tune:fall]^Sixteen years before anyone found one."
     ]
    },
    {
@@ -8443,7 +8443,7 @@
     },
     "lines": [
      "[go:4|1.75][d:build][act:fair, presenting the bold idea]The writer Graham ^Hancock goes ^further: maybe the temples are far older, from the ^Ice Age, when the sea stood lower, with more of them now under ^water.",
-     "[go:5|0.8][d:build][act:storytelling, adventurous]In {2002|two thousand two}, he ^dived off the coast after a reported ^underwater temple."
+     "[go:5|0.8][d:build][act:storytelling, adventurous]In his {2002|two thousand two} book, ^Underworld, he described diving off the coast after a reported ^underwater temple."
     ]
    },
    {
@@ -8528,7 +8528,7 @@
      "from": 1
     },
     "lines": [
-     "[go:2|1.67][d:build][act:hushed, almost listening]On the island of Malta lies the ^Hypogeum, from the Greek for under the ^earth: a set of underground chambers. [p:0.93][act:hushed, precise]In its Oracle Room, a low note can ^hang in the air for up to ^sixteen seconds. [p:0.9][act:a picture, slow]Long enough to count slowly to ^sixteen.",
+     "[go:2|1.67][d:build][act:hushed, almost listening]On the island of Malta lies the ^Hypogeum, from the Greek for under the ^earth: a set of underground chambers. [p:0.93][act:hushed, precise]Sound a low note in its Oracle Room, and in the main hall it can ^hang in the air for up to ^sixteen seconds. [p:0.9][act:a picture, slow]Long enough to count slowly to ^sixteen.",
      "[d:build][sfx:shimmer][act:impressed, building]Far more ^bass@music than a concert hall, or a ^cathedral, where low notes die away much ^sooner."
     ]
    },
@@ -9977,7 +9977,7 @@
     },
     "lines": [
      "[go:5|1.66][d:build][act:laying out the evidence, calm]Then scientists weighed the ^bones. [p:0.93][act:explaining, a simple picture]Teeth form on a strict timetable, like a ^calendar, so even burned remains can give an age in ^weeks. [act:even, clear]One team found many babies who died ^before birth, a pattern that fits ^natural deaths. [act:gentle]In the ancient world, losing a baby was sadly ^common.",
-     "[go:6|0.8][d:build][act:the counterpoint, fair]Another team found most had died at one to two ^months old. [p:0.93][act:their argument, clear]A peak that sharp, they argue, is too regular to be ^chance."
+     "[go:6|0.8][d:build][act:the counterpoint, fair]Another team found most had died at one to one and a half ^months old. [p:0.93][act:their argument, clear]A peak that sharp, they argue, is too regular to be ^chance."
     ]
    },
    {
@@ -9987,7 +9987,7 @@
     },
     "lines": [
      "[go:7|1.43][d:reveal][act:the crux, slower]And here's the ^catch. [p:0.93][act:gentle, precise]Burned bone can show ^age, but rarely the cause of ^death. [act:a simple picture]It's like a calendar with the last page missing: it tells you ^when, never ^why.",
-     "[go:8|0.8][d:build][act:warm, careful]At Zita, in southern Tunisia, a later cemetery of infants showed ^illness, and signs of ^care. [act:plain]No violence at ^all. [act:fair, a caveat]But Zita is later, and ^elsewhere: a clue, not an ^answer."
+     "[go:8|0.8][d:build][act:warm, careful]At Zita, in southern Tunisia, a later tophet held infants and children who showed signs of ^illness, buried with ^care. [act:plain]No clear sign of ^sacrifice. [act:fair, a caveat]But Zita is later, and ^elsewhere: a clue, not an ^answer."
     ]
    },
    {
@@ -10071,7 +10071,7 @@
      "from": 5
     },
     "lines": [
-     "[go:6|1.44][d:reveal][act:the twist, precise][tune:rise]And the ^salt? [act:plain, clear]Scholars checked every surviving ancient account of the ^war. [act:plain, clear][tune:fall]No ancient writer ^mentions it. [p:0.93][act:revealing, a small smile]The story first appears in a modern history book, from {1930|nineteen thirty}. [act:a simple picture]A rumour born more than two thousand years after the ^event.",
+     "[go:6|1.44][d:reveal][act:the twist, precise][tune:rise]And the ^salt? [act:plain, clear]Scholars checked every surviving ancient account of the ^war. [act:plain, clear][tune:fall]No ancient writer ^mentions it. [p:0.93][act:revealing, a small smile]Historians traced the story back to a history book of {1930|nineteen thirty}, then further: to a pope's order of {1299|twelve ninety-nine}, and to a tale written down in the eleventh ^century. [act:a simple picture]A rumour born more than a thousand years after the ^event.",
      "[d:build][go:7|1.44][act:the irony, warm]And the ground was fine. [act:the irony, warm]Within about a century, Rome ^rebuilt Carthage, as one of its greatest ^cities. [act:a dry smile][tune:fall]Hardly the fate of a poisoned ^field."
     ]
    },
@@ -10082,11 +10082,11 @@
     },
     "lines": [
      "[go:8|2.21][d:verdict][p:0.95][act:weighing it, calm][tune:rise]Salted ^earth? [act:the verdict, firm][tune:fall]*Ruled ^out*. [act:the other half, confident]A hidden war harbour, for a navy it wasn't ^allowed? [act:sure][tune:fall]That part is ^real.",
-     "[d:tension][p:0.93][act:the last word, a small smile]Some myths are ancient. [act:quiet, pointed][tune:fall]This one is barely a ^century old."
+     "[d:tension][p:0.93][act:the last word, a small smile]Some myths are ancient. [act:quiet, pointed][tune:fall]This one only ^looks it."
     ]
    }
   ],
-  "post": "Rome never salted Carthage: the story is a line in a 1930 history book. But the defeated city did build a hidden war harbour for a navy it was forbidden to have.",
+  "post": "No ancient writer says Rome salted Carthage: the story grew more than a thousand years later. But the defeated city did build a hidden war harbour for a navy it was forbidden to have.",
   "hashtags": [
    "#Carthage",
    "#Tunisia",
@@ -10094,7 +10094,7 @@
    "#MythBusting",
    "#CarthageAndBefore"
   ],
-  "sources": "Ridley 1986 (doi:10.1086/366973) · Stevens 1988 (doi:10.1086/367078) · Hurst & Stager 1978 · Polybius 15.18 · Appian, Punica 96",
+  "sources": "Ridley 1986 (doi:10.1086/366973) · Stevens 1988 (doi:10.1086/367078) · Warmington 1988 (doi:10.1086/367123) · Saladin 2026 (doi:10.1086/739931) · Hurst & Stager 1978 · Polybius 15.18 · Appian, Punica 96",
   "view": "films",
   "story": "carthage-salt",
   "site": "films/out/carthage-salt.html",
@@ -10192,7 +10192,7 @@
   "verdict": "solid",
   "claim": "How was the Libyco-Berber script deciphered, and how much of it can we really read?",
   "mood": "mystery",
-  "hook_text": "One *stone*, a lost alphabet.",
+  "hook_text": "Two *scripts*, a lost alphabet.",
   "beats": [
    {
     "role": "hook",
@@ -10200,8 +10200,8 @@
      "from": 0
     },
     "lines": [
-     "[d:intrigue][sfx:boom][act:storytelling, a hint of disbelief]In {1842|eighteen forty-two}, a British consul ^wrecked a royal tomb in Tunisia, just to take one ^stone.",
-     "[d:tension][act:the turn, wonder]Yet that stone let scholars read@present a lost African ^alphabet. [act:intrigued, a small smile][tune:fall]Or at least, its ^letters."
+     "[d:intrigue][sfx:boom][act:storytelling, a hint of disbelief]Nearly two centuries ago, a British consul ^wrecked a prince's tomb in Tunisia, just to take its ^inscription.",
+     "[d:tension][act:the turn, wonder]Yet that inscription let scholars read@present a lost African ^alphabet. [act:intrigued, a small smile][tune:fall]Or at least, its ^letters."
     ]
    },
    {
@@ -10210,7 +10210,7 @@
      "from": 0
     },
     "lines": [
-     "[go:1|1.43][d:calm][act:plain, orienting]The tomb stands at ^Dougga, in northern Tunisia. [p:0.93][act:plain, admiring]It's the Libyco-Punic mausoleum: about twenty-one metres of stone, as tall as a seven-storey building, in ^three tiers, from the second century BCE. [act:explaining, light]A mausoleum is simply a grand ^tomb."
+     "[go:1|1.43][d:calm][act:plain, orienting]The tomb stands at ^Dougga, in northern Tunisia. [p:0.93][act:plain, admiring]It's the Libyco-Punic mausoleum, built for a Numidian prince: about twenty-one metres of stone, as tall as a seven-storey building, in ^three tiers, from the second century BCE. [act:explaining, light]A mausoleum is simply a grand ^tomb."
     ]
    },
    {
@@ -10220,7 +10220,7 @@
     },
     "lines": [
      "[go:2|1.66][d:build][act:explaining, clear]Its inscription says the same thing ^twice, in two scripts. [act:precise]One is ^Punic, the language of Carthage, which scholars could already read@present. [act:the reveal][tune:fall]The other is ^Libyco-Berber, which nobody could. [act:a simple picture]Like one sentence printed in a language you know, and one you ^don't.",
-     "[d:build][go:3|1.73][act:storytelling, onward]Consul Thomas Reade had the stone pulled ^out, and the tomb came ^down. [act:plain]The stone went to the British ^Museum, in ^London."
+     "[d:build][go:3|1.73][act:storytelling, onward]Consul Thomas Reade had the inscription pulled ^out, and the tomb came ^down. [act:plain]Its two stones went to the British ^Museum, in ^London."
     ]
    },
    {
@@ -10249,11 +10249,11 @@
     },
     "lines": [
      "[go:7|2.25][d:verdict][p:0.95][act:weighing it, calm][tune:rise]A lost alphabet ^cracked? [act:the verdict, confident][tune:fall]^*Established*, for its sounds. [act:open, honest]What those people actually ^said is still an open question.",
-     "[d:tension][p:0.93][act:plain, the epilogue]The tomb was rebuilt in {1910|nineteen ten}, stone by stone. [act:the last word, quiet][tune:fall]But its most famous stone is still in ^London."
+     "[d:tension][p:0.93][act:plain, the epilogue]The tomb was rebuilt in {1910|nineteen ten}, stone by stone. [act:the last word, quiet][tune:fall]But its most famous stones are still in ^London."
     ]
    }
   ],
-  "post": "A consul brought down a royal tomb in Tunisia to take one stone. That stone, written in two scripts, let scholars read the sounds of a lost African alphabet, but not yet its language.",
+  "post": "A consul brought down a Numidian prince's tomb in Tunisia to take its inscription. Written in two scripts, it let scholars read the sounds of a lost African alphabet, but not yet its language.",
   "hashtags": [
    "#Tunisia",
    "#Dougga",
@@ -10659,7 +10659,7 @@
     },
     "lines": [
      "[d:build][gap:0.4][go:26|1.5][p:0.93][act:hushed, intrigued]At a desert@noun spring: over sixty stone ^balls, piled in a ^cone. [go:27|.6][act:presenting his view, respectful]Its finder saw an offering to the ^spring. [act:the big question, slow][tune:rise]The oldest ^shrine on Earth? [go:28|.6][act:explaining]Its famous age, forty thousand years, is an old estimate@noun: an educated ^guess. [act:plain, honest]We found no measured ^date. [go:29|.6][act:the verdict, even][tune:fall]*Awaiting ^evidence*. [act:practical, clear]One modern date could settle ^it.",
-     "[gap:0.4][go:30|1.5][p:0.93][act:storytelling, grave]Last stop: ^Carthage, {146|one forty-six} BCE, burned by Rome after a long ^siege. [go:31|.6][act:the famous claim][tune:rise]And its earth ^salted, so nothing would grow ^again? [go:32|.6][act:explaining, the method]Trace a story to its first ^teller, like a rumour to whoever started ^it. [act:the reveal, a small smile]No ancient writer mentions ^salt: it first appears in {1930|nineteen thirty}. [go:33|.6][act:the verdict, firm][tune:fall]Salted earth: *ruled ^out*. [act:warm, the irony]Rome itself later rebuilt ^it."
+     "[gap:0.4][go:30|1.5][p:0.93][act:storytelling, grave]Last stop: ^Carthage, {146|one forty-six} BCE, burned by Rome after a long ^siege. [go:31|.6][act:the famous claim][tune:rise]And its earth ^salted, so nothing would grow ^again? [go:32|.6][act:explaining, the method]Trace a story to its first ^teller, like a rumour to whoever started ^it. [act:the reveal, a small smile]No ancient writer mentions ^salt: the story appears more than a thousand years ^later. [go:33|.6][act:the verdict, firm][tune:fall]Salted earth: *ruled ^out*. [act:warm, the irony]Rome itself later rebuilt ^it."
     ]
    },
    {
@@ -11490,7 +11490,7 @@
      "from": 2
     },
     "lines": [
-     "[go:3|1.43][d:build][act:the reveal, strong]It dates to about {4800|forty-eight hundred} BCE. [p:0.93][act:context, wonder]That's some eighteen centuries before the first phase of ^Stonehenge. [act:a picture of time, unhurried]Eighteen centuries: about as long as the time that separates ^us from the Roman ^Empire.",
+     "[go:3|1.43][d:build][act:the reveal, strong]It's some seven thousand years ^old, perhaps older. [p:0.93][act:context, wonder]That's at least eighteen centuries before the first phase of ^Stonehenge. [act:a picture of time, unhurried]Eighteen centuries: about as long as the time that separates ^us from the Roman ^Empire.",
      "[d:build][go:4|1.64][act:vivid]Nearby, cattle were buried in clay-lined ^chambers. [p:0.93][act:vivid, impressed]And stones nearly three metres ^tall, taller than the ceiling of a room, were dragged across the sand into ^lines."
     ]
    },
@@ -11566,7 +11566,7 @@
      "from": 2
     },
     "lines": [
-     "[go:3|1.75][d:build][act:storytelling]In {1922|nineteen twenty-two}, Howard ^Carter, the man who found Tutankhamun's tomb, listed the scarab as ^chalcedony, a common ^stone. [p:0.93][act:storytelling, building]Some seventy years later, in the {1990s|nineteen nineties}, a mineralogist, an expert in minerals, looked ^again. [act:the reveal, delighted]It was desert@noun ^glass."
+     "[go:3|1.75][d:build][act:storytelling]Howard ^Carter, the man who found Tutankhamun's tomb, catalogued the scarab as ^chalcedony, a common ^stone. [p:0.93][act:storytelling, building]Decades later, in the {1990s|nineteen nineties}, a mineralogist, an expert in minerals, looked ^again. [act:the reveal, delighted]It was desert@noun ^glass."
     ]
    },
    {
@@ -11607,7 +11607,7 @@
    "#Science",
    "#GreenSahara"
   ],
-  "sources": "Cavosie & Koeberl 2019 (doi:10.1130/G45974.1) · Kovaleva et al. 2019 (doi:10.1111/maps.13250) · Kovaleva & Helmy 2023 (doi:10.2138/am-2022-8759) · Boslough & Crawford 2008 (doi:10.1016/j.ijimpeng.2008.07.053) · de Michele 1998",
+  "sources": "Cavosie & Koeberl 2019 (doi:10.1130/G45974.1) · Koeberl & Ferrière 2019 (doi:10.1111/maps.13250) · Kovaleva et al. 2023 (doi:10.2138/am-2022-8759) · Boslough & Crawford 2008 (doi:10.1016/j.ijimpeng.2008.07.053) · de Michele 1998",
   "view": "films",
   "story": "desert-glass",
   "site": "films/out/desert-glass.html",
@@ -11651,7 +11651,7 @@
     },
     "lines": [
      "[go:3|1.65][d:build][act:the reveal, precise]In {2025|twenty twenty-five}, scientists read@past their ^genomes, the full instruction book written in our ^DNA. [p:0.93][act:explaining, a simple picture]Each time DNA is passed down the generations, a few tiny typos creep ^in. [act:explaining, clear]Two family lines that split long ago pile up different ^typos: count them, and you can tell how long they've been ^apart. [p:0.9][act:building, amazed]Their line split from other African lineages about fifty thousand years ^ago. [act:the twist, wonder][tune:fall]And then it stayed ^apart.",
-     "[d:build][go:4|1.44][act:connecting it, curious][tune:rise]Their closest known ^relatives? [act:the payoff, delighted]People who lived in ^Morocco, fifteen thousand years ^earlier."
+     "[d:build][go:4|1.44][act:connecting it, curious][tune:rise]Their closest known ^relatives? [act:the payoff, delighted]People who lived in ^Morocco, about fifteen thousand years ^ago."
     ]
    },
    {
@@ -11714,8 +11714,8 @@
      "from": 0
     },
     "lines": [
-     "[d:intrigue][sfx:boom][act:playful, intrigued]In the {1950s|nineteen fifties}, an explorer stood before a painted giant in the Sahara, up to five metres ^tall, and nicknamed it the great Martian ^god.",
-     "[d:tension][act:dry, a small smile][tune:fall]It was a ^joke. [act:dry][tune:fall]Some people took him ^literally."
+     "[d:intrigue][sfx:boom][act:playful, intrigued]In the {1950s|nineteen fifties}, an explorer stood before a painted giant in the Sahara, some six metres ^tall, and nicknamed it the great Martian ^god.",
+     "[d:tension][act:dry, a small smile][tune:fall]A ^nickname. [act:dry][tune:fall]Some people took it ^literally."
     ]
    },
    {
@@ -11768,7 +11768,7 @@
     ]
    }
   ],
-  "post": "A 1950s explorer joked that a giant painted figure in the Sahara was the 'great Martian god', and ancient-astronaut writers took him at his word. What the Round Heads are, and the real scandal of how they were copied.",
+  "post": "A 1950s explorer nicknamed a giant painted figure in the Sahara the 'great Martian god', and ancient-astronaut writers took the name literally. What the Round Heads are, and the real scandal of how they were copied.",
   "hashtags": [
    "#RockArt",
    "#Algeria",
@@ -11922,7 +11922,7 @@
      "from": 4
     },
     "lines": [
-     "[go:5|1.75][d:reveal][act:fair, even]In {2008|two thousand eight}, the team saw two different ^peoples, a thousand years ^apart. [p:0.93][act:curious, the method]But how can you tell who is ^related? [act:explaining, a simple picture]One clue is ^teeth: their little bumps and grooves run in families, a bit like the shape of a ^nose. [act:the twist, precise]In {2025|twenty twenty-five}, a study of their teeth, with Sereno as a co-author, found the two groups hard to tell ^apart."
+     "[go:5|1.75][d:reveal][act:fair, even]In {2008|two thousand eight}, the team saw two different ^peoples, a thousand years ^apart. [p:0.93][act:curious, the method]But how can you tell who is ^related? [act:explaining, a simple picture]One clue is ^teeth: their little bumps and grooves run in families, a bit like the shape of a ^nose. [act:the twist, precise]In {2026|twenty twenty-six}, a study of their teeth, with Sereno as a co-author, found the two groups hard to tell ^apart."
     ]
    },
    {
@@ -11944,7 +11944,7 @@
    "#Prehistory",
    "#GreenSahara"
   ],
-  "sources": "Sereno et al. 2008 (doi:10.1371/journal.pone.0002995) · Stojanowski, Irish & Sereno 2025 (doi:10.1002/ajpa.70262) · Stojanowski & Knudson 2011 (doi:10.1002/ajpa.21542)",
+  "sources": "Sereno et al. 2008 (doi:10.1371/journal.pone.0002995) · Stojanowski, Irish & Sereno 2026 (doi:10.1002/ajpa.70262) · Stojanowski & Knudson 2011 (doi:10.1002/ajpa.21542)",
   "view": "films",
   "story": "gobero",
   "site": "films/out/gobero.html",
@@ -11987,7 +11987,7 @@
     },
     "lines": [
      "[go:2|1.69][d:build][act:impressed, building]In {2002|two thousand two}, a second shelter turned up ^nearby: the Cave of ^Beasts. [p:0.93][act:vivid, painting it]Its painted wall is seventeen metres ^wide, as long as ten people lying head to ^toe. [p:0.9][act:impressed]And on it, five to eight thousand ^figures. [act:vivid, listing them][tune:fall]Hands, ^swimmers, and headless ^beasts.",
-     "[d:build][go:3|1.43][act:explaining, a simple picture]Some of the hands are ^stencils: press something to the rock, blow paint around it, and its outline ^stays. [act:curious, setting it up]A few tiny ones looked like a baby's ^hands. [act:delighted, a little amazed]A closer look showed they were made with the feet of ^lizards."
+     "[d:build][go:3|1.43][act:explaining, a simple picture]Some of the hands are ^stencils: press something to the rock, blow paint around it, and its outline ^stays. [act:curious, setting it up]A few tiny ones looked like a baby's ^hands. [act:delighted, a little amazed]A closer look suggested they were made with the feet of a ^reptile, perhaps a ^lizard."
     ]
    },
    {
@@ -12019,7 +12019,7 @@
     ]
    }
   ],
-  "post": "Painted swimmers in one of the driest places on Earth, and a second cave with thousands of figures and hand stencils made with lizard feet. Real swimmers, or the dead in the waters before creation?",
+  "post": "Painted swimmers in one of the driest places on Earth, and a second cave with thousands of figures and tiny stencils most likely made with a reptile's feet. Real swimmers, or the dead in the waters before creation?",
   "hashtags": [
    "#Egypt",
    "#RockArt",
@@ -12078,7 +12078,7 @@
      "from": 2
     },
     "lines": [
-     "[go:3|1.43][d:build][act:impressed]With that water came oasis ^towns, the first in the ^Sahara. [p:0.93][act:vivid, precise]And small pyramid ^tombs, built of mud brick, three to four and a half metres ^tall. [act:plain]And trade across the desert@noun kept them ^rich, as goods passed through their oases from one side of the Sahara to the ^other."
+     "[go:3|1.43][d:build][act:impressed]With that water came oasis ^towns, the first in the central ^Sahara. [p:0.93][act:vivid, precise]And small pyramid ^tombs, built of mud brick, three to four and a half metres ^tall. [act:plain]And trade across the desert@noun kept them ^rich, as goods passed through their oases from one side of the Sahara to the ^other."
     ]
    },
    {
@@ -12102,7 +12102,7 @@
     ]
    }
   ],
-  "post": "The Garamantes built the Sahara's first towns, pyramid tombs and hundreds of kilometres of underground canals, all on ancient groundwater. Did the water running out bring them down?",
+  "post": "The Garamantes built the first towns of the central Sahara, pyramid tombs and hundreds of kilometres of underground canals, all on ancient groundwater. Did the water running out bring them down?",
   "hashtags": [
    "#Sahara",
    "#Libya",
@@ -12163,7 +12163,7 @@
     },
     "lines": [
      "[d:build][gap:0.4][go:18|1.5][p:0.93][act:storytelling]^Nabta Playa, in Egypt: a stone circle only four metres across, from about {4800|forty-eight hundred} ^BCE. [go:19|.6][act:the claim][tune:rise]The world's first ^observatory, mapping the ^stars? [go:20|.6][act:explaining, precise]Two gaps line up north to ^south; another faces the midsummer ^sunrise. [act:the catch]But the star dates fall some fifteen hundred years before the ^stones. [go:21|.6][act:the verdict, measured][tune:fall]*Mixed ^record@noun*: the ^sun, probably; the stars, a ^stretch.",
-     "[gap:0.4][go:22|1.5][p:0.93][act:tender, hushed]In ^Niger, by a vanished lake: a woman and two children, buried in an ^embrace. [go:23|.6][act:the question][tune:rise]Two phases of burials: two different ^peoples? [go:24|.6][act:explaining]In {2008|two thousand eight}, the team thought ^so. [act:the twist, precise]In {2025|twenty twenty-five}, a study of their teeth found them hard to tell ^apart. [go:25|.6][act:the verdict, measured][tune:fall]*Open ^question*. [act:fair]Ancient DNA could settle ^it."
+     "[gap:0.4][go:22|1.5][p:0.93][act:tender, hushed]In ^Niger, by a vanished lake: a woman and two children, buried in an ^embrace. [go:23|.6][act:the question][tune:rise]Two phases of burials: two different ^peoples? [go:24|.6][act:explaining]In {2008|two thousand eight}, the team thought ^so. [act:the twist, precise]In {2026|twenty twenty-six}, a study of their teeth found them hard to tell ^apart. [go:25|.6][act:the verdict, measured][tune:fall]*Open ^question*. [act:fair]Ancient DNA could settle ^it."
     ]
    },
    {
