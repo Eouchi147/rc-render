@@ -1,0 +1,878 @@
+{
+ "id": "lf-carthage",
+ "kind": "case",
+ "series": "Carthage and Before",
+ "title": "Carthage: Salt and Ashes",
+ "intro_title": "Carthage: Salt and Ashes",
+ "yt_title": "Did Rome Salt Carthage? And Were Its Children Sacrificed?",
+ "verdict": "Mixed record",
+ "verdict_scope": "Rome's famous story of Carthage's end, taken as a whole: Mixed record (some parts hold, others do not). Graded separately in the weighing: Rome burned and razed Carthage in 146 BCE and banned anyone from living there: Established (Polybius via Appian, the other ancient accounts, the destruction layers under the Roman city); a plough drawn across the ruins as a rite: Plausible (one third-century jurist, Digest 7.4.21, nearly four centuries later); the earth sown with salt: Ruled out (no ancient source; the detail appears in an 11th-century tale recorded by al-Bakri, a papal letter of 1299 and 19th-century encyclopaedias, and entered the standard reference work in 1930; Rome itself voted settlers onto the land in 122 BCE and Africa became a granary of Rome). The tophet as a sanctuary where infants and young animals were burned and buried under vows: Established (thousands of votive stelae, the urns, the stratified deposits). Whether the children were sacrificed: Open question (good evidence on both sides: the vow inscriptions, the shared rite with animals, the substitution stelae and many ancient texts on one side; an age profile that fits natural perinatal deaths, the late and hostile texts and demographic limits on the other; specialists remain divided and burned bone cannot show the cause of death). The Short 'tophet' grades it Mixed record; by the channel's own definitions ('good evidence on both sides') the film grades it Open question. Kerkouane, left about 250 BCE and never rebuilt: Strong evidence; the sound values of the eastern Libyco-Berber letters: Established (as in the Shorts). The founding date (Greek writers' 814 BCE, radiocarbon 835 to 800 BCE) is stated, not graded.",
+ "hook": "Did Rome really salt the earth?",
+ "end_line": "The fire is in the ground. The salt was only ever in the story.",
+ "structure_note": "chapters[0] is the cold open and the title beat (no chapter card; YouTube chapter 0:00). Chapters 1 to 6 are the story chapters, each opening on a sentence that stands alone (each will also be cut as a vertical clip); 'The weighing' carries the verdicts, the test and the close. Shot ids s1..s55 are in story order; 'alias of sN' means a return to that panel. The infants' remains are never drawn: urns, stelae, hands and light only.",
+ "chapters": [
+  {
+   "title": "Cold open",
+   "beats": [
+    {
+     "role": "hook",
+     "lines": [
+      "[d:intrigue][sfx:boom][act:epic, measured]In {146|one forty-six} BCE, Rome burned its great rival, ^Carthage. [act:darker, slower]Then, the story goes, it ploughed the ruins, [tune:fall]and sowed the earth with ^salt, so nothing would ever grow ^again.",
+      "[d:tension][act:hushed, careful]Under that same city lie thousands of small clay ^urns, [tune:fall]holding the ashes of ^babies. [act:steady, grave]Greek and Roman writers said Carthage sacrificed its ^children.",
+      "[act:the child's question, wide-eyed][tune:rise]Did Rome really salt the ^earth? [act:quieter, careful][tune:rise]And what happened to those ^children?"
+     ],
+     "shots": [
+      {
+       "id": "s1",
+       "say": "In 146 BCE, Rome burned its great rival, Carthage. Then, the story goes, it ploughed the ruins, and sowed the earth with salt, so nothing would ever grow again.",
+       "draw": "HERO IMAGE, fully drawn from the first frame: dusk over burned ground. Behind, the Byrsa hill in silhouette with broken walls and columns of smoke, embers glowing along the ruins; on the right, the round war harbour catching the last light. In the foreground a plough (a wooden ard) drawn by two oxen cuts a long furrow across the black ground, a ploughman at the handle; above it, at the upper right, a hand opens and a stream of white grains falls into the furrow, glinting. Embers drift; the grains keep falling. Nothing in the top left (the hook title sits there for 3 s)."
+      },
+      {
+       "id": "s2",
+       "say": "Under that same city lie thousands of small clay urns, holding the ashes of babies. Greek and Roman writers said Carthage sacrificed its children.",
+       "draw": "The ground opens in section below a field of small standing stones: rows of small clay urns in layers of earth, each under a narrow stone marker with a pointed top; a few small oil lamps glow among the stones. No remains are drawn. Label 'thousands of urns'; on 'sacrificed', a lilac dotted chip 'sacrificed?' (the writers' claim)."
+      },
+      {
+       "id": "s3",
+       "say": "Did Rome really salt the earth? And what happened to those children?",
+       "draw": "Back on the hero (alias of s1, the whole panel): the falling grains turn lilac and dotted, and a lilac question mark rises over the furrow (label 'salt?'); a second, smaller question mark glows low by the small stones (label 'the children?').",
+       "reuse": "alias of s1"
+      }
+     ]
+    },
+    {
+     "role": "title",
+     "lines": [
+      "[d:calm][act:warm, setting out]Carthage: salt and ^ashes."
+     ],
+     "shots": [
+      {
+       "id": "s4",
+       "say": "Carthage: salt and ashes.",
+       "draw": "intro_title card 'Carthage: Salt and Ashes' over the dimmed hero panel. Nothing else drawn."
+      }
+     ],
+     "intro": true
+    }
+   ]
+  },
+  {
+   "title": "The rise and fall of Carthage",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:setting the scene, measured]Carthage stood on the coast of North Africa, beside today's ^Tunis. [act:storytelling]Its founders sailed from Tyre, in today's ^Lebanon, [tune:fall]and its name meant, simply, New ^City.",
+      "[act:the legend, warm]Legend says its founder, Queen ^Dido, bought as much land as one ox hide could ^cover. [act:a small smile][tune:fall]She cut the hide into thin ^strips, and circled a whole hill: the ^Byrsa.",
+      "[act:the twist, intrigued]A ^legend. [p:0.93][act:the method, clear]But its date may be ^right: [tune:level]Greek writers put the founding around {814|eight fourteen} BCE, [tune:fall]and radiocarbon dates from the city's oldest layers fall in those same ^decades."
+     ],
+     "shots": [
+      {
+       "id": "s5",
+       "say": "Its founders sailed from Tyre, in today's Lebanon, and its name meant, simply, New City.",
+       "draw": "Map of the whole Mediterranean (View about 6 W to 37 E, 29 to 46 N): Tyre pinned on the Levant coast, a Phoenician ship sails west along a dotted route past Cyprus, Crete and Sicily to Carthage, pinned gold beside Tunis; at Carthage a small chip 'New City' pops (with the Punic letters of Qart-hadasht above it, schematic); scale bar 500 km."
+      },
+      {
+       "id": "s6",
+       "say": "Legend says its founder, Queen Dido, bought as much land as one ox hide could cover. She cut the hide into thin strips, and circled a whole hill: the Byrsa.",
+       "draw": "A low hill by the sea at dawn, seen from above at a slant; an ox hide is laid flat in front of it (label 'one ox hide'); a knife line spirals through it and the hide unspools into one long thin strip that draws itself round the whole hill (dashed: the legend); a small figure in a long robe stands by the hide; label 'the Byrsa' on the hill; the whole drawn in the lilac 'claimed' style."
+      },
+      {
+       "id": "s7",
+       "say": "A legend. But its date may be right: Greek writers put the founding around 814 BCE, and radiocarbon dates from the city's oldest layers fall in those same decades.",
+       "draw": "A timeline from 900 to 700 BCE: a scroll pin at 814 BCE (label 'Greek writers: 814 BCE'); below it, the earliest layers of Carthage in a small section, a bone sample glowing in the lowest layer; a radiocarbon band 835 to 800 BCE fills on the timeline (label 'radiocarbon: about 835 to 800 BCE') and overlaps the scroll's date (a soft green glow where they meet)."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:storytelling, building]It grew rich on the ^sea, [tune:fall]and became Rome's great ^rival. [p:0.93][act:a telling detail]After its defeat at Zama, in {202|two oh two} BCE, it was allowed to keep just ten ^warships.",
+      "[p:0.93][act:impressed, building]Yet excavations show that in those same years, it lined its round war harbour, about three hundred and twenty-five metres ^across, [tune:fall]with sheds for about a hundred and seventy ^ships.",
+      "[d:aside][act:dry, amused][tune:fall]For a fleet of ^ten."
+     ],
+     "shots": [
+      {
+       "id": "s8",
+       "say": "It grew rich on the sea, and became Rome's great rival.",
+       "draw": "Map of the central Mediterranean (View about 0.5 to 21.5 E, 34 to 43 N): Carthage pinned gold, trading ships sail out on dotted routes; Rome pinned red; a red-gold arc of rivalry draws between the two cities with a chip '264 to 146 BCE'; scale bar 200 km."
+      },
+      {
+       "id": "s9",
+       "say": "After its defeat at Zama, in 202 BCE, it was allowed to keep just ten warships.",
+       "draw": "A dark sea panel: ten oared warships pop one by one in two rows of five; chip '202 BCE', label 'ten warships allowed'."
+      },
+      {
+       "id": "s10",
+       "say": "Yet excavations show that in those same years, it lined its round war harbour, about three hundred and twenty-five metres across, with sheds for about a hundred and seventy ships.",
+       "draw": "The round war harbour from above, true to the plan: a ring of water about 325 m across with a round island in the middle and a channel to the trading harbour; ship sheds draw themselves as radial slots round the rim and round the island (about 170 in all); a dimension '325 m' across; label 'about 170 ship sheds'; chip 'early 2nd century BCE'."
+      },
+      {
+       "id": "s11",
+       "say": "For a fleet of ten.",
+       "draw": "Same harbour (alias, closer): ten sheds light gold, each with a small ship in it; the other 160 stay dark and empty. Label 'a fleet of ten'.",
+       "reuse": "alias of s10"
+      }
+     ]
+    },
+    {
+     "role": "cost",
+     "lines": [
+      "[d:build][act:grave, steady]In {149|one forty-nine} BCE, Rome came ^back. [p:0.93][act:the assault, vivid]After a siege of almost three years, its soldiers broke in, [tune:level]and for six days and nights, they fought up three streets of six-storey houses@noun, [tune:fall]towards the citadel on the Byrsa ^hill.",
+      "[act:heavy, quiet]Then about fifty thousand survivors came ^out, [tune:fall]and were sold as ^slaves. [act:sober]The city burned for ^days: [tune:fall]seventeen, say later ^writers."
+     ],
+     "shots": [
+      {
+       "id": "s12",
+       "say": "In 149 BCE, Rome came back. After a siege of almost three years, its soldiers broke in, and for six days and nights, they fought up three streets of six-storey houses, towards the citadel on the Byrsa hill.",
+       "draw": "The city in plan at night: the Byrsa hill with its walled citadel at the left, the forum by the harbours at the lower right; three streets climb between them lined with tall narrow houses; chips '149 BCE' and '6 days and nights'; red arrows advance up the three streets as fires flare; at the right one six-storey house in elevation with a person for scale."
+      },
+      {
+       "id": "s13",
+       "say": "Then about fifty thousand survivors came out, and were sold as slaves. The city burned for days: seventeen, say later writers.",
+       "draw": "A narrow gate in the citadel wall: a long line of small figures walks out and away (50 figures, 1 figure = 1,000 people, label 'about 50,000'), drawn with care, no violence; the skyline behind them burns, and a row of 17 day-marks lights one by one (label '17 days?', the later writers' figure, dashed)."
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:aside][act:quiet, a human moment]The Roman general, Scipio, watched it burn and ^wept, remembering ^Troy. [act:plain]His friend, the historian Polybius, stood beside ^him.",
+      "[act:firm, measured]Then ten senators brought Rome's ^orders: [tune:level]destroy whatever was ^left, [tune:fall]and let no one live@verb there ^again. [act:the landing, even][tune:fall]Fire, ruin and a ^ban. [act:a small turn, pointed][tune:fall]That much, the ancient writers ^agree on."
+     ],
+     "shots": [
+      {
+       "id": "s14",
+       "say": "The Roman general, Scipio, watched it burn and wept, remembering Troy. His friend, the historian Polybius, stood beside him.",
+       "draw": "Two figures on a rise in the foreground, seen from behind, the burning city beyond them (labels 'Scipio' and 'Polybius'); in the smoke above the city, a faint dotted ghost of another walled city appears (label 'Troy')."
+      },
+      {
+       "id": "s15",
+       "say": "Then ten senators brought Rome's orders: destroy whatever was left, and let no one live there again. Fire, ruin and a ban. That much, the ancient writers agree on.",
+       "draw": "Ten small toga-clad figures in a row with a scroll (label 'ten senators'); two orders pop beside them: 'destroy what is left' and 'no one to live there'; then three icons in a row, each ticked as named: a flame (fire), a broken wall (ruin), a barred gate (ban); label 'what the ancient writers agree on'."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Where the salt came from",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:setting up the puzzle]Rome is said to have sown the ruins of Carthage with ^salt, in {146|one forty-six} BCE, [tune:fall]so that nothing would ever grow there ^again. [act:the twist, plain][tune:fall]Yet no ancient writer ^mentions it.",
+      "[p:0.93][act:explaining, even]Polybius saw the ^fire. [act:steady]Appian, three centuries later, wrote the fullest ^account: [tune:level]the burning, the ruins, the ^ban. [act:a careful aside]One Roman lawyer, in the third century CE, mentions a plough drawn across the ^city: [tune:fall]a rite that ended a city's life in ^law. [act:plain, a small smile][tune:fall]But not one grain of ^salt."
+     ],
+     "shots": [
+      {
+       "id": "s16",
+       "say": "Yet no ancient writer mentions it.",
+       "draw": "A long shelf of ancient accounts on a timeline from 150 BCE to 450 CE: scrolls and books pop at their dates (Polybius at 146 BCE, Diodorus, Livy's summary, Appian about 160 CE, Florus, Orosius about 417 CE); a salt grain icon with a lilac dotted ring hovers over the shelf and finds nothing (label 'no salt')."
+      },
+      {
+       "id": "s17",
+       "say": "Polybius saw the fire. Appian, three centuries later, wrote the fullest account: the burning, the ruins, the ban. One Roman lawyer, in the third century CE, mentions a plough drawn across the city: a rite that ended a city's life in law. But not one grain of salt.",
+       "draw": "Same shelf (alias): Polybius' scroll glows with a small flame (label 'an eyewitness'); Appian's book opens and three icons rise from it as named (flame, broken wall, barred gate); then a law book at about 230 CE opens and a plough draws a single ritual furrow round a small city outline (dashed, label 'a rite, in law'); finally an empty salt pinch with a red cross, label 'no salt'.",
+       "reuse": "alias of s16"
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:the method, a picture][tune:rise]So where did the salt come ^from? [act:explaining]Historians trace a story like a ^river: [tune:fall]upstream, to its ^source.",
+      "[p:0.93][act:storytelling, building]In {1986|nineteen eighty-six}, the historian Ronald Ridley traced it ^back, [tune:fall]to an influential history of {1930|nineteen thirty}: the Cambridge Ancient ^History. [act:digging further]Others found it earlier: [tune:level]in nineteenth-century ^encyclopaedias, [tune:fall]and in {1299|twelve ninety-nine}, in a pope's order to raze Palestrina, near ^Rome: [tune:fall]ploughed like ancient ^Carthage, and sown with ^salt.",
+      "[p:0.93][act:the newest find, delighted]And in {2026|twenty twenty-six}, a scholar found an even older ^link: [tune:fall]salt, in a local tale of Carthage's end, written down by the eleventh-century geographer ^al-Bakri. [act:the scale, slower][tune:fall]Some twelve hundred years after the ^fire."
+     ],
+     "shots": [
+      {
+       "id": "s18",
+       "say": "So where did the salt come from? Historians trace a story like a river: upstream, to its source.",
+       "draw": "A river winds across the panel from its mouth at the right ('today') to a spring at the left; a small boat-shaped marker travels upstream; label 'upstream, to the source'. Years mark its banks faintly."
+      },
+      {
+       "id": "s19",
+       "say": "In 1986, the historian Ronald Ridley traced it back, to an influential history of 1930: the Cambridge Ancient History. Others found it earlier: in nineteenth-century encyclopaedias, and in 1299, in a pope's order to raze Palestrina, near Rome: ploughed like ancient Carthage, and sown with salt.",
+       "draw": "Along the same river (alias): pins pop at their years as named: 1986 (a journal, 'Ridley'), 1930 (a thick volume, 'Cambridge Ancient History'), the 1800s (an encyclopaedia), 1299 (a hill town with a plough and a fall of white grains, 'Palestrina'). Each pin carries a small white grain.",
+       "reuse": "alias of s18"
+      },
+      {
+       "id": "s20",
+       "say": "And in 2026, a scholar found an even older link: salt, in a local tale of Carthage's end, written down by the eleventh-century geographer al-Bakri. Some twelve hundred years after the fire.",
+       "draw": "The river's spring at the far left: a medieval geographer's manuscript page (schematic lines and a small round map) glows, label 'al-Bakri, 11th century', chip '2026 study'; beyond the spring, dry ground runs back to a small fire marked '146 BCE'; a bracket spans the gap: 'about 1,200 years'.",
+       "reuse": "alias of s18"
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:aside][act:the landing, a small smile]Ridley's title says it ^all: [tune:fall]To be taken with a pinch of ^salt. [act:dry][tune:fall]The salt was sprinkled on the ^story, [tune:fall]not on the ^soil."
+     ],
+     "shots": [
+      {
+       "id": "s21",
+       "say": "Ridley's title says it all: To be taken with a pinch of salt. The salt was sprinkled on the story, not on the soil.",
+       "draw": "An open book on a dark field: a hand above pinches white grains, which fall onto the book's pages (label 'the story'); below, the dark ploughed soil stays clean and a small green shoot rises from it (label 'the soil')."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The city under the city",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:setting the scene]On the Byrsa hill, the heart of ancient Carthage, archaeologists have dug down to the day Rome burned the city, in {146|one forty-six} ^BCE. [p:0.93][act:the find, vivid]In the {1970s|nineteen seventies}, a French team uncovered a whole quarter of ^houses@noun, [tune:level]built on a grid a few decades before the ^end, [tune:fall]with shops on the street, and water cisterns under the ^floors.",
+      "[act:the layer, grave]Over their floors lies a thick layer of burnt and broken ^debris. [act:quiet][tune:fall]The fire, still ^there."
+     ],
+     "shots": [
+      {
+       "id": "s22",
+       "say": "In the 1970s, a French team uncovered a whole quarter of houses, built on a grid a few decades before the end, with shops on the street, and water cisterns under the floors.",
+       "draw": "A cross-section through the south slope of the Byrsa hill (schematic, heights exaggerated): the hill's profile; on the slope, a quarter of houses in section, walls and rooms on terraces, shops opening on a street, a bottle-shaped cistern under a floor filling with blue; small excavators with trowels and a 1970s chip; labels 'the Byrsa', 'Punic houses, early 2nd century BCE', 'a cistern'."
+      },
+      {
+       "id": "s23",
+       "say": "Over their floors lies a thick layer of burnt and broken debris. The fire, still there.",
+       "draw": "Same section (alias): a dark band with glowing ember specks fills over the floors of the houses, label '146 BCE: burnt debris'.",
+       "reuse": "alias of s22"
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:the twist, intrigued][tune:rise]Why did they survive so ^well? [act:a smile][tune:fall]Because Rome buried ^them. [p:0.93][act:explaining, a picture]When Rome built its new city, it cut down the top of the ^hill, to make a great flat platform for its ^forum, [tune:fall]and the rubble sealed the old houses@noun like a time ^capsule.",
+      "[act:the irony, fair]Appian says the new city stood beside the old one, to avoid the ^curse. [act:plain][tune:fall]The digging says: right on ^top."
+     ],
+     "shots": [
+      {
+       "id": "s24",
+       "say": "Why did they survive so well? Because Rome buried them. When Rome built its new city, it cut down the top of the hill, to make a great flat platform for its forum, and the rubble sealed the old houses like a time capsule.",
+       "draw": "Same section (alias): the old summit is outlined dashed and its top is cut away flat; brown fill slides down over the burnt houses in layers and Roman piers drive down into them; on the new flat top a colonnaded forum rises; labels 'the Roman forum', 'rubble', 'sealed'.",
+       "reuse": "alias of s22"
+      },
+      {
+       "id": "s25",
+       "say": "Appian says the new city stood beside the old one, to avoid the curse. The digging says: right on top.",
+       "draw": "A plan from above: the Punic city's outline in warm brown with its harbours; a lilac dotted Roman city drawn beside it (label 'Appian: beside'); then the Roman street grid draws itself in solid gold right over the Punic city (label 'the digging: on top')."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][p:0.93][act:counting it out]In {122|one twenty-two} BCE, just twenty-four years after the fire, Rome voted to send six thousand settlers to farm the ^land. [act:steady][tune:fall]About a century after the fire, a Roman Carthage ^rose, [tune:fall]and became one of the great cities of the Roman ^West."
+     ],
+     "shots": [
+      {
+       "id": "s26",
+       "say": "In 122 BCE, just twenty-four years after the fire, Rome voted to send six thousand settlers to farm the land.",
+       "draw": "The countryside around the ruins seen from above: a grid of square fields draws itself across the land (Roman survey squares), green crops appear in the squares; chip '122 BCE', counter '6,000 settlers' with 60 small figures (1 = 100)."
+      },
+      {
+       "id": "s27",
+       "say": "About a century after the fire, a Roman Carthage rose, and became one of the great cities of the Roman West.",
+       "draw": "The Roman city rises on the same ground: the forum platform on the Byrsa, temples, a theatre, great baths by the sea, an aqueduct coming in from the hills; chip 'about 100 years later'."
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:aside][act:the landing, warm]The land around it became one of the granaries that fed ^Rome. [act:dry, a smile][tune:fall]Not bad, for salted ^earth."
+     ],
+     "shots": [
+      {
+       "id": "s28",
+       "say": "The land around it became one of the granaries that fed Rome. Not bad, for salted earth.",
+       "draw": "Map of the central Mediterranean: grain ships sail from Carthage to Rome along a gold route, each with sacks; wheat sheaves rise on the African coast (label 'grain for Rome'); on 'salted earth', a lilac dotted chip 'salted?' over the fields, struck through."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Urns and vows",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:setting the scene, hushed]Near the old harbours of Carthage, in a district now called Salammbo, lies the ^tophet. [act:explaining]An open-air sanctuary, used@verb from about {750|seven fifty} BCE until the Roman ^fire.",
+      "[p:0.93][act:the scale, sober]Under its stones lie layers of small clay ^urns, [tune:level]holding the burned bones of babies and young ^children, [tune:fall]and of lambs and young ^goats. [act:quietly astonished]One excavator estimated up to twenty thousand ^urns, from just two of those ^centuries: [tune:fall]about a hundred every ^year."
+     ],
+     "shots": [
+      {
+       "id": "s29",
+       "say": "An open-air sanctuary, used from about 750 BCE until the Roman fire.",
+       "draw": "Plan of the harbour quarter: the round war harbour and the rectangular trading harbour; just west of them a small walled enclosure fills with tiny standing stones (label 'the tophet'); a district label 'Salammbo'; then a time bar below fills from 750 to 146 BCE (label 'about six centuries')."
+      },
+      {
+       "id": "s30",
+       "say": "Under its stones lie layers of small clay urns, holding the burned bones of babies and young children, and of lambs and young goats. One excavator estimated up to twenty thousand urns, from just two of those centuries: about a hundred every year.",
+       "draw": "Section of the tophet: three layers of earth, older below, each with small clay urns under narrow stones; soft lamp light; no remains drawn. Then at the right a block of 200 small urn marks fills row by row (1 mark = 100 urns), label 'about 20,000 urns, 400 to 200 BCE', and 'about 100 a year'."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:careful, precise]Above them stand thousands of stone markers, called ^stelae. [act:explaining]Many carry the sign of the goddess ^Tanit, a raised ^hand, and a short dedication: [tune:fall]a vow fulfilled to the god Baal Hammon and to Tanit, [tune:fall]because the god heard the giver's ^voice.",
+      "[act:the key point, measured]They name the person who made the ^vow, [tune:fall]not the ^child. [act:the challenge, fair and strong][tune:rise]If these were ordinary graves, why mark them as promises ^kept?"
+     ],
+     "shots": [
+      {
+       "id": "s31",
+       "say": "Above them stand thousands of stone markers, called stelae. Many carry the sign of the goddess Tanit, a raised hand, and a short dedication: a vow fulfilled to the god Baal Hammon and to Tanit, because the god heard the giver's voice.",
+       "draw": "One stele drawn large in warm lamp light: a tall limestone slab with a pointed top; carved on it as named: the sign of Tanit (a triangle, a bar, a disc), a raised open hand above it, a crescent and disc at the top, and three lines of schematic Punic letters below; labels 'the sign of Tanit', 'a raised hand', 'a vow'; the gods named in a small label 'to Baal Hammon and Tanit'."
+      },
+      {
+       "id": "s32",
+       "say": "They name the person who made the vow, not the child. If these were ordinary graves, why mark them as promises kept?",
+       "draw": "Same stele (alias): one word group glows green, label 'the giver's name'; a lilac dotted empty box beside it, label 'no child's name'; then a lilac question mark.",
+       "reuse": "alias of s31"
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:build][act:the witnesses, even]Greek and Roman writers said so ^plainly. [p:0.93][act:reporting]Diodorus, writing some two hundred and eighty years later, describes two hundred children of noble ^families, sacrificed in a single crisis, in {310|three ten} ^BCE. [act:the caveat, fair][tune:fall]Most were outsiders, often ^enemies, [tune:fall]but there are many of ^them.",
+      "[act:the strongest point, clear]And children and animals were given the same ^rite: [tune:level]the same fire, the same urns, the same ^stones. [p:0.93][act:the echo, quieter]Centuries later, in Roman Algeria, five Latin stelae record@verb a lamb offered as a ^substitute, perhaps for a ^child: [tune:fall]breath for breath, blood for blood, life for ^life."
+     ],
+     "shots": [
+      {
+       "id": "s33",
+       "say": "Greek and Roman writers said so plainly. Diodorus, writing some two hundred and eighty years later, describes two hundred children of noble families, sacrificed in a single crisis, in 310 BCE. Most were outsiders, often enemies, but there are many of them.",
+       "draw": "A timeline from 400 BCE to 250 CE: a ring at 310 BCE (label 'a crisis, 310 BCE'); a writer figure with a scroll at about 30 BCE (label 'Diodorus'); an arrow between them 'about 280 years later'; the claim drawn lilac dotted; then more small book icons pop along the line (label 'many writers, mostly outsiders')."
+      },
+      {
+       "id": "s34",
+       "say": "And children and animals were given the same rite: the same fire, the same urns, the same stones. Centuries later, in Roman Algeria, five Latin stelae record a lamb offered as a substitute, perhaps for a child: breath for breath, blood for blood, life for life.",
+       "draw": "Two identical small urns side by side under two identical stelae, one marked with a small lamb, the other with a soft light (no remains); labels pop as named: 'the same fire', 'the same urns', 'the same stones'. Then at the right a Roman-style stele with a carved lamb rises (chip 'Roman Algeria, about 200 CE'), and the words 'life for life' glow on it; 'for a child?' in lilac dashes."
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:aside][act:the landing, quiet]Read@present this way, each urn is an ^offering, [tune:fall]and each stone, a promise ^kept."
+     ],
+     "shots": [
+      {
+       "id": "s35",
+       "say": "Read this way, each urn is an offering, and each stone, a promise kept.",
+       "draw": "Back on the tophet section (alias of s30): small lamps light along the rows of stelae one by one, label 'an offering, a promise kept' in amber (one reading).",
+       "reuse": "alias of s30"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "What the bones say",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:the hook, intrigued]At the tophet of Carthage, two teams of scientists studied the same ^urns, [tune:level]holding the burned bones of ^infants, [tune:fall]and reached opposite ^answers. [act:explaining, a picture]Teeth grow on a strict timetable, like a ^calendar, [tune:fall]so even burned teeth can give an age in ^weeks.",
+      "[p:0.93][act:the first team, even]In {2010|twenty ten}, a team led by Jeffrey Schwartz studied the ^remains, [tune:fall]from three hundred and forty-eight ^urns. [act:clear][tune:level]Most of the babies had died around ^birth, or in their first few months: [tune:fall]at least one in five, before they were ^born. [act:the reading, gentle]That is the pattern of natural ^deaths: [tune:fall]before modern medicine, losing a baby was tragically ^common."
+     ],
+     "shots": [
+      {
+       "id": "s36",
+       "say": "Teeth grow on a strict timetable, like a calendar, so even burned teeth can give an age in weeks.",
+       "draw": "Two lab benches facing each other, the same row of small urns between them (labels 'team one' in blue and 'team two' in amber); then a wall calendar with weekly pages, label 'an age in weeks'. No remains are drawn."
+      },
+      {
+       "id": "s37",
+       "say": "In 2010, a team led by Jeffrey Schwartz studied the remains, from three hundred and forty-eight urns. Most of the babies had died around birth, or in their first few months: at least one in five, before they were born. That is the pattern of natural deaths: before modern medicine, losing a baby was tragically common.",
+       "draw": "Chart (schematic, true to the paper's description): an age axis from 'before birth' through 'birth' to '6 months'; blue bars build with most of the area around birth and a block left of the birth line shaded (label 'at least 1 in 5 before birth'); tag 'Schwartz et al. 2010, 348 urns'; then a pale dashed curve of natural infant deaths (high at birth, falling) lays over the bars, label 'natural deaths'."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:the counterpoint, fair]A team led by Patricia Smith studied the same ^urns. [p:0.93][act:their argument, clear]Most, they found, had died at one to one and a half months ^old: [tune:fall]a peak too sharp, they argue, for natural ^death.",
+      "[d:reveal][act:the crux, slower]And here's the ^catch. [p:0.93][act:gentle, precise]Burned bone can show ^age, [tune:fall]but almost never the cause of ^death. [act:a simple picture]Like a calendar with its last page torn ^out, [tune:fall]it tells you ^when, never ^why."
+     ],
+     "shots": [
+      {
+       "id": "s38",
+       "say": "A team led by Patricia Smith studied the same urns. Most, they found, had died at one to one and a half months old: a peak too sharp, they argue, for natural death.",
+       "draw": "Second chart below the first (alias framing lower on the same panel): amber bars with a sharp peak at 1 to 1.5 months (label 'a peak at 1 to 1.5 months'), tag 'Smith et al. 2011'; the pale natural-deaths curve does not follow the peak (label 'too sharp?').",
+       "reuse": "alias of s37"
+      },
+      {
+       "id": "s39",
+       "say": "And here's the catch. Burned bone can show age, but almost never the cause of death. Like a calendar with its last page torn out, it tells you when, never why.",
+       "draw": "A desk calendar: its pages flip, one lights green (label 'when'); the last page is torn away, a lilac dotted outline where it was (label 'why'), with a lilac question mark."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:build][act:warm, careful]At Zita, a later tophet in southern Tunisia, a {2024|twenty twenty-four} study of twelve infants and children found signs of illness in ^most, [tune:fall]like scurvy and ^anaemia. [act:gentle][tune:fall]The burials were careful, and the bones showed no sign of ^injury. [act:fair][tune:fall]A clue, but later, and ^elsewhere.",
+      "[d:verdict][act:where the field stands, even]Specialists are still ^divided. [act:fair]Many read@present the vows and the texts as evidence of ^sacrifice: [tune:fall]children offered here, at least at ^times. [act:fair, the other side][tune:fall]Others see a resting place for babies who died ^young. [act:honest][tune:fall]The bones alone can't settle ^it."
+     ],
+     "shots": [
+      {
+       "id": "s40",
+       "say": "At Zita, a later tophet in southern Tunisia, a 2024 study of twelve infants and children found signs of illness in most, like scurvy and anaemia. The burials were careful, and the bones showed no sign of injury. A clue, but later, and elsewhere.",
+       "draw": "Left: a small map of Tunisia with Carthage and Zita pinned (chip 'about 50 BCE to 100 CE'). Right: two hands lower a small urn onto a bed of sand in a pit, a lamp glowing beside it; labels pop as named: '12 infants and children', 'illness in most', 'careful burials', 'no injury seen'. No remains drawn."
+      },
+      {
+       "id": "s41",
+       "say": "Specialists are still divided. Many read the vows and the texts as evidence of sacrifice: children offered here, at least at times. Others see a resting place for babies who died young. The bones alone can't settle it.",
+       "draw": "A balance: on the left pan a small stele and a scroll (label 'vows and texts: offered, at times'); on the right pan an age chart icon (label 'the bones: natural deaths?'); the beam settles almost level, a lilac question mark at the pivot (label 'not settled')."
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:tension][p:0.93][act:quiet, humane]Whatever happened here, these were ^children. [act:gentle][tune:fall]And someone ^mourned them."
+     ],
+     "shots": [
+      {
+       "id": "s42",
+       "say": "Whatever happened here, these were children. And someone mourned them.",
+       "draw": "The tophet at dusk: a field of small stelae among trees; small lamps glow one by one at their feet; a hand sets down a last small lamp. Nothing else."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Kerkouane and Dougga",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:setting the scene, warm]Kerkouane, on Tunisia's Cap Bon, is a Punic town that nobody ever ^rebuilt. [act:storytelling]Around {250|two fifty} BCE, probably during Rome's first war with Carthage, its people ^left, [tune:fall]and never came ^back.",
+      "[p:0.93][act:vivid, admiring][tune:level]So its streets survive: a ^grid, [tune:level]houses@noun round courtyards with their own ^wells, [tune:fall]and in nearly every house@noun, a seated bath lined in red ^mortar. [act:the detail, delighted][tune:fall]Its people made purple dye from sea ^snails."
+     ],
+     "shots": [
+      {
+       "id": "s43",
+       "say": "Around 250 BCE, probably during Rome's first war with Carthage, its people left, and never came back.",
+       "draw": "Map of Cap Bon (View about 9.9 to 11.4 E, 36.3 to 37.2 N): Kerkouane pinned gold at the tip, Kelibia beside it, Carthage to the west; a red arrow from the sea to Kelibia (chip '256 BCE, a Roman army lands'); chip 'about 250 BCE: left'; scale bar 20 km."
+      },
+      {
+       "id": "s44",
+       "say": "So its streets survive: a grid, houses round courtyards with their own wells, and in nearly every house, a seated bath lined in red mortar. Its people made purple dye from sea snails.",
+       "draw": "The town from above (schematic plan): streets draw in a grid; houses pop round courtyards; a blue well in each courtyard; a small red seated bath in each house (label 'a seated bath'); then a sea snail shell spirals and a drop of purple falls from it (label 'purple dye').",
+       "reuse": "redrawn wide from kerkouane_m() shot 3, the town plan"
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:the new science, intrigued]In {2025|twenty twenty-five}, ancient DNA from twenty-seven ^people, buried at Kerkouane, showed who they ^were. [p:0.93][act:the surprise, clear][tune:level]Most had ancestry like that of Sicily and the ^Aegean, [tune:level]many had North African ^roots, [tune:fall]and hardly any had ancestors from the Levant, the Phoenician ^homeland."
+     ],
+     "shots": [
+      {
+       "id": "s45",
+       "say": "In 2025, ancient DNA from twenty-seven people, buried at Kerkouane, showed who they were. Most had ancestry like that of Sicily and the Aegean, many had North African roots, and hardly any had ancestors from the Levant, the Phoenician homeland.",
+       "draw": "Map of the Mediterranean: Kerkouane pinned; 27 small figures in a block beside it, each filling with colour as named: gold (ancestry like Sicily and the Aegean), green (North African) in many; dotted arrows: a strong gold one from Sicily and the Aegean, a green one from inland North Africa, and only a faint thread from the Levant; tag 'Ringbauer et al. 2025'."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:build][act:storytelling, onward]Inland, at Dougga, a Numidian prince's tomb, twenty-one metres tall, carried an inscription in two ^scripts. [act:explaining][tune:level]One was ^Punic. [act:the reveal][tune:fall]The other, Libyco-Berber: the alphabet of North Africa's own ^peoples.",
+      "[act:a sigh, plain]In {1842|eighteen forty-two}, the British consul Thomas Reade had it pulled out, wrecking the ^tomb. [p:0.93][act:the decipherment, delighted]But names sound alike in any ^script, [tune:fall]so matching them gave the sounds of the ^letters: [tune:fall]twenty-two of the twenty-four eastern signs can now be read@present.",
+      "[act:honest, softer]The language itself is still mostly ^silent. [act:quiet wonder][tune:fall]Yet its letters live@verb on in Tifinagh, the Tuareg ^script, [tune:fall]and its word for king may survive as agellid, in Berber languages ^today."
+     ],
+     "shots": [
+      {
+       "id": "s46",
+       "say": "Inland, at Dougga, a Numidian prince's tomb, twenty-one metres tall, carried an inscription in two scripts. One was Punic. The other, Libyco-Berber: the alphabet of North Africa's own peoples.",
+       "draw": "The Libyco-Punic mausoleum of Dougga in elevation at dusk: three tiers on a stepped base, columns and pilasters, a pyramid on top, a person at its foot for scale (dimension '21 m'); the inscription panel on the lowest tier glows; then the frieze enlarged beside it: left half Libyco-Berber signs (geometric: circles, bars, crosses), right half Punic letters (schematic strokes); labels 'Libyco-Berber' and 'Punic'."
+      },
+      {
+       "id": "s47",
+       "say": "In 1842, the British consul Thomas Reade had it pulled out, wrecking the tomb. But names sound alike in any script, so matching them gave the sounds of the letters: twenty-two of the twenty-four eastern signs can now be read.",
+       "draw": "The tomb again (alias): the inscribed blocks slide out, the upper tiers break and blocks tumble (chip '1842'); then in the frieze a name in Punic and the same name in the Libyan half light up and thin green lines join letter to letter; below, 24 small sign tiles, 22 of which turn green (label '22 of 24 signs read').",
+       "reuse": "alias of s46"
+      },
+      {
+       "id": "s48",
+       "say": "The language itself is still mostly silent. Yet its letters live on in Tifinagh, the Tuareg script, and its word for king may survive as agellid, in Berber languages today.",
+       "draw": "Ancient signs on the left, an arrow, the same shapes as Tifinagh letters on the right (label 'Tifinagh'); then three Libyan signs for G, L, D glow and a dashed arrow leads to the word 'agellid, king' (dashed: a proposed link)."
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:aside][act:the landing, warm]Rome's writers told us how Carthage ^died. [act:quiet wonder][tune:fall]The ground tells us how it ^lived."
+     ],
+     "shots": [
+      {
+       "id": "s49",
+       "say": "Rome's writers told us how Carthage died. The ground tells us how it lived.",
+       "draw": "Two halves: on the left, in dim red, a scroll with flames behind it (label 'how it died'); on the right, in warm light, the ground of everyday life: a courtyard house with its well and bath, a stele, a line of Libyan letters, ships in the round harbour (label 'how it lived')."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The weighing",
+   "beats": [
+    {
+     "role": "weigh",
+     "lines": [
+      "[d:verdict][act:calm, laying it out]So, let's ^weigh it. [act:steady][tune:rise]Rome burned Carthage, razed it, and banned anyone from living ^there? [act:the verdict, confident][tune:fall]^*Established*.",
+      "[act:steady][tune:rise]A plough drawn across the ruins, as a ^rite? [act:even][tune:fall]^*Plausible*: [tune:fall]one Roman lawyer says ^so. [act:steady][tune:rise]And the ^salt? [act:firm, kind][tune:fall]*Ruled ^out*. [act:plain][tune:fall]No ancient writer ^mentions it.",
+      "[d:build][act:steady][tune:rise]A sanctuary, where babies and young animals were ^burned, and buried under ^vows? [act:the verdict, confident][tune:fall]^*Established*. [act:steady][tune:rise]Were the children ^sacrificed? [act:honest, careful][tune:fall]*Open ^question*: [act:plain][tune:fall]the vows and the texts point one way, [tune:fall]and the bones are read@past both ^ways.",
+      "[act:brisk, warm][tune:level]Kerkouane, left around {250|two fifty} BCE and never rebuilt: [tune:fall]*Strong ^evidence*. [act:brisk][tune:level]The sounds of Dougga's lost ^alphabet: [tune:fall]^*Established*. [act:the whole, even][tune:rise]And Rome's famous story of Carthage's ^end? [act:the verdict][tune:fall]A *Mixed ^record@noun*: [tune:fall]the fire is real, the salt is ^not."
+     ],
+     "shots": [
+      {
+       "id": "s50",
+       "say": "So, let's weigh it. Rome burned Carthage, razed it, and banned anyone from living there? Established.",
+       "draw": "Ledger, panel one ('The end of Carthage'), rows that fill one by one (a pictogram, a short text, a grade chip popping as the grade is said): row 1 'burned, razed, banned' (a flame) Established."
+      },
+      {
+       "id": "s51",
+       "say": "A plough drawn across the ruins, as a rite? Plausible: one Roman lawyer says so. And the salt? Ruled out. No ancient writer mentions it.",
+       "draw": "Rows 2 and 3 of the same ledger: 'a plough, as a rite' (a plough) Plausible; 'salted earth' (white grains, lilac dotted, struck through) Ruled out.",
+       "reuse": "alias of s50"
+      },
+      {
+       "id": "s52",
+       "say": "A sanctuary, where babies and young animals were burned, and buried under vows? Established. Were the children sacrificed? Open question: the vows and the texts point one way, and the bones are read both ways.",
+       "draw": "Ledger, panel two ('The tophet'): 'a sanctuary of vows' (a stele) Established; 'children sacrificed?' (an urn under a stele, with a small balance) Open question."
+      },
+      {
+       "id": "s53",
+       "say": "Kerkouane, left around 250 BCE and never rebuilt: Strong evidence. The sounds of Dougga's lost alphabet: Established. And Rome's famous story of Carthage's end? A Mixed record: the fire is real, the salt is not.",
+       "draw": "Panel two continued (alias): 'Kerkouane, left, never rebuilt' (a seated bath) Strong evidence; 'Dougga's letters read' (a sign tile) Established; then a large overall chip below: 'Rome's story of the end: Mixed record'.",
+       "reuse": "alias of s52"
+      }
+     ]
+    },
+    {
+     "role": "test",
+     "lines": [
+      "[d:tension][act:open, curious][tune:rise]What would change our ^minds? [act:practical][tune:level]A text from Roman times that puts salt in Carthage's ^furrows. [act:practical][tune:level]Both teams ageing the same urns ^blind, with one agreed ^method. [act:hopeful][tune:fall]And new urns from careful excavations, studied from the ^start."
+     ],
+     "shots": [
+      {
+       "id": "s54",
+       "say": "What would change our minds? A text from Roman times that puts salt in Carthage's furrows. Both teams ageing the same urns blind, with one agreed method. And new urns from careful excavations, studied from the start.",
+       "draw": "Three wanted items in lilac dashes pop as named across the panel: an ancient scroll with a salt grain on it (label 'a Roman-era text'); two benches with a blindfold over the same urns (label 'aged blind'); a fresh trench with a new urn and a recording grid (label 'new, careful digs')."
+      }
+     ]
+    },
+    {
+     "role": "close",
+     "lines": [
+      "[d:tension][p:0.93][act:the last word, quiet wonder][tune:fall]Under the Roman forum, Carthage's burned houses@noun still stand in their ^ash. [act:quiet wonder][tune:fall]By the old harbours, the small stones of the tophet still keep their ^vows. [act:warm, inviting][tune:fall]Weigh it ^yourself."
+     ],
+     "shots": [
+      {
+       "id": "s55",
+       "say": "Under the Roman forum, Carthage's burned houses still stand in their ash. By the old harbours, the small stones of the tophet still keep their vows. Weigh it yourself.",
+       "draw": "The close, at night: the Byrsa hill under stars with the Roman forum platform on top; a cut-away in the hillside shows the burned Punic houses glowing faintly in their dark layer; below, the round harbour holds the moon; in the foreground the small stelae of the tophet, each with a tiny lamp."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "description": "In 146 BCE Rome burned Carthage. Then, the story goes, it ploughed the ruins and sowed the earth with salt. Under the same city lie thousands of urns holding the ashes of babies, and Greek and Roman writers said Carthage sacrificed its children. What do the texts, the ground and the bones really show?\n\nFrom the founding of the New City (the legend of the ox hide, and a date that radiocarbon supports) to the last siege, we trace the salt upstream through Ridley's 1986 study, a papal letter of 1299 and an 11th-century tale recorded by al-Bakri, dig into the burned houses sealed under the Roman forum, read the vows on the tophet's stelae, weigh the two bone studies that reached opposite answers, and visit Kerkouane and the Dougga bilingual. Rome burned and razed the city: Established. Salted earth: Ruled out. Child sacrifice at the tophet: Open question. Overall: Mixed record.\n\nChapters\n0:00 Cold open\nmm:ss The rise and fall of Carthage\nmm:ss Where the salt came from\nmm:ss The city under the city\nmm:ss Urns and vows\nmm:ss What the bones say\nmm:ss Kerkouane and Dougga\nmm:ss The weighing\n\nSources\nDocter et al. 2008, in Sagona (ed.), Beyond the Homeland (Peeters): 379-422\nHurst 2010, in Ricoveri per navi militari (Edipuglia): 27-36\nRidley 1986, Classical Philology 81: 140-146, doi:10.1086/366973\nStevens 1988, Classical Philology 83: 39-41, doi:10.1086/367078\nWarmington 1988, Classical Philology 83: 308-310, doi:10.1086/367123\nSaladin 2026, Classical Philology 121: 277-282, doi:10.1086/739931\nLancel 1995, Carthage: A History (Blackwell)\nStager & Wolff 1984, Biblical Archaeology Review 10(1): 30-51\nSchwartz et al. 2010, PLoS ONE 5: e9177, doi:10.1371/journal.pone.0009177\nSmith et al. 2011, Antiquity 85: 859-874, doi:10.1017/S0003598X00068368\nSchwartz et al. 2012, Antiquity 86: 738-745, doi:10.1017/S0003598X00047888\nSmith et al. 2013, Antiquity 87: 1191-1199, doi:10.1017/S0003598X00049954\nXella et al. 2013, Antiquity 87: 1199-1207, doi:10.1017/S0003598X00049966\nSchwartz et al. 2017, Antiquity 91: 442-454, doi:10.15184/aqy.2016.270\nCerezo-Roman et al. 2024, Antiquity 98: 936-953, doi:10.15184/aqy.2024.85\nPilkington 2023, Cartagine. Studi e Ricerche 8, doi:10.13125/caster/5532\nCarcopino 1932, Revue de l'Histoire des Religions 103: 592-599\nRingbauer et al. 2025, Nature, doi:10.1038/s41586-025-08913-3\nde Saulcy 1843, Lettre sur l'inscription bilingue de Thugga (Journal asiatique)\nPolybius 15.18; Appian, Punica 127-136, Civil Wars 1.24; Diodorus 20.14; Digest 7.4.21; Florus 1.31; Orosius 4.23; Justin 18.5",
+ "sources": [
+  "Aubet, M. E. 2008, Political and economic implications of the new Phoenician chronologies, in C. Sagona (ed.), Beyond the Homeland: Markers in Phoenician Chronology (Peeters): 179-191",
+  "Docter, R. F., Chelbi, F., Maraoui Telmini, B., Nijboer, A. J., van der Plicht, J. et al. 2008, New radiocarbon dates from Carthage: bridging the gap between history and archaeology? in C. Sagona (ed.), Beyond the Homeland: Markers in Phoenician Chronology (Peeters): 379-422",
+  "Docter, R. F. 2007, Published settlement contexts of Punic Carthage, Carthage Studies 1 (Ghent University)",
+  "Ridley, R. T. 1986, To be taken with a pinch of salt: the destruction of Carthage, Classical Philology 81(2): 140-146, doi:10.1086/366973",
+  "Stevens, S. T. 1988, A legend of the destruction of Carthage, Classical Philology 83(1): 39-41, doi:10.1086/367078",
+  "Visona, P. 1988, Passing the salt: on the destruction of Carthage again, Classical Philology 83(1): 41-42, doi:10.1086/367079",
+  "Warmington, B. H. 1988, The destruction of Carthage: a retractatio, Classical Philology 83(4): 308-310, doi:10.1086/367123",
+  "Saladin, C. 2026, Passing the salt, again: the legend of Carthage's destruction in medieval North Africa, Classical Philology 121(2): 277-282, doi:10.1086/739931",
+  "Hurst, H. & Stager, L. E. 1978, A metropolitan landscape: the Late Punic port of Carthage, World Archaeology 9(3): 334-346",
+  "Hurst, H. 1994, Excavations at Carthage: The British Mission, Vol. II.1, The Circular Harbour, North Side (Oxford University Press for the British Academy)",
+  "Hurst, H. 2010, Exceptions rather than the rule: the shipshed complexes of Carthage (mainly) and Athens, in Ricoveri per navi militari nei porti del Mediterraneo antico e medievale (Edipuglia): 27-36",
+  "Hurst, H. 2010, Understanding Carthage as a Roman port, Bollettino di Archeologia on line I, volume speciale B7/6: 49-68",
+  "Lancel, S. 1995, Carthage: A History (Blackwell)",
+  "Stager, L. E. & Wolff, S. R. 1984, Child sacrifice at Carthage: religious rite or population control? Biblical Archaeology Review 10(1): 30-51",
+  "Schwartz, J. H., Houghton, F., Macchiarelli, R. & Bondioli, L. 2010, Skeletal remains from Punic Carthage do not support systematic sacrifice of infants, PLoS ONE 5(2): e9177, doi:10.1371/journal.pone.0009177",
+  "Smith, P., Avishai, G., Greene, J. A. & Stager, L. E. 2011, Aging cremated infants: the problem of sacrifice at the Tophet of Carthage, Antiquity 85(329): 859-874, doi:10.1017/S0003598X00068368",
+  "Schwartz, J. H., Houghton, F. D., Bondioli, L. & Macchiarelli, R. 2012, Bones, teeth, and estimating age of perinates: Carthaginian infant sacrifice revisited, Antiquity 86(333): 738-745, doi:10.1017/S0003598X00047888",
+  "Smith, P., Stager, L. E., Greene, J. A. & Avishai, G. 2013, Cemetery or sacrifice? Infant burials at the Carthage Tophet: age estimations attest to infant sacrifice, Antiquity 87(338): 1191-1199, doi:10.1017/S0003598X00049954",
+  "Xella, P., Quinn, J., Melchiorri, V. & van Dommelen, P. 2013, Cemetery or sacrifice? Infant burials at the Carthage Tophet: Phoenician bones of contention, Antiquity 87(338): 1199-1207, doi:10.1017/S0003598X00049966",
+  "Schwartz, J. H., Houghton, F. D., Bondioli, L. & Macchiarelli, R. 2017, Two tales of one city: data, inference and Carthaginian infant sacrifice, Antiquity 91(356): 442-454, doi:10.15184/aqy.2016.270",
+  "Cerezo-Roman, J. I. et al. 2024, The life and death of cremated infants and children from the Neo-Punic tophet at Zita, Tunisia, Antiquity 98(400): 936-953, doi:10.15184/aqy.2024.85",
+  "Pilkington, N. L. 2023, Forbidden to sacrifice humans or eat dogs: revisiting the tophet debate through a demographic lens, Cartagine. Studi e Ricerche 8, doi:10.13125/caster/5532",
+  "Garnand, B. K. & Greene, J. A. 2023, Infants as Votive Offerings: Phoenician Tophet Precincts in Context (De Gruyter); reviewed by M. M. McCarty, BMCR 2024.09.08",
+  "Amadasi Guzzo, M. G. & Zamora Lopez, J. A. 2013, The epigraphy of the tophet, Studi Epigrafici e Linguistici 29-30: 159-192",
+  "Carcopino, J. 1932, Survivances par substitution des sacrifices d'enfants dans l'Afrique romaine, Revue de l'Histoire des Religions 103: 592-599",
+  "Ringbauer, H. et al. 2025, Punic people were genetically diverse with almost no Levantine ancestors, Nature, doi:10.1038/s41586-025-08913-3",
+  "UNESCO World Heritage List 332, Punic Town of Kerkuane and its Necropolis (inscribed 1985, extended 1986)",
+  "Fantar, M. H. 1984-1986, Kerkouane, cite punique du Cap Bon (Institut National d'Archeologie et d'Art, Tunis)",
+  "Miles, R. 2010, Carthage Must Be Destroyed (Allen Lane)",
+  "British Museum 1852,0305.1-2, the bilingual inscription of the Libyco-Punic mausoleum of Dougga (Ateban)",
+  "de Saulcy, F. 1843, Lettre sur l'inscription bilingue de Thugga, Journal asiatique",
+  "Polybius 15.18 (the treaty after Zama) and 38.19-22; Appian, Punica 96 (the harbours), 127-136, and Civil Wars 1.24; Diodorus 20.14; Florus 1.31; Orosius 4.23; Digest 7.4.21 (Modestinus); Josephus, Jewish War 2.383; Justin, Epitome 18.5 and Virgil, Aeneid 1.365-368 (the ox hide); Dionysius of Halicarnassus 1.74.1 (Timaeus' date)"
+ ],
+ "facts_added": [
+  {
+   "fact": "Greek writers dated Carthage's founding to 38 years before the first Olympiad, about 814/813 BCE (Timaeus); radiocarbon dates on animal bones from the earliest levels of Carthage place the founding of the Tyrian colony in about 835 to 800 cal BCE, matching that date.",
+   "source": "Docter et al. 2008, in Sagona (ed.), Beyond the Homeland (Peeters): 379-422; Aubet 2008, ibid.: 179; Dionysius of Halicarnassus 1.74.1"
+  },
+  {
+   "fact": "The legend of the founding: Elissa (Dido), exiled from Tyre, bought as much land as an ox hide could cover, cut the hide into thin strips and enclosed the hill, the Byrsa; the city's name, Qart-hadasht, means New City.",
+   "source": "Justin, Epitome 18.5; Virgil, Aeneid 1.365-368; Lancel 1995"
+  },
+  {
+   "fact": "The stone ship sheds of the circular naval harbour were built after Carthage's defeat in the Second Punic War (pottery of the first half of the 2nd century BCE), presumably shortly before the Third; Hurst reads them as much as a statement as a fleet. About 30 sheds stood on the island and 135 to 140 round the rim (160 to 170 in all; Appian says 220); the harbour is about 325 m across (about 8 ha).",
+   "source": "Hurst 2010, Exceptions rather than the rule (Edipuglia): 27-36; Hurst 2010, Bollettino di Archeologia on line; Lancel 1995; Appian, Punica 96; Polybius 15.18 (ten triremes)"
+  },
+  {
+   "fact": "No surviving ancient account of the destruction of Carthage (Polybius' fragments, Appian, Diodorus' fragments, Livy's summary, Velleius, Florus, Orosius, Zonaras, Cicero) mentions salt; Ridley traced the modern salting story to B. L. Hallward's chapter in the Cambridge Ancient History vol. 8 (1930), p. 484.",
+   "source": "Ridley 1986, Classical Philology 81: 140-146"
+  },
+  {
+   "fact": "The salt detail is older than 1930: it appears in nineteenth-century reference works (e.g. the New American Cyclopaedia, 1858: 'sowing salt in the furrows'), and Stevens pointed to non-specialist works of the mid to late nineteenth century.",
+   "source": "Stevens 1988, Classical Philology 83: 39-41"
+  },
+  {
+   "fact": "In 1299 Pope Boniface VIII had Palestrina put to the plough 'after the likeness of old Carthage of Africa' and also had salt sown in it (the comparison grammatically attaches to the plough).",
+   "source": "Warmington 1988, Classical Philology 83: 308-310 (the bull's text)"
+  },
+  {
+   "fact": "An eleventh-century account by the Andalusian geographer al-Bakri includes a reference to salt in connection with Carthage's destruction, likely a local Maghrebi explanation of its end: the earliest link of salt with Carthage identified so far.",
+   "source": "Saladin 2026, Classical Philology 121: 277-282"
+  },
+  {
+   "fact": "The only ancient mention of a plough at Carthage is legal: Modestinus (3rd century CE) says that if a plough is drawn over a city, it ceases to be a city, 'as happened to Carthage'.",
+   "source": "Digest 7.4.21; Stevens 1988"
+  },
+  {
+   "fact": "Appian describes six days and nights of street fighting up three streets lined with six-storey houses from the forum to the Byrsa; about 50,000 men and women then came out of the Byrsa; Scipio wept and quoted Homer on Troy, with Polybius present; ten senators decreed that whatever remained be razed and that nobody live there. Orosius says the prisoners were sold as slaves.",
+   "source": "Appian, Punica 128-135; Orosius 4.23 (via Ridley 1986)"
+  },
+  {
+   "fact": "Florus and Orosius say the fire burned for seventeen days.",
+   "source": "Florus 1.31; Orosius 4.23 (via Ridley 1986)"
+  },
+  {
+   "fact": "In 122 BCE Gaius Gracchus and Fulvius Flaccus were assigned to found a colony at Carthage with 6,000 colonists; Appian dates the refoundation decided by Caesar to 102 years after the destruction, and says Augustus built the new city 'very near' the old one to avoid the curse.",
+   "source": "Appian, Civil Wars 1.24; Punica 136"
+  },
+  {
+   "fact": "On the Byrsa, the French mission (Lancel, from 1974) uncovered a late Punic quarter of the early 2nd century BCE on an orthogonal grid, with shops on the streets and cisterns under the houses, destroyed and burned in 146 BCE; it survived because the Romans levelled the summit for the forum platform and buried the slope under fill, driving piers into the Punic remains. Across the city, excavators meet massive destruction layers of the late Punic city under the Roman one.",
+   "source": "Lancel 1995; Docter 2007, Carthage Studies 1: 40-41; Digital Roman Carthage (Byrsa)"
+  },
+  {
+   "fact": "Stager estimated that as many as 20,000 urns were deposited in the Carthage tophet between 400 and 200 BCE; its use began about 750/725 BCE; in the 7th century one urn in three held animal remains, in the 4th century one in ten held only animals.",
+   "source": "Stager & Wolff 1984, Biblical Archaeology Review 10(1)"
+  },
+  {
+   "fact": "The tophet stelae name the dedicant, usually a man, and record a vow fulfilled for Baal Hammon (and Tanit), 'because he heard his voice'; the inscriptions commemorate the giver, not the deposited child. More than 3,000 votive inscriptions come from Carthage.",
+   "source": "Amadasi Guzzo & Zamora 2013; Stager & Wolff 1984"
+  },
+  {
+   "fact": "Diodorus says that in 310 BCE, besieged by Agathocles, the Carthaginians sacrificed 200 children of the noblest families; he wrote about 280 years later.",
+   "source": "Diodorus 20.14"
+  },
+  {
+   "fact": "Five Latin stelae to Saturn from N'Gaous (ancient Nicivibus, Algeria), late 2nd or early 3rd century CE, record a lamb offered as a substitute ('agnum pro vikario') with the formula 'anima pro anima, sanguine pro sanguine, vita pro vita'; they name persons such as Concessa and Donatus, whom Carcopino read as the children the lamb stood in for (the stelae do not say so outright).",
+   "source": "Carcopino 1932, Revue de l'Histoire des Religions 103: 592-599"
+  },
+  {
+   "fact": "Schwartz and colleagues studied 348 urns (540 individuals) from the 1970s excavations: most died between the prenatal period and 5 to 6 months, with at least 20% prenatal, a profile consistent with natural perinatal mortality.",
+   "source": "Schwartz et al. 2010, PLoS ONE; 2012 and 2017, Antiquity"
+  },
+  {
+   "fact": "Smith and colleagues studied 334 urns of the same sample and found most infants died between one and one and a half months, which they judged inconsistent with natural mortality: sacrifice 'very probable'.",
+   "source": "Smith et al. 2011 and 2013, Antiquity"
+  },
+  {
+   "fact": "At the Neo-Punic tophet of Zita (southern Tunisia, about 50 BCE to 100 CE), 12 cremated infants and children were studied: nine showed changes suggesting scurvy and nine signs consistent with anaemia; the bones were carefully collected and buried, with no perimortem trauma detected.",
+   "source": "Cerezo-Roman et al. 2024, Antiquity 98: 936-953"
+  },
+  {
+   "fact": "The debate remains open: a 2024 review calls the tophet's interpretation 'as uncertain as ever'; a demographic model argues that frequent infant sacrifice would have slowed the growth of the Phoenician colonies, while Xella and colleagues argue the burials are far too few to be all the city's infant deaths.",
+   "source": "McCarty, BMCR 2024.09.08; Pilkington 2023; Xella et al. 2013"
+  },
+  {
+   "fact": "The Salammbo district, where the tophet lies, takes its name from Flaubert's 1862 novel Salammbo; the tophet was found in 1921.",
+   "source": "Carthage tophet summaries; Stager & Wolff 1984"
+  },
+  {
+   "fact": "Ancient DNA from 27 individuals at Kerkouane (and 17 at Carthage): Sicilian-Aegean-like ancestry dominates (84% of individuals at these North African Punic sites have more than half); 17 of the 27 at Kerkouane carry North African ancestry, from as early as the 6th to 5th centuries BCE; only three individuals across all Punic sites carry substantial Levantine ancestry.",
+   "source": "Ringbauer et al. 2025, Nature"
+  },
+  {
+   "fact": "Kerkouane was discovered in 1952, was probably abandoned during the First Punic War (about 250 BCE) and was never reoccupied; most houses had a bathroom; a Roman army under Regulus landed at nearby Aspis (Kelibia) in 256 BCE.",
+   "source": "UNESCO WHC 332; Polybius 1.29"
+  },
+  {
+   "fact": "The Dougga bilingual (BM 1852,0305.1 Libyan half, .2 Punic half) comes from the mausoleum of Ateban, whom the British Museum calls a Numidian prince; Sir Thomas Reade removed it (1842, or 1837 in one BM note), damaging the monument; 22 of the 24 eastern Libyco-Berber letters have been read since 1843.",
+   "source": "British Museum collection record; Libyco-Berber alphabet summaries; de Saulcy 1843"
+  },
+  {
+   "fact": "The Libyan title written GLD (or GLDT), king, has been compared with Berber agellid, king.",
+   "source": "Livius, 'Libyan inscriptions' (hedged as hypothetical)"
+  },
+  {
+   "fact": "Under the empire, the province of Africa supplied a large share of Rome's grain (Josephus says it fed Rome for eight months of the year).",
+   "source": "Josephus, Jewish War 2.383"
+  }
+ ],
+ "names": [
+  {
+   "name": "Carthage",
+   "say": "KAR-thij"
+  },
+  {
+   "name": "Tunis, Tunisia",
+   "say": "TOO-nis, too-NEE-zhuh"
+  },
+  {
+   "name": "Tyre",
+   "say": "TIRE (like 'tired' without the d)"
+  },
+  {
+   "name": "Lebanon",
+   "say": "LEB-uh-nun"
+  },
+  {
+   "name": "Dido",
+   "say": "DYE-doh"
+  },
+  {
+   "name": "Byrsa",
+   "say": "BUR-suh"
+  },
+  {
+   "name": "Zama",
+   "say": "ZAH-muh"
+  },
+  {
+   "name": "Scipio",
+   "say": "SKIP-ee-oh"
+  },
+  {
+   "name": "Polybius",
+   "say": "puh-LIB-ee-us"
+  },
+  {
+   "name": "Appian",
+   "say": "AP-ee-un"
+  },
+  {
+   "name": "Ronald Ridley",
+   "say": "RON-uld RID-lee"
+  },
+  {
+   "name": "Palestrina",
+   "say": "pal-uh-STREE-nuh"
+  },
+  {
+   "name": "al-Bakri",
+   "say": "al-BAK-ree"
+  },
+  {
+   "name": "Salammbo",
+   "say": "sa-lam-BOH"
+  },
+  {
+   "name": "tophet",
+   "say": "TOH-fet (in LEX)"
+  },
+  {
+   "name": "stelae",
+   "say": "STEE-lee"
+  },
+  {
+   "name": "Tanit",
+   "say": "TAH-nit (in LEX)"
+  },
+  {
+   "name": "Baal Hammon",
+   "say": "BAHL ha-MOHN"
+  },
+  {
+   "name": "Diodorus",
+   "say": "dye-uh-DOR-us (in LEX)"
+  },
+  {
+   "name": "Jeffrey Schwartz",
+   "say": "JEF-ree SHWORTS"
+  },
+  {
+   "name": "Patricia Smith",
+   "say": "puh-TRISH-uh SMITH"
+  },
+  {
+   "name": "Zita",
+   "say": "ZEE-tuh"
+  },
+  {
+   "name": "anaemia",
+   "say": "uh-NEE-mee-uh"
+  },
+  {
+   "name": "Kerkouane",
+   "say": "ker-KWAHN (in LEX)"
+  },
+  {
+   "name": "Cap Bon",
+   "say": "KAP BON"
+  },
+  {
+   "name": "Aegean",
+   "say": "ih-JEE-un"
+  },
+  {
+   "name": "Levant",
+   "say": "luh-VANT"
+  },
+  {
+   "name": "Phoenician",
+   "say": "fuh-NEE-shun"
+  },
+  {
+   "name": "Dougga",
+   "say": "DOO-guh (in LEX)"
+  },
+  {
+   "name": "Numidian",
+   "say": "noo-MID-ee-un"
+  },
+  {
+   "name": "Libyco-Berber",
+   "say": "LIB-ih-koh BUR-ber (libycoberber in LEX)"
+  },
+  {
+   "name": "Thomas Reade",
+   "say": "TOM-us REED"
+  },
+  {
+   "name": "Tifinagh",
+   "say": "tif-ih-NAHG (in LEX)"
+  },
+  {
+   "name": "Tuareg",
+   "say": "TWAH-reg (in LEX)"
+  },
+  {
+   "name": "agellid",
+   "say": "ah-gel-LEED"
+  }
+ ],
+ "words": 1618
+}
