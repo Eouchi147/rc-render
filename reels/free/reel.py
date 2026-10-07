@@ -796,13 +796,30 @@ window.__step=ms=>{now+=ms;const c=q.splice(0);c.forEach(f=>{try{f(now)}catch(e)
 try{localStorage.setItem('rc-theme','dark')}catch(e){}window.RC_HQ=1;window.RC_LBL={top:.1,bottom:.7,pad:.06};})();"""
 
 
+EXT_RANGE = "U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF"
+
+
+def _ff_ext(fonts):
+    """Latin Extended faces (Maltese Ġ ħ, Turkish ı ş, ...) layered over the Latin subsets by unicode-range, so names such
+    as Ġgantija are drawn in the house fonts instead of a fallback (fontsource 5.3.0, the same build as the Latin files)."""
+    return "".join(f"@font-face{{font-family:'{fam}';font-style:{st};font-weight:{wt};src:url('file://{fonts}/{fn}') format('woff2');"
+                   f"unicode-range:{EXT_RANGE}}}"
+                   for fam, st, wt, fn in [("Newsreader", "normal", 400, "newsreader-latin-ext-400-normal.woff2"),
+                                           ("Newsreader", "italic", 400, "newsreader-latin-ext-400-italic.woff2"),
+                                           ("Newsreader", "normal", 500, "newsreader-latin-ext-500-normal.woff2"),
+                                           ("Newsreader", "italic", 500, "newsreader-latin-ext-500-italic.woff2"),
+                                           ("Inter", "normal", 400, "inter-latin-ext-400-normal.woff2"),
+                                           ("Inter", "normal", 600, "inter-latin-ext-600-normal.woff2"),
+                                           ("Inter", "normal", 700, "inter-latin-ext-700-normal.woff2")])
+
+
 def css(fonts, capb):
     ff = "".join(f"@font-face{{font-family:'{fam}';font-style:{st};font-weight:{wt};src:url('file://{fonts}/{fn}') format('woff2')}}"
                  for fam, st, wt, fn in [("Newsreader", "normal", 400, "newsreader-latin-400-normal.woff2"), ("Newsreader", "italic", 400, "newsreader-latin-400-italic.woff2"),
                                          ("Newsreader", "normal", 500, "newsreader-latin-500-normal.woff2"), ("Newsreader", "italic", 500, "newsreader-latin-500-italic.woff2"),
                                          ("Inter", "normal", 400, "inter-latin-400-normal.woff2"), ("Inter", "normal", 600, "inter-latin-600-normal.woff2"),
                                          ("Inter", "normal", 700, "inter-latin-700-normal.woff2")])
-    return ff + f"""
+    return ff + _ff_ext(fonts) + f"""
 html,body{{scrollbar-width:none}}::-webkit-scrollbar{{display:none}}
 *,*::before,*::after{{animation-play-state:paused!important;transition-duration:0s!important;transition-delay:0s!important}}
 html,body,#main,.page,.story,.story-in,.sy,.sy-in{{overflow-x:clip!important}}   /* a zoomed camera must never widen the mobile layout viewport */
@@ -1036,7 +1053,7 @@ def css16(fonts):
                                          ("Newsreader", "normal", 500, "newsreader-latin-500-normal.woff2"), ("Newsreader", "italic", 500, "newsreader-latin-500-italic.woff2"),
                                          ("Inter", "normal", 400, "inter-latin-400-normal.woff2"), ("Inter", "normal", 600, "inter-latin-600-normal.woff2"),
                                          ("Inter", "normal", 700, "inter-latin-700-normal.woff2")])
-    return ff + """
+    return ff + _ff_ext(fonts) + """
 html,body{scrollbar-width:none}::-webkit-scrollbar{display:none}
 *,*::before,*::after{animation-play-state:paused!important;transition-duration:0s!important;transition-delay:0s!important}
 html,body,#main,.page,.story,.story-in,.sy,.sy-in{overflow-x:clip!important}

@@ -33,6 +33,9 @@ def page(a):
 @font-face{{font-family:I;font-weight:700;src:url(data:font/woff2;base64,{f('inter-latin-700-normal.woff2')}) format('woff2')}}
 @font-face{{font-family:I;font-weight:600;src:url(data:font/woff2;base64,{f('inter-latin-600-normal.woff2')}) format('woff2')}}
 @font-face{{font-family:N;font-weight:500;font-style:italic;src:url(data:font/woff2;base64,{f('newsreader-latin-500-italic.woff2')}) format('woff2')}}
+@font-face{{font-family:I;font-weight:700;src:url(data:font/woff2;base64,{f('inter-latin-ext-700-normal.woff2')}) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}}
+@font-face{{font-family:I;font-weight:600;src:url(data:font/woff2;base64,{f('inter-latin-ext-600-normal.woff2')}) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}}
+@font-face{{font-family:N;font-weight:500;font-style:italic;src:url(data:font/woff2;base64,{f('newsreader-latin-ext-500-italic.woff2')}) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}}
 html,body{{margin:0;width:1280px;height:720px;overflow:hidden;background:#120d0a}}
 .bg{{position:absolute;inset:0;background:url(data:{mime};base64,{img}) center/cover no-repeat;filter:saturate(1.15) contrast(1.06)}}
 .sh{{position:absolute;inset:0;background:{grad}}}

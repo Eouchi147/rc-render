@@ -192,6 +192,15 @@ LEX.update({"goedog": "ɡˈɔɪdɑːɡ", "craig": "kɹˈaɪɡ", "rhosyfelin": "�
             "denisova": "dᵻnˈiːsəvə", "altai": "ɑːltˈaɪ", "kazakhstan": "kˌɑːzɑːkstˈɑːn", "denis": "dˈɛnɪs",
             "magbukon": "mɑːɡbˈuːkɔːn"})
 
+LEX.update({  # round 7 (LF.31 to LF.35)
+            "byrsa": "bˈɜːsə", "salammbo": "sˌælɑːmbˈoʊ", "albakri": "ælbˈɑːkɹi", "bakri": "bˈɑːkɹi", "agellid": "ˌæɡɛlˈiːd",
+            "hammon": "hɑːmˈoʊn", "stelae": "stˈiːliː", "polybius": "pəlˈɪbiəs", "appian": "ˈæpiən", "scipio": "skˈɪpioʊ",
+            "palestrina": "pˌæləstɹˈiːnə", "mnajdra": "ɪmnˈaɪdɹə", "hagar": "hˈɑːdʒɑːɹ", "qim": "ˈiːm", "latnija": "lætnˈiːjə",
+            "paola": "pˈɑːoʊlə", "themistocles": "θəmˈɪstəkliːz", "xaghra": "ʃˈɑːɹə", "xagħra": "ʃˈɑːɹə", "tarxien": "tˈɑːɹʃiɛn",
+            "saflieni": "sˌæfliˈeɪni", "vincenzo": "viːntʃˈɛntsoʊ", "michele": "miːkˈɛleɪ", "mohenjodaro": "moʊhˌɛndʒoʊdˈɑːɹoʊ",
+            "childe": "tʃˈaɪld", "petrie": "pˈiːtɹi", "ultrasonic": "ˌʌltɹəsˈɑːnɪk", "denys": "dˈɛnɪs", "badari": "bədˈɑːɹi",
+            "auguste": "oʊɡˈuːst", "niger": "niːʒˈɛɹ", "reidite": "ɹˈiːdaɪt", "gauthier": "ɡoʊtiˈeɪ", "lafaye": "lɑːfˈeɪ"})
+
 
 def _key(w):
     return re.sub(r"[^\wöüışçğ'’]", "", w.lower()).replace("’", "'")
