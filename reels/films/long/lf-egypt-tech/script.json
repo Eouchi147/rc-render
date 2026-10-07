@@ -1,0 +1,778 @@
+{
+ "id": "lf-egypt-tech",
+ "kind": "theme",
+ "series": "Under Giza",
+ "title": "Egypt's Lost Machines?",
+ "intro_title": "Egypt's Lost Machines?",
+ "yt_title": "Did Ancient Egypt Have Lost Machines? Four Clues, Weighed",
+ "verdict": "Awaiting evidence",
+ "verdict_scope": "A lost high technology (machines, lathes, power tools, a power plant) in ancient Egypt: Awaiting evidence (no machine, machine part or machine-made object has been found in a dated context, and every tested object points to hand methods). Graded separately: hard stone worked with copper, sand, stone borers and time: Strong evidence (tools, cores, reliefs and experiments agree); machine-made Predynastic vases: Awaiting evidence (the precise ones lack find-spots, the 19 documented Petrie Museum vessels measure as handmade); core 7's groove as a machine's track: Awaiting evidence, and exactly how it was cut: Open question; Serapeum boxes older than the Apis burials: Awaiting evidence; the Giza power plant: Ruled out.",
+ "hook": "Did ancient Egypt have lost machines?",
+ "end_line": "Hour after hour, a jar of hard stone came true in someone's hands.",
+ "structure_note": "chapters[0] is the cold open and the title beat (no chapter card; YouTube chapter 0:00). Chapters 1 to 5 are the story chapters, each opening on a sentence that stands alone (each will also be cut as a vertical clip); 'The weighing' carries the verdicts, the test and the close. Shot ids s1..s53 are in story order; 'alias of sN' means a return to that panel.",
+ "chapters": [
+  {
+   "title": "Cold open",
+   "beats": [
+    {
+     "role": "hook",
+     "lines": [
+      "[d:intrigue][sfx:boom][act:hushed wonder, drawing them in]A stone jar more than five thousand years ^old, carved from rock so hard that copper can't even ^scratch it.",
+      "[d:tension][act:reporting the claim, even]Scanned in three dimensions, jars like it look so ^true that some engineers say only a ^*machine* could have made them.",
+      "[act:quickening, a teaser][tune:level]Nearby, a granite core with a spiral ^groove. [act:same pace][tune:level]Stone boxes of some sixty tonnes, in a dark ^tunnel. [act:same pace, a raised eyebrow][tune:fall]And a pyramid some call a power ^plant.",
+      "[d:wonder][act:the child's question, wide-eyed][tune:rise]Did ancient Egypt have lost ^*machines*?"
+     ],
+     "shots": [
+      {
+       "id": "s1",
+       "say": "A stone jar more than five thousand years old, carved from rock so hard that copper can't even scratch it.",
+       "draw": "HERO IMAGE, fully drawn from the first frame: on black, a single hard-stone jar (a squat shouldered jar with a narrow neck and a flat rim, speckled black-and-white stone like the gneiss and diorite vessels) turning slowly on its axis in a vertical beam of warm light from above; dust motes drift in the beam, a soft pool of light on the floor, a faint reflection. On 'five thousand years old' a small chip 'over 5,000 years old' fades in at the left; on 'copper' a small copper chisel slides in at the right and glances off the stone with a spark (label 'copper won't scratch it')."
+      },
+      {
+       "id": "s2",
+       "say": "Scanned in three dimensions, jars like it look so true that some engineers say only a machine could have made them.",
+       "draw": "The same jar (the camera eases in): a pale-blue scanner sheet of light sweeps down it, leaving a fine wireframe of rings; a perfect dashed circle locks onto its outline; lilac dotted label 'only a machine?' (claimed).",
+       "reuse": "alias of s1, closer"
+      },
+      {
+       "id": "s3",
+       "say": "Nearby, a granite core with a spiral groove. Stone boxes of some sixty tonnes, in a dark tunnel. And a pyramid some call a power plant.",
+       "draw": "Three vignettes pop in from left to right as named, each in its own pool of lamplight: a pinkish granite drill core with a gold spiral groove ('a spiral groove'); a huge dark granite box in a lamp-lit tunnel, a person beside it for scale ('about 60 tonnes'); the Great Pyramid at night with a dotted lilac beam leaving its side ('a power plant?')."
+      },
+      {
+       "id": "s4",
+       "say": "Did ancient Egypt have lost machines?",
+       "draw": "Back on the hero jar, wider: a lilac question mark rises beside it.",
+       "reuse": "alias of s1, wide"
+      }
+     ]
+    },
+    {
+     "role": "title",
+     "lines": [
+      "[d:calm][act:warm, setting out]Egypt's lost ^machines? [act:the promise, friendly][tune:fall]Four famous clues, weighed one by ^one."
+     ],
+     "shots": [
+      {
+       "id": "s5",
+       "say": "Egypt's lost machines? Four famous clues, weighed one by one.",
+       "draw": "intro_title card 'Egypt's Lost Machines?' over the dimmed hero panel. Nothing else drawn."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The impossible vases",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:storytelling, placing it]Under Djoser's Step Pyramid at Saqqara, the oldest pyramid in Egypt, archaeologists found between thirty and forty thousand stone ^vessels. [act:a picture, unhurried]Jars, bowls and plates, packed into long galleries some four thousand seven hundred years ^ago, [act:the detail, a little wonder][tune:fall]many of them already antiques, carrying the names of earlier ^kings.",
+      "[d:list][p:0.93][act:the detail, admiring]Most are soft, milky ^travertine. [act:the marvel][tune:level]But hundreds are hard ^stone: [tune:level]^granite, [tune:level]^basalt, [tune:fall]speckled ^gneiss. [act:explaining]Heavy, tough stones that wear tools ^down."
+     ],
+     "shots": [
+      {
+       "id": "s6",
+       "say": "Under Djoser's Step Pyramid at Saqqara, the oldest pyramid in Egypt, archaeologists found between thirty and forty thousand stone vessels. Jars, bowls and plates, packed into long galleries some four thousand seven hundred years ago, many of them already antiques, carrying the names of earlier kings.",
+       "draw": "Djoser's Step Pyramid in side elevation at dusk (six steps, warm limestone, a person for scale), the ground cut away beneath it: two long galleries in the rock (dimmed rock strata), which fill row by row with tiny vessels (jars, bowls, plates) as 'thirty and forty thousand' is said; label 'Djoser's Step Pyramid', chip 'c. 2650 BCE', counter '30,000 to 40,000'. On 'names of earlier kings', three small vessels glow and a little ink inscription (a serekh) appears on each, label 'older kings' names'."
+      },
+      {
+       "id": "s7",
+       "say": "Most are soft, milky travertine. But hundreds are hard stone: granite, basalt, speckled gneiss. Heavy, tough stones that wear tools down.",
+       "draw": "A shelf of vessels in lamplight: a crowd of pale translucent travertine jars at the back (dimmed, label 'most: travertine'); then, in front, as named, a pink speckled granite jar, a black basalt jar and a black-and-white gneiss bowl pop in, each with its label; a worn copper chisel lies beside them, its edge rounded (label 'they wear tools down')."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:building, precise]From {2023|twenty twenty-three}, YouTube researchers and collectors began scanning vases like these, mostly from private ^collections, [tune:fall]and posting the results ^online. [p:0.93][act:explaining, clear]A scanner sweeps light over the surface, and maps millions of ^points.",
+      "[d:tension][act:the claim, precise]Some vases, they reported, are round and centred to about a thousandth of an ^inch, [act:an image][tune:fall]finer than a human ^hair. [sfx:hit][act:the claim at its strongest, even]Too perfect@adj for hands, some said: [tune:fall]this is the work of a ^*lathe*, a machine that spins the stone against a fixed ^blade."
+     ],
+     "shots": [
+      {
+       "id": "s8",
+       "say": "From 2023, YouTube researchers and collectors began scanning vases like these, mostly from private collections, and posting the results online. A scanner sweeps light over the surface, and maps millions of points.",
+       "draw": "A dark granite vase on a slowly turning stand; a structured-light scanner on a tripod (two camera eyes and a projector) throws stripes of pale-blue light across it; at the right, a laptop screen fills with a cloud of points that becomes the vase's outline; labels 'private collection', '3D scan', chip '2023'."
+      },
+      {
+       "id": "s9",
+       "say": "Some vases, they reported, are round and centred to about a thousandth of an inch, finer than a human hair. Too perfect for hands, some said: this is the work of a lathe, a machine that spins the stone against a fixed blade.",
+       "draw": "Left: a slice through a vase as a circle, its tiny deviation from a perfect dashed circle exaggerated; a scale bar 'a thousandth of an inch: 25 µm' beside the cross-section of a human hair (about 70 µm, drawn to the same scale). Right, on 'lathe': a lilac dotted lathe (headstock, spinning vase, a fixed cutting blade on its rest), label 'a lathe? (claimed)'."
+      }
+     ]
+    },
+    {
+     "role": "cost",
+     "lines": [
+      "[d:build][act:the catch, careful]But there's a ^catch. [act:explaining]Those star vases have no recorded ^find-spot. [p:0.93][act:the method, clear]An object@noun speaks as evidence because of where it was ^found: [tune:level]the tomb, [tune:level]the layer, [tune:fall]the ^date. [act:plain, no drama][tune:fall]And stone vases are still turned on lathes ^today."
+     ],
+     "shots": [
+      {
+       "id": "s10",
+       "say": "But there's a catch. Those star vases have no recorded find-spot. An object speaks as evidence because of where it was found: the tomb, the layer, the date. And stone vases are still turned on lathes today.",
+       "draw": "Two frames side by side. Left: a vase on a velvet stand under a spotlight, a blank tag with a question mark (label 'no find-spot', dotted gold frame). Right, as named: a vase lying in a tomb chamber cut into a layered section, the layer outlined, a date chip (labels 'the tomb', 'the layer', 'the date'; green solid frame). On 'still turned on lathes today', a small modern lathe with a stone vase appears under the left frame (label 'modern copies')."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:leaning in, fresh news]So in December {2025|twenty twenty-five}, a peer-reviewed study ran the fair ^test. [act:the method, clear]It scanned nineteen vases with a documented history, in London's Petrie ^Museum, [act:same, clear]beside twenty-five machine-made and twenty-four handmade modern ^ones.",
+      "[p:0.93][act:the result, clear]The machine-made vases sat in a tight cluster of their ^own. [sfx:shimmer][act:the reveal][tune:fall]The ancient vases' outer surfaces measured like the ^*handmade* ones. [act:the nuance, careful]Their insides were rounder, but a little ^off-centre: [act:the reading][tune:fall]the mark, the author argues, of borers and ^sand."
+     ],
+     "shots": [
+      {
+       "id": "s11",
+       "say": "So in December 2025, a peer-reviewed study ran the fair test. It scanned nineteen vases with a documented history, in London's Petrie Museum, beside twenty-five machine-made and twenty-four handmade modern ones.",
+       "draw": "Three groups of small vase icons count in as named: 19 gold vases ('Petrie Museum, documented'), 25 blue vases ('machine-made, modern'), 24 green vases ('handmade, modern'); a chip 'peer reviewed · npj Heritage Science · Dec 2025' at the top."
+      },
+      {
+       "id": "s12",
+       "say": "The machine-made vases sat in a tight cluster of their own. The ancient vases' outer surfaces measured like the handmade ones. Their insides were rounder, but a little off-centre: the mark, the author argues, of borers and sand.",
+       "draw": "A schematic quality chart (x 'less round', y 'more off-centre', no numbers): blue dots gather in a tight cluster in the bottom-left corner ('machine-made'); green dots spread across the middle ('handmade'); gold dots land among the green ('ancient: outer surface'). Inset at the right: a vase's cross-section, its inner circle round but shifted off the centre of the outer one (label 'inside: round, off-centre'), a small stone borer and sand grains beside it ('stone borer and sand')."
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:verdict][act:the landing, quiet][tune:fall]When vases with a known past were measured, they looked like the work of ^*hands*."
+     ],
+     "shots": [
+      {
+       "id": "s13",
+       "say": "When vases with a known past were measured, they looked like the work of hands.",
+       "draw": "The hero jar again, small and lit from above, now cradled by a pair of hands in warm silhouette; the gold dots of the chart drift down into the jar like dust in the beam."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "A spiral in granite",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:plain storytelling, fond]In London's Petrie Museum lies a little cylinder of granite, eleven centimetres tall, [tune:fall]labelled core ^seven. [p:0.93][act:explaining, clear]It's the plug left behind when you drill a round hole with a hollow ^tube, like a pastry cutter pressed into ^dough. [act:storytelling]Flinders Petrie picked it up at Giza around {1881|eighteen eighty-one}: [tune:fall]waste from the age of the ^pyramids."
+     ],
+     "shots": [
+      {
+       "id": "s14",
+       "say": "In London's Petrie Museum lies a little cylinder of granite, eleven centimetres tall, labelled core seven. It's the plug left behind when you drill a round hole with a hollow tube, like a pastry cutter pressed into dough. Flinders Petrie picked it up at Giza around 1881: waste from the age of the pyramids.",
+       "draw": "Core 7 large, upright in a museum light at the right (granite texture, grooves), a dimension '11 cm' and a tag 'core 7'. At the left, on 'hollow tube': a granite block in cutaway with a copper tube sunk into a ring-shaped slot and the core standing inside it; on 'pastry cutter', a small pastry cutter pressing into dough. On 'Giza around 1881', a small pyramid pin 'Giza, 1881'."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:the surprise, admiring]The first man to call it astonishing was no fringe ^writer. [act:fond][tune:fall]It was Petrie ^himself, one of the founders of careful archaeology in ^Egypt.",
+      "[p:0.93][act:explaining, precise]Around the core runs a groove that sinks a tenth of an inch, about two and a half millimetres, in a single ^turn. [act:his reading, fair]In {1883|eighteen eighty-three} he read@past that as the drill's ^feed, [act:his conclusion][tune:fall]and decided loose sand couldn't have cut it: [act:his picture]the tube must have carried fixed jewel ^teeth, pressed down by a ton or ^two."
+     ],
+     "shots": [
+      {
+       "id": "s15",
+       "say": "The first man to call it astonishing was no fringe writer. It was Petrie himself, one of the founders of careful archaeology in Egypt.",
+       "draw": "Giza at dusk, the pyramids dim behind; in front, a silhouette of a bearded surveyor in a hat at a tripod theodolite beside a small tent, a lamp glowing; label 'Flinders Petrie at Giza, 1880 to 1882'; his notebook open with neat columns of figures."
+      },
+      {
+       "id": "s16",
+       "say": "Around the core runs a groove that sinks a tenth of an inch, about two and a half millimetres, in a single turn. In 1883 he read that as the drill's feed, and decided loose sand couldn't have cut it: the tube must have carried fixed jewel teeth, pressed down by a ton or two.",
+       "draw": "Core 7 close up: one groove lights up in gold and winds around it; beside it the groove unrolled as a sloping line: run 'one turn: about 15 cm', drop '0.1 inch: 2.5 mm' (1 in 60). Then a drill tube's rim with small jewel teeth drawn dotted (Petrie's idea), and a weight '1 to 2 tons' pressing down on it (labels 'Petrie, 1883: fixed jewel points')."
+      }
+     ]
+    },
+    {
+     "role": "cost",
+     "lines": [
+      "[d:build][act:giving his reading, fair]A century later, the machinist Christopher ^Dunn took Petrie's figure into the ^workshop. [p:0.93][act:his comparison, clear]A modern diamond drill in granite, a granite firm told him, advances about two ten-thousandths of an inch per ^turn. [act:the punchline, serious][tune:fall]Petrie's groove: ^*five hundred* times ^more.",
+      "[d:tension][sfx:hit][act:reporting his verdict, even]In {1984|nineteen eighty-four}, he proposed a machine that cuts by ^vibrating: an ultrasonic ^drill. [act:fair, taking it seriously][tune:rise]A sharp question from a ^machinist: [act:the challenge][tune:rise]could hand tools ever do ^that?"
+     ],
+     "shots": [
+      {
+       "id": "s17",
+       "say": "A century later, the machinist Christopher Dunn took Petrie's figure into the workshop. A modern diamond drill in granite, a granite firm told him, advances about two ten-thousandths of an inch per turn. Petrie's groove: five hundred times more.",
+       "draw": "Two bars on one scale, 'feed per turn': a hair-thin bar 'modern diamond drill: 0.0002 inch' and a long gold bar growing 500 times longer, 'Petrie's groove: 0.1 inch', a chip '×500'. A machinist's silhouette at a lathe dim in the background; label 'Dunn'."
+      },
+      {
+       "id": "s18",
+       "say": "In 1984, he proposed a machine that cuts by vibrating: an ultrasonic drill. A sharp question from a machinist: could hand tools ever do that?",
+       "draw": "A lilac dotted drill head over a granite block, fine vibration rings around its tip (label 'an ultrasonic drill? Dunn, 1984 (proposed)'); on 'could hand tools', a simple bow drill in warm silhouette fades in beside it with a question mark between them."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Copper, sand and patience",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:calm][act:curious, the child's question][tune:rise]Can soft copper really drill hard ^granite? [act:storytelling, warm]The experimental archaeologist Denys ^Stocks spent years finding out, with his own ^hands. [p:0.93][act:the key fact, clear]The secret is ^hardness.",
+      "[d:list][act:explaining, the analogy]Geologists rank minerals by what scratches what: [tune:level]copper at about ^three, [tune:level]the feldspar in granite at ^six, [tune:fall]and quartz, the stuff of desert@noun ^sand, at ^seven. [act:the point, firm][tune:fall]So the copper doesn't cut the granite. [act:the payoff][tune:fall]The ^*sand* does@verb; the copper just carries it ^round."
+     ],
+     "shots": [
+      {
+       "id": "s19",
+       "say": "Can soft copper really drill hard granite? The experimental archaeologist Denys Stocks spent years finding out, with his own hands. The secret is hardness.",
+       "draw": "A workbench in lamplight: a figure turning a bow drill on a block of pink granite, a pile of sand and a bowl of copper tubes beside him; label 'Denys Stocks, experimental archaeologist'; on 'hardness' a small diamond-shaped scale icon glows."
+      },
+      {
+       "id": "s20",
+       "say": "Geologists rank minerals by what scratches what: copper at about three, the feldspar in granite at six, and quartz, the stuff of desert sand, at seven.",
+       "draw": "A hardness scale from 1 to 10 along the bottom ('what scratches what'); bars rise as named: copper 3 (copper colour), feldspar 6 (pink, a granite chip icon), quartz 7 (clear, a heap of sand); a dashed line at 6 'granite's minerals'."
+      },
+      {
+       "id": "s21",
+       "say": "So the copper doesn't cut the granite. The sand does; the copper just carries it round.",
+       "draw": "A magnified cutaway of a tube's rim in its slot: the copper wall (copper colour) turning, sand grains rolling and grinding under it, tiny chips of pink granite flying off the bottom of the slot; labels 'copper carries', 'sand cuts'; arrows show the turning."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:storytelling, vivid]At Aswan, three men spun an eight-centimetre copper tube with a bow@archery, as Egyptian art shows, pouring dry sand under its ^rim. [p:0.93][act:the result, precise]After twenty hours, it had sunk six ^centimetres, [tune:fall]and left a core, ringed with ^grooves.",
+      "[act:honest, drawn out]^Slow: [tune:fall]about three millimetres an ^hour. [p:0.93][act:the turn, fair]And the grooves on experimental cores are ^scratches, cut by hard grains caught between copper and ^stone, [act:the point][tune:fall]which experimenters say can jump from line to line, and look like a ^spiral."
+     ],
+     "shots": [
+      {
+       "id": "s22",
+       "say": "At Aswan, three men spun an eight-centimetre copper tube with a bow, as Egyptian art shows, pouring dry sand under its rim. After twenty hours, it had sunk six centimetres, and left a core, ringed with grooves.",
+       "draw": "Aswan granite at dawn: three figures at a block, one pushing a long bow back and forth, one pressing down on the drill's cap, one pouring sand; the copper tube '8 cm'. A small clock counts to '20 hours' while a depth gauge on the cutaway fills to '6 cm'; then the core is lifted out, ringed with grooves."
+      },
+      {
+       "id": "s23",
+       "say": "Slow: about three millimetres an hour. And the grooves on experimental cores are scratches, cut by hard grains caught between copper and stone, which experimenters say can jump from line to line, and look like a spiral.",
+       "draw": "Left: a chip '3 mm an hour' with a tiny depth arrow. Right: a magnified slice of the slot, a single hard grain trapped between the copper and the core, scratching a groove; the groove jumps from one ring to the next and, seen from the side, reads as a slanting spiral (label 'a scratch, not a screw thread?'); experimental core beside it with its rings."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:list][act:showing us, warm interest]For the vases, Egyptian art shows the ^tool: [act:describing it]a drill with a cranked handle, weighted with two ^stones, turning a stone bit inside the ^jar. [act:the delight][tune:fall]It was so central to the work that it became the hieroglyph for the word ^*craft*.",
+      "[act:leaning in, fresh news]And a copper drill bit from a grave at ^Badari, about five thousand three hundred years ^old, [act:wonder, softly][tune:fall]still has its leather bow-string coiled around ^it."
+     ],
+     "shots": [
+      {
+       "id": "s24",
+       "say": "For the vases, Egyptian art shows the tool: a drill with a cranked handle, weighted with two stones, turning a stone bit inside the jar. It was so central to the work that it became the hieroglyph for the word craft.",
+       "draw": "A tomb-relief scene on an ochre wall (Egyptian profile figures, register lines): a craftsman seated by a jar, turning a drill whose cranked top carries two stone weights; a cutaway of the jar shows the crescent stone bit inside. On 'hieroglyph', the drill sign (Gardiner U24, the stoneworker's drill weighted with stones) draws itself large in a framed column, label 'craft'. Label 'tomb reliefs, Old Kingdom'."
+      },
+      {
+       "id": "s25",
+       "say": "And a copper drill bit from a grave at Badari, about five thousand three hundred years old, still has its leather bow-string coiled around it.",
+       "draw": "A museum spotlight on a slim copper-green drill bit, 63 mm long, with six coils of dark leather thong around its shank (label 'Badari grave 3932', chip 'c. 3300 BCE', dimension '63 mm'); a faint drawing of the bow and its string looping around the shaft shows how it spun."
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:verdict][act:a satisfied nod][tune:fall]Copper, sand and patience ^work. [act:fair, the open part][tune:fall]Only core seven's exact groove hasn't been matched, ^yet."
+     ],
+     "shots": [
+      {
+       "id": "s26",
+       "say": "Copper, sand and patience work. Only core seven's exact groove hasn't been matched, yet.",
+       "draw": "Core 7 (gold groove) and an experimental core side by side in lamplight, a ruler between them; a tick by 'copper and sand: it works' and a small lilac question mark between the two grooves, label 'exact groove: not yet matched'."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Boxes in the dark",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:intrigue][act:hushed, entering the dark]Under the sand at Saqqara runs a tunnel lined with twenty-four giant stone ^boxes: the ^Serapeum. [act:hushed, a picture]Each sits in its own side ^room, [tune:fall]most with the lid pushed aside, long ^ago. [act:storytelling, vivid]In {1850|eighteen fifty}, the young French archaeologist Auguste ^Mariette spotted a sphinx's head in the sand, followed a buried avenue of ^sphinxes, [tune:fall]and in {1851|eighteen fifty-one} found his way into the ^vaults.",
+      "[d:calm][p:0.93][act:precise, impressed]One giant, measured in Mariette's day, is nearly four metres ^long, [tune:fall]and with its lid weighs up to sixty-two ^tonnes, [act:an image]about the weight of forty ^cars. [act:with care, explaining]This was the resting place of the Apis ^bulls, living sacred animals of ^Memphis, [tune:fall]buried with honours for some fourteen hundred ^years."
+     ],
+     "shots": [
+      {
+       "id": "s27",
+       "say": "Under the sand at Saqqara runs a tunnel lined with twenty-four giant stone boxes: the Serapeum. Each sits in its own side room, most with the lid pushed aside, long ago.",
+       "draw": "A lamp-lit rock tunnel in one-point perspective, side chambers opening left and right, a huge dark granite box in each, lids slid aside; the nearest box large in the foreground; label 'the Serapeum, Saqqara'. (The chapter card holds the first sentence; the tunnel is on screen from 'Each sits'.)",
+       "reuse": "f05 serapeum shot 0 (corridor_view), redrawn wide"
+      },
+      {
+       "id": "s28",
+       "say": "In 1850, the young French archaeologist Auguste Mariette spotted a sphinx's head in the sand, followed a buried avenue of sphinxes, and in 1851 broke into the vaults.",
+       "draw": "Saqqara's dunes at dusk: a sphinx head pokes out of the sand ('1850'); a dotted line of buried sphinxes (only their backs showing) leads away to a dark doorway in the rock ('1851'); a small figure with a lamp, label 'Auguste Mariette'."
+      },
+      {
+       "id": "s29",
+       "say": "One giant, measured in Mariette's day, is nearly four metres long, and with its lid weighs up to sixty-two tonnes, about the weight of forty cars.",
+       "draw": "One box in three-quarter view with its lid on top, a 1.7 m person beside it for scale; dimension '3.85 m'; chip 'box and lid: up to 62 tonnes'; then forty small car icons fill a grid beside it, one by one, '= about 40 cars'."
+      },
+      {
+       "id": "s30",
+       "say": "This was the resting place of the Apis bulls, living sacred animals of Memphis, buried with honours for some fourteen hundred years.",
+       "draw": "A gold line drawing of the Apis bull in Egyptian style (sun disc between its horns), dignified and calm, over a timeline from 1400 BCE to 1 CE: a band 'Apis burials at Saqqara, about 1,400 years' from Amenhotep III (c. 1390 BCE) to the Ptolemies."
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:giving his side, fair]In {1995|nineteen ninety-five}, Christopher Dunn climbed inside one box with a machinist's straightedge and a ^torch. [p:0.93][act:explaining the method, clear]Hold a true edge against a surface, shine a light behind it, and any dip shows as a sliver of ^light. [act:reporting what he saw, even]He saw ^none. [act:his words, even][tune:fall]Perfectly ^flat, he reported.",
+      "[d:tension][act:his conclusion, stated plainly][tune:fall]^Machined, he concluded. [act:raising the stakes]Some writers go further: [tune:fall]older than the tunnels, and ^reused."
+     ],
+     "shots": [
+      {
+       "id": "s31",
+       "say": "In 1995, Christopher Dunn climbed inside one box with a machinist's straightedge and a torch. Hold a true edge against a surface, shine a light behind it, and any dip shows as a sliver of light. He saw none. Perfectly flat, he reported.",
+       "draw": "Inside a box: the polished inner wall face-on, a short steel straightedge held against it and a torch behind it: no light shows under the edge (label 'no light: flat here', chip 'Dunn, 1995'); beside it, the method on a small sample: a true edge on a surface with a shallow dip, a sliver of light showing through the dip ('a dip lets light through')."
+      },
+      {
+       "id": "s32",
+       "say": "Machined, he concluded. Some writers go further: older than the tunnels, and reused.",
+       "draw": "The box again from outside, a lilac dotted label 'machined?' on it; a dotted lilac arrow runs back along a short timeline to 'older than the tunnels?' and loops into the gallery: 'reused?' (claims, dotted)."
+      }
+     ]
+    },
+    {
+     "role": "cost",
+     "lines": [
+      "[d:build][act:the counterweight, measured]But some boxes carry the names of ^kings. [act:reading them off, clear][tune:level]^Amasis. [act:same beat][tune:level]^Cambyses. [act:same beat, landing][tune:fall]^Khababash. [act:dating it, precise]They ruled between the sixth and fourth centuries ^BCE, [tune:fall]and the Greater Vaults were begun around {612|six hundred and twelve} ^BCE.",
+      "[d:list][act:the record, steady]Hundreds of inscribed stone tablets, left by priests and pilgrims, date the burials reign by ^reign. [act:the click, a little delighted][tune:fall]The kings' names land right inside that ^window."
+     ],
+     "shots": [
+      {
+       "id": "s33",
+       "say": "But some boxes carry the names of kings. Amasis. Cambyses. Khababash. They ruled between the sixth and fourth centuries BCE, and the Greater Vaults were begun around 612 BCE.",
+       "draw": "Three gold cartouche plaques pop as named: 'Amasis II, c. 570 to 526 BCE', 'Cambyses II, c. 525 BCE', 'Khababash, c. 336 BCE'; then a timeline from 700 to 300 BCE draws beneath them: a band 'Greater Vaults, from c. 612 BCE' and three gold dots for the kings, all inside the band."
+      },
+      {
+       "id": "s34",
+       "say": "Hundreds of inscribed stone tablets, left by priests and pilgrims, date the burials reign by reign. The kings' names land right inside that window.",
+       "draw": "A wall of small round-topped stelae (some with a bull carved on them) pops in, many; then the timeline of the previous shot slides under them and a bright bracket 'inside the window' closes around the three dots."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:leaning in, fair][tune:rise]And the ^flatness? [act:dry, precise]A few checks with a short straightedge, [tune:fall]never published as a full ^survey@noun. [act:generous]Dunn himself wished he could scan the whole ^surface.",
+      "[p:0.93][act:explaining, clear]And flat stone can be made by ^hand: [act:the method]rub stone on stone with sand between, and the high spots wear away ^first. [act:the engineering, admiring]The granite came nearly nine hundred kilometres down the Nile from ^Aswan; [act:the honest gap][tune:fall]how each box was turned into its chamber, nobody wrote ^down."
+     ],
+     "shots": [
+      {
+       "id": "s35",
+       "say": "And the flatness? A few checks with a short straightedge, never published as a full survey. Dunn himself wished he could scan the whole surface.",
+       "draw": "The box's long inner wall drawn to scale (3.85 m) with three short straightedge marks on it (schematic); then a dotted pale-blue grid spreads over the whole wall: 'a full survey: not yet done'."
+      },
+      {
+       "id": "s36",
+       "say": "And flat stone can be made by hand: rub stone on stone with sand between, and the high spots wear away first.",
+       "draw": "Two stones in section, one rubbed over the other with arrows back and forth, sand grains between; the high spots on the lower stone (exaggerated bumps) wear down step by step until the line is flat; label 'lapping by hand'."
+      },
+      {
+       "id": "s37",
+       "say": "The granite came nearly nine hundred kilometres down the Nile from Aswan; how each box was turned into its chamber, nobody wrote down.",
+       "draw": "Left: a vertical strip map of the Nile from Aswan (bottom) to Saqqara (top), a barge carrying a box drawing its route upward, label 'nearly 900 km'. Right: a plan of the gallery with one side chamber; a box on a sledge in the corridor and a dotted lilac arc showing the turn into the chamber with a question mark ('how? not recorded')."
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:verdict][act:practical, a friendly push]Laser-scan all twenty-four, inside and ^out, [act:quiet, certain][tune:fall]and the numbers will settle ^it."
+     ],
+     "shots": [
+      {
+       "id": "s38",
+       "say": "Laser-scan all twenty-four, inside and out, and the numbers will settle it.",
+       "draw": "Back in the tunnel of s27: pale-blue scan lines sweep along the gallery and over every box; a counter '24 boxes' ticks.",
+       "reuse": "alias of s27"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "A power plant?",
+   "beats": [
+    {
+     "role": "world",
+     "lines": [
+      "[d:intrigue][act:playful, what if]In {1998|nineteen ninety-eight}, the engineer Christopher Dunn proposed that the Great Pyramid of Giza was never a tomb, but a power ^*plant*. [act:fair, explaining]He looked at its narrow shafts and its granite heart, and saw the parts of an ^engine.",
+      "[d:list][act:walking through his idea, fair][tune:level]Chemicals fed down the Queen's Chamber shafts make ^hydrogen. [act:same pace][tune:level]The granite King's Chamber rings like a tuning ^fork. [sfx:shimmer][act:the big finish, even][tune:fall]And a beam of microwaves leaves through the southern ^shaft."
+     ],
+     "shots": [
+      {
+       "id": "s39",
+       "say": "In 1998, the engineer Christopher Dunn proposed that the Great Pyramid of Giza was never a tomb, but a power plant. He looked at its narrow shafts and its granite heart, and saw the parts of an engine.",
+       "draw": "The Great Pyramid in north-south section, drawn to scale (base 230 m, height 147 m), at night: the passages, the Grand Gallery, the Queen's Chamber and the granite King's Chamber, then its four narrow shafts drawing themselves on 'narrow shafts'; labels 'Queen's Chamber', 'King's Chamber, granite'; chip 'Dunn, 1998'."
+      },
+      {
+       "id": "s40",
+       "say": "Chemicals fed down the Queen's Chamber shafts make hydrogen. The granite King's Chamber rings like a tuning fork. And a beam of microwaves leaves through the southern shaft.",
+       "draw": "The same section, closer: Dunn's machine drawn in lilac dotted lines as named: drops running down the Queen's Chamber shafts and a pale cloud 'hydrogen?'; vibration rings around the King's Chamber 'ringing granite?'; a dotted beam leaving through the southern shaft into the night 'microwave beam?'.",
+       "reuse": "alias of s39, closer"
+      }
+     ]
+    },
+    {
+     "role": "collision",
+     "lines": [
+      "[d:build][act:bright, genuinely pleased]Here's the good part: a machine leaves ^traces, [act:warm, eager][tune:fall]so this idea can be ^*checked*. [act:first test, crisp][tune:rise]The salt on the Queen's Chamber ^walls? [act:fair][tune:fall]Dunn read@past it as a residue of the ^chemistry.",
+      "[p:0.93][act:reporting the result, clear]In {2026|twenty twenty-six}, a team analysed it: [tune:fall]rock salt, from the limestone ^itself, laid down under an ancient ^sea. [act:the twist, a little delighted]And it's still ^growing: [tune:fall]stone that was bare in {2022|twenty twenty-two} was crusted by {2024|twenty twenty-four}."
+     ],
+     "shots": [
+      {
+       "id": "s41",
+       "say": "Here's the good part: a machine leaves traces, so this idea can be checked. The salt on the Queen's Chamber walls? Dunn read it as a residue of the chemistry.",
+       "draw": "Three empty check boxes on the left ('the salt', 'the granite', 'the builders'); then the Queen's Chamber wall (limestone blocks, gabled roof) with white salt crusts blooming on it; a lilac dotted note 'reaction residue? (Dunn)'."
+      },
+      {
+       "id": "s42",
+       "say": "In 2026, a team analysed it: rock salt, from the limestone itself, laid down under an ancient sea. And it's still growing: stone that was bare in 2022 was crusted by 2024.",
+       "draw": "Magnified: little cubes of halite ('rock salt') growing out of a limestone face full of small coin-shaped fossils of sea creatures ('limestone from an ancient sea'); then two panels of the same wall side by side, '2022' bare and '2024' crusted ('still growing'). The first check box ticks."
+      }
+     ]
+    },
+    {
+     "role": "cost",
+     "lines": [
+      "[d:list][act:next test, same tone][tune:rise]Granite as a crystal ^generator? [p:0.93][act:explaining, fair]Squeeze a quartz crystal, and it gives a tiny electric ^charge. [act:explaining, a little amused]But in granite the grains point every which ^way, [act:simple, settled][tune:fall]and their charges mostly ^cancel."
+     ],
+     "shots": [
+      {
+       "id": "s43",
+       "say": "Granite as a crystal generator? Squeeze a quartz crystal, and it gives a tiny electric charge. But in granite the grains point every which way, and their charges mostly cancel.",
+       "draw": "Left: a single clear quartz crystal pressed between two plates, a small spark and '+' and '-' signs. Right: a disc of granite with many quartz grains, each with a small arrow pointing a different way; the arrows add up head to tail into a short tangle that ends near where it began ('they mostly cancel'). The second check box ticks."
+      }
+     ]
+    },
+    {
+     "role": "reversal",
+     "lines": [
+      "[d:reveal][act:lower, leaning in]Then the strongest ^clue. [act:explaining, clear]Above the King's Chamber sit five low ^rooms, stacked to spread the crushing weight of ^stone. [act:storytelling]In {1837|eighteen thirty-seven}, a team blasted into the top ^four, [tune:fall]sealed since the day they were ^built.",
+      "[sfx:hit][act:the reveal, slower]Inside, work gangs had painted marks in red ^ochre, [act:the name, clear and firm][tune:highfall]and a king's name, again and again: ^*Khufu*.",
+      "[act:explaining, warm]A logbook found in {2013|twenty thirteen}, kept by an official named ^Merer, records@verb his crew shipping limestone to the ^pyramid, [tune:fall]by its own name: the Horizon of ^Khufu."
+     ],
+     "shots": [
+      {
+       "id": "s44",
+       "say": "Then the strongest clue. Above the King's Chamber sit five low rooms, stacked to spread the crushing weight of stone. In 1837, a team blasted into the top four, sealed since the day they were built.",
+       "draw": "A cutaway stack: the granite King's Chamber at the bottom, five low compartments above it roofed with granite beams and a limestone gable on top; the lowest labelled 'entered 1765'; the top four light up one after another, 'blasted open, 1837'; little arrows show the weight flowing around.",
+       "reuse": "iso3d.relieving_stack (f05 power-plant shot 6), redrawn wide"
+      },
+      {
+       "id": "s45",
+       "say": "Inside, work gangs had painted marks in red ochre, and a king's name, again and again: Khufu.",
+       "draw": "Rough granite and limestone blocks face-on in lamplight: red-ochre builders' marks paint themselves on (levelling lines, gang signs), then several red cartouches of Khufu appear one after another; label 'work-gang marks, red ochre'; the name 'Khufu' in gold."
+      },
+      {
+       "id": "s46",
+       "say": "A logbook found in 2013, kept by an official named Merer, records his crew shipping limestone to the pyramid, by its own name: the Horizon of Khufu.",
+       "draw": "A papyrus sheet unrolls (hieratic-like lines, a column of dates), label 'Merer's logbook, found 2013'; beside it a small map: the Nile, Tura's quarries on the east bank and Giza on the west, a boat with a block crossing between them; label 'Akhet Khufu: the Horizon of Khufu'. The third check box ticks."
+      }
+     ]
+    },
+    {
+     "role": "tag",
+     "lines": [
+      "[d:verdict][act:calm summary]A king's tomb, signed by its ^builders. [act:fair, warm][tune:fall]The power plant was the good kind of idea: [tune:fall]one that could be ^tested."
+     ],
+     "shots": [
+      {
+       "id": "s47",
+       "say": "A king's tomb, signed by its builders. The power plant was the good kind of idea: one that could be tested.",
+       "draw": "The pyramid section of s39 again at night, Dunn's dotted machine fading out, a warm lamp glowing in the King's Chamber; label 'a king's tomb'; the three ticked boxes beside it.",
+       "reuse": "alias of s39"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The weighing",
+   "beats": [
+    {
+     "role": "weigh",
+     "lines": [
+      "[d:verdict][act:stepping back, calm]So, let's ^weigh it. [act:steady][tune:rise]Egypt's craftsmen cutting hard stone with copper, sand, stone borers and ^time? [act:the verdict, confident][tune:fall]*Strong ^evidence*: [act:plain][tune:fall]the tools, the cores, the art and the experiments ^agree.",
+      "[act:steady][tune:rise]Machine-made vases from ancient ^Egypt? [act:the verdict][tune:fall]*Awaiting ^evidence*: [act:plain]the most precise have no find-spot, and the documented ones measure as ^handmade. [act:steady][tune:rise]Core seven's groove as a machine's ^track? [act:the verdict][tune:fall]*Awaiting ^evidence*. [act:honest][tune:fall]Exactly how it was cut: an *open ^question*.",
+      "[act:steady][tune:rise]The Serapeum boxes made for the Apis burials of Egypt's Late ^Period? [act:the verdict][tune:fall]*Strong ^evidence*. [act:steady][tune:rise]Older than the ^bulls? [act:even][tune:fall]*Awaiting ^evidence*. [act:steady][tune:rise]A power plant at ^Giza? [act:the verdict, level][tune:fall]*Ruled ^out*.",
+      "[d:calm][p:0.95][act:the whole picture, warm][tune:rise]And a lost high technology in ancient ^Egypt? [act:the verdict, level-headed][tune:fall]*Awaiting ^evidence*. [act:fair, clear]No machine, no part of one, and no machine-made object@noun from a dated layer has ever turned ^up. [act:warm, sincere][tune:fall]What has turned up is ^people: [tune:fall]skill, sand, and a great deal of ^time."
+     ],
+     "shots": [
+      {
+       "id": "s48",
+       "say": "So, let's weigh it. Egypt's craftsmen cutting hard stone with copper, sand, stone borers and time? Strong evidence: the tools, the cores, the art and the experiments agree.",
+       "draw": "Ledger, panel one ('How the stone was worked'): row 1 'copper, sand, borers and time' (a bow drill pictogram), the grade chip 'Strong evidence' popping as it is said; four small icons (tool, core, relief, experiment) tick in a row under it."
+      },
+      {
+       "id": "s49",
+       "say": "Machine-made vases from ancient Egypt? Awaiting evidence: the most precise have no find-spot, and the documented ones measure as handmade. Core seven's groove as a machine's track? Awaiting evidence. Exactly how it was cut: an open question.",
+       "draw": "Rows 2 to 4 of the same ledger: 'machine-made vases' (a vase) Awaiting evidence; 'core 7's groove as a machine's track' (a core) Awaiting evidence; 'exactly how it was cut' (a question mark) Open question.",
+       "reuse": "alias of s48"
+      },
+      {
+       "id": "s50",
+       "say": "The Serapeum boxes made for the Apis burials of Egypt's Late Period? Strong evidence. Older than the bulls? Awaiting evidence. A power plant at Giza? Ruled out.",
+       "draw": "Ledger, panel two ('The boxes and the pyramid'): 'Serapeum boxes for Late Period Apis burials' (a box with a cartouche) Strong evidence; 'older than the bulls' (a box with a dotted arrow back in time) Awaiting evidence; 'a power plant at Giza' (a pyramid with a dotted beam) Ruled out, a red strike across its pictogram."
+      },
+      {
+       "id": "s51",
+       "say": "And a lost high technology in ancient Egypt? Awaiting evidence. No machine, no part of one, and no machine-made object from a dated layer has ever turned up. What has turned up is people: skill, sand, and a great deal of time.",
+       "draw": "The overall verdict on its own: a large chip 'a lost high technology: Awaiting evidence' over three empty dotted outlines ('a machine', 'a part', 'a machine-made object in a dated layer'); then a row of craftsmen silhouettes at work (a vessel driller, two men at a bow drill, a sawyer, a polisher) rises along the bottom, warm, with sand and a small hourglass."
+      }
+     ]
+    },
+    {
+     "role": "test",
+     "lines": [
+      "[d:tension][act:practical, counting them off][tune:rise]What would change our ^minds? [act:same beat][tune:level]A vase from a sealed, dated tomb that measures like a lathe's ^work. [act:same beat][tune:level]Core seven, scanned beside a core drilled with copper and Egyptian ^sand. [act:same beat][tune:level]A full scan of all twenty-four boxes, inside and ^out. [act:the last one, a smile][tune:fall]Or a single machine part, from a single ancient ^workshop."
+     ],
+     "shots": [
+      {
+       "id": "s52",
+       "say": "What would change our minds? A vase from a sealed, dated tomb that measures like a lathe's work. Core seven, scanned beside a core drilled with copper and Egyptian sand. A full scan of all twenty-four boxes, inside and out. Or a single machine part, from a single ancient workshop.",
+       "draw": "Four wanted items in lilac dashes pop as named across the panel: a vase in a sealed tomb with a date chip and a tight blue cluster dot ('a lathe-true vase, dated'); core 7 and an experimental core side by side under a scanner ('core 7 matched?'); a box in a scan grid ('all 24 boxes scanned'); a gear in a workshop outline ('a machine part')."
+      }
+     ]
+    },
+    {
+     "role": "close",
+     "lines": [
+      "[d:wonder][p:0.93][act:quiet, warm]Five thousand years ago, someone turned a drill weighted with two stones, hour after hour, until a jar of hard stone came true in their ^hands. [act:the last word, a smile][tune:fall]Weigh it ^yourself."
+     ],
+     "shots": [
+      {
+       "id": "s53",
+       "say": "Five thousand years ago, someone turned a drill weighted with two stones, hour after hour, until a jar of hard stone came true in their hands. Weigh it yourself.",
+       "draw": "The hero again, on its own panel: the speckled jar turning slowly in its beam of light, and beside it, in warm silhouette, a seated craftsman turning the weighted drill; the dust in the beam glints; the jar's rim catches the light."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "description": "Under Djoser's Step Pyramid lay tens of thousands of stone vessels, some in rock so hard that copper cannot scratch it. Online scans say some vases are too perfect for human hands. Petrie's granite core from Giza carries a spiral groove he found astonishing. Twenty-four giant boxes fill a tunnel at Saqqara. And one engineer says the Great Pyramid was a power plant. Did ancient Egypt have lost machines?\n\nWe weigh the four clues one by one: the 2025 peer-reviewed scan of museum vases, Petrie's own reading of core 7 and Christopher Dunn's, Denys Stocks's copper and sand at Aswan, the weighted drill of the tomb reliefs, a 5,300-year-old bow drill, the kings' names on the Serapeum boxes, the 2026 salt study and Khufu's name in sealed chambers. Copper, sand, stone borers and time: Strong evidence. Machine-made vases, a machine behind core 7, Serapeum boxes older than the bulls: Awaiting evidence. The Giza power plant: Ruled out. A lost high technology: Awaiting evidence.\n\nChapters\n0:00 Cold open\nmm:ss The impossible vases\nmm:ss A spiral in granite\nmm:ss Copper, sand and patience\nmm:ss Boxes in the dark\nmm:ss A power plant?\nmm:ss The weighing\n\nSources\nFomitchev-Zamilov 2025, npj Heritage Science 13: 659, doi:10.1038/s40494-025-02196-7\nLacau & Lauer 1959, La Pyramide à degrés IV (IFAO, Cairo)\nAston 1994, Ancient Egyptian Stone Vessels (Heidelberger Orientverlag)\nPetrie 1883, The Pyramids and Temples of Gizeh (Field & Tuer, London)\nDunn 1998, The Giza Power Plant (Bear & Company)\nDunn 2010, Lost Technologies of Ancient Egypt (Bear & Company)\nGorelick & Gwinnett 1983, Expedition 25(3): 40-47 (Penn Museum)\nStocks 1993, Antiquity 67: 596-603, doi:10.1017/S0003598X00045804\nStocks 2001, Antiquity 75: 89-94, doi:10.1017/S0003598X00052777\nStocks 2023, Experiments in Egyptian Archaeology, 2nd ed. (Routledge), doi:10.4324/9781003269922\nOdler & Kmošek 2025, Egypt and the Levant 35, doi:10.1553/AEundL35s289\nDavies 1943, The Tomb of Rekh-mi-Re at Thebes (Metropolitan Museum of Art)\nMariette 1882, Le Sérapéum de Memphis, ed. Maspero (Vieweg, Paris)\nMalinine, Posener & Vercoutter 1968, Catalogue des stèles du Sérapéum de Memphis (Imprimerie nationale)\nDodson 2005, Bull cults, in Ikram (ed.), Divine Creatures (AUC Press)\nSessa et al. 2026, Scientific Reports 16: 12586, doi:10.1038/s41598-026-48805-8\nTuck, Stacey & Starkey 1977, Tectonophysics 39: T7-T11\nVyse 1840-42, Operations Carried On at the Pyramids of Gizeh in 1837 (James Fraser, London)\nTallet & Lehner 2021, The Red Sea Scrolls (Thames & Hudson)\nLehner 1997, The Complete Pyramids (Thames & Hudson)",
+ "sources": [
+  "Fomitchev-Zamilov, M. 2025, A metrological method for manufacturing quality assessment and classification of ancient Egyptian stone vessels, npj Heritage Science 13: 659, doi:10.1038/s40494-025-02196-7",
+  "Lacau, P. & Lauer, J.-P. 1959, La Pyramide a degres IV: Inscriptions gravees sur les vases, Institut francais d'archeologie orientale, Cairo (and vol. V, 1965)",
+  "Quibell, J. E. 1934 and 1935, Stone vessels from the Step Pyramid, Annales du Service des Antiquites de l'Egypte 34 and 35",
+  "Aston, B. G. 1994, Ancient Egyptian Stone Vessels: Materials and Forms, Heidelberger Orientverlag",
+  "Petrie, W. M. F. 1883, The Pyramids and Temples of Gizeh, Field & Tuer, London (sections 129 to 133, plate xiv: core no. 7)",
+  "UCL Petrie Museum catalogue, UC16036: granite core from a tubular drill hole, found by Petrie at Giza in 1881-82, 'core 7', height 11 cm, circumference about 16.3 and 14.3 cm at the two ends, 4th Dynasty",
+  "Dunn, C. P. 1984, Advanced Machining in Ancient Egypt?, Analog Science Fiction/Science Fact, August 1984 (feed rate comparison; ultrasonic machining)",
+  "Dunn, C. P. 1998, The Giza Power Plant: Technologies of Ancient Egypt, Bear & Company",
+  "Dunn, C. P. 2010, Lost Technologies of Ancient Egypt: Advanced Engineering in the Temples of the Pharaohs, Bear & Company",
+  "Gorelick, L. & Gwinnett, A. J. 1983, Ancient Egyptian stone-drilling: an experimental perspective on a scholarly disagreement, Expedition 25(3): 40-47 (Penn Museum)",
+  "Stocks, D. A. 1993, Making stone vessels in ancient Mesopotamia and Egypt, Antiquity 67(256): 596-603, doi:10.1017/S0003598X00045804",
+  "Stocks, D. A. 2001, Testing ancient Egyptian granite-working methods in Aswan, Upper Egypt, Antiquity 75(287): 89-94, doi:10.1017/S0003598X00052777",
+  "Stocks, D. A. 2023, Experiments in Egyptian Archaeology: Stoneworking Technology in Ancient Egypt, 2nd edition, Routledge, doi:10.4324/9781003269922 (1st edition 2003)",
+  "Kruglyakov, O. V. 2018, Principles of tubular free abrasive drilling (experiments by N. Vasyutin and colleagues, 2010 to 2018), antropogenez.ru (not peer reviewed)",
+  "Odler, M. & Kmosek, J. 2025, The earliest metal drill of Naqada IID dating, Agypten und Levante / Egypt and the Levant 35: 289ff., doi:10.1553/AEundL35s289 (announced by Newcastle University, February 2026)",
+  "Teeter, E. (ed.) 2011 and online edition, Ancient Egyptian Art at the Art Institute of Chicago, cats. 46-49, hard stone vessels (the weighted drill, tomb reliefs of Dynasties 5 and 6 at Saqqara, Stocks's timing of a limestone vessel)",
+  "Thot Sign List, sign U24 (Gardiner): a stoneworker's drill weighted at the top with stones, writing hmwt 'craft' and hmww 'craftsman'",
+  "Davies, N. de G. 1943, The Tomb of Rekh-mi-Re at Thebes, Metropolitan Museum of Art (vessel drilling scenes)",
+  "Mariette, A. 1857, Le Serapeum de Memphis, Gide, Paris; and Mariette, A. 1882, Le Serapeum de Memphis, ed. G. Maspero, Vieweg, Paris (p. 113: Linant de Bellefonds' calculation of a box and lid, at most 62 t)",
+  "Malinine, M., Posener, G. & Vercoutter, J. 1968, Catalogue des steles du Serapeum de Memphis, Imprimerie nationale, Paris",
+  "Dodson, A. 2005, Bull cults, in S. Ikram (ed.), Divine Creatures: Animal Mummies in Ancient Egypt, American University in Cairo Press, 72-105",
+  "Brugsch, H. 1891, Egypt under the Pharaohs (the year 52 stela of Psamtik I on the renewal of the Apis burial place)",
+  "Dunn, C. P., Advanced Machining in Ancient Egypt (extended web edition, with his visit of 24 February 1995 to the Serapeum: parallel (straightedge) and flashlight; 'perfectly flat'; wished for equipment to scan the entire surface)",
+  "Sessa, C., Deraz, R., Popovych, O., Tayoubi, M., Elkarmoty, M., Helal, H., Grosse, C. U. et al. 2026, Material characterization of stone surfaces in the inner chambers of the Khufu (Cheops) Pyramid: towards informed conservation strategies, Scientific Reports 16: 12586, doi:10.1038/s41598-026-48805-8",
+  "Tuck, G. J., Stacey, F. D. & Starkey, J. 1977, A search for the piezoelectric effect in quartz-bearing rocks, Tectonophysics 39(4): T7-T11",
+  "Vyse, H. 1840-42, Operations Carried On at the Pyramids of Gizeh in 1837, 3 vols, James Fraser, London",
+  "Tallet, P. 2017, Les papyrus de la mer Rouge I: Le journal de Merer, Institut francais d'archeologie orientale, Cairo",
+  "Tallet, P. & Lehner, M. 2021, The Red Sea Scrolls: How Ancient Papyri Reveal the Secrets of the Pyramids, Thames & Hudson",
+  "Lehner, M. 1997, The Complete Pyramids, Thames & Hudson (the relieving chambers, Davison 1765 and Vyse 1837)"
+ ],
+ "facts_added": [
+  {
+   "fact": "Between 30,000 and 40,000 stone vessels (Lacau and Lauer: '30 a 40.000 pieces', besides countless fragments) were found in galleries under Djoser's Step Pyramid at Saqqara (galleries VI and VII, excavated by Quibell, Firth and Lauer in the 1930s); most are travertine (calcite), with hundreds in hard stones (892 in 'Chephren' anorthosite gneiss, granite vats, basalt, porphyritic stones, siltstone), and many carry inscriptions of First and Second Dynasty kings.",
+   "source": "Lacau & Lauer 1959, 1965 (IFAO); Quibell 1934, 1935 (ASAE 34, 35); Aston 1994"
+  },
+  {
+   "fact": "Djoser's Step Pyramid dates to the Third Dynasty, about 2670 to 2650 BCE (some 4,700 years ago), and is generally held to be Egypt's oldest pyramid.",
+   "source": "Lehner 1997, The Complete Pyramids (Thames & Hudson)"
+  },
+  {
+   "fact": "Since 2023, YouTube researchers and amateur scanners (for example Ben van Kerkwyk of UnchartedX and Adam Young of the Artefact Foundation) drew public attention to the manufacturing quality of certain Predynastic Egyptian stone vessels in private collections; scan data of one granite vase was released on 19 February 2023, and analyses reported deviations of a few tens of micrometres (thousandths of an inch).",
+   "source": "Fomitchev-Zamilov 2025, npj Heritage Science, doi:10.1038/s40494-025-02196-7 (introduction); Qvist, M. 2023 (rev. 2025), Abstractions Set in Granite (online essay; not peer reviewed)"
+  },
+  {
+   "fact": "In December 2025 (received 16 May, published 16 December) a peer-reviewed metrology study scanned 19 Predynastic vessels from the Petrie Museum with a Keyence VL-500 3D scanner (validated to 0.001 inch), alongside 25 modern machine-made (lathe-turned) and 24 contemporary handmade stone vases; it fitted circles to 100 slices of each and combined circularity and concentricity into a quality metric.",
+   "source": "Fomitchev-Zamilov 2025, npj Heritage Science 13: 659, doi:10.1038/s40494-025-02196-7"
+  },
+  {
+   "fact": "Result: the machine-made vases formed a tight cluster; the outer surfaces of the Predynastic vessels were statistically indistinguishable from modern handmade ones (p = 0.87) and none clustered with the machine-made; their inner surfaces were nearly as round as machine work but poorly centred, which the author reads as hollowing with boring bars or grinding heads and quartz sand slurry, as tested experimentally by Stocks.",
+   "source": "Fomitchev-Zamilov 2025, npj Heritage Science, doi:10.1038/s40494-025-02196-7"
+  },
+  {
+   "fact": "Core 7 (Petrie Museum UC16036) is a granite core from a tubular drill hole, found by Petrie at Giza in 1881-82, 11 cm tall, about 16.3 cm round at one end and 14.3 cm at the other, dated to the 4th Dynasty.",
+   "source": "UCL Petrie Museum catalogue, UC16036; Petrie 1883, pl. xiv"
+  },
+  {
+   "fact": "Petrie (1883) wrote that core 7's grooves form a regular spiral, as deep in the quartz as in the feldspar, and that 'the spiral of the cut sinks .1 inch in the circumference of 6 inches, or 1 in 60'; he concluded that only fixed jewel points (corundum, or perhaps diamond) could explain it, and estimated a load of at least a ton or two on 4-inch drills in granite. He also recorded saw cuts 8 feet or more long on the King's Chamber coffer.",
+   "source": "Petrie 1883, The Pyramids and Temples of Gizeh, sections 129-133"
+  },
+  {
+   "fact": "Christopher Dunn's 1984 article in Analog (August 1984) was a study of Petrie's book: he compared Petrie's 0.1 inch per revolution with a modern diamond drill in granite (900 rpm, 1 inch in 5 minutes, told to him in 1983 by Donald Rahn of a granite surface-plate firm), about 0.0002 inch per revolution, so 500 times more, and proposed ultrasonic machining. By his own account (October 1999) he had not yet inspected the core in person and planned to visit the Petrie Museum.",
+   "source": "Dunn 1984, Analog (web edition, pages 1, 3 and 5); Dunn 1999, 'Petrie's infamous core #7' (gizapower.com)"
+  },
+  {
+   "fact": "On the Mohs scale copper is about 3, feldspar about 6 and quartz 7; quartz sand can therefore abrade granite while copper only carries and presses it.",
+   "source": "Stocks 2003, 2023 (Routledge); standard mineralogy"
+  },
+  {
+   "fact": "At Aswan, Stocks's team (three men) turned an 8 cm copper tube (1 mm wall) with a bow drill patterned on ancient representations, at about 120 turns a minute, with dry quartz sand; in 20 hours it sank 6 cm (about 3 mm an hour, a cutting rate of 5.2 cubic cm of granite an hour) and produced a core; the cores and holes carry concentric striations up to 2.5 mm wide, which Stocks attributes to angular quartz fragments embedded in the copper or compacted tailings.",
+   "source": "Stocks 2001, Antiquity 75: 89-94, doi:10.1017/S0003598X00052777; Stocks 2023, foreword and ch. 4"
+  },
+  {
+   "fact": "Gorelick and Gwinnett (1983) showed that the lines inside drill holes depend heavily on the abrasive used; they could not tell which abrasive the Egyptians used for granite.",
+   "source": "Gorelick & Gwinnett 1983, Expedition 25(3): 40-47"
+  },
+  {
+   "fact": "Russian experimenters drilling granite with copper tubes and loose abrasive (2010 to 2018) report that grooves form from abrasive particles caught and dragged under the tube, appear irregularly, and can 'jump from line to line', giving the appearance of a helix; they did not reproduce a regular spiral like core 7's.",
+   "source": "Kruglyakov 2018, antropogenez.ru (not peer reviewed)"
+  },
+  {
+   "fact": "The hieroglyph U24 depicts a stoneworker's drill weighted at the top with stones; it writes hmwt 'craft' and hmww 'craftsman'. Old Kingdom tomb reliefs at Saqqara (Dynasties 5 and 6) and the New Kingdom tomb of Rekhmire show craftsmen drilling and polishing stone vessels with it.",
+   "source": "Thot Sign List U24; Art Institute of Chicago, cats. 46-49; Davies 1943; UCL Digital Egypt, stone vessels"
+  },
+  {
+   "fact": "A copper-alloy drill bit (63 mm long, about 1.5 g; arsenic, nickel, lead and silver) from Badari grave 3932 (Museum of Archaeology and Anthropology, Cambridge, 1924.948 A), dated to Naqada IID, late 4th millennium BCE (about 5,300 years ago), still has six coils of a leather thong, the remains of a bow-drill string, wrapped around it.",
+   "source": "Odler & Kmosek 2025, Egypt and the Levant 35, doi:10.1553/AEundL35s289; Newcastle University press release, February 2026"
+  },
+  {
+   "fact": "Auguste Mariette found the head of a sphinx in the sand at Saqqara in 1850, followed the buried avenue of sphinxes, and first entered the catacombs of the Serapeum in November 1851.",
+   "source": "Mariette 1857; Dodson 2005"
+  },
+  {
+   "fact": "Twenty-four stone boxes (granite, basalt and similar hard stones) remain in the Greater Vaults of the Serapeum; one large one was calculated by Linant de Bellefonds at 62 tonnes at most (37.6 t for the box, 24.4 t for the lid); outside 3.85 m long, 2.32 m high and wide; inside 3.17 x 1.46 x 1.73 m; lid 0.98 m thick.",
+   "source": "Mariette 1882, p. 113"
+  },
+  {
+   "fact": "The Apis bulls, sacred living animals of Memphis, were buried at Saqqara for about 1,400 years, from the reign of Amenhotep III (14th century BCE) to the end of the Ptolemaic period; Khaemwaset, son of Ramesses II, opened the Lesser Vaults; the Greater Vaults were begun under Psamtik I, around his year 52 (about 612 BCE), and extended under the Ptolemies.",
+   "source": "Dodson 2005; Mariette 1857; Brugsch 1891 (year 52 stela); Malinine, Posener & Vercoutter 1968"
+  },
+  {
+   "fact": "Four of the 24 boxes are inscribed: a red granite box of Amasis II (year 23), a grey granite box dedicated by Cambyses II (only its lid inscribed), a box of Khababash (year 2, about 336 BCE, text on the lid), and one with empty cartouches of the late Ptolemaic period.",
+   "source": "Gunn 1926; Mariette 1857; Dodson 2005"
+  },
+  {
+   "fact": "Christopher Dunn visited the Serapeum on 24 February 1995 and checked the surfaces of the boxes with a machinist's precision parallel (a straightedge) and a flashlight, climbing inside one box through a broken edge; he found no light under the edge ('perfectly flat') and wrote that he wished he had had the equipment to scan the entire surface. In Lost Technologies of Ancient Egypt (2010) he describes the same check (no light showing between the steel and the stone) and argues that the boxes were machined.",
+   "source": "Dunn, Advanced Machining in Ancient Egypt (web edition, page 7); Dunn 2010 (Bear & Company), publisher's excerpt"
+  },
+  {
+   "fact": "Granite for the boxes came from Aswan, which lies nearly 900 km up the Nile from Memphis and Saqqara (about 220 km by river from Aswan to Luxor and about 670 km from Luxor to Cairo), so it travelled downstream; no ancient text describes how the boxes were installed in their chambers.",
+   "source": "Dodson 2005; Arnold, D. 1991, Building in Egypt: Pharaonic Stone Masonry (Oxford University Press)"
+  },
+  {
+   "fact": "In The Giza Power Plant (1998) Dunn proposed that chemicals fed into the Queen's Chamber shafts produced hydrogen, that the granite King's Chamber resonated, and that a microwave beam left through the southern shaft; he attributed the salt on the Queen's Chamber walls to a chemical reaction.",
+   "source": "Dunn 1998, The Giza Power Plant (Bear & Company)"
+  },
+  {
+   "fact": "A 2026 study of the chamber surfaces found that the salt efflorescence on the Queen's Chamber limestone is mainly halite, an inherent component of the marine (nummulitic) limestone; areas without visible salt in 2022 were extensively covered by 2024; in the King's Chamber, relative humidity rose from about 75% at dawn to about 90% at peak visiting time and CO2 from about 860 to over 5,800 ppm.",
+   "source": "Sessa et al. 2026, Scientific Reports 16: 12586, doi:10.1038/s41598-026-48805-8"
+  },
+  {
+   "fact": "Measured piezoelectric effects in quartz-bearing rocks are orders of magnitude weaker than in a single quartz crystal, consistent with randomly oriented grains.",
+   "source": "Tuck, Stacey & Starkey 1977, Tectonophysics 39: T7-T11"
+  },
+  {
+   "fact": "The lowest of the five relieving chambers above the King's Chamber was entered by Nathaniel Davison in 1765; the four above it were opened by Howard Vyse's team in 1837 by blasting, and contain red-painted work-gang marks including names formed on Khufu's name.",
+   "source": "Vyse 1840-42; Lehner 1997"
+  },
+  {
+   "fact": "Papyri found in 2013 at Wadi al-Jarf on the Red Sea include the logbook of the inspector Merer, whose crew shipped limestone from Tura to Akhet-Khufu ('Horizon of Khufu'), the pyramid, late in Khufu's reign.",
+   "source": "Tallet 2017 (IFAO); Tallet & Lehner 2021 (Thames & Hudson)"
+  }
+ ],
+ "names": [
+  {
+   "name": "Djoser, Djoser's",
+   "say": "JOE-ser (in RESPELL)"
+  },
+  {
+   "name": "Saqqara",
+   "say": "suh-KAR-uh (in LEX)"
+  },
+  {
+   "name": "travertine",
+   "say": "TRAV-er-teen"
+  },
+  {
+   "name": "gneiss",
+   "say": "NICE"
+  },
+  {
+   "name": "Petrie (Flinders Petrie, Petrie Museum)",
+   "say": "PEE-tree; FLIN-derz PEE-tree"
+  },
+  {
+   "name": "Christopher Dunn",
+   "say": "KRIS-tuh-fer DUN"
+  },
+  {
+   "name": "ultrasonic",
+   "say": "ul-truh-SON-ik"
+  },
+  {
+   "name": "Denys Stocks",
+   "say": "DEN-iss STOKS"
+  },
+  {
+   "name": "feldspar",
+   "say": "FELD-spar"
+  },
+  {
+   "name": "Aswan",
+   "say": "ass-WAHN"
+  },
+  {
+   "name": "Badari",
+   "say": "buh-DAH-ree"
+  },
+  {
+   "name": "Serapeum",
+   "say": "seh-ruh-PEE-um"
+  },
+  {
+   "name": "Auguste Mariette",
+   "say": "oh-GOOST mah-ree-ET"
+  },
+  {
+   "name": "Apis",
+   "say": "AY-pis (in LEX)"
+  },
+  {
+   "name": "Memphis",
+   "say": "MEM-fiss"
+  },
+  {
+   "name": "Amasis, Cambyses, Khababash",
+   "say": "uh-MAY-sis, kam-BY-seez, KHA-ba-bash (all in LEX/RESPELL)"
+  },
+  {
+   "name": "ochre",
+   "say": "OH-ker"
+  },
+  {
+   "name": "Khufu",
+   "say": "KOO-foo (in RESPELL)"
+  },
+  {
+   "name": "Merer",
+   "say": "MEH-rer (in LEX)"
+  },
+  {
+   "name": "Giza",
+   "say": "GEE-zuh"
+  }
+ ],
+ "words": 1552
+}
