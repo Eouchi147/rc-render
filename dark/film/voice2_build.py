@@ -59,6 +59,8 @@ for p in P:
         k = f"{V}_{p['line']}_{p['k']}_{sd}"
         if k in log and os.path.exists(os.path.join(src, k + '.wav')):
             c = dict(log[k]); c['wer'] = wer(p.get('check', p['text']), c['hyp']); cands.append(c)
+    if not cands:
+        continue
     durs = np.array([c['dur'] for c in cands])
     med = float(np.median(durs))
     best = min(cands, key=lambda c: (round(c['wer'], 2), abs(c['dur'] - med)))
