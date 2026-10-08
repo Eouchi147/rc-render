@@ -1,0 +1,42 @@
+"""Dark Corners 2, the Zong (1781). Plain telling, Bamberg v3 rules. Facts: claude/dark-research-zong.md (H unless noted)."""
+from _dhead import DELIVERY, finish
+T, F = True, False
+SCRIPT = [
+    ('o1', F, [("In 1781, a British slave ship ran short of water in the Caribbean.", 'firm', 0.7, T)]),
+    ('o2', F, [("What its crew did next ended up in a London court,", 'calm', 0.3, F), ("as an insurance claim.", 'grave', 0.8, T)]),
+    ('o3', F, [("Everything you're about to hear really happened.", 'grave', 1.4, T)]),
+    ('x1', F, [("The ship was called the Zong.", 'calm', 0.5, T), ("It had been taken from the Dutch, who named it Zorg.", 'calm', 0.5, T),
+               ("In Dutch, that word means care.", 'firm', 1.1, T)]),
+    ('x2', F, [("On board were seventeen crew,", 'calm', 0.3, F),
+               ("and about four hundred and forty African captives.", 'grave', 0.5, T), ("Twice what a ship that size carried.", 'firm', 0.9, T)]),
+    ('x4', F, [("Every captive was insured.", 'firm', 0.5, T), ("Thirty pounds each.", 'grave', 1.1, T)]),
+    ('m1', F, [("In late November, they saw Jamaica.", 'calm', 0.4, T), ("The captain thought it was another island.", 'calm', 0.4, T),
+               ("And sailed right past it.", 'firm', 0.9, T)]),
+    ('m2', F, [("By the time they knew, they were hundreds of miles downwind.", 'calm', 0.4, T), ("And the water was running low.", 'grave', 1.0, T)]),
+    ('m3', F, [("The insurance had a rule.", 'firm', 0.6, T), ("Captives who died of sickness were the owners' loss.", 'calm', 0.5, T),
+               ("Captives thrown overboard to save the ship, the insurers paid for.", 'grave', 1.2, T)]),
+    ('d1', F, [("On the night of November the twenty-ninth, the crew decided.", 'grave', 0.9, T)]),
+    ('d2', F, [("Fifty-four people, women and children first, were forced into the sea.", 'grave', 1.0, T)]),
+    ('d3', F, [("Two days later, forty-two men.", 'grave', 1.2, T)]),
+    ('r1', F, [("Then it rained.", 'firm', 0.6, T), ("They filled six casks with water.", 'calm', 1.0, T)]),
+    ('r2', F, [("And they kept going.", 'grave', 1.2, T)]),
+    ('r3', F, [("Twenty-six more were thrown in with their hands chained.", 'grave', 0.6, T), ("Ten others jumped.", 'firm', 0.4, T),
+               ("They chose the sea over the chains.", 'grave', 1.2, T)]),
+    ('p1', F, [("One man, thrown overboard, caught a rope.", 'calm', 0.4, T), ("And climbed back aboard.", 'firm', 1.1, T)]),
+    ('a1', F, [("Three weeks later, the Zong reached Jamaica.", 'calm', 0.4, T), ("Two hundred and eight captives were alive.", 'calm', 0.4, T),
+               ("They were sold.", 'grave', 1.1, T)]),
+    ('c1', F, [("Then the owners claimed the insurance", 'calm', 0.3, F), ("for the people they had drowned.", 'grave', 0.8, T)]),
+    ('c2', F, [("In March 1783, a London jury agreed with the owners.", 'firm', 0.8, T)]),
+    ('c3', T, [("Their lawyer told the court:", 'calm', 0.4, F), ("It is the case of throwing over goods.", 'record', 1.2, T)]),
+    ('e1', F, [("But a man named Olaudah Equiano heard about it.", 'firm', 0.4, T), ("He had once been enslaved himself.", 'calm', 0.5, T),
+               ("He took the story to a campaigner, Granville Sharp.", 'calm', 0.8, T)]),
+    ('e2', F, [("Sharp wanted the crew tried for murder.", 'firm', 0.9, T)]),
+    ('j1', F, [("The judge ordered a new trial.", 'calm', 0.4, T), ("Because of the rain.", 'firm', 0.4, T),
+               ("After the rain, he said, there seemed to be no need.", 'grave', 1.0, T)]),
+    ('j2', F, [("That trial never happened.", 'calm', 0.5, T), ("No one was ever charged with murder.", 'grave', 1.2, T)]),
+    ('f1', F, [("The captives' names were never written down.", 'grave', 0.5, T), ("Only their price.", 'grave', 1.1, T)]),
+    ('f2', F, [("Campaigners kept telling the story until Britain ended its slave trade, in 1807.", 'firm', 1.0, T)]),
+    ('f3', F, [("A ship whose name meant care.", 'grave', 1.6, T)]),
+]
+PRON = {'Equiano': 'Ekwee-ahno', 'Zorg': 'Zorkh'}
+DIRECTED, QUOTE, LINES, SAY = finish(SCRIPT, PRON)

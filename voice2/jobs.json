@@ -1,10 +1,10 @@
 {
-"release": "voice2-plain-rest",
+"release": "voice2-dc-episodes",
 "takes": [
 {
-"out": "N_k1_0_3",
-"text": "Then something strange happened.",
-"check": "Then something strange happened.",
+"out": "Z_o1_0_3",
+"text": "In 1781, a British slave ship ran short of water in the Caribbean.",
+"check": "In 1781, a British slave ship ran short of water in the Caribbean.",
 "ref": "ref_m_deep_slow.wav",
 "ex": 0.52,
 "cfg": 0.24,
@@ -12,9 +12,9 @@
 "seed": 3
 },
 {
-"out": "N_k1_0_11",
-"text": "Then something strange happened.",
-"check": "Then something strange happened.",
+"out": "Z_o1_0_11",
+"text": "In 1781, a British slave ship ran short of water in the Caribbean.",
+"check": "In 1781, a British slave ship ran short of water in the Caribbean.",
 "ref": "ref_m_deep_slow.wav",
 "ex": 0.52,
 "cfg": 0.24,
@@ -22,9 +22,9 @@
 "seed": 11
 },
 {
-"out": "N_k1_0_29",
-"text": "Then something strange happened.",
-"check": "Then something strange happened.",
+"out": "Z_o1_0_29",
+"text": "In 1781, a British slave ship ran short of water in the Caribbean.",
+"check": "In 1781, a British slave ship ran short of water in the Caribbean.",
 "ref": "ref_m_deep_slow.wav",
 "ex": 0.52,
 "cfg": 0.24,
@@ -32,9 +32,9 @@
 "seed": 29
 },
 {
-"out": "N_k1_0_47",
-"text": "Then something strange happened.",
-"check": "Then something strange happened.",
+"out": "Z_o1_0_47",
+"text": "In 1781, a British slave ship ran short of water in the Caribbean.",
+"check": "In 1781, a British slave ship ran short of water in the Caribbean.",
 "ref": "ref_m_deep_slow.wav",
 "ex": 0.52,
 "cfg": 0.24,
@@ -42,9 +42,9 @@
 "seed": 47
 },
 {
-"out": "N_k1_0_61",
-"text": "Then something strange happened.",
-"check": "Then something strange happened.",
+"out": "Z_o1_0_61",
+"text": "In 1781, a British slave ship ran short of water in the Caribbean.",
+"check": "In 1781, a British slave ship ran short of water in the Caribbean.",
 "ref": "ref_m_deep_slow.wav",
 "ex": 0.52,
 "cfg": 0.24,
@@ -52,9 +52,9 @@
 "seed": 61
 },
 {
-"out": "N_k2_0_3",
-"text": "The executioner, the man who had just tortured him, begged him:",
-"check": "The executioner, the man who had just tortured him, begged him:",
+"out": "Z_o2_0_3",
+"text": "What its crew did next ended up in a London court,",
+"check": "What its crew did next ended up in a London court,",
 "ref": "ref_m_deep_slow.wav",
 "ex": 0.4,
 "cfg": 0.2,
@@ -62,9 +62,9 @@
 "seed": 3
 },
 {
-"out": "N_k2_0_11",
-"text": "The executioner, the man who had just tortured him, begged him:",
-"check": "The executioner, the man who had just tortured him, begged him:",
+"out": "Z_o2_0_11",
+"text": "What its crew did next ended up in a London court,",
+"check": "What its crew did next ended up in a London court,",
 "ref": "ref_m_deep_slow.wav",
 "ex": 0.4,
 "cfg": 0.2,
@@ -72,9 +72,9 @@
 "seed": 11
 },
 {
-"out": "N_k2_0_29",
-"text": "The executioner, the man who had just tortured him, begged him:",
-"check": "The executioner, the man who had just tortured him, begged him:",
+"out": "Z_o2_0_29",
+"text": "What its crew did next ended up in a London court,",
+"check": "What its crew did next ended up in a London court,",
 "ref": "ref_m_deep_slow.wav",
 "ex": 0.4,
 "cfg": 0.2,
@@ -82,9 +82,9 @@
 "seed": 29
 },
 {
-"out": "N_k2_0_47",
-"text": "The executioner, the man who had just tortured him, begged him:",
-"check": "The executioner, the man who had just tortured him, begged him:",
+"out": "Z_o2_0_47",
+"text": "What its crew did next ended up in a London court,",
+"check": "What its crew did next ended up in a London court,",
 "ref": "ref_m_deep_slow.wav",
 "ex": 0.4,
 "cfg": 0.2,
@@ -92,9 +92,9 @@
 "seed": 47
 },
 {
-"out": "N_k2_0_61",
-"text": "The executioner, the man who had just tortured him, begged him:",
-"check": "The executioner, the man who had just tortured him, begged him:",
+"out": "Z_o2_0_61",
+"text": "What its crew did next ended up in a London court,",
+"check": "What its crew did next ended up in a London court,",
 "ref": "ref_m_deep_slow.wav",
 "ex": 0.4,
 "cfg": 0.2,
@@ -102,59 +102,9 @@
 "seed": 61
 },
 {
-"out": "N_k3_0_3",
-"text": "Confess to something. True or not.",
-"check": "Confess to something. True or not.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.55,
-"cfg": 0.17,
-"temp": 0.72,
-"seed": 3
-},
-{
-"out": "N_k3_0_11",
-"text": "Confess to something. True or not.",
-"check": "Confess to something. True or not.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.55,
-"cfg": 0.17,
-"temp": 0.72,
-"seed": 11
-},
-{
-"out": "N_k3_0_29",
-"text": "Confess to something. True or not.",
-"check": "Confess to something. True or not.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.55,
-"cfg": 0.17,
-"temp": 0.72,
-"seed": 29
-},
-{
-"out": "N_k3_0_47",
-"text": "Confess to something. True or not.",
-"check": "Confess to something. True or not.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.55,
-"cfg": 0.17,
-"temp": 0.72,
-"seed": 47
-},
-{
-"out": "N_k3_0_61",
-"text": "Confess to something. True or not.",
-"check": "Confess to something. True or not.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.55,
-"cfg": 0.17,
-"temp": 0.72,
-"seed": 61
-},
-{
-"out": "N_k3_1_3",
-"text": "If you don't, they will never stop.",
-"check": "If you don't, they will never stop.",
+"out": "Z_o2_1_3",
+"text": "as an insurance claim.",
+"check": "as an insurance claim.",
 "ref": "ref_m_deep_slow.wav",
 "ex": 0.45,
 "cfg": 0.17,
@@ -162,9 +112,9 @@
 "seed": 3
 },
 {
-"out": "N_k3_1_11",
-"text": "If you don't, they will never stop.",
-"check": "If you don't, they will never stop.",
+"out": "Z_o2_1_11",
+"text": "as an insurance claim.",
+"check": "as an insurance claim.",
 "ref": "ref_m_deep_slow.wav",
 "ex": 0.45,
 "cfg": 0.17,
@@ -172,9 +122,9 @@
 "seed": 11
 },
 {
-"out": "N_k3_1_29",
-"text": "If you don't, they will never stop.",
-"check": "If you don't, they will never stop.",
+"out": "Z_o2_1_29",
+"text": "as an insurance claim.",
+"check": "as an insurance claim.",
 "ref": "ref_m_deep_slow.wav",
 "ex": 0.45,
 "cfg": 0.17,
@@ -182,9 +132,9 @@
 "seed": 29
 },
 {
-"out": "N_k3_1_47",
-"text": "If you don't, they will never stop.",
-"check": "If you don't, they will never stop.",
+"out": "Z_o2_1_47",
+"text": "as an insurance claim.",
+"check": "as an insurance claim.",
 "ref": "ref_m_deep_slow.wav",
 "ex": 0.45,
 "cfg": 0.17,
@@ -192,9 +142,9 @@
 "seed": 47
 },
 {
-"out": "N_k3_1_61",
-"text": "If you don't, they will never stop.",
-"check": "If you don't, they will never stop.",
+"out": "Z_o2_1_61",
+"text": "as an insurance claim.",
+"check": "as an insurance claim.",
 "ref": "ref_m_deep_slow.wav",
 "ex": 0.45,
 "cfg": 0.17,
@@ -202,209 +152,9 @@
 "seed": 61
 },
 {
-"out": "N_l1_0_3",
-"text": "So Junius lied. He made up a story about meeting the devil.",
-"check": "So Junius lied. He made up a story about meeting the devil.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.52,
-"cfg": 0.24,
-"temp": 0.68,
-"seed": 3
-},
-{
-"out": "N_l1_0_11",
-"text": "So Junius lied. He made up a story about meeting the devil.",
-"check": "So Junius lied. He made up a story about meeting the devil.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.52,
-"cfg": 0.24,
-"temp": 0.68,
-"seed": 11
-},
-{
-"out": "N_l1_0_29",
-"text": "So Junius lied. He made up a story about meeting the devil.",
-"check": "So Junius lied. He made up a story about meeting the devil.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.52,
-"cfg": 0.24,
-"temp": 0.68,
-"seed": 29
-},
-{
-"out": "N_l1_0_47",
-"text": "So Junius lied. He made up a story about meeting the devil.",
-"check": "So Junius lied. He made up a story about meeting the devil.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.52,
-"cfg": 0.24,
-"temp": 0.68,
-"seed": 47
-},
-{
-"out": "N_l1_0_61",
-"text": "So Junius lied. He made up a story about meeting the devil.",
-"check": "So Junius lied. He made up a story about meeting the devil.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.52,
-"cfg": 0.24,
-"temp": 0.68,
-"seed": 61
-},
-{
-"out": "N_l2_0_3",
-"text": "Then they wanted names.",
-"check": "Then they wanted names.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.52,
-"cfg": 0.24,
-"temp": 0.68,
-"seed": 3
-},
-{
-"out": "N_l2_0_11",
-"text": "Then they wanted names.",
-"check": "Then they wanted names.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.52,
-"cfg": 0.24,
-"temp": 0.68,
-"seed": 11
-},
-{
-"out": "N_l2_0_29",
-"text": "Then they wanted names.",
-"check": "Then they wanted names.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.52,
-"cfg": 0.24,
-"temp": 0.68,
-"seed": 29
-},
-{
-"out": "N_l2_0_47",
-"text": "Then they wanted names.",
-"check": "Then they wanted names.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.52,
-"cfg": 0.24,
-"temp": 0.68,
-"seed": 47
-},
-{
-"out": "N_l2_0_61",
-"text": "Then they wanted names.",
-"check": "Then they wanted names.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.52,
-"cfg": 0.24,
-"temp": 0.68,
-"seed": 61
-},
-{
-"out": "N_l3_0_3",
-"text": "They made him walk through his own town in his mind, street by street, and name people.",
-"check": "They made him walk through his own town in his mind, street by street, and name people.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.4,
-"cfg": 0.2,
-"temp": 0.68,
-"seed": 3
-},
-{
-"out": "N_l3_0_11",
-"text": "They made him walk through his own town in his mind, street by street, and name people.",
-"check": "They made him walk through his own town in his mind, street by street, and name people.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.4,
-"cfg": 0.2,
-"temp": 0.68,
-"seed": 11
-},
-{
-"out": "N_l3_0_29",
-"text": "They made him walk through his own town in his mind, street by street, and name people.",
-"check": "They made him walk through his own town in his mind, street by street, and name people.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.4,
-"cfg": 0.2,
-"temp": 0.68,
-"seed": 29
-},
-{
-"out": "N_l3_0_47",
-"text": "They made him walk through his own town in his mind, street by street, and name people.",
-"check": "They made him walk through his own town in his mind, street by street, and name people.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.4,
-"cfg": 0.2,
-"temp": 0.68,
-"seed": 47
-},
-{
-"out": "N_l3_0_61",
-"text": "They made him walk through his own town in his mind, street by street, and name people.",
-"check": "They made him walk through his own town in his mind, street by street, and name people.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.4,
-"cfg": 0.2,
-"temp": 0.68,
-"seed": 61
-},
-{
-"out": "N_l4_0_3",
-"text": "When he couldn't think of anyone, they gave him a name.",
-"check": "When he couldn't think of anyone, they gave him a name.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.4,
-"cfg": 0.2,
-"temp": 0.68,
-"seed": 3
-},
-{
-"out": "N_l4_0_11",
-"text": "When he couldn't think of anyone, they gave him a name.",
-"check": "When he couldn't think of anyone, they gave him a name.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.4,
-"cfg": 0.2,
-"temp": 0.68,
-"seed": 11
-},
-{
-"out": "N_l4_0_29",
-"text": "When he couldn't think of anyone, they gave him a name.",
-"check": "When he couldn't think of anyone, they gave him a name.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.4,
-"cfg": 0.2,
-"temp": 0.68,
-"seed": 29
-},
-{
-"out": "N_l4_0_47",
-"text": "When he couldn't think of anyone, they gave him a name.",
-"check": "When he couldn't think of anyone, they gave him a name.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.4,
-"cfg": 0.2,
-"temp": 0.68,
-"seed": 47
-},
-{
-"out": "N_l4_0_61",
-"text": "When he couldn't think of anyone, they gave him a name.",
-"check": "When he couldn't think of anyone, they gave him a name.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.4,
-"cfg": 0.2,
-"temp": 0.68,
-"seed": 61
-},
-{
-"out": "N_l4_1_3",
-"text": "And he repeated it.",
-"check": "And he repeated it.",
+"out": "Z_o3_0_3",
+"text": "Everything you're about to hear really happened.",
+"check": "Everything you're about to hear really happened.",
 "ref": "ref_m_deep_slow.wav",
 "ex": 0.45,
 "cfg": 0.17,
@@ -412,9 +162,9 @@
 "seed": 3
 },
 {
-"out": "N_l4_1_11",
-"text": "And he repeated it.",
-"check": "And he repeated it.",
+"out": "Z_o3_0_11",
+"text": "Everything you're about to hear really happened.",
+"check": "Everything you're about to hear really happened.",
 "ref": "ref_m_deep_slow.wav",
 "ex": 0.45,
 "cfg": 0.17,
@@ -422,9 +172,9 @@
 "seed": 11
 },
 {
-"out": "N_l4_1_29",
-"text": "And he repeated it.",
-"check": "And he repeated it.",
+"out": "Z_o3_0_29",
+"text": "Everything you're about to hear really happened.",
+"check": "Everything you're about to hear really happened.",
 "ref": "ref_m_deep_slow.wav",
 "ex": 0.45,
 "cfg": 0.17,
@@ -432,9 +182,9 @@
 "seed": 29
 },
 {
-"out": "N_l4_1_47",
-"text": "And he repeated it.",
-"check": "And he repeated it.",
+"out": "Z_o3_0_47",
+"text": "Everything you're about to hear really happened.",
+"check": "Everything you're about to hear really happened.",
 "ref": "ref_m_deep_slow.wav",
 "ex": 0.45,
 "cfg": 0.17,
@@ -442,9 +192,9 @@
 "seed": 47
 },
 {
-"out": "N_l4_1_61",
-"text": "And he repeated it.",
-"check": "And he repeated it.",
+"out": "Z_o3_0_61",
+"text": "Everything you're about to hear really happened.",
+"check": "Everything you're about to hear really happened.",
 "ref": "ref_m_deep_slow.wav",
 "ex": 0.45,
 "cfg": 0.17,
@@ -452,9 +202,9 @@
 "seed": 61
 },
 {
-"out": "N_e1_0_3",
-"text": "He wrote all of this to his daughter, Veronica,",
-"check": "He wrote all of this to his daughter, Veronica,",
+"out": "Z_x1_0_3",
+"text": "The ship was called the Zong.",
+"check": "The ship was called the Zong.",
 "ref": "ref_m_deep_slow.wav",
 "ex": 0.4,
 "cfg": 0.2,
@@ -462,9 +212,9 @@
 "seed": 3
 },
 {
-"out": "N_e1_0_11",
-"text": "He wrote all of this to his daughter, Veronica,",
-"check": "He wrote all of this to his daughter, Veronica,",
+"out": "Z_x1_0_11",
+"text": "The ship was called the Zong.",
+"check": "The ship was called the Zong.",
 "ref": "ref_m_deep_slow.wav",
 "ex": 0.4,
 "cfg": 0.2,
@@ -472,9 +222,9 @@
 "seed": 11
 },
 {
-"out": "N_e1_0_29",
-"text": "He wrote all of this to his daughter, Veronica,",
-"check": "He wrote all of this to his daughter, Veronica,",
+"out": "Z_x1_0_29",
+"text": "The ship was called the Zong.",
+"check": "The ship was called the Zong.",
 "ref": "ref_m_deep_slow.wav",
 "ex": 0.4,
 "cfg": 0.2,
@@ -482,9 +232,9 @@
 "seed": 29
 },
 {
-"out": "N_e1_0_47",
-"text": "He wrote all of this to his daughter, Veronica,",
-"check": "He wrote all of this to his daughter, Veronica,",
+"out": "Z_x1_0_47",
+"text": "The ship was called the Zong.",
+"check": "The ship was called the Zong.",
 "ref": "ref_m_deep_slow.wav",
 "ex": 0.4,
 "cfg": 0.2,
@@ -492,9 +242,9 @@
 "seed": 47
 },
 {
-"out": "N_e1_0_61",
-"text": "He wrote all of this to his daughter, Veronica,",
-"check": "He wrote all of this to his daughter, Veronica,",
+"out": "Z_x1_0_61",
+"text": "The ship was called the Zong.",
+"check": "The ship was called the Zong.",
 "ref": "ref_m_deep_slow.wav",
 "ex": 0.4,
 "cfg": 0.2,
@@ -502,9 +252,9 @@
 "seed": 61
 },
 {
-"out": "N_e1_1_3",
-"text": "over several days, with hands that barely worked.",
-"check": "over several days, with hands that barely worked.",
+"out": "Z_x1_1_3",
+"text": "It had been taken from the Dutch, who named it Zorkh.",
+"check": "It had been taken from the Dutch, who named it Zorg.",
 "ref": "ref_m_deep_slow.wav",
 "ex": 0.4,
 "cfg": 0.2,
@@ -512,9 +262,9 @@
 "seed": 3
 },
 {
-"out": "N_e1_1_11",
-"text": "over several days, with hands that barely worked.",
-"check": "over several days, with hands that barely worked.",
+"out": "Z_x1_1_11",
+"text": "It had been taken from the Dutch, who named it Zorkh.",
+"check": "It had been taken from the Dutch, who named it Zorg.",
 "ref": "ref_m_deep_slow.wav",
 "ex": 0.4,
 "cfg": 0.2,
@@ -522,9 +272,9 @@
 "seed": 11
 },
 {
-"out": "N_e1_1_29",
-"text": "over several days, with hands that barely worked.",
-"check": "over several days, with hands that barely worked.",
+"out": "Z_x1_1_29",
+"text": "It had been taken from the Dutch, who named it Zorkh.",
+"check": "It had been taken from the Dutch, who named it Zorg.",
 "ref": "ref_m_deep_slow.wav",
 "ex": 0.4,
 "cfg": 0.2,
@@ -532,9 +282,9 @@
 "seed": 29
 },
 {
-"out": "N_e1_1_47",
-"text": "over several days, with hands that barely worked.",
-"check": "over several days, with hands that barely worked.",
+"out": "Z_x1_1_47",
+"text": "It had been taken from the Dutch, who named it Zorkh.",
+"check": "It had been taken from the Dutch, who named it Zorg.",
 "ref": "ref_m_deep_slow.wav",
 "ex": 0.4,
 "cfg": 0.2,
@@ -542,9 +292,9 @@
 "seed": 47
 },
 {
-"out": "N_e1_1_61",
-"text": "over several days, with hands that barely worked.",
-"check": "over several days, with hands that barely worked.",
+"out": "Z_x1_1_61",
+"text": "It had been taken from the Dutch, who named it Zorkh.",
+"check": "It had been taken from the Dutch, who named it Zorg.",
 "ref": "ref_m_deep_slow.wav",
 "ex": 0.4,
 "cfg": 0.2,
@@ -552,409 +302,9 @@
 "seed": 61
 },
 {
-"out": "N_e2_0_3",
-"text": "He asked her to hide the letter.",
-"check": "He asked her to hide the letter.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.4,
-"cfg": 0.2,
-"temp": 0.68,
-"seed": 3
-},
-{
-"out": "N_e2_0_11",
-"text": "He asked her to hide the letter.",
-"check": "He asked her to hide the letter.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.4,
-"cfg": 0.2,
-"temp": 0.68,
-"seed": 11
-},
-{
-"out": "N_e2_0_29",
-"text": "He asked her to hide the letter.",
-"check": "He asked her to hide the letter.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.4,
-"cfg": 0.2,
-"temp": 0.68,
-"seed": 29
-},
-{
-"out": "N_e2_0_47",
-"text": "He asked her to hide the letter.",
-"check": "He asked her to hide the letter.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.4,
-"cfg": 0.2,
-"temp": 0.68,
-"seed": 47
-},
-{
-"out": "N_e2_0_61",
-"text": "He asked her to hide the letter.",
-"check": "He asked her to hide the letter.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.4,
-"cfg": 0.2,
-"temp": 0.68,
-"seed": 61
-},
-{
-"out": "N_e3_0_3",
-"text": "He wrote: I am innocent.",
-"check": "He wrote: I am innocent.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.55,
-"cfg": 0.17,
-"temp": 0.72,
-"seed": 3
-},
-{
-"out": "N_e3_0_11",
-"text": "He wrote: I am innocent.",
-"check": "He wrote: I am innocent.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.55,
-"cfg": 0.17,
-"temp": 0.72,
-"seed": 11
-},
-{
-"out": "N_e3_0_29",
-"text": "He wrote: I am innocent.",
-"check": "He wrote: I am innocent.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.55,
-"cfg": 0.17,
-"temp": 0.72,
-"seed": 29
-},
-{
-"out": "N_e3_0_47",
-"text": "He wrote: I am innocent.",
-"check": "He wrote: I am innocent.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.55,
-"cfg": 0.17,
-"temp": 0.72,
-"seed": 47
-},
-{
-"out": "N_e3_0_61",
-"text": "He wrote: I am innocent.",
-"check": "He wrote: I am innocent.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.55,
-"cfg": 0.17,
-"temp": 0.72,
-"seed": 61
-},
-{
-"out": "N_e4_0_3",
-"text": "And he ended with: Good night.",
-"check": "And he ended with: Good night.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.55,
-"cfg": 0.17,
-"temp": 0.72,
-"seed": 3
-},
-{
-"out": "N_e4_0_11",
-"text": "And he ended with: Good night.",
-"check": "And he ended with: Good night.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.55,
-"cfg": 0.17,
-"temp": 0.72,
-"seed": 11
-},
-{
-"out": "N_e4_0_29",
-"text": "And he ended with: Good night.",
-"check": "And he ended with: Good night.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.55,
-"cfg": 0.17,
-"temp": 0.72,
-"seed": 29
-},
-{
-"out": "N_e4_0_47",
-"text": "And he ended with: Good night.",
-"check": "And he ended with: Good night.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.55,
-"cfg": 0.17,
-"temp": 0.72,
-"seed": 47
-},
-{
-"out": "N_e4_0_61",
-"text": "And he ended with: Good night.",
-"check": "And he ended with: Good night.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.55,
-"cfg": 0.17,
-"temp": 0.72,
-"seed": 61
-},
-{
-"out": "N_e4_1_3",
-"text": "Your father will never see you again.",
-"check": "Your father will never see you again.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.55,
-"cfg": 0.17,
-"temp": 0.72,
-"seed": 3
-},
-{
-"out": "N_e4_1_11",
-"text": "Your father will never see you again.",
-"check": "Your father will never see you again.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.55,
-"cfg": 0.17,
-"temp": 0.72,
-"seed": 11
-},
-{
-"out": "N_e4_1_29",
-"text": "Your father will never see you again.",
-"check": "Your father will never see you again.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.55,
-"cfg": 0.17,
-"temp": 0.72,
-"seed": 29
-},
-{
-"out": "N_e4_1_47",
-"text": "Your father will never see you again.",
-"check": "Your father will never see you again.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.55,
-"cfg": 0.17,
-"temp": 0.72,
-"seed": 47
-},
-{
-"out": "N_e4_1_61",
-"text": "Your father will never see you again.",
-"check": "Your father will never see you again.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.55,
-"cfg": 0.17,
-"temp": 0.72,
-"seed": 61
-},
-{
-"out": "N_f1_0_3",
-"text": "That August, Johannes Junius was executed.",
-"check": "That August, Johannes Junius was executed.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.45,
-"cfg": 0.17,
-"temp": 0.68,
-"seed": 3
-},
-{
-"out": "N_f1_0_11",
-"text": "That August, Johannes Junius was executed.",
-"check": "That August, Johannes Junius was executed.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.45,
-"cfg": 0.17,
-"temp": 0.68,
-"seed": 11
-},
-{
-"out": "N_f1_0_29",
-"text": "That August, Johannes Junius was executed.",
-"check": "That August, Johannes Junius was executed.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.45,
-"cfg": 0.17,
-"temp": 0.68,
-"seed": 29
-},
-{
-"out": "N_f1_0_47",
-"text": "That August, Johannes Junius was executed.",
-"check": "That August, Johannes Junius was executed.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.45,
-"cfg": 0.17,
-"temp": 0.68,
-"seed": 47
-},
-{
-"out": "N_f1_0_61",
-"text": "That August, Johannes Junius was executed.",
-"check": "That August, Johannes Junius was executed.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.45,
-"cfg": 0.17,
-"temp": 0.68,
-"seed": 61
-},
-{
-"out": "N_f2_0_3",
-"text": "His letter probably never reached his daughter.",
-"check": "His letter probably never reached his daughter.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.4,
-"cfg": 0.2,
-"temp": 0.68,
-"seed": 3
-},
-{
-"out": "N_f2_0_11",
-"text": "His letter probably never reached his daughter.",
-"check": "His letter probably never reached his daughter.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.4,
-"cfg": 0.2,
-"temp": 0.68,
-"seed": 11
-},
-{
-"out": "N_f2_0_29",
-"text": "His letter probably never reached his daughter.",
-"check": "His letter probably never reached his daughter.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.4,
-"cfg": 0.2,
-"temp": 0.68,
-"seed": 29
-},
-{
-"out": "N_f2_0_47",
-"text": "His letter probably never reached his daughter.",
-"check": "His letter probably never reached his daughter.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.4,
-"cfg": 0.2,
-"temp": 0.68,
-"seed": 47
-},
-{
-"out": "N_f2_0_61",
-"text": "His letter probably never reached his daughter.",
-"check": "His letter probably never reached his daughter.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.4,
-"cfg": 0.2,
-"temp": 0.68,
-"seed": 61
-},
-{
-"out": "N_f2_1_3",
-"text": "The court kept it in his file.",
-"check": "The court kept it in his file.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.4,
-"cfg": 0.2,
-"temp": 0.68,
-"seed": 3
-},
-{
-"out": "N_f2_1_11",
-"text": "The court kept it in his file.",
-"check": "The court kept it in his file.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.4,
-"cfg": 0.2,
-"temp": 0.68,
-"seed": 11
-},
-{
-"out": "N_f2_1_29",
-"text": "The court kept it in his file.",
-"check": "The court kept it in his file.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.4,
-"cfg": 0.2,
-"temp": 0.68,
-"seed": 29
-},
-{
-"out": "N_f2_1_47",
-"text": "The court kept it in his file.",
-"check": "The court kept it in his file.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.4,
-"cfg": 0.2,
-"temp": 0.68,
-"seed": 47
-},
-{
-"out": "N_f2_1_61",
-"text": "The court kept it in his file.",
-"check": "The court kept it in his file.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.4,
-"cfg": 0.2,
-"temp": 0.68,
-"seed": 61
-},
-{
-"out": "N_f3_0_3",
-"text": "And that is why, almost four hundred years later,",
-"check": "And that is why, almost four hundred years later,",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.4,
-"cfg": 0.2,
-"temp": 0.68,
-"seed": 3
-},
-{
-"out": "N_f3_0_11",
-"text": "And that is why, almost four hundred years later,",
-"check": "And that is why, almost four hundred years later,",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.4,
-"cfg": 0.2,
-"temp": 0.68,
-"seed": 11
-},
-{
-"out": "N_f3_0_29",
-"text": "And that is why, almost four hundred years later,",
-"check": "And that is why, almost four hundred years later,",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.4,
-"cfg": 0.2,
-"temp": 0.68,
-"seed": 29
-},
-{
-"out": "N_f3_0_47",
-"text": "And that is why, almost four hundred years later,",
-"check": "And that is why, almost four hundred years later,",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.4,
-"cfg": 0.2,
-"temp": 0.68,
-"seed": 47
-},
-{
-"out": "N_f3_0_61",
-"text": "And that is why, almost four hundred years later,",
-"check": "And that is why, almost four hundred years later,",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.4,
-"cfg": 0.2,
-"temp": 0.68,
-"seed": 61
-},
-{
-"out": "N_f3_1_3",
-"text": "we can still read it.",
-"check": "we can still read it.",
+"out": "Z_x1_2_3",
+"text": "In Dutch, that word means care.",
+"check": "In Dutch, that word means care.",
 "ref": "ref_m_deep_slow.wav",
 "ex": 0.52,
 "cfg": 0.24,
@@ -962,9 +312,9 @@
 "seed": 3
 },
 {
-"out": "N_f3_1_11",
-"text": "we can still read it.",
-"check": "we can still read it.",
+"out": "Z_x1_2_11",
+"text": "In Dutch, that word means care.",
+"check": "In Dutch, that word means care.",
 "ref": "ref_m_deep_slow.wav",
 "ex": 0.52,
 "cfg": 0.24,
@@ -972,9 +322,9 @@
 "seed": 11
 },
 {
-"out": "N_f3_1_29",
-"text": "we can still read it.",
-"check": "we can still read it.",
+"out": "Z_x1_2_29",
+"text": "In Dutch, that word means care.",
+"check": "In Dutch, that word means care.",
 "ref": "ref_m_deep_slow.wav",
 "ex": 0.52,
 "cfg": 0.24,
@@ -982,9 +332,9 @@
 "seed": 29
 },
 {
-"out": "N_f3_1_47",
-"text": "we can still read it.",
-"check": "we can still read it.",
+"out": "Z_x1_2_47",
+"text": "In Dutch, that word means care.",
+"check": "In Dutch, that word means care.",
 "ref": "ref_m_deep_slow.wav",
 "ex": 0.52,
 "cfg": 0.24,
@@ -992,12 +342,6462 @@
 "seed": 47
 },
 {
-"out": "N_f3_1_61",
-"text": "we can still read it.",
-"check": "we can still read it.",
+"out": "Z_x1_2_61",
+"text": "In Dutch, that word means care.",
+"check": "In Dutch, that word means care.",
 "ref": "ref_m_deep_slow.wav",
 "ex": 0.52,
 "cfg": 0.24,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "Z_x2_0_3",
+"text": "On board were seventeen crew,",
+"check": "On board were seventeen crew,",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "Z_x2_0_11",
+"text": "On board were seventeen crew,",
+"check": "On board were seventeen crew,",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "Z_x2_0_29",
+"text": "On board were seventeen crew,",
+"check": "On board were seventeen crew,",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "Z_x2_0_47",
+"text": "On board were seventeen crew,",
+"check": "On board were seventeen crew,",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "Z_x2_0_61",
+"text": "On board were seventeen crew,",
+"check": "On board were seventeen crew,",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "Z_x2_1_3",
+"text": "and about four hundred and forty African captives.",
+"check": "and about four hundred and forty African captives.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "Z_x2_1_11",
+"text": "and about four hundred and forty African captives.",
+"check": "and about four hundred and forty African captives.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "Z_x2_1_29",
+"text": "and about four hundred and forty African captives.",
+"check": "and about four hundred and forty African captives.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "Z_x2_1_47",
+"text": "and about four hundred and forty African captives.",
+"check": "and about four hundred and forty African captives.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "Z_x2_1_61",
+"text": "and about four hundred and forty African captives.",
+"check": "and about four hundred and forty African captives.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "Z_x2_2_3",
+"text": "Twice what a ship that size carried.",
+"check": "Twice what a ship that size carried.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "Z_x2_2_11",
+"text": "Twice what a ship that size carried.",
+"check": "Twice what a ship that size carried.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "Z_x2_2_29",
+"text": "Twice what a ship that size carried.",
+"check": "Twice what a ship that size carried.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "Z_x2_2_47",
+"text": "Twice what a ship that size carried.",
+"check": "Twice what a ship that size carried.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "Z_x2_2_61",
+"text": "Twice what a ship that size carried.",
+"check": "Twice what a ship that size carried.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "Z_x4_0_3",
+"text": "Every captive was insured. Thirty pounds each.",
+"check": "Every captive was insured. Thirty pounds each.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "Z_x4_0_11",
+"text": "Every captive was insured. Thirty pounds each.",
+"check": "Every captive was insured. Thirty pounds each.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "Z_x4_0_29",
+"text": "Every captive was insured. Thirty pounds each.",
+"check": "Every captive was insured. Thirty pounds each.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "Z_x4_0_47",
+"text": "Every captive was insured. Thirty pounds each.",
+"check": "Every captive was insured. Thirty pounds each.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "Z_x4_0_61",
+"text": "Every captive was insured. Thirty pounds each.",
+"check": "Every captive was insured. Thirty pounds each.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "Z_m1_0_3",
+"text": "In late November, they saw Jamaica.",
+"check": "In late November, they saw Jamaica.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "Z_m1_0_11",
+"text": "In late November, they saw Jamaica.",
+"check": "In late November, they saw Jamaica.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "Z_m1_0_29",
+"text": "In late November, they saw Jamaica.",
+"check": "In late November, they saw Jamaica.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "Z_m1_0_47",
+"text": "In late November, they saw Jamaica.",
+"check": "In late November, they saw Jamaica.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "Z_m1_0_61",
+"text": "In late November, they saw Jamaica.",
+"check": "In late November, they saw Jamaica.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "Z_m1_1_3",
+"text": "The captain thought it was another island.",
+"check": "The captain thought it was another island.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "Z_m1_1_11",
+"text": "The captain thought it was another island.",
+"check": "The captain thought it was another island.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "Z_m1_1_29",
+"text": "The captain thought it was another island.",
+"check": "The captain thought it was another island.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "Z_m1_1_47",
+"text": "The captain thought it was another island.",
+"check": "The captain thought it was another island.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "Z_m1_1_61",
+"text": "The captain thought it was another island.",
+"check": "The captain thought it was another island.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "Z_m1_2_3",
+"text": "And sailed right past it.",
+"check": "And sailed right past it.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "Z_m1_2_11",
+"text": "And sailed right past it.",
+"check": "And sailed right past it.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "Z_m1_2_29",
+"text": "And sailed right past it.",
+"check": "And sailed right past it.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "Z_m1_2_47",
+"text": "And sailed right past it.",
+"check": "And sailed right past it.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "Z_m1_2_61",
+"text": "And sailed right past it.",
+"check": "And sailed right past it.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "Z_m2_0_3",
+"text": "By the time they knew, they were hundreds of miles downwind.",
+"check": "By the time they knew, they were hundreds of miles downwind.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "Z_m2_0_11",
+"text": "By the time they knew, they were hundreds of miles downwind.",
+"check": "By the time they knew, they were hundreds of miles downwind.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "Z_m2_0_29",
+"text": "By the time they knew, they were hundreds of miles downwind.",
+"check": "By the time they knew, they were hundreds of miles downwind.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "Z_m2_0_47",
+"text": "By the time they knew, they were hundreds of miles downwind.",
+"check": "By the time they knew, they were hundreds of miles downwind.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "Z_m2_0_61",
+"text": "By the time they knew, they were hundreds of miles downwind.",
+"check": "By the time they knew, they were hundreds of miles downwind.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "Z_m2_1_3",
+"text": "And the water was running low.",
+"check": "And the water was running low.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "Z_m2_1_11",
+"text": "And the water was running low.",
+"check": "And the water was running low.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "Z_m2_1_29",
+"text": "And the water was running low.",
+"check": "And the water was running low.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "Z_m2_1_47",
+"text": "And the water was running low.",
+"check": "And the water was running low.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "Z_m2_1_61",
+"text": "And the water was running low.",
+"check": "And the water was running low.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "Z_m3_0_3",
+"text": "The insurance had a rule.",
+"check": "The insurance had a rule.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "Z_m3_0_11",
+"text": "The insurance had a rule.",
+"check": "The insurance had a rule.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "Z_m3_0_29",
+"text": "The insurance had a rule.",
+"check": "The insurance had a rule.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "Z_m3_0_47",
+"text": "The insurance had a rule.",
+"check": "The insurance had a rule.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "Z_m3_0_61",
+"text": "The insurance had a rule.",
+"check": "The insurance had a rule.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "Z_m3_1_3",
+"text": "Captives who died of sickness were the owners' loss.",
+"check": "Captives who died of sickness were the owners' loss.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "Z_m3_1_11",
+"text": "Captives who died of sickness were the owners' loss.",
+"check": "Captives who died of sickness were the owners' loss.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "Z_m3_1_29",
+"text": "Captives who died of sickness were the owners' loss.",
+"check": "Captives who died of sickness were the owners' loss.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "Z_m3_1_47",
+"text": "Captives who died of sickness were the owners' loss.",
+"check": "Captives who died of sickness were the owners' loss.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "Z_m3_1_61",
+"text": "Captives who died of sickness were the owners' loss.",
+"check": "Captives who died of sickness were the owners' loss.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "Z_m3_2_3",
+"text": "Captives thrown overboard to save the ship, the insurers paid for.",
+"check": "Captives thrown overboard to save the ship, the insurers paid for.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "Z_m3_2_11",
+"text": "Captives thrown overboard to save the ship, the insurers paid for.",
+"check": "Captives thrown overboard to save the ship, the insurers paid for.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "Z_m3_2_29",
+"text": "Captives thrown overboard to save the ship, the insurers paid for.",
+"check": "Captives thrown overboard to save the ship, the insurers paid for.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "Z_m3_2_47",
+"text": "Captives thrown overboard to save the ship, the insurers paid for.",
+"check": "Captives thrown overboard to save the ship, the insurers paid for.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "Z_m3_2_61",
+"text": "Captives thrown overboard to save the ship, the insurers paid for.",
+"check": "Captives thrown overboard to save the ship, the insurers paid for.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "Z_d1_0_3",
+"text": "On the night of November the twenty-ninth, the crew decided.",
+"check": "On the night of November the twenty-ninth, the crew decided.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "Z_d1_0_11",
+"text": "On the night of November the twenty-ninth, the crew decided.",
+"check": "On the night of November the twenty-ninth, the crew decided.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "Z_d1_0_29",
+"text": "On the night of November the twenty-ninth, the crew decided.",
+"check": "On the night of November the twenty-ninth, the crew decided.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "Z_d1_0_47",
+"text": "On the night of November the twenty-ninth, the crew decided.",
+"check": "On the night of November the twenty-ninth, the crew decided.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "Z_d1_0_61",
+"text": "On the night of November the twenty-ninth, the crew decided.",
+"check": "On the night of November the twenty-ninth, the crew decided.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "Z_d2_0_3",
+"text": "Fifty-four people, women and children first, were forced into the sea.",
+"check": "Fifty-four people, women and children first, were forced into the sea.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "Z_d2_0_11",
+"text": "Fifty-four people, women and children first, were forced into the sea.",
+"check": "Fifty-four people, women and children first, were forced into the sea.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "Z_d2_0_29",
+"text": "Fifty-four people, women and children first, were forced into the sea.",
+"check": "Fifty-four people, women and children first, were forced into the sea.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "Z_d2_0_47",
+"text": "Fifty-four people, women and children first, were forced into the sea.",
+"check": "Fifty-four people, women and children first, were forced into the sea.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "Z_d2_0_61",
+"text": "Fifty-four people, women and children first, were forced into the sea.",
+"check": "Fifty-four people, women and children first, were forced into the sea.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "Z_d3_0_3",
+"text": "Two days later, forty-two men.",
+"check": "Two days later, forty-two men.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "Z_d3_0_11",
+"text": "Two days later, forty-two men.",
+"check": "Two days later, forty-two men.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "Z_d3_0_29",
+"text": "Two days later, forty-two men.",
+"check": "Two days later, forty-two men.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "Z_d3_0_47",
+"text": "Two days later, forty-two men.",
+"check": "Two days later, forty-two men.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "Z_d3_0_61",
+"text": "Two days later, forty-two men.",
+"check": "Two days later, forty-two men.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "Z_r1_0_3",
+"text": "Then it rained. They filled six casks with water.",
+"check": "Then it rained. They filled six casks with water.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "Z_r1_0_11",
+"text": "Then it rained. They filled six casks with water.",
+"check": "Then it rained. They filled six casks with water.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "Z_r1_0_29",
+"text": "Then it rained. They filled six casks with water.",
+"check": "Then it rained. They filled six casks with water.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "Z_r1_0_47",
+"text": "Then it rained. They filled six casks with water.",
+"check": "Then it rained. They filled six casks with water.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "Z_r1_0_61",
+"text": "Then it rained. They filled six casks with water.",
+"check": "Then it rained. They filled six casks with water.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "Z_r2_0_3",
+"text": "And they kept going.",
+"check": "And they kept going.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "Z_r2_0_11",
+"text": "And they kept going.",
+"check": "And they kept going.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "Z_r2_0_29",
+"text": "And they kept going.",
+"check": "And they kept going.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "Z_r2_0_47",
+"text": "And they kept going.",
+"check": "And they kept going.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "Z_r2_0_61",
+"text": "And they kept going.",
+"check": "And they kept going.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "Z_r3_0_3",
+"text": "Twenty-six more were thrown in with their hands chained.",
+"check": "Twenty-six more were thrown in with their hands chained.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "Z_r3_0_11",
+"text": "Twenty-six more were thrown in with their hands chained.",
+"check": "Twenty-six more were thrown in with their hands chained.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "Z_r3_0_29",
+"text": "Twenty-six more were thrown in with their hands chained.",
+"check": "Twenty-six more were thrown in with their hands chained.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "Z_r3_0_47",
+"text": "Twenty-six more were thrown in with their hands chained.",
+"check": "Twenty-six more were thrown in with their hands chained.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "Z_r3_0_61",
+"text": "Twenty-six more were thrown in with their hands chained.",
+"check": "Twenty-six more were thrown in with their hands chained.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "Z_r3_1_3",
+"text": "Ten others jumped. They chose the sea over the chains.",
+"check": "Ten others jumped. They chose the sea over the chains.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "Z_r3_1_11",
+"text": "Ten others jumped. They chose the sea over the chains.",
+"check": "Ten others jumped. They chose the sea over the chains.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "Z_r3_1_29",
+"text": "Ten others jumped. They chose the sea over the chains.",
+"check": "Ten others jumped. They chose the sea over the chains.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "Z_r3_1_47",
+"text": "Ten others jumped. They chose the sea over the chains.",
+"check": "Ten others jumped. They chose the sea over the chains.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "Z_r3_1_61",
+"text": "Ten others jumped. They chose the sea over the chains.",
+"check": "Ten others jumped. They chose the sea over the chains.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "Z_p1_0_3",
+"text": "One man, thrown overboard, caught a rope.",
+"check": "One man, thrown overboard, caught a rope.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "Z_p1_0_11",
+"text": "One man, thrown overboard, caught a rope.",
+"check": "One man, thrown overboard, caught a rope.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "Z_p1_0_29",
+"text": "One man, thrown overboard, caught a rope.",
+"check": "One man, thrown overboard, caught a rope.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "Z_p1_0_47",
+"text": "One man, thrown overboard, caught a rope.",
+"check": "One man, thrown overboard, caught a rope.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "Z_p1_0_61",
+"text": "One man, thrown overboard, caught a rope.",
+"check": "One man, thrown overboard, caught a rope.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "Z_p1_1_3",
+"text": "And climbed back aboard.",
+"check": "And climbed back aboard.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "Z_p1_1_11",
+"text": "And climbed back aboard.",
+"check": "And climbed back aboard.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "Z_p1_1_29",
+"text": "And climbed back aboard.",
+"check": "And climbed back aboard.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "Z_p1_1_47",
+"text": "And climbed back aboard.",
+"check": "And climbed back aboard.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "Z_p1_1_61",
+"text": "And climbed back aboard.",
+"check": "And climbed back aboard.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "Z_a1_0_3",
+"text": "Three weeks later, the Zong reached Jamaica.",
+"check": "Three weeks later, the Zong reached Jamaica.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "Z_a1_0_11",
+"text": "Three weeks later, the Zong reached Jamaica.",
+"check": "Three weeks later, the Zong reached Jamaica.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "Z_a1_0_29",
+"text": "Three weeks later, the Zong reached Jamaica.",
+"check": "Three weeks later, the Zong reached Jamaica.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "Z_a1_0_47",
+"text": "Three weeks later, the Zong reached Jamaica.",
+"check": "Three weeks later, the Zong reached Jamaica.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "Z_a1_0_61",
+"text": "Three weeks later, the Zong reached Jamaica.",
+"check": "Three weeks later, the Zong reached Jamaica.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "Z_a1_1_3",
+"text": "Two hundred and eight captives were alive. They were sold.",
+"check": "Two hundred and eight captives were alive. They were sold.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "Z_a1_1_11",
+"text": "Two hundred and eight captives were alive. They were sold.",
+"check": "Two hundred and eight captives were alive. They were sold.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "Z_a1_1_29",
+"text": "Two hundred and eight captives were alive. They were sold.",
+"check": "Two hundred and eight captives were alive. They were sold.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "Z_a1_1_47",
+"text": "Two hundred and eight captives were alive. They were sold.",
+"check": "Two hundred and eight captives were alive. They were sold.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "Z_a1_1_61",
+"text": "Two hundred and eight captives were alive. They were sold.",
+"check": "Two hundred and eight captives were alive. They were sold.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "Z_c1_0_3",
+"text": "Then the owners claimed the insurance",
+"check": "Then the owners claimed the insurance",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "Z_c1_0_11",
+"text": "Then the owners claimed the insurance",
+"check": "Then the owners claimed the insurance",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "Z_c1_0_29",
+"text": "Then the owners claimed the insurance",
+"check": "Then the owners claimed the insurance",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "Z_c1_0_47",
+"text": "Then the owners claimed the insurance",
+"check": "Then the owners claimed the insurance",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "Z_c1_0_61",
+"text": "Then the owners claimed the insurance",
+"check": "Then the owners claimed the insurance",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "Z_c1_1_3",
+"text": "for the people they had drowned.",
+"check": "for the people they had drowned.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "Z_c1_1_11",
+"text": "for the people they had drowned.",
+"check": "for the people they had drowned.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "Z_c1_1_29",
+"text": "for the people they had drowned.",
+"check": "for the people they had drowned.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "Z_c1_1_47",
+"text": "for the people they had drowned.",
+"check": "for the people they had drowned.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "Z_c1_1_61",
+"text": "for the people they had drowned.",
+"check": "for the people they had drowned.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "Z_c2_0_3",
+"text": "In March 1783, a London jury agreed with the owners.",
+"check": "In March 1783, a London jury agreed with the owners.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "Z_c2_0_11",
+"text": "In March 1783, a London jury agreed with the owners.",
+"check": "In March 1783, a London jury agreed with the owners.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "Z_c2_0_29",
+"text": "In March 1783, a London jury agreed with the owners.",
+"check": "In March 1783, a London jury agreed with the owners.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "Z_c2_0_47",
+"text": "In March 1783, a London jury agreed with the owners.",
+"check": "In March 1783, a London jury agreed with the owners.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "Z_c2_0_61",
+"text": "In March 1783, a London jury agreed with the owners.",
+"check": "In March 1783, a London jury agreed with the owners.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "Z_c3_0_3",
+"text": "Their lawyer told the court:",
+"check": "Their lawyer told the court:",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "Z_c3_0_11",
+"text": "Their lawyer told the court:",
+"check": "Their lawyer told the court:",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "Z_c3_0_29",
+"text": "Their lawyer told the court:",
+"check": "Their lawyer told the court:",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "Z_c3_0_47",
+"text": "Their lawyer told the court:",
+"check": "Their lawyer told the court:",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "Z_c3_0_61",
+"text": "Their lawyer told the court:",
+"check": "Their lawyer told the court:",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "Z_c3_1_3",
+"text": "It is the case of throwing over goods.",
+"check": "It is the case of throwing over goods.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.32,
+"cfg": 0.3,
+"temp": 0.65,
+"seed": 3
+},
+{
+"out": "Z_c3_1_11",
+"text": "It is the case of throwing over goods.",
+"check": "It is the case of throwing over goods.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.32,
+"cfg": 0.3,
+"temp": 0.65,
+"seed": 11
+},
+{
+"out": "Z_c3_1_29",
+"text": "It is the case of throwing over goods.",
+"check": "It is the case of throwing over goods.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.32,
+"cfg": 0.3,
+"temp": 0.65,
+"seed": 29
+},
+{
+"out": "Z_c3_1_47",
+"text": "It is the case of throwing over goods.",
+"check": "It is the case of throwing over goods.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.32,
+"cfg": 0.3,
+"temp": 0.65,
+"seed": 47
+},
+{
+"out": "Z_c3_1_61",
+"text": "It is the case of throwing over goods.",
+"check": "It is the case of throwing over goods.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.32,
+"cfg": 0.3,
+"temp": 0.65,
+"seed": 61
+},
+{
+"out": "Z_e1_0_3",
+"text": "But a man named Olaudah Ekwee-ahno heard about it.",
+"check": "But a man named Olaudah Equiano heard about it.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "Z_e1_0_11",
+"text": "But a man named Olaudah Ekwee-ahno heard about it.",
+"check": "But a man named Olaudah Equiano heard about it.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "Z_e1_0_29",
+"text": "But a man named Olaudah Ekwee-ahno heard about it.",
+"check": "But a man named Olaudah Equiano heard about it.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "Z_e1_0_47",
+"text": "But a man named Olaudah Ekwee-ahno heard about it.",
+"check": "But a man named Olaudah Equiano heard about it.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "Z_e1_0_61",
+"text": "But a man named Olaudah Ekwee-ahno heard about it.",
+"check": "But a man named Olaudah Equiano heard about it.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "Z_e1_1_3",
+"text": "He had once been enslaved himself.",
+"check": "He had once been enslaved himself.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "Z_e1_1_11",
+"text": "He had once been enslaved himself.",
+"check": "He had once been enslaved himself.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "Z_e1_1_29",
+"text": "He had once been enslaved himself.",
+"check": "He had once been enslaved himself.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "Z_e1_1_47",
+"text": "He had once been enslaved himself.",
+"check": "He had once been enslaved himself.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "Z_e1_1_61",
+"text": "He had once been enslaved himself.",
+"check": "He had once been enslaved himself.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "Z_e1_2_3",
+"text": "He took the story to a campaigner, Granville Sharp.",
+"check": "He took the story to a campaigner, Granville Sharp.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "Z_e1_2_11",
+"text": "He took the story to a campaigner, Granville Sharp.",
+"check": "He took the story to a campaigner, Granville Sharp.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "Z_e1_2_29",
+"text": "He took the story to a campaigner, Granville Sharp.",
+"check": "He took the story to a campaigner, Granville Sharp.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "Z_e1_2_47",
+"text": "He took the story to a campaigner, Granville Sharp.",
+"check": "He took the story to a campaigner, Granville Sharp.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "Z_e1_2_61",
+"text": "He took the story to a campaigner, Granville Sharp.",
+"check": "He took the story to a campaigner, Granville Sharp.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "Z_e2_0_3",
+"text": "Sharp wanted the crew tried for murder.",
+"check": "Sharp wanted the crew tried for murder.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "Z_e2_0_11",
+"text": "Sharp wanted the crew tried for murder.",
+"check": "Sharp wanted the crew tried for murder.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "Z_e2_0_29",
+"text": "Sharp wanted the crew tried for murder.",
+"check": "Sharp wanted the crew tried for murder.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "Z_e2_0_47",
+"text": "Sharp wanted the crew tried for murder.",
+"check": "Sharp wanted the crew tried for murder.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "Z_e2_0_61",
+"text": "Sharp wanted the crew tried for murder.",
+"check": "Sharp wanted the crew tried for murder.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "Z_j1_0_3",
+"text": "The judge ordered a new trial.",
+"check": "The judge ordered a new trial.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "Z_j1_0_11",
+"text": "The judge ordered a new trial.",
+"check": "The judge ordered a new trial.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "Z_j1_0_29",
+"text": "The judge ordered a new trial.",
+"check": "The judge ordered a new trial.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "Z_j1_0_47",
+"text": "The judge ordered a new trial.",
+"check": "The judge ordered a new trial.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "Z_j1_0_61",
+"text": "The judge ordered a new trial.",
+"check": "The judge ordered a new trial.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "Z_j1_1_3",
+"text": "Because of the rain.",
+"check": "Because of the rain.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "Z_j1_1_11",
+"text": "Because of the rain.",
+"check": "Because of the rain.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "Z_j1_1_29",
+"text": "Because of the rain.",
+"check": "Because of the rain.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "Z_j1_1_47",
+"text": "Because of the rain.",
+"check": "Because of the rain.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "Z_j1_1_61",
+"text": "Because of the rain.",
+"check": "Because of the rain.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "Z_j1_2_3",
+"text": "After the rain, he said, there seemed to be no need.",
+"check": "After the rain, he said, there seemed to be no need.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "Z_j1_2_11",
+"text": "After the rain, he said, there seemed to be no need.",
+"check": "After the rain, he said, there seemed to be no need.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "Z_j1_2_29",
+"text": "After the rain, he said, there seemed to be no need.",
+"check": "After the rain, he said, there seemed to be no need.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "Z_j1_2_47",
+"text": "After the rain, he said, there seemed to be no need.",
+"check": "After the rain, he said, there seemed to be no need.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "Z_j1_2_61",
+"text": "After the rain, he said, there seemed to be no need.",
+"check": "After the rain, he said, there seemed to be no need.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "Z_j2_0_3",
+"text": "That trial never happened.",
+"check": "That trial never happened.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "Z_j2_0_11",
+"text": "That trial never happened.",
+"check": "That trial never happened.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "Z_j2_0_29",
+"text": "That trial never happened.",
+"check": "That trial never happened.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "Z_j2_0_47",
+"text": "That trial never happened.",
+"check": "That trial never happened.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "Z_j2_0_61",
+"text": "That trial never happened.",
+"check": "That trial never happened.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "Z_j2_1_3",
+"text": "No one was ever charged with murder.",
+"check": "No one was ever charged with murder.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "Z_j2_1_11",
+"text": "No one was ever charged with murder.",
+"check": "No one was ever charged with murder.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "Z_j2_1_29",
+"text": "No one was ever charged with murder.",
+"check": "No one was ever charged with murder.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "Z_j2_1_47",
+"text": "No one was ever charged with murder.",
+"check": "No one was ever charged with murder.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "Z_j2_1_61",
+"text": "No one was ever charged with murder.",
+"check": "No one was ever charged with murder.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "Z_f1_0_3",
+"text": "The captives' names were never written down. Only their price.",
+"check": "The captives' names were never written down. Only their price.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "Z_f1_0_11",
+"text": "The captives' names were never written down. Only their price.",
+"check": "The captives' names were never written down. Only their price.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "Z_f1_0_29",
+"text": "The captives' names were never written down. Only their price.",
+"check": "The captives' names were never written down. Only their price.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "Z_f1_0_47",
+"text": "The captives' names were never written down. Only their price.",
+"check": "The captives' names were never written down. Only their price.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "Z_f1_0_61",
+"text": "The captives' names were never written down. Only their price.",
+"check": "The captives' names were never written down. Only their price.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "Z_f2_0_3",
+"text": "Campaigners kept telling the story until Britain ended its slave trade, in 1807.",
+"check": "Campaigners kept telling the story until Britain ended its slave trade, in 1807.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "Z_f2_0_11",
+"text": "Campaigners kept telling the story until Britain ended its slave trade, in 1807.",
+"check": "Campaigners kept telling the story until Britain ended its slave trade, in 1807.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "Z_f2_0_29",
+"text": "Campaigners kept telling the story until Britain ended its slave trade, in 1807.",
+"check": "Campaigners kept telling the story until Britain ended its slave trade, in 1807.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "Z_f2_0_47",
+"text": "Campaigners kept telling the story until Britain ended its slave trade, in 1807.",
+"check": "Campaigners kept telling the story until Britain ended its slave trade, in 1807.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "Z_f2_0_61",
+"text": "Campaigners kept telling the story until Britain ended its slave trade, in 1807.",
+"check": "Campaigners kept telling the story until Britain ended its slave trade, in 1807.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "Z_f3_0_3",
+"text": "A ship whose name meant care.",
+"check": "A ship whose name meant care.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "Z_f3_0_11",
+"text": "A ship whose name meant care.",
+"check": "A ship whose name meant care.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "Z_f3_0_29",
+"text": "A ship whose name meant care.",
+"check": "A ship whose name meant care.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "Z_f3_0_47",
+"text": "A ship whose name meant care.",
+"check": "A ship whose name meant care.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "Z_f3_0_61",
+"text": "A ship whose name meant care.",
+"check": "A ship whose name meant care.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "A_o1_0_3",
+"text": "Around the year 600, in Arabia, a man went looking for two lost camels.",
+"check": "Around the year 600, in Arabia, a man went looking for two lost camels.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "A_o1_0_11",
+"text": "Around the year 600, in Arabia, a man went looking for two lost camels.",
+"check": "Around the year 600, in Arabia, a man went looking for two lost camels.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "A_o1_0_29",
+"text": "Around the year 600, in Arabia, a man went looking for two lost camels.",
+"check": "Around the year 600, in Arabia, a man went looking for two lost camels.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "A_o1_0_47",
+"text": "Around the year 600, in Arabia, a man went looking for two lost camels.",
+"check": "Around the year 600, in Arabia, a man went looking for two lost camels.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "A_o1_0_61",
+"text": "Around the year 600, in Arabia, a man went looking for two lost camels.",
+"check": "Around the year 600, in Arabia, a man went looking for two lost camels.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "A_o2_0_3",
+"text": "What he found that night changed the rest of his life.",
+"check": "What he found that night changed the rest of his life.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "A_o2_0_11",
+"text": "What he found that night changed the rest of his life.",
+"check": "What he found that night changed the rest of his life.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "A_o2_0_29",
+"text": "What he found that night changed the rest of his life.",
+"check": "What he found that night changed the rest of his life.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "A_o2_0_47",
+"text": "What he found that night changed the rest of his life.",
+"check": "What he found that night changed the rest of his life.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "A_o2_0_61",
+"text": "What he found that night changed the rest of his life.",
+"check": "What he found that night changed the rest of his life.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "A_o3_0_3",
+"text": "Everything you're about to hear comes from the old Arabic records.",
+"check": "Everything you're about to hear comes from the old Arabic records.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "A_o3_0_11",
+"text": "Everything you're about to hear comes from the old Arabic records.",
+"check": "Everything you're about to hear comes from the old Arabic records.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "A_o3_0_29",
+"text": "Everything you're about to hear comes from the old Arabic records.",
+"check": "Everything you're about to hear comes from the old Arabic records.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "A_o3_0_47",
+"text": "Everything you're about to hear comes from the old Arabic records.",
+"check": "Everything you're about to hear comes from the old Arabic records.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "A_o3_0_61",
+"text": "Everything you're about to hear comes from the old Arabic records.",
+"check": "Everything you're about to hear comes from the old Arabic records.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "A_x1_0_3",
+"text": "His name was Sasa-ah.",
+"check": "His name was Sasaa.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "A_x1_0_11",
+"text": "His name was Sasa-ah.",
+"check": "His name was Sasaa.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "A_x1_0_29",
+"text": "His name was Sasa-ah.",
+"check": "His name was Sasaa.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "A_x1_0_47",
+"text": "His name was Sasa-ah.",
+"check": "His name was Sasaa.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "A_x1_0_61",
+"text": "His name was Sasa-ah.",
+"check": "His name was Sasaa.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "A_x1_1_3",
+"text": "A nobleman of the Tameem tribe.",
+"check": "A nobleman of the Tamim tribe.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "A_x1_1_11",
+"text": "A nobleman of the Tameem tribe.",
+"check": "A nobleman of the Tamim tribe.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "A_x1_1_29",
+"text": "A nobleman of the Tameem tribe.",
+"check": "A nobleman of the Tamim tribe.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "A_x1_1_47",
+"text": "A nobleman of the Tameem tribe.",
+"check": "A nobleman of the Tamim tribe.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "A_x1_1_61",
+"text": "A nobleman of the Tameem tribe.",
+"check": "A nobleman of the Tamim tribe.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "A_x2_0_3",
+"text": "Life there was hard.",
+"check": "Life there was hard.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "A_x2_0_11",
+"text": "Life there was hard.",
+"check": "Life there was hard.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "A_x2_0_29",
+"text": "Life there was hard.",
+"check": "Life there was hard.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "A_x2_0_47",
+"text": "Life there was hard.",
+"check": "Life there was hard.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "A_x2_0_61",
+"text": "Life there was hard.",
+"check": "Life there was hard.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "A_x2_1_3",
+"text": "In years of hunger, some families saw a newborn girl as one more mouth.",
+"check": "In years of hunger, some families saw a newborn girl as one more mouth.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "A_x2_1_11",
+"text": "In years of hunger, some families saw a newborn girl as one more mouth.",
+"check": "In years of hunger, some families saw a newborn girl as one more mouth.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "A_x2_1_29",
+"text": "In years of hunger, some families saw a newborn girl as one more mouth.",
+"check": "In years of hunger, some families saw a newborn girl as one more mouth.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "A_x2_1_47",
+"text": "In years of hunger, some families saw a newborn girl as one more mouth.",
+"check": "In years of hunger, some families saw a newborn girl as one more mouth.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "A_x2_1_61",
+"text": "In years of hunger, some families saw a newborn girl as one more mouth.",
+"check": "In years of hunger, some families saw a newborn girl as one more mouth.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "A_x2_2_3",
+"text": "And some buried her alive.",
+"check": "And some buried her alive.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "A_x2_2_11",
+"text": "And some buried her alive.",
+"check": "And some buried her alive.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "A_x2_2_29",
+"text": "And some buried her alive.",
+"check": "And some buried her alive.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "A_x2_2_47",
+"text": "And some buried her alive.",
+"check": "And some buried her alive.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "A_x2_2_61",
+"text": "And some buried her alive.",
+"check": "And some buried her alive.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "A_x3_0_3",
+"text": "Not every family. Many hated it. But it happened.",
+"check": "Not every family. Many hated it. But it happened.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "A_x3_0_11",
+"text": "Not every family. Many hated it. But it happened.",
+"check": "Not every family. Many hated it. But it happened.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "A_x3_0_29",
+"text": "Not every family. Many hated it. But it happened.",
+"check": "Not every family. Many hated it. But it happened.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "A_x3_0_47",
+"text": "Not every family. Many hated it. But it happened.",
+"check": "Not every family. Many hated it. But it happened.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "A_x3_0_61",
+"text": "Not every family. Many hated it. But it happened.",
+"check": "Not every family. Many hated it. But it happened.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "A_s1_0_3",
+"text": "Sasa-ah followed the tracks into open desert.",
+"check": "Sasaa followed the tracks into open desert.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "A_s1_0_11",
+"text": "Sasa-ah followed the tracks into open desert.",
+"check": "Sasaa followed the tracks into open desert.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "A_s1_0_29",
+"text": "Sasa-ah followed the tracks into open desert.",
+"check": "Sasaa followed the tracks into open desert.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "A_s1_0_47",
+"text": "Sasa-ah followed the tracks into open desert.",
+"check": "Sasaa followed the tracks into open desert.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "A_s1_0_61",
+"text": "Sasa-ah followed the tracks into open desert.",
+"check": "Sasaa followed the tracks into open desert.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "A_s1_1_3",
+"text": "Late at night, he saw two tents.",
+"check": "Late at night, he saw two tents.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "A_s1_1_11",
+"text": "Late at night, he saw two tents.",
+"check": "Late at night, he saw two tents.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "A_s1_1_29",
+"text": "Late at night, he saw two tents.",
+"check": "Late at night, he saw two tents.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "A_s1_1_47",
+"text": "Late at night, he saw two tents.",
+"check": "Late at night, he saw two tents.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "A_s1_1_61",
+"text": "Late at night, he saw two tents.",
+"check": "Late at night, he saw two tents.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "A_s2_0_3",
+"text": "In one, a very old man.",
+"check": "In one, a very old man.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "A_s2_0_11",
+"text": "In one, a very old man.",
+"check": "In one, a very old man.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "A_s2_0_29",
+"text": "In one, a very old man.",
+"check": "In one, a very old man.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "A_s2_0_47",
+"text": "In one, a very old man.",
+"check": "In one, a very old man.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "A_s2_0_61",
+"text": "In one, a very old man.",
+"check": "In one, a very old man.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "A_s2_1_3",
+"text": "He said: we found your camels.",
+"check": "He said: we found your camels.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "A_s2_1_11",
+"text": "He said: we found your camels.",
+"check": "He said: we found your camels.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "A_s2_1_29",
+"text": "He said: we found your camels.",
+"check": "He said: we found your camels.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "A_s2_1_47",
+"text": "He said: we found your camels.",
+"check": "He said: we found your camels.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "A_s2_1_61",
+"text": "He said: we found your camels.",
+"check": "He said: we found your camels.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "A_s2_2_3",
+"text": "Their milk has kept my family alive.",
+"check": "Their milk has kept my family alive.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "A_s2_2_11",
+"text": "Their milk has kept my family alive.",
+"check": "Their milk has kept my family alive.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "A_s2_2_29",
+"text": "Their milk has kept my family alive.",
+"check": "Their milk has kept my family alive.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "A_s2_2_47",
+"text": "Their milk has kept my family alive.",
+"check": "Their milk has kept my family alive.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "A_s2_2_61",
+"text": "Their milk has kept my family alive.",
+"check": "Their milk has kept my family alive.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "A_s3_0_3",
+"text": "Then a woman called from the other tent.",
+"check": "Then a woman called from the other tent.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "A_s3_0_11",
+"text": "Then a woman called from the other tent.",
+"check": "Then a woman called from the other tent.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "A_s3_0_29",
+"text": "Then a woman called from the other tent.",
+"check": "Then a woman called from the other tent.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "A_s3_0_47",
+"text": "Then a woman called from the other tent.",
+"check": "Then a woman called from the other tent.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "A_s3_0_61",
+"text": "Then a woman called from the other tent.",
+"check": "Then a woman called from the other tent.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "A_s3_1_3",
+"text": "She had just given birth.",
+"check": "She had just given birth.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "A_s3_1_11",
+"text": "She had just given birth.",
+"check": "She had just given birth.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "A_s3_1_29",
+"text": "She had just given birth.",
+"check": "She had just given birth.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "A_s3_1_47",
+"text": "She had just given birth.",
+"check": "She had just given birth.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "A_s3_1_61",
+"text": "She had just given birth.",
+"check": "She had just given birth.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "A_s4_0_3",
+"text": "The old man asked: boy or girl?",
+"check": "The old man asked: boy or girl?",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "A_s4_0_11",
+"text": "The old man asked: boy or girl?",
+"check": "The old man asked: boy or girl?",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "A_s4_0_29",
+"text": "The old man asked: boy or girl?",
+"check": "The old man asked: boy or girl?",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "A_s4_0_47",
+"text": "The old man asked: boy or girl?",
+"check": "The old man asked: boy or girl?",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "A_s4_0_61",
+"text": "The old man asked: boy or girl?",
+"check": "The old man asked: boy or girl?",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "A_s4_1_3",
+"text": "If it is a boy, he is one of us.",
+"check": "If it is a boy, he is one of us.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.32,
+"cfg": 0.3,
+"temp": 0.65,
+"seed": 3
+},
+{
+"out": "A_s4_1_11",
+"text": "If it is a boy, he is one of us.",
+"check": "If it is a boy, he is one of us.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.32,
+"cfg": 0.3,
+"temp": 0.65,
+"seed": 11
+},
+{
+"out": "A_s4_1_29",
+"text": "If it is a boy, he is one of us.",
+"check": "If it is a boy, he is one of us.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.32,
+"cfg": 0.3,
+"temp": 0.65,
+"seed": 29
+},
+{
+"out": "A_s4_1_47",
+"text": "If it is a boy, he is one of us.",
+"check": "If it is a boy, he is one of us.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.32,
+"cfg": 0.3,
+"temp": 0.65,
+"seed": 47
+},
+{
+"out": "A_s4_1_61",
+"text": "If it is a boy, he is one of us.",
+"check": "If it is a boy, he is one of us.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.32,
+"cfg": 0.3,
+"temp": 0.65,
+"seed": 61
+},
+{
+"out": "A_s4_2_3",
+"text": "If it is a girl, bury her.",
+"check": "If it is a girl, bury her.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.32,
+"cfg": 0.3,
+"temp": 0.65,
+"seed": 3
+},
+{
+"out": "A_s4_2_11",
+"text": "If it is a girl, bury her.",
+"check": "If it is a girl, bury her.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.32,
+"cfg": 0.3,
+"temp": 0.65,
+"seed": 11
+},
+{
+"out": "A_s4_2_29",
+"text": "If it is a girl, bury her.",
+"check": "If it is a girl, bury her.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.32,
+"cfg": 0.3,
+"temp": 0.65,
+"seed": 29
+},
+{
+"out": "A_s4_2_47",
+"text": "If it is a girl, bury her.",
+"check": "If it is a girl, bury her.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.32,
+"cfg": 0.3,
+"temp": 0.65,
+"seed": 47
+},
+{
+"out": "A_s4_2_61",
+"text": "If it is a girl, bury her.",
+"check": "If it is a girl, bury her.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.32,
+"cfg": 0.3,
+"temp": 0.65,
+"seed": 61
+},
+{
+"out": "A_s5_0_3",
+"text": "It was a girl.",
+"check": "It was a girl.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "A_s5_0_11",
+"text": "It was a girl.",
+"check": "It was a girl.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "A_s5_0_29",
+"text": "It was a girl.",
+"check": "It was a girl.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "A_s5_0_47",
+"text": "It was a girl.",
+"check": "It was a girl.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "A_s5_0_61",
+"text": "It was a girl.",
+"check": "It was a girl.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "A_b1_0_3",
+"text": "Sasa-ah asked to buy her.",
+"check": "Sasaa asked to buy her.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "A_b1_0_11",
+"text": "Sasa-ah asked to buy her.",
+"check": "Sasaa asked to buy her.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "A_b1_0_29",
+"text": "Sasa-ah asked to buy her.",
+"check": "Sasaa asked to buy her.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "A_b1_0_47",
+"text": "Sasa-ah asked to buy her.",
+"check": "Sasaa asked to buy her.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "A_b1_0_61",
+"text": "Sasa-ah asked to buy her.",
+"check": "Sasaa asked to buy her.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "A_b1_1_3",
+"text": "The old man was insulted.",
+"check": "The old man was insulted.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "A_b1_1_11",
+"text": "The old man was insulted.",
+"check": "The old man was insulted.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "A_b1_1_29",
+"text": "The old man was insulted.",
+"check": "The old man was insulted.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "A_b1_1_47",
+"text": "The old man was insulted.",
+"check": "The old man was insulted.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "A_b1_1_61",
+"text": "The old man was insulted.",
+"check": "The old man was insulted.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "A_b1_2_3",
+"text": "A free man does not sell his children.",
+"check": "A free man does not sell his children.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "A_b1_2_11",
+"text": "A free man does not sell his children.",
+"check": "A free man does not sell his children.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "A_b1_2_29",
+"text": "A free man does not sell his children.",
+"check": "A free man does not sell his children.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "A_b1_2_47",
+"text": "A free man does not sell his children.",
+"check": "A free man does not sell his children.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "A_b1_2_61",
+"text": "A free man does not sell his children.",
+"check": "A free man does not sell his children.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "A_b2_0_3",
+"text": "Sasa-ah answered: I am not buying her as a slave.",
+"check": "Sasaa answered: I am not buying her as a slave.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "A_b2_0_11",
+"text": "Sasa-ah answered: I am not buying her as a slave.",
+"check": "Sasaa answered: I am not buying her as a slave.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "A_b2_0_29",
+"text": "Sasa-ah answered: I am not buying her as a slave.",
+"check": "Sasaa answered: I am not buying her as a slave.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "A_b2_0_47",
+"text": "Sasa-ah answered: I am not buying her as a slave.",
+"check": "Sasaa answered: I am not buying her as a slave.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "A_b2_0_61",
+"text": "Sasa-ah answered: I am not buying her as a slave.",
+"check": "Sasaa answered: I am not buying her as a slave.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "A_b2_1_3",
+"text": "I am buying her life.",
+"check": "I am buying her life.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.55,
+"cfg": 0.17,
+"temp": 0.72,
+"seed": 3
+},
+{
+"out": "A_b2_1_11",
+"text": "I am buying her life.",
+"check": "I am buying her life.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.55,
+"cfg": 0.17,
+"temp": 0.72,
+"seed": 11
+},
+{
+"out": "A_b2_1_29",
+"text": "I am buying her life.",
+"check": "I am buying her life.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.55,
+"cfg": 0.17,
+"temp": 0.72,
+"seed": 29
+},
+{
+"out": "A_b2_1_47",
+"text": "I am buying her life.",
+"check": "I am buying her life.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.55,
+"cfg": 0.17,
+"temp": 0.72,
+"seed": 47
+},
+{
+"out": "A_b2_1_61",
+"text": "I am buying her life.",
+"check": "I am buying her life.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.55,
+"cfg": 0.17,
+"temp": 0.72,
+"seed": 61
+},
+{
+"out": "A_b3_0_3",
+"text": "The price was his two pregnant camels,",
+"check": "The price was his two pregnant camels,",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "A_b3_0_11",
+"text": "The price was his two pregnant camels,",
+"check": "The price was his two pregnant camels,",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "A_b3_0_29",
+"text": "The price was his two pregnant camels,",
+"check": "The price was his two pregnant camels,",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "A_b3_0_47",
+"text": "The price was his two pregnant camels,",
+"check": "The price was his two pregnant camels,",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "A_b3_0_61",
+"text": "The price was his two pregnant camels,",
+"check": "The price was his two pregnant camels,",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "A_b3_1_3",
+"text": "their calves, and the camel he was riding.",
+"check": "their calves, and the camel he was riding.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "A_b3_1_11",
+"text": "their calves, and the camel he was riding.",
+"check": "their calves, and the camel he was riding.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "A_b3_1_29",
+"text": "their calves, and the camel he was riding.",
+"check": "their calves, and the camel he was riding.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "A_b3_1_47",
+"text": "their calves, and the camel he was riding.",
+"check": "their calves, and the camel he was riding.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "A_b3_1_61",
+"text": "their calves, and the camel he was riding.",
+"check": "their calves, and the camel he was riding.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "A_v1_0_3",
+"text": "He walked home without them.",
+"check": "He walked home without them.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "A_v1_0_11",
+"text": "He walked home without them.",
+"check": "He walked home without them.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "A_v1_0_29",
+"text": "He walked home without them.",
+"check": "He walked home without them.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "A_v1_0_47",
+"text": "He walked home without them.",
+"check": "He walked home without them.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "A_v1_0_61",
+"text": "He walked home without them.",
+"check": "He walked home without them.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "A_v1_1_3",
+"text": "And that night, he made a promise.",
+"check": "And that night, he made a promise.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "A_v1_1_11",
+"text": "And that night, he made a promise.",
+"check": "And that night, he made a promise.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "A_v1_1_29",
+"text": "And that night, he made a promise.",
+"check": "And that night, he made a promise.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "A_v1_1_47",
+"text": "And that night, he made a promise.",
+"check": "And that night, he made a promise.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "A_v1_1_61",
+"text": "And that night, he made a promise.",
+"check": "And that night, he made a promise.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "A_v1_2_3",
+"text": "Every girl he heard of, he would save.",
+"check": "Every girl he heard of, he would save.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "A_v1_2_11",
+"text": "Every girl he heard of, he would save.",
+"check": "Every girl he heard of, he would save.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "A_v1_2_29",
+"text": "Every girl he heard of, he would save.",
+"check": "Every girl he heard of, he would save.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "A_v1_2_47",
+"text": "Every girl he heard of, he would save.",
+"check": "Every girl he heard of, he would save.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "A_v1_2_61",
+"text": "Every girl he heard of, he would save.",
+"check": "Every girl he heard of, he would save.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "A_v2_0_3",
+"text": "The old records cannot agree how many he saved.",
+"check": "The old records cannot agree how many he saved.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "A_v2_0_11",
+"text": "The old records cannot agree how many he saved.",
+"check": "The old records cannot agree how many he saved.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "A_v2_0_29",
+"text": "The old records cannot agree how many he saved.",
+"check": "The old records cannot agree how many he saved.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "A_v2_0_47",
+"text": "The old records cannot agree how many he saved.",
+"check": "The old records cannot agree how many he saved.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "A_v2_0_61",
+"text": "The old records cannot agree how many he saved.",
+"check": "The old records cannot agree how many he saved.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "A_v2_1_3",
+"text": "Thirty. Ninety-six. Three hundred and sixty.",
+"check": "Thirty. Ninety-six. Three hundred and sixty.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "A_v2_1_11",
+"text": "Thirty. Ninety-six. Three hundred and sixty.",
+"check": "Thirty. Ninety-six. Three hundred and sixty.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "A_v2_1_29",
+"text": "Thirty. Ninety-six. Three hundred and sixty.",
+"check": "Thirty. Ninety-six. Three hundred and sixty.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "A_v2_1_47",
+"text": "Thirty. Ninety-six. Three hundred and sixty.",
+"check": "Thirty. Ninety-six. Three hundred and sixty.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "A_v2_1_61",
+"text": "Thirty. Ninety-six. Three hundred and sixty.",
+"check": "Thirty. Ninety-six. Three hundred and sixty.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "A_v2_2_3",
+"text": "Four hundred. Every number was a girl.",
+"check": "Four hundred. Every number was a girl.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "A_v2_2_11",
+"text": "Four hundred. Every number was a girl.",
+"check": "Four hundred. Every number was a girl.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "A_v2_2_29",
+"text": "Four hundred. Every number was a girl.",
+"check": "Four hundred. Every number was a girl.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "A_v2_2_47",
+"text": "Four hundred. Every number was a girl.",
+"check": "Four hundred. Every number was a girl.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "A_v2_2_61",
+"text": "Four hundred. Every number was a girl.",
+"check": "Four hundred. Every number was a girl.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "A_z1_0_3",
+"text": "He was not alone.",
+"check": "He was not alone.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "A_z1_0_11",
+"text": "He was not alone.",
+"check": "He was not alone.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "A_z1_0_29",
+"text": "He was not alone.",
+"check": "He was not alone.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "A_z1_0_47",
+"text": "He was not alone.",
+"check": "He was not alone.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "A_z1_0_61",
+"text": "He was not alone.",
+"check": "He was not alone.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "A_z1_1_3",
+"text": "In Mecca, a man named Zade did the same.",
+"check": "In Mecca, a man named Zayd did the same.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "A_z1_1_11",
+"text": "In Mecca, a man named Zade did the same.",
+"check": "In Mecca, a man named Zayd did the same.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "A_z1_1_29",
+"text": "In Mecca, a man named Zade did the same.",
+"check": "In Mecca, a man named Zayd did the same.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "A_z1_1_47",
+"text": "In Mecca, a man named Zade did the same.",
+"check": "In Mecca, a man named Zayd did the same.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "A_z1_1_61",
+"text": "In Mecca, a man named Zade did the same.",
+"check": "In Mecca, a man named Zayd did the same.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "A_z2_0_3",
+"text": "When a father was about to kill his daughter, Zade told him:",
+"check": "When a father was about to kill his daughter, Zayd told him:",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "A_z2_0_11",
+"text": "When a father was about to kill his daughter, Zade told him:",
+"check": "When a father was about to kill his daughter, Zayd told him:",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "A_z2_0_29",
+"text": "When a father was about to kill his daughter, Zade told him:",
+"check": "When a father was about to kill his daughter, Zayd told him:",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "A_z2_0_47",
+"text": "When a father was about to kill his daughter, Zade told him:",
+"check": "When a father was about to kill his daughter, Zayd told him:",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "A_z2_0_61",
+"text": "When a father was about to kill his daughter, Zade told him:",
+"check": "When a father was about to kill his daughter, Zayd told him:",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "A_z2_1_3",
+"text": "Do not kill her.",
+"check": "Do not kill her.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.55,
+"cfg": 0.17,
+"temp": 0.72,
+"seed": 3
+},
+{
+"out": "A_z2_1_11",
+"text": "Do not kill her.",
+"check": "Do not kill her.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.55,
+"cfg": 0.17,
+"temp": 0.72,
+"seed": 11
+},
+{
+"out": "A_z2_1_29",
+"text": "Do not kill her.",
+"check": "Do not kill her.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.55,
+"cfg": 0.17,
+"temp": 0.72,
+"seed": 29
+},
+{
+"out": "A_z2_1_47",
+"text": "Do not kill her.",
+"check": "Do not kill her.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.55,
+"cfg": 0.17,
+"temp": 0.72,
+"seed": 47
+},
+{
+"out": "A_z2_1_61",
+"text": "Do not kill her.",
+"check": "Do not kill her.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.55,
+"cfg": 0.17,
+"temp": 0.72,
+"seed": 61
+},
+{
+"out": "A_z2_2_3",
+"text": "I will pay for her keep.",
+"check": "I will pay for her keep.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.55,
+"cfg": 0.17,
+"temp": 0.72,
+"seed": 3
+},
+{
+"out": "A_z2_2_11",
+"text": "I will pay for her keep.",
+"check": "I will pay for her keep.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.55,
+"cfg": 0.17,
+"temp": 0.72,
+"seed": 11
+},
+{
+"out": "A_z2_2_29",
+"text": "I will pay for her keep.",
+"check": "I will pay for her keep.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.55,
+"cfg": 0.17,
+"temp": 0.72,
+"seed": 29
+},
+{
+"out": "A_z2_2_47",
+"text": "I will pay for her keep.",
+"check": "I will pay for her keep.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.55,
+"cfg": 0.17,
+"temp": 0.72,
+"seed": 47
+},
+{
+"out": "A_z2_2_61",
+"text": "I will pay for her keep.",
+"check": "I will pay for her keep.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.55,
+"cfg": 0.17,
+"temp": 0.72,
+"seed": 61
+},
+{
+"out": "A_z3_0_3",
+"text": "He raised the girl.",
+"check": "He raised the girl.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "A_z3_0_11",
+"text": "He raised the girl.",
+"check": "He raised the girl.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "A_z3_0_29",
+"text": "He raised the girl.",
+"check": "He raised the girl.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "A_z3_0_47",
+"text": "He raised the girl.",
+"check": "He raised the girl.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "A_z3_0_61",
+"text": "He raised the girl.",
+"check": "He raised the girl.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "A_z3_1_3",
+"text": "And when she was grown, he told the father:",
+"check": "And when she was grown, he told the father:",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "A_z3_1_11",
+"text": "And when she was grown, he told the father:",
+"check": "And when she was grown, he told the father:",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "A_z3_1_29",
+"text": "And when she was grown, he told the father:",
+"check": "And when she was grown, he told the father:",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "A_z3_1_47",
+"text": "And when she was grown, he told the father:",
+"check": "And when she was grown, he told the father:",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "A_z3_1_61",
+"text": "And when she was grown, he told the father:",
+"check": "And when she was grown, he told the father:",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "A_z3_2_3",
+"text": "if you want her back, take her.",
+"check": "if you want her back, take her.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "A_z3_2_11",
+"text": "if you want her back, take her.",
+"check": "if you want her back, take her.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "A_z3_2_29",
+"text": "if you want her back, take her.",
+"check": "if you want her back, take her.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "A_z3_2_47",
+"text": "if you want her back, take her.",
+"check": "if you want her back, take her.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "A_z3_2_61",
+"text": "if you want her back, take her.",
+"check": "if you want her back, take her.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "A_g1_0_3",
+"text": "Years later, Sasa-ah's grandson became one of the most famous poets in Arabia.",
+"check": "Years later, Sasaa's grandson became one of the most famous poets in Arabia.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "A_g1_0_11",
+"text": "Years later, Sasa-ah's grandson became one of the most famous poets in Arabia.",
+"check": "Years later, Sasaa's grandson became one of the most famous poets in Arabia.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "A_g1_0_29",
+"text": "Years later, Sasa-ah's grandson became one of the most famous poets in Arabia.",
+"check": "Years later, Sasaa's grandson became one of the most famous poets in Arabia.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "A_g1_0_47",
+"text": "Years later, Sasa-ah's grandson became one of the most famous poets in Arabia.",
+"check": "Years later, Sasaa's grandson became one of the most famous poets in Arabia.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "A_g1_0_61",
+"text": "Years later, Sasa-ah's grandson became one of the most famous poets in Arabia.",
+"check": "Years later, Sasaa's grandson became one of the most famous poets in Arabia.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "A_g1_1_3",
+"text": "One line was about his grandfather.",
+"check": "One line was about his grandfather.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "A_g1_1_11",
+"text": "One line was about his grandfather.",
+"check": "One line was about his grandfather.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "A_g1_1_29",
+"text": "One line was about his grandfather.",
+"check": "One line was about his grandfather.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "A_g1_1_47",
+"text": "One line was about his grandfather.",
+"check": "One line was about his grandfather.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "A_g1_1_61",
+"text": "One line was about his grandfather.",
+"check": "One line was about his grandfather.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "A_g2_0_3",
+"text": "He gave life to the buried girl,",
+"check": "He gave life to the buried girl,",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.55,
+"cfg": 0.17,
+"temp": 0.72,
+"seed": 3
+},
+{
+"out": "A_g2_0_11",
+"text": "He gave life to the buried girl,",
+"check": "He gave life to the buried girl,",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.55,
+"cfg": 0.17,
+"temp": 0.72,
+"seed": 11
+},
+{
+"out": "A_g2_0_29",
+"text": "He gave life to the buried girl,",
+"check": "He gave life to the buried girl,",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.55,
+"cfg": 0.17,
+"temp": 0.72,
+"seed": 29
+},
+{
+"out": "A_g2_0_47",
+"text": "He gave life to the buried girl,",
+"check": "He gave life to the buried girl,",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.55,
+"cfg": 0.17,
+"temp": 0.72,
+"seed": 47
+},
+{
+"out": "A_g2_0_61",
+"text": "He gave life to the buried girl,",
+"check": "He gave life to the buried girl,",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.55,
+"cfg": 0.17,
+"temp": 0.72,
+"seed": 61
+},
+{
+"out": "A_g2_1_3",
+"text": "so she was not buried.",
+"check": "so she was not buried.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.55,
+"cfg": 0.17,
+"temp": 0.72,
+"seed": 3
+},
+{
+"out": "A_g2_1_11",
+"text": "so she was not buried.",
+"check": "so she was not buried.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.55,
+"cfg": 0.17,
+"temp": 0.72,
+"seed": 11
+},
+{
+"out": "A_g2_1_29",
+"text": "so she was not buried.",
+"check": "so she was not buried.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.55,
+"cfg": 0.17,
+"temp": 0.72,
+"seed": 29
+},
+{
+"out": "A_g2_1_47",
+"text": "so she was not buried.",
+"check": "so she was not buried.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.55,
+"cfg": 0.17,
+"temp": 0.72,
+"seed": 47
+},
+{
+"out": "A_g2_1_61",
+"text": "so she was not buried.",
+"check": "so she was not buried.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.55,
+"cfg": 0.17,
+"temp": 0.72,
+"seed": 61
+},
+{
+"out": "A_f1_0_3",
+"text": "Nobody knows how many girls he really saved.",
+"check": "Nobody knows how many girls he really saved.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "A_f1_0_11",
+"text": "Nobody knows how many girls he really saved.",
+"check": "Nobody knows how many girls he really saved.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "A_f1_0_29",
+"text": "Nobody knows how many girls he really saved.",
+"check": "Nobody knows how many girls he really saved.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "A_f1_0_47",
+"text": "Nobody knows how many girls he really saved.",
+"check": "Nobody knows how many girls he really saved.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "A_f1_0_61",
+"text": "Nobody knows how many girls he really saved.",
+"check": "Nobody knows how many girls he really saved.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "A_f1_1_3",
+"text": "But somewhere in that desert, a girl grew up,",
+"check": "But somewhere in that desert, a girl grew up,",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "A_f1_1_11",
+"text": "But somewhere in that desert, a girl grew up,",
+"check": "But somewhere in that desert, a girl grew up,",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "A_f1_1_29",
+"text": "But somewhere in that desert, a girl grew up,",
+"check": "But somewhere in that desert, a girl grew up,",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "A_f1_1_47",
+"text": "But somewhere in that desert, a girl grew up,",
+"check": "But somewhere in that desert, a girl grew up,",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "A_f1_1_61",
+"text": "But somewhere in that desert, a girl grew up,",
+"check": "But somewhere in that desert, a girl grew up,",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "A_f1_2_3",
+"text": "because a man went looking for his camels.",
+"check": "because a man went looking for his camels.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "A_f1_2_11",
+"text": "because a man went looking for his camels.",
+"check": "because a man went looking for his camels.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "A_f1_2_29",
+"text": "because a man went looking for his camels.",
+"check": "because a man went looking for his camels.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "A_f1_2_47",
+"text": "because a man went looking for his camels.",
+"check": "because a man went looking for his camels.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "A_f1_2_61",
+"text": "because a man went looking for his camels.",
+"check": "because a man went looking for his camels.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "K_o1_0_3",
+"text": "In 1014, an emperor captured a whole army of his enemies.",
+"check": "In 1014, an emperor captured a whole army of his enemies.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "K_o1_0_11",
+"text": "In 1014, an emperor captured a whole army of his enemies.",
+"check": "In 1014, an emperor captured a whole army of his enemies.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "K_o1_0_29",
+"text": "In 1014, an emperor captured a whole army of his enemies.",
+"check": "In 1014, an emperor captured a whole army of his enemies.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "K_o1_0_47",
+"text": "In 1014, an emperor captured a whole army of his enemies.",
+"check": "In 1014, an emperor captured a whole army of his enemies.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "K_o1_0_61",
+"text": "In 1014, an emperor captured a whole army of his enemies.",
+"check": "In 1014, an emperor captured a whole army of his enemies.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "K_o2_0_3",
+"text": "Then, a chronicler wrote, he sent them home. Blind.",
+"check": "Then, a chronicler wrote, he sent them home. Blind.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "K_o2_0_11",
+"text": "Then, a chronicler wrote, he sent them home. Blind.",
+"check": "Then, a chronicler wrote, he sent them home. Blind.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "K_o2_0_29",
+"text": "Then, a chronicler wrote, he sent them home. Blind.",
+"check": "Then, a chronicler wrote, he sent them home. Blind.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "K_o2_0_47",
+"text": "Then, a chronicler wrote, he sent them home. Blind.",
+"check": "Then, a chronicler wrote, he sent them home. Blind.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "K_o2_0_61",
+"text": "Then, a chronicler wrote, he sent them home. Blind.",
+"check": "Then, a chronicler wrote, he sent them home. Blind.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "K_o3_0_3",
+"text": "Everything you're about to hear was written down nine hundred years ago.",
+"check": "Everything you're about to hear was written down nine hundred years ago.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "K_o3_0_11",
+"text": "Everything you're about to hear was written down nine hundred years ago.",
+"check": "Everything you're about to hear was written down nine hundred years ago.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "K_o3_0_29",
+"text": "Everything you're about to hear was written down nine hundred years ago.",
+"check": "Everything you're about to hear was written down nine hundred years ago.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "K_o3_0_47",
+"text": "Everything you're about to hear was written down nine hundred years ago.",
+"check": "Everything you're about to hear was written down nine hundred years ago.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "K_o3_0_61",
+"text": "Everything you're about to hear was written down nine hundred years ago.",
+"check": "Everything you're about to hear was written down nine hundred years ago.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "K_x1_0_3",
+"text": "The emperor was Basil the Second.",
+"check": "The emperor was Basil the Second.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "K_x1_0_11",
+"text": "The emperor was Basil the Second.",
+"check": "The emperor was Basil the Second.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "K_x1_0_29",
+"text": "The emperor was Basil the Second.",
+"check": "The emperor was Basil the Second.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "K_x1_0_47",
+"text": "The emperor was Basil the Second.",
+"check": "The emperor was Basil the Second.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "K_x1_0_61",
+"text": "The emperor was Basil the Second.",
+"check": "The emperor was Basil the Second.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "K_x1_1_3",
+"text": "He ruled the Eastern Roman Empire, from Constantinople.",
+"check": "He ruled the Eastern Roman Empire, from Constantinople.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "K_x1_1_11",
+"text": "He ruled the Eastern Roman Empire, from Constantinople.",
+"check": "He ruled the Eastern Roman Empire, from Constantinople.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "K_x1_1_29",
+"text": "He ruled the Eastern Roman Empire, from Constantinople.",
+"check": "He ruled the Eastern Roman Empire, from Constantinople.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "K_x1_1_47",
+"text": "He ruled the Eastern Roman Empire, from Constantinople.",
+"check": "He ruled the Eastern Roman Empire, from Constantinople.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "K_x1_1_61",
+"text": "He ruled the Eastern Roman Empire, from Constantinople.",
+"check": "He ruled the Eastern Roman Empire, from Constantinople.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "K_x2_0_3",
+"text": "His enemy was Samuel, zar of the Bulgarians.",
+"check": "His enemy was Samuel, tsar of the Bulgarians.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "K_x2_0_11",
+"text": "His enemy was Samuel, zar of the Bulgarians.",
+"check": "His enemy was Samuel, tsar of the Bulgarians.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "K_x2_0_29",
+"text": "His enemy was Samuel, zar of the Bulgarians.",
+"check": "His enemy was Samuel, tsar of the Bulgarians.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "K_x2_0_47",
+"text": "His enemy was Samuel, zar of the Bulgarians.",
+"check": "His enemy was Samuel, tsar of the Bulgarians.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "K_x2_0_61",
+"text": "His enemy was Samuel, zar of the Bulgarians.",
+"check": "His enemy was Samuel, tsar of the Bulgarians.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "K_x2_1_3",
+"text": "They had been at war for almost forty years.",
+"check": "They had been at war for almost forty years.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "K_x2_1_11",
+"text": "They had been at war for almost forty years.",
+"check": "They had been at war for almost forty years.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "K_x2_1_29",
+"text": "They had been at war for almost forty years.",
+"check": "They had been at war for almost forty years.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "K_x2_1_47",
+"text": "They had been at war for almost forty years.",
+"check": "They had been at war for almost forty years.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "K_x2_1_61",
+"text": "They had been at war for almost forty years.",
+"check": "They had been at war for almost forty years.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "K_x3_0_3",
+"text": "Basil had once barely escaped an ambush.",
+"check": "Basil had once barely escaped an ambush.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "K_x3_0_11",
+"text": "Basil had once barely escaped an ambush.",
+"check": "Basil had once barely escaped an ambush.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "K_x3_0_29",
+"text": "Basil had once barely escaped an ambush.",
+"check": "Basil had once barely escaped an ambush.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "K_x3_0_47",
+"text": "Basil had once barely escaped an ambush.",
+"check": "Basil had once barely escaped an ambush.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "K_x3_0_61",
+"text": "Basil had once barely escaped an ambush.",
+"check": "Basil had once barely escaped an ambush.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "K_x3_1_3",
+"text": "Samuel had once survived a battle by lying among his own dead.",
+"check": "Samuel had once survived a battle by lying among his own dead.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "K_x3_1_11",
+"text": "Samuel had once survived a battle by lying among his own dead.",
+"check": "Samuel had once survived a battle by lying among his own dead.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "K_x3_1_29",
+"text": "Samuel had once survived a battle by lying among his own dead.",
+"check": "Samuel had once survived a battle by lying among his own dead.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "K_x3_1_47",
+"text": "Samuel had once survived a battle by lying among his own dead.",
+"check": "Samuel had once survived a battle by lying among his own dead.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "K_x3_1_61",
+"text": "Samuel had once survived a battle by lying among his own dead.",
+"check": "Samuel had once survived a battle by lying among his own dead.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "K_w1_0_3",
+"text": "In the summer of 1014, Samuel blocked a mountain pass with a huge wall.",
+"check": "In the summer of 1014, Samuel blocked a mountain pass with a huge wall.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "K_w1_0_11",
+"text": "In the summer of 1014, Samuel blocked a mountain pass with a huge wall.",
+"check": "In the summer of 1014, Samuel blocked a mountain pass with a huge wall.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "K_w1_0_29",
+"text": "In the summer of 1014, Samuel blocked a mountain pass with a huge wall.",
+"check": "In the summer of 1014, Samuel blocked a mountain pass with a huge wall.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "K_w1_0_47",
+"text": "In the summer of 1014, Samuel blocked a mountain pass with a huge wall.",
+"check": "In the summer of 1014, Samuel blocked a mountain pass with a huge wall.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "K_w1_0_61",
+"text": "In the summer of 1014, Samuel blocked a mountain pass with a huge wall.",
+"check": "In the summer of 1014, Samuel blocked a mountain pass with a huge wall.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "K_w1_1_3",
+"text": "The pass was called Kly-dee-on. The key.",
+"check": "The pass was called Kleidion. The key.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "K_w1_1_11",
+"text": "The pass was called Kly-dee-on. The key.",
+"check": "The pass was called Kleidion. The key.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "K_w1_1_29",
+"text": "The pass was called Kly-dee-on. The key.",
+"check": "The pass was called Kleidion. The key.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "K_w1_1_47",
+"text": "The pass was called Kly-dee-on. The key.",
+"check": "The pass was called Kleidion. The key.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "K_w1_1_61",
+"text": "The pass was called Kly-dee-on. The key.",
+"check": "The pass was called Kleidion. The key.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "K_w2_0_3",
+"text": "Basil attacked. Again and again. The wall held.",
+"check": "Basil attacked. Again and again. The wall held.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "K_w2_0_11",
+"text": "Basil attacked. Again and again. The wall held.",
+"check": "Basil attacked. Again and again. The wall held.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "K_w2_0_29",
+"text": "Basil attacked. Again and again. The wall held.",
+"check": "Basil attacked. Again and again. The wall held.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "K_w2_0_47",
+"text": "Basil attacked. Again and again. The wall held.",
+"check": "Basil attacked. Again and again. The wall held.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "K_w2_0_61",
+"text": "Basil attacked. Again and again. The wall held.",
+"check": "Basil attacked. Again and again. The wall held.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "K_t1_0_3",
+"text": "Then one of his generals took his men over the mountain.",
+"check": "Then one of his generals took his men over the mountain.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "K_t1_0_11",
+"text": "Then one of his generals took his men over the mountain.",
+"check": "Then one of his generals took his men over the mountain.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "K_t1_0_29",
+"text": "Then one of his generals took his men over the mountain.",
+"check": "Then one of his generals took his men over the mountain.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "K_t1_0_47",
+"text": "Then one of his generals took his men over the mountain.",
+"check": "Then one of his generals took his men over the mountain.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "K_t1_0_61",
+"text": "Then one of his generals took his men over the mountain.",
+"check": "Then one of his generals took his men over the mountain.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "K_t1_1_3",
+"text": "And came down behind the wall.",
+"check": "And came down behind the wall.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "K_t1_1_11",
+"text": "And came down behind the wall.",
+"check": "And came down behind the wall.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "K_t1_1_29",
+"text": "And came down behind the wall.",
+"check": "And came down behind the wall.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "K_t1_1_47",
+"text": "And came down behind the wall.",
+"check": "And came down behind the wall.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "K_t1_1_61",
+"text": "And came down behind the wall.",
+"check": "And came down behind the wall.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "K_t2_0_3",
+"text": "The defenders panicked. Many were killed.",
+"check": "The defenders panicked. Many were killed.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "K_t2_0_11",
+"text": "The defenders panicked. Many were killed.",
+"check": "The defenders panicked. Many were killed.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "K_t2_0_29",
+"text": "The defenders panicked. Many were killed.",
+"check": "The defenders panicked. Many were killed.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "K_t2_0_47",
+"text": "The defenders panicked. Many were killed.",
+"check": "The defenders panicked. Many were killed.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "K_t2_0_61",
+"text": "The defenders panicked. Many were killed.",
+"check": "The defenders panicked. Many were killed.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "K_t2_1_3",
+"text": "Many more were captured.",
+"check": "Many more were captured.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "K_t2_1_11",
+"text": "Many more were captured.",
+"check": "Many more were captured.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "K_t2_1_29",
+"text": "Many more were captured.",
+"check": "Many more were captured.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "K_t2_1_47",
+"text": "Many more were captured.",
+"check": "Many more were captured.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "K_t2_1_61",
+"text": "Many more were captured.",
+"check": "Many more were captured.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "K_s1_0_3",
+"text": "Samuel was nearly caught.",
+"check": "Samuel was nearly caught.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "K_s1_0_11",
+"text": "Samuel was nearly caught.",
+"check": "Samuel was nearly caught.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "K_s1_0_29",
+"text": "Samuel was nearly caught.",
+"check": "Samuel was nearly caught.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "K_s1_0_47",
+"text": "Samuel was nearly caught.",
+"check": "Samuel was nearly caught.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "K_s1_0_61",
+"text": "Samuel was nearly caught.",
+"check": "Samuel was nearly caught.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "K_s1_1_3",
+"text": "His son put him on a horse.",
+"check": "His son put him on a horse.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "K_s1_1_11",
+"text": "His son put him on a horse.",
+"check": "His son put him on a horse.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "K_s1_1_29",
+"text": "His son put him on a horse.",
+"check": "His son put him on a horse.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "K_s1_1_47",
+"text": "His son put him on a horse.",
+"check": "His son put him on a horse.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "K_s1_1_61",
+"text": "His son put him on a horse.",
+"check": "His son put him on a horse.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "K_s1_2_3",
+"text": "And they got away.",
+"check": "And they got away.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "K_s1_2_11",
+"text": "And they got away.",
+"check": "And they got away.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "K_s1_2_29",
+"text": "And they got away.",
+"check": "And they got away.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "K_s1_2_47",
+"text": "And they got away.",
+"check": "And they got away.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "K_s1_2_61",
+"text": "And they got away.",
+"check": "And they got away.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "K_r1_0_3",
+"text": "But the war was not over.",
+"check": "But the war was not over.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "K_r1_0_11",
+"text": "But the war was not over.",
+"check": "But the war was not over.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "K_r1_0_29",
+"text": "But the war was not over.",
+"check": "But the war was not over.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "K_r1_0_47",
+"text": "But the war was not over.",
+"check": "But the war was not over.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "K_r1_0_61",
+"text": "But the war was not over.",
+"check": "But the war was not over.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "K_r1_1_3",
+"text": "Soon after, one of Basil's governors was trapped in a gorge and killed.",
+"check": "Soon after, one of Basil's governors was trapped in a gorge and killed.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "K_r1_1_11",
+"text": "Soon after, one of Basil's governors was trapped in a gorge and killed.",
+"check": "Soon after, one of Basil's governors was trapped in a gorge and killed.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "K_r1_1_29",
+"text": "Soon after, one of Basil's governors was trapped in a gorge and killed.",
+"check": "Soon after, one of Basil's governors was trapped in a gorge and killed.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "K_r1_1_47",
+"text": "Soon after, one of Basil's governors was trapped in a gorge and killed.",
+"check": "Soon after, one of Basil's governors was trapped in a gorge and killed.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "K_r1_1_61",
+"text": "Soon after, one of Basil's governors was trapped in a gorge and killed.",
+"check": "Soon after, one of Basil's governors was trapped in a gorge and killed.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "K_b1_0_3",
+"text": "Then Basil gave an order.",
+"check": "Then Basil gave an order.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "K_b1_0_11",
+"text": "Then Basil gave an order.",
+"check": "Then Basil gave an order.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "K_b1_0_29",
+"text": "Then Basil gave an order.",
+"check": "Then Basil gave an order.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "K_b1_0_47",
+"text": "Then Basil gave an order.",
+"check": "Then Basil gave an order.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "K_b1_0_61",
+"text": "Then Basil gave an order.",
+"check": "Then Basil gave an order.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "K_b2_0_3",
+"text": "The chronicler wrote that he blinded the prisoners.",
+"check": "The chronicler wrote that he blinded the prisoners.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "K_b2_0_11",
+"text": "The chronicler wrote that he blinded the prisoners.",
+"check": "The chronicler wrote that he blinded the prisoners.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "K_b2_0_29",
+"text": "The chronicler wrote that he blinded the prisoners.",
+"check": "The chronicler wrote that he blinded the prisoners.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "K_b2_0_47",
+"text": "The chronicler wrote that he blinded the prisoners.",
+"check": "The chronicler wrote that he blinded the prisoners.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "K_b2_0_61",
+"text": "The chronicler wrote that he blinded the prisoners.",
+"check": "The chronicler wrote that he blinded the prisoners.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "K_b2_1_3",
+"text": "About fifteen thousand, as they say.",
+"check": "About fifteen thousand, as they say.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.32,
+"cfg": 0.3,
+"temp": 0.65,
+"seed": 3
+},
+{
+"out": "K_b2_1_11",
+"text": "About fifteen thousand, as they say.",
+"check": "About fifteen thousand, as they say.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.32,
+"cfg": 0.3,
+"temp": 0.65,
+"seed": 11
+},
+{
+"out": "K_b2_1_29",
+"text": "About fifteen thousand, as they say.",
+"check": "About fifteen thousand, as they say.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.32,
+"cfg": 0.3,
+"temp": 0.65,
+"seed": 29
+},
+{
+"out": "K_b2_1_47",
+"text": "About fifteen thousand, as they say.",
+"check": "About fifteen thousand, as they say.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.32,
+"cfg": 0.3,
+"temp": 0.65,
+"seed": 47
+},
+{
+"out": "K_b2_1_61",
+"text": "About fifteen thousand, as they say.",
+"check": "About fifteen thousand, as they say.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.32,
+"cfg": 0.3,
+"temp": 0.65,
+"seed": 61
+},
+{
+"out": "K_b3_0_3",
+"text": "He split them into groups of a hundred.",
+"check": "He split them into groups of a hundred.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "K_b3_0_11",
+"text": "He split them into groups of a hundred.",
+"check": "He split them into groups of a hundred.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "K_b3_0_29",
+"text": "He split them into groups of a hundred.",
+"check": "He split them into groups of a hundred.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "K_b3_0_47",
+"text": "He split them into groups of a hundred.",
+"check": "He split them into groups of a hundred.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "K_b3_0_61",
+"text": "He split them into groups of a hundred.",
+"check": "He split them into groups of a hundred.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "K_b3_1_3",
+"text": "Each group was led by one man with one eye left.",
+"check": "Each group was led by one man with one eye left.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "K_b3_1_11",
+"text": "Each group was led by one man with one eye left.",
+"check": "Each group was led by one man with one eye left.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "K_b3_1_29",
+"text": "Each group was led by one man with one eye left.",
+"check": "Each group was led by one man with one eye left.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "K_b3_1_47",
+"text": "Each group was led by one man with one eye left.",
+"check": "Each group was led by one man with one eye left.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "K_b3_1_61",
+"text": "Each group was led by one man with one eye left.",
+"check": "Each group was led by one man with one eye left.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "K_b3_2_3",
+"text": "And he sent them home to their zar.",
+"check": "And he sent them home to their tsar.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "K_b3_2_11",
+"text": "And he sent them home to their zar.",
+"check": "And he sent them home to their tsar.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "K_b3_2_29",
+"text": "And he sent them home to their zar.",
+"check": "And he sent them home to their tsar.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "K_b3_2_47",
+"text": "And he sent them home to their zar.",
+"check": "And he sent them home to their tsar.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "K_b3_2_61",
+"text": "And he sent them home to their zar.",
+"check": "And he sent them home to their tsar.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "K_d1_0_3",
+"text": "When Samuel saw them coming, he collapsed.",
+"check": "When Samuel saw them coming, he collapsed.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "K_d1_0_11",
+"text": "When Samuel saw them coming, he collapsed.",
+"check": "When Samuel saw them coming, he collapsed.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "K_d1_0_29",
+"text": "When Samuel saw them coming, he collapsed.",
+"check": "When Samuel saw them coming, he collapsed.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "K_d1_0_47",
+"text": "When Samuel saw them coming, he collapsed.",
+"check": "When Samuel saw them coming, he collapsed.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "K_d1_0_61",
+"text": "When Samuel saw them coming, he collapsed.",
+"check": "When Samuel saw them coming, he collapsed.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "K_d2_0_3",
+"text": "They woke him with water.",
+"check": "They woke him with water.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "K_d2_0_11",
+"text": "They woke him with water.",
+"check": "They woke him with water.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "K_d2_0_29",
+"text": "They woke him with water.",
+"check": "They woke him with water.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "K_d2_0_47",
+"text": "They woke him with water.",
+"check": "They woke him with water.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "K_d2_0_61",
+"text": "They woke him with water.",
+"check": "They woke him with water.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "K_d2_1_3",
+"text": "He asked for a cup of cold water.",
+"check": "He asked for a cup of cold water.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "K_d2_1_11",
+"text": "He asked for a cup of cold water.",
+"check": "He asked for a cup of cold water.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "K_d2_1_29",
+"text": "He asked for a cup of cold water.",
+"check": "He asked for a cup of cold water.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "K_d2_1_47",
+"text": "He asked for a cup of cold water.",
+"check": "He asked for a cup of cold water.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "K_d2_1_61",
+"text": "He asked for a cup of cold water.",
+"check": "He asked for a cup of cold water.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "K_d2_2_3",
+"text": "He drank it. Then his heart gave out.",
+"check": "He drank it. Then his heart gave out.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "K_d2_2_11",
+"text": "He drank it. Then his heart gave out.",
+"check": "He drank it. Then his heart gave out.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "K_d2_2_29",
+"text": "He drank it. Then his heart gave out.",
+"check": "He drank it. Then his heart gave out.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "K_d2_2_47",
+"text": "He drank it. Then his heart gave out.",
+"check": "He drank it. Then his heart gave out.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "K_d2_2_61",
+"text": "He drank it. Then his heart gave out.",
+"check": "He drank it. Then his heart gave out.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "K_d3_0_3",
+"text": "Two days later, Samuel was dead.",
+"check": "Two days later, Samuel was dead.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "K_d3_0_11",
+"text": "Two days later, Samuel was dead.",
+"check": "Two days later, Samuel was dead.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "K_d3_0_29",
+"text": "Two days later, Samuel was dead.",
+"check": "Two days later, Samuel was dead.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "K_d3_0_47",
+"text": "Two days later, Samuel was dead.",
+"check": "Two days later, Samuel was dead.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "K_d3_0_61",
+"text": "Two days later, Samuel was dead.",
+"check": "Two days later, Samuel was dead.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "K_q1_0_3",
+"text": "But was it true?",
+"check": "But was it true?",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "K_q1_0_11",
+"text": "But was it true?",
+"check": "But was it true?",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "K_q1_0_29",
+"text": "But was it true?",
+"check": "But was it true?",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "K_q1_0_47",
+"text": "But was it true?",
+"check": "But was it true?",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "K_q1_0_61",
+"text": "But was it true?",
+"check": "But was it true?",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "K_q1_1_3",
+"text": "Another writer of the same century says Basil captured fourteen thousand men.",
+"check": "Another writer of the same century says Basil captured fourteen thousand men.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "K_q1_1_11",
+"text": "Another writer of the same century says Basil captured fourteen thousand men.",
+"check": "Another writer of the same century says Basil captured fourteen thousand men.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "K_q1_1_29",
+"text": "Another writer of the same century says Basil captured fourteen thousand men.",
+"check": "Another writer of the same century says Basil captured fourteen thousand men.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "K_q1_1_47",
+"text": "Another writer of the same century says Basil captured fourteen thousand men.",
+"check": "Another writer of the same century says Basil captured fourteen thousand men.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "K_q1_1_61",
+"text": "Another writer of the same century says Basil captured fourteen thousand men.",
+"check": "Another writer of the same century says Basil captured fourteen thousand men.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "K_q1_2_3",
+"text": "He says nothing about blinding.",
+"check": "He says nothing about blinding.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "K_q1_2_11",
+"text": "He says nothing about blinding.",
+"check": "He says nothing about blinding.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "K_q1_2_29",
+"text": "He says nothing about blinding.",
+"check": "He says nothing about blinding.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "K_q1_2_47",
+"text": "He says nothing about blinding.",
+"check": "He says nothing about blinding.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "K_q1_2_61",
+"text": "He says nothing about blinding.",
+"check": "He says nothing about blinding.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "K_q2_0_3",
+"text": "Most historians think the real number was far smaller.",
+"check": "Most historians think the real number was far smaller.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "K_q2_0_11",
+"text": "Most historians think the real number was far smaller.",
+"check": "Most historians think the real number was far smaller.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "K_q2_0_29",
+"text": "Most historians think the real number was far smaller.",
+"check": "Most historians think the real number was far smaller.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "K_q2_0_47",
+"text": "Most historians think the real number was far smaller.",
+"check": "Most historians think the real number was far smaller.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "K_q2_0_61",
+"text": "Most historians think the real number was far smaller.",
+"check": "Most historians think the real number was far smaller.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "K_f1_0_3",
+"text": "Bulgaria fought on for four more years.",
+"check": "Bulgaria fought on for four more years.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "K_f1_0_11",
+"text": "Bulgaria fought on for four more years.",
+"check": "Bulgaria fought on for four more years.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "K_f1_0_29",
+"text": "Bulgaria fought on for four more years.",
+"check": "Bulgaria fought on for four more years.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "K_f1_0_47",
+"text": "Bulgaria fought on for four more years.",
+"check": "Bulgaria fought on for four more years.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "K_f1_0_61",
+"text": "Bulgaria fought on for four more years.",
+"check": "Bulgaria fought on for four more years.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "K_f1_1_3",
+"text": "And Basil got a nickname.",
+"check": "And Basil got a nickname.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "K_f1_1_11",
+"text": "And Basil got a nickname.",
+"check": "And Basil got a nickname.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "K_f1_1_29",
+"text": "And Basil got a nickname.",
+"check": "And Basil got a nickname.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "K_f1_1_47",
+"text": "And Basil got a nickname.",
+"check": "And Basil got a nickname.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "K_f1_1_61",
+"text": "And Basil got a nickname.",
+"check": "And Basil got a nickname.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "K_f1_2_3",
+"text": "The Bulgar Slayer. But nobody called him that while he was alive.",
+"check": "The Bulgar Slayer. But nobody called him that while he was alive.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "K_f1_2_11",
+"text": "The Bulgar Slayer. But nobody called him that while he was alive.",
+"check": "The Bulgar Slayer. But nobody called him that while he was alive.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "K_f1_2_29",
+"text": "The Bulgar Slayer. But nobody called him that while he was alive.",
+"check": "The Bulgar Slayer. But nobody called him that while he was alive.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "K_f1_2_47",
+"text": "The Bulgar Slayer. But nobody called him that while he was alive.",
+"check": "The Bulgar Slayer. But nobody called him that while he was alive.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "K_f1_2_61",
+"text": "The Bulgar Slayer. But nobody called him that while he was alive.",
+"check": "The Bulgar Slayer. But nobody called him that while he was alive.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "K_f1_3_3",
+"text": "It came more than a hundred and fifty years later.",
+"check": "It came more than a hundred and fifty years later.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "K_f1_3_11",
+"text": "It came more than a hundred and fifty years later.",
+"check": "It came more than a hundred and fifty years later.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "K_f1_3_29",
+"text": "It came more than a hundred and fifty years later.",
+"check": "It came more than a hundred and fifty years later.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "K_f1_3_47",
+"text": "It came more than a hundred and fifty years later.",
+"check": "It came more than a hundred and fifty years later.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "K_f1_3_61",
+"text": "It came more than a hundred and fifty years later.",
+"check": "It came more than a hundred and fifty years later.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "K_f2_0_3",
+"text": "About fifteen thousand, the chronicler wrote. As they say.",
+"check": "About fifteen thousand, the chronicler wrote. As they say.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "K_f2_0_11",
+"text": "About fifteen thousand, the chronicler wrote. As they say.",
+"check": "About fifteen thousand, the chronicler wrote. As they say.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "K_f2_0_29",
+"text": "About fifteen thousand, the chronicler wrote. As they say.",
+"check": "About fifteen thousand, the chronicler wrote. As they say.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "K_f2_0_47",
+"text": "About fifteen thousand, the chronicler wrote. As they say.",
+"check": "About fifteen thousand, the chronicler wrote. As they say.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "K_f2_0_61",
+"text": "About fifteen thousand, the chronicler wrote. As they say.",
+"check": "About fifteen thousand, the chronicler wrote. As they say.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
 "temp": 0.68,
 "seed": 61
 }
