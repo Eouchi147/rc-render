@@ -1,10 +1,10 @@
 {
-"release": "voice2-plain-test2",
+"release": "voice2-plain-rest",
 "takes": [
 {
-"out": "N_o1_0_3",
-"text": "In 1628, a German mayor was arrested and accused of being a witch.",
-"check": "In 1628, a German mayor was arrested and accused of being a witch.",
+"out": "N_k1_0_3",
+"text": "Then something strange happened.",
+"check": "Then something strange happened.",
 "ref": "ref_m_deep_slow.wav",
 "ex": 0.52,
 "cfg": 0.24,
@@ -12,9 +12,9 @@
 "seed": 3
 },
 {
-"out": "N_o1_0_11",
-"text": "In 1628, a German mayor was arrested and accused of being a witch.",
-"check": "In 1628, a German mayor was arrested and accused of being a witch.",
+"out": "N_k1_0_11",
+"text": "Then something strange happened.",
+"check": "Then something strange happened.",
 "ref": "ref_m_deep_slow.wav",
 "ex": 0.52,
 "cfg": 0.24,
@@ -22,9 +22,9 @@
 "seed": 11
 },
 {
-"out": "N_o1_0_29",
-"text": "In 1628, a German mayor was arrested and accused of being a witch.",
-"check": "In 1628, a German mayor was arrested and accused of being a witch.",
+"out": "N_k1_0_29",
+"text": "Then something strange happened.",
+"check": "Then something strange happened.",
 "ref": "ref_m_deep_slow.wav",
 "ex": 0.52,
 "cfg": 0.24,
@@ -32,9 +32,9 @@
 "seed": 29
 },
 {
-"out": "N_o1_0_47",
-"text": "In 1628, a German mayor was arrested and accused of being a witch.",
-"check": "In 1628, a German mayor was arrested and accused of being a witch.",
+"out": "N_k1_0_47",
+"text": "Then something strange happened.",
+"check": "Then something strange happened.",
 "ref": "ref_m_deep_slow.wav",
 "ex": 0.52,
 "cfg": 0.24,
@@ -42,9 +42,9 @@
 "seed": 47
 },
 {
-"out": "N_o1_0_61",
-"text": "In 1628, a German mayor was arrested and accused of being a witch.",
-"check": "In 1628, a German mayor was arrested and accused of being a witch.",
+"out": "N_k1_0_61",
+"text": "Then something strange happened.",
+"check": "Then something strange happened.",
 "ref": "ref_m_deep_slow.wav",
 "ex": 0.52,
 "cfg": 0.24,
@@ -52,9 +52,9 @@
 "seed": 61
 },
 {
-"out": "N_o2_0_3",
-"text": "In prison, he wrote a secret letter to his daughter.",
-"check": "In prison, he wrote a secret letter to his daughter.",
+"out": "N_k2_0_3",
+"text": "The executioner, the man who had just tortured him, begged him:",
+"check": "The executioner, the man who had just tortured him, begged him:",
 "ref": "ref_m_deep_slow.wav",
 "ex": 0.4,
 "cfg": 0.2,
@@ -62,9 +62,9 @@
 "seed": 3
 },
 {
-"out": "N_o2_0_11",
-"text": "In prison, he wrote a secret letter to his daughter.",
-"check": "In prison, he wrote a secret letter to his daughter.",
+"out": "N_k2_0_11",
+"text": "The executioner, the man who had just tortured him, begged him:",
+"check": "The executioner, the man who had just tortured him, begged him:",
 "ref": "ref_m_deep_slow.wav",
 "ex": 0.4,
 "cfg": 0.2,
@@ -72,9 +72,9 @@
 "seed": 11
 },
 {
-"out": "N_o2_0_29",
-"text": "In prison, he wrote a secret letter to his daughter.",
-"check": "In prison, he wrote a secret letter to his daughter.",
+"out": "N_k2_0_29",
+"text": "The executioner, the man who had just tortured him, begged him:",
+"check": "The executioner, the man who had just tortured him, begged him:",
 "ref": "ref_m_deep_slow.wav",
 "ex": 0.4,
 "cfg": 0.2,
@@ -82,9 +82,9 @@
 "seed": 29
 },
 {
-"out": "N_o2_0_47",
-"text": "In prison, he wrote a secret letter to his daughter.",
-"check": "In prison, he wrote a secret letter to his daughter.",
+"out": "N_k2_0_47",
+"text": "The executioner, the man who had just tortured him, begged him:",
+"check": "The executioner, the man who had just tortured him, begged him:",
 "ref": "ref_m_deep_slow.wav",
 "ex": 0.4,
 "cfg": 0.2,
@@ -92,9 +92,9 @@
 "seed": 47
 },
 {
-"out": "N_o2_0_61",
-"text": "In prison, he wrote a secret letter to his daughter.",
-"check": "In prison, he wrote a secret letter to his daughter.",
+"out": "N_k2_0_61",
+"text": "The executioner, the man who had just tortured him, begged him:",
+"check": "The executioner, the man who had just tortured him, begged him:",
 "ref": "ref_m_deep_slow.wav",
 "ex": 0.4,
 "cfg": 0.2,
@@ -102,859 +102,9 @@
 "seed": 61
 },
 {
-"out": "N_o3_0_3",
-"text": "Everything you're about to hear really happened.",
-"check": "Everything you're about to hear really happened.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.45,
-"cfg": 0.17,
-"temp": 0.68,
-"seed": 3
-},
-{
-"out": "N_o3_0_11",
-"text": "Everything you're about to hear really happened.",
-"check": "Everything you're about to hear really happened.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.45,
-"cfg": 0.17,
-"temp": 0.68,
-"seed": 11
-},
-{
-"out": "N_o3_0_29",
-"text": "Everything you're about to hear really happened.",
-"check": "Everything you're about to hear really happened.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.45,
-"cfg": 0.17,
-"temp": 0.68,
-"seed": 29
-},
-{
-"out": "N_o3_0_47",
-"text": "Everything you're about to hear really happened.",
-"check": "Everything you're about to hear really happened.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.45,
-"cfg": 0.17,
-"temp": 0.68,
-"seed": 47
-},
-{
-"out": "N_o3_0_61",
-"text": "Everything you're about to hear really happened.",
-"check": "Everything you're about to hear really happened.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.45,
-"cfg": 0.17,
-"temp": 0.68,
-"seed": 61
-},
-{
-"out": "N_x1_0_3",
-"text": "His name was Johannes Junius.",
-"check": "His name was Johannes Junius.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.4,
-"cfg": 0.2,
-"temp": 0.68,
-"seed": 3
-},
-{
-"out": "N_x1_0_11",
-"text": "His name was Johannes Junius.",
-"check": "His name was Johannes Junius.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.4,
-"cfg": 0.2,
-"temp": 0.68,
-"seed": 11
-},
-{
-"out": "N_x1_0_29",
-"text": "His name was Johannes Junius.",
-"check": "His name was Johannes Junius.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.4,
-"cfg": 0.2,
-"temp": 0.68,
-"seed": 29
-},
-{
-"out": "N_x1_0_47",
-"text": "His name was Johannes Junius.",
-"check": "His name was Johannes Junius.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.4,
-"cfg": 0.2,
-"temp": 0.68,
-"seed": 47
-},
-{
-"out": "N_x1_0_61",
-"text": "His name was Johannes Junius.",
-"check": "His name was Johannes Junius.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.4,
-"cfg": 0.2,
-"temp": 0.68,
-"seed": 61
-},
-{
-"out": "N_x1_1_3",
-"text": "He lived in Bamberg, in Germany.",
-"check": "He lived in Bamberg, in Germany.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.4,
-"cfg": 0.2,
-"temp": 0.68,
-"seed": 3
-},
-{
-"out": "N_x1_1_11",
-"text": "He lived in Bamberg, in Germany.",
-"check": "He lived in Bamberg, in Germany.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.4,
-"cfg": 0.2,
-"temp": 0.68,
-"seed": 11
-},
-{
-"out": "N_x1_1_29",
-"text": "He lived in Bamberg, in Germany.",
-"check": "He lived in Bamberg, in Germany.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.4,
-"cfg": 0.2,
-"temp": 0.68,
-"seed": 29
-},
-{
-"out": "N_x1_1_47",
-"text": "He lived in Bamberg, in Germany.",
-"check": "He lived in Bamberg, in Germany.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.4,
-"cfg": 0.2,
-"temp": 0.68,
-"seed": 47
-},
-{
-"out": "N_x1_1_61",
-"text": "He lived in Bamberg, in Germany.",
-"check": "He lived in Bamberg, in Germany.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.4,
-"cfg": 0.2,
-"temp": 0.68,
-"seed": 61
-},
-{
-"out": "N_x2_0_3",
-"text": "At that time, many people believed that witches caused storms, sickness and failed harvests.",
-"check": "At that time, many people believed that witches caused storms, sickness and failed harvests.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.4,
-"cfg": 0.2,
-"temp": 0.68,
-"seed": 3
-},
-{
-"out": "N_x2_0_11",
-"text": "At that time, many people believed that witches caused storms, sickness and failed harvests.",
-"check": "At that time, many people believed that witches caused storms, sickness and failed harvests.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.4,
-"cfg": 0.2,
-"temp": 0.68,
-"seed": 11
-},
-{
-"out": "N_x2_0_29",
-"text": "At that time, many people believed that witches caused storms, sickness and failed harvests.",
-"check": "At that time, many people believed that witches caused storms, sickness and failed harvests.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.4,
-"cfg": 0.2,
-"temp": 0.68,
-"seed": 29
-},
-{
-"out": "N_x2_0_47",
-"text": "At that time, many people believed that witches caused storms, sickness and failed harvests.",
-"check": "At that time, many people believed that witches caused storms, sickness and failed harvests.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.4,
-"cfg": 0.2,
-"temp": 0.68,
-"seed": 47
-},
-{
-"out": "N_x2_0_61",
-"text": "At that time, many people believed that witches caused storms, sickness and failed harvests.",
-"check": "At that time, many people believed that witches caused storms, sickness and failed harvests.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.4,
-"cfg": 0.2,
-"temp": 0.68,
-"seed": 61
-},
-{
-"out": "N_x2_1_3",
-"text": "And the rulers of Bamberg decided to hunt them down.",
-"check": "And the rulers of Bamberg decided to hunt them down.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.45,
-"cfg": 0.17,
-"temp": 0.68,
-"seed": 3
-},
-{
-"out": "N_x2_1_11",
-"text": "And the rulers of Bamberg decided to hunt them down.",
-"check": "And the rulers of Bamberg decided to hunt them down.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.45,
-"cfg": 0.17,
-"temp": 0.68,
-"seed": 11
-},
-{
-"out": "N_x2_1_29",
-"text": "And the rulers of Bamberg decided to hunt them down.",
-"check": "And the rulers of Bamberg decided to hunt them down.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.45,
-"cfg": 0.17,
-"temp": 0.68,
-"seed": 29
-},
-{
-"out": "N_x2_1_47",
-"text": "And the rulers of Bamberg decided to hunt them down.",
-"check": "And the rulers of Bamberg decided to hunt them down.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.45,
-"cfg": 0.17,
-"temp": 0.68,
-"seed": 47
-},
-{
-"out": "N_x2_1_61",
-"text": "And the rulers of Bamberg decided to hunt them down.",
-"check": "And the rulers of Bamberg decided to hunt them down.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.45,
-"cfg": 0.17,
-"temp": 0.68,
-"seed": 61
-},
-{
-"out": "N_x3_0_3",
-"text": "Their method was simple.",
-"check": "Their method was simple.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.52,
-"cfg": 0.24,
-"temp": 0.68,
-"seed": 3
-},
-{
-"out": "N_x3_0_11",
-"text": "Their method was simple.",
-"check": "Their method was simple.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.52,
-"cfg": 0.24,
-"temp": 0.68,
-"seed": 11
-},
-{
-"out": "N_x3_0_29",
-"text": "Their method was simple.",
-"check": "Their method was simple.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.52,
-"cfg": 0.24,
-"temp": 0.68,
-"seed": 29
-},
-{
-"out": "N_x3_0_47",
-"text": "Their method was simple.",
-"check": "Their method was simple.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.52,
-"cfg": 0.24,
-"temp": 0.68,
-"seed": 47
-},
-{
-"out": "N_x3_0_61",
-"text": "Their method was simple.",
-"check": "Their method was simple.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.52,
-"cfg": 0.24,
-"temp": 0.68,
-"seed": 61
-},
-{
-"out": "N_x3_1_3",
-"text": "Arrest someone. Torture them until they give names.",
-"check": "Arrest someone. Torture them until they give names.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.4,
-"cfg": 0.2,
-"temp": 0.68,
-"seed": 3
-},
-{
-"out": "N_x3_1_11",
-"text": "Arrest someone. Torture them until they give names.",
-"check": "Arrest someone. Torture them until they give names.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.4,
-"cfg": 0.2,
-"temp": 0.68,
-"seed": 11
-},
-{
-"out": "N_x3_1_29",
-"text": "Arrest someone. Torture them until they give names.",
-"check": "Arrest someone. Torture them until they give names.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.4,
-"cfg": 0.2,
-"temp": 0.68,
-"seed": 29
-},
-{
-"out": "N_x3_1_47",
-"text": "Arrest someone. Torture them until they give names.",
-"check": "Arrest someone. Torture them until they give names.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.4,
-"cfg": 0.2,
-"temp": 0.68,
-"seed": 47
-},
-{
-"out": "N_x3_1_61",
-"text": "Arrest someone. Torture them until they give names.",
-"check": "Arrest someone. Torture them until they give names.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.4,
-"cfg": 0.2,
-"temp": 0.68,
-"seed": 61
-},
-{
-"out": "N_x3_2_3",
-"text": "Then arrest those people.",
-"check": "Then arrest those people.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.52,
-"cfg": 0.24,
-"temp": 0.68,
-"seed": 3
-},
-{
-"out": "N_x3_2_11",
-"text": "Then arrest those people.",
-"check": "Then arrest those people.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.52,
-"cfg": 0.24,
-"temp": 0.68,
-"seed": 11
-},
-{
-"out": "N_x3_2_29",
-"text": "Then arrest those people.",
-"check": "Then arrest those people.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.52,
-"cfg": 0.24,
-"temp": 0.68,
-"seed": 29
-},
-{
-"out": "N_x3_2_47",
-"text": "Then arrest those people.",
-"check": "Then arrest those people.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.52,
-"cfg": 0.24,
-"temp": 0.68,
-"seed": 47
-},
-{
-"out": "N_x3_2_61",
-"text": "Then arrest those people.",
-"check": "Then arrest those people.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.52,
-"cfg": 0.24,
-"temp": 0.68,
-"seed": 61
-},
-{
-"out": "N_x4_0_3",
-"text": "Junius's wife was named. She was executed.",
-"check": "Junius's wife was named. She was executed.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.45,
-"cfg": 0.17,
-"temp": 0.68,
-"seed": 3
-},
-{
-"out": "N_x4_0_11",
-"text": "Junius's wife was named. She was executed.",
-"check": "Junius's wife was named. She was executed.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.45,
-"cfg": 0.17,
-"temp": 0.68,
-"seed": 11
-},
-{
-"out": "N_x4_0_29",
-"text": "Junius's wife was named. She was executed.",
-"check": "Junius's wife was named. She was executed.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.45,
-"cfg": 0.17,
-"temp": 0.68,
-"seed": 29
-},
-{
-"out": "N_x4_0_47",
-"text": "Junius's wife was named. She was executed.",
-"check": "Junius's wife was named. She was executed.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.45,
-"cfg": 0.17,
-"temp": 0.68,
-"seed": 47
-},
-{
-"out": "N_x4_0_61",
-"text": "Junius's wife was named. She was executed.",
-"check": "Junius's wife was named. She was executed.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.45,
-"cfg": 0.17,
-"temp": 0.68,
-"seed": 61
-},
-{
-"out": "N_x5_0_3",
-"text": "Then six people named him.",
-"check": "Then six people named him.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.52,
-"cfg": 0.24,
-"temp": 0.68,
-"seed": 3
-},
-{
-"out": "N_x5_0_11",
-"text": "Then six people named him.",
-"check": "Then six people named him.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.52,
-"cfg": 0.24,
-"temp": 0.68,
-"seed": 11
-},
-{
-"out": "N_x5_0_29",
-"text": "Then six people named him.",
-"check": "Then six people named him.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.52,
-"cfg": 0.24,
-"temp": 0.68,
-"seed": 29
-},
-{
-"out": "N_x5_0_47",
-"text": "Then six people named him.",
-"check": "Then six people named him.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.52,
-"cfg": 0.24,
-"temp": 0.68,
-"seed": 47
-},
-{
-"out": "N_x5_0_61",
-"text": "Then six people named him.",
-"check": "Then six people named him.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.52,
-"cfg": 0.24,
-"temp": 0.68,
-"seed": 61
-},
-{
-"out": "N_a1_0_3",
-"text": "In court, a woman said she saw him dancing with witches in the forest.",
-"check": "In court, a woman said she saw him dancing with witches in the forest.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.4,
-"cfg": 0.2,
-"temp": 0.68,
-"seed": 3
-},
-{
-"out": "N_a1_0_11",
-"text": "In court, a woman said she saw him dancing with witches in the forest.",
-"check": "In court, a woman said she saw him dancing with witches in the forest.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.4,
-"cfg": 0.2,
-"temp": 0.68,
-"seed": 11
-},
-{
-"out": "N_a1_0_29",
-"text": "In court, a woman said she saw him dancing with witches in the forest.",
-"check": "In court, a woman said she saw him dancing with witches in the forest.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.4,
-"cfg": 0.2,
-"temp": 0.68,
-"seed": 29
-},
-{
-"out": "N_a1_0_47",
-"text": "In court, a woman said she saw him dancing with witches in the forest.",
-"check": "In court, a woman said she saw him dancing with witches in the forest.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.4,
-"cfg": 0.2,
-"temp": 0.68,
-"seed": 47
-},
-{
-"out": "N_a1_0_61",
-"text": "In court, a woman said she saw him dancing with witches in the forest.",
-"check": "In court, a woman said she saw him dancing with witches in the forest.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.4,
-"cfg": 0.2,
-"temp": 0.68,
-"seed": 61
-},
-{
-"out": "N_a2_0_3",
-"text": "He asked her how she could have seen that.",
-"check": "He asked her how she could have seen that.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.4,
-"cfg": 0.2,
-"temp": 0.68,
-"seed": 3
-},
-{
-"out": "N_a2_0_11",
-"text": "He asked her how she could have seen that.",
-"check": "He asked her how she could have seen that.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.4,
-"cfg": 0.2,
-"temp": 0.68,
-"seed": 11
-},
-{
-"out": "N_a2_0_29",
-"text": "He asked her how she could have seen that.",
-"check": "He asked her how she could have seen that.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.4,
-"cfg": 0.2,
-"temp": 0.68,
-"seed": 29
-},
-{
-"out": "N_a2_0_47",
-"text": "He asked her how she could have seen that.",
-"check": "He asked her how she could have seen that.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.4,
-"cfg": 0.2,
-"temp": 0.68,
-"seed": 47
-},
-{
-"out": "N_a2_0_61",
-"text": "He asked her how she could have seen that.",
-"check": "He asked her how she could have seen that.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.4,
-"cfg": 0.2,
-"temp": 0.68,
-"seed": 61
-},
-{
-"out": "N_a2_1_3",
-"text": "She said: I don't know.",
-"check": "She said: I don't know.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.52,
-"cfg": 0.24,
-"temp": 0.68,
-"seed": 3
-},
-{
-"out": "N_a2_1_11",
-"text": "She said: I don't know.",
-"check": "She said: I don't know.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.52,
-"cfg": 0.24,
-"temp": 0.68,
-"seed": 11
-},
-{
-"out": "N_a2_1_29",
-"text": "She said: I don't know.",
-"check": "She said: I don't know.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.52,
-"cfg": 0.24,
-"temp": 0.68,
-"seed": 29
-},
-{
-"out": "N_a2_1_47",
-"text": "She said: I don't know.",
-"check": "She said: I don't know.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.52,
-"cfg": 0.24,
-"temp": 0.68,
-"seed": 47
-},
-{
-"out": "N_a2_1_61",
-"text": "She said: I don't know.",
-"check": "She said: I don't know.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.52,
-"cfg": 0.24,
-"temp": 0.68,
-"seed": 61
-},
-{
-"out": "N_a3_0_3",
-"text": "The judges didn't care.",
-"check": "The judges didn't care.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.45,
-"cfg": 0.17,
-"temp": 0.68,
-"seed": 3
-},
-{
-"out": "N_a3_0_11",
-"text": "The judges didn't care.",
-"check": "The judges didn't care.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.45,
-"cfg": 0.17,
-"temp": 0.68,
-"seed": 11
-},
-{
-"out": "N_a3_0_29",
-"text": "The judges didn't care.",
-"check": "The judges didn't care.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.45,
-"cfg": 0.17,
-"temp": 0.68,
-"seed": 29
-},
-{
-"out": "N_a3_0_47",
-"text": "The judges didn't care.",
-"check": "The judges didn't care.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.45,
-"cfg": 0.17,
-"temp": 0.68,
-"seed": 47
-},
-{
-"out": "N_a3_0_61",
-"text": "The judges didn't care.",
-"check": "The judges didn't care.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.45,
-"cfg": 0.17,
-"temp": 0.68,
-"seed": 61
-},
-{
-"out": "N_t1_0_3",
-"text": "Two days later, they tortured him.",
-"check": "Two days later, they tortured him.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.45,
-"cfg": 0.17,
-"temp": 0.68,
-"seed": 3
-},
-{
-"out": "N_t1_0_11",
-"text": "Two days later, they tortured him.",
-"check": "Two days later, they tortured him.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.45,
-"cfg": 0.17,
-"temp": 0.68,
-"seed": 11
-},
-{
-"out": "N_t1_0_29",
-"text": "Two days later, they tortured him.",
-"check": "Two days later, they tortured him.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.45,
-"cfg": 0.17,
-"temp": 0.68,
-"seed": 29
-},
-{
-"out": "N_t1_0_47",
-"text": "Two days later, they tortured him.",
-"check": "Two days later, they tortured him.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.45,
-"cfg": 0.17,
-"temp": 0.68,
-"seed": 47
-},
-{
-"out": "N_t1_0_61",
-"text": "Two days later, they tortured him.",
-"check": "Two days later, they tortured him.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.45,
-"cfg": 0.17,
-"temp": 0.68,
-"seed": 61
-},
-{
-"out": "N_t2_0_3",
-"text": "The court wrote down that he felt no pain.",
-"check": "The court wrote down that he felt no pain.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.32,
-"cfg": 0.3,
-"temp": 0.65,
-"seed": 3
-},
-{
-"out": "N_t2_0_11",
-"text": "The court wrote down that he felt no pain.",
-"check": "The court wrote down that he felt no pain.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.32,
-"cfg": 0.3,
-"temp": 0.65,
-"seed": 11
-},
-{
-"out": "N_t2_0_29",
-"text": "The court wrote down that he felt no pain.",
-"check": "The court wrote down that he felt no pain.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.32,
-"cfg": 0.3,
-"temp": 0.65,
-"seed": 29
-},
-{
-"out": "N_t2_0_47",
-"text": "The court wrote down that he felt no pain.",
-"check": "The court wrote down that he felt no pain.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.32,
-"cfg": 0.3,
-"temp": 0.65,
-"seed": 47
-},
-{
-"out": "N_t2_0_61",
-"text": "The court wrote down that he felt no pain.",
-"check": "The court wrote down that he felt no pain.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.32,
-"cfg": 0.3,
-"temp": 0.65,
-"seed": 61
-},
-{
-"out": "N_t3_0_3",
-"text": "In his letter, he wrote something very different.",
-"check": "In his letter, he wrote something very different.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.4,
-"cfg": 0.2,
-"temp": 0.68,
-"seed": 3
-},
-{
-"out": "N_t3_0_11",
-"text": "In his letter, he wrote something very different.",
-"check": "In his letter, he wrote something very different.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.4,
-"cfg": 0.2,
-"temp": 0.68,
-"seed": 11
-},
-{
-"out": "N_t3_0_29",
-"text": "In his letter, he wrote something very different.",
-"check": "In his letter, he wrote something very different.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.4,
-"cfg": 0.2,
-"temp": 0.68,
-"seed": 29
-},
-{
-"out": "N_t3_0_47",
-"text": "In his letter, he wrote something very different.",
-"check": "In his letter, he wrote something very different.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.4,
-"cfg": 0.2,
-"temp": 0.68,
-"seed": 47
-},
-{
-"out": "N_t3_0_61",
-"text": "In his letter, he wrote something very different.",
-"check": "In his letter, he wrote something very different.",
-"ref": "ref_m_deep_slow.wav",
-"ex": 0.4,
-"cfg": 0.2,
-"temp": 0.68,
-"seed": 61
-},
-{
-"out": "N_t3_1_3",
-"text": "They crushed his thumbs until blood came out from under his nails.",
-"check": "They crushed his thumbs until blood came out from under his nails.",
+"out": "N_k3_0_3",
+"text": "Confess to something. True or not.",
+"check": "Confess to something. True or not.",
 "ref": "ref_m_deep_slow.wav",
 "ex": 0.55,
 "cfg": 0.17,
@@ -962,9 +112,9 @@
 "seed": 3
 },
 {
-"out": "N_t3_1_11",
-"text": "They crushed his thumbs until blood came out from under his nails.",
-"check": "They crushed his thumbs until blood came out from under his nails.",
+"out": "N_k3_0_11",
+"text": "Confess to something. True or not.",
+"check": "Confess to something. True or not.",
 "ref": "ref_m_deep_slow.wav",
 "ex": 0.55,
 "cfg": 0.17,
@@ -972,9 +122,9 @@
 "seed": 11
 },
 {
-"out": "N_t3_1_29",
-"text": "They crushed his thumbs until blood came out from under his nails.",
-"check": "They crushed his thumbs until blood came out from under his nails.",
+"out": "N_k3_0_29",
+"text": "Confess to something. True or not.",
+"check": "Confess to something. True or not.",
 "ref": "ref_m_deep_slow.wav",
 "ex": 0.55,
 "cfg": 0.17,
@@ -982,9 +132,9 @@
 "seed": 29
 },
 {
-"out": "N_t3_1_47",
-"text": "They crushed his thumbs until blood came out from under his nails.",
-"check": "They crushed his thumbs until blood came out from under his nails.",
+"out": "N_k3_0_47",
+"text": "Confess to something. True or not.",
+"check": "Confess to something. True or not.",
 "ref": "ref_m_deep_slow.wav",
 "ex": 0.55,
 "cfg": 0.17,
@@ -992,9 +142,9 @@
 "seed": 47
 },
 {
-"out": "N_t3_1_61",
-"text": "They crushed his thumbs until blood came out from under his nails.",
-"check": "They crushed his thumbs until blood came out from under his nails.",
+"out": "N_k3_0_61",
+"text": "Confess to something. True or not.",
+"check": "Confess to something. True or not.",
 "ref": "ref_m_deep_slow.wav",
 "ex": 0.55,
 "cfg": 0.17,
@@ -1002,9 +152,459 @@
 "seed": 61
 },
 {
-"out": "N_t4_0_3",
-"text": "They tied his hands behind his back,",
-"check": "They tied his hands behind his back,",
+"out": "N_k3_1_3",
+"text": "If you don't, they will never stop.",
+"check": "If you don't, they will never stop.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "N_k3_1_11",
+"text": "If you don't, they will never stop.",
+"check": "If you don't, they will never stop.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "N_k3_1_29",
+"text": "If you don't, they will never stop.",
+"check": "If you don't, they will never stop.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "N_k3_1_47",
+"text": "If you don't, they will never stop.",
+"check": "If you don't, they will never stop.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "N_k3_1_61",
+"text": "If you don't, they will never stop.",
+"check": "If you don't, they will never stop.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "N_l1_0_3",
+"text": "So Junius lied. He made up a story about meeting the devil.",
+"check": "So Junius lied. He made up a story about meeting the devil.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "N_l1_0_11",
+"text": "So Junius lied. He made up a story about meeting the devil.",
+"check": "So Junius lied. He made up a story about meeting the devil.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "N_l1_0_29",
+"text": "So Junius lied. He made up a story about meeting the devil.",
+"check": "So Junius lied. He made up a story about meeting the devil.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "N_l1_0_47",
+"text": "So Junius lied. He made up a story about meeting the devil.",
+"check": "So Junius lied. He made up a story about meeting the devil.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "N_l1_0_61",
+"text": "So Junius lied. He made up a story about meeting the devil.",
+"check": "So Junius lied. He made up a story about meeting the devil.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "N_l2_0_3",
+"text": "Then they wanted names.",
+"check": "Then they wanted names.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "N_l2_0_11",
+"text": "Then they wanted names.",
+"check": "Then they wanted names.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "N_l2_0_29",
+"text": "Then they wanted names.",
+"check": "Then they wanted names.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "N_l2_0_47",
+"text": "Then they wanted names.",
+"check": "Then they wanted names.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "N_l2_0_61",
+"text": "Then they wanted names.",
+"check": "Then they wanted names.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "N_l3_0_3",
+"text": "They made him walk through his own town in his mind, street by street, and name people.",
+"check": "They made him walk through his own town in his mind, street by street, and name people.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "N_l3_0_11",
+"text": "They made him walk through his own town in his mind, street by street, and name people.",
+"check": "They made him walk through his own town in his mind, street by street, and name people.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "N_l3_0_29",
+"text": "They made him walk through his own town in his mind, street by street, and name people.",
+"check": "They made him walk through his own town in his mind, street by street, and name people.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "N_l3_0_47",
+"text": "They made him walk through his own town in his mind, street by street, and name people.",
+"check": "They made him walk through his own town in his mind, street by street, and name people.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "N_l3_0_61",
+"text": "They made him walk through his own town in his mind, street by street, and name people.",
+"check": "They made him walk through his own town in his mind, street by street, and name people.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "N_l4_0_3",
+"text": "When he couldn't think of anyone, they gave him a name.",
+"check": "When he couldn't think of anyone, they gave him a name.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "N_l4_0_11",
+"text": "When he couldn't think of anyone, they gave him a name.",
+"check": "When he couldn't think of anyone, they gave him a name.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "N_l4_0_29",
+"text": "When he couldn't think of anyone, they gave him a name.",
+"check": "When he couldn't think of anyone, they gave him a name.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "N_l4_0_47",
+"text": "When he couldn't think of anyone, they gave him a name.",
+"check": "When he couldn't think of anyone, they gave him a name.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "N_l4_0_61",
+"text": "When he couldn't think of anyone, they gave him a name.",
+"check": "When he couldn't think of anyone, they gave him a name.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "N_l4_1_3",
+"text": "And he repeated it.",
+"check": "And he repeated it.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "N_l4_1_11",
+"text": "And he repeated it.",
+"check": "And he repeated it.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "N_l4_1_29",
+"text": "And he repeated it.",
+"check": "And he repeated it.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "N_l4_1_47",
+"text": "And he repeated it.",
+"check": "And he repeated it.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "N_l4_1_61",
+"text": "And he repeated it.",
+"check": "And he repeated it.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.45,
+"cfg": 0.17,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "N_e1_0_3",
+"text": "He wrote all of this to his daughter, Veronica,",
+"check": "He wrote all of this to his daughter, Veronica,",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "N_e1_0_11",
+"text": "He wrote all of this to his daughter, Veronica,",
+"check": "He wrote all of this to his daughter, Veronica,",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "N_e1_0_29",
+"text": "He wrote all of this to his daughter, Veronica,",
+"check": "He wrote all of this to his daughter, Veronica,",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "N_e1_0_47",
+"text": "He wrote all of this to his daughter, Veronica,",
+"check": "He wrote all of this to his daughter, Veronica,",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "N_e1_0_61",
+"text": "He wrote all of this to his daughter, Veronica,",
+"check": "He wrote all of this to his daughter, Veronica,",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "N_e1_1_3",
+"text": "over several days, with hands that barely worked.",
+"check": "over several days, with hands that barely worked.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "N_e1_1_11",
+"text": "over several days, with hands that barely worked.",
+"check": "over several days, with hands that barely worked.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "N_e1_1_29",
+"text": "over several days, with hands that barely worked.",
+"check": "over several days, with hands that barely worked.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "N_e1_1_47",
+"text": "over several days, with hands that barely worked.",
+"check": "over several days, with hands that barely worked.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "N_e1_1_61",
+"text": "over several days, with hands that barely worked.",
+"check": "over several days, with hands that barely worked.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "N_e2_0_3",
+"text": "He asked her to hide the letter.",
+"check": "He asked her to hide the letter.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "N_e2_0_11",
+"text": "He asked her to hide the letter.",
+"check": "He asked her to hide the letter.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "N_e2_0_29",
+"text": "He asked her to hide the letter.",
+"check": "He asked her to hide the letter.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "N_e2_0_47",
+"text": "He asked her to hide the letter.",
+"check": "He asked her to hide the letter.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "N_e2_0_61",
+"text": "He asked her to hide the letter.",
+"check": "He asked her to hide the letter.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "N_e3_0_3",
+"text": "He wrote: I am innocent.",
+"check": "He wrote: I am innocent.",
 "ref": "ref_m_deep_slow.wav",
 "ex": 0.55,
 "cfg": 0.17,
@@ -1012,9 +612,9 @@
 "seed": 3
 },
 {
-"out": "N_t4_0_11",
-"text": "They tied his hands behind his back,",
-"check": "They tied his hands behind his back,",
+"out": "N_e3_0_11",
+"text": "He wrote: I am innocent.",
+"check": "He wrote: I am innocent.",
 "ref": "ref_m_deep_slow.wav",
 "ex": 0.55,
 "cfg": 0.17,
@@ -1022,9 +622,9 @@
 "seed": 11
 },
 {
-"out": "N_t4_0_29",
-"text": "They tied his hands behind his back,",
-"check": "They tied his hands behind his back,",
+"out": "N_e3_0_29",
+"text": "He wrote: I am innocent.",
+"check": "He wrote: I am innocent.",
 "ref": "ref_m_deep_slow.wav",
 "ex": 0.55,
 "cfg": 0.17,
@@ -1032,9 +632,9 @@
 "seed": 29
 },
 {
-"out": "N_t4_0_47",
-"text": "They tied his hands behind his back,",
-"check": "They tied his hands behind his back,",
+"out": "N_e3_0_47",
+"text": "He wrote: I am innocent.",
+"check": "He wrote: I am innocent.",
 "ref": "ref_m_deep_slow.wav",
 "ex": 0.55,
 "cfg": 0.17,
@@ -1042,9 +642,9 @@
 "seed": 47
 },
 {
-"out": "N_t4_0_61",
-"text": "They tied his hands behind his back,",
-"check": "They tied his hands behind his back,",
+"out": "N_e3_0_61",
+"text": "He wrote: I am innocent.",
+"check": "He wrote: I am innocent.",
 "ref": "ref_m_deep_slow.wav",
 "ex": 0.55,
 "cfg": 0.17,
@@ -1052,9 +652,9 @@
 "seed": 61
 },
 {
-"out": "N_t4_1_3",
-"text": "pulled him up by a rope,",
-"check": "pulled him up by a rope,",
+"out": "N_e4_0_3",
+"text": "And he ended with: Good night.",
+"check": "And he ended with: Good night.",
 "ref": "ref_m_deep_slow.wav",
 "ex": 0.55,
 "cfg": 0.17,
@@ -1062,9 +662,9 @@
 "seed": 3
 },
 {
-"out": "N_t4_1_11",
-"text": "pulled him up by a rope,",
-"check": "pulled him up by a rope,",
+"out": "N_e4_0_11",
+"text": "And he ended with: Good night.",
+"check": "And he ended with: Good night.",
 "ref": "ref_m_deep_slow.wav",
 "ex": 0.55,
 "cfg": 0.17,
@@ -1072,9 +672,9 @@
 "seed": 11
 },
 {
-"out": "N_t4_1_29",
-"text": "pulled him up by a rope,",
-"check": "pulled him up by a rope,",
+"out": "N_e4_0_29",
+"text": "And he ended with: Good night.",
+"check": "And he ended with: Good night.",
 "ref": "ref_m_deep_slow.wav",
 "ex": 0.55,
 "cfg": 0.17,
@@ -1082,9 +682,9 @@
 "seed": 29
 },
 {
-"out": "N_t4_1_47",
-"text": "pulled him up by a rope,",
-"check": "pulled him up by a rope,",
+"out": "N_e4_0_47",
+"text": "And he ended with: Good night.",
+"check": "And he ended with: Good night.",
 "ref": "ref_m_deep_slow.wav",
 "ex": 0.55,
 "cfg": 0.17,
@@ -1092,9 +692,9 @@
 "seed": 47
 },
 {
-"out": "N_t4_1_61",
-"text": "pulled him up by a rope,",
-"check": "pulled him up by a rope,",
+"out": "N_e4_0_61",
+"text": "And he ended with: Good night.",
+"check": "And he ended with: Good night.",
 "ref": "ref_m_deep_slow.wav",
 "ex": 0.55,
 "cfg": 0.17,
@@ -1102,9 +702,59 @@
 "seed": 61
 },
 {
-"out": "N_t4_2_3",
-"text": "and dropped him. Eight times.",
-"check": "and dropped him. Eight times.",
+"out": "N_e4_1_3",
+"text": "Your father will never see you again.",
+"check": "Your father will never see you again.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.55,
+"cfg": 0.17,
+"temp": 0.72,
+"seed": 3
+},
+{
+"out": "N_e4_1_11",
+"text": "Your father will never see you again.",
+"check": "Your father will never see you again.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.55,
+"cfg": 0.17,
+"temp": 0.72,
+"seed": 11
+},
+{
+"out": "N_e4_1_29",
+"text": "Your father will never see you again.",
+"check": "Your father will never see you again.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.55,
+"cfg": 0.17,
+"temp": 0.72,
+"seed": 29
+},
+{
+"out": "N_e4_1_47",
+"text": "Your father will never see you again.",
+"check": "Your father will never see you again.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.55,
+"cfg": 0.17,
+"temp": 0.72,
+"seed": 47
+},
+{
+"out": "N_e4_1_61",
+"text": "Your father will never see you again.",
+"check": "Your father will never see you again.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.55,
+"cfg": 0.17,
+"temp": 0.72,
+"seed": 61
+},
+{
+"out": "N_f1_0_3",
+"text": "That August, Johannes Junius was executed.",
+"check": "That August, Johannes Junius was executed.",
 "ref": "ref_m_deep_slow.wav",
 "ex": 0.45,
 "cfg": 0.17,
@@ -1112,9 +762,9 @@
 "seed": 3
 },
 {
-"out": "N_t4_2_11",
-"text": "and dropped him. Eight times.",
-"check": "and dropped him. Eight times.",
+"out": "N_f1_0_11",
+"text": "That August, Johannes Junius was executed.",
+"check": "That August, Johannes Junius was executed.",
 "ref": "ref_m_deep_slow.wav",
 "ex": 0.45,
 "cfg": 0.17,
@@ -1122,9 +772,9 @@
 "seed": 11
 },
 {
-"out": "N_t4_2_29",
-"text": "and dropped him. Eight times.",
-"check": "and dropped him. Eight times.",
+"out": "N_f1_0_29",
+"text": "That August, Johannes Junius was executed.",
+"check": "That August, Johannes Junius was executed.",
 "ref": "ref_m_deep_slow.wav",
 "ex": 0.45,
 "cfg": 0.17,
@@ -1132,9 +782,9 @@
 "seed": 29
 },
 {
-"out": "N_t4_2_47",
-"text": "and dropped him. Eight times.",
-"check": "and dropped him. Eight times.",
+"out": "N_f1_0_47",
+"text": "That August, Johannes Junius was executed.",
+"check": "That August, Johannes Junius was executed.",
 "ref": "ref_m_deep_slow.wav",
 "ex": 0.45,
 "cfg": 0.17,
@@ -1142,12 +792,212 @@
 "seed": 47
 },
 {
-"out": "N_t4_2_61",
-"text": "and dropped him. Eight times.",
-"check": "and dropped him. Eight times.",
+"out": "N_f1_0_61",
+"text": "That August, Johannes Junius was executed.",
+"check": "That August, Johannes Junius was executed.",
 "ref": "ref_m_deep_slow.wav",
 "ex": 0.45,
 "cfg": 0.17,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "N_f2_0_3",
+"text": "His letter probably never reached his daughter.",
+"check": "His letter probably never reached his daughter.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "N_f2_0_11",
+"text": "His letter probably never reached his daughter.",
+"check": "His letter probably never reached his daughter.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "N_f2_0_29",
+"text": "His letter probably never reached his daughter.",
+"check": "His letter probably never reached his daughter.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "N_f2_0_47",
+"text": "His letter probably never reached his daughter.",
+"check": "His letter probably never reached his daughter.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "N_f2_0_61",
+"text": "His letter probably never reached his daughter.",
+"check": "His letter probably never reached his daughter.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "N_f2_1_3",
+"text": "The court kept it in his file.",
+"check": "The court kept it in his file.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "N_f2_1_11",
+"text": "The court kept it in his file.",
+"check": "The court kept it in his file.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "N_f2_1_29",
+"text": "The court kept it in his file.",
+"check": "The court kept it in his file.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "N_f2_1_47",
+"text": "The court kept it in his file.",
+"check": "The court kept it in his file.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "N_f2_1_61",
+"text": "The court kept it in his file.",
+"check": "The court kept it in his file.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "N_f3_0_3",
+"text": "And that is why, almost four hundred years later,",
+"check": "And that is why, almost four hundred years later,",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "N_f3_0_11",
+"text": "And that is why, almost four hundred years later,",
+"check": "And that is why, almost four hundred years later,",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "N_f3_0_29",
+"text": "And that is why, almost four hundred years later,",
+"check": "And that is why, almost four hundred years later,",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "N_f3_0_47",
+"text": "And that is why, almost four hundred years later,",
+"check": "And that is why, almost four hundred years later,",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "N_f3_0_61",
+"text": "And that is why, almost four hundred years later,",
+"check": "And that is why, almost four hundred years later,",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.4,
+"cfg": 0.2,
+"temp": 0.68,
+"seed": 61
+},
+{
+"out": "N_f3_1_3",
+"text": "we can still read it.",
+"check": "we can still read it.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 3
+},
+{
+"out": "N_f3_1_11",
+"text": "we can still read it.",
+"check": "we can still read it.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 11
+},
+{
+"out": "N_f3_1_29",
+"text": "we can still read it.",
+"check": "we can still read it.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 29
+},
+{
+"out": "N_f3_1_47",
+"text": "we can still read it.",
+"check": "we can still read it.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
+"temp": 0.68,
+"seed": 47
+},
+{
+"out": "N_f3_1_61",
+"text": "we can still read it.",
+"check": "we can still read it.",
+"ref": "ref_m_deep_slow.wav",
+"ex": 0.52,
+"cfg": 0.24,
 "temp": 0.68,
 "seed": 61
 }
