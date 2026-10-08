@@ -44,16 +44,16 @@ SUMMER = dict(stops=[(0, (0.32, 0.42, 0.62)), (0.3, (0.5, 0.58, 0.72)), (0.5, (0
 def pass_day(extra=None):
     sc = _drop(LS.kleidion(), COLUMN + CLUTTER + ('prilep', 'boulders', 'fort', 'road'))
     sc.sky = SUMMER; sc.mood = 'day'
-    sc.amb = np.array([0.42, 0.42, 0.44], np.float32); sc.key_col = np.array([0.9, 0.8, 0.62], np.float32)
-    sc.key_dir = (0.2, -0.9); sc.haze_col = np.array([0.72, 0.72, 0.74], np.float32); sc.haze, sc.haze_pow = 0.75, 1.3
+    sc.amb = np.array([0.26, 0.27, 0.3], np.float32); sc.key_col = np.array([0.95, 0.82, 0.6], np.float32)
+    sc.key_dir = (0.45, -0.75); sc.haze_col = np.array([0.62, 0.66, 0.72], np.float32); sc.haze, sc.haze_pow = 0.42, 1.6
     sc.sun = (820, 420); sc.rim = 0.4
     for it in sc.items:
         if it.name.startswith('ridge'):
-            it.col = np.array([0.36, 0.42, 0.46], np.float32) * (0.85 + 0.15 * float(it.name[-1]))
+            it.col = np.array([0.24, 0.3, 0.36], np.float32) * (1.25 - 0.15 * float(it.name[-1]))
         if it.name == 'tree':
             it.col = np.array([0.24, 0.32, 0.14], np.float32)
         if it.name == 'fields':
-            it.col = np.array([0.55, 0.47, 0.28], np.float32)
+            it.col = np.array([0.5, 0.4, 0.2], np.float32)
         if it.name == 'grass':
             it.col = np.array([0.62, 0.52, 0.28], np.float32)
     # Samuel's wall across the narrows: an earth bank, a palisade, towers, guards
@@ -87,7 +87,7 @@ def flank(sc):
         u = k / 33
         x = 640 + 420 * u + r.uniform(-20, 20)
         y = 1230 + 70 * u + r.uniform(-14, 14)
-        g, _ = figure(x, y, 20, face=-1, z=0.315, col=(0.14, 0.12, 0.13), robe=0.2, step=0.5, halberd=True, seed=600 + k, name='flank%d' % k)
+        g, _ = figure(x, y, 34, face=-1, z=0.315, col=(0.06, 0.05, 0.06), robe=0.2, step=0.5, halberd=True, seed=600 + k, name='flank%d' % k)
         sc.add(*g)
 
 
@@ -109,9 +109,9 @@ def gorge():
     sc = Scene('gorge')
     sc.mood = 'dusk'
     sc.sky = dict(stops=[(0, (0.3, 0.24, 0.3)), (0.4, (0.7, 0.5, 0.4)), (0.55, (0.9, 0.66, 0.45)), (1, (0.4, 0.3, 0.28))],
-                  glow=[(560, 700, 300, (1.0, 0.7, 0.45), 0.6)])
-    sc.amb = np.array([0.22, 0.17, 0.18], np.float32); sc.key_col = np.array([0.6, 0.42, 0.3], np.float32)
-    sc.key_dir = (0.4, -0.8); sc.haze_col = np.array([0.6, 0.42, 0.36], np.float32); sc.haze, sc.haze_pow = 0.7, 1.3
+                  glow=[(560, 700, 220, (1.0, 0.7, 0.45), 0.35)])
+    sc.amb = np.array([0.26, 0.2, 0.2], np.float32); sc.key_col = np.array([0.75, 0.5, 0.34], np.float32)
+    sc.key_dir = (0.4, -0.8); sc.haze_col = np.array([0.5, 0.36, 0.32], np.float32); sc.haze, sc.haze_pow = 0.45, 1.5
     sc.sun = (560, 700); sc.rim = 0.7; sc.focus = 0.6
     L = catmull(P([(-40, 260), (180, 420), (300, 760), (380, 1100), (430, 1420), (470, 1700), (430, 1960), (-40, 1960)]), 8, closed=True)
     R = catmull(P([(1120, 200), (900, 460), (790, 800), (720, 1150), (660, 1450), (640, 1720), (700, 1960), (1120, 1960)]), 8, closed=True)
@@ -121,12 +121,12 @@ def gorge():
     for k in range(14):
         u = k / 13
         x = 520 + 30 * math.sin(k) ; y = 1330 + 360 * u
-        it, _ = figure(x + (k % 3 - 1) * 26, y, 22 + 90 * u ** 1.5, face=1, z=0.22 + 0.2 * u, col=(0.12, 0.08, 0.07), robe=0.2, step=0.5,
+        it, _ = figure(x + (k % 3 - 1) * 26, y, 40 + 150 * u ** 1.5, face=1, z=0.22 + 0.2 * u, col=(0.06, 0.04, 0.04), robe=0.2, step=0.5,
                        halberd=k % 2 == 0, seed=800 + k, name='men%d' % k)
         g += it
     sc.add(*g)
-    sc.add(Item(polys=[L], z=0.6, col=(0.17, 0.12, 0.12), mat='stone', key=0.8, recv=0, name='wallL', hatch=60))
-    sc.add(Item(polys=[R], z=0.62, col=(0.15, 0.11, 0.11), mat='stone', key=0.8, recv=0, name='wallR', hatch=-60))
+    sc.add(Item(polys=[L], z=0.6, col=(0.36, 0.27, 0.24), mat='stone', key=1.0, recv=0, name='wallL', hatch=60, shade=(1.2, 0.6)))
+    sc.add(Item(polys=[R], z=0.62, col=(0.26, 0.19, 0.17), mat='stone', key=0.7, recv=0, name='wallR', hatch=-60, shade=(1.1, 0.6)))
     sc.add(rocks(260, 470, 1250, 0.605, 182, col=(0.2, 0.15, 0.14), n=24, smin=14, smax=40, top=lambda x: 700 + (x - 260) * 0.8))
     falling = [ellipse(480 + 50 * k, 500 + 160 * k, 14 + 4 * (k % 3), 11, 9) for k in range(5)]
     sc.add(Item(polys=falling, z=0.5, col=(0.22, 0.17, 0.15), mat='stone', key=0.8, recv=0, name='stones'))
