@@ -1,0 +1,22 @@
+name: sfx
+# Fetches sound effects and samples (free / CC0 sources) listed in sfx/list.txt and publishes them to the "sfx" release.
+on:
+  push:
+    branches: [main]
+    paths: ['sfx/list.txt']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: sfx
+      - name: fetch
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: bash sfx/fetch.sh sfx/list.txt
