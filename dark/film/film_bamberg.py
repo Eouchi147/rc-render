@@ -22,7 +22,7 @@ QUOTE = {l[0]: l[4] for l in LINES}
 # pause before each line (seconds of silence after the previous line's last word): the film's breathing
 GAP = dict(h1=1.3, h2=.35, h3=.4, h4=.9, q1=.5, q2=.6, w1=2.7, w2=.35, w3=.8, w4=.4, w5=.4, j1=.85, j2=.45, t1=.85,
            t2=.6, t3=.5, t4=.5, t5=.5, t6=1.35, p1=.95, p2=.4, l1=.8, l2=.4, l3=.5, l4=.85, l5=.4, l6=.35, l7=.5,
-           e1=.9, e2=.5, e3=.6, c1=1.15, c2=.7, c3=.7)
+           e1=.9, e2=.5, e3=.6, c1=1.15, c2=.7, c3=.7, c4=.9)
 END_CARD = 2.6
 LIMIT = 179.4
 

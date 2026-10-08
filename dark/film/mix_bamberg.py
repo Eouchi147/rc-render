@@ -287,7 +287,7 @@ def main(out):
     # ---------------------------------------------------------------- narration
     for lid in F.ORDER:
         x = load(F.VO + lid + '.wav')
-        kind = 'letter' if F.QUOTE[lid] else ('record' if lid in ('t2', 't4', 'l3') else 'narr')
+        kind = 'letter' if F.QUOTE[lid] else ('record' if lid in ('t2', 't4') else 'narr')
         place(vo, voice_chain(kind, x), S[lid], 0.0)
     meter = pyln.Meter(SR)
     vo *= db(-16.5 - meter.integrated_loudness(vo.astype(np.float64)[:, None]))
