@@ -26,7 +26,7 @@ def _no_ship(sc):
 
 
 def _calm(sc, sky, amb, key, haze, sheen=None):
-    sc.items = [it for it in sc.items if it.name != 'curtain']
+    sc.items = [it for it in sc.items if it.name not in ('curtain', 'swell', 'swellfoam')]
     sc.rain = None
     sc.sky = sky
     sc.amb = np.array(amb, np.float32); sc.key_col = np.array(key, np.float32)
@@ -132,8 +132,8 @@ def mk(key, make, zoom=1.0, center=(540, 960), rain=False, roll=1.0):
 
 
 # ------------------------------------------------------------------ the documents (quill hands, English)
-LEDGER = "Ship Zong, Luke Collingwood master, from the Coast of Africa for Jamaica."
-LEDGER_2 = "442 Slaves on board, valued at £30 per Head. Insured, £8,000."
+LEDGER = "Luke Collingwood master, from the Coast of Africa for Jamaica."
+LEDGER_2 = "442 Slaves on board, valued at 30l. per Head. Insured for 8,000l."
 COURT_HEAD = "Guildhall, 6th March 1783. Gregson and others against Gilbert."
 COURT_V = "The Jury found a Verdict before Lord Mansfield for the Plaintiffs."
 COURT_LEE = "it is the case of throwing over goods"
@@ -174,10 +174,10 @@ def build():
     e_dusk = mk('z_edusk', empty_dusk)
     e_night = mk('z_enight', empty_night)
     cellk = lambda page: (lambda: Cell(page))
-    doc = lambda f, py=700: (lambda s: (lambda c: (*c.page_plate(560, py), f))(ob(s)))
+    doc = lambda f, py=700: (lambda s: (lambda c: (*c.page_plate(470, py), f))(ob(s)))
 
     def pen(page, t, dx=0, dy=0, f=3.3):
-        return lambda s: (lambda c: (c.pen_plate(t)[0] + dx, c.pen_plate(t)[1] + dy, f))(ob(s))
+        return lambda s: (lambda c: (lambda q: (q[0] + dx, q[1] + dy, f))(c.page_plate(470, PG.pen_at(c.base.page, t)[0][1])))(ob(s))
 
     def pkeys(*ks):
         """camera keys where a key may be a function of the shot (pen positions)"""
@@ -189,7 +189,7 @@ def build():
     FLASH.extend([(0.35, 1.2, (0.75, 0.82, 1.0)), (0.6, 0.5, (0.75, 0.82, 1.0))])
     # 2. HARD CUT: the court record ("a London court, as an insurance claim")
     c2 = S0('o3') - 0.1
-    sh.append(Shot('court_open', c1, c2, cellk('court'), pkeys((c1, doc(3.8)), (c2, doc(4.1, 720))), key='cell_court', ap=9.0, **CUT))
+    sh.append(Shot('court_open', c1, c2, cellk('court'), pkeys((c1, doc(3.23)), (c2, doc(3.48, 720))), key='cell_court', ap=9.0, **CUT))
     # 3. the empty sea at dusk under the promise and the title
     c3 = S0('x1') - 0.5
     sh.append(Shot('title_sea', c2, c3, e_dusk, [(c2, (700, 1500, 1.25)), (c3, (640, 1450, 1.12))], key='e_dusk', xin=0.0, xout=0.8, hand=0.5))
@@ -209,7 +209,7 @@ def build():
     c6 = S0('m1') - 0.4
     led = lambda s: ob(s)
     sh.append(Shot('ledger', c5, c6, cellk('ledger'),
-                   pkeys((c5, doc(3.4)), (Wd('x4', 'thirty'), pen('ledger', Wd('x4', 'thirty'), 120, 0, 3.4)), (c6, pen('ledger', E0('x4'), 40, 30, 3.6))),
+                   pkeys((c5, doc(2.89)), (Wd('x4', 'thirty'), pen('ledger', Wd('x4', 'thirty'), 20, 0, 2.89)), (c6, pen('ledger', E0('x4'), 40, 30, 3.06))),
                    key='cell_ledger', ap=9.0, xin=0.0, xout=0.5))
     # 7. JAMAICA, mistaken; sailed past it
     past = Wd('m1', 'sailed') - 0.2
@@ -222,9 +222,9 @@ def build():
     # 9. THE RULE: the ledger again, the price
     c9 = S0('d1') - 0.4
     m3b, m3c = Wd('m3', 'captives') - 0.15, Wd('m3', 'thrown') - 0.35
-    sh.append(Shot('rule', c8, m3b, cellk('ledger'), pkeys((c8, doc(3.2)), (m3b, doc(3.7, 750))), key='cell_ledger', ap=9.0, xin=0.0, xout=0.0))
+    sh.append(Shot('rule', c8, m3b, cellk('ledger'), pkeys((c8, doc(2.72)), (m3b, doc(3.15, 750))), key='cell_ledger', ap=9.0, xin=0.0, xout=0.0))
     sh.append(Shot('rule_sick', m3b, m3c, night_stern, [(m3b, (1120, 1640, 2.7)), (m3c, (1140, 1620, 2.85))], key='night_stern', hand=0.5, **CUT))
-    sh.append(Shot('rule_paid', m3c, c9, cellk('ledger'), pkeys((m3c, pen('ledger', E0('x4') - 1.8, 80, 0, 3.0)), (c9, pen('ledger', E0('x4') - 1.8, 0, 0, 3.5))),
+    sh.append(Shot('rule_paid', m3c, c9, cellk('ledger'), pkeys((m3c, pen('ledger', E0('x4') - 1.8, 20, 0, 2.55)), (c9, pen('ledger', E0('x4') - 1.8, 0, 0, 2.98))),
                    key='cell_ledger', ap=9.0, xin=0.0, xout=0.4))
     # 10. THE NIGHT OF 29 NOVEMBER: the lit stern, very close
     c10 = S0('d2') - 0.25
@@ -264,31 +264,31 @@ def build():
     # 18. THE CLAIM: the court record (verdict, the lawyer's words)
     c18 = S0('e1') - 0.4
     c2a = S0('c2') - 0.2
-    sh.append(Shot('claim', c17, c2a, cellk('ledger'), pkeys((c17, doc(3.2)), (c2a, pen('ledger', E0('x4') - 1.8, 40, 0, 3.0))),
+    sh.append(Shot('claim', c17, c2a, cellk('ledger'), pkeys((c17, doc(2.72)), (c2a, pen('ledger', E0('x4') - 1.8, 40, 0, 2.55))),
                    key='cell_ledger', ap=9.0, **CUT))
     sh.append(Shot('verdict', c2a, Wd('c3', 'case') - 0.3, cellk('court'),
-                   pkeys((c2a, doc(3.4)), (S0('c2') + 0.3, pen('court', S0('c2') + 0.3, 140, 40, 3.2)), (E0('c2'), pen('court', E0('c2') - 0.2, 0, 30, 3.3))),
+                   pkeys((c2a, doc(2.89)), (S0('c2') + 0.3, pen('court', S0('c2') + 0.3, 20, 40, 2.72)), (E0('c2'), pen('court', E0('c2') - 0.2, 0, 30, 2.8))),
                    key='cell_court', ap=9.0, **CUT))
     sh.append(Shot('goods', Wd('c3', 'case') - 0.3, c18, cellk('court'),
-                   pkeys((Wd('c3', 'case') - 0.3, pen('court', Wd('c3', 'case'), 60, 0, 3.8)), (c18, pen('court', E0('c3'), -20, 10, 4.1))),
+                   pkeys((Wd('c3', 'case') - 0.3, pen('court', Wd('c3', 'case'), 20, 0, 3.23)), (c18, pen('court', E0('c3'), -20, 10, 3.48))),
                    key='cell_court', ap=9.0, xin=0.0, xout=0.5))
     # 19. EQUIANO AND SHARP: Sharp's letter to the Admiralty
     c19 = S0('j1') - 0.4
     tk2 = Wd('e1', 'took') - 0.3
     sh.append(Shot('equiano', c18 - 0.3, tk2, e_night, [(c18 - 0.3, (760, 1500, 1.15)), (tk2, (720, 1420, 1.3))], key='e_night', xin=0.5, xout=0.0, hand=0.4))
     sh.append(Shot('sharp', tk2, c19, cellk('sharp'),
-                   pkeys((tk2, doc(3.1)), (S0('e2'), pen('sharp', S0('e2'), 120, -60, 3.0)), (c19, pen('sharp', E0('e2') + 1.0, 30, 10, 3.4))),
+                   pkeys((tk2, doc(2.63)), (S0('e2'), pen('sharp', S0('e2'), 20, -60, 2.55)), (c19, pen('sharp', E0('e2') + 1.0, 30, 10, 2.89))),
                    key='cell_sharp', ap=9.0, xin=0.0, xout=0.0))
     # 20. THE JUDGMENT: "after the rain"
     c20 = S0('f1') - 0.4
     j2a = S0('j2') - 0.2
     sh.append(Shot('judgment', c19, j2a, cellk('kb'),
-                   pkeys((c19, doc(3.3)), (Wd('j1', 'rain'), pen('kb', S0('j1') + 2.0, 120, 0, 3.3)), (j2a, pen('kb', E0('j1'), 20, 30, 3.6))),
+                   pkeys((c19, doc(2.8)), (Wd('j1', 'rain'), pen('kb', S0('j1') + 2.0, 20, 0, 2.8)), (j2a, pen('kb', E0('j1'), 20, 30, 3.06))),
                    key='cell_kb', ap=9.0, xin=0.0, xout=0.0))
     sh.append(Shot('never', j2a, c20, e_night, [(j2a, (820, 1520, 1.3)), (c20, (800, 1420, 1.12))], key='e_night', hand=0.4, xin=0.0, xout=0.5))
     # 21. only their price
     c21 = S0('f2') - 0.4
-    sh.append(Shot('price', c20 - 0.2, c21, cellk('ledger'), pkeys((c20 - 0.2, pen('ledger', E0('x4') - 1.5, 60, 0, 3.0)), (c21, pen('ledger', E0('x4') - 1.5, 30, 0, 3.9))),
+    sh.append(Shot('price', c20 - 0.2, c21, cellk('ledger'), pkeys((c20 - 0.2, pen('ledger', E0('x4') - 1.5, 20, 0, 2.55)), (c21, pen('ledger', E0('x4') - 1.5, 30, 0, 3.31))),
                    key='cell_ledger', ap=9.0, xin=0.4, xout=0.6, grade=dict(expo=0.9)))
     # 22. 1807; the empty sea at dusk; the end
     c22 = S0('f3') - 0.3

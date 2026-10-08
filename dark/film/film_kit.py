@@ -480,6 +480,9 @@ def overlays(img, t):
         u = t - ta; dur = V[first][0] - 0.3 - ta
         op = min(1.0, u / 0.5, (dur - u) / 0.5)
         series, tl = C['title']
+        yy = np.arange(H, dtype=np.float32)[:, None]
+        band = np.exp(-((yy - 900) / 260.0) ** 2) * 0.6 * op       # a soft dark band, so the title reads on any picture
+        img *= (1 - band)[..., None]
         rgb, al = text([series], CINZEL, 36, col=(0.86, 0.72, 0.5), tracking=10)
         E.put(img, rgb, al, W / 2, 760, opacity=op * 0.9, glow=0.25)
         rgb, al = text(tl, ITAL, 84, spacing=1.08)

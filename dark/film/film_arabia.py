@@ -165,8 +165,8 @@ def build():
     mec_z = mk('a_mecca', mecca, 1.8, (480, 1540), fire=False, groups=MECCA_G, zs=(2.6, 1.2, 1.04))
     mec_f = mk('a_mecca', mecca, 1.8, (820, 1540), fire=False, groups=MECCA_G, zs=(2.6, 1.2, 1.04))
     cellk = lambda page: (lambda: Cell(page))
-    doc = lambda f, py=700: (lambda s: (lambda c: (*c.page_plate(560, py), f))(ob(s)))
-    pen = lambda page, t, dx=0, dy=0, f=3.3: (lambda s: (lambda c: (c.pen_plate(t)[0] + dx, c.pen_plate(t)[1] + dy, f))(ob(s)))
+    doc = lambda f, py=700: (lambda s: (lambda c: (*c.page_plate(470, py), f))(ob(s)))
+    pen = lambda page, t, dx=0, dy=0, f=3.3: (lambda s: (lambda c: (lambda q: (q[0] + dx, q[1] + dy, f))(c.page_plate(470, PG.pen_at(c.base.page, t)[0][1])))(ob(s)))
     pkeys = lambda *ks: (lambda s: [(t, (v(s) if callable(v) else v)) for t, v in ks])
 
     # 1. OPEN: the stars, then down to the rider and his camels
@@ -232,8 +232,8 @@ def build():
     ev = S0('v2') + (E0('v2') - S0('v2')) * 0.82
     evn = Wd('v2', 'every') - 0.3
     sh.append(Shot('records', c15, evn, cellk('records'),
-                   pkeys((c15, doc(3.3)), (Wd('v2', 'ninety-six'), pen('records', Wd('v2', 'ninety-six') + 0.4, 80, 0, 3.0)),
-                         (evn, pen('records', Wd('v2', 'four') + 0.6, 60, 20, 3.1))), key='cell_rec', ap=9.0, xin=0.0, xout=0.0))
+                   pkeys((c15, doc(2.8)), (Wd('v2', 'ninety-six'), pen('records', Wd('v2', 'ninety-six') + 0.4, 20, 0, 2.55)),
+                         (evn, pen('records', Wd('v2', 'four') + 0.6, 20, 20, 2.63))), key='cell_rec', ap=9.0, xin=0.0, xout=0.0))
     c16 = S0('z1') - 0.4
     sh.append(Shot('daughters', evn, c16, sky, [(evn, (1060, 720, 1.85)), (c16, (1050, 640, 2.0))], key='sky', hand=0.3, xin=0.0, xout=0.6))
     # 16. Zayd, in Mecca
@@ -250,7 +250,7 @@ def build():
     ol = Wd('g1', 'one') - 0.3
     sh.append(Shot('years', c19 - 0.4, ol, dawn_w, [(c19 - 0.4, (760, 1900, 1.15)), (ol, (800, 1700, 1.05))], key='dawn_w', xin=0.6, xout=0.0, hand=0.4))
     sh.append(Shot('poem', ol, c20, cellk('poem'),
-                   pkeys((ol, doc(3.2)), (S0('g2'), pen('poem', S0('g2') + 0.3, 140, 10, 3.0)), (c20, pen('poem', E0('g2'), 20, 20, 3.4))),
+                   pkeys((ol, doc(2.72)), (S0('g2'), pen('poem', S0('g2') + 0.3, 20, 10, 2.55)), (c20, pen('poem', E0('g2'), 20, 20, 2.89))),
                    key='cell_poem', ap=9.0, xin=0.0, xout=0.0))
     # 18. somewhere in that desert a girl grew up; the camp under the stars; the end
     gr = Wd('f1', 'because') - 0.3

@@ -192,8 +192,8 @@ def build():
     fn = mk('k_fortn', fort_night)
     fn_z = mk('k_fortn', fort_night, 2.8, (880, 1060))
     cellk = lambda page: (lambda: Cell(page))
-    doc = lambda f, py=700: (lambda s: (lambda c: (*c.page_plate(560, py), f))(ob(s)))
-    pen = lambda page, t, dx=0, dy=0, f=3.3: (lambda s: (lambda c: (c.pen_plate(t)[0] + dx, c.pen_plate(t)[1] + dy, f))(ob(s)))
+    doc = lambda f, py=700: (lambda s: (lambda c: (*c.page_plate(470, py), f))(ob(s)))
+    pen = lambda page, t, dx=0, dy=0, f=3.3: (lambda s: (lambda c: (lambda q: (q[0] + dx, q[1] + dy, f))(c.page_plate(470, PG.pen_at(c.base.page, t)[0][1])))(ob(s)))
     pkeys = lambda *ks: (lambda s: [(t, (v(s) if callable(v) else v)) for t, v in ks])
 
     # 1. OPEN: the column on the road at dusk
@@ -260,7 +260,7 @@ def build():
     # 12. the chronicle is written
     c14 = S0('b3') - 0.3
     sh.append(Shot('skylitzes', c13, c14, cellk('sky'),
-                   pkeys((c13, doc(3.3)), (Wd('b2', 'fifteen'), pen('sky', Wd('b2', 'fifteen'), 100, 0, 3.1)), (c14, pen('sky', E0('b2') + 0.3, 30, 20, 3.5))),
+                   pkeys((c13, doc(2.8)), (Wd('b2', 'fifteen'), pen('sky', Wd('b2', 'fifteen'), 20, 0, 2.63)), (c14, pen('sky', E0('b2') + 0.3, 30, 20, 2.98))),
                    key='cell_sky', ap=9.0, xin=0.0, xout=0.0))
     # 13. hundreds, each led by a one-eyed man; home to their tsar
     ld = Wd('b3', 'each') - 0.2
@@ -281,11 +281,11 @@ def build():
     sh.append(Shot('dead', c17, c18, fn, [(c17, (1100, 1700, 1.5)), (c18, (1000, 1650, 1.25))], key='fn', hand=0.3, xin=0.0, xout=0.5))
     # 15. was it true? the other writer
     an = Wd('q1', 'another') - 0.3
-    sh.append(Shot('true', c18, an, cellk('sky'), pkeys((c18, pen('sky', E0('b2') - 1.0, 60, 0, 3.2)), (an, pen('sky', E0('b2') - 1.0, 40, 0, 3.6))),
+    sh.append(Shot('true', c18, an, cellk('sky'), pkeys((c18, pen('sky', E0('b2') - 1.0, 20, 0, 2.72)), (an, pen('sky', E0('b2') - 1.0, 40, 0, 3.06))),
                    key='cell_sky', ap=9.0, xin=0.3, xout=0.0, grade=dict(expo=0.92)))
     c19 = S0('q2') - 0.3
     sh.append(Shot('kekaumenos', an, c19, cellk('kek'),
-                   pkeys((an, doc(3.3)), (Wd('q1', 'fourteen'), pen('kek', Wd('q1', 'fourteen'), 100, 0, 3.1)), (c19, pen('kek', Wd('q1', 'nothing') - 0.7, 20, 20, 3.5))),
+                   pkeys((an, doc(2.8)), (Wd('q1', 'fourteen'), pen('kek', Wd('q1', 'fourteen'), 20, 0, 2.63)), (c19, pen('kek', Wd('q1', 'nothing') - 0.7, 20, 20, 2.98))),
                    key='cell_kek', ap=9.0, xin=0.0, xout=0.0))
     c20 = S0('f1') - 0.3
     sh.append(Shot('historians', c19, c20, col_w, [(c19, (820, 1650, 1.12)), (c20, (800, 1500, 1.04))], key='col_w', hand=0.4, xin=0.0, xout=0.5,
