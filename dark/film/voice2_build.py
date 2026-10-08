@@ -16,7 +16,7 @@ TEMPO = float(sys.argv[4]) if len(sys.argv) > 4 else 1.0
 os.makedirs(out, exist_ok=True)
 log = {d['out']: d for d in json.load(open(os.path.join(src, 'takes_log.json')))}
 NUM = {'1628': 'sixteen twenty eight', '1781': 'seventeen eighty one', '100,000': 'a hundred thousand', '100000': 'a hundred thousand',
-       '55': 'fifty five', '8': 'eight', '1 ': 'one '}
+       '55': 'fifty five', '8': 'eight', '1 ': 'one ', '1014': 'ten fourteen', ' 10 14 ': ' ten fourteen '}
 
 
 def norm(s):
@@ -115,7 +115,7 @@ for p in P:
     for sd in SEEDS:
         k = f"{V}_{p['line']}_{p['k']}_{sd}"
         if k in log and os.path.exists(os.path.join(src, k + '.wav')):
-            c = dict(log[k]); c['wer'] = wer(p['check'], c['hyp'])
+            c = dict(log[k]); c['wer'] = wer(p['check'], c['hyp']) + (0.5 if '//' in c['hyp'] else 0.0)   # '//' = noise the recogniser heard
             x, sr = sf.read(os.path.join(src, k + '.wav'), dtype='float32')
             x = x.mean(1) if x.ndim > 1 else x
             c['x'], c['sr'] = x, sr
