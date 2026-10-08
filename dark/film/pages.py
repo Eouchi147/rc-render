@@ -14,9 +14,9 @@ os.makedirs(CACHE, exist_ok=True)
 
 def _save(obj, p):
     """Write, then rename: an interrupted run never leaves a broken cache file behind."""
-    with open(p + '.part', 'wb') as f:
+    with open(p + f'.{os.getpid()}.part', 'wb') as f:
         pickle.dump(obj, f)
-    os.replace(p + '.part', p)
+    os.replace(p + f'.{os.getpid()}.part', p)
 
 LETTER_P1 = ("Zu viel hundert tausend guter nacht hertzliebe dochter Veronica. "
              "Vnschuldig bin ich in das gefengnus kommen, vnschuldig bin ich gemarttert worden, vnschuldig muss ich sterben. "

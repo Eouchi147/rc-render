@@ -31,7 +31,7 @@ def paint_layer(rgb, alpha=None, scale=1.5, seed=0, expo=1.7, gamma=1.25, displa
 
 
 def save(name, **arrs):
-    tmp = DIR + name + '.npz.part'          # write, then rename: an interrupted run never leaves a broken cache file
+    tmp = DIR + name + f'.npz.{os.getpid()}.part'          # write, then rename: an interrupted run never leaves a broken cache file
     with open(tmp, 'wb') as f:
         np.savez(f, **{k: (v.astype(np.float16) if isinstance(v, np.ndarray) and v.dtype != np.float64 else v)
                        for k, v in arrs.items()})

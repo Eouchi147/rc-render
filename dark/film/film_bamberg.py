@@ -622,6 +622,16 @@ def worker(args):
     return path
 
 
+def prebuild(a, b):
+    pages_for_film()
+    for s in shots():
+        if s.t1 >= a / FPS - 0.1 and s.t0 <= b / FPS + 0.1:
+            print('preparing', s.name, flush=True)
+            s.keys(s) if callable(s.keys) else None
+            if s.obj is None:
+                s.obj = s.make()
+
+
 def frames_main(a, b, out):
     import multiprocessing as mp
     b = min(b, NF)
@@ -629,6 +639,10 @@ def frames_main(a, b, out):
     n = max(1, min(n, b - a))
     chunks = [(i, list(range(a + (b - a) * i // n, a + (b - a) * (i + 1) // n)), f'{out}.part{i}.mp4') for i in range(n)]
     ctx = mp.get_context('spawn')
+    pre = ctx.Process(target=prebuild, args=(a, b))     # paint every plate this stretch needs once, before the workers
+    pre.start(); pre.join()
+    if pre.exitcode != 0:
+        sys.exit('painting the plates failed')
     with ctx.Pool(n) as pl:
         parts = pl.map(worker, chunks)
     lst = out + '.txt'
