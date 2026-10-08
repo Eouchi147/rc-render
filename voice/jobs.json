@@ -1,0 +1,77 @@
+{
+ "release": "voice-lineup",
+ "takes": [
+  {
+   "out": "E_1",
+   "text": "Innocent I came into prison. Innocent I was tortured. Innocent I must die.",
+   "ref": null,
+   "ex": 0.5,
+   "cfg": 0.3,
+   "temp": 0.8,
+   "seed": 7
+  },
+  {
+   "out": "E_2",
+   "text": "Good night. For your father, Johannes Junius, will never see you more.",
+   "ref": null,
+   "ex": 0.5,
+   "cfg": 0.3,
+   "temp": 0.8,
+   "seed": 7
+  },
+  {
+   "out": "F_1",
+   "text": "Innocent I came into prison. Innocent I was tortured. Innocent I must die.",
+   "ref": "ref_heart.wav",
+   "ex": 0.5,
+   "cfg": 0.3,
+   "temp": 0.8,
+   "seed": 7
+  },
+  {
+   "out": "F_2",
+   "text": "Good night. For your father, Johannes Junius, will never see you more.",
+   "ref": "ref_heart.wav",
+   "ex": 0.5,
+   "cfg": 0.3,
+   "temp": 0.8,
+   "seed": 7
+  },
+  {
+   "out": "G_1",
+   "text": "Innocent I came into prison. Innocent I was tortured. Innocent I must die.",
+   "ref": "ref_brit.wav",
+   "ex": 0.5,
+   "cfg": 0.3,
+   "temp": 0.8,
+   "seed": 7
+  },
+  {
+   "out": "G_2",
+   "text": "Good night. For your father, Johannes Junius, will never see you more.",
+   "ref": "ref_brit.wav",
+   "ex": 0.5,
+   "cfg": 0.3,
+   "temp": 0.8,
+   "seed": 7
+  },
+  {
+   "out": "H_1",
+   "text": "Innocent I came into prison. Innocent I was tortured. Innocent I must die.",
+   "ref": "ref_heart.wav",
+   "ex": 0.75,
+   "cfg": 0.25,
+   "temp": 0.8,
+   "seed": 7
+  },
+  {
+   "out": "H_2",
+   "text": "Good night. For your father, Johannes Junius, will never see you more.",
+   "ref": "ref_heart.wav",
+   "ex": 0.75,
+   "cfg": 0.25,
+   "temp": 0.8,
+   "seed": 7
+  }
+ ]
+}
