@@ -1,1 +1,1 @@
-keeper voice 4, 2026-10-08
+plain telling v3, 2026-10-08

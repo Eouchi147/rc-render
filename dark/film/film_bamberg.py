@@ -13,16 +13,16 @@ import cv2
 import soundfile as sf
 import engine as E
 import pages as PG
-from script_bamberg import LINES
+from direct_bamberg2 import LINES
 
 FPS, W, H = 24, 1080, 1920
 VO = os.environ.get('VO_DIR', ROOT + '/film/vo').rstrip('/') + '/'
 ORDER = [l[0] for l in LINES]
 QUOTE = {l[0]: l[4] for l in LINES}
 # pause before each line (seconds of silence after the previous line's last word): the film's breathing
-GAP = dict(h1=1.3, h2=.35, h3=.4, h4=.9, q1=.5, q2=.6, w1=2.7, w2=.35, w3=.8, w4=.4, w5=.4, j1=.85, j2=.45, t1=.85,
-           t2=.6, t3=.5, t4=.5, t5=.5, t6=1.35, p1=.95, p2=.4, l1=.8, l2=.4, l3=.5, l4=.85, l5=.4, l6=.35, l7=.5,
-           e1=.9, e2=.5, e3=.6, c1=1.15, c2=.7, c3=.7, c4=.9)
+GAP = dict(o1=0.6, o2=0.5, o3=0.5, x1=3.0, x2=0.5, x3=0.7, x4=0.6, x5=0.5, a1=0.9, a2=0.5, a3=0.4, t1=0.9, t2=0.6,
+           t3=0.6, t4=0.5, k1=2.8, k2=0.4, k3=0.3, l1=1.0, l2=0.6, l3=0.4, l4=0.5, e1=1.0, e2=0.5, e3=0.5, e4=0.5,
+           f1=1.8, f2=0.8, f3=0.5)
 END_CARD = 2.6
 LIMIT = 179.4
 
@@ -74,18 +74,18 @@ def pages_for_film():
     if P is not None:
         return P
     P = {}
-    q1, q2 = V['q1'], V['q2']
-    P['p1'] = PG.build_page('p1_d', [(PG.LETTER_P1.split('. ')[0] + '.', q1[0] + 0.2, q1[1] - 0.1),
-                                     ("Vnschuldig bin ich in das gefengnus kommen, vnschuldig bin ich gemarttert worden, vnschuldig muss ich sterben.",
-                                      q2[0] + 0.1, q2[1] + 0.3)], seed=11)
+    o2, o3 = V['o2'], V['o3']
+    P['p1'] = PG.build_page('p1_v3', [(PG.LETTER_P1.split('. ')[0] + '.', o2[0] - 0.4, o3[1] + 0.2),
+                                      ("Vnschuldig bin ich in das gefengnus kommen, vnschuldig bin ich gemarttert worden, vnschuldig muss ich sterben.",
+                                       o3[1] + 0.6, o3[1] + 6.0)], seed=11)
     P['p1_full'] = PG.build_page('p1_full', [(PG.LETTER_P1, -1, -1)], seed=11, width=880)
     P['p1_margin'] = PG.margin_note('p1_margin', PG.MARGIN_P1)
-    l2 = V['l2']
-    P['p3'] = PG.build_page('p3_d', [(PG.LETTER_P3_PRE, -1, -1), (PG.LETTER_P3_TRUE, -1, -1),
-                                     (PG.LETTER_P3_LIES, find_word('l2', 'follows')[0] - 0.1, l2[1] + 0.2)], seed=31)
-    e1, e2, e3 = V['e1'], V['e2'], V['e3']
-    P['p4'] = PG.build_page('p4_d', [(PG.LETTER_P4_PRE, -1, -1), (PG.LETTER_P4_HIDE, e1[0] + 0.1, e1[0] + 2.3),
-                                     (PG.LETTER_P4_MARTYR, e2[0] + 0.2, e2[1]), (PG.LETTER_P4_NIGHT, e3[0] + 0.1, e3[1] + 0.4)], seed=41)
+    l1 = V['l1']
+    P['p3'] = PG.build_page('p3_v3', [(PG.LETTER_P3_PRE, -1, -1), (PG.LETTER_P3_TRUE, -1, -1),
+                                      (PG.LETTER_P3_LIES, find_word('l1', 'lied')[0] - 0.2, l1[1] - 0.3)], seed=31)
+    e1, e2, e3, e4 = V['e1'], V['e2'], V['e3'], V['e4']
+    P['p4'] = PG.build_page('p4_v3', [(PG.LETTER_P4_PRE, -1, -1), (PG.LETTER_P4_HIDE, e2[0] - 0.1, e2[1] + 0.2),
+                                      (PG.LETTER_P4_MARTYR, e3[0] + 0.1, e3[1] + 0.4), (PG.LETTER_P4_NIGHT, e4[0] + 0.1, e4[1] - 0.6)], seed=41)
     P['record'] = PG.build_page('record', [(PG.RECORD, -1, -1)], style=PG.CLERK, seed=51, x0=96, y0=135, width=945)
     P['record2'] = PG.build_page('record2', [(PG.RECORD2, -1, -1)], style=PG.CLERK, seed=53, x0=96, y0=135, width=945)
     pages_for_film._P = P
@@ -266,7 +266,11 @@ class Shadow:
 class Sheet:
     def __init__(self, kind):
         import sheet as SH
-        self.s = SH.SheetShot(kind, V)
+        T = dict(V)                      # the sheet's ink follows these lines of the plain telling
+        T['w3'], T['w4'], T['w5'] = V['x3'], V['x4'], V['x5']
+        mid = (V['l3'][0] + V['l3'][1]) / 2
+        T['l5'], T['l6'], T['l7'] = (V['l3'][0], mid), (mid, V['l3'][1]), V['l4']
+        self.s = SH.SheetShot(kind, T)
 
     def render(self, t, cam, frame):
         return self.s.render(t, cam, frame)
@@ -289,8 +293,9 @@ class Black:
 # ------------------------------------------------------------------ the shot list
 class Shot:
     def __init__(self, name, t0, t1, make, keys, xin=0.8, xout=0.8, grade=None, PWc=1620, ap=0.0, focus=1.0, hand=1.0,
-                 shake=None, kin='x', kout='x'):
+                 shake=None, kin='x', kout='x', roll=0.0, key=None):
         self.name, self.t0, self.t1, self.make, self.keys = name, t0, t1, make, keys
+        self.roll, self.key = roll, key or name
         self.xin, self.xout, self.grade, self.PWc, self.ap, self.focus, self.hand = xin, xout, grade or {}, PWc, ap, focus, hand
         self.shake = shake
         self.kin, self.kout = kin, kout        # x = crossfade, b = through black
@@ -307,7 +312,7 @@ class Shot:
     def cam(self, t):
         ks = self.keys(self) if callable(self.keys) else self.keys
         u, v, f = smooth_keys(t, ks)
-        c = cam_world(u, v, f, PWc=self.PWc, ap=self.ap, focus=self.focus, t=t, hand=self.hand)
+        c = cam_world(u, v, f, PWc=self.PWc, ap=self.ap, focus=self.focus, t=t, hand=self.hand, roll=self.roll)
         if self.shake:
             for ts, amp in self.shake:
                 if ts <= t < ts + 0.9:
@@ -317,177 +322,192 @@ class Shot:
 
     def render(self, t, frame):
         if self.obj is None:
-            self.obj = self.make()
+            self.obj = scene(self.key, self.make)
         return self.obj.render(t, self.cam(t), frame)
 
 
+_SCENES = {}
+
+
+def scene(key, make):
+    """One instance per scene setup, shared by every shot (camera setup) that films it."""
+    if key not in _SCENES:
+        _SCENES[key] = make()
+    return _SCENES[key]
+
+
+def ob(s):
+    """The scene object a shot films (shared between camera setups)."""
+    if s.obj is None:
+        s.obj = scene(s.key, s.make)
+    return s.obj
+
+
+FLASH = []      # (time, strength, colour): lightning, impacts
+
+
 def build_shots():
+    """Bamberg v3, the plain telling. Cinema grammar: hard cuts on the beat (xin=xout=0), punch-ins between camera
+    setups of one scene, push-ins on the lines that matter, a Dutch angle in the torture room, a camera hit and a white
+    flash on the drop, black on 'Eight times', lightning on 'storms'."""
     sh = []
     v = V
-    # 0. THE CABINET: the keeper's shelves; we lean in to the letter under its glass dome
-    k1 = v['h2'][0] + 0.5
-    sh.append(Shot('cabinet_open', 0.0, k1, lambda: Cabinet(),
-                   [(0.0, (810, 1500, 1.04)), (v['h1'][0] + 1.0, (805, 1420, 1.12)), (v['h1'][1] - 0.3, (792, 1260, 1.7)),
-                    (k1, (790, 1190, 2.35))], xin=1.2, xout=0.9, hand=0.5, ap=4, focus=1.0))
-    # 1. THE TWO RECORDS: the archive table
-    t0 = k1 - 0.9
-    t1 = v['h4'][0] - 0.2
-    sh.append(Shot('archive_open', t0, t1, lambda: Archive(),
-                   [(t0, (700, 1380, 1.3)), (v['h3'][0], (740, 1660, 1.3)), (t1, (770, 1830, 1.42))],
-                   xin=0.9, xout=0.9, grade=dict(expo=1.0), ap=6, focus=1.0))
-    # 2. THE CELL: he writes the first lines (the approved test shot, re-timed to the new voice)
-    c0, c1 = t1 - 0.9, v['q2'][1] + 3.6
-    def cell_open_keys(s):
-        cell = s.obj or s.make()
-        s.obj = cell
-        b = cell.base
-        pq = lambda tt: cell.pen_plate(tt)
-        a0, m0, z0 = pq(v['q1'][0] + 0.9), pq((v['q1'][0] + v['q1'][1]) / 2), pq(v['q2'][0] + 0.3)
-        fl = b.flame_plate
-        return [(c0, (a0[0] + 170, a0[1] + 20, 4.1)), (v['h4'][0] + 0.8, (a0[0] + 160, a0[1] + 18, 3.95)),
-                ((v['q1'][0] + v['q1'][1]) / 2, (m0[0] + 30, m0[1] + 22, 3.5)), (v['q2'][0] + 0.3, (z0[0] - 60, z0[1] + 60, 2.8)),
-                (v['q2'][0] + 2.6, (980, 1620, 1.8)), (v['q2'][1] - 1.2, (920, 1470, 1.24)), (v['q2'][1] + 1.2, (1105, fl[1] + 110, 1.58)),
-                (c1, (1110, fl[1] + 60, 1.9))]
-    sh.append(Shot('cell_open', c0, c1, lambda: Cell('p1', blot_t=v['q1'][0] + 2.0), cell_open_keys, xin=0.9, xout=1.0,
-                   ap=9.0, focus=1.0))
-    # 3. THE CITY in rain: the house, then the witch house portal
-    k0, k1 = c1 - 1.0, v['w2'][0] + 0.3
-    sh.append(Shot('city_wide', k0, k1 + 0.9, lambda: City('rain'),
-                   [(k0, (800, 1200, 1.12)), (v['w1'][0] + 2.0, (810, 1500, 1.25)), (k1 + 0.9, (850, 1760, 1.75))],
-                   xin=1.0, xout=0.9, hand=0.6))
-    k2 = v['w2'][1] + 0.6
-    sh.append(Shot('city_portal', k1, k2, lambda: City('rain', 2.4, (560, 1200)),
-                   [(k1, (845, 1745, 2.45)), (k2, (840, 1790, 2.75))], xin=0.9, xout=0.8, hand=0.5))
-    # 4. THE CHAIN of names
-    m0, m1 = k2 - 0.8, v['w5'][1] + 0.8
-    def names_keys(s):
-        sh_ = s.obj or s.make(); s.obj = sh_
-        at = sh_.s.at
-        gens = sh_.s.info['gens']
-        root, wife, jun = at(gens[0][0]), at(sh_.s.info['wife']), at(sh_.s.info['junius'])
-        return [(m0, (root[0], root[1] + 300, 1.75)), (v['w3'][0] + 2.5, (810, root[1] + 650, 1.28)),
-                (v['w3'][1], (810, 1250, 1.12)), (v['w4'][0] + 0.6, (wife[0] + 120, wife[1] + 60, 1.9)),
-                (v['w4'][1], (wife[0] + 60, wife[1] + 140, 1.75)), (v['w5'][0] + 0.4, (810, jun[1] - 330, 1.3)),
-                (m1, (810, jun[1] - 250, 1.22))]
-    sh.append(Shot('names', m0, m1, lambda: Sheet('names'), names_keys, xin=0.8, xout=0.8, hand=0.8))
-    # 5. 28 JUNE: the witness (the second court record, close)
-    import archive as A
-    j0, j1 = m1 - 0.8, v['j2'][1] + 0.6
-    rr = (972.9, 1240.5)
-    sh.append(Shot('record_witness', j0, j1, lambda: Archive(2.2, rr),
-                   [(j0, (rr[0] - 60, rr[1] - 240, 2.35)), (v['j2'][0], (rr[0] - 20, rr[1] - 60, 2.6)), (j1, (rr[0] - 10, rr[1] - 20, 2.8))],
-                   xin=0.8, xout=0.6, kout='b', grade=dict(expo=0.95)))
-    # 6. 30 JUNE: the torture room (shadows), the record against the letter, the fall
-    r0, r1 = j1 - 0.1, v['t1'][1] + 0.5
+    S0 = lambda l: v[l][0]
+    E0 = lambda l: v[l][1]
+    W = lambda l, w: find_word(l, w)[0]
+    FLASH.clear()
+    rr, rl = (972.9, 1240.5), (596.5, 1249.0)
+    city = lambda: City('rain')
+    cut = dict(xin=0.0, xout=0.0)
+
+    # 1. OPEN: Bamberg in a storm; the witch house waits
+    c1 = S0('o2') - 0.15
+    sh.append(Shot('open_city', 0.0, c1, city, [(0.0, (800, 1150, 1.08)), (S0('o1') + 1.0, (815, 1350, 1.2)), (c1, (835, 1640, 1.55))],
+                   xin=1.0, xout=0.0, key='city', hand=0.7))
+    FLASH.extend([(0.35, 1.3, (0.75, 0.82, 1.0)), (0.55, 0.6, (0.75, 0.82, 1.0))])
+    # 2. HARD CUT: the quill on the letter, very close; then the candle (title)
+    c2 = S0('o3') - 0.1
+    pen_keys = lambda s: (lambda c: [(c1, tuple(c.pen_plate(c1 + 0.3) + np.array([160, 20])) + (4.2,)),
+                                     (c2, tuple(c.pen_plate(c2) + np.array([60, 30])) + (3.6,))])(ob(s))
+    sh.append(Shot('quill', c1, c2, lambda: Cell('p1'), pen_keys, ap=9.0, key='cell_p1', **cut))
+    c3 = S0('x1') - 0.5
+    cand_keys = lambda s: (lambda fl: [(c2, (980, 1600, 1.7)), (E0('o3'), (1080, fl[1] + 160, 1.55)), (c3, (1105, fl[1] + 90, 1.75))])(ob(s).base.flame_plate)
+    sh.append(Shot('candle', c2, c3, lambda: Cell('p1'), cand_keys, ap=9.0, key='cell_p1', xin=0.0, xout=0.7))
+    # 3. WHO AND WHERE: the city, a crane down to the house; lightning on "storms"; hard cut to the witch house
+    hx = W('x2', 'hunt') - 0.35
+    cs = S0('x2') - 0.05
+    sh.append(Shot('city_who', c3 - 0.7, cs, city, [(c3 - 0.7, (790, 900, 1.12)), (cs, (805, 1250, 1.2))],
+                   xin=0.7, xout=0.0, key='city', hand=0.6))
+    sh.append(Shot('city_storm', cs, hx, city, [(cs, (700, 1500, 1.55)), (hx, (760, 1640, 1.75))], key='city', hand=0.8, **cut))
+    FLASH.append((W('x2', 'storms') - 0.05, 1.1, (0.75, 0.82, 1.0)))
+    c4 = S0('x3') - 0.25
+    sh.append(Shot('witch_house', hx, c4, lambda: City('rain', 2.4, (560, 1200)), [(hx, (845, 1700, 2.5)), (c4, (842, 1800, 2.85))],
+                   xin=0.0, xout=0.5, key='portal', hand=0.5))
+    # 4. THE METHOD: the chain of names (three camera setups, cut on the beat)
+    names = lambda: Sheet('names')
+
+    def nk(which):
+        def k(s):
+            o = ob(s).s
+            root, wife, jun = o.at(o.info['gens'][0][0]), o.at(o.info['wife']), o.at(o.info['junius'])
+            if which == 'a':
+                return [(c4 - 0.5, (root[0], root[1] + 260, 1.8)), (W('x3', 'torture'), (810, root[1] + 520, 1.35)), (S0('x4'), (810, root[1] + 700, 1.18))]
+            if which == 'b':
+                return [(S0('x4'), (wife[0] + 110, wife[1] + 50, 2.3)), (S0('x5'), (wife[0] + 90, wife[1] + 70, 2.45))]
+            return [(S0('x5'), (810, jun[1] - 420, 1.25)), (E0('x5') + 0.8, (810, jun[1] - 300, 1.4))]
+        return k
+    sh.append(Shot('names_a', c4 - 0.5, S0('x4') - 0.05, names, nk('a'), xin=0.5, xout=0.0, key='names', hand=0.7))
+    sh.append(Shot('names_b', S0('x4') - 0.05, S0('x5') - 0.05, names, nk('b'), key='names', hand=0.8, **cut))
+    sh.append(Shot('names_c', S0('x5') - 0.05, E0('x5') + 0.8, names, nk('c'), key='names', hand=0.8, xin=0.0, xout=0.4,
+                   shake=[(W('x5', 'him') - 0.05, 9.0)]))
+    # 5. THE WITNESS: the court record of 28 June, close; the judges, a cold pull back
+    w0, w1 = E0('x5') + 0.6, S0('a3') - 0.1
+    wk = W('a2', 'said') - 0.3
+    sh.append(Shot('witness', w0, wk, lambda: Archive(2.2, rr), [(w0, (rr[0] - 60, rr[1] - 260, 2.35)), (wk, (rr[0] - 30, rr[1] - 140, 2.5))],
+                   xin=0.4, xout=0.0, key='rec_r'))
+    sh.append(Shot('witness_close', wk, w1, lambda: Archive(2.2, rr), [(wk, (rr[0] + 40, rr[1] - 60, 3.3)), (w1, (rr[0] + 50, rr[1] - 40, 3.55))],
+                   key='rec_r', **cut))
+    sh.append(Shot('judges', w1, E0('a3') + 0.5, lambda: Archive(), [(w1, (800, 1260, 1.5)), (E0('a3') + 0.5, (800, 1420, 1.08))],
+                   xin=0.0, xout=0.5, key='archive', ap=6))
+    # 6. TWO DAYS LATER: the torture room (Dutch angle), the record, the letter, the drop
+    r0, r1 = E0('a3') + 0.3, S0('t2') - 0.1
     def ex_walk(t, ta, tb, xa, xb):
-        u = np.clip((t - ta) / max(tb - ta, 1e-3), 0, 1)
-        u = u * u * (3 - 2 * u)
-        return xa + (xb - xa) * u, u
+        u = float(np.clip((t - ta) / max(tb - ta, 1e-3), 0, 1))
+        return xa + (xb - xa) * u * u * (3 - 2 * u), u
     def room_figs(t):
-        X, u = ex_walk(t, r0 + 0.4, v['t1'][1] - 0.4, 930, 720)
-        moving = 0.0 < u < 1.0
-        return [('exec', X, 2900, 640, 380, (t * 5.2) if moving else 0.0, 0.0, 0.0)]
-    rope_still = lambda t: (2950, 6 * math.sin(t * 0.8), 1.0)
-    sh.append(Shot('room', r0, r1, lambda: Shadow('room', dict(figures=room_figs, rope=rope_still)),
-                   [(r0, (760, 1350, 1.18)), (r1, (840, 1420, 1.3))], xin=0.6, xout=0.5, kin='b', hand=0.7))
-    rl = (596.5, 1249.0)
-    sh.append(Shot('record_screws', r1 - 0.5, v['t2'][1] + 0.5, lambda: Archive(2.2, rl),
-                   [(r1 - 0.5, (rl[0] - 40, rl[1] + 120, 2.4)), (v['t2'][1] + 0.5, (rl[0] - 20, rl[1] + 200, 2.55))],
-                   xin=0.5, xout=0.5, grade=dict(expo=0.95, sat=0.75)))
-    # the letter, close: his account (drops fall on the page)
-    tl0 = v['t2'][1]
-    page4 = pages_for_film()['p4']
-    def drops_for(tt):
-        ws = find_word('t3', 'nails')[0]
-        pts = [(380, 1290), (520, 1330), (640, 1270)]
-        return [(ws + 0.05 + 0.35 * i, pts[i]) for i in range(1)]
-    sh.append(Shot('letter_nails', tl0, v['t3'][1] + 0.5, lambda: Cell('p4', quill_until=-100, blots=drops_for(0)),
-                   lambda s: [(tl0, tuple(s.obj_plate(560, 1150)) + (2.9,)), (v['t3'][1] + 0.5, tuple(s.obj_plate(500, 1290)) + (3.2,))],
-                   xin=0.5, xout=0.5, ap=9.0))
-    sh.append(Shot('record_legs', v['t3'][1], v['t4'][1] + 0.5, lambda: Archive(2.2, rl),
-                   [(v['t3'][1], (rl[0] + 30, rl[1] + 260, 2.5)), (v['t4'][1] + 0.5, (rl[0] + 40, rl[1] + 330, 2.65))],
-                   xin=0.5, xout=0.5, grade=dict(expo=0.92, sat=0.7)))
-    # the hoist: the rope taut over the pulley, the drop at "fall", then darkness and the count in sound only
-    tf = find_word('t5', 'fall')[0]
-    h0, h1 = v['t4'][1], v['t6'][1] + 1.0
+        X, u = ex_walk(t, r0 + 0.2, r1 - 0.2, 930, 720)
+        return [('exec', X, 2900, 640, 380, (t * 5.2) if 0 < u < 1 else 0.0, 0.0, 0.0)]
+    sh.append(Shot('room', r0, r1, lambda: Shadow('room', dict(figures=room_figs, rope=lambda t: (2950, 6 * math.sin(t * 0.8), 1.0))),
+                   [(r0, (760, 1350, 1.16)), (r1, (840, 1420, 1.32))], xin=0.4, xout=0.0, key='room', hand=0.8, roll=-4.0, grade=dict(expo=1.18)))
+    r2 = S0('t3') - 0.1
+    sh.append(Shot('record_pain', r1, r2, lambda: Archive(2.2, rl), [(r1, (rl[0] - 40, rl[1] + 120, 2.4)), (r2, (rl[0] - 10, rl[1] + 220, 2.75))],
+                   key='rec_l', grade=dict(expo=0.95, sat=0.75), **cut))
+    r3 = S0('t4') - 0.1
+    nails = W('t3', 'nails')
+    sh.append(Shot('letter_nails', r2, r3, lambda: Cell('p4', quill_until=-100, blots=[(nails + 0.05, (380, 1290))]),
+                   lambda s: [(r2, tuple(ob(s).page_plate(560, 1150)) + (2.9,)), (r3, tuple(ob(s).page_plate(420, 1290)) + (3.4,))],
+                   key='cell_nails', ap=9.0, **cut))
+    drop = W('t4', 'dropped')
+    eight = W('t4', 'eight') - 0.08
     def hoist_rope(t):
-        if t < tf:
-            u = np.clip((t - h0) / max(tf - h0, 1e-3), 0, 1)
-            return (2950, 3 * math.sin(t * 2.0), 1.0 - 0.0 * u)
-        d = t - tf
+        if t < drop:
+            return (2950, 3 * math.sin(t * 2.0), 1.0)
+        d = t - drop
         return (2950 + 140 * math.exp(-d * 3) * math.sin(d * 9), 70 * math.exp(-d * 1.2) * math.sin(d * 6.5), 0.0)
     def hoist_figs(t):
-        arm = np.clip((t - h0) / max(tf - h0, 1e-3), 0, 1) if t < tf else max(0.0, 1 - (t - tf) * 3)
+        arm = float(np.clip((t - r3) / max(drop - r3, 1e-3), 0, 1)) if t < drop else max(0.0, 1 - (t - drop) * 3)
         return [('exec', 760, 2900, 640, 380, 0.0, 0.25 * arm, arm)]
-    sh.append(Shot('hoist', h0, h1, lambda: Shadow('room', dict(figures=hoist_figs, rope=hoist_rope)),
-                   [(h0, (900, 1050, 1.35)), (tf, (900, 900, 1.45)), (tf + 0.4, (900, 1000, 1.4)), (h1, (880, 1150, 1.28))],
-                   xin=0.5, xout=2.2, kout='b', shake=[(tf, 26.0)], hand=0.8, grade=dict(expo=1.05)))
-    # 7. THE PLEA: the corridor, a lantern, two shadows
-    p0, p1 = v['t6'][1] + 0.9, v['p2'][1] + 0.7
-    stop = v['p2'][0] - 0.2
+    sh.append(Shot('hoist', r3, eight, lambda: Shadow('room', dict(figures=hoist_figs, rope=hoist_rope)),
+                   [(r3, (900, 1060, 1.3)), (drop, (900, 900, 1.5)), (drop + 0.3, (900, 1000, 1.42)), (eight, (890, 1080, 1.38))],
+                   key='hoist', shake=[(drop, 30.0)], hand=0.8, roll=-3.0, grade=dict(expo=1.2), **cut))
+    FLASH.append((drop + 0.02, 1.6, (1.0, 0.95, 0.88)))
+    # 7. BLACK: "Eight times." (the count is in the sound)
+    k0 = S0('k1') - 0.7
+    sh.append(Shot('black_eight', eight, k0, lambda: Black(), [(0, (810, 1440, 1.0))], key='black', hand=0.0, **cut))
+    # 8. THE TURN: the corridor, a lantern, two shadows; the plea
+    stop = S0('k3') - 0.2
     def lx(t):
-        u = np.clip((t - p0) / max(stop - p0, 1e-3), 0, 1)
+        u = float(np.clip((t - k0) / max(stop - k0, 1e-3), 0, 1))
         return 820 + 900 * (1 - (1 - u) ** 1.6)
     def corr_figs(t):
         x = lx(t)
-        walking = t < stop
-        ph = (t - p0) * 3.6 if walking else (stop - p0) * 3.6
+        ph = (min(t, stop) - k0) * 3.6
         bow = float(np.clip((t - stop) / 1.2, 0, 1))
         return [('prisoner', x + 160, 2380, 470, 360, ph * 0.8, 0.0, 0.0), ('exec', x - 70, 2380, 500, 330, ph, bow, 0.0)]
-    sh.append(Shot('corridor', p0, p1, lambda: Shadow('corridor', dict(lx=lx, figures=corr_figs)),
-                   lambda s: [(p0, (lx(p0) + 330, 1500, 1.2)), (stop, (lx(stop) + 380, 1460, 1.26)), (p1, (lx(stop) + 360, 1420, 1.36))],
-                   PWc=2700, xin=1.0, xout=0.8, kin='b', hand=0.7))
-    # 8. THE LIE: the cell, page three, "nothing but lies"
-    l0, l1e = p1 - 0.8, v['l3'][1] + 0.7
+    p1 = E0('k3') + 0.6
+    corr = lambda: Shadow('corridor', dict(lx=lx, figures=corr_figs))
+    sh.append(Shot('corridor', k0, stop, corr, [(k0, (lx(k0) + 330, 1500, 1.18)), (stop, (lx(stop) + 380, 1460, 1.26))],
+                   PWc=2700, xin=1.0, xout=0.0, key='corridor', hand=0.7, grade=dict(expo=1.2)))
+    sh.append(Shot('plea', stop, p1, corr, [(stop, (lx(stop) + 330, 1250, 1.75)), (p1, (lx(stop) + 320, 1200, 1.95))],
+                   PWc=2700, xin=0.0, xout=0.5, key='corridor', hand=0.6, grade=dict(expo=1.25)))
+    # 9. THE LIE: his letter, "nothing but lies", written now
+    q0, q1 = p1 - 0.5, E0('l1') + 0.5
     def lie_keys(s):
-        cell = s.obj or s.make(); s.obj = cell
-        a = cell.pen_plate(find_word('l2', 'follows')[0] + 0.3)
-        b = cell.pen_plate(v['l2'][1])
-        fl = cell.base.flame_plate
-        return [(l0, (960, 1500, 1.3)), (v['l1'][1], (a[0] + 80, a[1] - 40, 1.9)), (v['l2'][0] + 1.2, (a[0] + 40, a[1] + 10, 2.9)),
-                (v['l2'][1], (b[0] - 40, b[1] + 30, 3.1)), (v['l3'][0] + 0.6, (1020, fl[1] + 300, 1.7)), (l1e, (1100, fl[1] + 120, 1.6))]
-    sh.append(Shot('lie', l0, l1e, lambda: Cell('p3'), lie_keys, xin=0.8, xout=0.8, ap=9.0))
-    # 9. STREET BY STREET: the town plan
-    s0, s1 = l1e - 0.8, v['l7'][1] + 0.8
-    def streets_keys(s):
-        o = s.obj or s.make(); s.obj = o
-        at = o.s.at
-        mk = o.s.info['marks']
-        a, b = at(mk[0]), at(mk[-1])
-        nn1, nn2 = at((960, 300)), at((905, 1560))
-        return [(s0, (810, 1440, 1.12)), (v['l5'][0], (810, 1400, 1.16)), (v['l6'][0] + 1.0, (a[0] + 40, a[1] + 80, 1.55)),
-                (v['l6'][1], ((a[0] + b[0]) / 2, (a[1] + b[1]) / 2, 1.3)), (v['l7'][0] + 1.2, (nn1[0] - 100, nn1[1] + 120, 1.8)),
-                (s1, (nn2[0] - 120, nn2[1] - 60, 1.75))]
-    sh.append(Shot('streets', s0, s1, lambda: Sheet('streets'), streets_keys, xin=0.8, xout=0.8, hand=0.8))
-    # 10. THE LAST LINES: the cell, page four, the candle gutters and dies
-    e0, e1 = s1 - 0.8, v['e3'][1] + 1.6
+        c = ob(s)
+        a = c.pen_plate(W('l1', 'lied') + 0.2); b = c.pen_plate(E0('l1') - 0.4)
+        return [(q0, (a[0] + 160, a[1] - 60, 2.2)), (S0('l1') + 0.6, (a[0] + 60, a[1], 3.1)), (q1, (b[0] - 30, b[1] + 30, 3.4))]
+    sh.append(Shot('lie', q0, q1, lambda: Cell('p3'), lie_keys, xin=0.5, xout=0.0, key='cell_p3', ap=9.0))
+    # 10. NAMES, STREET BY STREET: the town plan (cut wide, then in on the given name)
+    streets = lambda: Sheet('streets')
+    def sk(which):
+        def k(s):
+            o = ob(s).s
+            mk = o.info['marks']
+            a, b = o.at(mk[0]), o.at(mk[-1])
+            n1, n2 = o.at((960, 300)), o.at((905, 1560))
+            if which == 'a':
+                return [(q1, (810, 1440, 1.25)), (S0('l3'), (810, 1400, 1.12)), (E0('l3'), ((a[0] + b[0]) / 2, (a[1] + b[1]) / 2, 1.3))]
+            return [(S0('l4'), (n1[0] - 90, n1[1] + 110, 1.9)), (E0('l4') - 1.0, (n2[0] - 120, n2[1] - 60, 1.85)), (E0('l4') + 0.8, (n2[0] - 110, n2[1] - 40, 2.05))]
+        return k
+    sh.append(Shot('streets_a', q1, S0('l4') - 0.05, streets, sk('a'), key='streets', hand=0.8, **cut))
+    sh.append(Shot('streets_b', S0('l4') - 0.05, E0('l4') + 0.8, streets, sk('b'), key='streets', hand=0.8, xin=0.0, xout=0.6))
+    # 11. THE LETTER: written over days; hide it; innocent; good night. The candle dies.
+    g0, g1 = E0('l4') + 0.3, E0('e4') + 1.8
     def end_keys(s):
-        cell = s.obj or s.make(); s.obj = cell
-        a = cell.pen_plate(v['e1'][0] + 1.0)
-        b = cell.pen_plate(v['e2'][0] + 0.8)
-        c = cell.pen_plate(v['e3'][0] + 1.5)
-        fl = cell.base.flame_plate
-        return [(e0, (a[0] + 120, a[1] - 80, 2.1)), (v['e1'][0] + 1.0, (a[0] + 60, a[1], 2.9)), (v['e2'][0] + 0.8, (b[0], b[1] + 20, 3.0)),
-                (v['e3'][0] + 1.5, (c[0] + 40, c[1] + 30, 2.4)), (v['e3'][1] - 0.6, (1000, 1500, 1.4)), (e1, (1080, fl[1] + 160, 1.3))]
-    sh.append(Shot('last_lines', e0, e1, lambda: Cell('p4', gutter=(v['e3'][1] - 1.4, v['e3'][1] + 0.8)), end_keys,
-                   xin=0.8, xout=1.2, kout='b', ap=9.0))
-    # 11. CODA: the morning of the execution; the file; the printed page
-    d0, d1 = e1 - 0.2, v['c1'][1] + 0.9
-    sh.append(Shot('dawn', d0, d1, lambda: City('dawn'), [(d0, (820, 1520, 1.18)), (d1, (800, 1470, 1.24))],
-                   xin=1.0, xout=0.8, kin='b', hand=0.5))
-    a0, a1 = d1 - 0.8, v['c2'][1] + 0.8
-    sh.append(Shot('archive_end', a0, a1, lambda: Archive(), [(a0, (770, 1850, 1.9)), (a1, (790, 1560, 1.12))],
-                   xin=0.8, xout=0.8, ap=6))
-    b0, b1 = a1 - 0.8, TOTAL
-    sh.append(Shot('spee', b0, v['c3'][1] + 1.0, lambda: Sheet('spee'), [(b0, (810, 1200, 1.55)), (v['c3'][1] + 1.0, (810, 1480, 1.18))],
-                   xin=0.8, xout=0.9, hand=0.6))
-    # back on the shelf, then down to the next object (N° 2, 1781)
-    q0, q1 = v['c3'][1] + 0.1, v['c4'][1] + 1.0
-    nx = find_word('c4', 'next')[0]
-    sh.append(Shot('cabinet_end', q0, q1, lambda: Cabinet(),
-                   [(q0, (790, 1190, 2.3)), (v['c4'][0] + 0.4, (800, 1300, 1.5)), (nx, (760, 1700, 1.35)),
-                    (nx + 1.6, (600, 1960, 1.85)), (q1, (590, 1990, 2.0))], xin=0.9, xout=0.9, hand=0.5, ap=4, focus=1.0))
-    sh.append(Shot('endcard', v['c4'][1] + 0.3, TOTAL, lambda: Black(), [(0, (810, 1440, 1.0))], xin=0.6, xout=0.0, hand=0.0))
+        c = ob(s)
+        a = c.pen_plate(S0('e2') + 0.4); b = c.pen_plate(S0('e3') + 0.6); d = c.pen_plate(S0('e4') + 1.0)
+        fl = c.base.flame_plate
+        return [(g0, (1000, 1500, 1.35)), (S0('e1') + 2.0, (a[0] + 160, a[1] - 100, 2.2)), (S0('e2') + 0.4, (a[0] + 60, a[1], 3.0)),
+                (S0('e3') + 0.6, (b[0], b[1] + 20, 3.1)), (S0('e4') + 1.0, (d[0] + 40, d[1] + 30, 2.6)), (E0('e4') - 0.4, (1000, 1500, 1.45)),
+                (g1, (1080, fl[1] + 160, 1.3))]
+    ge = S0('e2') - 0.05
+    lastc = lambda: Cell('p4', gutter=(E0('e4') - 1.0, E0('e4') + 1.2))
+    sh.append(Shot('last_lines', g0, ge, lastc, lambda s: [k for k in end_keys(s) if k[0] <= ge] + [(ge, end_keys(s)[1][1])],
+                   xin=0.5, xout=0.0, key='cell_p4', ap=9.0))
+    sh.append(Shot('last_lines_b', ge, g1, lastc, lambda s: [(ge, tuple(ob(s).pen_plate(ge + 0.3) + np.array([90, -10])) + (3.4,))] +
+                   [k for k in end_keys(s) if k[0] > ge + 0.3], key='cell_p4', ap=9.0, xin=0.0, xout=1.0))
+    # 12. AUGUST: grey morning, a bell; the file; the letter today
+    d0, d1 = S0('f1') - 0.7, E0('f1') + 0.9
+    sh.append(Shot('dawn', d0, d1, lambda: City('dawn'), [(d0, (820, 1520, 1.18)), (d1, (800, 1470, 1.26))], xin=0.9, xout=0.7,
+                   key='dawn', hand=0.5))
+    a0 = d1 - 0.7
+    a1 = S0('f3') - 0.1
+    sh.append(Shot('the_file', a0, a1, lambda: Archive(), [(a0, (790, 1300, 1.12)), (a1, (775, 1700, 1.35))], xin=0.7, xout=0.0,
+                   key='archive', ap=6))
+    a2 = E0('f3') + 1.4
+    sh.append(Shot('today', a1, a2, lambda: Archive(), [(a1, (770, 1800, 1.5)), (a2, (762, 1880, 2.05))], key='archive', ap=6,
+                   xin=0.0, xout=0.9))
+    sh.append(Shot('endcard', E0('f3') + 1.0, TOTAL, lambda: Black(), [(0, (810, 1440, 1.0))], key='black', hand=0.0, xin=0.5, xout=0.0))
     return sh
 
 
@@ -554,53 +574,77 @@ def text(lines, fn, size, col=(0.97, 0.94, 0.87), spacing=1.2, tracking=0):
     return _TXT[k]
 
 
+def flashes(img, t):
+    """Lightning and impact flashes: a short over-exposure that decays in a quarter second."""
+    for ft, k, col in FLASH:
+        if ft <= t < ft + 0.35:
+            d = math.exp(-(t - ft) * 14.0) * k
+            img = img * (1 + d) + d * 0.25 * np.array(col, np.float32)
+    return img
+
+
+def labels():
+    """On-screen labels: (start, end, lines, y, size, font). Plain words that tell the viewer where they are."""
+    v = V
+    L = [
+        (0.5, v['o1'][1] + 0.3, ['BAMBERG, GERMANY', '1628'], 330, 40, 'Cinzel[wght].ttf'),
+        (v['x1'][0] - 0.1, v['x1'][1] + 0.4, ['JOHANNES JUNIUS', 'mayor of Bamberg'], 330, 40, 'Cinzel[wght].ttf'),
+        (find_word('x2', 'hunt')[0] - 0.3, v['x2'][1] + 0.6, ['THE WITCH PRISON', 'built 1627'], 330, 36, 'Cinzel[wght].ttf'),
+        (v['a1'][0] - 0.3, v['a2'][1] + 0.3, ['COURT RECORD', '28 June 1628'], 330, 36, 'Cinzel[wght].ttf'),
+        (v['t1'][0] - 0.3, v['t1'][1] + 0.3, ['30 JUNE 1628'], 330, 36, 'Cinzel[wght].ttf'),
+        (v['t2'][0] - 0.1, v['t2'][1] + 0.4, ['THE COURT RECORD', '“feels no pain”'], 330, 38, 'Cinzel[wght].ttf'),
+        (v['t3'][0] - 0.1, v['t3'][1] + 0.3, ['HIS LETTER'], 330, 40, 'Cinzel[wght].ttf'),
+        (find_word('l1', 'lied')[0] - 0.2, v['l1'][1] + 0.4, ['HIS LETTER', '“Now follows my statement:', 'nothing but lies.”'], 330, 34, 'Cinzel[wght].ttf'),
+        (v['e1'][0] - 0.2, v['e1'][1] + 0.4, ['TO HIS DAUGHTER, VERONICA', '24 July 1628'], 330, 34, 'Cinzel[wght].ttf'),
+        (v['f1'][0] - 0.4, v['f1'][1] + 0.6, ['AUGUST 1628'], 330, 38, 'Cinzel[wght].ttf'),
+        (v['f3'][0] - 0.1, v['f3'][1] + 0.9, ['TODAY', 'Staatsbibliothek Bamberg'], 330, 36, 'Cinzel[wght].ttf'),
+    ]
+    return L
+
+
 def overlays(img, t):
     global CAPS
     if CAPS is None:
         CAPS = _caps()
     for i, (a, b, lines, fn) in enumerate(CAPS):
-        fi = 0.2 if i == 0 or a - CAPS[i - 1][1] > 0.3 else 0.0      # captions that follow on switch cleanly
+        fi = 0.2 if i == 0 or a - CAPS[i - 1][1] > 0.3 else 0.0
         fo = 0.2 if i == len(CAPS) - 1 or CAPS[i + 1][0] - b > 0.3 else 0.0
         if a - fi <= t < b + fo:
             op = min(1.0, (t - (a - fi)) / fi if fi else 1.0, ((b + fo) - t) / fo if fo else 1.0)
             rgb, al = text(lines, fn, 54)
             E.put(img, rgb, al, W / 2, 1500, opacity=op, shadow=0.95)
-    # title card, after his first lines
-    ta = V['q2'][1] + 0.5
-    if ta < t < ta + 3.4:
-        u = t - ta
-        op = min(1.0, u / 0.8, (3.4 - u) / 0.7)
-        rgb, al = text(['DARK CORNERS'], 'Cinzel[wght].ttf', 34, col=(0.86, 0.72, 0.5), tracking=9)
+    for a, b, lines, y, size, fn in labels():
+        if a < t < b:
+            op = min(1.0, (t - a) / 0.25, (b - t) / 0.35)
+            size = int(size * 1.45); y = 300
+            band_h = int(size * (1.6 + 1.2 * (len(lines) - 1)))
+            yy = np.arange(H, dtype=np.float32)[:, None]
+            band = np.exp(-((yy - (y + band_h * 0.3)) / (band_h * 0.75)) ** 2) * 0.55 * op
+            img *= (1 - band)[..., None]
+            rgb, al = text([lines[0]], fn, size, col=(0.92, 0.84, 0.68), tracking=6)
+            E.put(img, rgb, al, W / 2, y, opacity=op, shadow=0.95, glow=0.12)
+            if len(lines) > 1:
+                rgb, al = text(lines[1:], 'Newsreader-Italic[opsz,wght].ttf', int(size * 1.05), col=(0.9, 0.87, 0.8), spacing=1.15)
+                E.put(img, rgb, al, W / 2, y + size * 1.15 + 20 * (len(lines) - 1), opacity=op * 0.95, shadow=0.95)
+    # title card over the candle, after the opening promise
+    ta = V['o3'][1] + 0.35
+    if ta < t < V['x1'][0] - 0.3:
+        u = t - ta; dur = V['x1'][0] - 0.3 - ta
+        op = min(1.0, u / 0.5, (dur - u) / 0.5)
+        rgb, al = text(['DARK CORNERS'], 'Cinzel[wght].ttf', 36, col=(0.86, 0.72, 0.5), tracking=10)
         E.put(img, rgb, al, W / 2, 760, opacity=op * 0.9, glow=0.25)
-        rgb, al = text(['A Hundred Thousand', 'Good Nights'], 'Newsreader-Italic[opsz,wght].ttf', 92, spacing=1.08)
+        rgb, al = text(['The Mayor', 'Who Was Called a Witch'], 'Newsreader-Italic[opsz,wght].ttf', 84, spacing=1.08)
         E.put(img, rgb, al, W / 2, 920, opacity=op, shadow=0.9, glow=0.18)
-        rgb, al = text(['BAMBERG  ·  1628'], 'Cinzel[wght].ttf', 30, col=(0.8, 0.76, 0.68), tracking=6)
-        E.put(img, rgb, al, W / 2, 1090, opacity=op * 0.85)
-    # the inscription over the portal, translated
-    ia, ib = V['w2'][0] + 0.2, V['w2'][1] + 0.5
-    if ia < t < ib:
-        op = min(1.0, (t - ia) / 0.5, (ib - t) / 0.4)
-        rgb, al = text(['“Be warned: learn justice.”'], 'Newsreader-Italic[opsz,wght].ttf', 40, col=(0.9, 0.86, 0.78))
-        E.put(img, rgb, al, W / 2, 330, opacity=op * 0.9, shadow=0.9)
-        rgb, al = text(['the inscription over the door of the witch house'], 'Newsreader[opsz,wght].ttf', 26, col=(0.75, 0.72, 0.66))
-        E.put(img, rgb, al, W / 2, 385, opacity=op * 0.8, shadow=0.9)
-    # dates, small and top
-    for lid, label in (('j1', 'WEDNESDAY, 28 JUNE 1628'), ('t1', 'FRIDAY, 30 JUNE 1628'), ('c1', 'AUGUST 1628'), ('c3', 'RINTELN, 1631')):
-        a = V[lid][0] - 0.5
-        if a < t < a + 3.6:
-            op = min(1.0, (t - a) / 0.5, (a + 3.6 - t) / 0.6)
-            rgb, al = text([label], 'Cinzel[wght].ttf', 30, col=(0.85, 0.78, 0.66), tracking=5)
-            E.put(img, rgb, al, W / 2, 300, opacity=op * 0.9, shadow=0.9)
     # end card
-    ea = V['c4'][1] + 0.9
+    ea = V['f3'][1] + 1.3
     if t > ea:
-        op = min(1.0, (t - ea) / 0.7)
+        op = min(1.0, (t - ea) / 0.6)
         rgb, al = text(['DARK CORNERS'], 'Cinzel[wght].ttf', 44, col=(0.86, 0.72, 0.5), tracking=11)
-        E.put(img, rgb, al, W / 2, 800, opacity=op, glow=0.3)
+        E.put(img, rgb, al, W / 2, 820, opacity=op, glow=0.3)
         rgb, al = text(['Johannes Junius', '1573 – 1628'], 'Newsreader-Italic[opsz,wght].ttf', 50, col=(0.92, 0.89, 0.82), spacing=1.25)
-        E.put(img, rgb, al, W / 2, 960, opacity=op)
-        rgb, al = text(['His letter of 24 July 1628 is kept in the', 'Staatsbibliothek Bamberg. Trial record after Burr (1896).',
-                        'F. von Spee, Cautio Criminalis (1631).'], 'Newsreader[opsz,wght].ttf', 31, col=(0.7, 0.67, 0.62), spacing=1.35)
+        E.put(img, rgb, al, W / 2, 980, opacity=op)
+        rgb, al = text(['His letter of 24 July 1628 is kept in the', 'Staatsbibliothek Bamberg.', 'Trial record after Burr (1896).'],
+                       'Newsreader[opsz,wght].ttf', 31, col=(0.72, 0.69, 0.64), spacing=1.35)
         E.put(img, rgb, al, W / 2, 1200, opacity=op * 0.9)
     return img
 
@@ -631,6 +675,7 @@ def render_frame(frame):
             img += s.render(t, frame) * (w / norm)
         for k in ('expo', 'sat'):
             grade[k] = sum((w / norm) * s.grade.get(k, 1.0) for s, w in act) + (1 - sum(w / norm for _, w in act))
+    img = flashes(img, t)
     img = post(img, frame, t, grade)
     img = overlays(img, t)
     if t < 0.6:
