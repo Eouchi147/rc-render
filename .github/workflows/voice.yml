@@ -1,0 +1,31 @@
+name: voice
+on:
+  push:
+    branches: [main]
+    paths: ['voice/jobs.json']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  speak:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: voice
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: install
+        run: pip install --quiet chatterbox-tts
+      - name: speak
+        run: python voice/gen.py voice/jobs.json out
+      - name: publish
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          TAG=$(python -c "import json;print(json.load(open('voice/jobs.json')).get('release','voice'))")
+          gh release view "$TAG" >/dev/null 2>&1 || gh release create "$TAG" --title "$TAG" --notes "Narration takes (Chatterbox, MIT)."
+          cd out && gh release upload "$TAG" * --clobber
