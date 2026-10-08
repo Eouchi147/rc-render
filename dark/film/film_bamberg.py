@@ -272,6 +272,15 @@ class Sheet:
         return self.s.render(t, cam, frame)
 
 
+class Cabinet:
+    def __init__(self):
+        import cabinet as CB
+        self.s = CB.CabinetShot()
+
+    def render(self, t, cam, frame):
+        return self.s.render(t, cam, frame)
+
+
 class Black:
     def render(self, t, cam, frame):
         return np.zeros((H, W, 3), np.float32)
@@ -315,12 +324,17 @@ class Shot:
 def build_shots():
     sh = []
     v = V
-    # 1. COLD OPEN: the archive, the two records
-    t0 = 0.0
+    # 0. THE CABINET: the keeper's shelves; we lean in to the letter under its glass dome
+    k1 = v['h2'][0] + 0.5
+    sh.append(Shot('cabinet_open', 0.0, k1, lambda: Cabinet(),
+                   [(0.0, (810, 1500, 1.04)), (v['h1'][0] + 1.0, (805, 1420, 1.12)), (v['h1'][1] - 0.3, (792, 1260, 1.7)),
+                    (k1, (790, 1190, 2.35))], xin=1.2, xout=0.9, hand=0.5, ap=4, focus=1.0))
+    # 1. THE TWO RECORDS: the archive table
+    t0 = k1 - 0.9
     t1 = v['h4'][0] - 0.2
     sh.append(Shot('archive_open', t0, t1, lambda: Archive(),
-                   [(0.0, (790, 1520, 1.12)), (v['h2'][0], (700, 1380, 1.22)), (v['h3'][0], (740, 1660, 1.3)),
-                    (t1, (770, 1830, 1.42))], xin=1.4, xout=0.9, grade=dict(expo=1.0), ap=6, focus=1.0))
+                   [(t0, (700, 1380, 1.3)), (v['h3'][0], (740, 1660, 1.3)), (t1, (770, 1830, 1.42))],
+                   xin=0.9, xout=0.9, grade=dict(expo=1.0), ap=6, focus=1.0))
     # 2. THE CELL: he writes the first lines (the approved test shot, re-timed to the new voice)
     c0, c1 = t1 - 0.9, v['q2'][1] + 3.6
     def cell_open_keys(s):
@@ -465,9 +479,15 @@ def build_shots():
     sh.append(Shot('archive_end', a0, a1, lambda: Archive(), [(a0, (770, 1850, 1.9)), (a1, (790, 1560, 1.12))],
                    xin=0.8, xout=0.8, ap=6))
     b0, b1 = a1 - 0.8, TOTAL
-    sh.append(Shot('spee', b0, v['c3'][1] + 1.2, lambda: Sheet('spee'), [(b0, (810, 1200, 1.55)), (v['c3'][1] + 1.2, (810, 1480, 1.18))],
-                   xin=0.8, xout=1.0, kout='b', hand=0.6))
-    sh.append(Shot('endcard', v['c3'][1] + 0.4, TOTAL, lambda: Black(), [(0, (810, 1440, 1.0))], xin=0.6, xout=0.0, hand=0.0))
+    sh.append(Shot('spee', b0, v['c3'][1] + 1.0, lambda: Sheet('spee'), [(b0, (810, 1200, 1.55)), (v['c3'][1] + 1.0, (810, 1480, 1.18))],
+                   xin=0.8, xout=0.9, hand=0.6))
+    # back on the shelf, then down to the next object (N° 2, 1781)
+    q0, q1 = v['c3'][1] + 0.1, v['c4'][1] + 1.0
+    nx = find_word('c4', 'next')[0]
+    sh.append(Shot('cabinet_end', q0, q1, lambda: Cabinet(),
+                   [(q0, (790, 1190, 2.3)), (v['c4'][0] + 0.4, (800, 1300, 1.5)), (nx, (760, 1700, 1.35)),
+                    (nx + 1.6, (600, 1960, 1.85)), (q1, (590, 1990, 2.0))], xin=0.9, xout=0.9, hand=0.5, ap=4, focus=1.0))
+    sh.append(Shot('endcard', v['c4'][1] + 0.3, TOTAL, lambda: Black(), [(0, (810, 1440, 1.0))], xin=0.6, xout=0.0, hand=0.0))
     return sh
 
 
@@ -572,7 +592,7 @@ def overlays(img, t):
             rgb, al = text([label], 'Cinzel[wght].ttf', 30, col=(0.85, 0.78, 0.66), tracking=5)
             E.put(img, rgb, al, W / 2, 300, opacity=op * 0.9, shadow=0.9)
     # end card
-    ea = V['c3'][1] + 0.9
+    ea = V['c4'][1] + 0.9
     if t > ea:
         op = min(1.0, (t - ea) / 0.7)
         rgb, al = text(['DARK CORNERS'], 'Cinzel[wght].ttf', 44, col=(0.86, 0.72, 0.5), tracking=11)
