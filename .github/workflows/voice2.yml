@@ -1,0 +1,45 @@
+# Narration takes with Chatterbox on free runners, split across shards, each take checked by speech recognition.
+# Push voice2/jobs.json; the takes and logs go to the release named in it.
+name: voice2
+on:
+  push:
+    branches: [main]
+    paths: ['voice2/jobs.json']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  speak:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+    steps:
+      - uses: actions/checkout@v4
+        with: {sparse-checkout: voice2}
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - name: install
+        run: pip install --quiet chatterbox-tts faster-whisper
+      - name: speak
+        run: python voice2/gen2.py voice2/jobs.json out ${{ matrix.shard }} 20
+      - uses: actions/upload-artifact@v4
+        with: {name: 'takes-${{ matrix.shard }}', path: out, retention-days: 3}
+  publish:
+    needs: speak
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: {sparse-checkout: voice2}
+      - uses: actions/download-artifact@v4
+        with: {path: out, pattern: 'takes-*', merge-multiple: true}
+      - env: {GH_TOKEN: '${{ github.token }}', GH_REPO: '${{ github.repository }}'}
+        run: |
+          TAG=$(python -c "import json;print(json.load(open('voice2/jobs.json'))['release'])")
+          python -c "import json,glob;l=[x for f in sorted(glob.glob('out/log_*.json')) for x in json.load(open(f))];json.dump(l,open('out/takes_log.json','w'),indent=1)"
+          rm out/log_*.json
+          cd out && tar czf takes.tgz *.wav takes_log.json
+          gh release view "$TAG" >/dev/null 2>&1 || gh release create "$TAG" --title "$TAG" --notes "Chatterbox narration takes (MIT)."
+          gh release upload "$TAG" takes.tgz takes_log.json --clobber
