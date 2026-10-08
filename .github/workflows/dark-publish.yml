@@ -1,0 +1,25 @@
+# Copy a finished Dark Corners film from the dark-films release to the films release the Studio posts from.
+# Push dark/publish/<film>.txt containing the target id (e.g. dc-bamberg).
+name: dark-publish
+on:
+  push:
+    branches: [main]
+    paths: ['dark/publish/*.txt']
+permissions:
+  contents: write
+jobs:
+  copy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: {sparse-checkout: dark/publish}
+      - env: {GH_TOKEN: '${{ github.token }}', GH_REPO: '${{ github.repository }}'}
+        run: |
+          set -e
+          for f in dark/publish/*.txt; do
+            film=$(basename "$f" .txt); id=$(head -1 "$f" | tr -d '[:space:]')
+            gh release download dark-films -p "$film.mp4" -p "$film.thumb.jpg" -D in --clobber
+            mkdir -p out && cp "in/$film.mp4" "out/$id.mp4" && cp "in/$film.thumb.jpg" "out/$id.thumb.jpg"
+            gh release upload films "out/$id.mp4" "out/$id.thumb.jpg" --clobber
+            echo "published $film as $id"
+          done
