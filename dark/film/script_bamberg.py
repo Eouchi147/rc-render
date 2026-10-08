@@ -5,7 +5,7 @@ the trial record (Burr 1896), Spee, Cautio Criminalis (1631), Dubium XLIX. See c
 LINES = [
     # THE CABINET: the keeper takes the object from the shelf (hook and open question)
     ("h1", "Come closer. This shelf holds a letter that was never supposed to exist.", "intrigue", 0.97, False),
-    ("h2", "Two documents describe the same week in 1628. One was written by his judges.", "intrigue", 0.97, False),
+    ("h2", "Two documents describe the same week, in 1628. One was written by his judges.", "intrigue", 0.97, False),
     ("h3", "The other, in secret, by him. They do not agree.", "intrigue", 0.95, False),
     ("h4", "His name is Johannes Junius. He's in a cell, and his hands are wrecked.", "calm", 0.97, False),
     ("q1", "He writes to his daughter: A hundred thousand good nights, my dearest Veronica.", "wonder", 0.9, True),
@@ -28,7 +28,7 @@ LINES = [
     ("t6", "I thought heaven and earth were ending.", "verdict", 0.9, True),
     # THE PLEA
     ("p1", "Then the strangest part. Walking him back to his cell, the executioner begs him:", "calm", 0.97, False),
-    ("p2", "For God's sake, confess something, true or not. You will never get out anyway.", "tension", 0.93, True),
+    ("p2", "For God's sake, confess something. True or not. You will never get out anyway.", "tension", 0.93, True),
     # THE LIE
     ("l1", "So Junius does the only thing left. He lies.", "reveal", 0.95, False),
     ("l2", "His letter even marks the exact spot: Now follows my confession. Nothing but lies.", "reveal", 0.95, True),

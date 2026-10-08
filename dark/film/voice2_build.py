@@ -6,6 +6,7 @@ import sys, os, json, re
 import numpy as np, soundfile as sf
 from scipy.signal import resample_poly
 from perf_bamberg import plan, SEEDS
+import parselmouth
 
 SR = 48000
 src, V, out = sys.argv[1], sys.argv[2], sys.argv[3]
@@ -50,20 +51,42 @@ def wer(ref, hyp):
 
 
 P = plan()
-for d in log.values():
-    pass
+
+
+def landing(path):
+    """How much the voice falls over the last stretch of the phrase (semitones; positive = it lands)."""
+    try:
+        snd = parselmouth.Sound(path)
+        f0 = snd.to_pitch(time_step=0.01, pitch_floor=60, pitch_ceiling=300).selected_array['frequency']
+        v = f0[f0 > 0]
+        if len(v) < 12:
+            return 0.0
+        n = max(4, len(v) // 4)
+        a, b = np.median(v[-2 * n:-n]), np.median(v[-n:])
+        return float(12 * np.log2(a / b))
+    except Exception:
+        return 0.0
+
 lines, report = {}, []
 for p in P:
     cands = []
-    for sd in SEEDS:
-        k = f"{V}_{p['line']}_{p['k']}_{sd}"
+    keys = [f"{V}_{p['line']}_{p['k']}_{sd}" + (f"_a{a}" if a else '') for sd in SEEDS for a in range(len(p.get('alts', [0])))]
+    for k in keys:
         if k in log and os.path.exists(os.path.join(src, k + '.wav')):
             c = dict(log[k]); c['wer'] = wer(p.get('check', p['text']), c['hyp']); cands.append(c)
     if not cands:
         continue
     durs = np.array([c['dur'] for c in cands])
     med = float(np.median(durs))
-    best = min(cands, key=lambda c: (round(c['wer'], 2), abs(c['dur'] - med)))
+    for c in cands:
+        c['fall'] = landing(os.path.join(src, c['out'] + '.wav'))
+    want = p.get('lands', True)
+
+    def score(c):
+        # 1. say the words right; 2. land (or hold) the phrase as directed; 3. a natural length
+        prosody = -c['fall'] if want else max(c['fall'] - 1.0, 0)
+        return (round(c['wer'], 2), prosody * 0.25 + abs(c['dur'] - med) / max(med, 0.5))
+    best = min(cands, key=score)
     x, sr = sf.read(os.path.join(src, best['out'] + '.wav'), dtype='float32')
     if x.ndim > 1:
         x = x.mean(1)
