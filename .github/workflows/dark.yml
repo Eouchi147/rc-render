@@ -1,0 +1,76 @@
+# Dark Corners films, rendered on free runners. Push dark/film/jobs/<film>.go (any content) or run by hand.
+# Each matrix job paints the plates it needs and renders one stretch of frames; the last job mixes the sound,
+# joins the picture and publishes <film>.mp4 (and a phone preview) to the release "dark-films".
+name: dark
+on:
+  workflow_dispatch:
+    inputs:
+      film: {description: 'film module (e.g. bamberg)', default: 'bamberg'}
+      parts: {description: 'number of parallel parts', default: '18'}
+  push:
+    branches: [main]
+    paths: ['dark/film/jobs/*.go']
+permissions:
+  contents: write
+env:
+  FILM: ${{ github.event.inputs.film || 'bamberg' }}
+  PARTS: ${{ github.event.inputs.parts || '18' }}
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      idx: ${{ steps.p.outputs.idx }}
+    steps:
+      - id: p
+        run: echo "idx=$(python3 -c "import json;print(json.dumps(list(range(int('${PARTS}')))))")" >> $GITHUB_OUTPUT
+  render:
+    needs: plan
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    strategy:
+      fail-fast: false
+      matrix:
+        part: ${{ fromJson(needs.plan.outputs.idx) }}
+    steps:
+      - uses: actions/checkout@v4
+        with: {sparse-checkout: dark}
+      - name: setup
+        run: for i in 1 2 3; do bash dark/setup.sh && break; sleep 10; done
+      - name: render part
+        env: {FILM_WORKERS: '3', DARK_ROOT: '${{ github.workspace }}/dark'}
+        run: |
+          cd dark/film
+          NF=$(../.venv/bin/python film_$FILM.py info | awk '/^total/ {print $4}')
+          A=$(( NF * ${{ matrix.part }} / PARTS )); B=$(( NF * (${{ matrix.part }} + 1) / PARTS ))
+          echo "frames $A to $B of $NF"
+          ../.venv/bin/python film_$FILM.py frames $A $B ../out/part_$(printf %02d ${{ matrix.part }}).mp4
+      - uses: actions/upload-artifact@v4
+        with: {name: 'part-${{ matrix.part }}', path: 'dark/out/part_*.mp4', retention-days: 3}
+  final:
+    needs: render
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+        with: {sparse-checkout: dark}
+      - name: setup
+        run: for i in 1 2 3; do bash dark/setup.sh && break; sleep 10; done
+      - uses: actions/download-artifact@v4
+        with: {path: parts, pattern: 'part-*', merge-multiple: true}
+      - name: sound, join, publish
+        env:
+          DARK_ROOT: '${{ github.workspace }}/dark'
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -e
+          FF=$(dark/.venv/bin/python -c "import imageio_ffmpeg;print(imageio_ffmpeg.get_ffmpeg_exe())")
+          cd dark/film && ../.venv/bin/python mix_$FILM.py ../out/$FILM.wav && cd ../..
+          ls parts/part_*.mp4 | sort | sed "s/^/file '$(pwd | sed 's/\//\\\//g')\//; s/$/'/" > parts.txt
+          cat parts.txt
+          $FF -y -loglevel error -f concat -safe 0 -i parts.txt -c copy video.mp4
+          $FF -y -loglevel error -i video.mp4 -i dark/out/$FILM.wav -c:v copy -c:a aac -b:a 256k -shortest -movflags +faststart $FILM.mp4
+          $FF -y -loglevel error -i $FILM.mp4 -vf scale=-2:960 -c:v libx264 -crf 27 -preset veryfast -c:a aac -b:a 128k $FILM-preview.mp4
+          $FF -y -loglevel error -ss 30 -i $FILM.mp4 -frames:v 1 -q:v 3 $FILM.thumb.jpg
+          ls -la $FILM*.mp4
+          gh release view dark-films >/dev/null 2>&1 || gh release create dark-films --title "dark films" --notes "Dark Corners films rendered by the dark workflow."
+          gh release upload dark-films $FILM.mp4 $FILM-preview.mp4 $FILM.thumb.jpg --clobber

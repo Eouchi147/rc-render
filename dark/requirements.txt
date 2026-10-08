@@ -1,0 +1,13 @@
+numpy==2.4.4
+scipy==1.17.1
+opencv-python-headless==5.0.0.93
+numba==0.68.0
+pillow==12.2.0
+scikit-image==0.26.0
+Hershey-Fonts==2.1.0
+soundfile==0.14.0
+pedalboard==0.9.26
+pyloudnorm==0.2.0
+praat-parselmouth==0.4.7
+kokoro-onnx==0.6.1
+imageio-ffmpeg==0.6.0

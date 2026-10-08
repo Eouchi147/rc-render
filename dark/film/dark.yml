@@ -1,0 +1,33 @@
+# Renders the darkengine test clip on GitHub and attaches the MP4 to the release "dark-films".
+# The darkengine folder lives in the repository as dark/; this file goes in .github/workflows/dark.yml.
+name: dark films
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'dark/**'
+
+permissions:
+  contents: write
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python, packages and assets
+        run: bash dark/setup.sh
+
+      - name: Render the test clip
+        run: bash dark/render.sh test
+
+      - name: Upload the MP4 to the dark-films release
+        run: |
+          gh release view dark-films >/dev/null 2>&1 || \
+            gh release create dark-films --title "dark films" --notes "Films rendered by the dark films workflow."
+          gh release upload dark-films dark/out/bamberg_test_clip.mp4 --clobber

@@ -1,0 +1,10 @@
+.venv/
+.setup-done
+sfx/
+tex/
+vsco/
+samples/
+models/
+out/
+film/plates/
+__pycache__/
