@@ -7,7 +7,7 @@ _D = importlib.import_module(os.environ.get('DIRECT', 'direct_bamberg'))
 DIRECTED, DELIVERY, SAY = _D.DIRECTED, _D.DELIVERY, _D.SAY
 LINES = getattr(_D, 'LINES', None) or importlib.import_module('script_bamberg').LINES
 
-VOICE, REF = 'N', 'ref_m_deep.wav'          # keeper voice 4 (Sam, 8 Oct 2026)
+VOICE, REF = 'N', os.environ.get('REF', 'ref_m_deep.wav')   # keeper voice 4 (Sam, 8 Oct 2026)
 SEEDS = (3, 11, 29, 47, 61)
 HOLD_SCALE = float(os.environ.get('HOLD_SCALE', '0.75'))                           # the marked pauses, scaled to fit the film under three minutes
 
