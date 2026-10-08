@@ -16,7 +16,7 @@ import pages as PG
 from script_bamberg import LINES
 
 FPS, W, H = 24, 1080, 1920
-VO = ROOT + '/film/vo/'
+VO = os.environ.get('VO_DIR', ROOT + '/film/vo').rstrip('/') + '/'
 ORDER = [l[0] for l in LINES]
 QUOTE = {l[0]: l[4] for l in LINES}
 # pause before each line (seconds of silence after the previous line's last word): the film's breathing
@@ -24,6 +24,7 @@ GAP = dict(h1=1.3, h2=.35, h3=.4, h4=.9, q1=.5, q2=.6, w1=2.7, w2=.35, w3=.8, w4
            t2=.6, t3=.5, t4=.5, t5=.5, t6=1.35, p1=.95, p2=.4, l1=.8, l2=.4, l3=.5, l4=.85, l5=.4, l6=.35, l7=.5,
            e1=.9, e2=.5, e3=.6, c1=1.15, c2=.7, c3=.7)
 END_CARD = 2.6
+LIMIT = 179.4
 
 
 # ------------------------------------------------------------------ timeline
@@ -40,6 +41,14 @@ def _timeline():
         V[lid] = (t, S[lid] + off)            # voiced span
         t = V[lid][1]
     total = t + 0.7 + END_CARD
+    if total > LIMIT and not getattr(_timeline, 'fitted', False):
+        # keep the film under three minutes: shorten every pause by the same factor (never below 60%)
+        over = total - LIMIT
+        k = max(0.6, 1 - over / sum(GAP.values()))
+        for lid in GAP:
+            GAP[lid] *= k
+        _timeline.fitted = True
+        return _timeline()
     return S, V, tm, total
 
 

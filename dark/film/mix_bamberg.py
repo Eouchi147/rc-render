@@ -133,6 +133,21 @@ def seg_env(segs, t0, t1):
     return np.convolve(env, np.ones(SR // 50) / (SR // 50), mode='same').astype(np.float32)
 
 
+def voice_chain(kind, x):
+    """The narrator, finished: warm and present; his letter a little closer and darker, in a small room; the court
+    record drier and colder, like a clerk reading."""
+    base = [pb.HighpassFilter(75), pb.LowShelfFilter(180, 1.5), pb.PeakFilter(3000, 1.5, 0.9),
+            pb.PeakFilter(6800, -3.0, 2.0), pb.Compressor(threshold_db=-20, ratio=2.5, attack_ms=8, release_ms=120)]
+    if kind == 'letter':
+        fx_ = base + [pb.PeakFilter(400, 1.0, 1.0), pb.LowpassFilter(8500), pb.Reverb(room_size=0.22, damping=0.6, wet_level=0.13, dry_level=1.0, width=0.5)]
+    elif kind == 'record':
+        fx_ = base + [pb.HighpassFilter(140), pb.PeakFilter(1800, 2.0, 1.0), pb.Reverb(room_size=0.12, wet_level=0.05, dry_level=1.0)]
+    else:
+        fx_ = base + [pb.Reverb(room_size=0.18, damping=0.5, wet_level=0.08, dry_level=1.0, width=0.6)]
+    y = pb.Pedalboard(fx_)(np.asarray(x, np.float32), SR)
+    return (y / (np.abs(y).max() + 1e-9) * 0.9).astype(np.float32)
+
+
 def main(out):
     V, S = F.V, F.S
     shots = F.build_shots()
@@ -270,10 +285,10 @@ def main(out):
     hold('vln', 'D5', V['c3'][0] + 2.0, F.TOTAL, -24, fo=2.0)
     mus = pb.Pedalboard([pb.Reverb(room_size=0.85, damping=0.4, wet_level=0.32, dry_level=0.75, width=1.0), pb.LowpassFilter(9000)])(mus, SR)
     # ---------------------------------------------------------------- narration
-    import voices as VOX
     for lid in F.ORDER:
-        x = load(f'{ROOT}/film/vo/{lid}.wav')
-        place(vo, VOX.design('nocturne', x), S[lid], 0.0)
+        x = load(F.VO + lid + '.wav')
+        kind = 'letter' if F.QUOTE[lid] else ('record' if lid in ('t2', 't4', 'l3') else 'narr')
+        place(vo, voice_chain(kind, x), S[lid], 0.0)
     meter = pyln.Meter(SR)
     vo *= db(-16.5 - meter.integrated_loudness(vo.astype(np.float64)[:, None]))
     venv = np.convolve(np.abs(vo), np.ones(SR // 10) / (SR // 10), mode='same')

@@ -5,10 +5,10 @@ import sys, re, json
 from script_bamberg import LINES
 
 # direction: (exaggeration, cfg weight, temperature)
-STYLE = {
-    's_hush': (0.50, 0.40, 0.70), 's_calm': (0.45, 0.45, 0.70), 's_grief': (0.62, 0.32, 0.72),
-    's_dread': (0.55, 0.35, 0.70), 's_cold': (0.30, 0.55, 0.65), 's_pain': (0.72, 0.30, 0.75),
-    's_break': (0.80, 0.25, 0.75), 's_turn': (0.58, 0.40, 0.70), 's_build': (0.52, 0.45, 0.70), 's_verdict': (0.52, 0.33, 0.68),
+STYLE = {      # lower cfg = slower, more deliberate; Chatterbox runs fast at its defaults
+    's_hush': (0.45, 0.25, 0.70), 's_calm': (0.40, 0.30, 0.70), 's_grief': (0.55, 0.22, 0.72),
+    's_dread': (0.50, 0.22, 0.70), 's_cold': (0.30, 0.35, 0.65), 's_pain': (0.62, 0.20, 0.75),
+    's_break': (0.70, 0.18, 0.75), 's_turn': (0.50, 0.25, 0.70), 's_build': (0.45, 0.30, 0.70), 's_verdict': (0.45, 0.20, 0.68),
 }
 DIR = {
     'h1': 's_hush', 'h2': 's_hush', 'h3': 's_hush', 'h4': 's_calm', 'q1': 's_grief', 'q2': 's_pain',
@@ -26,7 +26,8 @@ HOLD = {('h4', 0): 0.55, ('q2', 0): 0.45, ('q2', 1): 0.5, ('w1', 0): 0.4, ('w1',
         ('l3', 0): 0.45, ('l6', 0): 0.55, ('l7', 0): 0.5, ('e1', 0): 0.35, ('e3', 0): 0.8, ('c2', 0): 0.5}
 # per-sentence overrides of the style (a sentence inside a line that needs a different colour)
 OVR = {('t2', 0): 's_cold', ('t5', 1): 's_break', ('j2', 1): 's_grief', ('c3', 0): 's_calm', ('w1', 0): 's_calm'}
-VOICES = {'A': None, 'B': 'ref_brit.wav', 'C': 'ref_alto.wav'}
+SAY = {'Fifty-five.': 'Fifty five.'}     # what the voice is given, where the written form reads badly
+VOICES = {'A': None, 'B': 'ref_brit.wav', 'C': 'ref_brit_slow.wav'}
 SEEDS = (3, 11, 29)
 
 
@@ -53,7 +54,7 @@ def plan():
     for lid, text, d, sp, q in LINES:
         for k, s in enumerate(sentences(text)):
             st = OVR.get((lid, k), DIR[lid])
-            P.append(dict(line=lid, k=k, text=s, style=st, hold=HOLD.get((lid, k), 0.35), quote=q))
+            P.append(dict(line=lid, k=k, text=SAY.get(s, s), check=s, style=st, hold=HOLD.get((lid, k), 0.35), quote=q))
     return P
 
 
@@ -66,7 +67,7 @@ if __name__ == '__main__':
             if ref is None:
                 ex = min(ex + 0.05, 1.0)
             for sd in SEEDS:
-                takes.append(dict(out=f"{v}_{p['line']}_{p['k']}_{sd}", text=p['text'], ref=ref, ex=ex, cfg=cfg, temp=temp, seed=sd))
-    json.dump(dict(release='voice2-bamberg', takes=takes), open(sys.argv[1], 'w'), indent=0)
+                takes.append(dict(out=f"{v}_{p['line']}_{p['k']}_{sd}", text=p['text'], check=p['check'], ref=ref, ex=ex, cfg=cfg, temp=temp, seed=sd))
+    json.dump(dict(release='voice2-bamberg-r2', takes=takes), open(sys.argv[1], 'w'), indent=0)
     json.dump(P, open(sys.argv[1].replace('jobs.json', 'perf_bamberg.json'), 'w'), indent=1)
     print(len(P), 'sentences', len(takes), 'takes')

@@ -3,6 +3,7 @@
   "line": "h1",
   "k": 0,
   "text": "There are two records of what happened to this man.",
+  "check": "There are two records of what happened to this man.",
   "style": "s_hush",
   "hold": 0.35,
   "quote": false
@@ -11,6 +12,7 @@
   "line": "h2",
   "k": 0,
   "text": "One was written by his judges.",
+  "check": "One was written by his judges.",
   "style": "s_hush",
   "hold": 0.35,
   "quote": false
@@ -19,6 +21,7 @@
   "line": "h3",
   "k": 0,
   "text": "The other was never meant to exist.",
+  "check": "The other was never meant to exist.",
   "style": "s_hush",
   "hold": 0.35,
   "quote": false
@@ -27,6 +30,7 @@
   "line": "h4",
   "k": 0,
   "text": "Bamberg, sixteen twenty-eight.",
+  "check": "Bamberg, sixteen twenty-eight.",
   "style": "s_calm",
   "hold": 0.55,
   "quote": false
@@ -35,6 +39,7 @@
   "line": "h4",
   "k": 1,
   "text": "His hands are crippled.",
+  "check": "His hands are crippled.",
   "style": "s_calm",
   "hold": 0.35,
   "quote": false
@@ -43,6 +48,7 @@
   "line": "q1",
   "k": 0,
   "text": "Many hundred thousand good nights, my heart's dearest daughter, Veronica.",
+  "check": "Many hundred thousand good nights, my heart's dearest daughter, Veronica.",
   "style": "s_grief",
   "hold": 0.35,
   "quote": true
@@ -51,6 +57,7 @@
   "line": "q2",
   "k": 0,
   "text": "Innocent I came into prison.",
+  "check": "Innocent I came into prison.",
   "style": "s_pain",
   "hold": 0.45,
   "quote": true
@@ -59,6 +66,7 @@
   "line": "q2",
   "k": 1,
   "text": "Innocent I was tortured.",
+  "check": "Innocent I was tortured.",
   "style": "s_pain",
   "hold": 0.5,
   "quote": true
@@ -67,6 +75,7 @@
   "line": "q2",
   "k": 2,
   "text": "Innocent I must die.",
+  "check": "Innocent I must die.",
   "style": "s_pain",
   "hold": 0.35,
   "quote": true
@@ -75,6 +84,7 @@
   "line": "w1",
   "k": 0,
   "text": "Johannes Junius.",
+  "check": "Johannes Junius.",
   "style": "s_calm",
   "hold": 0.4,
   "quote": false
@@ -82,7 +92,8 @@
  {
   "line": "w1",
   "k": 1,
-  "text": "Fifty-five.",
+  "text": "Fifty five.",
+  "check": "Fifty-five.",
   "style": "s_calm",
   "hold": 0.3,
   "quote": false
@@ -91,6 +102,7 @@
   "line": "w1",
   "k": 2,
   "text": "Several times mayor of this city.",
+  "check": "Several times mayor of this city.",
   "style": "s_calm",
   "hold": 0.35,
   "quote": false
@@ -99,6 +111,7 @@
   "line": "w2",
   "k": 0,
   "text": "Now, a prisoner of its new witch house.",
+  "check": "Now, a prisoner of its new witch house.",
   "style": "s_calm",
   "hold": 0.35,
   "quote": false
@@ -107,6 +120,7 @@
   "line": "w3",
   "k": 0,
   "text": "Under torture, the accused named others, who named others.",
+  "check": "Under torture, the accused named others, who named others.",
   "style": "s_build",
   "hold": 0.35,
   "quote": false
@@ -115,6 +129,7 @@
   "line": "w4",
   "k": 0,
   "text": "His wife was named.",
+  "check": "His wife was named.",
   "style": "s_grief",
   "hold": 0.6,
   "quote": false
@@ -123,6 +138,7 @@
   "line": "w4",
   "k": 1,
   "text": "She was executed before him.",
+  "check": "She was executed before him.",
   "style": "s_grief",
   "hold": 0.35,
   "quote": false
@@ -131,6 +147,7 @@
   "line": "w5",
   "k": 0,
   "text": "Then six voices named Junius.",
+  "check": "Then six voices named Junius.",
   "style": "s_dread",
   "hold": 0.35,
   "quote": false
@@ -139,6 +156,7 @@
   "line": "j1",
   "k": 0,
   "text": "A woman says she saw him dancing in the forest.",
+  "check": "A woman says she saw him dancing in the forest.",
   "style": "s_calm",
   "hold": 0.35,
   "quote": false
@@ -147,6 +165,7 @@
   "line": "j2",
   "k": 0,
   "text": "How did she see him?",
+  "check": "How did she see him?",
   "style": "s_turn",
   "hold": 0.7,
   "quote": false
@@ -155,6 +174,7 @@
   "line": "j2",
   "k": 1,
   "text": "She does not know.",
+  "check": "She does not know.",
   "style": "s_grief",
   "hold": 0.35,
   "quote": false
@@ -163,6 +183,7 @@
   "line": "t1",
   "k": 0,
   "text": "Friday, the thirtieth of June.",
+  "check": "Friday, the thirtieth of June.",
   "style": "s_dread",
   "hold": 0.6,
   "quote": false
@@ -171,6 +192,7 @@
   "line": "t1",
   "k": 1,
   "text": "The executioner comes.",
+  "check": "The executioner comes.",
   "style": "s_dread",
   "hold": 0.35,
   "quote": false
@@ -179,6 +201,7 @@
   "line": "t2",
   "k": 0,
   "text": "The court record says:",
+  "check": "The court record says:",
   "style": "s_cold",
   "hold": 0.35,
   "quote": false
@@ -187,6 +210,7 @@
   "line": "t2",
   "k": 1,
   "text": "he feels no pain in the thumbscrews.",
+  "check": "he feels no pain in the thumbscrews.",
   "style": "s_cold",
   "hold": 0.35,
   "quote": false
@@ -195,6 +219,7 @@
   "line": "t3",
   "k": 0,
   "text": "His letter says: the blood ran out at my nails.",
+  "check": "His letter says: the blood ran out at my nails.",
   "style": "s_pain",
   "hold": 0.35,
   "quote": true
@@ -203,6 +228,7 @@
   "line": "t4",
   "k": 0,
   "text": "The record says: he feels no pain in the leg screws.",
+  "check": "The record says: he feels no pain in the leg screws.",
   "style": "s_cold",
   "hold": 0.35,
   "quote": false
@@ -211,6 +237,7 @@
   "line": "t5",
   "k": 0,
   "text": "His letter says: they hoisted me up, and let me fall.",
+  "check": "His letter says: they hoisted me up, and let me fall.",
   "style": "s_pain",
   "hold": 0.75,
   "quote": true
@@ -219,6 +246,7 @@
   "line": "t5",
   "k": 1,
   "text": "Eight times.",
+  "check": "Eight times.",
   "style": "s_break",
   "hold": 0.35,
   "quote": true
@@ -227,6 +255,7 @@
   "line": "t6",
   "k": 0,
   "text": "I thought heaven and earth were ending.",
+  "check": "I thought heaven and earth were ending.",
   "style": "s_break",
   "hold": 0.35,
   "quote": true
@@ -235,6 +264,7 @@
   "line": "p1",
   "k": 0,
   "text": "On the way back to his cell, the executioner begs him:",
+  "check": "On the way back to his cell, the executioner begs him:",
   "style": "s_calm",
   "hold": 0.35,
   "quote": false
@@ -243,6 +273,7 @@
   "line": "p2",
   "k": 0,
   "text": "For God's sake, confess something.",
+  "check": "For God's sake, confess something.",
   "style": "s_pain",
   "hold": 0.5,
   "quote": true
@@ -251,6 +282,7 @@
   "line": "p2",
   "k": 1,
   "text": "Even if you bear it all, you will never get out.",
+  "check": "Even if you bear it all, you will never get out.",
   "style": "s_pain",
   "hold": 0.35,
   "quote": true
@@ -259,6 +291,7 @@
   "line": "l1",
   "k": 0,
   "text": "So he decides to lie.",
+  "check": "So he decides to lie.",
   "style": "s_turn",
   "hold": 0.35,
   "quote": false
@@ -267,6 +300,7 @@
   "line": "l2",
   "k": 0,
   "text": "In his letter he writes:",
+  "check": "In his letter he writes:",
   "style": "s_turn",
   "hold": 0.45,
   "quote": true
@@ -275,6 +309,7 @@
   "line": "l2",
   "k": 1,
   "text": "Now follows my confession.",
+  "check": "Now follows my confession.",
   "style": "s_turn",
   "hold": 0.6,
   "quote": true
@@ -283,6 +318,7 @@
   "line": "l2",
   "k": 2,
   "text": "Nothing but lies.",
+  "check": "Nothing but lies.",
   "style": "s_turn",
   "hold": 0.35,
   "quote": true
@@ -291,6 +327,7 @@
   "line": "l3",
   "k": 0,
   "text": "A goat.",
+  "check": "A goat.",
   "style": "s_cold",
   "hold": 0.45,
   "quote": false
@@ -299,6 +336,7 @@
   "line": "l3",
   "k": 1,
   "text": "A coin that turns into a shard.",
+  "check": "A coin that turns into a shard.",
   "style": "s_cold",
   "hold": 0.35,
   "quote": false
@@ -307,6 +345,7 @@
   "line": "l4",
   "k": 0,
   "text": "Then they want names.",
+  "check": "Then they want names.",
   "style": "s_dread",
   "hold": 0.35,
   "quote": false
@@ -315,6 +354,7 @@
   "line": "l5",
   "k": 0,
   "text": "Street by street, they tell him.",
+  "check": "Street by street, they tell him.",
   "style": "s_build",
   "hold": 0.35,
   "quote": false
@@ -323,6 +363,7 @@
   "line": "l6",
   "k": 0,
   "text": "So he walks his own city in his mind.",
+  "check": "So he walks his own city in his mind.",
   "style": "s_build",
   "hold": 0.55,
   "quote": false
@@ -331,6 +372,7 @@
   "line": "l6",
   "k": 1,
   "text": "The long street: eight names.",
+  "check": "The long street: eight names.",
   "style": "s_build",
   "hold": 0.35,
   "quote": false
@@ -339,6 +381,7 @@
   "line": "l7",
   "k": 0,
   "text": "When he runs out, they give him a name.",
+  "check": "When he runs out, they give him a name.",
   "style": "s_verdict",
   "hold": 0.5,
   "quote": false
@@ -347,6 +390,7 @@
   "line": "l7",
   "k": 1,
   "text": "He repeats it.",
+  "check": "He repeats it.",
   "style": "s_verdict",
   "hold": 0.35,
   "quote": false
@@ -355,6 +399,7 @@
   "line": "e1",
   "k": 0,
   "text": "Hide this letter, he writes.",
+  "check": "Hide this letter, he writes.",
   "style": "s_calm",
   "hold": 0.35,
   "quote": false
@@ -363,6 +408,7 @@
   "line": "e1",
   "k": 1,
   "text": "If it is found, the guards will be beheaded.",
+  "check": "If it is found, the guards will be beheaded.",
   "style": "s_calm",
   "hold": 0.35,
   "quote": false
@@ -371,6 +417,7 @@
   "line": "e2",
   "k": 0,
   "text": "Swear for me that I am no witch, but a martyr.",
+  "check": "Swear for me that I am no witch, but a martyr.",
   "style": "s_grief",
   "hold": 0.35,
   "quote": true
@@ -379,6 +426,7 @@
   "line": "e3",
   "k": 0,
   "text": "Good night.",
+  "check": "Good night.",
   "style": "s_break",
   "hold": 0.8,
   "quote": true
@@ -387,6 +435,7 @@
   "line": "e3",
   "k": 1,
   "text": "For your father, Johannes Junius, will never see you more.",
+  "check": "For your father, Johannes Junius, will never see you more.",
   "style": "s_break",
   "hold": 0.35,
   "quote": true
@@ -395,6 +444,7 @@
   "line": "c1",
   "k": 0,
   "text": "He was executed that August.",
+  "check": "He was executed that August.",
   "style": "s_verdict",
   "hold": 0.35,
   "quote": false
@@ -403,6 +453,7 @@
   "line": "c2",
   "k": 0,
   "text": "It probably never reached her.",
+  "check": "It probably never reached her.",
   "style": "s_turn",
   "hold": 0.5,
   "quote": false
@@ -411,6 +462,7 @@
   "line": "c2",
   "k": 1,
   "text": "It ended up in his judges' files, which is why it survives.",
+  "check": "It ended up in his judges' files, which is why it survives.",
   "style": "s_turn",
   "hold": 0.35,
   "quote": false
@@ -419,6 +471,7 @@
   "line": "c3",
   "k": 0,
   "text": "Three years later, a Jesuit wrote:",
+  "check": "Three years later, a Jesuit wrote:",
   "style": "s_calm",
   "hold": 0.35,
   "quote": false
@@ -427,6 +480,7 @@
   "line": "c3",
   "k": 1,
   "text": "the force of torture brings forth witches who do not exist.",
+  "check": "the force of torture brings forth witches who do not exist.",
   "style": "s_verdict",
   "hold": 0.35,
   "quote": false
