@@ -589,7 +589,7 @@ def labels():
     L = [
         (0.5, v['o1'][1] + 0.3, ['BAMBERG, GERMANY', '1628'], 330, 40, 'Cinzel[wght].ttf'),
         (v['x1'][0] - 0.1, v['x1'][1] + 0.4, ['JOHANNES JUNIUS', 'mayor of Bamberg'], 330, 40, 'Cinzel[wght].ttf'),
-        (find_word('x2', 'hunt')[0] - 0.3, v['x2'][1] + 0.6, ['THE WITCH PRISON', 'built 1627'], 330, 36, 'Cinzel[wght].ttf'),
+        (find_word('x2', 'hunt')[0] - 0.3, v['x3'][0] - 0.6, ['THE WITCH PRISON', 'built 1627'], 330, 36, 'Cinzel[wght].ttf'),
         (v['a1'][0] - 0.3, v['a2'][1] + 0.3, ['COURT RECORD', '28 June 1628'], 330, 36, 'Cinzel[wght].ttf'),
         (v['t1'][0] - 0.3, v['t1'][1] + 0.3, ['30 JUNE 1628'], 330, 36, 'Cinzel[wght].ttf'),
         (v['t2'][0] - 0.1, v['t2'][1] + 0.4, ['THE COURT RECORD', '“feels no pain”'], 330, 38, 'Cinzel[wght].ttf'),
