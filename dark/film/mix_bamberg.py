@@ -237,7 +237,7 @@ def main(out):
     # the lie: a goat, very far, as an absurd memory
     gb = pb.Pedalboard([pb.LowpassFilter(1800), pb.Reverb(room_size=0.9, wet_level=0.6, dry_level=0.3)])(onset(fx('goat_bleat_1')), SR)
     place(ambL, gb, F.find_word('l3', 'goat')[0], -27, length=2.5, fo=1.0)
-    place(fxb, onset(fx('ice_crack_2')), F.find_word('l3', 'shard')[0] - 0.05, -27, length=0.8, fo=0.3)
+    place(fxb, onset(fx('ice_crack_2')), F.find_word('l3', 'pottery')[0] - 0.05, -27, length=0.8, fo=0.3)
     # streets: the town he walks in his mind, far away
     sq = lp(fx('church_square'), 2500)
     place(ambL, sq, V['l5'][0] - 0.5, -31, fi=1.5, fo=2.0, length=V['l6'][1] - V['l5'][0] + 1.0)
@@ -250,7 +250,7 @@ def main(out):
     place(ambL, lp(onset(fx('church_bell')), 3000), V['c1'][0] - 0.3, -20, fo=4.0, length=8.0)
     place(ambR, lp(onset(fx('church_bell')), 2800), V['c1'][0] - 0.25, -21, fo=4.0, length=8.0)
     place(ambR, lp(fx('fire_branching_1'), 1500), sh['dawn'].t0, -30, fi=1.0, fo=1.0, length=4.0)
-    place(fxb, onset(fx('book_closed_2')), F.find_word('c2', 'files')[0] - 0.1, -17, length=1.5, fo=0.5)
+    place(fxb, onset(fx('book_closed_2')), F.find_word('c2', 'filed')[0] - 0.1, -17, length=1.5, fo=0.5)
     place(fxb, fx('great_page_1'), sh['spee'].t0 + 0.5, -24, length=2.0, fo=0.6)
     place(ambL, lp(onset(fx('church_bell_1')), 2200), V['c3'][1] + 0.9, -23, fo=2.0, length=F.TOTAL - V['c3'][1] - 0.9)
     fxb = pb.Pedalboard([pb.Reverb(room_size=0.32, damping=0.55, wet_level=0.2, dry_level=0.9, width=0.6)])(fxb, SR)
