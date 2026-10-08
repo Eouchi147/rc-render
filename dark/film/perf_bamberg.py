@@ -2,13 +2,14 @@
 phrase under four words is recorded joined to its neighbour (the voice garbles very short phrases on their own); the
 unit is cut back into its phrases at the silences afterwards (voice2_build.py), with the directed pauses.
     python perf_bamberg.py ../../voice2/jobs.json [line ids] [release]"""
-import sys, json
-from direct_bamberg import DIRECTED, DELIVERY, SAY
-from script_bamberg import LINES
+import sys, os, json, importlib
+_D = importlib.import_module(os.environ.get('DIRECT', 'direct_bamberg'))
+DIRECTED, DELIVERY, SAY = _D.DIRECTED, _D.DELIVERY, _D.SAY
+LINES = getattr(_D, 'LINES', None) or importlib.import_module('script_bamberg').LINES
 
 VOICE, REF = 'N', 'ref_m_deep.wav'          # keeper voice 4 (Sam, 8 Oct 2026)
 SEEDS = (3, 11, 29, 47, 61)
-HOLD_SCALE = 0.75                            # the marked pauses, scaled to fit the film under three minutes
+HOLD_SCALE = float(os.environ.get('HOLD_SCALE', '0.75'))                           # the marked pauses, scaled to fit the film under three minutes
 
 
 def nwords(t):
