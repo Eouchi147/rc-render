@@ -136,8 +136,8 @@ if LOOK == 'theatre':
     bp = nt.nodes.new('ShaderNodeBump'); bp.inputs['Strength'].default_value = 0.08
     nt.links.new(nz.outputs['Fac'], bp.inputs['Height']); nt.links.new(bp.outputs['Normal'], tr.inputs['Normal'])
     nt.links.new(tr.outputs['BSDF'], o.inputs['Surface']); scr.data.materials.append(ms)
-    for (lx, ly, e, c) in ((540, 900, 3.0e8, (1.0, 0.72, 0.45)), (200, 500, 0.8e8, (1.0, 0.45, 0.3))):
-        al = bpy.data.lights.new('back', 'AREA'); al.energy = e; al.size = 500; al.color = c
+    for (lx, ly, e, c) in ((540, 900, 6.0e9, (1.0, 0.72, 0.45)), (200, 500, 1.5e9, (1.0, 0.45, 0.3))):
+        al = bpy.data.lights.new('back', 'AREA'); al.energy = e; al.size = 900; al.color = c
         ao = bpy.data.objects.new('back', al); sc.collection.objects.link(ao)
         ao.location = place(lx, ly, SCREEN_D + 2600); ao.rotation_euler = (math.radians(90), 0, 0)
 img = bpy.data.images.load(SKY)
@@ -145,7 +145,7 @@ dback = DEPTH * 1.05
 sback = (F + dback) / F
 bpy.ops.mesh.primitive_plane_add(size=1)
 pl = bpy.context.object
-pl.scale = (1080 * sback * 1.15, 1920 * sback * 1.15, 1); pl.rotation_euler = (math.radians(90), 0, 0)
+pl.scale = (1080 * sback * 2.2, 1920 * sback * 1.6, 1); pl.rotation_euler = (math.radians(90), 0, 0)
 pl.location = place(540, 960, dback, sback)
 m = bpy.data.materials.new('sky'); m.use_nodes = True; nt = m.node_tree
 for n in list(nt.nodes):
