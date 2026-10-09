@@ -1,0 +1,37 @@
+# Style test: one painted frame per style (FLUX.1-schnell, Apache-2.0, on CPU). Push style/prompts.json.
+name: style
+on:
+  push:
+    branches: [main]
+    paths: ['style/prompts.json']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      keys: ${{ steps.p.outputs.keys }}
+    steps:
+      - uses: actions/checkout@v4
+        with: {sparse-checkout: style}
+      - id: p
+        run: echo "keys=$(python3 -c "import json;print(json.dumps(sorted(json.load(open('style/prompts.json'))['styles'])))")" >> $GITHUB_OUTPUT
+  paint:
+    needs: plan
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+    strategy:
+      fail-fast: false
+      matrix:
+        key: ${{ fromJson(needs.plan.outputs.keys) }}
+    steps:
+      - uses: actions/checkout@v4
+        with: {sparse-checkout: style}
+      - run: bash style/run.sh ${{ matrix.key }}
+      - if: always()
+        env: {GH_TOKEN: '${{ github.token }}', GH_REPO: '${{ github.repository }}'}
+        run: |
+          TAG=$(python3 -c "import json;print(json.load(open('style/prompts.json'))['release'])")
+          gh release view "$TAG" >/dev/null 2>&1 || gh release create "$TAG" --title "$TAG" --notes "Style test frames (FLUX.1-schnell, Apache-2.0)." || true
+          gh release upload "$TAG" out/* --clobber

@@ -1,0 +1,10 @@
+{"release": "style-tests", "w": 576, "h": 1024, "steps": 4, "seed": 1628,
+ "scene": "a middle-aged 17th-century German mayor with a grey beard and torn white shirt sits at a rough plank desk in a stone prison cell, writing a secret letter with a quill by the light of a single tallow candle, his bruised hands trembling, a small barred window behind him with rain falling outside at night, deep shadows, emotional, quiet despair",
+ "styles": {
+  "a_painterly3d": "stylized 3D feature animation film still, hand-painted textures over 3D forms, painterly brush strokes on skin and stone, strong rim light, saturated warm candlelight against cold blue night, cinematic composition, ultra detailed, award-winning animated series look",
+  "b_anime2d": "hand-drawn 2D animated feature film still, clean expressive line art, soft cel shading, lush hand-painted watercolor background, gentle film grain, warm nostalgic color, traditional animation studio quality",
+  "c_stopmotion": "stop-motion animation film still, handcrafted puppet with sculpted clay face and real fabric clothes, miniature set with tiny real stones and wood, practical miniature lighting, shallow depth of field, tactile textures",
+  "d_comic": "graphic novel animation still, bold black ink outlines, halftone dot shading, limited palette of deep blue, black and candle orange, dramatic diagonal composition, offset printing texture, kinetic comic-book animated film look",
+  "e_cinematic3d": "high-end cinematic 3D animation render, realistic skin and cloth shaders, volumetric candle light and god rays from the window, film-like depth of field, 35mm lens, dramatic chiaroscuro, AAA game cinematic quality",
+  "f_inkwash": "ink wash animation still, East Asian sumi-e brush painting style, flowing black ink on textured rice paper, single accent of warm gold candlelight, elegant negative space, minimal and poetic"
+ }}
