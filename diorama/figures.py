@@ -104,8 +104,8 @@ def figure(name, base, height, yaw, phase=0.0, stride=0.5, bow=0.25, arm='hang',
         bpy.ops.object.shade_smooth()
     # bandage over the eyes (the leader keeps one eye)
     if bandage:
-        bpy.ops.mesh.primitive_torus_add(major_radius=0.064, minor_radius=0.011, location=h + Vector((0.004, 0, 0.004)))
-        bd = bpy.context.object; bd.scale = (1.12, 0.95, 1.0); bd.rotation_euler = (0, math.radians(-8), 0); parts.append(bd)
+        bpy.ops.mesh.primitive_torus_add(major_radius=0.061, minor_radius=0.0075, location=h + Vector((0.006, 0, -0.006)))
+        bd = bpy.context.object; bd.scale = (1.14, 0.97, 1.5); bd.rotation_euler = (0, math.radians(-14), 0); parts.append(bd)
         bd.data.materials.append(_mat('linen', (0.82, 0.78, 0.7), 0.9))
         if one_eye:
             bd.rotation_euler = (math.radians(14), math.radians(-8), 0)
