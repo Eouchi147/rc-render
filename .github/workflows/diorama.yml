@@ -1,0 +1,44 @@
+# Diorama look test: the films' own scenes rebuilt as 3D card dioramas and rendered in Blender (CPU). Push diorama/jobs.json.
+name: diorama
+on:
+  push:
+    branches: [main]
+    paths: ['diorama/jobs.json']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      scenes: ${{ steps.p.outputs.scenes }}
+      looks: ${{ steps.p.outputs.looks }}
+    steps:
+      - uses: actions/checkout@v4
+        with: {sparse-checkout: diorama}
+      - id: p
+        run: |
+          echo "scenes=$(python3 -c "import json;print(json.dumps(json.load(open('diorama/jobs.json'))['scenes']))")" >> $GITHUB_OUTPUT
+          echo "looks=$(python3 -c "import json;print(json.dumps(json.load(open('diorama/jobs.json'))['looks']))")" >> $GITHUB_OUTPUT
+  render:
+    needs: plan
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    strategy:
+      fail-fast: false
+      matrix:
+        scene: ${{ fromJson(needs.plan.outputs.scenes) }}
+        look: ${{ fromJson(needs.plan.outputs.looks) }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            diorama
+            dark/look
+      - run: bash diorama/run.sh ${{ matrix.scene }} ${{ matrix.look }}
+      - if: always()
+        env: {GH_TOKEN: '${{ github.token }}', GH_REPO: '${{ github.repository }}'}
+        run: |
+          TAG=$(python3 -c "import json;print(json.load(open('diorama/jobs.json'))['release'])")
+          gh release view "$TAG" >/dev/null 2>&1 || gh release create "$TAG" --title "$TAG" --notes "Diorama look tests (Blender, CPU)." || true
+          gh release upload "$TAG" out/*.png out/*.log --clobber
