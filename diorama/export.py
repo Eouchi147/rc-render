@@ -20,7 +20,7 @@ for it in sc.items:
 lights = [dict(x=L.x, y=L.y, col=[float(c) for c in L.col], I=float(L.I), r=float(L.r), z=float(L.z)) for L in sc.lights]
 sky = sky_render(sc, 1080, 1920, 1.0)
 sky = np.clip(1 - np.exp(-np.maximum(sky, 0) * 1.6), 0, 1) ** (1 / 1.2)
-cv2.imwrite(os.path.join(out, name + '_sky.png'), (sky[..., ::-1] * 255).astype(np.uint8))
+cv2.imwrite(os.path.join(out, name + '_sky.png'), (sky[..., ::-1] * 65535).astype(np.uint16))
 json.dump(dict(items=items, lights=lights, key_dir=list(sc.key_dir), key_col=[float(c) for c in sc.key_col],
                amb=[float(c) for c in sc.amb], sun=sc.sun), open(os.path.join(out, name + '.json'), 'w'))
 print(name, len(items), 'items', len(lights), 'lights')

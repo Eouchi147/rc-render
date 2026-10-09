@@ -13,6 +13,7 @@ a = sys.argv[sys.argv.index('--') + 1:]
 J, SKY, LOOK, OUT = a[0], a[1], a[2], a[3]
 D = json.load(open(J))
 F = 2000.0                       # camera distance to the design plane (design px units)
+SCREEN_D = 300.0                 # theatre: the cloth screen
 DEPTH = 7000.0                   # depth of the far end of the diorama
 W, H = 720, 1280
 
@@ -58,7 +59,7 @@ def add_noise_bump(m, scale=0.02, strength=0.25):
     nt.links.new(tex.outputs['Fac'], bump.inputs['Height'])
     nt.links.new(bump.outputs['Normal'], nt.nodes['Principled BSDF'].inputs['Normal'])
 
-def card(name, polys, d, thick, mat, bevel=0.0, smooth=False):
+def card(name, polys, d, thick, mat, bevel=0.0, smooth=False, rim=None, subsurf=0):
     verts, faces = [], []
     s = (F + d) / F
     for p in polys:
@@ -74,8 +75,12 @@ def card(name, polys, d, thick, mat, bevel=0.0, smooth=False):
     ob = bpy.data.objects.new(name, me); sc.collection.objects.link(ob)
     ob.data.materials.append(mat)
     sol = ob.modifiers.new('t', 'SOLIDIFY'); sol.thickness = thick * s; sol.offset = 1.0
+    if rim is not None:
+        ob.data.materials.append(rim); sol.material_offset_rim = 1
     if bevel:
         bv = ob.modifiers.new('b', 'BEVEL'); bv.width = bevel * s; bv.segments = 3; bv.limit_method = 'ANGLE'
+    if subsurf:
+        ss = ob.modifiers.new('s', 'SUBSURF'); ss.levels = subsurf; ss.render_levels = subsurf
     if smooth:
         for poly in me.polygons:
             poly.use_smooth = True
@@ -87,34 +92,54 @@ def tint(c, k=1.0, sat=1.0, lift=0.0):
 
 # ------------------------------------------------------------------ the cards
 items = D['items']
+RIM = mat_principled('rim', (0.92, 0.88, 0.8), 0.95)
 for i, it in enumerate(items):
     d = depth(it['z'])
     col = tuple(it['col'])
     emis = it['emit'] > 0.05 or it['mat'] in ('window', 'glint')
     thin = it['line'] or it['mat'] in ('rope', 'foam', 'rain', 'grass', 'shrub')
+    if it['mat'] == 'rain' or it['name'] in ('sheen', 'curtain'):
+        continue
     if LOOK == 'papercut':
-        m = mat_principled(f'm{i}', tint(col, 1.35, 0.85, 0.02), 0.95, emit=4.0 if emis else 0, alpha=it['alpha'])
-        if not emis: add_noise_bump(m, 0.15, 0.15)
-        card(f'c{i}', it['polys'], d, 2.5 if thin else 9.0, m, bevel=0.0)
+        m = mat_principled(f'm{i}', tint(col, 1.5, 0.9, 0.03), 0.95, emit=4.0 if emis else 0)
+        if not emis: add_noise_bump(m, 0.08, 0.35)
+        card(f'c{i}', it['polys'], d, 4.0 if thin else 18.0, m, rim=None if thin else RIM)
     elif LOOK == 'theatre':
+        # cut-outs BEHIND a lit cloth screen: the camera sees their shadows, sharp when close to the screen
         if emis:
-            m = mat_principled(f'm{i}', (1.0, 0.6, 0.25), 0.5, emit=6.0)
-        else:
-            m = mat_principled(f'm{i}', (0.005, 0.004, 0.004), 0.9, alpha=min(1.0, it['alpha'] * 1.4))
-        card(f'c{i}', it['polys'], d * 0.25, 2.0, m)
+            continue
+        m = mat_principled(f'm{i}', (0.0, 0.0, 0.0), 1.0)
+        gap = 30 + (1 - it['z']) * 900
+        card(f'c{i}', it['polys'], SCREEN_D + gap, 2.0, m)
     elif LOOK == 'clay':
-        m = mat_principled(f'm{i}', tint(col, 1.6, 0.75, 0.05), 0.55, emit=3.0 if emis else 0, alpha=it['alpha'], sss=0.15)
-        card(f'c{i}', it['polys'], d, 4.0 if thin else 26.0, m, bevel=0 if thin else 10.0, smooth=True)
+        m = mat_principled(f'm{i}', tint(col, 2.0, 1.25, 0.06), 0.45, emit=3.0 if emis else 0, sss=0.25)
+        card(f'c{i}', it['polys'], d, 6.0 if thin else 60.0, m, bevel=0 if thin else 22.0, smooth=True, subsurf=0 if thin else 1)
     elif LOOK == 'noir':
         l = sum(col) / 3
-        g = 0.85 if l > 0.45 else (0.12 if l > 0.18 else 0.02)
-        m = mat_principled(f'm{i}', (1.0, 0.7, 0.3) if emis else (g, g * 0.97, g * 0.92), 0.9, emit=5.0 if emis else 0, alpha=it['alpha'])
+        g = 0.85 if l > 0.45 else (0.1 if l > 0.18 else 0.015)
+        m = mat_principled(f'm{i}', (1.0, 0.7, 0.3) if emis else (g, g * 0.97, g * 0.92), 0.9, emit=5.0 if emis else 0)
         card(f'c{i}', it['polys'], d, 3.0, m)
     else:  # volume
         m = mat_principled(f'm{i}', tint(col, 1.25, 1.1), 0.7, emit=5.0 if emis else 0, alpha=it['alpha'])
-        card(f'c{i}', it['polys'], d, 4.0, m)
+        card(f'c{i}', it['polys'], d, 6.0, m)
 
 # ------------------------------------------------------------------ the sky / screen at the back
+if LOOK == 'theatre':
+    bpy.ops.mesh.primitive_plane_add(size=1); scr = bpy.context.object
+    ss_ = (F + SCREEN_D) / F
+    scr.scale = (1500 * ss_, 2400 * ss_, 1); scr.rotation_euler = (math.radians(90), 0, 0); scr.location = place(540, 960, SCREEN_D, ss_)
+    ms = bpy.data.materials.new('screen'); ms.use_nodes = True; nt = ms.node_tree
+    for n in list(nt.nodes): nt.nodes.remove(n)
+    o = nt.nodes.new('ShaderNodeOutputMaterial'); tr = nt.nodes.new('ShaderNodeBsdfTranslucent')
+    tr.inputs['Color'].default_value = (1.0, 0.78, 0.52, 1)
+    nz = nt.nodes.new('ShaderNodeTexNoise'); nz.inputs['Scale'].default_value = 0.4; nz.inputs['Detail'].default_value = 10
+    bp = nt.nodes.new('ShaderNodeBump'); bp.inputs['Strength'].default_value = 0.08
+    nt.links.new(nz.outputs['Fac'], bp.inputs['Height']); nt.links.new(bp.outputs['Normal'], tr.inputs['Normal'])
+    nt.links.new(tr.outputs['BSDF'], o.inputs['Surface']); scr.data.materials.append(ms)
+    for (lx, ly, e, c) in ((540, 900, 3.0e8, (1.0, 0.72, 0.45)), (200, 500, 0.8e8, (1.0, 0.45, 0.3))):
+        al = bpy.data.lights.new('back', 'AREA'); al.energy = e; al.size = 500; al.color = c
+        ao = bpy.data.objects.new('back', al); sc.collection.objects.link(ao)
+        ao.location = place(lx, ly, SCREEN_D + 2600); ao.rotation_euler = (math.radians(90), 0, 0)
 img = bpy.data.images.load(SKY)
 dback = DEPTH * 1.05
 sback = (F + dback) / F
@@ -139,14 +164,16 @@ elif LOOK == 'noir':
 else:
     em.inputs['Strength'].default_value = 1.0
 pl.data.materials.append(m)
+if LOOK == 'theatre':
+    pl.hide_render = True
 
 # ------------------------------------------------------------------ lights
 kx, ky = D['key_dir']; kc = tuple(D['key_col'])
-key = bpy.data.lights.new('key', 'SUN'); key.energy = {'noir': 6.0, 'theatre': 0.3, 'clay': 3.0}.get(LOOK, 2.5)
+key = bpy.data.lights.new('key', 'SUN'); key.energy = {'noir': 6.0, 'theatre': 0.0, 'clay': 3.5, 'papercut': 3.5}.get(LOOK, 2.5)
 key.color = (1.0, 0.95, 0.9) if LOOK == 'clay' else tuple(min(1, c * 1.6) for c in kc)
 key.angle = math.radians(0.5 if LOOK == 'noir' else 8)
 ko = bpy.data.objects.new('key', key); sc.collection.objects.link(ko)
-ko.rotation_euler = (math.radians(-60 + 25 * ky), math.radians(35 * kx), 0)
+ko.rotation_euler = (math.radians(-60 + 25 * ky), math.radians(35 * kx + (40 if LOOK in ('papercut', 'clay') else 0)), 0)
 for j, L in enumerate(D['lights']):
     pl_ = bpy.data.lights.new(f'p{j}', 'POINT'); pl_.color = tuple(L['col']); pl_.shadow_soft_size = 6
     d = depth(L['z']); s = (F + d) / F
@@ -174,19 +201,29 @@ if LOOK in ('volume', 'papercut'):
     vt = vm.node_tree
     vt.nodes.remove(vt.nodes['Principled BSDF'])
     pv = vt.nodes.new('ShaderNodeVolumePrincipled')
-    pv.inputs['Density'].default_value = 0.00009 if LOOK == 'volume' else 0.00003
+    pv.inputs['Density'].default_value = 0.0004 if LOOK == 'volume' else 0.00008
     pv.inputs['Anisotropy'].default_value = 0.6
     pv.inputs['Color'].default_value = (0.9, 0.85, 0.8, 1)
     vt.links.new(pv.outputs['Volume'], vt.nodes['Material Output'].inputs['Volume'])
     cu.data.materials.append(vm)
     sc.cycles.volume_step_rate = 4.0
+    if D.get('sun') and LOOK == 'volume':      # a hard light behind the scene through the haze: light shafts
+        sp = bpy.data.lights.new('shaft', 'SPOT'); sp.energy = 4e9; sp.spot_size = math.radians(70); sp.shadow_soft_size = 20
+        sp.color = (1.0, 0.8, 0.55)
+        so = bpy.data.objects.new('shaft', sp); sc.collection.objects.link(so)
+        so.location = place(D['sun'][0], D['sun'][1], DEPTH * 0.98)
+        so.rotation_euler = (math.radians(-90), 0, 0)
 
 # ------------------------------------------------------------------ camera
 cam = bpy.data.cameras.new('cam'); cam.sensor_fit = 'HORIZONTAL'
 cam.angle = 2 * math.atan(540 / F)
 cam.clip_end = DEPTH * 3
 co = bpy.data.objects.new('cam', cam); sc.collection.objects.link(co); sc.camera = co
-co.location = (540, -F, -960); co.rotation_euler = (math.radians(90), 0, 0)
+if LOOK in ('papercut', 'clay', 'volume'):
+    co.location = (540 + 420, -F, -960 + 160); co.rotation_euler = (math.radians(90 - 4), 0, math.radians(11))
+    cam.angle = 2 * math.atan(600 / F)
+else:
+    co.location = (540, -F, -960); co.rotation_euler = (math.radians(90), 0, 0)
 if LOOK in ('clay', 'papercut', 'volume'):
     cam.dof.use_dof = True
     cam.dof.focus_distance = F + depth(0.62)
@@ -195,7 +232,10 @@ if LOOK in ('clay', 'papercut', 'volume'):
 if LOOK == 'noir':
     sc.render.use_freestyle = True
     sc.render.line_thickness_mode = 'ABSOLUTE'; sc.render.line_thickness = 1.6
-    ls = sc.view_layers[0].freestyle_settings.linesets[0]
+    fs = sc.view_layers[0].freestyle_settings
+    ls = fs.linesets[0] if len(fs.linesets) else fs.linesets.new('lines')
+    if ls.linestyle is None:
+        ls.linestyle = bpy.data.linestyles.new('gold')
     ls.linestyle.color = (0.95, 0.72, 0.35)
 sc.render.filepath = OUT
 bpy.ops.render.render(write_still=True)
