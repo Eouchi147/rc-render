@@ -11,6 +11,12 @@ import bpy, sys, json, math
 from mathutils import Vector
 a = sys.argv[sys.argv.index('--') + 1:]
 J, SKY, LOOK, OUT = a[0], a[1], a[2], a[3]
+CAMV = 'wide'
+if '-' in LOOK:
+    LOOK, CAMV = LOOK.split('-', 1)
+FIG3D = LOOK == 'volume'
+sys.path.insert(0, __import__('os').path.dirname(__file__))
+import figures as FG
 D = json.load(open(J))
 F = 2000.0                       # camera distance to the design plane (design px units)
 SCREEN_D = 300.0                 # theatre: the cloth screen
@@ -21,7 +27,7 @@ bpy.ops.wm.read_factory_settings(use_empty=True)
 sc = bpy.context.scene
 sc.render.engine = 'CYCLES'
 sc.cycles.device = 'CPU'
-sc.cycles.samples = 48 if LOOK in ('volume', 'papercut') else 32
+sc.cycles.samples = 64 if LOOK == 'volume' else (48 if LOOK == 'papercut' else 32)
 sc.cycles.use_denoising = True
 sc.render.resolution_x, sc.render.resolution_y = W, H
 sc.render.film_transparent = False
@@ -92,6 +98,7 @@ def tint(c, k=1.0, sat=1.0, lift=0.0):
 
 # ------------------------------------------------------------------ the cards
 items = D['items']
+FIGS = []
 RIM = mat_principled('rim', (0.92, 0.88, 0.8), 0.95)
 for i, it in enumerate(items):
     d = depth(it['z'])
@@ -100,6 +107,8 @@ for i, it in enumerate(items):
     thin = it['line'] or it['mat'] in ('rope', 'foam', 'rain', 'grass', 'shrub')
     if it['mat'] == 'rain' or it['name'] in ('sheen', 'curtain'):
         continue
+    if FIG3D and (it['name'].startswith(('blind', 'tree', 'woman', 'sasaa', 'deckfig'))):
+        FIGS.append(it); continue
     if LOOK == 'papercut':
         m = mat_principled(f'm{i}', tint(col, 1.5, 0.9, 0.03), 0.95, emit=4.0 if emis else 0)
         if not emis: add_noise_bump(m, 0.08, 0.35)
@@ -122,6 +131,43 @@ for i, it in enumerate(items):
     else:  # volume
         m = mat_principled(f'm{i}', tint(col, 1.25, 1.1), 0.7, emit=5.0 if emis else 0, alpha=it['alpha'])
         card(f'c{i}', it['polys'], d, 6.0, m)
+
+# ------------------------------------------------------------------ 3D figures and trees in place of the drawn ones
+import numpy as _np
+def _bbox(it):
+    P_ = _np.vstack([_np.array(p) for p in it['polys']]); return P_[:, 0].min(), P_[:, 0].max(), P_[:, 1].min(), P_[:, 1].max()
+groups = {}
+for it in FIGS:
+    key = it['name'].split('_')[0]
+    groups.setdefault(key, []).append(it)
+for k, (key, its) in enumerate(sorted(groups.items())):
+    main = its[0]
+    x0, x1, y0, y1 = _bbox(main)
+    d = depth(main['z']); s_ = (F + d) / F
+    if key.startswith('tree'):
+        trunk = [i for i in its if i['name'].endswith('trunk')]
+        cx, cy, hh = (x0 + x1) / 2, y1, (y1 - y0)
+        tm = mat_principled(f'leaf{k}', tint(tuple(main['col']), 1.2, 1.1), 0.85)
+        add_noise_bump(tm, 0.05, 0.6)
+        import random as _r; _r.seed(k)
+        for b in range(14):
+            px = cx + _r.uniform(-0.38, 0.38) * (x1 - x0); py = y0 + _r.uniform(0.15, 0.7) * hh
+            bpy.ops.mesh.primitive_ico_sphere_add(subdivisions=3, radius=hh * _r.uniform(0.16, 0.26) * s_, location=place(px, py, d + _r.uniform(-40, 40) * s_, s_))
+            o_ = bpy.context.object; o_.data.materials.append(tm)
+            dm = o_.modifiers.new('d', 'DISPLACE'); tx_ = bpy.data.textures.new(f'cl{k}{b}', 'CLOUDS'); tx_.noise_scale = 0.4; dm.texture = tx_; dm.strength = hh * 0.08 * s_
+        if trunk:
+            tx0, tx1, ty0, ty1 = _bbox(trunk[0])
+            bpy.ops.mesh.primitive_cylinder_add(radius=(tx1 - tx0) * 0.35 * s_, depth=(ty1 - ty0) * s_, location=place((tx0 + tx1) / 2, (ty0 + ty1) / 2, d, s_))
+            bpy.context.object.data.materials.append(mat_principled('bark', (0.12, 0.08, 0.06), 0.9))
+        continue
+    lead = any(i['name'].endswith('staff') for i in its)
+    n = int(''.join(c for c in key if c.isdigit()) or 0)
+    foot = place((x0 + x1) / 2, y1, d, s_)
+    hgt = (y1 - y0) * 1.04 * s_
+    yaw = math.radians(-35 + (n % 3) * 6)
+    FG.figure(key, foot, hgt, yaw, phase=n * 1.7, stride=0.45, bow=0.35 + 0.05 * (n % 3),
+              arm='staff' if lead else 'fwd', arm2='hang', cloth=tint(tuple(main['col']), 1.6, 0.9, 0.04),
+              cloak=(n % 3 == 0), hood=(n % 4 == 1), bandage=key.startswith('blind'), one_eye=lead, staff=lead)
 
 # ------------------------------------------------------------------ the sky / screen at the back
 if LOOK == 'theatre':
@@ -219,7 +265,7 @@ cam = bpy.data.cameras.new('cam'); cam.sensor_fit = 'HORIZONTAL'
 cam.angle = 2 * math.atan(540 / F)
 cam.clip_end = DEPTH * 3
 co = bpy.data.objects.new('cam', cam); sc.collection.objects.link(co); sc.camera = co
-if LOOK in ('papercut', 'clay', 'volume'):
+if LOOK in ('papercut', 'clay'):
     co.location = (540 + 420, -F, -960 + 160); co.rotation_euler = (math.radians(90 - 4), 0, math.radians(11))
     cam.angle = 2 * math.atan(600 / F)
 else:
@@ -237,6 +283,14 @@ if LOOK == 'noir':
     if ls.linestyle is None:
         ls.linestyle = bpy.data.linestyles.new('gold')
     ls.linestyle.color = (0.95, 0.72, 0.35)
+if CAMV.startswith('close'):                 # a closer framing of the same set: narrower lens, shifted to the target
+    _, tx, ty, zm = CAMV.split(':') if ':' in CAMV else ('', '625', '1740', '2.4')
+    tx, ty, zm = float(tx), float(ty), float(zm)
+    cam.angle = 2 * math.atan(540 / (F * zm))
+    cam.shift_x = (tx - 540) * zm / 1920
+    cam.shift_y = -(ty - 960) * zm / 1920
+    cam.dof.focus_distance = F + depth(0.93)
+    cam.dof.aperture_fstop = 2.8
 sc.render.filepath = OUT
 bpy.ops.render.render(write_still=True)
 print('done', LOOK, OUT)
