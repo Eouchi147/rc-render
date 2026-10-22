@@ -13,7 +13,7 @@ permissions:
   contents: write
 jobs:
   plan:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     outputs:
       parts: ${{ steps.p.outputs.parts }}
       meta: ${{ steps.p.outputs.meta }}
@@ -37,7 +37,7 @@ jobs:
           cat "$GITHUB_OUTPUT"
   render:
     needs: plan
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 300
     strategy:
       fail-fast: false
@@ -91,7 +91,7 @@ jobs:
           N=$(basename "$FILM")-part-${{ matrix.part.k }}.log; tail -c 60000 job.log > "$N" || echo none > "$N"; gh release upload film-logs "$N" --clobber || true
   join:
     needs: [plan, render]
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 60
     env:
       META: ${{ needs.plan.outputs.meta }}
