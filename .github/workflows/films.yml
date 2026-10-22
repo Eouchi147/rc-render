@@ -125,4 +125,4 @@ jobs:
         env: {GH_TOKEN: '${{ github.token }}', GH_REPO: '${{ github.repository }}'}
         run: |
           gh release view kino-films > /dev/null 2>&1 || gh release create kino-films --title "kino-films" --notes "KINOFORGE films: Dark Corners in the KINOFORGE styles, and the Battle Map series. Scenes in Eouchi147/kinoforge films/." || true
-          for f in *.mp4 *-sheet.jpg; do gh release upload kino-films "$f" --clobber; done
+          for f in *-sheet.jpg $(ls *.mp4 | grep -v "^picture.mp4$"); do gh release upload kino-films "$f" --clobber; done
