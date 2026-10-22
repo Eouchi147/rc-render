@@ -61,6 +61,7 @@ jobs:
         with: {python-version: '3.13'}
       - name: tools
         run: |
+          exec > >(tee -a job.log) 2>&1; set -x
           sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null
           if [ "$KIND" = "web" ]; then npm ci --prefix harness --no-audit --no-fund && (cd harness && npx playwright install --with-deps chromium > /dev/null); fi
           if [ "$KIND" = "blender" ]; then
@@ -69,6 +70,7 @@ jobs:
           fi
       - name: render frames ${{ matrix.part.a }} to ${{ matrix.part.b }}
         run: |
+          exec > >(tee -a job.log) 2>&1
           mkdir -p out/part
           if [ "$KIND" = "web" ]; then
             node harness/render.cjs "$FILM" --out out/part --w $W --h $H --fps $FPS --start ${{ matrix.part.a }} --end ${{ matrix.part.b }} --jpg
@@ -81,6 +83,12 @@ jobs:
           ls -la part_*.mp4
       - uses: actions/upload-artifact@v4
         with: {name: 'part-${{ matrix.part.k }}', path: 'part_*.mp4', retention-days: 3}
+      - name: keep the log
+        if: failure()
+        env: {GH_TOKEN: '${{ github.token }}', GH_REPO: 'Eouchi147/rc-render'}
+        run: |
+          gh release view film-logs > /dev/null 2>&1 || gh release create film-logs --title film-logs --notes "Failed film render logs." || true
+          N=$(basename "$FILM")-part-${{ matrix.part.k }}.log; tail -c 60000 job.log > "$N" || echo none > "$N"; gh release upload film-logs "$N" --clobber || true
   join:
     needs: [plan, render]
     runs-on: ubuntu-latest
