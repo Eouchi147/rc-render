@@ -1,0 +1,32 @@
+# Replace a finished film's sound without re-rendering the picture: takes <id>.mp4 from the release "kino-films",
+# lays the film folder's current audio (film.json "audio" at the given kinoforge ref) and republishes <id>.mp4 and
+# <id>-preview.mp4. Use after a re-score or a re-mix.
+name: remux
+on:
+  workflow_dispatch:
+    inputs:
+      film: {description: 'film folder in kinoforge, e.g. films/battles/cannae', required: true}
+      ref: {description: 'kinoforge branch or FULL commit hash', default: 'main'}
+permissions:
+  contents: write
+jobs:
+  remux:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with: {repository: Eouchi147/kinoforge, ref: '${{ inputs.ref }}', sparse-checkout: '${{ inputs.film }}'}
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null
+      - name: remux
+        env: {GH_TOKEN: '${{ github.token }}', GH_REPO: '${{ github.repository }}', FILM: '${{ inputs.film }}'}
+        run: |
+          ID=$(python3 -c "import json;print(json.load(open('$FILM/film.json'))['id'])")
+          AUD=$(python3 -c "import json;print(json.load(open('$FILM/film.json')).get('audio') or '')")
+          test -n "$AUD" && test -f "$FILM/$AUD"
+          ffprobe -v error -show_entries format=duration -of csv=p=0 "$FILM/$AUD"
+          gh release download kino-films -p "$ID.mp4" -O old.mp4
+          ffmpeg -nostdin -y -loglevel error -i old.mp4 -i "$FILM/$AUD" -map 0:v -map 1:a -c:v copy -c:a aac -b:a 256k -shortest -movflags +faststart "$ID.mp4"
+          PV='scale=540:-2'; W=$(ffprobe -v error -select_streams v:0 -show_entries stream=width,height -of csv=p=0 "$ID.mp4"); case "$W" in 1920,*) PV='scale=960:-2';; esac
+          ffmpeg -nostdin -y -loglevel error -i "$ID.mp4" -vf "$PV" -c:v libx264 -crf 24 -c:a aac -b:a 128k -movflags +faststart "$ID-preview.mp4"
+          ls -la *.mp4
+          gh release upload kino-films "$ID.mp4" "$ID-preview.mp4" --clobber
