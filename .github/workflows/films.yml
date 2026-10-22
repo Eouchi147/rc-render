@@ -30,7 +30,7 @@ jobs:
           kind = 'blender' if os.path.exists(f + '/blender.py') else 'web'
           meta = {'film': f, 'id': m['id'], 'kind': kind, 'w': int(m['render_w']), 'h': int(m['render_h']), 'fps': fps, 'total': total,
                   'out_w': int(m.get('w', m['render_w'])), 'out_h': int(m.get('h', m['render_h'])), 'samples': int(m.get('samples', 24)),
-                  'audio': m.get('audio') or ''}
+                  'audio': m.get('audio') or '', 'inserts': m.get('inserts') or []}
           parts = [{'k': k, 'a': total * k // n, 'b': total * (k + 1) // n} for k in range(n)]
           print('parts=' + json.dumps(parts)); print('meta=' + json.dumps(meta))
           EOF
@@ -102,6 +102,7 @@ jobs:
       - uses: actions/download-artifact@v4
         with: {path: parts, pattern: 'part-*', merge-multiple: true}
       - name: join, sound, scale
+        env: {GH_TOKEN: '${{ github.token }}', GH_REPO: '${{ github.repository }}'}
         run: |
           python3 - <<'EOF'
           import json, os, glob, subprocess
@@ -109,6 +110,16 @@ jobs:
           parts = sorted(glob.glob('parts/part_*.mp4')); open('list.txt', 'w').write(''.join(f"file '{p}'\n" for p in parts))
           run = lambda a: subprocess.run(['ffmpeg', '-nostdin', '-y', '-loglevel', 'error'] + a, check=True)
           run(['-f', 'concat', '-safe', '0', '-i', 'list.txt', '-c', 'copy', 'picture.mp4'])
+          # inserts: finished clips from this release laid over exact frame spans (film.json "inserts": [{film, first, last}])
+          if m.get('inserts'):
+              ins_args, fc, last = [], [], '0:v'
+              for k, it in enumerate(m['inserts']):
+                  subprocess.run(['gh', 'release', 'download', 'kino-films', '-p', it['film'] + '.mp4', '-O', f'ins{k}.mp4', '--clobber'], check=True)
+                  ins_args += ['-i', f'ins{k}.mp4']; a, b = int(it['first']), int(it['last'])
+                  fc.append(f"[{k+1}:v]scale={m['w']}:{m['h']}:flags=lanczos,trim=end_frame={b-a+1},setpts=PTS-STARTPTS+{a}/{m['fps']}/TB[s{k}]")
+                  fc.append(f"[{last}][s{k}]overlay=enable='between(n,{a},{b})':eof_action=pass[v{k}]"); last = f'v{k}'
+              run(['-i', 'picture.mp4'] + ins_args + ['-filter_complex', ';'.join(fc), '-map', f'[{last}]', '-c:v', 'libx264', '-preset', 'medium', '-crf', '12', '-pix_fmt', 'yuv420p', 'picture2.mp4'])
+              os.replace('picture2.mp4', 'picture.mp4'); print('inserts laid:', m['inserts'])
           aud = os.path.join(m['film'], m['audio']) if m['audio'] else None
           ins = ['-i', 'picture.mp4'] + (['-i', aud] if aud and os.path.exists(aud) else [])
           vf = f"scale={m['out_w']}:{m['out_h']}:flags=lanczos"
