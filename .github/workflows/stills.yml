@@ -1,0 +1,70 @@
+# Check stills for KINOFORGE films on free runners, so builders can look at full-quality frames without loading the chat
+# machine. One job per frame (up to 20). Each frame is uploaded to the release "stills" as <tag>-f<frame>.jpg.
+# Works for web films (index.html) and Blender films (blender.py) in Eouchi147/kinoforge.
+name: stills
+on:
+  workflow_dispatch:
+    inputs:
+      film: {description: 'film folder in kinoforge, e.g. films/styles/cutaway/test', required: true}
+      frames: {description: 'comma-separated frame numbers, e.g. 0,48,96 (at most 20)', required: true}
+      tag: {description: 'name prefix for the files, e.g. cutaway-r2', required: true}
+      w: {description: 'width', default: '1280'}
+      h: {description: 'height', default: '720'}
+      samples: {description: 'Blender samples (blank = the film default)', default: ''}
+      ref: {description: 'kinoforge branch or FULL commit hash', default: 'main'}
+permissions:
+  contents: write
+jobs:
+  plan:
+    runs-on: ubuntu-24.04
+    outputs:
+      frames: ${{ steps.p.outputs.frames }}
+    steps:
+      - id: p
+        env: {FR: '${{ inputs.frames }}'}
+        run: |
+          python3 -c "import os,json; f=[int(x) for x in os.environ['FR'].replace(' ','').split(',') if x][:20]; print('frames='+json.dumps(f))" >> "$GITHUB_OUTPUT"
+          cat "$GITHUB_OUTPUT"
+  still:
+    needs: plan
+    runs-on: ubuntu-24.04
+    timeout-minutes: 120
+    strategy:
+      fail-fast: false
+      matrix:
+        f: ${{ fromJson(needs.plan.outputs.frames) }}
+    name: frame ${{ matrix.f }}
+    env: {FILM: '${{ inputs.film }}', W: '${{ inputs.w }}', H: '${{ inputs.h }}', S: '${{ inputs.samples }}', F: '${{ matrix.f }}', TAG: '${{ inputs.tag }}'}
+    steps:
+      - uses: actions/checkout@v4
+        with: {repository: Eouchi147/kinoforge, ref: '${{ inputs.ref }}'}
+      - uses: actions/setup-node@v4
+        if: ${{ !hashFiles(format('{0}/blender.py', inputs.film)) }}
+        with: {node-version: '22'}
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.13'}
+      - name: render
+        run: |
+          exec > >(tee -a job.log) 2>&1; set -x
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null
+          FPS=$(python3 -c "import json;print(json.load(open('$FILM/film.json')).get('fps',24))" 2>/dev/null || echo 24)
+          if [ -f "$FILM/blender.py" ]; then
+            sudo apt-get install -y -qq libegl1 libgl1 libglu1-mesa libxi6 libxkbcommon0 libxrender1 libxxf86vm1 libxfixes3 libsm6 libgomp1 > /dev/null
+            pip install -q numpy bpy==5.2.2
+            python3 harness/blender_render.py "$FILM" --out out --w $W --h $H --fps $FPS ${S:+--samples $S} --start $F --end $((F+1)) 2>&1 | grep -v -E '^(Fra:|EGL|Error: EGL)'; test ${PIPESTATUS[0]} -eq 0
+          else
+            npm ci --prefix harness --no-audit --no-fund && (cd harness && npx playwright install --with-deps chromium > /dev/null)
+            node harness/render.cjs "$FILM" --out out --w $W --h $H --fps $FPS --start $F --end $((F+1)) --jpg
+          fi
+          P=$(ls out/frames/* | head -1); ffmpeg -nostdin -y -loglevel error -i "$P" -q:v 2 "$TAG-f$(printf %05d $F).jpg"; ls -la *.jpg
+      - name: publish
+        env: {GH_TOKEN: '${{ github.token }}', GH_REPO: '${{ github.repository }}'}
+        run: |
+          gh release view stills > /dev/null 2>&1 || gh release create stills --title stills --notes "Check stills for KINOFORGE films (not for publishing)." || true
+          gh release upload stills "$TAG"-f*.jpg --clobber
+      - name: keep the log
+        if: failure()
+        env: {GH_TOKEN: '${{ github.token }}', GH_REPO: '${{ github.repository }}'}
+        run: |
+          gh release view film-logs > /dev/null 2>&1 || gh release create film-logs --title film-logs --notes "Failed film render logs." || true
+          N="$TAG-f$F.log"; tail -c 60000 job.log > "$N" || echo none > "$N"; gh release upload film-logs "$N" --clobber || true
