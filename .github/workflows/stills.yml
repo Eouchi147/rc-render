@@ -1,5 +1,5 @@
 # Check stills for KINOFORGE films on free runners, so builders can look at full-quality frames without loading the chat
-# machine. One job per frame (up to 20). Each frame is uploaded to the release "stills" as <tag>-f<frame>.jpg.
+# machine. Frames are grouped per runner (per_job, default 4) to save setup time on the shared queue. Each frame is uploaded to the release "stills" as <tag>-f<frame>.jpg.
 # Works for web films (index.html) and Blender films (blender.py) in Eouchi147/kinoforge.
 name: stills
 on:
@@ -7,6 +7,7 @@ on:
     inputs:
       film: {description: 'film folder in kinoforge, e.g. films/styles/cutaway/test', required: true}
       frames: {description: 'comma-separated frame numbers, e.g. 0,48,96 (at most 20)', required: true}
+      per_job: {description: 'frames rendered by one runner (saves setup time; the queue is shared)', default: '4'}
       tag: {description: 'name prefix for the files, e.g. cutaway-r2', required: true}
       w: {description: 'width', default: '1280'}
       h: {description: 'height', default: '720'}
@@ -21,9 +22,9 @@ jobs:
       frames: ${{ steps.p.outputs.frames }}
     steps:
       - id: p
-        env: {FR: '${{ inputs.frames }}'}
+        env: {FR: '${{ inputs.frames }}', PJ: '${{ inputs.per_job }}'}
         run: |
-          python3 -c "import os,json; f=[int(x) for x in os.environ['FR'].replace(' ','').split(',') if x][:20]; print('frames='+json.dumps(f))" >> "$GITHUB_OUTPUT"
+          python3 -c "import os,json; f=[int(x) for x in os.environ['FR'].replace(' ','').split(',') if x][:20]; n=max(1,int(os.environ.get('PJ') or 4)); print('frames='+json.dumps([' '.join(map(str,f[i:i+n])) for i in range(0,len(f),n)]))" >> "$GITHUB_OUTPUT"
           cat "$GITHUB_OUTPUT"
   still:
     needs: plan
@@ -33,7 +34,7 @@ jobs:
       fail-fast: false
       matrix:
         f: ${{ fromJson(needs.plan.outputs.frames) }}
-    name: frame ${{ matrix.f }}
+    name: frames ${{ matrix.f }}
     env: {FILM: '${{ inputs.film }}', W: '${{ inputs.w }}', H: '${{ inputs.h }}', S: '${{ inputs.samples }}', F: '${{ matrix.f }}', TAG: '${{ inputs.tag }}'}
     steps:
       - uses: actions/checkout@v4
@@ -51,12 +52,19 @@ jobs:
           if [ -f "$FILM/blender.py" ]; then
             sudo apt-get install -y -qq libegl1 libgl1 libglu1-mesa libxi6 libxkbcommon0 libxrender1 libxxf86vm1 libxfixes3 libsm6 libgomp1 > /dev/null
             pip install -q numpy bpy==5.2.2
-            python3 harness/blender_render.py "$FILM" --out out --w $W --h $H --fps $FPS ${S:+--samples $S} --start $F --end $((F+1)) 2>&1 | grep -v -E '^(Fra:|EGL|Error: EGL)'; test ${PIPESTATUS[0]} -eq 0
           else
             npm ci --prefix harness --no-audit --no-fund && (cd harness && npx playwright install --with-deps chromium > /dev/null)
-            node harness/render.cjs "$FILM" --out out --w $W --h $H --fps $FPS --start $F --end $((F+1)) --jpg
           fi
-          P=$(ls out/frames/* | head -1); ffmpeg -nostdin -y -loglevel error -i "$P" -q:v 2 "$TAG-f$(printf %05d $F).jpg"; ls -la *.jpg
+          for f in $F; do
+            rm -rf out
+            if [ -f "$FILM/blender.py" ]; then
+              python3 harness/blender_render.py "$FILM" --out out --w $W --h $H --fps $FPS ${S:+--samples $S} --start $f --end $((f+1)) 2>&1 | grep -v -E '^(Fra:|EGL|Error: EGL)'; test ${PIPESTATUS[0]} -eq 0
+            else
+              node harness/render.cjs "$FILM" --out out --w $W --h $H --fps $FPS --start $f --end $((f+1)) --jpg
+            fi
+            P=$(ls out/frames/* | head -1); ffmpeg -nostdin -y -loglevel error -i "$P" -q:v 2 "$TAG-f$(printf %05d $f).jpg"
+          done
+          ls -la *.jpg
       - name: publish
         env: {GH_TOKEN: '${{ github.token }}', GH_REPO: '${{ github.repository }}'}
         run: |
@@ -67,4 +75,4 @@ jobs:
         env: {GH_TOKEN: '${{ github.token }}', GH_REPO: '${{ github.repository }}'}
         run: |
           gh release view film-logs > /dev/null 2>&1 || gh release create film-logs --title film-logs --notes "Failed film render logs." || true
-          N="$TAG-f$F.log"; tail -c 60000 job.log > "$N" || echo none > "$N"; gh release upload film-logs "$N" --clobber || true
+          N="$TAG-f$(echo $F | tr ' ' -).log"; tail -c 60000 job.log > "$N" || echo none > "$N"; gh release upload film-logs "$N" --clobber || true
