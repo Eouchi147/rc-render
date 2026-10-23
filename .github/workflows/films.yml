@@ -129,6 +129,15 @@ jobs:
           run(['-i', f'{fid}.mp4', '-vf', pv, '-c:v', 'libx264', '-crf', '24', '-c:a', 'aac', '-b:a', '128k', '-movflags', '+faststart', f'{fid}-preview.mp4'])
           run(['-i', f'{fid}.mp4', '-vf', "fps=1/6,scale=240:-2,tile=8x4", '-frames:v', '1', f'{fid}-sheet.jpg'])
           d = subprocess.run(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', f'{fid}.mp4'], capture_output=True, text=True).stdout
+          # poster for the web studio's library: the title card + 2 s (cues.json title_line), else 30 % into the film; never fails the join
+          try:
+              dd = float(d or 0); t = dd * 0.3; cp = os.path.join(m['film'], 'cues.json')
+              if os.path.exists(cp):
+                  c = json.load(open(cp)); tl = next((l for l in c.get('lines', []) if l['id'] == c.get('title_line')), None)
+                  if tl: t = min(dd - 0.5, tl['start'] + 2.0)
+              pw = 'scale=540:-2' if m['out_h'] > m['out_w'] else 'scale=960:-2'
+              run(['-ss', f'{max(0.0, t):.2f}', '-i', f'{fid}.mp4', '-frames:v', '1', '-vf', pw, '-q:v', '3', f'{fid}-poster.jpg'])
+          except Exception as e: print('no poster:', e)
           print(fid, 'duration', d, 'frames expected', m['total'], 'parts', len(parts))
           EOF
           ls -la *.mp4 *.jpg
@@ -136,4 +145,4 @@ jobs:
         env: {GH_TOKEN: '${{ github.token }}', GH_REPO: '${{ github.repository }}'}
         run: |
           gh release view kino-films > /dev/null 2>&1 || gh release create kino-films --title "kino-films" --notes "KINOFORGE films: Dark Corners in the KINOFORGE styles, and the Battle Map series. Scenes in Eouchi147/kinoforge films/." || true
-          for f in *-sheet.jpg $(ls *.mp4 | grep -v "^picture.mp4$"); do gh release upload kino-films "$f" --clobber; done
+          for f in *-sheet.jpg $(ls *-poster.jpg 2>/dev/null) $(ls *.mp4 | grep -v "^picture.mp4$"); do gh release upload kino-films "$f" --clobber; done
