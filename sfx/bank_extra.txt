@@ -1,0 +1,67 @@
+# Extra BigSoundBank (CC0) recordings for the Cutaway showcase series (KINOFORGE films/cutaway/series), "name bsb:<id>".
+# Found on bigsoundbank.com search pages on 23 Oct 2026; the workflow checks "CC0" on each sound's page before keeping it.
+# meadow and forest
+forest bsb:0100
+birds_waking_3 bsb:0999
+countryside bsb:0097
+evening_birds bsb:1859
+robin_1 bsb:1667
+blackbird_30 bsb:3503
+field_cricket bsb:1020
+bumblebee_1 bsb:1000
+bumblebee_2 bsb:1001
+solitary_bees bsb:0101
+sun_heat_1 bsb:1779
+flight_bird_1 bsb:2891
+flight_bird_2 bsb:2892
+flight_pigeon bsb:0840
+dig_shovel bsb:1305
+steps_mud bsb:0495
+# streams and rivers
+small_stream_4 bsb:1354
+mountain_stream_1 bsb:2754
+watercourse_1 bsb:3132
+small_cascade bsb:0507
+forest_stream_1 bsb:2713
+steps_gravel_1 bsb:0510
+fall_of_stone bsb:1022
+# sea
+sea_tern bsb:0267
+small_waves_ocean bsb:1046
+agitated_sea bsb:0915
+cliff_1 bsb:2570
+gulls_harbor bsb:2573
+underwater bsb:3430
+water_bubbles bsb:0150
+bubbles_burst bsb:1074
+splash_big_1 bsb:1519
+splash_small_1 bsb:1529
+# city, above and below
+paris_by_night bsb:0680
+parisian_street bsb:1713
+london_bus bsb:0644
+metro_paris_1 bsb:0090
+metro_paris_2 bsb:0092
+metro_stop_leave bsb:3043
+train_passage_1 bsb:0900
+sewer_1 bsb:0607
+sewer_2 bsb:2438
+ring_road_tunnel bsb:1078
+mouse_screams bsb:0459
+bats bsb:0458
+# cave and mine
+cave_soundscape_1 bsb:2135
+cave_soundscape_2 bsb:2136
+nail_hammer_1 bsb:0005
+hammer_concrete bsb:1108
+drops_metal_pan bsb:1382
+metal_bucket bsb:0543
+steam_between_wagons bsb:3020
+# volcano
+boiling_water bsb:0149
+big_broth bsb:0491
+water_that_burns bsb:0202
+steam_hiss_1 bsb:0227
+steam_hiss_3 bsb:3011
+thunder_2 bsb:3113
+thunder_3 bsb:3114

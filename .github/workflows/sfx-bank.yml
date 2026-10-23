@@ -1,0 +1,26 @@
+name: sfx-bank
+# The sound bank as one archive: every BigSoundBank (CC0) row of dark/assets.csv plus sfx/bank_extra.txt, each checked
+# CC0 on its page, converted to 48 kHz stereo FLAC with loudness noted, published to release "sfx-bank"
+# (sfx-bank.tar + sfx-bank.csv). Run it by hand (workflow_dispatch). Script: sfx/bank.sh.
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  bank:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            sfx
+            dark/assets.csv
+          sparse-checkout-cone-mode: false
+      - name: ffmpeg
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg >/dev/null
+      - name: build the bank
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: bash sfx/bank.sh
