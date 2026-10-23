@@ -11,6 +11,7 @@ on:
       ref: {description: 'kinoforge branch or commit', default: 'main'}
 permissions:
   contents: write
+  actions: read
 jobs:
   plan:
     runs-on: ubuntu-24.04
@@ -148,3 +149,30 @@ jobs:
         run: |
           gh release view kino-films > /dev/null 2>&1 || gh release create kino-films --title "kino-films" --notes "KINOFORGE films: Dark Corners in the KINOFORGE styles, and the Battle Map series. Scenes in Eouchi147/kinoforge films/." || true
           for f in *-sheet.jpg $(ls *-poster.jpg 2>/dev/null) $(ls *.mp4 | grep -v "^picture.mp4$"); do gh release upload kino-films "$f" --clobber; done
+      - name: spend record
+        # <id>-run.json in kino-films: this run's jobs and minutes, appended to the film's earlier runs, for KINOFORGE
+        # tools/spend.py (spend per video). Never fails the render.
+        continue-on-error: true
+        env: {GH_TOKEN: '${{ github.token }}', GH_REPO: '${{ github.repository }}', RUN_ID: '${{ github.run_id }}', WF: films.yml,
+              FID: '${{ fromJson(needs.plan.outputs.meta).id }}', FOLDER: '${{ inputs.film }}'}
+        run: |
+          gh release download kino-films -p "$FID-run.json" -O old-run.json --clobber 2>/dev/null || true
+          python3 - <<'EOF'
+          import json, math, os, time, urllib.request, datetime as dt
+          env = os.environ; fid, rid = env['FID'], int(env['RUN_ID'])
+          def get(u): return json.load(urllib.request.urlopen(urllib.request.Request(u, headers={'Authorization': 'Bearer ' + env['GH_TOKEN'], 'Accept': 'application/vnd.github+json'}), timeout=60))
+          jobs, page = [], 1
+          while True:
+              j = get(f"https://api.github.com/repos/{env['GH_REPO']}/actions/runs/{rid}/jobs?per_page=100&page={page}"); jobs += j['jobs']; page += 1
+              if not j['jobs'] or len(jobs) >= j['total_count']: break
+          now = time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime()); t = lambda s: dt.datetime.strptime(s, '%Y-%m-%dT%H:%M:%SZ')
+          rows = [{'name': x['name'], 'started_at': x['started_at'], 'completed_at': x['completed_at'] or now, 'conclusion': x['conclusion'] or 'running when recorded',
+                   'labels': x['labels'], 'seconds': int((t(x['completed_at'] or now) - t(x['started_at'])).total_seconds())} for x in jobs if x.get('started_at')]
+          rec = {'run_id': rid, 'repo': env['GH_REPO'], 'workflow': env['WF'], 'folder': env['FOLDER'], 'runner': 'GitHub-hosted ' + ', '.join(sorted({l for r in rows for l in r['labels']})),
+                 'started': min(r['started_at'] for r in rows), 'ended': now, 'jobs': rows, 'seconds': sum(r['seconds'] for r in rows),
+                 'minutes': sum(math.ceil(r['seconds'] / 60) for r in rows)}
+          old = json.load(open('old-run.json')) if os.path.exists('old-run.json') else {}
+          runs = [r for r in old.get('runs', []) if r.get('run_id') != rid] + [rec]
+          json.dump({'film': fid, 'runs': runs}, open(f'{fid}-run.json', 'w'), indent=1); print(fid, 'run', rid, rec['minutes'], 'min in', len(rows), 'jobs')
+          EOF
+          gh release upload kino-films "$FID-run.json" --clobber
