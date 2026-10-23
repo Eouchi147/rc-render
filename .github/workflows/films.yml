@@ -117,7 +117,9 @@ jobs:
                   subprocess.run(['gh', 'release', 'download', 'kino-films', '-p', it['film'] + '.mp4', '-O', f'ins{k}.mp4', '--clobber'], check=True)
                   ins_args += ['-i', f'ins{k}.mp4']; a, b = int(it['first']), int(it['last'])
                   fc.append(f"[{k+1}:v]scale={m['w']}:{m['h']}:flags=lanczos,trim=end_frame={b-a+1},setpts=PTS-STARTPTS+{a}/{m['fps']}/TB[s{k}]")
-                  fc.append(f"[{last}][s{k}]overlay=enable='between(n,{a},{b})':eof_action=pass[v{k}]"); last = f'v{k}'
+                  # enable by time, not by n: in a chain of overlays the second overlay's n does not count the main frames
+                  # (Agincourt 23 Oct: insert B never showed); half a frame of margin on each side keeps it frame-exact
+                  fps = float(m['fps']); fc.append(f"[{last}][s{k}]overlay=enable='between(t,{(a - 0.5) / fps:.6f},{(b + 0.5) / fps:.6f})':eof_action=pass[v{k}]"); last = f'v{k}'
               run(['-i', 'picture.mp4'] + ins_args + ['-filter_complex', ';'.join(fc), '-map', f'[{last}]', '-c:v', 'libx264', '-preset', 'medium', '-crf', '12', '-pix_fmt', 'yuv420p', 'picture2.mp4'])
               os.replace('picture2.mp4', 'picture.mp4'); print('inserts laid:', m['inserts'])
           aud = os.path.join(m['film'], m['audio']) if m['audio'] else None
