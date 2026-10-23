@@ -1,0 +1,35 @@
+# Fetch a public domain or CC0 / CC BY recording from Wikimedia Commons into release `music`, with its licence record
+# (Commons extmetadata: licence, artist, credit, description URL) saved beside it as <name>.licence.json. Free.
+name: music-fetch
+on:
+  workflow_dispatch:
+    inputs:
+      file: {description: 'Commons file title without File:, e.g. Borodin_-_In_the_Steppes_of_Central_Asia_(Musopen_Symphony).flac', required: true}
+      name: {description: 'short asset name, e.g. borodin-steppes-musopen', required: true}
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-24.04
+    env: {GH_TOKEN: '${{ github.token }}', GH_REPO: '${{ github.repository }}', FILE: '${{ inputs.file }}', NAME: '${{ inputs.name }}'}
+    steps:
+      - name: fetch
+        run: |
+          set -e
+          UA='KINOFORGE/1.0 (https://github.com/Eouchi147/kinoforge; studio music fetch)'
+          curl -sSfL -A "$UA" -G 'https://commons.wikimedia.org/w/api.php' --data-urlencode "titles=File:$FILE" \
+            -d action=query -d prop=imageinfo -d 'iiprop=url|size|mime|extmetadata' -d format=json -o meta.json
+          python3 - <<'PY'
+          import json, os
+          m = json.load(open('meta.json')); p = next(iter(m['query']['pages'].values()))
+          if 'imageinfo' not in p: raise SystemExit('no such file on Commons: ' + os.environ['FILE'])
+          ii = p['imageinfo'][0]; em = ii.get('extmetadata', {})
+          keep = {k: (em.get(k) or {}).get('value') for k in ('LicenseShortName', 'License', 'LicenseUrl', 'UsageTerms', 'Copyrighted', 'Artist', 'Credit', 'ImageDescription', 'DateTimeOriginal', 'AttributionRequired', 'Restrictions')}
+          out = {'file': os.environ['FILE'], 'url': ii['url'], 'page': ii.get('descriptionurl'), 'size': ii.get('size'), 'mime': ii.get('mime'), 'licence': keep}
+          json.dump(out, open(os.environ['NAME'] + '.licence.json', 'w'), indent=1)
+          open('url.txt', 'w').write(ii['url']); print(json.dumps(out, indent=1))
+          PY
+          EXT="${FILE##*.}"; curl -sSfL -A "$UA" -o "$NAME.$EXT" "$(cat url.txt)"
+          sudo apt-get install -y -qq ffmpeg > /dev/null; ffprobe -v error -show_entries format=duration:stream=codec_name,sample_rate,channels -of default=nw=1 "$NAME.$EXT"
+          gh release view music > /dev/null 2>&1 || gh release create music --title 'music' --notes 'Public domain, CC0 and CC BY recordings with their Commons licence records (<name>.licence.json).'
+          gh release upload music "$NAME.$EXT" "$NAME.licence.json" --clobber
