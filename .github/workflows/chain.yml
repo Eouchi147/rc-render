@@ -1,0 +1,28 @@
+# Follow-up renders that wait on other renders, checked every 15 minutes on GitHub (so nothing depends on a chat session
+# staying alive). Each rule: when all of `needs` exist in release kino-films and the rule's marker is not yet in release
+# film-logs, dispatch films.yml for `film` and write the marker. Remove a rule (or its marker) to stop or repeat it.
+name: chain
+on:
+  schedule: [{cron: '*/15 * * * *'}]
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: write
+jobs:
+  chain:
+    runs-on: ubuntu-24.04
+    env: {GH_TOKEN: '${{ github.token }}', GH_REPO: '${{ github.repository }}'}
+    steps:
+      - name: rules
+        run: |
+          set -e
+          ASSETS=$(gh release view kino-films --json assets --jq '.assets[].name')
+          MARKS=$(gh release view film-logs --json assets --jq '.assets[].name' || true)
+          rule() { # marker film parts needs...
+            M="chain-$1.done"; F="$2"; P="$3"; shift 3
+            echo "$MARKS" | grep -qx "$M" && { echo "$M already done"; return; }
+            for n in "$@"; do echo "$ASSETS" | grep -qx "$n" || { echo "$M waiting for $n"; return; }; done
+            gh workflow run films.yml -f film="$F" -f parts="$P" -f ref=main
+            date -u > "$M"; gh release upload film-logs "$M" --clobber; echo "$M dispatched $F"
+          }
+          rule agincourt-v2 films/battles/agincourt 16 cutaway-agincourt-mud-A.mp4 cutaway-agincourt-mud-B.mp4
