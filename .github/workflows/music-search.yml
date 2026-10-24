@@ -1,0 +1,23 @@
+# Search Wikimedia Commons files (namespace File) and print titles, sizes and licences. Free; read-only.
+name: music-search
+on:
+  workflow_dispatch:
+    inputs:
+      q: {description: 'search words, e.g. Vltava Musopen', required: true}
+jobs:
+  search:
+    runs-on: ubuntu-24.04
+    env: {Q: '${{ inputs.q }}'}
+    steps:
+      - name: search
+        run: |
+          UA='KINOFORGE/1.0 (https://github.com/Eouchi147/kinoforge; studio music search)'
+          curl -sSfL -A "$UA" -G 'https://commons.wikimedia.org/w/api.php' --data-urlencode "gsrsearch=$Q" \
+            -d action=query -d generator=search -d gsrnamespace=6 -d gsrlimit=30 -d prop=imageinfo -d 'iiprop=size|mime|extmetadata' -d format=json -o r.json
+          python3 - <<'PY'
+          import json
+          r = json.load(open('r.json')); pages = (r.get('query') or {}).get('pages', {})
+          for p in sorted(pages.values(), key=lambda p: p.get('index', 0)):
+              ii = (p.get('imageinfo') or [{}])[0]; em = ii.get('extmetadata', {})
+              print('RESULT|' + p['title'][5:] + '|' + str(ii.get('size')) + '|' + str(ii.get('mime')) + '|' + str((em.get('LicenseShortName') or {}).get('value')))
+          PY
