@@ -19,5 +19,5 @@ jobs:
           r = json.load(open('r.json')); pages = (r.get('query') or {}).get('pages', {})
           for p in sorted(pages.values(), key=lambda p: p.get('index', 0)):
               ii = (p.get('imageinfo') or [{}])[0]; em = ii.get('extmetadata', {})
-              print('RESULT|' + p['title'][5:] + '|' + str(ii.get('size')) + '|' + str(ii.get('mime')) + '|' + str((em.get('LicenseShortName') or {}).get('value')))
+              print('::notice::' + p['title'][5:] + '|' + str(ii.get('size')) + '|' + str(ii.get('mime')) + '|' + str((em.get('LicenseShortName') or {}).get('value')))
           PY
