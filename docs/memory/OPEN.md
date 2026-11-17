@@ -4,5 +4,4 @@ Everything unfinished, each with its next step and whose move it is. When an ite
 
 Seeded on 17 Nov 2026.
 
-1. **Merge the PR that installed CLAUDE.md and docs/memory/** (branch claude/standing-instruction). It changes no job file, so merging starts no workflow. Whose move: the owner.
-2. **The pushtest branch.** Check whether it holds work that main lacks, then merge or archive it. Whose move: Claude.
+1. **The pushtest branch.** Check whether it holds work that main lacks, then merge or archive it. Whose move: Claude.

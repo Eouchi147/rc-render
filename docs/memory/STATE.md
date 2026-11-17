@@ -2,7 +2,7 @@
 
 Where the project stands now. Rewrite this file so it is true today; do not append to it.
 
-Last rewrite: 17 Nov 2026, from the repo. main is at f5adee7 (24 Oct 2026, 02:30 UTC).
+Last rewrite: 17 Nov 2026, from the repo. Before the install merged on 17 Nov, main was at f5adee7 (24 Oct 2026, 02:30 UTC).
 
 ## What it is
 
