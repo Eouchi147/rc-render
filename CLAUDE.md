@@ -45,3 +45,7 @@ Added 17 Nov 2026. This repository and its releases are public, so the standing 
 - The rules for working here are in AGENTS.md and stay in force: know which project you work for, and the KINOFORGE lanes follow the kinoforge repo's AGENTS.md.
 - At session start, read docs/memory/STATE.md and docs/memory/OPEN.md first (standing instruction), then AGENTS.md and README.md.
 - A push to main starts a workflow only when it changes that workflow's job file (dark/film/jobs/*.go, dark/publish/*.txt, diorama/jobs.json, sfx/list.txt, style/prompts.json, voice/jobs.json, voice2/jobs.json). Everything else is dispatched through the REST API (AGENTS.md), and chain.yml runs every 15 minutes on its own. A push that changes only docs or this file starts nothing.
+
+AGENTS.md, imported here so Claude Code loads it in every session:
+
+@AGENTS.md
